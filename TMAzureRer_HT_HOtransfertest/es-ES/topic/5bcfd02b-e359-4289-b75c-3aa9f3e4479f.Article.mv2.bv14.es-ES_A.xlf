@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzVEKgzAMgOGr9AANtE2qZu+DvW8XSNoEBKegDjz+fP7h+93RlEoDMyKg7Ak0TQotZRmYPYtwDIpdKo4Ck2oBYjPgoROUToSZseNAMVRt3lNRMKwMVCYGHWsDvI17QzSyx5BjsAOe7xiuZXa363zs23bGUO52K6/fV9bPLuuxyDlv6x+2p1LWogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>FIR Filter</source>
+            <target state="new">FIR Filter</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Creates a finite impulse response filter for signal processing</source>
+            <target state="new">Creates a finite impulse response filter for signal processing</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Category: <bpt id="1">&lt;legacyLink xlink:href="529B4991-8A7F-4E12-8F36-51F9FACA4383" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Data Transformation / Filter<ept id="1">&lt;/legacyLink&gt;</ept></source>
+            <target state="new">Category: <bpt id="1">&lt;legacyLink xlink:href="529B4991-8A7F-4E12-8F36-51F9FACA4383" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Data Transformation / Filter<ept id="1">&lt;/legacyLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Module Overview</source>
+            <target state="new">Module Overview</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You can use the <bpt id="1">&lt;ui&gt;</bpt>FIR Filter<ept id="1">&lt;/ui&gt;</ept> module to define a kind of filter called a <bpt id="2">&lt;newTerm&gt;</bpt>finite impulse response<ept id="2">&lt;/newTerm&gt;</ept> (FIR) filter.</source>
+            <target state="new">You can use the <bpt id="1">&lt;ui&gt;</bpt>FIR Filter<ept id="1">&lt;/ui&gt;</ept> module to define a kind of filter called a <bpt id="2">&lt;newTerm&gt;</bpt>finite impulse response<ept id="2">&lt;/newTerm&gt;</ept> (FIR) filter.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>FIR filters have many applications in signal processing, and are most commonly used in applications that require a linear-phase response.</source>
+            <target state="new">FIR filters have many applications in signal processing, and are most commonly used in applications that require a linear-phase response.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>After you have defined a filter that meets your needs, you can apply the filter to data by connecting a dataset and the filter to the <ph id="1">&lt;link xlink:href="278e11ec-cb16-49d4-a13c-54b2c9f5ce88" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Apply Filter&lt;/link&gt;</ph> module.</source>
+            <target state="new">After you have defined a filter that meets your needs, you can apply the filter to data by connecting a dataset and the filter to the <ph id="1">&lt;link xlink:href="278e11ec-cb16-49d4-a13c-54b2c9f5ce88" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Apply Filter&lt;/link&gt;</ph> module.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>How to Configure a FIR Filter</source>
+            <target state="new">How to Configure a FIR Filter</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Specify the filter order, or the length of the filter window.</source>
+            <target state="new">Specify the filter order, or the length of the filter window.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Choose a type of window to apply.</source>
+            <target state="new">Choose a type of window to apply.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>See the <bpt id="1">&lt;legacyLink xlink:href="#bkmk_Windows" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Window functions<ept id="1">&lt;/legacyLink&gt;</ept> section for more information about these options.</source>
+            <target state="new">See the <bpt id="1">&lt;legacyLink xlink:href="#bkmk_Windows" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Window functions<ept id="1">&lt;/legacyLink&gt;</ept> section for more information about these options.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Choose the type of filter to create.</source>
+            <target state="new">Choose the type of filter to create.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>See the <bpt id="1">&lt;legacyLink xlink:href="#bkmk_FilterTypes" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Filter types<ept id="1">&lt;/legacyLink&gt;</ept> section for more information.</source>
+            <target state="new">See the <bpt id="1">&lt;legacyLink xlink:href="#bkmk_FilterTypes" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Filter types<ept id="1">&lt;/legacyLink&gt;</ept> section for more information.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Depending on the type of filter you chose, set one or more cutoff values.</source>
+            <target state="new">Depending on the type of filter you chose, set one or more cutoff values.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Connect the filter to <ph id="1">&lt;link xlink:href="278e11ec-cb16-49d4-a13c-54b2c9f5ce88" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Apply Filter&lt;/link&gt;</ph>, and connect a dataset.</source>
+            <target state="new">Connect the filter to <ph id="1">&lt;link xlink:href="278e11ec-cb16-49d4-a13c-54b2c9f5ce88" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Apply Filter&lt;/link&gt;</ph>, and connect a dataset.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Use the Column Selector to specify which columns the filter should be applied to.</source>
+            <target state="new">Use the Column Selector to specify which columns the filter should be applied to.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>By default, the <ph id="1">&lt;link xlink:href="278e11ec-cb16-49d4-a13c-54b2c9f5ce88" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Apply Filter&lt;/link&gt;</ph> module will use the filter for all selected numeric columns.</source>
+            <target state="new">By default, the <ph id="1">&lt;link xlink:href="278e11ec-cb16-49d4-a13c-54b2c9f5ce88" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Apply Filter&lt;/link&gt;</ph> module will use the filter for all selected numeric columns.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>No computations are performed until you connect a dataset to the <ph id="1">&lt;link xlink:href="278e11ec-cb16-49d4-a13c-54b2c9f5ce88" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Apply Filter&lt;/link&gt;</ph> module and run the experiment.</source>
+            <target state="new">No computations are performed until you connect a dataset to the <ph id="1">&lt;link xlink:href="278e11ec-cb16-49d4-a13c-54b2c9f5ce88" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Apply Filter&lt;/link&gt;</ph> module and run the experiment.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;ui&gt;</bpt>FIR Filter<ept id="1">&lt;/ui&gt;</ept> module does not provide the option to create an indicator column.</source>
+            <target state="new">The <bpt id="1">&lt;ui&gt;</bpt>FIR Filter<ept id="1">&lt;/ui&gt;</ept> module does not provide the option to create an indicator column.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Options</source>
+            <target state="new">Options</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>To define a filter, specify these values:</source>
+            <target state="new">To define a filter, specify these values:</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Order</source>
+            <target state="new">Order</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Specify an integer value to use as the <bpt id="1">&lt;newTerm&gt;</bpt>order<ept id="1">&lt;/newTerm&gt;</ept> of the filter.</source>
+            <target state="new">Specify an integer value to use as the <bpt id="1">&lt;newTerm&gt;</bpt>order<ept id="1">&lt;/newTerm&gt;</ept> of the filter.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>The filter order defines the number of active elements used to affect the filter's response.</source>
+            <target state="new">The filter order defines the number of active elements used to affect the filter's response.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Window</source>
+            <target state="new">Window</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Choose the type of window to use when applying the filter coefficients.</source>
+            <target state="new">Choose the type of window to use when applying the filter coefficients.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>See the <bpt id="1">&lt;legacyLink xlink:href="#bkmk_Windows" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Windows Functions<ept id="1">&lt;/legacyLink&gt;</ept> section for details.</source>
+            <target state="new">See the <bpt id="1">&lt;legacyLink xlink:href="#bkmk_Windows" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Windows Functions<ept id="1">&lt;/legacyLink&gt;</ept> section for details.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Filter type</source>
+            <target state="new">Filter type</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Specify the values to which the filter will be applied.</source>
+            <target state="new">Specify the values to which the filter will be applied.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>You can specify that the filter exclude the target values, alter the values, reject the values, or pass them through.</source>
+            <target state="new">You can specify that the filter exclude the target values, alter the values, reject the values, or pass them through.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>See the <bpt id="1">&lt;legacyLink xlink:href="#bkmk_FilterTypes" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Filter Types<ept id="1">&lt;/legacyLink&gt;</ept> section for details.</source>
+            <target state="new">See the <bpt id="1">&lt;legacyLink xlink:href="#bkmk_FilterTypes" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Filter Types<ept id="1">&lt;/legacyLink&gt;</ept> section for details.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyItalic&gt;</bpt><bpt id="2">&lt;ui&gt;</bpt>High cutoff <ept id="2">&lt;/ui&gt;</ept><ept id="1">&lt;/legacyItalic&gt;</ept> and <bpt id="3">&lt;legacyItalic&gt;</bpt><bpt id="4">&lt;ui&gt;</bpt>Low cutoff <ept id="4">&lt;/ui&gt;</ept><ept id="3">&lt;/legacyItalic&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;legacyItalic&gt;</bpt><bpt id="2">&lt;ui&gt;</bpt>High cutoff <ept id="2">&lt;/ui&gt;</ept><ept id="1">&lt;/legacyItalic&gt;</ept> and <bpt id="3">&lt;legacyItalic&gt;</bpt><bpt id="4">&lt;ui&gt;</bpt>Low cutoff <ept id="4">&lt;/ui&gt;</ept><ept id="3">&lt;/legacyItalic&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Define an upper and/or a lower threshold for values.</source>
+            <target state="new">Define an upper and/or a lower threshold for values.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>One or both of these options are required to specify which values are rejected or passed through.</source>
+            <target state="new">One or both of these options are required to specify which values are rejected or passed through.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>A bandstop or bandpass filter requires that you set both high and low cutoff values.</source>
+            <target state="new">A bandstop or bandpass filter requires that you set both high and low cutoff values.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Other filter types, such as the lowpass filter, require that you set only the low cutoff value.</source>
+            <target state="new">Other filter types, such as the lowpass filter, require that you set only the low cutoff value.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Scale</source>
+            <target state="new">Scale</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Specify whether or not scaling should be applied to coefficients.</source>
+            <target state="new">Specify whether or not scaling should be applied to coefficients.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Filter Types</source>
+            <target state="new">Filter Types</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Azure Machine Learning Studio supports creating the following types of FIR filters:</source>
+            <target state="new">Azure Machine Learning Studio supports creating the following types of FIR filters:</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Lowpass</source>
+            <target state="new">Lowpass</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Removes high-frequency data from a signal, such as high-frequency noise and data peaks.</source>
+            <target state="new">Removes high-frequency data from a signal, such as high-frequency noise and data peaks.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>This filter type has a smoothing effect on the data.</source>
+            <target state="new">This filter type has a smoothing effect on the data.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Highpass</source>
+            <target state="new">Highpass</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Removes low frequency data from a signal, such as a bias or offset.</source>
+            <target state="new">Removes low frequency data from a signal, such as a bias or offset.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>This filter type preserves sudden changes and peaks in a signal.</source>
+            <target state="new">This filter type preserves sudden changes and peaks in a signal.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Bandpass</source>
+            <target state="new">Bandpass</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Preserves the data from a signal with frequency characteristics at the intersection between the highpass and lowpass filters.</source>
+            <target state="new">Preserves the data from a signal with frequency characteristics at the intersection between the highpass and lowpass filters.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>This filter type is good at removing a bias and smoothing a signal.</source>
+            <target state="new">This filter type is good at removing a bias and smoothing a signal.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Bandpass filters are created by combining a highpass and a lowpass filter.</source>
+            <target state="new">Bandpass filters are created by combining a highpass and a lowpass filter.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>The highpass filter cutoff frequency represents the lower cutoff, and the lowpass filter frequency represents the higher cutoff.</source>
+            <target state="new">The highpass filter cutoff frequency represents the lower cutoff, and the lowpass filter frequency represents the higher cutoff.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Bandstop</source>
+            <target state="new">Bandstop</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Removes data from a signal with frequency characteristics that are rejected by the low pass and the highpass filters.</source>
+            <target state="new">Removes data from a signal with frequency characteristics that are rejected by the low pass and the highpass filters.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>This filter type is good at preserving the signal bias and sudden changes.</source>
+            <target state="new">This filter type is good at preserving the signal bias and sudden changes.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Window Functions</source>
+            <target state="new">Window Functions</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Azure Machine Learning supports the following types of windowing functions for use in finite impulse response filters:
+</source>
+            <target state="new">Azure Machine Learning supports the following types of windowing functions for use in finite impulse response filters:
+</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Hamming</source>
+            <target state="new">Hamming</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;newTerm&gt;</bpt>generalized Hamming window<ept id="1">&lt;/newTerm&gt;</ept> provides a type of weighted averaging, which is commonly used in image processing and computer vision.</source>
+            <target state="new">The <bpt id="1">&lt;newTerm&gt;</bpt>generalized Hamming window<ept id="1">&lt;/newTerm&gt;</ept> provides a type of weighted averaging, which is commonly used in image processing and computer vision.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Blackman</source>
+            <target state="new">Blackman</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>A <bpt id="1">&lt;newTerm&gt;</bpt>Blackman window<ept id="1">&lt;/newTerm&gt;</ept> applies a smoothly tapered curve function to the signal.</source>
+            <target state="new">A <bpt id="1">&lt;newTerm&gt;</bpt>Blackman window<ept id="1">&lt;/newTerm&gt;</ept> applies a smoothly tapered curve function to the signal.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>The Blackman window has better stopband attenuation than other window types.</source>
+            <target state="new">The Blackman window has better stopband attenuation than other window types.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Rectangular</source>
+            <target state="new">Rectangular</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>A <bpt id="1">&lt;newTerm&gt;</bpt>rectangular window<ept id="1">&lt;/newTerm&gt;</ept> applies a consistent value inside the specified interval and applies no value elsewhere.</source>
+            <target state="new">A <bpt id="1">&lt;newTerm&gt;</bpt>rectangular window<ept id="1">&lt;/newTerm&gt;</ept> applies a consistent value inside the specified interval and applies no value elsewhere.</target>
+          </trans-unit>
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>The simplest rectangular window might replace <bpt id="1">&lt;legacyItalic&gt;</bpt>n<ept id="1">&lt;/legacyItalic&gt;</ept> values in a data sequence with zeros, which makes it appear as though the signal suddenly turns on and off.</source>
+            <target state="new">The simplest rectangular window might replace <bpt id="1">&lt;legacyItalic&gt;</bpt>n<ept id="1">&lt;/legacyItalic&gt;</ept> values in a data sequence with zeros, which makes it appear as though the signal suddenly turns on and off.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>A rectangular window is also known as a <bpt id="1">&lt;newTerm&gt;</bpt>boxcar<ept id="1">&lt;/newTerm&gt;</ept> or <bpt id="2">&lt;newTerm&gt;</bpt>Dirichlet window<ept id="2">&lt;/newTerm&gt;</ept>.</source>
+            <target state="new">A rectangular window is also known as a <bpt id="1">&lt;newTerm&gt;</bpt>boxcar<ept id="1">&lt;/newTerm&gt;</ept> or <bpt id="2">&lt;newTerm&gt;</bpt>Dirichlet window<ept id="2">&lt;/newTerm&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Triangular</source>
+            <target state="new">Triangular</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>A triangular window applies filter coefficients in a step-wise fashion.</source>
+            <target state="new">A triangular window applies filter coefficients in a step-wise fashion.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>The current value appears at the peak of the triangle, and then it declines with preceding or following values.</source>
+            <target state="new">The current value appears at the peak of the triangle, and then it declines with preceding or following values.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>None</source>
+            <target state="new">None</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>In some applications it is preferable not to use any windowing functions.</source>
+            <target state="new">In some applications it is preferable not to use any windowing functions.</target>
+          </trans-unit>
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>For example, if the signal you are analyzing already represents a window or burst, applying a window function could deteriorate the signal-to-noise ratio.</source>
+            <target state="new">For example, if the signal you are analyzing already represents a window or burst, applying a window function could deteriorate the signal-to-noise ratio.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Examples</source>
+            <target state="new">Examples</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>For examples of how filters are used in machine learning, see this experiment in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Model Gallery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://gallery.azureml.net/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>:</source>
+            <target state="new">For examples of how filters are used in machine learning, see this experiment in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Model Gallery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://gallery.azureml.net/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>:</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Filters<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525732&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> experiment demonstrates all filter types.</source>
+            <target state="new">The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Filters<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525732&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> experiment demonstrates all filter types.</target>
+          </trans-unit>
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>The example uses an engineered waveform dataset to more easily illustrate the effects of the different filters.</source>
+            <target state="new">The example uses an engineered waveform dataset to more easily illustrate the effects of the different filters.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Technical Notes</source>
+            <target state="new">Technical Notes</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>FIR filters have these characteristics:</source>
+            <target state="new">FIR filters have these characteristics:</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>FIR filters do not have feedback; that is, they use the previous filter outputs.</source>
+            <target state="new">FIR filters do not have feedback; that is, they use the previous filter outputs.</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>FIR filters are more stable, because the impulse response will always return to 0.</source>
+            <target state="new">FIR filters are more stable, because the impulse response will always return to 0.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>FIR filters require a higher order to achieve the same selectivity as infinite impulse response (IIR) filters.</source>
+            <target state="new">FIR filters require a higher order to achieve the same selectivity as infinite impulse response (IIR) filters.</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Like other filters, the FIR filter can be designed with a specific cutoff frequency that preserves or rejects frequencies that compose the signal.</source>
+            <target state="new">Like other filters, the FIR filter can be designed with a specific cutoff frequency that preserves or rejects frequencies that compose the signal.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Calculating Coefficients over the Filter Window</source>
+            <target state="new">Calculating Coefficients over the Filter Window</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>The window type determines the trade-off between selectivity (width of the transition band in which frequencies are neither fully accepted nor rejected) and suppression (the total attenuation of frequencies to be rejected).</source>
+            <target state="new">The window type determines the trade-off between selectivity (width of the transition band in which frequencies are neither fully accepted nor rejected) and suppression (the total attenuation of frequencies to be rejected).</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>The windowing function is applied to the ideal filter response to force the frequency response to zero outside of the window.</source>
+            <target state="new">The windowing function is applied to the ideal filter response to force the frequency response to zero outside of the window.</target>
+          </trans-unit>
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Coefficients are selected by sampling the frequency response within the window.</source>
+            <target state="new">Coefficients are selected by sampling the frequency response within the window.</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>The number of coefficients returned by the <bpt id="1">&lt;ui&gt;</bpt>FIR Filter<ept id="1">&lt;/ui&gt;</ept> module is equal to the filter order plus one.</source>
+            <target state="new">The number of coefficients returned by the <bpt id="1">&lt;ui&gt;</bpt>FIR Filter<ept id="1">&lt;/ui&gt;</ept> module is equal to the filter order plus one.</target>
+          </trans-unit>
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>The coefficient values are determined by filter parameters and by the windowing method, and are symmetric to guarantee a linear phase response</source>
+            <target state="new">The coefficient values are determined by filter parameters and by the windowing method, and are symmetric to guarantee a linear phase response</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>See the <bpt id="1">&lt;legacyLink xlink:href="#bkmk_Notes" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Technical Notes<ept id="1">&lt;/legacyLink&gt;</ept> section for an example of the trade-offs between these characteristics.</source>
+            <target state="new">See the <bpt id="1">&lt;legacyLink xlink:href="#bkmk_Notes" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Technical Notes<ept id="1">&lt;/legacyLink&gt;</ept> section for an example of the trade-offs between these characteristics.</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Scaling of Coefficients</source>
+            <target state="new">Scaling of Coefficients</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;ui&gt;</bpt>FIR Filter<ept id="1">&lt;/ui&gt;</ept> module returns filter coefficients or tap weights for the created filter.</source>
+            <target state="new">The <bpt id="1">&lt;ui&gt;</bpt>FIR Filter<ept id="1">&lt;/ui&gt;</ept> module returns filter coefficients or tap weights for the created filter.</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>The coefficients are determined by the filter, based on the parameters you enter (such as the order).</source>
+            <target state="new">The coefficients are determined by the filter, based on the parameters you enter (such as the order).</target>
+          </trans-unit>
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>If you want to specify custom coefficients, use the <ph id="1">&lt;link xlink:href="53f113fe-2e9d-45dd-a421-cdd7ada0567b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;User Defined Filter&lt;/link&gt;</ph> module.</source>
+            <target state="new">If you want to specify custom coefficients, use the <ph id="1">&lt;link xlink:href="53f113fe-2e9d-45dd-a421-cdd7ada0567b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;User Defined Filter&lt;/link&gt;</ph> module.</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>When <bpt id="1">&lt;ui&gt;</bpt>Scale<ept id="1">&lt;/ui&gt;</ept> is set to <bpt id="2">&lt;legacyBold&gt;</bpt>True<ept id="2">&lt;/legacyBold&gt;</ept>, filter coefficients will be normalized, such that the magnitude response of the filter at the center frequency of the passband is 0.</source>
+            <target state="new">When <bpt id="1">&lt;ui&gt;</bpt>Scale<ept id="1">&lt;/ui&gt;</ept> is set to <bpt id="2">&lt;legacyBold&gt;</bpt>True<ept id="2">&lt;/legacyBold&gt;</ept>, filter coefficients will be normalized, such that the magnitude response of the filter at the center frequency of the passband is 0.</target>
+          </trans-unit>
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>The implementation of normalization in <ph id="1">&lt;token&gt;ProductName&lt;/token&gt;</ph> is the same as in the <ph id="2">&lt;system&gt;fir1&lt;/system&gt;</ph> function in MATLAB.</source>
+            <target state="new">The implementation of normalization in <ph id="1">&lt;token&gt;ProductName&lt;/token&gt;</ph> is the same as in the <ph id="2">&lt;system&gt;fir1&lt;/system&gt;</ph> function in MATLAB.</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Typically, in the window design method, you design an ideal infinite impulse response (IIR) filter.</source>
+            <target state="new">Typically, in the window design method, you design an ideal infinite impulse response (IIR) filter.</target>
+          </trans-unit>
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>The window function is applied to the waveform in the time domain, and multiplies the infinite impulse response by the window function.</source>
+            <target state="new">The window function is applied to the waveform in the time domain, and multiplies the infinite impulse response by the window function.</target>
+          </trans-unit>
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>This results in the frequency response of the IIR filter being convolved with the frequency response of the window function.</source>
+            <target state="new">This results in the frequency response of the IIR filter being convolved with the frequency response of the window function.</target>
+          </trans-unit>
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>However, in the case of FIR filters, the input and filter coefficients (or tap weights) are convolved as follows when applying the filter:</source>
+            <target state="new">However, in the case of FIR filters, the input and filter coefficients (or tap weights) are convolved as follows when applying the filter:</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Let <ph id="1">&lt;math&gt;n&lt;/math&gt;</ph> be the length of the input signal and <ph id="2">&lt;math&gt;m&lt;/math&gt;</ph> be the number of taps.</source>
+            <target state="new">Let <ph id="1">&lt;math&gt;n&lt;/math&gt;</ph> be the length of the input signal and <ph id="2">&lt;math&gt;m&lt;/math&gt;</ph> be the number of taps.</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Then <bpt id="1">&lt;legacyItalic&gt;</bpt>y<ept id="1">&lt;/legacyItalic&gt;</ept><bpt id="2">&lt;subscript&gt;</bpt> j <ept id="2">&lt;/subscript&gt;</ept>=∑<bpt id="3">&lt;superscript&gt;</bpt> m <ept id="3">&lt;/superscript&gt;</ept><bpt id="4">&lt;subscript&gt;</bpt> i=1 <ept id="4">&lt;/subscript&gt;</ept><bpt id="5">&lt;legacyItalic&gt;</bpt>b<ept id="5">&lt;/legacyItalic&gt;</ept><bpt id="6">&lt;subscript&gt;</bpt> i <ept id="6">&lt;/subscript&gt;</ept><bpt id="7">&lt;legacyItalic&gt;</bpt>x<ept id="7">&lt;/legacyItalic&gt;</ept><bpt id="8">&lt;subscript&gt;</bpt> j−(i−1) <ept id="8">&lt;/subscript&gt;</ept><bpt id="9">&lt;legacyItalic&gt;</bpt>j<ept id="9">&lt;/legacyItalic&gt;</ept>=1..<bpt id="10">&lt;legacyItalic&gt;</bpt>n<ept id="10">&lt;/legacyItalic&gt;</ept> where the values <ph id="11">&lt;math&gt;x&lt;/math&gt;</ph><bpt id="12">&lt;subscript&gt;</bpt>j-(i-1)<ept id="12">&lt;/subscript&gt;</ept><ph id="13">&lt;math&gt;=0&lt;/math&gt;</ph> if <ph id="14">&lt;math&gt;j-(i-1) %%amp;lt; 1&lt;/math&gt;</ph>.</source>
+            <target state="new">Then <bpt id="1">&lt;legacyItalic&gt;</bpt>y<ept id="1">&lt;/legacyItalic&gt;</ept><bpt id="2">&lt;subscript&gt;</bpt> j <ept id="2">&lt;/subscript&gt;</ept>=∑<bpt id="3">&lt;superscript&gt;</bpt> m <ept id="3">&lt;/superscript&gt;</ept><bpt id="4">&lt;subscript&gt;</bpt> i=1 <ept id="4">&lt;/subscript&gt;</ept><bpt id="5">&lt;legacyItalic&gt;</bpt>b<ept id="5">&lt;/legacyItalic&gt;</ept><bpt id="6">&lt;subscript&gt;</bpt> i <ept id="6">&lt;/subscript&gt;</ept><bpt id="7">&lt;legacyItalic&gt;</bpt>x<ept id="7">&lt;/legacyItalic&gt;</ept><bpt id="8">&lt;subscript&gt;</bpt> j−(i−1) <ept id="8">&lt;/subscript&gt;</ept><bpt id="9">&lt;legacyItalic&gt;</bpt>j<ept id="9">&lt;/legacyItalic&gt;</ept>=1..<bpt id="10">&lt;legacyItalic&gt;</bpt>n<ept id="10">&lt;/legacyItalic&gt;</ept> where the values <ph id="11">&lt;math&gt;x&lt;/math&gt;</ph><bpt id="12">&lt;subscript&gt;</bpt>j-(i-1)<ept id="12">&lt;/subscript&gt;</ept><ph id="13">&lt;math&gt;=0&lt;/math&gt;</ph> if <ph id="14">&lt;math&gt;j-(i-1) %%amp;lt; 1&lt;/math&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>Selectivity and Stop Band Attenuation</source>
+            <target state="new">Selectivity and Stop Band Attenuation</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>The following table compares selectivity with stop band attenuation for a FIR filter with length <bpt id="1">&lt;legacyItalic&gt;</bpt>n<ept id="1">&lt;/legacyItalic&gt;</ept> by using different windowing methods: </source>
+            <target state="new">The following table compares selectivity with stop band attenuation for a FIR filter with length <bpt id="1">&lt;legacyItalic&gt;</bpt>n<ept id="1">&lt;/legacyItalic&gt;</ept> by using different windowing methods: </target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Window Type</source>
+            <target state="new">Window Type</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>Transition Region</source>
+            <target state="new">Transition Region</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>Minimum Stopband Attenuation</source>
+            <target state="new">Minimum Stopband Attenuation</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Rectangular</source>
+            <target state="new">Rectangular</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>0.041n</source>
+            <target state="new">0.041n</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>21 dB</source>
+            <target state="new">21 dB</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>Triangle</source>
+            <target state="new">Triangle</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>0.11n</source>
+            <target state="new">0.11n</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>26 dB</source>
+            <target state="new">26 dB</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>Hann</source>
+            <target state="new">Hann</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>0.12n</source>
+            <target state="new">0.12n</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>44 dB</source>
+            <target state="new">44 dB</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>Hamming</source>
+            <target state="new">Hamming</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>0.23n</source>
+            <target state="new">0.23n</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>53 dB</source>
+            <target state="new">53 dB</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Blackman</source>
+            <target state="new">Blackman</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>0.2n</source>
+            <target state="new">0.2n</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>75 dB</source>
+            <target state="new">75 dB</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>Module Parameters</source>
+            <target state="new">Module Parameters</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>Range</source>
+            <target state="new">Range</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>Default</source>
+            <target state="new">Default</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>Order</source>
+            <target state="new">Order</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>&gt;=4</source>
+            <target state="new">&gt;=4</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>5</source>
+            <target state="new">5</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>Specify the filter order</source>
+            <target state="new">Specify the filter order</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>Window</source>
+            <target state="new">Window</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>Any</source>
+            <target state="new">Any</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>WindowType</source>
+            <target state="new">WindowType</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>Specify the type of window to apply</source>
+            <target state="new">Specify the type of window to apply</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>Filter type</source>
+            <target state="new">Filter type</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>Any</source>
+            <target state="new">Any</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>FilterType</source>
+            <target state="new">FilterType</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>LowPass</source>
+            <target state="new">LowPass</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>Select the type of filter to create</source>
+            <target state="new">Select the type of filter to create</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>Low cutoff</source>
+            <target state="new">Low cutoff</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>[double.Epsilon;.9999999]</source>
+            <target state="new">[double.Epsilon;.9999999]</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>Float</source>
+            <target state="new">Float</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>0.3</source>
+            <target state="new">0.3</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>Set the low cutoff frequency</source>
+            <target state="new">Set the low cutoff frequency</target>
+          </trans-unit>
+        </group>
+        <group id="123">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>High cutoff</source>
+            <target state="new">High cutoff</target>
+          </trans-unit>
+        </group>
+        <group id="124">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>[double.Epsilon;.9999999]</source>
+            <target state="new">[double.Epsilon;.9999999]</target>
+          </trans-unit>
+        </group>
+        <group id="125">
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>Float</source>
+            <target state="new">Float</target>
+          </trans-unit>
+        </group>
+        <group id="126">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>0.7</source>
+            <target state="new">0.7</target>
+          </trans-unit>
+        </group>
+        <group id="127">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>Set the high cutoff frequency</source>
+            <target state="new">Set the high cutoff frequency</target>
+          </trans-unit>
+        </group>
+        <group id="128">
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>Scale</source>
+            <target state="new">Scale</target>
+          </trans-unit>
+        </group>
+        <group id="129">
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>Any</source>
+            <target state="new">Any</target>
+          </trans-unit>
+        </group>
+        <group id="130">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>Boolean</source>
+            <target state="new">Boolean</target>
+          </trans-unit>
+        </group>
+        <group id="131">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>True</source>
+            <target state="new">True</target>
+          </trans-unit>
+        </group>
+        <group id="132">
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>If true, filter coefficients will be normalized</source>
+            <target state="new">If true, filter coefficients will be normalized</target>
+          </trans-unit>
+        </group>
+        <group id="133">
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>Output</source>
+            <target state="new">Output</target>
+          </trans-unit>
+        </group>
+        <group id="134">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="135">
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="136">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="137">
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>Filter</source>
+            <target state="new">Filter</target>
+          </trans-unit>
+        </group>
+        <group id="138">
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>Filter implementation</source>
+            <target state="new">Filter implementation</target>
+          </trans-unit>
+        </group>
+        <group id="139">
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>Exception</source>
+            <target state="new">Exception</target>
+          </trans-unit>
+        </group>
+        <group id="140">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>For a list of all exceptions, see <ph id="1">&lt;link xlink:href="38cc86bd-4223-4e8b-b23e-4d4fbf3a5620" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Module Error Codes&lt;/link&gt;</ph>.</source>
+            <target state="new">For a list of all exceptions, see <ph id="1">&lt;link xlink:href="38cc86bd-4223-4e8b-b23e-4d4fbf3a5620" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Module Error Codes&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="141">
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>Exception</source>
+            <target state="new">Exception</target>
+          </trans-unit>
+        </group>
+        <group id="142">
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="143">
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>NotInRangeValue</source>
+            <target state="new">NotInRangeValue</target>
+          </trans-unit>
+        </group>
+        <group id="144">
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>Exception occurs if parameter is not in range.</source>
+            <target state="new">Exception occurs if parameter is not in range.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

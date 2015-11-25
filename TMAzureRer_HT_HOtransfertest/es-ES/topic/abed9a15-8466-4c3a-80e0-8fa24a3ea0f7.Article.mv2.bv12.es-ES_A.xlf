@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANil0KgzAQBq+SA2QhP6tm+17oe3uBL3EXBKugFjx+8zAvM2OWtXJqpMpMHC1QDaVSCxGjiEVAvIPVJCkH0igg5lJIuqKGqc4DpEXRflWdBXGgwuNI3DKoBA1UDImRFcEm76J3etLz7d29LmZ6X49j3y/vUm+d1++L7XNgO1dcy779ARuN2RWiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Migrating ACS Namespaces to Google OpenID Connect</source>
+            <target state="new">Migrating ACS Namespaces to Google OpenID Connect</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This topic is for owners of Access Control Service (ACS) 2.0 namespaces that currently use Google as an identity provider.</source>
+            <target state="new">This topic is for owners of Access Control Service (ACS) 2.0 namespaces that currently use Google as an identity provider.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>ACS provides this capability using Google’s OpenID 2.0 implementation.</source>
+            <target state="new">ACS provides this capability using Google’s OpenID 2.0 implementation.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Google plans to discontinue OpenID 2.0 support by April 20, 2015.</source>
+            <target state="new">Google plans to discontinue OpenID 2.0 support by April 20, 2015.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>ACS namespaces will continue to work with Google’s OpenID 2.0 implementation until June 1, 2015, by which time you must complete migration of these namespaces to use Google’s OpenID Connect implementation or users will no longer be able to sign in to your application with a Google account.</source>
+            <target state="new">ACS namespaces will continue to work with Google’s OpenID 2.0 implementation until June 1, 2015, by which time you must complete migration of these namespaces to use Google’s OpenID Connect implementation or users will no longer be able to sign in to your application with a Google account.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Migrating your ACS namespaces to OpenID Connect will not cause application downtime.</source>
+            <target state="new">Migrating your ACS namespaces to OpenID Connect will not cause application downtime.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>With one exception (see note below), this migration is possible without changing application code.</source>
+            <target state="new">With one exception (see note below), this migration is possible without changing application code.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>After migrating your ACS namespaces to use OpenID Connect, you will need to migrate your users’ identifiers in your backend to OpenID Connect identifiers.</source>
+            <target state="new">After migrating your ACS namespaces to use OpenID Connect, you will need to migrate your users’ identifiers in your backend to OpenID Connect identifiers.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>This migration must be completed by January 1, 2017.</source>
+            <target state="new">This migration must be completed by January 1, 2017.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>It will require code changes in your backend.</source>
+            <target state="new">It will require code changes in your backend.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>See the important note below for details about both phases of migration.</source>
+            <target state="new">See the important note below for details about both phases of migration.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Note the following important dates and complete the actions required by each date to ensure that your ACS namespaces that use Google as an identity provider continue to work:</source>
+            <target state="new">Note the following important dates and complete the actions required by each date to ensure that your ACS namespaces that use Google as an identity provider continue to work:</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>June 1, 2015<ept id="1">&lt;/embeddedLabel&gt;</ept> - ACS namespaces will stop working with Google’s OpenID 2.0 implementation.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>June 1, 2015<ept id="1">&lt;/embeddedLabel&gt;</ept> - ACS namespaces will stop working with Google’s OpenID 2.0 implementation.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>You must complete ACS namespace migration to use Google OpenID Connect by this date.</source>
+            <target state="new">You must complete ACS namespace migration to use Google OpenID Connect by this date.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Before this date, you can roll back to OpenID 2.0 if you encounter problems during migration.</source>
+            <target state="new">Before this date, you can roll back to OpenID 2.0 if you encounter problems during migration.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>For namespaces that have not been migrated by this date, users will no longer be able to sign in with a Google account and will be presented with a page that indicates that OpenID 2.0 for Google accounts has gone away.</source>
+            <target state="new">For namespaces that have not been migrated by this date, users will no longer be able to sign in with a Google account and will be presented with a page that indicates that OpenID 2.0 for Google accounts has gone away.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>To restore sign-in capability with Google accounts, you will need to migrate the namespace.</source>
+            <target state="new">To restore sign-in capability with Google accounts, you will need to migrate the namespace.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>In most cases, no application code changes should be required.</source>
+            <target state="new">In most cases, no application code changes should be required.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>If you have the “<bpt id="1">&lt;embeddedLabel&gt;</bpt>passthrough all claims<ept id="1">&lt;/embeddedLabel&gt;</ept>” rule for Google as an identity provider in a rule group associated with your application, though, you may need to make code changes.</source>
+            <target state="new">If you have the “<bpt id="1">&lt;embeddedLabel&gt;</bpt>passthrough all claims<ept id="1">&lt;/embeddedLabel&gt;</ept>” rule for Google as an identity provider in a rule group associated with your application, though, you may need to make code changes.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>This is because, upon migration, a new claim type (<bpt id="1">&lt;embeddedLabel&gt;</bpt>Subject<ept id="1">&lt;/embeddedLabel&gt;</ept>) becomes available to ACS from Google, and you might have to make code changes to ensure that your application can handle the presence of the new claim type gracefully.</source>
+            <target state="new">This is because, upon migration, a new claim type (<bpt id="1">&lt;embeddedLabel&gt;</bpt>Subject<ept id="1">&lt;/embeddedLabel&gt;</ept>) becomes available to ACS from Google, and you might have to make code changes to ensure that your application can handle the presence of the new claim type gracefully.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>To successfully complete migration, there won’t be any need to process the new claim type in your application.</source>
+            <target state="new">To successfully complete migration, there won’t be any need to process the new claim type in your application.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Jan 1, 2017<ept id="1">&lt;/embeddedLabel&gt;</ept> – Google’s OpenID 2.0 and OpenID Connect implementations use different identifiers to uniquely identify Google users.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Jan 1, 2017<ept id="1">&lt;/embeddedLabel&gt;</ept> – Google’s OpenID 2.0 and OpenID Connect implementations use different identifiers to uniquely identify Google users.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>When you migrate your ACS namespace, ACS makes two identifiers, both the current OpenID 2.0 identifier and the new OpenID Connect identifier, available to your application.</source>
+            <target state="new">When you migrate your ACS namespace, ACS makes two identifiers, both the current OpenID 2.0 identifier and the new OpenID Connect identifier, available to your application.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>You must switch your users’ identifiers in your backend system to OpenID Connect identifiers by this date, and start using only OpenID Connect identifiers going forward.</source>
+            <target state="new">You must switch your users’ identifiers in your backend system to OpenID Connect identifiers by this date, and start using only OpenID Connect identifiers going forward.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>This requires application code changes.</source>
+            <target state="new">This requires application code changes.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>You can post questions about migration on <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Stack Overflow<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://stackoverflow.com/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> and tag them with ‘acs-google’.</source>
+            <target state="new">You can post questions about migration on <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Stack Overflow<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://stackoverflow.com/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> and tag them with ‘acs-google’.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>We will respond as quickly as possible.</source>
+            <target state="new">We will respond as quickly as possible.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>For more information about Google’s plans, see their <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>OpenID 2.0 Migration Guide<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://developers.google.com/accounts/docs/OpenID&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information about Google’s plans, see their <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>OpenID 2.0 Migration Guide<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://developers.google.com/accounts/docs/OpenID&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Migration Checklist</source>
+            <target state="new">Migration Checklist</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>The following table contains a checklist that summarizes the steps required to migrate your ACS namespace to use Google’s OpenID Connect implementation:</source>
+            <target state="new">The following table contains a checklist that summarizes the steps required to migrate your ACS namespace to use Google’s OpenID Connect implementation:</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Step</source>
+            <target state="new">Step</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Must be Completed by</source>
+            <target state="new">Must be Completed by</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Create a Google+ application at the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Google Developers Console<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Create a Google+ application at the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Google Developers Console<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>June 1, 2015</source>
+            <target state="new">June 1, 2015</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>2</source>
+            <target state="new">2</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>If you have the “<bpt id="1">&lt;embeddedLabel&gt;</bpt>passthrough all claims<ept id="1">&lt;/embeddedLabel&gt;</ept>” rule for Google as an identity provider in a rule group associated with your application, test your application to ensure that it is migration-ready; otherwise, this step is optional.</source>
+            <target state="new">If you have the “<bpt id="1">&lt;embeddedLabel&gt;</bpt>passthrough all claims<ept id="1">&lt;/embeddedLabel&gt;</ept>” rule for Google as an identity provider in a rule group associated with your application, test your application to ensure that it is migration-ready; otherwise, this step is optional.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>June 1, 2015</source>
+            <target state="new">June 1, 2015</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>3</source>
+            <target state="new">3</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ACS Management Portal<ept id="1">&lt;/embeddedLabel&gt;</ept> to switch your ACS namespace to use Google’s OpenID Connect implementation by supplying it with your Google+ application’s parameters (Client ID and Client secret).</source>
+            <target state="new">Use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ACS Management Portal<ept id="1">&lt;/embeddedLabel&gt;</ept> to switch your ACS namespace to use Google’s OpenID Connect implementation by supplying it with your Google+ application’s parameters (Client ID and Client secret).</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>If you encounter problems with your migration, roll back to OpenID 2.0 is possible until June 1, 2015.</source>
+            <target state="new">If you encounter problems with your migration, roll back to OpenID 2.0 is possible until June 1, 2015.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>June 1, 2015</source>
+            <target state="new">June 1, 2015</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>4</source>
+            <target state="new">4</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Migrate your users’ identifiers in your backend system from the current Google OpenID 2.0 identifiers to the new Google OpenID Connect identifiers.</source>
+            <target state="new">Migrate your users’ identifiers in your backend system from the current Google OpenID 2.0 identifiers to the new Google OpenID Connect identifiers.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>This requires code changes.</source>
+            <target state="new">This requires code changes.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Jan 1, 2017</source>
+            <target state="new">Jan 1, 2017</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Migration walkthrough</source>
+            <target state="new">Migration walkthrough</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>To migrate your ACS namespace to use Google’s OpenID Connect implementation, complete the following steps:</source>
+            <target state="new">To migrate your ACS namespace to use Google’s OpenID Connect implementation, complete the following steps:</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Create a Google+ application</source>
+            <target state="new">Create a Google+ application</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>For detailed instructions on how to do this, see the <ph id="1">&lt;link xlink:href="#BKMK_HowToCreateAGooglePlusApplication" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to: Create a Google+ application&lt;/link&gt;</ph> section.</source>
+            <target state="new">For detailed instructions on how to do this, see the <ph id="1">&lt;link xlink:href="#BKMK_HowToCreateAGooglePlusApplication" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to: Create a Google+ application&lt;/link&gt;</ph> section.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Ensure that your application is migration-ready</source>
+            <target state="new">Ensure that your application is migration-ready</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>If you have the “<bpt id="1">&lt;embeddedLabel&gt;</bpt>passthrough all claims<ept id="1">&lt;/embeddedLabel&gt;</ept>” rule for Google as an identity provider in a rule group associated with your application, follow the instructions in the <ph id="2">&lt;link xlink:href="abed9a15-8466-4c3a-80e0-8fa24a3ea0f7#BKMK_HowToEnsureAnAcsApplicationsMigrationReadiness" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to: Ensure an ACS application’s migration readiness&lt;/link&gt;</ph> section to test your application for migration readiness.</source>
+            <target state="new">If you have the “<bpt id="1">&lt;embeddedLabel&gt;</bpt>passthrough all claims<ept id="1">&lt;/embeddedLabel&gt;</ept>” rule for Google as an identity provider in a rule group associated with your application, follow the instructions in the <ph id="2">&lt;link xlink:href="abed9a15-8466-4c3a-80e0-8fa24a3ea0f7#BKMK_HowToEnsureAnAcsApplicationsMigrationReadiness" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to: Ensure an ACS application’s migration readiness&lt;/link&gt;</ph> section to test your application for migration readiness.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>This is because upon migration a new claim type (<bpt id="1">&lt;embeddedLabel&gt;</bpt>Subject<ept id="1">&lt;/embeddedLabel&gt;</ept>) becomes available to ACS from Google.</source>
+            <target state="new">This is because upon migration a new claim type (<bpt id="1">&lt;embeddedLabel&gt;</bpt>Subject<ept id="1">&lt;/embeddedLabel&gt;</ept>) becomes available to ACS from Google.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>A “<bpt id="1">&lt;embeddedLabel&gt;</bpt>passthrough all claims<ept id="1">&lt;/embeddedLabel&gt;</ept>” rule is a rule where <bpt id="2">&lt;legacyItalic&gt;</bpt>Input claim type<ept id="2">&lt;/legacyItalic&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt> Input claim value<ept id="3">&lt;/embeddedLabel&gt;</ept> are set to <bpt id="4">&lt;embeddedLabel&gt;</bpt>Any<ept id="4">&lt;/embeddedLabel&gt;</ept> and <bpt id="5">&lt;embeddedLabel&gt;</bpt>Output claim type<ept id="5">&lt;/embeddedLabel&gt;</ept> and <bpt id="6">&lt;embeddedLabel&gt;</bpt>Output claim value<ept id="6">&lt;/embeddedLabel&gt;</ept> are set to <bpt id="7">&lt;embeddedLabel&gt;</bpt>Pass through first input claim type<ept id="7">&lt;/embeddedLabel&gt;</ept> and <bpt id="8">&lt;embeddedLabel&gt;</bpt>Pass through input claim value<ept id="8">&lt;/embeddedLabel&gt;</ept> respectively.</source>
+            <target state="new">A “<bpt id="1">&lt;embeddedLabel&gt;</bpt>passthrough all claims<ept id="1">&lt;/embeddedLabel&gt;</ept>” rule is a rule where <bpt id="2">&lt;legacyItalic&gt;</bpt>Input claim type<ept id="2">&lt;/legacyItalic&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt> Input claim value<ept id="3">&lt;/embeddedLabel&gt;</ept> are set to <bpt id="4">&lt;embeddedLabel&gt;</bpt>Any<ept id="4">&lt;/embeddedLabel&gt;</ept> and <bpt id="5">&lt;embeddedLabel&gt;</bpt>Output claim type<ept id="5">&lt;/embeddedLabel&gt;</ept> and <bpt id="6">&lt;embeddedLabel&gt;</bpt>Output claim value<ept id="6">&lt;/embeddedLabel&gt;</ept> are set to <bpt id="7">&lt;embeddedLabel&gt;</bpt>Pass through first input claim type<ept id="7">&lt;/embeddedLabel&gt;</ept> and <bpt id="8">&lt;embeddedLabel&gt;</bpt>Pass through input claim value<ept id="8">&lt;/embeddedLabel&gt;</ept> respectively.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>The rule is listed on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ACS Management Portal<ept id="1">&lt;/embeddedLabel&gt;</ept> as shown below, with the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Output Claim<ept id="2">&lt;/embeddedLabel&gt;</ept> column set to <bpt id="3">&lt;embeddedLabel&gt;</bpt>Passthrough<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The rule is listed on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ACS Management Portal<ept id="1">&lt;/embeddedLabel&gt;</ept> as shown below, with the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Output Claim<ept id="2">&lt;/embeddedLabel&gt;</ept> column set to <bpt id="3">&lt;embeddedLabel&gt;</bpt>Passthrough<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>If you have previously generated rules or added rules manually for Google as an identity provider in a rule group associated with your application, you can skip this step.</source>
+            <target state="new">If you have previously generated rules or added rules manually for Google as an identity provider in a rule group associated with your application, you can skip this step.</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>This is because, in these cases, upon migration the new <bpt id="1">&lt;embeddedLabel&gt;</bpt>Subject<ept id="1">&lt;/embeddedLabel&gt;</ept> claim type is not sent to the application.</source>
+            <target state="new">This is because, in these cases, upon migration the new <bpt id="1">&lt;embeddedLabel&gt;</bpt>Subject<ept id="1">&lt;/embeddedLabel&gt;</ept> claim type is not sent to the application.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>To learn more about these options, see <ph id="1">&lt;link xlink:href="7ef0ec98-9fa8-4671-bcf7-630ebb06ec7e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Rule Groups and Rules&lt;/link&gt;</ph>.</source>
+            <target state="new">To learn more about these options, see <ph id="1">&lt;link xlink:href="7ef0ec98-9fa8-4671-bcf7-630ebb06ec7e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Rule Groups and Rules&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Switch the ACS namespace to use Google’s OpenID Connect implementation</source>
+            <target state="new">Switch the ACS namespace to use Google’s OpenID Connect implementation</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Go to the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Microsoft Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept> <ph id="3">&lt;linkUri&gt;https://manage.windowsazure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, sign in, and click <bpt id="4">&lt;embeddedLabel&gt;</bpt>Active Directory<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Go to the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Microsoft Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept> <ph id="3">&lt;linkUri&gt;https://manage.windowsazure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, sign in, and click <bpt id="4">&lt;embeddedLabel&gt;</bpt>Active Directory<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Select the ACS namespace that needs to be migrated and click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Manage<ept id="1">&lt;/embeddedLabel&gt;</ept> to launch the <bpt id="2">&lt;embeddedLabel&gt;</bpt>ACS Management Portal<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select the ACS namespace that needs to be migrated and click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Manage<ept id="1">&lt;/embeddedLabel&gt;</ept> to launch the <bpt id="2">&lt;embeddedLabel&gt;</bpt>ACS Management Portal<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ACS Management Portal<ept id="1">&lt;/embeddedLabel&gt;</ept>, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Identity Providers<ept id="2">&lt;/embeddedLabel&gt;</ept> in the tree on the left-hand side or click the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Identity Providers<ept id="3">&lt;/embeddedLabel&gt;</ept> link under the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Getting Started<ept id="4">&lt;/embeddedLabel&gt;</ept> section.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ACS Management Portal<ept id="1">&lt;/embeddedLabel&gt;</ept>, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Identity Providers<ept id="2">&lt;/embeddedLabel&gt;</ept> in the tree on the left-hand side or click the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Identity Providers<ept id="3">&lt;/embeddedLabel&gt;</ept> link under the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Getting Started<ept id="4">&lt;/embeddedLabel&gt;</ept> section.</target>
+          </trans-unit>
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Google<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Google<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit Google Identity Provider<ept id="1">&lt;/embeddedLabel&gt;</ept> page, check <bpt id="2">&lt;embeddedLabel&gt;</bpt>Use OpenID Connect<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit Google Identity Provider<ept id="1">&lt;/embeddedLabel&gt;</ept> page, check <bpt id="2">&lt;embeddedLabel&gt;</bpt>Use OpenID Connect<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Client ID<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Client secret<ept id="2">&lt;/embeddedLabel&gt;</ept> fields (now enabled), copy in the corresponding values from your Google+ application.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Client ID<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Client secret<ept id="2">&lt;/embeddedLabel&gt;</ept> fields (now enabled), copy in the corresponding values from your Google+ application.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>At this point if you click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>, all Google identity provider requests from your ACS namespace will automatically use Google’s OpenID Connect implementation.</source>
+            <target state="new">At this point if you click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>, all Google identity provider requests from your ACS namespace will automatically use Google’s OpenID Connect implementation.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>If you need to roll back, you can uncheck <bpt id="1">&lt;embeddedLabel&gt;</bpt>Use OpenID Connect<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">If you need to roll back, you can uncheck <bpt id="1">&lt;embeddedLabel&gt;</bpt>Use OpenID Connect<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>The Client ID and Client secret stay saved and can be re-used later on.</source>
+            <target state="new">The Client ID and Client secret stay saved and can be re-used later on.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Try signing in with a Google ID to ensure that the switch to using OpenID Connect was successful.</source>
+            <target state="new">Try signing in with a Google ID to ensure that the switch to using OpenID Connect was successful.</target>
+          </trans-unit>
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>If you have trouble signing in, go back to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit Google Identity Provider<ept id="1">&lt;/embeddedLabel&gt;</ept> page and un-check <bpt id="2">&lt;embeddedLabel&gt;</bpt>Use OpenID Connect<ept id="2">&lt;/embeddedLabel&gt;</ept> to roll back to OpenID 2.0.</source>
+            <target state="new">If you have trouble signing in, go back to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit Google Identity Provider<ept id="1">&lt;/embeddedLabel&gt;</ept> page and un-check <bpt id="2">&lt;embeddedLabel&gt;</bpt>Use OpenID Connect<ept id="2">&lt;/embeddedLabel&gt;</ept> to roll back to OpenID 2.0.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>After you roll back, check that the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Client ID<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Secret<ept id="2">&lt;/embeddedLabel&gt;</ept> that you copied from the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Google Developer Console<ept id="3">&lt;/embeddedLabel&gt;</ept> are entered correctly for your namespace; for example, check for typos.</source>
+            <target state="new">After you roll back, check that the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Client ID<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Secret<ept id="2">&lt;/embeddedLabel&gt;</ept> that you copied from the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Google Developer Console<ept id="3">&lt;/embeddedLabel&gt;</ept> are entered correctly for your namespace; for example, check for typos.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Migrate your users’ identifiers in your backend system from Open ID 2.0 to OpenID Connect</source>
+            <target state="new">Migrate your users’ identifiers in your backend system from Open ID 2.0 to OpenID Connect</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>You must migrate your users’ identifiers in your backend system from the existing Google Open ID 2.0 identifiers to the new Google OpenID Connect identifiers before Jan 1, 2017.</source>
+            <target state="new">You must migrate your users’ identifiers in your backend system from the existing Google Open ID 2.0 identifiers to the new Google OpenID Connect identifiers before Jan 1, 2017.</target>
+          </trans-unit>
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>This step requires code changes.</source>
+            <target state="new">This step requires code changes.</target>
+          </trans-unit>
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="abed9a15-8466-4c3a-80e0-8fa24a3ea0f7#BKMK_HowToMigrateOpenID20ToOpenIDConnect" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to: Migrate your users’ existing Open ID 2.0 identifiers to new OpenID Connect user identifiers&lt;/link&gt;</ph></source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="abed9a15-8466-4c3a-80e0-8fa24a3ea0f7#BKMK_HowToMigrateOpenID20ToOpenIDConnect" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to: Migrate your users’ existing Open ID 2.0 identifiers to new OpenID Connect user identifiers&lt;/link&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>How to: Create a Google+ application</source>
+            <target state="new">How to: Create a Google+ application</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>You will need a Google account to perform the following steps; if you don’t have one, you can get one at <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>https://accounts.google.com/SignUp<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://accounts.google.com/SignUp&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">You will need a Google account to perform the following steps; if you don’t have one, you can get one at <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>https://accounts.google.com/SignUp<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://accounts.google.com/SignUp&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>In a browser window, navigate to the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Google Developers Console<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://console.developers.google.com/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> and sign-in with your Google account credentials.</source>
+            <target state="new">In a browser window, navigate to the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Google Developers Console<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://console.developers.google.com/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> and sign-in with your Google account credentials.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Create Project<ept id="1">&lt;/embeddedLabel&gt;</ept>, and enter a <bpt id="2">&lt;embeddedLabel&gt;</bpt>Project name<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>Project ID<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Create Project<ept id="1">&lt;/embeddedLabel&gt;</ept>, and enter a <bpt id="2">&lt;embeddedLabel&gt;</bpt>Project name<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>Project ID<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Check the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Terms of Service<ept id="1">&lt;/embeddedLabel&gt;</ept> checkbox.</source>
+            <target state="new">Check the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Terms of Service<ept id="1">&lt;/embeddedLabel&gt;</ept> checkbox.</target>
+          </trans-unit>
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Create<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Create<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>This registers the application with Google.</source>
+            <target state="new">This registers the application with Google.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>APIs &amp; auth<ept id="1">&lt;/embeddedLabel&gt;</ept> on the left pane.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>APIs &amp; auth<ept id="1">&lt;/embeddedLabel&gt;</ept> on the left pane.</target>
+          </trans-unit>
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>And then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Credentials<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">And then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Credentials<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>OAuth<ept id="1">&lt;/embeddedLabel&gt;</ept>, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Create new Client ID<ept id="2">&lt;/embeddedLabel&gt;</ept>.Select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Web Application<ept id="3">&lt;/embeddedLabel&gt;</ept> and click <bpt id="4">&lt;embeddedLabel&gt;</bpt>Configure consent screen<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>OAuth<ept id="1">&lt;/embeddedLabel&gt;</ept>, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Create new Client ID<ept id="2">&lt;/embeddedLabel&gt;</ept>.Select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Web Application<ept id="3">&lt;/embeddedLabel&gt;</ept> and click <bpt id="4">&lt;embeddedLabel&gt;</bpt>Configure consent screen<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Provide a <bpt id="1">&lt;embeddedLabel&gt;</bpt>Product Name<ept id="1">&lt;/embeddedLabel&gt;</ept> and click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Save<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Provide a <bpt id="1">&lt;embeddedLabel&gt;</bpt>Product Name<ept id="1">&lt;/embeddedLabel&gt;</ept> and click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Save<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>APIs &amp; auth<ept id="1">&lt;/embeddedLabel&gt;</ept> on the left pane.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>APIs &amp; auth<ept id="1">&lt;/embeddedLabel&gt;</ept> on the left pane.</target>
+          </trans-unit>
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>And then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>APIs<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">And then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>APIs<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Browse APIs<ept id="1">&lt;/embeddedLabel&gt;</ept>, search and find <bpt id="2">&lt;embeddedLabel&gt;</bpt>Google+ API<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Browse APIs<ept id="1">&lt;/embeddedLabel&gt;</ept>, search and find <bpt id="2">&lt;embeddedLabel&gt;</bpt>Google+ API<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Turn the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Status<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;embeddedLabel&gt;</bpt>ON<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Turn the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Status<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;embeddedLabel&gt;</bpt>ON<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Create Client ID<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Web Application<ept id="2">&lt;/embeddedLabel&gt;</ept> as the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Application Type<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Create Client ID<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Web Application<ept id="2">&lt;/embeddedLabel&gt;</ept> as the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Application Type<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Authorized Javascript Origins<ept id="1">&lt;/embeddedLabel&gt;</ept> field, specify the fully qualified domain name (FQDN) URL of your namespace, including the leading “HTTPS://” and the trailing port number; for example, https://contoso.accesscontrol.windows.net:443.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Authorized Javascript Origins<ept id="1">&lt;/embeddedLabel&gt;</ept> field, specify the fully qualified domain name (FQDN) URL of your namespace, including the leading “HTTPS://” and the trailing port number; for example, https://contoso.accesscontrol.windows.net:443.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Authorized Redirect URIs<ept id="1">&lt;/embeddedLabel&gt;</ept> field, specify a URI which contains the fully qualified domain name (FQDN) URL of your namespace, including the leading “HTTPS://” and the trailing port number, followed by “/v2/openid”; for example, https://contoso.accesscontrol.windows.net:443/v2/openid.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Authorized Redirect URIs<ept id="1">&lt;/embeddedLabel&gt;</ept> field, specify a URI which contains the fully qualified domain name (FQDN) URL of your namespace, including the leading “HTTPS://” and the trailing port number, followed by “/v2/openid”; for example, https://contoso.accesscontrol.windows.net:443/v2/openid.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Create Client ID<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Create Client ID<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Note down the values of <bpt id="1">&lt;embeddedLabel&gt;</bpt>Client ID<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Client secret<ept id="2">&lt;/embeddedLabel&gt;</ept> from the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Client ID for web application<ept id="3">&lt;/embeddedLabel&gt;</ept> page.</source>
+            <target state="new">Note down the values of <bpt id="1">&lt;embeddedLabel&gt;</bpt>Client ID<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Client secret<ept id="2">&lt;/embeddedLabel&gt;</ept> from the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Client ID for web application<ept id="3">&lt;/embeddedLabel&gt;</ept> page.</target>
+          </trans-unit>
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>You will need them to configure Google’s OpenID Connect implementation on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ACS Management Portal<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">You will need them to configure Google’s OpenID Connect implementation on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ACS Management Portal<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Client Secret<ept id="1">&lt;/embeddedLabel&gt;</ept> is an important security credential.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Client Secret<ept id="1">&lt;/embeddedLabel&gt;</ept> is an important security credential.</target>
+          </trans-unit>
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Keep it secret.</source>
+            <target state="new">Keep it secret.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>How to: Migrate your users’ existing Open ID 2.0 identifiers to new OpenID Connect user identifiers</source>
+            <target state="new">How to: Migrate your users’ existing Open ID 2.0 identifiers to new OpenID Connect user identifiers</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>After you have successfully migrated your ACS namespace to use Google’s OpenID Connect implementation, you have until Jan 1, 2017 (per Google’s <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>OpenID 2.0 Migration Guide<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://developers.google.com/accounts/docs/OpenID&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>) to migrate your users’ identifiers in your backend system from the current OpenID 2.0 identifiers to the new OpenID Connect identifiers.</source>
+            <target state="new">After you have successfully migrated your ACS namespace to use Google’s OpenID Connect implementation, you have until Jan 1, 2017 (per Google’s <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>OpenID 2.0 Migration Guide<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://developers.google.com/accounts/docs/OpenID&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>) to migrate your users’ identifiers in your backend system from the current OpenID 2.0 identifiers to the new OpenID Connect identifiers.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>The following table shows claim types that become available to ACS from Google once the ACS namespace has been migrated to use Google’s OpenID Connect implementation:</source>
+            <target state="new">The following table shows claim types that become available to ACS from Google once the ACS namespace has been migrated to use Google’s OpenID Connect implementation:</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>Claim Type</source>
+            <target state="new">Claim Type</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>URI</source>
+            <target state="new">URI</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>Protocol Availability</source>
+            <target state="new">Protocol Availability</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>Name Identifier</source>
+            <target state="new">Name Identifier</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier</source>
+            <target state="new">http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>A unique identifier for the user account, provided by Google.</source>
+            <target state="new">A unique identifier for the user account, provided by Google.</target>
+          </trans-unit>
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>This is the (existing) OpenID 2.0 identifier.</source>
+            <target state="new">This is the (existing) OpenID 2.0 identifier.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>OpenID 2.0, OpenID Connect</source>
+            <target state="new">OpenID 2.0, OpenID Connect</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>Subject</source>
+            <target state="new">Subject</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>http://schemas.microsoft.com/identity/claims/subject</source>
+            <target state="new">http://schemas.microsoft.com/identity/claims/subject</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>A unique identifier for the user account, provided by Google.</source>
+            <target state="new">A unique identifier for the user account, provided by Google.</target>
+          </trans-unit>
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>This is the (new) OpenID Connect identifier.</source>
+            <target state="new">This is the (new) OpenID Connect identifier.</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>OpenID Connect</source>
+            <target state="new">OpenID Connect</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name</source>
+            <target state="new">http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>The display name for the user account, provided by Google.</source>
+            <target state="new">The display name for the user account, provided by Google.</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>OpenID 2.0, OpenID Connect</source>
+            <target state="new">OpenID 2.0, OpenID Connect</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>(see note below)</source>
+            <target state="new">(see note below)</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>Email Address</source>
+            <target state="new">Email Address</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress</source>
+            <target state="new">http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>The email address for the user account, provided by Google</source>
+            <target state="new">The email address for the user account, provided by Google</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>OpenID 2.0, OpenID Connect</source>
+            <target state="new">OpenID 2.0, OpenID Connect</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>Identity Provider</source>
+            <target state="new">Identity Provider</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>http://schemas.microsoft.com/accesscontrolservice/2010/07/claims/IdentityProvider</source>
+            <target state="new">http://schemas.microsoft.com/accesscontrolservice/2010/07/claims/IdentityProvider</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>A claim provided by ACS that tells the relying party application that the user authenticated using the default Google identity provider.</source>
+            <target state="new">A claim provided by ACS that tells the relying party application that the user authenticated using the default Google identity provider.</target>
+          </trans-unit>
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>The value of this claim is visible in the ACS Management Portal via the Realm field in the Edit Identity Provider page.</source>
+            <target state="new">The value of this claim is visible in the ACS Management Portal via the Realm field in the Edit Identity Provider page.</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>OpenID 2.0, OpenID Connect</source>
+            <target state="new">OpenID 2.0, OpenID Connect</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>For a Google user who doesn’t have a (registered) Google+ profile, the value of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Name<ept id="1">&lt;/embeddedLabel&gt;</ept> claim type is the same as the value of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Email address<ept id="2">&lt;/embeddedLabel&gt;</ept> claim type in OpenID Connect.</source>
+            <target state="new">For a Google user who doesn’t have a (registered) Google+ profile, the value of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Name<ept id="1">&lt;/embeddedLabel&gt;</ept> claim type is the same as the value of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Email address<ept id="2">&lt;/embeddedLabel&gt;</ept> claim type in OpenID Connect.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Name Identifier<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Subject<ept id="2">&lt;/embeddedLabel&gt;</ept> claim types can be used to track and switch existing users’ unique identifiers in your backend by mapping (old) OpenID 2.0 identifiers to (new) OpenID Connect identifiers.</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Name Identifier<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Subject<ept id="2">&lt;/embeddedLabel&gt;</ept> claim types can be used to track and switch existing users’ unique identifiers in your backend by mapping (old) OpenID 2.0 identifiers to (new) OpenID Connect identifiers.</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>If you have the “<bpt id="1">&lt;embeddedLabel&gt;</bpt>passthrough all claims<ept id="1">&lt;/embeddedLabel&gt;</ept>” rule for Google as an identity provider in a rule group associated your application, your application will automatically start receiving the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Subject<ept id="2">&lt;/embeddedLabel&gt;</ept> claim type.</source>
+            <target state="new">If you have the “<bpt id="1">&lt;embeddedLabel&gt;</bpt>passthrough all claims<ept id="1">&lt;/embeddedLabel&gt;</ept>” rule for Google as an identity provider in a rule group associated your application, your application will automatically start receiving the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Subject<ept id="2">&lt;/embeddedLabel&gt;</ept> claim type.</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>If you have previously generated rules or added rules manually for Google as an identity provider in a rule group associated with your application, you will need to add the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Subject<ept id="1">&lt;/embeddedLabel&gt;</ept> claim type manually.</source>
+            <target state="new">If you have previously generated rules or added rules manually for Google as an identity provider in a rule group associated with your application, you will need to add the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Subject<ept id="1">&lt;/embeddedLabel&gt;</ept> claim type manually.</target>
+          </trans-unit>
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>For more information on how to do this, see <ph id="1">&lt;link xlink:href="7ef0ec98-9fa8-4671-bcf7-630ebb06ec7e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Rule Groups and Rules&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information on how to do this, see <ph id="1">&lt;link xlink:href="7ef0ec98-9fa8-4671-bcf7-630ebb06ec7e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Rule Groups and Rules&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>For example, if you had previously generated rules for Google as an identity provider in a rule group and then add the new <bpt id="1">&lt;embeddedLabel&gt;</bpt>Subject<ept id="1">&lt;/embeddedLabel&gt;</ept> claim type (as shown above), you will see the following.</source>
+            <target state="new">For example, if you had previously generated rules for Google as an identity provider in a rule group and then add the new <bpt id="1">&lt;embeddedLabel&gt;</bpt>Subject<ept id="1">&lt;/embeddedLabel&gt;</ept> claim type (as shown above), you will see the following.</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>The application using this rule group will receive the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Subject<ept id="1">&lt;/embeddedLabel&gt;</ept> claim type, along with other claim types.</source>
+            <target state="new">The application using this rule group will receive the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Subject<ept id="1">&lt;/embeddedLabel&gt;</ept> claim type, along with other claim types.</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>After Jan 1, 2017, when Google discontinues its support for identifier mapping, ACS will populate both the <bpt id="1">&lt;embeddedLabel&gt;</bpt>NameIdentifier<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Subject<ept id="2">&lt;/embeddedLabel&gt;</ept> claim types with the same OpenID Connect user identifier.</source>
+            <target state="new">After Jan 1, 2017, when Google discontinues its support for identifier mapping, ACS will populate both the <bpt id="1">&lt;embeddedLabel&gt;</bpt>NameIdentifier<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Subject<ept id="2">&lt;/embeddedLabel&gt;</ept> claim types with the same OpenID Connect user identifier.</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>How to: Ensure an ACS application’s migration readiness</source>
+            <target state="new">How to: Ensure an ACS application’s migration readiness</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>With one exception, migrating your ACS namespace to use Google’s OpenID Connect implementation is possible without changing application code.</source>
+            <target state="new">With one exception, migrating your ACS namespace to use Google’s OpenID Connect implementation is possible without changing application code.</target>
+          </trans-unit>
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>The exception case is if you have the “<bpt id="1">&lt;embeddedLabel&gt;</bpt>passthrough all claims<ept id="1">&lt;/embeddedLabel&gt;</ept>” rule for Google as an identity provider in a rule group associated with your application.</source>
+            <target state="new">The exception case is if you have the “<bpt id="1">&lt;embeddedLabel&gt;</bpt>passthrough all claims<ept id="1">&lt;/embeddedLabel&gt;</ept>” rule for Google as an identity provider in a rule group associated with your application.</target>
+          </trans-unit>
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>This is because, in this case, upon migration a new claim type (<bpt id="1">&lt;embeddedLabel&gt;</bpt>Subject<ept id="1">&lt;/embeddedLabel&gt;</ept>) is automatically sent to the application.</source>
+            <target state="new">This is because, in this case, upon migration a new claim type (<bpt id="1">&lt;embeddedLabel&gt;</bpt>Subject<ept id="1">&lt;/embeddedLabel&gt;</ept>) is automatically sent to the application.</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>This section outlines the recommended change and test procedure that you can follow to ensure that every application that will be impacted by migration is ready to handle the new claim type.</source>
+            <target state="new">This section outlines the recommended change and test procedure that you can follow to ensure that every application that will be impacted by migration is ready to handle the new claim type.</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>For the purposes of this How To, assume that you are the owner of an ACS namespace called <bpt id="1">&lt;embeddedLabel&gt;</bpt>ns-contoso<ept id="1">&lt;/embeddedLabel&gt;</ept> and that your application in production is called <bpt id="2">&lt;embeddedLabel&gt;</bpt>ProdContosoApp<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">For the purposes of this How To, assume that you are the owner of an ACS namespace called <bpt id="1">&lt;embeddedLabel&gt;</bpt>ns-contoso<ept id="1">&lt;/embeddedLabel&gt;</ept> and that your application in production is called <bpt id="2">&lt;embeddedLabel&gt;</bpt>ProdContosoApp<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>Also assume that this application uses Google as an identity provider and has “<bpt id="1">&lt;embeddedLabel&gt;</bpt>passthrough all claims<ept id="1">&lt;/embeddedLabel&gt;</ept>” rule enabled for Google.</source>
+            <target state="new">Also assume that this application uses Google as an identity provider and has “<bpt id="1">&lt;embeddedLabel&gt;</bpt>passthrough all claims<ept id="1">&lt;/embeddedLabel&gt;</ept>” rule enabled for Google.</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>Setup</source>
+            <target state="new">Setup</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>To get started, go to the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Microsoft Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept> <ph id="3">&lt;linkUri&gt;https://manage.windowsazure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, sign in, and then click <bpt id="4">&lt;embeddedLabel&gt;</bpt>Active Directory<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">To get started, go to the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Microsoft Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept> <ph id="3">&lt;linkUri&gt;https://manage.windowsazure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, sign in, and then click <bpt id="4">&lt;embeddedLabel&gt;</bpt>Active Directory<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>Select the ACS namespace (<bpt id="1">&lt;embeddedLabel&gt;</bpt>ns-contoso<ept id="1">&lt;/embeddedLabel&gt;</ept>), and then click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Manage<ept id="2">&lt;/embeddedLabel&gt;</ept> to launch the <bpt id="3">&lt;embeddedLabel&gt;</bpt>ACS Management Portal<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select the ACS namespace (<bpt id="1">&lt;embeddedLabel&gt;</bpt>ns-contoso<ept id="1">&lt;/embeddedLabel&gt;</ept>), and then click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Manage<ept id="2">&lt;/embeddedLabel&gt;</ept> to launch the <bpt id="3">&lt;embeddedLabel&gt;</bpt>ACS Management Portal<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ACS Management Portal<ept id="1">&lt;/embeddedLabel&gt;</ept>, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Relying Party Applications<ept id="2">&lt;/embeddedLabel&gt;</ept> in the tree on the left-hand side or click the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Relying Party Applications<ept id="3">&lt;/embeddedLabel&gt;</ept> link under the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Getting Started<ept id="4">&lt;/embeddedLabel&gt;</ept> section.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ACS Management Portal<ept id="1">&lt;/embeddedLabel&gt;</ept>, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Relying Party Applications<ept id="2">&lt;/embeddedLabel&gt;</ept> in the tree on the left-hand side or click the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Relying Party Applications<ept id="3">&lt;/embeddedLabel&gt;</ept> link under the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Getting Started<ept id="4">&lt;/embeddedLabel&gt;</ept> section.</target>
+          </trans-unit>
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>Then click on your production application (<bpt id="1">&lt;embeddedLabel&gt;</bpt>ProdContosoApp<ept id="1">&lt;/embeddedLabel&gt;</ept>).</source>
+            <target state="new">Then click on your production application (<bpt id="1">&lt;embeddedLabel&gt;</bpt>ProdContosoApp<ept id="1">&lt;/embeddedLabel&gt;</ept>).</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>Note down properties of <bpt id="1">&lt;embeddedLabel&gt;</bpt>ProdContosoApp<ept id="1">&lt;/embeddedLabel&gt;</ept>, you will need these later.</source>
+            <target state="new">Note down properties of <bpt id="1">&lt;embeddedLabel&gt;</bpt>ProdContosoApp<ept id="1">&lt;/embeddedLabel&gt;</ept>, you will need these later.</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Default Rule Group for ProdContosoApp<ept id="1">&lt;/embeddedLabel&gt;</ept> under <bpt id="2">&lt;embeddedLabel&gt;</bpt>Rule groups<ept id="2">&lt;/embeddedLabel&gt;</ept> to verify that it has the “<bpt id="3">&lt;embeddedLabel&gt;</bpt>passthrough all claims<ept id="3">&lt;/embeddedLabel&gt;</ept>” rule enabled for Google.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Default Rule Group for ProdContosoApp<ept id="1">&lt;/embeddedLabel&gt;</ept> under <bpt id="2">&lt;embeddedLabel&gt;</bpt>Rule groups<ept id="2">&lt;/embeddedLabel&gt;</ept> to verify that it has the “<bpt id="3">&lt;embeddedLabel&gt;</bpt>passthrough all claims<ept id="3">&lt;/embeddedLabel&gt;</ept>” rule enabled for Google.</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>Step 1: Setup a test instance of your application in your production ACS namespace</source>
+            <target state="new">Step 1: Setup a test instance of your application in your production ACS namespace</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>Set up a test instance of your application, <bpt id="1">&lt;embeddedLabel&gt;</bpt>TestContosoApp<ept id="1">&lt;/embeddedLabel&gt;</ept>, on a different root URI; for example, https://contoso-test.com:7777/.</source>
+            <target state="new">Set up a test instance of your application, <bpt id="1">&lt;embeddedLabel&gt;</bpt>TestContosoApp<ept id="1">&lt;/embeddedLabel&gt;</ept>, on a different root URI; for example, https://contoso-test.com:7777/.</target>
+          </trans-unit>
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>You will have to register it as a Relying Party Application (<ph id="1">&lt;link xlink:href="16708a9e-e1f1-4ad5-bed2-a49ccabc42b9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Relying Party Applications&lt;/link&gt;</ph>) in the ns-contoso namespace.</source>
+            <target state="new">You will have to register it as a Relying Party Application (<ph id="1">&lt;link xlink:href="16708a9e-e1f1-4ad5-bed2-a49ccabc42b9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Relying Party Applications&lt;/link&gt;</ph>) in the ns-contoso namespace.</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ACS Management Portal<ept id="1">&lt;/embeddedLabel&gt;</ept>, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Relying Party Applications<ept id="2">&lt;/embeddedLabel&gt;</ept> in the tree on the left-hand side or click the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Relying Party Applications<ept id="3">&lt;/embeddedLabel&gt;</ept> link under the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Getting Started<ept id="4">&lt;/embeddedLabel&gt;</ept> section.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ACS Management Portal<ept id="1">&lt;/embeddedLabel&gt;</ept>, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Relying Party Applications<ept id="2">&lt;/embeddedLabel&gt;</ept> in the tree on the left-hand side or click the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Relying Party Applications<ept id="3">&lt;/embeddedLabel&gt;</ept> link under the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Getting Started<ept id="4">&lt;/embeddedLabel&gt;</ept> section.</target>
+          </trans-unit>
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>Then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add<ept id="1">&lt;/embeddedLabel&gt;</ept> on the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Relying Party Applications<ept id="2">&lt;/embeddedLabel&gt;</ept> page.</source>
+            <target state="new">Then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add<ept id="1">&lt;/embeddedLabel&gt;</ept> on the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Relying Party Applications<ept id="2">&lt;/embeddedLabel&gt;</ept> page.</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Relying Partying Application<ept id="1">&lt;/embeddedLabel&gt;</ept> page, do the following:</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Relying Partying Application<ept id="1">&lt;/embeddedLabel&gt;</ept> page, do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Name<ept id="1">&lt;/embeddedLabel&gt;</ept>, type the name of the test application.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Name<ept id="1">&lt;/embeddedLabel&gt;</ept>, type the name of the test application.</target>
+          </trans-unit>
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>Here it is <bpt id="1">&lt;embeddedLabel&gt;</bpt>TestContosoApp<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Here it is <bpt id="1">&lt;embeddedLabel&gt;</bpt>TestContosoApp<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Mode<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Enter settings manually<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Mode<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Enter settings manually<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Realm<ept id="1">&lt;/embeddedLabel&gt;</ept>, type in the test application’s URI.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Realm<ept id="1">&lt;/embeddedLabel&gt;</ept>, type in the test application’s URI.</target>
+          </trans-unit>
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>Here it is https://contoso-test.com:7777/.</source>
+            <target state="new">Here it is https://contoso-test.com:7777/.</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>For the purposes of this How to, you can leave <bpt id="1">&lt;embeddedLabel&gt;</bpt>Error URL (optional)<ept id="1">&lt;/embeddedLabel&gt;</ept> blank.</source>
+            <target state="new">For the purposes of this How to, you can leave <bpt id="1">&lt;embeddedLabel&gt;</bpt>Error URL (optional)<ept id="1">&lt;/embeddedLabel&gt;</ept> blank.</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>For the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Token format<ept id="1">&lt;/embeddedLabel&gt;</ept>, <bpt id="2">&lt;embeddedLabel&gt;</bpt>Token encryption policy<ept id="2">&lt;/embeddedLabel&gt;</ept>, and <bpt id="3">&lt;embeddedLabel&gt;</bpt>Token lifetime (secs)<ept id="3">&lt;/embeddedLabel&gt;</ept> properties and the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Token Signing Settings<ept id="4">&lt;/embeddedLabel&gt;</ept> section, use the same values that you used for <bpt id="5">&lt;embeddedLabel&gt;</bpt>ProdContosoApp<ept id="5">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">For the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Token format<ept id="1">&lt;/embeddedLabel&gt;</ept>, <bpt id="2">&lt;embeddedLabel&gt;</bpt>Token encryption policy<ept id="2">&lt;/embeddedLabel&gt;</ept>, and <bpt id="3">&lt;embeddedLabel&gt;</bpt>Token lifetime (secs)<ept id="3">&lt;/embeddedLabel&gt;</ept> properties and the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Token Signing Settings<ept id="4">&lt;/embeddedLabel&gt;</ept> section, use the same values that you used for <bpt id="5">&lt;embeddedLabel&gt;</bpt>ProdContosoApp<ept id="5">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>Make sure that you have selected <bpt id="1">&lt;embeddedLabel&gt;</bpt>Google<ept id="1">&lt;/embeddedLabel&gt;</ept> as an <bpt id="2">&lt;embeddedLabel&gt;</bpt>Identity Provider<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Make sure that you have selected <bpt id="1">&lt;embeddedLabel&gt;</bpt>Google<ept id="1">&lt;/embeddedLabel&gt;</ept> as an <bpt id="2">&lt;embeddedLabel&gt;</bpt>Identity Provider<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Rule Groups<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Create new rule group<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Rule Groups<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Create new rule group<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept> at the bottom of the page.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept> at the bottom of the page.</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source>Step 2: Create a Rule Group that simulates the format of the ACS token that the application will receive once the namespace has been migrated to use Google’s OpenID Connect implementation</source>
+            <target state="new">Step 2: Create a Rule Group that simulates the format of the ACS token that the application will receive once the namespace has been migrated to use Google’s OpenID Connect implementation</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="171" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ACS Management Portal<ept id="1">&lt;/embeddedLabel&gt;</ept>, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Rule Groups<ept id="2">&lt;/embeddedLabel&gt;</ept> in the tree on the left-hand side or click the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Rules Group<ept id="3">&lt;/embeddedLabel&gt;</ept> link under the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Getting Started<ept id="4">&lt;/embeddedLabel&gt;</ept> section.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ACS Management Portal<ept id="1">&lt;/embeddedLabel&gt;</ept>, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Rule Groups<ept id="2">&lt;/embeddedLabel&gt;</ept> in the tree on the left-hand side or click the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Rules Group<ept id="3">&lt;/embeddedLabel&gt;</ept> link under the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Getting Started<ept id="4">&lt;/embeddedLabel&gt;</ept> section.</target>
+          </trans-unit>
+          <trans-unit id="172" translate="yes" xml:space="preserve">
+            <source>Then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add<ept id="1">&lt;/embeddedLabel&gt;</ept> on the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Rule Groups<ept id="2">&lt;/embeddedLabel&gt;</ept> page.</source>
+            <target state="new">Then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add<ept id="1">&lt;/embeddedLabel&gt;</ept> on the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Rule Groups<ept id="2">&lt;/embeddedLabel&gt;</ept> page.</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="173" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Rule Group<ept id="1">&lt;/embeddedLabel&gt;</ept> page, provide a name for the new rule group, say <bpt id="2">&lt;embeddedLabel&gt;</bpt>ManualGoogleRuleGroup<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Rule Group<ept id="1">&lt;/embeddedLabel&gt;</ept> page, provide a name for the new rule group, say <bpt id="2">&lt;embeddedLabel&gt;</bpt>ManualGoogleRuleGroup<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="174" translate="yes" xml:space="preserve">
+            <source>Click Save.</source>
+            <target state="new">Click Save.</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="175" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit Rule Group<ept id="1">&lt;/embeddedLabel&gt;</ept> page, click the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept> link.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit Rule Group<ept id="1">&lt;/embeddedLabel&gt;</ept> page, click the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept> link.</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="176" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Claim Rule<ept id="1">&lt;/embeddedLabel&gt;</ept> page, make sure that you have the following values in place and click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Save<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Claim Rule<ept id="1">&lt;/embeddedLabel&gt;</ept> page, make sure that you have the following values in place and click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Save<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="177" translate="yes" xml:space="preserve">
+            <source>This generates a “<bpt id="1">&lt;embeddedLabel&gt;</bpt>passthrough all claims<ept id="1">&lt;/embeddedLabel&gt;</ept>” rule for Google.</source>
+            <target state="new">This generates a “<bpt id="1">&lt;embeddedLabel&gt;</bpt>passthrough all claims<ept id="1">&lt;/embeddedLabel&gt;</ept>” rule for Google.</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="178" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>If<ept id="1">&lt;/embeddedLabel&gt;</ept> section:</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>If<ept id="1">&lt;/embeddedLabel&gt;</ept> section:</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="179" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Identity Provider<ept id="1">&lt;/embeddedLabel&gt;</ept> is <bpt id="2">&lt;embeddedLabel&gt;</bpt>Google<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Identity Provider<ept id="1">&lt;/embeddedLabel&gt;</ept> is <bpt id="2">&lt;embeddedLabel&gt;</bpt>Google<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="180" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Input claim type<ept id="1">&lt;/embeddedLabel&gt;</ept> selection is <bpt id="2">&lt;embeddedLabel&gt;</bpt>Any<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Input claim type<ept id="1">&lt;/embeddedLabel&gt;</ept> selection is <bpt id="2">&lt;embeddedLabel&gt;</bpt>Any<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="181" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Input claim value<ept id="1">&lt;/embeddedLabel&gt;</ept> is <bpt id="2">&lt;embeddedLabel&gt;</bpt>Any<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Input claim value<ept id="1">&lt;/embeddedLabel&gt;</ept> is <bpt id="2">&lt;embeddedLabel&gt;</bpt>Any<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="182" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Then<ept id="1">&lt;/embeddedLabel&gt;</ept> section:</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Then<ept id="1">&lt;/embeddedLabel&gt;</ept> section:</target>
+          </trans-unit>
+        </group>
+        <group id="123">
+          <trans-unit id="183" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Output claim type<ept id="1">&lt;/embeddedLabel&gt;</ept> is <bpt id="2">&lt;embeddedLabel&gt;</bpt>Pass through first claim type<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Output claim type<ept id="1">&lt;/embeddedLabel&gt;</ept> is <bpt id="2">&lt;embeddedLabel&gt;</bpt>Pass through first claim type<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="124">
+          <trans-unit id="184" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Output claim value<ept id="1">&lt;/embeddedLabel&gt;</ept> is <bpt id="2">&lt;embeddedLabel&gt;</bpt>Pass through first input claim value<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Output claim value<ept id="1">&lt;/embeddedLabel&gt;</ept> is <bpt id="2">&lt;embeddedLabel&gt;</bpt>Pass through first input claim value<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="125">
+          <trans-unit id="185" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Rule information<ept id="1">&lt;/embeddedLabel&gt;</ept> section:</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Rule information<ept id="1">&lt;/embeddedLabel&gt;</ept> section:</target>
+          </trans-unit>
+        </group>
+        <group id="126">
+          <trans-unit id="186" translate="yes" xml:space="preserve">
+            <source>Leave the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Description (optional)<ept id="1">&lt;/embeddedLabel&gt;</ept> field blank.</source>
+            <target state="new">Leave the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Description (optional)<ept id="1">&lt;/embeddedLabel&gt;</ept> field blank.</target>
+          </trans-unit>
+        </group>
+        <group id="127">
+          <trans-unit id="187" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit Rule Group<ept id="1">&lt;/embeddedLabel&gt;</ept> page, click the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept> link again.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit Rule Group<ept id="1">&lt;/embeddedLabel&gt;</ept> page, click the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept> link again.</target>
+          </trans-unit>
+        </group>
+        <group id="128">
+          <trans-unit id="188" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Claim Rule<ept id="1">&lt;/embeddedLabel&gt;</ept> page, make sure that you have the following values in place and click Save.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Claim Rule<ept id="1">&lt;/embeddedLabel&gt;</ept> page, make sure that you have the following values in place and click Save.</target>
+          </trans-unit>
+          <trans-unit id="189" translate="yes" xml:space="preserve">
+            <source>This generates a “static” claim rule for Google that simulates addition of a new claim type, <bpt id="1">&lt;embeddedLabel&gt;</bpt>Subject<ept id="1">&lt;/embeddedLabel&gt;</ept>, which is the new user OpenID Connect identifier that Google sends the application upon migration.</source>
+            <target state="new">This generates a “static” claim rule for Google that simulates addition of a new claim type, <bpt id="1">&lt;embeddedLabel&gt;</bpt>Subject<ept id="1">&lt;/embeddedLabel&gt;</ept>, which is the new user OpenID Connect identifier that Google sends the application upon migration.</target>
+          </trans-unit>
+        </group>
+        <group id="129">
+          <trans-unit id="190" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>If<ept id="1">&lt;/embeddedLabel&gt;</ept> section:</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>If<ept id="1">&lt;/embeddedLabel&gt;</ept> section:</target>
+          </trans-unit>
+        </group>
+        <group id="130">
+          <trans-unit id="191" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Identity Provider<ept id="1">&lt;/embeddedLabel&gt;</ept> is <bpt id="2">&lt;embeddedLabel&gt;</bpt>Google<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Identity Provider<ept id="1">&lt;/embeddedLabel&gt;</ept> is <bpt id="2">&lt;embeddedLabel&gt;</bpt>Google<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="131">
+          <trans-unit id="192" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Input claim type<ept id="1">&lt;/embeddedLabel&gt;</ept> selection is <bpt id="2">&lt;embeddedLabel&gt;</bpt>Any<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Input claim type<ept id="1">&lt;/embeddedLabel&gt;</ept> selection is <bpt id="2">&lt;embeddedLabel&gt;</bpt>Any<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="132">
+          <trans-unit id="193" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Input claim value<ept id="1">&lt;/embeddedLabel&gt;</ept> is <bpt id="2">&lt;embeddedLabel&gt;</bpt>Any<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Input claim value<ept id="1">&lt;/embeddedLabel&gt;</ept> is <bpt id="2">&lt;embeddedLabel&gt;</bpt>Any<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="133">
+          <trans-unit id="194" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Then<ept id="1">&lt;/embeddedLabel&gt;</ept> section:</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Then<ept id="1">&lt;/embeddedLabel&gt;</ept> section:</target>
+          </trans-unit>
+        </group>
+        <group id="134">
+          <trans-unit id="195" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Output claim type<ept id="1">&lt;/embeddedLabel&gt;</ept> is <bpt id="2">&lt;embeddedLabel&gt;</bpt>Enter type<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Output claim type<ept id="1">&lt;/embeddedLabel&gt;</ept> is <bpt id="2">&lt;embeddedLabel&gt;</bpt>Enter type<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="196" translate="yes" xml:space="preserve">
+            <source>In the field, type <bpt id="1">&lt;userInput&gt;</bpt>http://schemas.microsoft.com/identity/claims/subject<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">In the field, type <bpt id="1">&lt;userInput&gt;</bpt>http://schemas.microsoft.com/identity/claims/subject<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="135">
+          <trans-unit id="197" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Output claim value<ept id="1">&lt;/embeddedLabel&gt;</ept> is <bpt id="2">&lt;embeddedLabel&gt;</bpt>Enter value<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Output claim value<ept id="1">&lt;/embeddedLabel&gt;</ept> is <bpt id="2">&lt;embeddedLabel&gt;</bpt>Enter value<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="198" translate="yes" xml:space="preserve">
+            <source>In the field, type <bpt id="1">&lt;userInput&gt;</bpt>123456<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">In the field, type <bpt id="1">&lt;userInput&gt;</bpt>123456<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="136">
+          <trans-unit id="199" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Rule information<ept id="1">&lt;/embeddedLabel&gt;</ept> section:</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Rule information<ept id="1">&lt;/embeddedLabel&gt;</ept> section:</target>
+          </trans-unit>
+        </group>
+        <group id="137">
+          <trans-unit id="200" translate="yes" xml:space="preserve">
+            <source>Leave the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Description (optional)<ept id="1">&lt;/embeddedLabel&gt;</ept> field blank.</source>
+            <target state="new">Leave the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Description (optional)<ept id="1">&lt;/embeddedLabel&gt;</ept> field blank.</target>
+          </trans-unit>
+        </group>
+        <group id="138">
+          <trans-unit id="201" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept> on the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Edit Rule Group<ept id="2">&lt;/embeddedLabel&gt;</ept> page.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept> on the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Edit Rule Group<ept id="2">&lt;/embeddedLabel&gt;</ept> page.</target>
+          </trans-unit>
+        </group>
+        <group id="139">
+          <trans-unit id="202" translate="yes" xml:space="preserve">
+            <source>Step 3: Associate the new Rule Group with the test instance of the application</source>
+            <target state="new">Step 3: Associate the new Rule Group with the test instance of the application</target>
+          </trans-unit>
+        </group>
+        <group id="140">
+          <trans-unit id="203" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ACS Management Portal<ept id="1">&lt;/embeddedLabel&gt;</ept>, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Relying Party Applications<ept id="2">&lt;/embeddedLabel&gt;</ept> in the tree on the left-hand side or click the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Relying Party Applications<ept id="3">&lt;/embeddedLabel&gt;</ept> link under the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Getting Started<ept id="4">&lt;/embeddedLabel&gt;</ept> section.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ACS Management Portal<ept id="1">&lt;/embeddedLabel&gt;</ept>, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Relying Party Applications<ept id="2">&lt;/embeddedLabel&gt;</ept> in the tree on the left-hand side or click the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Relying Party Applications<ept id="3">&lt;/embeddedLabel&gt;</ept> link under the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Getting Started<ept id="4">&lt;/embeddedLabel&gt;</ept> section.</target>
+          </trans-unit>
+          <trans-unit id="204" translate="yes" xml:space="preserve">
+            <source>Then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>TestContosoApp<ept id="1">&lt;/embeddedLabel&gt;</ept> on the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Relying Party Applications<ept id="2">&lt;/embeddedLabel&gt;</ept> page.</source>
+            <target state="new">Then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>TestContosoApp<ept id="1">&lt;/embeddedLabel&gt;</ept> on the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Relying Party Applications<ept id="2">&lt;/embeddedLabel&gt;</ept> page.</target>
+          </trans-unit>
+        </group>
+        <group id="141">
+          <trans-unit id="205" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit Relying Party<ept id="1">&lt;/embeddedLabel&gt;</ept> page, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>ManualGoogleRuleGroup<ept id="2">&lt;/embeddedLabel&gt;</ept> in the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Authentication Settings<ept id="3">&lt;/embeddedLabel&gt;</ept> section and click <bpt id="4">&lt;embeddedLabel&gt;</bpt>Save<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit Relying Party<ept id="1">&lt;/embeddedLabel&gt;</ept> page, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>ManualGoogleRuleGroup<ept id="2">&lt;/embeddedLabel&gt;</ept> in the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Authentication Settings<ept id="3">&lt;/embeddedLabel&gt;</ept> section and click <bpt id="4">&lt;embeddedLabel&gt;</bpt>Save<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="142">
+          <trans-unit id="206" translate="yes" xml:space="preserve">
+            <source>At this point, all Google sign-in requests to your test applications will include the new claim type.</source>
+            <target state="new">At this point, all Google sign-in requests to your test applications will include the new claim type.</target>
+          </trans-unit>
+        </group>
+        <group id="143">
+          <trans-unit id="207" translate="yes" xml:space="preserve">
+            <source>Step 4: Test to ensure that your application can handle the addition of the Subject claim type</source>
+            <target state="new">Step 4: Test to ensure that your application can handle the addition of the Subject claim type</target>
+          </trans-unit>
+        </group>
+        <group id="144">
+          <trans-unit id="208" translate="yes" xml:space="preserve">
+            <source>Test your application to ensure that it can handle the presence of the new claim type (<bpt id="1">&lt;embeddedLabel&gt;</bpt>Subject<ept id="1">&lt;/embeddedLabel&gt;</ept>) gracefully.</source>
+            <target state="new">Test your application to ensure that it can handle the presence of the new claim type (<bpt id="1">&lt;embeddedLabel&gt;</bpt>Subject<ept id="1">&lt;/embeddedLabel&gt;</ept>) gracefully.</target>
+          </trans-unit>
+          <trans-unit id="209" translate="yes" xml:space="preserve">
+            <source>Normally, a well written application should be robust to new claim types being added to the token.</source>
+            <target state="new">Normally, a well written application should be robust to new claim types being added to the token.</target>
+          </trans-unit>
+          <trans-unit id="210" translate="yes" xml:space="preserve">
+            <source>Find and fix any issues.</source>
+            <target state="new">Find and fix any issues.</target>
+          </trans-unit>
+          <trans-unit id="211" translate="yes" xml:space="preserve">
+            <source>Optionally, you can also follow the <ph id="1">&lt;link xlink:href="#BKMK_HowToMigrateOpenID20ToOpenIDConnect" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to: Migrate your users’ existing Open ID 2.0 identifiers to new OpenID Connect user identifiers&lt;/link&gt;</ph> section to do user identifier mapping.</source>
+            <target state="new">Optionally, you can also follow the <ph id="1">&lt;link xlink:href="#BKMK_HowToMigrateOpenID20ToOpenIDConnect" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to: Migrate your users’ existing Open ID 2.0 identifiers to new OpenID Connect user identifiers&lt;/link&gt;</ph> section to do user identifier mapping.</target>
+          </trans-unit>
+        </group>
+        <group id="145">
+          <trans-unit id="212" translate="yes" xml:space="preserve">
+            <source>Step 5: Migrate your production environment</source>
+            <target state="new">Step 5: Migrate your production environment</target>
+          </trans-unit>
+        </group>
+        <group id="146">
+          <trans-unit id="213" translate="yes" xml:space="preserve">
+            <source>Re-build and deploy your production application (<bpt id="1">&lt;embeddedLabel&gt;</bpt>ProdContosoApp<ept id="1">&lt;/embeddedLabel&gt;</ept>).</source>
+            <target state="new">Re-build and deploy your production application (<bpt id="1">&lt;embeddedLabel&gt;</bpt>ProdContosoApp<ept id="1">&lt;/embeddedLabel&gt;</ept>).</target>
+          </trans-unit>
+          <trans-unit id="214" translate="yes" xml:space="preserve">
+            <source>Migrate the namespace (<bpt id="1">&lt;embeddedLabel&gt;</bpt>ns-contoso<ept id="1">&lt;/embeddedLabel&gt;</ept>) to use Google’s OpenID Connect implementation by following the steps in the <ph id="2">&lt;link xlink:href="#BKMK_MiigrationWalkthrough" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Migration walkthrough&lt;/link&gt;</ph>.</source>
+            <target state="new">Migrate the namespace (<bpt id="1">&lt;embeddedLabel&gt;</bpt>ns-contoso<ept id="1">&lt;/embeddedLabel&gt;</ept>) to use Google’s OpenID Connect implementation by following the steps in the <ph id="2">&lt;link xlink:href="#BKMK_MiigrationWalkthrough" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Migration walkthrough&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="215" translate="yes" xml:space="preserve">
+            <source>Verify that <bpt id="1">&lt;embeddedLabel&gt;</bpt>ProdContosoApp<ept id="1">&lt;/embeddedLabel&gt;</ept> works as expected.</source>
+            <target state="new">Verify that <bpt id="1">&lt;embeddedLabel&gt;</bpt>ProdContosoApp<ept id="1">&lt;/embeddedLabel&gt;</ept> works as expected.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

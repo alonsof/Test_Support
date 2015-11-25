@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="pt-BR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzDEKwzAMQNGr+AAWWLaSyB07dS69gGxLEEiTkrqQ49fDnx58s6SFYgVVIiC0ACVwgRpQ5pwNRbJ3gbValAYjBtLAIDFkECuJiGOTWbxTnTGntgBiHi+OApKXChM2mzSh0cTeoXefDvend9e2munVb+dxdO/isIGP31v21yn7d5O+HvsfFuV/waIAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Federation Metadata</source>
+            <target state="new">Federation Metadata</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory (Azure AD) publishes a federation metadata document for services that are configured to accept the security tokens that Azure Active Directory issues.</source>
+            <target state="new">Azure Active Directory (Azure AD) publishes a federation metadata document for services that are configured to accept the security tokens that Azure Active Directory issues.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>The federation metadata document format is described in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Web Services Federation Language (WS-Federation) Version 1.2<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://docs.oasis-open.org/wsfed/federation/v1.2/os/ws-federation-1.2-spec-os.html&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, which extends <bpt id="4">&lt;externalLink&gt;</bpt><bpt id="5">&lt;linkText&gt;</bpt>Metadata for the OASIS Security Assertion Markup Language (SAML) V2.0<ept id="5">&lt;/linkText&gt;</ept><ph id="6">&lt;linkUri&gt;http://docs.oasis-open.org/security/saml/v2.0/saml-metadata-2.0-os.pdf&lt;/linkUri&gt;</ph><ept id="4">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">The federation metadata document format is described in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Web Services Federation Language (WS-Federation) Version 1.2<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://docs.oasis-open.org/wsfed/federation/v1.2/os/ws-federation-1.2-spec-os.html&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, which extends <bpt id="4">&lt;externalLink&gt;</bpt><bpt id="5">&lt;linkText&gt;</bpt>Metadata for the OASIS Security Assertion Markup Language (SAML) V2.0<ept id="5">&lt;/linkText&gt;</ept><ph id="6">&lt;linkUri&gt;http://docs.oasis-open.org/security/saml/v2.0/saml-metadata-2.0-os.pdf&lt;/linkUri&gt;</ph><ept id="4">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>This topic lists the metadata endpoints and explains the content in the metadata document that services that accept Azure AD tokens need to use.</source>
+            <target state="new">This topic lists the metadata endpoints and explains the content in the metadata document that services that accept Azure AD tokens need to use.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Tenant-Specific and Tenant-Independent Metadata Endpoints</source>
+            <target state="new">Tenant-Specific and Tenant-Independent Metadata Endpoints</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Azure AD publishes tenant-specific and tenant-independent endpoints.</source>
+            <target state="new">Azure AD publishes tenant-specific and tenant-independent endpoints.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Tenant-specific endpoints are designed for a particular tenant.</source>
+            <target state="new">Tenant-specific endpoints are designed for a particular tenant.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The tenant-specific federation metadata includes information about the tenant, including tenant-specific issuer and endpoint information.</source>
+            <target state="new">The tenant-specific federation metadata includes information about the tenant, including tenant-specific issuer and endpoint information.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Applications that restrict access to a single tenant use tenant-specific endpoints.</source>
+            <target state="new">Applications that restrict access to a single tenant use tenant-specific endpoints.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Tenant-independent endpoints provide information that is common to all Azure AD tenants.</source>
+            <target state="new">Tenant-independent endpoints provide information that is common to all Azure AD tenants.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>This information applies to tenants hosted at <bpt id="1">&lt;newTerm&gt;</bpt>login.microsoftonline.com<ept id="1">&lt;/newTerm&gt;</ept> and is shared across tenants.</source>
+            <target state="new">This information applies to tenants hosted at <bpt id="1">&lt;newTerm&gt;</bpt>login.microsoftonline.com<ept id="1">&lt;/newTerm&gt;</ept> and is shared across tenants.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Tenant-independent endpoints are recommended for multi-tenant applications, since they are not associated with any particular tenant.</source>
+            <target state="new">Tenant-independent endpoints are recommended for multi-tenant applications, since they are not associated with any particular tenant.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Federation Metadata Endpoints</source>
+            <target state="new">Federation Metadata Endpoints</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Azure AD publishes federation metadata at <ph id="1">&lt;codeInline&gt;https://login.microsoftonline.com/%%amp;lt;TenantDomainName%%amp;gt;/FederationMetadata/2007-06/FederationMetadata.xml&lt;/codeInline&gt;</ph> where the value of &lt;TenantDomainName&gt; can be "common" or a tenant-specific value.</source>
+            <target state="new">Azure AD publishes federation metadata at <ph id="1">&lt;codeInline&gt;https://login.microsoftonline.com/%%amp;lt;TenantDomainName%%amp;gt;/FederationMetadata/2007-06/FederationMetadata.xml&lt;/codeInline&gt;</ph> where the value of &lt;TenantDomainName&gt; can be "common" or a tenant-specific value.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The endpoints are addressable, so you can go to the address site to view the federation metadata for a tenant.</source>
+            <target state="new">The endpoints are addressable, so you can go to the address site to view the federation metadata for a tenant.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>For <bpt id="1">&lt;embeddedLabel&gt;</bpt>tenant-specific endpoints<ept id="1">&lt;/embeddedLabel&gt;</ept>, the &lt;TenantDomainName&gt; can be one of the following types: </source>
+            <target state="new">For <bpt id="1">&lt;embeddedLabel&gt;</bpt>tenant-specific endpoints<ept id="1">&lt;/embeddedLabel&gt;</ept>, the &lt;TenantDomainName&gt; can be one of the following types: </target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>A registered domain name of an Azure AD tenant, such as: <ph id="1">&lt;codeInline&gt;contoso.onmicrosoft.com&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">A registered domain name of an Azure AD tenant, such as: <ph id="1">&lt;codeInline&gt;contoso.onmicrosoft.com&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The immutable tenant id of the domain, such as <ph id="1">&lt;codeInline&gt;72f988bf-86f1-41af-91ab-2d7cd011db45&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">The immutable tenant id of the domain, such as <ph id="1">&lt;codeInline&gt;72f988bf-86f1-41af-91ab-2d7cd011db45&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>For <bpt id="1">&lt;embeddedLabel&gt;</bpt>tenant-independent endpoints<ept id="1">&lt;/embeddedLabel&gt;</ept>, the &lt;TenantDomainName&gt; is <ph id="2">&lt;system&gt;common&lt;/system&gt;</ph>.</source>
+            <target state="new">For <bpt id="1">&lt;embeddedLabel&gt;</bpt>tenant-independent endpoints<ept id="1">&lt;/embeddedLabel&gt;</ept>, the &lt;TenantDomainName&gt; is <ph id="2">&lt;system&gt;common&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>This name indicates that only the Federation Metadata elements that are common to all Azure AD tenants that are hosted at login.microsoftonline.com.</source>
+            <target state="new">This name indicates that only the Federation Metadata elements that are common to all Azure AD tenants that are hosted at login.microsoftonline.com.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>For example, a tenant-specific endpoint might be <ph id="1">&lt;codeInline&gt;https:// login.microsoftonline.com/contoso.onmicrosoft.comFederationMetadata/2007-06/FederationMetadata.xml&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">For example, a tenant-specific endpoint might be <ph id="1">&lt;codeInline&gt;https:// login.microsoftonline.com/contoso.onmicrosoft.comFederationMetadata/2007-06/FederationMetadata.xml&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>The tenant-independent endpoint is <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>https://login.microsoftonline.com/common/FederationMetadata/2007-06/FederationMetadata.xml<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://login.microsoftonline.com/common/FederationMetadata/2007-06/FederationMetadata.xml&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">The tenant-independent endpoint is <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>https://login.microsoftonline.com/common/FederationMetadata/2007-06/FederationMetadata.xml<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://login.microsoftonline.com/common/FederationMetadata/2007-06/FederationMetadata.xml&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Contents of Federation Metadata</source>
+            <target state="new">Contents of Federation Metadata</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>The following section provides information needed by services that consume the tokens issued by Azure AD.</source>
+            <target state="new">The following section provides information needed by services that consume the tokens issued by Azure AD.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>EntityID</source>
+            <target state="new">EntityID</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;EntityDescriptor&lt;/system&gt;</ph> element contains an <ph id="2">&lt;system&gt;EntityID&lt;/system&gt;</ph> attribute.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;EntityDescriptor&lt;/system&gt;</ph> element contains an <ph id="2">&lt;system&gt;EntityID&lt;/system&gt;</ph> attribute.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>The value of the <ph id="1">&lt;system&gt;EntityID&lt;/system&gt;</ph> attribute represents the issuer, that is, the security token service (STS) that issued the token.</source>
+            <target state="new">The value of the <ph id="1">&lt;system&gt;EntityID&lt;/system&gt;</ph> attribute represents the issuer, that is, the security token service (STS) that issued the token.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>It is important to validate the issuer so you can confirm which tenant issued a token.</source>
+            <target state="new">It is important to validate the issuer so you can confirm which tenant issued a token.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>The following metadata shows a sample tenant-specific <ph id="1">&lt;system&gt;EntityDescriptor&lt;/system&gt;</ph> element with an <ph id="2">&lt;system&gt;EntityID&lt;/system&gt;</ph> element.</source>
+            <target state="new">The following metadata shows a sample tenant-specific <ph id="1">&lt;system&gt;EntityDescriptor&lt;/system&gt;</ph> element with an <ph id="2">&lt;system&gt;EntityID&lt;/system&gt;</ph> element.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;EntityID&lt;/system&gt;</ph> in the tenant-independent endpoint provides a template that can be used to generate a tenant-specific <ph id="2">&lt;system&gt;EntityID&lt;/system&gt;</ph> value.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;EntityID&lt;/system&gt;</ph> in the tenant-independent endpoint provides a template that can be used to generate a tenant-specific <ph id="2">&lt;system&gt;EntityID&lt;/system&gt;</ph> value.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Replace the "{tenant}" literal in the tenant-independent endpoint with the value of the <ph id="1">&lt;system&gt;TenantID&lt;/system&gt;</ph> claim from a token.</source>
+            <target state="new">Replace the "{tenant}" literal in the tenant-independent endpoint with the value of the <ph id="1">&lt;system&gt;TenantID&lt;/system&gt;</ph> claim from a token.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>The resulting value will be the same as the token issuer.</source>
+            <target state="new">The resulting value will be the same as the token issuer.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>This strategy allows a multi-tenant application to validate the issuer for a given tenant.</source>
+            <target state="new">This strategy allows a multi-tenant application to validate the issuer for a given tenant.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>The following metadata shows a sample tenant-independent <ph id="1">&lt;system&gt;EntityID&lt;/system&gt;</ph> element.</source>
+            <target state="new">The following metadata shows a sample tenant-independent <ph id="1">&lt;system&gt;EntityID&lt;/system&gt;</ph> element.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>In this element, {tenant} is a literal, not a placeholder.</source>
+            <target state="new">In this element, {tenant} is a literal, not a placeholder.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Token Signing Certificate</source>
+            <target state="new">Token Signing Certificate</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>When a service receives a token that is issued by a Azure AD tenant, the signature of the token must be validated with a signing key that is published in the federation metadata document.</source>
+            <target state="new">When a service receives a token that is issued by a Azure AD tenant, the signature of the token must be validated with a signing key that is published in the federation metadata document.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>The federation metadata includes the public portion of the certificates that the tenants use for token signing.</source>
+            <target state="new">The federation metadata includes the public portion of the certificates that the tenants use for token signing.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>The certificate raw bytes appear in the <ph id="1">&lt;system&gt;KeyDescriptor&lt;/system&gt;</ph> element.</source>
+            <target state="new">The certificate raw bytes appear in the <ph id="1">&lt;system&gt;KeyDescriptor&lt;/system&gt;</ph> element.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>The token signing certificate is valid for signing only when the value of the <ph id="1">&lt;system&gt;use&lt;/system&gt;</ph> attribute is <ph id="2">&lt;system&gt;signing&lt;/system&gt;</ph>.</source>
+            <target state="new">The token signing certificate is valid for signing only when the value of the <ph id="1">&lt;system&gt;use&lt;/system&gt;</ph> attribute is <ph id="2">&lt;system&gt;signing&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>A federation metadata document published by Azure AD can have multiple signing keys , such as when Azure AD is preparing to update the signing certificate.</source>
+            <target state="new">A federation metadata document published by Azure AD can have multiple signing keys , such as when Azure AD is preparing to update the signing certificate.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>When a federation metadata document includes more than one certificate, a service that is validating the tokens should support all certificates in the document.</source>
+            <target state="new">When a federation metadata document includes more than one certificate, a service that is validating the tokens should support all certificates in the document.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>The following metadata shows a sample <ph id="1">&lt;system&gt;KeyDescriptor&lt;/system&gt;</ph> element with a signing key.</source>
+            <target state="new">The following metadata shows a sample <ph id="1">&lt;system&gt;KeyDescriptor&lt;/system&gt;</ph> element with a signing key.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;KeyDescriptor&lt;/system&gt;</ph> element appears in two places in the federation metadata document; in the WS-Federation-specific section and the SAML-specific section.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;KeyDescriptor&lt;/system&gt;</ph> element appears in two places in the federation metadata document; in the WS-Federation-specific section and the SAML-specific section.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>The certificates published in both sections will be the same.</source>
+            <target state="new">The certificates published in both sections will be the same.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>In the WS-Federation-specific section, a WS-Federation metadata reader would read the certificates from a <ph id="1">&lt;system&gt;RoleDescriptor&lt;/system&gt;</ph> element with the <ph id="2">&lt;system&gt;SecurityTokenServiceType&lt;/system&gt;</ph> type.</source>
+            <target state="new">In the WS-Federation-specific section, a WS-Federation metadata reader would read the certificates from a <ph id="1">&lt;system&gt;RoleDescriptor&lt;/system&gt;</ph> element with the <ph id="2">&lt;system&gt;SecurityTokenServiceType&lt;/system&gt;</ph> type.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>The following metadata shows a sample <ph id="1">&lt;system&gt;RoleDescriptor&lt;/system&gt;</ph> element.</source>
+            <target state="new">The following metadata shows a sample <ph id="1">&lt;system&gt;RoleDescriptor&lt;/system&gt;</ph> element.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>In the SAML-specific section, a WS-Federation metadata reader would read the certificates from a <ph id="1">&lt;system&gt;IDPSSODescriptor&lt;/system&gt;</ph> element.</source>
+            <target state="new">In the SAML-specific section, a WS-Federation metadata reader would read the certificates from a <ph id="1">&lt;system&gt;IDPSSODescriptor&lt;/system&gt;</ph> element.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>The following metadata shows a sample <ph id="1">&lt;system&gt;IDPSSODescriptor&lt;/system&gt;</ph> element.</source>
+            <target state="new">The following metadata shows a sample <ph id="1">&lt;system&gt;IDPSSODescriptor&lt;/system&gt;</ph> element.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>There are no differences in the format of tenant-specific and tenant-independent certificates.</source>
+            <target state="new">There are no differences in the format of tenant-specific and tenant-independent certificates.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>WS-Federation Endpoint URL</source>
+            <target state="new">WS-Federation Endpoint URL</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>The federation metadata includes the URL that is Azure AD uses for single sign-in and single sign-out in WS-Federation protocol.</source>
+            <target state="new">The federation metadata includes the URL that is Azure AD uses for single sign-in and single sign-out in WS-Federation protocol.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>This endpoint appears in the <ph id="1">&lt;system&gt;PassiveRequestorEndpoint&lt;/system&gt;</ph> element.</source>
+            <target state="new">This endpoint appears in the <ph id="1">&lt;system&gt;PassiveRequestorEndpoint&lt;/system&gt;</ph> element.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>The following metadata shows a sample <ph id="1">&lt;system&gt;PassiveRequestorEndpoint&lt;/system&gt;</ph> element for a tenant-specific endpoint.</source>
+            <target state="new">The following metadata shows a sample <ph id="1">&lt;system&gt;PassiveRequestorEndpoint&lt;/system&gt;</ph> element for a tenant-specific endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>For the tenant-independent endpoint, the WS-Federation URL appears in the WS-Federation endpoint, as shown in the following sample.</source>
+            <target state="new">For the tenant-independent endpoint, the WS-Federation URL appears in the WS-Federation endpoint, as shown in the following sample.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>SAML Protocol Endpoint URL</source>
+            <target state="new">SAML Protocol Endpoint URL</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>The federation metadata includes the URL that Azure AD uses for single sign-in and single sign-out in SAML 2.0 protocol.</source>
+            <target state="new">The federation metadata includes the URL that Azure AD uses for single sign-in and single sign-out in SAML 2.0 protocol.</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>These endpoints appear in the <ph id="1">&lt;system&gt;IDPSSODescriptor&lt;/system&gt;</ph> element.</source>
+            <target state="new">These endpoints appear in the <ph id="1">&lt;system&gt;IDPSSODescriptor&lt;/system&gt;</ph> element.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>The sign-in and sign-out URLs appear in the <ph id="1">&lt;system&gt;SingleSignOnService&lt;/system&gt;</ph> and <ph id="2">&lt;system&gt;SingleLogoutService&lt;/system&gt;</ph> elements.</source>
+            <target state="new">The sign-in and sign-out URLs appear in the <ph id="1">&lt;system&gt;SingleSignOnService&lt;/system&gt;</ph> and <ph id="2">&lt;system&gt;SingleLogoutService&lt;/system&gt;</ph> elements.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>The following metadata shows a sample <ph id="1">&lt;system&gt;PassiveResistorEndpoint&lt;/system&gt;</ph> for a tenant-specific endpoint.</source>
+            <target state="new">The following metadata shows a sample <ph id="1">&lt;system&gt;PassiveResistorEndpoint&lt;/system&gt;</ph> for a tenant-specific endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Similarly the endpoints for the common SAML 2.0 protocol endpoints are published in the tenant-independent federation metadata, as shown in the following sample.</source>
+            <target state="new">Similarly the endpoints for the common SAML 2.0 protocol endpoints are published in the tenant-independent federation metadata, as shown in the following sample.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory Authentication Protocols</source>
+            <target state="new">Azure Active Directory Authentication Protocols</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

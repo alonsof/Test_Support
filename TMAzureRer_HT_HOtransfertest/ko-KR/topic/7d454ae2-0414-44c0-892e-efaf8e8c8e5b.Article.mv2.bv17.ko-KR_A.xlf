@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzFEKwyAMgOGreIAE1EarO8Fgb2MXiGkCZV2FroMefz7/H7/ZpI2ioCoRUjCPzZeG4gPnWi0wV3DcmqU6K3riijTFhEU4oGaZcpa6LJ7AzQslYo1DhfEi8VhqVFRjK1qkaGrgArh3x8cT3LWtZnqdt6P3E1wcbQZ3/314fx28fzc+177/AfnR8peiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Step 5: Configure an XML Request-Reply Bridge</source>
+            <target state="new">Step 5: Configure an XML Request-Reply Bridge</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Lists the steps to configure an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph>.</source>
+            <target state="new">Lists the steps to configure an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>The bridge receives XML sales order messages sent from Contoso.</source>
+            <target state="new">The bridge receives XML sales order messages sent from Contoso.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>To configure a bridge for the scenario in this tutorial, you must:</source>
+            <target state="new">To configure a bridge for the scenario in this tutorial, you must:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The bridge must validate all incoming XML messages against the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ECommerceSalesOrder.xsd<ept id="1">&lt;/embeddedLabel&gt;</ept> schema.</source>
+            <target state="new">The bridge must validate all incoming XML messages against the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ECommerceSalesOrder.xsd<ept id="1">&lt;/embeddedLabel&gt;</ept> schema.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>This is the schema in which Northwind expects Contoso to send sales order messages.</source>
+            <target state="new">This is the schema in which Northwind expects Contoso to send sales order messages.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The bridge must transform the message in <bpt id="1">&lt;embeddedLabel&gt;</bpt>ECommerceSalesOrder<ept id="1">&lt;/embeddedLabel&gt;</ept> schema to the schema for inserting data into the <bpt id="2">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="2">&lt;/embeddedLabel&gt;</ept> SQL Server table.</source>
+            <target state="new">The bridge must transform the message in <bpt id="1">&lt;embeddedLabel&gt;</bpt>ECommerceSalesOrder<ept id="1">&lt;/embeddedLabel&gt;</ept> schema to the schema for inserting data into the <bpt id="2">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="2">&lt;/embeddedLabel&gt;</ept> SQL Server table.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>To do so, the bridge must use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>SalesOrder_SQL<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph>.</source>
+            <target state="new">To do so, the bridge must use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>SalesOrder_SQL<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The bridge must route the message to the <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph> endpoint.</source>
+            <target state="new">The bridge must route the message to the <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph> endpoint.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>While routing the message, the bridge must also include the relevant headers that must be added to successfully insert messages into the <bpt id="1">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="1">&lt;/embeddedLabel&gt;</ept> table.</source>
+            <target state="new">While routing the message, the bridge must also include the relevant headers that must be added to successfully insert messages into the <bpt id="1">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="1">&lt;/embeddedLabel&gt;</ept> table.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>This topic lists the steps to achieve these tasks as part of a <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> configuration.</source>
+            <target state="new">This topic lists the steps to achieve these tasks as part of a <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> configuration.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>To configure the <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph></source>
+            <target state="new">To configure the <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Double click on the .bcs file in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>EAIEDITutorial<ept id="1">&lt;/embeddedLabel&gt;</ept> project to open the message flow.</source>
+            <target state="new">Double click on the .bcs file in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>EAIEDITutorial<ept id="1">&lt;/embeddedLabel&gt;</ept> project to open the message flow.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Right-click anywhere on the design area and select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Right-click anywhere on the design area and select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BizTalk Service URL<ept id="1">&lt;/embeddedLabel&gt;</ept> property, verify that you have the <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> URL entered.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BizTalk Service URL<ept id="1">&lt;/embeddedLabel&gt;</ept> property, verify that you have the <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> URL entered.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>This is the name that you entered in <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=211879&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> when creating the <ph id="4">&lt;token&gt;af_integration&lt;/token&gt;</ph>.</source>
+            <target state="new">This is the name that you entered in <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=211879&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> when creating the <ph id="4">&lt;token&gt;af_integration&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Right click the <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph> (added in <ph id="2">&lt;link xlink:href="0594fc19-ebfa-4484-b6ef-3e8cdaf1cdc0" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 3: Create and Configure LOB Targets&lt;/link&gt;</ph>) and select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Properties<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Right click the <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph> (added in <ph id="2">&lt;link xlink:href="0594fc19-ebfa-4484-b6ef-3e8cdaf1cdc0" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 3: Create and Configure LOB Targets&lt;/link&gt;</ph>) and select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Properties<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Operations<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, copy the value of the first operation and save it to a notepad.</source>
+            <target state="new">Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Operations<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, copy the value of the first operation and save it to a notepad.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>This value is used later.</source>
+            <target state="new">This value is used later.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>For this tutorial, the value is <ph id="1">&lt;codeInline&gt;TableOp/Insert/dbo/SalesOrder&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">For this tutorial, the value is <ph id="1">&lt;codeInline&gt;TableOp/Insert/dbo/SalesOrder&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Drag and drop an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> from toolbox to the message flow area.</source>
+            <target state="new">Drag and drop an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> from toolbox to the message flow area.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>You use a <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> to send the response back to the client that the sales order data is inserted successfully in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="2">&lt;/embeddedLabel&gt;</ept> table.</source>
+            <target state="new">You use a <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> to send the response back to the client that the sales order data is inserted successfully in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="2">&lt;/embeddedLabel&gt;</ept> table.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Configure the <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph>:</source>
+            <target state="new">Configure the <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph>:</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Double-click the <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> on the message flow area.</source>
+            <target state="new">Double-click the <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> on the message flow area.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Add the request and response schemas to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Message Type<ept id="1">&lt;/embeddedLabel&gt;</ept> box:</source>
+            <target state="new">Add the request and response schemas to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Message Type<ept id="1">&lt;/embeddedLabel&gt;</ept> box:</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Request schema</source>
+            <target state="new">Request schema</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>SalesOrder (with the namespace <ph id="1">&lt;codeInline&gt;http://ECommerceSalesOrder.Inbound&lt;/codeInline&gt;</ph>)</source>
+            <target state="new">SalesOrder (with the namespace <ph id="1">&lt;codeInline&gt;http://ECommerceSalesOrder.Inbound&lt;/codeInline&gt;</ph>)</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Response schema</source>
+            <target state="new">Response schema</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>InsertResponse</source>
+            <target state="new">InsertResponse</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>To add request and response schemas, see <ph id="1">&lt;link xlink:href="7e5fedb4-9ab1-4470-aa8a-204633391da7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;XML Request-Reply Bridge : Configuring the Enrich Stage for the Response Message&lt;/link&gt;</ph>.</source>
+            <target state="new">To add request and response schemas, see <ph id="1">&lt;link xlink:href="7e5fedb4-9ab1-4470-aa8a-204633391da7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;XML Request-Reply Bridge : Configuring the Enrich Stage for the Response Message&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Add the <bpt id="1">&lt;embeddedLabel&gt;</bpt>SalesOrder_SQL<ept id="1">&lt;/embeddedLabel&gt;</ept> transform to the <ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph>s stage in the request path of the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph>.</source>
+            <target state="new">Add the <bpt id="1">&lt;embeddedLabel&gt;</bpt>SalesOrder_SQL<ept id="1">&lt;/embeddedLabel&gt;</ept> transform to the <ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph>s stage in the request path of the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>XmlTransform<ept id="1">&lt;/embeddedLabel&gt;</ept> activity under <ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph> stage.</source>
+            <target state="new">Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>XmlTransform<ept id="1">&lt;/embeddedLabel&gt;</ept> activity under <ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph> stage.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>In Properties, select the ellipsis <bpt id="1">&lt;embeddedLabel&gt;</bpt>(…)<ept id="1">&lt;/embeddedLabel&gt;</ept> button next to the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Maps<ept id="2">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">In Properties, select the ellipsis <bpt id="1">&lt;embeddedLabel&gt;</bpt>(…)<ept id="1">&lt;/embeddedLabel&gt;</ept> button next to the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Maps<ept id="2">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Maps Selection<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>SalesOrder_SQL.trfm<ept id="2">&lt;/embeddedLabel&gt;</ept> <ph id="3">&lt;token&gt;transform&lt;/token&gt;</ph> and select <bpt id="4">&lt;embeddedLabel&gt;</bpt>OK<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Maps Selection<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>SalesOrder_SQL.trfm<ept id="2">&lt;/embeddedLabel&gt;</ept> <ph id="3">&lt;token&gt;transform&lt;/token&gt;</ph> and select <bpt id="4">&lt;embeddedLabel&gt;</bpt>OK<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>The selected map is now reflected in the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> configuration.</source>
+            <target state="new">The selected map is now reflected in the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> configuration.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Leave everything else in the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> configuration to its default value.</source>
+            <target state="new">Leave everything else in the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> configuration to its default value.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Go back to the message flow area (MessageFlowItinerary.bcs).</source>
+            <target state="new">Go back to the message flow area (MessageFlowItinerary.bcs).</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Connector<ept id="1">&lt;/embeddedLabel&gt;</ept> in the toolbox and join the <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>orderprocessing_sqlgetorder<ept id="3">&lt;/embeddedLabel&gt;</ept> entity.</source>
+            <target state="new">Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Connector<ept id="1">&lt;/embeddedLabel&gt;</ept> in the toolbox and join the <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>orderprocessing_sqlgetorder<ept id="3">&lt;/embeddedLabel&gt;</ept> entity.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Set the filter condition on the connector between the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> and the <ph id="2">&lt;token&gt;lobrelay&lt;/token&gt;</ph> entity.</source>
+            <target state="new">Set the filter condition on the connector between the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> and the <ph id="2">&lt;token&gt;lobrelay&lt;/token&gt;</ph> entity.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>The business process between Contoso and Northwind does not include any condition, like only specific messages must be inserted into the <bpt id="1">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="1">&lt;/embeddedLabel&gt;</ept> table.</source>
+            <target state="new">The business process between Contoso and Northwind does not include any condition, like only specific messages must be inserted into the <bpt id="1">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="1">&lt;/embeddedLabel&gt;</ept> table.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Hence, the filter condition must allow all messages to go through.</source>
+            <target state="new">Hence, the filter condition must allow all messages to go through.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Select the connector between <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> and the <ph id="2">&lt;token&gt;lobtarget&lt;/token&gt;</ph> entity.</source>
+            <target state="new">Select the connector between <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> and the <ph id="2">&lt;token&gt;lobtarget&lt;/token&gt;</ph> entity.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, select the ellipsis <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> button for <bpt id="3">&lt;embeddedLabel&gt;</bpt>Filter Condition<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, select the ellipsis <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> button for <bpt id="3">&lt;embeddedLabel&gt;</bpt>Filter Condition<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Filter Configuration<ept id="1">&lt;/embeddedLabel&gt;</ept>, set the filter condition to <bpt id="2">&lt;embeddedLabel&gt;</bpt>Match All<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Filter Configuration<ept id="1">&lt;/embeddedLabel&gt;</ept>, set the filter condition to <bpt id="2">&lt;embeddedLabel&gt;</bpt>Match All<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>To insert data into the <bpt id="1">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="1">&lt;/embeddedLabel&gt;</ept> table using the XML message, the message header must include the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Action<ept id="2">&lt;/embeddedLabel&gt;</ept> SOAP header.</source>
+            <target state="new">To insert data into the <bpt id="1">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="1">&lt;/embeddedLabel&gt;</ept> table using the XML message, the message header must include the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Action<ept id="2">&lt;/embeddedLabel&gt;</ept> SOAP header.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>You can set headers on the messages being sent from a <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> using the Route action property, which is available on the connector between the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> and the <ph id="3">&lt;token&gt;lobrelay&lt;/token&gt;</ph>.</source>
+            <target state="new">You can set headers on the messages being sent from a <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> using the Route action property, which is available on the connector between the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> and the <ph id="3">&lt;token&gt;lobrelay&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>On the message flow area, select the connector between <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> and the <bpt id="2">&lt;embeddedLabel&gt;</bpt>orderprocessing_sqlgetorder<ept id="2">&lt;/embeddedLabel&gt;</ept> entity.</source>
+            <target state="new">On the message flow area, select the connector between <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> and the <bpt id="2">&lt;embeddedLabel&gt;</bpt>orderprocessing_sqlgetorder<ept id="2">&lt;/embeddedLabel&gt;</ept> entity.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, select the ellipsis <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> button for <bpt id="3">&lt;embeddedLabel&gt;</bpt>Route Action<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, select the ellipsis <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> button for <bpt id="3">&lt;embeddedLabel&gt;</bpt>Route Action<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Actions<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Actions<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="1">&lt;/embeddedLabel&gt;</ept>, set the properties as shown in the following table:</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="1">&lt;/embeddedLabel&gt;</ept>, set the properties as shown in the following table:</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Under Property (Read From)</source>
+            <target state="new">Under Property (Read From)</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Expression</source>
+            <target state="new">Expression</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Set this to <ph id="1">&lt;codeInline&gt;TableOp/Insert/dbo/SalesOrder&lt;/codeInline&gt;</ph></source>
+            <target state="new">Set this to <ph id="1">&lt;codeInline&gt;TableOp/Insert/dbo/SalesOrder&lt;/codeInline&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Always enter the value for an expression within single quotes.</source>
+            <target state="new">Always enter the value for an expression within single quotes.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Under Destination (Write-To)</source>
+            <target state="new">Under Destination (Write-To)</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Set this to SOAP.</source>
+            <target state="new">Set this to SOAP.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Identifier</source>
+            <target state="new">Identifier</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Set this to Action.</source>
+            <target state="new">Set this to Action.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>With this configuration, when the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> routes the message to the <ph id="2">&lt;token&gt;lobrelay&lt;/token&gt;</ph>, the message includes an <bpt id="3">&lt;embeddedLabel&gt;</bpt>Action<ept id="3">&lt;/embeddedLabel&gt;</ept> header and the value of the header is set to <bpt id="4">&lt;legacyItalic&gt;</bpt>TableOp/Insert/dbo/SalesOrder<ept id="4">&lt;/legacyItalic&gt;</ept>; which is the action required to insert a message in the <bpt id="5">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="5">&lt;/embeddedLabel&gt;</ept> table.</source>
+            <target state="new">With this configuration, when the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> routes the message to the <ph id="2">&lt;token&gt;lobrelay&lt;/token&gt;</ph>, the message includes an <bpt id="3">&lt;embeddedLabel&gt;</bpt>Action<ept id="3">&lt;/embeddedLabel&gt;</ept> header and the value of the header is set to <bpt id="4">&lt;legacyItalic&gt;</bpt>TableOp/Insert/dbo/SalesOrder<ept id="4">&lt;/legacyItalic&gt;</ept>; which is the action required to insert a message in the <bpt id="5">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="5">&lt;/embeddedLabel&gt;</ept> table.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="2">&lt;/embeddedLabel&gt;</ept> and the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Route Actions<ept id="3">&lt;/embeddedLabel&gt;</ept> windows.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="2">&lt;/embeddedLabel&gt;</ept> and the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Route Actions<ept id="3">&lt;/embeddedLabel&gt;</ept> windows.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept> to save changes to a <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept> to save changes to a <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

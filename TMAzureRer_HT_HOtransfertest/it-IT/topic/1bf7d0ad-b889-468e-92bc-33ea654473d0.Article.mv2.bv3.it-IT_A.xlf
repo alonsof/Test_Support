@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="it-IT" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzUEKwyAQBdCreAAHNI5m7AnafS4wxvkQSBNoLeT4zf7BA5I1nlYyYyaOCNSCNFpD1FIromr1bhLNaFkoGxIxAJKOePtUi6Jo6fAuNsw9aKcmUomLGNWprZSSacnMc+rhVt5tg16Ld9e+AXaNx+c8x514l7x7/t56LB89vruO7Tz+Hq8dTKEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Implementation Details and Cost Implications</source>
+            <target state="new">Implementation Details and Cost Implications</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Paired Namespace Implementation Details and Cost Implications</source>
+            <target state="new">Paired Namespace Implementation Details and Cost Implications</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;M:Microsoft.ServiceBus.Messaging.MessagingFactory.PairNamespaceAsync(Microsoft.ServiceBus.Messaging.PairedNamespaceOptions)&lt;/codeEntityReference&gt;</ph> method, using a <ph id="2">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions&lt;/codeEntityReference&gt;</ph> instance, performs visible tasks on your behalf.</source>
+            <target state="new">The <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;M:Microsoft.ServiceBus.Messaging.MessagingFactory.PairNamespaceAsync(Microsoft.ServiceBus.Messaging.PairedNamespaceOptions)&lt;/codeEntityReference&gt;</ph> method, using a <ph id="2">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions&lt;/codeEntityReference&gt;</ph> instance, performs visible tasks on your behalf.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Because there are cost considerations when using the feature, it is useful to understand those tasks so that you expect the behavior when it happens.</source>
+            <target state="new">Because there are cost considerations when using the feature, it is useful to understand those tasks so that you expect the behavior when it happens.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The API engages the following automatic behavior on your behalf:</source>
+            <target state="new">The API engages the following automatic behavior on your behalf:</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Creation of backlog queues.</source>
+            <target state="new">Creation of backlog queues.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Creation of a <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessageSender&lt;/codeEntityReference&gt;</ph> object that talks to queues or topics.</source>
+            <target state="new">Creation of a <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessageSender&lt;/codeEntityReference&gt;</ph> object that talks to queues or topics.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>When a messaging entity becomes unavailable, sends ping messages to the entity in an attempt to detect when that entity becomes available again.</source>
+            <target state="new">When a messaging entity becomes unavailable, sends ping messages to the entity in an attempt to detect when that entity becomes available again.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Optionally creates of a set of “message pumps” that move messages from the backlog queues to the primary queues.</source>
+            <target state="new">Optionally creates of a set of “message pumps” that move messages from the backlog queues to the primary queues.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Coordinates closing/faulting of the primary and secondary <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> instances.</source>
+            <target state="new">Coordinates closing/faulting of the primary and secondary <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> instances.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>At a high level, the feature works as follows: when the primary entity is healthy, no behavior changes occur.</source>
+            <target state="new">At a high level, the feature works as follows: when the primary entity is healthy, no behavior changes occur.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>When the <ph id="1">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.PairedNamespaceOptions.FailoverInterval&lt;/codeEntityReference&gt;</ph> duration elapses, and the primary entity sees no successful sends after a non-transient <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingException&lt;/codeEntityReference&gt;</ph> or a <ph id="3">&lt;codeEntityReference&gt;T:System.TimeoutException&lt;/codeEntityReference&gt;</ph>, the following behavior occurs:</source>
+            <target state="new">When the <ph id="1">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.PairedNamespaceOptions.FailoverInterval&lt;/codeEntityReference&gt;</ph> duration elapses, and the primary entity sees no successful sends after a non-transient <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingException&lt;/codeEntityReference&gt;</ph> or a <ph id="3">&lt;codeEntityReference&gt;T:System.TimeoutException&lt;/codeEntityReference&gt;</ph>, the following behavior occurs:</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Send operations to the primary entity are disabled and the system pings the primary entity until pings can be successfully delivered.</source>
+            <target state="new">Send operations to the primary entity are disabled and the system pings the primary entity until pings can be successfully delivered.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>A random backlog queue is selected.</source>
+            <target state="new">A random backlog queue is selected.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.BrokeredMessage&lt;/codeEntityReference&gt;</ph> objects are routed to the chosen backlog queue.</source>
+            <target state="new"><ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.BrokeredMessage&lt;/codeEntityReference&gt;</ph> objects are routed to the chosen backlog queue.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>If a send operation to the chosen backlog queue fails, that queue is pulled from the rotation and a new queue is selected.</source>
+            <target state="new">If a send operation to the chosen backlog queue fails, that queue is pulled from the rotation and a new queue is selected.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>All senders on the <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> instance learn of the failure.</source>
+            <target state="new">All senders on the <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> instance learn of the failure.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The following figures depict the sequence.</source>
+            <target state="new">The following figures depict the sequence.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>First, the sender sends messages:</source>
+            <target state="new">First, the sender sends messages:</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Upon failure to send to the primary queue, the sender begins sending messages to a randomly chosen backlog queue.</source>
+            <target state="new">Upon failure to send to the primary queue, the sender begins sending messages to a randomly chosen backlog queue.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Simultaneously, it starts a ping task.</source>
+            <target state="new">Simultaneously, it starts a ping task.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>At this point the messages are still in the secondary queue and have not been delivered to the primary queue.</source>
+            <target state="new">At this point the messages are still in the secondary queue and have not been delivered to the primary queue.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Once the primary queue is healthy again, at least one process should be running the syphon.</source>
+            <target state="new">Once the primary queue is healthy again, at least one process should be running the syphon.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>The syphon delivers the messages from all the various backlog queues to the proper destination entities (queues and topics).</source>
+            <target state="new">The syphon delivers the messages from all the various backlog queues to the proper destination entities (queues and topics).</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>The remainder of this topic discusses the specific details of how these pieces work.</source>
+            <target state="new">The remainder of this topic discusses the specific details of how these pieces work.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Creation of Backlog Queues</source>
+            <target state="new">Creation of Backlog Queues</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions&lt;/codeEntityReference&gt;</ph> object passed to the <ph id="2">&lt;codeEntityReference&gt;M:Microsoft.ServiceBus.Messaging.MessagingFactory.PairNamespaceAsync(Microsoft.ServiceBus.Messaging.PairedNamespaceOptions)&lt;/codeEntityReference&gt;</ph> method indicates the number of backlog queues you want to use.</source>
+            <target state="new">The <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions&lt;/codeEntityReference&gt;</ph> object passed to the <ph id="2">&lt;codeEntityReference&gt;M:Microsoft.ServiceBus.Messaging.MessagingFactory.PairNamespaceAsync(Microsoft.ServiceBus.Messaging.PairedNamespaceOptions)&lt;/codeEntityReference&gt;</ph> method indicates the number of backlog queues you want to use.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Each backlog queue is then created with the following properties explicitly set (all other values are set to the <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.QueueDescription&lt;/codeEntityReference&gt;</ph> defaults):</source>
+            <target state="new">Each backlog queue is then created with the following properties explicitly set (all other values are set to the <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.QueueDescription&lt;/codeEntityReference&gt;</ph> defaults):</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Path</source>
+            <target state="new">Path</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>[primary namespace]/x-servicebus-transfer/[index] </source>
+            <target state="new">[primary namespace]/x-servicebus-transfer/[index] </target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>where [index] is a value in [0, BacklogQueueCount)</source>
+            <target state="new">where [index] is a value in [0, BacklogQueueCount)</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>MaxSizeInMegabytes</source>
+            <target state="new">MaxSizeInMegabytes</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>5120</source>
+            <target state="new">5120</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>MaxDeliveryCount</source>
+            <target state="new">MaxDeliveryCount</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>int.MaxValue</source>
+            <target state="new">int.MaxValue</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>DefaultMessageTimeToLive</source>
+            <target state="new">DefaultMessageTimeToLive</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>TimeSpan.MaxValue</source>
+            <target state="new">TimeSpan.MaxValue</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>AutoDeleteOnIdle</source>
+            <target state="new">AutoDeleteOnIdle</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>TimeSpan.MaxValue</source>
+            <target state="new">TimeSpan.MaxValue</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>LockDuration</source>
+            <target state="new">LockDuration</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>1 minute</source>
+            <target state="new">1 minute</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>EnableDeadLetteringOnMessageExpiration</source>
+            <target state="new">EnableDeadLetteringOnMessageExpiration</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>true</source>
+            <target state="new">true</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>EnableBatchedOperations</source>
+            <target state="new">EnableBatchedOperations</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>true</source>
+            <target state="new">true</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>For example, the first backlog queue created for namespace <bpt id="1">&lt;embeddedLabel&gt;</bpt>contoso<ept id="1">&lt;/embeddedLabel&gt;</ept> is named:</source>
+            <target state="new">For example, the first backlog queue created for namespace <bpt id="1">&lt;embeddedLabel&gt;</bpt>contoso<ept id="1">&lt;/embeddedLabel&gt;</ept> is named:</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>When creating the queues, the code first checks to see if such a queue exists.</source>
+            <target state="new">When creating the queues, the code first checks to see if such a queue exists.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>If the queue does not exist, then the queue is created.</source>
+            <target state="new">If the queue does not exist, then the queue is created.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>The code does not clean up “extra” backlog queues.</source>
+            <target state="new">The code does not clean up “extra” backlog queues.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Specifically, if the application with the primary namespace <bpt id="1">&lt;embeddedLabel&gt;</bpt>contoso<ept id="1">&lt;/embeddedLabel&gt;</ept> requests five backlog queues but a backlog queue with the path <ph id="2">&lt;codeInline&gt;contoso/x-servicebus-transfer/7&lt;/codeInline&gt;</ph> exists, that extra backlog queue is still present but is not used.</source>
+            <target state="new">Specifically, if the application with the primary namespace <bpt id="1">&lt;embeddedLabel&gt;</bpt>contoso<ept id="1">&lt;/embeddedLabel&gt;</ept> requests five backlog queues but a backlog queue with the path <ph id="2">&lt;codeInline&gt;contoso/x-servicebus-transfer/7&lt;/codeInline&gt;</ph> exists, that extra backlog queue is still present but is not used.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>The system explicitly allows extra backlog queues to exist that would not be used.</source>
+            <target state="new">The system explicitly allows extra backlog queues to exist that would not be used.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>As the namespace owner, you are responsible for cleaning up any unused/unwanted backlog queues.</source>
+            <target state="new">As the namespace owner, you are responsible for cleaning up any unused/unwanted backlog queues.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>The reason for this decision is that <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> cannot know what purposes exist for all the queues in your namespace.</source>
+            <target state="new">The reason for this decision is that <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> cannot know what purposes exist for all the queues in your namespace.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Furthermore, if a queue exists with the given name but does NOT meet the assumed <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.QueueDescription&lt;/codeEntityReference&gt;</ph> above, then your reasons are your own for changing the default behavior.</source>
+            <target state="new">Furthermore, if a queue exists with the given name but does NOT meet the assumed <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.QueueDescription&lt;/codeEntityReference&gt;</ph> above, then your reasons are your own for changing the default behavior.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>No guarantees are made for modifications to the backlog queues by your code.</source>
+            <target state="new">No guarantees are made for modifications to the backlog queues by your code.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Make sure to test your changes thoroughly.</source>
+            <target state="new">Make sure to test your changes thoroughly.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Custom MessageSender</source>
+            <target state="new">Custom MessageSender</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>When sending, all messages go through an internal <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessageSender&lt;/codeEntityReference&gt;</ph> object that behaves normally when everything works, and redirects to the backlog queues when things “break.”</source>
+            <target state="new">When sending, all messages go through an internal <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessageSender&lt;/codeEntityReference&gt;</ph> object that behaves normally when everything works, and redirects to the backlog queues when things “break.”</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Upon receiving a non-transient failure, a timer starts.</source>
+            <target state="new">Upon receiving a non-transient failure, a timer starts.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>After a <ph id="1">&lt;codeEntityReference&gt;T:System.TimeSpan&lt;/codeEntityReference&gt;</ph> period consisting of the <ph id="2">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.PairedNamespaceOptions.FailoverInterval&lt;/codeEntityReference&gt;</ph> property value during which no successful messages are sent, the failover is engaged.</source>
+            <target state="new">After a <ph id="1">&lt;codeEntityReference&gt;T:System.TimeSpan&lt;/codeEntityReference&gt;</ph> period consisting of the <ph id="2">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.PairedNamespaceOptions.FailoverInterval&lt;/codeEntityReference&gt;</ph> property value during which no successful messages are sent, the failover is engaged.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>At this point, the following things happen for each entity:</source>
+            <target state="new">At this point, the following things happen for each entity:</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>A ping task executes every <ph id="1">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions.PingPrimaryInterval&lt;/codeEntityReference&gt;</ph> to check if the entity is available.</source>
+            <target state="new">A ping task executes every <ph id="1">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions.PingPrimaryInterval&lt;/codeEntityReference&gt;</ph> to check if the entity is available.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Once this task succeeds, all client code that uses the entity immediately starts sending new messages to the primary namespace.</source>
+            <target state="new">Once this task succeeds, all client code that uses the entity immediately starts sending new messages to the primary namespace.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Future requests to send to that same entity from any other senders will result in the <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.BrokeredMessage&lt;/codeEntityReference&gt;</ph> being sent to be modified to sit in the backlog queue.</source>
+            <target state="new">Future requests to send to that same entity from any other senders will result in the <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.BrokeredMessage&lt;/codeEntityReference&gt;</ph> being sent to be modified to sit in the backlog queue.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>The modification includes removing some properties from the <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.BrokeredMessage&lt;/codeEntityReference&gt;</ph> object and storing them elsewhere.</source>
+            <target state="new">The modification includes removing some properties from the <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.BrokeredMessage&lt;/codeEntityReference&gt;</ph> object and storing them elsewhere.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>The following properties are cleared and added under a new alias, allowing <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> and the SDK to process messages uniformly:</source>
+            <target state="new">The following properties are cleared and added under a new alias, allowing <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> and the SDK to process messages uniformly:</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>        Old Property Name      </source>
+            <target state="new">        Old Property Name      </target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>        New Property Name      </source>
+            <target state="new">        New Property Name      </target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>SessionId</source>
+            <target state="new">SessionId</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>x-ms-sessionid</source>
+            <target state="new">x-ms-sessionid</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>TimeToLive</source>
+            <target state="new">TimeToLive</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>x-ms-timetolive</source>
+            <target state="new">x-ms-timetolive</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>ScheduledEnqueueTimeUtc</source>
+            <target state="new">ScheduledEnqueueTimeUtc</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>x-ms-path</source>
+            <target state="new">x-ms-path</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>The original destination path is also stored within the message as a property named <ph id="1">&lt;codeInline&gt;x-ms-path&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">The original destination path is also stored within the message as a property named <ph id="1">&lt;codeInline&gt;x-ms-path&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>This design allows messages for many entities to coexist in a single backlog queue.</source>
+            <target state="new">This design allows messages for many entities to coexist in a single backlog queue.</target>
+          </trans-unit>
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>The properties are translated back by the syphon.</source>
+            <target state="new">The properties are translated back by the syphon.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>The custom <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessageSender&lt;/codeEntityReference&gt;</ph> object can encounter issues when messages approach the 256-KB limit and failover is engaged.</source>
+            <target state="new">The custom <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessageSender&lt;/codeEntityReference&gt;</ph> object can encounter issues when messages approach the 256-KB limit and failover is engaged.</target>
+          </trans-unit>
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>The custom <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessageSender&lt;/codeEntityReference&gt;</ph> object stores messages for all queues and topics together in the backlog queues.</source>
+            <target state="new">The custom <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessageSender&lt;/codeEntityReference&gt;</ph> object stores messages for all queues and topics together in the backlog queues.</target>
+          </trans-unit>
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>This object mixes messages from many primaries together within the backlog queues.</source>
+            <target state="new">This object mixes messages from many primaries together within the backlog queues.</target>
+          </trans-unit>
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>To handle load balancing among many clients that do not know each other, the SDK randomly picks one backlog queue for each <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.QueueClient&lt;/codeEntityReference&gt;</ph> or <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.TopicClient&lt;/codeEntityReference&gt;</ph> you create in code.</source>
+            <target state="new">To handle load balancing among many clients that do not know each other, the SDK randomly picks one backlog queue for each <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.QueueClient&lt;/codeEntityReference&gt;</ph> or <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.TopicClient&lt;/codeEntityReference&gt;</ph> you create in code.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Pings</source>
+            <target state="new">Pings</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>A <bpt id="1">&lt;newTerm&gt;</bpt>ping<ept id="1">&lt;/newTerm&gt;</ept> message is an empty <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.BrokeredMessage&lt;/codeEntityReference&gt;</ph> with its <ph id="3">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.BrokeredMessage.ContentType&lt;/codeEntityReference&gt;</ph> property set to <ph id="4">&lt;codeInline&gt;application/vnd.ms-servicebus-ping&lt;/codeInline&gt;</ph> and a <ph id="5">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.BrokeredMessage.TimeToLive&lt;/codeEntityReference&gt;</ph> value of 1 second.</source>
+            <target state="new">A <bpt id="1">&lt;newTerm&gt;</bpt>ping<ept id="1">&lt;/newTerm&gt;</ept> message is an empty <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.BrokeredMessage&lt;/codeEntityReference&gt;</ph> with its <ph id="3">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.BrokeredMessage.ContentType&lt;/codeEntityReference&gt;</ph> property set to <ph id="4">&lt;codeInline&gt;application/vnd.ms-servicebus-ping&lt;/codeInline&gt;</ph> and a <ph id="5">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.BrokeredMessage.TimeToLive&lt;/codeEntityReference&gt;</ph> value of 1 second.</target>
+          </trans-unit>
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>This ping has one special characteristic in <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>: the server never delivers a ping when any caller requests a <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.BrokeredMessage&lt;/codeEntityReference&gt;</ph>.</source>
+            <target state="new">This ping has one special characteristic in <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>: the server never delivers a ping when any caller requests a <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.BrokeredMessage&lt;/codeEntityReference&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Thus, you never have to learn how to receive and ignore these messages.</source>
+            <target state="new">Thus, you never have to learn how to receive and ignore these messages.</target>
+          </trans-unit>
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Each entity (unique queue or topic) per <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> instance per client will be pinged when they are considered to be unavailable.</source>
+            <target state="new">Each entity (unique queue or topic) per <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> instance per client will be pinged when they are considered to be unavailable.</target>
+          </trans-unit>
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>By default, this happens once per minute.</source>
+            <target state="new">By default, this happens once per minute.</target>
+          </trans-unit>
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Ping messages are considered to be regular <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> messages, and can result in charges for bandwidth and messages.</source>
+            <target state="new">Ping messages are considered to be regular <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> messages, and can result in charges for bandwidth and messages.</target>
+          </trans-unit>
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>As soon as the clients detect that the system is available, the messages stop.</source>
+            <target state="new">As soon as the clients detect that the system is available, the messages stop.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>The Syphon</source>
+            <target state="new">The Syphon</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>At least one executable program in the application should be actively running the syphon.</source>
+            <target state="new">At least one executable program in the application should be actively running the syphon.</target>
+          </trans-unit>
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>The syphon performs a long poll receive that lasts 15 minutes.</source>
+            <target state="new">The syphon performs a long poll receive that lasts 15 minutes.</target>
+          </trans-unit>
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>When all entities are available and you have 10 backlog queues, the application that hosts the syphon calls the receive operation 40 times per hour, 960 times per day, and 28800 times in 30 days.</source>
+            <target state="new">When all entities are available and you have 10 backlog queues, the application that hosts the syphon calls the receive operation 40 times per hour, 960 times per day, and 28800 times in 30 days.</target>
+          </trans-unit>
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>When the syphon is actively moving messages from the backlog to the primary queue, each message experiences the following charges (standard charges for message size and bandwidth apply in all stages):</source>
+            <target state="new">When the syphon is actively moving messages from the backlog to the primary queue, each message experiences the following charges (standard charges for message size and bandwidth apply in all stages):</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Send to the backlog.</source>
+            <target state="new">Send to the backlog.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Receive from the backlog.</source>
+            <target state="new">Receive from the backlog.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Send to the primary.</source>
+            <target state="new">Send to the primary.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Receive from the primary.</source>
+            <target state="new">Receive from the primary.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Close/Fault Behavior</source>
+            <target state="new">Close/Fault Behavior</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Within an application that hosts the syphon, once the primary or secondary <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> faults or is closed without its partner also being faulted/closed and the syphon detects this state, the syphon acts.</source>
+            <target state="new">Within an application that hosts the syphon, once the primary or secondary <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> faults or is closed without its partner also being faulted/closed and the syphon detects this state, the syphon acts.</target>
+          </trans-unit>
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>If the other <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> is not closed within 5 seconds, the syphon will fault the still open <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph>.</source>
+            <target state="new">If the other <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> is not closed within 5 seconds, the syphon will fault the still open <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

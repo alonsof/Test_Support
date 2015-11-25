@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANyVEKwjAMANCr9AANJGtsG08g+CdeIO0SGM4V5oQdX9/vc0/WeOpgxgxMjtCwNuhImkWcVCUGbyUj1QrGFwVGLVClEWQ07z4XzqnF0Mk9S0XIXRJwmgrITAJZimAqaGQWA8XwGnB/xHCui7udx3Uf44hh+l+N4fZ96/bcdfuseixj+wEiGysgogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Writing LINQ Queries Against the Table Service</source>
+            <target state="new">Writing LINQ Queries Against the Table Service</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>You can write queries against the Table service using LINQ syntax.</source>
+            <target state="new">You can write queries against the Table service using LINQ syntax.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>The following examples show how to write sample queries similar to the sample queries shown in <ph id="1">&lt;link xlink:href="74e73539-b624-4f47-8603-112cbb6780db" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Querying Tables and Entities&lt;/link&gt;</ph>, but using LINQ instead of the REST protocol.</source>
+            <target state="new">The following examples show how to write sample queries similar to the sample queries shown in <ph id="1">&lt;link xlink:href="74e73539-b624-4f47-8603-112cbb6780db" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Querying Tables and Entities&lt;/link&gt;</ph>, but using LINQ instead of the REST protocol.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The Table service supports executing simple queries that retrieve all properties of an entity; it's not possible to select a subset of an entity's properties.</source>
+            <target state="new">The Table service supports executing simple queries that retrieve all properties of an entity; it's not possible to select a subset of an entity's properties.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The Table service also supports filtering query results using the <ph id="1">&lt;languageKeyword&gt;Where&lt;/languageKeyword&gt;</ph> operator, and specifying how many entities to return using the <ph id="2">&lt;languageKeyword&gt;Take&lt;/languageKeyword&gt;</ph> operator.</source>
+            <target state="new">The Table service also supports filtering query results using the <ph id="1">&lt;languageKeyword&gt;Where&lt;/languageKeyword&gt;</ph> operator, and specifying how many entities to return using the <ph id="2">&lt;languageKeyword&gt;Take&lt;/languageKeyword&gt;</ph> operator.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>For details about which LINQ operators are supported by the Table service, see <ph id="1">&lt;link xlink:href="de258a1e-4101-4443-88cb-f9d156f04246" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Query Operators (Table Storage Support)&lt;/link&gt;</ph>.</source>
+            <target state="new">For details about which LINQ operators are supported by the Table service, see <ph id="1">&lt;link xlink:href="de258a1e-4101-4443-88cb-f9d156f04246" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Query Operators (Table Storage Support)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Projecting Entity Properties</source>
+            <target state="new">Projecting Entity Properties</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The LINQ <ph id="1">&lt;languageKeyword&gt;select&lt;/languageKeyword&gt;</ph> clause can be used to project a subset of properties from an entity or entities.</source>
+            <target state="new">The LINQ <ph id="1">&lt;languageKeyword&gt;select&lt;/languageKeyword&gt;</ph> clause can be used to project a subset of properties from an entity or entities.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The maximum number of properties that can be projected is 255, which is also the maximum number of properties in an entity.</source>
+            <target state="new">The maximum number of properties that can be projected is 255, which is also the maximum number of properties in an entity.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>To project an entity’s properties, the client must support OData Data Service Version 2.0, indicated by specifying either the <ph id="1">&lt;parameterReference&gt;DataServiceVersion&lt;/parameterReference&gt;</ph> or <ph id="2">&lt;parameterReference&gt;MaxDataServiceVersion&lt;/parameterReference&gt;</ph> headers as follows:</source>
+            <target state="new">To project an entity’s properties, the client must support OData Data Service Version 2.0, indicated by specifying either the <ph id="1">&lt;parameterReference&gt;DataServiceVersion&lt;/parameterReference&gt;</ph> or <ph id="2">&lt;parameterReference&gt;MaxDataServiceVersion&lt;/parameterReference&gt;</ph> headers as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The following example demonstrates how to project properties from a single entity, using the required object initializer:</source>
+            <target state="new">The following example demonstrates how to project properties from a single entity, using the required object initializer:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The following example projects 3 properties from an entity that has 10 properties.</source>
+            <target state="new">The following example projects 3 properties from an entity that has 10 properties.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>In this example, <ph id="1">&lt;codeInline&gt;SampleEntity&lt;/codeInline&gt;</ph>’s 10 properties are letters from A through J:</source>
+            <target state="new">In this example, <ph id="1">&lt;codeInline&gt;SampleEntity&lt;/codeInline&gt;</ph>’s 10 properties are letters from A through J:</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Single entity projection is not supported.</source>
+            <target state="new">Single entity projection is not supported.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The REST request produced by the following code is invalid:</source>
+            <target state="new">The REST request produced by the following code is invalid:</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>You can also project entity properties by using the <ph id="1">&lt;system&gt;$select&lt;/system&gt;</ph> query option in a standard REST request.</source>
+            <target state="new">You can also project entity properties by using the <ph id="1">&lt;system&gt;$select&lt;/system&gt;</ph> query option in a standard REST request.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="8cfef6f9-eb7f-40f0-9016-dff44d36b6e1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Query Entities&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="8cfef6f9-eb7f-40f0-9016-dff44d36b6e1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Query Entities&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>For more information on entity projections and transformations, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Select System Query Option ($select)<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.odata.org/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> in the OData documentation.</source>
+            <target state="new">For more information on entity projections and transformations, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Select System Query Option ($select)<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.odata.org/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> in the OData documentation.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Returning the Top n Entities</source>
+            <target state="new">Returning the Top n Entities</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>To return <ph id="1">&lt;parameterReference&gt;n&lt;/parameterReference&gt;</ph> entities, use the LINQ <ph id="2">&lt;languageKeyword&gt;Take&lt;/languageKeyword&gt;</ph> operator.</source>
+            <target state="new">To return <ph id="1">&lt;parameterReference&gt;n&lt;/parameterReference&gt;</ph> entities, use the LINQ <ph id="2">&lt;languageKeyword&gt;Take&lt;/languageKeyword&gt;</ph> operator.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Note that the maximum number of entities that may be returned in a single query is 1,000.</source>
+            <target state="new">Note that the maximum number of entities that may be returned in a single query is 1,000.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Specifying a value greater than 1,000 for the <ph id="1">&lt;languageKeyword&gt;Take&lt;/languageKeyword&gt;</ph> operator results in error code 400 (Bad Request).</source>
+            <target state="new">Specifying a value greater than 1,000 for the <ph id="1">&lt;languageKeyword&gt;Take&lt;/languageKeyword&gt;</ph> operator results in error code 400 (Bad Request).</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>The following example returns the top 10 entities from a Customers table:</source>
+            <target state="new">The following example returns the top 10 entities from a Customers table:</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Filtering on String Properties</source>
+            <target state="new">Filtering on String Properties</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>The following example filters on two String properties:</source>
+            <target state="new">The following example filters on two String properties:</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>The following example performs prefix matching using comparison operators to return entities with a <ph id="1">&lt;unmanagedCodeEntityReference&gt;LastName&lt;/unmanagedCodeEntityReference&gt;</ph> property beginning with the letter 'A':</source>
+            <target state="new">The following example performs prefix matching using comparison operators to return entities with a <ph id="1">&lt;unmanagedCodeEntityReference&gt;LastName&lt;/unmanagedCodeEntityReference&gt;</ph> property beginning with the letter 'A':</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Filtering on Numeric Properties</source>
+            <target state="new">Filtering on Numeric Properties</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>The following example returns all entities with an <ph id="1">&lt;unmanagedCodeEntityReference&gt;Age&lt;/unmanagedCodeEntityReference&gt;</ph> property whose value is greater than 30:</source>
+            <target state="new">The following example returns all entities with an <ph id="1">&lt;unmanagedCodeEntityReference&gt;Age&lt;/unmanagedCodeEntityReference&gt;</ph> property whose value is greater than 30:</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>This example returns all entities with an <ph id="1">&lt;unmanagedCodeEntityReference&gt;AmountDue&lt;/unmanagedCodeEntityReference&gt;</ph> property whose value is less than or equal to 100.25:</source>
+            <target state="new">This example returns all entities with an <ph id="1">&lt;unmanagedCodeEntityReference&gt;AmountDue&lt;/unmanagedCodeEntityReference&gt;</ph> property whose value is less than or equal to 100.25:</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Filtering on Boolean Properties</source>
+            <target state="new">Filtering on Boolean Properties</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>The following example returns all entities where the <ph id="1">&lt;unmanagedCodeEntityReference&gt;IsActive&lt;/unmanagedCodeEntityReference&gt;</ph> property is set to <ph id="2">&lt;unmanagedCodeEntityReference&gt;true&lt;/unmanagedCodeEntityReference&gt;</ph>:</source>
+            <target state="new">The following example returns all entities where the <ph id="1">&lt;unmanagedCodeEntityReference&gt;IsActive&lt;/unmanagedCodeEntityReference&gt;</ph> property is set to <ph id="2">&lt;unmanagedCodeEntityReference&gt;true&lt;/unmanagedCodeEntityReference&gt;</ph>:</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Filtering on DateTime Properties</source>
+            <target state="new">Filtering on DateTime Properties</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>The following example returns entities where the <ph id="1">&lt;unmanagedCodeEntityReference&gt;CustomerSince&lt;/unmanagedCodeEntityReference&gt;</ph> property is equal to July 10, 2008:</source>
+            <target state="new">The following example returns entities where the <ph id="1">&lt;unmanagedCodeEntityReference&gt;CustomerSince&lt;/unmanagedCodeEntityReference&gt;</ph> property is equal to July 10, 2008:</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

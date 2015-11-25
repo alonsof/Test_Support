@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANylEKwjAMANCr5AANpFnarh5A/BYvkMQGBrrBnLDj6/t+EdMwYccxRFByEBrNhk5Za++RVXuCnnnMboT6FEfh6Ki5DqzceIpSrLecwF3CtDg2ygWFLFC5O1oN8jpLxOQJ/jF2vN4TnK8lYpzHZd+2IwEnkJbg9n3r+th1/bz0WLb1B3aziKyiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Versioning for the Azure Storage Services</source>
+            <target state="new">Versioning for the Azure Storage Services</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The Microsoft Azure storage services support multiple versions.</source>
+            <target state="new">The Microsoft Azure storage services support multiple versions.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>To make a request against the storage services, you must specify the version that you want to use for that operation, unless the request is anonymous.</source>
+            <target state="new">To make a request against the storage services, you must specify the version that you want to use for that operation, unless the request is anonymous.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The current version of the Azure storage services is 2015-02-21, and using that version is recommended where possible.</source>
+            <target state="new">The current version of the Azure storage services is 2015-02-21, and using that version is recommended where possible.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>For a list of all other supported versions, and for information about using each version, see <ph id="1">&lt;link xlink:href="2279856c-ff44-4560-bfa5-b03ae644c0af" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Versioning for the Azure Storage Services (Version 2013-08-15 and earlier)&lt;/link&gt;</ph>.</source>
+            <target state="new">For a list of all other supported versions, and for information about using each version, see <ph id="1">&lt;link xlink:href="2279856c-ff44-4560-bfa5-b03ae644c0af" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Versioning for the Azure Storage Services (Version 2013-08-15 and earlier)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Version 2015-02-21</source>
+            <target state="new">Version 2015-02-21</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Version 2015-02-21 includes these changes:</source>
+            <target state="new">Version 2015-02-21 includes these changes:</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>A new blob type, the <bpt id="1">&lt;legacyItalic&gt;</bpt>append blob<ept id="1">&lt;/legacyItalic&gt;</ept>, is now available.</source>
+            <target state="new">A new blob type, the <bpt id="1">&lt;legacyItalic&gt;</bpt>append blob<ept id="1">&lt;/legacyItalic&gt;</ept>, is now available.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>All writes to an append blob are added sequentially to the end of the blob, making it optimal for logging scenarios.</source>
+            <target state="new">All writes to an append blob are added sequentially to the end of the blob, making it optimal for logging scenarios.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Append blobs support an <ph id="1">&lt;link xlink:href="08d3ac04-23b4-4d39-9c40-06a38bdc6df1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Append Block&lt;/link&gt;</ph> operation for adding blocks to the blob.</source>
+            <target state="new">Append blobs support an <ph id="1">&lt;link xlink:href="08d3ac04-23b4-4d39-9c40-06a38bdc6df1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Append Block&lt;/link&gt;</ph> operation for adding blocks to the blob.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Once a block is added with <ph id="1">&lt;languageKeyword&gt;Append Block&lt;/languageKeyword&gt;</ph>, it is immediately available to be read; no further commits are necessary.</source>
+            <target state="new">Once a block is added with <ph id="1">&lt;languageKeyword&gt;Append Block&lt;/languageKeyword&gt;</ph>, it is immediately available to be read; no further commits are necessary.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The block cannot be modified once it has been added.</source>
+            <target state="new">The block cannot be modified once it has been added.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>A number of new features are available for the Azure File service, including:</source>
+            <target state="new">A number of new features are available for the Azure File service, including:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>New operations on the File service, including <ph id="1">&lt;link xlink:href="83f88647-53d3-4d81-937c-39b432dfde75" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get File Service Properties&lt;/link&gt;</ph>, <ph id="2">&lt;link xlink:href="bb492133-44d1-4f75-9928-d5d03924d7eb" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set File Service Properties&lt;/link&gt;</ph>, and <ph id="3">&lt;link xlink:href="d44688ba-efad-41cb-b9dc-071841033ee2" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Preflight File Request&lt;/link&gt;</ph>.</source>
+            <target state="new">New operations on the File service, including <ph id="1">&lt;link xlink:href="83f88647-53d3-4d81-937c-39b432dfde75" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get File Service Properties&lt;/link&gt;</ph>, <ph id="2">&lt;link xlink:href="bb492133-44d1-4f75-9928-d5d03924d7eb" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set File Service Properties&lt;/link&gt;</ph>, and <ph id="3">&lt;link xlink:href="d44688ba-efad-41cb-b9dc-071841033ee2" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Preflight File Request&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;languageKeyword&gt;Preflight File Request&lt;/languageKeyword&gt;</ph> operation enables CORS support for Azure files.</source>
+            <target state="new">The <ph id="1">&lt;languageKeyword&gt;Preflight File Request&lt;/languageKeyword&gt;</ph> operation enables CORS support for Azure files.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Usage data for a file share, via the <ph id="1">&lt;link xlink:href="6b825cb1-53ec-4bbc-ba90-fb46f4477da9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Share Stats&lt;/link&gt;</ph> operation.</source>
+            <target state="new">Usage data for a file share, via the <ph id="1">&lt;link xlink:href="6b825cb1-53ec-4bbc-ba90-fb46f4477da9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Share Stats&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Support for shared access signatures for shares and files.</source>
+            <target state="new">Support for shared access signatures for shares and files.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>New <ph id="1">&lt;link xlink:href="9316b0ba-e1a4-43f1-b991-e321fbaea7ab" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Share ACL&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="032f3a38-db93-4673-ac7e-0434311e1240" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Share ACL&lt;/link&gt;</ph> operations, for managing shared access policies on a share.</source>
+            <target state="new">New <ph id="1">&lt;link xlink:href="9316b0ba-e1a4-43f1-b991-e321fbaea7ab" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Share ACL&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="032f3a38-db93-4673-ac7e-0434311e1240" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Share ACL&lt;/link&gt;</ph> operations, for managing shared access policies on a share.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>New <ph id="1">&lt;link xlink:href="933b4b8f-9f33-451d-a50f-1a8f8fe5da98" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Directory Metadata&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="920af977-b511-42de-9a1a-9326575e1c94" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Directory Metadata&lt;/link&gt;</ph> operations.</source>
+            <target state="new">New <ph id="1">&lt;link xlink:href="933b4b8f-9f33-451d-a50f-1a8f8fe5da98" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Directory Metadata&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="920af977-b511-42de-9a1a-9326575e1c94" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Directory Metadata&lt;/link&gt;</ph> operations.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>New <ph id="1">&lt;link xlink:href="9108f963-eba1-4148-a00e-2d051bca4487" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Copy File&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="f1e6bf99-bdf7-4fd7-bb8f-c3c0db0b63d8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Abort Copy File&lt;/link&gt;</ph> operations.</source>
+            <target state="new">New <ph id="1">&lt;link xlink:href="9108f963-eba1-4148-a00e-2d051bca4487" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Copy File&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="f1e6bf99-bdf7-4fd7-bb8f-c3c0db0b63d8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Abort Copy File&lt;/link&gt;</ph> operations.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>For version 2015-02-21 and later only, when constructing the string-to-sign for a shared access signature for the Blob, Table, Queue, and File services, you must include the service name in the canonicalized resource portion of the string.</source>
+            <target state="new">For version 2015-02-21 and later only, when constructing the string-to-sign for a shared access signature for the Blob, Table, Queue, and File services, you must include the service name in the canonicalized resource portion of the string.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="2686d543-29ff-4b60-a2c0-a505f421ebf9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Constructing the Shared Access Signature URI&lt;/link&gt;</ph> for more information.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="2686d543-29ff-4b60-a2c0-a505f421ebf9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Constructing the Shared Access Signature URI&lt;/link&gt;</ph> for more information.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>For version 2015-02-21 and later only, when constructing the string-to-sign, omit the value of the <ph id="1">&lt;parameterReference&gt;Content-Length&lt;/parameterReference&gt;</ph> header from the string-to-sign when that value is zero.</source>
+            <target state="new">For version 2015-02-21 and later only, when constructing the string-to-sign, omit the value of the <ph id="1">&lt;parameterReference&gt;Content-Length&lt;/parameterReference&gt;</ph> header from the string-to-sign when that value is zero.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="96cec7bc-63cc-4227-920a-dddd850433c9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Authentication for the Azure Storage Services&lt;/link&gt;</ph> for more information.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="96cec7bc-63cc-4227-920a-dddd850433c9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Authentication for the Azure Storage Services&lt;/link&gt;</ph> for more information.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Specifying Storage Service Versions in Requests</source>
+            <target state="new">Specifying Storage Service Versions in Requests</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>How you specify the version of the storage services to use for a request relates to how that request is authenticated.</source>
+            <target state="new">How you specify the version of the storage services to use for a request relates to how that request is authenticated.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>The following sections describe authentication options and how the service version is specified for each:</source>
+            <target state="new">The following sections describe authentication options and how the service version is specified for each:</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Requests using Shared Key or Shared Key Lite.<ept id="1">&lt;/embeddedLabel&gt;</ept> To authenticate a request with Shared Key/Shared Key Lite, you must pass the <ph id="2">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> header on the request.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Requests using Shared Key or Shared Key Lite.<ept id="1">&lt;/embeddedLabel&gt;</ept> To authenticate a request with Shared Key/Shared Key Lite, you must pass the <ph id="2">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> header on the request.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>In the case of the Blob service, you can specify the default version for all requests by calling <ph id="1">&lt;link xlink:href="65424a3c-ab49-4994-865c-827409598092" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Service Properties&lt;/link&gt;</ph>.</source>
+            <target state="new">In the case of the Blob service, you can specify the default version for all requests by calling <ph id="1">&lt;link xlink:href="65424a3c-ab49-4994-865c-827409598092" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Service Properties&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Requests using a Shared Access Signature (SAS).<ept id="1">&lt;/embeddedLabel&gt;</ept> You can specify two versioning options on a shared access signature.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Requests using a Shared Access Signature (SAS).<ept id="1">&lt;/embeddedLabel&gt;</ept> You can specify two versioning options on a shared access signature.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>If specified, the   optional <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> header indicates which service version to use to execute the API operation.</source>
+            <target state="new">If specified, the   optional <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> header indicates which service version to use to execute the API operation.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;SignedVersion (sv)&lt;/parameterReference&gt;</ph> parameter specifies the service version to use to authorize and authenticate the request made with the SAS.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;SignedVersion (sv)&lt;/parameterReference&gt;</ph> parameter specifies the service version to use to authorize and authenticate the request made with the SAS.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>If the <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> header is not specified, then the value of the <ph id="2">&lt;parameterReference&gt;SignedVersion (sv)&lt;/parameterReference&gt;</ph> parameter also indicates the version to use to execute the API operation.</source>
+            <target state="new">If the <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> header is not specified, then the value of the <ph id="2">&lt;parameterReference&gt;SignedVersion (sv)&lt;/parameterReference&gt;</ph> parameter also indicates the version to use to execute the API operation.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Requests using anonymous access.<ept id="1">&lt;/embeddedLabel&gt;</ept> In the case of anonymous access against the Blob service, no version is passed in; the heuristics for which version is used for the request are described below.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Requests using anonymous access.<ept id="1">&lt;/embeddedLabel&gt;</ept> In the case of anonymous access against the Blob service, no version is passed in; the heuristics for which version is used for the request are described below.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Requests Authenticated Using Shared Key/Shared Key Lite</source>
+            <target state="new">Requests Authenticated Using Shared Key/Shared Key Lite</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>To authenticate a request with Shared Key/Shared Key Lite, specify the <ph id="1">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> header on the request.</source>
+            <target state="new">To authenticate a request with Shared Key/Shared Key Lite, specify the <ph id="1">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> header on the request.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> request header value must be specified in the format YYYY-MM-DD.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> request header value must be specified in the format YYYY-MM-DD.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>For example:</source>
+            <target state="new">For example:</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>The following rules indicates how requests using Shared Key/Shared Key Lite are evaluated to determine the version to use in processing the request.</source>
+            <target state="new">The following rules indicates how requests using Shared Key/Shared Key Lite are evaluated to determine the version to use in processing the request.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>If a request has a valid <ph id="1">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> header, the storage service uses the specified version.</source>
+            <target state="new">If a request has a valid <ph id="1">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> header, the storage service uses the specified version.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>All requests to the Table and Queue services that do not use a shared access signature must specify an <ph id="1">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> header.</source>
+            <target state="new">All requests to the Table and Queue services that do not use a shared access signature must specify an <ph id="1">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> header.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>All requests to the Blob service that do not use a shared access signature must specify an <ph id="1">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> header unless the default version has been set, as described below.</source>
+            <target state="new">All requests to the Blob service that do not use a shared access signature must specify an <ph id="1">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> header unless the default version has been set, as described below.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>If a request to the Blob service does not have an <ph id="1">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> header, but the account owner has set a default version using <ph id="2">&lt;link xlink:href="65424a3c-ab49-4994-865c-827409598092" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Service Properties&lt;/link&gt;</ph>, then the specified default version is used as the version for the request.</source>
+            <target state="new">If a request to the Blob service does not have an <ph id="1">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> header, but the account owner has set a default version using <ph id="2">&lt;link xlink:href="65424a3c-ab49-4994-865c-827409598092" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Service Properties&lt;/link&gt;</ph>, then the specified default version is used as the version for the request.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Requests Authenticated With a Shared Access Signature</source>
+            <target state="new">Requests Authenticated With a Shared Access Signature</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>A shared access signature (SAS) generated using version 2014-02-14 or later supports two versioning options:</source>
+            <target state="new">A shared access signature (SAS) generated using version 2014-02-14 or later supports two versioning options:</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> query parameter defines the REST protocol version to use for processing a request made using the SAS.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> query parameter defines the REST protocol version to use for processing a request made using the SAS.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;SignedVersion (sv)&lt;/parameterReference&gt;</ph> query parameter defines the SAS version to use for authentication and authorization.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;SignedVersion (sv)&lt;/parameterReference&gt;</ph> query parameter defines the SAS version to use for authentication and authorization.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;SignedVersion&lt;/parameterReference&gt;</ph> query parameter is used for authentication and authorization when a client makes a request using the SAS.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;SignedVersion&lt;/parameterReference&gt;</ph> query parameter is used for authentication and authorization when a client makes a request using the SAS.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Authentication and authorization parameters such as <ph id="1">&lt;parameterReference&gt;si&lt;/parameterReference&gt;</ph>, <ph id="2">&lt;parameterReference&gt;sr&lt;/parameterReference&gt;</ph>, <ph id="3">&lt;parameterReference&gt;sp&lt;/parameterReference&gt;</ph>, <ph id="4">&lt;parameterReference&gt;sig&lt;/parameterReference&gt;</ph>, <ph id="5">&lt;parameterReference&gt;st&lt;/parameterReference&gt;</ph>, <ph id="6">&lt;parameterReference&gt;se&lt;/parameterReference&gt;</ph>, <ph id="7">&lt;parameterReference&gt;tn&lt;/parameterReference&gt;</ph>, <ph id="8">&lt;parameterReference&gt;spk&lt;/parameterReference&gt;</ph>, <ph id="9">&lt;parameterReference&gt;srk&lt;/parameterReference&gt;</ph>, <ph id="10">&lt;parameterReference&gt;epk&lt;/parameterReference&gt;</ph>, and <ph id="11">&lt;parameterReference&gt;erk&lt;/parameterReference&gt;</ph> are all interpreted using version 2014-02-14.</source>
+            <target state="new">Authentication and authorization parameters such as <ph id="1">&lt;parameterReference&gt;si&lt;/parameterReference&gt;</ph>, <ph id="2">&lt;parameterReference&gt;sr&lt;/parameterReference&gt;</ph>, <ph id="3">&lt;parameterReference&gt;sp&lt;/parameterReference&gt;</ph>, <ph id="4">&lt;parameterReference&gt;sig&lt;/parameterReference&gt;</ph>, <ph id="5">&lt;parameterReference&gt;st&lt;/parameterReference&gt;</ph>, <ph id="6">&lt;parameterReference&gt;se&lt;/parameterReference&gt;</ph>, <ph id="7">&lt;parameterReference&gt;tn&lt;/parameterReference&gt;</ph>, <ph id="8">&lt;parameterReference&gt;spk&lt;/parameterReference&gt;</ph>, <ph id="9">&lt;parameterReference&gt;srk&lt;/parameterReference&gt;</ph>, <ph id="10">&lt;parameterReference&gt;epk&lt;/parameterReference&gt;</ph>, and <ph id="11">&lt;parameterReference&gt;erk&lt;/parameterReference&gt;</ph> are all interpreted using version 2014-02-14.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>REST protocol parameters such as  <ph id="1">&lt;parameterReference&gt;rscc&lt;/parameterReference&gt;</ph>, <ph id="2">&lt;parameterReference&gt;rscd&lt;/parameterReference&gt;</ph>, <ph id="3">&lt;parameterReference&gt;rsce&lt;/parameterReference&gt;</ph>, <ph id="4">&lt;parameterReference&gt;rscl&lt;/parameterReference&gt;</ph>, and <ph id="5">&lt;parameterReference&gt;rsct&lt;/parameterReference&gt;</ph> are enforced using the version provided in the <ph id="6">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> parameter header.</source>
+            <target state="new">REST protocol parameters such as  <ph id="1">&lt;parameterReference&gt;rscc&lt;/parameterReference&gt;</ph>, <ph id="2">&lt;parameterReference&gt;rscd&lt;/parameterReference&gt;</ph>, <ph id="3">&lt;parameterReference&gt;rsce&lt;/parameterReference&gt;</ph>, <ph id="4">&lt;parameterReference&gt;rscl&lt;/parameterReference&gt;</ph>, and <ph id="5">&lt;parameterReference&gt;rsct&lt;/parameterReference&gt;</ph> are enforced using the version provided in the <ph id="6">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> parameter header.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>If the <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> header is not specified, then the service version provided for <ph id="2">&lt;parameterReference&gt;SignedVersion&lt;/parameterReference&gt;</ph> is used.</source>
+            <target state="new">If the <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> header is not specified, then the service version provided for <ph id="2">&lt;parameterReference&gt;SignedVersion&lt;/parameterReference&gt;</ph> is used.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Note that the <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> parameter is not part of the string-to-sign in the authentication as described in <ph id="2">&lt;link xlink:href="2686d543-29ff-4b60-a2c0-a505f421ebf9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Constructing the Shared Access Signature URI&lt;/link&gt;</ph>.</source>
+            <target state="new">Note that the <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> parameter is not part of the string-to-sign in the authentication as described in <ph id="2">&lt;link xlink:href="2686d543-29ff-4b60-a2c0-a505f421ebf9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Constructing the Shared Access Signature URI&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>The following table explains the versioning scheme used by the service for authentication and authorization and for calling the REST protocol when the <ph id="1">&lt;parameterReference&gt;SignedVersion&lt;/parameterReference&gt;</ph> parameter is set to version 2014-02-14 or later.</source>
+            <target state="new">The following table explains the versioning scheme used by the service for authentication and authorization and for calling the REST protocol when the <ph id="1">&lt;parameterReference&gt;SignedVersion&lt;/parameterReference&gt;</ph> parameter is set to version 2014-02-14 or later.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Value of <bpt id="1">&lt;legacyItalic&gt;</bpt>api-version<ept id="1">&lt;/legacyItalic&gt;</ept> parameter</source>
+            <target state="new">Value of <bpt id="1">&lt;legacyItalic&gt;</bpt>api-version<ept id="1">&lt;/legacyItalic&gt;</ept> parameter</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Version used for authentication and authorization</source>
+            <target state="new">Version used for authentication and authorization</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Version used for protocol behavior </source>
+            <target state="new">Version used for protocol behavior </target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Not specified</source>
+            <target state="new">Not specified</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Version specified in the <ph id="1">&lt;parameterReference&gt;sv&lt;/parameterReference&gt;</ph> parameter</source>
+            <target state="new">Version specified in the <ph id="1">&lt;parameterReference&gt;sv&lt;/parameterReference&gt;</ph> parameter</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Version specified in the <ph id="1">&lt;parameterReference&gt;sv&lt;/parameterReference&gt;</ph> parameter</source>
+            <target state="new">Version specified in the <ph id="1">&lt;parameterReference&gt;sv&lt;/parameterReference&gt;</ph> parameter</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Any valid storage services version in format <ph id="1">&lt;parameterReference&gt;XXXX-XX-XX&lt;/parameterReference&gt;</ph></source>
+            <target state="new">Any valid storage services version in format <ph id="1">&lt;parameterReference&gt;XXXX-XX-XX&lt;/parameterReference&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Version specified in the <ph id="1">&lt;parameterReference&gt;sv&lt;/parameterReference&gt;</ph> parameter</source>
+            <target state="new">Version specified in the <ph id="1">&lt;parameterReference&gt;sv&lt;/parameterReference&gt;</ph> parameter</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Valid storage services version <ph id="1">&lt;parameterReference&gt;XXXX-XX-XX&lt;/parameterReference&gt;</ph></source>
+            <target state="new">Valid storage services version <ph id="1">&lt;parameterReference&gt;XXXX-XX-XX&lt;/parameterReference&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Example 1</source>
+            <target state="new">Example 1</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>The following sample request calls <ph id="1">&lt;link xlink:href="fa4760a6-5343-4aa1-b484-df823ce817e7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;List Blobs&lt;/link&gt;</ph> with <ph id="2">&lt;codeInline&gt;sv=2015-02-21&lt;/codeInline&gt;</ph>, and without the <ph id="3">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> parameter.</source>
+            <target state="new">The following sample request calls <ph id="1">&lt;link xlink:href="fa4760a6-5343-4aa1-b484-df823ce817e7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;List Blobs&lt;/link&gt;</ph> with <ph id="2">&lt;codeInline&gt;sv=2015-02-21&lt;/codeInline&gt;</ph>, and without the <ph id="3">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> parameter.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>In this case, the service authenticates and authorizes the request using version 2015-02-21 and also executes the operation using version 2015-02-21.</source>
+            <target state="new">In this case, the service authenticates and authorizes the request using version 2015-02-21 and also executes the operation using version 2015-02-21.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Example 2</source>
+            <target state="new">Example 2</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>The following sample request calls <ph id="1">&lt;link xlink:href="fa4760a6-5343-4aa1-b484-df823ce817e7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;List Blobs&lt;/link&gt;</ph> with <ph id="2">&lt;codeInline&gt;sv=2015-02-21&lt;/codeInline&gt;</ph> and with the <ph id="3">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> parameter.</source>
+            <target state="new">The following sample request calls <ph id="1">&lt;link xlink:href="fa4760a6-5343-4aa1-b484-df823ce817e7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;List Blobs&lt;/link&gt;</ph> with <ph id="2">&lt;codeInline&gt;sv=2015-02-21&lt;/codeInline&gt;</ph> and with the <ph id="3">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> parameter.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Here, the service authenticates and authorizes the request using version 2015-02-21 and executes the operation using version 2012-02-12.</source>
+            <target state="new">Here, the service authenticates and authorizes the request using version 2015-02-21 and executes the operation using version 2012-02-12.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>The .NET Storage Client Library will always set the REST protocol version (in the <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> parameter) to the version that it is based on.</source>
+            <target state="new">The .NET Storage Client Library will always set the REST protocol version (in the <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> parameter) to the version that it is based on.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Requests Via Anonymous Access</source>
+            <target state="new">Requests Via Anonymous Access</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>If a request to the Blob service does not specify the <ph id="1">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> header, and the default version for the service has not been set using <ph id="2">&lt;link xlink:href="65424a3c-ab49-4994-865c-827409598092" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Service Properties&lt;/link&gt;</ph>, then the earliest version of the Blob service is used to process the request.</source>
+            <target state="new">If a request to the Blob service does not specify the <ph id="1">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> header, and the default version for the service has not been set using <ph id="2">&lt;link xlink:href="65424a3c-ab49-4994-865c-827409598092" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Service Properties&lt;/link&gt;</ph>, then the earliest version of the Blob service is used to process the request.</target>
+          </trans-unit>
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>However, if the container was made public with a <ph id="1">&lt;link xlink:href="55958376-0879-4805-ace9-079d297ab3fa" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Container ACL&lt;/link&gt;</ph> operation performed using version 2009-09-19 or newer, then the request is processed using version 2009-09-19.</source>
+            <target state="new">However, if the container was made public with a <ph id="1">&lt;link xlink:href="55958376-0879-4805-ace9-079d297ab3fa" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Container ACL&lt;/link&gt;</ph> operation performed using version 2009-09-19 or newer, then the request is processed using version 2009-09-19.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

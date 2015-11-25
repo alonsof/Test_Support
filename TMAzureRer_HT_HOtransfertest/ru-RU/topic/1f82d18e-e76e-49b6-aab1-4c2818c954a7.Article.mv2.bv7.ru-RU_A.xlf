@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ru-RU" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANytENgzAMRdFVMkAs4eBA0gn6XbUDPAdbQqIgUZAYv/zec917U0mNzERI2DvSrii1jjHU6gzUGLJOnll7QgNIzDOVNGXKSTv0SYsDMbDfkYuRjYORVB0IUCZpqXBpNQvG+4phP+n1ieFaZne7jse+bUcMKYabn+cX63vH+ltwzNv6B6pApy2hAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Cancel the deletion of a certificate</source>
+            <target state="new">Cancel the deletion of a certificate</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Cancels a failed deletion of a certificate from the specified account.</source>
+            <target state="new">Cancels a failed deletion of a certificate from the specified account.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Request</source>
+            <target state="new">Request</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="0e07b9cb-8fdf-4ff7-b707-e964200df0f8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Common parameters and headers&lt;/link&gt;</ph> for headers and parameters that are used by all requests related to certificates.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="0e07b9cb-8fdf-4ff7-b707-e964200df0f8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Common parameters and headers&lt;/link&gt;</ph> for headers and parameters that are used by all requests related to certificates.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Method</source>
+            <target state="new">Method</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Request URI</source>
+            <target state="new">Request URI</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>POST</source>
+            <target state="new">POST</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Replace {certificate-thumbprint} with the thumbprint of the certificate.</source>
+            <target state="new">Replace {certificate-thumbprint} with the thumbprint of the certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Response</source>
+            <target state="new">Response</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Status code: 204</source>
+            <target state="new">Status code: 204</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Remarks</source>
+            <target state="new">Remarks</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>If you try to delete a certificate that is being used by a resource (Pool/TVM), the status of the certificate changes to <ph id="1">&lt;languageKeyword&gt;deletefailed&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">If you try to delete a certificate that is being used by a resource (Pool/TVM), the status of the certificate changes to <ph id="1">&lt;languageKeyword&gt;deletefailed&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>If you decide that you want to continue using the certificate, you can use this operation to set the status of the certificate back to active.</source>
+            <target state="new">If you decide that you want to continue using the certificate, you can use this operation to set the status of the certificate back to active.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>If you intend to delete the certificate, you do not need to run this operation after the deletion failed.</source>
+            <target state="new">If you intend to delete the certificate, you do not need to run this operation after the deletion failed.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>You must make sure that the certificate is not being used by any resources, and then you can try again to delete the certificate.</source>
+            <target state="new">You must make sure that the certificate is not being used by any resources, and then you can try again to delete the certificate.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

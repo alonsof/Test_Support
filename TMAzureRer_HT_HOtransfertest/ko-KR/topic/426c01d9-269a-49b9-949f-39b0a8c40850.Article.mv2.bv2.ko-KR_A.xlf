@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAdy1EKwjAMgOGr9AANpDWtiScQfBMvkNQUhnOFOWHHdwj/4/f3fnKj3MCdCCh1BEM2aJi0ivSkKjGUUg8kCAm5AbkzsFGF0vwA5ybsFgPlemxPgVxFgcQEhKTDSQyVGyEXjCHF8Bpwu8ewz1Pvvm+XdYwthvzv+n3r8lh1+cy6TWP5AQkNcyShAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>CROSS/OUTER APPLY</source>
+            <target state="new">CROSS/OUTER APPLY</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>CROSS/OUTER APPLY (Azure Stream Analytics)</source>
+            <target state="new">CROSS/OUTER APPLY (Azure Stream Analytics)</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>The APPLY operator in the Azure Stream Analytics query language makes it possible to flatten a stream having one or more columns containing arrays.</source>
+            <target state="new">The APPLY operator in the Azure Stream Analytics query language makes it possible to flatten a stream having one or more columns containing arrays.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Each input row will result in zero, one, or more rows depending on the size of the array in a given column of the input row.</source>
+            <target state="new">Each input row will result in zero, one, or more rows depending on the size of the array in a given column of the input row.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Each resulting row contains the initial payload and one element of the array represented as a record with the element’s index (ArrayIndex) and the element’s value (ArrayValue).</source>
+            <target state="new">Each resulting row contains the initial payload and one element of the array represented as a record with the element’s index (ArrayIndex) and the element’s value (ArrayValue).</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Both initial payload and flattened array can be projected.</source>
+            <target state="new">Both initial payload and flattened array can be projected.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>CROSS APPLY returns for each input row an output row per element in the input array.</source>
+            <target state="new">CROSS APPLY returns for each input row an output row per element in the input array.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>When the array is empty or null, there is no output.</source>
+            <target state="new">When the array is empty or null, there is no output.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>OUTER APPLY returns for each input row an output row per element in the input array.</source>
+            <target state="new">OUTER APPLY returns for each input row an output row per element in the input array.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>When the array is empty or null, OUTER APPLY returns one row with both ArrayIndex and ArrayValue set to null.</source>
+            <target state="new">When the array is empty or null, OUTER APPLY returns one row with both ArrayIndex and ArrayValue set to null.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Syntax</source>
+            <target state="new">Syntax</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Arguments</source>
+            <target state="new">Arguments</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>input_name | input_alias</source>
+            <target state="new">input_name | input_alias</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The name or alias of the input stream.</source>
+            <target state="new">The name or alias of the input stream.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>column_name</source>
+            <target state="new">column_name</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>The name of a column of the input stream.</source>
+            <target state="new">The name of a column of the input stream.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>This column is expected to contain an array.</source>
+            <target state="new">This column is expected to contain an array.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>element_name</source>
+            <target state="new">element_name</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>The name of the new column containing one element of the array.</source>
+            <target state="new">The name of the new column containing one element of the array.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Return Types</source>
+            <target state="new">Return Types</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>The output is a record containing the initial payload and a record '<bpt id="1">&lt;legacyItalic&gt;</bpt>element_name<ept id="1">&lt;/legacyItalic&gt;</ept>', which contains two fields:</source>
+            <target state="new">The output is a record containing the initial payload and a record '<bpt id="1">&lt;legacyItalic&gt;</bpt>element_name<ept id="1">&lt;/legacyItalic&gt;</ept>', which contains two fields:</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>ArrayIndex<ept id="1">&lt;/embeddedLabel&gt;</ept>: the index of the element in the array</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>ArrayIndex<ept id="1">&lt;/embeddedLabel&gt;</ept>: the index of the element in the array</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>ArrayValue<ept id="1">&lt;/embeddedLabel&gt;</ept>: the value of the element in the array.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>ArrayValue<ept id="1">&lt;/embeddedLabel&gt;</ept>: the value of the element in the array.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>It can be of any supported type.</source>
+            <target state="new">It can be of any supported type.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>General Remarks</source>
+            <target state="new">General Remarks</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>The only function supported in the '<bpt id="1">&lt;legacyItalic&gt;</bpt>elements_selector<ept id="1">&lt;/legacyItalic&gt;</ept>' is '<bpt id="2">&lt;legacyItalic&gt;</bpt>GetElements<ept id="2">&lt;/legacyItalic&gt;</ept>', which returns, for each element in the array, its index and its value.</source>
+            <target state="new">The only function supported in the '<bpt id="1">&lt;legacyItalic&gt;</bpt>elements_selector<ept id="1">&lt;/legacyItalic&gt;</ept>' is '<bpt id="2">&lt;legacyItalic&gt;</bpt>GetElements<ept id="2">&lt;/legacyItalic&gt;</ept>', which returns, for each element in the array, its index and its value.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Examples</source>
+            <target state="new">Examples</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Cross apply requires a stream with a column of type array.</source>
+            <target state="new">Cross apply requires a stream with a column of type array.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>The array can be part of the input stream or can be the result of former operators.</source>
+            <target state="new">The array can be part of the input stream or can be the result of former operators.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>In this examples, extending the tollbooth scenario, we assume that cars can have more than one license plate (e.g. a car towing a trailer would have two).</source>
+            <target state="new">In this examples, extending the tollbooth scenario, we assume that cars can have more than one license plate (e.g. a car towing a trailer would have two).</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Cross/outer apply can be used to flatten this array, i.e. get one row per license plate.</source>
+            <target state="new">Cross/outer apply can be used to flatten this array, i.e. get one row per license plate.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>The query can be modified to use outer apply in order to also keep track of cars without any license plate.</source>
+            <target state="new">The query can be modified to use outer apply in order to also keep track of cars without any license plate.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Another example using nested arrays (array of arrays).</source>
+            <target state="new">Another example using nested arrays (array of arrays).</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

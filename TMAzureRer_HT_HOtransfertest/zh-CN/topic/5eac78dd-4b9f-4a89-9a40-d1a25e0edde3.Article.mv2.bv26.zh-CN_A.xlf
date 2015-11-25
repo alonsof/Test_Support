@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-CN" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAAVyMEKwjAMANBf6Qc0kLTZ1nj14smTP5A2KQ7mBjph+PUqvNPrPXvl1MCdGZg6QsVSoSHpKNJJVWLQ3LgYVhAqCFyYQCwZcE0l1ymnzC2GwbVNxf4tHViLgCgjGGkaHN3McwwUw+cO52sMxzL37sd+em7bHkP6GWO4vB+63p66vhbd5239Avn6tGCiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Azure AD Graph API Versioning</source>
+            <target state="new">Azure AD Graph API Versioning</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This topic summarizes the version differences for Graph API entities and operations.</source>
+            <target state="new">This topic summarizes the version differences for Graph API entities and operations.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>You must specify the version of an operation that you want to use by including the <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> query string parameter in your request.</source>
+            <target state="new">You must specify the version of an operation that you want to use by including the <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> query string parameter in your request.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Requests without an <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> parameter will be rejected and return a <bpt id="2">&lt;legacyBold&gt;</bpt>(400) Bad Request response<ept id="2">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new">Requests without an <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> parameter will be rejected and return a <bpt id="2">&lt;legacyBold&gt;</bpt>(400) Bad Request response<ept id="2">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>If your service calls an older version of an operation, you can choose to continue calling the older version, or modify your code to call a newer version.</source>
+            <target state="new">If your service calls an older version of an operation, you can choose to continue calling the older version, or modify your code to call a newer version.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Any differences in functionality between versions are outlined in the documentation for the entity upon which you are performing the call.</source>
+            <target state="new">Any differences in functionality between versions are outlined in the documentation for the entity upon which you are performing the call.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Beginning with Graph API version 1.5, the <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> parameter value for General Availability (GA) versions is specified as a numeric value.</source>
+            <target state="new">Beginning with Graph API version 1.5, the <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> parameter value for General Availability (GA) versions is specified as a numeric value.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The following URI shows how to query the top-level resources for tenant domain contoso.com using Graph API version 1.5: <ph id="1">&lt;codeInline&gt;https://graph.windows.net/contoso.com?api-version=1.5&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">The following URI shows how to query the top-level resources for tenant domain contoso.com using Graph API version 1.5: <ph id="1">&lt;codeInline&gt;https://graph.windows.net/contoso.com?api-version=1.5&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>For previous versions of Graph API, the <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> parameter value is specified as a date string in the following format: YYYY-MM-DD.</source>
+            <target state="new">For previous versions of Graph API, the <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> parameter value is specified as a date string in the following format: YYYY-MM-DD.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>The following URL shows how to query the top-level resources of the same tenant using the 2013-11-08 version of the Graph API: <ph id="1">&lt;codeInline&gt;https://graph.windows.net/contoso.com?api-version=2013-11-08&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">The following URL shows how to query the top-level resources of the same tenant using the 2013-11-08 version of the Graph API: <ph id="1">&lt;codeInline&gt;https://graph.windows.net/contoso.com?api-version=2013-11-08&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>For preview features, the <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> parameter value is specified using the string “beta” as follows: <ph id="2">&lt;codeInline&gt;https://graph.windows.net/contoso.com?api-version=beta&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">For preview features, the <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> parameter value is specified using the string “beta” as follows: <ph id="2">&lt;codeInline&gt;https://graph.windows.net/contoso.com?api-version=beta&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>API contract, versioning and breaking changes</source>
+            <target state="new">API contract, versioning and breaking changes</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>We will increment the API version number for any breaking changes to the API, in order to protect client applications.</source>
+            <target state="new">We will increment the API version number for any breaking changes to the API, in order to protect client applications.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>We may choose to increment the API version for non-breaking changes too (for example, if we add some significantly large new capabilities).</source>
+            <target state="new">We may choose to increment the API version for non-breaking changes too (for example, if we add some significantly large new capabilities).</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>So, what constitutes a breaking change?</source>
+            <target state="new">So, what constitutes a breaking change?</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Removing or renaming APIs or API parameters</source>
+            <target state="new">Removing or renaming APIs or API parameters</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Changes in behavior for an existing API</source>
+            <target state="new">Changes in behavior for an existing API</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Changes in Error Codes &amp; Fault Contracts</source>
+            <target state="new">Changes in Error Codes &amp; Fault Contracts</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Anything that would violate the Principal of Least Astonishment</source>
+            <target state="new">Anything that would violate the Principal of Least Astonishment</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>The addition of new JSON fields to responses does not constitute a breaking change.</source>
+            <target state="new">The addition of new JSON fields to responses does not constitute a breaking change.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>For developers who generate their own client proxies (like WCF clients) our guidance is your client applications should be prepared to receive properties and derived types not previously defined by the Graph API service.</source>
+            <target state="new">For developers who generate their own client proxies (like WCF clients) our guidance is your client applications should be prepared to receive properties and derived types not previously defined by the Graph API service.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Although Graph API is not yet OData V4 compliant at the time of this writing, it still follows the guidance described in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Model Versioning section in the OData V4 spec<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398209&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">Although Graph API is not yet OData V4 compliant at the time of this writing, it still follows the guidance described in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Model Versioning section in the OData V4 spec<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html#_Toc406398209&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>When we increment the major version of the API (for example from 1.5 to 2.0), we are signaling that all support for existing clients using previous 1.x or earlier versions will be deprecated and no longer supported after 12 months.</source>
+            <target state="new">When we increment the major version of the API (for example from 1.5 to 2.0), we are signaling that all support for existing clients using previous 1.x or earlier versions will be deprecated and no longer supported after 12 months.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Please see the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Microsoft Online Services Support Lifecycle Policy<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://support.microsoft.com/en-us/gp/lifecycle#gp/osslpolicy&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for more details.</source>
+            <target state="new">Please see the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Microsoft Online Services Support Lifecycle Policy<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://support.microsoft.com/en-us/gp/lifecycle#gp/osslpolicy&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for more details.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Supported Versions</source>
+            <target state="new">Supported Versions</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>The following versions have been released for the Graph API.</source>
+            <target state="new">The following versions have been released for the Graph API.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Version beta</source>
+            <target state="new">Version beta</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>The Graph API features currently in Preview can be found in either the <ph id="1">&lt;link xlink:href="a383e9f2-cee7-48b0-9013-50d06a2ab9e8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Preview Features&lt;/link&gt;</ph> section of the Graph API documentation, or on the <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>Graph Team Blog<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://blogs.msdn.com/b/aadgraphteam/archive/2015/03/15/full-text-search-capabilities-in-azure-ad-graph-api-preview.aspx&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>, and require the “api-version=beta” query string parameter.</source>
+            <target state="new">The Graph API features currently in Preview can be found in either the <ph id="1">&lt;link xlink:href="a383e9f2-cee7-48b0-9013-50d06a2ab9e8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Preview Features&lt;/link&gt;</ph> section of the Graph API documentation, or on the <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>Graph Team Blog<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://blogs.msdn.com/b/aadgraphteam/archive/2015/03/15/full-text-search-capabilities-in-azure-ad-graph-api-preview.aspx&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>, and require the “api-version=beta” query string parameter.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>When the Graph API team believes that a preview feature is ready for GA, we will add that feature to the latest GA version (or if it constitutes a breaking change this would result in an incremented new version number).</source>
+            <target state="new">When the Graph API team believes that a preview feature is ready for GA, we will add that feature to the latest GA version (or if it constitutes a breaking change this would result in an incremented new version number).</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>We make no guarantees that a preview feature will be promoted to GA.</source>
+            <target state="new">We make no guarantees that a preview feature will be promoted to GA.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>For the beta version, we will try to avoid any breaking changes as much as possible, but we will not guarantee it.</source>
+            <target state="new">For the beta version, we will try to avoid any breaking changes as much as possible, but we will not guarantee it.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Client applications using the beta version should expect breaking changes from time to time.</source>
+            <target state="new">Client applications using the beta version should expect breaking changes from time to time.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Please see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Supplemental Terms of Use for Microsoft Azure Previews<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">Please see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Supplemental Terms of Use for Microsoft Azure Previews<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Version 1.6</source>
+            <target state="new">Version 1.6</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>This section lists the changes for Graph API version 1.6.</source>
+            <target state="new">This section lists the changes for Graph API version 1.6.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Graph API version 1.6 introduces the following feature changes:</source>
+            <target state="new">Graph API version 1.6 introduces the following feature changes:</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>At release, the client-facing interface (entities, complex types, functions, and actions) has not changed; however, changes will occur as features are added or updated.</source>
+            <target state="new">At release, the client-facing interface (entities, complex types, functions, and actions) has not changed; however, changes will occur as features are added or updated.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Graph Client versions 2.1.x require Graph API version 1.6; Graph Client versions 2.0.x require Graph API 1.5.</source>
+            <target state="new">Graph Client versions 2.1.x require Graph API version 1.6; Graph Client versions 2.0.x require Graph API 1.5.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Version 1.5</source>
+            <target state="new">Version 1.5</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>This section lists the changes for Graph API version 1.5.</source>
+            <target state="new">This section lists the changes for Graph API version 1.5.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Graph API version 1.5 introduces the following feature changes:</source>
+            <target state="new">Graph API version 1.5 introduces the following feature changes:</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>The schema namespace of Graph API has changed from <ph id="1">&lt;system&gt;Microsoft.WindowsAzure.ActiveDirectory&lt;/system&gt;</ph> to <ph id="2">&lt;system&gt;Microsoft.DirectoryServices&lt;/system&gt;</ph>.</source>
+            <target state="new">The schema namespace of Graph API has changed from <ph id="1">&lt;system&gt;Microsoft.WindowsAzure.ActiveDirectory&lt;/system&gt;</ph> to <ph id="2">&lt;system&gt;Microsoft.DirectoryServices&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>This affects all entities and complex types exposed by Graph API.</source>
+            <target state="new">This affects all entities and complex types exposed by Graph API.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Support for directory schema extensions has been added.</source>
+            <target state="new">Support for directory schema extensions has been added.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>This allows you to add properties that are required by your application to directory objects.</source>
+            <target state="new">This allows you to add properties that are required by your application to directory objects.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>The following entities support schema extensions: user, group, tenant detail, device, application, and service principal.</source>
+            <target state="new">The following entities support schema extensions: user, group, tenant detail, device, application, and service principal.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>To support directory schema extensions: the <ph id="1">&lt;system&gt;ExtensionProperty&lt;/system&gt;</ph> entity has been added, the <ph id="2">&lt;system&gt;extensionProperties&lt;/system&gt;</ph> navigation property has been added to the <ph id="3">&lt;system&gt;Application&lt;/system&gt;</ph> entity, and a new function, <ph id="4">&lt;system&gt;getAvailableExtensionProperties&lt;/system&gt;</ph>, has been added to return the registered extension properties of supported directory objects.</source>
+            <target state="new">To support directory schema extensions: the <ph id="1">&lt;system&gt;ExtensionProperty&lt;/system&gt;</ph> entity has been added, the <ph id="2">&lt;system&gt;extensionProperties&lt;/system&gt;</ph> navigation property has been added to the <ph id="3">&lt;system&gt;Application&lt;/system&gt;</ph> entity, and a new function, <ph id="4">&lt;system&gt;getAvailableExtensionProperties&lt;/system&gt;</ph>, has been added to return the registered extension properties of supported directory objects.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>For more information about extending the directory schema, see <ph id="1">&lt;link xlink:href="ffe9bc40-cdc2-4ae2-a560-2a5d401809c9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure AD Graph API Directory Schema Extensions&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about extending the directory schema, see <ph id="1">&lt;link xlink:href="ffe9bc40-cdc2-4ae2-a560-2a5d401809c9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure AD Graph API Directory Schema Extensions&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>The way in which permissions are represented has changed and is more tightly aligned with OAuth 2.0 concepts as well as with the way permissions are represented in other Azure components.</source>
+            <target state="new">The way in which permissions are represented has changed and is more tightly aligned with OAuth 2.0 concepts as well as with the way permissions are represented in other Azure components.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;Permission&lt;/system&gt;</ph> entity has been removed and has been replaced with the <ph id="2">&lt;system&gt;OAuth2PermissionGrant&lt;/system&gt;</ph> entity.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;Permission&lt;/system&gt;</ph> entity has been removed and has been replaced with the <ph id="2">&lt;system&gt;OAuth2PermissionGrant&lt;/system&gt;</ph> entity.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>This entity represents delegated OAuth 2.0 permissions scopes that arrive in an OAuth 2.0 access token scope claim.</source>
+            <target state="new">This entity represents delegated OAuth 2.0 permissions scopes that arrive in an OAuth 2.0 access token scope claim.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Additionally, the new <ph id="1">&lt;system&gt;AppRoleAssignment&lt;/system&gt;</ph> entity represents application roles that can be assigned to users, groups and service principals.</source>
+            <target state="new">Additionally, the new <ph id="1">&lt;system&gt;AppRoleAssignment&lt;/system&gt;</ph> entity represents application roles that can be assigned to users, groups and service principals.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Two related complex types have also been added: <ph id="1">&lt;system&gt;AppRole&lt;/system&gt;</ph> and <ph id="2">&lt;system&gt;OAuth2Permission&lt;/system&gt;</ph>.</source>
+            <target state="new">Two related complex types have also been added: <ph id="1">&lt;system&gt;AppRole&lt;/system&gt;</ph> and <ph id="2">&lt;system&gt;OAuth2Permission&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>This change has precipitated renaming some properties and adding others in the following entities: <ph id="1">&lt;system&gt;Application&lt;/system&gt;</ph>, <ph id="2">&lt;system&gt;Group&lt;/system&gt;</ph>, <ph id="3">&lt;system&gt;ServicePrincipal&lt;/system&gt;</ph>, and <ph id="4">&lt;system&gt;User&lt;/system&gt;</ph>.</source>
+            <target state="new">This change has precipitated renaming some properties and adding others in the following entities: <ph id="1">&lt;system&gt;Application&lt;/system&gt;</ph>, <ph id="2">&lt;system&gt;Group&lt;/system&gt;</ph>, <ph id="3">&lt;system&gt;ServicePrincipal&lt;/system&gt;</ph>, and <ph id="4">&lt;system&gt;User&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;Role&lt;/system&gt;</ph> entity is renamed to <ph id="2">&lt;system&gt;DirectoryRole&lt;/system&gt;</ph>.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;Role&lt;/system&gt;</ph> entity is renamed to <ph id="2">&lt;system&gt;DirectoryRole&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;RoleTemplate&lt;/system&gt;</ph> entity is renamed to <ph id="2">&lt;system&gt;DirectoryRoleTemplate&lt;/system&gt;</ph>.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;RoleTemplate&lt;/system&gt;</ph> entity is renamed to <ph id="2">&lt;system&gt;DirectoryRoleTemplate&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>The following tables list the entities, complex types, and functions that have been added, changed, or removed for this release.</source>
+            <target state="new">The following tables list the entities, complex types, and functions that have been added, changed, or removed for this release.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Entity Changes</source>
+            <target state="new">Entity Changes</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Entity</source>
+            <target state="new">Entity</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Change Description</source>
+            <target state="new">Change Description</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Updated the <bpt id="1">&lt;embeddedLabel&gt;</bpt>appId<ept id="1">&lt;/embeddedLabel&gt;</ept> property from Edm.Guid to Edm.String.</source>
+            <target state="new">Updated the <bpt id="1">&lt;embeddedLabel&gt;</bpt>appId<ept id="1">&lt;/embeddedLabel&gt;</ept> property from Edm.Guid to Edm.String.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>appRoles<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which contains the collection of application roles that an application may declare.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>appRoles<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which contains the collection of application roles that an application may declare.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>These roles can be assigned to users, groups or service principals.</source>
+            <target state="new">These roles can be assigned to users, groups or service principals.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>groupMembershipClaims<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which is a bitmask that configures the "groups" claim issued in a user or OAuth 2.0 access token that your application expects.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>groupMembershipClaims<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which is a bitmask that configures the "groups" claim issued in a user or OAuth 2.0 access token that your application expects.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>The bitmask values are: 0: None, 1: Security groups and Azure AD roles, 2: Reserved, and 4: Reserved.</source>
+            <target state="new">The bitmask values are: 0: None, 1: Security groups and Azure AD roles, 2: Reserved, and 4: Reserved.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Setting the bitmask to 7 will get all of the security groups, distribution groups, and Azure AD roles that the signed-in user is a member of.</source>
+            <target state="new">Setting the bitmask to 7 will get all of the security groups, distribution groups, and Azure AD roles that the signed-in user is a member of.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>knownClientApplications<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which contains a list of client applications that are tied to this resource application.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>knownClientApplications<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which contains a list of client applications that are tied to this resource application.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Consent to any of the known client applications will result in implicit consent to the resource application through a combined consent dialog (showing the OAuth permission scopes required by the client and the resource).</source>
+            <target state="new">Consent to any of the known client applications will result in implicit consent to the resource application through a combined consent dialog (showing the OAuth permission scopes required by the client and the resource).</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>oauth2AllowImplicitFlow<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which specifies whether this web application can request OAuth2.0 implicit flow tokens.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>oauth2AllowImplicitFlow<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which specifies whether this web application can request OAuth2.0 implicit flow tokens.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>The default is <ph id="1">&lt;languageKeyword&gt;false&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">The default is <ph id="1">&lt;languageKeyword&gt;false&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>oauth2AllowUrlPathMatching<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which specifies whether, as part of OAuth 2.0 token requests, Azure AD will allow path matching of the redirect URI against the application's <ph id="2">&lt;system&gt;replyUrls&lt;/system&gt;</ph>.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>oauth2AllowUrlPathMatching<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which specifies whether, as part of OAuth 2.0 token requests, Azure AD will allow path matching of the redirect URI against the application's <ph id="2">&lt;system&gt;replyUrls&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>The default is <ph id="1">&lt;languageKeyword&gt;false&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">The default is <ph id="1">&lt;languageKeyword&gt;false&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>oauth2Permissions<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which contains the collection of OAuth 2.0 permission scopes that the web API (resource) application exposes to client applications.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>oauth2Permissions<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which contains the collection of OAuth 2.0 permission scopes that the web API (resource) application exposes to client applications.</target>
+          </trans-unit>
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>These permission scopes may be granted to client applications during consent.</source>
+            <target state="new">These permission scopes may be granted to client applications during consent.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>oauth2RequiredPostResponse<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which specifies whether, as part of OAuth 2.0 token requests, Azure AD will allow POST requests, as opposed to GET requests.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>oauth2RequiredPostResponse<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which specifies whether, as part of OAuth 2.0 token requests, Azure AD will allow POST requests, as opposed to GET requests.</target>
+          </trans-unit>
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Default is <ph id="1">&lt;languageKeyword&gt;false&lt;/languageKeyword&gt;</ph>, which specifies that only GET requests will be allowed.</source>
+            <target state="new">Default is <ph id="1">&lt;languageKeyword&gt;false&lt;/languageKeyword&gt;</ph>, which specifies that only GET requests will be allowed.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>requiredResourceAccess<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which specifies resources that this application requires access to and the set of OAuth permission scopes and application roles that it needs under each of those resources.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>requiredResourceAccess<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which specifies resources that this application requires access to and the set of OAuth permission scopes and application roles that it needs under each of those resources.</target>
+          </trans-unit>
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>This pre-configuration of required resource access drives the end-user consent experience.</source>
+            <target state="new">This pre-configuration of required resource access drives the end-user consent experience.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>extensionProperties<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which contains the extension properties associated with the application.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>extensionProperties<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which contains the extension properties associated with the application.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>New entity that is used to record when a user or group is assigned to an application.</source>
+            <target state="new">New entity that is used to record when a user or group is assigned to an application.</target>
+          </trans-unit>
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>In this case it will result in an application tile showing up on the user's app access panel.</source>
+            <target state="new">In this case it will result in an application tile showing up on the user's app access panel.</target>
+          </trans-unit>
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>This entity may also be used to grant another application (modeled as a service principal) access to a resource application in a particular role.</source>
+            <target state="new">This entity may also be used to grant another application (modeled as a service principal) access to a resource application in a particular role.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>sipProxyAddress<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which specifies the voice over IP (VOIP) session initiation protocol (SIP) address for the contact.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>sipProxyAddress<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which specifies the voice over IP (VOIP) session initiation protocol (SIP) address for the contact.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Added the <ph id="1">&lt;system&gt;deletionTimestamp&lt;/system&gt;</ph> property, which indicates the time at which a directory object was deleted.</source>
+            <target state="new">Added the <ph id="1">&lt;system&gt;deletionTimestamp&lt;/system&gt;</ph> property, which indicates the time at which a directory object was deleted.</target>
+          </trans-unit>
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>It only applies to those directory objects which can be restored.</source>
+            <target state="new">It only applies to those directory objects which can be restored.</target>
+          </trans-unit>
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Currently this is only supported for <ph id="1">&lt;system&gt;Application&lt;/system&gt;</ph>.</source>
+            <target state="new">Currently this is only supported for <ph id="1">&lt;system&gt;Application&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Renamed from <ph id="1">&lt;system&gt;Role&lt;/system&gt;</ph>.</source>
+            <target state="new">Renamed from <ph id="1">&lt;system&gt;Role&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>roleTemplateId<ept id="1">&lt;/embeddedLabel&gt;</ept> property</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>roleTemplateId<ept id="1">&lt;/embeddedLabel&gt;</ept> property</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Renamed from <ph id="1">&lt;system&gt;RoleTemplate&lt;/system&gt;</ph>.</source>
+            <target state="new">Renamed from <ph id="1">&lt;system&gt;RoleTemplate&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>New entity that allows an application to define and use a set of additional properties that can be added to directory objects (users, groups, tenant details, devices, applications, and service principals) without the application requiring an external data store.</source>
+            <target state="new">New entity that allows an application to define and use a set of additional properties that can be added to directory objects (users, groups, tenant details, devices, applications, and service principals) without the application requiring an external data store.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>onPremisesSecurityIdentifier<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which contains the on-premises security identifier (SID) for the group that was synchronized from on-premises to the cloud.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>onPremisesSecurityIdentifier<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which contains the on-premises security identifier (SID) for the group that was synchronized from on-premises to the cloud.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>appRoleAssignments<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of applications (service principals) that this group is assigned to.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>appRoleAssignments<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of applications (service principals) that this group is assigned to.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>New entity that specifies an OAuth2.0 delegated permission scope.</source>
+            <target state="new">New entity that specifies an OAuth2.0 delegated permission scope.</target>
+          </trans-unit>
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>The specified OAuth delegated permission scope may be requested by client applications (through the <ph id="1">&lt;system&gt;requiredResourceAccess&lt;/system&gt;</ph> collection) calling this resource application.</source>
+            <target state="new">The specified OAuth delegated permission scope may be requested by client applications (through the <ph id="1">&lt;system&gt;requiredResourceAccess&lt;/system&gt;</ph> collection) calling this resource application.</target>
+          </trans-unit>
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Replaces the Permission entity which is removed from this version.</source>
+            <target state="new">Replaces the Permission entity which is removed from this version.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Renamed to  <ph id="1">&lt;link xlink:href="190a3538-80be-4ce4-8250-9bd6f26b7136" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OAuth2PermissionGrant&lt;/link&gt;</ph>..</source>
+            <target state="new">Renamed to  <ph id="1">&lt;link xlink:href="190a3538-80be-4ce4-8250-9bd6f26b7136" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OAuth2PermissionGrant&lt;/link&gt;</ph>..</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Renamed to <ph id="1">&lt;link xlink:href="a866c097-7c4c-4328-9eda-6fa81a62b12a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;DirectoryRole&lt;/link&gt;</ph>.</source>
+            <target state="new">Renamed to <ph id="1">&lt;link xlink:href="a866c097-7c4c-4328-9eda-6fa81a62b12a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;DirectoryRole&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Renamed to <ph id="1">&lt;link xlink:href="958bcda9-207a-4ae3-962f-88fb1cf1fc7d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;DirectoryRoleTemplate&lt;/link&gt;</ph>.</source>
+            <target state="new">Renamed to <ph id="1">&lt;link xlink:href="958bcda9-207a-4ae3-962f-88fb1cf1fc7d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;DirectoryRoleTemplate&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>appDisplayName<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which specifies the display name exposed by the associated application.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>appDisplayName<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which specifies the display name exposed by the associated application.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>appRoleAssignmentRequired<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which specifies whether an <ph id="2">&lt;system&gt;AppRoleAssignment&lt;/system&gt;</ph> to a user or group is required before Azure AD will issue a user or access token to the application.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>appRoleAssignmentRequired<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which specifies whether an <ph id="2">&lt;system&gt;AppRoleAssignment&lt;/system&gt;</ph> to a user or group is required before Azure AD will issue a user or access token to the application.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>appRoles<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which contains the application roles exposed by the associated application.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>appRoles<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which contains the application roles exposed by the associated application.</target>
+          </trans-unit>
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>For more information see the <ph id="1">&lt;system&gt;appRoles&lt;/system&gt;</ph> property definition on the <ph id="2">&lt;system&gt;Application&lt;/system&gt;</ph> entity.</source>
+            <target state="new">For more information see the <ph id="1">&lt;system&gt;appRoles&lt;/system&gt;</ph> property definition on the <ph id="2">&lt;system&gt;Application&lt;/system&gt;</ph> entity.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>oauth2Permissions<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which contains the OAuth 2.0 permissions exposed by the associated application.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>oauth2Permissions<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which contains the OAuth 2.0 permissions exposed by the associated application.</target>
+          </trans-unit>
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>For more information see the <ph id="1">&lt;system&gt;oauth2Permisions&lt;/system&gt;</ph> property definition on the <ph id="2">&lt;system&gt;Application&lt;/system&gt;</ph> entity.</source>
+            <target state="new">For more information see the <ph id="1">&lt;system&gt;oauth2Permisions&lt;/system&gt;</ph> property definition on the <ph id="2">&lt;system&gt;Application&lt;/system&gt;</ph> entity.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>preferredTokenSigningKeyThumbprint<ept id="1">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>preferredTokenSigningKeyThumbprint<ept id="1">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Reserved for internal use only.</source>
+            <target state="new">Reserved for internal use only.</target>
+          </trans-unit>
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>Do not write or otherwise rely on this property.</source>
+            <target state="new">Do not write or otherwise rely on this property.</target>
+          </trans-unit>
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>May be removed in future versions.</source>
+            <target state="new">May be removed in future versions.</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>appRoleAssignedTo<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of applications that the service principal is assigned to.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>appRoleAssignedTo<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of applications that the service principal is assigned to.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>appRoleAssignments<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of principals (users, groups, and service principals) that are assigned to this service principal.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>appRoleAssignments<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of principals (users, groups, and service principals) that are assigned to this service principal.</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>oauth2PermissionGrants<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of user impersonation grants associated with this service principal.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>oauth2PermissionGrants<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of user impersonation grants associated with this service principal.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>Removed the <bpt id="1">&lt;embeddedLabel&gt;</bpt>permissions<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property</source>
+            <target state="new">Removed the <bpt id="1">&lt;embeddedLabel&gt;</bpt>permissions<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>Removed the <ph id="1">&lt;system&gt;tenantType&lt;/system&gt;</ph> property.</source>
+            <target state="new">Removed the <ph id="1">&lt;system&gt;tenantType&lt;/system&gt;</ph> property.</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>onPremisesSecurityIdentifier<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which contains the on-premises security identifier (SID) for the user that was synchronized from on-premises to the cloud.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>onPremisesSecurityIdentifier<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which contains the on-premises security identifier (SID) for the user that was synchronized from on-premises to the cloud.</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>sipProxyAddress<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which specifies the voice over IP (VOIP) session initiation protocol (SIP) address for the user.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>sipProxyAddress<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which specifies the voice over IP (VOIP) session initiation protocol (SIP) address for the user.</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>appRoleAssignments<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of applications (service principals) that this user is assigned to.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>appRoleAssignments<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of applications (service principals) that this user is assigned to.</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>oauth2PermissionGrants<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of OAuth 2.0 user impersonation grants associated with this user.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>oauth2PermissionGrants<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of OAuth 2.0 user impersonation grants associated with this user.</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Removed the <bpt id="1">&lt;embeddedLabel&gt;</bpt>permissions<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property.</source>
+            <target state="new">Removed the <bpt id="1">&lt;embeddedLabel&gt;</bpt>permissions<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property.</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>Complex Type Changes</source>
+            <target state="new">Complex Type Changes</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>Change Description</source>
+            <target state="new">Change Description</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>New type that specifies application roles that may be requested by client applications calling this application, or that may be used to assign the application to users or groups in one of the specified application roles.</source>
+            <target state="new">New type that specifies application roles that may be requested by client applications calling this application, or that may be used to assign the application to users or groups in one of the specified application roles.</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>New type that represents an OAuth 2.0 permission scope.</source>
+            <target state="new">New type that represents an OAuth 2.0 permission scope.</target>
+          </trans-unit>
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>The specified OAuth 2.0 permission scope may be requested by client applications (through the <ph id="1">&lt;system&gt;requiredResourceAccess&lt;/system&gt;</ph> collection) calling this resource application.</source>
+            <target state="new">The specified OAuth 2.0 permission scope may be requested by client applications (through the <ph id="1">&lt;system&gt;requiredResourceAccess&lt;/system&gt;</ph> collection) calling this resource application.</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>New type that specifies the set of OAuth 2.0 permission scopes and app roles under the specified resource that this application requires access to.</source>
+            <target state="new">New type that specifies the set of OAuth 2.0 permission scopes and app roles under the specified resource that this application requires access to.</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>New type that represents a permission that this application requires.</source>
+            <target state="new">New type that represents a permission that this application requires.</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>Action and Function Changes</source>
+            <target state="new">Action and Function Changes</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>Function</source>
+            <target state="new">Function</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>Change Description</source>
+            <target state="new">Change Description</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>New function that returns the full list of extension properties that have been registered in a directory.</source>
+            <target state="new">New function that returns the full list of extension properties that have been registered in a directory.</target>
+          </trans-unit>
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>Extension properties can be registered for the following entities: <ph id="1">&lt;system&gt;User&lt;/system&gt;</ph>, <ph id="2">&lt;system&gt;Group&lt;/system&gt;</ph>, <ph id="3">&lt;system&gt;Device&lt;/system&gt;</ph>, <ph id="4">&lt;system&gt;TenantDetail&lt;/system&gt;</ph>, <ph id="5">&lt;system&gt;Application&lt;/system&gt;</ph>, and <ph id="6">&lt;system&gt;ServicePrincipal&lt;/system&gt;</ph>.</source>
+            <target state="new">Extension properties can be registered for the following entities: <ph id="1">&lt;system&gt;User&lt;/system&gt;</ph>, <ph id="2">&lt;system&gt;Group&lt;/system&gt;</ph>, <ph id="3">&lt;system&gt;Device&lt;/system&gt;</ph>, <ph id="4">&lt;system&gt;TenantDetail&lt;/system&gt;</ph>, <ph id="5">&lt;system&gt;Application&lt;/system&gt;</ph>, and <ph id="6">&lt;system&gt;ServicePrincipal&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>New function that returns all of the <ph id="1">&lt;system&gt;Group&lt;/system&gt;</ph> and <ph id="2">&lt;system&gt;DirectoryRole&lt;/system&gt;</ph> objects that a user, contact, group, or service principal is transitively a member of.</source>
+            <target state="new">New function that returns all of the <ph id="1">&lt;system&gt;Group&lt;/system&gt;</ph> and <ph id="2">&lt;system&gt;DirectoryRole&lt;/system&gt;</ph> objects that a user, contact, group, or service principal is transitively a member of.</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>New function that returns the directory objects specified in a list of object IDs.</source>
+            <target state="new">New function that returns the directory objects specified in a list of object IDs.</target>
+          </trans-unit>
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>You can also specify which resource collections (users, groups, etc.)</source>
+            <target state="new">You can also specify which resource collections (users, groups, etc.)</target>
+          </trans-unit>
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>should be searched by specifying the optional <ph id="1">&lt;parameterReference&gt;types&lt;/parameterReference&gt;</ph> parameter.</source>
+            <target state="new">should be searched by specifying the optional <ph id="1">&lt;parameterReference&gt;types&lt;/parameterReference&gt;</ph> parameter.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>New service action that allows a deleted application to be restored.</source>
+            <target state="new">New service action that allows a deleted application to be restored.</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>Version 2013-11-08</source>
+            <target state="new">Version 2013-11-08</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>This section lists the changes for Graph API version 2013-11-08.</source>
+            <target state="new">This section lists the changes for Graph API version 2013-11-08.</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>The following tables list the entities, complex types, and functions that have been added, changed, or removed for this release.</source>
+            <target state="new">The following tables list the entities, complex types, and functions that have been added, changed, or removed for this release.</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>Entity Changes</source>
+            <target state="new">Entity Changes</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>Entity</source>
+            <target state="new">Entity</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>Change Description</source>
+            <target state="new">Change Description</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>owners<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that are owners of the application.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>owners<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that are owners of the application.</target>
+          </trans-unit>
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>The owners are a set of non-admin users who are allowed to modify this object.</source>
+            <target state="new">The owners are a set of non-admin users who are allowed to modify this object.</target>
+          </trans-unit>
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>Inherited from <ph id="1">&lt;system&gt;DirectoryObject&lt;/system&gt;</ph>.</source>
+            <target state="new">Inherited from <ph id="1">&lt;system&gt;DirectoryObject&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>DeviceConfiguration</source>
+            <target state="new">DeviceConfiguration</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>New entity that represents the configuration for a device.</source>
+            <target state="new">New entity that represents the configuration for a device.</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>createdOnBehalfOf<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to directory object that that this object was created on behalf of.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>createdOnBehalfOf<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to directory object that that this object was created on behalf of.</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>createdObjects<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that were created by the current object.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>createdObjects<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that were created by the current object.</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>owners<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that are owners of the current object.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>owners<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that are owners of the current object.</target>
+          </trans-unit>
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>The owners are a set of non-admin users who are allowed to modify this object.</source>
+            <target state="new">The owners are a set of non-admin users who are allowed to modify this object.</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ownedObjects<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that are owned by the current object.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ownedObjects<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that are owned by the current object.</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>Entities that derive from <bpt id="1">&lt;embeddedLabel&gt;</bpt>DirectoryObject<ept id="1">&lt;/embeddedLabel&gt;</ept> inherit its properties and may inherit its navigation properties.</source>
+            <target state="new">Entities that derive from <bpt id="1">&lt;embeddedLabel&gt;</bpt>DirectoryObject<ept id="1">&lt;/embeddedLabel&gt;</ept> inherit its properties and may inherit its navigation properties.</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>owners<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that are owners of the group.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>owners<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that are owners of the group.</target>
+          </trans-unit>
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>The owners are a set of non-admin users who are allowed to modify this object.</source>
+            <target state="new">The owners are a set of non-admin users who are allowed to modify this object.</target>
+          </trans-unit>
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>Inherited from <ph id="1">&lt;system&gt;DirectoryObject&lt;/system&gt;</ph>.</source>
+            <target state="new">Inherited from <ph id="1">&lt;system&gt;DirectoryObject&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ownedObjects<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that are owned by the role.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ownedObjects<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that are owned by the role.</target>
+          </trans-unit>
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>Inherited from <ph id="1">&lt;system&gt;DirectoryObject&lt;/system&gt;</ph>.</source>
+            <target state="new">Inherited from <ph id="1">&lt;system&gt;DirectoryObject&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;Role&lt;/system&gt;</ph> entity was renamed to <ph id="2">&lt;system&gt;DirectoryRole&lt;/system&gt;</ph> beginning with version 1.5.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;Role&lt;/system&gt;</ph> entity was renamed to <ph id="2">&lt;system&gt;DirectoryRole&lt;/system&gt;</ph> beginning with version 1.5.</target>
+          </trans-unit>
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>For information about <ph id="1">&lt;system&gt;Role&lt;/system&gt;</ph>, see <ph id="2">&lt;link xlink:href="a866c097-7c4c-4328-9eda-6fa81a62b12a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;DirectoryRole&lt;/link&gt;</ph>.</source>
+            <target state="new">For information about <ph id="1">&lt;system&gt;Role&lt;/system&gt;</ph>, see <ph id="2">&lt;link xlink:href="a866c097-7c4c-4328-9eda-6fa81a62b12a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;DirectoryRole&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>appOwnerTenantID<ept id="1">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>appOwnerTenantID<ept id="1">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>autheniticationPolicy<ept id="1">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>autheniticationPolicy<ept id="1">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>Reserved for internal use only.</source>
+            <target state="new">Reserved for internal use only.</target>
+          </trans-unit>
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>Do not use.</source>
+            <target state="new">Do not use.</target>
+          </trans-unit>
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>Removed in version 1.5.</source>
+            <target state="new">Removed in version 1.5.</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>createdObjects<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that were created by the service principal.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>createdObjects<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that were created by the service principal.</target>
+          </trans-unit>
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>Inherited from <ph id="1">&lt;system&gt;DirectoryObject&lt;/system&gt;</ph>.</source>
+            <target state="new">Inherited from <ph id="1">&lt;system&gt;DirectoryObject&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>owners<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that are owners of the service principal.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>owners<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that are owners of the service principal.</target>
+          </trans-unit>
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>The owners are a set of non-admin users who are allowed to modify this object.</source>
+            <target state="new">The owners are a set of non-admin users who are allowed to modify this object.</target>
+          </trans-unit>
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source>Inherited from <ph id="1">&lt;system&gt;DirectoryObject&lt;/system&gt;</ph>.</source>
+            <target state="new">Inherited from <ph id="1">&lt;system&gt;DirectoryObject&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="171" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ownedObjects<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that are owned by the service principal.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ownedObjects<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that are owned by the service principal.</target>
+          </trans-unit>
+          <trans-unit id="172" translate="yes" xml:space="preserve">
+            <source>Inherited from <ph id="1">&lt;system&gt;DirectoryObject&lt;/system&gt;</ph>.</source>
+            <target state="new">Inherited from <ph id="1">&lt;system&gt;DirectoryObject&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="173" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>immutableId<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which associates an on-premises Active Directory user account to its Azure AD user object.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>immutableId<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which associates an on-premises Active Directory user account to its Azure AD user object.</target>
+          </trans-unit>
+          <trans-unit id="174" translate="yes" xml:space="preserve">
+            <source>This property must be specified when creating a new user account in the Graph if you are using a federated domain for the user’s <bpt id="1">&lt;embeddedLabel&gt;</bpt>userPrincipalName<ept id="1">&lt;/embeddedLabel&gt;</ept> (UPN) property.</source>
+            <target state="new">This property must be specified when creating a new user account in the Graph if you are using a federated domain for the user’s <bpt id="1">&lt;embeddedLabel&gt;</bpt>userPrincipalName<ept id="1">&lt;/embeddedLabel&gt;</ept> (UPN) property.</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="175" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>userType<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which is a string value that can be used to classify user types in your directory, such as “Member” and “Guest”.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>userType<ept id="1">&lt;/embeddedLabel&gt;</ept> property, which is a string value that can be used to classify user types in your directory, such as “Member” and “Guest”.</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="176" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>createdObjects<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that were created by the user.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>createdObjects<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that were created by the user.</target>
+          </trans-unit>
+          <trans-unit id="177" translate="yes" xml:space="preserve">
+            <source>Inherited from <ph id="1">&lt;system&gt;DirectoryObject&lt;/system&gt;</ph>.</source>
+            <target state="new">Inherited from <ph id="1">&lt;system&gt;DirectoryObject&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="178" translate="yes" xml:space="preserve">
+            <source>Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ownedObjects<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that are owned by the user.</source>
+            <target state="new">Added the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ownedObjects<ept id="1">&lt;/embeddedLabel&gt;</ept> navigation property, which points to the set of directory objects that are owned by the user.</target>
+          </trans-unit>
+          <trans-unit id="179" translate="yes" xml:space="preserve">
+            <source>Inherited from <ph id="1">&lt;system&gt;DirectoryObject&lt;/system&gt;</ph>.</source>
+            <target state="new">Inherited from <ph id="1">&lt;system&gt;DirectoryObject&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="180" translate="yes" xml:space="preserve">
+            <source>Complex Type Changes</source>
+            <target state="new">Complex Type Changes</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="181" translate="yes" xml:space="preserve">
+            <source> Type</source>
+            <target state="new"> Type</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="182" translate="yes" xml:space="preserve">
+            <source>Change Description</source>
+            <target state="new">Change Description</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="183" translate="yes" xml:space="preserve">
+            <source>Reserved for internal use only.</source>
+            <target state="new">Reserved for internal use only.</target>
+          </trans-unit>
+          <trans-unit id="184" translate="yes" xml:space="preserve">
+            <source>Do not use.</source>
+            <target state="new">Do not use.</target>
+          </trans-unit>
+          <trans-unit id="185" translate="yes" xml:space="preserve">
+            <source>Removed in version 1.5.</source>
+            <target state="new">Removed in version 1.5.</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="186" translate="yes" xml:space="preserve">
+            <source>Action and Function Changes</source>
+            <target state="new">Action and Function Changes</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="187" translate="yes" xml:space="preserve">
+            <source>Function</source>
+            <target state="new">Function</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="188" translate="yes" xml:space="preserve">
+            <source>Change Description</source>
+            <target state="new">Change Description</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="189" translate="yes" xml:space="preserve">
+            <source>New service action that updates a user with a list of licenses to add and/or remove.</source>
+            <target state="new">New service action that updates a user with a list of licenses to add and/or remove.</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="190" translate="yes" xml:space="preserve">
+            <source>Version 2013-04-05</source>
+            <target state="new">Version 2013-04-05</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="191" translate="yes" xml:space="preserve">
+            <source>This is the base version of the Graph API.</source>
+            <target state="new">This is the base version of the Graph API.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

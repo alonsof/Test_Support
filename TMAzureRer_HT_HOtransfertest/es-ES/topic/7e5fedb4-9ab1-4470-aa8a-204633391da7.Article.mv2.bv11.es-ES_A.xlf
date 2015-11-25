@@ -1,0 +1,2095 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANyk0KgzAQBtCr5AAZyOiYn+4L3bcX+JLMgGAV1ILHr+v3zEatMjRSFSFhC1RDrtQCI5ZiDBTvImKQ1DJx75EkNyGUeyVGtgllytq9SzqZ9ipUUJlEUiAgg4YgcRzHwh3JO/ZOD3q+vbuW2Uyv87Fv2+ndcNuNr98X62fHeiw45239A5RBH2miAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Create an XML Request-Reply Bridge</source>
+            <target state="new">Create an XML Request-Reply Bridge</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This section lists the steps create an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> in a <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">This section lists the steps create an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> in a <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;xml_bridge&lt;/token&gt;</ph>s have different stages.</source>
+            <target state="new"><ph id="1">&lt;token&gt;xml_bridge&lt;/token&gt;</ph>s have different stages.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>In this topic:</source>
+            <target state="new">In this topic:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Add the Bridge to the BizTalk Services project</source>
+            <target state="new">Add the Bridge to the BizTalk Services project</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Create a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">Create a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="03421690-817a-45a8-8492-c9cb98484102" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Create a Message Flow Project&lt;/link&gt;</ph> lists the steps.</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="03421690-817a-45a8-8492-c9cb98484102" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Create a Message Flow Project&lt;/link&gt;</ph> lists the steps.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Right-click anywhere on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design area and select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Properties<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Right-click anywhere on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design area and select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Properties<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>BizTalk Service URL<ept id="1">&lt;/embeddedLabel&gt;</ept>, enter your <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> URL.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>BizTalk Service URL<ept id="1">&lt;/embeddedLabel&gt;</ept>, enter your <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> URL.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Toolbox<ept id="1">&lt;/embeddedLabel&gt;</ept>, drag and drop the <bpt id="2">&lt;embeddedLabel&gt;</bpt><ph id="3">&lt;token&gt;request_response&lt;/token&gt;</ph><ept id="2">&lt;/embeddedLabel&gt;</ept> to the <ph id="4">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design area.</source>
+            <target state="new">From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Toolbox<ept id="1">&lt;/embeddedLabel&gt;</ept>, drag and drop the <bpt id="2">&lt;embeddedLabel&gt;</bpt><ph id="3">&lt;token&gt;request_response&lt;/token&gt;</ph><ept id="2">&lt;/embeddedLabel&gt;</ept> to the <ph id="4">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design area.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>A <bpt id="1">&lt;legacyItalic&gt;</bpt>.BridgeConfig<ept id="1">&lt;/legacyItalic&gt;</ept> file is added to the solution.</source>
+            <target state="new">A <bpt id="1">&lt;legacyItalic&gt;</bpt>.BridgeConfig<ept id="1">&lt;/legacyItalic&gt;</ept> file is added to the solution.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Right-click the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Properties<ept id="2">&lt;/embeddedLabel&gt;</ept>, and then enter the following properties:</source>
+            <target state="new">Right-click the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Properties<ept id="2">&lt;/embeddedLabel&gt;</ept>, and then enter the following properties:</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Property Name</source>
+            <target state="new">Property Name</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Associated Project Item</source>
+            <target state="new">Associated Project Item</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Read-only: The name of the associated .BridgeConfig file.</source>
+            <target state="new">Read-only: The name of the associated .BridgeConfig file.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>To change the name of the file, change the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Entity Name<ept id="1">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">To change the name of the file, change the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Entity Name<ept id="1">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Entity Name</source>
+            <target state="new">Entity Name</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>The name of the <ph id="1">&lt;token&gt;xml_bridge&lt;/token&gt;</ph> on the <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design area.</source>
+            <target state="new">The name of the <ph id="1">&lt;token&gt;xml_bridge&lt;/token&gt;</ph> on the <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design area.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>This name should be unique for the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">This name should be unique for the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>The name of the <bpt id="1">&lt;legacyItalic&gt;</bpt>.BridgeConfig<ept id="1">&lt;/legacyItalic&gt;</ept> file is the same as the value you enter here.</source>
+            <target state="new">The name of the <bpt id="1">&lt;legacyItalic&gt;</bpt>.BridgeConfig<ept id="1">&lt;/legacyItalic&gt;</ept> file is the same as the value you enter here.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Relative Address</source>
+            <target state="new">Relative Address</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>The relative address where the <ph id="1">&lt;token&gt;xml_bridge&lt;/token&gt;</ph> is hosted on <ph id="2">&lt;token&gt;azure_1&lt;/token&gt;</ph>.</source>
+            <target state="new">The relative address where the <ph id="1">&lt;token&gt;xml_bridge&lt;/token&gt;</ph> is hosted on <ph id="2">&lt;token&gt;azure_1&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>This address combined with the <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> URL you enter in Step 2 creates the complete URL for the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>.</source>
+            <target state="new">This address combined with the <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> URL you enter in Step 2 creates the complete URL for the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>For example, if the <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> URL is <bpt id="2">&lt;embeddedLabel&gt;</bpt>MyBizTalkService<ept id="2">&lt;/embeddedLabel&gt;</ept> and the relative address of the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph> is <bpt id="4">&lt;embeddedLabel&gt;</bpt>UpdateCustomers<ept id="4">&lt;/embeddedLabel&gt;</ept>, the URL for the endpoint on the <ph id="5">&lt;token&gt;sb2&lt;/token&gt;</ph> is <bpt id="6">&lt;legacyItalic&gt;</bpt>https://MyBizTalkService.biztalk.windows.net/default/UpdateCustomers<ept id="6">&lt;/legacyItalic&gt;</ept>.</source>
+            <target state="new">For example, if the <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> URL is <bpt id="2">&lt;embeddedLabel&gt;</bpt>MyBizTalkService<ept id="2">&lt;/embeddedLabel&gt;</ept> and the relative address of the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph> is <bpt id="4">&lt;embeddedLabel&gt;</bpt>UpdateCustomers<ept id="4">&lt;/embeddedLabel&gt;</ept>, the URL for the endpoint on the <ph id="5">&lt;token&gt;sb2&lt;/token&gt;</ph> is <bpt id="6">&lt;legacyItalic&gt;</bpt>https://MyBizTalkService.biztalk.windows.net/default/UpdateCustomers<ept id="6">&lt;/legacyItalic&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Route Ordering Table</source>
+            <target state="new">Route Ordering Table</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Enter the routing order of the message from the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to other components of the message flow.</source>
+            <target state="new">Enter the routing order of the message from the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to other components of the message flow.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="498de1a4-3427-4314-a152-8d5a7f026cc0#BKMK_Order" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;The Routing Order&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="498de1a4-3427-4314-a152-8d5a7f026cc0#BKMK_Order" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;The Routing Order&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Runtime Address</source>
+            <target state="new">Runtime Address</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>The public runtime endpoint URL where the bridge is deployed.</source>
+            <target state="new">The public runtime endpoint URL where the bridge is deployed.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Track Properties</source>
+            <target state="new">Track Properties</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Set this property to define which message properties are tracked by the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>.</source>
+            <target state="new">Set this property to define which message properties are tracked by the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="04a41fee-5705-43d1-8ee3-2b78e130a3ac" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Tracking Messages Processed by the Bridge&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="04a41fee-5705-43d1-8ee3-2b78e130a3ac" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Tracking Messages Processed by the Bridge&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Enter the request schemas</source>
+            <target state="new">Enter the request schemas</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>A single <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> can have multiple bridges and multiple schemas.</source>
+            <target state="new">A single <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> can have multiple bridges and multiple schemas.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>For ease of use and to save on processing time, you can associate schemas with bridges.</source>
+            <target state="new">For ease of use and to save on processing time, you can associate schemas with bridges.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>In other words, you can require that a specific bridge can only process messages that conform to a specific schema or a set of schemas.</source>
+            <target state="new">In other words, you can require that a specific bridge can only process messages that conform to a specific schema or a set of schemas.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>This section lists the steps to create this association.</source>
+            <target state="new">This section lists the steps to create this association.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Add the schemas to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">Add the schemas to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="03421690-817a-45a8-8492-c9cb98484102" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create a BizTalk Service Project&lt;/link&gt;</ph> lists the steps.</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="03421690-817a-45a8-8492-c9cb98484102" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create a BizTalk Service Project&lt;/link&gt;</ph> lists the steps.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Repeat this step to add any number of schemas that you need for your <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">Repeat this step to add any number of schemas that you need for your <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Double-click the <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> to open the itinerary designer.</source>
+            <target state="new">Double-click the <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> to open the itinerary designer.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>The itinerary designer is a read-only area.</source>
+            <target state="new">The itinerary designer is a read-only area.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>You cannot add or remove a stage or an activity from the itinerary designer.</source>
+            <target state="new">You cannot add or remove a stage or an activity from the itinerary designer.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>On the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> design area in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Message Types<ept id="2">&lt;/embeddedLabel&gt;</ept> box, select the add icon [ <ph id="3">&lt;mediaLinkInline&gt;&lt;image xlink:href="fce8ff96-426e-468b-8afd-25eb4c847028" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/image&gt;&lt;/mediaLinkInline&gt;</ph> ] to open <bpt id="4">&lt;embeddedLabel&gt;</bpt>Message Type Picker<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">On the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> design area in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Message Types<ept id="2">&lt;/embeddedLabel&gt;</ept> box, select the add icon [ <ph id="3">&lt;mediaLinkInline&gt;&lt;image xlink:href="fce8ff96-426e-468b-8afd-25eb4c847028" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/image&gt;&lt;/mediaLinkInline&gt;</ph> ] to open <bpt id="4">&lt;embeddedLabel&gt;</bpt>Message Type Picker<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Message Type Picker<ept id="1">&lt;/embeddedLabel&gt;</ept>:</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Message Type Picker<ept id="1">&lt;/embeddedLabel&gt;</ept>:</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Available message types<ept id="1">&lt;/embeddedLabel&gt;</ept> box, select the schema for the Request message.</source>
+            <target state="new">From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Available message types<ept id="1">&lt;/embeddedLabel&gt;</ept> box, select the schema for the Request message.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Select the right arrow icon [ <ph id="1">&lt;mediaLinkInline&gt;&lt;image xlink:href="a08ed386-6bf6-4164-9052-5f05154d8eff" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/image&gt;&lt;/mediaLinkInline&gt;</ph> ] to associate the Request schema with the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>.</source>
+            <target state="new">Select the right arrow icon [ <ph id="1">&lt;mediaLinkInline&gt;&lt;image xlink:href="a08ed386-6bf6-4164-9052-5f05154d8eff" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/image&gt;&lt;/mediaLinkInline&gt;</ph> ] to associate the Request schema with the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Select the right arrow icon [ <ph id="1">&lt;mediaLinkInline&gt;&lt;image xlink:href="a08ed386-6bf6-4164-9052-5f05154d8eff" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/image&gt;&lt;/mediaLinkInline&gt;</ph> ] under <bpt id="2">&lt;embeddedLabel&gt;</bpt>Response Message Type<ept id="2">&lt;/embeddedLabel&gt;</ept> to associate the Response schema with the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph>.</source>
+            <target state="new">Select the right arrow icon [ <ph id="1">&lt;mediaLinkInline&gt;&lt;image xlink:href="a08ed386-6bf6-4164-9052-5f05154d8eff" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/image&gt;&lt;/mediaLinkInline&gt;</ph> ] under <bpt id="2">&lt;embeddedLabel&gt;</bpt>Response Message Type<ept id="2">&lt;/embeddedLabel&gt;</ept> to associate the Response schema with the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>The schema that you selected is now listed under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Message Type<ept id="1">&lt;/embeddedLabel&gt;</ept> box.</source>
+            <target state="new">The schema that you selected is now listed under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Message Type<ept id="1">&lt;/embeddedLabel&gt;</ept> box.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Additional<ept id="1">&lt;/legacyBold&gt;</ept>:</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Additional<ept id="1">&lt;/legacyBold&gt;</ept>:</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>You cannot add multiple schemas at the same time.</source>
+            <target state="new">You cannot add multiple schemas at the same time.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>To associate more schemas with the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>, repeat this step.</source>
+            <target state="new">To associate more schemas with the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>, repeat this step.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>To remove a schema association with the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>, select the schema from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Message Type<ept id="2">&lt;/embeddedLabel&gt;</ept> box, and then press the delete icon [ <ph id="3">&lt;mediaLinkInline&gt;&lt;image xlink:href="720e9261-6c87-45e3-9a96-f72269668c3a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/image&gt;&lt;/mediaLinkInline&gt;</ph> ].</source>
+            <target state="new">To remove a schema association with the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>, select the schema from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Message Type<ept id="2">&lt;/embeddedLabel&gt;</ept> box, and then press the delete icon [ <ph id="3">&lt;mediaLinkInline&gt;&lt;image xlink:href="720e9261-6c87-45e3-9a96-f72269668c3a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/image&gt;&lt;/mediaLinkInline&gt;</ph> ].</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>To replace one schema association with another, click the edit button [ <ph id="1">&lt;mediaLinkInline&gt;&lt;image xlink:href="5cf4298b-deeb-4cd0-a905-ee7412ee735f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/image&gt;&lt;/mediaLinkInline&gt;</ph> ] to reopen <bpt id="2">&lt;embeddedLabel&gt;</bpt>Message Type Picker<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">To replace one schema association with another, click the edit button [ <ph id="1">&lt;mediaLinkInline&gt;&lt;image xlink:href="5cf4298b-deeb-4cd0-a905-ee7412ee735f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/image&gt;&lt;/mediaLinkInline&gt;</ph> ] to reopen <bpt id="2">&lt;embeddedLabel&gt;</bpt>Message Type Picker<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Configure the Validate stage for the Request message</source>
+            <target state="new">Configure the Validate stage for the Request message</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Validate<ept id="1">&lt;/embeddedLabel&gt;</ept> stage, you can enter whether the stage does any schema validation on the incoming request message and whether the validation warnings can be propagated back to the client as exceptions.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Validate<ept id="1">&lt;/embeddedLabel&gt;</ept> stage, you can enter whether the stage does any schema validation on the incoming request message and whether the validation warnings can be propagated back to the client as exceptions.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Double-click the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to open the <ph id="2">&lt;token&gt;msgflow&lt;/token&gt;</ph> design area.</source>
+            <target state="new">Double-click the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to open the <ph id="2">&lt;token&gt;msgflow&lt;/token&gt;</ph> design area.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Validate<ept id="1">&lt;/embeddedLabel&gt;</ept> stage.</source>
+            <target state="new">Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Validate<ept id="1">&lt;/embeddedLabel&gt;</ept> stage.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, set <bpt id="2">&lt;embeddedLabel&gt;</bpt>IsEnabled<ept id="2">&lt;/embeddedLabel&gt;</ept> to <bpt id="3">&lt;embeddedLabel&gt;</bpt>True<ept id="3">&lt;/embeddedLabel&gt;</ept> or <bpt id="4">&lt;embeddedLabel&gt;</bpt>False<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, set <bpt id="2">&lt;embeddedLabel&gt;</bpt>IsEnabled<ept id="2">&lt;/embeddedLabel&gt;</ept> to <bpt id="3">&lt;embeddedLabel&gt;</bpt>True<ept id="3">&lt;/embeddedLabel&gt;</ept> or <bpt id="4">&lt;embeddedLabel&gt;</bpt>False<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>When <bpt id="1">&lt;embeddedLabel&gt;</bpt>True<ept id="1">&lt;/embeddedLabel&gt;</ept>, the stage validates the incoming request message against the schemas you previously added.</source>
+            <target state="new">When <bpt id="1">&lt;embeddedLabel&gt;</bpt>True<ept id="1">&lt;/embeddedLabel&gt;</ept>, the stage validates the incoming request message against the schemas you previously added.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>If <bpt id="1">&lt;embeddedLabel&gt;</bpt>False<ept id="1">&lt;/embeddedLabel&gt;</ept>, there is no schema validation and the message is simply passed through to the next stage.</source>
+            <target state="new">If <bpt id="1">&lt;embeddedLabel&gt;</bpt>False<ept id="1">&lt;/embeddedLabel&gt;</ept>, there is no schema validation and the message is simply passed through to the next stage.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Additional<ept id="1">&lt;/legacyBold&gt;</ept>:</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Additional<ept id="1">&lt;/legacyBold&gt;</ept>:</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>To include any custom code that executes <bpt id="1">&lt;legacyItalic&gt;</bpt>before<ept id="1">&lt;/legacyItalic&gt;</ept> the message enters the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Validate<ept id="2">&lt;/embeddedLabel&gt;</ept> stage, set the <bpt id="3">&lt;embeddedLabel&gt;</bpt>On Enter Inspector<ept id="3">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">To include any custom code that executes <bpt id="1">&lt;legacyItalic&gt;</bpt>before<ept id="1">&lt;/legacyItalic&gt;</ept> the message enters the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Validate<ept id="2">&lt;/embeddedLabel&gt;</ept> stage, set the <bpt id="3">&lt;embeddedLabel&gt;</bpt>On Enter Inspector<ept id="3">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="8a486c54-dbe7-4c74-9f5a-ffb79b3f950c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Include Custom Code in Bridges&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="8a486c54-dbe7-4c74-9f5a-ffb79b3f950c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Include Custom Code in Bridges&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>To include any custom code that executes <bpt id="1">&lt;legacyItalic&gt;</bpt>after<ept id="1">&lt;/legacyItalic&gt;</ept> the message exits the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Validate<ept id="2">&lt;/embeddedLabel&gt;</ept> stage, set the <bpt id="3">&lt;embeddedLabel&gt;</bpt>On Exit Inspector<ept id="3">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">To include any custom code that executes <bpt id="1">&lt;legacyItalic&gt;</bpt>after<ept id="1">&lt;/legacyItalic&gt;</ept> the message exits the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Validate<ept id="2">&lt;/embeddedLabel&gt;</ept> stage, set the <bpt id="3">&lt;embeddedLabel&gt;</bpt>On Exit Inspector<ept id="3">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="8a486c54-dbe7-4c74-9f5a-ffb79b3f950c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Include Custom Code in Bridges&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="8a486c54-dbe7-4c74-9f5a-ffb79b3f950c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Include Custom Code in Bridges&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Xml Validate<ept id="1">&lt;/embeddedLabel&gt;</ept> activity.</source>
+            <target state="new">Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Xml Validate<ept id="1">&lt;/embeddedLabel&gt;</ept> activity.</target>
+          </trans-unit>
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, set <bpt id="2">&lt;embeddedLabel&gt;</bpt>Report Warnings As Errors<ept id="2">&lt;/embeddedLabel&gt;</ept> property to <bpt id="3">&lt;embeddedLabel&gt;</bpt>True<ept id="3">&lt;/embeddedLabel&gt;</ept> or <bpt id="4">&lt;embeddedLabel&gt;</bpt>False<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, set <bpt id="2">&lt;embeddedLabel&gt;</bpt>Report Warnings As Errors<ept id="2">&lt;/embeddedLabel&gt;</ept> property to <bpt id="3">&lt;embeddedLabel&gt;</bpt>True<ept id="3">&lt;/embeddedLabel&gt;</ept> or <bpt id="4">&lt;embeddedLabel&gt;</bpt>False<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>When <bpt id="1">&lt;embeddedLabel&gt;</bpt>True<ept id="1">&lt;/embeddedLabel&gt;</ept>, the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> reports any warnings as errors encountered during XML validation against a schema and returns them back to the client that sent the request message.</source>
+            <target state="new">When <bpt id="1">&lt;embeddedLabel&gt;</bpt>True<ept id="1">&lt;/embeddedLabel&gt;</ept>, the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> reports any warnings as errors encountered during XML validation against a schema and returns them back to the client that sent the request message.</target>
+          </trans-unit>
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>A validation warning is thrown as an exception and the validation fails.</source>
+            <target state="new">A validation warning is thrown as an exception and the validation fails.</target>
+          </trans-unit>
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>See <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Validation and the Schema Object Model<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/aa310912(v=VS.71).aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> to understand the warnings and errors in XML schema validation.</source>
+            <target state="new">See <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Validation and the Schema Object Model<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/aa310912(v=VS.71).aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> to understand the warnings and errors in XML schema validation.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Configure the Enrich Stage (and its Properties) for the Request message</source>
+            <target state="new">Configure the Enrich Stage (and its Properties) for the Request message</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage enables message enrichment by defining properties, the values for which can be derived from the message header (standard or custom), through default properties promoted by <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph>, from an external data source (only <ph id="3">&lt;token&gt;ssSDSfull&lt;/token&gt;</ph> tables are supported), or from an element within the message body.</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage enables message enrichment by defining properties, the values for which can be derived from the message header (standard or custom), through default properties promoted by <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph>, from an external data source (only <ph id="3">&lt;token&gt;ssSDSfull&lt;/token&gt;</ph> tables are supported), or from an element within the message body.</target>
+          </trans-unit>
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>These properties can then be used to either route the message to a destination endpoint or for further processing by the message receiving entity.</source>
+            <target state="new">These properties can then be used to either route the message to a destination endpoint or for further processing by the message receiving entity.</target>
+          </trans-unit>
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>This section lists the steps for performing each of the following actions:</source>
+            <target state="new">This section lists the steps for performing each of the following actions:</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Assign message header values to properties.</source>
+            <target state="new">Assign message header values to properties.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Use default properties or system properties promoted by <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph>.</source>
+            <target state="new">Use default properties or system properties promoted by <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Look up an external data source</source>
+            <target state="new">Look up an external data source</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Extract values from a message body element using Xpath</source>
+            <target state="new">Extract values from a message body element using Xpath</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Important<ept id="1">&lt;/legacyBold&gt;</ept>:</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Important<ept id="1">&lt;/legacyBold&gt;</ept>:</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>The property names you enter in this stage are not case-sensitive.</source>
+            <target state="new">The property names you enter in this stage are not case-sensitive.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>The property you enter in this stage is not for Route or Reply Actions <bpt id="1">&lt;legacyItalic&gt;</bpt>unless<ept id="1">&lt;/legacyItalic&gt;</ept> you save the <ph id="2">&lt;token&gt;msgflow&lt;/token&gt;</ph>.</source>
+            <target state="new">The property you enter in this stage is not for Route or Reply Actions <bpt id="1">&lt;legacyItalic&gt;</bpt>unless<ept id="1">&lt;/legacyItalic&gt;</ept> you save the <ph id="2">&lt;token&gt;msgflow&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="2b28ccb0-dd88-4fbc-a5c4-c3b797a901e8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Route and Send Actions: Bridging Protocol Mismatch&lt;/link&gt;</ph> for more details on Route and Reply.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="2b28ccb0-dd88-4fbc-a5c4-c3b797a901e8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Route and Send Actions: Bridging Protocol Mismatch&lt;/link&gt;</ph> for more details on Route and Reply.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>You can choose whether you want to perform any of these actions by turning the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage on or off.</source>
+            <target state="new">You can choose whether you want to perform any of these actions by turning the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage on or off.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Steps<ept id="1">&lt;/legacyBold&gt;</ept>:</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Steps<ept id="1">&lt;/legacyBold&gt;</ept>:</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Double-click the <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> to open the itinerary designer.</source>
+            <target state="new">Double-click the <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> to open the itinerary designer.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage.</source>
+            <target state="new">Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage.</target>
+          </trans-unit>
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, set the <bpt id="2">&lt;embeddedLabel&gt;</bpt>IsEnabled<ept id="2">&lt;/embeddedLabel&gt;</ept> property to <bpt id="3">&lt;embeddedLabel&gt;</bpt>True<ept id="3">&lt;/embeddedLabel&gt;</ept> or <bpt id="4">&lt;embeddedLabel&gt;</bpt>False<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, set the <bpt id="2">&lt;embeddedLabel&gt;</bpt>IsEnabled<ept id="2">&lt;/embeddedLabel&gt;</ept> property to <bpt id="3">&lt;embeddedLabel&gt;</bpt>True<ept id="3">&lt;/embeddedLabel&gt;</ept> or <bpt id="4">&lt;embeddedLabel&gt;</bpt>False<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>When <bpt id="1">&lt;embeddedLabel&gt;</bpt>True<ept id="1">&lt;/embeddedLabel&gt;</ept> and there is no property defined, then the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> does not throw an error when configuring the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph> (design-time) nor when processing the message (run-time).</source>
+            <target state="new">When <bpt id="1">&lt;embeddedLabel&gt;</bpt>True<ept id="1">&lt;/embeddedLabel&gt;</ept> and there is no property defined, then the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> does not throw an error when configuring the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph> (design-time) nor when processing the message (run-time).</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Additional<ept id="1">&lt;/legacyBold&gt;</ept>:</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Additional<ept id="1">&lt;/legacyBold&gt;</ept>:</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>To include any custom code that executes <bpt id="1">&lt;legacyItalic&gt;</bpt>before<ept id="1">&lt;/legacyItalic&gt;</ept> the message enters this stage, set the <bpt id="2">&lt;embeddedLabel&gt;</bpt>On Enter Inspector<ept id="2">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">To include any custom code that executes <bpt id="1">&lt;legacyItalic&gt;</bpt>before<ept id="1">&lt;/legacyItalic&gt;</ept> the message enters this stage, set the <bpt id="2">&lt;embeddedLabel&gt;</bpt>On Enter Inspector<ept id="2">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="8a486c54-dbe7-4c74-9f5a-ffb79b3f950c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Include Custom Code in Bridges&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="8a486c54-dbe7-4c74-9f5a-ffb79b3f950c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Include Custom Code in Bridges&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>To include any custom code that executes <bpt id="1">&lt;legacyItalic&gt;</bpt>after<ept id="1">&lt;/legacyItalic&gt;</ept> the message exits this stage, set the <bpt id="2">&lt;embeddedLabel&gt;</bpt>On Exit Inspector<ept id="2">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">To include any custom code that executes <bpt id="1">&lt;legacyItalic&gt;</bpt>after<ept id="1">&lt;/legacyItalic&gt;</ept> the message exits this stage, set the <bpt id="2">&lt;embeddedLabel&gt;</bpt>On Exit Inspector<ept id="2">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="8a486c54-dbe7-4c74-9f5a-ffb79b3f950c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Include Custom Code in Bridges&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="8a486c54-dbe7-4c74-9f5a-ffb79b3f950c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Include Custom Code in Bridges&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Within the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage, select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="2">&lt;/embeddedLabel&gt;</ept> activity.</source>
+            <target state="new">Within the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage, select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="2">&lt;/embeddedLabel&gt;</ept> activity.</target>
+          </trans-unit>
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, select the ellipsis button <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> against the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Property Definition<ept id="3">&lt;/embeddedLabel&gt;</ept> property to open <bpt id="4">&lt;embeddedLabel&gt;</bpt>Property Definitions<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, select the ellipsis button <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> against the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Property Definition<ept id="3">&lt;/embeddedLabel&gt;</ept> property to open <bpt id="4">&lt;embeddedLabel&gt;</bpt>Property Definitions<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Property Definitions<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Property Definitions<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="1">&lt;/embeddedLabel&gt;</ept>, you can use values from various sources and include them in the message as properties.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="1">&lt;/embeddedLabel&gt;</ept>, you can use values from various sources and include them in the message as properties.</target>
+          </trans-unit>
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>These properties and their values can then be used later for other processing tasks, like routing messages to different destinations based on property values (see <ph id="1">&lt;link xlink:href="498de1a4-3427-4314-a152-8d5a7f026cc0#BKMK_RoutingAction" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;The Routing Action&lt;/link&gt;</ph>).</source>
+            <target state="new">These properties and their values can then be used later for other processing tasks, like routing messages to different destinations based on property values (see <ph id="1">&lt;link xlink:href="498de1a4-3427-4314-a152-8d5a7f026cc0#BKMK_RoutingAction" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;The Routing Action&lt;/link&gt;</ph>).</target>
+          </trans-unit>
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>The following table lists the different sources and ways to add properties to the message:</source>
+            <target state="new">The following table lists the different sources and ways to add properties to the message:</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Source</source>
+            <target state="new">Source</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>How To</source>
+            <target state="new">How To</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>Assign message header values to properties</source>
+            <target state="new">Assign message header values to properties</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>Use system-promoted properties</source>
+            <target state="new">Use system-promoted properties</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>Look up an external data source</source>
+            <target state="new">Look up an external data source</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Extract values from within the message using XPath</source>
+            <target state="new">Extract values from within the message using XPath</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>To assign message header values to properties</source>
+            <target state="new">To assign message header values to properties</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="1">&lt;/embeddedLabel&gt;</ept>, do the following:</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="1">&lt;/embeddedLabel&gt;</ept>, do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>This table lists only the fields required for the header to property assignment operation, which is relevant only for messages that are transferred using the message transfer protocols such as SOAP, HTTP, FTP, and SFTP.</source>
+            <target state="new">This table lists only the fields required for the header to property assignment operation, which is relevant only for messages that are transferred using the message transfer protocols such as SOAP, HTTP, FTP, and SFTP.</target>
+          </trans-unit>
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>So, the following steps are relevant only if you select <bpt id="1">&lt;embeddedLabel&gt;</bpt>HTTP<ept id="1">&lt;/embeddedLabel&gt;</ept>, <bpt id="2">&lt;embeddedLabel&gt;</bpt>SOAP<ept id="2">&lt;/embeddedLabel&gt;</ept>, <bpt id="3">&lt;embeddedLabel&gt;</bpt>FTP<ept id="3">&lt;/embeddedLabel&gt;</ept>, or <bpt id="4">&lt;embeddedLabel&gt;</bpt>SFTP<ept id="4">&lt;/embeddedLabel&gt;</ept> from the <bpt id="5">&lt;embeddedLabel&gt;</bpt>Type<ept id="5">&lt;/embeddedLabel&gt;</ept> drop-down list.</source>
+            <target state="new">So, the following steps are relevant only if you select <bpt id="1">&lt;embeddedLabel&gt;</bpt>HTTP<ept id="1">&lt;/embeddedLabel&gt;</ept>, <bpt id="2">&lt;embeddedLabel&gt;</bpt>SOAP<ept id="2">&lt;/embeddedLabel&gt;</ept>, <bpt id="3">&lt;embeddedLabel&gt;</bpt>FTP<ept id="3">&lt;/embeddedLabel&gt;</ept>, or <bpt id="4">&lt;embeddedLabel&gt;</bpt>SFTP<ept id="4">&lt;/embeddedLabel&gt;</ept> from the <bpt id="5">&lt;embeddedLabel&gt;</bpt>Type<ept id="5">&lt;/embeddedLabel&gt;</ept> drop-down list.</target>
+          </trans-unit>
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Also, depending on what you select for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Type<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list, the required fields are outlined in red and the other fields are greyed out.</source>
+            <target state="new">Also, depending on what you select for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Type<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list, the required fields are outlined in red and the other fields are greyed out.</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>Section</source>
+            <target state="new">Section</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Field Name</source>
+            <target state="new">Field Name</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>Source (Read From)</source>
+            <target state="new">Source (Read From)</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>Specifies the message type from which the header values ae extracted.</source>
+            <target state="new">Specifies the message type from which the header values ae extracted.</target>
+          </trans-unit>
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>For assigning header values to properties, the possible values are <bpt id="1">&lt;userInput&gt;</bpt>SOAP<ept id="1">&lt;/userInput&gt;</ept>, <bpt id="2">&lt;userInput&gt;</bpt>HTTP<ept id="2">&lt;/userInput&gt;</ept>, <bpt id="3">&lt;userInput&gt;</bpt>FTP<ept id="3">&lt;/userInput&gt;</ept>, <bpt id="4">&lt;userInput&gt;</bpt>SFTP<ept id="4">&lt;/userInput&gt;</ept>, and <bpt id="5">&lt;embeddedLabel&gt;</bpt>Brokered<ept id="5">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">For assigning header values to properties, the possible values are <bpt id="1">&lt;userInput&gt;</bpt>SOAP<ept id="1">&lt;/userInput&gt;</ept>, <bpt id="2">&lt;userInput&gt;</bpt>HTTP<ept id="2">&lt;/userInput&gt;</ept>, <bpt id="3">&lt;userInput&gt;</bpt>FTP<ept id="3">&lt;/userInput&gt;</ept>, <bpt id="4">&lt;userInput&gt;</bpt>SFTP<ept id="4">&lt;/userInput&gt;</ept>, and <bpt id="5">&lt;embeddedLabel&gt;</bpt>Brokered<ept id="5">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>SOAP Header Namespace (only if the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Type<ept id="1">&lt;/embeddedLabel&gt;</ept> is set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>SOAP<ept id="2">&lt;/embeddedLabel&gt;</ept>)</source>
+            <target state="new">SOAP Header Namespace (only if the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Type<ept id="1">&lt;/embeddedLabel&gt;</ept> is set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>SOAP<ept id="2">&lt;/embeddedLabel&gt;</ept>)</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>Specifies the namespace of the custom SOAP header.</source>
+            <target state="new">Specifies the namespace of the custom SOAP header.</target>
+          </trans-unit>
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>For example, in the following excerpt, the namespace for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageType<ept id="1">&lt;/embeddedLabel&gt;</ept> custom header is highlighted:</source>
+            <target state="new">For example, in the following excerpt, the namespace for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageType<ept id="1">&lt;/embeddedLabel&gt;</ept> custom header is highlighted:</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>This field is greyed out if you select a standard header from the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Identifier<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list.</source>
+            <target state="new">This field is greyed out if you select a standard header from the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Identifier<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list.</target>
+          </trans-unit>
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>You must enter a namespace only for custom SOAP headers; however it’s not a mandatory property.</source>
+            <target state="new">You must enter a namespace only for custom SOAP headers; however it’s not a mandatory property.</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>This field is also greyed out if the Type is set to <bpt id="1">&lt;embeddedLabel&gt;</bpt>HTTP<ept id="1">&lt;/embeddedLabel&gt;</ept>, <bpt id="2">&lt;embeddedLabel&gt;</bpt>FTP<ept id="2">&lt;/embeddedLabel&gt;</ept>, <bpt id="3">&lt;embeddedLabel&gt;</bpt>SFTP<ept id="3">&lt;/embeddedLabel&gt;</ept>, or <bpt id="4">&lt;embeddedLabel&gt;</bpt>Brokered<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">This field is also greyed out if the Type is set to <bpt id="1">&lt;embeddedLabel&gt;</bpt>HTTP<ept id="1">&lt;/embeddedLabel&gt;</ept>, <bpt id="2">&lt;embeddedLabel&gt;</bpt>FTP<ept id="2">&lt;/embeddedLabel&gt;</ept>, <bpt id="3">&lt;embeddedLabel&gt;</bpt>SFTP<ept id="3">&lt;/embeddedLabel&gt;</ept>, or <bpt id="4">&lt;embeddedLabel&gt;</bpt>Brokered<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>Identifier</source>
+            <target state="new">Identifier</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>Specifies the name of message header property, the value of which you want to extract and assign to a property that you are defining in this dialog box.</source>
+            <target state="new">Specifies the name of message header property, the value of which you want to extract and assign to a property that you are defining in this dialog box.</target>
+          </trans-unit>
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>If we take the same excerpt as above, the identifier would be <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageType<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">If we take the same excerpt as above, the identifier would be <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageType<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>You can also specify custom headers here.</source>
+            <target state="new">You can also specify custom headers here.</target>
+          </trans-unit>
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>For FTP and SFTP, the drop-down lists the standard identifiers.</source>
+            <target state="new">For FTP and SFTP, the drop-down lists the standard identifiers.</target>
+          </trans-unit>
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>For HTTP message type, because there’s a huge list of standard headers, the drop-down does not list any headers; you can enter the name of the header in such a case.</source>
+            <target state="new">For HTTP message type, because there’s a huge list of standard headers, the drop-down does not list any headers; you can enter the name of the header in such a case.</target>
+          </trans-unit>
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>Also, for SOAP, HTTP, and Brokered message types, you can also list a custom header whose value you want to assign to another property.</source>
+            <target state="new">Also, for SOAP, HTTP, and Brokered message types, you can also list a custom header whose value you want to assign to another property.</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>To understand this better, look at this example.</source>
+            <target state="new">To understand this better, look at this example.</target>
+          </trans-unit>
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>Let’s assume a SOAP message header looks like the following:</source>
+            <target state="new">Let’s assume a SOAP message header looks like the following:</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>In this excerpt, <bpt id="1">&lt;embeddedLabel&gt;</bpt>PONumber<ept id="1">&lt;/embeddedLabel&gt;</ept> is a custom SOAP header whose value is PO1234.</source>
+            <target state="new">In this excerpt, <bpt id="1">&lt;embeddedLabel&gt;</bpt>PONumber<ept id="1">&lt;/embeddedLabel&gt;</ept> is a custom SOAP header whose value is PO1234.</target>
+          </trans-unit>
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>So, if you set the Identifier to <bpt id="1">&lt;embeddedLabel&gt;</bpt>PONumber<ept id="1">&lt;/embeddedLabel&gt;</ept>, the value <bpt id="2">&lt;embeddedLabel&gt;</bpt>PO1234<ept id="2">&lt;/embeddedLabel&gt;</ept> is assigned to the property that you are defining here.</source>
+            <target state="new">So, if you set the Identifier to <bpt id="1">&lt;embeddedLabel&gt;</bpt>PONumber<ept id="1">&lt;/embeddedLabel&gt;</ept>, the value <bpt id="2">&lt;embeddedLabel&gt;</bpt>PO1234<ept id="2">&lt;/embeddedLabel&gt;</ept> is assigned to the property that you are defining here.</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>Property (Write To)</source>
+            <target state="new">Property (Write To)</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>Property Name</source>
+            <target state="new">Property Name</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>Specifies the name of the property that you are defining.</source>
+            <target state="new">Specifies the name of the property that you are defining.</target>
+          </trans-unit>
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>The value of this property is set to the value that is extracted from the message header property you specified earlier.</source>
+            <target state="new">The value of this property is set to the value that is extracted from the message header property you specified earlier.</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>To continue using the same example as above, if you set the Property Name to <bpt id="1">&lt;userInput&gt;</bpt>P1<ept id="1">&lt;/userInput&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Identifier<ept id="2">&lt;/embeddedLabel&gt;</ept> to <bpt id="3">&lt;userInput&gt;</bpt>PONumber<ept id="3">&lt;/userInput&gt;</ept>, the value of <bpt id="4">&lt;embeddedLabel&gt;</bpt>P1<ept id="4">&lt;/embeddedLabel&gt;</ept> is set to <bpt id="5">&lt;embeddedLabel&gt;</bpt>PO1234<ept id="5">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">To continue using the same example as above, if you set the Property Name to <bpt id="1">&lt;userInput&gt;</bpt>P1<ept id="1">&lt;/userInput&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Identifier<ept id="2">&lt;/embeddedLabel&gt;</ept> to <bpt id="3">&lt;userInput&gt;</bpt>PONumber<ept id="3">&lt;/userInput&gt;</ept>, the value of <bpt id="4">&lt;embeddedLabel&gt;</bpt>P1<ept id="4">&lt;/embeddedLabel&gt;</ept> is set to <bpt id="5">&lt;embeddedLabel&gt;</bpt>PO1234<ept id="5">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>Data Type</source>
+            <target state="new">Data Type</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>Specifies the data type for the property.</source>
+            <target state="new">Specifies the data type for the property.</target>
+          </trans-unit>
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>You can select a value from the drop-down list.</source>
+            <target state="new">You can select a value from the drop-down list.</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>The dialog boxes should now resemble the following:</source>
+            <target state="new">The dialog boxes should now resemble the following:</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>So what does this screen capture depict?</source>
+            <target state="new">So what does this screen capture depict?</target>
+          </trans-unit>
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>It means that if the incoming message is a SOAP message with a SOAP header name as <bpt id="1">&lt;embeddedLabel&gt;</bpt>PONumber<ept id="1">&lt;/embeddedLabel&gt;</ept> and header namespace as <ph id="2">&lt;codeInline&gt;http://schemas.microsoft.com/integration/promotedpropertiesinfo&lt;/codeInline&gt;</ph>, then a <bpt id="3">&lt;embeddedLabel&gt;</bpt>P1<ept id="3">&lt;/embeddedLabel&gt;</ept> with data type <bpt id="4">&lt;embeddedLabel&gt;</bpt>string<ept id="4">&lt;/embeddedLabel&gt;</ept> is created and the value of header is assigned to this property.</source>
+            <target state="new">It means that if the incoming message is a SOAP message with a SOAP header name as <bpt id="1">&lt;embeddedLabel&gt;</bpt>PONumber<ept id="1">&lt;/embeddedLabel&gt;</ept> and header namespace as <ph id="2">&lt;codeInline&gt;http://schemas.microsoft.com/integration/promotedpropertiesinfo&lt;/codeInline&gt;</ph>, then a <bpt id="3">&lt;embeddedLabel&gt;</bpt>P1<ept id="3">&lt;/embeddedLabel&gt;</ept> with data type <bpt id="4">&lt;embeddedLabel&gt;</bpt>string<ept id="4">&lt;/embeddedLabel&gt;</ept> is created and the value of header is assigned to this property.</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>To update or remove a property definition, you can select the property definition in the dialog box and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Remove<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">To update or remove a property definition, you can select the property definition in the dialog box and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Remove<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Property Definition<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box and then click <bpt id="3">&lt;embeddedLabel&gt;</bpt>Save<ept id="3">&lt;/embeddedLabel&gt;</ept> to save changes to the <ph id="4">&lt;token&gt;msgflow&lt;/token&gt;</ph>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Property Definition<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box and then click <bpt id="3">&lt;embeddedLabel&gt;</bpt>Save<ept id="3">&lt;/embeddedLabel&gt;</ept> to save changes to the <ph id="4">&lt;token&gt;msgflow&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>To use system-promoted properties</source>
+            <target state="new">To use system-promoted properties</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="1">&lt;/embeddedLabel&gt;</ept>, do the following:</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="1">&lt;/embeddedLabel&gt;</ept>, do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>This table lists only the fields required for the system-promoted properties assignment to the message.</source>
+            <target state="new">This table lists only the fields required for the system-promoted properties assignment to the message.</target>
+          </trans-unit>
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>Also, depending on what you select for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Type<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list, the required fields are outlined in red and the other fields are greyed out.</source>
+            <target state="new">Also, depending on what you select for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Type<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list, the required fields are outlined in red and the other fields are greyed out.</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>Section</source>
+            <target state="new">Section</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>Field Name</source>
+            <target state="new">Field Name</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>Source (Read From)</source>
+            <target state="new">Source (Read From)</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>For using system-promoted properties, select <bpt id="1">&lt;userInput&gt;</bpt>System<ept id="1">&lt;/userInput&gt;</ept> from the drop-down list.</source>
+            <target state="new">For using system-promoted properties, select <bpt id="1">&lt;userInput&gt;</bpt>System<ept id="1">&lt;/userInput&gt;</ept> from the drop-down list.</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>Identifier</source>
+            <target state="new">Identifier</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>Specifies the name of system-promoted property, the value of which you want to extract and assign to a property that you are defining in this dialog box.</source>
+            <target state="new">Specifies the name of system-promoted property, the value of which you want to extract and assign to a property that you are defining in this dialog box.</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>Property (Write To)</source>
+            <target state="new">Property (Write To)</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>Property Name</source>
+            <target state="new">Property Name</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>Specifies the name of the property that you are defining.</source>
+            <target state="new">Specifies the name of the property that you are defining.</target>
+          </trans-unit>
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source>The value of this property is set to the value that is extracted from the system-promoted property you specified earlier.</source>
+            <target state="new">The value of this property is set to the value that is extracted from the system-promoted property you specified earlier.</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="171" translate="yes" xml:space="preserve">
+            <source>Data Type</source>
+            <target state="new">Data Type</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="172" translate="yes" xml:space="preserve">
+            <source>Specifies the data type for the property.</source>
+            <target state="new">Specifies the data type for the property.</target>
+          </trans-unit>
+          <trans-unit id="173" translate="yes" xml:space="preserve">
+            <source>You can select a value from the drop-down list.</source>
+            <target state="new">You can select a value from the drop-down list.</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="174" translate="yes" xml:space="preserve">
+            <source>To lookup an external data source</source>
+            <target state="new">To lookup an external data source</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="175" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="1">&lt;/embeddedLabel&gt;</ept>, do the following:</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="1">&lt;/embeddedLabel&gt;</ept>, do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="176" translate="yes" xml:space="preserve">
+            <source>This table lists only the fields required for the lookup operation.</source>
+            <target state="new">This table lists only the fields required for the lookup operation.</target>
+          </trans-unit>
+          <trans-unit id="177" translate="yes" xml:space="preserve">
+            <source>So, the following steps are relevant only if you select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Lookup<ept id="1">&lt;/embeddedLabel&gt;</ept> from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Type<ept id="2">&lt;/embeddedLabel&gt;</ept> drop-down list.</source>
+            <target state="new">So, the following steps are relevant only if you select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Lookup<ept id="1">&lt;/embeddedLabel&gt;</ept> from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Type<ept id="2">&lt;/embeddedLabel&gt;</ept> drop-down list.</target>
+          </trans-unit>
+          <trans-unit id="178" translate="yes" xml:space="preserve">
+            <source>Also, depending on what you select for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Type<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list, the required fields are outlined in red and the other fields are greyed out.</source>
+            <target state="new">Also, depending on what you select for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Type<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list, the required fields are outlined in red and the other fields are greyed out.</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="179" translate="yes" xml:space="preserve">
+            <source>For this release, you can only lookup from a <ph id="1">&lt;token&gt;ssSDSfull&lt;/token&gt;</ph> table.</source>
+            <target state="new">For this release, you can only lookup from a <ph id="1">&lt;token&gt;ssSDSfull&lt;/token&gt;</ph> table.</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="180" translate="yes" xml:space="preserve">
+            <source>Section</source>
+            <target state="new">Section</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="181" translate="yes" xml:space="preserve">
+            <source>Field Name</source>
+            <target state="new">Field Name</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="182" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="123">
+          <trans-unit id="183" translate="yes" xml:space="preserve">
+            <source>Source (Read From)</source>
+            <target state="new">Source (Read From)</target>
+          </trans-unit>
+        </group>
+        <group id="124">
+          <trans-unit id="184" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="125">
+          <trans-unit id="185" translate="yes" xml:space="preserve">
+            <source>For a lookup operation, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Lookup<ept id="1">&lt;/embeddedLabel&gt;</ept> from the drop-down list.</source>
+            <target state="new">For a lookup operation, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Lookup<ept id="1">&lt;/embeddedLabel&gt;</ept> from the drop-down list.</target>
+          </trans-unit>
+        </group>
+        <group id="126">
+          <trans-unit id="186" translate="yes" xml:space="preserve">
+            <source>Identifier</source>
+            <target state="new">Identifier</target>
+          </trans-unit>
+        </group>
+        <group id="127">
+          <trans-unit id="187" translate="yes" xml:space="preserve">
+            <source>From the drop-down list, select an already configured provider</source>
+            <target state="new">From the drop-down list, select an already configured provider</target>
+          </trans-unit>
+        </group>
+        <group id="128">
+          <trans-unit id="188" translate="yes" xml:space="preserve">
+            <source>If you haven’t already configured a provider, then configure one:</source>
+            <target state="new">If you haven’t already configured a provider, then configure one:</target>
+          </trans-unit>
+        </group>
+        <group id="129">
+          <trans-unit id="189" translate="yes" xml:space="preserve">
+            <source>From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Identifier<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Configure New<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Identifier<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Configure New<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="130">
+          <trans-unit id="190" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Provider Configuration<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, specify the following values:</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Provider Configuration<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, specify the following values:</target>
+          </trans-unit>
+        </group>
+        <group id="131">
+          <trans-unit id="191" translate="yes" xml:space="preserve">
+            <source>Field Name</source>
+            <target state="new">Field Name</target>
+          </trans-unit>
+        </group>
+        <group id="132">
+          <trans-unit id="192" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="133">
+          <trans-unit id="193" translate="yes" xml:space="preserve">
+            <source>Provider Name</source>
+            <target state="new">Provider Name</target>
+          </trans-unit>
+        </group>
+        <group id="134">
+          <trans-unit id="194" translate="yes" xml:space="preserve">
+            <source>Specify a name for the provider</source>
+            <target state="new">Specify a name for the provider</target>
+          </trans-unit>
+        </group>
+        <group id="135">
+          <trans-unit id="195" translate="yes" xml:space="preserve">
+            <source>Connection String</source>
+            <target state="new">Connection String</target>
+          </trans-unit>
+        </group>
+        <group id="136">
+          <trans-unit id="196" translate="yes" xml:space="preserve">
+            <source>Specify a valid connection string to connect to a <ph id="1">&lt;token&gt;ssSDSfull&lt;/token&gt;</ph> table</source>
+            <target state="new">Specify a valid connection string to connect to a <ph id="1">&lt;token&gt;ssSDSfull&lt;/token&gt;</ph> table</target>
+          </trans-unit>
+        </group>
+        <group id="137">
+          <trans-unit id="197" translate="yes" xml:space="preserve">
+            <source>Table Name</source>
+            <target state="new">Table Name</target>
+          </trans-unit>
+        </group>
+        <group id="138">
+          <trans-unit id="198" translate="yes" xml:space="preserve">
+            <source>Specify the <ph id="1">&lt;token&gt;ssSDSfull&lt;/token&gt;</ph> table name from which you want to do a data lookup</source>
+            <target state="new">Specify the <ph id="1">&lt;token&gt;ssSDSfull&lt;/token&gt;</ph> table name from which you want to do a data lookup</target>
+          </trans-unit>
+        </group>
+        <group id="139">
+          <trans-unit id="199" translate="yes" xml:space="preserve">
+            <source>Query In Column</source>
+            <target state="new">Query In Column</target>
+          </trans-unit>
+        </group>
+        <group id="140">
+          <trans-unit id="200" translate="yes" xml:space="preserve">
+            <source>Specify a column name in the <ph id="1">&lt;token&gt;ssSDSfull&lt;/token&gt;</ph> table, the values of which are used as the input query for performing the data lookup</source>
+            <target state="new">Specify a column name in the <ph id="1">&lt;token&gt;ssSDSfull&lt;/token&gt;</ph> table, the values of which are used as the input query for performing the data lookup</target>
+          </trans-unit>
+        </group>
+        <group id="141">
+          <trans-unit id="201" translate="yes" xml:space="preserve">
+            <source>Query Out Column</source>
+            <target state="new">Query Out Column</target>
+          </trans-unit>
+        </group>
+        <group id="142">
+          <trans-unit id="202" translate="yes" xml:space="preserve">
+            <source>Specify a column name in the <ph id="1">&lt;token&gt;ssSDSfull&lt;/token&gt;</ph> table, the value is the output value that is eventually assigned to the looked up property.</source>
+            <target state="new">Specify a column name in the <ph id="1">&lt;token&gt;ssSDSfull&lt;/token&gt;</ph> table, the value is the output value that is eventually assigned to the looked up property.</target>
+          </trans-unit>
+        </group>
+        <group id="143">
+          <trans-unit id="203" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> to add the provider configuration.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> to add the provider configuration.</target>
+          </trans-unit>
+        </group>
+        <group id="144">
+          <trans-unit id="204" translate="yes" xml:space="preserve">
+            <source>Lookup Property</source>
+            <target state="new">Lookup Property</target>
+          </trans-unit>
+        </group>
+        <group id="145">
+          <trans-unit id="205" translate="yes" xml:space="preserve">
+            <source>From the drop-down list, select a property that you must have already defined.</source>
+            <target state="new">From the drop-down list, select a property that you must have already defined.</target>
+          </trans-unit>
+          <trans-unit id="206" translate="yes" xml:space="preserve">
+            <source>The value of this property is passed on to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Query In Column<ept id="1">&lt;/embeddedLabel&gt;</ept> specified in the provider configuration above.</source>
+            <target state="new">The value of this property is passed on to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Query In Column<ept id="1">&lt;/embeddedLabel&gt;</ept> specified in the provider configuration above.</target>
+          </trans-unit>
+        </group>
+        <group id="146">
+          <trans-unit id="207" translate="yes" xml:space="preserve">
+            <source>Property (Write To)</source>
+            <target state="new">Property (Write To)</target>
+          </trans-unit>
+        </group>
+        <group id="147">
+          <trans-unit id="208" translate="yes" xml:space="preserve">
+            <source>Property Name</source>
+            <target state="new">Property Name</target>
+          </trans-unit>
+        </group>
+        <group id="148">
+          <trans-unit id="209" translate="yes" xml:space="preserve">
+            <source>Specify a name for the property that contains the looked up value.</source>
+            <target state="new">Specify a name for the property that contains the looked up value.</target>
+          </trans-unit>
+          <trans-unit id="210" translate="yes" xml:space="preserve">
+            <source>The value of this property is derived from the value of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Query Out Column<ept id="1">&lt;/embeddedLabel&gt;</ept> in the provider configuration above.</source>
+            <target state="new">The value of this property is derived from the value of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Query Out Column<ept id="1">&lt;/embeddedLabel&gt;</ept> in the provider configuration above.</target>
+          </trans-unit>
+        </group>
+        <group id="149">
+          <trans-unit id="211" translate="yes" xml:space="preserve">
+            <source>Data Type</source>
+            <target state="new">Data Type</target>
+          </trans-unit>
+        </group>
+        <group id="150">
+          <trans-unit id="212" translate="yes" xml:space="preserve">
+            <source>Specifies the data type for the property.</source>
+            <target state="new">Specifies the data type for the property.</target>
+          </trans-unit>
+          <trans-unit id="213" translate="yes" xml:space="preserve">
+            <source>You can select a value from the drop-down list.</source>
+            <target state="new">You can select a value from the drop-down list.</target>
+          </trans-unit>
+        </group>
+        <group id="151">
+          <trans-unit id="214" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+          <trans-unit id="215" translate="yes" xml:space="preserve">
+            <source>The dialog boxes should resemble the following:</source>
+            <target state="new">The dialog boxes should resemble the following:</target>
+          </trans-unit>
+        </group>
+        <group id="152">
+          <trans-unit id="216" translate="yes" xml:space="preserve">
+            <source>So what do these dialog boxes depict?</source>
+            <target state="new">So what do these dialog boxes depict?</target>
+          </trans-unit>
+          <trans-unit id="217" translate="yes" xml:space="preserve">
+            <source>This is how the logic flows (explained using the same purchase order example as above):</source>
+            <target state="new">This is how the logic flows (explained using the same purchase order example as above):</target>
+          </trans-unit>
+        </group>
+        <group id="153">
+          <trans-unit id="218" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> looks up the value of P1 (<bpt id="2">&lt;embeddedLabel&gt;</bpt>PO1234<ept id="2">&lt;/embeddedLabel&gt;</ept>) in the input query column (<bpt id="3">&lt;embeddedLabel&gt;</bpt>P_Order<ept id="3">&lt;/embeddedLabel&gt;</ept>) in the table (<bpt id="4">&lt;embeddedLabel&gt;</bpt>TempTable<ept id="4">&lt;/embeddedLabel&gt;</ept>) defined in the <bpt id="5">&lt;embeddedLabel&gt;</bpt>MyProvider<ept id="5">&lt;/embeddedLabel&gt;</ept> provider configuration.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> looks up the value of P1 (<bpt id="2">&lt;embeddedLabel&gt;</bpt>PO1234<ept id="2">&lt;/embeddedLabel&gt;</ept>) in the input query column (<bpt id="3">&lt;embeddedLabel&gt;</bpt>P_Order<ept id="3">&lt;/embeddedLabel&gt;</ept>) in the table (<bpt id="4">&lt;embeddedLabel&gt;</bpt>TempTable<ept id="4">&lt;/embeddedLabel&gt;</ept>) defined in the <bpt id="5">&lt;embeddedLabel&gt;</bpt>MyProvider<ept id="5">&lt;/embeddedLabel&gt;</ept> provider configuration.</target>
+          </trans-unit>
+        </group>
+        <group id="154">
+          <trans-unit id="219" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> then picks up the value corresponding to <bpt id="2">&lt;embeddedLabel&gt;</bpt>PO1234<ept id="2">&lt;/embeddedLabel&gt;</ept> from the output query column (<bpt id="3">&lt;embeddedLabel&gt;</bpt>Cust_Name<ept id="3">&lt;/embeddedLabel&gt;</ept>) in the <bpt id="4">&lt;embeddedLabel&gt;</bpt>TempTable<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> then picks up the value corresponding to <bpt id="2">&lt;embeddedLabel&gt;</bpt>PO1234<ept id="2">&lt;/embeddedLabel&gt;</ept> from the output query column (<bpt id="3">&lt;embeddedLabel&gt;</bpt>Cust_Name<ept id="3">&lt;/embeddedLabel&gt;</ept>) in the <bpt id="4">&lt;embeddedLabel&gt;</bpt>TempTable<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="155">
+          <trans-unit id="220" translate="yes" xml:space="preserve">
+            <source>The value picked up from the output query column is assigned to the property P2.</source>
+            <target state="new">The value picked up from the output query column is assigned to the property P2.</target>
+          </trans-unit>
+          <trans-unit id="221" translate="yes" xml:space="preserve">
+            <source>For example, if the customer name corresponding to purchase order <bpt id="1">&lt;embeddedLabel&gt;</bpt>PO1234<ept id="1">&lt;/embeddedLabel&gt;</ept> is <bpt id="2">&lt;embeddedLabel&gt;</bpt>John<ept id="2">&lt;/embeddedLabel&gt;</ept>, the value of P2 is set to John.</source>
+            <target state="new">For example, if the customer name corresponding to purchase order <bpt id="1">&lt;embeddedLabel&gt;</bpt>PO1234<ept id="1">&lt;/embeddedLabel&gt;</ept> is <bpt id="2">&lt;embeddedLabel&gt;</bpt>John<ept id="2">&lt;/embeddedLabel&gt;</ept>, the value of P2 is set to John.</target>
+          </trans-unit>
+        </group>
+        <group id="156">
+          <trans-unit id="222" translate="yes" xml:space="preserve">
+            <source>The data type of property P2 is set to <bpt id="1">&lt;embeddedLabel&gt;</bpt>string<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The data type of property P2 is set to <bpt id="1">&lt;embeddedLabel&gt;</bpt>string<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="157">
+          <trans-unit id="223" translate="yes" xml:space="preserve">
+            <source>To update or remove a property definition, you can select the property definition in the dialog box and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Remove<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">To update or remove a property definition, you can select the property definition in the dialog box and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Remove<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="224" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Property Definition<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box and then click <bpt id="3">&lt;embeddedLabel&gt;</bpt>Save<ept id="3">&lt;/embeddedLabel&gt;</ept> to save changes to the <ph id="4">&lt;token&gt;msgflow&lt;/token&gt;</ph>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Property Definition<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box and then click <bpt id="3">&lt;embeddedLabel&gt;</bpt>Save<ept id="3">&lt;/embeddedLabel&gt;</ept> to save changes to the <ph id="4">&lt;token&gt;msgflow&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="158">
+          <trans-unit id="225" translate="yes" xml:space="preserve">
+            <source>To extract values from a message body using xpath</source>
+            <target state="new">To extract values from a message body using xpath</target>
+          </trans-unit>
+        </group>
+        <group id="159">
+          <trans-unit id="226" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="1">&lt;/embeddedLabel&gt;</ept>, do the following:</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="1">&lt;/embeddedLabel&gt;</ept>, do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="160">
+          <trans-unit id="227" translate="yes" xml:space="preserve">
+            <source>This table lists only the fields required for the extract (xpath) operation.</source>
+            <target state="new">This table lists only the fields required for the extract (xpath) operation.</target>
+          </trans-unit>
+          <trans-unit id="228" translate="yes" xml:space="preserve">
+            <source>Also, depending on what you select for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Type<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list, the required fields are outlined in red and the other fields are greyed out.</source>
+            <target state="new">Also, depending on what you select for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Type<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list, the required fields are outlined in red and the other fields are greyed out.</target>
+          </trans-unit>
+        </group>
+        <group id="161">
+          <trans-unit id="229" translate="yes" xml:space="preserve">
+            <source>Section</source>
+            <target state="new">Section</target>
+          </trans-unit>
+        </group>
+        <group id="162">
+          <trans-unit id="230" translate="yes" xml:space="preserve">
+            <source>Field Name</source>
+            <target state="new">Field Name</target>
+          </trans-unit>
+        </group>
+        <group id="163">
+          <trans-unit id="231" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="164">
+          <trans-unit id="232" translate="yes" xml:space="preserve">
+            <source>Source (Read From)</source>
+            <target state="new">Source (Read From)</target>
+          </trans-unit>
+        </group>
+        <group id="165">
+          <trans-unit id="233" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="166">
+          <trans-unit id="234" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Xpath<ept id="1">&lt;/embeddedLabel&gt;</ept> from the drop-down list.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Xpath<ept id="1">&lt;/embeddedLabel&gt;</ept> from the drop-down list.</target>
+          </trans-unit>
+        </group>
+        <group id="167">
+          <trans-unit id="235" translate="yes" xml:space="preserve">
+            <source>Identifier</source>
+            <target state="new">Identifier</target>
+          </trans-unit>
+        </group>
+        <group id="168">
+          <trans-unit id="236" translate="yes" xml:space="preserve">
+            <source>Specify the xpath query to extract an element or an attribute from a message.</source>
+            <target state="new">Specify the xpath query to extract an element or an attribute from a message.</target>
+          </trans-unit>
+          <trans-unit id="237" translate="yes" xml:space="preserve">
+            <source>A typical xpath query looks like the following:</source>
+            <target state="new">A typical xpath query looks like the following:</target>
+          </trans-unit>
+        </group>
+        <group id="169">
+          <trans-unit id="238" translate="yes" xml:space="preserve">
+            <source>Message Type</source>
+            <target state="new">Message Type</target>
+          </trans-unit>
+        </group>
+        <group id="170">
+          <trans-unit id="239" translate="yes" xml:space="preserve">
+            <source>Specifies the message type for the message from which the element or attribute value has to be extracted using the xpath query.</source>
+            <target state="new">Specifies the message type for the message from which the element or attribute value has to be extracted using the xpath query.</target>
+          </trans-unit>
+        </group>
+        <group id="171">
+          <trans-unit id="240" translate="yes" xml:space="preserve">
+            <source>The drop-down list shows all the schemas that you have added to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">The drop-down list shows all the schemas that you have added to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="241" translate="yes" xml:space="preserve">
+            <source>Select the schema that has the element that you want to extract.</source>
+            <target state="new">Select the schema that has the element that you want to extract.</target>
+          </trans-unit>
+        </group>
+        <group id="172">
+          <trans-unit id="242" translate="yes" xml:space="preserve">
+            <source>Property (Write To)</source>
+            <target state="new">Property (Write To)</target>
+          </trans-unit>
+        </group>
+        <group id="173">
+          <trans-unit id="243" translate="yes" xml:space="preserve">
+            <source>Property Name</source>
+            <target state="new">Property Name</target>
+          </trans-unit>
+        </group>
+        <group id="174">
+          <trans-unit id="244" translate="yes" xml:space="preserve">
+            <source>Specifies the name of the property that you are defining.</source>
+            <target state="new">Specifies the name of the property that you are defining.</target>
+          </trans-unit>
+          <trans-unit id="245" translate="yes" xml:space="preserve">
+            <source>The value of this property is set to the value that is extracted from the message body using the xpath query.</source>
+            <target state="new">The value of this property is set to the value that is extracted from the message body using the xpath query.</target>
+          </trans-unit>
+        </group>
+        <group id="175">
+          <trans-unit id="246" translate="yes" xml:space="preserve">
+            <source>Data Type</source>
+            <target state="new">Data Type</target>
+          </trans-unit>
+        </group>
+        <group id="176">
+          <trans-unit id="247" translate="yes" xml:space="preserve">
+            <source>Specifies the data type for the property.</source>
+            <target state="new">Specifies the data type for the property.</target>
+          </trans-unit>
+          <trans-unit id="248" translate="yes" xml:space="preserve">
+            <source>You can select a value from the drop-down list.</source>
+            <target state="new">You can select a value from the drop-down list.</target>
+          </trans-unit>
+        </group>
+        <group id="177">
+          <trans-unit id="249" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+          <trans-unit id="250" translate="yes" xml:space="preserve">
+            <source>The dialog boxes should resemble the following:</source>
+            <target state="new">The dialog boxes should resemble the following:</target>
+          </trans-unit>
+        </group>
+        <group id="178">
+          <trans-unit id="251" translate="yes" xml:space="preserve">
+            <source>So what does this dialog box depict?</source>
+            <target state="new">So what does this dialog box depict?</target>
+          </trans-unit>
+          <trans-unit id="252" translate="yes" xml:space="preserve">
+            <source>It means that from a message type (PurchaseOrder, in this example), the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> extracts the value from the element per the given xpath query, assigns it to the property <bpt id="2">&lt;embeddedLabel&gt;</bpt>P3<ept id="2">&lt;/embeddedLabel&gt;</ept>, and sets the data type of property P3 to <bpt id="3">&lt;embeddedLabel&gt;</bpt>double<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">It means that from a message type (PurchaseOrder, in this example), the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> extracts the value from the element per the given xpath query, assigns it to the property <bpt id="2">&lt;embeddedLabel&gt;</bpt>P3<ept id="2">&lt;/embeddedLabel&gt;</ept>, and sets the data type of property P3 to <bpt id="3">&lt;embeddedLabel&gt;</bpt>double<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="179">
+          <trans-unit id="253" translate="yes" xml:space="preserve">
+            <source>To update or remove a property definition, you can select the property definition in the dialog box and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Remove<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">To update or remove a property definition, you can select the property definition in the dialog box and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Remove<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="254" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Property Definition<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box and then click <bpt id="3">&lt;embeddedLabel&gt;</bpt>Save<ept id="3">&lt;/embeddedLabel&gt;</ept> to save changes to the <ph id="4">&lt;token&gt;msgflow&lt;/token&gt;</ph>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Property Definition<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box and then click <bpt id="3">&lt;embeddedLabel&gt;</bpt>Save<ept id="3">&lt;/embeddedLabel&gt;</ept> to save changes to the <ph id="4">&lt;token&gt;msgflow&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="180">
+          <trans-unit id="255" translate="yes" xml:space="preserve">
+            <source>How do the Properties get Promoted?</source>
+            <target state="new">How do the Properties get Promoted?</target>
+          </trans-unit>
+        </group>
+        <group id="181">
+          <trans-unit id="256" translate="yes" xml:space="preserve">
+            <source>At design-time using the <ph id="1">&lt;token&gt;msgflow&lt;/token&gt;</ph> design surface, you can define the properties that will be promoted and the values that will get assigned to them.</source>
+            <target state="new">At design-time using the <ph id="1">&lt;token&gt;msgflow&lt;/token&gt;</ph> design surface, you can define the properties that will be promoted and the values that will get assigned to them.</target>
+          </trans-unit>
+          <trans-unit id="257" translate="yes" xml:space="preserve">
+            <source>But the property promotion and value assignment actually happens at runtime; which is when a message flows through the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> deployed on <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">But the property promotion and value assignment actually happens at runtime; which is when a message flows through the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> deployed on <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="258" translate="yes" xml:space="preserve">
+            <source>However, at runtime there could be instances when the property promotion fails due to various reasons.</source>
+            <target state="new">However, at runtime there could be instances when the property promotion fails due to various reasons.</target>
+          </trans-unit>
+          <trans-unit id="259" translate="yes" xml:space="preserve">
+            <source>Use the following table to understand how and when that can occur:</source>
+            <target state="new">Use the following table to understand how and when that can occur:</target>
+          </trans-unit>
+        </group>
+        <group id="182">
+          <trans-unit id="260" translate="yes" xml:space="preserve">
+            <source>If this happens</source>
+            <target state="new">If this happens</target>
+          </trans-unit>
+        </group>
+        <group id="183">
+          <trans-unit id="261" translate="yes" xml:space="preserve">
+            <source>What gets promoted</source>
+            <target state="new">What gets promoted</target>
+          </trans-unit>
+        </group>
+        <group id="184">
+          <trans-unit id="262" translate="yes" xml:space="preserve">
+            <source>The SOAP or HTTP header you specify during design time does not exist in the actual message that is sent to the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> at runtime</source>
+            <target state="new">The SOAP or HTTP header you specify during design time does not exist in the actual message that is sent to the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> at runtime</target>
+          </trans-unit>
+        </group>
+        <group id="185">
+          <trans-unit id="263" translate="yes" xml:space="preserve">
+            <source>The property you defined at design time does not get promoted at run time; no exception is thrown.</source>
+            <target state="new">The property you defined at design time does not get promoted at run time; no exception is thrown.</target>
+          </trans-unit>
+        </group>
+        <group id="186">
+          <trans-unit id="264" translate="yes" xml:space="preserve">
+            <source>The XPATH query you specify during design time does not correspond to an element in the message that is sent to the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> at runtime</source>
+            <target state="new">The XPATH query you specify during design time does not correspond to an element in the message that is sent to the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> at runtime</target>
+          </trans-unit>
+        </group>
+        <group id="187">
+          <trans-unit id="265" translate="yes" xml:space="preserve">
+            <source>The property you defined at design time does not get promoted at run time; no exception is thrown.</source>
+            <target state="new">The property you defined at design time does not get promoted at run time; no exception is thrown.</target>
+          </trans-unit>
+        </group>
+        <group id="188">
+          <trans-unit id="266" translate="yes" xml:space="preserve">
+            <source>For Lookup, if the Lookup property you specify at design time, does not exist at runtime (because it never got promoted)</source>
+            <target state="new">For Lookup, if the Lookup property you specify at design time, does not exist at runtime (because it never got promoted)</target>
+          </trans-unit>
+        </group>
+        <group id="189">
+          <trans-unit id="267" translate="yes" xml:space="preserve">
+            <source>The property that would have been assigned a value as a result of the lookup does not get promoted; no exception is thrown.</source>
+            <target state="new">The property that would have been assigned a value as a result of the lookup does not get promoted; no exception is thrown.</target>
+          </trans-unit>
+        </group>
+        <group id="190">
+          <trans-unit id="268" translate="yes" xml:space="preserve">
+            <source>For Lookup, if the provider configuration you specify (which includes the connection string, table name, etc.)</source>
+            <target state="new">For Lookup, if the provider configuration you specify (which includes the connection string, table name, etc.)</target>
+          </trans-unit>
+          <trans-unit id="269" translate="yes" xml:space="preserve">
+            <source>at design time is incorrect</source>
+            <target state="new">at design time is incorrect</target>
+          </trans-unit>
+        </group>
+        <group id="191">
+          <trans-unit id="270" translate="yes" xml:space="preserve">
+            <source>At runtime, an exception is thrown; no property gets promoted.</source>
+            <target state="new">At runtime, an exception is thrown; no property gets promoted.</target>
+          </trans-unit>
+          <trans-unit id="271" translate="yes" xml:space="preserve">
+            <source>No exception is thrown at design time because the <ph id="1">&lt;token&gt;msgflow&lt;/token&gt;</ph> design surface does not do a validation of the provider configuration.</source>
+            <target state="new">No exception is thrown at design time because the <ph id="1">&lt;token&gt;msgflow&lt;/token&gt;</ph> design surface does not do a validation of the provider configuration.</target>
+          </trans-unit>
+        </group>
+        <group id="192">
+          <trans-unit id="272" translate="yes" xml:space="preserve">
+            <source>Only the user credentials are validated at design-time and if the validation is not successful, deployment fails.</source>
+            <target state="new">Only the user credentials are validated at design-time and if the validation is not successful, deployment fails.</target>
+          </trans-unit>
+        </group>
+        <group id="193">
+          <trans-unit id="273" translate="yes" xml:space="preserve">
+            <source>For Lookup, if the value of the Lookup property you specify at design time has no match in the provider data source (<ph id="1">&lt;token&gt;ssSDSfull&lt;/token&gt;</ph> table, in this case) at runtime</source>
+            <target state="new">For Lookup, if the value of the Lookup property you specify at design time has no match in the provider data source (<ph id="1">&lt;token&gt;ssSDSfull&lt;/token&gt;</ph> table, in this case) at runtime</target>
+          </trans-unit>
+        </group>
+        <group id="194">
+          <trans-unit id="274" translate="yes" xml:space="preserve">
+            <source>An exception is thrown; no value gets promoted</source>
+            <target state="new">An exception is thrown; no value gets promoted</target>
+          </trans-unit>
+        </group>
+        <group id="195">
+          <trans-unit id="275" translate="yes" xml:space="preserve">
+            <source>For Lookup, if the value of the Lookup property you specify at design time has more than one match in the provider data source (<ph id="1">&lt;token&gt;ssSDSfull&lt;/token&gt;</ph> table, in this case) at runtime</source>
+            <target state="new">For Lookup, if the value of the Lookup property you specify at design time has more than one match in the provider data source (<ph id="1">&lt;token&gt;ssSDSfull&lt;/token&gt;</ph> table, in this case) at runtime</target>
+          </trans-unit>
+        </group>
+        <group id="196">
+          <trans-unit id="276" translate="yes" xml:space="preserve">
+            <source>The property is promoted and only one of the matching values from the data source is assigned as a value to the promoted property.</source>
+            <target state="new">The property is promoted and only one of the matching values from the data source is assigned as a value to the promoted property.</target>
+          </trans-unit>
+        </group>
+        <group id="197">
+          <trans-unit id="277" translate="yes" xml:space="preserve">
+            <source>For SOAP, HTTP, XPATH, and Lookup, if the data type specified for the property at design time is different from the data type of the value that the property will have at runtime</source>
+            <target state="new">For SOAP, HTTP, XPATH, and Lookup, if the data type specified for the property at design time is different from the data type of the value that the property will have at runtime</target>
+          </trans-unit>
+        </group>
+        <group id="198">
+          <trans-unit id="278" translate="yes" xml:space="preserve">
+            <source>Wherever the type conversion is possible, the type is converted and the property is promoted.</source>
+            <target state="new">Wherever the type conversion is possible, the type is converted and the property is promoted.</target>
+          </trans-unit>
+          <trans-unit id="279" translate="yes" xml:space="preserve">
+            <source>For example, at design time you define a property as string but the value assigned to that property at runtime is 30, then the value of that property will be “30” (as a string.)</source>
+            <target state="new">For example, at design time you define a property as string but the value assigned to that property at runtime is 30, then the value of that property will be “30” (as a string.)</target>
+          </trans-unit>
+        </group>
+        <group id="199">
+          <trans-unit id="280" translate="yes" xml:space="preserve">
+            <source>When type conversion is not possible, an exception is thrown, and the property does not get promoted.</source>
+            <target state="new">When type conversion is not possible, an exception is thrown, and the property does not get promoted.</target>
+          </trans-unit>
+          <trans-unit id="281" translate="yes" xml:space="preserve">
+            <source>For example, at design time you define a property as “double” but the value assigned to that property at runtime is “John”.</source>
+            <target state="new">For example, at design time you define a property as “double” but the value assigned to that property at runtime is “John”.</target>
+          </trans-unit>
+          <trans-unit id="282" translate="yes" xml:space="preserve">
+            <source>Because “John” cannot be stored in the property as a “double”, an exception is thrown and the property does not get promoted.</source>
+            <target state="new">Because “John” cannot be stored in the property as a “double”, an exception is thrown and the property does not get promoted.</target>
+          </trans-unit>
+        </group>
+        <group id="200">
+          <trans-unit id="283" translate="yes" xml:space="preserve">
+            <source>Configure the Transform stage for the Request message</source>
+            <target state="new">Configure the Transform stage for the Request message</target>
+          </trans-unit>
+        </group>
+        <group id="201">
+          <trans-unit id="284" translate="yes" xml:space="preserve">
+            <source>In this stage, you can enter the transforms to be used by the bridge.</source>
+            <target state="new">In this stage, you can enter the transforms to be used by the bridge.</target>
+          </trans-unit>
+          <trans-unit id="285" translate="yes" xml:space="preserve">
+            <source>You can also enable or disable the stage.</source>
+            <target state="new">You can also enable or disable the stage.</target>
+          </trans-unit>
+        </group>
+        <group id="202">
+          <trans-unit id="286" translate="yes" xml:space="preserve">
+            <source>Add the transforms to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">Add the transforms to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="287" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="03421690-817a-45a8-8492-c9cb98484102" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create a BizTalk Service Project&lt;/link&gt;</ph> lists the steps.</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="03421690-817a-45a8-8492-c9cb98484102" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create a BizTalk Service Project&lt;/link&gt;</ph> lists the steps.</target>
+          </trans-unit>
+          <trans-unit id="288" translate="yes" xml:space="preserve">
+            <source>Repeat this step to add any number of transforms that you need for your project.</source>
+            <target state="new">Repeat this step to add any number of transforms that you need for your project.</target>
+          </trans-unit>
+        </group>
+        <group id="203">
+          <trans-unit id="289" translate="yes" xml:space="preserve">
+            <source>Double-click the <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> to open the itinerary designer.</source>
+            <target state="new">Double-click the <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> to open the itinerary designer.</target>
+          </trans-unit>
+        </group>
+        <group id="204">
+          <trans-unit id="290" translate="yes" xml:space="preserve">
+            <source>Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transform<ept id="1">&lt;/embeddedLabel&gt;</ept> stage.</source>
+            <target state="new">Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transform<ept id="1">&lt;/embeddedLabel&gt;</ept> stage.</target>
+          </trans-unit>
+          <trans-unit id="291" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, set <bpt id="2">&lt;embeddedLabel&gt;</bpt>IsEnabled<ept id="2">&lt;/embeddedLabel&gt;</ept> to <bpt id="3">&lt;embeddedLabel&gt;</bpt>True<ept id="3">&lt;/embeddedLabel&gt;</ept> or <bpt id="4">&lt;embeddedLabel&gt;</bpt>False<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, set <bpt id="2">&lt;embeddedLabel&gt;</bpt>IsEnabled<ept id="2">&lt;/embeddedLabel&gt;</ept> to <bpt id="3">&lt;embeddedLabel&gt;</bpt>True<ept id="3">&lt;/embeddedLabel&gt;</ept> or <bpt id="4">&lt;embeddedLabel&gt;</bpt>False<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="292" translate="yes" xml:space="preserve">
+            <source>If <bpt id="1">&lt;embeddedLabel&gt;</bpt>True<ept id="1">&lt;/embeddedLabel&gt;</ept>, the stage uses the transforms that you enter for transforming an incoming request message.</source>
+            <target state="new">If <bpt id="1">&lt;embeddedLabel&gt;</bpt>True<ept id="1">&lt;/embeddedLabel&gt;</ept>, the stage uses the transforms that you enter for transforming an incoming request message.</target>
+          </trans-unit>
+          <trans-unit id="293" translate="yes" xml:space="preserve">
+            <source>If <bpt id="1">&lt;embeddedLabel&gt;</bpt>False<ept id="1">&lt;/embeddedLabel&gt;</ept>, there is no message transformation and the message is simply passed through to the next stage.</source>
+            <target state="new">If <bpt id="1">&lt;embeddedLabel&gt;</bpt>False<ept id="1">&lt;/embeddedLabel&gt;</ept>, there is no message transformation and the message is simply passed through to the next stage.</target>
+          </trans-unit>
+        </group>
+        <group id="205">
+          <trans-unit id="294" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Additional<ept id="1">&lt;/legacyBold&gt;</ept>:</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Additional<ept id="1">&lt;/legacyBold&gt;</ept>:</target>
+          </trans-unit>
+        </group>
+        <group id="206">
+          <trans-unit id="295" translate="yes" xml:space="preserve">
+            <source>To include any custom code that executes <bpt id="1">&lt;legacyItalic&gt;</bpt>before<ept id="1">&lt;/legacyItalic&gt;</ept> the message enters this stage, set the <bpt id="2">&lt;embeddedLabel&gt;</bpt>On Enter Inspector<ept id="2">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">To include any custom code that executes <bpt id="1">&lt;legacyItalic&gt;</bpt>before<ept id="1">&lt;/legacyItalic&gt;</ept> the message enters this stage, set the <bpt id="2">&lt;embeddedLabel&gt;</bpt>On Enter Inspector<ept id="2">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+          <trans-unit id="296" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="8a486c54-dbe7-4c74-9f5a-ffb79b3f950c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Include Custom Code in Bridges&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="8a486c54-dbe7-4c74-9f5a-ffb79b3f950c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Include Custom Code in Bridges&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="207">
+          <trans-unit id="297" translate="yes" xml:space="preserve">
+            <source>To include any custom code that executes <bpt id="1">&lt;legacyItalic&gt;</bpt>after<ept id="1">&lt;/legacyItalic&gt;</ept> the message exits this stage, set the <bpt id="2">&lt;embeddedLabel&gt;</bpt>On Exit Inspector<ept id="2">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">To include any custom code that executes <bpt id="1">&lt;legacyItalic&gt;</bpt>after<ept id="1">&lt;/legacyItalic&gt;</ept> the message exits this stage, set the <bpt id="2">&lt;embeddedLabel&gt;</bpt>On Exit Inspector<ept id="2">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+          <trans-unit id="298" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="8a486c54-dbe7-4c74-9f5a-ffb79b3f950c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Include Custom Code in Bridges&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="8a486c54-dbe7-4c74-9f5a-ffb79b3f950c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Include Custom Code in Bridges&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="208">
+          <trans-unit id="299" translate="yes" xml:space="preserve">
+            <source>Within the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transform<ept id="1">&lt;/embeddedLabel&gt;</ept> stage, select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Xml Transform<ept id="2">&lt;/embeddedLabel&gt;</ept> activity.</source>
+            <target state="new">Within the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transform<ept id="1">&lt;/embeddedLabel&gt;</ept> stage, select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Xml Transform<ept id="2">&lt;/embeddedLabel&gt;</ept> activity.</target>
+          </trans-unit>
+          <trans-unit id="300" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, select the ellipsis button <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> against the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Maps<ept id="3">&lt;/embeddedLabel&gt;</ept> property to open <bpt id="4">&lt;embeddedLabel&gt;</bpt>Map Selection<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, select the ellipsis button <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> against the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Maps<ept id="3">&lt;/embeddedLabel&gt;</ept> property to open <bpt id="4">&lt;embeddedLabel&gt;</bpt>Map Selection<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="209">
+          <trans-unit id="301" translate="yes" xml:space="preserve">
+            <source>From the list of maps displayed, select the maps that you want to associate with the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transform<ept id="1">&lt;/embeddedLabel&gt;</ept> stage, and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>OK<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">From the list of maps displayed, select the maps that you want to associate with the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transform<ept id="1">&lt;/embeddedLabel&gt;</ept> stage, and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>OK<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="302" translate="yes" xml:space="preserve">
+            <source>The maps you added are now listed under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Selected Maps<ept id="1">&lt;/embeddedLabel&gt;</ept> on the itinerary designer.</source>
+            <target state="new">The maps you added are now listed under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Selected Maps<ept id="1">&lt;/embeddedLabel&gt;</ept> on the itinerary designer.</target>
+          </trans-unit>
+        </group>
+        <group id="210">
+          <trans-unit id="303" translate="yes" xml:space="preserve">
+            <source>The dialog box only displays those maps for which the source schema (of the map) matches the request message schema you entered in <ph id="1">&lt;link xlink:href="7e5fedb4-9ab1-4470-aa8a-204633391da7#BKMK_TwoWay_AddSchemas" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Enter the request schemas&lt;/link&gt;</ph> (in this topic).</source>
+            <target state="new">The dialog box only displays those maps for which the source schema (of the map) matches the request message schema you entered in <ph id="1">&lt;link xlink:href="7e5fedb4-9ab1-4470-aa8a-204633391da7#BKMK_TwoWay_AddSchemas" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Enter the request schemas&lt;/link&gt;</ph> (in this topic).</target>
+          </trans-unit>
+        </group>
+        <group id="211">
+          <trans-unit id="304" translate="yes" xml:space="preserve">
+            <source>If the <bpt id="1">&lt;embeddedLabel&gt;</bpt>IsEnabled<ept id="1">&lt;/embeddedLabel&gt;</ept> property is set to True on the Transform stage and you do not specify a map as part of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Xml Transform<ept id="2">&lt;/embeddedLabel&gt;</ept> activity, the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph> does not thrown an error; neither while configuring the bridge (design-time) nor while processing the message (run-time).</source>
+            <target state="new">If the <bpt id="1">&lt;embeddedLabel&gt;</bpt>IsEnabled<ept id="1">&lt;/embeddedLabel&gt;</ept> property is set to True on the Transform stage and you do not specify a map as part of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Xml Transform<ept id="2">&lt;/embeddedLabel&gt;</ept> activity, the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph> does not thrown an error; neither while configuring the bridge (design-time) nor while processing the message (run-time).</target>
+          </trans-unit>
+        </group>
+        <group id="212">
+          <trans-unit id="305" translate="yes" xml:space="preserve">
+            <source>You can add or remove a map by clicking the ellipsis button <bpt id="1">&lt;embeddedLabel&gt;</bpt>(…)<ept id="1">&lt;/embeddedLabel&gt;</ept> against the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Map<ept id="2">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">You can add or remove a map by clicking the ellipsis button <bpt id="1">&lt;embeddedLabel&gt;</bpt>(…)<ept id="1">&lt;/embeddedLabel&gt;</ept> against the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Map<ept id="2">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+        </group>
+        <group id="213">
+          <trans-unit id="306" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="214">
+          <trans-unit id="307" translate="yes" xml:space="preserve">
+            <source>Configure the Enrich Stage (post- Transform) for the Request message</source>
+            <target state="new">Configure the Enrich Stage (post- Transform) for the Request message</target>
+          </trans-unit>
+        </group>
+        <group id="215">
+          <trans-unit id="308" translate="yes" xml:space="preserve">
+            <source>Configuring the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage after a transform stage is identical to configuring an Enrich stage before a transform stage.</source>
+            <target state="new">Configuring the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage after a transform stage is identical to configuring an Enrich stage before a transform stage.</target>
+          </trans-unit>
+          <trans-unit id="309" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="7e5fedb4-9ab1-4470-aa8a-204633391da7#BKMK_TwoWay_Enrich" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configure the Enrich Stage (and its Properties) for the Request message&lt;/link&gt;</ph> (in this topic).</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="7e5fedb4-9ab1-4470-aa8a-204633391da7#BKMK_TwoWay_Enrich" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configure the Enrich Stage (and its Properties) for the Request message&lt;/link&gt;</ph> (in this topic).</target>
+          </trans-unit>
+          <trans-unit id="310" translate="yes" xml:space="preserve">
+            <source>The only thing to consider while configuring a post-transform Enrich stage is that the properties you defined in the pre-transform Enrich stage are also available in the post-transform Enrich stage.</source>
+            <target state="new">The only thing to consider while configuring a post-transform Enrich stage is that the properties you defined in the pre-transform Enrich stage are also available in the post-transform Enrich stage.</target>
+          </trans-unit>
+          <trans-unit id="311" translate="yes" xml:space="preserve">
+            <source>So, if you want to preserve those properties, do not create properties with the same name.</source>
+            <target state="new">So, if you want to preserve those properties, do not create properties with the same name.</target>
+          </trans-unit>
+          <trans-unit id="312" translate="yes" xml:space="preserve">
+            <source>If you do, the new property definition overwrites the old property definition.</source>
+            <target state="new">If you do, the new property definition overwrites the old property definition.</target>
+          </trans-unit>
+        </group>
+        <group id="216">
+          <trans-unit id="313" translate="yes" xml:space="preserve">
+            <source>The post-transform <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage also provides two properties: <bpt id="2">&lt;embeddedLabel&gt;</bpt>On Enter Inspector<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>On Exit Inspector<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The post-transform <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage also provides two properties: <bpt id="2">&lt;embeddedLabel&gt;</bpt>On Enter Inspector<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>On Exit Inspector<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="314" translate="yes" xml:space="preserve">
+            <source>These properties are used to include custom code as part of the bridge processing.</source>
+            <target state="new">These properties are used to include custom code as part of the bridge processing.</target>
+          </trans-unit>
+          <trans-unit id="315" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="8a486c54-dbe7-4c74-9f5a-ffb79b3f950c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Include Custom Code in Bridges&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="8a486c54-dbe7-4c74-9f5a-ffb79b3f950c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Include Custom Code in Bridges&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="217">
+          <trans-unit id="316" translate="yes" xml:space="preserve">
+            <source>Configure the Enrich Stage for the Response Message</source>
+            <target state="new">Configure the Enrich Stage for the Response Message</target>
+          </trans-unit>
+        </group>
+        <group id="218">
+          <trans-unit id="317" translate="yes" xml:space="preserve">
+            <source>The Enrich stage in the response path of an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> is used to promote properties on the response message that is received from the message receiver and has to be sent back to the message sender.</source>
+            <target state="new">The Enrich stage in the response path of an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> is used to promote properties on the response message that is received from the message receiver and has to be sent back to the message sender.</target>
+          </trans-unit>
+          <trans-unit id="318" translate="yes" xml:space="preserve">
+            <source>The procedure for configuring an Enrich stage in the response path of an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> is identical to configuring an Enrich stage for the request message.</source>
+            <target state="new">The procedure for configuring an Enrich stage in the response path of an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> is identical to configuring an Enrich stage for the request message.</target>
+          </trans-unit>
+          <trans-unit id="319" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="7e5fedb4-9ab1-4470-aa8a-204633391da7#BKMK_TwoWay_Enrich" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configure the Enrich Stage (and its Properties) for the Request message&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="7e5fedb4-9ab1-4470-aa8a-204633391da7#BKMK_TwoWay_Enrich" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configure the Enrich Stage (and its Properties) for the Request message&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="320" translate="yes" xml:space="preserve">
+            <source>Note that the properties you promoted in all the previous Enrich stages within an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> are available as part of this Enrich stage.</source>
+            <target state="new">Note that the properties you promoted in all the previous Enrich stages within an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> are available as part of this Enrich stage.</target>
+          </trans-unit>
+        </group>
+        <group id="219">
+          <trans-unit id="321" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage for the response message also provides two properties: <bpt id="2">&lt;embeddedLabel&gt;</bpt>On Enter Inspector<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>On Exit Inspector<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage for the response message also provides two properties: <bpt id="2">&lt;embeddedLabel&gt;</bpt>On Enter Inspector<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>On Exit Inspector<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="322" translate="yes" xml:space="preserve">
+            <source>These properties are used to include custom code as part of the bridge processing.</source>
+            <target state="new">These properties are used to include custom code as part of the bridge processing.</target>
+          </trans-unit>
+          <trans-unit id="323" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="8a486c54-dbe7-4c74-9f5a-ffb79b3f950c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Include Custom Code in Bridges&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="8a486c54-dbe7-4c74-9f5a-ffb79b3f950c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Include Custom Code in Bridges&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="220">
+          <trans-unit id="324" translate="yes" xml:space="preserve">
+            <source>Configure the Transform Stage for the Response Message</source>
+            <target state="new">Configure the Transform Stage for the Response Message</target>
+          </trans-unit>
+        </group>
+        <group id="221">
+          <trans-unit id="325" translate="yes" xml:space="preserve">
+            <source>The Transform stage in the response path of an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> is used to transform the response message that is received from the message receiver to a format that conforms to the schema of the message sender.</source>
+            <target state="new">The Transform stage in the response path of an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> is used to transform the response message that is received from the message receiver to a format that conforms to the schema of the message sender.</target>
+          </trans-unit>
+          <trans-unit id="326" translate="yes" xml:space="preserve">
+            <source>The procedure for configuring a Transform stage in the response path of an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> is identical to configuring a Transform stage in a request message.</source>
+            <target state="new">The procedure for configuring a Transform stage in the response path of an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> is identical to configuring a Transform stage in a request message.</target>
+          </trans-unit>
+          <trans-unit id="327" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="7e5fedb4-9ab1-4470-aa8a-204633391da7#BKMK_TwoWay_Transform" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configure the Transform stage for the Request message&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="7e5fedb4-9ab1-4470-aa8a-204633391da7#BKMK_TwoWay_Transform" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configure the Transform stage for the Request message&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="328" translate="yes" xml:space="preserve">
+            <source>Note that only those maps are available for selection whose destination schema (of the map) matches the response message schema you specified in <ph id="1">&lt;link xlink:href="7e5fedb4-9ab1-4470-aa8a-204633391da7#BKMK_TwoWay_AddSchemas" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Enter the request schemas&lt;/link&gt;</ph> (in this topic).</source>
+            <target state="new">Note that only those maps are available for selection whose destination schema (of the map) matches the response message schema you specified in <ph id="1">&lt;link xlink:href="7e5fedb4-9ab1-4470-aa8a-204633391da7#BKMK_TwoWay_AddSchemas" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Enter the request schemas&lt;/link&gt;</ph> (in this topic).</target>
+          </trans-unit>
+        </group>
+        <group id="222">
+          <trans-unit id="329" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transform<ept id="1">&lt;/embeddedLabel&gt;</ept> stage for the response message also provides two properties: <bpt id="2">&lt;embeddedLabel&gt;</bpt>On Enter Inspector<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>On Exit Inspector<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transform<ept id="1">&lt;/embeddedLabel&gt;</ept> stage for the response message also provides two properties: <bpt id="2">&lt;embeddedLabel&gt;</bpt>On Enter Inspector<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>On Exit Inspector<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="330" translate="yes" xml:space="preserve">
+            <source>These properties are used to include custom code as part of the bridge processing.</source>
+            <target state="new">These properties are used to include custom code as part of the bridge processing.</target>
+          </trans-unit>
+          <trans-unit id="331" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="8a486c54-dbe7-4c74-9f5a-ffb79b3f950c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Include Custom Code in Bridges&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="8a486c54-dbe7-4c74-9f5a-ffb79b3f950c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Include Custom Code in Bridges&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="223">
+          <trans-unit id="332" translate="yes" xml:space="preserve">
+            <source>Configure the Enrich Stage (post-Transform) for the Response Message</source>
+            <target state="new">Configure the Enrich Stage (post-Transform) for the Response Message</target>
+          </trans-unit>
+        </group>
+        <group id="224">
+          <trans-unit id="333" translate="yes" xml:space="preserve">
+            <source>The post-transform Enrich stage in the response path of an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> is used to promote properties on the transformed response message that is received from the message receiver and has to be sent back to the message sender.</source>
+            <target state="new">The post-transform Enrich stage in the response path of an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> is used to promote properties on the transformed response message that is received from the message receiver and has to be sent back to the message sender.</target>
+          </trans-unit>
+          <trans-unit id="334" translate="yes" xml:space="preserve">
+            <source>The procedure for configuring a post-transform Enrich stage in the response path of an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> is identical to configuring an Enrich stage in request message.</source>
+            <target state="new">The procedure for configuring a post-transform Enrich stage in the response path of an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> is identical to configuring an Enrich stage in request message.</target>
+          </trans-unit>
+          <trans-unit id="335" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="7e5fedb4-9ab1-4470-aa8a-204633391da7#BKMK_TwoWay_EnrichPostTrans" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configure the Enrich Stage (post- Transform) for the Request message&lt;/link&gt;</ph> (in this topic).</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="7e5fedb4-9ab1-4470-aa8a-204633391da7#BKMK_TwoWay_EnrichPostTrans" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configure the Enrich Stage (post- Transform) for the Request message&lt;/link&gt;</ph> (in this topic).</target>
+          </trans-unit>
+          <trans-unit id="336" translate="yes" xml:space="preserve">
+            <source>Note that the properties you promoted in all the previous Enrich stages within an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> are available as part of this Enrich stage.</source>
+            <target state="new">Note that the properties you promoted in all the previous Enrich stages within an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> are available as part of this Enrich stage.</target>
+          </trans-unit>
+        </group>
+        <group id="225">
+          <trans-unit id="337" translate="yes" xml:space="preserve">
+            <source>The post-transform <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage of the response message also provides two properties: <bpt id="2">&lt;embeddedLabel&gt;</bpt>On Enter Inspector<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>On Exit Inspector<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The post-transform <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage of the response message also provides two properties: <bpt id="2">&lt;embeddedLabel&gt;</bpt>On Enter Inspector<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>On Exit Inspector<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="338" translate="yes" xml:space="preserve">
+            <source>These properties are used to include custom code as part of the bridge processing.</source>
+            <target state="new">These properties are used to include custom code as part of the bridge processing.</target>
+          </trans-unit>
+          <trans-unit id="339" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="8a486c54-dbe7-4c74-9f5a-ffb79b3f950c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Include Custom Code in Bridges&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="8a486c54-dbe7-4c74-9f5a-ffb79b3f950c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Include Custom Code in Bridges&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="226">
+          <trans-unit id="340" translate="yes" xml:space="preserve">
+            <source>Configure the Reply Action Before Routing the Response Message</source>
+            <target state="new">Configure the Reply Action Before Routing the Response Message</target>
+          </trans-unit>
+        </group>
+        <group id="227">
+          <trans-unit id="341" translate="yes" xml:space="preserve">
+            <source>While <bpt id="1">&lt;embeddedLabel&gt;</bpt>Reply Action<ept id="1">&lt;/embeddedLabel&gt;</ept> is technically not a ‘stage’ in an <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph>, it plays a key role in ensuring that any protocol mismatches between the message sender and message receiver are bridged right before the response message is finally sent back to the message sender.</source>
+            <target state="new">While <bpt id="1">&lt;embeddedLabel&gt;</bpt>Reply Action<ept id="1">&lt;/embeddedLabel&gt;</ept> is technically not a ‘stage’ in an <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph>, it plays a key role in ensuring that any protocol mismatches between the message sender and message receiver are bridged right before the response message is finally sent back to the message sender.</target>
+          </trans-unit>
+          <trans-unit id="342" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="2b28ccb0-dd88-4fbc-a5c4-c3b797a901e8#BKMK_Send" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Reply Action&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="2b28ccb0-dd88-4fbc-a5c4-c3b797a901e8#BKMK_Send" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Reply Action&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="228">
+          <trans-unit id="343" translate="yes" xml:space="preserve">
+            <source>This section lists the steps on how to configure a Reply Action.</source>
+            <target state="new">This section lists the steps on how to configure a Reply Action.</target>
+          </trans-unit>
+        </group>
+        <group id="229">
+          <trans-unit id="344" translate="yes" xml:space="preserve">
+            <source>Double-click the <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> to open the itinerary designer.</source>
+            <target state="new">Double-click the <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> to open the itinerary designer.</target>
+          </trans-unit>
+        </group>
+        <group id="230">
+          <trans-unit id="345" translate="yes" xml:space="preserve">
+            <source>Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send Reply<ept id="1">&lt;/embeddedLabel&gt;</ept> box.</source>
+            <target state="new">Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send Reply<ept id="1">&lt;/embeddedLabel&gt;</ept> box.</target>
+          </trans-unit>
+          <trans-unit id="346" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, set the <bpt id="2">&lt;embeddedLabel&gt;</bpt>IsEnabled<ept id="2">&lt;/embeddedLabel&gt;</ept> property to <bpt id="3">&lt;embeddedLabel&gt;</bpt>True<ept id="3">&lt;/embeddedLabel&gt;</ept> or <bpt id="4">&lt;embeddedLabel&gt;</bpt>False<ept id="4">&lt;/embeddedLabel&gt;</ept> to determine whether you want to configure a reply action before sending the response message back to the message sender.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, set the <bpt id="2">&lt;embeddedLabel&gt;</bpt>IsEnabled<ept id="2">&lt;/embeddedLabel&gt;</ept> property to <bpt id="3">&lt;embeddedLabel&gt;</bpt>True<ept id="3">&lt;/embeddedLabel&gt;</ept> or <bpt id="4">&lt;embeddedLabel&gt;</bpt>False<ept id="4">&lt;/embeddedLabel&gt;</ept> to determine whether you want to configure a reply action before sending the response message back to the message sender.</target>
+          </trans-unit>
+        </group>
+        <group id="231">
+          <trans-unit id="347" translate="yes" xml:space="preserve">
+            <source>Click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Reply Action<ept id="1">&lt;/embeddedLabel&gt;</ept> activity within the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Send Reply<ept id="2">&lt;/embeddedLabel&gt;</ept> box.</source>
+            <target state="new">Click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Reply Action<ept id="1">&lt;/embeddedLabel&gt;</ept> activity within the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Send Reply<ept id="2">&lt;/embeddedLabel&gt;</ept> box.</target>
+          </trans-unit>
+          <trans-unit id="348" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, select the ellipsis button <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> against the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Reply Action<ept id="3">&lt;/embeddedLabel&gt;</ept> property to open the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Reply Actions<ept id="4">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, select the ellipsis button <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> against the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Reply Action<ept id="3">&lt;/embeddedLabel&gt;</ept> property to open the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Reply Actions<ept id="4">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+        </group>
+        <group id="232">
+          <trans-unit id="349" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Reply Actions<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add Reply Action<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Reply Actions<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add Reply Action<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+          <trans-unit id="350" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Reply Action<ept id="1">&lt;/embeddedLabel&gt;</ept>, do the following:</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Reply Action<ept id="1">&lt;/embeddedLabel&gt;</ept>, do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="233">
+          <trans-unit id="351" translate="yes" xml:space="preserve">
+            <source>Section</source>
+            <target state="new">Section</target>
+          </trans-unit>
+        </group>
+        <group id="234">
+          <trans-unit id="352" translate="yes" xml:space="preserve">
+            <source>Field Name</source>
+            <target state="new">Field Name</target>
+          </trans-unit>
+        </group>
+        <group id="235">
+          <trans-unit id="353" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="236">
+          <trans-unit id="354" translate="yes" xml:space="preserve">
+            <source>Property (Read From)</source>
+            <target state="new">Property (Read From)</target>
+          </trans-unit>
+        </group>
+        <group id="237">
+          <trans-unit id="355" translate="yes" xml:space="preserve">
+            <source>Property Name</source>
+            <target state="new">Property Name</target>
+          </trans-unit>
+        </group>
+        <group id="238">
+          <trans-unit id="356" translate="yes" xml:space="preserve">
+            <source>Lists all the properties that have been defined in all the previous four Enrich stages in the <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph>.</source>
+            <target state="new">Lists all the properties that have been defined in all the previous four Enrich stages in the <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="357" translate="yes" xml:space="preserve">
+            <source>When you select a property, you specify that the value of the selected properties be assigned to the relevant message header of the outgoing response message.</source>
+            <target state="new">When you select a property, you specify that the value of the selected properties be assigned to the relevant message header of the outgoing response message.</target>
+          </trans-unit>
+        </group>
+        <group id="239">
+          <trans-unit id="358" translate="yes" xml:space="preserve">
+            <source>Expression</source>
+            <target state="new">Expression</target>
+          </trans-unit>
+        </group>
+        <group id="240">
+          <trans-unit id="359" translate="yes" xml:space="preserve">
+            <source>Use this option to provide an expression, the resultant value of which is passed on to the relevant message header of the outgoing response message.</source>
+            <target state="new">Use this option to provide an expression, the resultant value of which is passed on to the relevant message header of the outgoing response message.</target>
+          </trans-unit>
+          <trans-unit id="360" translate="yes" xml:space="preserve">
+            <source>You can also use this option to specify a constant value that is assigned to a message header.</source>
+            <target state="new">You can also use this option to specify a constant value that is assigned to a message header.</target>
+          </trans-unit>
+          <trans-unit id="361" translate="yes" xml:space="preserve">
+            <source>Some example expressions are:</source>
+            <target state="new">Some example expressions are:</target>
+          </trans-unit>
+        </group>
+        <group id="241">
+          <trans-unit id="362" translate="yes" xml:space="preserve">
+            <source>P1 + P2, where P1 and P2 are two properties that are already defined in any of the four previous Enrich stages</source>
+            <target state="new">P1 + P2, where P1 and P2 are two properties that are already defined in any of the four previous Enrich stages</target>
+          </trans-unit>
+        </group>
+        <group id="242">
+          <trans-unit id="363" translate="yes" xml:space="preserve">
+            <source>'Fabrikam', is a string constant</source>
+            <target state="new">'Fabrikam', is a string constant</target>
+          </trans-unit>
+        </group>
+        <group id="243">
+          <trans-unit id="364" translate="yes" xml:space="preserve">
+            <source>You must always specify the value for an expression within single quotes.</source>
+            <target state="new">You must always specify the value for an expression within single quotes.</target>
+          </trans-unit>
+        </group>
+        <group id="244">
+          <trans-unit id="365" translate="yes" xml:space="preserve">
+            <source>You can either choose the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Property Name<ept id="1">&lt;/embeddedLabel&gt;</ept> option or the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expression<ept id="2">&lt;/embeddedLabel&gt;</ept> option.</source>
+            <target state="new">You can either choose the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Property Name<ept id="1">&lt;/embeddedLabel&gt;</ept> option or the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expression<ept id="2">&lt;/embeddedLabel&gt;</ept> option.</target>
+          </trans-unit>
+          <trans-unit id="366" translate="yes" xml:space="preserve">
+            <source>These options are mutually exclusive.</source>
+            <target state="new">These options are mutually exclusive.</target>
+          </trans-unit>
+        </group>
+        <group id="245">
+          <trans-unit id="367" translate="yes" xml:space="preserve">
+            <source>Destination (Write To)</source>
+            <target state="new">Destination (Write To)</target>
+          </trans-unit>
+        </group>
+        <group id="246">
+          <trans-unit id="368" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="247">
+          <trans-unit id="369" translate="yes" xml:space="preserve">
+            <source>Specify the message type (SOAP or HTTP), the headers of which would be assigned the value that you specified earlier.</source>
+            <target state="new">Specify the message type (SOAP or HTTP), the headers of which would be assigned the value that you specified earlier.</target>
+          </trans-unit>
+        </group>
+        <group id="248">
+          <trans-unit id="370" translate="yes" xml:space="preserve">
+            <source>SOAP Header Namespace (only if the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Type<ept id="1">&lt;/embeddedLabel&gt;</ept> is set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>SOAP<ept id="2">&lt;/embeddedLabel&gt;</ept>)</source>
+            <target state="new">SOAP Header Namespace (only if the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Type<ept id="1">&lt;/embeddedLabel&gt;</ept> is set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>SOAP<ept id="2">&lt;/embeddedLabel&gt;</ept>)</target>
+          </trans-unit>
+        </group>
+        <group id="249">
+          <trans-unit id="371" translate="yes" xml:space="preserve">
+            <source>Specify the namespace of the custom SOAP header to which the value will be assigned.</source>
+            <target state="new">Specify the namespace of the custom SOAP header to which the value will be assigned.</target>
+          </trans-unit>
+        </group>
+        <group id="250">
+          <trans-unit id="372" translate="yes" xml:space="preserve">
+            <source>This field is greyed out if you select a standard header from the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Identifier<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list.</source>
+            <target state="new">This field is greyed out if you select a standard header from the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Identifier<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list.</target>
+          </trans-unit>
+          <trans-unit id="373" translate="yes" xml:space="preserve">
+            <source>You may choose to enter namespace only for custom SOAP headers.</source>
+            <target state="new">You may choose to enter namespace only for custom SOAP headers.</target>
+          </trans-unit>
+        </group>
+        <group id="251">
+          <trans-unit id="374" translate="yes" xml:space="preserve">
+            <source>This field is greyed out also if the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Type<ept id="1">&lt;/embeddedLabel&gt;</ept> is set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>HTTP<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">This field is greyed out also if the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Type<ept id="1">&lt;/embeddedLabel&gt;</ept> is set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>HTTP<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="252">
+          <trans-unit id="375" translate="yes" xml:space="preserve">
+            <source>Identifier</source>
+            <target state="new">Identifier</target>
+          </trans-unit>
+        </group>
+        <group id="253">
+          <trans-unit id="376" translate="yes" xml:space="preserve">
+            <source>Specifies the name of message header property to which the value will be assigned.</source>
+            <target state="new">Specifies the name of message header property to which the value will be assigned.</target>
+          </trans-unit>
+        </group>
+        <group id="254">
+          <trans-unit id="377" translate="yes" xml:space="preserve">
+            <source>You can also specify custom headers here.</source>
+            <target state="new">You can also specify custom headers here.</target>
+          </trans-unit>
+          <trans-unit id="378" translate="yes" xml:space="preserve">
+            <source>For SOAP message type, the drop-down lists the four standard identifiers.</source>
+            <target state="new">For SOAP message type, the drop-down lists the four standard identifiers.</target>
+          </trans-unit>
+          <trans-unit id="379" translate="yes" xml:space="preserve">
+            <source>For HTTP message type, because there’s a huge list of standard headers, the drop-down does not list any headers.</source>
+            <target state="new">For HTTP message type, because there’s a huge list of standard headers, the drop-down does not list any headers.</target>
+          </trans-unit>
+          <trans-unit id="380" translate="yes" xml:space="preserve">
+            <source>For both SOAP and HTTP message types, you can list a custom header whose value you want to assign to another property.</source>
+            <target state="new">For both SOAP and HTTP message types, you can list a custom header whose value you want to assign to another property.</target>
+          </trans-unit>
+        </group>
+        <group id="255">
+          <trans-unit id="381" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add Reply Action<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add Reply Action<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+          <trans-unit id="382" translate="yes" xml:space="preserve">
+            <source>The dialog boxes should now resemble the following:</source>
+            <target state="new">The dialog boxes should now resemble the following:</target>
+          </trans-unit>
+        </group>
+        <group id="256">
+          <trans-unit id="383" translate="yes" xml:space="preserve">
+            <source>So what does this dialog box depict?</source>
+            <target state="new">So what does this dialog box depict?</target>
+          </trans-unit>
+          <trans-unit id="384" translate="yes" xml:space="preserve">
+            <source>It means that the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> uses the value of property P1 (already defined in one of the previous Enrich stages) and assigns it to the custom SOAP header, <bpt id="2">&lt;embeddedLabel&gt;</bpt>PONumber<ept id="2">&lt;/embeddedLabel&gt;</ept> with namespace <ph id="3">&lt;codeInline&gt;http://schemas.microsoft.com/integration/promotedpropertiesinfo&lt;/codeInline&gt;</ph> and then sends the response message back to the message sender.</source>
+            <target state="new">It means that the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> uses the value of property P1 (already defined in one of the previous Enrich stages) and assigns it to the custom SOAP header, <bpt id="2">&lt;embeddedLabel&gt;</bpt>PONumber<ept id="2">&lt;/embeddedLabel&gt;</ept> with namespace <ph id="3">&lt;codeInline&gt;http://schemas.microsoft.com/integration/promotedpropertiesinfo&lt;/codeInline&gt;</ph> and then sends the response message back to the message sender.</target>
+          </trans-unit>
+        </group>
+        <group id="257">
+          <trans-unit id="385" translate="yes" xml:space="preserve">
+            <source>To update or remove a reply action, you can select it in the dialog box and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Remove<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">To update or remove a reply action, you can select it in the dialog box and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Remove<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="386" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Reply Actions<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box and then click <bpt id="3">&lt;embeddedLabel&gt;</bpt>Save<ept id="3">&lt;/embeddedLabel&gt;</ept> to save changes to the <ph id="4">&lt;token&gt;msgflow&lt;/token&gt;</ph>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Reply Actions<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box and then click <bpt id="3">&lt;embeddedLabel&gt;</bpt>Save<ept id="3">&lt;/embeddedLabel&gt;</ept> to save changes to the <ph id="4">&lt;token&gt;msgflow&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="258">
+          <trans-unit id="387" translate="yes" xml:space="preserve">
+            <source>Next</source>
+            <target state="new">Next</target>
+          </trans-unit>
+        </group>
+        <group id="259">
+          <trans-unit id="388" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> is configured.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> is configured.</target>
+          </trans-unit>
+          <trans-unit id="389" translate="yes" xml:space="preserve">
+            <source>You can now connect the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to a Line-of-Business system, route messages, and/or deploy the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>:</source>
+            <target state="new">You can now connect the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to a Line-of-Business system, route messages, and/or deploy the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>:</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

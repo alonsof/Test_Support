@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAAVzFEKwyAMgOGreAADUVOrO8DY89gFkmig0LXQddDjz/3PH79Z6kJRoXcioGAIgkVAMXCu1QJz9a6lhESFoE2TAMUowNwqzMIhlNAGC97VrF1nUchJ9a9mqBEZ2qhMSCnpeA1oB9yf3l3rYtav83bs++ld9C6jd4/vm7fXwdtn5XPZtx/fTVwxogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Authentication for the Azure Storage Services</source>
+            <target state="new">Authentication for the Azure Storage Services</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Every request made against a storage service must be authenticated, unless the request is for a blob or container resource that has been made available for public or signed access.</source>
+            <target state="new">Every request made against a storage service must be authenticated, unless the request is for a blob or container resource that has been made available for public or signed access.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>The Microsoft Azure storage services support both HTTP and HTTPS; however, using HTTPS is highly recommended.</source>
+            <target state="new">The Microsoft Azure storage services support both HTTP and HTTPS; however, using HTTPS is highly recommended.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The Blob, Queue, Table, and File services support the following Shared Key authentication schemes for version 2009-09-19 and later (for Blob, Queue, and Table service) and version 2014-02-14 and later (for File service):</source>
+            <target state="new">The Blob, Queue, Table, and File services support the following Shared Key authentication schemes for version 2009-09-19 and later (for Blob, Queue, and Table service) and version 2014-02-14 and later (for File service):</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Shared Key for Blob, Queue, and File Services.<ept id="1">&lt;/embeddedLabel&gt;</ept> Use the Shared Key authentication scheme to make requests against the Blob, Queue, and File services.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Shared Key for Blob, Queue, and File Services.<ept id="1">&lt;/embeddedLabel&gt;</ept> Use the Shared Key authentication scheme to make requests against the Blob, Queue, and File services.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Shared Key authentication in version 2009-09-19 and later supports an augmented signature string for enhanced security and requires that you update your service to authenticate using this augmented signature.</source>
+            <target state="new">Shared Key authentication in version 2009-09-19 and later supports an augmented signature string for enhanced security and requires that you update your service to authenticate using this augmented signature.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Shared Key for Table Service.<ept id="1">&lt;/embeddedLabel&gt;</ept> Use the Shared Key authentication scheme to make requests against the Table service using the REST API.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Shared Key for Table Service.<ept id="1">&lt;/embeddedLabel&gt;</ept> Use the Shared Key authentication scheme to make requests against the Table service using the REST API.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Shared Key authentication for the Table service in version 2009-09-19 and later uses the same signature string as in previous versions of the Table service.</source>
+            <target state="new">Shared Key authentication for the Table service in version 2009-09-19 and later uses the same signature string as in previous versions of the Table service.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Shared Key Lite.<ept id="1">&lt;/embeddedLabel&gt;</ept> Use the Shared Key Lite authentication scheme to make requests against the Blob, Queue, Table, and File services.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Shared Key Lite.<ept id="1">&lt;/embeddedLabel&gt;</ept> Use the Shared Key Lite authentication scheme to make requests against the Blob, Queue, Table, and File services.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>For version 2009-09-19 and later of the Blob and Queue services, Shared Key Lite authentication supports using a signature string identical to what was supported against Shared Key in previous versions of the Blob and Queue services.</source>
+            <target state="new">For version 2009-09-19 and later of the Blob and Queue services, Shared Key Lite authentication supports using a signature string identical to what was supported against Shared Key in previous versions of the Blob and Queue services.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>You can therefore use Shared Key Lite to make requests against the Blob and Queue services without updating your signature string.</source>
+            <target state="new">You can therefore use Shared Key Lite to make requests against the Blob and Queue services without updating your signature string.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>An authenticated request requires two headers: the <ph id="1">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph> or <ph id="2">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph> header and the <ph id="3">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> header.</source>
+            <target state="new">An authenticated request requires two headers: the <ph id="1">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph> or <ph id="2">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph> header and the <ph id="3">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> header.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The following sections describe how to construct these headers.</source>
+            <target state="new">The following sections describe how to construct these headers.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>A container or blob may be made available for public access by setting a container's permissions.</source>
+            <target state="new">A container or blob may be made available for public access by setting a container's permissions.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>For more information, see <bpt id="1">&lt;legacyLink xlink:href="c30f3d25-67a0-47b4-a05e-afee4126c7c8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Manage Access to Azure Storage Resources<ept id="1">&lt;/legacyLink&gt;</ept>.</source>
+            <target state="new">For more information, see <bpt id="1">&lt;legacyLink xlink:href="c30f3d25-67a0-47b4-a05e-afee4126c7c8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Manage Access to Azure Storage Resources<ept id="1">&lt;/legacyLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>A container, blob, queue, or table may be available for signed access via a shared access signature; a shared access signature is authenticated through a different mechanism.</source>
+            <target state="new">A container, blob, queue, or table may be available for signed access via a shared access signature; a shared access signature is authenticated through a different mechanism.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="98f3411e-d85d-4be9-809e-135b3d4ed436" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Delegating Access with a Shared Access Signature (REST API)&lt;/link&gt;</ph> for more details.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="98f3411e-d85d-4be9-809e-135b3d4ed436" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Delegating Access with a Shared Access Signature (REST API)&lt;/link&gt;</ph> for more details.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Specifying the Date Header</source>
+            <target state="new">Specifying the Date Header</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>All authenticated requests must include the Coordinated Universal Time (UTC) timestamp for the request.</source>
+            <target state="new">All authenticated requests must include the Coordinated Universal Time (UTC) timestamp for the request.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>You can specify the timestamp either in the <ph id="1">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph> header, or in the standard HTTP/HTTPS <ph id="2">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph> header.</source>
+            <target state="new">You can specify the timestamp either in the <ph id="1">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph> header, or in the standard HTTP/HTTPS <ph id="2">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph> header.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>If both headers are specified on the request, the value of <ph id="1">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph> is used as the request's time of creation.</source>
+            <target state="new">If both headers are specified on the request, the value of <ph id="1">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph> is used as the request's time of creation.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>The storage services ensure that a request is no older than 15 minutes by the time it reaches the service.</source>
+            <target state="new">The storage services ensure that a request is no older than 15 minutes by the time it reaches the service.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>This guards against certain security attacks, including replay attacks.</source>
+            <target state="new">This guards against certain security attacks, including replay attacks.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>When this check fails, the server returns response code 403 (Forbidden).</source>
+            <target state="new">When this check fails, the server returns response code 403 (Forbidden).</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph> header is provided because some HTTP client libraries and proxies automatically set the <ph id="2">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph> header, and do not give the developer an opportunity to read its value in order to include it in the authenticated request.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph> header is provided because some HTTP client libraries and proxies automatically set the <ph id="2">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph> header, and do not give the developer an opportunity to read its value in order to include it in the authenticated request.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>If you set <ph id="1">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph>, construct the signature with an empty value for the <ph id="2">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph> header.</source>
+            <target state="new">If you set <ph id="1">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph>, construct the signature with an empty value for the <ph id="2">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph> header.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Specifying the Authorization Header</source>
+            <target state="new">Specifying the Authorization Header</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>An authenticated request must include the <ph id="1">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> header.</source>
+            <target state="new">An authenticated request must include the <ph id="1">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> header.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>If this header is not included, the request is anonymous and may only succeed against a container or blob that is marked for public access, or against a container, blob, queue, or table for which a shared access signature has been provided for delegated access.</source>
+            <target state="new">If this header is not included, the request is anonymous and may only succeed against a container or blob that is marked for public access, or against a container, blob, queue, or table for which a shared access signature has been provided for delegated access.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>To authenticate a request, you must sign the request with the key for the account that is making the request and pass that signature as part of the request.</source>
+            <target state="new">To authenticate a request, you must sign the request with the key for the account that is making the request and pass that signature as part of the request.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>The format for the <ph id="1">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> header is as follows:</source>
+            <target state="new">The format for the <ph id="1">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> header is as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>where <ph id="1">&lt;codeInline&gt;SharedKey&lt;/codeInline&gt;</ph> or <ph id="2">&lt;codeInline&gt;SharedKeyLite&lt;/codeInline&gt;</ph> is the name of the authorization scheme, <ph id="3">&lt;codeInline&gt;AccountName&lt;/codeInline&gt;</ph> is the name of the account requesting the resource, and <ph id="4">&lt;codeInline&gt;Signature&lt;/codeInline&gt;</ph> is a Hash-based Message Authentication Code (HMAC) constructed from the request and computed by using the SHA256 algorithm, and then encoded by using Base64 encoding.</source>
+            <target state="new">where <ph id="1">&lt;codeInline&gt;SharedKey&lt;/codeInline&gt;</ph> or <ph id="2">&lt;codeInline&gt;SharedKeyLite&lt;/codeInline&gt;</ph> is the name of the authorization scheme, <ph id="3">&lt;codeInline&gt;AccountName&lt;/codeInline&gt;</ph> is the name of the account requesting the resource, and <ph id="4">&lt;codeInline&gt;Signature&lt;/codeInline&gt;</ph> is a Hash-based Message Authentication Code (HMAC) constructed from the request and computed by using the SHA256 algorithm, and then encoded by using Base64 encoding.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>It is possible to request a resource that resides beneath a different account, if that resource is publicly accessible.</source>
+            <target state="new">It is possible to request a resource that resides beneath a different account, if that resource is publicly accessible.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>The following sections describe how to construct the <ph id="1">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> header.</source>
+            <target state="new">The following sections describe how to construct the <ph id="1">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> header.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Constructing the Signature String</source>
+            <target state="new">Constructing the Signature String</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>How you construct the signature string depends on which service and version you are authenticating against and which authentication scheme you are using.</source>
+            <target state="new">How you construct the signature string depends on which service and version you are authenticating against and which authentication scheme you are using.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>When constructing the signature string, keep in mind the following:</source>
+            <target state="new">When constructing the signature string, keep in mind the following:</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>The VERB portion of the string is the HTTP verb, such as GET or PUT, and must be uppercase.</source>
+            <target state="new">The VERB portion of the string is the HTTP verb, such as GET or PUT, and must be uppercase.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>For Shared Key authentication for the Blob, Queue, and File services, each header included in the signature string may appear only once.</source>
+            <target state="new">For Shared Key authentication for the Blob, Queue, and File services, each header included in the signature string may appear only once.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>If any header is duplicated, the service returns status code 400 (Bad Request).</source>
+            <target state="new">If any header is duplicated, the service returns status code 400 (Bad Request).</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>The values of all standard HTTP headers must be included in the string in the order shown in the signature format, without the header names.</source>
+            <target state="new">The values of all standard HTTP headers must be included in the string in the order shown in the signature format, without the header names.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>These headers may be empty if they are not being specified as part of the request; in that case, only the new-line character is required.</source>
+            <target state="new">These headers may be empty if they are not being specified as part of the request; in that case, only the new-line character is required.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>If the <ph id="1">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph> header is specified, you may ignore the <ph id="2">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph> header, regardless of whether it is specified on the request, and simply specify an empty line for the <ph id="3">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph> portion of the signature string.</source>
+            <target state="new">If the <ph id="1">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph> header is specified, you may ignore the <ph id="2">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph> header, regardless of whether it is specified on the request, and simply specify an empty line for the <ph id="3">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph> portion of the signature string.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>In this case, follow the instructions in the <bpt id="1">&lt;legacyLink xlink:href="#Constructing_Element" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Constructing the CanonicalizedHeaders Element<ept id="1">&lt;/legacyLink&gt;</ept> section for adding the <ph id="2">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph> header.</source>
+            <target state="new">In this case, follow the instructions in the <bpt id="1">&lt;legacyLink xlink:href="#Constructing_Element" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Constructing the CanonicalizedHeaders Element<ept id="1">&lt;/legacyLink&gt;</ept> section for adding the <ph id="2">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph> header.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Note that it is acceptable to specify both <ph id="1">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph>; in this case, the service uses the value of <ph id="3">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph>.</source>
+            <target state="new">Note that it is acceptable to specify both <ph id="1">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph>; in this case, the service uses the value of <ph id="3">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>If the <ph id="1">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph> header is not specified, specify the <ph id="2">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph> header in the signature string, without including the header name.</source>
+            <target state="new">If the <ph id="1">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph> header is not specified, specify the <ph id="2">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph> header in the signature string, without including the header name.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>All new-line characters (\n) shown are required within the signature string.</source>
+            <target state="new">All new-line characters (\n) shown are required within the signature string.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>The signature string includes canonicalized headers and canonicalized resource strings.</source>
+            <target state="new">The signature string includes canonicalized headers and canonicalized resource strings.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Canonicalizing these strings puts them into a standard format that is recognized by Azure Storage.</source>
+            <target state="new">Canonicalizing these strings puts them into a standard format that is recognized by Azure Storage.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>For detailed information on constructing the <ph id="1">&lt;codeInline&gt;CanonicalizedHeaders&lt;/codeInline&gt;</ph> and <ph id="2">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> strings that make up part of the signature string, see the appropriate sections later in this topic.</source>
+            <target state="new">For detailed information on constructing the <ph id="1">&lt;codeInline&gt;CanonicalizedHeaders&lt;/codeInline&gt;</ph> and <ph id="2">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> strings that make up part of the signature string, see the appropriate sections later in this topic.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Blob, Queue, and File Services (Shared Key Authentication)</source>
+            <target state="new">Blob, Queue, and File Services (Shared Key Authentication)</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>To encode the Shared Key signature string for a request against the 2009-09-19 version and later of the Blob or Queue service, and version 2014-02-14 and later of the File service, use the following format:</source>
+            <target state="new">To encode the Shared Key signature string for a request against the 2009-09-19 version and later of the Blob or Queue service, and version 2014-02-14 and later of the File service, use the following format:</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>The following example shows a signature string for a <ph id="1">&lt;link xlink:href="a3e943b4-5745-4e64-9d6f-728bbefbd5ee" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob&lt;/link&gt;</ph> operation.</source>
+            <target state="new">The following example shows a signature string for a <ph id="1">&lt;link xlink:href="a3e943b4-5745-4e64-9d6f-728bbefbd5ee" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Note that where there is no header value, the new-line character only is specified.</source>
+            <target state="new">Note that where there is no header value, the new-line character only is specified.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Breaking this down line-by-line shows each portion of the same string:</source>
+            <target state="new">Breaking this down line-by-line shows each portion of the same string:</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Next, encode this string by using the HMAC-SHA256 algorithm over the UTF-8-encoded signature string, construct the <ph id="1">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> header, and add the header to the request.</source>
+            <target state="new">Next, encode this string by using the HMAC-SHA256 algorithm over the UTF-8-encoded signature string, construct the <ph id="1">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> header, and add the header to the request.</target>
+          </trans-unit>
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>The following example shows the <ph id="1">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> header for the same operation:</source>
+            <target state="new">The following example shows the <ph id="1">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> header for the same operation:</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Note that in order to use Shared Key authentication with version 2009-09-19 and later of the Blob and Queue services, you must update your code to use this augmented signature string.</source>
+            <target state="new">Note that in order to use Shared Key authentication with version 2009-09-19 and later of the Blob and Queue services, you must update your code to use this augmented signature string.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>If you prefer to migrate your code to version 2009-09-19 or later of the Blob and Queue services with the fewest possible changes, you can modify your existing <ph id="1">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> headers to use Shared Key Lite instead of Shared Key.</source>
+            <target state="new">If you prefer to migrate your code to version 2009-09-19 or later of the Blob and Queue services with the fewest possible changes, you can modify your existing <ph id="1">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> headers to use Shared Key Lite instead of Shared Key.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>The signature format required by Shared Key Lite is identical to that required for Shared Key by versions of the Blob and Queue services prior to 2009-09-19.</source>
+            <target state="new">The signature format required by Shared Key Lite is identical to that required for Shared Key by versions of the Blob and Queue services prior to 2009-09-19.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>If you are accessing the secondary location in a storage account for which read-access geo-replication (RA-GRS) is enabled, do not include the <ph id="1">&lt;codeInline&gt;-secondary&lt;/codeInline&gt;</ph> designation in the authorization header.</source>
+            <target state="new">If you are accessing the secondary location in a storage account for which read-access geo-replication (RA-GRS) is enabled, do not include the <ph id="1">&lt;codeInline&gt;-secondary&lt;/codeInline&gt;</ph> designation in the authorization header.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>For authorization purposes, the account name is always the name of the primary location, even for secondary access.</source>
+            <target state="new">For authorization purposes, the account name is always the name of the primary location, even for secondary access.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Content-Length Header in Version 2015-02-21 and Later</source>
+            <target state="new">Content-Length Header in Version 2015-02-21 and Later</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>When using version 2015-02-21 or later, if <ph id="1">&lt;parameterReference&gt;Content-Length&lt;/parameterReference&gt;</ph> is zero, then set the <ph id="2">&lt;parameterReference&gt;Content-Length&lt;/parameterReference&gt;</ph> part of the <ph id="3">&lt;codeInline&gt;StringToSign&lt;/codeInline&gt;</ph> to an empty string.</source>
+            <target state="new">When using version 2015-02-21 or later, if <ph id="1">&lt;parameterReference&gt;Content-Length&lt;/parameterReference&gt;</ph> is zero, then set the <ph id="2">&lt;parameterReference&gt;Content-Length&lt;/parameterReference&gt;</ph> part of the <ph id="3">&lt;codeInline&gt;StringToSign&lt;/codeInline&gt;</ph> to an empty string.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>For example, for the following request, the value of the <ph id="1">&lt;parameterReference&gt;Content-Length&lt;/parameterReference&gt;</ph> header is omitted from the <ph id="2">&lt;codeInline&gt;StringToSign&lt;/codeInline&gt;</ph> when it is zero.</source>
+            <target state="new">For example, for the following request, the value of the <ph id="1">&lt;parameterReference&gt;Content-Length&lt;/parameterReference&gt;</ph> header is omitted from the <ph id="2">&lt;codeInline&gt;StringToSign&lt;/codeInline&gt;</ph> when it is zero.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeInline&gt;StringToSign&lt;/codeInline&gt;</ph> is constructed as follows:</source>
+            <target state="new">The <ph id="1">&lt;codeInline&gt;StringToSign&lt;/codeInline&gt;</ph> is constructed as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Whereas in versions prior to 2015-02-21, the <ph id="1">&lt;codeInline&gt;StringToSign&lt;/codeInline&gt;</ph> must include the zero value for <ph id="2">&lt;parameterReference&gt;Content-Length&lt;/parameterReference&gt;</ph>:</source>
+            <target state="new">Whereas in versions prior to 2015-02-21, the <ph id="1">&lt;codeInline&gt;StringToSign&lt;/codeInline&gt;</ph> must include the zero value for <ph id="2">&lt;parameterReference&gt;Content-Length&lt;/parameterReference&gt;</ph>:</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Table Service (Shared Key Authentication)</source>
+            <target state="new">Table Service (Shared Key Authentication)</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>You must use Shared Key authentication to authenticate a request made against the Table service if your service is using the REST API to make the request.</source>
+            <target state="new">You must use Shared Key authentication to authenticate a request made against the Table service if your service is using the REST API to make the request.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>The format of the signature string for Shared Key against the Table service is the same for all versions.</source>
+            <target state="new">The format of the signature string for Shared Key against the Table service is the same for all versions.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Note that the Shared Key signature string for a request against the Table service differs slightly from that for a request against the Blob or Queue service, in that it does not include the <ph id="1">&lt;codeInline&gt;CanonicalizedHeaders&lt;/codeInline&gt;</ph> portion of the string.</source>
+            <target state="new">Note that the Shared Key signature string for a request against the Table service differs slightly from that for a request against the Blob or Queue service, in that it does not include the <ph id="1">&lt;codeInline&gt;CanonicalizedHeaders&lt;/codeInline&gt;</ph> portion of the string.</target>
+          </trans-unit>
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Additionally, the <ph id="1">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph> header in this case is never empty even if the request sets the <ph id="2">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph> header.</source>
+            <target state="new">Additionally, the <ph id="1">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph> header in this case is never empty even if the request sets the <ph id="2">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph> header.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>If the request sets <ph id="1">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph>, that value is also used for the value of the <ph id="2">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph> header.</source>
+            <target state="new">If the request sets <ph id="1">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph>, that value is also used for the value of the <ph id="2">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph> header.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>To encode the signature string for a request against the Table service made using the REST API, use the following format:</source>
+            <target state="new">To encode the signature string for a request against the Table service made using the REST API, use the following format:</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Beginning with version 2009-09-19, the Table service requires that all REST calls include the <ph id="1">&lt;parameterReference&gt;DataServiceVersion&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;MaxDataServiceVersion&lt;/parameterReference&gt;</ph> headers.</source>
+            <target state="new">Beginning with version 2009-09-19, the Table service requires that all REST calls include the <ph id="1">&lt;parameterReference&gt;DataServiceVersion&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;MaxDataServiceVersion&lt;/parameterReference&gt;</ph> headers.</target>
+          </trans-unit>
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="086d4db0-0743-4987-b8a7-2cd15090dfd6" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Setting the OData Data Service Version Headers&lt;/link&gt;</ph> for more information.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="086d4db0-0743-4987-b8a7-2cd15090dfd6" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Setting the OData Data Service Version Headers&lt;/link&gt;</ph> for more information.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Blob, Queue, and File Service (Shared Key Lite Authentication)</source>
+            <target state="new">Blob, Queue, and File Service (Shared Key Lite Authentication)</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>You may use Shared Key Lite authentication to authenticate a request made against the 2009-09-19 version and later of the Blob and Queue services, and version 2014-02-14 and later of the File services.</source>
+            <target state="new">You may use Shared Key Lite authentication to authenticate a request made against the 2009-09-19 version and later of the Blob and Queue services, and version 2014-02-14 and later of the File services.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>The signature string for Shared Key Lite is identical to the signature string required for Shared Key authentication in versions of the Blob and Queue services prior to 2009-09-19.</source>
+            <target state="new">The signature string for Shared Key Lite is identical to the signature string required for Shared Key authentication in versions of the Blob and Queue services prior to 2009-09-19.</target>
+          </trans-unit>
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>So if you wish to migrate your code with the least number of changes to version 2009-09-19 of the Blob and Queue services, you can modify your code to use Shared Key Lite, without changing the signature string itself.</source>
+            <target state="new">So if you wish to migrate your code with the least number of changes to version 2009-09-19 of the Blob and Queue services, you can modify your code to use Shared Key Lite, without changing the signature string itself.</target>
+          </trans-unit>
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Note that by using Shared Key Lite, you will not gain the enhanced security functionality provided by using Shared Key with version 2009-09-19 and later.</source>
+            <target state="new">Note that by using Shared Key Lite, you will not gain the enhanced security functionality provided by using Shared Key with version 2009-09-19 and later.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>To encode the signature string for a request against the Blob or Queue service, use the following format:</source>
+            <target state="new">To encode the signature string for a request against the Blob or Queue service, use the following format:</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>The following example shows a signature string for a <ph id="1">&lt;link xlink:href="b213c30f-8d30-4718-ba77-2030f3009719" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Blob&lt;/link&gt;</ph> operation.</source>
+            <target state="new">The following example shows a signature string for a <ph id="1">&lt;link xlink:href="b213c30f-8d30-4718-ba77-2030f3009719" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Blob&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Note that the Content-MD5 header line is empty.</source>
+            <target state="new">Note that the Content-MD5 header line is empty.</target>
+          </trans-unit>
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>The headers shown in the string are name-value pairs that specify custom metadata values for the new blob.</source>
+            <target state="new">The headers shown in the string are name-value pairs that specify custom metadata values for the new blob.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Next, encode this string by using the HMAC-SHA256 algorithm over the UTF-8-encoded signature string, construct the <ph id="1">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> header, and add the header to the request.</source>
+            <target state="new">Next, encode this string by using the HMAC-SHA256 algorithm over the UTF-8-encoded signature string, construct the <ph id="1">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> header, and add the header to the request.</target>
+          </trans-unit>
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>The following example shows the <ph id="1">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> header for the same operation:</source>
+            <target state="new">The following example shows the <ph id="1">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> header for the same operation:</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Table Service (Shared Key Lite Authentication)</source>
+            <target state="new">Table Service (Shared Key Lite Authentication)</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>You can use Shared Key Lite authentication to authenticate a request made against any version of the Table service.</source>
+            <target state="new">You can use Shared Key Lite authentication to authenticate a request made against any version of the Table service.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>To encode the signature string for a request against the Table service using Shared Key Lite, use the following format:</source>
+            <target state="new">To encode the signature string for a request against the Table service using Shared Key Lite, use the following format:</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>The following example shows a signature string for a <ph id="1">&lt;link xlink:href="e7b7c22f-39d1-46b1-9f3a-0ccaeabde95a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create Table&lt;/link&gt;</ph> operation.</source>
+            <target state="new">The following example shows a signature string for a <ph id="1">&lt;link xlink:href="e7b7c22f-39d1-46b1-9f3a-0ccaeabde95a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create Table&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Next, encode this string by using the HMAC-SHA256 algorithm, construct the <ph id="1">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> header, and then add the header to the request.</source>
+            <target state="new">Next, encode this string by using the HMAC-SHA256 algorithm, construct the <ph id="1">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> header, and then add the header to the request.</target>
+          </trans-unit>
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>The following example shows the <ph id="1">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> header for the same operation:</source>
+            <target state="new">The following example shows the <ph id="1">&lt;parameterReference&gt;Authorization&lt;/parameterReference&gt;</ph> header for the same operation:</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Constructing the Canonicalized Headers String</source>
+            <target state="new">Constructing the Canonicalized Headers String</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>To construct the <ph id="1">&lt;codeInline&gt;CanonicalizedHeaders&lt;/codeInline&gt;</ph> portion of the signature string, follow these steps:</source>
+            <target state="new">To construct the <ph id="1">&lt;codeInline&gt;CanonicalizedHeaders&lt;/codeInline&gt;</ph> portion of the signature string, follow these steps:</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Retrieve all headers for the resource that begin with <ph id="1">&lt;parameterReference&gt;x-ms-&lt;/parameterReference&gt;</ph>, including the <ph id="2">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph> header.</source>
+            <target state="new">Retrieve all headers for the resource that begin with <ph id="1">&lt;parameterReference&gt;x-ms-&lt;/parameterReference&gt;</ph>, including the <ph id="2">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph> header.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Convert each HTTP header name to lowercase.</source>
+            <target state="new">Convert each HTTP header name to lowercase.</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Sort the headers lexicographically by header name, in ascending order.</source>
+            <target state="new">Sort the headers lexicographically by header name, in ascending order.</target>
+          </trans-unit>
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Each header may appear only once in the string.</source>
+            <target state="new">Each header may appear only once in the string.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Lexicographical ordering<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://en.wikipedia.org/wiki/Lexicographical_order&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> may not always coincide with conventional alphabetical ordering.</source>
+            <target state="new"><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Lexicographical ordering<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://en.wikipedia.org/wiki/Lexicographical_order&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> may not always coincide with conventional alphabetical ordering.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>Unfold the string by replacing any breaking white space with a single space.</source>
+            <target state="new">Unfold the string by replacing any breaking white space with a single space.</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Trim any white space around the colon in the header.</source>
+            <target state="new">Trim any white space around the colon in the header.</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Finally, append a new-line character to each canonicalized header in the resulting list.</source>
+            <target state="new">Finally, append a new-line character to each canonicalized header in the resulting list.</target>
+          </trans-unit>
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>Construct the <ph id="1">&lt;codeInline&gt;CanonicalizedHeaders&lt;/codeInline&gt;</ph> string by concatenating all headers in this list into a single string.</source>
+            <target state="new">Construct the <ph id="1">&lt;codeInline&gt;CanonicalizedHeaders&lt;/codeInline&gt;</ph> string by concatenating all headers in this list into a single string.</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>The following shows an example of a canonicalized headers string:</source>
+            <target state="new">The following shows an example of a canonicalized headers string:</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Constructing the Canonicalized Resource String</source>
+            <target state="new">Constructing the Canonicalized Resource String</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> part of the signature string represents the storage services resource targeted by the request.</source>
+            <target state="new">The <ph id="1">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> part of the signature string represents the storage services resource targeted by the request.</target>
+          </trans-unit>
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>Any portion of the <ph id="1">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> string that is derived from the resource's URI should be encoded exactly as it is in the URI.</source>
+            <target state="new">Any portion of the <ph id="1">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> string that is derived from the resource's URI should be encoded exactly as it is in the URI.</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>There are two supported formats for the <ph id="1">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> string:</source>
+            <target state="new">There are two supported formats for the <ph id="1">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> string:</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>A format that supports Shared Key authentication for version 2009-09-19 and later of the Blob and Queue services, and for version 2014-02-14 and later of the File service.</source>
+            <target state="new">A format that supports Shared Key authentication for version 2009-09-19 and later of the Blob and Queue services, and for version 2014-02-14 and later of the File service.</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>A format that supports Shared Key and Shared Key Lite for all versions of the Table service, and Shared Key Lite for version 2009-09-19 and later of the Blob and Queue services.</source>
+            <target state="new">A format that supports Shared Key and Shared Key Lite for all versions of the Table service, and Shared Key Lite for version 2009-09-19 and later of the Blob and Queue services.</target>
+          </trans-unit>
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>This format is identical to that used with previous versions of the storage services.</source>
+            <target state="new">This format is identical to that used with previous versions of the storage services.</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>For help constructing the URI for the resource you are accessing, see one of the following topics:</source>
+            <target state="new">For help constructing the URI for the resource you are accessing, see one of the following topics:</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>Blob service: <ph id="1">&lt;link xlink:href="d525950c-17ba-4b3b-9ed1-19a2145f769a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Naming and Referencing Containers, Blobs, and Metadata&lt;/link&gt;</ph></source>
+            <target state="new">Blob service: <ph id="1">&lt;link xlink:href="d525950c-17ba-4b3b-9ed1-19a2145f769a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Naming and Referencing Containers, Blobs, and Metadata&lt;/link&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>Queue service: <ph id="1">&lt;link xlink:href="76b63549-2008-4443-865c-78c7d1472253" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Addressing Queue Service Resources&lt;/link&gt;</ph></source>
+            <target state="new">Queue service: <ph id="1">&lt;link xlink:href="76b63549-2008-4443-865c-78c7d1472253" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Addressing Queue Service Resources&lt;/link&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Table service: <ph id="1">&lt;link xlink:href="238c4c0e-da32-416d-99ba-c02f24f00cfb" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Addressing Table Service Resources&lt;/link&gt;</ph></source>
+            <target state="new">Table service: <ph id="1">&lt;link xlink:href="238c4c0e-da32-416d-99ba-c02f24f00cfb" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Addressing Table Service Resources&lt;/link&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>File service: <ph id="1">&lt;link xlink:href="f38d4c69-cb50-4ef3-a8a3-276341689769" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Naming and Referencing Shares, Directories, Files, and Metadata&lt;/link&gt;</ph></source>
+            <target state="new">File service: <ph id="1">&lt;link xlink:href="f38d4c69-cb50-4ef3-a8a3-276341689769" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Naming and Referencing Shares, Directories, Files, and Metadata&lt;/link&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>If your storage account is replicated with read-access geo-replication (RA-GRS), and you are accessing a resource in the secondary location, do not include the <ph id="1">&lt;codeInline&gt;–secondary&lt;/codeInline&gt;</ph> designation in the <ph id="2">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> string.</source>
+            <target state="new">If your storage account is replicated with read-access geo-replication (RA-GRS), and you are accessing a resource in the secondary location, do not include the <ph id="1">&lt;codeInline&gt;–secondary&lt;/codeInline&gt;</ph> designation in the <ph id="2">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> string.</target>
+          </trans-unit>
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>The resource URI used in the <ph id="1">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> string URI should be the URI of the resource at the primary location.</source>
+            <target state="new">The resource URI used in the <ph id="1">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> string URI should be the URI of the resource at the primary location.</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>If you are authenticating against the storage emulator, the account name will appear twice in the <ph id="1">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> string.</source>
+            <target state="new">If you are authenticating against the storage emulator, the account name will appear twice in the <ph id="1">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> string.</target>
+          </trans-unit>
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>This is expected.</source>
+            <target state="new">This is expected.</target>
+          </trans-unit>
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>If you are authenticating against Azure storage services, the account name will appear only one time in the <ph id="1">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> string.</source>
+            <target state="new">If you are authenticating against Azure storage services, the account name will appear only one time in the <ph id="1">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> string.</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>2009-09-19 and later Shared Key Format</source>
+            <target state="new">2009-09-19 and later Shared Key Format</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>This format supports Shared Key authentication for the 2009-09-19 version and later of the Blob and Queue services, and the 2014-02-14 version and later of the File services.</source>
+            <target state="new">This format supports Shared Key authentication for the 2009-09-19 version and later of the Blob and Queue services, and the 2014-02-14 version and later of the File services.</target>
+          </trans-unit>
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>Construct the <ph id="1">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> string in this format as follows:</source>
+            <target state="new">Construct the <ph id="1">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> string in this format as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>Beginning with an empty string (""), append a forward slash (/), followed by the name of the account that owns the resource being accessed.</source>
+            <target state="new">Beginning with an empty string (""), append a forward slash (/), followed by the name of the account that owns the resource being accessed.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>Append the resource's encoded URI path, without any query parameters.</source>
+            <target state="new">Append the resource's encoded URI path, without any query parameters.</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>Append a new-line character (\n) after the resource name.</source>
+            <target state="new">Append a new-line character (\n) after the resource name.</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>Retrieve all query parameters on the resource URI, including the <ph id="1">&lt;parameterReference&gt;comp&lt;/parameterReference&gt;</ph> parameter if it exists.</source>
+            <target state="new">Retrieve all query parameters on the resource URI, including the <ph id="1">&lt;parameterReference&gt;comp&lt;/parameterReference&gt;</ph> parameter if it exists.</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>Convert all parameter names to lowercase.</source>
+            <target state="new">Convert all parameter names to lowercase.</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>Sort the query parameters lexicographically by parameter name, in ascending order.</source>
+            <target state="new">Sort the query parameters lexicographically by parameter name, in ascending order.</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>URL-decode each query parameter name and value.</source>
+            <target state="new">URL-decode each query parameter name and value.</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>Append each query parameter name and value to the string in the following format, making sure to include the colon (:) between the name and the value:</source>
+            <target state="new">Append each query parameter name and value to the string in the following format, making sure to include the colon (:) between the name and the value:</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>If a query parameter has more than one value, sort all values lexicographically, then include them in a comma-separated list:</source>
+            <target state="new">If a query parameter has more than one value, sort all values lexicographically, then include them in a comma-separated list:</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>Append a new-line character (\n) after each name-value pair.</source>
+            <target state="new">Append a new-line character (\n) after each name-value pair.</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>Keep in mind the following rules for constructing the canonicalized resource string:</source>
+            <target state="new">Keep in mind the following rules for constructing the canonicalized resource string:</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>Avoid using the new-line character (\n) in values for query parameters.</source>
+            <target state="new">Avoid using the new-line character (\n) in values for query parameters.</target>
+          </trans-unit>
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>If it must be used, ensure that it does not affect the format of the canonicalized resource string.</source>
+            <target state="new">If it must be used, ensure that it does not affect the format of the canonicalized resource string.</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>Avoid using commas in query parameter values.</source>
+            <target state="new">Avoid using commas in query parameter values.</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>Here are some examples that show the <ph id="1">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> portion of the signature string, as it may be constructed from a given request URI:</source>
+            <target state="new">Here are some examples that show the <ph id="1">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> portion of the signature string, as it may be constructed from a given request URI:</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>2009-09-19 and later Shared Key Lite and Table service format</source>
+            <target state="new">2009-09-19 and later Shared Key Lite and Table service format</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>This format supports Shared Key and Shared Key Lite for all versions of the Table service, and Shared Key Lite for version 2009-09-19 and later of the Blob and Queue services and version 2014-02-14 and later of the File service.</source>
+            <target state="new">This format supports Shared Key and Shared Key Lite for all versions of the Table service, and Shared Key Lite for version 2009-09-19 and later of the Blob and Queue services and version 2014-02-14 and later of the File service.</target>
+          </trans-unit>
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>This format is identical to that used with previous versions of the storage services.</source>
+            <target state="new">This format is identical to that used with previous versions of the storage services.</target>
+          </trans-unit>
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>Construct the <ph id="1">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> string in this format as follows:</source>
+            <target state="new">Construct the <ph id="1">&lt;codeInline&gt;CanonicalizedResource&lt;/codeInline&gt;</ph> string in this format as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>Beginning with an empty string (""), append a forward slash (/), followed by the name of the account that owns the resource being accessed.</source>
+            <target state="new">Beginning with an empty string (""), append a forward slash (/), followed by the name of the account that owns the resource being accessed.</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>Append the resource's encoded URI path.</source>
+            <target state="new">Append the resource's encoded URI path.</target>
+          </trans-unit>
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>If the request URI addresses a component of the resource, append the appropriate query string.</source>
+            <target state="new">If the request URI addresses a component of the resource, append the appropriate query string.</target>
+          </trans-unit>
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>The query string should include the question mark and the <ph id="1">&lt;parameterReference&gt;comp&lt;/parameterReference&gt;</ph> parameter (for example, <ph id="2">&lt;codeInline&gt;?comp=metadata&lt;/codeInline&gt;</ph>).</source>
+            <target state="new">The query string should include the question mark and the <ph id="1">&lt;parameterReference&gt;comp&lt;/parameterReference&gt;</ph> parameter (for example, <ph id="2">&lt;codeInline&gt;?comp=metadata&lt;/codeInline&gt;</ph>).</target>
+          </trans-unit>
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>No other parameters should be included on the query string.</source>
+            <target state="new">No other parameters should be included on the query string.</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>Encoding the Signature</source>
+            <target state="new">Encoding the Signature</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>To encode the signature, call the HMAC-SHA256 algorithm on the UTF-8-encoded signature string and encode the result as Base64.</source>
+            <target state="new">To encode the signature, call the HMAC-SHA256 algorithm on the UTF-8-encoded signature string and encode the result as Base64.</target>
+          </trans-unit>
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>Use the following format (shown as pseudocode):</source>
+            <target state="new">Use the following format (shown as pseudocode):</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

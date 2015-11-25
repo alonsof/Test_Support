@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="pt-BR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzVEKwyAMANCreAADMY1W97mvfY9dIGoCha4dnYMef/1/8MwmrUwNVJmBgyFUzBUaBkmlWBAp3pVOseVLxVYNOMcEYlbAyoxGVKmHS2HXjEoENrMCawwgmBF0njImSYrYvQvefQbcn96d62Km57gd+z68o+vx7vF7y/Y6ZPuuMpZ9+wPL1O/woQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Replace Discrete Values</source>
+            <target state="new">Replace Discrete Values</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Replaces discrete values from one column with numeric values based on another column</source>
+            <target state="new">Replaces discrete values from one column with numeric values based on another column</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Category: <bpt id="1">&lt;legacyLink xlink:href="8A248CBA-24AA-4779-AAD6-35D73A0A2340" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Statistical Functions<ept id="1">&lt;/legacyLink&gt;</ept></source>
+            <target state="new">Category: <bpt id="1">&lt;legacyLink xlink:href="8A248CBA-24AA-4779-AAD6-35D73A0A2340" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Statistical Functions<ept id="1">&lt;/legacyLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Module Overview</source>
+            <target state="new">Module Overview</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You can use the <bpt id="1">&lt;ui&gt;</bpt>Replace Discrete Values<ept id="1">&lt;/ui&gt;</ept> module to generate a probability score that can be used to represent a discrete value.</source>
+            <target state="new">You can use the <bpt id="1">&lt;ui&gt;</bpt>Replace Discrete Values<ept id="1">&lt;/ui&gt;</ept> module to generate a probability score that can be used to represent a discrete value.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>This can be useful for understanding the information value of the discrete values.</source>
+            <target state="new">This can be useful for understanding the information value of the discrete values.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>You select a column that contains the discrete (or categorical) value, and then select another column to use for reference.</source>
+            <target state="new">You select a column that contains the discrete (or categorical) value, and then select another column to use for reference.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Depending on whether the second column is categorical or non-categorical, the module computes one of the following values:</source>
+            <target state="new">Depending on whether the second column is categorical or non-categorical, the module computes one of the following values:</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;legacyBold&gt;</bpt>conditional probability<ept id="1">&lt;/legacyBold&gt;</ept> for the second column given the values in the first column.</source>
+            <target state="new">The <bpt id="1">&lt;legacyBold&gt;</bpt>conditional probability<ept id="1">&lt;/legacyBold&gt;</ept> for the second column given the values in the first column.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;legacyBold&gt;</bpt>mean<ept id="1">&lt;/legacyBold&gt;</ept> and <bpt id="2">&lt;legacyBold&gt;</bpt>standard deviation<ept id="2">&lt;/legacyBold&gt;</ept> for each group of values in the first column.</source>
+            <target state="new">The <bpt id="1">&lt;legacyBold&gt;</bpt>mean<ept id="1">&lt;/legacyBold&gt;</ept> and <bpt id="2">&lt;legacyBold&gt;</bpt>standard deviation<ept id="2">&lt;/legacyBold&gt;</ept> for each group of values in the first column.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The module outputs both a transformed dataset, and a function that you can save as a transform and apply to other datasets.</source>
+            <target state="new">The module outputs both a transformed dataset, and a function that you can save as a transform and apply to other datasets.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>How to Configure Replace Discrete Values</source>
+            <target state="new">How to Configure Replace Discrete Values</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>For the <bpt id="1">&lt;ui&gt;</bpt>Discrete columns<ept id="1">&lt;/ui&gt;</ept> option, click <bpt id="2">&lt;ui&gt;</bpt>Launch column selector<ept id="2">&lt;/ui&gt;</ept> to choose one or more columns that contain discrete (or categorical) values</source>
+            <target state="new">For the <bpt id="1">&lt;ui&gt;</bpt>Discrete columns<ept id="1">&lt;/ui&gt;</ept> option, click <bpt id="2">&lt;ui&gt;</bpt>Launch column selector<ept id="2">&lt;/ui&gt;</ept> to choose one or more columns that contain discrete (or categorical) values</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The discrete columns you select here must be categorical.</source>
+            <target state="new">The discrete columns you select here must be categorical.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Use the <ph id="1">&lt;link xlink:href="370b6676-c11c-486f-bf73-35349f842a66" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Metadata Editor&lt;/link&gt;</ph> module to mark the columns if you get an error.</source>
+            <target state="new">Use the <ph id="1">&lt;link xlink:href="370b6676-c11c-486f-bf73-35349f842a66" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Metadata Editor&lt;/link&gt;</ph> module to mark the columns if you get an error.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>For the <bpt id="1">&lt;ui&gt;</bpt>Replacement columns<ept id="1">&lt;/ui&gt;</ept> option, click <bpt id="2">&lt;ui&gt;</bpt>Launch column selector<ept id="2">&lt;/ui&gt;</ept> to choose one or more columns that contain the values to use in computing a replacement score.</source>
+            <target state="new">For the <bpt id="1">&lt;ui&gt;</bpt>Replacement columns<ept id="1">&lt;/ui&gt;</ept> option, click <bpt id="2">&lt;ui&gt;</bpt>Launch column selector<ept id="2">&lt;/ui&gt;</ept> to choose one or more columns that contain the values to use in computing a replacement score.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>You must select an equal number of columns to the discrete columns in the previous step, and they cannot be the same columns.</source>
+            <target state="new">You must select an equal number of columns to the discrete columns in the previous step, and they cannot be the same columns.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The module does allow you to select more than one pair of columns to analyze.</source>
+            <target state="new">The module does allow you to select more than one pair of columns to analyze.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>However, in practice, when you choose multiple columns, they are matched by an internal heuristic, not by order of selection.</source>
+            <target state="new">However, in practice, when you choose multiple columns, they are matched by an internal heuristic, not by order of selection.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>To ensure that you get the right replacement values, we recommend that you select a pair of columns each time and use separate instances of <bpt id="1">&lt;ui&gt;</bpt>Replace Discrete Values<ept id="1">&lt;/ui&gt;</ept> if analyzing multiple columns.</source>
+            <target state="new">To ensure that you get the right replacement values, we recommend that you select a pair of columns each time and use separate instances of <bpt id="1">&lt;ui&gt;</bpt>Replace Discrete Values<ept id="1">&lt;/ui&gt;</ept> if analyzing multiple columns.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Depending on whether the second column is categorical or non-categorical, the module computes one of the following values:</source>
+            <target state="new">Depending on whether the second column is categorical or non-categorical, the module computes one of the following values:</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>If the second column is a categorical value, it computes the <bpt id="1">&lt;legacyBold&gt;</bpt>conditional probability<ept id="1">&lt;/legacyBold&gt;</ept> for the second column given the values in the first column.</source>
+            <target state="new">If the second column is a categorical value, it computes the <bpt id="1">&lt;legacyBold&gt;</bpt>conditional probability<ept id="1">&lt;/legacyBold&gt;</ept> for the second column given the values in the first column.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>For example, if you choose <bpt id="1">&lt;embeddedLabel&gt;</bpt>occupation<ept id="1">&lt;/embeddedLabel&gt;</ept> (from the Census dataset) as the discrete column and choose <bpt id="2">&lt;embeddedLabel&gt;</bpt>gender<ept id="2">&lt;/embeddedLabel&gt;</ept> as the replacement column.</source>
+            <target state="new">For example, if you choose <bpt id="1">&lt;embeddedLabel&gt;</bpt>occupation<ept id="1">&lt;/embeddedLabel&gt;</ept> (from the Census dataset) as the discrete column and choose <bpt id="2">&lt;embeddedLabel&gt;</bpt>gender<ept id="2">&lt;/embeddedLabel&gt;</ept> as the replacement column.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>The module outputs:</source>
+            <target state="new">The module outputs:</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>P(gender|occupation)<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>P(gender|occupation)<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>If the second column non-categorical values that can be converted to numbers (such as numeric or Boolean values <bpt id="1">&lt;legacyBold&gt;</bpt>not<ept id="1">&lt;/legacyBold&gt;</ept> marked as categorical), it calculates the <bpt id="2">&lt;legacyBold&gt;</bpt>mean<ept id="2">&lt;/legacyBold&gt;</ept> and <bpt id="3">&lt;legacyBold&gt;</bpt>standard deviation<ept id="3">&lt;/legacyBold&gt;</ept> for each group of values in the first column.</source>
+            <target state="new">If the second column non-categorical values that can be converted to numbers (such as numeric or Boolean values <bpt id="1">&lt;legacyBold&gt;</bpt>not<ept id="1">&lt;/legacyBold&gt;</ept> marked as categorical), it calculates the <bpt id="2">&lt;legacyBold&gt;</bpt>mean<ept id="2">&lt;/legacyBold&gt;</ept> and <bpt id="3">&lt;legacyBold&gt;</bpt>standard deviation<ept id="3">&lt;/legacyBold&gt;</ept> for each group of values in the first column.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>For example, if you select <bpt id="1">&lt;embeddedLabel&gt;</bpt>occupation<ept id="1">&lt;/embeddedLabel&gt;</ept> as the <bpt id="2">&lt;ui&gt;</bpt>Discrete column<ept id="2">&lt;/ui&gt;</ept> and the numeric column <bpt id="3">&lt;embeddedLabel&gt;</bpt>hours-per-week<ept id="3">&lt;/embeddedLabel&gt;</ept> as the <bpt id="4">&lt;ui&gt;</bpt>Replacement column<ept id="4">&lt;/ui&gt;</ept>, the new value columns would have these headings:</source>
+            <target state="new">For example, if you select <bpt id="1">&lt;embeddedLabel&gt;</bpt>occupation<ept id="1">&lt;/embeddedLabel&gt;</ept> as the <bpt id="2">&lt;ui&gt;</bpt>Discrete column<ept id="2">&lt;/ui&gt;</ept> and the numeric column <bpt id="3">&lt;embeddedLabel&gt;</bpt>hours-per-week<ept id="3">&lt;/embeddedLabel&gt;</ept> as the <bpt id="4">&lt;ui&gt;</bpt>Replacement column<ept id="4">&lt;/ui&gt;</ept>, the new value columns would have these headings:</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Mean(hours-per-week|occupation)</source>
+            <target state="new">Mean(hours-per-week|occupation)</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Std-Dev(hours-per-week|occupation)</source>
+            <target state="new">Std-Dev(hours-per-week|occupation)</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>You cannot choose the statistical function to apply.</source>
+            <target state="new">You cannot choose the statistical function to apply.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>The module calculates the appropriate measure, based on the data type of the column selected for <bpt id="1">&lt;ui&gt;</bpt>Replacement column<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">The module calculates the appropriate measure, based on the data type of the column selected for <bpt id="1">&lt;ui&gt;</bpt>Replacement column<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Run the experiment.</source>
+            <target state="new">Run the experiment.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>The module outputs a transformed dataset in which the columns you selected as the <bpt id="1">&lt;ui&gt;</bpt>Replacement columns<ept id="1">&lt;/ui&gt;</ept> have been replaced with the computed scores.</source>
+            <target state="new">The module outputs a transformed dataset in which the columns you selected as the <bpt id="1">&lt;ui&gt;</bpt>Replacement columns<ept id="1">&lt;/ui&gt;</ept> have been replaced with the computed scores.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>The headings of the new columns indicate the source columns and the operation.</source>
+            <target state="new">The headings of the new columns indicate the source columns and the operation.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Options</source>
+            <target state="new">Options</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Discrete columns</source>
+            <target state="new">Discrete columns</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Use the Column Selector to choose columns to analyze.</source>
+            <target state="new">Use the Column Selector to choose columns to analyze.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>The columns must contain discrete values, and they must be already marked as categorical.</source>
+            <target state="new">The columns must contain discrete values, and they must be already marked as categorical.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Replacement columns</source>
+            <target state="new">Replacement columns</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Choose columns to replace with scores.</source>
+            <target state="new">Choose columns to replace with scores.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>These columns are used to computes the scores, but only the scores are output.</source>
+            <target state="new">These columns are used to computes the scores, but only the scores are output.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Although the original column values for the replacement columns are not included in the transformed dataset, the actual data columns in your dataset are not directly affected by the transformation; the new score columns are just added as metadata.</source>
+            <target state="new">Although the original column values for the replacement columns are not included in the transformed dataset, the actual data columns in your dataset are not directly affected by the transformation; the new score columns are just added as metadata.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>You can always get the column values by using add columns and connecting the source dataset..</source>
+            <target state="new">You can always get the column values by using add columns and connecting the source dataset..</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Examples</source>
+            <target state="new">Examples</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>The sample experiments do not include any instances that are relevant to this module, but the usage of <bpt id="1">&lt;ui&gt;</bpt>Replace Discrete Values<ept id="1">&lt;/ui&gt;</ept> can be illustrated by some simple examples:</source>
+            <target state="new">The sample experiments do not include any instances that are relevant to this module, but the usage of <bpt id="1">&lt;ui&gt;</bpt>Replace Discrete Values<ept id="1">&lt;/ui&gt;</ept> can be illustrated by some simple examples:</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Replacing a Categorical Value with a Probability Score</source>
+            <target state="new">Replacing a Categorical Value with a Probability Score</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>The following table contains a categorical column X, and a column Y with True/False values that are treated as categorical values.</source>
+            <target state="new">The following table contains a categorical column X, and a column Y with True/False values that are treated as categorical values.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>When you use <bpt id="1">&lt;ui&gt;</bpt>Replace Discrete Values<ept id="1">&lt;/ui&gt;</ept>, it calculates a conditional probability score as shown in the third column.</source>
+            <target state="new">When you use <bpt id="1">&lt;ui&gt;</bpt>Replace Discrete Values<ept id="1">&lt;/ui&gt;</ept>, it calculates a conditional probability score as shown in the third column.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>X</source>
+            <target state="new">X</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Y</source>
+            <target state="new">Y</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>P(Y|X)</source>
+            <target state="new">P(Y|X)</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Blue</source>
+            <target state="new">Blue</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>P(Y=0|X=Blue) = 0.5</source>
+            <target state="new">P(Y=0|X=Blue) = 0.5</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Blue</source>
+            <target state="new">Blue</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>P(Y=1|X =Blue) = 0.5</source>
+            <target state="new">P(Y=1|X =Blue) = 0.5</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Green</source>
+            <target state="new">Green</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>P(Y=0|X=Green) = 2/3</source>
+            <target state="new">P(Y=0|X=Green) = 2/3</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Green</source>
+            <target state="new">Green</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>P(Y=0|X=Green) = 2/3</source>
+            <target state="new">P(Y=0|X=Green) = 2/3</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Green</source>
+            <target state="new">Green</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>P(Y=1|X=Green) = 1/3</source>
+            <target state="new">P(Y=1|X=Green) = 1/3</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Red</source>
+            <target state="new">Red</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>P(Y=0|X=Red) = .75</source>
+            <target state="new">P(Y=0|X=Red) = .75</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Red</source>
+            <target state="new">Red</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>P(Y=0|X=Red) = .75</source>
+            <target state="new">P(Y=0|X=Red) = .75</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Red</source>
+            <target state="new">Red</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>P(Y=1|X=Red) = .25</source>
+            <target state="new">P(Y=1|X=Red) = .25</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Red</source>
+            <target state="new">Red</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>P(Y=0|X=Red) = .75</source>
+            <target state="new">P(Y=0|X=Red) = .75</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Replacement based on noncategorical column Y</source>
+            <target state="new">Replacement based on noncategorical column Y</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>If the second column is numerical, <bpt id="1">&lt;ui&gt;</bpt>Replace Discrete Values<ept id="1">&lt;/ui&gt;</ept> calculates <ph id="2">&lt;math&gt;Mean(Y|X)&lt;/math&gt;</ph> and <ph id="3">&lt;math&gt;Std-Dev(Y|X)&lt;/math&gt;</ph> instead of the conditional probability score.</source>
+            <target state="new">If the second column is numerical, <bpt id="1">&lt;ui&gt;</bpt>Replace Discrete Values<ept id="1">&lt;/ui&gt;</ept> calculates <ph id="2">&lt;math&gt;Mean(Y|X)&lt;/math&gt;</ph> and <ph id="3">&lt;math&gt;Std-Dev(Y|X)&lt;/math&gt;</ph> instead of the conditional probability score.</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>This example is based on the sample Auto Prices dataset.</source>
+            <target state="new">This example is based on the sample Auto Prices dataset.</target>
+          </trans-unit>
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>To simplify validation, a small subset of columns is projected and only the top 30 rows are extracted by using the Head option of <bpt id="1">&lt;ui&gt;</bpt>Partition and Sample<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">To simplify validation, a small subset of columns is projected and only the top 30 rows are extracted by using the Head option of <bpt id="1">&lt;ui&gt;</bpt>Partition and Sample<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Then <bpt id="1">&lt;ui&gt;</bpt>Replace Discrete Values<ept id="1">&lt;/ui&gt;</ept> is used to compute the mean values and standard deviation for curb weight given the categorical column, <bpt id="2">&lt;database&gt;</bpt>num-of-doors<ept id="2">&lt;/database&gt;</ept>.</source>
+            <target state="new">Then <bpt id="1">&lt;ui&gt;</bpt>Replace Discrete Values<ept id="1">&lt;/ui&gt;</ept> is used to compute the mean values and standard deviation for curb weight given the categorical column, <bpt id="2">&lt;database&gt;</bpt>num-of-doors<ept id="2">&lt;/database&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Body</source>
+            <target state="new">Body</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Num-of-doors</source>
+            <target state="new">Num-of-doors</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Curb-weight</source>
+            <target state="new">Curb-weight</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Mean(curb-weight|num-of-doors) </source>
+            <target state="new">Mean(curb-weight|num-of-doors) </target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Std-Dev(curb-weight|num-of-doors) </source>
+            <target state="new">Std-Dev(curb-weight|num-of-doors) </target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>std</source>
+            <target state="new">std</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>two</source>
+            <target state="new">two</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>2548</source>
+            <target state="new">2548</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>2429.785714</source>
+            <target state="new">2429.785714</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>507.45699</source>
+            <target state="new">507.45699</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>std</source>
+            <target state="new">std</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>four</source>
+            <target state="new">four</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>2337</source>
+            <target state="new">2337</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>2625.6</source>
+            <target state="new">2625.6</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>493.409877</source>
+            <target state="new">493.409877</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>std</source>
+            <target state="new">std</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>two</source>
+            <target state="new">two</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>2507</source>
+            <target state="new">2507</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>2429.785714</source>
+            <target state="new">2429.785714</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>507.45699</source>
+            <target state="new">507.45699</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>turbo</source>
+            <target state="new">turbo</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>four</source>
+            <target state="new">four</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>3086</source>
+            <target state="new">3086</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>2625.6 5</source>
+            <target state="new">2625.6 5</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>493.409877</source>
+            <target state="new">493.409877</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>std</source>
+            <target state="new">std</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>four</source>
+            <target state="new">four</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>1989</source>
+            <target state="new">1989</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>2625.6</source>
+            <target state="new">2625.6</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>493.409877</source>
+            <target state="new">493.409877</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>turbo</source>
+            <target state="new">turbo</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>2191</source>
+            <target state="new">2191</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>std</source>
+            <target state="new">std</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>four</source>
+            <target state="new">four</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>2535</source>
+            <target state="new">2535</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>2625.6</source>
+            <target state="new">2625.6</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>493.409877</source>
+            <target state="new">493.409877</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>You can verify the mean and standard deviation for each group of values by using the <ph id="1">&lt;languageKeyword&gt;AVERAGEIF&lt;/languageKeyword&gt;</ph> function in Excel.</source>
+            <target state="new">You can verify the mean and standard deviation for each group of values by using the <ph id="1">&lt;languageKeyword&gt;AVERAGEIF&lt;/languageKeyword&gt;</ph> function in Excel.</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>Missing values and conditional probability</source>
+            <target state="new">Missing values and conditional probability</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>This example demonstrates how missing values (nulls) propagate to the results.</source>
+            <target state="new">This example demonstrates how missing values (nulls) propagate to the results.</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>If the discrete value column and the calculation lookup column contains any missing values, the missing values are propagated to the new column.</source>
+            <target state="new">If the discrete value column and the calculation lookup column contains any missing values, the missing values are propagated to the new column.</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>If the discrete value column contains only missing values, the module cannot process the column and an error message appears.</source>
+            <target state="new">If the discrete value column contains only missing values, the module cannot process the column and an error message appears.</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>X</source>
+            <target state="new">X</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>Y</source>
+            <target state="new">Y</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>P(Y|X)</source>
+            <target state="new">P(Y|X)</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>True</source>
+            <target state="new">True</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>False</source>
+            <target state="new">False</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>2</source>
+            <target state="new">2</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>True</source>
+            <target state="new">True</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>2</source>
+            <target state="new">2</target>
+          </trans-unit>
+        </group>
+        <group id="123">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>False</source>
+            <target state="new">False</target>
+          </trans-unit>
+        </group>
+        <group id="124">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>2</source>
+            <target state="new">2</target>
+          </trans-unit>
+        </group>
+        <group id="125">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>Null</source>
+            <target state="new">Null</target>
+          </trans-unit>
+        </group>
+        <group id="126">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>Technical Notes</source>
+            <target state="new">Technical Notes</target>
+          </trans-unit>
+        </group>
+        <group id="127">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>You must ensure that any discrete columns you want to replace are categorical, or the module will return an error.</source>
+            <target state="new">You must ensure that any discrete columns you want to replace are categorical, or the module will return an error.</target>
+          </trans-unit>
+        </group>
+        <group id="128">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>You can do this by using <ph id="1">&lt;link xlink:href="370b6676-c11c-486f-bf73-35349f842a66" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Metadata Editor&lt;/link&gt;</ph>.</source>
+            <target state="new">You can do this by using <ph id="1">&lt;link xlink:href="370b6676-c11c-486f-bf73-35349f842a66" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Metadata Editor&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="129">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>If the second column contains Boolean values, the True-False values are processed as numeric with FALSE and TRUE equivalent to 0 and 1 respectively.</source>
+            <target state="new">If the second column contains Boolean values, the True-False values are processed as numeric with FALSE and TRUE equivalent to 0 and 1 respectively.</target>
+          </trans-unit>
+        </group>
+        <group id="130">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>The formula for the standard deviation column calculates the population standard deviation.</source>
+            <target state="new">The formula for the standard deviation column calculates the population standard deviation.</target>
+          </trans-unit>
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>Therefore, <ph id="1">&lt;math&gt;N&lt;/math&gt;</ph>  is used in the denominator instead of <ph id="2">&lt;math&gt;(N - 1)&lt;/math&gt;</ph>.</source>
+            <target state="new">Therefore, <ph id="1">&lt;math&gt;N&lt;/math&gt;</ph>  is used in the denominator instead of <ph id="2">&lt;math&gt;(N - 1)&lt;/math&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="131">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>If the second column contains noncategorical data (numeric or Boolean values), the module computes the mean and standard deviation of Y for the given value of X—that is, for each row in the dataset indexed by i:</source>
+            <target state="new">If the second column contains noncategorical data (numeric or Boolean values), the module computes the mean and standard deviation of Y for the given value of X—that is, for each row in the dataset indexed by i:</target>
+          </trans-unit>
+        </group>
+        <group id="132">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;math&gt;Mean(Y│X)&lt;/math&gt;</ph><bpt id="2">&lt;subscript&gt;</bpt>i<ept id="2">&lt;/subscript&gt;</ept> <ph id="3">&lt;math&gt;= Mean(Y│X = X&lt;/math&gt;</ph><bpt id="4">&lt;subscript&gt;</bpt>i<ept id="4">&lt;/subscript&gt;</ept><ph id="5">&lt;math&gt;)&lt;/math&gt;</ph></source>
+            <target state="new"><ph id="1">&lt;math&gt;Mean(Y│X)&lt;/math&gt;</ph><bpt id="2">&lt;subscript&gt;</bpt>i<ept id="2">&lt;/subscript&gt;</ept> <ph id="3">&lt;math&gt;= Mean(Y│X = X&lt;/math&gt;</ph><bpt id="4">&lt;subscript&gt;</bpt>i<ept id="4">&lt;/subscript&gt;</ept><ph id="5">&lt;math&gt;)&lt;/math&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="133">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;math&gt;StdDev(Y│X)&lt;/math&gt;</ph> <bpt id="2">&lt;subscript&gt;</bpt>i<ept id="2">&lt;/subscript&gt;</ept> = <ph id="3">&lt;math&gt;StdDev(Y│X = X&lt;/math&gt;</ph><bpt id="4">&lt;subscript&gt;</bpt>i<ept id="4">&lt;/subscript&gt;</ept><ph id="5">&lt;math&gt;)&lt;/math&gt;</ph></source>
+            <target state="new"><ph id="1">&lt;math&gt;StdDev(Y│X)&lt;/math&gt;</ph> <bpt id="2">&lt;subscript&gt;</bpt>i<ept id="2">&lt;/subscript&gt;</ept> = <ph id="3">&lt;math&gt;StdDev(Y│X = X&lt;/math&gt;</ph><bpt id="4">&lt;subscript&gt;</bpt>i<ept id="4">&lt;/subscript&gt;</ept><ph id="5">&lt;math&gt;)&lt;/math&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="134">
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>If the second column contains categorical data or values that are neither numeric nor Boolean, the module computes the conditional probability of Y for the given value of X—that is, for each row in the dataset indexed by i.</source>
+            <target state="new">If the second column contains categorical data or values that are neither numeric nor Boolean, the module computes the conditional probability of Y for the given value of X—that is, for each row in the dataset indexed by i.</target>
+          </trans-unit>
+        </group>
+        <group id="135">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>Any Boolean values in the second column are processed as numeric data with FALSE and TRUE equivalent to 0 and 1 respectively.</source>
+            <target state="new">Any Boolean values in the second column are processed as numeric data with FALSE and TRUE equivalent to 0 and 1 respectively.</target>
+          </trans-unit>
+        </group>
+        <group id="136">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>If there is a class in the discrete column, such that a row with a missing value is present in the second column, the sum of conditional probabilities within the class is less than one.</source>
+            <target state="new">If there is a class in the discrete column, such that a row with a missing value is present in the second column, the sum of conditional probabilities within the class is less than one.</target>
+          </trans-unit>
+        </group>
+        <group id="137">
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>Expected Input</source>
+            <target state="new">Expected Input</target>
+          </trans-unit>
+        </group>
+        <group id="138">
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="139">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="140">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="141">
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>Dataset</source>
+            <target state="new">Dataset</target>
+          </trans-unit>
+        </group>
+        <group id="142">
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>Input dataset</source>
+            <target state="new">Input dataset</target>
+          </trans-unit>
+        </group>
+        <group id="143">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>Module Parameters</source>
+            <target state="new">Module Parameters</target>
+          </trans-unit>
+        </group>
+        <group id="144">
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="145">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>Range</source>
+            <target state="new">Range</target>
+          </trans-unit>
+        </group>
+        <group id="146">
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="147">
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>Default</source>
+            <target state="new">Default</target>
+          </trans-unit>
+        </group>
+        <group id="148">
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="149">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>Discrete columns</source>
+            <target state="new">Discrete columns</target>
+          </trans-unit>
+        </group>
+        <group id="150">
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>Any</source>
+            <target state="new">Any</target>
+          </trans-unit>
+        </group>
+        <group id="151">
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>ColumnSelection</source>
+            <target state="new">ColumnSelection</target>
+          </trans-unit>
+        </group>
+        <group id="152">
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>Selects the columns that contain discrete values</source>
+            <target state="new">Selects the columns that contain discrete values</target>
+          </trans-unit>
+        </group>
+        <group id="153">
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>Replacement columns</source>
+            <target state="new">Replacement columns</target>
+          </trans-unit>
+        </group>
+        <group id="154">
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>Any</source>
+            <target state="new">Any</target>
+          </trans-unit>
+        </group>
+        <group id="155">
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>ColumnSelection</source>
+            <target state="new">ColumnSelection</target>
+          </trans-unit>
+        </group>
+        <group id="156">
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source>Selects the columns that contain the data to use in place of the discrete values</source>
+            <target state="new">Selects the columns that contain the data to use in place of the discrete values</target>
+          </trans-unit>
+        </group>
+        <group id="157">
+          <trans-unit id="171" translate="yes" xml:space="preserve">
+            <source>Outputs</source>
+            <target state="new">Outputs</target>
+          </trans-unit>
+        </group>
+        <group id="158">
+          <trans-unit id="172" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="159">
+          <trans-unit id="173" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="160">
+          <trans-unit id="174" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="161">
+          <trans-unit id="175" translate="yes" xml:space="preserve">
+            <source>Supplemented dataset</source>
+            <target state="new">Supplemented dataset</target>
+          </trans-unit>
+        </group>
+        <group id="162">
+          <trans-unit id="176" translate="yes" xml:space="preserve">
+            <source>Dataset with replaced data</source>
+            <target state="new">Dataset with replaced data</target>
+          </trans-unit>
+        </group>
+        <group id="163">
+          <trans-unit id="177" translate="yes" xml:space="preserve">
+            <source>Transform function</source>
+            <target state="new">Transform function</target>
+          </trans-unit>
+        </group>
+        <group id="164">
+          <trans-unit id="178" translate="yes" xml:space="preserve">
+            <source>Definition of the transform function, which can be applied to other datasets</source>
+            <target state="new">Definition of the transform function, which can be applied to other datasets</target>
+          </trans-unit>
+        </group>
+        <group id="165">
+          <trans-unit id="179" translate="yes" xml:space="preserve">
+            <source>Exceptions</source>
+            <target state="new">Exceptions</target>
+          </trans-unit>
+        </group>
+        <group id="166">
+          <trans-unit id="180" translate="yes" xml:space="preserve">
+            <source>For a complete list of error messages, see <ph id="1">&lt;link xlink:href="60822377-da7a-40b8-aec7-d185d1509344" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Error Codes&lt;/link&gt;</ph>.</source>
+            <target state="new">For a complete list of error messages, see <ph id="1">&lt;link xlink:href="60822377-da7a-40b8-aec7-d185d1509344" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Error Codes&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="167">
+          <trans-unit id="181" translate="yes" xml:space="preserve">
+            <source>Exception</source>
+            <target state="new">Exception</target>
+          </trans-unit>
+        </group>
+        <group id="168">
+          <trans-unit id="182" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="169">
+          <trans-unit id="183" translate="yes" xml:space="preserve">
+            <source>Exception occurs if one or more specified columns of the data set couldn't be found.</source>
+            <target state="new">Exception occurs if one or more specified columns of the data set couldn't be found.</target>
+          </trans-unit>
+        </group>
+        <group id="170">
+          <trans-unit id="184" translate="yes" xml:space="preserve">
+            <source>Exception occurs if one or more of inputs are null or empty.</source>
+            <target state="new">Exception occurs if one or more of inputs are null or empty.</target>
+          </trans-unit>
+        </group>
+        <group id="171">
+          <trans-unit id="185" translate="yes" xml:space="preserve">
+            <source>Exception occurs if the number of columns in some of the datasets passed to the module is too small.</source>
+            <target state="new">Exception occurs if the number of columns in some of the datasets passed to the module is too small.</target>
+          </trans-unit>
+        </group>
+        <group id="172">
+          <trans-unit id="186" translate="yes" xml:space="preserve">
+            <source>Exception occurs if the number of rows in some of the datasets passed to the module is too small.</source>
+            <target state="new">Exception occurs if the number of rows in some of the datasets passed to the module is too small.</target>
+          </trans-unit>
+        </group>
+        <group id="173">
+          <trans-unit id="187" translate="yes" xml:space="preserve">
+            <source>Exception occurs if one or more specified columns have a type that is unsupported by the current module.</source>
+            <target state="new">Exception occurs if one or more specified columns have a type that is unsupported by the current module.</target>
+          </trans-unit>
+        </group>
+        <group id="174">
+          <trans-unit id="188" translate="yes" xml:space="preserve">
+            <source>Exception occurs when columns with the same name are not allowed.</source>
+            <target state="new">Exception occurs when columns with the same name are not allowed.</target>
+          </trans-unit>
+        </group>
+        <group id="175">
+          <trans-unit id="189" translate="yes" xml:space="preserve">
+            <source>Exception occurs if the number of selected columns in the input dataset does not equal the expected number.</source>
+            <target state="new">Exception occurs if the number of selected columns in the input dataset does not equal the expected number.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANyssJwzAMANBVPIAFki1/1HMLHaALyI4FgTSBNIGM35zfM4ujcegwBjMwGULD2qAjaRYxUhXv2iSlaYrQcg3AnQJoTwaCVkZCZJF+L825miWoJSBwLhkUNYEZsSWKcdLiHXk3DXi+vLuW2Wxcx2PftsO7cBt69z6/un52XX+LHvO2/gGB83/HogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Missing Values Scrubber (deprecated)</source>
+            <target state="new">Missing Values Scrubber (deprecated)</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Specifies how to handle values that are missing from a dataset</source>
+            <target state="new">Specifies how to handle values that are missing from a dataset</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Category: <ph id="1">&lt;link xlink:href="d88e45c9-9c3c-4e5c-8bc9-7a80af8113c2" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Deprecated&lt;/link&gt;</ph></source>
+            <target state="new">Category: <ph id="1">&lt;link xlink:href="d88e45c9-9c3c-4e5c-8bc9-7a80af8113c2" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Deprecated&lt;/link&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Module Overview</source>
+            <target state="new">Module Overview</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;ui&gt;</bpt>Missing Values Scrubber<ept id="1">&lt;/ui&gt;</ept> module provides some basic methods for handling missing values.</source>
+            <target state="new">The <bpt id="1">&lt;ui&gt;</bpt>Missing Values Scrubber<ept id="1">&lt;/ui&gt;</ept> module provides some basic methods for handling missing values.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>It expects a dataset as input, and it returns a dataset with missing values that are substituted by a method that you select.</source>
+            <target state="new">It expects a dataset as input, and it returns a dataset with missing values that are substituted by a method that you select.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>This module is provided for backward compatibility with experiments created using the pre-release version of Azure Machine Learning Studio, and will soon be deprecated.</source>
+            <target state="new">This module is provided for backward compatibility with experiments created using the pre-release version of Azure Machine Learning Studio, and will soon be deprecated.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>We recommend that you modify your experiments to use <ph id="1">&lt;link xlink:href="d2c5ca2f-7323-41a3-9b7e-da917c99f0c4" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Clean Missing Data&lt;/link&gt;</ph> instead.</source>
+            <target state="new">We recommend that you modify your experiments to use <ph id="1">&lt;link xlink:href="d2c5ca2f-7323-41a3-9b7e-da917c99f0c4" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Clean Missing Data&lt;/link&gt;</ph> instead.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>How to Use Missing Values Scrubber</source>
+            <target state="new">How to Use Missing Values Scrubber</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>There are multiple ways to handle missing values.</source>
+            <target state="new">There are multiple ways to handle missing values.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>However, whichever method you choose, it applies to the entire set of columns you have selected.</source>
+            <target state="new">However, whichever method you choose, it applies to the entire set of columns you have selected.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>If you need to treat missing values differently in some columns, use <ph id="1">&lt;link xlink:href="1ec722fa-b623-4e26-a44e-a50c6d726223" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Project columns&lt;/link&gt;</ph> to select a subset of data before applying <bpt id="2">&lt;ui&gt;</bpt>Missing Values Scrubber<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">If you need to treat missing values differently in some columns, use <ph id="1">&lt;link xlink:href="1ec722fa-b623-4e26-a44e-a50c6d726223" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Project columns&lt;/link&gt;</ph> to select a subset of data before applying <bpt id="2">&lt;ui&gt;</bpt>Missing Values Scrubber<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>For missing values...</source>
+            <target state="new">For missing values...</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Use this drop-down list to select which method to use to handle missing values.</source>
+            <target state="new">Use this drop-down list to select which method to use to handle missing values.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Replace with value...</source>
+            <target state="new">Replace with value...</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Type a replacement value.</source>
+            <target state="new">Type a replacement value.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>This is only needed if you choose to substitute missing values with a custom value.</source>
+            <target state="new">This is only needed if you choose to substitute missing values with a custom value.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>If you specify a floating-point value to replace missing values in a column of integers, the value substituted for the missing value will be this value converted to the nearest integer.</source>
+            <target state="new">If you specify a floating-point value to replace missing values in a column of integers, the value substituted for the missing value will be this value converted to the nearest integer.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Columns with all MV (missing values)...</source>
+            <target state="new">Columns with all MV (missing values)...</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Choose whether to keep or remove columns with all values missing.</source>
+            <target state="new">Choose whether to keep or remove columns with all values missing.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>MV (missing values) indicator column</source>
+            <target state="new">MV (missing values) indicator column</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Choose whether to generate missing value indicator columns.</source>
+            <target state="new">Choose whether to generate missing value indicator columns.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Options</source>
+            <target state="new">Options</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>You can select from the following substitution methods to replace missing values:</source>
+            <target state="new">You can select from the following substitution methods to replace missing values:</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Replace using MICE</source>
+            <target state="new">Replace using MICE</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Replaces missing values by using "Multiple Imputation by Chained Equations" (MICE), a method broadly used in the statistics literature since work by Donald Rubin in the 1970s.</source>
+            <target state="new">Replaces missing values by using "Multiple Imputation by Chained Equations" (MICE), a method broadly used in the statistics literature since work by Donald Rubin in the 1970s.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>This method initializes the missing entries with a default value.</source>
+            <target state="new">This method initializes the missing entries with a default value.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Then it updates each column by using an appropriate regression or classification algorithm.</source>
+            <target state="new">Then it updates each column by using an appropriate regression or classification algorithm.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>These updates are repeated a number of times, as specified by the Number of Iterations parameter.</source>
+            <target state="new">These updates are repeated a number of times, as specified by the Number of Iterations parameter.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Replace with value</source>
+            <target state="new">Replace with value</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Assigns the replacement value to any missing value in every column with a data type of Integer, Double, Boolean, or Date.</source>
+            <target state="new">Assigns the replacement value to any missing value in every column with a data type of Integer, Double, Boolean, or Date.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>For date columns, the replacement value can also be entered as the number of 100-nanosecond ticks since 1/1/0001 12:00 AM.</source>
+            <target state="new">For date columns, the replacement value can also be entered as the number of 100-nanosecond ticks since 1/1/0001 12:00 AM.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Replace with mean</source>
+            <target state="new">Replace with mean</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Assigns the replacement value to any missing value in every column with a data type of Integer, Double, or Boolean</source>
+            <target state="new">Assigns the replacement value to any missing value in every column with a data type of Integer, Double, or Boolean</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Replace with median</source>
+            <target state="new">Replace with median</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Assigns the median of a column to any missing value in every column with a data type of Integer or Double.</source>
+            <target state="new">Assigns the median of a column to any missing value in every column with a data type of Integer or Double.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Replace with mode</source>
+            <target state="new">Replace with mode</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Assigns the mode of a column to any missing value in every column with a data type of Integer, Double, Boolean, or Categorical.</source>
+            <target state="new">Assigns the mode of a column to any missing value in every column with a data type of Integer, Double, Boolean, or Categorical.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Remove row</source>
+            <target state="new">Remove row</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Removes all rows in the dataset with one or more missing values.</source>
+            <target state="new">Removes all rows in the dataset with one or more missing values.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>This is useful if the missing value can be considered as missing at random.</source>
+            <target state="new">This is useful if the missing value can be considered as missing at random.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Do nothing</source>
+            <target state="new">Do nothing</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Leave the missing value.</source>
+            <target state="new">Leave the missing value.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Replace using probabilistic PCA</source>
+            <target state="new">Replace using probabilistic PCA</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Replaces the missing values by using a linear model that analyzes the correlations between the columns and estimates a low-dimensional approximation of the data, from which the full data is reconstructed.</source>
+            <target state="new">Replaces the missing values by using a linear model that analyzes the correlations between the columns and estimates a low-dimensional approximation of the data, from which the full data is reconstructed.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>The underlying dimensionality reduction is a probabilistic form of Principal Component Analysis (PCA).</source>
+            <target state="new">The underlying dimensionality reduction is a probabilistic form of Principal Component Analysis (PCA).</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>It implements a variant of the model proposed in the Journal of the Royal Statistical Society, Series B 21(3), 611–622 by Tipping and  Bishop.</source>
+            <target state="new">It implements a variant of the model proposed in the Journal of the Royal Statistical Society, Series B 21(3), 611–622 by Tipping and  Bishop.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Compared to other options (such as MICE), this option has the advantage of not requiring the application of predictors for each column.</source>
+            <target state="new">Compared to other options (such as MICE), this option has the advantage of not requiring the application of predictors for each column.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Instead, it immediately approximates the covariance of the full dataset.</source>
+            <target state="new">Instead, it immediately approximates the covariance of the full dataset.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>It may therefore offer a better performance for datasets that have missing values in many columns.</source>
+            <target state="new">It may therefore offer a better performance for datasets that have missing values in many columns.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>The key limitations of this method are:</source>
+            <target state="new">The key limitations of this method are:</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>It expands categorical columns into numerical indicators and computes a dense covariance matrix of the resulting data.</source>
+            <target state="new">It expands categorical columns into numerical indicators and computes a dense covariance matrix of the resulting data.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>It is not optimized for sparse representations.</source>
+            <target state="new">It is not optimized for sparse representations.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>For these reasons, datasets with large numbers of columns and/or large categorical domains (tens of thousands) are not supported due to prohibitive space consumption.</source>
+            <target state="new">For these reasons, datasets with large numbers of columns and/or large categorical domains (tens of thousands) are not supported due to prohibitive space consumption.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Expected Input</source>
+            <target state="new">Expected Input</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Dataset</source>
+            <target state="new">Dataset</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Input dataset with missing values</source>
+            <target state="new">Input dataset with missing values</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Module Parameters</source>
+            <target state="new">Module Parameters</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Range</source>
+            <target state="new">Range</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Default</source>
+            <target state="new">Default</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>For missing values</source>
+            <target state="new">For missing values</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>List (subset)</source>
+            <target state="new">List (subset)</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Handling policy</source>
+            <target state="new">Handling policy</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Custom substitution value</source>
+            <target state="new">Custom substitution value</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Choose the method for handling missing values.</source>
+            <target state="new">Choose the method for handling missing values.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Co lumns with allvalues missing</source>
+            <target state="new">Co lumns with allvalues missing</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Any</source>
+            <target state="new">Any</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>ColumnsWithAllValuesMissing</source>
+            <target state="new">ColumnsWithAllValuesMissing</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>KeepColumns</source>
+            <target state="new">KeepColumns</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Indicate if columns with all values missing should be preserved in the output.</source>
+            <target state="new">Indicate if columns with all values missing should be preserved in the output.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Missing values indicator column</source>
+            <target state="new">Missing values indicator column</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Any</source>
+            <target state="new">Any</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>GenerateMissingValueIndicatorColumns</source>
+            <target state="new">GenerateMissingValueIndicatorColumns</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>DoNotGenerate</source>
+            <target state="new">DoNotGenerate</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Select this option to add a column to the   dataset that indicatesss wwwhetheeer that describes missing value handling should be added to the dataset.</source>
+            <target state="new">Select this option to add a column to the   dataset that indicatesss wwwhetheeer that describes missing value handling should be added to the dataset.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Output</source>
+            <target state="new">Output</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Results dataset</source>
+            <target state="new">Results dataset</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Scrubbed dataset</source>
+            <target state="new">Scrubbed dataset</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Exceptions</source>
+            <target state="new">Exceptions</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>For a list of all exceptions, see <ph id="1">&lt;link xlink:href="38cc86bd-4223-4e8b-b23e-4d4fbf3a5620" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Module Error Codes&lt;/link&gt;</ph>.</source>
+            <target state="new">For a list of all exceptions, see <ph id="1">&lt;link xlink:href="38cc86bd-4223-4e8b-b23e-4d4fbf3a5620" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Module Error Codes&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Exception</source>
+            <target state="new">Exception</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>An exception occurs if one or more parameters could not be parsed or converted from the specified type into the required by target method type.</source>
+            <target state="new">An exception occurs if one or more parameters could not be parsed or converted from the specified type into the required by target method type.</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>An exception occurs if one or more of inputs are null or empty.</source>
+            <target state="new">An exception occurs if one or more of inputs are null or empty.</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>An exception occurs if the parameter is not in range.</source>
+            <target state="new">An exception occurs if the parameter is not in range.</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>An exception occurs if passed to module learner has invalid type.</source>
+            <target state="new">An exception occurs if passed to module learner has invalid type.</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>An exception occurs if the input dataset is not valid.</source>
+            <target state="new">An exception occurs if the input dataset is not valid.</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>An exception occurs if the operation failed.</source>
+            <target state="new">An exception occurs if the operation failed.</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>An exception occurs if input datasets have column names that should match, but they do not.</source>
+            <target state="new">An exception occurs if input datasets have column names that should match, but they do not.</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>An exception occurs if input datasets that are passed to the module should have compatible column types, but they do not.</source>
+            <target state="new">An exception occurs if input datasets that are passed to the module should have compatible column types, but they do not.</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>An exception occurs if a dataset has a different number of columns than expected.</source>
+            <target state="new">An exception occurs if a dataset has a different number of columns than expected.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>An exception occurs if one or more specified columns have a type that is unsupported by the current module.</source>
+            <target state="new">An exception occurs if one or more specified columns have a type that is unsupported by the current module.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANycsJwzAMANBVPIAFliP/OkGht9IFpFiC0DSGJIWM377rM5tUKM6gSgSEFkBCFZgDcm7NkLl5ZxkVEQU0lQ7UY4YmJYFK6mSBa0riXcEmLZJC7pWBphlBigSosVAtIQad2Dv07j3g8fTuWhczvc7bPsbpXfxf9e7+/fD22nk7Vj6Xsf0Ah1x8wqIAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Scoring profiles</source>
+            <target state="new">Scoring profiles</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Add scoring profiles to a search index (Azure Search Service REST API)</source>
+            <target state="new">Add scoring profiles to a search index (Azure Search Service REST API)</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Scoring refers to the computation of a <bpt id="1">&lt;newTerm&gt;</bpt>search score<ept id="1">&lt;/newTerm&gt;</ept> for every item returned in search results.</source>
+            <target state="new">Scoring refers to the computation of a <bpt id="1">&lt;newTerm&gt;</bpt>search score<ept id="1">&lt;/newTerm&gt;</ept> for every item returned in search results.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The score is an indicator of an item's relevance in the context of the current search operation.</source>
+            <target state="new">The score is an indicator of an item's relevance in the context of the current search operation.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The higher the score, the more relevant the item.</source>
+            <target state="new">The higher the score, the more relevant the item.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>In search results, items are rank ordered from high to low, based on the search scores calculated for each item.</source>
+            <target state="new">In search results, items are rank ordered from high to low, based on the search scores calculated for each item.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Azure Search uses default scoring to compute a score, but you can customize the calculation through a <bpt id="1">&lt;newTerm&gt;</bpt>scoring profile<ept id="1">&lt;/newTerm&gt;</ept>.</source>
+            <target state="new">Azure Search uses default scoring to compute a score, but you can customize the calculation through a <bpt id="1">&lt;newTerm&gt;</bpt>scoring profile<ept id="1">&lt;/newTerm&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Scoring profiles give you a way to boost items based on their revenue potential, promote newer items, or perhaps boost items that have been in inventory too long.</source>
+            <target state="new">Scoring profiles give you a way to boost items based on their revenue potential, promote newer items, or perhaps boost items that have been in inventory too long.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Scoring profiles also let you set search score interpolation methods, as well as methods for distilling multiple inputs into a single aggregation, useful for complex profiles that use numerous functions and fields.</source>
+            <target state="new">Scoring profiles also let you set search score interpolation methods, as well as methods for distilling multiple inputs into a single aggregation, useful for complex profiles that use numerous functions and fields.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>A scoring profile is part of the index definition, composed of weighted fields, functions, and parameters.</source>
+            <target state="new">A scoring profile is part of the index definition, composed of weighted fields, functions, and parameters.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>To give you an idea of what a scoring profile looks like, the following example shows a simple profile named 'geo'.</source>
+            <target state="new">To give you an idea of what a scoring profile looks like, the following example shows a simple profile named 'geo'.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>This one boosts items that have the search term in the <bpt id="1">&lt;userInputLocalizable&gt;</bpt>hotelName<ept id="1">&lt;/userInputLocalizable&gt;</ept> field.</source>
+            <target state="new">This one boosts items that have the search term in the <bpt id="1">&lt;userInputLocalizable&gt;</bpt>hotelName<ept id="1">&lt;/userInputLocalizable&gt;</ept> field.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>It also uses the <ph id="1">&lt;codeInline&gt;distance&lt;/codeInline&gt;</ph> function to favor items that are within ten kilometers of the current location.</source>
+            <target state="new">It also uses the <ph id="1">&lt;codeInline&gt;distance&lt;/codeInline&gt;</ph> function to favor items that are within ten kilometers of the current location.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>If someone searches on the term 'inn', and 'inn' happens to be part of the hotel name, documents that include hotels with 'inn' will appear higher in the search results.</source>
+            <target state="new">If someone searches on the term 'inn', and 'inn' happens to be part of the hotel name, documents that include hotels with 'inn' will appear higher in the search results.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>To use this scoring profile, your query is formulated to specify the profile on the query string.</source>
+            <target state="new">To use this scoring profile, your query is formulated to specify the profile on the query string.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>In the query below, notice the query parameter <ph id="1">&lt;codeInline&gt;scoringProfile=geo&lt;/codeInline&gt;</ph> in the request.</source>
+            <target state="new">In the query below, notice the query parameter <ph id="1">&lt;codeInline&gt;scoringProfile=geo&lt;/codeInline&gt;</ph> in the request.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>This query searches on the term ‘inn’ and passes in the current location.</source>
+            <target state="new">This query searches on the term ‘inn’ and passes in the current location.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Note that this query includes other parameters, such as <ph id="1">&lt;codeInline&gt;scoringParameter&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Note that this query includes other parameters, such as <ph id="1">&lt;codeInline&gt;scoringParameter&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Query parameters are described in <ph id="1">&lt;link xlink:href="716ef056-adf4-4b16-85b8-2cb777bc8458" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Search Documents (Azure Search API)&lt;/link&gt;</ph>.</source>
+            <target state="new">Query parameters are described in <ph id="1">&lt;link xlink:href="716ef056-adf4-4b16-85b8-2cb777bc8458" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Search Documents (Azure Search API)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Click <ph id="1">&lt;link xlink:href="#bkmk_ex" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Example&lt;/link&gt;</ph> to review a more detailed example of a scoring profile.</source>
+            <target state="new">Click <ph id="1">&lt;link xlink:href="#bkmk_ex" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Example&lt;/link&gt;</ph> to review a more detailed example of a scoring profile.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>What is default scoring?</source>
+            <target state="new">What is default scoring?</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Scoring computes a search score for each item in a rank ordered result set.</source>
+            <target state="new">Scoring computes a search score for each item in a rank ordered result set.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Every item in a search result set is assigned a search score, then ranked highest to lowest.</source>
+            <target state="new">Every item in a search result set is assigned a search score, then ranked highest to lowest.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Items with the higher scores are returned to the application.</source>
+            <target state="new">Items with the higher scores are returned to the application.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>By default, the top 50 are returned, but you can use the <ph id="1">&lt;codeInline&gt;$top&lt;/codeInline&gt;</ph> parameter to return a smaller or larger number of items (up to 1000 in a single response).</source>
+            <target state="new">By default, the top 50 are returned, but you can use the <ph id="1">&lt;codeInline&gt;$top&lt;/codeInline&gt;</ph> parameter to return a smaller or larger number of items (up to 1000 in a single response).</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>By default, a search score is computed based on statistical properties of the data and the query.</source>
+            <target state="new">By default, a search score is computed based on statistical properties of the data and the query.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Azure Search finds documents that include the search terms in the query string (some or all, depending on <ph id="1">&lt;codeInline&gt;searchMode&lt;/codeInline&gt;</ph>), favoring documents that contain many instances of the search term.</source>
+            <target state="new">Azure Search finds documents that include the search terms in the query string (some or all, depending on <ph id="1">&lt;codeInline&gt;searchMode&lt;/codeInline&gt;</ph>), favoring documents that contain many instances of the search term.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>The search score goes up even higher if the term is rare across the data corpus, but common within the document.</source>
+            <target state="new">The search score goes up even higher if the term is rare across the data corpus, but common within the document.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>The basis for this approach to computing relevance is known as <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>TF-IDF<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.tfidf.com/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> or (term frequency-inverse document frequency).</source>
+            <target state="new">The basis for this approach to computing relevance is known as <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>TF-IDF<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.tfidf.com/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> or (term frequency-inverse document frequency).</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Assuming there is no custom sorting, results are then ranked by search score before they are returned to the calling application.</source>
+            <target state="new">Assuming there is no custom sorting, results are then ranked by search score before they are returned to the calling application.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>If $top is not specified, 50 items having the highest search score are returned.</source>
+            <target state="new">If $top is not specified, 50 items having the highest search score are returned.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Search score values can be repeated throughout a result set.</source>
+            <target state="new">Search score values can be repeated throughout a result set.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>For example, you might have 10 items with a score of 1.2, 20 items with a score of 1.0, and 20 items with a score of 0.5.</source>
+            <target state="new">For example, you might have 10 items with a score of 1.2, 20 items with a score of 1.0, and 20 items with a score of 0.5.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>When multiple hits have the same search score, the ordering of same scored items is not defined, and is not stable.</source>
+            <target state="new">When multiple hits have the same search score, the ordering of same scored items is not defined, and is not stable.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Run the query again, and you might see items shift position.</source>
+            <target state="new">Run the query again, and you might see items shift position.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Given two items with an identical score, there is no guarantee which one appears first.</source>
+            <target state="new">Given two items with an identical score, there is no guarantee which one appears first.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>When to use custom scoring</source>
+            <target state="new">When to use custom scoring</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>You should create one or more scoring profiles when the default ranking behavior doesn’t go far enough in meeting your business objectives.</source>
+            <target state="new">You should create one or more scoring profiles when the default ranking behavior doesn’t go far enough in meeting your business objectives.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>For example, you might decide that search relevance should favor newly added items.</source>
+            <target state="new">For example, you might decide that search relevance should favor newly added items.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Likewise, you might have a field that contains profit margin, or some other field indicating revenue potential.</source>
+            <target state="new">Likewise, you might have a field that contains profit margin, or some other field indicating revenue potential.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Boosting hits that bring benefits to your business can be an important factor in deciding to use scoring profiles.</source>
+            <target state="new">Boosting hits that bring benefits to your business can be an important factor in deciding to use scoring profiles.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Relevancy-based ordering is also implemented through scoring profiles.</source>
+            <target state="new">Relevancy-based ordering is also implemented through scoring profiles.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Consider search results pages you’ve used in the past that let you sort by price, date, rating, or relevance.</source>
+            <target state="new">Consider search results pages you’ve used in the past that let you sort by price, date, rating, or relevance.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>In Azure Search, scoring profiles drive the ‘relevance’ option.</source>
+            <target state="new">In Azure Search, scoring profiles drive the ‘relevance’ option.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>The definition of relevance is controlled by you, predicated on business objectives and the type of search experience you want to deliver.</source>
+            <target state="new">The definition of relevance is controlled by you, predicated on business objectives and the type of search experience you want to deliver.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Example</source>
+            <target state="new">Example</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>As noted earlier, customized scoring is implemented through one or more scoring profiles defined in an index schema.</source>
+            <target state="new">As noted earlier, customized scoring is implemented through one or more scoring profiles defined in an index schema.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>This example shows the schema of an index with two scoring profiles (<ph id="1">&lt;codeInline&gt;boostGenre&lt;/codeInline&gt;</ph>, <ph id="2">&lt;codeInline&gt;newAndHighlyRated&lt;/codeInline&gt;</ph>).</source>
+            <target state="new">This example shows the schema of an index with two scoring profiles (<ph id="1">&lt;codeInline&gt;boostGenre&lt;/codeInline&gt;</ph>, <ph id="2">&lt;codeInline&gt;newAndHighlyRated&lt;/codeInline&gt;</ph>).</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Any query against this index that includes either profile as a query parameter will use the profile to score the result set.</source>
+            <target state="new">Any query against this index that includes either profile as a query parameter will use the profile to score the result set.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Try this example.</source>
+            <target state="new">Try this example.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Workflow</source>
+            <target state="new">Workflow</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>To implement custom scoring behavior, add a scoring profile to the schema that defines the index.</source>
+            <target state="new">To implement custom scoring behavior, add a scoring profile to the schema that defines the index.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>You can have multiple scoring profiles within an index, but you can only specify one profile at time in any given query.</source>
+            <target state="new">You can have multiple scoring profiles within an index, but you can only specify one profile at time in any given query.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Start with the <ph id="1">&lt;link xlink:href="#bkmk_template" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Template&lt;/link&gt;</ph> provided in this topic.</source>
+            <target state="new">Start with the <ph id="1">&lt;link xlink:href="#bkmk_template" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Template&lt;/link&gt;</ph> provided in this topic.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Provide a name.</source>
+            <target state="new">Provide a name.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Scoring profiles are optional, but if you add one, the name is required.</source>
+            <target state="new">Scoring profiles are optional, but if you add one, the name is required.</target>
+          </trans-unit>
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Be sure to follow the naming conventions for fields (starts with a letter, avoids special characters and reserved words).</source>
+            <target state="new">Be sure to follow the naming conventions for fields (starts with a letter, avoids special characters and reserved words).</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="b298ac63-7b92-48cd-afe2-828538c47ca9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure Search Service REST API&lt;/link&gt;</ph> for naming rules.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="b298ac63-7b92-48cd-afe2-828538c47ca9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure Search Service REST API&lt;/link&gt;</ph> for naming rules.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>The body of the scoring profile is constructed from weighted fields and functions.</source>
+            <target state="new">The body of the scoring profile is constructed from weighted fields and functions.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Weights</source>
+            <target state="new">Weights</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Specify name-value pairs that assign a relative weight to a field.</source>
+            <target state="new">Specify name-value pairs that assign a relative weight to a field.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>In the <ph id="1">&lt;link xlink:href="#bkmk_ex" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Example&lt;/link&gt;</ph>, the albumTitle, genre, and artistName fields are boosted 1, 5, and null, respectively.</source>
+            <target state="new">In the <ph id="1">&lt;link xlink:href="#bkmk_ex" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Example&lt;/link&gt;</ph>, the albumTitle, genre, and artistName fields are boosted 1, 5, and null, respectively.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Why is genre boosted so much higher than the others?</source>
+            <target state="new">Why is genre boosted so much higher than the others?</target>
+          </trans-unit>
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>If search is conducted over data that is somewhat homogenous (as is the case with 'genre' in the <ph id="1">&lt;codeInline&gt;musicstoreindex&lt;/codeInline&gt;</ph>), you might need a larger variance in the relative weights.</source>
+            <target state="new">If search is conducted over data that is somewhat homogenous (as is the case with 'genre' in the <ph id="1">&lt;codeInline&gt;musicstoreindex&lt;/codeInline&gt;</ph>), you might need a larger variance in the relative weights.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>For example, in the <ph id="1">&lt;codeInline&gt;musicstoreindex&lt;/codeInline&gt;</ph>, ‘rock’ appears as both a genre and in identically phrased genre descriptions.</source>
+            <target state="new">For example, in the <ph id="1">&lt;codeInline&gt;musicstoreindex&lt;/codeInline&gt;</ph>, ‘rock’ appears as both a genre and in identically phrased genre descriptions.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>If you want genre to outweigh genre description, the genre field will need a much higher relative weight.</source>
+            <target state="new">If you want genre to outweigh genre description, the genre field will need a much higher relative weight.</target>
+          </trans-unit>
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>For more heterogeneous data, the weighted values can be smaller.</source>
+            <target state="new">For more heterogeneous data, the weighted values can be smaller.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Functions</source>
+            <target state="new">Functions</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Used when additional calculations are required for specific contexts.</source>
+            <target state="new">Used when additional calculations are required for specific contexts.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Valid values include <ph id="1">&lt;codeInline&gt;freshness&lt;/codeInline&gt;</ph>, <ph id="2">&lt;codeInline&gt;magnitude&lt;/codeInline&gt;</ph>, or <ph id="3">&lt;codeInline&gt;distance&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Valid values include <ph id="1">&lt;codeInline&gt;freshness&lt;/codeInline&gt;</ph>, <ph id="2">&lt;codeInline&gt;magnitude&lt;/codeInline&gt;</ph>, or <ph id="3">&lt;codeInline&gt;distance&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Each function has parameters that are unique to it.</source>
+            <target state="new">Each function has parameters that are unique to it.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;freshness&lt;/codeInline&gt;</ph> should be used when you want to boost by how new or old an item is.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;freshness&lt;/codeInline&gt;</ph> should be used when you want to boost by how new or old an item is.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>This function can only be used with <ph id="1">&lt;codeInline&gt;datetime&lt;/codeInline&gt;</ph> fields (edm.DataTimeOffset).</source>
+            <target state="new">This function can only be used with <ph id="1">&lt;codeInline&gt;datetime&lt;/codeInline&gt;</ph> fields (edm.DataTimeOffset).</target>
+          </trans-unit>
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Note the <ph id="1">&lt;codeInline&gt;boostingDuration&lt;/codeInline&gt;</ph> attribute is used only with the <ph id="2">&lt;codeInline&gt;freshness&lt;/codeInline&gt;</ph> function.</source>
+            <target state="new">Note the <ph id="1">&lt;codeInline&gt;boostingDuration&lt;/codeInline&gt;</ph> attribute is used only with the <ph id="2">&lt;codeInline&gt;freshness&lt;/codeInline&gt;</ph> function.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;magnitude&lt;/codeInline&gt;</ph> should be used when you want to boost based on how high or low a numeric value is.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;magnitude&lt;/codeInline&gt;</ph> should be used when you want to boost based on how high or low a numeric value is.</target>
+          </trans-unit>
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Scenarios that call for this function include boosting by profit margin, highest price, lowest price, or a count of downloads.</source>
+            <target state="new">Scenarios that call for this function include boosting by profit margin, highest price, lowest price, or a count of downloads.</target>
+          </trans-unit>
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>This function can only be used with double and integer fields.</source>
+            <target state="new">This function can only be used with double and integer fields.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>For the <ph id="1">&lt;codeInline&gt;magnitude&lt;/codeInline&gt;</ph> function, you can reverse the range, high to low, if you want the inverse pattern (for example, to boost lower-priced items more than higher-priced items).</source>
+            <target state="new">For the <ph id="1">&lt;codeInline&gt;magnitude&lt;/codeInline&gt;</ph> function, you can reverse the range, high to low, if you want the inverse pattern (for example, to boost lower-priced items more than higher-priced items).</target>
+          </trans-unit>
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Given a range of prices from $100 to $1, you would set <ph id="1">&lt;codeInline&gt;boostingRangeStart&lt;/codeInline&gt;</ph> at 100 and <ph id="2">&lt;codeInline&gt;boostingRangeEnd&lt;/codeInline&gt;</ph> at 1 to boost the lower-priced items.</source>
+            <target state="new">Given a range of prices from $100 to $1, you would set <ph id="1">&lt;codeInline&gt;boostingRangeStart&lt;/codeInline&gt;</ph> at 100 and <ph id="2">&lt;codeInline&gt;boostingRangeEnd&lt;/codeInline&gt;</ph> at 1 to boost the lower-priced items.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;distance&lt;/codeInline&gt;</ph> should be used when you want to boost by proximity or geographic location.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;distance&lt;/codeInline&gt;</ph> should be used when you want to boost by proximity or geographic location.</target>
+          </trans-unit>
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>This function can only be used with <ph id="1">&lt;codeInline&gt;geo.distance&lt;/codeInline&gt;</ph> fields.</source>
+            <target state="new">This function can only be used with <ph id="1">&lt;codeInline&gt;geo.distance&lt;/codeInline&gt;</ph> fields.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Rules for using functions</source>
+            <target state="new">Rules for using functions</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Function type (<ph id="1">&lt;codeInline&gt;freshness&lt;/codeInline&gt;</ph>, <ph id="2">&lt;codeInline&gt;magnitude&lt;/codeInline&gt;</ph>, <ph id="3">&lt;codeInline&gt;distance&lt;/codeInline&gt;</ph>) must be lower case.</source>
+            <target state="new">Function type (<ph id="1">&lt;codeInline&gt;freshness&lt;/codeInline&gt;</ph>, <ph id="2">&lt;codeInline&gt;magnitude&lt;/codeInline&gt;</ph>, <ph id="3">&lt;codeInline&gt;distance&lt;/codeInline&gt;</ph>) must be lower case.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Functions cannot include null or empty values.</source>
+            <target state="new">Functions cannot include null or empty values.</target>
+          </trans-unit>
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Specifically, if you include fieldname, you have to set it to something.</source>
+            <target state="new">Specifically, if you include fieldname, you have to set it to something.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Functions can only be applied to filterable fields.</source>
+            <target state="new">Functions can only be applied to filterable fields.</target>
+          </trans-unit>
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="ecafed05-c746-4d9e-ac8e-653066e909b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create Index (Azure Search API)&lt;/link&gt;</ph> for more information about filterable fields.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="ecafed05-c746-4d9e-ac8e-653066e909b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create Index (Azure Search API)&lt;/link&gt;</ph> for more information about filterable fields.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Functions can only be applied to fields that are defined in the fields collection of an index.</source>
+            <target state="new">Functions can only be applied to fields that are defined in the fields collection of an index.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>After the index is defined, build the index by uploading the index schema, followed by documents.</source>
+            <target state="new">After the index is defined, build the index by uploading the index schema, followed by documents.</target>
+          </trans-unit>
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="ecafed05-c746-4d9e-ac8e-653066e909b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create Index (Azure Search API)&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="75503cda-fbc5-4e70-ac14-35fdedd0c001" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Add or Update Documents (Azure Search API)&lt;/link&gt;</ph> for instructions on these operations.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="ecafed05-c746-4d9e-ac8e-653066e909b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create Index (Azure Search API)&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="75503cda-fbc5-4e70-ac14-35fdedd0c001" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Add or Update Documents (Azure Search API)&lt;/link&gt;</ph> for instructions on these operations.</target>
+          </trans-unit>
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Once the index is built, you should have a functional scoring profile that works with your search data.</source>
+            <target state="new">Once the index is built, you should have a functional scoring profile that works with your search data.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Template</source>
+            <target state="new">Template</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>This section shows the syntax and template for scoring profiles.</source>
+            <target state="new">This section shows the syntax and template for scoring profiles.</target>
+          </trans-unit>
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Refer to <ph id="1">&lt;link xlink:href="#bkmk_indexref" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Index attribute reference&lt;/link&gt;</ph> in the next section for descriptions of the attributes.</source>
+            <target state="new">Refer to <ph id="1">&lt;link xlink:href="#bkmk_indexref" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Index attribute reference&lt;/link&gt;</ph> in the next section for descriptions of the attributes.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Index attributes reference</source>
+            <target state="new">Index attributes reference</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>A scoring function can only be applied to fields that are filterable.</source>
+            <target state="new">A scoring function can only be applied to fields that are filterable.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Attribute</source>
+            <target state="new">Attribute</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>This is the name of the scoring profile.</source>
+            <target state="new">This is the name of the scoring profile.</target>
+          </trans-unit>
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>It follows the same naming conventions of a field.</source>
+            <target state="new">It follows the same naming conventions of a field.</target>
+          </trans-unit>
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>It must start with a letter, cannot contain dots, colons or @ symbols, and cannot start with the phrase ‘azureSearch’ (case-sensitive).</source>
+            <target state="new">It must start with a letter, cannot contain dots, colons or @ symbols, and cannot start with the phrase ‘azureSearch’ (case-sensitive).</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Contains the Weights property.</source>
+            <target state="new">Contains the Weights property.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>A name-value pair that specifies a field name and relative weight.</source>
+            <target state="new">A name-value pair that specifies a field name and relative weight.</target>
+          </trans-unit>
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Relative weight must be a positive integer.</source>
+            <target state="new">Relative weight must be a positive integer.</target>
+          </trans-unit>
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>The maximum value is int32.MaxValue.</source>
+            <target state="new">The maximum value is int32.MaxValue.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>You can specify the field name without a corresponding weight.</source>
+            <target state="new">You can specify the field name without a corresponding weight.</target>
+          </trans-unit>
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>Weights are used to indicate the importance of one field relative to another.</source>
+            <target state="new">Weights are used to indicate the importance of one field relative to another.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Note that a scoring function can only be applied to fields that are filterable.</source>
+            <target state="new">Note that a scoring function can only be applied to fields that are filterable.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>Required for scoring functions.</source>
+            <target state="new">Required for scoring functions.</target>
+          </trans-unit>
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>Indicates the type of function to use.</source>
+            <target state="new">Indicates the type of function to use.</target>
+          </trans-unit>
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>Valid values include magnitude, freshness, and distance.</source>
+            <target state="new">Valid values include magnitude, freshness, and distance.</target>
+          </trans-unit>
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>You can include more than one function in each scoring profile.</source>
+            <target state="new">You can include more than one function in each scoring profile.</target>
+          </trans-unit>
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>The function name must be lower case.</source>
+            <target state="new">The function name must be lower case.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>Required for scoring functions.</source>
+            <target state="new">Required for scoring functions.</target>
+          </trans-unit>
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>A positive number used as multiplier for raw score.</source>
+            <target state="new">A positive number used as multiplier for raw score.</target>
+          </trans-unit>
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>It cannot be equal to 1.</source>
+            <target state="new">It cannot be equal to 1.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>Required for scoring functions.</source>
+            <target state="new">Required for scoring functions.</target>
+          </trans-unit>
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>A scoring function can only be applied to fields that are part of the field collection of the index, and that are filterable.</source>
+            <target state="new">A scoring function can only be applied to fields that are part of the field collection of the index, and that are filterable.</target>
+          </trans-unit>
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>In addition, each function type introduces additional restrictions (freshness is used with datetime fields, magnitude with integer or double fields, and distance with location fields).</source>
+            <target state="new">In addition, each function type introduces additional restrictions (freshness is used with datetime fields, magnitude with integer or double fields, and distance with location fields).</target>
+          </trans-unit>
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>You can only specify a single field per function definition.</source>
+            <target state="new">You can only specify a single field per function definition.</target>
+          </trans-unit>
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>For example, to use magnitude twice in the same profile, you would need to include two definitions magnitude, one for each field.</source>
+            <target state="new">For example, to use magnitude twice in the same profile, you would need to include two definitions magnitude, one for each field.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>Required for scoring functions.</source>
+            <target state="new">Required for scoring functions.</target>
+          </trans-unit>
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>Defines the slope for which the score boosting increases from the start of the range to the end of the range.</source>
+            <target state="new">Defines the slope for which the score boosting increases from the start of the range to the end of the range.</target>
+          </trans-unit>
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>Valid values include Linear (default), Constant, Quadratic, and Logarithmic.</source>
+            <target state="new">Valid values include Linear (default), Constant, Quadratic, and Logarithmic.</target>
+          </trans-unit>
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="#bkmk_interpolation" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set interpolations&lt;/link&gt;</ph> for details.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="#bkmk_interpolation" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set interpolations&lt;/link&gt;</ph> for details.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>The magnitude scoring function is used to alter rankings based on the range of values for a numeric field.</source>
+            <target state="new">The magnitude scoring function is used to alter rankings based on the range of values for a numeric field.</target>
+          </trans-unit>
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>Some of the most common usage examples of this are:</source>
+            <target state="new">Some of the most common usage examples of this are:</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Star ratings:<ept id="1">&lt;/embeddedLabel&gt;</ept> Alter the scoring based on the value within the “Star Rating” field.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Star ratings:<ept id="1">&lt;/embeddedLabel&gt;</ept> Alter the scoring based on the value within the “Star Rating” field.</target>
+          </trans-unit>
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>When two items are relevant, the item with the higher rating will be displayed first.</source>
+            <target state="new">When two items are relevant, the item with the higher rating will be displayed first.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Margin:<ept id="1">&lt;/embeddedLabel&gt;</ept> When two documents are relevant, a retailer may wish to boost documents that have higher margins first.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Margin:<ept id="1">&lt;/embeddedLabel&gt;</ept> When two documents are relevant, a retailer may wish to boost documents that have higher margins first.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Click counts:<ept id="1">&lt;/embeddedLabel&gt;</ept> For applications that track click through actions to products or pages, you could use magnitude to boost items that tend to get the most traffic.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Click counts:<ept id="1">&lt;/embeddedLabel&gt;</ept> For applications that track click through actions to products or pages, you could use magnitude to boost items that tend to get the most traffic.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Download counts:<ept id="1">&lt;/embeddedLabel&gt;</ept> For applications that track downloads, the magnitude function lets you boost items that have the most downloads.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Download counts:<ept id="1">&lt;/embeddedLabel&gt;</ept> For applications that track downloads, the magnitude function lets you boost items that have the most downloads.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;magnitude&lt;/codeInline&gt;</ph> | <ph id="2">&lt;codeInline&gt;boostingRangeStart&lt;/codeInline&gt;</ph></source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;magnitude&lt;/codeInline&gt;</ph> | <ph id="2">&lt;codeInline&gt;boostingRangeStart&lt;/codeInline&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>Sets the start value of the range over which magnitude is scored.</source>
+            <target state="new">Sets the start value of the range over which magnitude is scored.</target>
+          </trans-unit>
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>The value must be an integer or double.</source>
+            <target state="new">The value must be an integer or double.</target>
+          </trans-unit>
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>For star ratings of 1 through 4, this would be 1.</source>
+            <target state="new">For star ratings of 1 through 4, this would be 1.</target>
+          </trans-unit>
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>For margins over 50%, this would be 50.</source>
+            <target state="new">For margins over 50%, this would be 50.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;magnitude&lt;/codeInline&gt;</ph> | <ph id="2">&lt;codeInline&gt;boostingRangeEnd&lt;/codeInline&gt;</ph></source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;magnitude&lt;/codeInline&gt;</ph> | <ph id="2">&lt;codeInline&gt;boostingRangeEnd&lt;/codeInline&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>Sets the end value of the range over which magnitude is scored.</source>
+            <target state="new">Sets the end value of the range over which magnitude is scored.</target>
+          </trans-unit>
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>The value must be an integer or double.</source>
+            <target state="new">The value must be an integer or double.</target>
+          </trans-unit>
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>For star ratings of 1 through 4, this would be 4.</source>
+            <target state="new">For star ratings of 1 through 4, this would be 4.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;magnitude&lt;/codeInline&gt;</ph> | <ph id="2">&lt;codeInline&gt;constantBoostBeyondRange&lt;/codeInline&gt;</ph></source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;magnitude&lt;/codeInline&gt;</ph> | <ph id="2">&lt;codeInline&gt;constantBoostBeyondRange&lt;/codeInline&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>Valid values are true or false (default).</source>
+            <target state="new">Valid values are true or false (default).</target>
+          </trans-unit>
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>When set to true, the full boost will continue to apply to documents that have a value for the target field that’s higher than the upper end of the range.</source>
+            <target state="new">When set to true, the full boost will continue to apply to documents that have a value for the target field that’s higher than the upper end of the range.</target>
+          </trans-unit>
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>If false, the boost of this function won’t be applied to documents having a value for the target field that falls outside of the range.</source>
+            <target state="new">If false, the boost of this function won’t be applied to documents having a value for the target field that falls outside of the range.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>The freshness scoring function is used to alter ranking scores for items based on values in <ph id="1">&lt;codeInline&gt;DateTimeOffset&lt;/codeInline&gt;</ph> fields.</source>
+            <target state="new">The freshness scoring function is used to alter ranking scores for items based on values in <ph id="1">&lt;codeInline&gt;DateTimeOffset&lt;/codeInline&gt;</ph> fields.</target>
+          </trans-unit>
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>For example, an item with a more recent date can be ranked higher than older items.</source>
+            <target state="new">For example, an item with a more recent date can be ranked higher than older items.</target>
+          </trans-unit>
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>In the current service release, one end of the range will be fixed to the current time.</source>
+            <target state="new">In the current service release, one end of the range will be fixed to the current time.</target>
+          </trans-unit>
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>The rate at which the boosting changes from a maximum and minimum range is determined by the Interpolation applied to the scoring profile (see the figure below).</source>
+            <target state="new">The rate at which the boosting changes from a maximum and minimum range is determined by the Interpolation applied to the scoring profile (see the figure below).</target>
+          </trans-unit>
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>To reverse the boosting factor applied, choose a boost factor of &lt; 1.</source>
+            <target state="new">To reverse the boosting factor applied, choose a boost factor of &lt; 1.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;freshness&lt;/codeInline&gt;</ph> | <ph id="2">&lt;codeInline&gt;boostingDuration&lt;/codeInline&gt;</ph></source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;freshness&lt;/codeInline&gt;</ph> | <ph id="2">&lt;codeInline&gt;boostingDuration&lt;/codeInline&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>Sets an expiration period after which boosting will stop for a particular document.</source>
+            <target state="new">Sets an expiration period after which boosting will stop for a particular document.</target>
+          </trans-unit>
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="#bkmk_boostdur" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set boostingDuration&lt;/link&gt;</ph> in the following section for syntax and examples.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="#bkmk_boostdur" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set boostingDuration&lt;/link&gt;</ph> in the following section for syntax and examples.</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>The distance scoring function is used to affect the score of documents based on how close or far they are relative to a reference geographic location.</source>
+            <target state="new">The distance scoring function is used to affect the score of documents based on how close or far they are relative to a reference geographic location.</target>
+          </trans-unit>
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>The reference location is given as part of the query in a parameter (using the <ph id="1">&lt;codeInline&gt;scoringParameterquery&lt;/codeInline&gt;</ph> string option) as a lon,lat argument.</source>
+            <target state="new">The reference location is given as part of the query in a parameter (using the <ph id="1">&lt;codeInline&gt;scoringParameterquery&lt;/codeInline&gt;</ph> string option) as a lon,lat argument.</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;distance&lt;/codeInline&gt;</ph> | <ph id="2">&lt;codeInline&gt;referencePointParameter&lt;/codeInline&gt;</ph></source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;distance&lt;/codeInline&gt;</ph> | <ph id="2">&lt;codeInline&gt;referencePointParameter&lt;/codeInline&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>A parameter to be passed in queries to use as reference location.</source>
+            <target state="new">A parameter to be passed in queries to use as reference location.</target>
+          </trans-unit>
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;scoringParameter&lt;/codeInline&gt;</ph> is a query parameter.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;scoringParameter&lt;/codeInline&gt;</ph> is a query parameter.</target>
+          </trans-unit>
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="716ef056-adf4-4b16-85b8-2cb777bc8458" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Search Documents (Azure Search API)&lt;/link&gt;</ph> for descriptions of query parameters.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="716ef056-adf4-4b16-85b8-2cb777bc8458" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Search Documents (Azure Search API)&lt;/link&gt;</ph> for descriptions of query parameters.</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;distance&lt;/codeInline&gt;</ph> | <ph id="2">&lt;codeInline&gt;boostingDistance&lt;/codeInline&gt;</ph></source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;distance&lt;/codeInline&gt;</ph> | <ph id="2">&lt;codeInline&gt;boostingDistance&lt;/codeInline&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>Must be an integer.</source>
+            <target state="new">Must be an integer.</target>
+          </trans-unit>
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>Sets the distance in kilometers from the reference location where the boosting range ends.</source>
+            <target state="new">Sets the distance in kilometers from the reference location where the boosting range ends.</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>Applies only when functions are specified.</source>
+            <target state="new">Applies only when functions are specified.</target>
+          </trans-unit>
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>Valid values include: sum (default), average, minimum, maximum, and firstMatching.</source>
+            <target state="new">Valid values include: sum (default), average, minimum, maximum, and firstMatching.</target>
+          </trans-unit>
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>A search score is single value that is computed from multiple variables, including multiple functions.</source>
+            <target state="new">A search score is single value that is computed from multiple variables, including multiple functions.</target>
+          </trans-unit>
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source>This attributes indicates how the boosts of all the functions are combined into a single aggregate boost that then is applied to the base document score.</source>
+            <target state="new">This attributes indicates how the boosts of all the functions are combined into a single aggregate boost that then is applied to the base document score.</target>
+          </trans-unit>
+          <trans-unit id="171" translate="yes" xml:space="preserve">
+            <source>The base score is based on the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>tf-idf<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.tfidf.com/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> value computed from the document and the search query.</source>
+            <target state="new">The base score is based on the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>tf-idf<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.tfidf.com/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> value computed from the document and the search query.</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="172" translate="yes" xml:space="preserve">
+            <source>When executing a search request, if no scoring profile is specified, then default scoring is used (<bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>tf-idf<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.tfidf.com/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> only).</source>
+            <target state="new">When executing a search request, if no scoring profile is specified, then default scoring is used (<bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>tf-idf<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.tfidf.com/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> only).</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="173" translate="yes" xml:space="preserve">
+            <source>A default scoring profile name can be set here, causing Azure Search to use that profile when no specific profile is given in the search request.</source>
+            <target state="new">A default scoring profile name can be set here, causing Azure Search to use that profile when no specific profile is given in the search request.</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="174" translate="yes" xml:space="preserve">
+            <source>Set interpolations</source>
+            <target state="new">Set interpolations</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="175" translate="yes" xml:space="preserve">
+            <source>Search scores extend over a range of values, from highest to lowest.</source>
+            <target state="new">Search scores extend over a range of values, from highest to lowest.</target>
+          </trans-unit>
+          <trans-unit id="176" translate="yes" xml:space="preserve">
+            <source>Interpolations allow you to define the slope for which the score boosting increases from the start of the range to the end of the range.</source>
+            <target state="new">Interpolations allow you to define the slope for which the score boosting increases from the start of the range to the end of the range.</target>
+          </trans-unit>
+          <trans-unit id="177" translate="yes" xml:space="preserve">
+            <source>The following interpolations can be used:</source>
+            <target state="new">The following interpolations can be used:</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="178" translate="yes" xml:space="preserve">
+            <source>For items that are within the max and min range, the boost applied to the item will be done in a constantly decreasing amount.</source>
+            <target state="new">For items that are within the max and min range, the boost applied to the item will be done in a constantly decreasing amount.</target>
+          </trans-unit>
+          <trans-unit id="179" translate="yes" xml:space="preserve">
+            <source>Linear is the default interpolation for a scoring profile.</source>
+            <target state="new">Linear is the default interpolation for a scoring profile.</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="180" translate="yes" xml:space="preserve">
+            <source>For items that are within the start and ending range, a constant boost will be applied to the rank results.</source>
+            <target state="new">For items that are within the start and ending range, a constant boost will be applied to the rank results.</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="181" translate="yes" xml:space="preserve">
+            <source>In comparison to a Linear interpolation that has a constantly decreasing boost, Quadratic will initially decrease at smaller pace and then as it approaches the end range, it decreases at a much higher interval.</source>
+            <target state="new">In comparison to a Linear interpolation that has a constantly decreasing boost, Quadratic will initially decrease at smaller pace and then as it approaches the end range, it decreases at a much higher interval.</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="182" translate="yes" xml:space="preserve">
+            <source>In comparison to a Linear interpolation that has a constantly decreasing boost, Logarithmic will initially decrease at higher pace and then as it approaches the end range, it decreases at a much smaller interval.</source>
+            <target state="new">In comparison to a Linear interpolation that has a constantly decreasing boost, Logarithmic will initially decrease at higher pace and then as it approaches the end range, it decreases at a much smaller interval.</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="183" translate="yes" xml:space="preserve">
+            <source>Set boostingDuration</source>
+            <target state="new">Set boostingDuration</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="184" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;boostingDuration&lt;/codeInline&gt;</ph> is an attribute of the <ph id="2">&lt;codeInline&gt;freshness&lt;/codeInline&gt;</ph> function.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;boostingDuration&lt;/codeInline&gt;</ph> is an attribute of the <ph id="2">&lt;codeInline&gt;freshness&lt;/codeInline&gt;</ph> function.</target>
+          </trans-unit>
+          <trans-unit id="185" translate="yes" xml:space="preserve">
+            <source>You use it to set an expiration period after which boosting will stop for a particular document.</source>
+            <target state="new">You use it to set an expiration period after which boosting will stop for a particular document.</target>
+          </trans-unit>
+          <trans-unit id="186" translate="yes" xml:space="preserve">
+            <source>For example, to boost a product line or brand for a 10-day promotional period, you would specify the 10-day period as "P10D" for those documents.</source>
+            <target state="new">For example, to boost a product line or brand for a 10-day promotional period, you would specify the 10-day period as "P10D" for those documents.</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="187" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;boostingDuration&lt;/codeInline&gt;</ph> must be formatted as an XSD "dayTimeDuration" value (a restricted subset of an ISO 8601 duration value).</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;boostingDuration&lt;/codeInline&gt;</ph> must be formatted as an XSD "dayTimeDuration" value (a restricted subset of an ISO 8601 duration value).</target>
+          </trans-unit>
+          <trans-unit id="188" translate="yes" xml:space="preserve">
+            <source>The pattern for this is: "P[nD][T[nH][nM][nS]]".</source>
+            <target state="new">The pattern for this is: "P[nD][T[nH][nM][nS]]".</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="189" translate="yes" xml:space="preserve">
+            <source>The following table provides several examples.</source>
+            <target state="new">The following table provides several examples.</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="190" translate="yes" xml:space="preserve">
+            <source>Duration</source>
+            <target state="new">Duration</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="191" translate="yes" xml:space="preserve">
+            <source>boostingDuration</source>
+            <target state="new">boostingDuration</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="192" translate="yes" xml:space="preserve">
+            <source>1 day</source>
+            <target state="new">1 day</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="193" translate="yes" xml:space="preserve">
+            <source>"P1D"</source>
+            <target state="new">"P1D"</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="194" translate="yes" xml:space="preserve">
+            <source>2 days and 12 hours</source>
+            <target state="new">2 days and 12 hours</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="195" translate="yes" xml:space="preserve">
+            <source>"P2DT12H"</source>
+            <target state="new">"P2DT12H"</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="196" translate="yes" xml:space="preserve">
+            <source>15 minutes</source>
+            <target state="new">15 minutes</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="197" translate="yes" xml:space="preserve">
+            <source>"PT15M"</source>
+            <target state="new">"PT15M"</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="198" translate="yes" xml:space="preserve">
+            <source>30 days, 5 hours, 10 minutes, and 6.334 seconds</source>
+            <target state="new">30 days, 5 hours, 10 minutes, and 6.334 seconds</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="199" translate="yes" xml:space="preserve">
+            <source>"P30DT5H10M6.334S"</source>
+            <target state="new">"P30DT5H10M6.334S"</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="200" translate="yes" xml:space="preserve">
+            <source>For more examples, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>XML Schema: Datatypes (W3.org web site)<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.w3.org/TR/xmlschema11-2/#dayTimeDuration&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more examples, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>XML Schema: Datatypes (W3.org web site)<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.w3.org/TR/xmlschema11-2/#dayTimeDuration&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="201" translate="yes" xml:space="preserve">
+            <source>Azure Search .NET SDK</source>
+            <target state="new">Azure Search .NET SDK</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

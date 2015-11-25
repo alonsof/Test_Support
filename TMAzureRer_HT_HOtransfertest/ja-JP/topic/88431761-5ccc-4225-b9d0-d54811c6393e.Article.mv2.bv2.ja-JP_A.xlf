@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ja-JP" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAdx1EKwjAMANCr9AANNG1aG08gfvnhBdK0gcncYJuw44vC+3lmaTSKCmMQAaEFaKE20IBSmA1F2Dvm3CqVDjpGBqopA4sJcNOOl4JqtXhXK6XfIKsqUIwZGvcAPVNF1JI4De/Qu5fA/eHdOU9m4zyu27oe3sW/2+cty3OTZZ/lmNblC2UA8oqhAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>CollectTOP</source>
+            <target state="new">CollectTOP</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>CollectTOP (Azure Stream Analytics)</source>
+            <target state="new">CollectTOP (Azure Stream Analytics)</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Returns an array of ranked records, where rank defines the ranking position of the event in the window according to the specified ordering.</source>
+            <target state="new">Returns an array of ranked records, where rank defines the ranking position of the event in the window according to the specified ordering.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Ordering/ranking is based on event columns and can be specified in ORDER BY clause.</source>
+            <target state="new">Ordering/ranking is based on event columns and can be specified in ORDER BY clause.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Syntax</source>
+            <target state="new">Syntax</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Arguments</source>
+            <target state="new">Arguments</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>&lt;number of events as integer literal&gt;</source>
+            <target state="new">&lt;number of events as integer literal&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The number of top events the user wants to collect from the window.</source>
+            <target state="new">The number of top events the user wants to collect from the window.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>&lt;column name&gt;</source>
+            <target state="new">&lt;column name&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Name of the column in the input event, by which ordering will be done.</source>
+            <target state="new">Name of the column in the input event, by which ordering will be done.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Only ordering by bigint/float/datetime types is allowed.</source>
+            <target state="new">Only ordering by bigint/float/datetime types is allowed.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Return Types</source>
+            <target state="new">Return Types</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Array of records of type { “rank” : bigint, “value”: record  }</source>
+            <target state="new">Array of records of type { “rank” : bigint, “value”: record  }</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Remarks</source>
+            <target state="new">Remarks</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Null is treated as the minimal value, for more information look at https://msdn.microsoft.com/en-us/library/ms188385.aspx </source>
+            <target state="new">Null is treated as the minimal value, for more information look at https://msdn.microsoft.com/en-us/library/ms188385.aspx </target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Examples</source>
+            <target state="new">Examples</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Example input:</source>
+            <target state="new">Example input:</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Value1</source>
+            <target state="new">Value1</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Value2</source>
+            <target state="new">Value2</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Value3</source>
+            <target state="new">Value3</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Time</source>
+            <target state="new">Time</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>10</source>
+            <target state="new">10</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>10</source>
+            <target state="new">10</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>2</source>
+            <target state="new">2</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>70</source>
+            <target state="new">70</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>10</source>
+            <target state="new">10</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>50</source>
+            <target state="new">50</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>10</source>
+            <target state="new">10</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>2</source>
+            <target state="new">2</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>2</source>
+            <target state="new">2</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>80</source>
+            <target state="new">80</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>10</source>
+            <target state="new">10</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>3</source>
+            <target state="new">3</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>30</source>
+            <target state="new">30</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>10</source>
+            <target state="new">10</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>3</source>
+            <target state="new">3</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Example output:</source>
+            <target state="new">Example output:</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Value1</source>
+            <target state="new">Value1</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Top1</source>
+            <target state="new">Top1</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>rank</source>
+            <target state="new">rank</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>value</source>
+            <target state="new">value</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Value1</source>
+            <target state="new">Value1</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Value2</source>
+            <target state="new">Value2</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Value3</source>
+            <target state="new">Value3</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Time</source>
+            <target state="new">Time</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>10</source>
+            <target state="new">10</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>10</source>
+            <target state="new">10</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>2</source>
+            <target state="new">2</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Value1</source>
+            <target state="new">Value1</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Value2</source>
+            <target state="new">Value2</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Value3</source>
+            <target state="new">Value3</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Time</source>
+            <target state="new">Time</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>30</source>
+            <target state="new">30</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>10</source>
+            <target state="new">10</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>3</source>
+            <target state="new">3</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>2</source>
+            <target state="new">2</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>rank</source>
+            <target state="new">rank</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>value</source>
+            <target state="new">value</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Value1</source>
+            <target state="new">Value1</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Value2</source>
+            <target state="new">Value2</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Value3</source>
+            <target state="new">Value3</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Time</source>
+            <target state="new">Time</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>2</source>
+            <target state="new">2</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>70</source>
+            <target state="new">70</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>10</source>
+            <target state="new">10</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>2</source>
+            <target state="new">2</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Value1</source>
+            <target state="new">Value1</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Value2</source>
+            <target state="new">Value2</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Value3</source>
+            <target state="new">Value3</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Time</source>
+            <target state="new">Time</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>2</source>
+            <target state="new">2</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>80</source>
+            <target state="new">80</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>10</source>
+            <target state="new">10</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>3</source>
+            <target state="new">3</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

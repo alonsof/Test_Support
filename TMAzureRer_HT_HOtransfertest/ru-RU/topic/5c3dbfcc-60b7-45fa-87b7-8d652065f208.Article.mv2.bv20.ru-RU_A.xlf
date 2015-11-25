@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ru-RU" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAAVitsJwzAMAFfRABLIzzidoN+lHUCWLQi0CaQJZPy6cBz3cWah1+iVeo+RojOmyqWSspM8z+ZEZoRgNYUeeQx/qRMSZ35U8i1rUGkZIWlo1VQpc50oJhMq06jScvKck3kuCA5hP+nxQrjei1m/jtu+bQeCHzDC/fzI+txl/b7lWLb1BzufaEmiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Creating a Service Bus URI</source>
+            <target state="new">Creating a Service Bus URI</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>A <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> URI is a universal resource identifier (URI) that describes the location at which an endpoint is exposed on <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">A <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> URI is a universal resource identifier (URI) that describes the location at which an endpoint is exposed on <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>You use a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> URI when you connect with both a service and client application.</source>
+            <target state="new">You use a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> URI when you connect with both a service and client application.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>You also use a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> URI when you connect to retrieve SAS tokens for authentication and credential verification.</source>
+            <target state="new">You also use a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> URI when you connect to retrieve SAS tokens for authentication and credential verification.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>While you can manually create the URI, or store it in the App.config file, it’s recommended that you use the <ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;M:Microsoft.ServiceBus.ServiceBusEnvironment.CreateServiceUri(System.String,System.String,System.String)&lt;/codeEntityReference&gt;</ph> or <ph id="2">&lt;codeEntityReference qualifyHint="true"&gt;M:Microsoft.ServiceBus.ServiceBusEnvironment.CreateAccessControlUri(System.String)&lt;/codeEntityReference&gt;</ph> methods to create your URIs, as those members contain all the relevant default settings.</source>
+            <target state="new">While you can manually create the URI, or store it in the App.config file, it’s recommended that you use the <ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;M:Microsoft.ServiceBus.ServiceBusEnvironment.CreateServiceUri(System.String,System.String,System.String)&lt;/codeEntityReference&gt;</ph> or <ph id="2">&lt;codeEntityReference qualifyHint="true"&gt;M:Microsoft.ServiceBus.ServiceBusEnvironment.CreateAccessControlUri(System.String)&lt;/codeEntityReference&gt;</ph> methods to create your URIs, as those members contain all the relevant default settings.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> performs case-insensitive comparisons of namespaces to align with the behavior of IIS.</source>
+            <target state="new"><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> performs case-insensitive comparisons of namespaces to align with the behavior of IIS.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>When designing applications that support multitenancy, you should realize that <ph id="1">&lt;token&gt;ac2&lt;/token&gt;</ph> performs case-sensitive comparisons and <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> performs case-insensitive comparisons, if this difference in behavior produces unexpected results in your application.</source>
+            <target state="new">When designing applications that support multitenancy, you should realize that <ph id="1">&lt;token&gt;ac2&lt;/token&gt;</ph> performs case-sensitive comparisons and <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> performs case-insensitive comparisons, if this difference in behavior produces unexpected results in your application.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Because <ph id="1">&lt;token&gt;ac2&lt;/token&gt;</ph> prevents creating scopes that differ only by case, this difference in behavior should not present a security issue.</source>
+            <target state="new">Because <ph id="1">&lt;token&gt;ac2&lt;/token&gt;</ph> prevents creating scopes that differ only by case, this difference in behavior should not present a security issue.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>To create a Service Bus URI</source>
+            <target state="new">To create a Service Bus URI</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Create the URI with a call to <ph id="1">&lt;codeEntityReference&gt;M:Microsoft.ServiceBus.ServiceBusEnvironment.CreateServiceUri(System.String,System.String,System.String)&lt;/codeEntityReference&gt;</ph> or <ph id="2">&lt;codeEntityReference&gt;M:Microsoft.ServiceBus.ServiceBusEnvironment.CreateAccessControlUri(System.String)&lt;/codeEntityReference&gt;</ph>, respectively.</source>
+            <target state="new">Create the URI with a call to <ph id="1">&lt;codeEntityReference&gt;M:Microsoft.ServiceBus.ServiceBusEnvironment.CreateServiceUri(System.String,System.String,System.String)&lt;/codeEntityReference&gt;</ph> or <ph id="2">&lt;codeEntityReference&gt;M:Microsoft.ServiceBus.ServiceBusEnvironment.CreateAccessControlUri(System.String)&lt;/codeEntityReference&gt;</ph>, respectively.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The following example shows how to programmatically create a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> URI.</source>
+            <target state="new">The following example shows how to programmatically create a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> URI.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

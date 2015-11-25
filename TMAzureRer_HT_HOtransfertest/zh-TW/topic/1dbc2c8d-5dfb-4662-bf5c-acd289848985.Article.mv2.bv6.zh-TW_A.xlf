@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-TW" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzM0JwzAMQOFVPIAF/pFduxN0gEDPkmzRQJpA6kLo9PXh3T6eauyMQaB3RECvDtgVBnGecq3qiao1seLNIyfw0ZWpYgBK3IGIcxNqMifW+MYSpDRITRkw5wCsSYCkhVILztJU1vxesDytubZVtV/jfh7HsCZYk615fN+0Lyftn43Geux/h6gSBaEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Suggesters</source>
+            <target state="new">Suggesters</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The suggestions feature in Azure Search is a type-ahead or auto-complete query capability, providing a list of potential search terms in response to partial string inputs entered into a search box.</source>
+            <target state="new">The suggestions feature in Azure Search is a type-ahead or auto-complete query capability, providing a list of potential search terms in response to partial string inputs entered into a search box.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>You've probably noticed query suggestions when using commercial web search engines: typing ".NET" in Bing produces a list of terms for ".NET 4.5", ".NET Framework 3.5", and so forth.</source>
+            <target state="new">You've probably noticed query suggestions when using commercial web search engines: typing ".NET" in Bing produces a list of terms for ".NET 4.5", ".NET Framework 3.5", and so forth.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Using the service REST API, implementing suggestions in a custom Azure Search application requires the following:</source>
+            <target state="new">Using the service REST API, implementing suggestions in a custom Azure Search application requires the following:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Enable suggestions by adding a <ph id="1">&lt;languageKeyword&gt;suggester&lt;/languageKeyword&gt;</ph> construction in your index, giving the name, search mode, and a list of fields for which type-ahead is invoked.</source>
+            <target state="new">Enable suggestions by adding a <ph id="1">&lt;languageKeyword&gt;suggester&lt;/languageKeyword&gt;</ph> construction in your index, giving the name, search mode, and a list of fields for which type-ahead is invoked.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>For example, if you specify "cityName" as a source field, typing a partial search string of "Sea" will result in "Seattle", "Seaside", and "Seatac" (all three are actual city names) offered up as query suggestions to the user.</source>
+            <target state="new">For example, if you specify "cityName" as a source field, typing a partial search string of "Sea" will result in "Seattle", "Seaside", and "Seatac" (all three are actual city names) offered up as query suggestions to the user.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Invoke suggestions by calling the <ph id="1">&lt;link xlink:href="b3fed159-774d-42e0-8ded-ee453f6cd857" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Suggestions API&lt;/link&gt;</ph>in your application code.</source>
+            <target state="new">Invoke suggestions by calling the <ph id="1">&lt;link xlink:href="b3fed159-774d-42e0-8ded-ee453f6cd857" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Suggestions API&lt;/link&gt;</ph>in your application code.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Typically partial search strings are sent to the service while the user is typing a search query, and this API returns a set of suggested phrases.</source>
+            <target state="new">Typically partial search strings are sent to the service while the user is typing a search query, and this API returns a set of suggested phrases.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>This article explains how to configure a <ph id="1">&lt;languageKeyword&gt;suggester&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">This article explains how to configure a <ph id="1">&lt;languageKeyword&gt;suggester&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>You should also review the <ph id="1">&lt;link xlink:href="b3fed159-774d-42e0-8ded-ee453f6cd857" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Suggestions API&lt;/link&gt;</ph> for details on how a <ph id="2">&lt;languageKeyword&gt;suggester&lt;/languageKeyword&gt;</ph> is used.</source>
+            <target state="new">You should also review the <ph id="1">&lt;link xlink:href="b3fed159-774d-42e0-8ded-ee453f6cd857" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Suggestions API&lt;/link&gt;</ph> for details on how a <ph id="2">&lt;languageKeyword&gt;suggester&lt;/languageKeyword&gt;</ph> is used.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Usage</source>
+            <target state="new">Usage</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Suggesters&lt;/languageKeyword&gt;</ph> are created in the index and work best when used to suggest specific documents rather than loose terms or phrases.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Suggesters&lt;/languageKeyword&gt;</ph> are created in the index and work best when used to suggest specific documents rather than loose terms or phrases.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The best candidate fields are titles, names, and other relatively short phrases that can identify an item.</source>
+            <target state="new">The best candidate fields are titles, names, and other relatively short phrases that can identify an item.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Less effective are repetitive fields, such as categories and tags, or very long fields such as descriptions or comments fields.</source>
+            <target state="new">Less effective are repetitive fields, such as categories and tags, or very long fields such as descriptions or comments fields.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>As part of the index definition, you can add a single <ph id="1">&lt;languageKeyword&gt;suggester&lt;/languageKeyword&gt;</ph> to the <ph id="2">&lt;languageKeyword&gt;suggesters&lt;/languageKeyword&gt;</ph> collection.</source>
+            <target state="new">As part of the index definition, you can add a single <ph id="1">&lt;languageKeyword&gt;suggester&lt;/languageKeyword&gt;</ph> to the <ph id="2">&lt;languageKeyword&gt;suggesters&lt;/languageKeyword&gt;</ph> collection.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Properties that define a <ph id="1">&lt;languageKeyword&gt;suggester&lt;/languageKeyword&gt;</ph> include the following:</source>
+            <target state="new">Properties that define a <ph id="1">&lt;languageKeyword&gt;suggester&lt;/languageKeyword&gt;</ph> include the following:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Property</source>
+            <target state="new">Property</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>The name of the <ph id="1">&lt;languageKeyword&gt;suggester&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">The name of the <ph id="1">&lt;languageKeyword&gt;suggester&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>You use the name of the <ph id="1">&lt;languageKeyword&gt;suggester&lt;/languageKeyword&gt;</ph> when calling the <ph id="2">&lt;link xlink:href="b3fed159-774d-42e0-8ded-ee453f6cd857" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Suggestions API&lt;/link&gt;</ph>.</source>
+            <target state="new">You use the name of the <ph id="1">&lt;languageKeyword&gt;suggester&lt;/languageKeyword&gt;</ph> when calling the <ph id="2">&lt;link xlink:href="b3fed159-774d-42e0-8ded-ee453f6cd857" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Suggestions API&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>The strategy used to search for candidate phrases.</source>
+            <target state="new">The strategy used to search for candidate phrases.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>The only mode currently supported is <ph id="1">&lt;codeInline&gt;analyzingInfixMatching&lt;/codeInline&gt;</ph>, which performs flexible matching of phrases at the beginning or in the middle of sentences.</source>
+            <target state="new">The only mode currently supported is <ph id="1">&lt;codeInline&gt;analyzingInfixMatching&lt;/codeInline&gt;</ph>, which performs flexible matching of phrases at the beginning or in the middle of sentences.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>A list of one or more fields that are the source of the content for suggestions.</source>
+            <target state="new">A list of one or more fields that are the source of the content for suggestions.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Only fields of type <ph id="1">&lt;codeInline&gt;Edm.String&lt;/codeInline&gt;</ph> and <ph id="2">&lt;codeInline&gt;Collection(Edm.String)&lt;/codeInline&gt;</ph> may be sources for suggestions.</source>
+            <target state="new">Only fields of type <ph id="1">&lt;codeInline&gt;Edm.String&lt;/codeInline&gt;</ph> and <ph id="2">&lt;codeInline&gt;Collection(Edm.String)&lt;/codeInline&gt;</ph> may be sources for suggestions.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Only fields that don't have a custom language analyzer set can be used.</source>
+            <target state="new">Only fields that don't have a custom language analyzer set can be used.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>If you used the public preview version of Azure Search, <ph id="1">&lt;languageKeyword&gt;suggesters&lt;/languageKeyword&gt;</ph> replaces an older boolean field property (<ph id="2">&lt;codeInline&gt;"suggestions": false&lt;/codeInline&gt;</ph>) that only supported prefix suggestions for short strings (3-25 characters).</source>
+            <target state="new">If you used the public preview version of Azure Search, <ph id="1">&lt;languageKeyword&gt;suggesters&lt;/languageKeyword&gt;</ph> replaces an older boolean field property (<ph id="2">&lt;codeInline&gt;"suggestions": false&lt;/codeInline&gt;</ph>) that only supported prefix suggestions for short strings (3-25 characters).</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Its replacement, <ph id="1">&lt;languageKeyword&gt;suggesters&lt;/languageKeyword&gt;</ph>, supports infix matching that finds matching terms at the beginning or in the middle of field content, with better tolerance for mistakes in search strings.</source>
+            <target state="new">Its replacement, <ph id="1">&lt;languageKeyword&gt;suggesters&lt;/languageKeyword&gt;</ph>, supports infix matching that finds matching terms at the beginning or in the middle of field content, with better tolerance for mistakes in search strings.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>This is now the only implementation of the suggestions API.</source>
+            <target state="new">This is now the only implementation of the suggestions API.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeInline&gt;suggestions&lt;/codeInline&gt;</ph> property that was introduced in <ph id="2">&lt;codeInline&gt;api-version=2014-07-31-Preview&lt;/codeInline&gt;</ph> continues to work in that version, but is not operational in newer versions of Azure Search.</source>
+            <target state="new">The <ph id="1">&lt;codeInline&gt;suggestions&lt;/codeInline&gt;</ph> property that was introduced in <ph id="2">&lt;codeInline&gt;api-version=2014-07-31-Preview&lt;/codeInline&gt;</ph> continues to work in that version, but is not operational in newer versions of Azure Search.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>See <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Transition code from preview to the generally available release<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/en-us/documentation/articles/search-transition-from-preview/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for guidance on how to update your code.</source>
+            <target state="new">See <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Transition code from preview to the generally available release<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/en-us/documentation/articles/search-transition-from-preview/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for guidance on how to update your code.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Suggester example</source>
+            <target state="new">Suggester example</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>A <ph id="1">&lt;languageKeyword&gt;suggester&lt;/languageKeyword&gt;</ph> is part of the index.</source>
+            <target state="new">A <ph id="1">&lt;languageKeyword&gt;suggester&lt;/languageKeyword&gt;</ph> is part of the index.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Only one <ph id="1">&lt;languageKeyword&gt;suggester&lt;/languageKeyword&gt;</ph> can exist in the <ph id="2">&lt;languageKeyword&gt;suggesters&lt;/languageKeyword&gt;</ph> collection in the current version, alongside the <ph id="3">&lt;languageKeyword&gt;fields&lt;/languageKeyword&gt;</ph> collection and <ph id="4">&lt;languageKeyword&gt;scoringProfiles&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">Only one <ph id="1">&lt;languageKeyword&gt;suggester&lt;/languageKeyword&gt;</ph> can exist in the <ph id="2">&lt;languageKeyword&gt;suggesters&lt;/languageKeyword&gt;</ph> collection in the current version, alongside the <ph id="3">&lt;languageKeyword&gt;fields&lt;/languageKeyword&gt;</ph> collection and <ph id="4">&lt;languageKeyword&gt;scoringProfiles&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Azure Search .NET SDK</source>
+            <target state="new">Azure Search .NET SDK</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

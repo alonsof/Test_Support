@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ru-RU" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzO0JwkAMANBVMkACd2nuywn8LTpA7ppAQVuoLXR8fQM898m68CAzEZLogXqonUaImlvzqNoQQjN1mZlCrUoyZKZaWWmSUjjPpi0MhJ5rkpIGlW75f6VOLfVGVtgn1sxaFCEi7Cc9XgjXe3G367jt23YgMEJGuJ8fXZ+7rt+3Hsu2/gDfy+LvoQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Unlock Message</source>
+            <target state="new">Unlock Message</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Unlocks a message for processing by other receivers on a specified subscription.</source>
+            <target state="new">Unlocks a message for processing by other receivers on a specified subscription.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This operation deletes the lock object, causing the message to be unlocked.</source>
+            <target state="new">This operation deletes the lock object, causing the message to be unlocked.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Before the operation is called, a receiver must first lock the message.</source>
+            <target state="new">Before the operation is called, a receiver must first lock the message.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Request</source>
+            <target state="new">Request</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Method</source>
+            <target state="new">Method</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Request URI</source>
+            <target state="new">Request URI</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>HTTP Version</source>
+            <target state="new">HTTP Version</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>PUT</source>
+            <target state="new">PUT</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>http{s}://{serviceNamespace}.servicebus.windows.net/{queuePath}/messages/{messageId|sequenceNumber}/{lockToken}</source>
+            <target state="new">http{s}://{serviceNamespace}.servicebus.windows.net/{queuePath}/messages/{messageId|sequenceNumber}/{lockToken}</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>or</source>
+            <target state="new">or</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>http{s}://{serviceNamespace}.servicebus.windows.net/{topicPath}/subscriptions/{subscriptionName}/messages/{messageId|sequenceNumber}/{lockToken}</source>
+            <target state="new">http{s}://{serviceNamespace}.servicebus.windows.net/{topicPath}/subscriptions/{subscriptionName}/messages/{messageId|sequenceNumber}/{lockToken}</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>HTTP/1.1</source>
+            <target state="new">HTTP/1.1</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>URI Parameters</source>
+            <target state="new">URI Parameters</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The URI is provided in the Location header of the peeked message, or you can construct it from the parts described in the following table.</source>
+            <target state="new">The URI is provided in the Location header of the peeked message, or you can construct it from the parts described in the following table.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Parameter</source>
+            <target state="new">Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The ID of the message to be unlocked as returned in <bpt id="1">&lt;embeddedLabel&gt;</bpt>BrokerProperties{MessageId}<ept id="1">&lt;/embeddedLabel&gt;</ept> by the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Peek Message<ept id="2">&lt;/embeddedLabel&gt;</ept> operation.</source>
+            <target state="new">The ID of the message to be unlocked as returned in <bpt id="1">&lt;embeddedLabel&gt;</bpt>BrokerProperties{MessageId}<ept id="1">&lt;/embeddedLabel&gt;</ept> by the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Peek Message<ept id="2">&lt;/embeddedLabel&gt;</ept> operation.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>The sequence number of the message to be unlocked as returned in <bpt id="1">&lt;embeddedLabel&gt;</bpt>BrokerProperties{SequenceNumber}<ept id="1">&lt;/embeddedLabel&gt;</ept> by the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Peek Message<ept id="2">&lt;/embeddedLabel&gt;</ept> operation.</source>
+            <target state="new">The sequence number of the message to be unlocked as returned in <bpt id="1">&lt;embeddedLabel&gt;</bpt>BrokerProperties{SequenceNumber}<ept id="1">&lt;/embeddedLabel&gt;</ept> by the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Peek Message<ept id="2">&lt;/embeddedLabel&gt;</ept> operation.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>The token of the lock of the message to be unlocked as returned by the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Peek Message<ept id="1">&lt;/embeddedLabel&gt;</ept> operation in <bpt id="2">&lt;embeddedLabel&gt;</bpt>BrokerProperties{LockToken}<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The token of the lock of the message to be unlocked as returned by the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Peek Message<ept id="1">&lt;/embeddedLabel&gt;</ept> operation in <bpt id="2">&lt;embeddedLabel&gt;</bpt>BrokerProperties{LockToken}<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Request Headers</source>
+            <target state="new">Request Headers</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>The following table describes required and optional request headers.</source>
+            <target state="new">The following table describes required and optional request headers.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Request Header</source>
+            <target state="new">Request Header</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Authorization</source>
+            <target state="new">Authorization</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Specifies one of the following:</source>
+            <target state="new">Specifies one of the following:</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>A WRAPv0.9.7.2 token containing a SimpleWebToken acquired from ACS.</source>
+            <target state="new">A WRAPv0.9.7.2 token containing a SimpleWebToken acquired from ACS.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Set to <bpt id="1">&lt;embeddedLabel&gt;</bpt>WRAP access_token=”{swt}”<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Set to <bpt id="1">&lt;embeddedLabel&gt;</bpt>WRAP access_token=”{swt}”<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>A SAS token.</source>
+            <target state="new">A SAS token.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Request Body</source>
+            <target state="new">Request Body</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>None.</source>
+            <target state="new">None.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Response</source>
+            <target state="new">Response</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>The response includes an HTTP status code, a set of response headers, and the response body.</source>
+            <target state="new">The response includes an HTTP status code, a set of response headers, and the response body.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Response Codes</source>
+            <target state="new">Response Codes</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Code</source>
+            <target state="new">Code</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>200</source>
+            <target state="new">200</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Message successfully unlocked.</source>
+            <target state="new">Message successfully unlocked.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>401</source>
+            <target state="new">401</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Authorization failure.</source>
+            <target state="new">Authorization failure.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>404</source>
+            <target state="new">404</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>No message was found with the specified <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageId<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>LockToken<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">No message was found with the specified <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageId<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>LockToken<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>410</source>
+            <target state="new">410</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Specified queue or subscription does not exist.</source>
+            <target state="new">Specified queue or subscription does not exist.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>500</source>
+            <target state="new">500</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Internal error.</source>
+            <target state="new">Internal error.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>For information about status codes, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Status and Error Codes<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/windowsazure/dd179382.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For information about status codes, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Status and Error Codes<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/windowsazure/dd179382.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Response Headers</source>
+            <target state="new">Response Headers</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Response Header</source>
+            <target state="new">Response Header</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Content-Type</source>
+            <target state="new">Content-Type</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Set to <bpt id="1">&lt;embeddedLabel&gt;</bpt>application/atom+xml;type=entry;charset=utf-8<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Set to <bpt id="1">&lt;embeddedLabel&gt;</bpt>application/atom+xml;type=entry;charset=utf-8<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Response Body</source>
+            <target state="new">Response Body</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>None.</source>
+            <target state="new">None.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Example</source>
+            <target state="new">Example</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>The following HTTP request unlocks a message:</source>
+            <target state="new">The following HTTP request unlocks a message:</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> returns the following response:</source>
+            <target state="new"><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> returns the following response:</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Service Bus HTTP Client sample</source>
+            <target state="new">Service Bus HTTP Client sample</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

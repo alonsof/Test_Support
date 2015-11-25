@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzFEKgzAMANCr5AAN2C62yf4H+98ukNQEBKegDjz+9g7wIm5uVDq6EyHlGNAGNuxD1ioSWVUSWDSpJQu6ekGiymhkDXtn4TGr96YJGgu52Q07hyCNk6FQMfSJuNWxTtX+V07gBz5eCa5ljvDrvO/bdiYoCSjB8/vR9b3reix6ztv6A6fNY9OhAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Create an AS2 bridge using BizTalk Services Portal</source>
+            <target state="new">Create an AS2 bridge using BizTalk Services Portal</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This topic shows how to create an AS2 <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> in <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph> <ph id="3">&lt;token&gt;af_integration&lt;/token&gt;</ph>.</source>
+            <target state="new">This topic shows how to create an AS2 <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> in <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph> <ph id="3">&lt;token&gt;af_integration&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>AS2 bridges are used to transfer messages over an AS2 protocol.</source>
+            <target state="new">AS2 bridges are used to transfer messages over an AS2 protocol.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>You can create <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s to process AS2 messages directly from the <ph id="2">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>.</source>
+            <target state="new">You can create <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s to process AS2 messages directly from the <ph id="2">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Bridge configuration includes information such as which messaging transport to use, transforms (if required), and where the messages must be routed to.</source>
+            <target state="new">Bridge configuration includes information such as which messaging transport to use, transforms (if required), and where the messages must be routed to.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s are associated with the AS2 agreements at runtime and use the AS2 protocol-related settings that are defined as part of the agreement.</source>
+            <target state="new"><ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s are associated with the AS2 agreements at runtime and use the AS2 protocol-related settings that are defined as part of the agreement.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="f3a8d261-0ada-4798-b079-68ede2cda850" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How do bridges associate with agreements at runtime?&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="f3a8d261-0ada-4798-b079-68ede2cda850" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How do bridges associate with agreements at runtime?&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>In this topic:</source>
+            <target state="new">In this topic:</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Create an AS2 bridge</source>
+            <target state="new">Create an AS2 bridge</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>In the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>, click the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Bridges<ept id="2">&lt;/embeddedLabel&gt;</ept> tab, and then click <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>, click the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Bridges<ept id="2">&lt;/embeddedLabel&gt;</ept> tab, and then click <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>In the General Settings tab for <bpt id="1">&lt;embeddedLabel&gt;</bpt>Protocol<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>AS2<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the General Settings tab for <bpt id="1">&lt;embeddedLabel&gt;</bpt>Protocol<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>AS2<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Tracking<ept id="1">&lt;/embeddedLabel&gt;</ept>, enter how you want to track the messages:</source>
+            <target state="new">Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Tracking<ept id="1">&lt;/embeddedLabel&gt;</ept>, enter how you want to track the messages:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Track Send side message properties</source>
+            <target state="new">Track Send side message properties</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Check this to store the message properties when the AS2 message is sent to the partner.</source>
+            <target state="new">Check this to store the message properties when the AS2 message is sent to the partner.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Once stored, you can query this data by clicking <bpt id="1">&lt;ui&gt;</bpt>Tracking<ept id="1">&lt;/ui&gt;</ept> on the <ph id="2">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> home page.</source>
+            <target state="new">Once stored, you can query this data by clicking <bpt id="1">&lt;ui&gt;</bpt>Tracking<ept id="1">&lt;/ui&gt;</ept> on the <ph id="2">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> home page.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>When enabled, you can also store the message body by checking <bpt id="1">&lt;ui&gt;</bpt>Track Send side message body<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">When enabled, you can also store the message body by checking <bpt id="1">&lt;ui&gt;</bpt>Track Send side message body<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Archive Send side encoded message</source>
+            <target state="new">Archive Send side encoded message</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>When <bpt id="1">&lt;ui&gt;</bpt>Track Send side message properties<ept id="1">&lt;/ui&gt;</ept> is enabled, stores encoded AS2 messages sent to a partner.</source>
+            <target state="new">When <bpt id="1">&lt;ui&gt;</bpt>Track Send side message properties<ept id="1">&lt;/ui&gt;</ept> is enabled, stores encoded AS2 messages sent to a partner.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>For example, when an AS2 message is encrypted, decoding the message decrypts the message.</source>
+            <target state="new">For example, when an AS2 message is encrypted, decoding the message decrypts the message.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>The decrypted output is stored.</source>
+            <target state="new">The decrypted output is stored.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>For example, when an AS2 message is not encrypted, encoding the message encrypts the message.</source>
+            <target state="new">For example, when an AS2 message is not encrypted, encoding the message encrypts the message.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>The encrypted message body is stored.</source>
+            <target state="new">The encrypted message body is stored.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Applies to Developer and Premium Editions only.</source>
+            <target state="new">Applies to Developer and Premium Editions only.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Archive Send side decoded message</source>
+            <target state="new">Archive Send side decoded message</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>When <bpt id="1">&lt;ui&gt;</bpt>Track Send side message properties<ept id="1">&lt;/ui&gt;</ept> is enabled, stores decoded AS2 messages sent to a partner.</source>
+            <target state="new">When <bpt id="1">&lt;ui&gt;</bpt>Track Send side message properties<ept id="1">&lt;/ui&gt;</ept> is enabled, stores decoded AS2 messages sent to a partner.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>For example, when an AS2 message is encrypted, decoding the message decrypts the message.</source>
+            <target state="new">For example, when an AS2 message is encrypted, decoding the message decrypts the message.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>The decrypted message body is stored.</source>
+            <target state="new">The decrypted message body is stored.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Applies to Developer and Premium Editions only.</source>
+            <target state="new">Applies to Developer and Premium Editions only.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Track Receive side message properties</source>
+            <target state="new">Track Receive side message properties</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Check this to store the message properties when the AS2 message is received from a partner.</source>
+            <target state="new">Check this to store the message properties when the AS2 message is received from a partner.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Once stored, you can query this data by clicking Tracking on the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> home page.</source>
+            <target state="new">Once stored, you can query this data by clicking Tracking on the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> home page.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>When enabled, you can also store the message body by checking <bpt id="1">&lt;ui&gt;</bpt>Track Receive side message body<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">When enabled, you can also store the message body by checking <bpt id="1">&lt;ui&gt;</bpt>Track Receive side message body<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Archive Receive side encoded message</source>
+            <target state="new">Archive Receive side encoded message</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>When <bpt id="1">&lt;ui&gt;</bpt>Track Recive side message properties<ept id="1">&lt;/ui&gt;</ept> is enabled, stores encoded AS2 messages received from a partner.</source>
+            <target state="new">When <bpt id="1">&lt;ui&gt;</bpt>Track Recive side message properties<ept id="1">&lt;/ui&gt;</ept> is enabled, stores encoded AS2 messages received from a partner.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>For example, when an AS2 message is not encrypted, encoding the message encrypts the message.</source>
+            <target state="new">For example, when an AS2 message is not encrypted, encoding the message encrypts the message.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>The encrypted message body is stored.</source>
+            <target state="new">The encrypted message body is stored.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Applies to Developer and Premium Editions only.</source>
+            <target state="new">Applies to Developer and Premium Editions only.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Archive Receive side decoded message</source>
+            <target state="new">Archive Receive side decoded message</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>When <bpt id="1">&lt;ui&gt;</bpt>Track Recive side message properties<ept id="1">&lt;/ui&gt;</ept> is enabled, stores decoded AS2 messages received from a partner.</source>
+            <target state="new">When <bpt id="1">&lt;ui&gt;</bpt>Track Recive side message properties<ept id="1">&lt;/ui&gt;</ept> is enabled, stores decoded AS2 messages received from a partner.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>For example, when an AS2 message is encrypted, decoding the message decrypts the message.</source>
+            <target state="new">For example, when an AS2 message is encrypted, decoding the message decrypts the message.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>The decrypted message body is stored.</source>
+            <target state="new">The decrypted message body is stored.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Applies to Developer and Premium Editions only.</source>
+            <target state="new">Applies to Developer and Premium Editions only.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Expand <bpt id="1">&lt;embeddedLabel&gt;</bpt>EDIFACT Delimiters<ept id="1">&lt;/embeddedLabel&gt;</ept> and provide the relevant values.</source>
+            <target state="new">Expand <bpt id="1">&lt;embeddedLabel&gt;</bpt>EDIFACT Delimiters<ept id="1">&lt;/embeddedLabel&gt;</ept> and provide the relevant values.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>These values are used to parse the incoming EDIFACT message to retrieve partner identities, etc. Why do we only need EDIFACT delimiters and not X12?</source>
+            <target state="new">These values are used to parse the incoming EDIFACT message to retrieve partner identities, etc. Why do we only need EDIFACT delimiters and not X12?</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>That’s because the ISA segment is mandatory in an X12 message and the bridge can extract the required delimiters from the ISA segment.</source>
+            <target state="new">That’s because the ISA segment is mandatory in an X12 message and the bridge can extract the required delimiters from the ISA segment.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>For EDIFACT, a UNA segment is optional.</source>
+            <target state="new">For EDIFACT, a UNA segment is optional.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>So, the bridge needs to be aware of the delimiters to use for parsing the message, in case the incoming EDIFACT message does not have the UNA segment.</source>
+            <target state="new">So, the bridge needs to be aware of the delimiters to use for parsing the message, in case the incoming EDIFACT message does not have the UNA segment.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>If the incoming EDIFACT message includes a UNA segment, the values you enter here are ignored.</source>
+            <target state="new">If the incoming EDIFACT message includes a UNA segment, the values you enter here are ignored.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>UNA1 (Component data element separator)</source>
+            <target state="new">UNA1 (Component data element separator)</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Enter a value for the component data element separator that separates simple data elements within composite data elements.</source>
+            <target state="new">Enter a value for the component data element separator that separates simple data elements within composite data elements.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Char<ept id="1">&lt;/embeddedLabel&gt;</ept> for a character data element or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Hex<ept id="2">&lt;/embeddedLabel&gt;</ept> for a hexadecimal data element.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Char<ept id="1">&lt;/embeddedLabel&gt;</ept> for a character data element or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Hex<ept id="2">&lt;/embeddedLabel&gt;</ept> for a hexadecimal data element.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>The character you enter automatically changes if you change its format.</source>
+            <target state="new">The character you enter automatically changes if you change its format.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>UNA2 (Data element separator)</source>
+            <target state="new">UNA2 (Data element separator)</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Enter a value for the data element separator that separates composite data elements consisting of two or more simple data elements or simple data elements that are not part of a composite.</source>
+            <target state="new">Enter a value for the data element separator that separates composite data elements consisting of two or more simple data elements or simple data elements that are not part of a composite.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Char<ept id="1">&lt;/embeddedLabel&gt;</ept> for a character data element or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Hex<ept id="2">&lt;/embeddedLabel&gt;</ept> for a hexadecimal data element.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Char<ept id="1">&lt;/embeddedLabel&gt;</ept> for a character data element or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Hex<ept id="2">&lt;/embeddedLabel&gt;</ept> for a hexadecimal data element.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>The character you enter automatically changes if you change its format.</source>
+            <target state="new">The character you enter automatically changes if you change its format.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>UNA3 (Decimal notation)</source>
+            <target state="new">UNA3 (Decimal notation)</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Specify whether you want to use a <bpt id="1">&lt;embeddedLabel&gt;</bpt>Comma<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Decimal<ept id="2">&lt;/embeddedLabel&gt;</ept> as the decimal notation to be used in the outgoing interchange.</source>
+            <target state="new">Specify whether you want to use a <bpt id="1">&lt;embeddedLabel&gt;</bpt>Comma<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Decimal<ept id="2">&lt;/embeddedLabel&gt;</ept> as the decimal notation to be used in the outgoing interchange.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>UNA4 (Release Indicator)</source>
+            <target state="new">UNA4 (Release Indicator)</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Enter a value for the release indicator that indicates that the following character is not a syntax separator, terminator, or release character, but is part of the original data.</source>
+            <target state="new">Enter a value for the release indicator that indicates that the following character is not a syntax separator, terminator, or release character, but is part of the original data.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Char<ept id="1">&lt;/embeddedLabel&gt;</ept> for a character data element or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Hex<ept id="2">&lt;/embeddedLabel&gt;</ept> for a hexadecimal data element.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Char<ept id="1">&lt;/embeddedLabel&gt;</ept> for a character data element or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Hex<ept id="2">&lt;/embeddedLabel&gt;</ept> for a hexadecimal data element.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>The character you enter automatically changes if you change its format.</source>
+            <target state="new">The character you enter automatically changes if you change its format.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>UNA5 (Repetition Separator)</source>
+            <target state="new">UNA5 (Repetition Separator)</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Enter a value for the repetition separator that is used to separate segments that repeat within a transaction set.</source>
+            <target state="new">Enter a value for the repetition separator that is used to separate segments that repeat within a transaction set.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Char<ept id="1">&lt;/embeddedLabel&gt;</ept> for a character data element or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Hex<ept id="2">&lt;/embeddedLabel&gt;</ept> for a hexadecimal data element.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Char<ept id="1">&lt;/embeddedLabel&gt;</ept> for a character data element or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Hex<ept id="2">&lt;/embeddedLabel&gt;</ept> for a hexadecimal data element.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>The character you enter automatically changes if you change its format.</source>
+            <target state="new">The character you enter automatically changes if you change its format.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>UNA6 (Segment Terminator)</source>
+            <target state="new">UNA6 (Segment Terminator)</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Enter a value for the segment terminator that indicates the end of an EDI segment.</source>
+            <target state="new">Enter a value for the segment terminator that indicates the end of an EDI segment.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Char<ept id="1">&lt;/embeddedLabel&gt;</ept> for a character data element or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Hex<ept id="2">&lt;/embeddedLabel&gt;</ept> for a hexadecimal data element.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Char<ept id="1">&lt;/embeddedLabel&gt;</ept> for a character data element or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Hex<ept id="2">&lt;/embeddedLabel&gt;</ept> for a hexadecimal data element.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>The character you enter automatically changes if you change its format.</source>
+            <target state="new">The character you enter automatically changes if you change its format.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Suffix</source>
+            <target state="new">Suffix</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Specify whether you want to use carriage return (CR), line feed (LF), both, or none as the end-of-line character that is used with the segment terminator.</source>
+            <target state="new">Specify whether you want to use carriage return (CR), line feed (LF), both, or none as the end-of-line character that is used with the segment terminator.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Continue<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Continue<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Receive Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Send Settings<ept id="2">&lt;/embeddedLabel&gt;</ept> tabs are added.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Receive Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Send Settings<ept id="2">&lt;/embeddedLabel&gt;</ept> tabs are added.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Configure the AS2 Receive bridge settings</source>
+            <target state="new">Configure the AS2 Receive bridge settings</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>In the receive settings, you enter the inbound URL and the route settings to receive messages over AS2.</source>
+            <target state="new">In the receive settings, you enter the inbound URL and the route settings to receive messages over AS2.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Inbound URL settings</source>
+            <target state="new">Inbound URL settings</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>These settings define the endpoint where the hosted partner in an agreement receives incoming AS2 messages.</source>
+            <target state="new">These settings define the endpoint where the hosted partner in an agreement receives incoming AS2 messages.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Inbound URL<ept id="1">&lt;/embeddedLabel&gt;</ept> page of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Receive Settings<ept id="2">&lt;/embeddedLabel&gt;</ept> tab, enter the following values:</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Inbound URL<ept id="1">&lt;/embeddedLabel&gt;</ept> page of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Receive Settings<ept id="2">&lt;/embeddedLabel&gt;</ept> tab, enter the following values:</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>URL Suffix</source>
+            <target state="new">URL Suffix</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Enter a unique URL suffix to append to the URL.</source>
+            <target state="new">Enter a unique URL suffix to append to the URL.</target>
+          </trans-unit>
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>The guest partner sends AS2 messages to the URL, which includes this suffix.</source>
+            <target state="new">The guest partner sends AS2 messages to the URL, which includes this suffix.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>URL</source>
+            <target state="new">URL</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>This read-only field shows the endpoint URL at which the hosted partner receives incoming AS2 messages.</source>
+            <target state="new">This read-only field shows the endpoint URL at which the hosted partner receives incoming AS2 messages.</target>
+          </trans-unit>
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>The complete URL includes the URL suffix you provided.</source>
+            <target state="new">The complete URL includes the URL suffix you provided.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Route settings</source>
+            <target state="new">Route settings</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>AS2 messages can be sent to a non-EDI destination or received from a non-EDI destination.</source>
+            <target state="new">AS2 messages can be sent to a non-EDI destination or received from a non-EDI destination.</target>
+          </trans-unit>
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>An AS2 message can be routed to <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>s, <ph id="3">&lt;token&gt;azure_2&lt;/token&gt;</ph> blobs, or <ph id="4">&lt;token&gt;azure_2&lt;/token&gt;</ph> <ph id="5">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">An AS2 message can be routed to <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>s, <ph id="3">&lt;token&gt;azure_2&lt;/token&gt;</ph> blobs, or <ph id="4">&lt;token&gt;azure_2&lt;/token&gt;</ph> <ph id="5">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>This section provides information on how to create routing rules to route to these destinations.</source>
+            <target state="new">This section provides information on how to create routing rules to route to these destinations.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;ui&gt;</bpt>Route<ept id="1">&lt;/ui&gt;</ept> page of the <bpt id="2">&lt;ui&gt;</bpt>Receive Settings<ept id="2">&lt;/ui&gt;</ept> tab, expand <bpt id="3">&lt;embeddedLabel&gt;</bpt>Route Settings<ept id="3">&lt;/embeddedLabel&gt;</ept>, and then click <bpt id="4">&lt;embeddedLabel&gt;</bpt>Add<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">On the <bpt id="1">&lt;ui&gt;</bpt>Route<ept id="1">&lt;/ui&gt;</ept> page of the <bpt id="2">&lt;ui&gt;</bpt>Receive Settings<ept id="2">&lt;/ui&gt;</ept> tab, expand <bpt id="3">&lt;embeddedLabel&gt;</bpt>Route Settings<ept id="3">&lt;/embeddedLabel&gt;</ept>, and then click <bpt id="4">&lt;embeddedLabel&gt;</bpt>Add<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>In the dialog box that pops us, you specify three key routing configurations – routing condition, routing action, and routing destination.</source>
+            <target state="new">In the dialog box that pops us, you specify three key routing configurations – routing condition, routing action, and routing destination.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Enter a unique name for the routing rule.</source>
+            <target state="new">Enter a unique name for the routing rule.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Rule<ept id="1">&lt;/embeddedLabel&gt;</ept>: Enter the routing condition based on the properties you promoted earlier.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Rule<ept id="1">&lt;/embeddedLabel&gt;</ept>: Enter the routing condition based on the properties you promoted earlier.</target>
+          </trans-unit>
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>You can either use the grid to specify the condition or provide a SQL 92 filter expression that specifies the condition.</source>
+            <target state="new">You can either use the grid to specify the condition or provide a SQL 92 filter expression that specifies the condition.</target>
+          </trans-unit>
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>To understand this better, let us assume you promoted a property (<bpt id="1">&lt;embeddedLabel&gt;</bpt>CustName<ept id="1">&lt;/embeddedLabel&gt;</ept>) whose value is set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>John<ept id="2">&lt;/embeddedLabel&gt;</ept> at runtime.</source>
+            <target state="new">To understand this better, let us assume you promoted a property (<bpt id="1">&lt;embeddedLabel&gt;</bpt>CustName<ept id="1">&lt;/embeddedLabel&gt;</ept>) whose value is set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>John<ept id="2">&lt;/embeddedLabel&gt;</ept> at runtime.</target>
+          </trans-unit>
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>To use this property as a routing condition, you can do either of the following:</source>
+            <target state="new">To use this property as a routing condition, you can do either of the following:</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Select the option for the grid, and then click the (<bpt id="1">&lt;embeddedLabel&gt;</bpt>+<ept id="1">&lt;/embeddedLabel&gt;</ept>) icon to select the property you promoted.</source>
+            <target state="new">Select the option for the grid, and then click the (<bpt id="1">&lt;embeddedLabel&gt;</bpt>+<ept id="1">&lt;/embeddedLabel&gt;</ept>) icon to select the property you promoted.</target>
+          </trans-unit>
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>From the grid, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>CustName<ept id="1">&lt;/embeddedLabel&gt;</ept>, specify the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Operation<ept id="2">&lt;/embeddedLabel&gt;</ept> as (<bpt id="3">&lt;embeddedLabel&gt;</bpt>==<ept id="3">&lt;/embeddedLabel&gt;</ept>), and set the value to <bpt id="4">&lt;userInput&gt;</bpt>John<ept id="4">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">From the grid, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>CustName<ept id="1">&lt;/embeddedLabel&gt;</ept>, specify the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Operation<ept id="2">&lt;/embeddedLabel&gt;</ept> as (<bpt id="3">&lt;embeddedLabel&gt;</bpt>==<ept id="3">&lt;/embeddedLabel&gt;</ept>), and set the value to <bpt id="4">&lt;userInput&gt;</bpt>John<ept id="4">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>OR</source>
+            <target state="new">OR</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Use advanced definitions<ept id="1">&lt;/embeddedLabel&gt;</ept> option, and specify a SQL 92 expression, such as:</source>
+            <target state="new">Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Use advanced definitions<ept id="1">&lt;/embeddedLabel&gt;</ept> option, and specify a SQL 92 expression, such as:</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>You can use this option to provide more detailed query expressions using other operators as well.</source>
+            <target state="new">You can use this option to provide more detailed query expressions using other operators as well.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Route action<ept id="1">&lt;/embeddedLabel&gt;</ept>: If the route condition is met, at runtime the agreement stamps message headers based on the route actions you specify here.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Route action<ept id="1">&lt;/embeddedLabel&gt;</ept>: If the route condition is met, at runtime the agreement stamps message headers based on the route actions you specify here.</target>
+          </trans-unit>
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route action<ept id="1">&lt;/embeddedLabel&gt;</ept>, click the (<bpt id="2">&lt;embeddedLabel&gt;</bpt>+<ept id="2">&lt;/embeddedLabel&gt;</ept>) icon, and specify the following values.</source>
+            <target state="new">Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route action<ept id="1">&lt;/embeddedLabel&gt;</ept>, click the (<bpt id="2">&lt;embeddedLabel&gt;</bpt>+<ept id="2">&lt;/embeddedLabel&gt;</ept>) icon, and specify the following values.</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>Field Name</source>
+            <target state="new">Field Name</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Target Type</source>
+            <target state="new">Target Type</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>Set this to SOAP or HTTP.</source>
+            <target state="new">Set this to SOAP or HTTP.</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>Header</source>
+            <target state="new">Header</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>Specifies the name of message header property to which a value will be assigned.</source>
+            <target state="new">Specifies the name of message header property to which a value will be assigned.</target>
+          </trans-unit>
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>You can also specify custom headers here.</source>
+            <target state="new">You can also specify custom headers here.</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Namespace</source>
+            <target state="new">Namespace</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>Specify the namespace of the SOAP header to which the value will be assigned.</source>
+            <target state="new">Specify the namespace of the SOAP header to which the value will be assigned.</target>
+          </trans-unit>
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>This field is disabled if you set the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Target Type<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;embeddedLabel&gt;</bpt>HTTP<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">This field is disabled if you set the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Target Type<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;embeddedLabel&gt;</bpt>HTTP<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>Value Type</source>
+            <target state="new">Value Type</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;userInput&gt;</bpt>Constant<ept id="1">&lt;/userInput&gt;</ept> if you want to assign a constant value to the header property.</source>
+            <target state="new">Select <bpt id="1">&lt;userInput&gt;</bpt>Constant<ept id="1">&lt;/userInput&gt;</ept> if you want to assign a constant value to the header property.</target>
+          </trans-unit>
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;userInput&gt;</bpt>PromotedProperty<ept id="1">&lt;/userInput&gt;</ept> if you want to the value of a promoted property to the header property.</source>
+            <target state="new">Select <bpt id="1">&lt;userInput&gt;</bpt>PromotedProperty<ept id="1">&lt;/userInput&gt;</ept> if you want to the value of a promoted property to the header property.</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>Constant Value</source>
+            <target state="new">Constant Value</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>If you set <bpt id="1">&lt;embeddedLabel&gt;</bpt>Value Type<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;userInput&gt;</bpt>Constant<ept id="2">&lt;/userInput&gt;</ept>, specify the constant value that must be assigned to the message header property.</source>
+            <target state="new">If you set <bpt id="1">&lt;embeddedLabel&gt;</bpt>Value Type<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;userInput&gt;</bpt>Constant<ept id="2">&lt;/userInput&gt;</ept>, specify the constant value that must be assigned to the message header property.</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>Promoted Property</source>
+            <target state="new">Promoted Property</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>If you set <bpt id="1">&lt;embeddedLabel&gt;</bpt>Value Type<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;userInput&gt;</bpt>PromotedProperty<ept id="2">&lt;/userInput&gt;</ept>, selected the property whose value is assigned to the message header property.</source>
+            <target state="new">If you set <bpt id="1">&lt;embeddedLabel&gt;</bpt>Value Type<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;userInput&gt;</bpt>PromotedProperty<ept id="2">&lt;/userInput&gt;</ept>, selected the property whose value is assigned to the message header property.</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Route destination<ept id="1">&lt;/embeddedLabel&gt;</ept>: Enter the destination where the messages are routed once they are processed by the agreement:</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Route destination<ept id="1">&lt;/embeddedLabel&gt;</ept>: Enter the destination where the messages are routed once they are processed by the agreement:</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>Even if you do not enter a routing condition and a routing action, you must enter a routing destination.</source>
+            <target state="new">Even if you do not enter a routing condition and a routing action, you must enter a routing destination.</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>Azure BizTalk Bridge</source>
+            <target state="new">Azure BizTalk Bridge</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>Enter the name of the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to route the message.</source>
+            <target state="new">Enter the name of the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to route the message.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>The URL looks similar to the following:</source>
+            <target state="new">The URL looks similar to the following:</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>https://<bpt id="1">&lt;legacyItalic&gt;</bpt>YourDeployment<ept id="1">&lt;/legacyItalic&gt;</ept>.biztalk.windows.net/default/<bpt id="2">&lt;legacyItalic&gt;</bpt>BridgeName<ept id="2">&lt;/legacyItalic&gt;</ept></source>
+            <target state="new">https://<bpt id="1">&lt;legacyItalic&gt;</bpt>YourDeployment<ept id="1">&lt;/legacyItalic&gt;</ept>.biztalk.windows.net/default/<bpt id="2">&lt;legacyItalic&gt;</bpt>BridgeName<ept id="2">&lt;/legacyItalic&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>Azure Blobs</source>
+            <target state="new">Azure Blobs</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>Enter the <bpt id="1">&lt;ui&gt;</bpt>Shared Access Signature URL<ept id="1">&lt;/ui&gt;</ept> to your <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph> Blob.</source>
+            <target state="new">Enter the <bpt id="1">&lt;ui&gt;</bpt>Shared Access Signature URL<ept id="1">&lt;/ui&gt;</ept> to your <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph> Blob.</target>
+          </trans-unit>
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>For example, enter:</source>
+            <target state="new">For example, enter:</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>https://<bpt id="1">&lt;legacyItalic&gt;</bpt>myAccount<ept id="1">&lt;/legacyItalic&gt;</ept>.blob.core.windows.net/<bpt id="2">&lt;legacyItalic&gt;</bpt>ContainerName<ept id="2">&lt;/legacyItalic&gt;</ept>/<bpt id="3">&lt;legacyItalic&gt;</bpt>BlobName<ept id="3">&lt;/legacyItalic&gt;</ept><bpt id="4">&lt;legacyItalic&gt;</bpt>PolicyIndentifier<ept id="4">&lt;/legacyItalic&gt;</ept><bpt id="5">&lt;legacyItalic&gt;</bpt>Signature<ept id="5">&lt;/legacyItalic&gt;</ept></source>
+            <target state="new">https://<bpt id="1">&lt;legacyItalic&gt;</bpt>myAccount<ept id="1">&lt;/legacyItalic&gt;</ept>.blob.core.windows.net/<bpt id="2">&lt;legacyItalic&gt;</bpt>ContainerName<ept id="2">&lt;/legacyItalic&gt;</ept>/<bpt id="3">&lt;legacyItalic&gt;</bpt>BlobName<ept id="3">&lt;/legacyItalic&gt;</ept><bpt id="4">&lt;legacyItalic&gt;</bpt>PolicyIndentifier<ept id="4">&lt;/legacyItalic&gt;</ept><bpt id="5">&lt;legacyItalic&gt;</bpt>Signature<ept id="5">&lt;/legacyItalic&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Managing Access to Containers, Blobs, Tables, and Queues<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkID=273871&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> provides more information on the <bpt id="4">&lt;ui&gt;</bpt>Shared Access Signature URL<ept id="4">&lt;/ui&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Managing Access to Containers, Blobs, Tables, and Queues<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkID=273871&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> provides more information on the <bpt id="4">&lt;ui&gt;</bpt>Shared Access Signature URL<ept id="4">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>Azure <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph></source>
+            <target state="new">Azure <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>You can route to any of the following <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> entities:</source>
+            <target state="new">You can route to any of the following <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> entities:</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>Queue</source>
+            <target state="new">Queue</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>Provide either the Shared Access Signature (SAS) or the shared secret for the queue.</source>
+            <target state="new">Provide either the Shared Access Signature (SAS) or the shared secret for the queue.</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>If you choose the SAS option, provide the SAS connection string and the name of the queue to route to.</source>
+            <target state="new">If you choose the SAS option, provide the SAS connection string and the name of the queue to route to.</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>If you choose the shared secret name, provide the URL for the queue, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer name, and <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer key.</source>
+            <target state="new">If you choose the shared secret name, provide the URL for the queue, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer name, and <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer key.</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>Topic</source>
+            <target state="new">Topic</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>Provide either the Shared Access Signature (SAS) or the shared secret for the topic.</source>
+            <target state="new">Provide either the Shared Access Signature (SAS) or the shared secret for the topic.</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>If you choose the SAS option, provide the SAS connection string and the name of the topic to route to.</source>
+            <target state="new">If you choose the SAS option, provide the SAS connection string and the name of the topic to route to.</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>If you choose the shared secret name, provide the URL for the topic, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer name, and <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer key.</source>
+            <target state="new">If you choose the shared secret name, provide the URL for the topic, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer name, and <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer key.</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>BasicHttpRelay</source>
+            <target state="new">BasicHttpRelay</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>Provide the URL for the relay endpoint, the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer name, and the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer key.</source>
+            <target state="new">Provide the URL for the relay endpoint, the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer name, and the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer key.</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>WebHttpRelay</source>
+            <target state="new">WebHttpRelay</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>Provide the URL for the relay endpoint, the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer name, and the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer key.</source>
+            <target state="new">Provide the URL for the relay endpoint, the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer name, and the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer key.</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>NetTcpRelay</source>
+            <target state="new">NetTcpRelay</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>Provide the URL for the relay endpoint, the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer name, and the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer key.</source>
+            <target state="new">Provide the URL for the relay endpoint, the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer name, and the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer key.</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>If you choose to route to a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> relay endpoint, make sure the relay endpoint hosts a two-way relay service.</source>
+            <target state="new">If you choose to route to a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> relay endpoint, make sure the relay endpoint hosts a two-way relay service.</target>
+          </trans-unit>
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>You cannot use EDI pipelines to route to a one-way relay service.</source>
+            <target state="new">You cannot use EDI pipelines to route to a one-way relay service.</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept> to save the route settings.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept> to save the route settings.</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>If more than one route rules are defined, evaluation is based on the first match.</source>
+            <target state="new">If more than one route rules are defined, evaluation is based on the first match.</target>
+          </trans-unit>
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>The order of executing the rules is defined by the order in which the rules are defined in the grid.</source>
+            <target state="new">The order of executing the rules is defined by the order in which the rules are defined in the grid.</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>Configure the AS2 Send bridge settings</source>
+            <target state="new">Configure the AS2 Send bridge settings</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>In the send settings, you enter the inbound URL and the route settings to send messages over AS2.</source>
+            <target state="new">In the send settings, you enter the inbound URL and the route settings to send messages over AS2.</target>
+          </trans-unit>
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>You send a message to the inbound URL to be routed to the guest partner’s destination URL.</source>
+            <target state="new">You send a message to the inbound URL to be routed to the guest partner’s destination URL.</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>Inbound URL settings</source>
+            <target state="new">Inbound URL settings</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>These settings define the endpoint where the hosted partner receives AS2 messages to be sent to the guest partner.</source>
+            <target state="new">These settings define the endpoint where the hosted partner receives AS2 messages to be sent to the guest partner.</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Inbound URL<ept id="1">&lt;/embeddedLabel&gt;</ept> page of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Send Settings<ept id="2">&lt;/embeddedLabel&gt;</ept> tab, enter the following values:</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Inbound URL<ept id="1">&lt;/embeddedLabel&gt;</ept> page of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Send Settings<ept id="2">&lt;/embeddedLabel&gt;</ept> tab, enter the following values:</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>URL Suffix</source>
+            <target state="new">URL Suffix</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>Enter a unique URL suffix to append to the URL.</source>
+            <target state="new">Enter a unique URL suffix to append to the URL.</target>
+          </trans-unit>
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>The hosted partner receives AS2 messages at this endpoint URL, which includes this suffix.</source>
+            <target state="new">The hosted partner receives AS2 messages at this endpoint URL, which includes this suffix.</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>URL</source>
+            <target state="new">URL</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>This read-only field shows the endpoint URL at which the hosted partner receives AS2 messages to be sent to a guest partner.</source>
+            <target state="new">This read-only field shows the endpoint URL at which the hosted partner receives AS2 messages to be sent to a guest partner.</target>
+          </trans-unit>
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>The complete URL includes the URL suffix you provided.</source>
+            <target state="new">The complete URL includes the URL suffix you provided.</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>Transport settings</source>
+            <target state="new">Transport settings</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>AS2 messages can be routed to a destination URL endpoint.</source>
+            <target state="new">AS2 messages can be routed to a destination URL endpoint.</target>
+          </trans-unit>
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>Basically, you configure the transport settings for the endpoint where the message must be routed to.</source>
+            <target state="new">Basically, you configure the transport settings for the endpoint where the message must be routed to.</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transport<ept id="1">&lt;/embeddedLabel&gt;</ept> page of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Send Settings<ept id="2">&lt;/embeddedLabel&gt;</ept> tab, enter a destination URL.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transport<ept id="1">&lt;/embeddedLabel&gt;</ept> page of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Send Settings<ept id="2">&lt;/embeddedLabel&gt;</ept> tab, enter a destination URL.</target>
+          </trans-unit>
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>This URL is used to send AS2 messages from the hosted partner to the guest partner.</source>
+            <target state="new">This URL is used to send AS2 messages from the hosted partner to the guest partner.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

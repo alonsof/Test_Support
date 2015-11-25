@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzMsJwzAMANBVPIAF/sh21Huh93YByZEgkCaQuJDxm/vjmWUVTB1UEQGjBZAwCfQQuRJZZCbvqFjnVhWILQOGhCCldyCKVAvNMjXxLibOWSRAwtYBaxAQKQWszFHvTKK2W3mnJzzf3l3rYqbXeBz7PrxL3hXvXr8vb5+Dt3PlsezbHwdWj02hAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Best Practices for OAuth 2.0</source>
+            <target state="new">Best Practices for OAuth 2.0</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Best Practices for OAuth 2.0 in Azure AD</source>
+            <target state="new">Best Practices for OAuth 2.0 in Azure AD</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This topic describes best practice behavior for using OAuth 2.0 authorization in Azure Active Directory (Azure AD).</source>
+            <target state="new">This topic describes best practice behavior for using OAuth 2.0 authorization in Azure Active Directory (Azure AD).</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Use the State Parameter</source>
+            <target state="new">Use the State Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;state&lt;/parameterReference&gt;</ph> parameter is optional, but recommended in requests for an authorization code in the <ph id="2">&lt;link xlink:href="6c3e8f37-06ed-439e-bc2d-d6a318f32639" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Authorization Code Grant Flow&lt;/link&gt;</ph>.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;state&lt;/parameterReference&gt;</ph> parameter is optional, but recommended in requests for an authorization code in the <ph id="2">&lt;link xlink:href="6c3e8f37-06ed-439e-bc2d-d6a318f32639" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Authorization Code Grant Flow&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>To use the <ph id="1">&lt;parameterReference&gt;state&lt;/parameterReference&gt;</ph> parameter, the client application generates a pseudo-random value that would be hard for an attacker to guess and is not reused, such as a GUID.</source>
+            <target state="new">To use the <ph id="1">&lt;parameterReference&gt;state&lt;/parameterReference&gt;</ph> parameter, the client application generates a pseudo-random value that would be hard for an attacker to guess and is not reused, such as a GUID.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The client sends the <ph id="1">&lt;parameterReference&gt;state&lt;/parameterReference&gt;</ph> parameter and value in the request.</source>
+            <target state="new">The client sends the <ph id="1">&lt;parameterReference&gt;state&lt;/parameterReference&gt;</ph> parameter and value in the request.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The response should include a <ph id="1">&lt;parameterReference&gt;state&lt;/parameterReference&gt;</ph> parameter with the same value.</source>
+            <target state="new">The response should include a <ph id="1">&lt;parameterReference&gt;state&lt;/parameterReference&gt;</ph> parameter with the same value.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>When the client receives the response, they verify that the state <ph id="1">&lt;parameterReference&gt;values&lt;/parameterReference&gt;</ph> are identical before proceeding.</source>
+            <target state="new">When the client receives the response, they verify that the state <ph id="1">&lt;parameterReference&gt;values&lt;/parameterReference&gt;</ph> are identical before proceeding.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;state&lt;/parameterReference&gt;</ph> parameter helps to detect cross-site request forgery (CRSF) attacks against the client.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;state&lt;/parameterReference&gt;</ph> parameter helps to detect cross-site request forgery (CRSF) attacks against the client.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>For more information about CRSF attacks, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Cross-Site Request Forgery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://tools.ietf.org/html/rfc6749&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> in Section 10.12 of The OAuth 2.0 Authorization Framework.</source>
+            <target state="new">For more information about CRSF attacks, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Cross-Site Request Forgery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://tools.ietf.org/html/rfc6749&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> in Section 10.12 of The OAuth 2.0 Authorization Framework.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Cache Access Tokens</source>
+            <target state="new">Cache Access Tokens</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>To minimize network calls from the client application and their associated latency, the client application should cache access tokens for the token lifetime that is specified in the OAuth 2.0 response.</source>
+            <target state="new">To minimize network calls from the client application and their associated latency, the client application should cache access tokens for the token lifetime that is specified in the OAuth 2.0 response.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>To determine the token lifetime, use either the <ph id="1">&lt;parameterReference&gt;expires_in&lt;/parameterReference&gt;</ph> or <ph id="2">&lt;parameterReference&gt;expires_on&lt;/parameterReference&gt;</ph> parameter values.</source>
+            <target state="new">To determine the token lifetime, use either the <ph id="1">&lt;parameterReference&gt;expires_in&lt;/parameterReference&gt;</ph> or <ph id="2">&lt;parameterReference&gt;expires_on&lt;/parameterReference&gt;</ph> parameter values.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>If a web API resource returns an <ph id="1">&lt;parameterReference&gt;invalid_token&lt;/parameterReference&gt;</ph> error code, this might indicate that the resource has determined that the token is expired.</source>
+            <target state="new">If a web API resource returns an <ph id="1">&lt;parameterReference&gt;invalid_token&lt;/parameterReference&gt;</ph> error code, this might indicate that the resource has determined that the token is expired.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>If the client and resource clock times are different (known as a "time skew"), the resource might consider the token to be expired  before the token is cleared from the client cache.</source>
+            <target state="new">If the client and resource clock times are different (known as a "time skew"), the resource might consider the token to be expired  before the token is cleared from the client cache.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>If this occurs, clear the token from the cache, even if it is still within its calculated lifetime.</source>
+            <target state="new">If this occurs, clear the token from the cache, even if it is still within its calculated lifetime.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Handling Refresh Tokens</source>
+            <target state="new">Handling Refresh Tokens</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Refresh tokens do not have specified lifetimes.</source>
+            <target state="new">Refresh tokens do not have specified lifetimes.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Typically, the lifetimes of refresh tokens are relatively long.</source>
+            <target state="new">Typically, the lifetimes of refresh tokens are relatively long.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>However, in some cases, refresh tokens expire, are revoked, or lack sufficient privileges for the desired action.</source>
+            <target state="new">However, in some cases, refresh tokens expire, are revoked, or lack sufficient privileges for the desired action.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>The client application needs to expect and handle errors returned by the token issuance endpoint correctly.</source>
+            <target state="new">The client application needs to expect and handle errors returned by the token issuance endpoint correctly.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>When you receive a response with a refresh token error, discard the current refresh token and request a new authorization code or access token.</source>
+            <target state="new">When you receive a response with a refresh token error, discard the current refresh token and request a new authorization code or access token.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>In particular, when using a refresh token in the Authorization Code Grant flow, if you receive a response with the <ph id="1">&lt;parameterReference&gt;interaction_required&lt;/parameterReference&gt;</ph> or <ph id="2">&lt;parameterReference&gt;invalid_grant&lt;/parameterReference&gt;</ph> error codes, discard the refresh token and request a new authorization code.</source>
+            <target state="new">In particular, when using a refresh token in the Authorization Code Grant flow, if you receive a response with the <ph id="1">&lt;parameterReference&gt;interaction_required&lt;/parameterReference&gt;</ph> or <ph id="2">&lt;parameterReference&gt;invalid_grant&lt;/parameterReference&gt;</ph> error codes, discard the refresh token and request a new authorization code.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

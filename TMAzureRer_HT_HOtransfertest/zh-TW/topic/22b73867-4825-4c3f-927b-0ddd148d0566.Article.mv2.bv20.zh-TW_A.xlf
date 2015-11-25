@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-TW" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANy1EKwyAMgOGreAADJo1Wd4IdoLDnRA0rdC1sHZSdfsL/+P1mU1emCr0zA6MF0JAVakBJpRiKFO+kRlLSGYglD4UIOk0GSBajdBbS6B0NMeU0A2eKwHWAQrNCaK0h5xZiSt6hd78nLA/vrm0169d5ex/HOfZR8O7+fcm+vGX/bHKux/4H/BJ5/KIAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>ACS Service Limitations</source>
+            <target state="new">ACS Service Limitations</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Azure</source>
+            <target state="new">Azure</target>
+            <context-group>
+              <context context-type="x-metadataname">applies_to_product</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>ACS Service Limitations</source>
+            <target state="new">ACS Service Limitations</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>This topic explains the maximum values that <ph id="1">&lt;token&gt;firstref_acs&lt;/token&gt;</ph> allows for different aspects of the service.</source>
+            <target state="new">This topic explains the maximum values that <ph id="1">&lt;token&gt;firstref_acs&lt;/token&gt;</ph> allows for different aspects of the service.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Google Identity Provider Support</source>
+            <target state="new">Google Identity Provider Support</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>ACS namespaces can migrate their Google identity provider configurations from OpenID 2.0 to OpenID Connect.</source>
+            <target state="new">ACS namespaces can migrate their Google identity provider configurations from OpenID 2.0 to OpenID Connect.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Migration must be completed before June 1, 2015.</source>
+            <target state="new">Migration must be completed before June 1, 2015.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>For detailed guidance, see <ph id="1">&lt;link xlink:href="abed9a15-8466-4c3a-80e0-8fa24a3ea0f7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Migrating ACS Namespaces to Google OpenID Connect&lt;/link&gt;</ph>.</source>
+            <target state="new">For detailed guidance, see <ph id="1">&lt;link xlink:href="abed9a15-8466-4c3a-80e0-8fa24a3ea0f7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Migrating ACS Namespaces to Google OpenID Connect&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Rules Executed Eight Times per Input Token</source>
+            <target state="new">Rules Executed Eight Times per Input Token</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Whenever <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> receives an input token for a relying party application, the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> rules engine executes all rules associated with that relying party application simultaneously.</source>
+            <target state="new">Whenever <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> receives an input token for a relying party application, the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> rules engine executes all rules associated with that relying party application simultaneously.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>If the rules output additional claims not present in the input token, then all rules are executed again with those claims as the input values.</source>
+            <target state="new">If the rules output additional claims not present in the input token, then all rules are executed again with those claims as the input values.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Rule execution stops when no new claims are issued after an execution completes, or eight executions have completed (whichever comes first).</source>
+            <target state="new">Rule execution stops when no new claims are issued after an execution completes, or eight executions have completed (whichever comes first).</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Management Service Limits Query Results</source>
+            <target state="new">Management Service Limits Query Results</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>When using the Management Service to query rule groups for rules, the service limits the query result to no more than 100 rules.</source>
+            <target state="new">When using the Management Service to query rule groups for rules, the service limits the query result to no more than 100 rules.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>This is because the Management Service uses the Open Data (OData) protocol and returning 100 objects at a time (paging) is standard behavior for OData endpoints.</source>
+            <target state="new">This is because the Management Service uses the Open Data (OData) protocol and returning 100 objects at a time (paging) is standard behavior for OData endpoints.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>The result size for each of the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> entities is as follows: </source>
+            <target state="new">The result size for each of the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> entities is as follows: </target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Rules: 100</source>
+            <target state="new">Rules: 100</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Everything else: 50</source>
+            <target state="new">Everything else: 50</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Larger result sets can only be handled by implementing paging in your Management Service client code.</source>
+            <target state="new">Larger result sets can only be handled by implementing paging in your Management Service client code.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>For pagination examples, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>How to: Load Paged Results (WCF Data Services)<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=193452&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (http://go.microsoft.com/fwlink/?LinkID=193452).</source>
+            <target state="new">For pagination examples, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>How to: Load Paged Results (WCF Data Services)<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=193452&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (http://go.microsoft.com/fwlink/?LinkID=193452).</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Incoming Claims Limit</source>
+            <target state="new">Incoming Claims Limit</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>In order for the ACS to process and successfully issue a security token, the number of claims in the incoming token must be equal to or no greater than 80.</source>
+            <target state="new">In order for the ACS to process and successfully issue a security token, the number of claims in the incoming token must be equal to or no greater than 80.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>If the number of the incoming claims is greater than 80, the following error message is generated: <bpt id="1">&lt;ui&gt;</bpt>The number of input claims (#) exceeds the limit (80)<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">If the number of the incoming claims is greater than 80, the following error message is generated: <bpt id="1">&lt;ui&gt;</bpt>The number of input claims (#) exceeds the limit (80)<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Token Request Rate Limit</source>
+            <target state="new">Token Request Rate Limit</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>To improve <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> availability and performance for all users, <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> has implemented a sustained rate limit of 30 token requests per second for each namespace.</source>
+            <target state="new">To improve <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> availability and performance for all users, <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> has implemented a sustained rate limit of 30 token requests per second for each namespace.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>This per-namespace rate limit is measured as an average for each minute over several minutes, so it is not triggered by infrequent spikes.</source>
+            <target state="new">This per-namespace rate limit is measured as an average for each minute over several minutes, so it is not triggered by infrequent spikes.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>If a token request rate of more than 30 requests per second continues for a prolonged period, <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> rejects excess token requests from the namespace for the duration of the interval and returns an HTTP 429 "Too many requests" error with the ACS90055 error code.</source>
+            <target state="new">If a token request rate of more than 30 requests per second continues for a prolonged period, <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> rejects excess token requests from the namespace for the duration of the interval and returns an HTTP 429 "Too many requests" error with the ACS90055 error code.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> also rejects token requests when <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> resources are temporarily consumed by a high token request rate from all namespaces.</source>
+            <target state="new"><ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> also rejects token requests when <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> resources are temporarily consumed by a high token request rate from all namespaces.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>In this case, <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> returns an HTTP 503 "Service unavailable" error with the ACS90046 (ACS busy) or ACS60021 (data server busy) error codes.</source>
+            <target state="new">In this case, <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> returns an HTTP 503 "Service unavailable" error with the ACS90046 (ACS busy) or ACS60021 (data server busy) error codes.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>When you get HTTP 429 or 503 errors, retry the requests with a back-off timer, as discussed in <ph id="1">&lt;link xlink:href="69a16929-38b9-447f-ac88-f7a32f37e00e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ACS Retry Guidelines&lt;/link&gt;</ph>.</source>
+            <target state="new">When you get HTTP 429 or 503 errors, retry the requests with a back-off timer, as discussed in <ph id="1">&lt;link xlink:href="69a16929-38b9-447f-ac88-f7a32f37e00e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ACS Retry Guidelines&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>If the retries are not distributed over increasing time intervals, the accumulated retries are likely to exacerbate the problem and prolong the period during which token requests are rejected.</source>
+            <target state="new">If the retries are not distributed over increasing time intervals, the accumulated retries are likely to exacerbate the problem and prolong the period during which token requests are rejected.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>If you are getting recurring ACS90055-HTTP 429 errors because your namespace is exceeding the token request rate limit, consider redistributing your workload by replacing a single namespace with several smaller namespaces.</source>
+            <target state="new">If you are getting recurring ACS90055-HTTP 429 errors because your namespace is exceeding the token request rate limit, consider redistributing your workload by replacing a single namespace with several smaller namespaces.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

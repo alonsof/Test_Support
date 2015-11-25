@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="it-IT" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANylEKwyAMANCreAADmqRqdoLtvxeI1kCha6Gz0OOv8D6fGfXK2KB3ZuBoAWooFVqImkQsqop3mhRLXCII9wQsFECoVsDGSFo0Y6VnLS1r4wATIQJrTCCYDRaqXMQaa8veRe/WAZ/Zu3tbzfo9XudxDO/wMXn3vr66z6fuv03Heux/w0Tj1KIAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Step 6: Configure the WCF Client to call Service Bus</source>
+            <target state="new">Step 6: Configure the WCF Client to call Service Bus</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Step 6: Configure the WCF Client</source>
+            <target state="new">Step 6: Configure the WCF Client</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This is the sixth of seven tasks required to create a basic <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service and a client that calls the service.</source>
+            <target state="new">This is the sixth of seven tasks required to create a basic <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service and a client that calls the service.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>For an overview of all seven tasks, see <ph id="1">&lt;link xlink:href="24332c3c-277f-46f2-949a-d4381b8bfb0b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;AppFabric Service Bus Tutorial&lt;/link&gt;</ph>.</source>
+            <target state="new">For an overview of all seven tasks, see <ph id="1">&lt;link xlink:href="24332c3c-277f-46f2-949a-d4381b8bfb0b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;AppFabric Service Bus Tutorial&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>This topic describes how to create an App.config file for a basic client application that accesses the service created previously in this tutorial.</source>
+            <target state="new">This topic describes how to create an App.config file for a basic client application that accesses the service created previously in this tutorial.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>This App.config file defines the contract, binding, and name of the endpoint.</source>
+            <target state="new">This App.config file defines the contract, binding, and name of the endpoint.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The code used for these tasks is provided in the example following the procedure.</source>
+            <target state="new">The code used for these tasks is provided in the example following the procedure.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Time to completion: 10 minutes</source>
+            <target state="new">Time to completion: 10 minutes</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>To configure the client</source>
+            <target state="new">To configure the client</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;ui&gt;</bpt>Solution Explorer<ept id="1">&lt;/ui&gt;</ept>, in the client project, double-click <bpt id="2">&lt;ui&gt;</bpt>App.config<ept id="2">&lt;/ui&gt;</ept> to open the file, which currently contains the following XML elements:</source>
+            <target state="new">In <bpt id="1">&lt;ui&gt;</bpt>Solution Explorer<ept id="1">&lt;/ui&gt;</ept>, in the client project, double-click <bpt id="2">&lt;ui&gt;</bpt>App.config<ept id="2">&lt;/ui&gt;</ept> to open the file, which currently contains the following XML elements:</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Add an XML element to the App.config file for <ph id="1">&lt;codeInline&gt;system.serviceModel&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Add an XML element to the App.config file for <ph id="1">&lt;codeInline&gt;system.serviceModel&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>This element declares that your application uses <ph id="1">&lt;token&gt;indigo2&lt;/token&gt;</ph>-style endpoints.</source>
+            <target state="new">This element declares that your application uses <ph id="1">&lt;token&gt;indigo2&lt;/token&gt;</ph>-style endpoints.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>As stated previously, much of the configuration of a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> application is identical to a <ph id="2">&lt;token&gt;indigo2&lt;/token&gt;</ph> application; the main difference is the location to which the configuration file points.</source>
+            <target state="new">As stated previously, much of the configuration of a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> application is identical to a <ph id="2">&lt;token&gt;indigo2&lt;/token&gt;</ph> application; the main difference is the location to which the configuration file points.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Within the <ph id="1">&lt;codeInline&gt;system.serviceModel&lt;/codeInline&gt;</ph> element, add a <ph id="2">&lt;codeInline&gt;%%amp;lt;client%%amp;gt;&lt;/codeInline&gt;</ph> element.</source>
+            <target state="new">Within the <ph id="1">&lt;codeInline&gt;system.serviceModel&lt;/codeInline&gt;</ph> element, add a <ph id="2">&lt;codeInline&gt;%%amp;lt;client%%amp;gt;&lt;/codeInline&gt;</ph> element.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>This step declares that you are defining a <ph id="1">&lt;token&gt;indigo2&lt;/token&gt;</ph>-style client application.</source>
+            <target state="new">This step declares that you are defining a <ph id="1">&lt;token&gt;indigo2&lt;/token&gt;</ph>-style client application.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Within the <ph id="1">&lt;codeInline&gt;client&lt;/codeInline&gt;</ph> element, define the name, contract, and binding type for the endpoint.</source>
+            <target state="new">Within the <ph id="1">&lt;codeInline&gt;client&lt;/codeInline&gt;</ph> element, define the name, contract, and binding type for the endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>This step defines the name of the endpoint, the contract defined in the service, and the fact that the client application uses TCP to communicate with <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">This step defines the name of the endpoint, the contract defined in the service, and the fact that the client application uses TCP to communicate with <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The endpoint name will be used in the next step, to link this endpoint configuration with the service URI.</source>
+            <target state="new">The endpoint name will be used in the next step, to link this endpoint configuration with the service URI.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Directly after the <ph id="1">&lt;codeInline&gt;%%amp;lt;client%%amp;gt;&lt;/codeInline&gt;</ph> element, add the following binding extension:</source>
+            <target state="new">Directly after the <ph id="1">&lt;codeInline&gt;%%amp;lt;client%%amp;gt;&lt;/codeInline&gt;</ph> element, add the following binding extension:</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>File<ept id="1">&lt;/ui&gt;</ept>, then <bpt id="2">&lt;ui&gt;</bpt>Save All<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>File<ept id="1">&lt;/ui&gt;</ept>, then <bpt id="2">&lt;ui&gt;</bpt>Save All<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>The following code sample shows the App.config file for the Echo client.</source>
+            <target state="new">The following code sample shows the App.config file for the Echo client.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Now that you have configured the client application, proceed to <ph id="1">&lt;link xlink:href="5a579422-16ce-4a35-8253-4c7b476e3864" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 7: Implement an AppFabric Service Bus Client&lt;/link&gt;</ph> to implement the rest of the application.</source>
+            <target state="new">Now that you have configured the client application, proceed to <ph id="1">&lt;link xlink:href="5a579422-16ce-4a35-8253-4c7b476e3864" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 7: Implement an AppFabric Service Bus Client&lt;/link&gt;</ph> to implement the rest of the application.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

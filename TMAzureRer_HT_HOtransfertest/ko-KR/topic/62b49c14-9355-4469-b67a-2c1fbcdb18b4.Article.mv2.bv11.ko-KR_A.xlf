@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANycsJwzAMANBVPIAF/siO1QkKvZUuIDkShKYxpClk/OZdn1lWwdRBFREwWgAJTaCHyJXIIjN5V4yKNmzQcVJAyRUkJwPNjLW2rjg372oSpB4RKJcCiJVA6sSQejTps8Qm6F307j3g8fTuXBczPY/bPsbhXbruyvvvw9tr5+278rGM7Q8AIH1FogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Querying DocumentDB Resources</source>
+            <target state="new">Querying DocumentDB Resources</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This section describes how to use REST to query DocumentDB resources.</source>
+            <target state="new">This section describes how to use REST to query DocumentDB resources.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>What resources can be queried by using REST?</source>
+            <target state="new">What resources can be queried by using REST?</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>All DocumentDB resources except account resources can be queried using DocumentDB SQL language.</source>
+            <target state="new">All DocumentDB resources except account resources can be queried using DocumentDB SQL language.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>For more information on DocumentDB SQL Language, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Query with DocumentDB SQL<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/documentdb-sql-query&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information on DocumentDB SQL Language, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Query with DocumentDB SQL<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/documentdb-sql-query&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>How do I query a resource by using REST?</source>
+            <target state="new">How do I query a resource by using REST?</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>To perform a SQL query on a resource, do the following:</source>
+            <target state="new">To perform a SQL query on a resource, do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Execute a POST method against a resource path using JSON with the "query" property set to the SQL query string, and the "parameters" property set to the array of optional parameter values.</source>
+            <target state="new">Execute a POST method against a resource path using JSON with the "query" property set to the SQL query string, and the "parameters" property set to the array of optional parameter values.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Set the x-ms-documentdb-isquery header to true.</source>
+            <target state="new">Set the x-ms-documentdb-isquery header to true.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Set the Content-Type header to application/query+json.</source>
+            <target state="new">Set the Content-Type header to application/query+json.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Example</source>
+            <target state="new">Example</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Below is an example REST query operation on document resources.</source>
+            <target state="new">Below is an example REST query operation on document resources.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>In this example, we would like to find all documents that have "Don" as an author.</source>
+            <target state="new">In this example, we would like to find all documents that have "Don" as an author.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Request Details</source>
+            <target state="new">Request Details</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Method</source>
+            <target state="new">Method</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Request URI</source>
+            <target state="new">Request URI</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>POST</source>
+            <target state="new">POST</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Required<ept id="1">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Required<ept id="1">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>The authentication type and signature token.</source>
+            <target state="new">The authentication type and signature token.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Only the master key token is allowed for this operation.</source>
+            <target state="new">Only the master key token is allowed for this operation.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="c3c3324c-9a3f-4cad-8a74-bd73d8b4e40b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Access Control on DocumentDB Resources&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="c3c3324c-9a3f-4cad-8a74-bd73d8b4e40b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Access Control on DocumentDB Resources&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Request Headers</source>
+            <target state="new">Request Headers</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>The following table contains the common headers used to perform query operations.</source>
+            <target state="new">The following table contains the common headers used to perform query operations.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Standard Header</source>
+            <target state="new">Standard Header</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Authorization</source>
+            <target state="new">Authorization</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Required<ept id="1">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Required<ept id="1">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>The authentication type and signature token.</source>
+            <target state="new">The authentication type and signature token.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Only the master key token is allowed for this operation.</source>
+            <target state="new">Only the master key token is allowed for this operation.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="c3c3324c-9a3f-4cad-8a74-bd73d8b4e40b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Access Control on DocumentDB Resources&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="c3c3324c-9a3f-4cad-8a74-bd73d8b4e40b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Access Control on DocumentDB Resources&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Content-Type</source>
+            <target state="new">Content-Type</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Required<ept id="1">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Required<ept id="1">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Must be set to application/query+json.</source>
+            <target state="new">Must be set to application/query+json.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Accept</source>
+            <target state="new">Accept</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Optional<ept id="1">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Optional<ept id="1">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>At the moment, DocumentDB always returns the response payload in standard JSON format.</source>
+            <target state="new">At the moment, DocumentDB always returns the response payload in standard JSON format.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>The client must be able to accept the response body in standard JSON format.</source>
+            <target state="new">The client must be able to accept the response body in standard JSON format.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>User-Agent</source>
+            <target state="new">User-Agent</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Optional<ept id="1">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Optional<ept id="1">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>The user agent performing the request.</source>
+            <target state="new">The user agent performing the request.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>The recommended format is {user agent name}/{version}.</source>
+            <target state="new">The recommended format is {user agent name}/{version}.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>For example, the DocumentDB .NET SDK sets the User-Agent string to Microsoft.Document.Client/1.0.0.0.</source>
+            <target state="new">For example, the DocumentDB .NET SDK sets the User-Agent string to Microsoft.Document.Client/1.0.0.0.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Custom Header</source>
+            <target state="new">Custom Header</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>x-ms-date</source>
+            <target state="new">x-ms-date</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Required<ept id="1">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Required<ept id="1">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>The date of the request, as specified in RFC 1123.</source>
+            <target state="new">The date of the request, as specified in RFC 1123.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>The date format is expressed in Coordinated Universal Time (UTC), for example.</source>
+            <target state="new">The date format is expressed in Coordinated Universal Time (UTC), for example.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Fri, 08 Apr 2015 03:52:31 GMT.</source>
+            <target state="new">Fri, 08 Apr 2015 03:52:31 GMT.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>x-ms-documentdb-isquery</source>
+            <target state="new">x-ms-documentdb-isquery</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Required<ept id="1">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Required<ept id="1">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>This property must be set to true.</source>
+            <target state="new">This property must be set to true.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>x-ms-max-item-count</source>
+            <target state="new">x-ms-max-item-count</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Optional<ept id="1">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Optional<ept id="1">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>To page through a result set, set this header to the maximum number for items to be returned back in a single page.</source>
+            <target state="new">To page through a result set, set this header to the maximum number for items to be returned back in a single page.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>x-ms-continuation</source>
+            <target state="new">x-ms-continuation</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Optional<ept id="1">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Optional<ept id="1">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>To navigate to the next page of items, set this header to the continuation token for the next page.</source>
+            <target state="new">To navigate to the next page of items, set this header to the continuation token for the next page.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>x-ms-version</source>
+            <target state="new">x-ms-version</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Optional<ept id="1">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Optional<ept id="1">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>The version of DocumentDB REST service.</source>
+            <target state="new">The version of DocumentDB REST service.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>The latest version is used when the header is not provided.</source>
+            <target state="new">The latest version is used when the header is not provided.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="f174cfcb-644c-4006-a5e9-2ad30c39b38a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;DocumentDB REST API&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="f174cfcb-644c-4006-a5e9-2ad30c39b38a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;DocumentDB REST API&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>x-ms-documentdb-query-enable-scan</source>
+            <target state="new">x-ms-documentdb-query-enable-scan</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Optional<ept id="1">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Optional<ept id="1">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Use an index scan to process the query if the right index path of type is not available.</source>
+            <target state="new">Use an index scan to process the query if the right index path of type is not available.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>x-ms-session-token</source>
+            <target state="new">x-ms-session-token</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Optional<ept id="1">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Optional<ept id="1">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>The session token for the request.</source>
+            <target state="new">The session token for the request.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Used for session consistency.</source>
+            <target state="new">Used for session consistency.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Request Body</source>
+            <target state="new">Request Body</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>The request body should be a valid JSON document containing the SQL query and parameters.</source>
+            <target state="new">The request body should be a valid JSON document containing the SQL query and parameters.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>If the input is malformed or invalid SQL syntax, the operation with fails with a 400 Bad Request error.</source>
+            <target state="new">If the input is malformed or invalid SQL syntax, the operation with fails with a 400 Bad Request error.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Property</source>
+            <target state="new">Property</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>query</source>
+            <target state="new">query</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Required<ept id="1">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Required<ept id="1">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>The SQL query string for the query.</source>
+            <target state="new">The SQL query string for the query.</target>
+          </trans-unit>
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>For more information see <ph id="1">&lt;link xlink:href="044988d8-09ea-45c9-bee8-611f778fde02" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;DocumentDB SQL Query Language&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information see <ph id="1">&lt;link xlink:href="044988d8-09ea-45c9-bee8-611f778fde02" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;DocumentDB SQL Query Language&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>parameters</source>
+            <target state="new">parameters</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Required<ept id="1">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Required<ept id="1">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>A JSON array of parameters specified as name value pairs.</source>
+            <target state="new">A JSON array of parameters specified as name value pairs.</target>
+          </trans-unit>
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>The parameter array can contain from zero to many parameters.Each parameter must have the following values:<bpt id="1">&lt;legacyBold&gt;</bpt>name<ept id="1">&lt;/legacyBold&gt;</ept>: the name of the parameter.</source>
+            <target state="new">The parameter array can contain from zero to many parameters.Each parameter must have the following values:<bpt id="1">&lt;legacyBold&gt;</bpt>name<ept id="1">&lt;/legacyBold&gt;</ept>: the name of the parameter.</target>
+          </trans-unit>
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Parameter names must be valid string literals and begin with ‘@’.<bpt id="1">&lt;legacyBold&gt;</bpt>value<ept id="1">&lt;/legacyBold&gt;</ept>: the value of the parameter.</source>
+            <target state="new">Parameter names must be valid string literals and begin with ‘@’.<bpt id="1">&lt;legacyBold&gt;</bpt>value<ept id="1">&lt;/legacyBold&gt;</ept>: the value of the parameter.</target>
+          </trans-unit>
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Can be any valid JSON value (string, number, object, array, Boolean or null).</source>
+            <target state="new">Can be any valid JSON value (string, number, object, array, Boolean or null).</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Request Example</source>
+            <target state="new">Request Example</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>The following example makes a parameterized SQL request with a string parameter for @author.</source>
+            <target state="new">The following example makes a parameterized SQL request with a string parameter for @author.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>For more information on the DocumentDB SQL Language, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Query with DocumentDB SQL<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/documentdb-sql-query&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information on the DocumentDB SQL Language, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Query with DocumentDB SQL<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/documentdb-sql-query&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Response Details</source>
+            <target state="new">Response Details</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>The following are common status codes returned by this operation.</source>
+            <target state="new">The following are common status codes returned by this operation.</target>
+          </trans-unit>
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>For information about error status codes, please see <ph id="1">&lt;link xlink:href="7104e4ef-fa51-4194-93f0-bb5f53fe9d61" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;HTTP Status Codes for DocumentDB&lt;/link&gt;</ph>.</source>
+            <target state="new">For information about error status codes, please see <ph id="1">&lt;link xlink:href="7104e4ef-fa51-4194-93f0-bb5f53fe9d61" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;HTTP Status Codes for DocumentDB&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Code</source>
+            <target state="new">Code</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>200 Ok</source>
+            <target state="new">200 Ok</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>The operation is successful.</source>
+            <target state="new">The operation is successful.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>400 Bad Request</source>
+            <target state="new">400 Bad Request</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>The syntax of the SQL statement is incorrect.</source>
+            <target state="new">The syntax of the SQL statement is incorrect.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>401 Unauthorized</source>
+            <target state="new">401 Unauthorized</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Either the <bpt id="1">&lt;legacyBold&gt;</bpt>Authorization<ept id="1">&lt;/legacyBold&gt;</ept> or <bpt id="2">&lt;legacyBold&gt;</bpt>x-ms-date<ept id="2">&lt;/legacyBold&gt;</ept> header is not set.</source>
+            <target state="new">Either the <bpt id="1">&lt;legacyBold&gt;</bpt>Authorization<ept id="1">&lt;/legacyBold&gt;</ept> or <bpt id="2">&lt;legacyBold&gt;</bpt>x-ms-date<ept id="2">&lt;/legacyBold&gt;</ept> header is not set.</target>
+          </trans-unit>
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>401 is also returned when the <bpt id="1">&lt;legacyBold&gt;</bpt>Authorization<ept id="1">&lt;/legacyBold&gt;</ept> header is set to an invalid authorization token.</source>
+            <target state="new">401 is also returned when the <bpt id="1">&lt;legacyBold&gt;</bpt>Authorization<ept id="1">&lt;/legacyBold&gt;</ept> header is set to an invalid authorization token.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>403 Forbidden</source>
+            <target state="new">403 Forbidden</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>The authorization token has expired.</source>
+            <target state="new">The authorization token has expired.</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>404 Not Found</source>
+            <target state="new">404 Not Found</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>The collection is no longer a resource.</source>
+            <target state="new">The collection is no longer a resource.</target>
+          </trans-unit>
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>For example, the resource may have been deleted.</source>
+            <target state="new">For example, the resource may have been deleted.</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Response Headers</source>
+            <target state="new">Response Headers</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>This operation returns the following common headers.</source>
+            <target state="new">This operation returns the following common headers.</target>
+          </trans-unit>
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>There may be additional standard and common headers returned.</source>
+            <target state="new">There may be additional standard and common headers returned.</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>Standard Header</source>
+            <target state="new">Standard Header</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Content-Type</source>
+            <target state="new">Content-Type</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>The Content-Type is application/json.</source>
+            <target state="new">The Content-Type is application/json.</target>
+          </trans-unit>
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>DocumentDB always return the response body in standard JSON format.</source>
+            <target state="new">DocumentDB always return the response body in standard JSON format.</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>Date</source>
+            <target state="new">Date</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>The date-time of the response operation.</source>
+            <target state="new">The date-time of the response operation.</target>
+          </trans-unit>
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>This date time format conforms to the [RFC1123] date time format expressed in UTC.</source>
+            <target state="new">This date time format conforms to the [RFC1123] date time format expressed in UTC.</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>Custom Header</source>
+            <target state="new">Custom Header</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>x-ms-item-count</source>
+            <target state="new">x-ms-item-count</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>The number of item returned by the operation.</source>
+            <target state="new">The number of item returned by the operation.</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>x-ms-continuation</source>
+            <target state="new">x-ms-continuation</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>This is an opaque string returned when the query has potentially more items to be retrieved.</source>
+            <target state="new">This is an opaque string returned when the query has potentially more items to be retrieved.</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>The x-ms-continuation can be included in subsequent requests as a request header to resume execution of the query.</source>
+            <target state="new">The x-ms-continuation can be included in subsequent requests as a request header to resume execution of the query.</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>x-ms-request-charge</source>
+            <target state="new">x-ms-request-charge</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>This is the number of request units (RU) consumed by the operation.</source>
+            <target state="new">This is the number of request units (RU) consumed by the operation.</target>
+          </trans-unit>
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>For more information about request units, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Managing DocumentDB Capacity and Performance<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/documentdb-manage&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information about request units, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Managing DocumentDB Capacity and Performance<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/documentdb-manage&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>x-ms-activity-id</source>
+            <target state="new">x-ms-activity-id</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>This is a unique identifier for the operation.</source>
+            <target state="new">This is a unique identifier for the operation.</target>
+          </trans-unit>
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>It can be used for tracing execution of DocumentDB requests.</source>
+            <target state="new">It can be used for tracing execution of DocumentDB requests.</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>x-ms-session-token</source>
+            <target state="new">x-ms-session-token</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>The session token to be used for subsequent requests.</source>
+            <target state="new">The session token to be used for subsequent requests.</target>
+          </trans-unit>
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>Used for session consistency.</source>
+            <target state="new">Used for session consistency.</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>Response Body</source>
+            <target state="new">Response Body</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>The response body for the query operation consists of the _rid of the parent resource of the resource being queried, and the resource array containing the resource properties for the projection and selection.</source>
+            <target state="new">The response body for the query operation consists of the _rid of the parent resource of the resource being queried, and the resource array containing the resource properties for the projection and selection.</target>
+          </trans-unit>
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>As per the example, if a query was performed on the <bpt id="1">&lt;legacyBold&gt;</bpt>docs<ept id="1">&lt;/legacyBold&gt;</ept> path of the collection with an _rid of XP0mAJ3H-AA=, the response would be as follows:</source>
+            <target state="new">As per the example, if a query was performed on the <bpt id="1">&lt;legacyBold&gt;</bpt>docs<ept id="1">&lt;/legacyBold&gt;</ept> path of the collection with an _rid of XP0mAJ3H-AA=, the response would be as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>Property</source>
+            <target state="new">Property</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>_rid</source>
+            <target state="new">_rid</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>The resource id for the collection used within the query.</source>
+            <target state="new">The resource id for the collection used within the query.</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>_count</source>
+            <target state="new">_count</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>The number of items returned.</source>
+            <target state="new">The number of items returned.</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>Resource array</source>
+            <target state="new">Resource array</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>The array containing the query results.</source>
+            <target state="new">The array containing the query results.</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>Building the query request body</source>
+            <target state="new">Building the query request body</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>The query request must be a valid JSON document containing a <bpt id="1">&lt;legacyBold&gt;</bpt>query<ept id="1">&lt;/legacyBold&gt;</ept> property that contains a valid SQL query string and a <bpt id="2">&lt;legacyBold&gt;</bpt>parameters<ept id="2">&lt;/legacyBold&gt;</ept> property that contains an array of optional parameters.</source>
+            <target state="new">The query request must be a valid JSON document containing a <bpt id="1">&lt;legacyBold&gt;</bpt>query<ept id="1">&lt;/legacyBold&gt;</ept> property that contains a valid SQL query string and a <bpt id="2">&lt;legacyBold&gt;</bpt>parameters<ept id="2">&lt;/legacyBold&gt;</ept> property that contains an array of optional parameters.</target>
+          </trans-unit>
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>Each parameter should have a <bpt id="1">&lt;legacyBold&gt;</bpt>name<ept id="1">&lt;/legacyBold&gt;</ept> and <bpt id="2">&lt;legacyBold&gt;</bpt>value<ept id="2">&lt;/legacyBold&gt;</ept> property of parameters that are specified within the query.</source>
+            <target state="new">Each parameter should have a <bpt id="1">&lt;legacyBold&gt;</bpt>name<ept id="1">&lt;/legacyBold&gt;</ept> and <bpt id="2">&lt;legacyBold&gt;</bpt>value<ept id="2">&lt;/legacyBold&gt;</ept> property of parameters that are specified within the query.</target>
+          </trans-unit>
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>Parameter names must begin with the “@” character.</source>
+            <target state="new">Parameter names must begin with the “@” character.</target>
+          </trans-unit>
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>Values can be any valid JSON values – strings, integers, Booleans and nulls.</source>
+            <target state="new">Values can be any valid JSON values – strings, integers, Booleans and nulls.</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>It is valid to specifiy only a subset of parameters specified in the <bpt id="1">&lt;legacyBold&gt;</bpt>query<ept id="1">&lt;/legacyBold&gt;</ept> text.</source>
+            <target state="new">It is valid to specifiy only a subset of parameters specified in the <bpt id="1">&lt;legacyBold&gt;</bpt>query<ept id="1">&lt;/legacyBold&gt;</ept> text.</target>
+          </trans-unit>
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>Expressions that reference these unspecified parameters will evaluate to <bpt id="1">&lt;legacyBold&gt;</bpt>undefined<ept id="1">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new">Expressions that reference these unspecified parameters will evaluate to <bpt id="1">&lt;legacyBold&gt;</bpt>undefined<ept id="1">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>It is also valid to specify additional parameters that are not used within the <bpt id="1">&lt;legacyBold&gt;</bpt>query<ept id="1">&lt;/legacyBold&gt;</ept> text.</source>
+            <target state="new">It is also valid to specify additional parameters that are not used within the <bpt id="1">&lt;legacyBold&gt;</bpt>query<ept id="1">&lt;/legacyBold&gt;</ept> text.</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>Some examples of valid query requests are shown below.</source>
+            <target state="new">Some examples of valid query requests are shown below.</target>
+          </trans-unit>
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>For example, the following query has a single parameter @id.</source>
+            <target state="new">For example, the following query has a single parameter @id.</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>The following example has two parameters, one with a string value and another with an integer value.</source>
+            <target state="new">The following example has two parameters, one with a string value and another with an integer value.</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>The following example uses parameters within the SELECT clause, as well as a property accessed through the parameter name as a parameter.</source>
+            <target state="new">The following example uses parameters within the SELECT clause, as well as a property accessed through the parameter name as a parameter.</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>Pagination of query results</source>
+            <target state="new">Pagination of query results</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>Query requests support pagination through the <bpt id="1">&lt;legacyBold&gt;</bpt>x-ms-max-item-count<ept id="1">&lt;/legacyBold&gt;</ept> and <bpt id="2">&lt;legacyBold&gt;</bpt>x-ms-continuation request<ept id="2">&lt;/legacyBold&gt;</ept> headers.</source>
+            <target state="new">Query requests support pagination through the <bpt id="1">&lt;legacyBold&gt;</bpt>x-ms-max-item-count<ept id="1">&lt;/legacyBold&gt;</ept> and <bpt id="2">&lt;legacyBold&gt;</bpt>x-ms-continuation request<ept id="2">&lt;/legacyBold&gt;</ept> headers.</target>
+          </trans-unit>
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;legacyBold&gt;</bpt>x-ms-max-item-count<ept id="1">&lt;/legacyBold&gt;</ept> header specifies the maximum number of values that can be returned by the query execution.</source>
+            <target state="new">The <bpt id="1">&lt;legacyBold&gt;</bpt>x-ms-max-item-count<ept id="1">&lt;/legacyBold&gt;</ept> header specifies the maximum number of values that can be returned by the query execution.</target>
+          </trans-unit>
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>This can be between 1 and 1000, and is configured with a default of 100.</source>
+            <target state="new">This can be between 1 and 1000, and is configured with a default of 100.</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>Queries will return from zero up to the maximum specified <bpt id="1">&lt;legacyBold&gt;</bpt>x-ms-max-item-count<ept id="1">&lt;/legacyBold&gt;</ept> values from the results of the execution.</source>
+            <target state="new">Queries will return from zero up to the maximum specified <bpt id="1">&lt;legacyBold&gt;</bpt>x-ms-max-item-count<ept id="1">&lt;/legacyBold&gt;</ept> values from the results of the execution.</target>
+          </trans-unit>
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>The query result includes an <bpt id="1">&lt;legacyBold&gt;</bpt>x-ms-item-count<ept id="1">&lt;/legacyBold&gt;</ept> header that specifies the actual number of documents returned by the query.</source>
+            <target state="new">The query result includes an <bpt id="1">&lt;legacyBold&gt;</bpt>x-ms-item-count<ept id="1">&lt;/legacyBold&gt;</ept> header that specifies the actual number of documents returned by the query.</target>
+          </trans-unit>
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>If there are additional results that could be retrieved from the query, then the response includes a non-empty value for the <bpt id="1">&lt;legacyBold&gt;</bpt>x-ms-continuation<ept id="1">&lt;/legacyBold&gt;</ept> header.</source>
+            <target state="new">If there are additional results that could be retrieved from the query, then the response includes a non-empty value for the <bpt id="1">&lt;legacyBold&gt;</bpt>x-ms-continuation<ept id="1">&lt;/legacyBold&gt;</ept> header.</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>Clients can fetch subsequent pages of results by echoing the <bpt id="1">&lt;legacyBold&gt;</bpt>x-ms-continuation<ept id="1">&lt;/legacyBold&gt;</ept> header as another request.</source>
+            <target state="new">Clients can fetch subsequent pages of results by echoing the <bpt id="1">&lt;legacyBold&gt;</bpt>x-ms-continuation<ept id="1">&lt;/legacyBold&gt;</ept> header as another request.</target>
+          </trans-unit>
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>In order to read all results, clients must repeat this process until an empty <bpt id="1">&lt;legacyBold&gt;</bpt>x-ms-continuation<ept id="1">&lt;/legacyBold&gt;</ept> is returned.</source>
+            <target state="new">In order to read all results, clients must repeat this process until an empty <bpt id="1">&lt;legacyBold&gt;</bpt>x-ms-continuation<ept id="1">&lt;/legacyBold&gt;</ept> is returned.</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>DocumentDB query executions are stateless at the server side, and can be resumed at any time using the <bpt id="1">&lt;legacyBold&gt;</bpt>x-ms-continuation<ept id="1">&lt;/legacyBold&gt;</ept> header.</source>
+            <target state="new">DocumentDB query executions are stateless at the server side, and can be resumed at any time using the <bpt id="1">&lt;legacyBold&gt;</bpt>x-ms-continuation<ept id="1">&lt;/legacyBold&gt;</ept> header.</target>
+          </trans-unit>
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;legacyBold&gt;</bpt>x-ms-continuation<ept id="1">&lt;/legacyBold&gt;</ept> value uses the last processed document resource ID (_rid) to track progress of execution.</source>
+            <target state="new">The <bpt id="1">&lt;legacyBold&gt;</bpt>x-ms-continuation<ept id="1">&lt;/legacyBold&gt;</ept> value uses the last processed document resource ID (_rid) to track progress of execution.</target>
+          </trans-unit>
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>Therefore if documents are deleted and re-inserted between fetching of pages, then it could potentially be excluded from any of the query batches.</source>
+            <target state="new">Therefore if documents are deleted and re-inserted between fetching of pages, then it could potentially be excluded from any of the query batches.</target>
+          </trans-unit>
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>However, the behavior and format of the <bpt id="1">&lt;legacyBold&gt;</bpt>x-ms-continuation<ept id="1">&lt;/legacyBold&gt;</ept> header might change in a future service update.</source>
+            <target state="new">However, the behavior and format of the <bpt id="1">&lt;legacyBold&gt;</bpt>x-ms-continuation<ept id="1">&lt;/legacyBold&gt;</ept> header might change in a future service update.</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>DocumentDB documentation</source>
+            <target state="new">DocumentDB documentation</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

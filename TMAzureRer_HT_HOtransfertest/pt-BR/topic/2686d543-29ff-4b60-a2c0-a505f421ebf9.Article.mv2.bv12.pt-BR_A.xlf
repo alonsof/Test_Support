@@ -1,0 +1,1811 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="pt-BR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANjEEKwzAMBL/iB1ggO7Kxe+yp59IPyLIFgTQpqQt5fnXYZWDYVV1GoygwBhFQUISGpYFg4FyrBubqXRlYRUsHFREgNOKORrly0xSkEHkXc8k90QKxqgK1jMBRrBImpRhGU/sK3n0m3J/eXduqOq55O49j2tyc5fF78/46ef9uPNdj/wM8tBq0ogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Constructing the Shared Access Signature URI</source>
+            <target state="new">Constructing the Shared Access Signature URI</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The URI for a shared access signature includes components that specify the resource to make accessible, the interval over which the shared access signature is valid, the permissions associated with the signature, an optional access policy identifier associated with the request, and the signature itself.</source>
+            <target state="new">The URI for a shared access signature includes components that specify the resource to make accessible, the interval over which the shared access signature is valid, the permissions associated with the signature, an optional access policy identifier associated with the request, and the signature itself.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>The following figure represents the parts of the shared access signature URI.</source>
+            <target state="new">The following figure represents the parts of the shared access signature URI.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Required parts appear in orange.</source>
+            <target state="new">Required parts appear in orange.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The parts of the URI are described in the subsequent sections.</source>
+            <target state="new">The parts of the URI are described in the subsequent sections.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Specifying the Signed Version Field</source>
+            <target state="new">Specifying the Signed Version Field</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;signedversion&lt;/parameterReference&gt;</ph> field contains the service version of the shared access signature.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;signedversion&lt;/parameterReference&gt;</ph> field contains the service version of the shared access signature.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>This value specifies the version of shared access authentication used by this shared access signature (in the <ph id="1">&lt;parameterReference&gt;signature&lt;/parameterReference&gt;</ph> field), and also specifies the service version of requests made with this shared access signature.</source>
+            <target state="new">This value specifies the version of shared access authentication used by this shared access signature (in the <ph id="1">&lt;parameterReference&gt;signature&lt;/parameterReference&gt;</ph> field), and also specifies the service version of requests made with this shared access signature.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="cc4fba5c-7015-40bf-a29c-b6f0c684ff3c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Versioning for the Azure Storage Services&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="2279856c-ff44-4560-bfa5-b03ae644c0af" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure Storage Services Versions 2013-08-15 and Earlier&lt;/link&gt;</ph> for information on which version is used when to execute requests via a shared access signature.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="cc4fba5c-7015-40bf-a29c-b6f0c684ff3c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Versioning for the Azure Storage Services&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="2279856c-ff44-4560-bfa5-b03ae644c0af" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure Storage Services Versions 2013-08-15 and Earlier&lt;/link&gt;</ph> for information on which version is used when to execute requests via a shared access signature.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="98f3411e-d85d-4be9-809e-135b3d4ed436" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Delegating Access with a Shared Access Signature&lt;/link&gt;</ph> for details about how this parameter affects authentication of requests made with a shared access signature.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="98f3411e-d85d-4be9-809e-135b3d4ed436" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Delegating Access with a Shared Access Signature&lt;/link&gt;</ph> for details about how this parameter affects authentication of requests made with a shared access signature.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Field name</source>
+            <target state="new">Field name</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Query parameter</source>
+            <target state="new">Query parameter</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Required and only allowed in versions 2012-02-12 and newer.</source>
+            <target state="new">Required and only allowed in versions 2012-02-12 and newer.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The storage service version to use to authenticate requests made with this shared access signature, and the service version to use when handling requests made with this shared access signature.</source>
+            <target state="new">The storage service version to use to authenticate requests made with this shared access signature, and the service version to use when handling requests made with this shared access signature.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="cc4fba5c-7015-40bf-a29c-b6f0c684ff3c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Versioning for the Azure Storage Services&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="2279856c-ff44-4560-bfa5-b03ae644c0af" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure Storage Services Versions 2013-08-15 and Earlier&lt;/link&gt;</ph> for information on which version is used when to execute requests via a shared access signature, and how clients executing the request can control the version using the <ph id="3">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> query parameter or the <ph id="4">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> header.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="cc4fba5c-7015-40bf-a29c-b6f0c684ff3c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Versioning for the Azure Storage Services&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="2279856c-ff44-4560-bfa5-b03ae644c0af" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure Storage Services Versions 2013-08-15 and Earlier&lt;/link&gt;</ph> for information on which version is used when to execute requests via a shared access signature, and how clients executing the request can control the version using the <ph id="3">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> query parameter or the <ph id="4">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> header.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Determining the Version of a Legacy Shared Access Signature Request</source>
+            <target state="new">Determining the Version of a Legacy Shared Access Signature Request</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>In legacy scenarios where <ph id="1">&lt;parameterReference&gt;signedversion&lt;/parameterReference&gt;</ph> is not used, the Blob service applies rules to determine the version.</source>
+            <target state="new">In legacy scenarios where <ph id="1">&lt;parameterReference&gt;signedversion&lt;/parameterReference&gt;</ph> is not used, the Blob service applies rules to determine the version.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="cc4fba5c-7015-40bf-a29c-b6f0c684ff3c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Versioning for the Azure Storage Services&lt;/link&gt;</ph> for more information about these rules.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="cc4fba5c-7015-40bf-a29c-b6f0c684ff3c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Versioning for the Azure Storage Services&lt;/link&gt;</ph> for more information about these rules.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Client software might experience unexpected protocol behavior when using a shared access signature URI that uses a storage service version that is newer than the client software.</source>
+            <target state="new">Client software might experience unexpected protocol behavior when using a shared access signature URI that uses a storage service version that is newer than the client software.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Code that constructs shared access signature URIs should rely on versions that are understood by client software that makes storage service requests.</source>
+            <target state="new">Code that constructs shared access signature URIs should rely on versions that are understood by client software that makes storage service requests.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Specifying the Signed Resource (Blob Service Only)</source>
+            <target state="new">Specifying the Signed Resource (Blob Service Only)</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;signedresource&lt;/parameterReference&gt;</ph> field specifies which resources are accessible via the shared access signature.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;signedresource&lt;/parameterReference&gt;</ph> field specifies which resources are accessible via the shared access signature.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>The following table describes how to refer to a blob or container resource on the URI.</source>
+            <target state="new">The following table describes how to refer to a blob or container resource on the URI.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Field name</source>
+            <target state="new">Field name</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Query parameter</source>
+            <target state="new">Query parameter</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Specify <bpt id="1">&lt;userInput&gt;</bpt>b<ept id="1">&lt;/userInput&gt;</ept> if the shared resource is a blob.</source>
+            <target state="new">Specify <bpt id="1">&lt;userInput&gt;</bpt>b<ept id="1">&lt;/userInput&gt;</ept> if the shared resource is a blob.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>This grants access to the content and metadata of the blob.</source>
+            <target state="new">This grants access to the content and metadata of the blob.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Specify <bpt id="1">&lt;userInput&gt;</bpt>c<ept id="1">&lt;/userInput&gt;</ept> if the shared resource is a container.</source>
+            <target state="new">Specify <bpt id="1">&lt;userInput&gt;</bpt>c<ept id="1">&lt;/userInput&gt;</ept> if the shared resource is a container.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>This grants access to the content and metadata of any blob in the container, and to the list of blobs in the container.</source>
+            <target state="new">This grants access to the content and metadata of any blob in the container, and to the list of blobs in the container.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Specifying the Signed Resource (File Service Only)</source>
+            <target state="new">Specifying the Signed Resource (File Service Only)</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>SAS is supported for the File service in version 2015-02-21 and later.</source>
+            <target state="new">SAS is supported for the File service in version 2015-02-21 and later.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;signedresource&lt;/parameterReference&gt;</ph> field specifies which resources are accessible via the shared access signature.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;signedresource&lt;/parameterReference&gt;</ph> field specifies which resources are accessible via the shared access signature.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>The following table describes how to refer to a file or share resource on the URI.</source>
+            <target state="new">The following table describes how to refer to a file or share resource on the URI.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Field name</source>
+            <target state="new">Field name</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Query Parameter</source>
+            <target state="new">Query Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Specify <bpt id="1">&lt;userInput&gt;</bpt>f<ept id="1">&lt;/userInput&gt;</ept> if the shared resource is a file.</source>
+            <target state="new">Specify <bpt id="1">&lt;userInput&gt;</bpt>f<ept id="1">&lt;/userInput&gt;</ept> if the shared resource is a file.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>This grants access to the content and metadata of the file.</source>
+            <target state="new">This grants access to the content and metadata of the file.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Specify <bpt id="1">&lt;userInput&gt;</bpt>s<ept id="1">&lt;/userInput&gt;</ept> if the shared resource is a share.</source>
+            <target state="new">Specify <bpt id="1">&lt;userInput&gt;</bpt>s<ept id="1">&lt;/userInput&gt;</ept> if the shared resource is a share.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>This grants access to the content and metadata of any file in the share, and to the list of directories and files in the share.</source>
+            <target state="new">This grants access to the content and metadata of any file in the share, and to the list of directories and files in the share.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Specifying Query Parameters to Override Response Headers (Blob Service and File Service Only)</source>
+            <target state="new">Specifying Query Parameters to Override Response Headers (Blob Service and File Service Only)</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>To define values for certain response headers to be returned when the shared access signature is used in a request, you can specify response headers in query parameters.</source>
+            <target state="new">To define values for certain response headers to be returned when the shared access signature is used in a request, you can specify response headers in query parameters.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>This feature is supported beginning with version 2013-08-15 for the Blob service and version 2015-02-21 for the File service.</source>
+            <target state="new">This feature is supported beginning with version 2013-08-15 for the Blob service and version 2015-02-21 for the File service.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Shared access signatures using this feature must include the <ph id="1">&lt;codeInline&gt;sv&lt;/codeInline&gt;</ph> parameter set to <ph id="2">&lt;codeInline&gt;2013-08-15&lt;/codeInline&gt;</ph> or later.</source>
+            <target state="new">Shared access signatures using this feature must include the <ph id="1">&lt;codeInline&gt;sv&lt;/codeInline&gt;</ph> parameter set to <ph id="2">&lt;codeInline&gt;2013-08-15&lt;/codeInline&gt;</ph> or later.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>The response headers and corresponding query parameters are as follows:</source>
+            <target state="new">The response headers and corresponding query parameters are as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Response header name</source>
+            <target state="new">Response header name</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Corresponding SAS query parameter</source>
+            <target state="new">Corresponding SAS query parameter</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>For example, if you specify the <ph id="1">&lt;codeInline&gt;rsct=binary&lt;/codeInline&gt;</ph> query parameter on a shared access signature created with version 2013-08-15 or later, the <ph id="2">&lt;parameterReference&gt;Content-Type&lt;/parameterReference&gt;</ph> response header is set to <ph id="3">&lt;codeInline&gt;binary&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">For example, if you specify the <ph id="1">&lt;codeInline&gt;rsct=binary&lt;/codeInline&gt;</ph> query parameter on a shared access signature created with version 2013-08-15 or later, the <ph id="2">&lt;parameterReference&gt;Content-Type&lt;/parameterReference&gt;</ph> response header is set to <ph id="3">&lt;codeInline&gt;binary&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>This value overrides the <ph id="1">&lt;parameterReference&gt;Content-Type&lt;/parameterReference&gt;</ph> header value stored for the blob for a request using this shared access signature only.</source>
+            <target state="new">This value overrides the <ph id="1">&lt;parameterReference&gt;Content-Type&lt;/parameterReference&gt;</ph> header value stored for the blob for a request using this shared access signature only.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Note that if you create a shared access signature that specifies response headers as query parameters, you must include those in the string-to-sign that is used to construct the signature string.</source>
+            <target state="new">Note that if you create a shared access signature that specifies response headers as query parameters, you must include those in the string-to-sign that is used to construct the signature string.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>See the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Constructing the Signature String<ept id="1">&lt;/embeddedLabel&gt;</ept> section below for details, and <ph id="2">&lt;link xlink:href="4acc4449-8967-4701-bab5-c13f18fa7d7d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Examples of Shared Access Signatures (REST API)&lt;/link&gt;</ph> for additional examples.</source>
+            <target state="new">See the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Constructing the Signature String<ept id="1">&lt;/embeddedLabel&gt;</ept> section below for details, and <ph id="2">&lt;link xlink:href="4acc4449-8967-4701-bab5-c13f18fa7d7d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Examples of Shared Access Signatures (REST API)&lt;/link&gt;</ph> for additional examples.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Specifying the Table Name (Table Service Only)</source>
+            <target state="new">Specifying the Table Name (Table Service Only)</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;tablename&lt;/parameterReference&gt;</ph> field specifies the name of the table to share.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;tablename&lt;/parameterReference&gt;</ph> field specifies the name of the table to share.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Field name</source>
+            <target state="new">Field name</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Query parameter</source>
+            <target state="new">Query parameter</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>The name of the table to share.</source>
+            <target state="new">The name of the table to share.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Specifying the Access Policy</source>
+            <target state="new">Specifying the Access Policy</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>The access policy portion of the URI indicates the period of time over which the shared access signature is valid and the permissions to be granted to the user.</source>
+            <target state="new">The access policy portion of the URI indicates the period of time over which the shared access signature is valid and the permissions to be granted to the user.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>The parts of the URI described in the following table comprise the access policy.</source>
+            <target state="new">The parts of the URI described in the following table comprise the access policy.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Field name</source>
+            <target state="new">Field name</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Query parameter</source>
+            <target state="new">Query parameter</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>The time at which the shared access signature becomes valid, in an ISO 8601 format.</source>
+            <target state="new">The time at which the shared access signature becomes valid, in an ISO 8601 format.</target>
+          </trans-unit>
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>If omitted, start time for this call is assumed to be the time when the storage service receives the request.</source>
+            <target state="new">If omitted, start time for this call is assumed to be the time when the storage service receives the request.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>In versions before 2012-02-12, the duration between <ph id="1">&lt;parameterReference&gt;signedstart&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;signedexpiry&lt;/parameterReference&gt;</ph> cannot exceed one hour unless a container policy is used.</source>
+            <target state="new">In versions before 2012-02-12, the duration between <ph id="1">&lt;parameterReference&gt;signedstart&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;signedexpiry&lt;/parameterReference&gt;</ph> cannot exceed one hour unless a container policy is used.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>The time at which the shared access signature becomes invalid, in an ISO 8601 format.</source>
+            <target state="new">The time at which the shared access signature becomes invalid, in an ISO 8601 format.</target>
+          </trans-unit>
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>This field must be omitted if it has been specified in an associated stored access policy.</source>
+            <target state="new">This field must be omitted if it has been specified in an associated stored access policy.</target>
+          </trans-unit>
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>For details, see Lifetime and Revocation of a shared access signature.</source>
+            <target state="new">For details, see Lifetime and Revocation of a shared access signature.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>The permissions associated with the shared access signature.</source>
+            <target state="new">The permissions associated with the shared access signature.</target>
+          </trans-unit>
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>The user is restricted to operations allowed by the permissions.</source>
+            <target state="new">The user is restricted to operations allowed by the permissions.</target>
+          </trans-unit>
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>This field must be omitted if it has been specified in an associated stored access policy.</source>
+            <target state="new">This field must be omitted if it has been specified in an associated stored access policy.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Table service only.</source>
+            <target state="new">Table service only.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Optional, but <ph id="1">&lt;parameterReference&gt;startpk&lt;/parameterReference&gt;</ph> must accompany <ph id="2">&lt;parameterReference&gt;startrk&lt;/parameterReference&gt;</ph>.</source>
+            <target state="new">Optional, but <ph id="1">&lt;parameterReference&gt;startpk&lt;/parameterReference&gt;</ph> must accompany <ph id="2">&lt;parameterReference&gt;startrk&lt;/parameterReference&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>The minimum partition and row keys accessible with this shared access signature.</source>
+            <target state="new">The minimum partition and row keys accessible with this shared access signature.</target>
+          </trans-unit>
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Key values are inclusive.</source>
+            <target state="new">Key values are inclusive.</target>
+          </trans-unit>
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>If omitted, there is no lower bound on the table entities that can be accessed.</source>
+            <target state="new">If omitted, there is no lower bound on the table entities that can be accessed.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Table service only.</source>
+            <target state="new">Table service only.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Optional, but <ph id="1">&lt;parameterReference&gt;endpk&lt;/parameterReference&gt;</ph> must accompany <ph id="2">&lt;parameterReference&gt;endrk&lt;/parameterReference&gt;</ph>.</source>
+            <target state="new">Optional, but <ph id="1">&lt;parameterReference&gt;endpk&lt;/parameterReference&gt;</ph> must accompany <ph id="2">&lt;parameterReference&gt;endrk&lt;/parameterReference&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>The maximum partition and row keys accessible with this shared access signature.</source>
+            <target state="new">The maximum partition and row keys accessible with this shared access signature.</target>
+          </trans-unit>
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Key values are inclusive.</source>
+            <target state="new">Key values are inclusive.</target>
+          </trans-unit>
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>If omitted, there is no upper bound on the table entities that can be accessed.</source>
+            <target state="new">If omitted, there is no upper bound on the table entities that can be accessed.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;signedpermissions&lt;/parameterReference&gt;</ph> field is required on the URI unless it is specified as part of a stored access policy.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;signedpermissions&lt;/parameterReference&gt;</ph> field is required on the URI unless it is specified as part of a stored access policy.</target>
+          </trans-unit>
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;startpk&lt;/parameterReference&gt;</ph>, <ph id="2">&lt;parameterReference&gt;startrk&lt;/parameterReference&gt;</ph>, <ph id="3">&lt;parameterReference&gt;endpk&lt;/parameterReference&gt;</ph>, and <ph id="4">&lt;parameterReference&gt;endrk&lt;/parameterReference&gt;</ph> fields can only be specified on a table resource.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;startpk&lt;/parameterReference&gt;</ph>, <ph id="2">&lt;parameterReference&gt;startrk&lt;/parameterReference&gt;</ph>, <ph id="3">&lt;parameterReference&gt;endpk&lt;/parameterReference&gt;</ph>, and <ph id="4">&lt;parameterReference&gt;endrk&lt;/parameterReference&gt;</ph> fields can only be specified on a table resource.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Specifying the Signature Validity Interval</source>
+            <target state="new">Specifying the Signature Validity Interval</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;signedstart&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;signedexpiry&lt;/parameterReference&gt;</ph> fields must be expressed as UTC times and must adhere to a valid ISO 8601 format.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;signedstart&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;signedexpiry&lt;/parameterReference&gt;</ph> fields must be expressed as UTC times and must adhere to a valid ISO 8601 format.</target>
+          </trans-unit>
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Supported ISO 8601 formats include the following:</source>
+            <target state="new">Supported ISO 8601 formats include the following:</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>For the date portion of these formats, <ph id="1">&lt;codeInline&gt;YYYY&lt;/codeInline&gt;</ph> is a four-digit year representation, <ph id="2">&lt;codeInline&gt;MM&lt;/codeInline&gt;</ph> is a two-digit month representation, and <ph id="3">&lt;codeInline&gt;DD&lt;/codeInline&gt;</ph> is a two-digit day representation.</source>
+            <target state="new">For the date portion of these formats, <ph id="1">&lt;codeInline&gt;YYYY&lt;/codeInline&gt;</ph> is a four-digit year representation, <ph id="2">&lt;codeInline&gt;MM&lt;/codeInline&gt;</ph> is a two-digit month representation, and <ph id="3">&lt;codeInline&gt;DD&lt;/codeInline&gt;</ph> is a two-digit day representation.</target>
+          </trans-unit>
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>For the time portion, <ph id="1">&lt;codeInline&gt;hh&lt;/codeInline&gt;</ph> is the hour representation in 24-hour notation, <ph id="2">&lt;codeInline&gt;mm&lt;/codeInline&gt;</ph> is the two-digit minute representation, and <ph id="3">&lt;codeInline&gt;ss&lt;/codeInline&gt;</ph> is the two-digit second representation.</source>
+            <target state="new">For the time portion, <ph id="1">&lt;codeInline&gt;hh&lt;/codeInline&gt;</ph> is the hour representation in 24-hour notation, <ph id="2">&lt;codeInline&gt;mm&lt;/codeInline&gt;</ph> is the two-digit minute representation, and <ph id="3">&lt;codeInline&gt;ss&lt;/codeInline&gt;</ph> is the two-digit second representation.</target>
+          </trans-unit>
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>A time designator <ph id="1">&lt;codeInline&gt;T&lt;/codeInline&gt;</ph> separates the date and time portions of the string, while a time zone designator <ph id="2">&lt;codeInline&gt;TZD&lt;/codeInline&gt;</ph> specifies a time zone.</source>
+            <target state="new">A time designator <ph id="1">&lt;codeInline&gt;T&lt;/codeInline&gt;</ph> separates the date and time portions of the string, while a time zone designator <ph id="2">&lt;codeInline&gt;TZD&lt;/codeInline&gt;</ph> specifies a time zone.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Specifying Permissions</source>
+            <target state="new">Specifying Permissions</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>The permissions specified on the shared access signature URI indicate which operations are permitted on the shared resource.</source>
+            <target state="new">The permissions specified on the shared access signature URI indicate which operations are permitted on the shared resource.</target>
+          </trans-unit>
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>The following tables show the permissions supported by each resource type.</source>
+            <target state="new">The following tables show the permissions supported by each resource type.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Permissions for a blob</source>
+            <target state="new">Permissions for a blob</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Permission</source>
+            <target state="new">Permission</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>URI symbol</source>
+            <target state="new">URI symbol</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>Allowed operations</source>
+            <target state="new">Allowed operations</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Read</source>
+            <target state="new">Read</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>r</source>
+            <target state="new">r</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>Read the content, properties, metadata and block list.</source>
+            <target state="new">Read the content, properties, metadata and block list.</target>
+          </trans-unit>
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>Use the blob as the source of a copy operation.</source>
+            <target state="new">Use the blob as the source of a copy operation.</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>Write</source>
+            <target state="new">Write</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>w</source>
+            <target state="new">w</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>Create or write content, properties, metadata, or block list.</source>
+            <target state="new">Create or write content, properties, metadata, or block list.</target>
+          </trans-unit>
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>Snapshot or lease the blob.</source>
+            <target state="new">Snapshot or lease the blob.</target>
+          </trans-unit>
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>Resize the blob (page blob only).</source>
+            <target state="new">Resize the blob (page blob only).</target>
+          </trans-unit>
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>Use the blob as the destination of a copy operation within the same account.</source>
+            <target state="new">Use the blob as the destination of a copy operation within the same account.</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Delete</source>
+            <target state="new">Delete</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>d</source>
+            <target state="new">d</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Delete the blob.</source>
+            <target state="new">Delete the blob.</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>Permissions for a container</source>
+            <target state="new">Permissions for a container</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>Permission</source>
+            <target state="new">Permission</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>URI symbol</source>
+            <target state="new">URI symbol</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>Allowed operations</source>
+            <target state="new">Allowed operations</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>Read</source>
+            <target state="new">Read</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>r</source>
+            <target state="new">r</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>Read the content, properties, metadata or block list of any blob in the container.</source>
+            <target state="new">Read the content, properties, metadata or block list of any blob in the container.</target>
+          </trans-unit>
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>Use any blob in the container as the source of a copy operation.</source>
+            <target state="new">Use any blob in the container as the source of a copy operation.</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>Write</source>
+            <target state="new">Write</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>w</source>
+            <target state="new">w</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>For any blob in the container, create or write content, properties, metadata, or block list.</source>
+            <target state="new">For any blob in the container, create or write content, properties, metadata, or block list.</target>
+          </trans-unit>
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>Snapshot or lease the blob.</source>
+            <target state="new">Snapshot or lease the blob.</target>
+          </trans-unit>
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>Resize the blob (page blob only).</source>
+            <target state="new">Resize the blob (page blob only).</target>
+          </trans-unit>
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>Use the blob as the destination of a copy operation within the same account.</source>
+            <target state="new">Use the blob as the destination of a copy operation within the same account.</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>You cannot grant permissions to read or write container properties or metadata, nor to lease a container.</source>
+            <target state="new">You cannot grant permissions to read or write container properties or metadata, nor to lease a container.</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>Delete</source>
+            <target state="new">Delete</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>d</source>
+            <target state="new">d</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>Delete any blob in the container.</source>
+            <target state="new">Delete any blob in the container.</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>You cannot grant permissions to delete a container.</source>
+            <target state="new">You cannot grant permissions to delete a container.</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>List</source>
+            <target state="new">List</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>l</source>
+            <target state="new">l</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>List blobs in the container.</source>
+            <target state="new">List blobs in the container.</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>Permissions for a file</source>
+            <target state="new">Permissions for a file</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>Permission</source>
+            <target state="new">Permission</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>URI symbol</source>
+            <target state="new">URI symbol</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>Allowed operations</source>
+            <target state="new">Allowed operations</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>Read</source>
+            <target state="new">Read</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>r</source>
+            <target state="new">r</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>Read the content, properties, metadata.</source>
+            <target state="new">Read the content, properties, metadata.</target>
+          </trans-unit>
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>Use the file as the source of a copy operation.</source>
+            <target state="new">Use the file as the source of a copy operation.</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>Write</source>
+            <target state="new">Write</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>w</source>
+            <target state="new">w</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>Create or write content, properties, metadata.</source>
+            <target state="new">Create or write content, properties, metadata.</target>
+          </trans-unit>
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>Resize the file.</source>
+            <target state="new">Resize the file.</target>
+          </trans-unit>
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>Use the file as the destination of a copy operation within the same account.</source>
+            <target state="new">Use the file as the destination of a copy operation within the same account.</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>Delete</source>
+            <target state="new">Delete</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>d</source>
+            <target state="new">d</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>Delete the file.</source>
+            <target state="new">Delete the file.</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>Permission for a share</source>
+            <target state="new">Permission for a share</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>Permission</source>
+            <target state="new">Permission</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>URI symbol</source>
+            <target state="new">URI symbol</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>Allowed operations</source>
+            <target state="new">Allowed operations</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>Read</source>
+            <target state="new">Read</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>r</source>
+            <target state="new">r</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>Read the content, properties or metadata of any file in the share.</source>
+            <target state="new">Read the content, properties or metadata of any file in the share.</target>
+          </trans-unit>
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>Use any file in the share as the source of a copy operation.</source>
+            <target state="new">Use any file in the share as the source of a copy operation.</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>Write</source>
+            <target state="new">Write</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>w</source>
+            <target state="new">w</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>For any file in the share, create or write content, properties or metadata.</source>
+            <target state="new">For any file in the share, create or write content, properties or metadata.</target>
+          </trans-unit>
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>Resize the file.</source>
+            <target state="new">Resize the file.</target>
+          </trans-unit>
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>Use the file as the destination of a copy operation within the same account.</source>
+            <target state="new">Use the file as the destination of a copy operation within the same account.</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source>You cannot grant permissions to read or write share properties or metadata.</source>
+            <target state="new">You cannot grant permissions to read or write share properties or metadata.</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="171" translate="yes" xml:space="preserve">
+            <source>Delete</source>
+            <target state="new">Delete</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="172" translate="yes" xml:space="preserve">
+            <source>d</source>
+            <target state="new">d</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="173" translate="yes" xml:space="preserve">
+            <source>Delete any file in the share.</source>
+            <target state="new">Delete any file in the share.</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="174" translate="yes" xml:space="preserve">
+            <source>You cannot grant permissions to delete a share.</source>
+            <target state="new">You cannot grant permissions to delete a share.</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="175" translate="yes" xml:space="preserve">
+            <source>List</source>
+            <target state="new">List</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="176" translate="yes" xml:space="preserve">
+            <source>l</source>
+            <target state="new">l</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="177" translate="yes" xml:space="preserve">
+            <source>List files and directories in the share.</source>
+            <target state="new">List files and directories in the share.</target>
+          </trans-unit>
+        </group>
+        <group id="123">
+          <trans-unit id="178" translate="yes" xml:space="preserve">
+            <source>Permissions for a queue</source>
+            <target state="new">Permissions for a queue</target>
+          </trans-unit>
+        </group>
+        <group id="124">
+          <trans-unit id="179" translate="yes" xml:space="preserve">
+            <source>Permission</source>
+            <target state="new">Permission</target>
+          </trans-unit>
+        </group>
+        <group id="125">
+          <trans-unit id="180" translate="yes" xml:space="preserve">
+            <source>URI symbol</source>
+            <target state="new">URI symbol</target>
+          </trans-unit>
+        </group>
+        <group id="126">
+          <trans-unit id="181" translate="yes" xml:space="preserve">
+            <source>Allowed operations</source>
+            <target state="new">Allowed operations</target>
+          </trans-unit>
+        </group>
+        <group id="127">
+          <trans-unit id="182" translate="yes" xml:space="preserve">
+            <source>Read</source>
+            <target state="new">Read</target>
+          </trans-unit>
+        </group>
+        <group id="128">
+          <trans-unit id="183" translate="yes" xml:space="preserve">
+            <source>r</source>
+            <target state="new">r</target>
+          </trans-unit>
+        </group>
+        <group id="129">
+          <trans-unit id="184" translate="yes" xml:space="preserve">
+            <source>Read metadata and properties, including message count.</source>
+            <target state="new">Read metadata and properties, including message count.</target>
+          </trans-unit>
+          <trans-unit id="185" translate="yes" xml:space="preserve">
+            <source>Peek at messages.</source>
+            <target state="new">Peek at messages.</target>
+          </trans-unit>
+        </group>
+        <group id="130">
+          <trans-unit id="186" translate="yes" xml:space="preserve">
+            <source>Add</source>
+            <target state="new">Add</target>
+          </trans-unit>
+        </group>
+        <group id="131">
+          <trans-unit id="187" translate="yes" xml:space="preserve">
+            <source>a</source>
+            <target state="new">a</target>
+          </trans-unit>
+        </group>
+        <group id="132">
+          <trans-unit id="188" translate="yes" xml:space="preserve">
+            <source>Add messages to the queue.</source>
+            <target state="new">Add messages to the queue.</target>
+          </trans-unit>
+        </group>
+        <group id="133">
+          <trans-unit id="189" translate="yes" xml:space="preserve">
+            <source>Update</source>
+            <target state="new">Update</target>
+          </trans-unit>
+        </group>
+        <group id="134">
+          <trans-unit id="190" translate="yes" xml:space="preserve">
+            <source>u</source>
+            <target state="new">u</target>
+          </trans-unit>
+        </group>
+        <group id="135">
+          <trans-unit id="191" translate="yes" xml:space="preserve">
+            <source>Update messages in the queue.</source>
+            <target state="new">Update messages in the queue.</target>
+          </trans-unit>
+        </group>
+        <group id="136">
+          <trans-unit id="192" translate="yes" xml:space="preserve">
+            <source>Use the Process permission with Update so you can first get the message you want to update.</source>
+            <target state="new">Use the Process permission with Update so you can first get the message you want to update.</target>
+          </trans-unit>
+        </group>
+        <group id="137">
+          <trans-unit id="193" translate="yes" xml:space="preserve">
+            <source>Process</source>
+            <target state="new">Process</target>
+          </trans-unit>
+        </group>
+        <group id="138">
+          <trans-unit id="194" translate="yes" xml:space="preserve">
+            <source>p</source>
+            <target state="new">p</target>
+          </trans-unit>
+        </group>
+        <group id="139">
+          <trans-unit id="195" translate="yes" xml:space="preserve">
+            <source>Get and delete messages from the queue.</source>
+            <target state="new">Get and delete messages from the queue.</target>
+          </trans-unit>
+        </group>
+        <group id="140">
+          <trans-unit id="196" translate="yes" xml:space="preserve">
+            <source>Permissions for a table</source>
+            <target state="new">Permissions for a table</target>
+          </trans-unit>
+        </group>
+        <group id="141">
+          <trans-unit id="197" translate="yes" xml:space="preserve">
+            <source>Permission</source>
+            <target state="new">Permission</target>
+          </trans-unit>
+        </group>
+        <group id="142">
+          <trans-unit id="198" translate="yes" xml:space="preserve">
+            <source>URI symbol</source>
+            <target state="new">URI symbol</target>
+          </trans-unit>
+        </group>
+        <group id="143">
+          <trans-unit id="199" translate="yes" xml:space="preserve">
+            <source>Allowed operations</source>
+            <target state="new">Allowed operations</target>
+          </trans-unit>
+        </group>
+        <group id="144">
+          <trans-unit id="200" translate="yes" xml:space="preserve">
+            <source>Query</source>
+            <target state="new">Query</target>
+          </trans-unit>
+        </group>
+        <group id="145">
+          <trans-unit id="201" translate="yes" xml:space="preserve">
+            <source>r (for read)</source>
+            <target state="new">r (for read)</target>
+          </trans-unit>
+        </group>
+        <group id="146">
+          <trans-unit id="202" translate="yes" xml:space="preserve">
+            <source>Get entities and query entities.</source>
+            <target state="new">Get entities and query entities.</target>
+          </trans-unit>
+        </group>
+        <group id="147">
+          <trans-unit id="203" translate="yes" xml:space="preserve">
+            <source>Add</source>
+            <target state="new">Add</target>
+          </trans-unit>
+        </group>
+        <group id="148">
+          <trans-unit id="204" translate="yes" xml:space="preserve">
+            <source>a</source>
+            <target state="new">a</target>
+          </trans-unit>
+        </group>
+        <group id="149">
+          <trans-unit id="205" translate="yes" xml:space="preserve">
+            <source>Add entities.</source>
+            <target state="new">Add entities.</target>
+          </trans-unit>
+        </group>
+        <group id="150">
+          <trans-unit id="206" translate="yes" xml:space="preserve">
+            <source>Add and Update permissions are required for upsert operations.</source>
+            <target state="new">Add and Update permissions are required for upsert operations.</target>
+          </trans-unit>
+        </group>
+        <group id="151">
+          <trans-unit id="207" translate="yes" xml:space="preserve">
+            <source>Update</source>
+            <target state="new">Update</target>
+          </trans-unit>
+        </group>
+        <group id="152">
+          <trans-unit id="208" translate="yes" xml:space="preserve">
+            <source>u</source>
+            <target state="new">u</target>
+          </trans-unit>
+        </group>
+        <group id="153">
+          <trans-unit id="209" translate="yes" xml:space="preserve">
+            <source>Update entities.</source>
+            <target state="new">Update entities.</target>
+          </trans-unit>
+        </group>
+        <group id="154">
+          <trans-unit id="210" translate="yes" xml:space="preserve">
+            <source>Add and Update permissions are required for upsert operations.</source>
+            <target state="new">Add and Update permissions are required for upsert operations.</target>
+          </trans-unit>
+        </group>
+        <group id="155">
+          <trans-unit id="211" translate="yes" xml:space="preserve">
+            <source>Delete</source>
+            <target state="new">Delete</target>
+          </trans-unit>
+        </group>
+        <group id="156">
+          <trans-unit id="212" translate="yes" xml:space="preserve">
+            <source>d</source>
+            <target state="new">d</target>
+          </trans-unit>
+        </group>
+        <group id="157">
+          <trans-unit id="213" translate="yes" xml:space="preserve">
+            <source>Delete entities.</source>
+            <target state="new">Delete entities.</target>
+          </trans-unit>
+        </group>
+        <group id="158">
+          <trans-unit id="214" translate="yes" xml:space="preserve">
+            <source>Specify permissions by combining URI symbols in the <ph id="1">&lt;parameterReference&gt;signedpermissions&lt;/parameterReference&gt;</ph> field of your SAS URI.</source>
+            <target state="new">Specify permissions by combining URI symbols in the <ph id="1">&lt;parameterReference&gt;signedpermissions&lt;/parameterReference&gt;</ph> field of your SAS URI.</target>
+          </trans-unit>
+          <trans-unit id="215" translate="yes" xml:space="preserve">
+            <source>Permissions can be grouped to allow multiple operations to be performed with the given signature.</source>
+            <target state="new">Permissions can be grouped to allow multiple operations to be performed with the given signature.</target>
+          </trans-unit>
+          <trans-unit id="216" translate="yes" xml:space="preserve">
+            <source>You must include permissions in the order that they appear in the table for the resource type.</source>
+            <target state="new">You must include permissions in the order that they appear in the table for the resource type.</target>
+          </trans-unit>
+          <trans-unit id="217" translate="yes" xml:space="preserve">
+            <source>For example, to grant all permissions to a container, the URI must specify <ph id="1">&lt;parameterReference&gt;sp=rwdl&lt;/parameterReference&gt;</ph>.</source>
+            <target state="new">For example, to grant all permissions to a container, the URI must specify <ph id="1">&lt;parameterReference&gt;sp=rwdl&lt;/parameterReference&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="218" translate="yes" xml:space="preserve">
+            <source>To grant only read/write permissions, the URI must specify <ph id="1">&lt;parameterReference&gt;sp=rw&lt;/parameterReference&gt;</ph>.</source>
+            <target state="new">To grant only read/write permissions, the URI must specify <ph id="1">&lt;parameterReference&gt;sp=rw&lt;/parameterReference&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="159">
+          <trans-unit id="219" translate="yes" xml:space="preserve">
+            <source>Shared access signatures cannot grant access to some operations:</source>
+            <target state="new">Shared access signatures cannot grant access to some operations:</target>
+          </trans-unit>
+        </group>
+        <group id="160">
+          <trans-unit id="220" translate="yes" xml:space="preserve">
+            <source>Containers, queues, and tables cannot be created, deleted, or listed.</source>
+            <target state="new">Containers, queues, and tables cannot be created, deleted, or listed.</target>
+          </trans-unit>
+        </group>
+        <group id="161">
+          <trans-unit id="221" translate="yes" xml:space="preserve">
+            <source>Container metadata and properties cannot be read or written.</source>
+            <target state="new">Container metadata and properties cannot be read or written.</target>
+          </trans-unit>
+        </group>
+        <group id="162">
+          <trans-unit id="222" translate="yes" xml:space="preserve">
+            <source>Queues cannot be cleared and their metadata may not be written.</source>
+            <target state="new">Queues cannot be cleared and their metadata may not be written.</target>
+          </trans-unit>
+        </group>
+        <group id="163">
+          <trans-unit id="223" translate="yes" xml:space="preserve">
+            <source>Containers cannot be leased.</source>
+            <target state="new">Containers cannot be leased.</target>
+          </trans-unit>
+        </group>
+        <group id="164">
+          <trans-unit id="224" translate="yes" xml:space="preserve">
+            <source>Shared access signature URIs are keys that grant permissions to storage resources, and should be protected in the same manner as a shared key.</source>
+            <target state="new">Shared access signature URIs are keys that grant permissions to storage resources, and should be protected in the same manner as a shared key.</target>
+          </trans-unit>
+          <trans-unit id="225" translate="yes" xml:space="preserve">
+            <source>Operations that use shared access signature URIs should only be performed over an HTTPS connection, and shared access signature URIs should only be distributed on a secure connection such as HTTPS.</source>
+            <target state="new">Operations that use shared access signature URIs should only be performed over an HTTPS connection, and shared access signature URIs should only be distributed on a secure connection such as HTTPS.</target>
+          </trans-unit>
+        </group>
+        <group id="165">
+          <trans-unit id="226" translate="yes" xml:space="preserve">
+            <source>Specifying Table Access Ranges</source>
+            <target state="new">Specifying Table Access Ranges</target>
+          </trans-unit>
+        </group>
+        <group id="166">
+          <trans-unit id="227" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;startpk&lt;/parameterReference&gt;</ph>, <ph id="2">&lt;parameterReference&gt;startrk&lt;/parameterReference&gt;</ph>, <ph id="3">&lt;parameterReference&gt;endpk&lt;/parameterReference&gt;</ph>, and <ph id="4">&lt;parameterReference&gt;endrk&lt;/parameterReference&gt;</ph> fields define a range of table entities associated with a shared access signature.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;startpk&lt;/parameterReference&gt;</ph>, <ph id="2">&lt;parameterReference&gt;startrk&lt;/parameterReference&gt;</ph>, <ph id="3">&lt;parameterReference&gt;endpk&lt;/parameterReference&gt;</ph>, and <ph id="4">&lt;parameterReference&gt;endrk&lt;/parameterReference&gt;</ph> fields define a range of table entities associated with a shared access signature.</target>
+          </trans-unit>
+          <trans-unit id="228" translate="yes" xml:space="preserve">
+            <source>Table queries will only return results that are within the range, and attempts to use the shared access signature to add, update, or delete entities outside this range will fail.</source>
+            <target state="new">Table queries will only return results that are within the range, and attempts to use the shared access signature to add, update, or delete entities outside this range will fail.</target>
+          </trans-unit>
+          <trans-unit id="229" translate="yes" xml:space="preserve">
+            <source>If <ph id="1">&lt;parameterReference&gt;startpk&lt;/parameterReference&gt;</ph> equals <ph id="2">&lt;parameterReference&gt;endpk&lt;/parameterReference&gt;</ph>, the shared access signature only authorizes access to entities in one partition in the table.</source>
+            <target state="new">If <ph id="1">&lt;parameterReference&gt;startpk&lt;/parameterReference&gt;</ph> equals <ph id="2">&lt;parameterReference&gt;endpk&lt;/parameterReference&gt;</ph>, the shared access signature only authorizes access to entities in one partition in the table.</target>
+          </trans-unit>
+          <trans-unit id="230" translate="yes" xml:space="preserve">
+            <source>If <ph id="1">&lt;parameterReference&gt;startpk&lt;/parameterReference&gt;</ph> equals <ph id="2">&lt;parameterReference&gt;endpk&lt;/parameterReference&gt;</ph> and <ph id="3">&lt;parameterReference&gt;startrk&lt;/parameterReference&gt;</ph> equals <ph id="4">&lt;parameterReference&gt;endrk&lt;/parameterReference&gt;</ph>, the shared access signature can only access one entity  in one partition.</source>
+            <target state="new">If <ph id="1">&lt;parameterReference&gt;startpk&lt;/parameterReference&gt;</ph> equals <ph id="2">&lt;parameterReference&gt;endpk&lt;/parameterReference&gt;</ph> and <ph id="3">&lt;parameterReference&gt;startrk&lt;/parameterReference&gt;</ph> equals <ph id="4">&lt;parameterReference&gt;endrk&lt;/parameterReference&gt;</ph>, the shared access signature can only access one entity  in one partition.</target>
+          </trans-unit>
+          <trans-unit id="231" translate="yes" xml:space="preserve">
+            <source>Use the following table to understand how these fields constrain access to entities in a table.</source>
+            <target state="new">Use the following table to understand how these fields constrain access to entities in a table.</target>
+          </trans-unit>
+        </group>
+        <group id="167">
+          <trans-unit id="232" translate="yes" xml:space="preserve">
+            <source>Fields present</source>
+            <target state="new">Fields present</target>
+          </trans-unit>
+        </group>
+        <group id="168">
+          <trans-unit id="233" translate="yes" xml:space="preserve">
+            <source>Scope of constraint</source>
+            <target state="new">Scope of constraint</target>
+          </trans-unit>
+        </group>
+        <group id="169">
+          <trans-unit id="234" translate="yes" xml:space="preserve">
+            <source>partitionKey &gt;= <ph id="1">&lt;parameterReference&gt;startpk&lt;/parameterReference&gt;</ph></source>
+            <target state="new">partitionKey &gt;= <ph id="1">&lt;parameterReference&gt;startpk&lt;/parameterReference&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="170">
+          <trans-unit id="235" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;parameterReference &gt;&lt;/parameterReference&gt;</ph>endpk</source>
+            <target state="new"><ph id="1">&lt;parameterReference &gt;&lt;/parameterReference&gt;</ph>endpk</target>
+          </trans-unit>
+        </group>
+        <group id="171">
+          <trans-unit id="236" translate="yes" xml:space="preserve">
+            <source>partitionKey &lt;= <ph id="1">&lt;parameterReference&gt;endpk&lt;/parameterReference&gt;</ph></source>
+            <target state="new">partitionKey &lt;= <ph id="1">&lt;parameterReference&gt;endpk&lt;/parameterReference&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="172">
+          <trans-unit id="237" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;parameterReference&gt;startpk&lt;/parameterReference&gt;</ph>, <ph id="2">&lt;parameterReference&gt;startrk&lt;/parameterReference&gt;</ph></source>
+            <target state="new"><ph id="1">&lt;parameterReference&gt;startpk&lt;/parameterReference&gt;</ph>, <ph id="2">&lt;parameterReference&gt;startrk&lt;/parameterReference&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="173">
+          <trans-unit id="238" translate="yes" xml:space="preserve">
+            <source>(partitionKey &gt; <ph id="1">&lt;parameterReference&gt;startpk&lt;/parameterReference&gt;</ph>) || (partitionKey == <ph id="2">&lt;parameterReference&gt;startpk&lt;/parameterReference&gt;</ph> &amp;&amp; rowKey &gt;= <ph id="3">&lt;parameterReference&gt;startrk&lt;/parameterReference&gt;</ph>)</source>
+            <target state="new">(partitionKey &gt; <ph id="1">&lt;parameterReference&gt;startpk&lt;/parameterReference&gt;</ph>) || (partitionKey == <ph id="2">&lt;parameterReference&gt;startpk&lt;/parameterReference&gt;</ph> &amp;&amp; rowKey &gt;= <ph id="3">&lt;parameterReference&gt;startrk&lt;/parameterReference&gt;</ph>)</target>
+          </trans-unit>
+        </group>
+        <group id="174">
+          <trans-unit id="239" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;parameterReference&gt;endpk&lt;/parameterReference&gt;</ph>, <ph id="2">&lt;parameterReference&gt;endrk&lt;/parameterReference&gt;</ph></source>
+            <target state="new"><ph id="1">&lt;parameterReference&gt;endpk&lt;/parameterReference&gt;</ph>, <ph id="2">&lt;parameterReference&gt;endrk&lt;/parameterReference&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="175">
+          <trans-unit id="240" translate="yes" xml:space="preserve">
+            <source>(partitionKey &lt; <ph id="1">&lt;parameterReference&gt;endpk&lt;/parameterReference&gt;</ph>) || (partitionKey == <ph id="2">&lt;parameterReference&gt;endpk&lt;/parameterReference&gt;</ph> &amp;&amp; rowKey &lt;= <ph id="3">&lt;parameterReference&gt;endrk&lt;/parameterReference&gt;</ph>)</source>
+            <target state="new">(partitionKey &lt; <ph id="1">&lt;parameterReference&gt;endpk&lt;/parameterReference&gt;</ph>) || (partitionKey == <ph id="2">&lt;parameterReference&gt;endpk&lt;/parameterReference&gt;</ph> &amp;&amp; rowKey &lt;= <ph id="3">&lt;parameterReference&gt;endrk&lt;/parameterReference&gt;</ph>)</target>
+          </trans-unit>
+        </group>
+        <group id="176">
+          <trans-unit id="241" translate="yes" xml:space="preserve">
+            <source>Specifying the Signed Identifier</source>
+            <target state="new">Specifying the Signed Identifier</target>
+          </trans-unit>
+        </group>
+        <group id="177">
+          <trans-unit id="242" translate="yes" xml:space="preserve">
+            <source>Specifying the <ph id="1">&lt;parameterReference&gt;signedidentifier&lt;/parameterReference&gt;</ph> field on the URI relates the given shared access signature to a corresponding stored access policy.</source>
+            <target state="new">Specifying the <ph id="1">&lt;parameterReference&gt;signedidentifier&lt;/parameterReference&gt;</ph> field on the URI relates the given shared access signature to a corresponding stored access policy.</target>
+          </trans-unit>
+          <trans-unit id="243" translate="yes" xml:space="preserve">
+            <source>A stored access policy provides an additional measure of control over one or more shared access signatures, including the ability to revoke the signature if needed.</source>
+            <target state="new">A stored access policy provides an additional measure of control over one or more shared access signatures, including the ability to revoke the signature if needed.</target>
+          </trans-unit>
+          <trans-unit id="244" translate="yes" xml:space="preserve">
+            <source>Each container, queue, or table can have up to 5 stored access policies.</source>
+            <target state="new">Each container, queue, or table can have up to 5 stored access policies.</target>
+          </trans-unit>
+        </group>
+        <group id="178">
+          <trans-unit id="245" translate="yes" xml:space="preserve">
+            <source>The following table describes how to refer to a signed identifier on the URI.</source>
+            <target state="new">The following table describes how to refer to a signed identifier on the URI.</target>
+          </trans-unit>
+        </group>
+        <group id="179">
+          <trans-unit id="246" translate="yes" xml:space="preserve">
+            <source>Field name</source>
+            <target state="new">Field name</target>
+          </trans-unit>
+        </group>
+        <group id="180">
+          <trans-unit id="247" translate="yes" xml:space="preserve">
+            <source>Query parameter</source>
+            <target state="new">Query parameter</target>
+          </trans-unit>
+        </group>
+        <group id="181">
+          <trans-unit id="248" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="182">
+          <trans-unit id="249" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="250" translate="yes" xml:space="preserve">
+            <source>A unique value up to 64 characters in length that correlates to an access policy specified for the container, queue, or table.</source>
+            <target state="new">A unique value up to 64 characters in length that correlates to an access policy specified for the container, queue, or table.</target>
+          </trans-unit>
+        </group>
+        <group id="183">
+          <trans-unit id="251" translate="yes" xml:space="preserve">
+            <source>A stored access policy includes a signed identifier, a value up to 64 characters long that is unique within the resource.</source>
+            <target state="new">A stored access policy includes a signed identifier, a value up to 64 characters long that is unique within the resource.</target>
+          </trans-unit>
+          <trans-unit id="252" translate="yes" xml:space="preserve">
+            <source>The value of this signed identifier can be specified for the <ph id="1">&lt;parameterReference&gt;signedidentifier&lt;/parameterReference&gt;</ph> field in the URI for the shared access signature.</source>
+            <target state="new">The value of this signed identifier can be specified for the <ph id="1">&lt;parameterReference&gt;signedidentifier&lt;/parameterReference&gt;</ph> field in the URI for the shared access signature.</target>
+          </trans-unit>
+          <trans-unit id="253" translate="yes" xml:space="preserve">
+            <source>Specifying a signed identifier on the URI associates the signature with the stored access policy.</source>
+            <target state="new">Specifying a signed identifier on the URI associates the signature with the stored access policy.</target>
+          </trans-unit>
+          <trans-unit id="254" translate="yes" xml:space="preserve">
+            <source>To establish a container-level access policy using the REST API, see <ph id="1">&lt;link xlink:href="98f3411e-d85d-4be9-809e-135b3d4ed436" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Delegating Access with a Shared Access Signature (REST API)&lt;/link&gt;</ph>.</source>
+            <target state="new">To establish a container-level access policy using the REST API, see <ph id="1">&lt;link xlink:href="98f3411e-d85d-4be9-809e-135b3d4ed436" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Delegating Access with a Shared Access Signature (REST API)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="184">
+          <trans-unit id="255" translate="yes" xml:space="preserve">
+            <source>Lifetime and Revocation of a Shared Access Signature</source>
+            <target state="new">Lifetime and Revocation of a Shared Access Signature</target>
+          </trans-unit>
+        </group>
+        <group id="185">
+          <trans-unit id="256" translate="yes" xml:space="preserve">
+            <source>Shared access signatures grant users access rights to storage account resources.</source>
+            <target state="new">Shared access signatures grant users access rights to storage account resources.</target>
+          </trans-unit>
+          <trans-unit id="257" translate="yes" xml:space="preserve">
+            <source>When planning to use a shared access signature, think about the lifetime of the signature and whether your application may need to revoke access rights under certain circumstances.</source>
+            <target state="new">When planning to use a shared access signature, think about the lifetime of the signature and whether your application may need to revoke access rights under certain circumstances.</target>
+          </trans-unit>
+        </group>
+        <group id="186">
+          <trans-unit id="258" translate="yes" xml:space="preserve">
+            <source>One way that you can manage a shared access signature is to control its lifetime by setting the <ph id="1">&lt;parameterReference&gt;signedexpiry&lt;/parameterReference&gt;</ph> field of the access policy.</source>
+            <target state="new">One way that you can manage a shared access signature is to control its lifetime by setting the <ph id="1">&lt;parameterReference&gt;signedexpiry&lt;/parameterReference&gt;</ph> field of the access policy.</target>
+          </trans-unit>
+          <trans-unit id="259" translate="yes" xml:space="preserve">
+            <source>If you want to continue to grant a client access to the resource after the expiry time, you must issue a new signature.</source>
+            <target state="new">If you want to continue to grant a client access to the resource after the expiry time, you must issue a new signature.</target>
+          </trans-unit>
+          <trans-unit id="260" translate="yes" xml:space="preserve">
+            <source>It’s recommended that you keep the lifetime of a shared access signature short.</source>
+            <target state="new">It’s recommended that you keep the lifetime of a shared access signature short.</target>
+          </trans-unit>
+          <trans-unit id="261" translate="yes" xml:space="preserve">
+            <source>Before version 2012-02-12, a shared access signature not associated with a stored access policy could not have an active period that exceeded one hour.</source>
+            <target state="new">Before version 2012-02-12, a shared access signature not associated with a stored access policy could not have an active period that exceeded one hour.</target>
+          </trans-unit>
+        </group>
+        <group id="187">
+          <trans-unit id="262" translate="yes" xml:space="preserve">
+            <source>Another way to manage a shared access signature is to associate the signature with a stored access policy.</source>
+            <target state="new">Another way to manage a shared access signature is to associate the signature with a stored access policy.</target>
+          </trans-unit>
+          <trans-unit id="263" translate="yes" xml:space="preserve">
+            <source>The stored access policy is represented by the <ph id="1">&lt;parameterReference&gt;signedidentifier&lt;/parameterReference&gt;</ph> field on the URI.</source>
+            <target state="new">The stored access policy is represented by the <ph id="1">&lt;parameterReference&gt;signedidentifier&lt;/parameterReference&gt;</ph> field on the URI.</target>
+          </trans-unit>
+          <trans-unit id="264" translate="yes" xml:space="preserve">
+            <source>A stored access policy provides an additional measure of control over one or more shared access signatures, including the ability to revoke the signature if needed.</source>
+            <target state="new">A stored access policy provides an additional measure of control over one or more shared access signatures, including the ability to revoke the signature if needed.</target>
+          </trans-unit>
+        </group>
+        <group id="188">
+          <trans-unit id="265" translate="yes" xml:space="preserve">
+            <source>To revoke a shared access signature that is tied to a stored access policy, you can remove the stored access policy.</source>
+            <target state="new">To revoke a shared access signature that is tied to a stored access policy, you can remove the stored access policy.</target>
+          </trans-unit>
+          <trans-unit id="266" translate="yes" xml:space="preserve">
+            <source>If the storage service cannot locate the stored access policy specified in the shared access signature, the client will not be able to access the resource indicated by the URI.</source>
+            <target state="new">If the storage service cannot locate the stored access policy specified in the shared access signature, the client will not be able to access the resource indicated by the URI.</target>
+          </trans-unit>
+        </group>
+        <group id="189">
+          <trans-unit id="267" translate="yes" xml:space="preserve">
+            <source>To revoke a Shared Access signature that is not tied to a stored access policy, you must change the shared key on the storage account that was used to create the signature.</source>
+            <target state="new">To revoke a Shared Access signature that is not tied to a stored access policy, you must change the shared key on the storage account that was used to create the signature.</target>
+          </trans-unit>
+        </group>
+        <group id="190">
+          <trans-unit id="268" translate="yes" xml:space="preserve">
+            <source>Best practices recommend that a shared access signature be used together with a signed identifier that references a stored access policy, or, if no signed identifier is specified, that the interval over which the signature is valid be kept short.</source>
+            <target state="new">Best practices recommend that a shared access signature be used together with a signed identifier that references a stored access policy, or, if no signed identifier is specified, that the interval over which the signature is valid be kept short.</target>
+          </trans-unit>
+          <trans-unit id="269" translate="yes" xml:space="preserve">
+            <source>For more information on associating a signature with a stored access policy, see <bpt id="1">&lt;legacyLink xlink:href="c0d4fe58-e6f4-4a90-bad5-138f59967560" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Use a Stored Access Policy<ept id="1">&lt;/legacyLink&gt;</ept>.</source>
+            <target state="new">For more information on associating a signature with a stored access policy, see <bpt id="1">&lt;legacyLink xlink:href="c0d4fe58-e6f4-4a90-bad5-138f59967560" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Use a Stored Access Policy<ept id="1">&lt;/legacyLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="191">
+          <trans-unit id="270" translate="yes" xml:space="preserve">
+            <source>The access policy for a shared access signature consists of the start time, expiry time, and permissions for the signature.</source>
+            <target state="new">The access policy for a shared access signature consists of the start time, expiry time, and permissions for the signature.</target>
+          </trans-unit>
+          <trans-unit id="271" translate="yes" xml:space="preserve">
+            <source>You can specify all of these parameters on the signature URI and none within the stored access policy; all on the container and none on the URI; or some combination of the two.</source>
+            <target state="new">You can specify all of these parameters on the signature URI and none within the stored access policy; all on the container and none on the URI; or some combination of the two.</target>
+          </trans-unit>
+          <trans-unit id="272" translate="yes" xml:space="preserve">
+            <source>However, you cannot specify a given parameter on both the signature URI and the stored access policy.</source>
+            <target state="new">However, you cannot specify a given parameter on both the signature URI and the stored access policy.</target>
+          </trans-unit>
+          <trans-unit id="273" translate="yes" xml:space="preserve">
+            <source>See <bpt id="1">&lt;legacyLink xlink:href="c0d4fe58-e6f4-4a90-bad5-138f59967560" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Use a Stored Access Policy<ept id="1">&lt;/legacyLink&gt;</ept> for more information.</source>
+            <target state="new">See <bpt id="1">&lt;legacyLink xlink:href="c0d4fe58-e6f4-4a90-bad5-138f59967560" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Use a Stored Access Policy<ept id="1">&lt;/legacyLink&gt;</ept> for more information.</target>
+          </trans-unit>
+        </group>
+        <group id="192">
+          <trans-unit id="274" translate="yes" xml:space="preserve">
+            <source>Specifying the Signature</source>
+            <target state="new">Specifying the Signature</target>
+          </trans-unit>
+        </group>
+        <group id="193">
+          <trans-unit id="275" translate="yes" xml:space="preserve">
+            <source>The signature part of the URI is used to authenticate the request made with the shared access signature.</source>
+            <target state="new">The signature part of the URI is used to authenticate the request made with the shared access signature.</target>
+          </trans-unit>
+          <trans-unit id="276" translate="yes" xml:space="preserve">
+            <source>The Blob service uses a Shared Key authentication scheme to authenticate the shared access signature.</source>
+            <target state="new">The Blob service uses a Shared Key authentication scheme to authenticate the shared access signature.</target>
+          </trans-unit>
+          <trans-unit id="277" translate="yes" xml:space="preserve">
+            <source>The following table describes how to specify the signature on the URI.</source>
+            <target state="new">The following table describes how to specify the signature on the URI.</target>
+          </trans-unit>
+        </group>
+        <group id="194">
+          <trans-unit id="278" translate="yes" xml:space="preserve">
+            <source>Field name</source>
+            <target state="new">Field name</target>
+          </trans-unit>
+        </group>
+        <group id="195">
+          <trans-unit id="279" translate="yes" xml:space="preserve">
+            <source>Query parameter</source>
+            <target state="new">Query parameter</target>
+          </trans-unit>
+        </group>
+        <group id="196">
+          <trans-unit id="280" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="197">
+          <trans-unit id="281" translate="yes" xml:space="preserve">
+            <source>The string-to-sign is a unique string constructed from the fields that must be verified in order to authenticate the request.</source>
+            <target state="new">The string-to-sign is a unique string constructed from the fields that must be verified in order to authenticate the request.</target>
+          </trans-unit>
+          <trans-unit id="282" translate="yes" xml:space="preserve">
+            <source>The signature is an HMAC computed over the string-to-sign and key using the SHA256 algorithm, and then encoded using Base64 encoding.</source>
+            <target state="new">The signature is an HMAC computed over the string-to-sign and key using the SHA256 algorithm, and then encoded using Base64 encoding.</target>
+          </trans-unit>
+        </group>
+        <group id="198">
+          <trans-unit id="283" translate="yes" xml:space="preserve">
+            <source>Constructing the Signature String</source>
+            <target state="new">Constructing the Signature String</target>
+          </trans-unit>
+        </group>
+        <group id="199">
+          <trans-unit id="284" translate="yes" xml:space="preserve">
+            <source>To construct the signature string of a shared access signature, first construct the string-to-sign from the fields comprising the request, then encode the string as UTF-8 and compute the signature using the HMAC-SHA256 algorithm.</source>
+            <target state="new">To construct the signature string of a shared access signature, first construct the string-to-sign from the fields comprising the request, then encode the string as UTF-8 and compute the signature using the HMAC-SHA256 algorithm.</target>
+          </trans-unit>
+          <trans-unit id="285" translate="yes" xml:space="preserve">
+            <source>Note that fields included in the string-to-sign must be URL-decoded.</source>
+            <target state="new">Note that fields included in the string-to-sign must be URL-decoded.</target>
+          </trans-unit>
+        </group>
+        <group id="200">
+          <trans-unit id="286" translate="yes" xml:space="preserve">
+            <source>Versions Prior to 2012-02-12</source>
+            <target state="new">Versions Prior to 2012-02-12</target>
+          </trans-unit>
+        </group>
+        <group id="201">
+          <trans-unit id="287" translate="yes" xml:space="preserve">
+            <source>To construct the string-to-sign for Blob service resources for versions prior to 2012-02-12, use the following format:</source>
+            <target state="new">To construct the string-to-sign for Blob service resources for versions prior to 2012-02-12, use the following format:</target>
+          </trans-unit>
+        </group>
+        <group id="202">
+          <trans-unit id="288" translate="yes" xml:space="preserve">
+            <source>Version 2012-02-12</source>
+            <target state="new">Version 2012-02-12</target>
+          </trans-unit>
+        </group>
+        <group id="203">
+          <trans-unit id="289" translate="yes" xml:space="preserve">
+            <source>To construct the string-to-sign for Blob service resources for version 2012-02-12, use the following format:</source>
+            <target state="new">To construct the string-to-sign for Blob service resources for version 2012-02-12, use the following format:</target>
+          </trans-unit>
+        </group>
+        <group id="204">
+          <trans-unit id="290" translate="yes" xml:space="preserve">
+            <source>Version 2013-08-15 or later</source>
+            <target state="new">Version 2013-08-15 or later</target>
+          </trans-unit>
+        </group>
+        <group id="205">
+          <trans-unit id="291" translate="yes" xml:space="preserve">
+            <source>To construct the string-to-sign for Blob or File service resources using the 2013-08-15 version or later, use the following format.</source>
+            <target state="new">To construct the string-to-sign for Blob or File service resources using the 2013-08-15 version or later, use the following format.</target>
+          </trans-unit>
+          <trans-unit id="292" translate="yes" xml:space="preserve">
+            <source>Note that for the File service, SAS is supported beginning with version 2015-02-21.</source>
+            <target state="new">Note that for the File service, SAS is supported beginning with version 2015-02-21.</target>
+          </trans-unit>
+        </group>
+        <group id="206">
+          <trans-unit id="293" translate="yes" xml:space="preserve">
+            <source>To construct the string-to-sign for a table, use the following format:</source>
+            <target state="new">To construct the string-to-sign for a table, use the following format:</target>
+          </trans-unit>
+        </group>
+        <group id="207">
+          <trans-unit id="294" translate="yes" xml:space="preserve">
+            <source>When constructing the string to be signed, keep in mind the following:</source>
+            <target state="new">When constructing the string to be signed, keep in mind the following:</target>
+          </trans-unit>
+        </group>
+        <group id="208">
+          <trans-unit id="295" translate="yes" xml:space="preserve">
+            <source>If a field is optional and not provided as part of the request, specify an empty string for that field.</source>
+            <target state="new">If a field is optional and not provided as part of the request, specify an empty string for that field.</target>
+          </trans-unit>
+          <trans-unit id="296" translate="yes" xml:space="preserve">
+            <source>Be sure to include the newline character (\n) after the empty string.</source>
+            <target state="new">Be sure to include the newline character (\n) after the empty string.</target>
+          </trans-unit>
+        </group>
+        <group id="209">
+          <trans-unit id="297" translate="yes" xml:space="preserve">
+            <source>String-to-sign for a table must include the additional parameters, even if they are empty strings.</source>
+            <target state="new">String-to-sign for a table must include the additional parameters, even if they are empty strings.</target>
+          </trans-unit>
+        </group>
+        <group id="210">
+          <trans-unit id="298" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeInline&gt;signedpermission&lt;/codeInline&gt;</ph> portion of the string must include the permission designations in a fixed order that is specific to each resource type.</source>
+            <target state="new">The <ph id="1">&lt;codeInline&gt;signedpermission&lt;/codeInline&gt;</ph> portion of the string must include the permission designations in a fixed order that is specific to each resource type.</target>
+          </trans-unit>
+          <trans-unit id="299" translate="yes" xml:space="preserve">
+            <source>Any combination of these permissions is acceptable, but the order of permission letters must match the order in the following table.</source>
+            <target state="new">Any combination of these permissions is acceptable, but the order of permission letters must match the order in the following table.</target>
+          </trans-unit>
+        </group>
+        <group id="211">
+          <trans-unit id="300" translate="yes" xml:space="preserve">
+            <source>Resource type</source>
+            <target state="new">Resource type</target>
+          </trans-unit>
+        </group>
+        <group id="212">
+          <trans-unit id="301" translate="yes" xml:space="preserve">
+            <source>Ordering of permissions</source>
+            <target state="new">Ordering of permissions</target>
+          </trans-unit>
+        </group>
+        <group id="213">
+          <trans-unit id="302" translate="yes" xml:space="preserve">
+            <source>Blob or File</source>
+            <target state="new">Blob or File</target>
+          </trans-unit>
+        </group>
+        <group id="214">
+          <trans-unit id="303" translate="yes" xml:space="preserve">
+            <source>rwd</source>
+            <target state="new">rwd</target>
+          </trans-unit>
+        </group>
+        <group id="215">
+          <trans-unit id="304" translate="yes" xml:space="preserve">
+            <source>Container or Share</source>
+            <target state="new">Container or Share</target>
+          </trans-unit>
+        </group>
+        <group id="216">
+          <trans-unit id="305" translate="yes" xml:space="preserve">
+            <source>rwdl</source>
+            <target state="new">rwdl</target>
+          </trans-unit>
+        </group>
+        <group id="217">
+          <trans-unit id="306" translate="yes" xml:space="preserve">
+            <source>Queue</source>
+            <target state="new">Queue</target>
+          </trans-unit>
+        </group>
+        <group id="218">
+          <trans-unit id="307" translate="yes" xml:space="preserve">
+            <source>raup</source>
+            <target state="new">raup</target>
+          </trans-unit>
+        </group>
+        <group id="219">
+          <trans-unit id="308" translate="yes" xml:space="preserve">
+            <source>Table</source>
+            <target state="new">Table</target>
+          </trans-unit>
+        </group>
+        <group id="220">
+          <trans-unit id="309" translate="yes" xml:space="preserve">
+            <source>raud</source>
+            <target state="new">raud</target>
+          </trans-unit>
+        </group>
+        <group id="221">
+          <trans-unit id="310" translate="yes" xml:space="preserve">
+            <source>For example, valid permissions settings for a container or share include <ph id="1">&lt;codeInline&gt;rw&lt;/codeInline&gt;</ph>, <ph id="2">&lt;codeInline&gt;rd&lt;/codeInline&gt;</ph>, <ph id="3">&lt;codeInline&gt;rl&lt;/codeInline&gt;</ph>, <ph id="4">&lt;codeInline&gt;wd&lt;/codeInline&gt;</ph>, <ph id="5">&lt;codeInline&gt;wl&lt;/codeInline&gt;</ph>, and <ph id="6">&lt;codeInline&gt;rl&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">For example, valid permissions settings for a container or share include <ph id="1">&lt;codeInline&gt;rw&lt;/codeInline&gt;</ph>, <ph id="2">&lt;codeInline&gt;rd&lt;/codeInline&gt;</ph>, <ph id="3">&lt;codeInline&gt;rl&lt;/codeInline&gt;</ph>, <ph id="4">&lt;codeInline&gt;wd&lt;/codeInline&gt;</ph>, <ph id="5">&lt;codeInline&gt;wl&lt;/codeInline&gt;</ph>, and <ph id="6">&lt;codeInline&gt;rl&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="311" translate="yes" xml:space="preserve">
+            <source>Invalid settings include <ph id="1">&lt;codeInline&gt;wr&lt;/codeInline&gt;</ph>, <ph id="2">&lt;codeInline&gt;dr&lt;/codeInline&gt;</ph>, <ph id="3">&lt;codeInline&gt;lr&lt;/codeInline&gt;</ph>, and <ph id="4">&lt;codeInline&gt;dw&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Invalid settings include <ph id="1">&lt;codeInline&gt;wr&lt;/codeInline&gt;</ph>, <ph id="2">&lt;codeInline&gt;dr&lt;/codeInline&gt;</ph>, <ph id="3">&lt;codeInline&gt;lr&lt;/codeInline&gt;</ph>, and <ph id="4">&lt;codeInline&gt;dw&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="312" translate="yes" xml:space="preserve">
+            <source>Specifying a permission designation more than once is not permitted.</source>
+            <target state="new">Specifying a permission designation more than once is not permitted.</target>
+          </trans-unit>
+        </group>
+        <group id="222">
+          <trans-unit id="313" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeInline&gt;canonicalizedresouce&lt;/codeInline&gt;</ph> portion of the string is a canonical path to the signed resource.</source>
+            <target state="new">The <ph id="1">&lt;codeInline&gt;canonicalizedresouce&lt;/codeInline&gt;</ph> portion of the string is a canonical path to the signed resource.</target>
+          </trans-unit>
+          <trans-unit id="314" translate="yes" xml:space="preserve">
+            <source>It must include the service name (blob, table, queue or file) for version 2015-02-21 or later, the storage account name, and the resource name, and must be URL-decoded.</source>
+            <target state="new">It must include the service name (blob, table, queue or file) for version 2015-02-21 or later, the storage account name, and the resource name, and must be URL-decoded.</target>
+          </trans-unit>
+          <trans-unit id="315" translate="yes" xml:space="preserve">
+            <source>Names of blobs must include the blob’s container.</source>
+            <target state="new">Names of blobs must include the blob’s container.</target>
+          </trans-unit>
+          <trans-unit id="316" translate="yes" xml:space="preserve">
+            <source>Table names must be lower-case.</source>
+            <target state="new">Table names must be lower-case.</target>
+          </trans-unit>
+          <trans-unit id="317" translate="yes" xml:space="preserve">
+            <source>The following examples show how to construct the <ph id="1">&lt;codeInline&gt;canonicalizedresource&lt;/codeInline&gt;</ph> portion of the string, depending on the type of resource.</source>
+            <target state="new">The following examples show how to construct the <ph id="1">&lt;codeInline&gt;canonicalizedresource&lt;/codeInline&gt;</ph> portion of the string, depending on the type of resource.</target>
+          </trans-unit>
+        </group>
+        <group id="223">
+          <trans-unit id="318" translate="yes" xml:space="preserve">
+            <source>Containers</source>
+            <target state="new">Containers</target>
+          </trans-unit>
+        </group>
+        <group id="224">
+          <trans-unit id="319" translate="yes" xml:space="preserve">
+            <source>For version 2015-02-21 and later:</source>
+            <target state="new">For version 2015-02-21 and later:</target>
+          </trans-unit>
+        </group>
+        <group id="225">
+          <trans-unit id="320" translate="yes" xml:space="preserve">
+            <source>For versions prior to 2015-02-21:</source>
+            <target state="new">For versions prior to 2015-02-21:</target>
+          </trans-unit>
+        </group>
+        <group id="226">
+          <trans-unit id="321" translate="yes" xml:space="preserve">
+            <source>Blobs</source>
+            <target state="new">Blobs</target>
+          </trans-unit>
+        </group>
+        <group id="227">
+          <trans-unit id="322" translate="yes" xml:space="preserve">
+            <source>For version 2015-02-21 and later:</source>
+            <target state="new">For version 2015-02-21 and later:</target>
+          </trans-unit>
+        </group>
+        <group id="228">
+          <trans-unit id="323" translate="yes" xml:space="preserve">
+            <source>For versions prior to 2015-02-21:</source>
+            <target state="new">For versions prior to 2015-02-21:</target>
+          </trans-unit>
+        </group>
+        <group id="229">
+          <trans-unit id="324" translate="yes" xml:space="preserve">
+            <source>File Shares</source>
+            <target state="new">File Shares</target>
+          </trans-unit>
+        </group>
+        <group id="230">
+          <trans-unit id="325" translate="yes" xml:space="preserve">
+            <source>Files</source>
+            <target state="new">Files</target>
+          </trans-unit>
+        </group>
+        <group id="231">
+          <trans-unit id="326" translate="yes" xml:space="preserve">
+            <source>Queues</source>
+            <target state="new">Queues</target>
+          </trans-unit>
+        </group>
+        <group id="232">
+          <trans-unit id="327" translate="yes" xml:space="preserve">
+            <source>Tables</source>
+            <target state="new">Tables</target>
+          </trans-unit>
+        </group>
+        <group id="233">
+          <trans-unit id="328" translate="yes" xml:space="preserve">
+            <source>If the signed resource is a table, assure the table name is lower-case in the canonicalized format:</source>
+            <target state="new">If the signed resource is a table, assure the table name is lower-case in the canonicalized format:</target>
+          </trans-unit>
+        </group>
+        <group id="234">
+          <trans-unit id="329" translate="yes" xml:space="preserve">
+            <source>Provide a value for the <ph id="1">&lt;codeInline&gt;signedidentifier&lt;/codeInline&gt;</ph> portion of the string if you are associating the request with a stored access policy.</source>
+            <target state="new">Provide a value for the <ph id="1">&lt;codeInline&gt;signedidentifier&lt;/codeInline&gt;</ph> portion of the string if you are associating the request with a stored access policy.</target>
+          </trans-unit>
+        </group>
+        <group id="235">
+          <trans-unit id="330" translate="yes" xml:space="preserve">
+            <source>A shared access signature that specifies a storage service version before 2012-02-12 can only share a blob or container, and must omit <ph id="1">&lt;codeInline&gt;signedversion&lt;/codeInline&gt;</ph> and the newline before it.</source>
+            <target state="new">A shared access signature that specifies a storage service version before 2012-02-12 can only share a blob or container, and must omit <ph id="1">&lt;codeInline&gt;signedversion&lt;/codeInline&gt;</ph> and the newline before it.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

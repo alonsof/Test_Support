@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="pt-BR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANjUEKwyAQAL/iA1xw3TW6PfbUc+kHVnEhkCYltZDnV5jLwMCYUa8cG/TODIwWoIZSoQXURcRQVbyLSasKESBTBZ4KkosAibTSJGrJ7B1zRG2yAJU+q64EBQODieTUqBom8g69+wy4P727ttWsX+N2HseYk0n27vF76/46df9uOtZj/wMjbPL5ogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Status and Error Codes</source>
+            <target state="new">Status and Error Codes</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>REST API operations for Azure storage services return standard HTTP status codes, as defined in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>HTTP/1.1 Status Code Definitions<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">REST API operations for Azure storage services return standard HTTP status codes, as defined in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>HTTP/1.1 Status Code Definitions<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>API operations may also return additional error information that is defined by the storage service.</source>
+            <target state="new">API operations may also return additional error information that is defined by the storage service.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>This additional error information is returned in the response body.</source>
+            <target state="new">This additional error information is returned in the response body.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The body of the error response follows the basic format shown here.</source>
+            <target state="new">The body of the error response follows the basic format shown here.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;languageKeyword&gt;code&lt;/languageKeyword&gt;</ph> element indicates the storage service error code string, whereas the <ph id="2">&lt;languageKeyword&gt;message&lt;/languageKeyword&gt;</ph> element indicates the error message string.</source>
+            <target state="new">The <ph id="1">&lt;languageKeyword&gt;code&lt;/languageKeyword&gt;</ph> element indicates the storage service error code string, whereas the <ph id="2">&lt;languageKeyword&gt;message&lt;/languageKeyword&gt;</ph> element indicates the error message string.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>A given error response may also include additional error information to provide the developer with more information about the error.</source>
+            <target state="new">A given error response may also include additional error information to provide the developer with more information about the error.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>For example, the following error response indicates that a query parameter specified on the request URI was invalid, and provides additional information about the invalid parameter's name and value and the reason for the error.</source>
+            <target state="new">For example, the following error response indicates that a query parameter specified on the request URI was invalid, and provides additional information about the invalid parameter's name and value and the reason for the error.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The following topics provide lists of error codes for the Blob, Queue, Table, and File services:</source>
+            <target state="new">The following topics provide lists of error codes for the Blob, Queue, Table, and File services:</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Error Responses for the Table Service</source>
+            <target state="new">Error Responses for the Table Service</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Error responses for the Table service include the storage services error code and message elements, as shown above, but are also compliant with the error format described in section 19 of the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>OData specification<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=301473&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">Error responses for the Table service include the storage services error code and message elements, as shown above, but are also compliant with the error format described in section 19 of the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>OData specification<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=301473&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Additional error information may be included in the response in addition to the storage services error code and message, but the error response will always comply with the OData spec.</source>
+            <target state="new">Additional error information may be included in the response in addition to the storage services error code and message, but the error response will always comply with the OData spec.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source> Batch error responses are similar to standard Table service error responses and are described in detail in <ph id="1">&lt;link xlink:href="b10963c6-ced3-4fcc-abee-58a9e1c2b83a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Performing Entity Group Transactions&lt;/link&gt;</ph>.</source>
+            <target state="new"> Batch error responses are similar to standard Table service error responses and are described in detail in <ph id="1">&lt;link xlink:href="b10963c6-ced3-4fcc-abee-58a9e1c2b83a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Performing Entity Group Transactions&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Basic Error Body in Atom Format</source>
+            <target state="new">Basic Error Body in Atom Format</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Basic Error Body in JSON Format</source>
+            <target state="new">Basic Error Body in JSON Format</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>HttpStatusCode Enumeration</source>
+            <target state="new">HttpStatusCode Enumeration</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

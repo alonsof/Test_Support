@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-TW" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAdzNsJwzAMQNFVPIAFtqTaUSfoAIF+S45FA2kCbQqh0/fxfQ/XnboxNuidGTh7AkuDQUtZi4hnVYmhnpjQm4DmXoCNCAYVhkxoaNUmNPqp1nwqBRJ1AVaqYFgb5MnZu0lK5fvKMbxvMF5jOJbZvR/7+bFt+z9gDJfXXdfxoetz0X3e1g8XrF7joQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="content">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>An interface required for table entity types.</source>
+            <target state="new">An interface required for table entity types.</target>
+          </trans-unit>
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.Storage.Table.ITableEntity&lt;/codeEntityReference&gt;</ph> interface declares getter and setter methods for the mandatory entity properties, and <ph id="2">&lt;codeEntityReference&gt;M:Microsoft.WindowsAzure.Storage.Table.ITableEntity.ReadEntity(System.Collections.Generic.IDictionary{System.String,Microsoft.WindowsAzure.Storage.Table.EntityProperty},Microsoft.WindowsAzure.Storage.OperationContext)&lt;/codeEntityReference&gt;</ph> and <ph id="3">&lt;codeEntityReference&gt;M:Microsoft.WindowsAzure.Storage.Table.ITableEntity.WriteEntity(Microsoft.WindowsAzure.Storage.OperationContext)&lt;/codeEntityReference&gt;</ph> methods for serialization and de-serialization of all entity properties using a property dictionary.</source>
+            <target state="new">The <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.Storage.Table.ITableEntity&lt;/codeEntityReference&gt;</ph> interface declares getter and setter methods for the mandatory entity properties, and <ph id="2">&lt;codeEntityReference&gt;M:Microsoft.WindowsAzure.Storage.Table.ITableEntity.ReadEntity(System.Collections.Generic.IDictionary{System.String,Microsoft.WindowsAzure.Storage.Table.EntityProperty},Microsoft.WindowsAzure.Storage.OperationContext)&lt;/codeEntityReference&gt;</ph> and <ph id="3">&lt;codeEntityReference&gt;M:Microsoft.WindowsAzure.Storage.Table.ITableEntity.WriteEntity(Microsoft.WindowsAzure.Storage.OperationContext)&lt;/codeEntityReference&gt;</ph> methods for serialization and de-serialization of all entity properties using a property dictionary.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Create classes implementing <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.Storage.Table.ITableEntity&lt;/codeEntityReference&gt;</ph> to customize property storage, retrieval, serialization and de-serialization, and to provide additional custom logic for a table entity.</source>
+            <target state="new">Create classes implementing <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.Storage.Table.ITableEntity&lt;/codeEntityReference&gt;</ph> to customize property storage, retrieval, serialization and de-serialization, and to provide additional custom logic for a table entity.</target>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The storage client library includes two implementations of <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.Storage.Table.ITableEntity&lt;/codeEntityReference&gt;</ph> that provide for simple property access and serialization:</source>
+            <target state="new">The storage client library includes two implementations of <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.Storage.Table.ITableEntity&lt;/codeEntityReference&gt;</ph> that provide for simple property access and serialization:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.Storage.Table.DynamicTableEntity&lt;/codeEntityReference&gt;</ph> implements <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.Storage.Table.ITableEntity&lt;/codeEntityReference&gt;</ph> and provides a simple property dictionary to store and retrieve properties.</source>
+            <target state="new"><ph id="1">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.Storage.Table.DynamicTableEntity&lt;/codeEntityReference&gt;</ph> implements <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.Storage.Table.ITableEntity&lt;/codeEntityReference&gt;</ph> and provides a simple property dictionary to store and retrieve properties.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Use a <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.Storage.Table.DynamicTableEntity&lt;/codeEntityReference&gt;</ph> for simple access to entity properties when only a subset of properties are returned (for example, by a select clause in a query), or for scenarios where your query can return multiple entity types with different properties.</source>
+            <target state="new">Use a <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.Storage.Table.DynamicTableEntity&lt;/codeEntityReference&gt;</ph> for simple access to entity properties when only a subset of properties are returned (for example, by a select clause in a query), or for scenarios where your query can return multiple entity types with different properties.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>You can also use this type to perform bulk table updates of heterogeneous entities without losing property information.</source>
+            <target state="new">You can also use this type to perform bulk table updates of heterogeneous entities without losing property information.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.Storage.Table.TableEntity&lt;/codeEntityReference&gt;</ph> is an implementation of <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.Storage.Table.ITableEntity&lt;/codeEntityReference&gt;</ph> that uses reflection-based serialization and de-serialization behavior in its <ph id="3">&lt;codeEntityReference&gt;M:Microsoft.WindowsAzure.Storage.Table.TableEntity.ReadEntity(System.Collections.Generic.IDictionary{System.String,Microsoft.WindowsAzure.Storage.Table.EntityProperty},Microsoft.WindowsAzure.Storage.OperationContext)&lt;/codeEntityReference&gt;</ph> and <ph id="4">&lt;codeEntityReference&gt;M:Microsoft.WindowsAzure.Storage.Table.TableEntity.WriteEntity(Microsoft.WindowsAzure.Storage.OperationContext)&lt;/codeEntityReference&gt;</ph> methods.</source>
+            <target state="new"><ph id="1">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.Storage.Table.TableEntity&lt;/codeEntityReference&gt;</ph> is an implementation of <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.Storage.Table.ITableEntity&lt;/codeEntityReference&gt;</ph> that uses reflection-based serialization and de-serialization behavior in its <ph id="3">&lt;codeEntityReference&gt;M:Microsoft.WindowsAzure.Storage.Table.TableEntity.ReadEntity(System.Collections.Generic.IDictionary{System.String,Microsoft.WindowsAzure.Storage.Table.EntityProperty},Microsoft.WindowsAzure.Storage.OperationContext)&lt;/codeEntityReference&gt;</ph> and <ph id="4">&lt;codeEntityReference&gt;M:Microsoft.WindowsAzure.Storage.Table.TableEntity.WriteEntity(Microsoft.WindowsAzure.Storage.OperationContext)&lt;/codeEntityReference&gt;</ph> methods.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.Storage.Table.TableEntity&lt;/codeEntityReference&gt;</ph> -derived classes with methods that follow a convention for types and naming are serialized and deserialized automatically.</source>
+            <target state="new"><ph id="1">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.Storage.Table.TableEntity&lt;/codeEntityReference&gt;</ph> -derived classes with methods that follow a convention for types and naming are serialized and deserialized automatically.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.Storage.Table.TableEntity&lt;/codeEntityReference&gt;</ph> -derived classes must also provide a get-able and set-able public property of a type that is supported by the Windows Azure Table service.</source>
+            <target state="new"><ph id="1">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.Storage.Table.TableEntity&lt;/codeEntityReference&gt;</ph> -derived classes must also provide a get-able and set-able public property of a type that is supported by the Windows Azure Table service.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

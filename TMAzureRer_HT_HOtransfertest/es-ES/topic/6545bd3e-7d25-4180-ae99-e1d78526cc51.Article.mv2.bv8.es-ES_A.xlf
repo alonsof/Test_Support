@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAVzUkKwzAMQNGr+AAWyLY8dV/ovr2AbEsQSBPIADl+U/jLB181SCPfQYQIyClCw9Kgo+NUqzrmao1PyCn0ASP4CCQ9Q8GsENBRlkFSvLcmRYptBIE8/soVBJZaQdzIJfrUe3TW3MkOz7c11zypynU8tnU97ok1xZrX+eXls/Gyz3xM6/IDboFgpqEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Tutorial: Process EDIFACT Invoices Using Azure BizTalk Services</source>
+            <target state="new">Tutorial: Process EDIFACT Invoices Using Azure BizTalk Services</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Author<ept id="1">&lt;/embeddedLabel&gt;</ept>: <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>Mikael Hakansson<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://social.msdn.microsoft.com/profile/mikael%20h%C3%A5kansson/?ws=usercard-inline&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Author<ept id="1">&lt;/embeddedLabel&gt;</ept>: <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>Mikael Hakansson<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://social.msdn.microsoft.com/profile/mikael%20h%C3%A5kansson/?ws=usercard-inline&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>You can use the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> to configure and deploy X12 and EDIFACT agreements.</source>
+            <target state="new">You can use the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> to configure and deploy X12 and EDIFACT agreements.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>In this tutorial, we look at how to create an EDIFACT agreement for exchanging invoices between trading partners.</source>
+            <target state="new">In this tutorial, we look at how to create an EDIFACT agreement for exchanging invoices between trading partners.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>This tutorial is written around an end-to-end business solution involving two trading partners, Northwind and Contoso that exchange EDIFACT messages.</source>
+            <target state="new">This tutorial is written around an end-to-end business solution involving two trading partners, Northwind and Contoso that exchange EDIFACT messages.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Sample based on this tutorial</source>
+            <target state="new">Sample based on this tutorial</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>This tutorial is written around a sample, <bpt id="1">&lt;embeddedLabel&gt;</bpt>Sending EDIFACT Invoices Using BizTalk Services<ept id="1">&lt;/embeddedLabel&gt;</ept>, which is available to download from the <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>MSDN Code Gallery<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=401005&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">This tutorial is written around a sample, <bpt id="1">&lt;embeddedLabel&gt;</bpt>Sending EDIFACT Invoices Using BizTalk Services<ept id="1">&lt;/embeddedLabel&gt;</ept>, which is available to download from the <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>MSDN Code Gallery<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=401005&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>You could use the sample and go through this tutorial to understand how the sample was built.</source>
+            <target state="new">You could use the sample and go through this tutorial to understand how the sample was built.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Or, you could use this tutorial to create your own solution ground-up.</source>
+            <target state="new">Or, you could use this tutorial to create your own solution ground-up.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>This tutorial is targeted towards the second approach so that you understand how this solution was built.</source>
+            <target state="new">This tutorial is targeted towards the second approach so that you understand how this solution was built.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Also, as much as possible, the tutorial is consistent with the sample and uses the same names for artifacts (for example, schemas, transforms) as used in the sample.</source>
+            <target state="new">Also, as much as possible, the tutorial is consistent with the sample and uses the same names for artifacts (for example, schemas, transforms) as used in the sample.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Because this solution involves sending a message from an EAI <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to an EDI <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>, it reuses the <bpt id="3">&lt;externalLink&gt;</bpt><bpt id="4">&lt;linkText&gt;</bpt>BizTalk Services Bridge chaining sample<ept id="4">&lt;/linkText&gt;</ept><ph id="5">&lt;linkUri&gt;http://code.msdn.microsoft.com/BizTalk-Bridge-chaining-2246b104&lt;/linkUri&gt;</ph><ept id="3">&lt;/externalLink&gt;</ept> sample.</source>
+            <target state="new">Because this solution involves sending a message from an EAI <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to an EDI <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>, it reuses the <bpt id="3">&lt;externalLink&gt;</bpt><bpt id="4">&lt;linkText&gt;</bpt>BizTalk Services Bridge chaining sample<ept id="4">&lt;/linkText&gt;</ept><ph id="5">&lt;linkUri&gt;http://code.msdn.microsoft.com/BizTalk-Bridge-chaining-2246b104&lt;/linkUri&gt;</ph><ept id="3">&lt;/externalLink&gt;</ept> sample.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>What does the solution do?</source>
+            <target state="new">What does the solution do?</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>In this solution, Northwind receives EDIFACT invoices from Contoso.</source>
+            <target state="new">In this solution, Northwind receives EDIFACT invoices from Contoso.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>These invoices are not in a standard EDI format.</source>
+            <target state="new">These invoices are not in a standard EDI format.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>So, before sending the invoice to Northwind, it must be transformed to an EDIFACT invoice (also called INVOIC) document.</source>
+            <target state="new">So, before sending the invoice to Northwind, it must be transformed to an EDIFACT invoice (also called INVOIC) document.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>On receipt, Northwind must process the EDIFACT invoice, and return a control message (also called CONTRL) to Contoso.</source>
+            <target state="new">On receipt, Northwind must process the EDIFACT invoice, and return a control message (also called CONTRL) to Contoso.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>To achieve this business scenario, Contoso uses the features provided with <ph id="1">&lt;token&gt;af_integration_full&lt;/token&gt;</ph>.</source>
+            <target state="new">To achieve this business scenario, Contoso uses the features provided with <ph id="1">&lt;token&gt;af_integration_full&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Contoso uses EAI <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s to transform the original invoice to EDIFACT INVOIC.</source>
+            <target state="new">Contoso uses EAI <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s to transform the original invoice to EDIFACT INVOIC.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>The EAI <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> then sends the message to an EDI send <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> deployed as part of an agreement configured in the <ph id="3">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>.</source>
+            <target state="new">The EAI <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> then sends the message to an EDI send <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> deployed as part of an agreement configured in the <ph id="3">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>The EDI send <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> processes the EDIFACT INVOIC and routes it to Northwind.</source>
+            <target state="new">The EDI send <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> processes the EDIFACT INVOIC and routes it to Northwind.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>After receiving the invoice, Northwind returns a CONTRL message to the EDI receive <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> deployed as part of the agreement.</source>
+            <target state="new">After receiving the invoice, Northwind returns a CONTRL message to the EDI receive <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> deployed as part of the agreement.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Optionally, this solution also demonstrates how to use batching to send the invoices in batches, instead of sending each invoice separately.</source>
+            <target state="new">Optionally, this solution also demonstrates how to use batching to send the invoices in batches, instead of sending each invoice separately.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>To complete the scenario, we use <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> queues to send invoice from Contoso to Northwind or receive acknowledgement from Northwind.</source>
+            <target state="new">To complete the scenario, we use <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> queues to send invoice from Contoso to Northwind or receive acknowledgement from Northwind.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>These queues can be created using a client application, which is available as a download and is included in the sample package that is available as part of this tutorial.</source>
+            <target state="new">These queues can be created using a client application, which is available as a download and is included in the sample package that is available as part of this tutorial.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Prerequisites</source>
+            <target state="new">Prerequisites</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>You must have a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace.</source>
+            <target state="new">You must have a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>For instructions on creating a namespace, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>How To: Create or Modify a Service Bus Service Namespace<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/hh690931.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For instructions on creating a namespace, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>How To: Create or Modify a Service Bus Service Namespace<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/hh690931.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Let us assume that you already have a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace provisioned, called <bpt id="2">&lt;embeddedLabel&gt;</bpt>edifactbts<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Let us assume that you already have a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace provisioned, called <bpt id="2">&lt;embeddedLabel&gt;</bpt>edifactbts<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>You must have a <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription.</source>
+            <target state="new">You must have a <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>For instructions, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Create a BizTalk Service using Azure management portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=302280&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For instructions, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Create a BizTalk Service using Azure management portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=302280&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>For this tutorial, let us assume you have a <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription, called <bpt id="2">&lt;embeddedLabel&gt;</bpt>contosowabs<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">For this tutorial, let us assume you have a <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription, called <bpt id="2">&lt;embeddedLabel&gt;</bpt>contosowabs<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Register your <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription on the <ph id="2">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>.</source>
+            <target state="new">Register your <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription on the <ph id="2">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>For instructions, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Registering a BizTalk Service Deployment on the BizTalk Services Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/hh689837.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept></source>
+            <target state="new">For instructions, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Registering a BizTalk Service Deployment on the BizTalk Services Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/hh689837.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>You must have <ph id="1">&lt;token&gt;vs_current_short&lt;/token&gt;</ph> installed.</source>
+            <target state="new">You must have <ph id="1">&lt;token&gt;vs_current_short&lt;/token&gt;</ph> installed.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>You must have <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> SDK installed.</source>
+            <target state="new">You must have <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> SDK installed.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>You can download the SDK from <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/?LinkId=235057<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=235057&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept></source>
+            <target state="new">You can download the SDK from <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/?LinkId=235057<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=235057&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Step 1: Create the Service Bus queues</source>
+            <target state="new">Step 1: Create the Service Bus queues</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>This solution uses <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> queues to exchange messages between trading partners.</source>
+            <target state="new">This solution uses <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> queues to exchange messages between trading partners.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Contoso and Northwind send messages to the queues from where the EAI and/or EDI <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s consume them.</source>
+            <target state="new">Contoso and Northwind send messages to the queues from where the EAI and/or EDI <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s consume them.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>For this solution, you need three <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> queues:</source>
+            <target state="new">For this solution, you need three <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> queues:</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>northwindreceive<ept id="1">&lt;/embeddedLabel&gt;</ept> –Northwind receives the invoice from Contoso over this queue.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>northwindreceive<ept id="1">&lt;/embeddedLabel&gt;</ept> –Northwind receives the invoice from Contoso over this queue.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>contosoreceive<ept id="1">&lt;/embeddedLabel&gt;</ept> –Contoso receives the acknowledgement from Northwind over this queue.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>contosoreceive<ept id="1">&lt;/embeddedLabel&gt;</ept> –Contoso receives the acknowledgement from Northwind over this queue.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>suspended<ept id="1">&lt;/embeddedLabel&gt;</ept> – All suspended messages are routed to this queue.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>suspended<ept id="1">&lt;/embeddedLabel&gt;</ept> – All suspended messages are routed to this queue.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Messages are suspended if they fail during processing.</source>
+            <target state="new">Messages are suspended if they fail during processing.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>You can create these <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> queues by using a client application included in the sample package.</source>
+            <target state="new">You can create these <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> queues by using a client application included in the sample package.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>From the location where you downloaded the sample, open <bpt id="1">&lt;embeddedLabel&gt;</bpt>Tutorial Sending Invoices Using BizTalk Services EDI Bridges.sln<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">From the location where you downloaded the sample, open <bpt id="1">&lt;embeddedLabel&gt;</bpt>Tutorial Sending Invoices Using BizTalk Services EDI Bridges.sln<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Press <bpt id="1">&lt;embeddedLabel&gt;</bpt>F5<ept id="1">&lt;/embeddedLabel&gt;</ept> to build and start the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Tutorial Client<ept id="2">&lt;/embeddedLabel&gt;</ept> application.</source>
+            <target state="new">Press <bpt id="1">&lt;embeddedLabel&gt;</bpt>F5<ept id="1">&lt;/embeddedLabel&gt;</ept> to build and start the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Tutorial Client<ept id="2">&lt;/embeddedLabel&gt;</ept> application.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>In the screen, enter the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> ACS namespace, issuer name, and issuer key.</source>
+            <target state="new">In the screen, enter the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> ACS namespace, issuer name, and issuer key.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>A message box prompts that three queues will be created in your <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace.</source>
+            <target state="new">A message box prompts that three queues will be created in your <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Leave the Tutorial Client running.</source>
+            <target state="new">Leave the Tutorial Client running.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Open the <ph id="1">&lt;token&gt;portal&lt;/token&gt;</ph>, click <bpt id="2">&lt;embeddedLabel&gt;</bpt><ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph><ept id="2">&lt;/embeddedLabel&gt;</ept> &gt; <bpt id="4">&lt;embeddedLabel&gt;</bpt><bpt id="5">&lt;legacyItalic&gt;</bpt>your <ph id="6">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace<ept id="5">&lt;/legacyItalic&gt;</ept><ept id="4">&lt;/embeddedLabel&gt;</ept> &gt; <bpt id="7">&lt;embeddedLabel&gt;</bpt>Queues<ept id="7">&lt;/embeddedLabel&gt;</ept>, and verify that the three queues are created.</source>
+            <target state="new">Open the <ph id="1">&lt;token&gt;portal&lt;/token&gt;</ph>, click <bpt id="2">&lt;embeddedLabel&gt;</bpt><ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph><ept id="2">&lt;/embeddedLabel&gt;</ept> &gt; <bpt id="4">&lt;embeddedLabel&gt;</bpt><bpt id="5">&lt;legacyItalic&gt;</bpt>your <ph id="6">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace<ept id="5">&lt;/legacyItalic&gt;</ept><ept id="4">&lt;/embeddedLabel&gt;</ept> &gt; <bpt id="7">&lt;embeddedLabel&gt;</bpt>Queues<ept id="7">&lt;/embeddedLabel&gt;</ept>, and verify that the three queues are created.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Step 2: Create and deploy trading partner agreement</source>
+            <target state="new">Step 2: Create and deploy trading partner agreement</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Create a trading partner agreement between Contoso and Northwind.</source>
+            <target state="new">Create a trading partner agreement between Contoso and Northwind.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>A trading partner agreement defines a trade contract between the two business partners, such as which message schema to use, which messaging protocol to use, etc. A trading partner agreement includes two EDI <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s, one to send messages to trading partners (called the <bpt id="2">&lt;embeddedLabel&gt;</bpt>EDI Send <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph><ept id="2">&lt;/embeddedLabel&gt;</ept>) and one to receive messages from trading partners (called the <bpt id="4">&lt;embeddedLabel&gt;</bpt>EDI Receive <ph id="5">&lt;token&gt;bridge&lt;/token&gt;</ph><ept id="4">&lt;/embeddedLabel&gt;</ept>).</source>
+            <target state="new">A trading partner agreement defines a trade contract between the two business partners, such as which message schema to use, which messaging protocol to use, etc. A trading partner agreement includes two EDI <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s, one to send messages to trading partners (called the <bpt id="2">&lt;embeddedLabel&gt;</bpt>EDI Send <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph><ept id="2">&lt;/embeddedLabel&gt;</ept>) and one to receive messages from trading partners (called the <bpt id="4">&lt;embeddedLabel&gt;</bpt>EDI Receive <ph id="5">&lt;token&gt;bridge&lt;/token&gt;</ph><ept id="4">&lt;/embeddedLabel&gt;</ept>).</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>In the context of this solution, the EDI send bridge corresponds to the send-side of the agreement and is used to send the EDIFACT invoice from Contoso to Northwind.</source>
+            <target state="new">In the context of this solution, the EDI send bridge corresponds to the send-side of the agreement and is used to send the EDIFACT invoice from Contoso to Northwind.</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Similarly, the EDI receive bridge corresponds to the receive-side of the agreement and is used to receive acknowledgements from Northwind.</source>
+            <target state="new">Similarly, the EDI receive bridge corresponds to the receive-side of the agreement and is used to receive acknowledgements from Northwind.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Create the trading partners</source>
+            <target state="new">Create the trading partners</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>To start with, create trading partners for Contoso and Northwind.</source>
+            <target state="new">To start with, create trading partners for Contoso and Northwind.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>In the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>, on the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Partners<ept id="2">&lt;/embeddedLabel&gt;</ept> tab, click <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>, on the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Partners<ept id="2">&lt;/embeddedLabel&gt;</ept> tab, click <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>In the New partner page, enter <bpt id="1">&lt;userInput&gt;</bpt>Contoso<ept id="1">&lt;/userInput&gt;</ept> as a partner name, and then click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Save<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the New partner page, enter <bpt id="1">&lt;userInput&gt;</bpt>Contoso<ept id="1">&lt;/userInput&gt;</ept> as a partner name, and then click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Save<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Repeat the step to create the second partner, <bpt id="1">&lt;embeddedLabel&gt;</bpt>Northwind<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Repeat the step to create the second partner, <bpt id="1">&lt;embeddedLabel&gt;</bpt>Northwind<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Create the agreement</source>
+            <target state="new">Create the agreement</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Trading partner agreements are created between business profiles of trading partners.</source>
+            <target state="new">Trading partner agreements are created between business profiles of trading partners.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>This solution uses the default partner profiles that are automatically created when we created the partners.</source>
+            <target state="new">This solution uses the default partner profiles that are automatically created when we created the partners.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>In the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Agreements<ept id="2">&lt;/embeddedLabel&gt;</ept> &gt; <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Agreements<ept id="2">&lt;/embeddedLabel&gt;</ept> &gt; <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>In the new agreement’s <bpt id="1">&lt;embeddedLabel&gt;</bpt>General Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> page, specify the values as shown in the image below, and then click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Continue<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the new agreement’s <bpt id="1">&lt;embeddedLabel&gt;</bpt>General Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> page, specify the values as shown in the image below, and then click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Continue<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>After you click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Continue<ept id="1">&lt;/embeddedLabel&gt;</ept>, two tabs, <bpt id="2">&lt;embeddedLabel&gt;</bpt>Receive Settings<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>Send Settings<ept id="3">&lt;/embeddedLabel&gt;</ept> become available.</source>
+            <target state="new">After you click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Continue<ept id="1">&lt;/embeddedLabel&gt;</ept>, two tabs, <bpt id="2">&lt;embeddedLabel&gt;</bpt>Receive Settings<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>Send Settings<ept id="3">&lt;/embeddedLabel&gt;</ept> become available.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Create the send agreement between Contoso and Northwind.</source>
+            <target state="new">Create the send agreement between Contoso and Northwind.</target>
+          </trans-unit>
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>This agreement governs how Contoso sends the EDIFACT invoice to Northwind.</source>
+            <target state="new">This agreement governs how Contoso sends the EDIFACT invoice to Northwind.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send Settings<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send Settings<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Retain the default values on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Inbound URL<ept id="1">&lt;/embeddedLabel&gt;</ept>, <bpt id="2">&lt;embeddedLabel&gt;</bpt>Transform<ept id="2">&lt;/embeddedLabel&gt;</ept>, and <bpt id="3">&lt;embeddedLabel&gt;</bpt>Batching<ept id="3">&lt;/embeddedLabel&gt;</ept> tabs.</source>
+            <target state="new">Retain the default values on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Inbound URL<ept id="1">&lt;/embeddedLabel&gt;</ept>, <bpt id="2">&lt;embeddedLabel&gt;</bpt>Transform<ept id="2">&lt;/embeddedLabel&gt;</ept>, and <bpt id="3">&lt;embeddedLabel&gt;</bpt>Batching<ept id="3">&lt;/embeddedLabel&gt;</ept> tabs.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Protocol<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, under the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Schemas<ept id="2">&lt;/embeddedLabel&gt;</ept> section, upload the <bpt id="3">&lt;embeddedLabel&gt;</bpt>EFACT_D93A_INVOIC.xsd<ept id="3">&lt;/embeddedLabel&gt;</ept> schema.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Protocol<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, under the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Schemas<ept id="2">&lt;/embeddedLabel&gt;</ept> section, upload the <bpt id="3">&lt;embeddedLabel&gt;</bpt>EFACT_D93A_INVOIC.xsd<ept id="3">&lt;/embeddedLabel&gt;</ept> schema.</target>
+          </trans-unit>
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>This schema is available with the sample package.</source>
+            <target state="new">This schema is available with the sample package.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transport<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, specify the details for the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> queues.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transport<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, specify the details for the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> queues.</target>
+          </trans-unit>
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>For the send-side agreement, we use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>northwindreceive<ept id="1">&lt;/embeddedLabel&gt;</ept> queue to send the EDIFACT invoice to Northwind, and the <bpt id="2">&lt;embeddedLabel&gt;</bpt>suspended<ept id="2">&lt;/embeddedLabel&gt;</ept> queue to route any messages that fail during processing and are suspended.</source>
+            <target state="new">For the send-side agreement, we use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>northwindreceive<ept id="1">&lt;/embeddedLabel&gt;</ept> queue to send the EDIFACT invoice to Northwind, and the <bpt id="2">&lt;embeddedLabel&gt;</bpt>suspended<ept id="2">&lt;/embeddedLabel&gt;</ept> queue to route any messages that fail during processing and are suspended.</target>
+          </trans-unit>
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>You created these queues in <ph id="1">&lt;link xlink:href="6545bd3e-7d25-4180-ae99-e1d78526cc51#BKMK_Queue" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 1: Create the Service Bus queues&lt;/link&gt;</ph>.</source>
+            <target state="new">You created these queues in <ph id="1">&lt;link xlink:href="6545bd3e-7d25-4180-ae99-e1d78526cc51#BKMK_Queue" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 1: Create the Service Bus queues&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transport Settings &gt; Transport type<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Message Suspension Settings &gt; Transport type<ept id="2">&lt;/embeddedLabel&gt;</ept>, select Azure <ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph> and provide the values as shown in the image.</source>
+            <target state="new">Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transport Settings &gt; Transport type<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Message Suspension Settings &gt; Transport type<ept id="2">&lt;/embeddedLabel&gt;</ept>, select Azure <ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph> and provide the values as shown in the image.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Create the receive agreement between Contoso and Northwind.</source>
+            <target state="new">Create the receive agreement between Contoso and Northwind.</target>
+          </trans-unit>
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>This agreement governs how Contoso receives the acknowledgement from Northwind.</source>
+            <target state="new">This agreement governs how Contoso receives the acknowledgement from Northwind.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Receive Settings<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Receive Settings<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Retain the default values on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transport<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Transform<ept id="2">&lt;/embeddedLabel&gt;</ept> tabs.</source>
+            <target state="new">Retain the default values on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transport<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Transform<ept id="2">&lt;/embeddedLabel&gt;</ept> tabs.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Protocol<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, under the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Schemas<ept id="2">&lt;/embeddedLabel&gt;</ept> section, upload the <bpt id="3">&lt;embeddedLabel&gt;</bpt>EFACT_4.1_CONTRL.xsd<ept id="3">&lt;/embeddedLabel&gt;</ept> schema.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Protocol<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, under the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Schemas<ept id="2">&lt;/embeddedLabel&gt;</ept> section, upload the <bpt id="3">&lt;embeddedLabel&gt;</bpt>EFACT_4.1_CONTRL.xsd<ept id="3">&lt;/embeddedLabel&gt;</ept> schema.</target>
+          </trans-unit>
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>This schema is available with the sample package.</source>
+            <target state="new">This schema is available with the sample package.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, create a filter to ensure that only acknowledgements from Northwind are routed to Contoso.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, create a filter to ensure that only acknowledgements from Northwind are routed to Contoso.</target>
+          </trans-unit>
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Settings<ept id="1">&lt;/embeddedLabel&gt;</ept>, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept> to create the routing filter.</source>
+            <target state="new">Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Settings<ept id="1">&lt;/embeddedLabel&gt;</ept>, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept> to create the routing filter.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Provide values for <bpt id="1">&lt;embeddedLabel&gt;</bpt>Rule Name<ept id="1">&lt;/embeddedLabel&gt;</ept>, <bpt id="2">&lt;embeddedLabel&gt;</bpt>Route rule<ept id="2">&lt;/embeddedLabel&gt;</ept>, and <bpt id="3">&lt;embeddedLabel&gt;</bpt>Route destination<ept id="3">&lt;/embeddedLabel&gt;</ept> as shown in the image.</source>
+            <target state="new">Provide values for <bpt id="1">&lt;embeddedLabel&gt;</bpt>Rule Name<ept id="1">&lt;/embeddedLabel&gt;</ept>, <bpt id="2">&lt;embeddedLabel&gt;</bpt>Route rule<ept id="2">&lt;/embeddedLabel&gt;</ept>, and <bpt id="3">&lt;embeddedLabel&gt;</bpt>Route destination<ept id="3">&lt;/embeddedLabel&gt;</ept> as shown in the image.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route<ept id="1">&lt;/embeddedLabel&gt;</ept> tab again, specify where suspended acknowledgements (acknowledgements that fail during processing) are routed to.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route<ept id="1">&lt;/embeddedLabel&gt;</ept> tab again, specify where suspended acknowledgements (acknowledgements that fail during processing) are routed to.</target>
+          </trans-unit>
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Set the transport type to Azure <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>, route destination type to <bpt id="2">&lt;embeddedLabel&gt;</bpt>Queue<ept id="2">&lt;/embeddedLabel&gt;</ept>, authentication type to <bpt id="3">&lt;embeddedLabel&gt;</bpt>Shared Access Signature<ept id="3">&lt;/embeddedLabel&gt;</ept> (SAS), provide the SAS connection string for the <ph id="4">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace, and then enter the queue name as <bpt id="5">&lt;userInput&gt;</bpt>suspended<ept id="5">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">Set the transport type to Azure <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>, route destination type to <bpt id="2">&lt;embeddedLabel&gt;</bpt>Queue<ept id="2">&lt;/embeddedLabel&gt;</ept>, authentication type to <bpt id="3">&lt;embeddedLabel&gt;</bpt>Shared Access Signature<ept id="3">&lt;/embeddedLabel&gt;</ept> (SAS), provide the SAS connection string for the <ph id="4">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace, and then enter the queue name as <bpt id="5">&lt;userInput&gt;</bpt>suspended<ept id="5">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Finally, click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Deploy<ept id="1">&lt;/embeddedLabel&gt;</ept> to deploy the agreement.</source>
+            <target state="new">Finally, click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Deploy<ept id="1">&lt;/embeddedLabel&gt;</ept> to deploy the agreement.</target>
+          </trans-unit>
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Note the endpoints where the send and receive agreements get deployed.</source>
+            <target state="new">Note the endpoints where the send and receive agreements get deployed.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, under <bpt id="2">&lt;embeddedLabel&gt;</bpt>Inbound URL<ept id="2">&lt;/embeddedLabel&gt;</ept>, note the endpoint.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, under <bpt id="2">&lt;embeddedLabel&gt;</bpt>Inbound URL<ept id="2">&lt;/embeddedLabel&gt;</ept>, note the endpoint.</target>
+          </trans-unit>
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>To send a message from Contoso to Northwind using the EDI send bridge, you must send a message to this endpoint.</source>
+            <target state="new">To send a message from Contoso to Northwind using the EDI send bridge, you must send a message to this endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Receive Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, under <bpt id="2">&lt;embeddedLabel&gt;</bpt>Transport<ept id="2">&lt;/embeddedLabel&gt;</ept>, note the endpoint.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Receive Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, under <bpt id="2">&lt;embeddedLabel&gt;</bpt>Transport<ept id="2">&lt;/embeddedLabel&gt;</ept>, note the endpoint.</target>
+          </trans-unit>
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>To send a message from Northwind to Contoso using the EDI receive bridge, you must send a message to this endpoint.</source>
+            <target state="new">To send a message from Northwind to Contoso using the EDI receive bridge, you must send a message to this endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Step 3: Create and deploy the BizTalk Services project</source>
+            <target state="new">Step 3: Create and deploy the BizTalk Services project</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>In the previous step, you deployed the EDI send and receive agreements to process EDIFACT invoices and acknowledgements.</source>
+            <target state="new">In the previous step, you deployed the EDI send and receive agreements to process EDIFACT invoices and acknowledgements.</target>
+          </trans-unit>
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>These agreements can only process messages that conform to the standard EDIFACT message schema.</source>
+            <target state="new">These agreements can only process messages that conform to the standard EDIFACT message schema.</target>
+          </trans-unit>
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>However, per the scenario for this solution, Contoso sends an invoice to Northwind in an in-house proprietary schema.</source>
+            <target state="new">However, per the scenario for this solution, Contoso sends an invoice to Northwind in an in-house proprietary schema.</target>
+          </trans-unit>
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>So, before the message is sent to the EDI send bridge, it must be transformed from the in-house schema to the standard EDIFACT invoice schema.</source>
+            <target state="new">So, before the message is sent to the EDI send bridge, it must be transformed from the in-house schema to the standard EDIFACT invoice schema.</target>
+          </trans-unit>
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> EAI project does that.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> EAI project does that.</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> project, <bpt id="2">&lt;embeddedLabel&gt;</bpt>InvoiceProcessingBridge<ept id="2">&lt;/embeddedLabel&gt;</ept>, that transforms the message is also included as part of the sample you downloaded.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> project, <bpt id="2">&lt;embeddedLabel&gt;</bpt>InvoiceProcessingBridge<ept id="2">&lt;/embeddedLabel&gt;</ept>, that transforms the message is also included as part of the sample you downloaded.</target>
+          </trans-unit>
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>The project includes the following artifacts:</source>
+            <target state="new">The project includes the following artifacts:</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>INHOUSEINVOICE.XSD<ept id="1">&lt;/embeddedLabel&gt;</ept> – Schema of the in-house invoice that is sent to Northwind.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>INHOUSEINVOICE.XSD<ept id="1">&lt;/embeddedLabel&gt;</ept> – Schema of the in-house invoice that is sent to Northwind.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>EFACT_D93A_INVOIC.XSD<ept id="1">&lt;/embeddedLabel&gt;</ept> – Schema of the standard EDIFACT invoice.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>EFACT_D93A_INVOIC.XSD<ept id="1">&lt;/embeddedLabel&gt;</ept> – Schema of the standard EDIFACT invoice.</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>EFACT_4.1_CONTRL.XSD<ept id="1">&lt;/embeddedLabel&gt;</ept> – Schema of the EDIFACT acknowledgement that Northwind sends to Contoso.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>EFACT_4.1_CONTRL.XSD<ept id="1">&lt;/embeddedLabel&gt;</ept> – Schema of the EDIFACT acknowledgement that Northwind sends to Contoso.</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>INHOUSEINVOICE_to_D93AINVOIC.TRFM<ept id="1">&lt;/embeddedLabel&gt;</ept> – The transform that maps the in-house invoice schema to the standard EDIFACT invoice schema.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>INHOUSEINVOICE_to_D93AINVOIC.TRFM<ept id="1">&lt;/embeddedLabel&gt;</ept> – The transform that maps the in-house invoice schema to the standard EDIFACT invoice schema.</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>Create the BizTalk Services project</source>
+            <target state="new">Create the BizTalk Services project</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>In the <ph id="1">&lt;token&gt;vs_current_short&lt;/token&gt;</ph> solution, expand the InvoiceProcessingBridge project, and then open the <bpt id="2">&lt;embeddedLabel&gt;</bpt>MessageFlowItinerary.bcs<ept id="2">&lt;/embeddedLabel&gt;</ept> file.</source>
+            <target state="new">In the <ph id="1">&lt;token&gt;vs_current_short&lt;/token&gt;</ph> solution, expand the InvoiceProcessingBridge project, and then open the <bpt id="2">&lt;embeddedLabel&gt;</bpt>MessageFlowItinerary.bcs<ept id="2">&lt;/embeddedLabel&gt;</ept> file.</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>Click anywhere on the canvas and set the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BizTalk Service URL<ept id="1">&lt;/embeddedLabel&gt;</ept> in the property box to specify your <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription name.</source>
+            <target state="new">Click anywhere on the canvas and set the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BizTalk Service URL<ept id="1">&lt;/embeddedLabel&gt;</ept> in the property box to specify your <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription name.</target>
+          </trans-unit>
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>For example, <ph id="1">&lt;codeInline&gt;https://contosowabs.biztalk.windows.net&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">For example, <ph id="1">&lt;codeInline&gt;https://contosowabs.biztalk.windows.net&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>From the toolbox, drag an <bpt id="1">&lt;embeddedLabel&gt;</bpt>Xml One-Way Bridge<ept id="1">&lt;/embeddedLabel&gt;</ept> to the canvas.</source>
+            <target state="new">From the toolbox, drag an <bpt id="1">&lt;embeddedLabel&gt;</bpt>Xml One-Way Bridge<ept id="1">&lt;/embeddedLabel&gt;</ept> to the canvas.</target>
+          </trans-unit>
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>Set the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Entity Name<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Relative Address<ept id="2">&lt;/embeddedLabel&gt;</ept> properties of the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph> to <bpt id="4">&lt;userInput&gt;</bpt>ProcessInvoiceBridge<ept id="4">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">Set the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Entity Name<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Relative Address<ept id="2">&lt;/embeddedLabel&gt;</ept> properties of the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph> to <bpt id="4">&lt;userInput&gt;</bpt>ProcessInvoiceBridge<ept id="4">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Double-click <bpt id="1">&lt;embeddedLabel&gt;</bpt>ProcessInvoiceBridge<ept id="1">&lt;/embeddedLabel&gt;</ept> to open the bridge configuration surface.</source>
+            <target state="new">Double-click <bpt id="1">&lt;embeddedLabel&gt;</bpt>ProcessInvoiceBridge<ept id="1">&lt;/embeddedLabel&gt;</ept> to open the bridge configuration surface.</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>Within the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Message Types<ept id="1">&lt;/embeddedLabel&gt;</ept> box, click the plus (<bpt id="2">&lt;embeddedLabel&gt;</bpt>+<ept id="2">&lt;/embeddedLabel&gt;</ept>) button to specify the schema of the incoming message.</source>
+            <target state="new">Within the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Message Types<ept id="1">&lt;/embeddedLabel&gt;</ept> box, click the plus (<bpt id="2">&lt;embeddedLabel&gt;</bpt>+<ept id="2">&lt;/embeddedLabel&gt;</ept>) button to specify the schema of the incoming message.</target>
+          </trans-unit>
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Because the incoming message for the EAI <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> is always the in-house invoice, set this to <bpt id="2">&lt;embeddedLabel&gt;</bpt>INHOUSEINVOICE<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Because the incoming message for the EAI <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> is always the in-house invoice, set this to <bpt id="2">&lt;embeddedLabel&gt;</bpt>INHOUSEINVOICE<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>Click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Xml Transform<ept id="1">&lt;/embeddedLabel&gt;</ept> shape, and in the property box, for the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Maps<ept id="2">&lt;/embeddedLabel&gt;</ept> property, click the ellipsis (<bpt id="3">&lt;embeddedLabel&gt;</bpt>...<ept id="3">&lt;/embeddedLabel&gt;</ept>) button.</source>
+            <target state="new">Click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Xml Transform<ept id="1">&lt;/embeddedLabel&gt;</ept> shape, and in the property box, for the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Maps<ept id="2">&lt;/embeddedLabel&gt;</ept> property, click the ellipsis (<bpt id="3">&lt;embeddedLabel&gt;</bpt>...<ept id="3">&lt;/embeddedLabel&gt;</ept>) button.</target>
+          </trans-unit>
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Maps Selection<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>INHOUSEINVOICE_to_D93AINVOIC<ept id="2">&lt;/embeddedLabel&gt;</ept> transform file, and then click <bpt id="3">&lt;embeddedLabel&gt;</bpt>OK<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Maps Selection<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>INHOUSEINVOICE_to_D93AINVOIC<ept id="2">&lt;/embeddedLabel&gt;</ept> transform file, and then click <bpt id="3">&lt;embeddedLabel&gt;</bpt>OK<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>Go back to <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageFlowItinerary.bcs<ept id="1">&lt;/embeddedLabel&gt;</ept>, and from the toolbox, drag a <bpt id="2">&lt;embeddedLabel&gt;</bpt>Two-Way External Service Endpoint<ept id="2">&lt;/embeddedLabel&gt;</ept> to the right of the <bpt id="3">&lt;embeddedLabel&gt;</bpt>ProcessInvoiceBridge<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Go back to <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageFlowItinerary.bcs<ept id="1">&lt;/embeddedLabel&gt;</ept>, and from the toolbox, drag a <bpt id="2">&lt;embeddedLabel&gt;</bpt>Two-Way External Service Endpoint<ept id="2">&lt;/embeddedLabel&gt;</ept> to the right of the <bpt id="3">&lt;embeddedLabel&gt;</bpt>ProcessInvoiceBridge<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>Set its <bpt id="1">&lt;embeddedLabel&gt;</bpt>Entity Name<ept id="1">&lt;/embeddedLabel&gt;</ept> property to <bpt id="2">&lt;userInput&gt;</bpt>EDIBridge<ept id="2">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">Set its <bpt id="1">&lt;embeddedLabel&gt;</bpt>Entity Name<ept id="1">&lt;/embeddedLabel&gt;</ept> property to <bpt id="2">&lt;userInput&gt;</bpt>EDIBridge<ept id="2">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>In the Solution Explorer, expand the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageFlowItinerary.bcs<ept id="1">&lt;/embeddedLabel&gt;</ept> and double-click the <bpt id="2">&lt;embeddedLabel&gt;</bpt>EDIBridge.config<ept id="2">&lt;/embeddedLabel&gt;</ept> file.</source>
+            <target state="new">In the Solution Explorer, expand the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageFlowItinerary.bcs<ept id="1">&lt;/embeddedLabel&gt;</ept> and double-click the <bpt id="2">&lt;embeddedLabel&gt;</bpt>EDIBridge.config<ept id="2">&lt;/embeddedLabel&gt;</ept> file.</target>
+          </trans-unit>
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>Replace the content of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>EDIBridge.config<ept id="1">&lt;/embeddedLabel&gt;</ept> with the following.</source>
+            <target state="new">Replace the content of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>EDIBridge.config<ept id="1">&lt;/embeddedLabel&gt;</ept> with the following.</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>Why do I need to edit the .config file?</source>
+            <target state="new">Why do I need to edit the .config file?</target>
+          </trans-unit>
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>The external service endpoint that we added to the bridge designer canvas represents the EDI bridges that we deployed earlier.</source>
+            <target state="new">The external service endpoint that we added to the bridge designer canvas represents the EDI bridges that we deployed earlier.</target>
+          </trans-unit>
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>EDI bridges are two-way bridges, with a send and receive side.</source>
+            <target state="new">EDI bridges are two-way bridges, with a send and receive side.</target>
+          </trans-unit>
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>However, the EAI bridge that we added to the bridge designer is a one-way bridge.</source>
+            <target state="new">However, the EAI bridge that we added to the bridge designer is a one-way bridge.</target>
+          </trans-unit>
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>So, to handle the different message exchange patterns of the two bridges, we use a custom bridge behavior by including its configuration in the .config file.</source>
+            <target state="new">So, to handle the different message exchange patterns of the two bridges, we use a custom bridge behavior by including its configuration in the .config file.</target>
+          </trans-unit>
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>Additionally, the custom behavior also handles the authentication to the EDI send bridge endpoint.</source>
+            <target state="new">Additionally, the custom behavior also handles the authentication to the EDI send bridge endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>This custom behavior is available as a separate sample at <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>BizTalk Services Bridge chaining sample - EAI to EDI<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://code.msdn.microsoft.com/BizTalk-Bridge-chaining-2246b104&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">This custom behavior is available as a separate sample at <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>BizTalk Services Bridge chaining sample - EAI to EDI<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://code.msdn.microsoft.com/BizTalk-Bridge-chaining-2246b104&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>This solution reuses the sample.</source>
+            <target state="new">This solution reuses the sample.</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>Update the EDIBridge.config file to include configuration details</source>
+            <target state="new">Update the EDIBridge.config file to include configuration details</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>Under <bpt id="1">&lt;legacyItalic&gt;</bpt>&lt;behaviors&gt;<ept id="1">&lt;/legacyItalic&gt;</ept>, provide the ACS namespace and key associated with the <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription.</source>
+            <target state="new">Under <bpt id="1">&lt;legacyItalic&gt;</bpt>&lt;behaviors&gt;<ept id="1">&lt;/legacyItalic&gt;</ept>, provide the ACS namespace and key associated with the <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription.</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>Under <bpt id="1">&lt;legacyItalic&gt;</bpt>&lt;client&gt;<ept id="1">&lt;/legacyItalic&gt;</ept>, provide the endpoint where the EDI send agreement is deployed.</source>
+            <target state="new">Under <bpt id="1">&lt;legacyItalic&gt;</bpt>&lt;client&gt;<ept id="1">&lt;/legacyItalic&gt;</ept>, provide the endpoint where the EDI send agreement is deployed.</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>Save changes and close the configuration file.</source>
+            <target state="new">Save changes and close the configuration file.</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>From the Toolbox, click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Connector<ept id="1">&lt;/embeddedLabel&gt;</ept> and join the <bpt id="2">&lt;embeddedLabel&gt;</bpt>ProcessInvoiceBridge<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>EDIBridge<ept id="3">&lt;/embeddedLabel&gt;</ept> components.</source>
+            <target state="new">From the Toolbox, click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Connector<ept id="1">&lt;/embeddedLabel&gt;</ept> and join the <bpt id="2">&lt;embeddedLabel&gt;</bpt>ProcessInvoiceBridge<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>EDIBridge<ept id="3">&lt;/embeddedLabel&gt;</ept> components.</target>
+          </trans-unit>
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>Select the connector, and in Properties box, set <bpt id="1">&lt;embeddedLabel&gt;</bpt>Filter Condition<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;embeddedLabel&gt;</bpt>Match All<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select the connector, and in Properties box, set <bpt id="1">&lt;embeddedLabel&gt;</bpt>Filter Condition<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;embeddedLabel&gt;</bpt>Match All<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>This ensures that all messages processed by the EAI bridge are routed to the EDI bridge.</source>
+            <target state="new">This ensures that all messages processed by the EAI bridge are routed to the EDI bridge.</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>Save changes to the solution.</source>
+            <target state="new">Save changes to the solution.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>Deploy the project</source>
+            <target state="new">Deploy the project</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>On the computer where you created the <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> project, download and install the SSL certificate for your <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription.</source>
+            <target state="new">On the computer where you created the <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> project, download and install the SSL certificate for your <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription.</target>
+          </trans-unit>
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>From <ph id="1">&lt;token&gt;portal&lt;/token&gt;</ph>, under <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph>, click <bpt id="3">&lt;embeddedLabel&gt;</bpt>Dashboard<ept id="3">&lt;/embeddedLabel&gt;</ept>, and then click <bpt id="4">&lt;embeddedLabel&gt;</bpt>Download SSL Certificate<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">From <ph id="1">&lt;token&gt;portal&lt;/token&gt;</ph>, under <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph>, click <bpt id="3">&lt;embeddedLabel&gt;</bpt>Dashboard<ept id="3">&lt;/embeddedLabel&gt;</ept>, and then click <bpt id="4">&lt;embeddedLabel&gt;</bpt>Download SSL Certificate<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>Double-click the certificate and follow the prompt to complete the installation.</source>
+            <target state="new">Double-click the certificate and follow the prompt to complete the installation.</target>
+          </trans-unit>
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>Make sure you install the certificate under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Trusted Root Certification Authorities<ept id="1">&lt;/embeddedLabel&gt;</ept> certificate store.</source>
+            <target state="new">Make sure you install the certificate under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Trusted Root Certification Authorities<ept id="1">&lt;/embeddedLabel&gt;</ept> certificate store.</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>In <ph id="1">&lt;token&gt;vs_current_short&lt;/token&gt;</ph> Solution Explorer, right-click the <bpt id="2">&lt;embeddedLabel&gt;</bpt>InvoiceProcessingBridge<ept id="2">&lt;/embeddedLabel&gt;</ept> project, and then click <bpt id="3">&lt;embeddedLabel&gt;</bpt>Deploy<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In <ph id="1">&lt;token&gt;vs_current_short&lt;/token&gt;</ph> Solution Explorer, right-click the <bpt id="2">&lt;embeddedLabel&gt;</bpt>InvoiceProcessingBridge<ept id="2">&lt;/embeddedLabel&gt;</ept> project, and then click <bpt id="3">&lt;embeddedLabel&gt;</bpt>Deploy<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>Provide the values as shown in the image, and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Deploy<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Provide the values as shown in the image, and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Deploy<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>You can get the ACS credentials for <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> by clicking <bpt id="2">&lt;embeddedLabel&gt;</bpt>Connection Information<ept id="2">&lt;/embeddedLabel&gt;</ept> from the <ph id="3">&lt;token&gt;af_integration&lt;/token&gt;</ph> dashboard on the <ph id="4">&lt;token&gt;portal&lt;/token&gt;</ph>.</source>
+            <target state="new">You can get the ACS credentials for <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> by clicking <bpt id="2">&lt;embeddedLabel&gt;</bpt>Connection Information<ept id="2">&lt;/embeddedLabel&gt;</ept> from the <ph id="3">&lt;token&gt;af_integration&lt;/token&gt;</ph> dashboard on the <ph id="4">&lt;token&gt;portal&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>From the output pane, copy the endpoint where the EAI bridge is deployed, for example, <ph id="1">&lt;codeInline&gt;https://contosowabs.biztalk.windows.net/default/ProcessInvoiceBridge&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">From the output pane, copy the endpoint where the EAI bridge is deployed, for example, <ph id="1">&lt;codeInline&gt;https://contosowabs.biztalk.windows.net/default/ProcessInvoiceBridge&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>You will need this endpoint URL later.</source>
+            <target state="new">You will need this endpoint URL later.</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>Step 4: Test the solution</source>
+            <target state="new">Step 4: Test the solution</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>In this topic, we look at how to test the solution by using the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Tutorial Client<ept id="1">&lt;/embeddedLabel&gt;</ept> application provided as part of the sample.</source>
+            <target state="new">In this topic, we look at how to test the solution by using the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Tutorial Client<ept id="1">&lt;/embeddedLabel&gt;</ept> application provided as part of the sample.</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>In <ph id="1">&lt;token&gt;vs_current_short&lt;/token&gt;</ph>, press F5 to start the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Tutorial Client<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In <ph id="1">&lt;token&gt;vs_current_short&lt;/token&gt;</ph>, press F5 to start the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Tutorial Client<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>The screen must have the values prepopulated from the step where we created the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> queues.</source>
+            <target state="new">The screen must have the values prepopulated from the step where we created the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> queues.</target>
+          </trans-unit>
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Next<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Next<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>In the next window, provide ACS credentials for <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription, and the endpoints where EAI and EDI (receive) bridges are deployed.</source>
+            <target state="new">In the next window, provide ACS credentials for <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription, and the endpoints where EAI and EDI (receive) bridges are deployed.</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>You had copied the EAI bridge endpoint in the previous step.</source>
+            <target state="new">You had copied the EAI bridge endpoint in the previous step.</target>
+          </trans-unit>
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>For EDI receive bridge endpoint, in the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>, go to the agreement &gt; Receive Settings &gt; Transport &gt; Endpoint.</source>
+            <target state="new">For EDI receive bridge endpoint, in the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>, go to the agreement &gt; Receive Settings &gt; Transport &gt; Endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>In the next window, under Contoso, click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send In-house Invoice<ept id="1">&lt;/embeddedLabel&gt;</ept> button.</source>
+            <target state="new">In the next window, under Contoso, click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send In-house Invoice<ept id="1">&lt;/embeddedLabel&gt;</ept> button.</target>
+          </trans-unit>
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>In the File open dialog box, open the INHOUSEINVOICE.txt file.</source>
+            <target state="new">In the File open dialog box, open the INHOUSEINVOICE.txt file.</target>
+          </trans-unit>
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>Examine the content of the file and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> to send the invoice.</source>
+            <target state="new">Examine the content of the file and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> to send the invoice.</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>In a few seconds the invoice is received at Northwind.</source>
+            <target state="new">In a few seconds the invoice is received at Northwind.</target>
+          </trans-unit>
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>Click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>View Message<ept id="1">&lt;/embeddedLabel&gt;</ept> link to see the invoice received by Northwind.</source>
+            <target state="new">Click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>View Message<ept id="1">&lt;/embeddedLabel&gt;</ept> link to see the invoice received by Northwind.</target>
+          </trans-unit>
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>Notice how the invoice received by Northwind is in standard EDIFACT schema while the one sent by Contoso was an in-house schema.</source>
+            <target state="new">Notice how the invoice received by Northwind is in standard EDIFACT schema while the one sent by Contoso was an in-house schema.</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>Select the invoice and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send Acknowledgement<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select the invoice and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send Acknowledgement<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>In the dialog box that pops up, notice that the interchange ID is same in the received invoice and the acknowledgement being sent.</source>
+            <target state="new">In the dialog box that pops up, notice that the interchange ID is same in the received invoice and the acknowledgement being sent.</target>
+          </trans-unit>
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>Click OK in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send Acknowledgement<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">Click OK in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send Acknowledgement<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>In a few seconds, the acknowledgement is successfully received at Contoso.</source>
+            <target state="new">In a few seconds, the acknowledgement is successfully received at Contoso.</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>Step 5 (optional): Send EDIFACT invoice in batches</source>
+            <target state="new">Step 5 (optional): Send EDIFACT invoice in batches</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> EDI bridges also supports batching of outgoing messages.</source>
+            <target state="new"><ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> EDI bridges also supports batching of outgoing messages.</target>
+          </trans-unit>
+          <trans-unit id="171" translate="yes" xml:space="preserve">
+            <source>This feature is useful for receiving partners that prefer to receive a batch of messages (meeting certain criterion) instead of individual messages.</source>
+            <target state="new">This feature is useful for receiving partners that prefer to receive a batch of messages (meeting certain criterion) instead of individual messages.</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="172" translate="yes" xml:space="preserve">
+            <source>The most important aspect when working with batches is the actual release of the batch, also called the release criteria.</source>
+            <target state="new">The most important aspect when working with batches is the actual release of the batch, also called the release criteria.</target>
+          </trans-unit>
+          <trans-unit id="173" translate="yes" xml:space="preserve">
+            <source>The release criteria can be based on how the receiving partner wants to receive messages.</source>
+            <target state="new">The release criteria can be based on how the receiving partner wants to receive messages.</target>
+          </trans-unit>
+          <trans-unit id="174" translate="yes" xml:space="preserve">
+            <source>If batching is enabled, the EDI bridge does not send the outgoing message to the receiving partner until the release criteria is fulfilled.</source>
+            <target state="new">If batching is enabled, the EDI bridge does not send the outgoing message to the receiving partner until the release criteria is fulfilled.</target>
+          </trans-unit>
+          <trans-unit id="175" translate="yes" xml:space="preserve">
+            <source>For example, a batching criteria based on message size dispatches a batch only when ‘n’ messages are batched.</source>
+            <target state="new">For example, a batching criteria based on message size dispatches a batch only when ‘n’ messages are batched.</target>
+          </trans-unit>
+          <trans-unit id="176" translate="yes" xml:space="preserve">
+            <source>A batch criteria can also be time-based, such that a batch is sent at a fixed time every day.</source>
+            <target state="new">A batch criteria can also be time-based, such that a batch is sent at a fixed time every day.</target>
+          </trans-unit>
+          <trans-unit id="177" translate="yes" xml:space="preserve">
+            <source>In this solution, we try the message-size based criteria.</source>
+            <target state="new">In this solution, we try the message-size based criteria.</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="178" translate="yes" xml:space="preserve">
+            <source>In the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>, click the agreement you created earlier.</source>
+            <target state="new">In the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>, click the agreement you created earlier.</target>
+          </trans-unit>
+          <trans-unit id="179" translate="yes" xml:space="preserve">
+            <source>Click Send Settings &gt; Batching &gt; Add Batch.</source>
+            <target state="new">Click Send Settings &gt; Batching &gt; Add Batch.</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="180" translate="yes" xml:space="preserve">
+            <source>For batch name, enter <bpt id="1">&lt;userInput&gt;</bpt>InvoiceBatch<ept id="1">&lt;/userInput&gt;</ept>, provide a description, and then click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Next<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">For batch name, enter <bpt id="1">&lt;userInput&gt;</bpt>InvoiceBatch<ept id="1">&lt;/userInput&gt;</ept>, provide a description, and then click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Next<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="181" translate="yes" xml:space="preserve">
+            <source>Specify a batch criteria, that defines which messages must be batched.</source>
+            <target state="new">Specify a batch criteria, that defines which messages must be batched.</target>
+          </trans-unit>
+          <trans-unit id="182" translate="yes" xml:space="preserve">
+            <source>In this solution, we batch all messages.</source>
+            <target state="new">In this solution, we batch all messages.</target>
+          </trans-unit>
+          <trans-unit id="183" translate="yes" xml:space="preserve">
+            <source>So, select the Use advanced definitions option, and enter <bpt id="1">&lt;userInput&gt;</bpt>1 = 1<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">So, select the Use advanced definitions option, and enter <bpt id="1">&lt;userInput&gt;</bpt>1 = 1<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="184" translate="yes" xml:space="preserve">
+            <source>This is a condition which will always be true, and hence all messages will be batched.</source>
+            <target state="new">This is a condition which will always be true, and hence all messages will be batched.</target>
+          </trans-unit>
+          <trans-unit id="185" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Next<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Next<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="186" translate="yes" xml:space="preserve">
+            <source>Specify a batch release criteria.</source>
+            <target state="new">Specify a batch release criteria.</target>
+          </trans-unit>
+          <trans-unit id="187" translate="yes" xml:space="preserve">
+            <source>From the drop-box, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageCountBased<ept id="1">&lt;/embeddedLabel&gt;</ept>, and for <bpt id="2">&lt;embeddedLabel&gt;</bpt>Count<ept id="2">&lt;/embeddedLabel&gt;</ept>, specify <bpt id="3">&lt;userInput&gt;</bpt>3<ept id="3">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">From the drop-box, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageCountBased<ept id="1">&lt;/embeddedLabel&gt;</ept>, and for <bpt id="2">&lt;embeddedLabel&gt;</bpt>Count<ept id="2">&lt;/embeddedLabel&gt;</ept>, specify <bpt id="3">&lt;userInput&gt;</bpt>3<ept id="3">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="188" translate="yes" xml:space="preserve">
+            <source>This means that a batch of three messages will be sent to Northwind.</source>
+            <target state="new">This means that a batch of three messages will be sent to Northwind.</target>
+          </trans-unit>
+          <trans-unit id="189" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Next<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Next<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="190" translate="yes" xml:space="preserve">
+            <source>Review the summary and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Review the summary and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="191" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Deploy<ept id="1">&lt;/embeddedLabel&gt;</ept> to redeploy the agreement.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Deploy<ept id="1">&lt;/embeddedLabel&gt;</ept> to redeploy the agreement.</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="192" translate="yes" xml:space="preserve">
+            <source>Go back to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Tutorial Client<ept id="1">&lt;/embeddedLabel&gt;</ept>, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Send In-house Invoice<ept id="2">&lt;/embeddedLabel&gt;</ept>, and follow the prompts to send the invoice.</source>
+            <target state="new">Go back to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Tutorial Client<ept id="1">&lt;/embeddedLabel&gt;</ept>, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Send In-house Invoice<ept id="2">&lt;/embeddedLabel&gt;</ept>, and follow the prompts to send the invoice.</target>
+          </trans-unit>
+          <trans-unit id="193" translate="yes" xml:space="preserve">
+            <source>You will notice that no invoice is received at Northwind because the batch size is not met.</source>
+            <target state="new">You will notice that no invoice is received at Northwind because the batch size is not met.</target>
+          </trans-unit>
+          <trans-unit id="194" translate="yes" xml:space="preserve">
+            <source>Repeat this step two more times, so that you have three invoice messages sent to Northwind.</source>
+            <target state="new">Repeat this step two more times, so that you have three invoice messages sent to Northwind.</target>
+          </trans-unit>
+          <trans-unit id="195" translate="yes" xml:space="preserve">
+            <source>This satisfies the batch release criteria of 3 messages and you should now see an invoice at Northwind.</source>
+            <target state="new">This satisfies the batch release criteria of 3 messages and you should now see an invoice at Northwind.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANyssJwzAMANBVPIAFsiLHVico9Fa6gPwRhKYxpClk/Abe8ZlNvTBV6J0ZOBhCwVygYtBZxIKqeCc5t5m4QCg4ARckkJkUkFJvxlk0V+96TVSKRECJFbhhBm2RISVrKDlOia4VvHsPeDy9O9fFrJ/HbR/j8I4u6N3999Httev2XfVYxvYHvHx81aIAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>How to: Configure a Service Bus Client Using a Configuration File</source>
+            <target state="new">How to: Configure a Service Bus Client Using a Configuration File</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>How to: Configure a Service Bus Client Using a Configuration File</source>
+            <target state="new">How to: Configure a Service Bus Client Using a Configuration File</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Once you have defined and implemented a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> interface, you can configure the client application.</source>
+            <target state="new">Once you have defined and implemented a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> interface, you can configure the client application.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>You can configure your application programmatically or in an App.config file.</source>
+            <target state="new">You can configure your application programmatically or in an App.config file.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Configuring your application in an App.config file enables you to easily see what the configuration settings are, and to modify the settings after deployment.</source>
+            <target state="new">Configuring your application in an App.config file enables you to easily see what the configuration settings are, and to modify the settings after deployment.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Note that configuring a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> application by using a configuration file is very similar to configuring a <ph id="2">&lt;token&gt;indigo1&lt;/token&gt;</ph> application, which is discussed in <ph id="3">&lt;link xlink:href="c9c8cd32-2c9d-4541-ad0d-16dff6bd2a00" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configuring Services Using Configuration Files&lt;/link&gt;</ph> in the <ph id="4">&lt;token&gt;indigo1&lt;/token&gt;</ph> documentation.</source>
+            <target state="new">Note that configuring a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> application by using a configuration file is very similar to configuring a <ph id="2">&lt;token&gt;indigo1&lt;/token&gt;</ph> application, which is discussed in <ph id="3">&lt;link xlink:href="c9c8cd32-2c9d-4541-ad0d-16dff6bd2a00" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configuring Services Using Configuration Files&lt;/link&gt;</ph> in the <ph id="4">&lt;token&gt;indigo1&lt;/token&gt;</ph> documentation.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Therefore, the following discussion is a simplified overview of configuration, with an emphasis on the unique features relevant to <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">Therefore, the following discussion is a simplified overview of configuration, with an emphasis on the unique features relevant to <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The main difference between configuring a service and a client is that the client must know what configuration settings the service is using, and match them.</source>
+            <target state="new">The main difference between configuring a service and a client is that the client must know what configuration settings the service is using, and match them.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>These settings typically include what type of binding to use, and also what security protocols you must have to access the service (that is, authentication and transport-level security).</source>
+            <target state="new">These settings typically include what type of binding to use, and also what security protocols you must have to access the service (that is, authentication and transport-level security).</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;crabout&lt;/token&gt;</ph> setting security, see <ph id="2">&lt;link xlink:href="defd9147-3244-49e5-8304-09dc8ad9bac5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Securing and Authenticating an AppFabric Service Bus Connection&lt;/link&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;token&gt;crabout&lt;/token&gt;</ph> setting security, see <ph id="2">&lt;link xlink:href="defd9147-3244-49e5-8304-09dc8ad9bac5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Securing and Authenticating an AppFabric Service Bus Connection&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>To configure a Service Bus Client using an App.config file</source>
+            <target state="new">To configure a Service Bus Client using an App.config file</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Create the App.config file to define the client endpoint.</source>
+            <target state="new">Create the App.config file to define the client endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Similar to configuring a service application, the minimum parameters that you must have to configure an endpoint are the contract that implements the service, and the type of binding used.</source>
+            <target state="new">Similar to configuring a service application, the minimum parameters that you must have to configure an endpoint are the contract that implements the service, and the type of binding used.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The address attribute is the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> address.</source>
+            <target state="new">The address attribute is the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> address.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>It can be specified explicitly in the configuration file but is usually constructed programmatically using the <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;M:Microsoft.ServiceBus.ServiceBusEnvironment.CreateServiceUri(System.String,System.String,System.String)&lt;/codeEntityReference&gt;</ph> method.</source>
+            <target state="new">It can be specified explicitly in the configuration file but is usually constructed programmatically using the <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;M:Microsoft.ServiceBus.ServiceBusEnvironment.CreateServiceUri(System.String,System.String,System.String)&lt;/codeEntityReference&gt;</ph> method.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>This example also associates an endpoint behavior with the client.</source>
+            <target state="new">This example also associates an endpoint behavior with the client.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Define the endpoint behavior that contains the security settings.</source>
+            <target state="new">Define the endpoint behavior that contains the security settings.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>In this example, for simplicity the security credentials are defined by using the SAS policy name and key in clear text.</source>
+            <target state="new">In this example, for simplicity the security credentials are defined by using the SAS policy name and key in clear text.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Note that this practice can be non-secure: a more secure process (and the process used by many of the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> samples) is to query the user for this information.</source>
+            <target state="new">Note that this practice can be non-secure: a more secure process (and the process used by many of the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> samples) is to query the user for this information.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Alternately, you could decide to encrypt the App.config file to avoid exposing this information.</source>
+            <target state="new">Alternately, you could decide to encrypt the App.config file to avoid exposing this information.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Define the binding that the client application is to use when it connects to <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">Define the binding that the client application is to use when it connects to <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>You have finished configuring the client application through the App.config file.</source>
+            <target state="new">You have finished configuring the client application through the App.config file.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>For more information about creating a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client application, see <ph id="2">&lt;link xlink:href="3468b3db-91b6-4e76-a5ff-216d4c765d05" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Building an AppFabric Service Bus Client Application&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about creating a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client application, see <ph id="2">&lt;link xlink:href="3468b3db-91b6-4e76-a5ff-216d4c765d05" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Building an AppFabric Service Bus Client Application&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

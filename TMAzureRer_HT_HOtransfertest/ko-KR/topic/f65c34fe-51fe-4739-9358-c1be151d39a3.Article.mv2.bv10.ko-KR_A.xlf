@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANylEKwjAMgOGr9AANNG1SF08g+CZeIM0aGM4NdMKOb1/+l/9zL71RNuidCAg9QUtTA0uoVcRRVWIQ7ibFCIxdgEwzSEkdJst1rm3mzCUGr2yFvAPjCF2KDMUTGLaOjHMRHQpjeO1wf8Rwrot7P4/rZ9+PGPJ4KYbb763b86Pbd9Vj2bc/X8J4KaIAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Example: Creating an X12 Agreement in BizTalk Services Using the TPM OM API</source>
+            <target state="new">Example: Creating an X12 Agreement in BizTalk Services Using the TPM OM API</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Example: How to create an X12 agreement using the TPM OM API with C#.</source>
+            <target state="new">Example: How to create an X12 agreement using the TPM OM API with C#.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>To create an X12 agreement using C#</source>
+            <target state="new">To create an X12 agreement using C#</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Create a Visual Studio C# project and in your Program.cs file, follow the instructions under <ph id="1">&lt;link xlink:href="b1464cb6-685d-47ea-8596-bc4655234fc8#BKMK_FirstSteps" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;The First Steps&lt;/link&gt;</ph> section.</source>
+            <target state="new">Create a Visual Studio C# project and in your Program.cs file, follow the instructions under <ph id="1">&lt;link xlink:href="b1464cb6-685d-47ea-8596-bc4655234fc8#BKMK_FirstSteps" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;The First Steps&lt;/link&gt;</ph> section.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Remember to include the service reference to the WCF Data Services client library that you created by adding a service reference to the TPM OM REST API.</source>
+            <target state="new">Remember to include the service reference to the WCF Data Services client library that you created by adding a service reference to the TPM OM REST API.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>For example:</source>
+            <target state="new">For example:</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Here, <bpt id="1">&lt;embeddedLabel&gt;</bpt>BtsServices<ept id="1">&lt;/embeddedLabel&gt;</ept> is the name of your C# project in Visual Studio and <bpt id="2">&lt;embeddedLabel&gt;</bpt>PartnerManagement<ept id="2">&lt;/embeddedLabel&gt;</ept> is the name of the service reference to the TPM OM REST endpoint.</source>
+            <target state="new">Here, <bpt id="1">&lt;embeddedLabel&gt;</bpt>BtsServices<ept id="1">&lt;/embeddedLabel&gt;</ept> is the name of your C# project in Visual Studio and <bpt id="2">&lt;embeddedLabel&gt;</bpt>PartnerManagement<ept id="2">&lt;/embeddedLabel&gt;</ept> is the name of the service reference to the TPM OM REST endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Add reference to the following namespaces:</source>
+            <target state="new">Add reference to the following namespaces:</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Declare the variables to hold the values that will be required by the program, such as:</source>
+            <target state="new">Declare the variables to hold the values that will be required by the program, such as:</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Retrieve the WRAP ACS token to authenticate with the service.</source>
+            <target state="new">Retrieve the WRAP ACS token to authenticate with the service.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>You can use any WRAP token to authenticate, however the code below demonstrates how to retrieve a password token.</source>
+            <target state="new">You can use any WRAP token to authenticate, however the code below demonstrates how to retrieve a password token.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>For more information on how to retrieve WRAP ACS token, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://msdn.microsoft.com/library/windowsazure/hh674475.aspx<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/windowsazure/hh674475.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information on how to retrieve WRAP ACS token, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://msdn.microsoft.com/library/windowsazure/hh674475.aspx<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/windowsazure/hh674475.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Pass the <ph id="1">&lt;token&gt;ac2&lt;/token&gt;</ph> tokens as a header to the request message.</source>
+            <target state="new">Pass the <ph id="1">&lt;token&gt;ac2&lt;/token&gt;</ph> tokens as a header to the request message.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Also pass the other mandatory header (x-ms-version) with the request message:</source>
+            <target state="new">Also pass the other mandatory header (x-ms-version) with the request message:</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Define a method in which you bind the TpmContext object created earlier with the service URI for the TPM OM API REST endpoint, register the callback method, <ph id="1">&lt;codeInline&gt;AppendAuthToContext&lt;/codeInline&gt;</ph>, and set the default save option on the context to batched save:</source>
+            <target state="new">Define a method in which you bind the TpmContext object created earlier with the service URI for the TPM OM API REST endpoint, register the callback method, <ph id="1">&lt;codeInline&gt;AppendAuthToContext&lt;/codeInline&gt;</ph>, and set the default save option on the context to batched save:</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>From the <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph> function, invoke the <ph id="2">&lt;codeInline&gt;GetAcsToken()&lt;/codeInline&gt;</ph> and <ph id="3">&lt;codeInline&gt;Initialize()&lt;/codeInline&gt;</ph> functions, and create the first couple of partners:</source>
+            <target state="new">From the <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph> function, invoke the <ph id="2">&lt;codeInline&gt;GetAcsToken()&lt;/codeInline&gt;</ph> and <ph id="3">&lt;codeInline&gt;Initialize()&lt;/codeInline&gt;</ph> functions, and create the first couple of partners:</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Create a couple of business profiles and link them to the partners created earlier.</source>
+            <target state="new">Create a couple of business profiles and link them to the partners created earlier.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>To create links between the entities, we typically use the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>AddLink<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/system.data.services.client.dataservicecontext.addlink.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> and <bpt id="4">&lt;externalLink&gt;</bpt><bpt id="5">&lt;linkText&gt;</bpt>SetLink<ept id="5">&lt;/linkText&gt;</ept><ph id="6">&lt;linkUri&gt;http://msdn.microsoft.com/library/system.data.services.client.dataservicecontext.setlink.aspx&lt;/linkUri&gt;</ph><ept id="4">&lt;/externalLink&gt;</ept> methods available on the <bpt id="7">&lt;externalLink&gt;</bpt><bpt id="8">&lt;linkText&gt;</bpt>DataServiceContext<ept id="8">&lt;/linkText&gt;</ept><ph id="9">&lt;linkUri&gt;http://msdn.microsoft.com/library/system.data.services.client.dataservicecontext.aspx&lt;/linkUri&gt;</ph><ept id="7">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">To create links between the entities, we typically use the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>AddLink<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/system.data.services.client.dataservicecontext.addlink.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> and <bpt id="4">&lt;externalLink&gt;</bpt><bpt id="5">&lt;linkText&gt;</bpt>SetLink<ept id="5">&lt;/linkText&gt;</ept><ph id="6">&lt;linkUri&gt;http://msdn.microsoft.com/library/system.data.services.client.dataservicecontext.setlink.aspx&lt;/linkUri&gt;</ph><ept id="4">&lt;/externalLink&gt;</ept> methods available on the <bpt id="7">&lt;externalLink&gt;</bpt><bpt id="8">&lt;linkText&gt;</bpt>DataServiceContext<ept id="8">&lt;/linkText&gt;</ept><ph id="9">&lt;linkUri&gt;http://msdn.microsoft.com/library/system.data.services.client.dataservicecontext.aspx&lt;/linkUri&gt;</ph><ept id="7">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Create a couple of business identities and attach them with each business profile.</source>
+            <target state="new">Create a couple of business identities and attach them with each business profile.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Because BusinessIdentity is an abstract entity, we create a QualifierIdentity that derives from the BusinessIdentity entity.</source>
+            <target state="new">Because BusinessIdentity is an abstract entity, we create a QualifierIdentity that derives from the BusinessIdentity entity.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>You now create a partnership between the two partners.</source>
+            <target state="new">You now create a partnership between the two partners.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>To create a partnership, you first create a Partnership entity and then link it with the two partners you created earlier:</source>
+            <target state="new">To create a partnership, you first create a Partnership entity and then link it with the two partners you created earlier:</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>You must now create an agreement between the two partners.</source>
+            <target state="new">You must now create an agreement between the two partners.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>As part of the agreement creation process, you must also link it to the business profiles for the two partners, the partnership entity for the two partners, and the one-way agreements (send-side and receive-side).</source>
+            <target state="new">As part of the agreement creation process, you must also link it to the business profiles for the two partners, the partnership entity for the two partners, and the one-way agreements (send-side and receive-side).</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>We haven’t created the one-way agreements yet, so in this step we create the agreement and link it to the existing entities, Partnership and BusinessProfile.</source>
+            <target state="new">We haven’t created the one-way agreements yet, so in this step we create the agreement and link it to the existing entities, Partnership and BusinessProfile.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Because we can’t save changes to the context without linking the agreement to the one-way agreement, we will not save the changes in this step using the <ph id="1">&lt;codeInline&gt;context.SaveChanges()&lt;/codeInline&gt;</ph> method.</source>
+            <target state="new">Because we can’t save changes to the context without linking the agreement to the one-way agreement, we will not save the changes in this step using the <ph id="1">&lt;codeInline&gt;context.SaveChanges()&lt;/codeInline&gt;</ph> method.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>The next step is to create one-way agreements from PartnerA to PartnerB and from PartnerB to PartnerA.</source>
+            <target state="new">The next step is to create one-way agreements from PartnerA to PartnerB and from PartnerB to PartnerA.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>As part of creating a one-way agreement, you should also link it to the entities Agreement, BusinessIdentity, and ProtocolSettings.</source>
+            <target state="new">As part of creating a one-way agreement, you should also link it to the entities Agreement, BusinessIdentity, and ProtocolSettings.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>We have already created the Agreement and BusinessIdentity entities but we haven’t yet created the ProtocolSettings entity.</source>
+            <target state="new">We have already created the Agreement and BusinessIdentity entities but we haven’t yet created the ProtocolSettings entity.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>So, in this step, we only create the one-way agreement entities and link them to the Agreement and BusinessIdentity entities.</source>
+            <target state="new">So, in this step, we only create the one-way agreement entities and link them to the Agreement and BusinessIdentity entities.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>In the next step, we create the ProtocolSettings entity and link it to the one-way agreement entities.</source>
+            <target state="new">In the next step, we create the ProtocolSettings entity and link it to the one-way agreement entities.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>You should not commit the changes to the context before linking the one-way agreement to the ProtocolSettings entity otherwise you would get an exception.</source>
+            <target state="new">You should not commit the changes to the context before linking the one-way agreement to the ProtocolSettings entity otherwise you would get an exception.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Hence, in this step, we do not use the <ph id="1">&lt;codeInline&gt;context.SaveChanges()&lt;/codeInline&gt;</ph> method to commit the changes to the context.</source>
+            <target state="new">Hence, in this step, we do not use the <ph id="1">&lt;codeInline&gt;context.SaveChanges()&lt;/codeInline&gt;</ph> method to commit the changes to the context.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Finally, you must create the X12ProtocolSettings entity (for both send and receive-side agreements) and link it to the respective one-way agreement entities.</source>
+            <target state="new">Finally, you must create the X12ProtocolSettings entity (for both send and receive-side agreements) and link it to the respective one-way agreement entities.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>In this step, we’ll finally commit the changes to the context because all the required links are created.</source>
+            <target state="new">In this step, we’ll finally commit the changes to the context because all the required links are created.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>As an additional step, you can enter the schema of the message that this agreement will process.</source>
+            <target state="new">As an additional step, you can enter the schema of the message that this agreement will process.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>You can do this for both the send and receive-side agreements.</source>
+            <target state="new">You can do this for both the send and receive-side agreements.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>The following step demonstrates how to do this only for the receive-side agreement.</source>
+            <target state="new">The following step demonstrates how to do this only for the receive-side agreement.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Compile and run the program.</source>
+            <target state="new">Compile and run the program.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>After the program exits successfully, log on to the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> to verify that the agreement is created.</source>
+            <target state="new">After the program exits successfully, log on to the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> to verify that the agreement is created.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Note that there are still some tasks left before you can use the agreement to process messages.</source>
+            <target state="new">Note that there are still some tasks left before you can use the agreement to process messages.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>You must now:</source>
+            <target state="new">You must now:</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Upload any schemas and transforms required for the agreement.</source>
+            <target state="new">Upload any schemas and transforms required for the agreement.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Specify the route settings to route the message to the destination endpoints, once the message is processed by the agreement.</source>
+            <target state="new">Specify the route settings to route the message to the destination endpoints, once the message is processed by the agreement.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>If required, specify the batch settings for the send-side agreement.</source>
+            <target state="new">If required, specify the batch settings for the send-side agreement.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Deploy the agreement.</source>
+            <target state="new">Deploy the agreement.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>When you run the program, the agreement is created in the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> and its status is set to “Draft”.</source>
+            <target state="new">When you run the program, the agreement is created in the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> and its status is set to “Draft”.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>You must deploy the agreement from the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> before the agreement can start processing messages.</source>
+            <target state="new">You must deploy the agreement from the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> before the agreement can start processing messages.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>For more information on these steps, see <ph id="1">&lt;link xlink:href="8a52d83c-900a-4ec8-ae3d-44328059f6b3" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Creating New X12 Agreements&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information on these steps, see <ph id="1">&lt;link xlink:href="8a52d83c-900a-4ec8-ae3d-44328059f6b3" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Creating New X12 Agreements&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

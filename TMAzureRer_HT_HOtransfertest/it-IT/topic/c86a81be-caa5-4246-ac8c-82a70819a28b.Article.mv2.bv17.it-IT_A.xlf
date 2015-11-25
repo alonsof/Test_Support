@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="it-IT" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANylEKgzAMANCr9AANNDGt6U6w/e8CaZuA4BScA48/v99zn6wxdTBjBkZP0JI06Am11OqoWmMwH0SlMwyxAeztXtgG5DxhJpmMx4ihS1HBZtBVMzBxAe3SQUjnJFiVpMWAMSwnvN4xXOvibtf5OPb9jIFum2N4/j66vQ/dvquey779AT91VCmiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Step 1: Introduction and Prerequsites</source>
+            <target state="new">Step 1: Introduction and Prerequsites</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Queues offer First In, First Out (FIFO) message delivery to one or more competing consumers.</source>
+            <target state="new">Queues offer First In, First Out (FIFO) message delivery to one or more competing consumers.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>FIFO means that messages are typically expected to be received and processed by the receivers in the temporal order in which they were enqueued, and each message will be received and processed by only one message consumer.</source>
+            <target state="new">FIFO means that messages are typically expected to be received and processed by the receivers in the temporal order in which they were enqueued, and each message will be received and processed by only one message consumer.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>A key benefit of using queues is to achieve “temporal decoupling” of application components: in other words, the producers and consumers do not need to be sending and receiving messages at the same time, since messages are stored durably in the queue.</source>
+            <target state="new">A key benefit of using queues is to achieve “temporal decoupling” of application components: in other words, the producers and consumers do not need to be sending and receiving messages at the same time, since messages are stored durably in the queue.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>A related benefit is “load leveling”, which enables producers and consumers to send and receive messages at different rates.</source>
+            <target state="new">A related benefit is “load leveling”, which enables producers and consumers to send and receive messages at different rates.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>The following are some administrative and prerequisite steps you should follow before beginning the tutorial.</source>
+            <target state="new">The following are some administrative and prerequisite steps you should follow before beginning the tutorial.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The first is to create a <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph>, and to obtain a <bpt id="2">&lt;newTerm&gt;</bpt>shared access signature (SAS)<ept id="2">&lt;/newTerm&gt;</ept> key.</source>
+            <target state="new">The first is to create a <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph>, and to obtain a <bpt id="2">&lt;newTerm&gt;</bpt>shared access signature (SAS)<ept id="2">&lt;/newTerm&gt;</ept> key.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>A <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph> provides an application boundary for each application exposed through <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">A <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph> provides an application boundary for each application exposed through <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>A SAS key is automatically generated by the system when a <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph> is created.</source>
+            <target state="new">A SAS key is automatically generated by the system when a <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph> is created.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>The combination of <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph> and SAS key provides a credential with which <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> authenticates access to an application.</source>
+            <target state="new">The combination of <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph> and SAS key provides a credential with which <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> authenticates access to an application.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>To create a <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph> and obtain a SAS key</source>
+            <target state="new">To create a <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph> and obtain a SAS key</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>To create a <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph>, follow the steps outlined in <ph id="2">&lt;link xlink:href="fa561f70-007c-45aa-b34d-56317dbbfc87" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to: Create or Modify a Service Bus Service Namespace&lt;/link&gt;</ph>.</source>
+            <target state="new">To create a <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph>, follow the steps outlined in <ph id="2">&lt;link xlink:href="fa561f70-007c-45aa-b34d-56317dbbfc87" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to: Create or Modify a Service Bus Service Namespace&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>In the main window of the Azure management portal, click the name of the <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph> you created in the previous step.</source>
+            <target state="new">In the main window of the Azure management portal, click the name of the <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph> you created in the previous step.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>Configure<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>Configure<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>shared access signature generator<ept id="1">&lt;/ui&gt;</ept> section, make a note of the primary key associated with the <bpt id="2">&lt;ui&gt;</bpt>RootManagerSharedAccessKey<ept id="2">&lt;/ui&gt;</ept> policy, or copy it to the clipboard.</source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>shared access signature generator<ept id="1">&lt;/ui&gt;</ept> section, make a note of the primary key associated with the <bpt id="2">&lt;ui&gt;</bpt>RootManagerSharedAccessKey<ept id="2">&lt;/ui&gt;</ept> policy, or copy it to the clipboard.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>You will use this value later in this tutorial.</source>
+            <target state="new">You will use this value later in this tutorial.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>The next step is to create a Visual Studio project and write two helper functions that load a comma-delimited list of messages into a strongly-typed (<ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;T:Microsoft.ServiceBus.Messaging.BrokeredMessage&lt;/codeEntityReference&gt;</ph>) .NET <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>List<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://msdn.microsoft.com/library/6sh2ey19.aspx&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept> object.</source>
+            <target state="new">The next step is to create a Visual Studio project and write two helper functions that load a comma-delimited list of messages into a strongly-typed (<ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;T:Microsoft.ServiceBus.Messaging.BrokeredMessage&lt;/codeEntityReference&gt;</ph>) .NET <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>List<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://msdn.microsoft.com/library/6sh2ey19.aspx&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept> object.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>To create a Visual Studio project</source>
+            <target state="new">To create a Visual Studio project</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Open Visual Studio as an administrator by right-clicking the program in the <bpt id="1">&lt;ui&gt;</bpt>Start<ept id="1">&lt;/ui&gt;</ept> menu and clicking <bpt id="2">&lt;ui&gt;</bpt>Run as administrator<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Open Visual Studio as an administrator by right-clicking the program in the <bpt id="1">&lt;ui&gt;</bpt>Start<ept id="1">&lt;/ui&gt;</ept> menu and clicking <bpt id="2">&lt;ui&gt;</bpt>Run as administrator<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Create a new console application project.</source>
+            <target state="new">Create a new console application project.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Click the <bpt id="1">&lt;ui&gt;</bpt>File<ept id="1">&lt;/ui&gt;</ept> menu and select <bpt id="2">&lt;ui&gt;</bpt>New<ept id="2">&lt;/ui&gt;</ept>, then click <bpt id="3">&lt;ui&gt;</bpt>Project<ept id="3">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click the <bpt id="1">&lt;ui&gt;</bpt>File<ept id="1">&lt;/ui&gt;</ept> menu and select <bpt id="2">&lt;ui&gt;</bpt>New<ept id="2">&lt;/ui&gt;</ept>, then click <bpt id="3">&lt;ui&gt;</bpt>Project<ept id="3">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>New Project<ept id="1">&lt;/ui&gt;</ept> dialog, click <bpt id="2">&lt;ui&gt;</bpt>Visual C#<ept id="2">&lt;/ui&gt;</ept> (if <bpt id="3">&lt;ui&gt;</bpt>Visual C#<ept id="3">&lt;/ui&gt;</ept> does not appear, look under <bpt id="4">&lt;ui&gt;</bpt>Other Languages<ept id="4">&lt;/ui&gt;</ept>), click the <bpt id="5">&lt;ui&gt;</bpt>Console Application<ept id="5">&lt;/ui&gt;</ept> template, and name it <bpt id="6">&lt;userInput&gt;</bpt>QueueSample<ept id="6">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>New Project<ept id="1">&lt;/ui&gt;</ept> dialog, click <bpt id="2">&lt;ui&gt;</bpt>Visual C#<ept id="2">&lt;/ui&gt;</ept> (if <bpt id="3">&lt;ui&gt;</bpt>Visual C#<ept id="3">&lt;/ui&gt;</ept> does not appear, look under <bpt id="4">&lt;ui&gt;</bpt>Other Languages<ept id="4">&lt;/ui&gt;</ept>), click the <bpt id="5">&lt;ui&gt;</bpt>Console Application<ept id="5">&lt;/ui&gt;</ept> template, and name it <bpt id="6">&lt;userInput&gt;</bpt>QueueSample<ept id="6">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Use the default <bpt id="1">&lt;ui&gt;</bpt>Location<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Use the default <bpt id="1">&lt;ui&gt;</bpt>Location<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>OK<ept id="1">&lt;/ui&gt;</ept> to create the project.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>OK<ept id="1">&lt;/ui&gt;</ept> to create the project.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Use the NuGet package manager to add the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> libraries to your project:</source>
+            <target state="new">Use the NuGet package manager to add the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> libraries to your project:</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>Solution Explorer<ept id="1">&lt;/ui&gt;</ept>, right-click the project folder and click <bpt id="2">&lt;ui&gt;</bpt>Manage NuGet Packages<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>Solution Explorer<ept id="1">&lt;/ui&gt;</ept>, right-click the project folder and click <bpt id="2">&lt;ui&gt;</bpt>Manage NuGet Packages<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>Manage Nuget Packages<ept id="1">&lt;/ui&gt;</ept> dialog, search online for <bpt id="2">&lt;userInput&gt;</bpt>Service Bus<ept id="2">&lt;/userInput&gt;</ept> and click <bpt id="3">&lt;ui&gt;</bpt>Install<ept id="3">&lt;/ui&gt;</ept> </source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>Manage Nuget Packages<ept id="1">&lt;/ui&gt;</ept> dialog, search online for <bpt id="2">&lt;userInput&gt;</bpt>Service Bus<ept id="2">&lt;/userInput&gt;</ept> and click <bpt id="3">&lt;ui&gt;</bpt>Install<ept id="3">&lt;/ui&gt;</ept> </target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;ui&gt;</bpt>Solution Explorer<ept id="1">&lt;/ui&gt;</ept>, double-click the Program.cs file to open it in the <ph id="2">&lt;token&gt;vs_current_short&lt;/token&gt;</ph> editor.</source>
+            <target state="new">In <bpt id="1">&lt;ui&gt;</bpt>Solution Explorer<ept id="1">&lt;/ui&gt;</ept>, double-click the Program.cs file to open it in the <ph id="2">&lt;token&gt;vs_current_short&lt;/token&gt;</ph> editor.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Change the namespace name from its default name of <ph id="1">&lt;codeInline&gt;QueueSample&lt;/codeInline&gt;</ph> to <ph id="2">&lt;codeInline&gt;Microsoft.ServiceBus.Samples&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Change the namespace name from its default name of <ph id="1">&lt;codeInline&gt;QueueSample&lt;/codeInline&gt;</ph> to <ph id="2">&lt;codeInline&gt;Microsoft.ServiceBus.Samples&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Modify the <ph id="1">&lt;codeInline&gt;using&lt;/codeInline&gt;</ph> statements as shown in the following code snippet.</source>
+            <target state="new">Modify the <ph id="1">&lt;codeInline&gt;using&lt;/codeInline&gt;</ph> statements as shown in the following code snippet.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Create a text file named Data.csv, and copy in the following comma-delimited text.</source>
+            <target state="new">Create a text file named Data.csv, and copy in the following comma-delimited text.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Save and close the Data.csv file, and remember the location to which you saved it.</source>
+            <target state="new">Save and close the Data.csv file, and remember the location to which you saved it.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;ui&gt;</bpt>Solution Explorer<ept id="1">&lt;/ui&gt;</ept>, right-click the name of your project (in this example, <bpt id="2">&lt;ui&gt;</bpt>QueueSample<ept id="2">&lt;/ui&gt;</ept>), click <bpt id="3">&lt;ui&gt;</bpt>Add<ept id="3">&lt;/ui&gt;</ept>, then click <bpt id="4">&lt;ui&gt;</bpt>Existing Item<ept id="4">&lt;/ui&gt;</ept>.</source>
+            <target state="new">In <bpt id="1">&lt;ui&gt;</bpt>Solution Explorer<ept id="1">&lt;/ui&gt;</ept>, right-click the name of your project (in this example, <bpt id="2">&lt;ui&gt;</bpt>QueueSample<ept id="2">&lt;/ui&gt;</ept>), click <bpt id="3">&lt;ui&gt;</bpt>Add<ept id="3">&lt;/ui&gt;</ept>, then click <bpt id="4">&lt;ui&gt;</bpt>Existing Item<ept id="4">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Browse to the Data.csv file that you created in step 6.</source>
+            <target state="new">Browse to the Data.csv file that you created in step 6.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Click the file, then click <bpt id="1">&lt;ui&gt;</bpt>Add<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click the file, then click <bpt id="1">&lt;ui&gt;</bpt>Add<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Ensure that <bpt id="1">&lt;ui&gt;</bpt>All Files (*.*)<ept id="1">&lt;/ui&gt;</ept> is selected in the file type dropdown.</source>
+            <target state="new">Ensure that <bpt id="1">&lt;ui&gt;</bpt>All Files (*.*)<ept id="1">&lt;/ui&gt;</ept> is selected in the file type dropdown.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>To create a function that parses a list of messages</source>
+            <target state="new">To create a function that parses a list of messages</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Before the <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph> method, declare two variables: one of type <ph id="2">&lt;languageKeyword&gt;DataTable&lt;/languageKeyword&gt;</ph>, to contain the list of messages in Data.csv.</source>
+            <target state="new">Before the <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph> method, declare two variables: one of type <ph id="2">&lt;languageKeyword&gt;DataTable&lt;/languageKeyword&gt;</ph>, to contain the list of messages in Data.csv.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>The other should be of type <ph id="1">&lt;languageKeyword&gt;List&lt;/languageKeyword&gt;</ph> object, strongly typed to <ph id="2">&lt;codeEntityReference qualifyHint="true"&gt;T:Microsoft.ServiceBus.Messaging.BrokeredMessage&lt;/codeEntityReference&gt;</ph>.</source>
+            <target state="new">The other should be of type <ph id="1">&lt;languageKeyword&gt;List&lt;/languageKeyword&gt;</ph> object, strongly typed to <ph id="2">&lt;codeEntityReference qualifyHint="true"&gt;T:Microsoft.ServiceBus.Messaging.BrokeredMessage&lt;/codeEntityReference&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>The latter is the list of brokered messages that subsequent steps in the tutorial will use.</source>
+            <target state="new">The latter is the list of brokered messages that subsequent steps in the tutorial will use.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Outside the <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph> method, define a <ph id="2">&lt;codeInline&gt;ParseCSV()&lt;/codeInline&gt;</ph> method that parses the list of messages in Data.csv and loads the messages into a <ph id="3">&lt;codeEntityReference&gt;T:System.Data.DataTable&lt;/codeEntityReference&gt;</ph> table, as shown here.</source>
+            <target state="new">Outside the <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph> method, define a <ph id="2">&lt;codeInline&gt;ParseCSV()&lt;/codeInline&gt;</ph> method that parses the list of messages in Data.csv and loads the messages into a <ph id="3">&lt;codeEntityReference&gt;T:System.Data.DataTable&lt;/codeEntityReference&gt;</ph> table, as shown here.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>The method returns a <ph id="1">&lt;languageKeyword&gt;DataTable&lt;/languageKeyword&gt;</ph> object.</source>
+            <target state="new">The method returns a <ph id="1">&lt;languageKeyword&gt;DataTable&lt;/languageKeyword&gt;</ph> object.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>In the <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph> method, add a statement that calls the <ph id="2">&lt;codeInline&gt;ParseCSVFile()&lt;/codeInline&gt;</ph> method:</source>
+            <target state="new">In the <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph> method, add a statement that calls the <ph id="2">&lt;codeInline&gt;ParseCSVFile()&lt;/codeInline&gt;</ph> method:</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>To create a function that loads the list of messages</source>
+            <target state="new">To create a function that loads the list of messages</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Outside the <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph> method, define a <ph id="2">&lt;codeInline&gt;GenerateMessages()&lt;/codeInline&gt;</ph> method that takes the <ph id="3">&lt;languageKeyword&gt;DataTable&lt;/languageKeyword&gt;</ph> object returned by <ph id="4">&lt;codeInline&gt;ParseCSVFile()&lt;/codeInline&gt;</ph> and loads the table into a strongly-typed list of brokered messages.</source>
+            <target state="new">Outside the <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph> method, define a <ph id="2">&lt;codeInline&gt;GenerateMessages()&lt;/codeInline&gt;</ph> method that takes the <ph id="3">&lt;languageKeyword&gt;DataTable&lt;/languageKeyword&gt;</ph> object returned by <ph id="4">&lt;codeInline&gt;ParseCSVFile()&lt;/codeInline&gt;</ph> and loads the table into a strongly-typed list of brokered messages.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>The method then returns the <ph id="1">&lt;languageKeyword&gt;List&lt;/languageKeyword&gt;</ph> object.</source>
+            <target state="new">The method then returns the <ph id="1">&lt;languageKeyword&gt;List&lt;/languageKeyword&gt;</ph> object.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>For example:</source>
+            <target state="new">For example:</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>In the <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph> method, directly below the call to <ph id="2">&lt;codeInline&gt;ParseCSVFile()&lt;/codeInline&gt;</ph>, add a statement that calls the <ph id="3">&lt;codeInline&gt;GenerateMessages()&lt;/codeInline&gt;</ph> method with the return value from <ph id="4">&lt;codeInline&gt;ParseCSVFile()&lt;/codeInline&gt;</ph> as an argument:</source>
+            <target state="new">In the <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph> method, directly below the call to <ph id="2">&lt;codeInline&gt;ParseCSVFile()&lt;/codeInline&gt;</ph>, add a statement that calls the <ph id="3">&lt;codeInline&gt;GenerateMessages()&lt;/codeInline&gt;</ph> method with the return value from <ph id="4">&lt;codeInline&gt;ParseCSVFile()&lt;/codeInline&gt;</ph> as an argument:</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>To obtain user credentials</source>
+            <target state="new">To obtain user credentials</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>First, create three global string variables to hold these values.</source>
+            <target state="new">First, create three global string variables to hold these values.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Declare these variables directly after the previous variable declarations; for example:</source>
+            <target state="new">Declare these variables directly after the previous variable declarations; for example:</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Next, create a function that accepts and stores the <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph> and SAS key.</source>
+            <target state="new">Next, create a function that accepts and stores the <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph> and SAS key.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Add this method outside <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Add this method outside <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>For example:.</source>
+            <target state="new">For example:.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>In the <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph> method, directly below the call to <ph id="2">&lt;codeInline&gt;GenerateMessages()&lt;/codeInline&gt;</ph>, add a statement that calls the <ph id="3">&lt;codeInline&gt;CollectUserInput()&lt;/codeInline&gt;</ph> method:</source>
+            <target state="new">In the <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph> method, directly below the call to <ph id="2">&lt;codeInline&gt;GenerateMessages()&lt;/codeInline&gt;</ph>, add a statement that calls the <ph id="3">&lt;codeInline&gt;CollectUserInput()&lt;/codeInline&gt;</ph> method:</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>From the <bpt id="1">&lt;ui&gt;</bpt>Build<ept id="1">&lt;/ui&gt;</ept> menu in <ph id="2">&lt;token&gt;vs_current_short&lt;/token&gt;</ph>, select <bpt id="3">&lt;ui&gt;</bpt>Build Solution<ept id="3">&lt;/ui&gt;</ept> or press <bpt id="4">&lt;ui&gt;</bpt>F6<ept id="4">&lt;/ui&gt;</ept> to confirm the accuracy of your work so far.</source>
+            <target state="new">From the <bpt id="1">&lt;ui&gt;</bpt>Build<ept id="1">&lt;/ui&gt;</ept> menu in <ph id="2">&lt;token&gt;vs_current_short&lt;/token&gt;</ph>, select <bpt id="3">&lt;ui&gt;</bpt>Build Solution<ept id="3">&lt;/ui&gt;</ept> or press <bpt id="4">&lt;ui&gt;</bpt>F6<ept id="4">&lt;/ui&gt;</ept> to confirm the accuracy of your work so far.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

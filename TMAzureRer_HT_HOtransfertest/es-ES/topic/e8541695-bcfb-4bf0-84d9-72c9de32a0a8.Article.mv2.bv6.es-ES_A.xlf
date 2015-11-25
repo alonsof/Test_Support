@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzFEKgzAMANCr9AANtDHWZP+D/W8XSGsCglNQBx5//X8898EqYQMzIqDsCWriCi1lLSKeVSUGceIsCaFUEaDKCtx4Aiw0oqG2ZBaD8Ui5yAi1ee2qX0yzwIRNZhtQk3IMucMTnu8Y7nVxt/t6HPt+xYAxlBhev69un0O3c9Vr2bc/39wvJaEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Setting Properties and Metadata during the Import Process</source>
+            <target state="new">Setting Properties and Metadata during the Import Process</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>When you run the Microsoft Azure Import/Export tool to prepare your drives, you can specify properties and metadata to be set on the destination blobs.</source>
+            <target state="new">When you run the Microsoft Azure Import/Export tool to prepare your drives, you can specify properties and metadata to be set on the destination blobs.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Follow these steps:</source>
+            <target state="new">Follow these steps:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>To set blob properties, create a text file on your local computer that specifies property names and values.</source>
+            <target state="new">To set blob properties, create a text file on your local computer that specifies property names and values.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>To set blob metadata, create a text file on your local computer that specifies metadata names and values.</source>
+            <target state="new">To set blob metadata, create a text file on your local computer that specifies metadata names and values.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Pass the full path to one or both of these files to the Azure Import/Export tool as part of the <ph id="1">&lt;languageKeyword&gt;PrepImport&lt;/languageKeyword&gt;</ph> operation.</source>
+            <target state="new">Pass the full path to one or both of these files to the Azure Import/Export tool as part of the <ph id="1">&lt;languageKeyword&gt;PrepImport&lt;/languageKeyword&gt;</ph> operation.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>When you specify a properties or metadata file as part of a copy session, those properties or metadata are set for every blob that is imported as part of that copy session.</source>
+            <target state="new">When you specify a properties or metadata file as part of a copy session, those properties or metadata are set for every blob that is imported as part of that copy session.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>If you want to specify a different set of properties or metadata for some of the blobs being imported, you'll need to create a separate copy session with different properties or metadata files.</source>
+            <target state="new">If you want to specify a different set of properties or metadata for some of the blobs being imported, you'll need to create a separate copy session with different properties or metadata files.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Specify Blob Properties in a Text File</source>
+            <target state="new">Specify Blob Properties in a Text File</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>To specify blob properties, create a local text file, and include XML that specifies property names as elements, and property values as values.</source>
+            <target state="new">To specify blob properties, create a local text file, and include XML that specifies property names as elements, and property values as values.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Here's an example that specifies some property values:</source>
+            <target state="new">Here's an example that specifies some property values:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Save the file to a local location like <ph id="1">&lt;codeInline&gt;C:\WAImportExport\ImportProperties.txt&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Save the file to a local location like <ph id="1">&lt;codeInline&gt;C:\WAImportExport\ImportProperties.txt&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Specify Blob Metadata in a Text File</source>
+            <target state="new">Specify Blob Metadata in a Text File</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Similarly, to specify blob metadata, create a local text file that specifies metadata names as elements, and metadata values as values.</source>
+            <target state="new">Similarly, to specify blob metadata, create a local text file that specifies metadata names as elements, and metadata values as values.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Here's an example that specifies some metadata values:</source>
+            <target state="new">Here's an example that specifies some metadata values:</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Save the file to a local location like <ph id="1">&lt;codeInline&gt;C:\WAImportExport\ImportMetadata.txt&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Save the file to a local location like <ph id="1">&lt;codeInline&gt;C:\WAImportExport\ImportMetadata.txt&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Create a Copy Session Including the Properties or Metadata Files</source>
+            <target state="new">Create a Copy Session Including the Properties or Metadata Files</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>When you run the Azure Import/Export tool to prepare the import job, specify the properties file on the command line using the <ph id="1">&lt;codeInline&gt;PropertyFile&lt;/codeInline&gt;</ph> parameter.</source>
+            <target state="new">When you run the Azure Import/Export tool to prepare the import job, specify the properties file on the command line using the <ph id="1">&lt;codeInline&gt;PropertyFile&lt;/codeInline&gt;</ph> parameter.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Specify the metadata file on the command line using the <ph id="1">&lt;codeInline&gt;/MetadataFile&lt;/codeInline&gt;</ph> parameter.</source>
+            <target state="new">Specify the metadata file on the command line using the <ph id="1">&lt;codeInline&gt;/MetadataFile&lt;/codeInline&gt;</ph> parameter.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Here's an example that specifies both files:</source>
+            <target state="new">Here's an example that specifies both files:</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

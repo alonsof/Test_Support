@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-CN" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANjDsKwzAMQK/iA1gg2fKva5dOnXoB2ZFpIE0gSSH09PXwpvd4vXut7BqoMgNTR6iYKzQkiaV0EinWoMMQaiNIE3ngkhWkRg9hkpaKxBRVR8UyBqoQEgZgPxFkVQ+upqzkUbw0a8ia3xvuT2uuZe5dr/O2b9tpjRtu8Ph+ZH3tsh6LnPO2/gFf89VoogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Tracking Messages Processed by the Bridge</source>
+            <target state="new">Tracking Messages Processed by the Bridge</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Within a bridge, a message undergoes processing under various stages and can be routed to configured endpoints.</source>
+            <target state="new">Within a bridge, a message undergoes processing under various stages and can be routed to configured endpoints.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Specific details of the message (like transport properties, message properties, and so on) need to be tracked and queried separately by the bridge developers to keep a track of message processing.</source>
+            <target state="new">Specific details of the message (like transport properties, message properties, and so on) need to be tracked and queried separately by the bridge developers to keep a track of message processing.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Additionally, while a message is being processed by the bridge, there can be failures of many types.</source>
+            <target state="new">Additionally, while a message is being processed by the bridge, there can be failures of many types.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>These failures must be propagated back to the bridge developers/administrators or the message-sending client so that appropriate actions can be taken to fix these errors.</source>
+            <target state="new">These failures must be propagated back to the bridge developers/administrators or the message-sending client so that appropriate actions can be taken to fix these errors.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Bridges provide support for tracking the messages thereby enabling the bridge developer and message sending clients to track message properties defined during the bridge configuration.</source>
+            <target state="new">Bridges provide support for tracking the messages thereby enabling the bridge developer and message sending clients to track message properties defined during the bridge configuration.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>You can configure the bridge to track the messages using options available from the <ph id="1">&lt;token&gt;msgflow&lt;/token&gt;</ph> surface.</source>
+            <target state="new">You can configure the bridge to track the messages using options available from the <ph id="1">&lt;token&gt;msgflow&lt;/token&gt;</ph> surface.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>In this topic:</source>
+            <target state="new">In this topic:</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>How Tracking Works?</source>
+            <target state="new">How Tracking Works?</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>There are two parts to tracking a message – what gets tracked and when it gets tracked.</source>
+            <target state="new">There are two parts to tracking a message – what gets tracked and when it gets tracked.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Through the bridge configuration, you can define (to some extent) what properties get tracked.</source>
+            <target state="new">Through the bridge configuration, you can define (to some extent) what properties get tracked.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Properties specific to the FTP source (if available as part of a message flow) are always tracked and can’t be opted out.</source>
+            <target state="new">Properties specific to the FTP source (if available as part of a message flow) are always tracked and can’t be opted out.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>When these properties get tracked depends on certain events that are transparent to the user.</source>
+            <target state="new">When these properties get tracked depends on certain events that are transparent to the user.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>These events, in turn, depend on what stage of the bridge the message is at.</source>
+            <target state="new">These events, in turn, depend on what stage of the bridge the message is at.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>For example:</source>
+            <target state="new">For example:</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>The following list details “what” can be tracked:</source>
+            <target state="new">The following list details “what” can be tracked:</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>X_PIPELINE_MESSAGE TYPE<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>X_PIPELINE_REQUESTMESSAGETYPE<ept id="2">&lt;/embeddedLabel&gt;</ept> properties.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>X_PIPELINE_MESSAGE TYPE<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>X_PIPELINE_REQUESTMESSAGETYPE<ept id="2">&lt;/embeddedLabel&gt;</ept> properties.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>These properties are always promoted on a message processed by the bridge.</source>
+            <target state="new">These properties are always promoted on a message processed by the bridge.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>All properties that are promoted at the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage of a bridge.</source>
+            <target state="new">All properties that are promoted at the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage of a bridge.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>If a message flow includes an FTP source, the following FTP-specific data is also tracked:</source>
+            <target state="new">If a message flow includes an FTP source, the following FTP-specific data is also tracked:</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Source name (name of the FTP source on the itinerary designer)</source>
+            <target state="new">Source name (name of the FTP source on the itinerary designer)</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>When an FTP source is started/stopped.</source>
+            <target state="new">When an FTP source is started/stopped.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Filename</source>
+            <target state="new">Filename</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>FTP server</source>
+            <target state="new">FTP server</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>FTP folder path</source>
+            <target state="new">FTP folder path</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>FTP username</source>
+            <target state="new">FTP username</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>The following list details “when” these properties get tracked:</source>
+            <target state="new">The following list details “when” these properties get tracked:</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Even when you do not select any properties to be tracked, the following events are always tracked:</source>
+            <target state="new">Even when you do not select any properties to be tracked, the following events are always tracked:</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Activity faulted (for all activities)</source>
+            <target state="new">Activity faulted (for all activities)</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Stage faulted (for all stages)</source>
+            <target state="new">Stage faulted (for all stages)</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Pipeline faulted</source>
+            <target state="new">Pipeline faulted</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Route destination</source>
+            <target state="new">Route destination</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>When you select the properties to be tracked, the following events are tracked:</source>
+            <target state="new">When you select the properties to be tracked, the following events are tracked:</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>All events in bullet 1 along with selected message properties</source>
+            <target state="new">All events in bullet 1 along with selected message properties</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Route stage started along with selected message properties</source>
+            <target state="new">Route stage started along with selected message properties</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>SendReply stage started along with selected message properties</source>
+            <target state="new">SendReply stage started along with selected message properties</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>When you opt to track message processing events, the following events are tracked:</source>
+            <target state="new">When you opt to track message processing events, the following events are tracked:</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>All events in bullet 1 along with selected message properties</source>
+            <target state="new">All events in bullet 1 along with selected message properties</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Pipeline started/completed</source>
+            <target state="new">Pipeline started/completed</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Artifact retrieved/not found</source>
+            <target state="new">Artifact retrieved/not found</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>How to View Tracked Properties?</source>
+            <target state="new">How to View Tracked Properties?</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>You can view the tracking data from the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>.</source>
+            <target state="new">You can view the tracking data from the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="100d9ba7-0ebc-40bf-8b5f-92641c9639ba" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Tracking Messages&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="100d9ba7-0ebc-40bf-8b5f-92641c9639ba" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Tracking Messages&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Configure Tracking</source>
+            <target state="new">Configure Tracking</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Create a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, as described in <ph id="2">&lt;link xlink:href="03421690-817a-45a8-8492-c9cb98484102" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create a BizTalk Service Project&lt;/link&gt;</ph>.</source>
+            <target state="new">Create a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, as described in <ph id="2">&lt;link xlink:href="03421690-817a-45a8-8492-c9cb98484102" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create a BizTalk Service Project&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Toolbox<ept id="1">&lt;/embeddedLabel&gt;</ept>, drag and drop a bridge component (<ph id="2">&lt;token&gt;one-way&lt;/token&gt;</ph>, <ph id="3">&lt;token&gt;request_response&lt;/token&gt;</ph>, or <ph id="4">&lt;token&gt;passthru&lt;/token&gt;</ph>) to the <ph id="5">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface.</source>
+            <target state="new">From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Toolbox<ept id="1">&lt;/embeddedLabel&gt;</ept>, drag and drop a bridge component (<ph id="2">&lt;token&gt;one-way&lt;/token&gt;</ph>, <ph id="3">&lt;token&gt;request_response&lt;/token&gt;</ph>, or <ph id="4">&lt;token&gt;passthru&lt;/token&gt;</ph>) to the <ph id="5">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Right-click the bridge component that you added, and in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept> window click the ellipsis <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> against <bpt id="3">&lt;embeddedLabel&gt;</bpt>Track Properties<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Right-click the bridge component that you added, and in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept> window click the ellipsis <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> against <bpt id="3">&lt;embeddedLabel&gt;</bpt>Track Properties<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Track Properties<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, do the following:</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Track Properties<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Track message processing events<ept id="1">&lt;/embeddedLabel&gt;</ept> check box to track detailed information such as when a stage starts, completes, or faults; when an activity within a stage starts, completes, or faults; whether an artifact gets retrieved, etc.</source>
+            <target state="new">Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Track message processing events<ept id="1">&lt;/embeddedLabel&gt;</ept> check box to track detailed information such as when a stage starts, completes, or faults; when an activity within a stage starts, completes, or faults; whether an artifact gets retrieved, etc.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Track all message properties<ept id="1">&lt;/embeddedLabel&gt;</ept> check box to track all the message properties.</source>
+            <target state="new">Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Track all message properties<ept id="1">&lt;/embeddedLabel&gt;</ept> check box to track all the message properties.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>If you promoted any properties within the bridge Enrich stages, those properties are also tracked along with default properties – <bpt id="1">&lt;embeddedLabel&gt;</bpt>XPIPELINE_MESSAGETYPE<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>XPIPELINE_REQUESTMESSAGETYPE<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">If you promoted any properties within the bridge Enrich stages, those properties are also tracked along with default properties – <bpt id="1">&lt;embeddedLabel&gt;</bpt>XPIPELINE_MESSAGETYPE<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>XPIPELINE_REQUESTMESSAGETYPE<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>The default properties are implicitly promoted by the bridge itself.</source>
+            <target state="new">The default properties are implicitly promoted by the bridge itself.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>- OR - </source>
+            <target state="new">- OR - </target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Select the specific properties that you want to track.</source>
+            <target state="new">Select the specific properties that you want to track.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>You can view the tracking data in the <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> portal.</source>
+            <target state="new">You can view the tracking data in the <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> portal.</target>
+          </trans-unit>
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="100d9ba7-0ebc-40bf-8b5f-92641c9639ba" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Tracking Messages&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="100d9ba7-0ebc-40bf-8b5f-92641c9639ba" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Tracking Messages&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>The following table describes how the selections you make in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Track Properties<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box change what gets tracked:</source>
+            <target state="new">The following table describes how the selections you make in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Track Properties<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box change what gets tracked:</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Selection</source>
+            <target state="new">Selection</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>What Gets Tracked</source>
+            <target state="new">What Gets Tracked</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>No selection</source>
+            <target state="new">No selection</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Even if you do not select any options in the dialog box, the pipeline state, the stage state, whether the route destinations are successfully ascertained, and the activity state are tracked for any message processing faults.</source>
+            <target state="new">Even if you do not select any options in the dialog box, the pipeline state, the stage state, whether the route destinations are successfully ascertained, and the activity state are tracked for any message processing faults.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>This means that by default, any faults in any of the stages or activities will get tracked.</source>
+            <target state="new">This means that by default, any faults in any of the stages or activities will get tracked.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>When <bpt id="1">&lt;embeddedLabel&gt;</bpt>Track all message properties<ept id="1">&lt;/embeddedLabel&gt;</ept> or specific properties are selected</source>
+            <target state="new">When <bpt id="1">&lt;embeddedLabel&gt;</bpt>Track all message properties<ept id="1">&lt;/embeddedLabel&gt;</ept> or specific properties are selected</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>The properties you selected are tracked as part of the faulted event for a pipeline state, the stage state, or the activity state.</source>
+            <target state="new">The properties you selected are tracked as part of the faulted event for a pipeline state, the stage state, or the activity state.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>This means that if you select this option, every time there is a fault in the message processing, the values of the selected properties are captured as part of the tracked data.</source>
+            <target state="new">This means that if you select this option, every time there is a fault in the message processing, the values of the selected properties are captured as part of the tracked data.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Over and above this, the properties are also tracked before the Route Action (routing the message to the intended receiver) and the Reply Action (sending the response back the message sender).</source>
+            <target state="new">Over and above this, the properties are also tracked before the Route Action (routing the message to the intended receiver) and the Reply Action (sending the response back the message sender).</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>When <bpt id="1">&lt;embeddedLabel&gt;</bpt>Track message processing events<ept id="1">&lt;/embeddedLabel&gt;</ept> is selected</source>
+            <target state="new">When <bpt id="1">&lt;embeddedLabel&gt;</bpt>Track message processing events<ept id="1">&lt;/embeddedLabel&gt;</ept> is selected</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>The pipeline state, the stage state, or the activity state.</source>
+            <target state="new">The pipeline state, the stage state, or the activity state.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Over and above this, the following is also tracked:</source>
+            <target state="new">Over and above this, the following is also tracked:</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>When a pipeline state starts and completes</source>
+            <target state="new">When a pipeline state starts and completes</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>When an artifact is either successfully retrieved or can’t be retrieved</source>
+            <target state="new">When an artifact is either successfully retrieved or can’t be retrieved</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

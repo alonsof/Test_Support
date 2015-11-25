@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAdzNsJwzAMRuFVPIAFluzEVp9b6ABd4LdjQSBNIE0h4/cC5/HjmMVekzTqPSVKbIFqKJVaYIyqxoB6F6Q0GZCp15YpAUzQ2Ah5ClwCsurkHecIxSgEkeH7KolQI6hlg8UBPNpPeTd1ut68O5fZrJ/HZd+2wzv5d38/sT52rK8Fx7ytH4MKSmOhAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Versioning Best Practices</source>
+            <target state="new">Versioning Best Practices</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>We recommend the following versioning best practices for the Azure storage services:</source>
+            <target state="new">We recommend the following versioning best practices for the Azure storage services:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Explicitly specify the REST protocol version to use for every authenticated request.</source>
+            <target state="new">Explicitly specify the REST protocol version to use for every authenticated request.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Set a default version for the Blob service using the <ph id="1">&lt;link xlink:href="65424a3c-ab49-4994-865c-827409598092" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Service Properties&lt;/link&gt;</ph> operation.</source>
+            <target state="new">Set a default version for the Blob service using the <ph id="1">&lt;link xlink:href="65424a3c-ab49-4994-865c-827409598092" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Service Properties&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The default version specifies the version to use for anonymous requests for which the version header cannot be set.</source>
+            <target state="new">The default version specifies the version to use for anonymous requests for which the version header cannot be set.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Client software that uses a shared access signature (SAS) URL to access storage resources may experience unexpected behavior when the SAS URL specifies a storage service version that is newer than that used by the client software.</source>
+            <target state="new">Client software that uses a shared access signature (SAS) URL to access storage resources may experience unexpected behavior when the SAS URL specifies a storage service version that is newer than that used by the client software.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>We recommend the following to ensure clients work well with SAS tokens:</source>
+            <target state="new">We recommend the following to ensure clients work well with SAS tokens:</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>For version 2014-02-14 and later, SAS token consumers using the REST API can override the REST protocol version to specify the appropriate version using the <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> parameter.</source>
+            <target state="new">For version 2014-02-14 and later, SAS token consumers using the REST API can override the REST protocol version to specify the appropriate version using the <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> parameter.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="cc4fba5c-7015-40bf-a29c-b6f0c684ff3c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure Storage Services Version 2014-02-14&lt;/link&gt;</ph> for details.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="cc4fba5c-7015-40bf-a29c-b6f0c684ff3c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure Storage Services Version 2014-02-14&lt;/link&gt;</ph> for details.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>For SAS token consumers using the Storage Client Library, the library ensures that the correct REST protocol version is requested.</source>
+            <target state="new">For SAS token consumers using the Storage Client Library, the library ensures that the correct REST protocol version is requested.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>For version 2013-08-15 and earlier, code that prepares and distributes shared access signature URLs (<bpt id="1">&lt;legacyItalic&gt;</bpt>i.e.<ept id="1">&lt;/legacyItalic&gt;</ept>, SAS providers or generators) should specify versions that are understood by client software (<bpt id="2">&lt;legacyItalic&gt;</bpt>i.e.<ept id="2">&lt;/legacyItalic&gt;</ept>, SAS consumers) that makes storage service requests.</source>
+            <target state="new">For version 2013-08-15 and earlier, code that prepares and distributes shared access signature URLs (<bpt id="1">&lt;legacyItalic&gt;</bpt>i.e.<ept id="1">&lt;/legacyItalic&gt;</ept>, SAS providers or generators) should specify versions that are understood by client software (<bpt id="2">&lt;legacyItalic&gt;</bpt>i.e.<ept id="2">&lt;/legacyItalic&gt;</ept>, SAS consumers) that makes storage service requests.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Always use the latest storage service version to benefit from optimizations included with each new version.</source>
+            <target state="new">Always use the latest storage service version to benefit from optimizations included with each new version.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Some examples of such changes include:</source>
+            <target state="new">Some examples of such changes include:</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Version 2013-08-15 introduced the JSON payload format that reduces network bandwidth usage by up to 70% compared to OData’s AtomPub protocol.</source>
+            <target state="new">Version 2013-08-15 introduced the JSON payload format that reduces network bandwidth usage by up to 70% compared to OData’s AtomPub protocol.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Version 2013-08-15 allows SAS providers and generators to add certain response headers like <ph id="1">&lt;parameterReference&gt;cache-control&lt;/parameterReference&gt;</ph>, <ph id="2">&lt;parameterReference&gt;content-disposition&lt;/parameterReference&gt;</ph>, and <ph id="3">&lt;parameterReference&gt;content-type&lt;/parameterReference&gt;</ph> via SAS query parameters.</source>
+            <target state="new">Version 2013-08-15 allows SAS providers and generators to add certain response headers like <ph id="1">&lt;parameterReference&gt;cache-control&lt;/parameterReference&gt;</ph>, <ph id="2">&lt;parameterReference&gt;content-disposition&lt;/parameterReference&gt;</ph>, and <ph id="3">&lt;parameterReference&gt;content-type&lt;/parameterReference&gt;</ph> via SAS query parameters.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Version 2011-08-18 introduced the quoted <ph id="1">&lt;parameterReference&gt;ETag&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;Accept-Ranges&lt;/parameterReference&gt;</ph> response headers required for optimized download and streaming via browsers.</source>
+            <target state="new">Version 2011-08-18 introduced the quoted <ph id="1">&lt;parameterReference&gt;ETag&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;Accept-Ranges&lt;/parameterReference&gt;</ph> response headers required for optimized download and streaming via browsers.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

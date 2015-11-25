@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-CN" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAAVzDEOwjAMQNGr5ACxFDtuY7OyMDFxAafEolJppbZIFaenzP/pu+dWmQZojRkYPUFNUmFIaL2qo5nGIEWVuC/AkjpgrQii4kAdkjtiSZRjYNJiqgUGTRX4P6woCs/cZRJilnYqjOH7gus9hmMa3duxX9Zl2WOgs3EMt8/b5sdq8zbZPi7zDxdTp3aiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>How to: Use ACS Management Service to Configure Certificates and Keys</source>
+            <target state="new">How to: Use ACS Management Service to Configure Certificates and Keys</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Azure</source>
+            <target state="new">Azure</target>
+            <context-group>
+              <context context-type="x-metadataname">applies_to_product</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>How to: Use ACS Management Service to Configure Certificates and Keys</source>
+            <target state="new">How to: Use ACS Management Service to Configure Certificates and Keys</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Applies To</source>
+            <target state="new">Applies To</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Overview</source>
+            <target state="new">Overview</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>You can configure <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> certificates and keys using either the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal or the <ph id="3">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service.</source>
+            <target state="new">You can configure <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> certificates and keys using either the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal or the <ph id="3">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Working with the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service can be more efficient if you are building a custom user interface for managing <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> or if you want to automate the onboarding of a new tenant for multi-tenant Software as a Service (SaaS) solutions.</source>
+            <target state="new">Working with the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service can be more efficient if you are building a custom user interface for managing <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> or if you want to automate the onboarding of a new tenant for multi-tenant Software as a Service (SaaS) solutions.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>For more information about using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal to configure certificates and keys, see <ph id="2">&lt;link xlink:href="b75ed5c7-ca81-44a2-8d8d-6a63399f87dd" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Certificates and Keys&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal to configure certificates and keys, see <ph id="2">&lt;link xlink:href="b75ed5c7-ca81-44a2-8d8d-6a63399f87dd" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Certificates and Keys&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Steps for Configuring Certificates and Keys Using the ACS Management Service</source>
+            <target state="new">Steps for Configuring Certificates and Keys Using the ACS Management Service</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Before performing the following steps, make sure that your system meets all of the .NET framework and platform requirements that are summarized in <ph id="1">&lt;link xlink:href="b52e98da-25cc-47d0-832f-a3ee58951524" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ACS Prerequisites&lt;/link&gt;</ph>.</source>
+            <target state="new">Before performing the following steps, make sure that your system meets all of the .NET framework and platform requirements that are summarized in <ph id="1">&lt;link xlink:href="b52e98da-25cc-47d0-832f-a3ee58951524" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ACS Prerequisites&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>To configure certificates and keys using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service, complete the following steps:</source>
+            <target state="new">To configure certificates and keys using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service, complete the following steps:</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Step 1 – Collect ACS Configuration Information</source>
+            <target state="new">Step 1 – Collect ACS Configuration Information</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Step 2 – Create a Sample Console Application</source>
+            <target state="new">Step 2 – Create a Sample Console Application</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Step 3 – Add References to the Required Services and Assemblies</source>
+            <target state="new">Step 3 – Add References to the Required Services and Assemblies</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Step 4 – Implement the Management Service Client</source>
+            <target state="new">Step 4 – Implement the Management Service Client</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Step 5 - Install Certificates and Keys</source>
+            <target state="new">Step 5 - Install Certificates and Keys</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Add a Token Signing Certificate for Your Access Control Namespace</source>
+            <target state="new">Add a Token Signing Certificate for Your Access Control Namespace</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Add a Token Signing Certificate for a Relying Party Application</source>
+            <target state="new">Add a Token Signing Certificate for a Relying Party Application</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Add a Token Signing Symmetric Key for Your Access Control Namespace </source>
+            <target state="new">Add a Token Signing Symmetric Key for Your Access Control Namespace </target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Add a Token Signing Symmetric Key for a Relying Party Application</source>
+            <target state="new">Add a Token Signing Symmetric Key for a Relying Party Application</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Add a Token Encryption Certificate</source>
+            <target state="new">Add a Token Encryption Certificate</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Add a Token Decryption Certificate</source>
+            <target state="new">Add a Token Decryption Certificate</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Step 1 – Collect <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Configuration Information</source>
+            <target state="new">Step 1 – Collect <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Configuration Information</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>You can use the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal to collect the necessary configuration information.</source>
+            <target state="new">You can use the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal to collect the necessary configuration information.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="07b7daf4-b4d6-48fc-b921-3b1e63d44f61" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ACS Management Portal&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="07b7daf4-b4d6-48fc-b921-3b1e63d44f61" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ACS Management Portal&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>To collect <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> configuration information</source>
+            <target state="new">To collect <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> configuration information</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>Management service<ept id="1">&lt;/ui&gt;</ept>, click <bpt id="2">&lt;ui&gt;</bpt>ManagementClient<ept id="2">&lt;/ui&gt;</ept>, and then click <bpt id="3">&lt;ui&gt;</bpt>Password<ept id="3">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>Management service<ept id="1">&lt;/ui&gt;</ept>, click <bpt id="2">&lt;ui&gt;</bpt>ManagementClient<ept id="2">&lt;/ui&gt;</ept>, and then click <bpt id="3">&lt;ui&gt;</bpt>Password<ept id="3">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Copy the value in the <bpt id="1">&lt;ui&gt;</bpt>Password<ept id="1">&lt;/ui&gt;</ept> field.</source>
+            <target state="new">Copy the value in the <bpt id="1">&lt;ui&gt;</bpt>Password<ept id="1">&lt;/ui&gt;</ept> field.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>Management service<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>Management service<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Get the value of your service namespace and <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> host name.</source>
+            <target state="new">Get the value of your service namespace and <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> host name.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>If your Management Service URL is  http://contoso.accesscontrol.windows.net, the namespace is <ph id="1">&lt;system&gt;contoso&lt;/system&gt;</ph> and the host name is <ph id="2">&lt;system&gt;accesscontrol.windows.net&lt;/system&gt;</ph>.</source>
+            <target state="new">If your Management Service URL is  http://contoso.accesscontrol.windows.net, the namespace is <ph id="1">&lt;system&gt;contoso&lt;/system&gt;</ph> and the host name is <ph id="2">&lt;system&gt;accesscontrol.windows.net&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Step 2 – Create a Sample Console Application</source>
+            <target state="new">Step 2 – Create a Sample Console Application</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>In this step you create a sample console application that can run the code for adding your <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> rule groups and rules.</source>
+            <target state="new">In this step you create a sample console application that can run the code for adding your <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> rule groups and rules.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>To create a sample console application</source>
+            <target state="new">To create a sample console application</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Open <ph id="1">&lt;token&gt;vs_current_long&lt;/token&gt;</ph> and create a new console application project under the <bpt id="2">&lt;ui&gt;</bpt>Windows<ept id="2">&lt;/ui&gt;</ept> installed template.</source>
+            <target state="new">Open <ph id="1">&lt;token&gt;vs_current_long&lt;/token&gt;</ph> and create a new console application project under the <bpt id="2">&lt;ui&gt;</bpt>Windows<ept id="2">&lt;/ui&gt;</ept> installed template.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Add the following code to the <bpt id="1">&lt;ui&gt;</bpt>Program<ept id="1">&lt;/ui&gt;</ept> class and then assign serviceIdentityPasswordForManagement, serviceNamespace, and acsHostName variables to the appropriate configuration information that you collected in the previous step.</source>
+            <target state="new">Add the following code to the <bpt id="1">&lt;ui&gt;</bpt>Program<ept id="1">&lt;/ui&gt;</ept> class and then assign serviceIdentityPasswordForManagement, serviceNamespace, and acsHostName variables to the appropriate configuration information that you collected in the previous step.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Step 3 – Add References to the Required Services and Assemblies</source>
+            <target state="new">Step 3 – Add References to the Required Services and Assemblies</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>In this step you identify and add the required dependencies to the services and assemblies.</source>
+            <target state="new">In this step you identify and add the required dependencies to the services and assemblies.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>To add the required dependencies to the services and assemblies</source>
+            <target state="new">To add the required dependencies to the services and assemblies</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Right-click <bpt id="1">&lt;ui&gt;</bpt>References<ept id="1">&lt;/ui&gt;</ept>, click <bpt id="2">&lt;ui&gt;</bpt>Add Reference<ept id="2">&lt;/ui&gt;</ept>, and add a reference to System.Web.Extensions.</source>
+            <target state="new">Right-click <bpt id="1">&lt;ui&gt;</bpt>References<ept id="1">&lt;/ui&gt;</ept>, click <bpt id="2">&lt;ui&gt;</bpt>Add Reference<ept id="2">&lt;/ui&gt;</ept>, and add a reference to System.Web.Extensions.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>You might have to right-click your sample console application name in the <bpt id="1">&lt;ui&gt;</bpt>Solution Explorer<ept id="1">&lt;/ui&gt;</ept>, select <bpt id="2">&lt;ui&gt;</bpt>Properties<ept id="2">&lt;/ui&gt;</ept>, and change the target framework of your sample application from <bpt id="3">&lt;ui&gt;</bpt>.NET Framework 4 Client Profile<ept id="3">&lt;/ui&gt;</ept> (assigned by default when you create a new console application) to <bpt id="4">&lt;ui&gt;</bpt>.NET Framework 4<ept id="4">&lt;/ui&gt;</ept>.</source>
+            <target state="new">You might have to right-click your sample console application name in the <bpt id="1">&lt;ui&gt;</bpt>Solution Explorer<ept id="1">&lt;/ui&gt;</ept>, select <bpt id="2">&lt;ui&gt;</bpt>Properties<ept id="2">&lt;/ui&gt;</ept>, and change the target framework of your sample application from <bpt id="3">&lt;ui&gt;</bpt>.NET Framework 4 Client Profile<ept id="3">&lt;/ui&gt;</ept> (assigned by default when you create a new console application) to <bpt id="4">&lt;ui&gt;</bpt>.NET Framework 4<ept id="4">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Right-click <bpt id="1">&lt;ui&gt;</bpt>Service References<ept id="1">&lt;/ui&gt;</ept>, click <bpt id="2">&lt;ui&gt;</bpt>Add Service Reference<ept id="2">&lt;/ui&gt;</ept>, and add a service reference to the Management Service.</source>
+            <target state="new">Right-click <bpt id="1">&lt;ui&gt;</bpt>Service References<ept id="1">&lt;/ui&gt;</ept>, click <bpt id="2">&lt;ui&gt;</bpt>Add Service Reference<ept id="2">&lt;/ui&gt;</ept>, and add a service reference to the Management Service.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>The Management Service URL is unique to your namespace and looks similar to the following:</source>
+            <target state="new">The Management Service URL is unique to your namespace and looks similar to the following:</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>https://<bpt id="1">&lt;placeholder&gt;</bpt>YOURNAMESPACE<ept id="1">&lt;/placeholder&gt;</ept>.accesscontrol.windows.net/v2/mgmt/service</source>
+            <target state="new">https://<bpt id="1">&lt;placeholder&gt;</bpt>YOURNAMESPACE<ept id="1">&lt;/placeholder&gt;</ept>.accesscontrol.windows.net/v2/mgmt/service</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Add the following declarations, where <bpt id="1">&lt;userInput&gt;</bpt>MyConsoleApplication<ept id="1">&lt;/userInput&gt;</ept> is the name of your console application and <bpt id="2">&lt;userInput&gt;</bpt>MyServiceReference<ept id="2">&lt;/userInput&gt;</ept> is the name of your service reference:</source>
+            <target state="new">Add the following declarations, where <bpt id="1">&lt;userInput&gt;</bpt>MyConsoleApplication<ept id="1">&lt;/userInput&gt;</ept> is the name of your console application and <bpt id="2">&lt;userInput&gt;</bpt>MyServiceReference<ept id="2">&lt;/userInput&gt;</ept> is the name of your service reference:</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Step 4 – Implement the Management Service Client</source>
+            <target state="new">Step 4 – Implement the Management Service Client</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>In this step you implement the Management Service client.</source>
+            <target state="new">In this step you implement the Management Service client.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>To implement the Management Service client</source>
+            <target state="new">To implement the Management Service client</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Add the following method to the <bpt id="1">&lt;ui&gt;</bpt>Program<ept id="1">&lt;/ui&gt;</ept> class:</source>
+            <target state="new">Add the following method to the <bpt id="1">&lt;ui&gt;</bpt>Program<ept id="1">&lt;/ui&gt;</ept> class:</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Add the <bpt id="1">&lt;ui&gt;</bpt>GetTokenWithWritePermission<ept id="1">&lt;/ui&gt;</ept> method and its helper methods to the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class.</source>
+            <target state="new">Add the <bpt id="1">&lt;ui&gt;</bpt>GetTokenWithWritePermission<ept id="1">&lt;/ui&gt;</ept> method and its helper methods to the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>GetTokenWithWritePermission<ept id="1">&lt;/ui&gt;</ept> and its helpers add the SWT OAuth token to the Authorization header of the HTTP request.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>GetTokenWithWritePermission<ept id="1">&lt;/ui&gt;</ept> and its helpers add the SWT OAuth token to the Authorization header of the HTTP request.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Step 5 – Add Certificates and Keys</source>
+            <target state="new">Step 5 – Add Certificates and Keys</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Add a Token Signing Certificate for Your <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph></source>
+            <target state="new">Add a Token Signing Certificate for Your <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>In this example, you create an X.509 signing certificate for your <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</source>
+            <target state="new">In this example, you create an X.509 signing certificate for your <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>To add a token signing certificate for all relying party applications in the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph></source>
+            <target state="new">To add a token signing certificate for all relying party applications in the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Initialize the Management Service client by adding the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</source>
+            <target state="new">Initialize the Management Service client by adding the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Create a <ph id="1">&lt;system&gt;ReadBytesFromPfxFile&lt;/system&gt;</ph> helper function to read bytes from your X.509 certificate by adding the following code to the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</source>
+            <target state="new">Create a <ph id="1">&lt;system&gt;ReadBytesFromPfxFile&lt;/system&gt;</ph> helper function to read bytes from your X.509 certificate by adding the following code to the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>To add a token signing X.509 certificate, add the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</source>
+            <target state="new">To add a token signing X.509 certificate, add the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Replace "Full path to your .PFX file" with the valid full path to your X.509 certificate.</source>
+            <target state="new">Replace "Full path to your .PFX file" with the valid full path to your X.509 certificate.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>For example, "C:\ ACS2ClientCertificate.pfx".</source>
+            <target state="new">For example, "C:\ ACS2ClientCertificate.pfx".</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Replace “MyCertificatePassword” with the password for your X.509 certificate.</source>
+            <target state="new">Replace “MyCertificatePassword” with the password for your X.509 certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Add a Token Signing Certificate for a Relying Party Application</source>
+            <target state="new">Add a Token Signing Certificate for a Relying Party Application</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>In this example, you create an X.509 signing certificate that is assigned to a particular relying party application.</source>
+            <target state="new">In this example, you create an X.509 signing certificate that is assigned to a particular relying party application.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>How to add a token signing certificate for a relying party application</source>
+            <target state="new">How to add a token signing certificate for a relying party application</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Initialize the Management Service client by adding the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</source>
+            <target state="new">Initialize the Management Service client by adding the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Create a helper function <bpt id="1">&lt;userInput&gt;</bpt>ReadBytesFromPfxFile<ept id="1">&lt;/userInput&gt;</ept> to read bytes out of your X.509 certificate by adding the following code to the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</source>
+            <target state="new">Create a helper function <bpt id="1">&lt;userInput&gt;</bpt>ReadBytesFromPfxFile<ept id="1">&lt;/userInput&gt;</ept> to read bytes out of your X.509 certificate by adding the following code to the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>To add a token signing X.509 certificate, add the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</source>
+            <target state="new">To add a token signing X.509 certificate, add the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Replace "Full path to your .PFX file" with the full path to your X.509 certificate.</source>
+            <target state="new">Replace "Full path to your .PFX file" with the full path to your X.509 certificate.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>For example, "C:\ ACS2ClientCertificate.pfx".</source>
+            <target state="new">For example, "C:\ ACS2ClientCertificate.pfx".</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Replace “MyCertificatePassword” with the password for your X.509 certificate.</source>
+            <target state="new">Replace “MyCertificatePassword” with the password for your X.509 certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Replace “MyRelyingPartyApplication” with the name of the relying party application.</source>
+            <target state="new">Replace “MyRelyingPartyApplication” with the name of the relying party application.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Add a Token Signing Symmetric Key for Your <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph></source>
+            <target state="new">Add a Token Signing Symmetric Key for Your <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>In this example, you assign this signing symmetric key to your <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</source>
+            <target state="new">In this example, you assign this signing symmetric key to your <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>To add a token signing symmetric key for your <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph></source>
+            <target state="new">To add a token signing symmetric key for your <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Initialize the Management Service client by adding the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</source>
+            <target state="new">Initialize the Management Service client by adding the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>To add a token signing symmetric key add the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</source>
+            <target state="new">To add a token signing symmetric key add the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Add a Token Signing Symmetric Key for a Relying Party Application</source>
+            <target state="new">Add a Token Signing Symmetric Key for a Relying Party Application</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>In this example, you assign your new signing symmetric key to a particular relying party application.</source>
+            <target state="new">In this example, you assign your new signing symmetric key to a particular relying party application.</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>To add a token signing symmetric key for a relying party application</source>
+            <target state="new">To add a token signing symmetric key for a relying party application</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Initialize the Management Service client by adding the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</source>
+            <target state="new">Initialize the Management Service client by adding the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>To add a token signing symmetric key, add the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</source>
+            <target state="new">To add a token signing symmetric key, add the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Add a Token Encryption Certificate</source>
+            <target state="new">Add a Token Encryption Certificate</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>In this example, you add an X.509 token encryption certificate for a particular relying party application.</source>
+            <target state="new">In this example, you add an X.509 token encryption certificate for a particular relying party application.</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>To add a token encryption certificate for a relying party application</source>
+            <target state="new">To add a token encryption certificate for a relying party application</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Initialize the Management Service client by adding the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</source>
+            <target state="new">Initialize the Management Service client by adding the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>To add a token encryption X.509 certificate, add the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</source>
+            <target state="new">To add a token encryption X.509 certificate, add the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Replace "Full path to your .CER file" with the full path to an X.509 certificate.</source>
+            <target state="new">Replace "Full path to your .CER file" with the full path to an X.509 certificate.</target>
+          </trans-unit>
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>For example, "C:\ ACS2ClientCertificate.cer".</source>
+            <target state="new">For example, "C:\ ACS2ClientCertificate.cer".</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Replace “MyCertificatePassword” with the password for the X.509 certificate.</source>
+            <target state="new">Replace “MyCertificatePassword” with the password for the X.509 certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Replace “MyRelyingPartyApplication” with the name of a relying party application.</source>
+            <target state="new">Replace “MyRelyingPartyApplication” with the name of a relying party application.</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Add a Token Decryption Certificate</source>
+            <target state="new">Add a Token Decryption Certificate</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>In this example, you add an X.509 token decryption certificate assigned to your <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</source>
+            <target state="new">In this example, you add an X.509 token decryption certificate assigned to your <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>To add a token signing certificate for all relying party applications in the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph></source>
+            <target state="new">To add a token signing certificate for all relying party applications in the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Initialize the Management Service client by adding the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</source>
+            <target state="new">Initialize the Management Service client by adding the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Create a helper function <bpt id="1">&lt;userInput&gt;</bpt>ReadBytesFromPfxFile<ept id="1">&lt;/userInput&gt;</ept> to read bytes out of your X.509 certificate by adding the following code to the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</source>
+            <target state="new">Create a helper function <bpt id="1">&lt;userInput&gt;</bpt>ReadBytesFromPfxFile<ept id="1">&lt;/userInput&gt;</ept> to read bytes out of your X.509 certificate by adding the following code to the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>To add a token signing X.509 certificate, add the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</source>
+            <target state="new">To add a token signing X.509 certificate, add the following code to the <bpt id="1">&lt;ui&gt;</bpt>Main<ept id="1">&lt;/ui&gt;</ept> method in the <bpt id="2">&lt;ui&gt;</bpt>Program<ept id="2">&lt;/ui&gt;</ept> class:</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Substitute "Full path to your .PFX file" in the code below with the valid full path to your X.509 certificate.</source>
+            <target state="new">Substitute "Full path to your .PFX file" in the code below with the valid full path to your X.509 certificate.</target>
+          </trans-unit>
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>For example, if a certificate called ACS2ClientCertificate.pfx is saved under C:\, the correct value is "C:\ ACS2ClientCertificate.pfx".</source>
+            <target state="new">For example, if a certificate called ACS2ClientCertificate.pfx is saved under C:\, the correct value is "C:\ ACS2ClientCertificate.pfx".</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Substitute “MyCertificatePassword” in the code below with the correct password for your X.509 certificate.</source>
+            <target state="new">Substitute “MyCertificatePassword” in the code below with the correct password for your X.509 certificate.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

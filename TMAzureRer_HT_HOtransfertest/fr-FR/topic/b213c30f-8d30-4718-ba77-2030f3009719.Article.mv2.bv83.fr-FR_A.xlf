@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzMEJwzAMAMBVPIAEki1HdgcofZcuILsWBNIE0hQyfvO9x7mn0SR2HEMEhZ2wUWnYiW2q1dmsQlDLucepomkqKJYdm7JgNVeibl5bh9Aip57IsbwToSgXbKaKkS5MRFX5uhiC73h/QjiX2X2cx23ftgNChFAShMfvY+trt/W72DFv6x+I9AvcogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Put Blob</source>
+            <target state="new">Put Blob</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Put Blob</source>
+            <target state="new">Put Blob</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;unmanagedCodeEntityReference&gt;Put Blob&lt;/unmanagedCodeEntityReference&gt;</ph> operation creates a new block, page, or append blob, or updates the content of an existing block blob.</source>
+            <target state="new">The <ph id="1">&lt;unmanagedCodeEntityReference&gt;Put Blob&lt;/unmanagedCodeEntityReference&gt;</ph> operation creates a new block, page, or append blob, or updates the content of an existing block blob.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Updating an existing block blob overwrites any existing metadata on the blob.</source>
+            <target state="new">Updating an existing block blob overwrites any existing metadata on the blob.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Partial updates are not supported with <bpt id="1">&lt;legacyBold&gt;</bpt>Put Blob<ept id="1">&lt;/legacyBold&gt;</ept>; the content of the existing blob is overwritten with the content of the new blob.</source>
+            <target state="new">Partial updates are not supported with <bpt id="1">&lt;legacyBold&gt;</bpt>Put Blob<ept id="1">&lt;/legacyBold&gt;</ept>; the content of the existing blob is overwritten with the content of the new blob.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>To perform a partial update of the content of a block blob, use the <ph id="1">&lt;link xlink:href="c864893e-d758-475a-b419-af0c60dd2569" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Block List&lt;/link&gt;</ph> operation.</source>
+            <target state="new">To perform a partial update of the content of a block blob, use the <ph id="1">&lt;link xlink:href="c864893e-d758-475a-b419-af0c60dd2569" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Block List&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Note that you can create an append blob only in version 2015-02-21 and later.</source>
+            <target state="new">Note that you can create an append blob only in version 2015-02-21 and later.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>A call to a <ph id="1">&lt;languageKeyword&gt;Put Blob&lt;/languageKeyword&gt;</ph> to create a page blob or an append blob only initializes the blob.</source>
+            <target state="new">A call to a <ph id="1">&lt;languageKeyword&gt;Put Blob&lt;/languageKeyword&gt;</ph> to create a page blob or an append blob only initializes the blob.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>To add content to a page blob, call the <ph id="1">&lt;link xlink:href="ba36957a-ffd0-4080-8325-0fbb85d56330" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Page&lt;/link&gt;</ph> operation.</source>
+            <target state="new">To add content to a page blob, call the <ph id="1">&lt;link xlink:href="ba36957a-ffd0-4080-8325-0fbb85d56330" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Page&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>To add content to an append blob, call the <ph id="1">&lt;link xlink:href="08d3ac04-23b4-4d39-9c40-06a38bdc6df1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Append Block&lt;/link&gt;</ph> operation.</source>
+            <target state="new">To add content to an append blob, call the <ph id="1">&lt;link xlink:href="08d3ac04-23b4-4d39-9c40-06a38bdc6df1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Append Block&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Request</source>
+            <target state="new">Request</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;unmanagedCodeEntityReference&gt;Put Blob&lt;/unmanagedCodeEntityReference&gt;</ph> request may be constructed as follows.</source>
+            <target state="new">The <ph id="1">&lt;unmanagedCodeEntityReference&gt;Put Blob&lt;/unmanagedCodeEntityReference&gt;</ph> request may be constructed as follows.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>HTTPS is recommended.</source>
+            <target state="new">HTTPS is recommended.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Replace <bpt id="1">&lt;placeholder&gt;</bpt>myaccount<ept id="1">&lt;/placeholder&gt;</ept> with the name of your storage account:</source>
+            <target state="new">Replace <bpt id="1">&lt;placeholder&gt;</bpt>myaccount<ept id="1">&lt;/placeholder&gt;</ept> with the name of your storage account:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>PUT Method Request URI</source>
+            <target state="new">PUT Method Request URI</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>HTTP Version</source>
+            <target state="new">HTTP Version</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>HTTP/1.1</source>
+            <target state="new">HTTP/1.1</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Emulated Storage Service URI</source>
+            <target state="new">Emulated Storage Service URI</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>When making a request against the emulated storage service, specify the emulator hostname and Blob service port as <ph id="1">&lt;codeInline&gt;127.0.0.1:10000&lt;/codeInline&gt;</ph>, followed by the emulated storage account name:</source>
+            <target state="new">When making a request against the emulated storage service, specify the emulator hostname and Blob service port as <ph id="1">&lt;codeInline&gt;127.0.0.1:10000&lt;/codeInline&gt;</ph>, followed by the emulated storage account name:</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>PUT Method Request URI</source>
+            <target state="new">PUT Method Request URI</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>HTTP Version</source>
+            <target state="new">HTTP Version</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>HTTP/1.1</source>
+            <target state="new">HTTP/1.1</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Note that the storage emulator only supports blob sizes up to 2 GB.</source>
+            <target state="new">Note that the storage emulator only supports blob sizes up to 2 GB.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>For more information, see <bpt id="1">&lt;legacyLink xlink:href="f0e3acde-f019-4148-9544-34cf2ff27211" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Using the Azure Storage Emulator for Development and Testing<ept id="1">&lt;/legacyLink&gt;</ept>.</source>
+            <target state="new">For more information, see <bpt id="1">&lt;legacyLink xlink:href="f0e3acde-f019-4148-9544-34cf2ff27211" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Using the Azure Storage Emulator for Development and Testing<ept id="1">&lt;/legacyLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>URI Parameters</source>
+            <target state="new">URI Parameters</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>The following additional parameters may be specified on the request URI.</source>
+            <target state="new">The following additional parameters may be specified on the request URI.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Parameter</source>
+            <target state="new">Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference &gt;&lt;/parameterReference&gt;</ph></source>
+            <target state="new">The <ph id="1">&lt;parameterReference &gt;&lt;/parameterReference&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>timeout parameter is expressed in seconds.</source>
+            <target state="new">timeout parameter is expressed in seconds.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="9ae411fa-1495-42a0-bc26-c41ebca9d5b8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Setting Timeouts for Blob Service Operations&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="9ae411fa-1495-42a0-bc26-c41ebca9d5b8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Setting Timeouts for Blob Service Operations&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Request Headers (All Blob Types)</source>
+            <target state="new">Request Headers (All Blob Types)</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>The following table describes required and optional request headers for all blob types.</source>
+            <target state="new">The following table describes required and optional request headers for all blob types.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Request header</source>
+            <target state="new">Request header</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Specifies the authentication scheme, account name, and signature.</source>
+            <target state="new">Specifies the authentication scheme, account name, and signature.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="96cec7bc-63cc-4227-920a-dddd850433c9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Authentication Schemes&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="96cec7bc-63cc-4227-920a-dddd850433c9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Authentication Schemes&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph> or <ph id="2">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph></source>
+            <target state="new"><ph id="1">&lt;parameterReference&gt;Date&lt;/parameterReference&gt;</ph> or <ph id="2">&lt;parameterReference&gt;x-ms-date&lt;/parameterReference&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Specifies the Coordinated Universal Time (UTC) for the request.</source>
+            <target state="new">Specifies the Coordinated Universal Time (UTC) for the request.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="96cec7bc-63cc-4227-920a-dddd850433c9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Authentication Schemes&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="96cec7bc-63cc-4227-920a-dddd850433c9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Authentication Schemes&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Required for all authenticated requests.</source>
+            <target state="new">Required for all authenticated requests.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Specifies the version of the operation to use for this request.</source>
+            <target state="new">Specifies the version of the operation to use for this request.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="cc4fba5c-7015-40bf-a29c-b6f0c684ff3c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Storage Service Versioning&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="cc4fba5c-7015-40bf-a29c-b6f0c684ff3c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Storage Service Versioning&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>The length of the request.</source>
+            <target state="new">The length of the request.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>For a page blob or an append blob, the value of this header must be set to zero, as <ph id="1">&lt;link xlink:href="b213c30f-8d30-4718-ba77-2030f3009719" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Blob&lt;/link&gt;</ph> is used only to initialize the blob.</source>
+            <target state="new">For a page blob or an append blob, the value of this header must be set to zero, as <ph id="1">&lt;link xlink:href="b213c30f-8d30-4718-ba77-2030f3009719" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Blob&lt;/link&gt;</ph> is used only to initialize the blob.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>To write content to an existing page blob, call <ph id="1">&lt;link xlink:href="ba36957a-ffd0-4080-8325-0fbb85d56330" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Page&lt;/link&gt;</ph>.</source>
+            <target state="new">To write content to an existing page blob, call <ph id="1">&lt;link xlink:href="ba36957a-ffd0-4080-8325-0fbb85d56330" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Page&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>To write content to an append blob, call <ph id="1">&lt;link xlink:href="08d3ac04-23b4-4d39-9c40-06a38bdc6df1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Append Block&lt;/link&gt;</ph>.</source>
+            <target state="new">To write content to an append blob, call <ph id="1">&lt;link xlink:href="08d3ac04-23b4-4d39-9c40-06a38bdc6df1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Append Block&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>The MIME content type of the blob.</source>
+            <target state="new">The MIME content type of the blob.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>The default type is <ph id="1">&lt;unmanagedCodeEntityReference&gt;application/octet-stream&lt;/unmanagedCodeEntityReference&gt;</ph>.</source>
+            <target state="new">The default type is <ph id="1">&lt;unmanagedCodeEntityReference&gt;application/octet-stream&lt;/unmanagedCodeEntityReference&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Specifies which content encodings have been applied to the blob.</source>
+            <target state="new">Specifies which content encodings have been applied to the blob.</target>
+          </trans-unit>
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>This value is returned to the client when the <ph id="1">&lt;link xlink:href="a3e943b4-5745-4e64-9d6f-728bbefbd5ee" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob&lt;/link&gt;</ph> operation is performed on the blob resource.</source>
+            <target state="new">This value is returned to the client when the <ph id="1">&lt;link xlink:href="a3e943b4-5745-4e64-9d6f-728bbefbd5ee" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob&lt;/link&gt;</ph> operation is performed on the blob resource.</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>The client can use this value when returned to decode the blob content.</source>
+            <target state="new">The client can use this value when returned to decode the blob content.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Specifies the natural languages used by this resource.</source>
+            <target state="new">Specifies the natural languages used by this resource.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>An MD5 hash of the blob content.</source>
+            <target state="new">An MD5 hash of the blob content.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>This hash is used to verify the integrity of the blob during transport.</source>
+            <target state="new">This hash is used to verify the integrity of the blob during transport.</target>
+          </trans-unit>
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>When this header is specified, the storage service checks the hash that has arrived with the one that was sent.</source>
+            <target state="new">When this header is specified, the storage service checks the hash that has arrived with the one that was sent.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>If the two hashes do not match, the operation will fail with error code 400 (Bad Request).</source>
+            <target state="new">If the two hashes do not match, the operation will fail with error code 400 (Bad Request).</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>When omitted in version 2012-02-12 and later, the Blob service generates an MD5 hash.</source>
+            <target state="new">When omitted in version 2012-02-12 and later, the Blob service generates an MD5 hash.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Results from <ph id="1">&lt;link xlink:href="a3e943b4-5745-4e64-9d6f-728bbefbd5ee" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob (REST API)&lt;/link&gt;</ph>, <ph id="2">&lt;link xlink:href="56a87f11-8f6b-44c8-b46f-7531d359875e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob Properties (REST API)&lt;/link&gt;</ph>, and <ph id="3">&lt;link xlink:href="fa4760a6-5343-4aa1-b484-df823ce817e7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;List Blobs (REST API)&lt;/link&gt;</ph> include the MD5 hash.</source>
+            <target state="new">Results from <ph id="1">&lt;link xlink:href="a3e943b4-5745-4e64-9d6f-728bbefbd5ee" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob (REST API)&lt;/link&gt;</ph>, <ph id="2">&lt;link xlink:href="56a87f11-8f6b-44c8-b46f-7531d359875e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob Properties (REST API)&lt;/link&gt;</ph>, and <ph id="3">&lt;link xlink:href="fa4760a6-5343-4aa1-b484-df823ce817e7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;List Blobs (REST API)&lt;/link&gt;</ph> include the MD5 hash.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>The Blob service stores this value but does not use or modify it.</source>
+            <target state="new">The Blob service stores this value but does not use or modify it.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Set the blob’s content type.</source>
+            <target state="new">Set the blob’s content type.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Set the blob’s content encoding.</source>
+            <target state="new">Set the blob’s content encoding.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Set the blob's content language.</source>
+            <target state="new">Set the blob's content language.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Set the blob’s MD5 hash.</source>
+            <target state="new">Set the blob’s MD5 hash.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Sets the blob's cache control.</source>
+            <target state="new">Sets the blob's cache control.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Specifies the type of blob to create: block blob, page blob, or append blob.</source>
+            <target state="new">Specifies the type of blob to create: block blob, page blob, or append blob.</target>
+          </trans-unit>
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Support for creating an append blob is available only in version 2015-02-21 and later.</source>
+            <target state="new">Support for creating an append blob is available only in version 2015-02-21 and later.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Name-value pairs associated with the blob as metadata.</source>
+            <target state="new">Name-value pairs associated with the blob as metadata.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Note that beginning with version 2009-09-19, metadata names must adhere to the naming rules for <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>C# identifiers<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/aa664670%28VS.71%29.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">Note that beginning with version 2009-09-19, metadata names must adhere to the naming rules for <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>C# identifiers<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/aa664670%28VS.71%29.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Required if the blob has an active lease.</source>
+            <target state="new">Required if the blob has an active lease.</target>
+          </trans-unit>
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>To perform this operation on a blob with an active lease, specify the valid lease ID for this header.</source>
+            <target state="new">To perform this operation on a blob with an active lease, specify the valid lease ID for this header.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Sets the blob’s <ph id="1">&lt;parameterReference&gt;Content-Disposition&lt;/parameterReference&gt;</ph> header.</source>
+            <target state="new">Sets the blob’s <ph id="1">&lt;parameterReference&gt;Content-Disposition&lt;/parameterReference&gt;</ph> header.</target>
+          </trans-unit>
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Available for versions 2013-08-15 and later.</source>
+            <target state="new">Available for versions 2013-08-15 and later.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;Content-Disposition&lt;/parameterReference&gt;</ph> response header field conveys additional information about how to process the response payload, and also can be used to attach additional metadata.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;Content-Disposition&lt;/parameterReference&gt;</ph> response header field conveys additional information about how to process the response payload, and also can be used to attach additional metadata.</target>
+          </trans-unit>
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>For example, if set to <ph id="1">&lt;codeInline&gt;attachment&lt;/codeInline&gt;</ph>, it indicates that the user-agent should not display the response, but instead show a <bpt id="2">&lt;ui&gt;</bpt>Save As<ept id="2">&lt;/ui&gt;</ept> dialog with a filename other than the blob name specified.</source>
+            <target state="new">For example, if set to <ph id="1">&lt;codeInline&gt;attachment&lt;/codeInline&gt;</ph>, it indicates that the user-agent should not display the response, but instead show a <bpt id="2">&lt;ui&gt;</bpt>Save As<ept id="2">&lt;/ui&gt;</ept> dialog with a filename other than the blob name specified.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>The response from the <ph id="1">&lt;link xlink:href="a3e943b4-5745-4e64-9d6f-728bbefbd5ee" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob (REST API)&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="56a87f11-8f6b-44c8-b46f-7531d359875e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob Properties (REST API)&lt;/link&gt;</ph> operations includes the <ph id="3">&lt;parameterReference&gt;content-disposition&lt;/parameterReference&gt;</ph> header.</source>
+            <target state="new">The response from the <ph id="1">&lt;link xlink:href="a3e943b4-5745-4e64-9d6f-728bbefbd5ee" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob (REST API)&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="56a87f11-8f6b-44c8-b46f-7531d359875e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob Properties (REST API)&lt;/link&gt;</ph> operations includes the <ph id="3">&lt;parameterReference&gt;content-disposition&lt;/parameterReference&gt;</ph> header.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Specifies the origin from which the request is issued.</source>
+            <target state="new">Specifies the origin from which the request is issued.</target>
+          </trans-unit>
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>The presence of this header results in cross-origin resource sharing headers on the response.</source>
+            <target state="new">The presence of this header results in cross-origin resource sharing headers on the response.</target>
+          </trans-unit>
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="a7d724fb-63f9-41e2-944e-23af461ec123" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Cross-Origin Resource Sharing (CORS) Support for the Azure Storage Services&lt;/link&gt;</ph> for details.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="a7d724fb-63f9-41e2-944e-23af461ec123" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Cross-Origin Resource Sharing (CORS) Support for the Azure Storage Services&lt;/link&gt;</ph> for details.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Provides a client-generated, opaque value with a 1 KB character limit that is recorded in the analytics logs when storage analytics logging is enabled.</source>
+            <target state="new">Provides a client-generated, opaque value with a 1 KB character limit that is recorded in the analytics logs when storage analytics logging is enabled.</target>
+          </trans-unit>
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Using this header is highly recommended for correlating client-side activities with requests received by the server.</source>
+            <target state="new">Using this header is highly recommended for correlating client-side activities with requests received by the server.</target>
+          </trans-unit>
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="1727932c-8a3b-4502-86ac-c89931d54bac" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;About Storage Analytics Logging&lt;/link&gt;</ph> and <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>Azure Logging: Using Logs to Track Storage Requests<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://blogs.msdn.com/b/windowsazurestorage/archive/2011/08/03/windows-azure-storage-logging-using-logs-to-track-storage-requests.aspx&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="1727932c-8a3b-4502-86ac-c89931d54bac" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;About Storage Analytics Logging&lt;/link&gt;</ph> and <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>Azure Logging: Using Logs to Track Storage Requests<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://blogs.msdn.com/b/windowsazurestorage/archive/2011/08/03/windows-azure-storage-logging-using-logs-to-track-storage-requests.aspx&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>This operation also supports the use of conditional headers to write the blob only if a specified condition is met.</source>
+            <target state="new">This operation also supports the use of conditional headers to write the blob only if a specified condition is met.</target>
+          </trans-unit>
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="36087161-9e7c-47e4-904c-3392cc35a8e9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Specifying Conditional Headers for Blob Storage Operations&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="36087161-9e7c-47e4-904c-3392cc35a8e9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Specifying Conditional Headers for Blob Storage Operations&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>Request Headers (Page Blobs Only)</source>
+            <target state="new">Request Headers (Page Blobs Only)</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>The following table describes request headers applicable only for operations on page blobs.</source>
+            <target state="new">The following table describes request headers applicable only for operations on page blobs.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Request header</source>
+            <target state="new">Request header</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>Required for page blobs.</source>
+            <target state="new">Required for page blobs.</target>
+          </trans-unit>
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>This header specifies the maximum size for the page blob, up to 1 TB.</source>
+            <target state="new">This header specifies the maximum size for the page blob, up to 1 TB.</target>
+          </trans-unit>
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>The page blob size must be aligned to a 512-byte boundary.</source>
+            <target state="new">The page blob size must be aligned to a 512-byte boundary.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>If this header is specified for a block blob or an append blob, the Blob service returns status code 400 (Bad Request).</source>
+            <target state="new">If this header is specified for a block blob or an append blob, the Blob service returns status code 400 (Bad Request).</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>Set for page blobs only.</source>
+            <target state="new">Set for page blobs only.</target>
+          </trans-unit>
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>The sequence number is a user-controlled value that you can use to track requests.</source>
+            <target state="new">The sequence number is a user-controlled value that you can use to track requests.</target>
+          </trans-unit>
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>The value of the sequence number must be between 0 and 2<bpt id="1">&lt;superscript&gt;</bpt>^63<ept id="1">&lt;/superscript&gt;</ept> - 1.The default value is 0.</source>
+            <target state="new">The value of the sequence number must be between 0 and 2<bpt id="1">&lt;superscript&gt;</bpt>^63<ept id="1">&lt;/superscript&gt;</ept> - 1.The default value is 0.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Request Body</source>
+            <target state="new">Request Body</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>For a block blob, the request body contains the content of the blob.</source>
+            <target state="new">For a block blob, the request body contains the content of the blob.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>For a page blob or an append blob, the request body is empty.</source>
+            <target state="new">For a page blob or an append blob, the request body is empty.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>Sample Request</source>
+            <target state="new">Sample Request</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>The following example shows a request to create a block blob:</source>
+            <target state="new">The following example shows a request to create a block blob:</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>This sample request creates a page blob and specifies its maximum size as 1024 bytes.</source>
+            <target state="new">This sample request creates a page blob and specifies its maximum size as 1024 bytes.</target>
+          </trans-unit>
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>Note that you must call <ph id="1">&lt;link xlink:href="ba36957a-ffd0-4080-8325-0fbb85d56330" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Page&lt;/link&gt;</ph> to add content to a page blob:</source>
+            <target state="new">Note that you must call <ph id="1">&lt;link xlink:href="ba36957a-ffd0-4080-8325-0fbb85d56330" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Page&lt;/link&gt;</ph> to add content to a page blob:</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>This sample request creates an append blob.</source>
+            <target state="new">This sample request creates an append blob.</target>
+          </trans-unit>
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>Note that you must call <ph id="1">&lt;link xlink:href="08d3ac04-23b4-4d39-9c40-06a38bdc6df1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Append Block&lt;/link&gt;</ph> to add content to the append blob:</source>
+            <target state="new">Note that you must call <ph id="1">&lt;link xlink:href="08d3ac04-23b4-4d39-9c40-06a38bdc6df1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Append Block&lt;/link&gt;</ph> to add content to the append blob:</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>Response</source>
+            <target state="new">Response</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>The response includes an HTTP status code and a set of response headers.</source>
+            <target state="new">The response includes an HTTP status code and a set of response headers.</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>Status Code</source>
+            <target state="new">Status Code</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>A successful operation returns status code 201 (Created).</source>
+            <target state="new">A successful operation returns status code 201 (Created).</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>For information about status codes, see <ph id="1">&lt;link xlink:href="4421ac96-38eb-4ea3-8104-f9975c3bf153" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Status and Error Codes&lt;/link&gt;</ph>.</source>
+            <target state="new">For information about status codes, see <ph id="1">&lt;link xlink:href="4421ac96-38eb-4ea3-8104-f9975c3bf153" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Status and Error Codes&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>Response Headers</source>
+            <target state="new">Response Headers</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>The response for this operation includes the following headers.</source>
+            <target state="new">The response for this operation includes the following headers.</target>
+          </trans-unit>
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>The response can also include additional standard HTTP headers.</source>
+            <target state="new">The response can also include additional standard HTTP headers.</target>
+          </trans-unit>
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>All standard headers conform to the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>HTTP/1.1 protocol specification<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?linkid=150478&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">All standard headers conform to the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>HTTP/1.1 protocol specification<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?linkid=150478&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>Response header</source>
+            <target state="new">Response header</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>The ETag contains a value that the client can use to perform conditional <ph id="1">&lt;unmanagedCodeEntityReference&gt;PUT&lt;/unmanagedCodeEntityReference&gt;</ph> operations by using the <ph id="2">&lt;parameterReference&gt;If-Match&lt;/parameterReference&gt;</ph> request header.</source>
+            <target state="new">The ETag contains a value that the client can use to perform conditional <ph id="1">&lt;unmanagedCodeEntityReference&gt;PUT&lt;/unmanagedCodeEntityReference&gt;</ph> operations by using the <ph id="2">&lt;parameterReference&gt;If-Match&lt;/parameterReference&gt;</ph> request header.</target>
+          </trans-unit>
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>If the request version is 2011-08-18 or newer, the ETag value will be in quotes.</source>
+            <target state="new">If the request version is 2011-08-18 or newer, the ETag value will be in quotes.</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>The date/time that the blob was last modified.</source>
+            <target state="new">The date/time that the blob was last modified.</target>
+          </trans-unit>
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>The date format follows RFC 1123.</source>
+            <target state="new">The date format follows RFC 1123.</target>
+          </trans-unit>
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="d4f67d84-a51c-4ff7-8bd0-0ae206c9e3c9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Representation of Date/Time Values&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="d4f67d84-a51c-4ff7-8bd0-0ae206c9e3c9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Representation of Date/Time Values&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>Any write operation on the blob (including updates on the blob's metadata or properties) changes the last modified time of the blob.</source>
+            <target state="new">Any write operation on the blob (including updates on the blob's metadata or properties) changes the last modified time of the blob.</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>This header is returned for a block blob so the client can check the integrity of message content.</source>
+            <target state="new">This header is returned for a block blob so the client can check the integrity of message content.</target>
+          </trans-unit>
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;Content-MD5&lt;/parameterReference&gt;</ph> value returned is computed by the Blob service.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;Content-MD5&lt;/parameterReference&gt;</ph> value returned is computed by the Blob service.</target>
+          </trans-unit>
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>In version 2012-02-12 and later, this header is returned even when the request does not include <ph id="1">&lt;parameterReference&gt;Content-MD5&lt;/parameterReference&gt;</ph> or <ph id="2">&lt;parameterReference&gt;x-ms-blob-content-md5&lt;/parameterReference&gt;</ph> headers.</source>
+            <target state="new">In version 2012-02-12 and later, this header is returned even when the request does not include <ph id="1">&lt;parameterReference&gt;Content-MD5&lt;/parameterReference&gt;</ph> or <ph id="2">&lt;parameterReference&gt;x-ms-blob-content-md5&lt;/parameterReference&gt;</ph> headers.</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>This header uniquely identifies the request that was made and can be used for troubleshooting the request.</source>
+            <target state="new">This header uniquely identifies the request that was made and can be used for troubleshooting the request.</target>
+          </trans-unit>
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="b20a45d8-7453-487c-b492-69dc5a5b6d2d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Troubleshooting API Operations&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="b20a45d8-7453-487c-b492-69dc5a5b6d2d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Troubleshooting API Operations&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>Indicates the version of the Blob service used to execute the request.</source>
+            <target state="new">Indicates the version of the Blob service used to execute the request.</target>
+          </trans-unit>
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>This header is returned for requests made against version 2009-09-19 and later.</source>
+            <target state="new">This header is returned for requests made against version 2009-09-19 and later.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>A UTC date/time value generated by the service that indicates the time at which the response was initiated.</source>
+            <target state="new">A UTC date/time value generated by the service that indicates the time at which the response was initiated.</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>Returned if the request includes an <ph id="1">&lt;parameterReference&gt;Origin&lt;/parameterReference&gt;</ph> header and CORS is enabled with a matching rule.</source>
+            <target state="new">Returned if the request includes an <ph id="1">&lt;parameterReference&gt;Origin&lt;/parameterReference&gt;</ph> header and CORS is enabled with a matching rule.</target>
+          </trans-unit>
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>This header returns the value of the origin request header in case of a match.</source>
+            <target state="new">This header returns the value of the origin request header in case of a match.</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>Returned if the request includes an <ph id="1">&lt;parameterReference&gt;Origin&lt;/parameterReference&gt;</ph> header and CORS is enabled with a matching rule.</source>
+            <target state="new">Returned if the request includes an <ph id="1">&lt;parameterReference&gt;Origin&lt;/parameterReference&gt;</ph> header and CORS is enabled with a matching rule.</target>
+          </trans-unit>
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>Returns the list of response headers that are to be exposed to the client or issuer of the request.</source>
+            <target state="new">Returns the list of response headers that are to be exposed to the client or issuer of the request.</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>Returned if the request includes an <ph id="1">&lt;parameterReference&gt;Origin&lt;/parameterReference&gt;</ph> header and CORS is enabled with a matching rule that does not allow all origins.</source>
+            <target state="new">Returned if the request includes an <ph id="1">&lt;parameterReference&gt;Origin&lt;/parameterReference&gt;</ph> header and CORS is enabled with a matching rule that does not allow all origins.</target>
+          </trans-unit>
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>This header will be set to true.</source>
+            <target state="new">This header will be set to true.</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>Response Body</source>
+            <target state="new">Response Body</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>None.</source>
+            <target state="new">None.</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>Sample Response</source>
+            <target state="new">Sample Response</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>Authorization</source>
+            <target state="new">Authorization</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>This operation can be called by the account owner and by any client with a shared access signature that has permission to write to this blob or its container.</source>
+            <target state="new">This operation can be called by the account owner and by any client with a shared access signature that has permission to write to this blob or its container.</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>When you create a blob, you must specify whether it is a block blob, append blob, or page blob.</source>
+            <target state="new">When you create a blob, you must specify whether it is a block blob, append blob, or page blob.</target>
+          </trans-unit>
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>Once a blob has been created, the type of the blob cannot be changed unless it is deleted and re-created.</source>
+            <target state="new">Once a blob has been created, the type of the blob cannot be changed unless it is deleted and re-created.</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>To create a new page blob, first initialize the blob by calling <ph id="1">&lt;unmanagedCodeEntityReference&gt;Put Blob&lt;/unmanagedCodeEntityReference&gt;</ph> and specify its maximum size, up to 1 TB.</source>
+            <target state="new">To create a new page blob, first initialize the blob by calling <ph id="1">&lt;unmanagedCodeEntityReference&gt;Put Blob&lt;/unmanagedCodeEntityReference&gt;</ph> and specify its maximum size, up to 1 TB.</target>
+          </trans-unit>
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>When creating a page blob, do not include content in the request body.</source>
+            <target state="new">When creating a page blob, do not include content in the request body.</target>
+          </trans-unit>
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>Once the blob has been created, call <ph id="1">&lt;link xlink:href="ba36957a-ffd0-4080-8325-0fbb85d56330" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Page&lt;/link&gt;</ph> to add content to the blob or to modify it.</source>
+            <target state="new">Once the blob has been created, call <ph id="1">&lt;link xlink:href="ba36957a-ffd0-4080-8325-0fbb85d56330" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Page&lt;/link&gt;</ph> to add content to the blob or to modify it.</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>The maximum upload size for a block blob is 64 MB.</source>
+            <target state="new">The maximum upload size for a block blob is 64 MB.</target>
+          </trans-unit>
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>If your blob is larger than 64 MB, you must upload it as a set of blocks.</source>
+            <target state="new">If your blob is larger than 64 MB, you must upload it as a set of blocks.</target>
+          </trans-unit>
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>For more information, see the <ph id="1">&lt;link xlink:href="de63a7ed-c489-4034-b21a-246854d7a745" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Block&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="c864893e-d758-475a-b419-af0c60dd2569" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Block List&lt;/link&gt;</ph> operations.</source>
+            <target state="new">For more information, see the <ph id="1">&lt;link xlink:href="de63a7ed-c489-4034-b21a-246854d7a745" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Block&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="c864893e-d758-475a-b419-af0c60dd2569" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Block List&lt;/link&gt;</ph> operations.</target>
+          </trans-unit>
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>It's not necessary to call <ph id="1">&lt;unmanagedCodeEntityReference&gt;Put Blob&lt;/unmanagedCodeEntityReference&gt;</ph> if you upload the blob as a set of blocks.</source>
+            <target state="new">It's not necessary to call <ph id="1">&lt;unmanagedCodeEntityReference&gt;Put Blob&lt;/unmanagedCodeEntityReference&gt;</ph> if you upload the blob as a set of blocks.</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source>If you attempt to upload a block blob that is larger than 64 MB, or a page blob larger than 1 TB, the service returns status code 413 (Request Entity Too Large).</source>
+            <target state="new">If you attempt to upload a block blob that is larger than 64 MB, or a page blob larger than 1 TB, the service returns status code 413 (Request Entity Too Large).</target>
+          </trans-unit>
+          <trans-unit id="171" translate="yes" xml:space="preserve">
+            <source>The Blob service also returns additional information about the error in the response, including the maximum blob size permitted in bytes.</source>
+            <target state="new">The Blob service also returns additional information about the error in the response, including the maximum blob size permitted in bytes.</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="172" translate="yes" xml:space="preserve">
+            <source>An append blob can be created by calling <ph id="1">&lt;languageKeyword&gt;Put Blob&lt;/languageKeyword&gt;</ph>, which creates a blob of with a content-length of zero bytes.</source>
+            <target state="new">An append blob can be created by calling <ph id="1">&lt;languageKeyword&gt;Put Blob&lt;/languageKeyword&gt;</ph>, which creates a blob of with a content-length of zero bytes.</target>
+          </trans-unit>
+          <trans-unit id="173" translate="yes" xml:space="preserve">
+            <source>Once the append blob is created, call <ph id="1">&lt;link xlink:href="08d3ac04-23b4-4d39-9c40-06a38bdc6df1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Append Block&lt;/link&gt;</ph> to add content to the end of the blob.</source>
+            <target state="new">Once the append blob is created, call <ph id="1">&lt;link xlink:href="08d3ac04-23b4-4d39-9c40-06a38bdc6df1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Append Block&lt;/link&gt;</ph> to add content to the end of the blob.</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="174" translate="yes" xml:space="preserve">
+            <source>If you call <ph id="1">&lt;unmanagedCodeEntityReference&gt;Put Blob&lt;/unmanagedCodeEntityReference&gt;</ph> to overwrite an existing blob with the same name, any snapshots associated with the original blob are retained.</source>
+            <target state="new">If you call <ph id="1">&lt;unmanagedCodeEntityReference&gt;Put Blob&lt;/unmanagedCodeEntityReference&gt;</ph> to overwrite an existing blob with the same name, any snapshots associated with the original blob are retained.</target>
+          </trans-unit>
+          <trans-unit id="175" translate="yes" xml:space="preserve">
+            <source>To remove associated snapshots, call <ph id="1">&lt;link xlink:href="7f64072c-fcc6-4e7d-8653-5017dc8da7be" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Delete Blob&lt;/link&gt;</ph> first, then <ph id="2">&lt;unmanagedCodeEntityReference&gt;Put Blob&lt;/unmanagedCodeEntityReference&gt;</ph> to re-create the blob.</source>
+            <target state="new">To remove associated snapshots, call <ph id="1">&lt;link xlink:href="7f64072c-fcc6-4e7d-8653-5017dc8da7be" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Delete Blob&lt;/link&gt;</ph> first, then <ph id="2">&lt;unmanagedCodeEntityReference&gt;Put Blob&lt;/unmanagedCodeEntityReference&gt;</ph> to re-create the blob.</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="176" translate="yes" xml:space="preserve">
+            <source>A blob has custom properties (set via headers) that you can use to store values associated with standard HTTP headers.</source>
+            <target state="new">A blob has custom properties (set via headers) that you can use to store values associated with standard HTTP headers.</target>
+          </trans-unit>
+          <trans-unit id="177" translate="yes" xml:space="preserve">
+            <source>These values can subsequently be read by calling <ph id="1">&lt;link xlink:href="56a87f11-8f6b-44c8-b46f-7531d359875e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob Properties&lt;/link&gt;</ph>, or modified by calling <ph id="2">&lt;link xlink:href="6e063a14-8ed5-4401-bd3b-ec3de4f7d74c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Properties&lt;/link&gt;</ph>.</source>
+            <target state="new">These values can subsequently be read by calling <ph id="1">&lt;link xlink:href="56a87f11-8f6b-44c8-b46f-7531d359875e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob Properties&lt;/link&gt;</ph>, or modified by calling <ph id="2">&lt;link xlink:href="6e063a14-8ed5-4401-bd3b-ec3de4f7d74c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Properties&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="178" translate="yes" xml:space="preserve">
+            <source>The custom property headers and corresponding standard HTTP header are listed in the following table:</source>
+            <target state="new">The custom property headers and corresponding standard HTTP header are listed in the following table:</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="179" translate="yes" xml:space="preserve">
+            <source>HTTP header</source>
+            <target state="new">HTTP header</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="180" translate="yes" xml:space="preserve">
+            <source>Custom blob property header</source>
+            <target state="new">Custom blob property header</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="181" translate="yes" xml:space="preserve">
+            <source>The semantics for setting persisting these property values with the blob as follows:</source>
+            <target state="new">The semantics for setting persisting these property values with the blob as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="182" translate="yes" xml:space="preserve">
+            <source>If the client specifies a custom property header, as indicated by the <ph id="1">&lt;parameterReference&gt;x-ms-blob&lt;/parameterReference&gt;</ph> prefix, this value is stored with the blob.</source>
+            <target state="new">If the client specifies a custom property header, as indicated by the <ph id="1">&lt;parameterReference&gt;x-ms-blob&lt;/parameterReference&gt;</ph> prefix, this value is stored with the blob.</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="183" translate="yes" xml:space="preserve">
+            <source>If the client specifies a standard HTTP header, but not the custom property header, the value is stored in the corresponding custom property associated with the blob, and is returned by a call to <ph id="1">&lt;unmanagedCodeEntityReference&gt;Get Blob Properties&lt;/unmanagedCodeEntityReference&gt;</ph>.</source>
+            <target state="new">If the client specifies a standard HTTP header, but not the custom property header, the value is stored in the corresponding custom property associated with the blob, and is returned by a call to <ph id="1">&lt;unmanagedCodeEntityReference&gt;Get Blob Properties&lt;/unmanagedCodeEntityReference&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="184" translate="yes" xml:space="preserve">
+            <source>For example, if the client sets the <ph id="1">&lt;parameterReference&gt;Content-Type&lt;/parameterReference&gt;</ph> header on the request, that value is stored in the blob's <ph id="2">&lt;parameterReference&gt;x-ms-blob-content-type&lt;/parameterReference&gt;</ph> property.</source>
+            <target state="new">For example, if the client sets the <ph id="1">&lt;parameterReference&gt;Content-Type&lt;/parameterReference&gt;</ph> header on the request, that value is stored in the blob's <ph id="2">&lt;parameterReference&gt;x-ms-blob-content-type&lt;/parameterReference&gt;</ph> property.</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="185" translate="yes" xml:space="preserve">
+            <source>If the client sets both the standard HTTP header and the corresponding property header on the same request, the PUT request uses the value provided for the standard HTTP header, but the value specified for the custom property header is persisted with the blob and returned by subsequent GET requests.</source>
+            <target state="new">If the client sets both the standard HTTP header and the corresponding property header on the same request, the PUT request uses the value provided for the standard HTTP header, but the value specified for the custom property header is persisted with the blob and returned by subsequent GET requests.</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="186" translate="yes" xml:space="preserve">
+            <source>If the blob has an active lease, the client must specify a valid lease ID on the request in order to overwrite the blob.</source>
+            <target state="new">If the blob has an active lease, the client must specify a valid lease ID on the request in order to overwrite the blob.</target>
+          </trans-unit>
+          <trans-unit id="187" translate="yes" xml:space="preserve">
+            <source>If the client does not specify a lease ID, or specifies an invalid lease ID, the Blob service returns status code 412 (Precondition Failed).</source>
+            <target state="new">If the client does not specify a lease ID, or specifies an invalid lease ID, the Blob service returns status code 412 (Precondition Failed).</target>
+          </trans-unit>
+          <trans-unit id="188" translate="yes" xml:space="preserve">
+            <source>If the client specifies a lease ID but the blob does not have an active lease, the Blob service also returns status code 412 (Precondition Failed).</source>
+            <target state="new">If the client specifies a lease ID but the blob does not have an active lease, the Blob service also returns status code 412 (Precondition Failed).</target>
+          </trans-unit>
+          <trans-unit id="189" translate="yes" xml:space="preserve">
+            <source>If the client specifies a lease ID on a blob that does not yet exist, the Blob service will return status code 412 (Precondition Failed) for requests made against version 2013-08-15 and later; for prior versions the Blob service will return status code 201 (Created).</source>
+            <target state="new">If the client specifies a lease ID on a blob that does not yet exist, the Blob service will return status code 412 (Precondition Failed) for requests made against version 2013-08-15 and later; for prior versions the Blob service will return status code 201 (Created).</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="190" translate="yes" xml:space="preserve">
+            <source>If an existing blob with an active lease is overwritten by a <ph id="1">&lt;parameterReference&gt;Put Blob&lt;/parameterReference&gt;</ph> operation, the lease persists on the updated blob, until it expires or is released.</source>
+            <target state="new">If an existing blob with an active lease is overwritten by a <ph id="1">&lt;parameterReference&gt;Put Blob&lt;/parameterReference&gt;</ph> operation, the lease persists on the updated blob, until it expires or is released.</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="191" translate="yes" xml:space="preserve">
+            <source>A <ph id="1">&lt;unmanagedCodeEntityReference&gt;Put Blob&lt;/unmanagedCodeEntityReference&gt;</ph> operation is permitted 10 minutes per MB to complete.</source>
+            <target state="new">A <ph id="1">&lt;unmanagedCodeEntityReference&gt;Put Blob&lt;/unmanagedCodeEntityReference&gt;</ph> operation is permitted 10 minutes per MB to complete.</target>
+          </trans-unit>
+          <trans-unit id="192" translate="yes" xml:space="preserve">
+            <source>If the operation is taking longer than 10 minutes per MB on average, the operation will timeout.</source>
+            <target state="new">If the operation is taking longer than 10 minutes per MB on average, the operation will timeout.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

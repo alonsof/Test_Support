@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANyVEKwjAMANCr9AANtE26Lh5A/BYvkLQJDHSDOWHHd+/3uaMplQ5mREDZE2iaFXrKMjF7FuEYtNrwMTq03DoQWgMuWWGYeONJB1OKYXasnKtAURcgLwhz6giGXsnYqBLGkGPwHe7PGM734m7ncdu37YihXHf94/eR9bXL+n3LsWzrH0v9tAWiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Language support</source>
+            <target state="new">Language support</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Language support (Azure Search Service REST API)</source>
+            <target state="new">Language support (Azure Search Service REST API)</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Searchable fields undergo analysis that most frequently involves word-breaking, text normalization, and filtering out terms.</source>
+            <target state="new">Searchable fields undergo analysis that most frequently involves word-breaking, text normalization, and filtering out terms.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>By default, searchable fields in Azure Search are analyzed with the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Apache Lucene Standard analyzer (standard lucene)<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://lucene.apache.org/core/4_9_0/analyzers-common/index.html&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> which breaks text into elements following the <bpt id="4">&lt;externalLink&gt;</bpt><bpt id="5">&lt;linkText&gt;</bpt>"Unicode Text Segmentation"<ept id="5">&lt;/linkText&gt;</ept><ph id="6">&lt;linkUri&gt;http://unicode.org/reports/tr29/&lt;/linkUri&gt;</ph><ept id="4">&lt;/externalLink&gt;</ept> rules.</source>
+            <target state="new">By default, searchable fields in Azure Search are analyzed with the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Apache Lucene Standard analyzer (standard lucene)<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://lucene.apache.org/core/4_9_0/analyzers-common/index.html&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> which breaks text into elements following the <bpt id="4">&lt;externalLink&gt;</bpt><bpt id="5">&lt;linkText&gt;</bpt>"Unicode Text Segmentation"<ept id="5">&lt;/linkText&gt;</ept><ph id="6">&lt;linkUri&gt;http://unicode.org/reports/tr29/&lt;/linkUri&gt;</ph><ept id="4">&lt;/externalLink&gt;</ept> rules.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Additionally, the standard analyzer converts all characters to their lower case form.</source>
+            <target state="new">Additionally, the standard analyzer converts all characters to their lower case form.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Both indexed documents and search terms go through the analysis during indexing and query processing.</source>
+            <target state="new">Both indexed documents and search terms go through the analysis during indexing and query processing.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Azure Search provides the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Lucene standard analyzer<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://lucene.apache.org/core/4_2_0/analyzers-common/org/apache/lucene/analysis/standard/StandardAnalyzer.html&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, and also allows indexing fields in a variety of languages.</source>
+            <target state="new">Azure Search provides the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Lucene standard analyzer<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://lucene.apache.org/core/4_2_0/analyzers-common/org/apache/lucene/analysis/standard/StandardAnalyzer.html&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, and also allows indexing fields in a variety of languages.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Each of those languages requires a non-standard text analyzer to account for characteristics of a given language.</source>
+            <target state="new">Each of those languages requires a non-standard text analyzer to account for characteristics of a given language.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>For example, the French analyzer applies a <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Light French Stemmer<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://lucene.apache.org/core/4_9_0/analyzers-common/org/apache/lucene/analysis/fr/FrenchLightStemmer.html&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> to reduce words to their <bpt id="4">&lt;externalLink&gt;</bpt><bpt id="5">&lt;linkText&gt;</bpt>word stems<ept id="5">&lt;/linkText&gt;</ept><ph id="6">&lt;linkUri&gt;http://en.wikipedia.org/wiki/Stemming&lt;/linkUri&gt;</ph><ept id="4">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For example, the French analyzer applies a <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Light French Stemmer<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://lucene.apache.org/core/4_9_0/analyzers-common/org/apache/lucene/analysis/fr/FrenchLightStemmer.html&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> to reduce words to their <bpt id="4">&lt;externalLink&gt;</bpt><bpt id="5">&lt;linkText&gt;</bpt>word stems<ept id="5">&lt;/linkText&gt;</ept><ph id="6">&lt;linkUri&gt;http://en.wikipedia.org/wiki/Stemming&lt;/linkUri&gt;</ph><ept id="4">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Additionally, it removes <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>elisions<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://en.wikipedia.org/wiki/Elision&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> and French stop words from the analyzed text.</source>
+            <target state="new">Additionally, it removes <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>elisions<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://en.wikipedia.org/wiki/Elision&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> and French stop words from the analyzed text.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The analyzer for English extends the standard analyzer.</source>
+            <target state="new">The analyzer for English extends the standard analyzer.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>It removes possessives (trailing 's) from words, applies stemming as per <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Porter Stemming algorithm<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://tartarus.org/~martin/PorterStemmer/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> and removes English <bpt id="4">&lt;externalLink&gt;</bpt><bpt id="5">&lt;linkText&gt;</bpt>stop words<ept id="5">&lt;/linkText&gt;</ept><ph id="6">&lt;linkUri&gt;http://en.wikipedia.org/wiki/Stop_words&lt;/linkUri&gt;</ph><ept id="4">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">It removes possessives (trailing 's) from words, applies stemming as per <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Porter Stemming algorithm<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://tartarus.org/~martin/PorterStemmer/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> and removes English <bpt id="4">&lt;externalLink&gt;</bpt><bpt id="5">&lt;linkText&gt;</bpt>stop words<ept id="5">&lt;/linkText&gt;</ept><ph id="6">&lt;linkUri&gt;http://en.wikipedia.org/wiki/Stop_words&lt;/linkUri&gt;</ph><ept id="4">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The analyzer can be configured independently for each field in the index definition by setting the <ph id="1">&lt;codeInline&gt;analyzer&lt;/codeInline&gt;</ph> property.</source>
+            <target state="new">The analyzer can be configured independently for each field in the index definition by setting the <ph id="1">&lt;codeInline&gt;analyzer&lt;/codeInline&gt;</ph> property.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>For example, you can have separate fields for English, French, and Spanish hotel descriptions that exist side-by-side in the same index.</source>
+            <target state="new">For example, you can have separate fields for English, French, and Spanish hotel descriptions that exist side-by-side in the same index.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The query specifies which language-specific field to return in your search queries.</source>
+            <target state="new">The query specifies which language-specific field to return in your search queries.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="ecafed05-c746-4d9e-ac8e-653066e909b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create Index (Azure Search API)&lt;/link&gt;</ph> for details on how to specify the language analyzer on a field in the index.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="ecafed05-c746-4d9e-ac8e-653066e909b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create Index (Azure Search API)&lt;/link&gt;</ph> for details on how to specify the language analyzer on a field in the index.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Azure Search is previewing support for Microsoft's natural language processors in <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Search Service REST API Version 2015-02-28-Preview<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/en-us/documentation/articles/search-api-2015-02-28-preview#LanguageSupport/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">Azure Search is previewing support for Microsoft's natural language processors in <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Search Service REST API Version 2015-02-28-Preview<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/en-us/documentation/articles/search-api-2015-02-28-preview#LanguageSupport/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>It is not currently available in the .NET library.</source>
+            <target state="new">It is not currently available in the .NET library.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>This feature adds support for more than 50 languages—with the same technology used by Microsoft Office and Bing, built on our many years of experience with natural language processing (NLP).</source>
+            <target state="new">This feature adds support for more than 50 languages—with the same technology used by Microsoft Office and Bing, built on our many years of experience with natural language processing (NLP).</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>The NLP stack provides another choice for handling languages including a deep understanding of the unique differences across each of the supported languages.</source>
+            <target state="new">The NLP stack provides another choice for handling languages including a deep understanding of the unique differences across each of the supported languages.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Supported analyzers</source>
+            <target state="new">Supported analyzers</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Below is the list of supported analyzers together with a short description of their features:</source>
+            <target state="new">Below is the list of supported analyzers together with a short description of their features:</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Language</source>
+            <target state="new">Language</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Analyzer Name</source>
+            <target state="new">Analyzer Name</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Arabic</source>
+            <target state="new">Arabic</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>ar.lucene</source>
+            <target state="new">ar.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Implements Arabic orthographic normalization</source>
+            <target state="new">Implements Arabic orthographic normalization</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Applies light algorithmic stemming</source>
+            <target state="new">Applies light algorithmic stemming</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Filters out Arabic stop words</source>
+            <target state="new">Filters out Arabic stop words</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Armenian</source>
+            <target state="new">Armenian</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>hy.lucene</source>
+            <target state="new">hy.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Applies light algorithmic stemming</source>
+            <target state="new">Applies light algorithmic stemming</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Filters out Armenian stop words</source>
+            <target state="new">Filters out Armenian stop words</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Basque</source>
+            <target state="new">Basque</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>eu.lucene</source>
+            <target state="new">eu.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Applies light algorithmic stemming</source>
+            <target state="new">Applies light algorithmic stemming</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Filters out Basque stop words</source>
+            <target state="new">Filters out Basque stop words</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Bulgarian</source>
+            <target state="new">Bulgarian</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>bg.lucene</source>
+            <target state="new">bg.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Applies light algorithmic stemming</source>
+            <target state="new">Applies light algorithmic stemming</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Filters out Bulgarian stop words</source>
+            <target state="new">Filters out Bulgarian stop words</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Catalan</source>
+            <target state="new">Catalan</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>ca.lucene</source>
+            <target state="new">ca.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Applies light algorithmic stemming</source>
+            <target state="new">Applies light algorithmic stemming</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Filters out Catalan stop words</source>
+            <target state="new">Filters out Catalan stop words</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Removes ellisions</source>
+            <target state="new">Removes ellisions</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Chinese Simplified</source>
+            <target state="new">Chinese Simplified</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>zh-Hans.lucene</source>
+            <target state="new">zh-Hans.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Uses probabilistic knowledge models to find the optimal word segmentation</source>
+            <target state="new">Uses probabilistic knowledge models to find the optimal word segmentation</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Filters out Chinese stop words</source>
+            <target state="new">Filters out Chinese stop words</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Chinese Traditional</source>
+            <target state="new">Chinese Traditional</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>zh-Hant.lucene</source>
+            <target state="new">zh-Hant.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Indexes bigrams (overlapping groups of two adjacent Chinese characters)</source>
+            <target state="new">Indexes bigrams (overlapping groups of two adjacent Chinese characters)</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Normalizes character width differences</source>
+            <target state="new">Normalizes character width differences</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Czech</source>
+            <target state="new">Czech</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>cs.lucene</source>
+            <target state="new">cs.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Filters out Czech stop words</source>
+            <target state="new">Filters out Czech stop words</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Danish</source>
+            <target state="new">Danish</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>da.lucene</source>
+            <target state="new">da.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Filters out Danish stop words</source>
+            <target state="new">Filters out Danish stop words</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Dutch</source>
+            <target state="new">Dutch</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>nl.lucene</source>
+            <target state="new">nl.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Filters out Dutch stop words</source>
+            <target state="new">Filters out Dutch stop words</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>English</source>
+            <target state="new">English</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>en.lucene</source>
+            <target state="new">en.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Filters out English stop words</source>
+            <target state="new">Filters out English stop words</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Removes possessives</source>
+            <target state="new">Removes possessives</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Finnish</source>
+            <target state="new">Finnish</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>fi.lucene</source>
+            <target state="new">fi.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Filters out Finnish stop words</source>
+            <target state="new">Filters out Finnish stop words</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>French</source>
+            <target state="new">French</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>fr.lucene</source>
+            <target state="new">fr.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Filters out French stop words</source>
+            <target state="new">Filters out French stop words</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Removes ellisions</source>
+            <target state="new">Removes ellisions</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Galician</source>
+            <target state="new">Galician</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>gl.lucene</source>
+            <target state="new">gl.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Filters out Galician stop words</source>
+            <target state="new">Filters out Galician stop words</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>German</source>
+            <target state="new">German</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>de.lucene</source>
+            <target state="new">de.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Filters out German stop words</source>
+            <target state="new">Filters out German stop words</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Greek</source>
+            <target state="new">Greek</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>el.lucene</source>
+            <target state="new">el.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Filters out Greek stop words</source>
+            <target state="new">Filters out Greek stop words</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Hindi</source>
+            <target state="new">Hindi</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>hi.lucene</source>
+            <target state="new">hi.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Filters out Hindi stop words</source>
+            <target state="new">Filters out Hindi stop words</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Removes some differences in spelling variations</source>
+            <target state="new">Removes some differences in spelling variations</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Normalizes the Unicode representation of text in Indian languages</source>
+            <target state="new">Normalizes the Unicode representation of text in Indian languages</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Hungarian</source>
+            <target state="new">Hungarian</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>hu.lucene</source>
+            <target state="new">hu.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Filters out Hungarian stop words</source>
+            <target state="new">Filters out Hungarian stop words</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>Indonesian (Bahasa)</source>
+            <target state="new">Indonesian (Bahasa)</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>id.lucene</source>
+            <target state="new">id.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>Filters out Indonesian stop words</source>
+            <target state="new">Filters out Indonesian stop words</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>Irish</source>
+            <target state="new">Irish</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>ga.lucene</source>
+            <target state="new">ga.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Filters out Irish stop words</source>
+            <target state="new">Filters out Irish stop words</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>Italian</source>
+            <target state="new">Italian</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>it.lucene</source>
+            <target state="new">it.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>Filters out Italian stop words</source>
+            <target state="new">Filters out Italian stop words</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Removes ellisions</source>
+            <target state="new">Removes ellisions</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>Japanese</source>
+            <target state="new">Japanese</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>ja.lucene</source>
+            <target state="new">ja.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>Uses morphological analysis</source>
+            <target state="new">Uses morphological analysis</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>Normalizes common katakana spelling variations</source>
+            <target state="new">Normalizes common katakana spelling variations</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>Light stopwords/stoptags removal</source>
+            <target state="new">Light stopwords/stoptags removal</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>Character width-normalization</source>
+            <target state="new">Character width-normalization</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>Lemmatization - reduces inflected adjectives and verbs to their base form</source>
+            <target state="new">Lemmatization - reduces inflected adjectives and verbs to their base form</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>Korean</source>
+            <target state="new">Korean</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>ko.lucene</source>
+            <target state="new">ko.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>Indexes bigrams (overlapping groups of two adjacent Hangul characters)</source>
+            <target state="new">Indexes bigrams (overlapping groups of two adjacent Hangul characters)</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>Normalizes character width differences</source>
+            <target state="new">Normalizes character width differences</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>Latvian</source>
+            <target state="new">Latvian</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>lv.lucene</source>
+            <target state="new">lv.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>Filters out Latvian stop words</source>
+            <target state="new">Filters out Latvian stop words</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>Norwegian</source>
+            <target state="new">Norwegian</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>no.lucene</source>
+            <target state="new">no.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="123">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>Filters out Norwegian stop words</source>
+            <target state="new">Filters out Norwegian stop words</target>
+          </trans-unit>
+        </group>
+        <group id="124">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>Persian</source>
+            <target state="new">Persian</target>
+          </trans-unit>
+        </group>
+        <group id="125">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>fa.lucene</source>
+            <target state="new">fa.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="126">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>Applies algorithmic stemming</source>
+            <target state="new">Applies algorithmic stemming</target>
+          </trans-unit>
+        </group>
+        <group id="127">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>Filters out Persian stop words</source>
+            <target state="new">Filters out Persian stop words</target>
+          </trans-unit>
+        </group>
+        <group id="128">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>Implements Arabic and Persian orthographic normalization</source>
+            <target state="new">Implements Arabic and Persian orthographic normalization</target>
+          </trans-unit>
+        </group>
+        <group id="129">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>Polish</source>
+            <target state="new">Polish</target>
+          </trans-unit>
+        </group>
+        <group id="130">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>pl.lucene</source>
+            <target state="new">pl.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="131">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>Applies algorithmic stemming (Stempel)</source>
+            <target state="new">Applies algorithmic stemming (Stempel)</target>
+          </trans-unit>
+        </group>
+        <group id="132">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>Filters out Polish stop words</source>
+            <target state="new">Filters out Polish stop words</target>
+          </trans-unit>
+        </group>
+        <group id="133">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>Portuguese (Brazil)</source>
+            <target state="new">Portuguese (Brazil)</target>
+          </trans-unit>
+        </group>
+        <group id="134">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>pt-Br.lucene</source>
+            <target state="new">pt-Br.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="135">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="136">
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>Filters out Brazilian stop words</source>
+            <target state="new">Filters out Brazilian stop words</target>
+          </trans-unit>
+        </group>
+        <group id="137">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>Portuguese (Portugal)</source>
+            <target state="new">Portuguese (Portugal)</target>
+          </trans-unit>
+        </group>
+        <group id="138">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>pt-Pt.lucene</source>
+            <target state="new">pt-Pt.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="139">
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="140">
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>Filters out Portuguese stop words</source>
+            <target state="new">Filters out Portuguese stop words</target>
+          </trans-unit>
+        </group>
+        <group id="141">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>Romanian</source>
+            <target state="new">Romanian</target>
+          </trans-unit>
+        </group>
+        <group id="142">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>ro.lucene</source>
+            <target state="new">ro.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="143">
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="144">
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>Filters out Romanian stop words</source>
+            <target state="new">Filters out Romanian stop words</target>
+          </trans-unit>
+        </group>
+        <group id="145">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>Russian</source>
+            <target state="new">Russian</target>
+          </trans-unit>
+        </group>
+        <group id="146">
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>ru.lucene</source>
+            <target state="new">ru.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="147">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="148">
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>Filters out Russian stop words</source>
+            <target state="new">Filters out Russian stop words</target>
+          </trans-unit>
+        </group>
+        <group id="149">
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>Spanish</source>
+            <target state="new">Spanish</target>
+          </trans-unit>
+        </group>
+        <group id="150">
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>es.lucene</source>
+            <target state="new">es.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="151">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="152">
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>Filters out Spanish stop words</source>
+            <target state="new">Filters out Spanish stop words</target>
+          </trans-unit>
+        </group>
+        <group id="153">
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>Swedish</source>
+            <target state="new">Swedish</target>
+          </trans-unit>
+        </group>
+        <group id="154">
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>sv.lucene</source>
+            <target state="new">sv.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="155">
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="156">
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>Filters out Swedish stop words</source>
+            <target state="new">Filters out Swedish stop words</target>
+          </trans-unit>
+        </group>
+        <group id="157">
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>Thai</source>
+            <target state="new">Thai</target>
+          </trans-unit>
+        </group>
+        <group id="158">
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source>th.lucene</source>
+            <target state="new">th.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="159">
+          <trans-unit id="171" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="160">
+          <trans-unit id="172" translate="yes" xml:space="preserve">
+            <source>Filters out Thai stop words</source>
+            <target state="new">Filters out Thai stop words</target>
+          </trans-unit>
+        </group>
+        <group id="161">
+          <trans-unit id="173" translate="yes" xml:space="preserve">
+            <source>Turkish</source>
+            <target state="new">Turkish</target>
+          </trans-unit>
+        </group>
+        <group id="162">
+          <trans-unit id="174" translate="yes" xml:space="preserve">
+            <source>tr.lucene</source>
+            <target state="new">tr.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="163">
+          <trans-unit id="175" translate="yes" xml:space="preserve">
+            <source>Applies light stemming</source>
+            <target state="new">Applies light stemming</target>
+          </trans-unit>
+        </group>
+        <group id="164">
+          <trans-unit id="176" translate="yes" xml:space="preserve">
+            <source>Strips all characters after an apostrophe (including the apostrophe itself)</source>
+            <target state="new">Strips all characters after an apostrophe (including the apostrophe itself)</target>
+          </trans-unit>
+        </group>
+        <group id="165">
+          <trans-unit id="177" translate="yes" xml:space="preserve">
+            <source>Filters out Turkish stop words</source>
+            <target state="new">Filters out Turkish stop words</target>
+          </trans-unit>
+        </group>
+        <group id="166">
+          <trans-unit id="178" translate="yes" xml:space="preserve">
+            <source>Standard ASCII Folding (language agnostic analyzer configuration)</source>
+            <target state="new">Standard ASCII Folding (language agnostic analyzer configuration)</target>
+          </trans-unit>
+        </group>
+        <group id="167">
+          <trans-unit id="179" translate="yes" xml:space="preserve">
+            <source>standardasciifolding.lucene</source>
+            <target state="new">standardasciifolding.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="168">
+          <trans-unit id="180" translate="yes" xml:space="preserve">
+            <source>Unicode text segmentation (Standard Tokenizer) </source>
+            <target state="new">Unicode text segmentation (Standard Tokenizer) </target>
+          </trans-unit>
+        </group>
+        <group id="169">
+          <trans-unit id="181" translate="yes" xml:space="preserve">
+            <source>ASCII folding filter: Converts Unicode characters that don't belong to the set of first 127 ASCII characters into their ASCII equivalents.</source>
+            <target state="new">ASCII folding filter: Converts Unicode characters that don't belong to the set of first 127 ASCII characters into their ASCII equivalents.</target>
+          </trans-unit>
+          <trans-unit id="182" translate="yes" xml:space="preserve">
+            <source>This is useful for removing <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>diacritics<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://en.wikipedia.org/wiki/Diacritic&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (accents).</source>
+            <target state="new">This is useful for removing <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>diacritics<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://en.wikipedia.org/wiki/Diacritic&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (accents).</target>
+          </trans-unit>
+        </group>
+        <group id="170">
+          <trans-unit id="183" translate="yes" xml:space="preserve">
+            <source>Standard analyzer</source>
+            <target state="new">Standard analyzer</target>
+          </trans-unit>
+        </group>
+        <group id="171">
+          <trans-unit id="184" translate="yes" xml:space="preserve">
+            <source>standard.lucene</source>
+            <target state="new">standard.lucene</target>
+          </trans-unit>
+        </group>
+        <group id="172">
+          <trans-unit id="185" translate="yes" xml:space="preserve">
+            <source>This is the default.</source>
+            <target state="new">This is the default.</target>
+          </trans-unit>
+        </group>
+        <group id="173">
+          <trans-unit id="186" translate="yes" xml:space="preserve">
+            <source>All analyzers with names annotated with <ph id="1">&lt;languageKeyword&gt;lucene&lt;/languageKeyword&gt;</ph> are powered by <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>Apache Lucene's language analyzers<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://lucene.apache.org/core/4_9_0/analyzers-common/overview-summary.html&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">All analyzers with names annotated with <ph id="1">&lt;languageKeyword&gt;lucene&lt;/languageKeyword&gt;</ph> are powered by <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>Apache Lucene's language analyzers<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://lucene.apache.org/core/4_9_0/analyzers-common/overview-summary.html&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

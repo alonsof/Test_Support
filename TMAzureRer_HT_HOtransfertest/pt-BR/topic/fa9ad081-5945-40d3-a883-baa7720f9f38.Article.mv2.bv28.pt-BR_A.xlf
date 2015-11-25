@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="pt-BR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANyksKwzAMANGr+AAWyJ8kUpdddV16AdmWIJAmJXUhx69hdvPMkpYcK6jmDDkYQkEqUDHIzGxBhL2zWjVIFWgRZ8i4zMBcJijUNCFRYW1DCUtDCjBxnoZqCYQoQRFZlojGlsi74N2nw/3p3bWtZnr123kc3bs4Gv/xe8v+OmX/btLXY/8D17geYqIAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Step 3: Implement a REST-based WCF Service Contract</source>
+            <target state="new">Step 3: Implement a REST-based WCF Service Contract</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Step 3: Implement a REST-based WCF Service Contract to use Service Bus</source>
+            <target state="new">Step 3: Implement a REST-based WCF Service Contract to use Service Bus</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This tutorial is moving to a new location, and this version will soon be retired.</source>
+            <target state="new">This tutorial is moving to a new location, and this version will soon be retired.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>You can view the most recent version here: <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://azure.microsoft.com/en-us/documentation/articles/service-bus-relay-rest-tutorial/<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/en-us/documentation/articles/service-bus-relay-rest-tutorial/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">You can view the most recent version here: <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://azure.microsoft.com/en-us/documentation/articles/service-bus-relay-rest-tutorial/<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/en-us/documentation/articles/service-bus-relay-rest-tutorial/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>This is the third of four tasks required to create a basic REST-style <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service.</source>
+            <target state="new">This is the third of four tasks required to create a basic REST-style <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>For an overview of all tasks, see the <ph id="1">&lt;link xlink:href="286326f9-883b-4191-a7df-f107f3cbc26a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;REST Tutorial for AppFabric Service Bus&lt;/link&gt;</ph>.</source>
+            <target state="new">For an overview of all tasks, see the <ph id="1">&lt;link xlink:href="286326f9-883b-4191-a7df-f107f3cbc26a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;REST Tutorial for AppFabric Service Bus&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Creating a REST-style <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service requires that you first create the contract, which is defined by using an interface.</source>
+            <target state="new">Creating a REST-style <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service requires that you first create the contract, which is defined by using an interface.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;crabout&lt;/token&gt;</ph> creating the interface, see <ph id="2">&lt;link xlink:href="ffb4f4bd-5d1f-4880-a46e-0c009a4611b3" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 2: Define a REST-fulAppFabric Service Bus Contract&lt;/link&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;token&gt;crabout&lt;/token&gt;</ph> creating the interface, see <ph id="2">&lt;link xlink:href="ffb4f4bd-5d1f-4880-a46e-0c009a4611b3" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 2: Define a REST-fulAppFabric Service Bus Contract&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The next step, shown in this example, is to implement the interface.</source>
+            <target state="new">The next step, shown in this example, is to implement the interface.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>This involves creating a class named <ph id="1">&lt;codeInline&gt;ImageService&lt;/codeInline&gt;</ph> that implements the user-defined <ph id="2">&lt;codeInline&gt;IImageContract&lt;/codeInline&gt;</ph> interface.</source>
+            <target state="new">This involves creating a class named <ph id="1">&lt;codeInline&gt;ImageService&lt;/codeInline&gt;</ph> that implements the user-defined <ph id="2">&lt;codeInline&gt;IImageContract&lt;/codeInline&gt;</ph> interface.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>After you implement the contract, you then configure the interface using an App.config file.</source>
+            <target state="new">After you implement the contract, you then configure the interface using an App.config file.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The configuration file contains necessary information for the application, such as the name of the service, the name of the contract, and the type of protocol that is used to communicate with the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">The configuration file contains necessary information for the application, such as the name of the service, the name of the contract, and the type of protocol that is used to communicate with the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The code used for these tasks is provided in the example following the procedure.</source>
+            <target state="new">The code used for these tasks is provided in the example following the procedure.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>As with the previous steps, there is very little difference between implementing a REST-style contract and a basic <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> contract.</source>
+            <target state="new">As with the previous steps, there is very little difference between implementing a REST-style contract and a basic <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> contract.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Expected time to completion: 10 minutes</source>
+            <target state="new">Expected time to completion: 10 minutes</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>To implement a REST-style Service Bus contract</source>
+            <target state="new">To implement a REST-style Service Bus contract</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Create a new class named <ph id="1">&lt;codeInline&gt;ImageService&lt;/codeInline&gt;</ph> directly underneath the definition of the <ph id="2">&lt;codeInline&gt;IImageContract&lt;/codeInline&gt;</ph> interface.</source>
+            <target state="new">Create a new class named <ph id="1">&lt;codeInline&gt;ImageService&lt;/codeInline&gt;</ph> directly underneath the definition of the <ph id="2">&lt;codeInline&gt;IImageContract&lt;/codeInline&gt;</ph> interface.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeInline&gt;ImageService&lt;/codeInline&gt;</ph> class implements the <ph id="2">&lt;codeInline&gt;IImageContract&lt;/codeInline&gt;</ph> interface.</source>
+            <target state="new">The <ph id="1">&lt;codeInline&gt;ImageService&lt;/codeInline&gt;</ph> class implements the <ph id="2">&lt;codeInline&gt;IImageContract&lt;/codeInline&gt;</ph> interface.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Similar to other interface implementations, you can implement the definition in a different file.</source>
+            <target state="new">Similar to other interface implementations, you can implement the definition in a different file.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>However, for this tutorial, the implementation appears in the same file as the interface definition and <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph> method.</source>
+            <target state="new">However, for this tutorial, the implementation appears in the same file as the interface definition and <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph> method.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Apply the <ph id="1">&lt;codeEntityReference&gt;T:System.ServiceModel.ServiceBehaviorAttribute&lt;/codeEntityReference&gt;</ph> attribute to the <ph id="2">&lt;codeInline&gt;IImageService&lt;/codeInline&gt;</ph> class to indicate that the class is an implementation of a <ph id="3">&lt;token&gt;indigo2&lt;/token&gt;</ph> contract:</source>
+            <target state="new">Apply the <ph id="1">&lt;codeEntityReference&gt;T:System.ServiceModel.ServiceBehaviorAttribute&lt;/codeEntityReference&gt;</ph> attribute to the <ph id="2">&lt;codeInline&gt;IImageService&lt;/codeInline&gt;</ph> class to indicate that the class is an implementation of a <ph id="3">&lt;token&gt;indigo2&lt;/token&gt;</ph> contract:</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>As mentioned previously, this namespace is not a traditional namespace.</source>
+            <target state="new">As mentioned previously, this namespace is not a traditional namespace.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Instead, it is part of the <ph id="1">&lt;token&gt;indigo2&lt;/token&gt;</ph> architecture that identifies the contract.</source>
+            <target state="new">Instead, it is part of the <ph id="1">&lt;token&gt;indigo2&lt;/token&gt;</ph> architecture that identifies the contract.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;crdefault&lt;/token&gt;</ph> the <ph id="2">&lt;link xlink:href="31f87e6c-247b-48f5-8e94-b9e1e33d8d09" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Data Contract Names&lt;/link&gt;</ph> topic in the <ph id="3">&lt;token&gt;indigo2&lt;/token&gt;</ph> documentation.</source>
+            <target state="new"><ph id="1">&lt;token&gt;crdefault&lt;/token&gt;</ph> the <ph id="2">&lt;link xlink:href="31f87e6c-247b-48f5-8e94-b9e1e33d8d09" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Data Contract Names&lt;/link&gt;</ph> topic in the <ph id="3">&lt;token&gt;indigo2&lt;/token&gt;</ph> documentation.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Add a .jpg image to your project.</source>
+            <target state="new">Add a .jpg image to your project.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>This is a picture the service displays in the receiving browser.</source>
+            <target state="new">This is a picture the service displays in the receiving browser.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Right-click your project, click <bpt id="1">&lt;ui&gt;</bpt>Add<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Right-click your project, click <bpt id="1">&lt;ui&gt;</bpt>Add<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Then click <bpt id="1">&lt;ui&gt;</bpt>Existing Item<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Then click <bpt id="1">&lt;ui&gt;</bpt>Existing Item<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Use the <bpt id="1">&lt;ui&gt;</bpt>Add Existing Item<ept id="1">&lt;/ui&gt;</ept> dialog to browse to an appropriate .jpg, and then click <bpt id="2">&lt;ui&gt;</bpt>Add<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Use the <bpt id="1">&lt;ui&gt;</bpt>Add Existing Item<ept id="1">&lt;/ui&gt;</ept> dialog to browse to an appropriate .jpg, and then click <bpt id="2">&lt;ui&gt;</bpt>Add<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>An example .jpg file is available at <ph id="1">&lt;codeInline&gt;%%amp;lt;SDKInstallDir%%amp;gt;\Samples\ServiceBus\ExploringFeatures\Bindings\WebHttp\CS35\Service\image.jpg&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">An example .jpg file is available at <ph id="1">&lt;codeInline&gt;%%amp;lt;SDKInstallDir%%amp;gt;\Samples\ServiceBus\ExploringFeatures\Bindings\WebHttp\CS35\Service\image.jpg&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>When adding the file, make sure that <bpt id="1">&lt;ui&gt;</bpt>All Files (*.*)<ept id="1">&lt;/ui&gt;</ept> is selected in the drop-down list next to the <bpt id="2">&lt;ui&gt;</bpt>File name:<ept id="2">&lt;/ui&gt;</ept> field.</source>
+            <target state="new">When adding the file, make sure that <bpt id="1">&lt;ui&gt;</bpt>All Files (*.*)<ept id="1">&lt;/ui&gt;</ept> is selected in the drop-down list next to the <bpt id="2">&lt;ui&gt;</bpt>File name:<ept id="2">&lt;/ui&gt;</ept> field.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>The rest of this tutorial assumes that the name of the image is “image.jpg”.</source>
+            <target state="new">The rest of this tutorial assumes that the name of the image is “image.jpg”.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>If you have a different .jpg, you will have to rename the image, or change your code to compensate.</source>
+            <target state="new">If you have a different .jpg, you will have to rename the image, or change your code to compensate.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>To make sure that the running service can find the image file, in <bpt id="1">&lt;ui&gt;</bpt>Solution Explorer<ept id="1">&lt;/ui&gt;</ept> right-click the image file.</source>
+            <target state="new">To make sure that the running service can find the image file, in <bpt id="1">&lt;ui&gt;</bpt>Solution Explorer<ept id="1">&lt;/ui&gt;</ept> right-click the image file.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>Properties<ept id="1">&lt;/ui&gt;</ept> pane, set <bpt id="2">&lt;ui&gt;</bpt>Copy to Output Directory<ept id="2">&lt;/ui&gt;</ept> to <bpt id="3">&lt;ui&gt;</bpt>Copy if newer<ept id="3">&lt;/ui&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>Properties<ept id="1">&lt;/ui&gt;</ept> pane, set <bpt id="2">&lt;ui&gt;</bpt>Copy to Output Directory<ept id="2">&lt;/ui&gt;</ept> to <bpt id="3">&lt;ui&gt;</bpt>Copy if newer<ept id="3">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Add references to the <ph id="1">&lt;codeInline&gt;System.Drawing.dll&lt;/codeInline&gt;</ph>, <ph id="2">&lt;codeInline&gt;System.Runtime.Serialization.dll&lt;/codeInline&gt;</ph>, and <ph id="3">&lt;codeInline&gt;Microsoft.ServiceBus.dll&lt;/codeInline&gt;</ph> assemblies to the project, and also to the following associated <ph id="4">&lt;codeInline&gt;using&lt;/codeInline&gt;</ph> statements.</source>
+            <target state="new">Add references to the <ph id="1">&lt;codeInline&gt;System.Drawing.dll&lt;/codeInline&gt;</ph>, <ph id="2">&lt;codeInline&gt;System.Runtime.Serialization.dll&lt;/codeInline&gt;</ph>, and <ph id="3">&lt;codeInline&gt;Microsoft.ServiceBus.dll&lt;/codeInline&gt;</ph> assemblies to the project, and also to the following associated <ph id="4">&lt;codeInline&gt;using&lt;/codeInline&gt;</ph> statements.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Define a constructor that loads the bitmap and prepares to send it to the client browser: </source>
+            <target state="new">Define a constructor that loads the bitmap and prepares to send it to the client browser: </target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Directly underneath the previous code, add the following <ph id="1">&lt;codeInline&gt;GetImage&lt;/codeInline&gt;</ph> method in the <ph id="2">&lt;codeInline&gt;ImageService&lt;/codeInline&gt;</ph> class to return an HTTP message that contains the image:</source>
+            <target state="new">Directly underneath the previous code, add the following <ph id="1">&lt;codeInline&gt;GetImage&lt;/codeInline&gt;</ph> method in the <ph id="2">&lt;codeInline&gt;ImageService&lt;/codeInline&gt;</ph> class to return an HTTP message that contains the image:</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>This implementation uses <ph id="1">&lt;languageKeyword&gt;MemoryStream&lt;/languageKeyword&gt;</ph> to retrieve the image and prepare it for streaming to the browser.</source>
+            <target state="new">This implementation uses <ph id="1">&lt;languageKeyword&gt;MemoryStream&lt;/languageKeyword&gt;</ph> to retrieve the image and prepare it for streaming to the browser.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>It starts the stream position at zero, declares the stream content as a jpeg, and streams the information.</source>
+            <target state="new">It starts the stream position at zero, declares the stream content as a jpeg, and streams the information.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>From the <bpt id="1">&lt;ui&gt;</bpt>Build<ept id="1">&lt;/ui&gt;</ept> menu, click <bpt id="2">&lt;ui&gt;</bpt>Build Solution<ept id="2">&lt;/ui&gt;</ept> to build the whole solution.</source>
+            <target state="new">From the <bpt id="1">&lt;ui&gt;</bpt>Build<ept id="1">&lt;/ui&gt;</ept> menu, click <bpt id="2">&lt;ui&gt;</bpt>Build Solution<ept id="2">&lt;/ui&gt;</ept> to build the whole solution.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>To define the configuration to run the web service on Service Bus</source>
+            <target state="new">To define the configuration to run the web service on Service Bus</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Right-click the <bpt id="1">&lt;ui&gt;</bpt>ImageListener<ept id="1">&lt;/ui&gt;</ept> project.</source>
+            <target state="new">Right-click the <bpt id="1">&lt;ui&gt;</bpt>ImageListener<ept id="1">&lt;/ui&gt;</ept> project.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Then click <bpt id="1">&lt;ui&gt;</bpt>Add<ept id="1">&lt;/ui&gt;</ept>, <bpt id="2">&lt;ui&gt;</bpt>New Item<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Then click <bpt id="1">&lt;ui&gt;</bpt>Add<ept id="1">&lt;/ui&gt;</ept>, <bpt id="2">&lt;ui&gt;</bpt>New Item<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>Add New Item<ept id="1">&lt;/ui&gt;</ept> dialog, in the <bpt id="2">&lt;ui&gt;</bpt>Templates<ept id="2">&lt;/ui&gt;</ept> pane, select <bpt id="3">&lt;ui&gt;</bpt>Application Configuration<ept id="3">&lt;/ui&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>Add New Item<ept id="1">&lt;/ui&gt;</ept> dialog, in the <bpt id="2">&lt;ui&gt;</bpt>Templates<ept id="2">&lt;/ui&gt;</ept> pane, select <bpt id="3">&lt;ui&gt;</bpt>Application Configuration<ept id="3">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Then click <bpt id="1">&lt;ui&gt;</bpt>Add<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Then click <bpt id="1">&lt;ui&gt;</bpt>Add<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>The configuration file resembles a <ph id="1">&lt;token&gt;indigo2&lt;/token&gt;</ph> configuration file, and includes the service name, endpoint (that is, the location <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> exposes for clients and hosts to communicate with each other), and binding (the type of protocol that is used to communicate).</source>
+            <target state="new">The configuration file resembles a <ph id="1">&lt;token&gt;indigo2&lt;/token&gt;</ph> configuration file, and includes the service name, endpoint (that is, the location <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> exposes for clients and hosts to communicate with each other), and binding (the type of protocol that is used to communicate).</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>The main difference here is that the configured service endpoint refers to a <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.WebHttpRelayBinding&lt;/codeEntityReference&gt;</ph> binding, which is not part of the .NET Framework.</source>
+            <target state="new">The main difference here is that the configured service endpoint refers to a <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.WebHttpRelayBinding&lt;/codeEntityReference&gt;</ph> binding, which is not part of the .NET Framework.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.WebHttpRelayBinding&lt;/codeEntityReference&gt;</ph> is one of the new bindings introduced with <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.WebHttpRelayBinding&lt;/codeEntityReference&gt;</ph> is one of the new bindings introduced with <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;crabout&lt;/token&gt;</ph> how to configure an <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> application, see <ph id="3">&lt;link xlink:href="c3c38827-e436-4e31-8ea6-3d90e6d169d4" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configuring a .NET Services Application&lt;/link&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;token&gt;crabout&lt;/token&gt;</ph> how to configure an <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> application, see <ph id="3">&lt;link xlink:href="c3c38827-e436-4e31-8ea6-3d90e6d169d4" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configuring a .NET Services Application&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;ui&gt;</bpt>Solution Explorer<ept id="1">&lt;/ui&gt;</ept>, click <bpt id="2">&lt;ui&gt;</bpt>App.config<ept id="2">&lt;/ui&gt;</ept>, which currently contains the following XML elements:</source>
+            <target state="new">In <bpt id="1">&lt;ui&gt;</bpt>Solution Explorer<ept id="1">&lt;/ui&gt;</ept>, click <bpt id="2">&lt;ui&gt;</bpt>App.config<ept id="2">&lt;/ui&gt;</ept>, which currently contains the following XML elements:</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Add an XML element to the App.config file for <ph id="1">&lt;codeInline&gt;system.serviceModel&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Add an XML element to the App.config file for <ph id="1">&lt;codeInline&gt;system.serviceModel&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>This is a <ph id="1">&lt;token&gt;indigo2&lt;/token&gt;</ph> element that defines one or more services.</source>
+            <target state="new">This is a <ph id="1">&lt;token&gt;indigo2&lt;/token&gt;</ph> element that defines one or more services.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Here, it is used to define the service name and endpoint.</source>
+            <target state="new">Here, it is used to define the service name and endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Within the <ph id="1">&lt;codeInline&gt;system.serviceModel&lt;/codeInline&gt;</ph> element, add a <ph id="2">&lt;codeInline&gt;%%amp;lt;bindings%%amp;gt;&lt;/codeInline&gt;</ph> element that has the following content.</source>
+            <target state="new">Within the <ph id="1">&lt;codeInline&gt;system.serviceModel&lt;/codeInline&gt;</ph> element, add a <ph id="2">&lt;codeInline&gt;%%amp;lt;bindings%%amp;gt;&lt;/codeInline&gt;</ph> element that has the following content.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>This defines the bindings used in the application.</source>
+            <target state="new">This defines the bindings used in the application.</target>
+          </trans-unit>
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>You can define multiple bindings, but for this tutorial you are defining only one.</source>
+            <target state="new">You can define multiple bindings, but for this tutorial you are defining only one.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>This step defines a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.WebHttpRelayBinding&lt;/codeEntityReference&gt;</ph> binding with the <ph id="3">&lt;codeInline&gt;relayClientAuthenticationType&lt;/codeInline&gt;</ph> as <ph id="4">&lt;codeInline&gt;None&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">This step defines a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.WebHttpRelayBinding&lt;/codeEntityReference&gt;</ph> binding with the <ph id="3">&lt;codeInline&gt;relayClientAuthenticationType&lt;/codeInline&gt;</ph> as <ph id="4">&lt;codeInline&gt;None&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>This indicates that an endpoint using this binding will not require a client credential.</source>
+            <target state="new">This indicates that an endpoint using this binding will not require a client credential.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Below the <ph id="1">&lt;codeInline&gt;%%amp;lt;bindings%%amp;gt;&lt;/codeInline&gt;</ph> element, add a <ph id="2">&lt;codeInline&gt;%%amp;lt;services%%amp;gt;&lt;/codeInline&gt;</ph> element.</source>
+            <target state="new">Below the <ph id="1">&lt;codeInline&gt;%%amp;lt;bindings%%amp;gt;&lt;/codeInline&gt;</ph> element, add a <ph id="2">&lt;codeInline&gt;%%amp;lt;services%%amp;gt;&lt;/codeInline&gt;</ph> element.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>As with the bindings, you can define multiple services in a single configuration file.</source>
+            <target state="new">As with the bindings, you can define multiple services in a single configuration file.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>However, for this tutorial, you define only one.</source>
+            <target state="new">However, for this tutorial, you define only one.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>This step configures a service that uses the previously defined default <ph id="1">&lt;codeInline&gt;webHttpRelayBinding&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">This step configures a service that uses the previously defined default <ph id="1">&lt;codeInline&gt;webHttpRelayBinding&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>It also uses the default <ph id="1">&lt;codeInline&gt;sbTokenProvider&lt;/codeInline&gt;</ph>, which is defined in the next step.</source>
+            <target state="new">It also uses the default <ph id="1">&lt;codeInline&gt;sbTokenProvider&lt;/codeInline&gt;</ph>, which is defined in the next step.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Below the <ph id="1">&lt;codeInline&gt;%%amp;lt;services%%amp;gt;&lt;/codeInline&gt;</ph> element, create a <ph id="2">&lt;codeInline&gt;%%amp;lt;behaviors%%amp;gt;&lt;/codeInline&gt;</ph> element, with the following content, replacing <ph id="3">&lt;codeInline&gt;“SAS_KEY”&lt;/codeInline&gt;</ph> with the <bpt id="4">&lt;newTerm&gt;</bpt>Shared Access Signature<ept id="4">&lt;/newTerm&gt;</ept> (SAS) key you made a note of in <ph id="5">&lt;link xlink:href="c09ae863-5809-443f-9cd3-4af218c3c007" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 1: Sign up for an Account for the REST Tutorial&lt;/link&gt;</ph>.</source>
+            <target state="new">Below the <ph id="1">&lt;codeInline&gt;%%amp;lt;services%%amp;gt;&lt;/codeInline&gt;</ph> element, create a <ph id="2">&lt;codeInline&gt;%%amp;lt;behaviors%%amp;gt;&lt;/codeInline&gt;</ph> element, with the following content, replacing <ph id="3">&lt;codeInline&gt;“SAS_KEY”&lt;/codeInline&gt;</ph> with the <bpt id="4">&lt;newTerm&gt;</bpt>Shared Access Signature<ept id="4">&lt;/newTerm&gt;</ept> (SAS) key you made a note of in <ph id="5">&lt;link xlink:href="c09ae863-5809-443f-9cd3-4af218c3c007" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 1: Sign up for an Account for the REST Tutorial&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeInline&gt;sharedSecretClientCredentials&lt;/codeInline&gt;</ph> behavior defines the type of credentials the service uses to access the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>: <ph id="3">&lt;codeInline&gt;SharedSecret&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">The <ph id="1">&lt;codeInline&gt;sharedSecretClientCredentials&lt;/codeInline&gt;</ph> behavior defines the type of credentials the service uses to access the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>: <ph id="3">&lt;codeInline&gt;SharedSecret&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>In addition, the actual issuer names and issuer secrets are stored in the App.config file.</source>
+            <target state="new">In addition, the actual issuer names and issuer secrets are stored in the App.config file.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Note that storing secrets in clear text is not considered good programming practice for production code.</source>
+            <target state="new">Note that storing secrets in clear text is not considered good programming practice for production code.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Be sure to implement more rigorous security in your own code.</source>
+            <target state="new">Be sure to implement more rigorous security in your own code.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>This code also defines the default debugging behavior, which consists of turning off the HTTP and HTTPS help pages.</source>
+            <target state="new">This code also defines the default debugging behavior, which consists of turning off the HTTP and HTTPS help pages.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>From the <bpt id="1">&lt;ui&gt;</bpt>Build<ept id="1">&lt;/ui&gt;</ept> menu, click <bpt id="2">&lt;ui&gt;</bpt>Build Solution<ept id="2">&lt;/ui&gt;</ept> to build the whole solution.</source>
+            <target state="new">From the <bpt id="1">&lt;ui&gt;</bpt>Build<ept id="1">&lt;/ui&gt;</ept> menu, click <bpt id="2">&lt;ui&gt;</bpt>Build Solution<ept id="2">&lt;/ui&gt;</ept> to build the whole solution.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>The following code shows the contract and service implementation for a REST-based service that is  running on the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> using the <bpt id="2">&lt;embeddedLabel&gt;</bpt>WebHttpRelayBinding<ept id="2">&lt;/embeddedLabel&gt;</ept> binding.</source>
+            <target state="new">The following code shows the contract and service implementation for a REST-based service that is  running on the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> using the <bpt id="2">&lt;embeddedLabel&gt;</bpt>WebHttpRelayBinding<ept id="2">&lt;/embeddedLabel&gt;</ept> binding.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>The following example shows the App.config file associated with the service.</source>
+            <target state="new">The following example shows the App.config file associated with the service.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Now that you have configured and implemented the Web service contract, proceed to <ph id="1">&lt;link xlink:href="04ff5a98-e61c-4658-aad7-da158b7957e8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 4: Host and Run a REST-ful AppFabric Service Bus Service&lt;/link&gt;</ph>.</source>
+            <target state="new">Now that you have configured and implemented the Web service contract, proceed to <ph id="1">&lt;link xlink:href="04ff5a98-e61c-4658-aad7-da158b7957e8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 4: Host and Run a REST-ful AppFabric Service Bus Service&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

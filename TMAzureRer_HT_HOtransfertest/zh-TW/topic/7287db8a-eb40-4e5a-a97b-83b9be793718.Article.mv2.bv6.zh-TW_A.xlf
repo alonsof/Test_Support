@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-TW" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzFEKgzAMANCr5AAJpLa16U6wAwj7TmrKBKewOZCdfv4/Xu/RLQ2N3FOiFDqTsRg1DjrW2oNqRZiLtphVaAxslJpVMi9G6lmCMDfPBaEMUmYTpWtkSp6VtF5KotWL11iCIASE35OmB8K5Lr37edze+34gDAgjwv370m166/ZZ9Vj27Q/8ie+1oQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Step 5: Transform the Flat File Schema to the Insert Schema for OrderDetails Table</source>
+            <target state="new">Step 5: Transform the Flat File Schema to the Insert Schema for OrderDetails Table</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This topic lists the steps to create a <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph> to map the flat-file message schema to the schema of an <bpt id="2">&lt;embeddedLabel&gt;</bpt>Insert<ept id="2">&lt;/embeddedLabel&gt;</ept> operation on the <bpt id="3">&lt;embeddedLabel&gt;</bpt>OrderDetails<ept id="3">&lt;/embeddedLabel&gt;</ept> table in <ph id="4">&lt;token&gt;ssNoVersion&lt;/token&gt;</ph>.</source>
+            <target state="new">This topic lists the steps to create a <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph> to map the flat-file message schema to the schema of an <bpt id="2">&lt;embeddedLabel&gt;</bpt>Insert<ept id="2">&lt;/embeddedLabel&gt;</ept> operation on the <bpt id="3">&lt;embeddedLabel&gt;</bpt>OrderDetails<ept id="3">&lt;/embeddedLabel&gt;</ept> table in <ph id="4">&lt;token&gt;ssNoVersion&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Before we create a <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph>, let’s have a look at the two schemas and then let’s understand what needs to be done as part of the <ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph>.</source>
+            <target state="new">Before we create a <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph>, let’s have a look at the two schemas and then let’s understand what needs to be done as part of the <ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Here’s a snapshot of the two schemas:</source>
+            <target state="new">Here’s a snapshot of the two schemas:</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The following table lists the mapping requirements and the <ph id="1">&lt;token&gt;mapop&lt;/token&gt;</ph>s using which this is accomplished:</source>
+            <target state="new">The following table lists the mapping requirements and the <ph id="1">&lt;token&gt;mapop&lt;/token&gt;</ph>s using which this is accomplished:</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>What to map?</source>
+            <target state="new">What to map?</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>How to achieve?</source>
+            <target state="new">How to achieve?</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>OrderId<ept id="1">&lt;/embeddedLabel&gt;</ept> node in the source schema maps directly to <bpt id="2">&lt;embeddedLabel&gt;</bpt>OrderId<ept id="2">&lt;/embeddedLabel&gt;</ept> node in the destination schema.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>OrderId<ept id="1">&lt;/embeddedLabel&gt;</ept> node in the source schema maps directly to <bpt id="2">&lt;embeddedLabel&gt;</bpt>OrderId<ept id="2">&lt;/embeddedLabel&gt;</ept> node in the destination schema.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>You directly connect the two nodes in the two schemas.</source>
+            <target state="new">You directly connect the two nodes in the two schemas.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Because <bpt id="1">&lt;embeddedLabel&gt;</bpt>OrderDetails<ept id="1">&lt;/embeddedLabel&gt;</ept> node in the flat-file schema is a repeating node, all the values in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Quantity<ept id="2">&lt;/embeddedLabel&gt;</ept> node should be added up and the cumulative value should be passed on to the <bpt id="3">&lt;embeddedLabel&gt;</bpt>QuantityOrdered<ept id="3">&lt;/embeddedLabel&gt;</ept> node in the destination schema.</source>
+            <target state="new">Because <bpt id="1">&lt;embeddedLabel&gt;</bpt>OrderDetails<ept id="1">&lt;/embeddedLabel&gt;</ept> node in the flat-file schema is a repeating node, all the values in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Quantity<ept id="2">&lt;/embeddedLabel&gt;</ept> node should be added up and the cumulative value should be passed on to the <bpt id="3">&lt;embeddedLabel&gt;</bpt>QuantityOrdered<ept id="3">&lt;/embeddedLabel&gt;</ept> node in the destination schema.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>You connect the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Quantity<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>QuantityOrdered<ept id="2">&lt;/embeddedLabel&gt;</ept> nodes using a <bpt id="3">&lt;embeddedLabel&gt;</bpt>Cumulative Sum<ept id="3">&lt;/embeddedLabel&gt;</ept> <ph id="4">&lt;token&gt;mapop&lt;/token&gt;</ph>.</source>
+            <target state="new">You connect the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Quantity<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>QuantityOrdered<ept id="2">&lt;/embeddedLabel&gt;</ept> nodes using a <bpt id="3">&lt;embeddedLabel&gt;</bpt>Cumulative Sum<ept id="3">&lt;/embeddedLabel&gt;</ept> <ph id="4">&lt;token&gt;mapop&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>TotalAmount<ept id="1">&lt;/embeddedLabel&gt;</ept> node in the destination schema must contain the cumulative value of all (<bpt id="2">&lt;embeddedLabel&gt;</bpt>Unit Price<ept id="2">&lt;/embeddedLabel&gt;</ept> * <bpt id="3">&lt;embeddedLabel&gt;</bpt>Quantity<ept id="3">&lt;/embeddedLabel&gt;</ept>).</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>TotalAmount<ept id="1">&lt;/embeddedLabel&gt;</ept> node in the destination schema must contain the cumulative value of all (<bpt id="2">&lt;embeddedLabel&gt;</bpt>Unit Price<ept id="2">&lt;/embeddedLabel&gt;</ept> * <bpt id="3">&lt;embeddedLabel&gt;</bpt>Quantity<ept id="3">&lt;/embeddedLabel&gt;</ept>).</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Instructions on how to set this are provided at <ph id="1">&lt;link xlink:href="7287db8a-eb40-4e5a-a97b-83b9be793718#BKMK_TotalAmount" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;To map to the TotalAmount element&lt;/link&gt;</ph></source>
+            <target state="new">Instructions on how to set this are provided at <ph id="1">&lt;link xlink:href="7287db8a-eb40-4e5a-a97b-83b9be793718#BKMK_TotalAmount" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;To map to the TotalAmount element&lt;/link&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>To map to the TotalAmount element</source>
+            <target state="new">To map to the TotalAmount element</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>In <ph id="1">&lt;token&gt;vsprvs&lt;/token&gt;</ph>, right click the <bpt id="2">&lt;embeddedLabel&gt;</bpt>FTP_EAI_Tutorial<ept id="2">&lt;/embeddedLabel&gt;</ept> project, point to <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add<ept id="3">&lt;/embeddedLabel&gt;</ept>, and then select <bpt id="4">&lt;embeddedLabel&gt;</bpt>New Item<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In <ph id="1">&lt;token&gt;vsprvs&lt;/token&gt;</ph>, right click the <bpt id="2">&lt;embeddedLabel&gt;</bpt>FTP_EAI_Tutorial<ept id="2">&lt;/embeddedLabel&gt;</ept> project, point to <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add<ept id="3">&lt;/embeddedLabel&gt;</ept>, and then select <bpt id="4">&lt;embeddedLabel&gt;</bpt>New Item<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add New Item<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Map<ept id="2">&lt;/embeddedLabel&gt;</ept>, enter <bpt id="3">&lt;userInput&gt;</bpt>Map.trfm<ept id="3">&lt;/userInput&gt;</ept> as the map name, and then select <bpt id="4">&lt;embeddedLabel&gt;</bpt>OK<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add New Item<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Map<ept id="2">&lt;/embeddedLabel&gt;</ept>, enter <bpt id="3">&lt;userInput&gt;</bpt>Map.trfm<ept id="3">&lt;/userInput&gt;</ept> as the map name, and then select <bpt id="4">&lt;embeddedLabel&gt;</bpt>OK<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>In Solution Explorer, double click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Map.trfm<ept id="1">&lt;/embeddedLabel&gt;</ept> file to open the <ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph>.</source>
+            <target state="new">In Solution Explorer, double click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Map.trfm<ept id="1">&lt;/embeddedLabel&gt;</ept> file to open the <ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>On the <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph> design area, set the source schema to <bpt id="2">&lt;embeddedLabel&gt;</bpt>PO.xsd<ept id="2">&lt;/embeddedLabel&gt;</ept> and set the destination schema to <bpt id="3">&lt;embeddedLabel&gt;</bpt>FTPEAITutorial_TableOperation.dbo.OrderDetails.xsd<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">On the <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph> design area, set the source schema to <bpt id="2">&lt;embeddedLabel&gt;</bpt>PO.xsd<ept id="2">&lt;/embeddedLabel&gt;</ept> and set the destination schema to <bpt id="3">&lt;embeddedLabel&gt;</bpt>FTPEAITutorial_TableOperation.dbo.OrderDetails.xsd<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Toolbox<ept id="1">&lt;/embeddedLabel&gt;</ept>, from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>List Operations<ept id="2">&lt;/embeddedLabel&gt;</ept> category, drag-and-drop a <bpt id="3">&lt;embeddedLabel&gt;</bpt>Create List<ept id="3">&lt;/embeddedLabel&gt;</ept> <ph id="4">&lt;token&gt;mapop&lt;/token&gt;</ph> on the <ph id="5">&lt;token&gt;transform&lt;/token&gt;</ph> design area.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Toolbox<ept id="1">&lt;/embeddedLabel&gt;</ept>, from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>List Operations<ept id="2">&lt;/embeddedLabel&gt;</ept> category, drag-and-drop a <bpt id="3">&lt;embeddedLabel&gt;</bpt>Create List<ept id="3">&lt;/embeddedLabel&gt;</ept> <ph id="4">&lt;token&gt;mapop&lt;/token&gt;</ph> on the <ph id="5">&lt;token&gt;transform&lt;/token&gt;</ph> design area.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Double-click the <ph id="1">&lt;token&gt;mapop&lt;/token&gt;</ph>, select the plus sign, and enter <bpt id="2">&lt;embeddedLabel&gt;</bpt>Amount<ept id="2">&lt;/embeddedLabel&gt;</ept> as the member name.</source>
+            <target state="new">Double-click the <ph id="1">&lt;token&gt;mapop&lt;/token&gt;</ph>, select the plus sign, and enter <bpt id="2">&lt;embeddedLabel&gt;</bpt>Amount<ept id="2">&lt;/embeddedLabel&gt;</ept> as the member name.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Enter the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Member Type<ept id="1">&lt;/embeddedLabel&gt;</ept> as <bpt id="2">&lt;embeddedLabel&gt;</bpt>Number<ept id="2">&lt;/embeddedLabel&gt;</ept> and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>OK<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Enter the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Member Type<ept id="1">&lt;/embeddedLabel&gt;</ept> as <bpt id="2">&lt;embeddedLabel&gt;</bpt>Number<ept id="2">&lt;/embeddedLabel&gt;</ept> and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>OK<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>By doing this, you are creating an in-memory variable called <bpt id="1">&lt;embeddedLabel&gt;</bpt>Amount<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">By doing this, you are creating an in-memory variable called <bpt id="1">&lt;embeddedLabel&gt;</bpt>Amount<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Within a <bpt id="1">&lt;embeddedLabel&gt;</bpt>List<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph>, add a <bpt id="3">&lt;embeddedLabel&gt;</bpt>ForEach Loop<ept id="3">&lt;/embeddedLabel&gt;</ept> <ph id="4">&lt;token&gt;mapop&lt;/token&gt;</ph>, and then connect it to the <bpt id="5">&lt;embeddedLabel&gt;</bpt>OrderDetails<ept id="5">&lt;/embeddedLabel&gt;</ept> element in the source schema.</source>
+            <target state="new">Within a <bpt id="1">&lt;embeddedLabel&gt;</bpt>List<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph>, add a <bpt id="3">&lt;embeddedLabel&gt;</bpt>ForEach Loop<ept id="3">&lt;/embeddedLabel&gt;</ept> <ph id="4">&lt;token&gt;mapop&lt;/token&gt;</ph>, and then connect it to the <bpt id="5">&lt;embeddedLabel&gt;</bpt>OrderDetails<ept id="5">&lt;/embeddedLabel&gt;</ept> element in the source schema.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>You do so because <bpt id="1">&lt;embeddedLabel&gt;</bpt>OrderDetails<ept id="1">&lt;/embeddedLabel&gt;</ept> element is a repeating element in the message schema.</source>
+            <target state="new">You do so because <bpt id="1">&lt;embeddedLabel&gt;</bpt>OrderDetails<ept id="1">&lt;/embeddedLabel&gt;</ept> element is a repeating element in the message schema.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Within a <bpt id="1">&lt;embeddedLabel&gt;</bpt>ForEach Loop<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph>, add an <bpt id="3">&lt;embeddedLabel&gt;</bpt>Arithmetic Expression <ept id="3">&lt;/embeddedLabel&gt;</ept> <ph id="4">&lt;token&gt;mapop&lt;/token&gt;</ph>.</source>
+            <target state="new">Within a <bpt id="1">&lt;embeddedLabel&gt;</bpt>ForEach Loop<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph>, add an <bpt id="3">&lt;embeddedLabel&gt;</bpt>Arithmetic Expression <ept id="3">&lt;/embeddedLabel&gt;</ept> <ph id="4">&lt;token&gt;mapop&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Connect the <bpt id="1">&lt;embeddedLabel&gt;</bpt>UnitPrice<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Quantity<ept id="2">&lt;/embeddedLabel&gt;</ept> elements from the source schema to this <ph id="3">&lt;token&gt;mapop&lt;/token&gt;</ph>.</source>
+            <target state="new">Connect the <bpt id="1">&lt;embeddedLabel&gt;</bpt>UnitPrice<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Quantity<ept id="2">&lt;/embeddedLabel&gt;</ept> elements from the source schema to this <ph id="3">&lt;token&gt;mapop&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Double-click the <ph id="1">&lt;token&gt;mapop&lt;/token&gt;</ph> to open the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Configure Arithmetic Expression<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box, and in the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Enter arithmetic expression<ept id="3">&lt;/embeddedLabel&gt;</ept> box, type <bpt id="4">&lt;userInput&gt;</bpt>UnitPrice * Quantity<ept id="4">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">Double-click the <ph id="1">&lt;token&gt;mapop&lt;/token&gt;</ph> to open the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Configure Arithmetic Expression<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box, and in the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Enter arithmetic expression<ept id="3">&lt;/embeddedLabel&gt;</ept> box, type <bpt id="4">&lt;userInput&gt;</bpt>UnitPrice * Quantity<ept id="4">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>By now, we have calculated the value of <bpt id="1">&lt;embeddedLabel&gt;</bpt>UnitPrice * Quantity<ept id="1">&lt;/embeddedLabel&gt;</ept> for each iteration of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>OrderDetails<ept id="2">&lt;/embeddedLabel&gt;</ept> element.</source>
+            <target state="new">By now, we have calculated the value of <bpt id="1">&lt;embeddedLabel&gt;</bpt>UnitPrice * Quantity<ept id="1">&lt;/embeddedLabel&gt;</ept> for each iteration of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>OrderDetails<ept id="2">&lt;/embeddedLabel&gt;</ept> element.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>We now need to assign this value to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Amount<ept id="1">&lt;/embeddedLabel&gt;</ept> variable we created as part of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>List<ept id="2">&lt;/embeddedLabel&gt;</ept> operation.</source>
+            <target state="new">We now need to assign this value to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Amount<ept id="1">&lt;/embeddedLabel&gt;</ept> variable we created as part of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>List<ept id="2">&lt;/embeddedLabel&gt;</ept> operation.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>To do so, we include an <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Item to List<ept id="1">&lt;/embeddedLabel&gt;</ept> operation within the <bpt id="2">&lt;embeddedLabel&gt;</bpt>ForEach Loop<ept id="2">&lt;/embeddedLabel&gt;</ept> operation and connect it to the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Arithmetic Expression<ept id="3">&lt;/embeddedLabel&gt;</ept> operation.</source>
+            <target state="new">To do so, we include an <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Item to List<ept id="1">&lt;/embeddedLabel&gt;</ept> operation within the <bpt id="2">&lt;embeddedLabel&gt;</bpt>ForEach Loop<ept id="2">&lt;/embeddedLabel&gt;</ept> operation and connect it to the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Arithmetic Expression<ept id="3">&lt;/embeddedLabel&gt;</ept> operation.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Doing this assigns the value from the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Arithmetic Expression<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> (which is <bpt id="3">&lt;embeddedLabel&gt;</bpt>Unit Price * Quantity<ept id="3">&lt;/embeddedLabel&gt;</ept>) to the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Amount<ept id="4">&lt;/embeddedLabel&gt;</ept> variable created as part of the <bpt id="5">&lt;embeddedLabel&gt;</bpt>List<ept id="5">&lt;/embeddedLabel&gt;</ept> operation.</source>
+            <target state="new">Doing this assigns the value from the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Arithmetic Expression<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> (which is <bpt id="3">&lt;embeddedLabel&gt;</bpt>Unit Price * Quantity<ept id="3">&lt;/embeddedLabel&gt;</ept>) to the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Amount<ept id="4">&lt;/embeddedLabel&gt;</ept> variable created as part of the <bpt id="5">&lt;embeddedLabel&gt;</bpt>List<ept id="5">&lt;/embeddedLabel&gt;</ept> operation.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>A List operation could have many variables defined.</source>
+            <target state="new">A List operation could have many variables defined.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Even though in our tutorial, we have just one variable (<bpt id="1">&lt;embeddedLabel&gt;</bpt>Amount<ept id="1">&lt;/embeddedLabel&gt;</ept>) defined, we still need to configure the <ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph> to pick that variable.</source>
+            <target state="new">Even though in our tutorial, we have just one variable (<bpt id="1">&lt;embeddedLabel&gt;</bpt>Amount<ept id="1">&lt;/embeddedLabel&gt;</ept>) defined, we still need to configure the <ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph> to pick that variable.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>To do so, we use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Select Entries<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph>.</source>
+            <target state="new">To do so, we use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Select Entries<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Drag and drop the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Select Entries<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> to the design surface and connect it to the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Create List<ept id="3">&lt;/embeddedLabel&gt;</ept> operation.</source>
+            <target state="new">Drag and drop the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Select Entries<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> to the design surface and connect it to the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Create List<ept id="3">&lt;/embeddedLabel&gt;</ept> operation.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Double-click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Select Entries<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Configure Select Entries<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box, and from the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Select members<ept id="4">&lt;/embeddedLabel&gt;</ept> box, select the check box against <bpt id="5">&lt;embeddedLabel&gt;</bpt>Amount<ept id="5">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Double-click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Select Entries<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Configure Select Entries<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box, and from the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Select members<ept id="4">&lt;/embeddedLabel&gt;</ept> box, select the check box against <bpt id="5">&lt;embeddedLabel&gt;</bpt>Amount<ept id="5">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>We now need to do a cumulative sum of the value in the Amount variable.</source>
+            <target state="new">We now need to do a cumulative sum of the value in the Amount variable.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>So, we add a Cumulative Sum <ph id="1">&lt;token&gt;mapop&lt;/token&gt;</ph> and then connect it to the Select Entries <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph>.</source>
+            <target state="new">So, we add a Cumulative Sum <ph id="1">&lt;token&gt;mapop&lt;/token&gt;</ph> and then connect it to the Select Entries <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Double-click the Cumulative Sum <ph id="1">&lt;token&gt;mapop&lt;/token&gt;</ph> and in the text box, enter the following expression:</source>
+            <target state="new">Double-click the Cumulative Sum <ph id="1">&lt;token&gt;mapop&lt;/token&gt;</ph> and in the text box, enter the following expression:</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>We must now connect the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Cumulative Sum<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> to the <bpt id="3">&lt;embeddedLabel&gt;</bpt>TotalAmount<ept id="3">&lt;/embeddedLabel&gt;</ept> element in the destination schema.</source>
+            <target state="new">We must now connect the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Cumulative Sum<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> to the <bpt id="3">&lt;embeddedLabel&gt;</bpt>TotalAmount<ept id="3">&lt;/embeddedLabel&gt;</ept> element in the destination schema.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>This is how the <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph> should resemble (only for mapping the TotalAmount element in the destination schema):</source>
+            <target state="new">This is how the <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph> should resemble (only for mapping the TotalAmount element in the destination schema):</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>You can also look at the map available as part of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>FTP_EAI_Tutorial<ept id="1">&lt;/embeddedLabel&gt;</ept> sample available at <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/?LinkId=247973<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=247973&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">You can also look at the map available as part of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>FTP_EAI_Tutorial<ept id="1">&lt;/embeddedLabel&gt;</ept> sample available at <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/?LinkId=247973<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=247973&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

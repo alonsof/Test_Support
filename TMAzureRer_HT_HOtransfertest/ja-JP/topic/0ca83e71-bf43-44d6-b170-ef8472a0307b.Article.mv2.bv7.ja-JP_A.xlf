@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ja-JP" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzFEKgzAMANCr9AANpG0w6U4w9rWPXSDRBBxOwTnw+PP/8SKaG9UR3ImASiAYisGIRYfeo6j2nHpYr+gMNA0IJMrQxSco6tUHbyZSc8JRpTkXsKAGdFmwwggeQlwVG7LlVHJ6KzyeOZ3LHOHncdu37cjpGjin+++j62vX9bvoMW/rHyHWlR6hAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Azure HDInsight Linked Service</source>
+            <target state="new">Azure HDInsight Linked Service</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Azure HDInsight Linked Service</source>
+            <target state="new">Azure HDInsight Linked Service</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This topic provides the JSON format that is supported by the July 2015 Release of Azure PowerShell.</source>
+            <target state="new">This topic provides the JSON format that is supported by the July 2015 Release of Azure PowerShell.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>If you are using an older version, see <ph id="1">&lt;link xlink:href="1a66a1b1-a81c-4218-bb8f-faa29daa45df" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure HDInsight BYOC Linked Service&lt;/link&gt;</ph> for the old JSON format.</source>
+            <target state="new">If you are using an older version, see <ph id="1">&lt;link xlink:href="1a66a1b1-a81c-4218-bb8f-faa29daa45df" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure HDInsight BYOC Linked Service&lt;/link&gt;</ph> for the old JSON format.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You create an Azure HDInsight BYOC (bring-your-own-cluster) linked service to link your own Azure HDInsight cluster to an Azure data factory.</source>
+            <target state="new">You create an Azure HDInsight BYOC (bring-your-own-cluster) linked service to link your own Azure HDInsight cluster to an Azure data factory.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>This topic describes the JSON properties for defining a HDInsight linked service.</source>
+            <target state="new">This topic describes the JSON properties for defining a HDInsight linked service.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>When you use the Data Factory Editor in Azure Portal, the editor provides you a JSON template for defining a linked service that you can modify and deploy to create a linked service.</source>
+            <target state="new">When you use the Data Factory Editor in Azure Portal, the editor provides you a JSON template for defining a linked service that you can modify and deploy to create a linked service.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>To use the <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.Azure.Commands.DataFactories.New-AzureDataFactoryLinkedService&lt;/codeEntityReference&gt;</ph> cmdlet to create a linked service, you will need to create a JSON file and use it with the cmdlet.</source>
+            <target state="new">To use the <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.Azure.Commands.DataFactories.New-AzureDataFactoryLinkedService&lt;/codeEntityReference&gt;</ph> cmdlet to create a linked service, you will need to create a JSON file and use it with the cmdlet.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Example</source>
+            <target state="new">Example</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Properties</source>
+            <target state="new">Properties</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Property</source>
+            <target state="new">Property</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>type</source>
+            <target state="new">type</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The type property should be set to <bpt id="1">&lt;embeddedLabel&gt;</bpt>HDInsight<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The type property should be set to <bpt id="1">&lt;embeddedLabel&gt;</bpt>HDInsight<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>clusterUri</source>
+            <target state="new">clusterUri</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>The URI of the HDInsight cluster.</source>
+            <target state="new">The URI of the HDInsight cluster.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>username</source>
+            <target state="new">username</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Specify username to be used to connect to an existing HDInsight cluster.</source>
+            <target state="new">Specify username to be used to connect to an existing HDInsight cluster.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>password</source>
+            <target state="new">password</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Specify password for the user account.</source>
+            <target state="new">Specify password for the user account.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>location</source>
+            <target state="new">location</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Specify the location of the HDInsight cluster (for example: WestUS).</source>
+            <target state="new">Specify the location of the HDInsight cluster (for example: WestUS).</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>linkedServiceName</source>
+            <target state="new">linkedServiceName</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Name of the linked service for the blob storage used by this HDInsight cluster.</source>
+            <target state="new">Name of the linked service for the blob storage used by this HDInsight cluster.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="pt-BR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzVEKwjAMANCr5AAJNF1tGz/98lu8QNolMJibaIUd3/0/eO6TtRQ7maVEiT1QC7VRD6xZxFlVEOa51JKqk2i/UOrFSacaqYnE7Jxb8IxgbDGcgkIvp4qmJFPrlFnruWhN0hAY4T3o9kA41sXdjnH97PtAiAgF4f576fb86PZddSz79gfO3wnpoQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Step 7: Transform the Flat File Schema to the Insert Schema</source>
+            <target state="new">Step 7: Transform the Flat File Schema to the Insert Schema</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This section demonstrates how to map the elements in the incoming flat file message to the elements in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Insert<ept id="1">&lt;/embeddedLabel&gt;</ept> message for the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Claims<ept id="2">&lt;/embeddedLabel&gt;</ept> table.</source>
+            <target state="new">This section demonstrates how to map the elements in the incoming flat file message to the elements in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Insert<ept id="1">&lt;/embeddedLabel&gt;</ept> message for the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Claims<ept id="2">&lt;/embeddedLabel&gt;</ept> table.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>To understand which elements in the source schema map to which elements in the destination schema, it is important to first look at the two schemas.</source>
+            <target state="new">To understand which elements in the source schema map to which elements in the destination schema, it is important to first look at the two schemas.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The following table lists the mapping requirements and the map operations to use to accomplish the message transformation:</source>
+            <target state="new">The following table lists the mapping requirements and the map operations to use to accomplish the message transformation:</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>What to map?</source>
+            <target state="new">What to map?</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>How to achieve?</source>
+            <target state="new">How to achieve?</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>All the elements in the flat-file schema map to relevant elements in the Insert message schema.</source>
+            <target state="new">All the elements in the flat-file schema map to relevant elements in the Insert message schema.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>For example, <bpt id="1">&lt;embeddedLabel&gt;</bpt>ClaimID<ept id="1">&lt;/embeddedLabel&gt;</ept> maps to <bpt id="2">&lt;embeddedLabel&gt;</bpt>ClaimID<ept id="2">&lt;/embeddedLabel&gt;</ept>, <bpt id="3">&lt;embeddedLabel&gt;</bpt>ClaimType<ept id="3">&lt;/embeddedLabel&gt;</ept> maps to <bpt id="4">&lt;embeddedLabel&gt;</bpt>ClaimType<ept id="4">&lt;/embeddedLabel&gt;</ept>, and so on.</source>
+            <target state="new">For example, <bpt id="1">&lt;embeddedLabel&gt;</bpt>ClaimID<ept id="1">&lt;/embeddedLabel&gt;</ept> maps to <bpt id="2">&lt;embeddedLabel&gt;</bpt>ClaimID<ept id="2">&lt;/embeddedLabel&gt;</ept>, <bpt id="3">&lt;embeddedLabel&gt;</bpt>ClaimType<ept id="3">&lt;/embeddedLabel&gt;</ept> maps to <bpt id="4">&lt;embeddedLabel&gt;</bpt>ClaimType<ept id="4">&lt;/embeddedLabel&gt;</ept>, and so on.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>You directly connect the two nodes in the two schemas.</source>
+            <target state="new">You directly connect the two nodes in the two schemas.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Because the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ClaimTypeDescription<ept id="1">&lt;/embeddedLabel&gt;</ept> element in the Insert message schema gets its value by using the lookup configuration defined earlier, <bpt id="2">&lt;embeddedLabel&gt;</bpt>ClaimType<ept id="2">&lt;/embeddedLabel&gt;</ept> element in the flat file schema also maps to the <bpt id="3">&lt;embeddedLabel&gt;</bpt>ClaimTypeDescription<ept id="3">&lt;/embeddedLabel&gt;</ept> element in the Insert schema by using a <bpt id="4">&lt;embeddedLabel&gt;</bpt>Data Lookup<ept id="4">&lt;/embeddedLabel&gt;</ept> map operation.</source>
+            <target state="new">Because the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ClaimTypeDescription<ept id="1">&lt;/embeddedLabel&gt;</ept> element in the Insert message schema gets its value by using the lookup configuration defined earlier, <bpt id="2">&lt;embeddedLabel&gt;</bpt>ClaimType<ept id="2">&lt;/embeddedLabel&gt;</ept> element in the flat file schema also maps to the <bpt id="3">&lt;embeddedLabel&gt;</bpt>ClaimTypeDescription<ept id="3">&lt;/embeddedLabel&gt;</ept> element in the Insert schema by using a <bpt id="4">&lt;embeddedLabel&gt;</bpt>Data Lookup<ept id="4">&lt;/embeddedLabel&gt;</ept> map operation.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="e1e209ac-0c75-42ea-93bc-61a83eba849b#BKMK_DataLookup" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;To use a Data Lookup map operation&lt;/link&gt;</ph></source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="e1e209ac-0c75-42ea-93bc-61a83eba849b#BKMK_DataLookup" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;To use a Data Lookup map operation&lt;/link&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>After defining the map, include it in the bridge configuration defined in <ph id="1">&lt;link xlink:href="a8cffcf3-2815-4e19-84b5-5b75d8b3f0c4" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configure a One-Way Bridge&lt;/link&gt;</ph>.</source>
+            <target state="new">After defining the map, include it in the bridge configuration defined in <ph id="1">&lt;link xlink:href="a8cffcf3-2815-4e19-84b5-5b75d8b3f0c4" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configure a One-Way Bridge&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>To use a Data Lookup map operation</source>
+            <target state="new">To use a Data Lookup map operation</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Right-click the FlatFile_Bridge project, point to <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add<ept id="1">&lt;/embeddedLabel&gt;</ept>, and then click <bpt id="2">&lt;embeddedLabel&gt;</bpt>New Item<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Right-click the FlatFile_Bridge project, point to <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add<ept id="1">&lt;/embeddedLabel&gt;</ept>, and then click <bpt id="2">&lt;embeddedLabel&gt;</bpt>New Item<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add New Item<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Map<ept id="2">&lt;/embeddedLabel&gt;</ept>, specify the map name as <bpt id="3">&lt;userInput&gt;</bpt>FF_SQL_Transform.trfm<ept id="3">&lt;/userInput&gt;</ept>, and then click <bpt id="4">&lt;embeddedLabel&gt;</bpt>OK<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add New Item<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Map<ept id="2">&lt;/embeddedLabel&gt;</ept>, specify the map name as <bpt id="3">&lt;userInput&gt;</bpt>FF_SQL_Transform.trfm<ept id="3">&lt;/userInput&gt;</ept>, and then click <bpt id="4">&lt;embeddedLabel&gt;</bpt>OK<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>On the map surface, select the source schema to <bpt id="1">&lt;embeddedLabel&gt;</bpt>InsuranceClaim.xsd<ept id="1">&lt;/embeddedLabel&gt;</ept> and the destination schema to <bpt id="2">&lt;embeddedLabel&gt;</bpt>FlatFile_Bridge_TableOperation.dbo.Claims.xsd<ept id="2">&lt;/embeddedLabel&gt;</ept> (Insert operation).</source>
+            <target state="new">On the map surface, select the source schema to <bpt id="1">&lt;embeddedLabel&gt;</bpt>InsuranceClaim.xsd<ept id="1">&lt;/embeddedLabel&gt;</ept> and the destination schema to <bpt id="2">&lt;embeddedLabel&gt;</bpt>FlatFile_Bridge_TableOperation.dbo.Claims.xsd<ept id="2">&lt;/embeddedLabel&gt;</ept> (Insert operation).</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Toolbox<ept id="1">&lt;/embeddedLabel&gt;</ept>, from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Misc Operations<ept id="2">&lt;/embeddedLabel&gt;</ept> category, drag-and-drop a <bpt id="3">&lt;embeddedLabel&gt;</bpt>Get Context Property<ept id="3">&lt;/embeddedLabel&gt;</ept> <ph id="4">&lt;token&gt;mapop&lt;/token&gt;</ph> on the map surface.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Toolbox<ept id="1">&lt;/embeddedLabel&gt;</ept>, from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Misc Operations<ept id="2">&lt;/embeddedLabel&gt;</ept> category, drag-and-drop a <bpt id="3">&lt;embeddedLabel&gt;</bpt>Get Context Property<ept id="3">&lt;/embeddedLabel&gt;</ept> <ph id="4">&lt;token&gt;mapop&lt;/token&gt;</ph> on the map surface.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Double-click the map operation, and for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Property Name<ept id="1">&lt;/embeddedLabel&gt;</ept> text box, enter <bpt id="2">&lt;userInput&gt;</bpt>ClaimTypeDescription<ept id="2">&lt;/userInput&gt;</ept>, and then click <bpt id="3">&lt;embeddedLabel&gt;</bpt>OK<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Double-click the map operation, and for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Property Name<ept id="1">&lt;/embeddedLabel&gt;</ept> text box, enter <bpt id="2">&lt;userInput&gt;</bpt>ClaimTypeDescription<ept id="2">&lt;/userInput&gt;</ept>, and then click <bpt id="3">&lt;embeddedLabel&gt;</bpt>OK<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Connect the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Get Context Property<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> to the <bpt id="3">&lt;embeddedLabel&gt;</bpt>ClaimTypeDescription<ept id="3">&lt;/embeddedLabel&gt;</ept> element in the destination schema.</source>
+            <target state="new">Connect the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Get Context Property<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> to the <bpt id="3">&lt;embeddedLabel&gt;</bpt>ClaimTypeDescription<ept id="3">&lt;/embeddedLabel&gt;</ept> element in the destination schema.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>As part of the bridge configuration, you had already configured the lookup such that the claim type description is already retrieved from the <ph id="1">&lt;token&gt;ssSDSfull&lt;/token&gt;</ph> and is assigned to a <bpt id="2">&lt;embeddedLabel&gt;</bpt>ClaimTypeDescription<ept id="2">&lt;/embeddedLabel&gt;</ept> property that gets created at runtime.</source>
+            <target state="new">As part of the bridge configuration, you had already configured the lookup such that the claim type description is already retrieved from the <ph id="1">&lt;token&gt;ssSDSfull&lt;/token&gt;</ph> and is assigned to a <bpt id="2">&lt;embeddedLabel&gt;</bpt>ClaimTypeDescription<ept id="2">&lt;/embeddedLabel&gt;</ept> property that gets created at runtime.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Using the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Get Context Property<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph>, you assign the value of that property to the <bpt id="3">&lt;embeddedLabel&gt;</bpt>ClaimTypeDescription<ept id="3">&lt;/embeddedLabel&gt;</ept> element in the destination schema.</source>
+            <target state="new">Using the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Get Context Property<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph>, you assign the value of that property to the <bpt id="3">&lt;embeddedLabel&gt;</bpt>ClaimTypeDescription<ept id="3">&lt;/embeddedLabel&gt;</ept> element in the destination schema.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Map the other elements in the source and destination schemas, as shown below.</source>
+            <target state="new">Map the other elements in the source and destination schemas, as shown below.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Save the map.</source>
+            <target state="new">Save the map.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Save the project.</source>
+            <target state="new">Save the project.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>To add the map to the bridge configuration</source>
+            <target state="new">To add the map to the bridge configuration</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>FlatFile_Bridge<ept id="1">&lt;/embeddedLabel&gt;</ept> project, open the .bridgeconfig file, and select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Xml Transform<ept id="2">&lt;/embeddedLabel&gt;</ept> activity.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>FlatFile_Bridge<ept id="1">&lt;/embeddedLabel&gt;</ept> project, open the .bridgeconfig file, and select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Xml Transform<ept id="2">&lt;/embeddedLabel&gt;</ept> activity.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept> pane, click the ellipsis button <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> against the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Maps<ept id="3">&lt;/embeddedLabel&gt;</ept> property to open the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Map Selection<ept id="4">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept> pane, click the ellipsis button <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> against the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Maps<ept id="3">&lt;/embeddedLabel&gt;</ept> property to open the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Map Selection<ept id="4">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Select the check box for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>FF_SQL_Transform<ept id="1">&lt;/embeddedLabel&gt;</ept> map and then click <bpt id="2">&lt;embeddedLabel&gt;</bpt>OK<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select the check box for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>FF_SQL_Transform<ept id="1">&lt;/embeddedLabel&gt;</ept> map and then click <bpt id="2">&lt;embeddedLabel&gt;</bpt>OK<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Save changes to the project.</source>
+            <target state="new">Save changes to the project.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

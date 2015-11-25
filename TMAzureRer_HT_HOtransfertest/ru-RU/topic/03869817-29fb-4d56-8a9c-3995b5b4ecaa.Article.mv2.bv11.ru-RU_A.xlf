@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ru-RU" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANycsJwzAMANBVPIAF/siO1Al6Lu0Akm1BIE0gTSDjN+/6zPJQTA3GQASMFkADKbQQpTJbFGHvcqqtmBXoQRIgxQyqlKHGzpqn0EiGdyFTZYoTJDYF7KUCCTfIzEWL4mgi3kXv9hNeH++uZTYb1/HYt+3wLt135/P8yvreZf0tcszb+gf7FEYwogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Setting a Storage Analytics Data Retention Policy</source>
+            <target state="new">Setting a Storage Analytics Data Retention Policy</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>By default, Storage Analytics will not delete any logging or metrics data.</source>
+            <target state="new">By default, Storage Analytics will not delete any logging or metrics data.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Blobs and table entities will continue to be written until the shared 20TB limit is reached.</source>
+            <target state="new">Blobs and table entities will continue to be written until the shared 20TB limit is reached.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Once the 20TB limit is reached, Storage Analytics will stop writing new data and will not resume until free space is available.</source>
+            <target state="new">Once the 20TB limit is reached, Storage Analytics will stop writing new data and will not resume until free space is available.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>This 20TB limit is independent of the total limit for your storage account.</source>
+            <target state="new">This 20TB limit is independent of the total limit for your storage account.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>For more information on storage account limits, see <bpt id="1">&lt;legacyLink xlink:href="26df4d89-8289-4b31-aaa0-df971cab9b52" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Azure Storage Scalability and Performance Targets<ept id="1">&lt;/legacyLink&gt;</ept>.</source>
+            <target state="new">For more information on storage account limits, see <bpt id="1">&lt;legacyLink xlink:href="26df4d89-8289-4b31-aaa0-df971cab9b52" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Azure Storage Scalability and Performance Targets<ept id="1">&lt;/legacyLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>There are two ways to delete Storage Analytics data: by manually making deletion requests or by setting a data retention policy.</source>
+            <target state="new">There are two ways to delete Storage Analytics data: by manually making deletion requests or by setting a data retention policy.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Manual requests to delete Storage Analytics data are billable, but delete requests resulting from a retention policy are not billable.</source>
+            <target state="new">Manual requests to delete Storage Analytics data are billable, but delete requests resulting from a retention policy are not billable.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>To avoid unnecessary charges, set a retention policy for logging and metrics.</source>
+            <target state="new">To avoid unnecessary charges, set a retention policy for logging and metrics.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Setting a Data Retention Policy</source>
+            <target state="new">Setting a Data Retention Policy</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>You can configure two data retention policies: one for logging and one for metrics.</source>
+            <target state="new">You can configure two data retention policies: one for logging and one for metrics.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>When enabled for both, Storage Analytics will delete logs and table entries older than the specified number of days.</source>
+            <target state="new">When enabled for both, Storage Analytics will delete logs and table entries older than the specified number of days.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The maximum retention period is 365 days (1 year).</source>
+            <target state="new">The maximum retention period is 365 days (1 year).</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>When you make any changes to your retention policy, it may take several minutes for your settings to be applied.</source>
+            <target state="new">When you make any changes to your retention policy, it may take several minutes for your settings to be applied.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>To set up a policy that deletes both logging and metrics data after 7 days, make a request to the <ph id="1">&lt;link xlink:href="65424a3c-ab49-4994-865c-827409598092" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Service Properties&lt;/link&gt;</ph>, <ph id="2">&lt;link xlink:href="aff6740b-6ea5-4548-b226-322eb76dad94" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Table Service Properties&lt;/link&gt;</ph>, or <ph id="3">&lt;link xlink:href="3ed99e96-b502-4543-9692-3c48343eeb2d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Queue Service Properties&lt;/link&gt;</ph> operation with the <ph id="4">&lt;codeInline&gt;%%amp;lt;RetentionPolicy%%amp;gt;&lt;/codeInline&gt;</ph> nodes configured like shown:</source>
+            <target state="new">To set up a policy that deletes both logging and metrics data after 7 days, make a request to the <ph id="1">&lt;link xlink:href="65424a3c-ab49-4994-865c-827409598092" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Service Properties&lt;/link&gt;</ph>, <ph id="2">&lt;link xlink:href="aff6740b-6ea5-4548-b226-322eb76dad94" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Table Service Properties&lt;/link&gt;</ph>, or <ph id="3">&lt;link xlink:href="3ed99e96-b502-4543-9692-3c48343eeb2d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Queue Service Properties&lt;/link&gt;</ph> operation with the <ph id="4">&lt;codeInline&gt;%%amp;lt;RetentionPolicy%%amp;gt;&lt;/codeInline&gt;</ph> nodes configured like shown:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>The following XML shows the <ph id="1">&lt;codeInline&gt;%%amp;lt;RetentionPolicy%%amp;gt;&lt;/codeInline&gt;</ph> nodes in the context of complete payload for a Set Blob Service Properties request:</source>
+            <target state="new">The following XML shows the <ph id="1">&lt;codeInline&gt;%%amp;lt;RetentionPolicy%%amp;gt;&lt;/codeInline&gt;</ph> nodes in the context of complete payload for a Set Blob Service Properties request:</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>You can also configure a retention policy that uses different periods for logging and metrics.</source>
+            <target state="new">You can also configure a retention policy that uses different periods for logging and metrics.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>To disable a retention policy in the future, call the Set Blob Service Properties operation with the <ph id="1">&lt;codeInline&gt;%%amp;lt;Enabled%%amp;gt;&lt;/codeInline&gt;</ph> node inside set to <ph id="2">&lt;system&gt;false&lt;/system&gt;</ph>, as shown below:</source>
+            <target state="new">To disable a retention policy in the future, call the Set Blob Service Properties operation with the <ph id="1">&lt;codeInline&gt;%%amp;lt;Enabled%%amp;gt;&lt;/codeInline&gt;</ph> node inside set to <ph id="2">&lt;system&gt;false&lt;/system&gt;</ph>, as shown below:</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>If you disable Storage Analytics for a storage service but a data retention policy is enabled, your old data will continue to get deleted.</source>
+            <target state="new">If you disable Storage Analytics for a storage service but a data retention policy is enabled, your old data will continue to get deleted.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>To avoid accidental data loss, ensure that you configure your data retention policy when enabling and disabling Storage Analytics.</source>
+            <target state="new">To avoid accidental data loss, ensure that you configure your data retention policy when enabling and disabling Storage Analytics.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzNsJwzAMQNFVPIAFfkiO1O8WOkAXsGwLAmkCbQoZv/4+l2uWh2JqMAYiYLQAGlihhViLiMVaxbusIcbSMhSyAdhwAV6EwHKhqMy5p1k1CoxKGYgszVcXEK0GSiZt6caE7F30rg+4P7y7ttVsXOftcxynd2naxOfvXffXp+7frZ7rsf8Bkjs7xaIAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Tutorial: Configuring B2B Messaging Using BizTalk Services Portal and Bridges</source>
+            <target state="new">Tutorial: Configuring B2B Messaging Using BizTalk Services Portal and Bridges</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;af_integration_full&lt;/token&gt;</ph> provides two key integration possibilities – enterprise application integration (EAI) and business-to-business (B2B) messaging using EDI.</source>
+            <target state="new"><ph id="1">&lt;token&gt;af_integration_full&lt;/token&gt;</ph> provides two key integration possibilities – enterprise application integration (EAI) and business-to-business (B2B) messaging using EDI.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Using EAI, you can create <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>s that are deployed on <ph id="3">&lt;token&gt;azure_1&lt;/token&gt;</ph>.</source>
+            <target state="new">Using EAI, you can create <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>s that are deployed on <ph id="3">&lt;token&gt;azure_1&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Using B2B, you can create trading partners and agreements to process EDI messages on the cloud.</source>
+            <target state="new">Using B2B, you can create trading partners and agreements to process EDI messages on the cloud.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You can then route the EDI messages to the already deployed <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>s for additional processing.</source>
+            <target state="new">You can then route the EDI messages to the already deployed <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>s for additional processing.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>This tutorial provides step by step instructions to create, deploy, and test an end-to-end <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> scenario.</source>
+            <target state="new">This tutorial provides step by step instructions to create, deploy, and test an end-to-end <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> scenario.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Business Scenario</source>
+            <target state="new">Business Scenario</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Contoso and Northwind are two business partners.</source>
+            <target state="new">Contoso and Northwind are two business partners.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Contoso (the retailer) sends sales order messages to Northwind (the supplier).</source>
+            <target state="new">Contoso (the retailer) sends sales order messages to Northwind (the supplier).</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Northwind maintains all the sales order data in table called SalesOrder, which is housed in a SQL Server database within Northwind’s premises.</source>
+            <target state="new">Northwind maintains all the sales order data in table called SalesOrder, which is housed in a SQL Server database within Northwind’s premises.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Contoso can send either XML messages or EDI messages to Northwind.</source>
+            <target state="new">Contoso can send either XML messages or EDI messages to Northwind.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>So Northwind has to implement a solution to enable the following:</source>
+            <target state="new">So Northwind has to implement a solution to enable the following:</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Contoso can send either an X12 message or an XML message for sales order.</source>
+            <target state="new">Contoso can send either an X12 message or an XML message for sales order.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Contoso must send messages that conform to the schema for the sales order message expected by Northwind.</source>
+            <target state="new">Contoso must send messages that conform to the schema for the sales order message expected by Northwind.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Contoso can also send XML messages to directly insert sales order data in the SalesOrder table in Northwind’s SQL Server database.</source>
+            <target state="new">Contoso can also send XML messages to directly insert sales order data in the SalesOrder table in Northwind’s SQL Server database.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>To enable this scenario, Northwind does the following:</source>
+            <target state="new">To enable this scenario, Northwind does the following:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>For Contoso to send XML messages, Northwind configures an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> on <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> to enable message validation and transformation.</source>
+            <target state="new">For Contoso to send XML messages, Northwind configures an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> on <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> to enable message validation and transformation.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>This bridge takes an input XML message, validates it against the sales order schema required by Northwind, and transforms the message to that schema.</source>
+            <target state="new">This bridge takes an input XML message, validates it against the sales order schema required by Northwind, and transforms the message to that schema.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Northwind also uses <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph> to enable connectivity to the on-premises SQL Server database from the <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph> deployed on the <ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">Northwind also uses <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph> to enable connectivity to the on-premises SQL Server database from the <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph> deployed on the <ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>For Contoso to send EDI X12 messages, Northwind uses the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> to configure and deploy an agreement in which Contoso can send an EDI/X12 message to Northwind.</source>
+            <target state="new">For Contoso to send EDI X12 messages, Northwind uses the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> to configure and deploy an agreement in which Contoso can send an EDI/X12 message to Northwind.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>The following illustration summarizes the scenario:</source>
+            <target state="new">The following illustration summarizes the scenario:</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Integration Capabilities Demonstrated in this Tutorial</source>
+            <target state="new">Integration Capabilities Demonstrated in this Tutorial</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>The scenario used for this tutorial helps us showcase the following integration capabilities of <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph>:</source>
+            <target state="new">The scenario used for this tutorial helps us showcase the following integration capabilities of <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph>:</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Message transportation<ept id="1">&lt;/embeddedLabel&gt;</ept>: The retailer and supplier can be present in different platforms and conform to different transport protocols and message formats.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Message transportation<ept id="1">&lt;/embeddedLabel&gt;</ept>: The retailer and supplier can be present in different platforms and conform to different transport protocols and message formats.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> implementation helps bridge these differences by understanding the different protocols and message formats.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> implementation helps bridge these differences by understanding the different protocols and message formats.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Message validation<ept id="1">&lt;/embeddedLabel&gt;</ept>: While the incoming purchase order might be in different message formats for different retailers, the incoming purchase orders should conform to one of those defined message formats.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Message validation<ept id="1">&lt;/embeddedLabel&gt;</ept>: While the incoming purchase order might be in different message formats for different retailers, the incoming purchase orders should conform to one of those defined message formats.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>This is achieved through message validation.</source>
+            <target state="new">This is achieved through message validation.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Message transformation<ept id="1">&lt;/embeddedLabel&gt;</ept>: The supplier adheres to a common purchase order format.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Message transformation<ept id="1">&lt;/embeddedLabel&gt;</ept>: The supplier adheres to a common purchase order format.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Therefore, the incoming purchase orders have to be normalized to this common format.</source>
+            <target state="new">Therefore, the incoming purchase orders have to be normalized to this common format.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>This is achieved through message transformation.</source>
+            <target state="new">This is achieved through message transformation.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Hybrid connectivity<ept id="1">&lt;/embeddedLabel&gt;</ept>: The supplier's data store is an on-premises Microsoft SQL server.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Hybrid connectivity<ept id="1">&lt;/embeddedLabel&gt;</ept>: The supplier's data store is an on-premises Microsoft SQL server.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>The normalized purchase order received through the cloud application has to be persisted in the on-premises data store.</source>
+            <target state="new">The normalized purchase order received through the cloud application has to be persisted in the on-premises data store.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>This is achieved through Hybrid connectivity.</source>
+            <target state="new">This is achieved through Hybrid connectivity.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Before You Begin this Tutorial</source>
+            <target state="new">Before You Begin this Tutorial</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>To prepare a <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> environment, see <ph id="2">&lt;link xlink:href="a9584b43-20da-4d5e-8fcf-4253941d4c96" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Administration and Development Task List in BizTalk Services&lt;/link&gt;</ph>.</source>
+            <target state="new">To prepare a <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> environment, see <ph id="2">&lt;link xlink:href="a9584b43-20da-4d5e-8fcf-4253941d4c96" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Administration and Development Task List in BizTalk Services&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>To set up the EDI message transfer, you need to access the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>.</source>
+            <target state="new">To set up the EDI message transfer, you need to access the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>How to Use this Tutorial</source>
+            <target state="new">How to Use this Tutorial</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>This tutorial is written around a sample, <bpt id="1">&lt;embeddedLabel&gt;</bpt>EAIEDITutorial.zip<ept id="1">&lt;/embeddedLabel&gt;</ept>, which is available to download at <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>MSDN Code Gallery<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=316856&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">This tutorial is written around a sample, <bpt id="1">&lt;embeddedLabel&gt;</bpt>EAIEDITutorial.zip<ept id="1">&lt;/embeddedLabel&gt;</ept>, which is available to download at <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>MSDN Code Gallery<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=316856&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>You could use the sample and go through this tutorial to understand how the sample was built.</source>
+            <target state="new">You could use the sample and go through this tutorial to understand how the sample was built.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Or, you could use this tutorial to create your own application.</source>
+            <target state="new">Or, you could use this tutorial to create your own application.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>This tutorial is targeted towards the second approach so that you understand how this application is built.</source>
+            <target state="new">This tutorial is targeted towards the second approach so that you understand how this application is built.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Also, as much as possible, the tutorial is consistent with the sample and uses the same names for artifacts (for example, schemas, transforms) as used in the sample.</source>
+            <target state="new">Also, as much as possible, the tutorial is consistent with the sample and uses the same names for artifacts (for example, schemas, transforms) as used in the sample.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>In This Section</source>
+            <target state="new">In This Section</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

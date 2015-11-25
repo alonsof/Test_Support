@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANylEKwyAMANCreAADRqPV/Q/2v10g0QQKXQttBz3++v2eWVKh2EGVCAgtgIQq0ANyac2QuXkXtFYeSoCWOtAYCDLlBpxKMRpkOaN32AKnnCrUIArU719jDtBkFItFJkzlXt7pAc+3d9cym+l1PvZtO72Lt5F3r9+X18/O67HwOW/rH9Cj3oiiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>OAuth2PermissionGrant</source>
+            <target state="new">OAuth2PermissionGrant</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Applies To: Azure AD Graph</source>
+            <target state="new">Applies To: Azure AD Graph</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Overview</source>
+            <target state="new">Overview</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Represents the OAuth 2.0 delegated permission scopes that have been granted to an application (represented by a service principal) as part of the user or admin consent process.</source>
+            <target state="new">Represents the OAuth 2.0 delegated permission scopes that have been granted to an application (represented by a service principal) as part of the user or admin consent process.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>This topic provides descriptions of the properties of the <ph id="1">&lt;system&gt;OAuth2PermissionGrant&lt;/system&gt;</ph> entity type.</source>
+            <target state="new">This topic provides descriptions of the properties of the <ph id="1">&lt;system&gt;OAuth2PermissionGrant&lt;/system&gt;</ph> entity type.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Beginning with version 1.5, the <ph id="1">&lt;system&gt;Permission&lt;/system&gt;</ph> entity type is renamed to <ph id="2">&lt;system&gt;OAuth2PermissionGrant&lt;/system&gt;</ph>.</source>
+            <target state="new">Beginning with version 1.5, the <ph id="1">&lt;system&gt;Permission&lt;/system&gt;</ph> entity type is renamed to <ph id="2">&lt;system&gt;OAuth2PermissionGrant&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>In versions prior to 1.5, permissions created during consent were added to the <ph id="1">&lt;system&gt;permissions&lt;/system&gt;</ph> property of a user or service principal.</source>
+            <target state="new">In versions prior to 1.5, permissions created during consent were added to the <ph id="1">&lt;system&gt;permissions&lt;/system&gt;</ph> property of a user or service principal.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Namespace and Inheritance</source>
+            <target state="new">Namespace and Inheritance</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Namespace<ept id="1">&lt;/embeddedLabel&gt;</ept>: Microsoft.DirectoryServices for version 1.5 and newer (<ph id="2">&lt;system&gt;OAuth2PermissionGrant&lt;/system&gt;</ph>), Microsoft.WindowsAzure.ActiveDirectory for versions prior to 1.5 (<ph id="3">&lt;system&gt;Permission&lt;/system&gt;</ph>).</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Namespace<ept id="1">&lt;/embeddedLabel&gt;</ept>: Microsoft.DirectoryServices for version 1.5 and newer (<ph id="2">&lt;system&gt;OAuth2PermissionGrant&lt;/system&gt;</ph>), Microsoft.WindowsAzure.ActiveDirectory for versions prior to 1.5 (<ph id="3">&lt;system&gt;Permission&lt;/system&gt;</ph>).</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Properties</source>
+            <target state="new">Properties</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;OAuth2PermissionGrant&lt;/system&gt;</ph> entity type has the following properties:</source>
+            <target state="new">The <ph id="1">&lt;system&gt;OAuth2PermissionGrant&lt;/system&gt;</ph> entity type has the following properties:</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Declared Properties</source>
+            <target state="new">Declared Properties</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Property</source>
+            <target state="new">Property</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Create</source>
+            <target state="new">Create</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>(POST)</source>
+            <target state="new">(POST)</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Read</source>
+            <target state="new">Read</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>(GET)</source>
+            <target state="new">(GET)</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Update</source>
+            <target state="new">Update</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>(PATCH)</source>
+            <target state="new">(PATCH)</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>clientId</source>
+            <target state="new">clientId</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Edm.String</source>
+            <target state="new">Edm.String</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Optional</source>
+            <target state="new">Optional</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Specifies the <ph id="1">&lt;system&gt;objectId&lt;/system&gt;</ph> of the service principal granted consent to impersonate the user when accessing the resource (represented by the <ph id="2">&lt;system&gt;resourceId&lt;/system&gt;</ph>).</source>
+            <target state="new">Specifies the <ph id="1">&lt;system&gt;objectId&lt;/system&gt;</ph> of the service principal granted consent to impersonate the user when accessing the resource (represented by the <ph id="2">&lt;system&gt;resourceId&lt;/system&gt;</ph>).</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>consentType</source>
+            <target state="new">consentType</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Edm.String</source>
+            <target state="new">Edm.String</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Optional</source>
+            <target state="new">Optional</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Specifies whether consent was provided by the administrator on behalf of the organization or whether consent was provided by an individual.</source>
+            <target state="new">Specifies whether consent was provided by the administrator on behalf of the organization or whether consent was provided by an individual.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>The possible values are “AllPrincipals” or “Principal”.</source>
+            <target state="new">The possible values are “AllPrincipals” or “Principal”.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>expiryTime</source>
+            <target state="new">expiryTime</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Edm.DateTime</source>
+            <target state="new">Edm.DateTime</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Optional</source>
+            <target state="new">Optional</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Reserved.</source>
+            <target state="new">Reserved.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Returns <ph id="1">&lt;system&gt;null&lt;/system&gt;</ph>.</source>
+            <target state="new">Returns <ph id="1">&lt;system&gt;null&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Do not use.</source>
+            <target state="new">Do not use.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>objectId</source>
+            <target state="new">objectId</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Edm.String</source>
+            <target state="new">Edm.String</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>The unique identifier for the permission scope.</source>
+            <target state="new">The unique identifier for the permission scope.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Notes<ept id="1">&lt;/embeddedLabel&gt;</ept>: <bpt id="2">&lt;embeddedLabel&gt;</bpt>key<ept id="2">&lt;/embeddedLabel&gt;</ept>, not nullable.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Notes<ept id="1">&lt;/embeddedLabel&gt;</ept>: <bpt id="2">&lt;embeddedLabel&gt;</bpt>key<ept id="2">&lt;/embeddedLabel&gt;</ept>, not nullable.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>principalId</source>
+            <target state="new">principalId</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Edm.String</source>
+            <target state="new">Edm.String</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Optional</source>
+            <target state="new">Optional</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>If <ph id="1">&lt;system&gt;consentType&lt;/system&gt;</ph> is “AllPrincipals” this value is null, and the consent applies to all users in the organization.</source>
+            <target state="new">If <ph id="1">&lt;system&gt;consentType&lt;/system&gt;</ph> is “AllPrincipals” this value is null, and the consent applies to all users in the organization.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>If <ph id="1">&lt;system&gt;consentType&lt;/system&gt;</ph> is “Principal” then this property specifies the <ph id="2">&lt;system&gt;objectId&lt;/system&gt;</ph> of the user that granted consent, and applies only for that user.</source>
+            <target state="new">If <ph id="1">&lt;system&gt;consentType&lt;/system&gt;</ph> is “Principal” then this property specifies the <ph id="2">&lt;system&gt;objectId&lt;/system&gt;</ph> of the user that granted consent, and applies only for that user.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>resourceId</source>
+            <target state="new">resourceId</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Edm.String</source>
+            <target state="new">Edm.String</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Optional</source>
+            <target state="new">Optional</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Specifies the <ph id="1">&lt;system&gt;objectId&lt;/system&gt;</ph> of the resource service principal to which access has been granted.</source>
+            <target state="new">Specifies the <ph id="1">&lt;system&gt;objectId&lt;/system&gt;</ph> of the resource service principal to which access has been granted.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>scope</source>
+            <target state="new">scope</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Edm.String</source>
+            <target state="new">Edm.String</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Optional</source>
+            <target state="new">Optional</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Specifies the value of the scope claim that the resource application should expect in the OAuth 2.0 access token.</source>
+            <target state="new">Specifies the value of the scope claim that the resource application should expect in the OAuth 2.0 access token.</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>startTime</source>
+            <target state="new">startTime</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Edm.DateTime</source>
+            <target state="new">Edm.DateTime</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Optional</source>
+            <target state="new">Optional</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Reserved.</source>
+            <target state="new">Reserved.</target>
+          </trans-unit>
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Returns <ph id="1">&lt;system&gt;null&lt;/system&gt;</ph>.</source>
+            <target state="new">Returns <ph id="1">&lt;system&gt;null&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Do not use.</source>
+            <target state="new">Do not use.</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>For information about the primitive types exposed by the EDM, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Entity Data Model: Primitive Data Types<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/ee382832.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For information about the primitive types exposed by the EDM, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Entity Data Model: Primitive Data Types<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/ee382832.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Addressing</source>
+            <target state="new">Addressing</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>The following table shows how to address the permission scopes resource set, which spans all the permission scopes in the directory, and an individual permission scope.</source>
+            <target state="new">The following table shows how to address the permission scopes resource set, which spans all the permission scopes in the directory, and an individual permission scope.</target>
+          </trans-unit>
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>The examples in the table use the tenant domain to address the tenant.</source>
+            <target state="new">The examples in the table use the tenant domain to address the tenant.</target>
+          </trans-unit>
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>For other ways of addressing the tenant, see <ph id="1">&lt;link xlink:href="5b0f3e3d-f96e-4b5b-864d-fc7c6b185097" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Addressing Aliases&lt;/link&gt;</ph>.</source>
+            <target state="new">For other ways of addressing the tenant, see <ph id="1">&lt;link xlink:href="5b0f3e3d-f96e-4b5b-864d-fc7c6b185097" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Addressing Aliases&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Artifact</source>
+            <target state="new">Artifact</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>URL fragment</source>
+            <target state="new">URL fragment</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Example</source>
+            <target state="new">Example</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Resource Set (all permission scopes)</source>
+            <target state="new">Resource Set (all permission scopes)</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>/oauth2PermissionGrants</source>
+            <target state="new">/oauth2PermissionGrants</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Individual permission scope.</source>
+            <target state="new">Individual permission scope.</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>/oauth2PermissionGrants/{objectId}</source>
+            <target state="new">/oauth2PermissionGrants/{objectId}</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Permission scopes can also be addressed as generic directory objects by replacing “oauth2PermisssionGrants” with “directoryObjects” in the URL.</source>
+            <target state="new">Permission scopes can also be addressed as generic directory objects by replacing “oauth2PermisssionGrants” with “directoryObjects” in the URL.</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>For more comprehensive information about querying directory objects, see <ph id="1">&lt;link xlink:href="3f3199df-de7d-49ff-92d2-58c8e3e9c9e9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure AD Graph Common Queries&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="d53ed232-0799-4749-a33e-0b622ec0f9c1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure AD Graph Differential Query&lt;/link&gt;</ph>.</source>
+            <target state="new">For more comprehensive information about querying directory objects, see <ph id="1">&lt;link xlink:href="3f3199df-de7d-49ff-92d2-58c8e3e9c9e9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure AD Graph Common Queries&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="d53ed232-0799-4749-a33e-0b622ec0f9c1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure AD Graph Differential Query&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source> Supported Operations and Permissions</source>
+            <target state="new"> Supported Operations and Permissions</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>The following operations are supported on permission scopes (the HTTP method used for each is in parentheses): </source>
+            <target state="new">The following operations are supported on permission scopes (the HTTP method used for each is in parentheses): </target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Create (POST)</source>
+            <target state="new">Create (POST)</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Read (GET)</source>
+            <target state="new">Read (GET)</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Update (PATCH): <ph id="1">&lt;system&gt;scope&lt;/system&gt;</ph> property only.</source>
+            <target state="new">Update (PATCH): <ph id="1">&lt;system&gt;scope&lt;/system&gt;</ph> property only.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Delete (DELETE)</source>
+            <target state="new">Delete (DELETE)</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>No functions or actions may be called on permission scopes.</source>
+            <target state="new">No functions or actions may be called on permission scopes.</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>A principal must be in the Company Administrator role to perform operations on permission scopes.</source>
+            <target state="new">A principal must be in the Company Administrator role to perform operations on permission scopes.</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Remarks</source>
+            <target state="new">Remarks</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>In version 1.5 and newer, the <ph id="1">&lt;system&gt;oauth2PermissionGrants&lt;/system&gt;</ph> navigation property of the <ph id="2">&lt;link xlink:href="6b0f847b-831b-474d-9189-78af89ee7977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;User&lt;/link&gt;</ph> entity and of the <ph id="3">&lt;link xlink:href="da2a15b8-d8b7-4120-a2ed-39e53c54af37" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ServicePrincipal&lt;/link&gt;</ph> entity returns the <ph id="4">&lt;system&gt;OAuth2PermissionGrant&lt;/system&gt;</ph> objects associated with the user or service principal.</source>
+            <target state="new">In version 1.5 and newer, the <ph id="1">&lt;system&gt;oauth2PermissionGrants&lt;/system&gt;</ph> navigation property of the <ph id="2">&lt;link xlink:href="6b0f847b-831b-474d-9189-78af89ee7977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;User&lt;/link&gt;</ph> entity and of the <ph id="3">&lt;link xlink:href="da2a15b8-d8b7-4120-a2ed-39e53c54af37" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ServicePrincipal&lt;/link&gt;</ph> entity returns the <ph id="4">&lt;system&gt;OAuth2PermissionGrant&lt;/system&gt;</ph> objects associated with the user or service principal.</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>Prior to version 1.5, the <ph id="1">&lt;system&gt;permissions&lt;/system&gt;</ph> navigation property of the <ph id="2">&lt;link xlink:href="6b0f847b-831b-474d-9189-78af89ee7977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;User&lt;/link&gt;</ph> entity and of the <ph id="3">&lt;link xlink:href="da2a15b8-d8b7-4120-a2ed-39e53c54af37" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ServicePrincipal&lt;/link&gt;</ph> entity returns the <ph id="4">&lt;system&gt;Permission&lt;/system&gt;</ph> objects associated with the user or service principal.</source>
+            <target state="new">Prior to version 1.5, the <ph id="1">&lt;system&gt;permissions&lt;/system&gt;</ph> navigation property of the <ph id="2">&lt;link xlink:href="6b0f847b-831b-474d-9189-78af89ee7977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;User&lt;/link&gt;</ph> entity and of the <ph id="3">&lt;link xlink:href="da2a15b8-d8b7-4120-a2ed-39e53c54af37" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ServicePrincipal&lt;/link&gt;</ph> entity returns the <ph id="4">&lt;system&gt;Permission&lt;/system&gt;</ph> objects associated with the user or service principal.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

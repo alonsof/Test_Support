@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-TW" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAVyFEKgzAMANCr5AAJJDWt7U6wAwj7TmrLBKfgHMhOP/Y+X+9Dcw2VWlMllc7knJ0qi6VSupgVBM4tef33WJ3UglExEbI2jDGMMcWcEaJrcp47VVUhHUMhbzlQqcwsA/fZHUEQvk+aHgjXuvTervN27PuJEBASwv3zsm06bHuvdi779gPWCHGGoQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Windowing</source>
+            <target state="new">Windowing</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Windowing (Azure Stream Analytics)</source>
+            <target state="new">Windowing (Azure Stream Analytics)</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>In applications that process real-time events, a common requirement is to perform some set-based computation (aggregation) or other operations over subsets of events that fall within some period of time.</source>
+            <target state="new">In applications that process real-time events, a common requirement is to perform some set-based computation (aggregation) or other operations over subsets of events that fall within some period of time.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Because the concept of time is a fundamental necessity to complex event-processing systems, it’s important to have a simple way to work with the time component of query logic in the system.</source>
+            <target state="new">Because the concept of time is a fundamental necessity to complex event-processing systems, it’s important to have a simple way to work with the time component of query logic in the system.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>In Azure Stream Analytics, these subsets of events are defined through windows to represent groupings by time.</source>
+            <target state="new">In Azure Stream Analytics, these subsets of events are defined through windows to represent groupings by time.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>This topic describes windows and how they are defined, identifies the types of windows that are supported, and explains how you can use windows with various operators.</source>
+            <target state="new">This topic describes windows and how they are defined, identifies the types of windows that are supported, and explains how you can use windows with various operators.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Understanding Windows</source>
+            <target state="new">Understanding Windows</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>A window contains event data along a timeline and enables you to perform various operations against the events within that window.</source>
+            <target state="new">A window contains event data along a timeline and enables you to perform various operations against the events within that window.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>For example, you may want to sum the values of payload fields in a given window as shown in the following illustration.</source>
+            <target state="new">For example, you may want to sum the values of payload fields in a given window as shown in the following illustration.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Tumbling window</source>
+            <target state="new">Tumbling window</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Every window operation outputs event at the end of the window.</source>
+            <target state="new">Every window operation outputs event at the end of the window.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The windows of Azure Stream Analytics are opened at the window start time and closed at the window end time.</source>
+            <target state="new">The windows of Azure Stream Analytics are opened at the window start time and closed at the window end time.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>For example, if you have a 5 minute window from 12:00 AM to 12:05 AM all events with timestamp greater than 12:00 AM  and up to timestamp 12:05 AM inclusive will be included within this window.</source>
+            <target state="new">For example, if you have a 5 minute window from 12:00 AM to 12:05 AM all events with timestamp greater than 12:00 AM  and up to timestamp 12:05 AM inclusive will be included within this window.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The output of the window will be a single event based on the aggregate function used with a timestamp equal to the window end time.</source>
+            <target state="new">The output of the window will be a single event based on the aggregate function used with a timestamp equal to the window end time.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The timestamp of the output event of the window can be projected in the SELECT statement using the System.Timestamp property using an alias.</source>
+            <target state="new">The timestamp of the output event of the window can be projected in the SELECT statement using the System.Timestamp property using an alias.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Every window automatically aligns itself to the zeroth hour.</source>
+            <target state="new">Every window automatically aligns itself to the zeroth hour.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>For example, a 5 minute tumbling window will align itself to (12:00-12:05] , (12:05-12:10], …</source>
+            <target state="new">For example, a 5 minute tumbling window will align itself to (12:00-12:05] , (12:05-12:10], …</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>All windows should be used in a GROUP BY clause.</source>
+            <target state="new">All windows should be used in a GROUP BY clause.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>There are 3 types of windows:</source>
+            <target state="new">There are 3 types of windows:</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>The maximum size of the window in all cases is 7 days.</source>
+            <target state="new">The maximum size of the window in all cases is 7 days.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

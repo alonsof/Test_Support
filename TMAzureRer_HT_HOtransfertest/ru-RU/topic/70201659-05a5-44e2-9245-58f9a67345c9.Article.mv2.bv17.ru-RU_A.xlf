@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ru-RU" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzFsKg0AMQNGtzAImkIyZR7qCfpd2AXFMQLAKVsHl1+97uO6DjZw6mDEDkyOM2EboSFpEnFQlhqFN6JMRKFMBLrWB9NRuVdS0sUqeYqiYkEoWwKwZmC2BJM6Qm4uWOnDu94ti2E94fWK4ltndruOxb9sRQ7pbjeF5fnV977r+Fj3mbf0DhnIUZqIAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Tools for Creating Message Schemas</source>
+            <target state="new">Tools for Creating Message Schemas</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>In the previous topics, we saw that rich messaging endpoints provide connectivity to different protocols and applications (see <ph id="1">&lt;link xlink:href="c4263b70-bd4d-42b1-9d0b-619afdfaf8cd" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Service Bus Connect&lt;/link&gt;</ph>), and provide message-processing capabilities such as validation, transformation, extraction, and enrichment on the cloud (see <ph id="2">&lt;link xlink:href="1aef098a-aec9-4258-adb0-ad5abfa5b820" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Message-Processing Bridges&lt;/link&gt;</ph>).</source>
+            <target state="new">In the previous topics, we saw that rich messaging endpoints provide connectivity to different protocols and applications (see <ph id="1">&lt;link xlink:href="c4263b70-bd4d-42b1-9d0b-619afdfaf8cd" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Service Bus Connect&lt;/link&gt;</ph>), and provide message-processing capabilities such as validation, transformation, extraction, and enrichment on the cloud (see <ph id="2">&lt;link xlink:href="1aef098a-aec9-4258-adb0-ad5abfa5b820" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Message-Processing Bridges&lt;/link&gt;</ph>).</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>However, neither of these can be used in isolation and ‘tie up’ with other <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> entities on the cloud (like topics, queues, and so on) to provide an end-to-end message flow.</source>
+            <target state="new">However, neither of these can be used in isolation and ‘tie up’ with other <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> entities on the cloud (like topics, queues, and so on) to provide an end-to-end message flow.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>For example, you could have a scenario where the a client sends a request message that needs to be processed on the cloud, routed to a queue, and then eventually inserted into a SQL Server database.</source>
+            <target state="new">For example, you could have a scenario where the a client sends a request message that needs to be processed on the cloud, routed to a queue, and then eventually inserted into a SQL Server database.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>To configure this scenario, you need to use an <ph id="1">&lt;token&gt;xml_bridge&lt;/token&gt;</ph>, a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> queue, followed by <ph id="3">&lt;token&gt;lobconnect&lt;/token&gt;</ph> in a sequence.</source>
+            <target state="new">To configure this scenario, you need to use an <ph id="1">&lt;token&gt;xml_bridge&lt;/token&gt;</ph>, a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> queue, followed by <ph id="3">&lt;token&gt;lobconnect&lt;/token&gt;</ph> in a sequence.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>This presents a need for a design area where you could stitch different components of a message flow together.</source>
+            <target state="new">This presents a need for a design area where you could stitch different components of a message flow together.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> provides a design surface called <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> that helps you achieve this.</source>
+            <target state="new"><ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> provides a design surface called <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> that helps you achieve this.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface is available as a Visual Studio project type and is installed with <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> SDK.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface is available as a Visual Studio project type and is installed with <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> SDK.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>For more information about the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> and to set up a <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, see <ph id="3">&lt;link xlink:href="03421690-817a-45a8-8492-c9cb98484102" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create a BizTalk Service Project&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> and to set up a <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, see <ph id="3">&lt;link xlink:href="03421690-817a-45a8-8492-c9cb98484102" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create a BizTalk Service Project&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Securing the BizTalk Service Project</source>
+            <target state="new">Securing the BizTalk Service Project</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>In the current <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> security model, access to the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> entities is controlled via <bpt id="3">&lt;externalLink&gt;</bpt><bpt id="4">&lt;linkText&gt;</bpt>Access Control Service<ept id="4">&lt;/linkText&gt;</ept><ph id="5">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=225149&lt;/linkUri&gt;</ph><ept id="3">&lt;/externalLink&gt;</ept> (http://go.microsoft.com/fwlink/p/?LinkId=225149).</source>
+            <target state="new">In the current <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> security model, access to the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> entities is controlled via <bpt id="3">&lt;externalLink&gt;</bpt><bpt id="4">&lt;linkText&gt;</bpt>Access Control Service<ept id="4">&lt;/linkText&gt;</ept><ph id="5">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=225149&lt;/linkUri&gt;</ph><ept id="3">&lt;/externalLink&gt;</ept> (http://go.microsoft.com/fwlink/p/?LinkId=225149).</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>A valid <ph id="1">&lt;token&gt;ac2&lt;/token&gt;</ph> token must be presented in order to create and manage entities on the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">A valid <ph id="1">&lt;token&gt;ac2&lt;/token&gt;</ph> token must be presented in order to create and manage entities on the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>In most cases, a client sending a message to a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> entity must also present a valid <ph id="2">&lt;token&gt;ac2&lt;/token&gt;</ph> token which is then used for authentication, the only known exception being relay endpoints that allow a client to be unauthenticated and handle the authentication and authorization on their own, typically using message security.</source>
+            <target state="new">In most cases, a client sending a message to a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> entity must also present a valid <ph id="2">&lt;token&gt;ac2&lt;/token&gt;</ph> token which is then used for authentication, the only known exception being relay endpoints that allow a client to be unauthenticated and handle the authentication and authorization on their own, typically using message security.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Also, the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> does not propagate either the <ph id="2">&lt;token&gt;ac2&lt;/token&gt;</ph> token or the claims received on the messages.</source>
+            <target state="new">Also, the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> does not propagate either the <ph id="2">&lt;token&gt;ac2&lt;/token&gt;</ph> token or the claims received on the messages.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>A <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> spanning multiple <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> entities is a message-mediation intermediary that sits between the clients and the services.</source>
+            <target state="new">A <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> spanning multiple <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> entities is a message-mediation intermediary that sits between the clients and the services.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>As such, a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> may be employed either by the service (in which case it mediates the receipt of messages sent by clients) or by a client (to mediate the messages before they are sent to service).</source>
+            <target state="new">As such, a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> may be employed either by the service (in which case it mediates the receipt of messages sent by clients) or by a client (to mediate the messages before they are sent to service).</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>In either case, effectively, the systems or applications employing the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> tend to be distributed with one of the parts being on the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> and others being outside the <ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph>, either on cloud or on premises.</source>
+            <target state="new">In either case, effectively, the systems or applications employing the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> tend to be distributed with one of the parts being on the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> and others being outside the <ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph>, either on cloud or on premises.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Hence, the distributed nature of these applications has implications on how authentication and authorization happens in various parts of the system in different scenarios.</source>
+            <target state="new">Hence, the distributed nature of these applications has implications on how authentication and authorization happens in various parts of the system in different scenarios.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>For the current milestone, all the entities that are part of a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> must belong to the same <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace.</source>
+            <target state="new">For the current milestone, all the entities that are part of a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> must belong to the same <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Hence, the authentication of a message flow happens only at the entry point of the flow and all entities in a message flow are considered to be within the same security and trust boundary.</source>
+            <target state="new">Hence, the authentication of a message flow happens only at the entry point of the flow and all entities in a message flow are considered to be within the same security and trust boundary.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>While deploying a message flow, you only need to provide the credentials (Issuer Name and Issuer Key) for the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace.</source>
+            <target state="new">While deploying a message flow, you only need to provide the credentials (Issuer Name and Issuer Key) for the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>For instructions on how to use a <ph id="1">&lt;token&gt;msgflow&lt;/token&gt;</ph> to configure rich messaging endpoints, see <ph id="2">&lt;link xlink:href="57f25980-f745-4e8e-8a7e-4e0e87877dd5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How do I Start Configuring AppFabric Integration Solutions&lt;/link&gt;</ph>.</source>
+            <target state="new">For instructions on how to use a <ph id="1">&lt;token&gt;msgflow&lt;/token&gt;</ph> to configure rich messaging endpoints, see <ph id="2">&lt;link xlink:href="57f25980-f745-4e8e-8a7e-4e0e87877dd5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How do I Start Configuring AppFabric Integration Solutions&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Tools That Aid Application Development</source>
+            <target state="new">Tools That Aid Application Development</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> provides the following tools that help in developing <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>s:</source>
+            <target state="new"><ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> provides the following tools that help in developing <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>s:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Schema Editor</source>
+            <target state="new">Schema Editor</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Schema Editor runs within the Microsoft Visual Studio environment.</source>
+            <target state="new">Schema Editor runs within the Microsoft Visual Studio environment.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>You can use it to easily create, edit, and manage XML and flat-file schemas for use with your application.</source>
+            <target state="new">You can use it to easily create, edit, and manage XML and flat-file schemas for use with your application.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Schema Editor uses its own graphical system of hierarchical records and fields to represent the structure of instance messages, and uses the XML Schema definition (XSD) language to store the schemas that it defines.</source>
+            <target state="new">Schema Editor uses its own graphical system of hierarchical records and fields to represent the structure of instance messages, and uses the XML Schema definition (XSD) language to store the schemas that it defines.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>This is true regardless of the format in which instance messages are exchanged: XML or flat-files.</source>
+            <target state="new">This is true regardless of the format in which instance messages are exchanged: XML or flat-files.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Creating Schemas Using the Schema Editor</source>
+            <target state="new">Creating Schemas Using the Schema Editor</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Working with Schema Editor is similar to working with Editor in BizTalk Server.</source>
+            <target state="new">Working with Schema Editor is similar to working with Editor in BizTalk Server.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>To use the Schema Editor, you can use the steps at <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Using BizTalk Editor<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/aa559175(v=bts.80).aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">To use the Schema Editor, you can use the steps at <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Using BizTalk Editor<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/aa559175(v=bts.80).aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Unlike the BizTalk Server Editor, the <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> Schema Editor does not enable you to generate an instance from a schema and test an instance against a schema.</source>
+            <target state="new">Unlike the BizTalk Server Editor, the <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> Schema Editor does not enable you to generate an instance from a schema and test an instance against a schema.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Testing Schemas Using the Schema Editor</source>
+            <target state="new">Testing Schemas Using the Schema Editor</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>After you create your schema, you may want to validate that the schema describes the message structure you intend it to describe.</source>
+            <target state="new">After you create your schema, you may want to validate that the schema describes the message structure you intend it to describe.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Schema validation includes:</source>
+            <target state="new">Schema validation includes:</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Validating the schema</source>
+            <target state="new">Validating the schema</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Generating an instance of the schema</source>
+            <target state="new">Generating an instance of the schema</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Validating the instance against the schema</source>
+            <target state="new">Validating the instance against the schema</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>For more information on how to test the schema, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://msdn.microsoft.com/library/aa547850<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/aa547850&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information on how to test the schema, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://msdn.microsoft.com/library/aa547850<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/aa547850&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Service Consuming Wizard</source>
+            <target state="new">Service Consuming Wizard</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>You can use bridges to send messages to external WCF service endpoints.</source>
+            <target state="new">You can use bridges to send messages to external WCF service endpoints.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>If the incoming message to the bridge is of a schema different from the one expected by the external service endpoints, you must use transforms to map the incoming message schema to the message schema expected by the service.</source>
+            <target state="new">If the incoming message to the bridge is of a schema different from the one expected by the external service endpoints, you must use transforms to map the incoming message schema to the message schema expected by the service.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>In turn, the transforms require that the schema of the message expected by the service be added to your <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">In turn, the transforms require that the schema of the message expected by the service be added to your <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>To enable users to generate/add such schemas to the project, <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> provides the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Service Consuming Wizard<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">To enable users to generate/add such schemas to the project, <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> provides the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Service Consuming Wizard<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>When you use the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> to route a message from a bridge to an external WCF service, you must have the schema of the service added to your project as well.</source>
+            <target state="new">When you use the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> to route a message from a bridge to an external WCF service, you must have the schema of the service added to your project as well.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>The Service Consuming Wizard enables you to generate the schema of a WCF service and add it to your <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">The Service Consuming Wizard enables you to generate the schema of a WCF service and add it to your <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Once the schema is available as part of the project, you can use a transform to map the schema of the incoming message to the schema of the message expected by the service.</source>
+            <target state="new">Once the schema is available as part of the project, you can use a transform to map the schema of the incoming message to the schema of the message expected by the service.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Service Consuming Wizard<ept id="1">&lt;/embeddedLabel&gt;</ept> in <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> is similar to the BizTalk WCF Service Consuming Wizard in BizTalk Server.</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Service Consuming Wizard<ept id="1">&lt;/embeddedLabel&gt;</ept> in <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> is similar to the BizTalk WCF Service Consuming Wizard in BizTalk Server.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>To use the wizard, you can use the steps at <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Use the BizTalk WCF Service Consuming Wizard to Consume a WCF Service<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/bb226552(v=bts.80).aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">To use the wizard, you can use the steps at <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Use the BizTalk WCF Service Consuming Wizard to Consume a WCF Service<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/bb226552(v=bts.80).aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>The only difference is that the <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> wizard creates an XSD schema file after a successful run.</source>
+            <target state="new">The only difference is that the <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> wizard creates an XSD schema file after a successful run.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>The BizTalk Server wizard creates other output files that are not relevant for <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph>.</source>
+            <target state="new">The BizTalk Server wizard creates other output files that are not relevant for <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

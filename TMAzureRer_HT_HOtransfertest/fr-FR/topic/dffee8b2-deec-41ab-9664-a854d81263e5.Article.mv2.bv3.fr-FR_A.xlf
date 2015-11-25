@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzMEJwzAMQNFVNIAEli27dgcoPZcuIDsSBNIE0hQyfnP98L57si5xkJkICXugHmqnEVhLa86qDWGEbNw005USSRQnbbdAzpzZNPdeC8LkblZ7pMlsXC/t1EoR0pplqhxLsozACL7T44VwLvMlzuO+b9uBEBESwvP30fW96/pd9Ji39Q9JdTk2oQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Creating Tables with Different Schedules</source>
+            <target state="new">Creating Tables with Different Schedules</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This topic and its sub-topics provides the JSON format that is supported by the older versions of Azure PowerShell.</source>
+            <target state="new">This topic and its sub-topics provides the JSON format that is supported by the older versions of Azure PowerShell.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>If you are using the July 2015 Release version of Azure PowerShell or later, see <ph id="1">&lt;link xlink:href="e0e938e2-7e81-4eb3-b5d2-640eff11e8b6" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Creating Tables with Different Schedules&lt;/link&gt;</ph> for the latest JSON format.</source>
+            <target state="new">If you are using the July 2015 Release version of Azure PowerShell or later, see <ph id="1">&lt;link xlink:href="e0e938e2-7e81-4eb3-b5d2-640eff11e8b6" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Creating Tables with Different Schedules&lt;/link&gt;</ph> for the latest JSON format.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>You can convert the JSON from old format to new format by using the tool: <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>JSON Upgrade Tool<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?linkid=618507&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept></source>
+            <target state="new">You can convert the JSON from old format to new format by using the tool: <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>JSON Upgrade Tool<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?linkid=618507&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>This topics covers the following two scenarios: </source>
+            <target state="new">This topics covers the following two scenarios: </target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Input table with weekly schedule and output table with daily schedule</source>
+            <target state="new">Input table with weekly schedule and output table with daily schedule</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>While creating Azure Data Factory pipelines, you can have different schedules (hourly, daily, weekly, and monthly, etc…)</source>
+            <target state="new">While creating Azure Data Factory pipelines, you can have different schedules (hourly, daily, weekly, and monthly, etc…)</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>on input and output tables.</source>
+            <target state="new">on input and output tables.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>One of the scenarios is to have input tables available weekly and output tables produced daily.</source>
+            <target state="new">One of the scenarios is to have input tables available weekly and output tables produced daily.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>The slicing mechanism in Azure Data Factory makes it very easy to depend on a weekly dataset.</source>
+            <target state="new">The slicing mechanism in Azure Data Factory makes it very easy to depend on a weekly dataset.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>You can depend on a day in the past week because input slices are weekly and the dependency condition would be met when the past week’s data is ready.</source>
+            <target state="new">You can depend on a day in the past week because input slices are weekly and the dependency condition would be met when the past week’s data is ready.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Here is how you can configure your input tables in Azure Data Factory for this scenario:</source>
+            <target state="new">Here is how you can configure your input tables in Azure Data Factory for this scenario:</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>OR</source>
+            <target state="new">OR</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="ce76160a-90f2-4459-950a-34c43d8c919b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Data Factory Functions&lt;/link&gt;</ph> topic for details about functions (AddWeeks etc…)</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="ce76160a-90f2-4459-950a-34c43d8c919b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Data Factory Functions&lt;/link&gt;</ph> topic for details about functions (AddWeeks etc…)</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>used in this section.</source>
+            <target state="new">used in this section.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Input with an arbitrary schedule</source>
+            <target state="new">Input with an arbitrary schedule</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>You can also have your input table produced on an arbitrary schedule and output tables being produced daily.</source>
+            <target state="new">You can also have your input table produced on an arbitrary schedule and output tables being produced daily.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>A general solution regardless of the input schedule is to calculate the slice that corresponds to the past week.</source>
+            <target state="new">A general solution regardless of the input schedule is to calculate the slice that corresponds to the past week.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Here is how you can configure your input tables for this case:</source>
+            <target state="new">Here is how you can configure your input tables for this case:</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Or (for a daily/hourly/minute output schedule)</source>
+            <target state="new">Or (for a daily/hourly/minute output schedule)</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

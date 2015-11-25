@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-CN" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzDEKwzAMQNGr+AAWWLbiWF27dOrUC8i2RANpAm0Koaevx8+HZ5a0UmygSgSEFqCGUqEFlMxsKMLeVRK1OhtQ7gpULAIHGdk7ctJSppi9S3O3iVoACw2BOArI3BJYjgNAnoINC737PeF69+5cFzM9j8t73w/v4njk3e37ku3xlu2zyrHs2x8j1KtQogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Create Search Service</source>
+            <target state="new">Create Search Service</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Create Search Service (Azure Search Management REST API)</source>
+            <target state="new">Create Search Service (Azure Search Management REST API)</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;languageKeyword&gt;Create Search Service&lt;/languageKeyword&gt;</ph> operation provisions a new Search service with the specified parameters.</source>
+            <target state="new">The <ph id="1">&lt;languageKeyword&gt;Create Search Service&lt;/languageKeyword&gt;</ph> operation provisions a new Search service with the specified parameters.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>This API can also be used to update an existing service definition.</source>
+            <target state="new">This API can also be used to update an existing service definition.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Request</source>
+            <target state="new">Request</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>HTTPS is required for all service requests.</source>
+            <target state="new">HTTPS is required for all service requests.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;languageKeyword&gt;Create Search Service&lt;/languageKeyword&gt;</ph> request is constructed using the PUT method.</source>
+            <target state="new">The <ph id="1">&lt;languageKeyword&gt;Create Search Service&lt;/languageKeyword&gt;</ph> request is constructed using the PUT method.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Request URI</source>
+            <target state="new">Request URI</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Request Parameter</source>
+            <target state="new">Request Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeInline&gt;subscriptionID&lt;/codeInline&gt;</ph> for the Azure user.</source>
+            <target state="new">The <ph id="1">&lt;codeInline&gt;subscriptionID&lt;/codeInline&gt;</ph> for the Azure user.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>You can obtain this value from the Azure Resource Manager API or the portal.</source>
+            <target state="new">You can obtain this value from the Azure Resource Manager API or the portal.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The name of the resource group within the user’s subscription.</source>
+            <target state="new">The name of the resource group within the user’s subscription.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>You can obtain this value from the Azure Resource Manager API or the portal.</source>
+            <target state="new">You can obtain this value from the Azure Resource Manager API or the portal.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The name of the search service within the specified resource group.</source>
+            <target state="new">The name of the search service within the specified resource group.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Service names must only contain lowercase letters, digits or dashes, cannot use dash as the first two or last one characters, cannot contain consecutive dashes, and must be between 2 and 15 characters in length.</source>
+            <target state="new">Service names must only contain lowercase letters, digits or dashes, cannot use dash as the first two or last one characters, cannot contain consecutive dashes, and must be between 2 and 15 characters in length.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Since all names end up being &lt;name&gt;.search.windows.net, service names must be globally unique.</source>
+            <target state="new">Since all names end up being &lt;name&gt;.search.windows.net, service names must be globally unique.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>No two services either within or across subscriptions and resource groups can have the same name.</source>
+            <target state="new">No two services either within or across subscriptions and resource groups can have the same name.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>You cannot change the service name after it is created.</source>
+            <target state="new">You cannot change the service name after it is created.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>The version of the protocol used for this request.</source>
+            <target state="new">The version of the protocol used for this request.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>The current version is <ph id="1">&lt;codeInline&gt;2015-02-28&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">The current version is <ph id="1">&lt;codeInline&gt;2015-02-28&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>The previous version, <ph id="1">&lt;codeInline&gt;2014-07-31-Preview&lt;/codeInline&gt;</ph>, is deprecated.</source>
+            <target state="new">The previous version, <ph id="1">&lt;codeInline&gt;2014-07-31-Preview&lt;/codeInline&gt;</ph>, is deprecated.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Although it will continue to work for the next several months, we encourage you to transition to the current version as soon as possible.</source>
+            <target state="new">Although it will continue to work for the next several months, we encourage you to transition to the current version as soon as possible.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Request Headers</source>
+            <target state="new">Request Headers</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>The following table describes the required and optional request headers.</source>
+            <target state="new">The following table describes the required and optional request headers.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Request Header</source>
+            <target state="new">Request Header</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Set this to <ph id="1">&lt;codeInline&gt;application/json&lt;/codeInline&gt;</ph></source>
+            <target state="new">Set this to <ph id="1">&lt;codeInline&gt;application/json&lt;/codeInline&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>A client-generated GUID value that identifies this request.</source>
+            <target state="new">A client-generated GUID value that identifies this request.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>If specified, this will be included in response information as a way to map the request.</source>
+            <target state="new">If specified, this will be included in response information as a way to map the request.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Request Body</source>
+            <target state="new">Request Body</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Request Body Parameters </source>
+            <target state="new">Request Body Parameters </target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Parameter</source>
+            <target state="new">Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>One of the supported and registered Azure Geo Regions (for example, West US, East US, Southeast Asia, and so on).</source>
+            <target state="new">One of the supported and registered Azure Geo Regions (for example, West US, East US, Southeast Asia, and so on).</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Note that the location be changed once the service is created.</source>
+            <target state="new">Note that the location be changed once the service is created.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>A list of key value pairs that describe the resource.</source>
+            <target state="new">A list of key value pairs that describe the resource.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>These tags can be used in viewing and grouping a resource across resource groups.</source>
+            <target state="new">These tags can be used in viewing and grouping a resource across resource groups.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>A maximum of 10 tags can be provided for a resource.</source>
+            <target state="new">A maximum of 10 tags can be provided for a resource.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Each tag must have a key no greater than 128 characters and value no greater than 256 characters.</source>
+            <target state="new">Each tag must have a key no greater than 128 characters and value no greater than 256 characters.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Valid values are <ph id="1">&lt;codeInline&gt;free&lt;/codeInline&gt;</ph> and <ph id="2">&lt;codeInline&gt;standard&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Valid values are <ph id="1">&lt;codeInline&gt;free&lt;/codeInline&gt;</ph> and <ph id="2">&lt;codeInline&gt;standard&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;standard2&lt;/codeInline&gt;</ph> is also valid, but can only be used when it's enabled on the backend by Microsoft support.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;standard2&lt;/codeInline&gt;</ph> is also valid, but can only be used when it's enabled on the backend by Microsoft support.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;free&lt;/codeInline&gt;</ph> provisions the service in shared clusters.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;free&lt;/codeInline&gt;</ph> provisions the service in shared clusters.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;standard&lt;/codeInline&gt;</ph> provisions the service in dedicated clusters.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;standard&lt;/codeInline&gt;</ph> provisions the service in dedicated clusters.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>You can only create one Search service at the free pricing tier.</source>
+            <target state="new">You can only create one Search service at the free pricing tier.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Additional services must be created at the standard pricing tier.</source>
+            <target state="new">Additional services must be created at the standard pricing tier.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>By default, a service is created with one partition and one replica.</source>
+            <target state="new">By default, a service is created with one partition and one replica.</target>
+          </trans-unit>
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Additional partitions and replicas are priced in terms of search units.</source>
+            <target state="new">Additional partitions and replicas are priced in terms of search units.</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>See <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Limits and constraints<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/azure/dn798934.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for details.</source>
+            <target state="new">See <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Limits and constraints<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/azure/dn798934.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for details.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>You cannot change the <ph id="1">&lt;codeInline&gt;sku&lt;/codeInline&gt;</ph> once the service is created.</source>
+            <target state="new">You cannot change the <ph id="1">&lt;codeInline&gt;sku&lt;/codeInline&gt;</ph> once the service is created.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Default is 1.</source>
+            <target state="new">Default is 1.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Valid values include 1 through 6.</source>
+            <target state="new">Valid values include 1 through 6.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Valid only when <ph id="1">&lt;codeInline&gt;sku&lt;/codeInline&gt;</ph> is <ph id="2">&lt;codeInline&gt;standard&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Valid only when <ph id="1">&lt;codeInline&gt;sku&lt;/codeInline&gt;</ph> is <ph id="2">&lt;codeInline&gt;standard&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Default is 1.</source>
+            <target state="new">Default is 1.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Valid values include 1, 2, 3, 4, 6, or 12.</source>
+            <target state="new">Valid values include 1, 2, 3, 4, 6, or 12.</target>
+          </trans-unit>
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Valid only when <ph id="1">&lt;codeInline&gt;sku&lt;/codeInline&gt;</ph> is <ph id="2">&lt;codeInline&gt;standard&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Valid only when <ph id="1">&lt;codeInline&gt;sku&lt;/codeInline&gt;</ph> is <ph id="2">&lt;codeInline&gt;standard&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Response</source>
+            <target state="new">Response</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>The response for this operation includes an HTTP status code, a set of response headers, and a response body.</source>
+            <target state="new">The response for this operation includes an HTTP status code, a set of response headers, and a response body.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Status Code</source>
+            <target state="new">Status Code</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>HTTP 200 (OK) is returned when a service definition is updated.</source>
+            <target state="new">HTTP 200 (OK) is returned when a service definition is updated.</target>
+          </trans-unit>
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>HTTP 201 (Created) is returned when a new service is created.</source>
+            <target state="new">HTTP 201 (Created) is returned when a new service is created.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Response Header</source>
+            <target state="new">Response Header</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>The following headers are part of the response.</source>
+            <target state="new">The following headers are part of the response.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Response Header</source>
+            <target state="new">Response Header</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>This header is always set to application/json.</source>
+            <target state="new">This header is always set to application/json.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>A unique identifier for the current operation generated by the service.</source>
+            <target state="new">A unique identifier for the current operation generated by the service.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Response Body</source>
+            <target state="new">Response Body</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>For HTTP 200 and 201, the response body contains the service definition.</source>
+            <target state="new">For HTTP 200 and 201, the response body contains the service definition.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Response Body Elements</source>
+            <target state="new">Response Body Elements</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Element</source>
+            <target state="new">Element</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>The id is the URL (excluding the hostname/scheme) for this Search service.</source>
+            <target state="new">The id is the URL (excluding the hostname/scheme) for this Search service.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>The name of the Search service.</source>
+            <target state="new">The name of the Search service.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>One of the supported and registered Azure Geo Regions (for example, West US, East US, Southeast Asia, and so forth).</source>
+            <target state="new">One of the supported and registered Azure Geo Regions (for example, West US, East US, Southeast Asia, and so forth).</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>A list of key-value pairs that describe the resource, used in viewing and grouping resources across resource groups.</source>
+            <target state="new">A list of key-value pairs that describe the resource, used in viewing and grouping resources across resource groups.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Indicates the pricing tier.</source>
+            <target state="new">Indicates the pricing tier.</target>
+          </trans-unit>
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Valid values include:</source>
+            <target state="new">Valid values include:</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;free&lt;/codeInline&gt;</ph>: Shared cluster</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;free&lt;/codeInline&gt;</ph>: Shared cluster</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;standard&lt;/codeInline&gt;</ph>: Dedicated cluster</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;standard&lt;/codeInline&gt;</ph>: Dedicated cluster</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;standard2&lt;/codeInline&gt;</ph>: Use only under the guidance of Microsoft support.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;standard2&lt;/codeInline&gt;</ph>: Use only under the guidance of Microsoft support.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Indicates how many replicas the service has.</source>
+            <target state="new">Indicates how many replicas the service has.</target>
+          </trans-unit>
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Valid values are 1 through 6.</source>
+            <target state="new">Valid values are 1 through 6.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Indicates how many partitions the service has.</source>
+            <target state="new">Indicates how many partitions the service has.</target>
+          </trans-unit>
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Valid values include 1, 2, 3, 4, 6, or 12.</source>
+            <target state="new">Valid values include 1, 2, 3, 4, 6, or 12.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>The status of the Search service at the time the operation was called.</source>
+            <target state="new">The status of the Search service at the time the operation was called.</target>
+          </trans-unit>
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Valid values include:</source>
+            <target state="new">Valid values include:</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;Running&lt;/codeInline&gt;</ph>:  The Search service is created.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;Running&lt;/codeInline&gt;</ph>:  The Search service is created.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;Provisioning&lt;/codeInline&gt;</ph>:  The Search service is being provisioned.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;Provisioning&lt;/codeInline&gt;</ph>:  The Search service is being provisioned.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;Deleting&lt;/codeInline&gt;</ph>:  The Search service is being deleted.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;Deleting&lt;/codeInline&gt;</ph>:  The Search service is being deleted.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;Degraded&lt;/codeInline&gt;</ph>:  The Search service is degraded.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;Degraded&lt;/codeInline&gt;</ph>:  The Search service is degraded.</target>
+          </trans-unit>
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>This can occur when the cluster is not healthy.</source>
+            <target state="new">This can occur when the cluster is not healthy.</target>
+          </trans-unit>
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>The Search service is most likely operational, but performance might be slow and some requests might be dropped.</source>
+            <target state="new">The Search service is most likely operational, but performance might be slow and some requests might be dropped.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;Disabled&lt;/codeInline&gt;</ph>: The Search service is disabled.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;Disabled&lt;/codeInline&gt;</ph>: The Search service is disabled.</target>
+          </trans-unit>
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>In this state, the service will reject all API requests.</source>
+            <target state="new">In this state, the service will reject all API requests.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;Error&lt;/codeInline&gt;</ph>: The Search service is in error state.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;Error&lt;/codeInline&gt;</ph>: The Search service is in error state.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>The Azure Search team actively investigates all incidents involving service disruption or degradation so that service is restored as quickly as possible.</source>
+            <target state="new">The Azure Search team actively investigates all incidents involving service disruption or degradation so that service is restored as quickly as possible.</target>
+          </trans-unit>
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>Please be advised that dedicated services in these states are still chargeable based on the number of search units provisioned, at the preview rate.</source>
+            <target state="new">Please be advised that dedicated services in these states are still chargeable based on the number of search units provisioned, at the preview rate.</target>
+          </trans-unit>
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>See <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Preview supplemental terms of use<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/support/legal/preview-supplemental-terms/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for more information.</source>
+            <target state="new">See <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Preview supplemental terms of use<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/support/legal/preview-supplemental-terms/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for more information.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>The details of status.</source>
+            <target state="new">The details of status.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>Indicates the current state of the service provisioning.</source>
+            <target state="new">Indicates the current state of the service provisioning.</target>
+          </trans-unit>
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>Valid values include:</source>
+            <target state="new">Valid values include:</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;succeeded&lt;/codeInline&gt;</ph>: Provisioning was successful.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;succeeded&lt;/codeInline&gt;</ph>: Provisioning was successful.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;provisioning&lt;/codeInline&gt;</ph>: The service is being provisioned.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;provisioning&lt;/codeInline&gt;</ph>: The service is being provisioned.</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;failed&lt;/codeInline&gt;</ph>: Provisioning failed.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;failed&lt;/codeInline&gt;</ph>: Provisioning failed.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>Provisioning is an intermediate state that occurs while service capacity is being established.</source>
+            <target state="new">Provisioning is an intermediate state that occurs while service capacity is being established.</target>
+          </trans-unit>
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>After capacity is set up, <ph id="1">&lt;codeInline&gt;provisioningState&lt;/codeInline&gt;</ph> changes to either "succeeded" or "failed".</source>
+            <target state="new">After capacity is set up, <ph id="1">&lt;codeInline&gt;provisioningState&lt;/codeInline&gt;</ph> changes to either "succeeded" or "failed".</target>
+          </trans-unit>
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>Client applications can poll provisioning status (recommended polling interval is 30 seconds, up to a minute) by using the <ph id="1">&lt;languageKeyword&gt;Get Search Service&lt;/languageKeyword&gt;</ph> operation to see when an operation is completed.</source>
+            <target state="new">Client applications can poll provisioning status (recommended polling interval is 30 seconds, up to a minute) by using the <ph id="1">&lt;languageKeyword&gt;Get Search Service&lt;/languageKeyword&gt;</ph> operation to see when an operation is completed.</target>
+          </trans-unit>
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>If you are using the free service, this value tends to come back as "succeeded" directly in the call to create service.</source>
+            <target state="new">If you are using the free service, this value tends to come back as "succeeded" directly in the call to create service.</target>
+          </trans-unit>
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>This is because the free service uses capacity that is already set up.</source>
+            <target state="new">This is because the free service uses capacity that is already set up.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>Get started with Azure Search Management REST API</source>
+            <target state="new">Get started with Azure Search Management REST API</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>Manage your Search service on Microsoft Azure</source>
+            <target state="new">Manage your Search service on Microsoft Azure</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

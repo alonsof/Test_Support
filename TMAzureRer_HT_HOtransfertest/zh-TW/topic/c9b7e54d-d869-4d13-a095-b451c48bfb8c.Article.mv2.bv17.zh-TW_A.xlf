@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-TW" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANjNsJwzAMAFfxABbIseJHJ+gAgX5LtkQDaQJtCqHT1793x5lFFZoaqBIBBUMQLAINA6daLTBX71rSlvM0sAUE0shQUpbRR0TsotzzqKpknalDL6kC9RCBsc4gNIdGRUxK8y5493vC8vDu2lYzvc7b+zhO76bhxuX+ffG+vHn/bHyux/4Hbgsp3aIAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>How to: Configure Trust Between ACS and ASP.NET Web Applications Using X.509 Certificates</source>
+            <target state="new">How to: Configure Trust Between ACS and ASP.NET Web Applications Using X.509 Certificates</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Azure</source>
+            <target state="new">Azure</target>
+            <context-group>
+              <context context-type="x-metadataname">applies_to_product</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>How to: Configure Trust Between ACS and ASP.NET Web Applications Using X.509 Certificates</source>
+            <target state="new">How to: Configure Trust Between ACS and ASP.NET Web Applications Using X.509 Certificates</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Applies To</source>
+            <target state="new">Applies To</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>ASP.NET </source>
+            <target state="new">ASP.NET </target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Summary</source>
+            <target state="new">Summary</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>This topic describes how to configure trust between your application and <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</source>
+            <target state="new">This topic describes how to configure trust between your application and <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Trust is established by signing the tokens that are exchanged between your ASP.NET web application and <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</source>
+            <target state="new">Trust is established by signing the tokens that are exchanged between your ASP.NET web application and <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Contents</source>
+            <target state="new">Contents</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Objectives</source>
+            <target state="new">Objectives</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Overview</source>
+            <target state="new">Overview</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Summary of steps</source>
+            <target state="new">Summary of steps</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Step 1 – Navigate to the Token Signing Certificates Section</source>
+            <target state="new">Step 1 – Navigate to the Token Signing Certificates Section</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Step 2 - Configure Trust Using X.509 Certificates</source>
+            <target state="new">Step 2 - Configure Trust Using X.509 Certificates</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Step 3 - Review Trust-Related Attributes in web.config and the ACS Management Portal</source>
+            <target state="new">Step 3 - Review Trust-Related Attributes in web.config and the ACS Management Portal</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Objectives</source>
+            <target state="new">Objectives</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Become familiar with the trust management section on the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</source>
+            <target state="new">Become familiar with the trust management section on the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Manage trust using X.509 certificates.</source>
+            <target state="new">Manage trust using X.509 certificates.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Verify the required configuration in web.config and on the Management Portal.</source>
+            <target state="new">Verify the required configuration in web.config and on the Management Portal.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Overview</source>
+            <target state="new">Overview</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Establishing trust is required to properly exchange tokens between your application and <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</source>
+            <target state="new">Establishing trust is required to properly exchange tokens between your application and <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Trust ensures that the tokens are not tampered with in transit and that they are issued by a trusted party.</source>
+            <target state="new">Trust ensures that the tokens are not tampered with in transit and that they are issued by a trusted party.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>For ASP.NET web applications trust is managed using X.509 certificates and is based on the configuration of the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal and the web.config configuration.</source>
+            <target state="new">For ASP.NET web applications trust is managed using X.509 certificates and is based on the configuration of the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal and the web.config configuration.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Summary of Steps </source>
+            <target state="new">Summary of Steps </target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>To establish and manage trust between an ASP.NET web application and <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> follow these steps:</source>
+            <target state="new">To establish and manage trust between an ASP.NET web application and <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> follow these steps:</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Step 1 - Navigate to the Token Signing Certificates Section</source>
+            <target state="new">Step 1 - Navigate to the Token Signing Certificates Section</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Step 2 - Configure Trust Using X.509 Certificates</source>
+            <target state="new">Step 2 - Configure Trust Using X.509 Certificates</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Step 3 - Review Trust-Related Attributes in web.config and the ACS Management Portal</source>
+            <target state="new">Step 3 - Review Trust-Related Attributes in web.config and the ACS Management Portal</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Step 1 – Navigate to the Token Signing Certificates Section</source>
+            <target state="new">Step 1 – Navigate to the Token Signing Certificates Section</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>This step shows how to navigate to the trust management section of the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</source>
+            <target state="new">This step shows how to navigate to the trust management section of the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>To navigate to the section related to trust management on the Management Portal</source>
+            <target state="new">To navigate to the section related to trust management on the Management Portal</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>In the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> portal, click <bpt id="2">&lt;ui&gt;</bpt>Relying party applications<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">In the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> portal, click <bpt id="2">&lt;ui&gt;</bpt>Relying party applications<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Click a relying party application.</source>
+            <target state="new">Click a relying party application.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;ui&gt;</bpt>Edit Relying Party Application<ept id="1">&lt;/ui&gt;</ept> page, scroll down to the <bpt id="2">&lt;ui&gt;</bpt>Token Signing Certificates<ept id="2">&lt;/ui&gt;</ept> section.</source>
+            <target state="new">On the <bpt id="1">&lt;ui&gt;</bpt>Edit Relying Party Application<ept id="1">&lt;/ui&gt;</ept> page, scroll down to the <bpt id="2">&lt;ui&gt;</bpt>Token Signing Certificates<ept id="2">&lt;/ui&gt;</ept> section.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Select a certificate.</source>
+            <target state="new">Select a certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Step 2 - Configure Trust Using X.509 Certificates</source>
+            <target state="new">Step 2 - Configure Trust Using X.509 Certificates</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>This step shows how to configure and manage the trust between <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> and an ASP.NET web application using an X.509 certificate.</source>
+            <target state="new">This step shows how to configure and manage the trust between <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> and an ASP.NET web application using an X.509 certificate.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Use an X.509 certificate signing credential if you are using the Windows® Identity Foundation (WIF) in your relying party application.</source>
+            <target state="new">Use an X.509 certificate signing credential if you are using the Windows® Identity Foundation (WIF) in your relying party application.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>To configure and manage trust using an X.509 certificate</source>
+            <target state="new">To configure and manage trust using an X.509 certificate</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>Certificates and keys<ept id="1">&lt;/ui&gt;</ept> and then select an X.509 certificate.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>Certificates and keys<ept id="1">&lt;/ui&gt;</ept> and then select an X.509 certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;ui&gt;</bpt>Edit Token Signing Certificate or Key<ept id="1">&lt;/ui&gt;</ept> page, provide the following values:</source>
+            <target state="new">On the <bpt id="1">&lt;ui&gt;</bpt>Edit Token Signing Certificate or Key<ept id="1">&lt;/ui&gt;</ept> page, provide the following values:</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>Name<ept id="1">&lt;/ui&gt;</ept>: An arbitrary name of your choice.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>Name<ept id="1">&lt;/ui&gt;</ept>: An arbitrary name of your choice.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>Type<ept id="1">&lt;/ui&gt;</ept>: <bpt id="2">&lt;ui&gt;</bpt>X.509 Certificate<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>Type<ept id="1">&lt;/ui&gt;</ept>: <bpt id="2">&lt;ui&gt;</bpt>X.509 Certificate<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>Certificate<ept id="1">&lt;/ui&gt;</ept>: To use the certificate that <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> creates by default, no action is required.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>Certificate<ept id="1">&lt;/ui&gt;</ept>: To use the certificate that <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> creates by default, no action is required.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>You can also upload your own X.509 certificate.</source>
+            <target state="new">You can also upload your own X.509 certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>The certificate should be password protected.</source>
+            <target state="new">The certificate should be password protected.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>It usually has a .pfx extension.</source>
+            <target state="new">It usually has a .pfx extension.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>when uploading your own X.509 certificate.Provide the pfx file password in the <bpt id="1">&lt;ui&gt;</bpt>Password<ept id="1">&lt;/ui&gt;</ept> text box</source>
+            <target state="new">when uploading your own X.509 certificate.Provide the pfx file password in the <bpt id="1">&lt;ui&gt;</bpt>Password<ept id="1">&lt;/ui&gt;</ept> text box</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>Password<ept id="1">&lt;/ui&gt;</ept>: If you use the default certificate, no action is required.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>Password<ept id="1">&lt;/ui&gt;</ept>: If you use the default certificate, no action is required.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>If you upload a certificate, the certificate should be password protected.</source>
+            <target state="new">If you upload a certificate, the certificate should be password protected.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Enter the .pfx file password in the <bpt id="1">&lt;ui&gt;</bpt>Password<ept id="1">&lt;/ui&gt;</ept> text box.</source>
+            <target state="new">Enter the .pfx file password in the <bpt id="1">&lt;ui&gt;</bpt>Password<ept id="1">&lt;/ui&gt;</ept> text box.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>Save<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>Save<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Get an X.509 Certificate</source>
+            <target state="new">Get an X.509 Certificate</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>There are several ways to get an X.509 certificate for token signing or encryption.</source>
+            <target state="new">There are several ways to get an X.509 certificate for token signing or encryption.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>The method you will use depends on your requirements and the tools available to your organization.</source>
+            <target state="new">The method you will use depends on your requirements and the tools available to your organization.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Local Certification Authority</source>
+            <target state="new">Local Certification Authority</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>If your organization has deployed a certification authority (CA), such as Active Directory Certificate Services (AD CS), you can request an X.509 certificate.</source>
+            <target state="new">If your organization has deployed a certification authority (CA), such as Active Directory Certificate Services (AD CS), you can request an X.509 certificate.</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>You might need to contact your certification authority administrator for instructions or permissions.</source>
+            <target state="new">You might need to contact your certification authority administrator for instructions or permissions.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>For more information about Active  Directory Certificate Services, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Active Directory Certificate Services<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?linkid=208371&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (http://go.microsoft.com/fwlink/?linkid=208371).</source>
+            <target state="new">For more information about Active  Directory Certificate Services, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Active Directory Certificate Services<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?linkid=208371&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (http://go.microsoft.com/fwlink/?linkid=208371).</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Commercial Certification Authority</source>
+            <target state="new">Commercial Certification Authority</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>You can purchase an X.509 certificate from a commercial certification authority, such as Verisign.</source>
+            <target state="new">You can purchase an X.509 certificate from a commercial certification authority, such as Verisign.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Since this is a Labs release, it is recommended that you use your local certification authority (if available) or generate a self-signed certificate (see below).</source>
+            <target state="new">Since this is a Labs release, it is recommended that you use your local certification authority (if available) or generate a self-signed certificate (see below).</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Generate a Self-Signed Certificate</source>
+            <target state="new">Generate a Self-Signed Certificate</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>You can use software to generate your own self-signed certificate to use with <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</source>
+            <target state="new">You can use software to generate your own self-signed certificate to use with <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>While this is typically recommended only for testing purposes, this can be done by anyone without access to a local CA or payment to a commercial CA.</source>
+            <target state="new">While this is typically recommended only for testing purposes, this can be done by anyone without access to a local CA or payment to a commercial CA.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>If you are running Windows, you can download MakeCert.exe as part of the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Windows SDK<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?linkid=84091&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (http://go.microsoft.com/fwlink/?linkid=84091) and use this to generate a certificate.</source>
+            <target state="new">If you are running Windows, you can download MakeCert.exe as part of the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Windows SDK<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?linkid=84091&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (http://go.microsoft.com/fwlink/?linkid=84091) and use this to generate a certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Export a Self-Signed Certificate</source>
+            <target state="new">Export a Self-Signed Certificate</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>For instructions on how to export a self-signed certificate, see <ph id="1">&lt;link xlink:href="b75ed5c7-ca81-44a2-8d8d-6a63399f87dd" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Certificates and Keys&lt;/link&gt;</ph>.</source>
+            <target state="new">For instructions on how to export a self-signed certificate, see <ph id="1">&lt;link xlink:href="b75ed5c7-ca81-44a2-8d8d-6a63399f87dd" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Certificates and Keys&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Step 3 - Review Trust-Related Attributes in web.config and the ACS Management Portal</source>
+            <target state="new">Step 3 - Review Trust-Related Attributes in web.config and the ACS Management Portal</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>This step shows how to validate trust-related configuration attributes in your ASP.NET web application’s web.config.</source>
+            <target state="new">This step shows how to validate trust-related configuration attributes in your ASP.NET web application’s web.config.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>To verify trust-related configurations in your ASP.NET web application web.config </source>
+            <target state="new">To verify trust-related configurations in your ASP.NET web application web.config </target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Open the web.config file for your ASP.NET web application.</source>
+            <target state="new">Open the web.config file for your ASP.NET web application.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Navigate to the <bpt id="1">&lt;ui&gt;</bpt>audiencesUris<ept id="1">&lt;/ui&gt;</ept> node and verify that the value of its child <bpt id="2">&lt;ui&gt;</bpt>add<ept id="2">&lt;/ui&gt;</ept> node is the same as that value that you entered in the <bpt id="3">&lt;ui&gt;</bpt>Realm<ept id="3">&lt;/ui&gt;</ept> property field of the <bpt id="4">&lt;ui&gt;</bpt>Edit Relying Party<ept id="4">&lt;/ui&gt;</ept> page of the <ph id="5">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</source>
+            <target state="new">Navigate to the <bpt id="1">&lt;ui&gt;</bpt>audiencesUris<ept id="1">&lt;/ui&gt;</ept> node and verify that the value of its child <bpt id="2">&lt;ui&gt;</bpt>add<ept id="2">&lt;/ui&gt;</ept> node is the same as that value that you entered in the <bpt id="3">&lt;ui&gt;</bpt>Realm<ept id="3">&lt;/ui&gt;</ept> property field of the <bpt id="4">&lt;ui&gt;</bpt>Edit Relying Party<ept id="4">&lt;/ui&gt;</ept> page of the <ph id="5">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>Relying party applications<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>Relying party applications<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;ui&gt;</bpt>Replying Party Applications<ept id="1">&lt;/ui&gt;</ept> page, click the desired application.</source>
+            <target state="new">On the <bpt id="1">&lt;ui&gt;</bpt>Replying Party Applications<ept id="1">&lt;/ui&gt;</ept> page, click the desired application.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;ui&gt;</bpt>Edit Relying Party Application<ept id="1">&lt;/ui&gt;</ept> page, review the <bpt id="2">&lt;ui&gt;</bpt>Realm<ept id="2">&lt;/ui&gt;</ept> attribute.</source>
+            <target state="new">On the <bpt id="1">&lt;ui&gt;</bpt>Edit Relying Party Application<ept id="1">&lt;/ui&gt;</ept> page, review the <bpt id="2">&lt;ui&gt;</bpt>Realm<ept id="2">&lt;/ui&gt;</ept> attribute.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

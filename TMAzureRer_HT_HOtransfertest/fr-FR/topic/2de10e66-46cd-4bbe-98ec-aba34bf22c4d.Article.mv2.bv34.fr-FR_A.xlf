@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANy1EKwjAMANCr9AAJNG3WrR5A/BYvkLQJDOYGs8KOr+//uWdTTg3NmJHJI2pcFFskKbU6iVQITZkmjxOSzgsyZ8aaoqBwyt3rTL0XCKkbRSsFubSOrGpYF2soKpnVU2rcIRAEP/H+hHBtq7td43Yex/h3CJkhPL5v2V+n7J9NxnrsP60jujOiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Understanding Block Blobs, Append Blobs, and Page Blobs</source>
+            <target state="new">Understanding Block Blobs, Append Blobs, and Page Blobs</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The storage service offers three types of blobs, <bpt id="1">&lt;legacyItalic&gt;</bpt>block blobs<ept id="1">&lt;/legacyItalic&gt;</ept>, <bpt id="2">&lt;legacyItalic&gt;</bpt>append blobs<ept id="2">&lt;/legacyItalic&gt;</ept>, and <bpt id="3">&lt;legacyItalic&gt;</bpt>page blobs<ept id="3">&lt;/legacyItalic&gt;</ept>.</source>
+            <target state="new">The storage service offers three types of blobs, <bpt id="1">&lt;legacyItalic&gt;</bpt>block blobs<ept id="1">&lt;/legacyItalic&gt;</ept>, <bpt id="2">&lt;legacyItalic&gt;</bpt>append blobs<ept id="2">&lt;/legacyItalic&gt;</ept>, and <bpt id="3">&lt;legacyItalic&gt;</bpt>page blobs<ept id="3">&lt;/legacyItalic&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>You specify the blob type when you create the blob.</source>
+            <target state="new">You specify the blob type when you create the blob.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Once the blob has been created, its type cannot be changed, and it can be updated only by using operations appropriate for that blob type, <bpt id="1">&lt;legacyItalic&gt;</bpt>i.e.<ept id="1">&lt;/legacyItalic&gt;</ept>, writing a block or list of blocks to a block blob, appending blocks to a append blob, and writing pages to a page blob.</source>
+            <target state="new">Once the blob has been created, its type cannot be changed, and it can be updated only by using operations appropriate for that blob type, <bpt id="1">&lt;legacyItalic&gt;</bpt>i.e.<ept id="1">&lt;/legacyItalic&gt;</ept>, writing a block or list of blocks to a block blob, appending blocks to a append blob, and writing pages to a page blob.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>All blobs reflect committed changes immediately.</source>
+            <target state="new">All blobs reflect committed changes immediately.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Each version of the blob has a unique tag, called an <bpt id="1">&lt;legacyItalic&gt;</bpt>ETag<ept id="1">&lt;/legacyItalic&gt;</ept>, that you can use with access conditions to assure you only change a specific instance of the blob.</source>
+            <target state="new">Each version of the blob has a unique tag, called an <bpt id="1">&lt;legacyItalic&gt;</bpt>ETag<ept id="1">&lt;/legacyItalic&gt;</ept>, that you can use with access conditions to assure you only change a specific instance of the blob.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Any blob can be leased for exclusive write access.</source>
+            <target state="new">Any blob can be leased for exclusive write access.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>When a blob is leased, only calls that include the current lease ID can modify the blob or (for block blobs) its blocks.</source>
+            <target state="new">When a blob is leased, only calls that include the current lease ID can modify the blob or (for block blobs) its blocks.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Any blob can be duplicated in a snapshot.</source>
+            <target state="new">Any blob can be duplicated in a snapshot.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>For information about snapshots, see <ph id="1">&lt;link xlink:href="5614e5d3-58cb-42ee-9db6-d90de86196cd" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Working with Snapshots&lt;/link&gt;</ph>.</source>
+            <target state="new">For information about snapshots, see <ph id="1">&lt;link xlink:href="5614e5d3-58cb-42ee-9db6-d90de86196cd" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Working with Snapshots&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Blobs in the Azure storage emulator are limited to 2 GB.</source>
+            <target state="new">Blobs in the Azure storage emulator are limited to 2 GB.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>About Block Blobs</source>
+            <target state="new">About Block Blobs</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Block blobs let you upload large blobs efficiently. Block blobs are comprised of blocks, each of which is identified by a block ID. You create or modify a block blob by writing a set of blocks and committing them by their block IDs. Each block can be a different size, up to a maximum of 4 MB. The maximum size for a block blob is 200,000 MB, and a block blob can include no more than 50,000 blocks. If you are writing a block blob that is no more than 64 MB in size, you can upload it in its entirety with a single write operation. Storage clients default to a 32 MB maximum single block upload, settable using the <ph id="1">&lt;codeEntityReference autoUpgrade="false" qualifyHint="false"&gt;P:Microsoft.WindowsAzure.StorageClient.CloudBlobClient. SingleBlobUploadThresholdInBytes&lt;/codeEntityReference&gt;</ph> property. When a block blob upload is larger than the value in this property, storage clients break the file into blocks. You can set the number of threads used to upload the blocks in parallel using the <ph id="2">&lt;codeEntityReference autoUpgrade="false" qualifyHint="false"&gt;P:Microsoft.WindowsAzure.StorageClient.CloudBlobClient. ParallelOperationThreadCount&lt;/codeEntityReference&gt;</ph> property.</source>
+            <target state="new">Block blobs let you upload large blobs efficiently. Block blobs are comprised of blocks, each of which is identified by a block ID. You create or modify a block blob by writing a set of blocks and committing them by their block IDs. Each block can be a different size, up to a maximum of 4 MB. The maximum size for a block blob is 200,000 MB, and a block blob can include no more than 50,000 blocks. If you are writing a block blob that is no more than 64 MB in size, you can upload it in its entirety with a single write operation. Storage clients default to a 32 MB maximum single block upload, settable using the <ph id="1">&lt;codeEntityReference autoUpgrade="false" qualifyHint="false"&gt;P:Microsoft.WindowsAzure.StorageClient.CloudBlobClient. SingleBlobUploadThresholdInBytes&lt;/codeEntityReference&gt;</ph> property. When a block blob upload is larger than the value in this property, storage clients break the file into blocks. You can set the number of threads used to upload the blocks in parallel using the <ph id="2">&lt;codeEntityReference autoUpgrade="false" qualifyHint="false"&gt;P:Microsoft.WindowsAzure.StorageClient.CloudBlobClient. ParallelOperationThreadCount&lt;/codeEntityReference&gt;</ph> property.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>When you upload a block to a blob in your storage account, it is associated with the specified block blob, but it does not become part of the blob until you commit a list of blocks that includes the new block's ID.</source>
+            <target state="new">When you upload a block to a blob in your storage account, it is associated with the specified block blob, but it does not become part of the blob until you commit a list of blocks that includes the new block's ID.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>New blocks remain in an uncommitted state until they are specifically committed or discarded.</source>
+            <target state="new">New blocks remain in an uncommitted state until they are specifically committed or discarded.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Writing a block does not update the last modified time of an existing blob.</source>
+            <target state="new">Writing a block does not update the last modified time of an existing blob.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Block blobs include features that help you manage large files over networks.</source>
+            <target state="new">Block blobs include features that help you manage large files over networks.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>With a block blob, you can upload multiple blocks in parallel to decrease upload time.</source>
+            <target state="new">With a block blob, you can upload multiple blocks in parallel to decrease upload time.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Each block can include an MD5 hash to verify the transfer, so you can track upload progress and re-send blocks as needed.</source>
+            <target state="new">Each block can include an MD5 hash to verify the transfer, so you can track upload progress and re-send blocks as needed.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>You can upload blocks in any order, and determine their sequence in the final block list commitment step.</source>
+            <target state="new">You can upload blocks in any order, and determine their sequence in the final block list commitment step.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>You can also upload a new block to replace an existing uncommitted block of the same block ID.</source>
+            <target state="new">You can also upload a new block to replace an existing uncommitted block of the same block ID.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>You have one week to commit blocks to a blob before they are discarded.</source>
+            <target state="new">You have one week to commit blocks to a blob before they are discarded.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>All uncommitted blocks are also discarded when a block list commitment operation occurs but does not include them.</source>
+            <target state="new">All uncommitted blocks are also discarded when a block list commitment operation occurs but does not include them.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>You can modify an existing block blob by inserting, replacing, or deleting existing blocks.</source>
+            <target state="new">You can modify an existing block blob by inserting, replacing, or deleting existing blocks.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>After uploading the block or blocks that have changed, you can commit a new version of the blob by committing the new blocks with the existing blocks you want to keep using a single commit operation.</source>
+            <target state="new">After uploading the block or blocks that have changed, you can commit a new version of the blob by committing the new blocks with the existing blocks you want to keep using a single commit operation.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>To insert the same range of bytes in two different locations of the committed blob, you can commit the same block in two places within the same commit operation.</source>
+            <target state="new">To insert the same range of bytes in two different locations of the committed blob, you can commit the same block in two places within the same commit operation.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>For any commit operation, if any block is not found, the entire commitment operation fails with an error, and the blob is not modified.</source>
+            <target state="new">For any commit operation, if any block is not found, the entire commitment operation fails with an error, and the blob is not modified.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Any block commitment overwrites the blob’s existing properties and metadata, and discards all uncommitted blocks.</source>
+            <target state="new">Any block commitment overwrites the blob’s existing properties and metadata, and discards all uncommitted blocks.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Block IDs are strings of equal length within a blob.</source>
+            <target state="new">Block IDs are strings of equal length within a blob.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Block client code usually uses base-64 encoding to normalize strings into equal lengths.</source>
+            <target state="new">Block client code usually uses base-64 encoding to normalize strings into equal lengths.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>When using base-64 encoding, the pre-encoded string must be 64 bytes or less.</source>
+            <target state="new">When using base-64 encoding, the pre-encoded string must be 64 bytes or less.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Block ID values can be duplicated in different blobs.</source>
+            <target state="new">Block ID values can be duplicated in different blobs.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>A blob can have up to 100,000 uncommitted blocks, but their total size cannot exceed 200,000 MB.</source>
+            <target state="new">A blob can have up to 100,000 uncommitted blocks, but their total size cannot exceed 200,000 MB.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>If you write a block for a blob that does not exist, a new block blob is created, with a length of zero bytes.</source>
+            <target state="new">If you write a block for a blob that does not exist, a new block blob is created, with a length of zero bytes.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>This blob will appear in blob lists that include uncommitted blobs.</source>
+            <target state="new">This blob will appear in blob lists that include uncommitted blobs.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>If you don’t commit any block to this blob, it and its uncommitted blocks will be discarded one week after the last successful block upload.</source>
+            <target state="new">If you don’t commit any block to this blob, it and its uncommitted blocks will be discarded one week after the last successful block upload.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>All uncommitted blocks are also discarded when a new blob of the same name is created using a single step (rather than the two-step block upload-then-commit process).</source>
+            <target state="new">All uncommitted blocks are also discarded when a new blob of the same name is created using a single step (rather than the two-step block upload-then-commit process).</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>About Page Blobs</source>
+            <target state="new">About Page Blobs</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Page blobs are a collection of 512-byte pages optimized for random read and write operations.</source>
+            <target state="new">Page blobs are a collection of 512-byte pages optimized for random read and write operations.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>To create a page blob, you initialize the page blob and specify the maximum size the page blob will grow.</source>
+            <target state="new">To create a page blob, you initialize the page blob and specify the maximum size the page blob will grow.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>To add or update the contents of a page blob, you write a page or pages by specifying an offset and a range that align to 512-byte page boundaries.</source>
+            <target state="new">To add or update the contents of a page blob, you write a page or pages by specifying an offset and a range that align to 512-byte page boundaries.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>A write to a page blob can overwrite just one page, some pages, or up to 4 MB of the page blob.</source>
+            <target state="new">A write to a page blob can overwrite just one page, some pages, or up to 4 MB of the page blob.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Writes to page blobs happen in-place and are immediately committed to the blob.</source>
+            <target state="new">Writes to page blobs happen in-place and are immediately committed to the blob.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>The maximum size for a page blob is 1 TB.</source>
+            <target state="new">The maximum size for a page blob is 1 TB.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>With the introduction of new Premium Storage, Microsoft Azure now offers two types of durable storage: <bpt id="1">&lt;legacyBold&gt;</bpt>Premium Storage<ept id="1">&lt;/legacyBold&gt;</ept> and <bpt id="2">&lt;legacyBold&gt;</bpt>Standard Storage<ept id="2">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new">With the introduction of new Premium Storage, Microsoft Azure now offers two types of durable storage: <bpt id="1">&lt;legacyBold&gt;</bpt>Premium Storage<ept id="1">&lt;/legacyBold&gt;</ept> and <bpt id="2">&lt;legacyBold&gt;</bpt>Standard Storage<ept id="2">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Premium Storage is specifically designed for Azure Virtual Machine workloads requiring consistent high performance and low latency.</source>
+            <target state="new">Premium Storage is specifically designed for Azure Virtual Machine workloads requiring consistent high performance and low latency.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Premium Storage is currently available only for storing data on disks used by Azure Virtual Machines.</source>
+            <target state="new">Premium Storage is currently available only for storing data on disks used by Azure Virtual Machines.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>These disks are backed by page blobs in Azure Storage.</source>
+            <target state="new">These disks are backed by page blobs in Azure Storage.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>For detailed information, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=521898&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For detailed information, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=521898&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>For information on the scalability targets for Premium Storage, see <bpt id="1">&lt;legacyLink xlink:href="26df4d89-8289-4b31-aaa0-df971cab9b52" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Azure Storage Scalability and Performance Targets<ept id="1">&lt;/legacyLink&gt;</ept>.</source>
+            <target state="new">For information on the scalability targets for Premium Storage, see <bpt id="1">&lt;legacyLink xlink:href="26df4d89-8289-4b31-aaa0-df971cab9b52" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Azure Storage Scalability and Performance Targets<ept id="1">&lt;/legacyLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>About Append Blobs</source>
+            <target state="new">About Append Blobs</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>An append blob is comprised of blocks and is optimized for append operations.</source>
+            <target state="new">An append blob is comprised of blocks and is optimized for append operations.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>When you modify an append blob, blocks are added to the end of the blob only, via the <ph id="1">&lt;link xlink:href="08d3ac04-23b4-4d39-9c40-06a38bdc6df1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Append Block&lt;/link&gt;</ph> operation.</source>
+            <target state="new">When you modify an append blob, blocks are added to the end of the blob only, via the <ph id="1">&lt;link xlink:href="08d3ac04-23b4-4d39-9c40-06a38bdc6df1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Append Block&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Updating or deleting of existing blocks is not supported.</source>
+            <target state="new">Updating or deleting of existing blocks is not supported.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Unlike block blobs, an append blob does not expose its block IDs.</source>
+            <target state="new">Unlike block blobs, an append blob does not expose its block IDs.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Each block in an append blob can be of a different size, up to a maximum of 4 MB.</source>
+            <target state="new">Each block in an append blob can be of a different size, up to a maximum of 4 MB.</target>
+          </trans-unit>
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>The maximum size for a append blob is 200,000 MB, and a append blob can include no more than 50,000 blocks.</source>
+            <target state="new">The maximum size for a append blob is 200,000 MB, and a append blob can include no more than 50,000 blocks.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>How to Use the Blob Storage Service</source>
+            <target state="new">How to Use the Blob Storage Service</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>How to Use the Queue Storage Service</source>
+            <target state="new">How to Use the Queue Storage Service</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ja-JP" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAdylEOwiAMANCrcACaAOuAegLjlx9eoAWazEyWTEx2fKff76lOTTAUaA0R0KsDcVmgOM+RSD0zWZMTnik5IKcVUM6QpzoDagyMxFUqWtMm8ZElQdIQATkQUM0Rcio0KzvNv+WteTLc7tYc66LajnHZt238IVlz/by4P3bu75XHsvUv141SKqEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Create an Azure worker role to poll the Azure blob</source>
+            <target state="new">Create an Azure worker role to poll the Azure blob</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>In the previous steps we created an <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> bridge that receives the purchase order message from the customer, maps it to an X12 850, then routes it to a <bpt id="2">&lt;embeddedLabel&gt;</bpt>purchaseorder<ept id="2">&lt;/embeddedLabel&gt;</ept> blob container.</source>
+            <target state="new">In the previous steps we created an <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> bridge that receives the purchase order message from the customer, maps it to an X12 850, then routes it to a <bpt id="2">&lt;embeddedLabel&gt;</bpt>purchaseorder<ept id="2">&lt;/embeddedLabel&gt;</ept> blob container.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>We also created an X12 agreement using the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> to receive an X12 850 purchase order message, the message is then sent to the Fourth Coffee restaurant.</source>
+            <target state="new">We also created an X12 agreement using the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> to receive an X12 850 purchase order message, the message is then sent to the Fourth Coffee restaurant.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>In this step, we use an <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> worker role that polls the <bpt id="2">&lt;embeddedLabel&gt;</bpt>purchaseorder<ept id="2">&lt;/embeddedLabel&gt;</ept> blob container.</source>
+            <target state="new">In this step, we use an <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> worker role that polls the <bpt id="2">&lt;embeddedLabel&gt;</bpt>purchaseorder<ept id="2">&lt;/embeddedLabel&gt;</ept> blob container.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>It then sends the X12 850 purchase order blob to the X12 send bridge that is deployed as part of the X12 agreement.</source>
+            <target state="new">It then sends the X12 850 purchase order blob to the X12 send bridge that is deployed as part of the X12 agreement.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>This topic does not go into the details of creating an <ph id="1">&lt;token&gt;winzaure2&lt;/token&gt;</ph> worker role.</source>
+            <target state="new">This topic does not go into the details of creating an <ph id="1">&lt;token&gt;winzaure2&lt;/token&gt;</ph> worker role.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>You can download the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BlobPollerRole<ept id="1">&lt;/embeddedLabel&gt;</ept> worker role sample from <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/p/?LinkId=390152<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=390152&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">You can download the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BlobPollerRole<ept id="1">&lt;/embeddedLabel&gt;</ept> worker role sample from <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/p/?LinkId=390152<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=390152&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>You must make the following changes to the role configuration to use it in your environment.</source>
+            <target state="new">You must make the following changes to the role configuration to use it in your environment.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Prerequisites</source>
+            <target state="new">Prerequisites</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Make sure you have the <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> SDK for .NET is installed on the computer where you are using the worker role.</source>
+            <target state="new">Make sure you have the <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> SDK for .NET is installed on the computer where you are using the worker role.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>You can download the SDK from <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/p/?LinkId=378265<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=378265&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">You can download the SDK from <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/p/?LinkId=378265<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=378265&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Update the worker role configuration</source>
+            <target state="new">Update the worker role configuration</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Make the following changes to use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BlobPollerRole<ept id="1">&lt;/embeddedLabel&gt;</ept> worker role in your <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph> subscription.</source>
+            <target state="new">Make the following changes to use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BlobPollerRole<ept id="1">&lt;/embeddedLabel&gt;</ept> worker role in your <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph> subscription.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Open the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BlobPollerRole<ept id="1">&lt;/embeddedLabel&gt;</ept> solution and in the Solution Explorer, expand <bpt id="2">&lt;embeddedLabel&gt;</bpt>BlobPollerRole<ept id="2">&lt;/embeddedLabel&gt;</ept>, expand <bpt id="3">&lt;embeddedLabel&gt;</bpt>Roles<ept id="3">&lt;/embeddedLabel&gt;</ept>, and then double-click <bpt id="4">&lt;embeddedLabel&gt;</bpt>BlobPollerWorkerRole<ept id="4">&lt;/embeddedLabel&gt;</ept> to open the properties for this role.</source>
+            <target state="new">Open the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BlobPollerRole<ept id="1">&lt;/embeddedLabel&gt;</ept> solution and in the Solution Explorer, expand <bpt id="2">&lt;embeddedLabel&gt;</bpt>BlobPollerRole<ept id="2">&lt;/embeddedLabel&gt;</ept>, expand <bpt id="3">&lt;embeddedLabel&gt;</bpt>Roles<ept id="3">&lt;/embeddedLabel&gt;</ept>, and then double-click <bpt id="4">&lt;embeddedLabel&gt;</bpt>BlobPollerWorkerRole<ept id="4">&lt;/embeddedLabel&gt;</ept> to open the properties for this role.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>On the Settings tab, make the following changes to the configuration properties.</source>
+            <target state="new">On the Settings tab, make the following changes to the configuration properties.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>ACSAddress</source>
+            <target state="new">ACSAddress</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Provide the ACS URL associated with your <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription.</source>
+            <target state="new">Provide the ACS URL associated with your <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>IssuerName</source>
+            <target state="new">IssuerName</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Provide the issuer name for the ACS namespace.</source>
+            <target state="new">Provide the issuer name for the ACS namespace.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>IssuerKey</source>
+            <target state="new">IssuerKey</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Provide the issuer key for the ACS namespace.</source>
+            <target state="new">Provide the issuer key for the ACS namespace.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>PipelineAdderss</source>
+            <target state="new">PipelineAdderss</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Enter the pipeline endpoint where the blob poller must direct the message after reading from the blob.</source>
+            <target state="new">Enter the pipeline endpoint where the blob poller must direct the message after reading from the blob.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>For this tutorial, this must be the endpoint where the EDI X12 send agreement is deployed.</source>
+            <target state="new">For this tutorial, this must be the endpoint where the EDI X12 send agreement is deployed.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>You can get the endpoint from Send Settings tab (Inbound URL view) of the X12 agreement you deployed earlier.</source>
+            <target state="new">You can get the endpoint from Send Settings tab (Inbound URL view) of the X12 agreement you deployed earlier.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>The endpoint is typically in the format <ph id="1">&lt;codeInline&gt;https://&lt;legacyItalic&gt;mybiztalkservice&lt;/legacyItalic&gt;.biztalk.windows.net/default/Agreements/&lt;legacyItalic&gt;%%amp;lt;id%%amp;gt;&lt;/legacyItalic&gt;/Send&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">The endpoint is typically in the format <ph id="1">&lt;codeInline&gt;https://&lt;legacyItalic&gt;mybiztalkservice&lt;/legacyItalic&gt;.biztalk.windows.net/default/Agreements/&lt;legacyItalic&gt;%%amp;lt;id%%amp;gt;&lt;/legacyItalic&gt;/Send&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>ContainerName</source>
+            <target state="new">ContainerName</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Enter the blob container where the X12 850 purchase order messages are dropped.</source>
+            <target state="new">Enter the blob container where the X12 850 purchase order messages are dropped.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>For this tutorial, enter this value as <bpt id="1">&lt;userInput&gt;</bpt>purchaseorder<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For this tutorial, enter this value as <bpt id="1">&lt;userInput&gt;</bpt>purchaseorder<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>You created this container in the earlier steps.</source>
+            <target state="new">You created this container in the earlier steps.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>CloudStorageAccountConectionString</source>
+            <target state="new">CloudStorageAccountConectionString</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Select the ellipsis (<bpt id="1">&lt;embeddedLabel&gt;</bpt>…<ept id="1">&lt;/embeddedLabel&gt;</ept>) against the property and in the dialog box, enter the storage account name and the account access key.</source>
+            <target state="new">Select the ellipsis (<bpt id="1">&lt;embeddedLabel&gt;</bpt>…<ept id="1">&lt;/embeddedLabel&gt;</ept>) against the property and in the dialog box, enter the storage account name and the account access key.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Select the option to use HTTPS connections, and then select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select the option to use HTTPS connections, and then select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>ContentTypeValue</source>
+            <target state="new">ContentTypeValue</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>For content type, enter <bpt id="1">&lt;userInput&gt;</bpt>application/xml<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For content type, enter <bpt id="1">&lt;userInput&gt;</bpt>application/xml<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Save changes to the project.</source>
+            <target state="new">Save changes to the project.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Right-click the solution name in the Solution Explorer, and then select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Build<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Right-click the solution name in the Solution Explorer, and then select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Build<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>After the build completes successfully, right-click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BlobPollerRole<ept id="1">&lt;/embeddedLabel&gt;</ept> in the Solution Explorer, then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Package<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">After the build completes successfully, right-click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BlobPollerRole<ept id="1">&lt;/embeddedLabel&gt;</ept> in the Solution Explorer, then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Package<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>In the dialog box that appears, for <bpt id="1">&lt;embeddedLabel&gt;</bpt>Service configuration<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Cloud<ept id="2">&lt;/embeddedLabel&gt;</ept>; and for <bpt id="3">&lt;embeddedLabel&gt;</bpt>Build configuration<ept id="3">&lt;/embeddedLabel&gt;</ept>, select <bpt id="4">&lt;embeddedLabel&gt;</bpt>Release<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the dialog box that appears, for <bpt id="1">&lt;embeddedLabel&gt;</bpt>Service configuration<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Cloud<ept id="2">&lt;/embeddedLabel&gt;</ept>; and for <bpt id="3">&lt;embeddedLabel&gt;</bpt>Build configuration<ept id="3">&lt;/embeddedLabel&gt;</ept>, select <bpt id="4">&lt;embeddedLabel&gt;</bpt>Release<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Once the operation successfully completes, you will see that two files are created in the \BlobPoller\bin\Release\app-publish directory.</source>
+            <target state="new">Once the operation successfully completes, you will see that two files are created in the \BlobPoller\bin\Release\app-publish directory.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>In the next step, you upload these files to your <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> subscription to deploy the worker role.</source>
+            <target state="new">In the next step, you upload these files to your <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> subscription to deploy the worker role.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Deploy the worker role on Azure</source>
+            <target state="new">Deploy the worker role on Azure</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Open the <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> Management Portal, and from the command bar, point to <bpt id="2">&lt;embeddedLabel&gt;</bpt>New<ept id="2">&lt;/embeddedLabel&gt;</ept>, <bpt id="3">&lt;embeddedLabel&gt;</bpt>Compute<ept id="3">&lt;/embeddedLabel&gt;</ept>, <bpt id="4">&lt;embeddedLabel&gt;</bpt>Cloud Service<ept id="4">&lt;/embeddedLabel&gt;</ept>, and then select <bpt id="5">&lt;embeddedLabel&gt;</bpt>Quick Create<ept id="5">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Open the <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> Management Portal, and from the command bar, point to <bpt id="2">&lt;embeddedLabel&gt;</bpt>New<ept id="2">&lt;/embeddedLabel&gt;</ept>, <bpt id="3">&lt;embeddedLabel&gt;</bpt>Compute<ept id="3">&lt;/embeddedLabel&gt;</ept>, <bpt id="4">&lt;embeddedLabel&gt;</bpt>Cloud Service<ept id="4">&lt;/embeddedLabel&gt;</ept>, and then select <bpt id="5">&lt;embeddedLabel&gt;</bpt>Quick Create<ept id="5">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Enter a URL for the worker role, select a region where the role will be deployed, and then select the checkmark.</source>
+            <target state="new">Enter a URL for the worker role, select a region where the role will be deployed, and then select the checkmark.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Select the cloud service you created, select the Instances tab, make sure the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Production<ept id="1">&lt;/embeddedLabel&gt;</ept> view is selected, and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Upload<ept id="2">&lt;/embeddedLabel&gt;</ept> from the command bar.</source>
+            <target state="new">Select the cloud service you created, select the Instances tab, make sure the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Production<ept id="1">&lt;/embeddedLabel&gt;</ept> view is selected, and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Upload<ept id="2">&lt;/embeddedLabel&gt;</ept> from the command bar.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Upload a Package<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, do the following:</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Upload a Package<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Provide a deployment label.</source>
+            <target state="new">Provide a deployment label.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>For <bpt id="1">&lt;embeddedLabel&gt;</bpt>Package<ept id="1">&lt;/embeddedLabel&gt;</ept>, browse to the \BlobPoller\bin\Release\app.publish location, and select the service package file (.cspkg).</source>
+            <target state="new">For <bpt id="1">&lt;embeddedLabel&gt;</bpt>Package<ept id="1">&lt;/embeddedLabel&gt;</ept>, browse to the \BlobPoller\bin\Release\app.publish location, and select the service package file (.cspkg).</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>For <bpt id="1">&lt;embeddedLabel&gt;</bpt>Configuration<ept id="1">&lt;/embeddedLabel&gt;</ept>, browse to the \BlobPoller\bin\Release\app.publish location, and select the cloud service configuration file (.cscfg).</source>
+            <target state="new">For <bpt id="1">&lt;embeddedLabel&gt;</bpt>Configuration<ept id="1">&lt;/embeddedLabel&gt;</ept>, browse to the \BlobPoller\bin\Release\app.publish location, and select the cloud service configuration file (.cscfg).</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Select the checkbox to deploy the worker role even if it contains a single instance.</source>
+            <target state="new">Select the checkbox to deploy the worker role even if it contains a single instance.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Select the checkbox if you want to start the worker role after it is uploaded.</source>
+            <target state="new">Select the checkbox if you want to start the worker role after it is uploaded.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Select the checkmark.</source>
+            <target state="new">Select the checkmark.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Once the worker role is deployed, it will start polling the blob you specified in the configuration, until you stop the role from the <ph id="1">&lt;token&gt;portal&lt;/token&gt;</ph>.</source>
+            <target state="new">Once the worker role is deployed, it will start polling the blob you specified in the configuration, until you stop the role from the <ph id="1">&lt;token&gt;portal&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

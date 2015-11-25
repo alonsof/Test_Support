@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzcEJwzAMQNFVNIAEli3Hds8tdIAuoNgSBNIE2hQyfnP+D757slliJzMREvZAc6gz9cA6teas2hDKpLFqSTSUA4nkQBqLk2mxmJiL1wnh0qObKI0cK0mwTppVyEdL3q5Bz4bACMPo/kA418XdzuP22fcDIV4tITx/b91eH92+qx7Lvv0Bh3mpI6IAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Payload Format for Table Service Operations</source>
+            <target state="new">Payload Format for Table Service Operations</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The Table service REST API supports ATOM and JSON as OData payload formats.</source>
+            <target state="new">The Table service REST API supports ATOM and JSON as OData payload formats.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>While the ATOM protocol is supported for all versions of the Azure storage services, the JSON protocol is supported only for versions greater than 2013-08-15.</source>
+            <target state="new">While the ATOM protocol is supported for all versions of the Azure storage services, the JSON protocol is supported only for versions greater than 2013-08-15.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The following REST API operations are not OData APIs and do not currently do not support JSON: <ph id="1">&lt;link xlink:href="4131c1c3-8605-4bcb-9e85-e1a8ac7f17c6" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Table ACL (REST API)&lt;/link&gt;</ph>, <ph id="2">&lt;link xlink:href="a68b978f-5cbe-4275-b42a-68b7f88ee968" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Table ACL (REST API)&lt;/link&gt;</ph>, <ph id="3">&lt;link xlink:href="99806684-7d33-4a59-acc2-23aaf460eb31" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Table Service Properties (REST API)&lt;/link&gt;</ph>, and <ph id="4">&lt;link xlink:href="aff6740b-6ea5-4548-b226-322eb76dad94" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Table Service Properties (REST API)&lt;/link&gt;</ph>.</source>
+            <target state="new">The following REST API operations are not OData APIs and do not currently do not support JSON: <ph id="1">&lt;link xlink:href="4131c1c3-8605-4bcb-9e85-e1a8ac7f17c6" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Table ACL (REST API)&lt;/link&gt;</ph>, <ph id="2">&lt;link xlink:href="a68b978f-5cbe-4275-b42a-68b7f88ee968" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Table ACL (REST API)&lt;/link&gt;</ph>, <ph id="3">&lt;link xlink:href="99806684-7d33-4a59-acc2-23aaf460eb31" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Table Service Properties (REST API)&lt;/link&gt;</ph>, and <ph id="4">&lt;link xlink:href="aff6740b-6ea5-4548-b226-322eb76dad94" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Table Service Properties (REST API)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>To specify the ATOM or JSON format, specify the appropriate values for the <ph id="1">&lt;parameterReference&gt;Content-Type&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;Accept&lt;/parameterReference&gt;</ph> headers (described below).</source>
+            <target state="new">To specify the ATOM or JSON format, specify the appropriate values for the <ph id="1">&lt;parameterReference&gt;Content-Type&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;Accept&lt;/parameterReference&gt;</ph> headers (described below).</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Note the following constraints:</source>
+            <target state="new">Note the following constraints:</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;Content-Type&lt;/parameterReference&gt;</ph> header is required for all requests containing an OData payload.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;Content-Type&lt;/parameterReference&gt;</ph> header is required for all requests containing an OData payload.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>If the <ph id="1">&lt;parameterReference&gt;Accept&lt;/parameterReference&gt;</ph> header is not provided, then the content type of the response defaults to <ph id="2">&lt;codeInline&gt;application/atom+xml&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">If the <ph id="1">&lt;parameterReference&gt;Accept&lt;/parameterReference&gt;</ph> header is not provided, then the content type of the response defaults to <ph id="2">&lt;codeInline&gt;application/atom+xml&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Specifying the <ph id="1">&lt;codeInline&gt;$format&lt;/codeInline&gt;</ph> URI parameter overrides the value specified in the <ph id="2">&lt;parameterReference&gt;Accept&lt;/parameterReference&gt;</ph> request header, when the OData data service version is set to 3.0.</source>
+            <target state="new">Specifying the <ph id="1">&lt;codeInline&gt;$format&lt;/codeInline&gt;</ph> URI parameter overrides the value specified in the <ph id="2">&lt;parameterReference&gt;Accept&lt;/parameterReference&gt;</ph> request header, when the OData data service version is set to 3.0.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="086d4db0-0743-4987-b8a7-2cd15090dfd6" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Setting the OData Data Service Version Headers&lt;/link&gt;</ph> for details about the OData service version.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="086d4db0-0743-4987-b8a7-2cd15090dfd6" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Setting the OData Data Service Version Headers&lt;/link&gt;</ph> for details about the OData service version.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>To specify the payload format, set the <ph id="1">&lt;parameterReference&gt;Content-Type&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;Accept&lt;/parameterReference&gt;</ph> request headers according to the table below:</source>
+            <target state="new">To specify the payload format, set the <ph id="1">&lt;parameterReference&gt;Content-Type&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;Accept&lt;/parameterReference&gt;</ph> request headers according to the table below:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Payload Format</source>
+            <target state="new">Payload Format</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Content-Type Header</source>
+            <target state="new">Content-Type Header</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Accept Header</source>
+            <target state="new">Accept Header</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Data Service Version (REST API Version) </source>
+            <target state="new">Data Service Version (REST API Version) </target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Supported APIs</source>
+            <target state="new">Supported APIs</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>1.0 (Any version)</source>
+            <target state="new">1.0 (Any version)</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>2.0 (2011-08-18 or later)</source>
+            <target state="new">2.0 (2011-08-18 or later)</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>3.0 (2013-08-15 or later)</source>
+            <target state="new">3.0 (2013-08-15 or later)</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>QueryTables</source>
+            <target state="new">QueryTables</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>CreateTable</source>
+            <target state="new">CreateTable</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Delete Table</source>
+            <target state="new">Delete Table</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Query Entities</source>
+            <target state="new">Query Entities</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Insert Entities</source>
+            <target state="new">Insert Entities</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Insert Or Merge Entity</source>
+            <target state="new">Insert Or Merge Entity</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Insert Or Replace Entity</source>
+            <target state="new">Insert Or Replace Entity</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Update Entity</source>
+            <target state="new">Update Entity</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Merge Entity</source>
+            <target state="new">Merge Entity</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Delete Entity</source>
+            <target state="new">Delete Entity</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>For details, see the <bpt id="1">&lt;embeddedLabel&gt;</bpt>JSON Format<ept id="1">&lt;/embeddedLabel&gt;</ept> section below.</source>
+            <target state="new">For details, see the <bpt id="1">&lt;embeddedLabel&gt;</bpt>JSON Format<ept id="1">&lt;/embeddedLabel&gt;</ept> section below.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>3.0 (2013-08-15 or later)</source>
+            <target state="new">3.0 (2013-08-15 or later)</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>QueryTables</source>
+            <target state="new">QueryTables</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>CreateTable</source>
+            <target state="new">CreateTable</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Delete Table</source>
+            <target state="new">Delete Table</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Query Entities</source>
+            <target state="new">Query Entities</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Insert Entities</source>
+            <target state="new">Insert Entities</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Insert Or Merge Entity</source>
+            <target state="new">Insert Or Merge Entity</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Insert Or Replace Entity</source>
+            <target state="new">Insert Or Replace Entity</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Update Entity</source>
+            <target state="new">Update Entity</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Merge Entity</source>
+            <target state="new">Merge Entity</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Delete Entity</source>
+            <target state="new">Delete Entity</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>N/A</source>
+            <target state="new">N/A</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Get Table ACL</source>
+            <target state="new">Get Table ACL</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Set Table ACL</source>
+            <target state="new">Set Table ACL</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Get Table Service Properties</source>
+            <target state="new">Get Table Service Properties</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Set Table Service Properties</source>
+            <target state="new">Set Table Service Properties</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Atom Format (application/atom+xml)</source>
+            <target state="new">Atom Format (application/atom+xml)</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Atom<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://tools.ietf.org/html/rfc4287&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> is an XML-based document format that describes collections of related information referred to as <bpt id="4">&lt;newTerm&gt;</bpt>feeds<ept id="4">&lt;/newTerm&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Atom<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://tools.ietf.org/html/rfc4287&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> is an XML-based document format that describes collections of related information referred to as <bpt id="4">&lt;newTerm&gt;</bpt>feeds<ept id="4">&lt;/newTerm&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Feeds are composed of a number of items, known as <bpt id="1">&lt;newTerm&gt;</bpt>entries<ept id="1">&lt;/newTerm&gt;</ept>.</source>
+            <target state="new">Feeds are composed of a number of items, known as <bpt id="1">&lt;newTerm&gt;</bpt>entries<ept id="1">&lt;/newTerm&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>AtomPub<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://tools.ietf.org/html/rfc5023&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> defines additional format constructs for entries and feeds so that the resources they represent may be easily categorized, grouped, edited, and discovered.</source>
+            <target state="new"><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>AtomPub<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://tools.ietf.org/html/rfc5023&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> defines additional format constructs for entries and feeds so that the resources they represent may be easily categorized, grouped, edited, and discovered.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>However, since Atom does not define how structured data is encoded with feeds, <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>OData<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.odata.org/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> defines a set of conventions for representing structured data in an Atom feed in order to enable transfers of structured content by services based on OData.</source>
+            <target state="new">However, since Atom does not define how structured data is encoded with feeds, <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>OData<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.odata.org/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> defines a set of conventions for representing structured data in an Atom feed in order to enable transfers of structured content by services based on OData.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>For example, the following sample OData entry demonstrates the Atom format sent through a request to insert an entity into Azure Table storage using the REST API (see <ph id="1">&lt;link xlink:href="9ca046aa-e9b4-4eaf-a7c0-d6ccdbaf48b9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Insert Entity (REST API)&lt;/link&gt;</ph> for details on the insert operation):</source>
+            <target state="new">For example, the following sample OData entry demonstrates the Atom format sent through a request to insert an entity into Azure Table storage using the REST API (see <ph id="1">&lt;link xlink:href="9ca046aa-e9b4-4eaf-a7c0-d6ccdbaf48b9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Insert Entity (REST API)&lt;/link&gt;</ph> for details on the insert operation):</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>When a client queries a set of entities in Table storage, the service responds with an Atom feed, which is a collection of Atom entries (see <ph id="1">&lt;link xlink:href="8cfef6f9-eb7f-40f0-9016-dff44d36b6e1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Query Entities (REST API)&lt;/link&gt;</ph> for details on the query operation):</source>
+            <target state="new">When a client queries a set of entities in Table storage, the service responds with an Atom feed, which is a collection of Atom entries (see <ph id="1">&lt;link xlink:href="8cfef6f9-eb7f-40f0-9016-dff44d36b6e1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Query Entities (REST API)&lt;/link&gt;</ph> for details on the query operation):</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Property Types in an Atom Feed</source>
+            <target state="new">Property Types in an Atom Feed</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Property data types are defined by the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>OData Protocol Specification<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.odata.org/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">Property data types are defined by the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>OData Protocol Specification<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.odata.org/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Not all data types defined by the specification are supported by the Table service.</source>
+            <target state="new">Not all data types defined by the specification are supported by the Table service.</target>
+          </trans-unit>
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>For information about the supported data types and how they map to common language runtime (CLR) types, see <ph id="1">&lt;link xlink:href="01f78ed1-9cbd-4b00-8113-71129751357e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Understanding the Table Service Data Model&lt;/link&gt;</ph>.</source>
+            <target state="new">For information about the supported data types and how they map to common language runtime (CLR) types, see <ph id="1">&lt;link xlink:href="01f78ed1-9cbd-4b00-8113-71129751357e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Understanding the Table Service Data Model&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>A property may be specified with or without an explicit data type.</source>
+            <target state="new">A property may be specified with or without an explicit data type.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>If the type is omitted, the property is automatically created as data type <ph id="1">&lt;languageKeyword&gt;Edm.String&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">If the type is omitted, the property is automatically created as data type <ph id="1">&lt;languageKeyword&gt;Edm.String&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>If a property is created with an explicit type, a query that returns the entity includes that type within the Atom feed, so that you can determine the type of an existing property if necessary.</source>
+            <target state="new">If a property is created with an explicit type, a query that returns the entity includes that type within the Atom feed, so that you can determine the type of an existing property if necessary.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Knowing a property's type is important when you are constructing a query that filters on that property.</source>
+            <target state="new">Knowing a property's type is important when you are constructing a query that filters on that property.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="74e73539-b624-4f47-8603-112cbb6780db" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Querying Tables and Entities&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="74e73539-b624-4f47-8603-112cbb6780db" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Querying Tables and Entities&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>JSON Format (application/json)</source>
+            <target state="new">JSON Format (application/json)</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>OData extends the JSON format by defining general conventions for these name-value pairs, similar to the ATOM format described above.</source>
+            <target state="new">OData extends the JSON format by defining general conventions for these name-value pairs, similar to the ATOM format described above.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>OData defines a set of canonical annotations for control information such as IDs, type, and links.</source>
+            <target state="new">OData defines a set of canonical annotations for control information such as IDs, type, and links.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>For details about the JSON format, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Introducing JSON<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.json.org/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For details about the JSON format, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Introducing JSON<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.json.org/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>The key advantage of using OData's JSON format is that the predictable parts of the payload can be omitted to reduce the payload size.</source>
+            <target state="new">The key advantage of using OData's JSON format is that the predictable parts of the payload can be omitted to reduce the payload size.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>To reconstitute this data on the receiving end, expressions are used to compute missing links, type information, and control data.</source>
+            <target state="new">To reconstitute this data on the receiving end, expressions are used to compute missing links, type information, and control data.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>To control what is omitted from the payload, there are three levels that you can specify as part of the <ph id="1">&lt;parameterReference&gt;Accept&lt;/parameterReference&gt;</ph> header:</source>
+            <target state="new">To control what is omitted from the payload, there are three levels that you can specify as part of the <ph id="1">&lt;parameterReference&gt;Accept&lt;/parameterReference&gt;</ph> header:</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>The following ODATA annotations are supported by the Azure Table service:</source>
+            <target state="new">The following ODATA annotations are supported by the Azure Table service:</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;odata.metadata&lt;/languageKeyword&gt;</ph>: The metadata URL for a collection, entity, primitive value, or service document.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;odata.metadata&lt;/languageKeyword&gt;</ph>: The metadata URL for a collection, entity, primitive value, or service document.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;odata.id&lt;/languageKeyword&gt;</ph>: The entity id which is generally the URL to the resource.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;odata.id&lt;/languageKeyword&gt;</ph>: The entity id which is generally the URL to the resource.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;odata.editlink&lt;/languageKeyword&gt;</ph>: The link used to edit/update the entry, if the entity is updatable and the odata.id does not represent a URL that can be used to edit the entity.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;odata.editlink&lt;/languageKeyword&gt;</ph>: The link used to edit/update the entry, if the entity is updatable and the odata.id does not represent a URL that can be used to edit the entity.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;odata.type&lt;/languageKeyword&gt;</ph>: The type name of the containing object.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;odata.type&lt;/languageKeyword&gt;</ph>: The type name of the containing object.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;odata.etag&lt;/languageKeyword&gt;</ph>: The ETag of the entity.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;odata.etag&lt;/languageKeyword&gt;</ph>: The ETag of the entity.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;PropertyName@odata.type&lt;/languageKeyword&gt;</ph>, for custom properties: The type name of the targeted property.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;PropertyName@odata.type&lt;/languageKeyword&gt;</ph>, for custom properties: The type name of the targeted property.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;PropertyName@odata.type&lt;/languageKeyword&gt;</ph>, for system properties (<bpt id="2">&lt;legacyItalic&gt;</bpt>i.e.<ept id="2">&lt;/legacyItalic&gt;</ept>, the <ph id="3">&lt;languageKeyword&gt;PrimaryKey&lt;/languageKeyword&gt;</ph>, <ph id="4">&lt;languageKeyword&gt;RowKey&lt;/languageKeyword&gt;</ph>, and <ph id="5">&lt;languageKeyword&gt;Timestamp&lt;/languageKeyword&gt;</ph> properties): The type name of the targeted property.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;PropertyName@odata.type&lt;/languageKeyword&gt;</ph>, for system properties (<bpt id="2">&lt;legacyItalic&gt;</bpt>i.e.<ept id="2">&lt;/legacyItalic&gt;</ept>, the <ph id="3">&lt;languageKeyword&gt;PrimaryKey&lt;/languageKeyword&gt;</ph>, <ph id="4">&lt;languageKeyword&gt;RowKey&lt;/languageKeyword&gt;</ph>, and <ph id="5">&lt;languageKeyword&gt;Timestamp&lt;/languageKeyword&gt;</ph> properties): The type name of the targeted property.</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>The information included in each level is summarized in the following table:</source>
+            <target state="new">The information included in each level is summarized in the following table:</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>No </source>
+            <target state="new">No </target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;PropertyName@odata.type&lt;/languageKeyword&gt;</ph> for custom properties</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;PropertyName@odata.type&lt;/languageKeyword&gt;</ph> for custom properties</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;PropertyName@odata.type&lt;/languageKeyword&gt;</ph> for system properties</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;PropertyName@odata.type&lt;/languageKeyword&gt;</ph> for system properties</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Property Types in a JSON Feed</source>
+            <target state="new">Property Types in a JSON Feed</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;languageKeyword&gt;odata.type&lt;/languageKeyword&gt;</ph> annotation is used in the OData JSON format to determine the type of an open property.</source>
+            <target state="new">The <ph id="1">&lt;languageKeyword&gt;odata.type&lt;/languageKeyword&gt;</ph> annotation is used in the OData JSON format to determine the type of an open property.</target>
+          </trans-unit>
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>This annotation is present when all of the conditions below are satisfied:</source>
+            <target state="new">This annotation is present when all of the conditions below are satisfied:</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>The JSON control level is set to either <ph id="1">&lt;codeInline&gt;odata=minimalmetadata&lt;/codeInline&gt;</ph> or <ph id="2">&lt;codeInline&gt;odata=fullmetadata&lt;/codeInline&gt;</ph>, as discussed in the <bpt id="3">&lt;embeddedLabel&gt;</bpt>JSON Format<ept id="3">&lt;/embeddedLabel&gt;</ept> section.</source>
+            <target state="new">The JSON control level is set to either <ph id="1">&lt;codeInline&gt;odata=minimalmetadata&lt;/codeInline&gt;</ph> or <ph id="2">&lt;codeInline&gt;odata=fullmetadata&lt;/codeInline&gt;</ph>, as discussed in the <bpt id="3">&lt;embeddedLabel&gt;</bpt>JSON Format<ept id="3">&lt;/embeddedLabel&gt;</ept> section.</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>The property is a custom property.</source>
+            <target state="new">The property is a custom property.</target>
+          </trans-unit>
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>Note that for Azure tables, only the <ph id="1">&lt;languageKeyword&gt;PartitionKey&lt;/languageKeyword&gt;</ph>, <ph id="2">&lt;languageKeyword&gt;RowKey&lt;/languageKeyword&gt;</ph>, and <ph id="3">&lt;languageKeyword&gt;Timestamp&lt;/languageKeyword&gt;</ph> properties are system properties, and their type information is declared in <ph id="4">&lt;codeInline&gt;$metadata&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Note that for Azure tables, only the <ph id="1">&lt;languageKeyword&gt;PartitionKey&lt;/languageKeyword&gt;</ph>, <ph id="2">&lt;languageKeyword&gt;RowKey&lt;/languageKeyword&gt;</ph>, and <ph id="3">&lt;languageKeyword&gt;Timestamp&lt;/languageKeyword&gt;</ph> properties are system properties, and their type information is declared in <ph id="4">&lt;codeInline&gt;$metadata&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>The type annotation for these properties is present only when the control level is set to <ph id="1">&lt;codeInline&gt;odata=fullmetadata&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">The type annotation for these properties is present only when the control level is set to <ph id="1">&lt;codeInline&gt;odata=fullmetadata&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>For more information see <ph id="1">&lt;link xlink:href="01f78ed1-9cbd-4b00-8113-71129751357e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Understanding the Table Service Data Model&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information see <ph id="1">&lt;link xlink:href="01f78ed1-9cbd-4b00-8113-71129751357e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Understanding the Table Service Data Model&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>The type of the property cannot be determined through the type detection heuristics summarized in the table below.</source>
+            <target state="new">The type of the property cannot be determined through the type detection heuristics summarized in the table below.</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Edm type</source>
+            <target state="new">Edm type</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>odata.type annotation required</source>
+            <target state="new">odata.type annotation required</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>JSON Type</source>
+            <target state="new">JSON Type</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>Literals</source>
+            <target state="new">Literals</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>Numeric (contains decimal point)</source>
+            <target state="new">Numeric (contains decimal point)</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>Numeric (Doesn't contain decimal point)</source>
+            <target state="new">Numeric (Doesn't contain decimal point)</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>The following JSON entity provides an example for each of the eight different property types:</source>
+            <target state="new">The following JSON entity provides an example for each of the eight different property types:</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>Since <ph id="1">&lt;languageKeyword&gt;PartitionKey&lt;/languageKeyword&gt;</ph> and <ph id="2">&lt;languageKeyword&gt;RowKey&lt;/languageKeyword&gt;</ph> are system properties, meaning that all table rows must define these properties, their type annotation does not appear in the entity.</source>
+            <target state="new">Since <ph id="1">&lt;languageKeyword&gt;PartitionKey&lt;/languageKeyword&gt;</ph> and <ph id="2">&lt;languageKeyword&gt;RowKey&lt;/languageKeyword&gt;</ph> are system properties, meaning that all table rows must define these properties, their type annotation does not appear in the entity.</target>
+          </trans-unit>
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>These properties are predefined as type <ph id="1">&lt;languageKeyword&gt;Edm.String&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">These properties are predefined as type <ph id="1">&lt;languageKeyword&gt;Edm.String&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>However, the other properties are<ph id="1">&lt;languageKeyword &gt;&lt;/languageKeyword&gt;</ph>custom properties and therefore contain type information corresponding to one of the supported primitive types in the table above.</source>
+            <target state="new">However, the other properties are<ph id="1">&lt;languageKeyword &gt;&lt;/languageKeyword&gt;</ph>custom properties and therefore contain type information corresponding to one of the supported primitive types in the table above.</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>Examples:</source>
+            <target state="new">Examples:</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>The following sample OData entry demonstrates the JSON format sent as a request to insert an entity into Azure Table storage (see <ph id="1">&lt;link xlink:href="9ca046aa-e9b4-4eaf-a7c0-d6ccdbaf48b9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Insert Entity (REST API)&lt;/link&gt;</ph> for details on the insert operation):</source>
+            <target state="new">The following sample OData entry demonstrates the JSON format sent as a request to insert an entity into Azure Table storage (see <ph id="1">&lt;link xlink:href="9ca046aa-e9b4-4eaf-a7c0-d6ccdbaf48b9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Insert Entity (REST API)&lt;/link&gt;</ph> for details on the insert operation):</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>When a client queries a set of entities in Azure Table storage, the service responds with a JSON payload (see <ph id="1">&lt;link xlink:href="8cfef6f9-eb7f-40f0-9016-dff44d36b6e1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Query Entities (REST API)&lt;/link&gt;</ph> for details on the query operation).</source>
+            <target state="new">When a client queries a set of entities in Azure Table storage, the service responds with a JSON payload (see <ph id="1">&lt;link xlink:href="8cfef6f9-eb7f-40f0-9016-dff44d36b6e1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Query Entities (REST API)&lt;/link&gt;</ph> for details on the query operation).</target>
+          </trans-unit>
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>The feed can include one of the three levels of information: no metadata, minimal metadata, or full metadata.</source>
+            <target state="new">The feed can include one of the three levels of information: no metadata, minimal metadata, or full metadata.</target>
+          </trans-unit>
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>The following examples demonstrate each kind:</source>
+            <target state="new">The following examples demonstrate each kind:</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>No metadata:</source>
+            <target state="new">No metadata:</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>Minimal metadata:</source>
+            <target state="new">Minimal metadata:</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>Full metadata:</source>
+            <target state="new">Full metadata:</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>To learn more about OData JSON format see the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>OData JSON Format Version 4.0<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=301473&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> specification, in conjunction with the <bpt id="4">&lt;externalLink&gt;</bpt><bpt id="5">&lt;linkText&gt;</bpt>[MS-ODATAJSON]: OData Protocol JSON Format Standards Support Document<ept id="5">&lt;/linkText&gt;</ept><ph id="6">&lt;linkUri&gt;http://msdn.microsoft.com/library/dn260768.aspx&lt;/linkUri&gt;</ph><ept id="4">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">To learn more about OData JSON format see the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>OData JSON Format Version 4.0<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=301473&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> specification, in conjunction with the <bpt id="4">&lt;externalLink&gt;</bpt><bpt id="5">&lt;linkText&gt;</bpt>[MS-ODATAJSON]: OData Protocol JSON Format Standards Support Document<ept id="5">&lt;/linkText&gt;</ept><ph id="6">&lt;linkUri&gt;http://msdn.microsoft.com/library/dn260768.aspx&lt;/linkUri&gt;</ph><ept id="4">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

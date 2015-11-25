@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANy8EJwzAMQNFVPIAFlixiq/dC7+0Ckm1BIE0gSSHjN/Bvj++ehzE1GIMZGD2BpWrQEuok4qgqMYhRT5QnsO4VmCyBdqwgjQxLGeKjxECcM7XcgEpx4MkJhEWhc65o1dySxYAxjAOe7xiuZXYf1/nYt+2897sbX7+vrp9d12PRc97WP6rpLe6iAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Relayed Messaging Tutorial</source>
+            <target state="new">Relayed Messaging Tutorial</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Service Bus Relayed Messaging Tutorial</source>
+            <target state="new">Service Bus Relayed Messaging Tutorial</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>The following topics describe how to build a simple <ph id="1">&lt;token&gt;sb1&lt;/token&gt;</ph> client application and service using the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> “relay” messaging capabilities.</source>
+            <target state="new">The following topics describe how to build a simple <ph id="1">&lt;token&gt;sb1&lt;/token&gt;</ph> client application and service using the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> “relay” messaging capabilities.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>For a corresponding tutorial that describes how to build an application that uses the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> “brokered,” or asynchronous messaging capabilities, see the <ph id="2">&lt;link xlink:href="74aae7f2-c646-4a62-bb43-d9fe72f65d5d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure AppFabric Service Bus Messaging Features Tutorial&lt;/link&gt;</ph>.</source>
+            <target state="new">For a corresponding tutorial that describes how to build an application that uses the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> “brokered,” or asynchronous messaging capabilities, see the <ph id="2">&lt;link xlink:href="74aae7f2-c646-4a62-bb43-d9fe72f65d5d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure AppFabric Service Bus Messaging Features Tutorial&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The topics that are contained in this section cover the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> programming experience.</source>
+            <target state="new">The topics that are contained in this section cover the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> programming experience.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>They are designed to be completed in the order listed at the bottom of this topic.</source>
+            <target state="new">They are designed to be completed in the order listed at the bottom of this topic.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Working through this tutorial gives you an introductory understanding of the steps that are required to create a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client and service application.</source>
+            <target state="new">Working through this tutorial gives you an introductory understanding of the steps that are required to create a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client and service application.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Like their <ph id="1">&lt;token&gt;indigo2&lt;/token&gt;</ph> counterparts, a service is a construct that exposes one or more endpoints, each of which exposes one or more service operations.</source>
+            <target state="new">Like their <ph id="1">&lt;token&gt;indigo2&lt;/token&gt;</ph> counterparts, a service is a construct that exposes one or more endpoints, each of which exposes one or more service operations.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The endpoint of a service specifies an address where the service can be found, a binding that contains the information that a client must communicate with the service, and a contract that defines the functionality provided by the service to its clients.</source>
+            <target state="new">The endpoint of a service specifies an address where the service can be found, a binding that contains the information that a client must communicate with the service, and a contract that defines the functionality provided by the service to its clients.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>The main difference between a <ph id="1">&lt;token&gt;indigo2&lt;/token&gt;</ph> and a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> service is that the endpoint is exposed in the cloud instead of locally on your computer.</source>
+            <target state="new">The main difference between a <ph id="1">&lt;token&gt;indigo2&lt;/token&gt;</ph> and a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> service is that the endpoint is exposed in the cloud instead of locally on your computer.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>After you work through the sequence of topics in this tutorial, you will have a running service, and a client that can invoke the operations of the service.</source>
+            <target state="new">After you work through the sequence of topics in this tutorial, you will have a running service, and a client that can invoke the operations of the service.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The first topic describes how to set up an account.</source>
+            <target state="new">The first topic describes how to set up an account.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The next three topics describe how to define a service that uses a contract, how to implement the service, and how to configure the service in code.</source>
+            <target state="new">The next three topics describe how to define a service that uses a contract, how to implement the service, and how to configure the service in code.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>They also describe how to host and run the service.</source>
+            <target state="new">They also describe how to host and run the service.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The service that is created is self-hosted and the client and service run on the same computer.</source>
+            <target state="new">The service that is created is self-hosted and the client and service run on the same computer.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>You can configure the service by using either code or a configuration file.</source>
+            <target state="new">You can configure the service by using either code or a configuration file.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="c3c38827-e436-4e31-8ea6-3d90e6d169d4" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configuring an AppFabric Service BusApplication&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="5f8947bc-26c6-4b15-a3a4-74bd3a0edb58" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Building a Service for the AppFabric Service Bus&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="c3c38827-e436-4e31-8ea6-3d90e6d169d4" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configuring an AppFabric Service BusApplication&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="5f8947bc-26c6-4b15-a3a4-74bd3a0edb58" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Building a Service for the AppFabric Service Bus&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The next three topics describe how to create a client application, configure the client application, and create and use a client that can access the functionality of the host.</source>
+            <target state="new">The next three topics describe how to create a client application, configure the client application, and create and use a client that can access the functionality of the host.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="3468b3db-91b6-4e76-a5ff-216d4c765d05" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Building an AppFabric Service Bus Client Application&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="10410312-3deb-4723-a869-f9301d5480c3" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Discovering and Exposing an AppFabric Service Bus Application&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="3468b3db-91b6-4e76-a5ff-216d4c765d05" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Building an AppFabric Service Bus Client Application&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="10410312-3deb-4723-a869-f9301d5480c3" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Discovering and Exposing an AppFabric Service Bus Application&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>All of the topics in this section assume that you are using Visual Studio as the development environment.</source>
+            <target state="new">All of the topics in this section assume that you are using Visual Studio as the development environment.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>For more in-depth information about how to create <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client applications and hosts, see the <ph id="2">&lt;link xlink:href="20163576-85ca-4532-a391-6030a4549973" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Developing Applications that Use the AppFabric Service Bus&lt;/link&gt;</ph> section.</source>
+            <target state="new">For more in-depth information about how to create <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client applications and hosts, see the <ph id="2">&lt;link xlink:href="20163576-85ca-4532-a391-6030a4549973" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Developing Applications that Use the AppFabric Service Bus&lt;/link&gt;</ph> section.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

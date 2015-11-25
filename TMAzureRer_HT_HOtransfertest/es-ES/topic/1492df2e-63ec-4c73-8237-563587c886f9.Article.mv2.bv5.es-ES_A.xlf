@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzFEKwjAMANCr5AAJtGnatf4L/usF0prAYG4wJ+z47v/x3JN14UFmIiTRA/VQO40QtbTmUbUhSNFsHBPVZJWkl0LN3anlzMIaTGUgRGn8djYqyQbJmC7PaaJcUq7TqLX4dUUE+9L9iXAus7udx23ftgOBETLC4/fR9bXr+l30mLf1D7Hke12hAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Step 5: Send a Message to the Queue</source>
+            <target state="new">Step 5: Send a Message to the Queue</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This is the fifth of nine tasks required to create a basic REST-style queue and publication/subscription application that uses <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">This is the fifth of nine tasks required to create a basic REST-style queue and publication/subscription application that uses <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>In this step, you add a method that uses the REST-style HTTP POST command to send a message to the queue you created in the previous step.</source>
+            <target state="new">In this step, you add a method that uses the REST-style HTTP POST command to send a message to the queue you created in the previous step.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>To send a message to the queue</source>
+            <target state="new">To send a message to the queue</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Paste the following code directly beneath the <ph id="1">&lt;codeInline&gt;CreateQueue()&lt;/codeInline&gt;</ph> code you added in step 4:</source>
+            <target state="new">Paste the following code directly beneath the <ph id="1">&lt;codeInline&gt;CreateQueue()&lt;/codeInline&gt;</ph> code you added in step 4:</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Standard brokered message properties are placed in a <ph id="1">&lt;codeInline&gt;BrokerProperties&lt;/codeInline&gt;</ph> HTTP header.</source>
+            <target state="new">Standard brokered message properties are placed in a <ph id="1">&lt;codeInline&gt;BrokerProperties&lt;/codeInline&gt;</ph> HTTP header.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The broker properties must be serialized in JSON format.</source>
+            <target state="new">The broker properties must be serialized in JSON format.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>To specify a <ph id="1">&lt;languageKeyword&gt;TimeToLive&lt;/languageKeyword&gt;</ph> value of 30 seconds and to add a message label “M1” to the message, add the following code immediately before the <ph id="2">&lt;codeInline&gt;webClient.UploadData()&lt;/codeInline&gt;</ph> call shown in the previous code snippet:</source>
+            <target state="new">To specify a <ph id="1">&lt;languageKeyword&gt;TimeToLive&lt;/languageKeyword&gt;</ph> value of 30 seconds and to add a message label “M1” to the message, add the following code immediately before the <ph id="2">&lt;codeInline&gt;webClient.UploadData()&lt;/codeInline&gt;</ph> call shown in the previous code snippet:</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Note that brokered message properties have been and will be added.</source>
+            <target state="new">Note that brokered message properties have been and will be added.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Therefore, the send request must specify an API version that supports all of the brokered message properties that are part of the request.</source>
+            <target state="new">Therefore, the send request must specify an API version that supports all of the brokered message properties that are part of the request.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>If the specified API version does not support a brokered message property, that property is ignored.</source>
+            <target state="new">If the specified API version does not support a brokered message property, that property is ignored.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Custom message properties are defined as a set of key-value pairs.</source>
+            <target state="new">Custom message properties are defined as a set of key-value pairs.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Each custom property is stored in its own TPPT header.</source>
+            <target state="new">Each custom property is stored in its own TPPT header.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>To add the custom properties “Priority” and “Customer”, add the following code immediately before the <ph id="1">&lt;codeInline&gt;webClient.UploadData()&lt;/codeInline&gt;</ph> call shown in the previous code snippet:</source>
+            <target state="new">To add the custom properties “Priority” and “Customer”, add the following code immediately before the <ph id="1">&lt;codeInline&gt;webClient.UploadData()&lt;/codeInline&gt;</ph> call shown in the previous code snippet:</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

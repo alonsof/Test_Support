@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANy9sJwzAMQNFVNIAEtqz40e8WOkAXkB+CQJpAmkDGbz4vh2sWRhVuNIYIiTdH1eVKzXmNpZhXLQjaa5EYErFTJel1opyakJc8GUc1zRkhstkYrpKOUEli81R6vzMk7uxbNOkIHqEPer4QrmW+h+t47Nt2IPBtCeF9fnX97Lr+Fj3mbf0DDKX6QKIAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Versions</source>
+            <target state="new">Versions</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Azure Search Service Versioning</source>
+            <target state="new">Azure Search Service Versioning</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>In Azure Search, the Service REST APIs are versioned so that your existing applications are not affected when new features are rolled out.</source>
+            <target state="new">In Azure Search, the Service REST APIs are versioned so that your existing applications are not affected when new features are rolled out.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Versions are specified through the <ph id="1">&lt;codeInline&gt;api-version&lt;/codeInline&gt;</ph> parameter, required on every request.</source>
+            <target state="new">Versions are specified through the <ph id="1">&lt;codeInline&gt;api-version&lt;/codeInline&gt;</ph> parameter, required on every request.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The following example illustrates how the parameter is specified:</source>
+            <target state="new">The following example illustrates how the parameter is specified:</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Although each request has an <ph id="1">&lt;codeInline&gt;api-version&lt;/codeInline&gt;</ph>, we recommend that you use the same version for all API requests.</source>
+            <target state="new">Although each request has an <ph id="1">&lt;codeInline&gt;api-version&lt;/codeInline&gt;</ph>, we recommend that you use the same version for all API requests.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>This is especially true when new API versions introduce attributes or operations that are not recognized by previous versions.</source>
+            <target state="new">This is especially true when new API versions introduce attributes or operations that are not recognized by previous versions.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Mixing API versions can have unintended consequences and should be avoided.</source>
+            <target state="new">Mixing API versions can have unintended consequences and should be avoided.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Valid values for the Service REST API include:</source>
+            <target state="new">Valid values for the Service REST API include:</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>(new)</source>
+            <target state="new">(new)</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;2015-02-28-Preview&lt;/codeInline&gt;</ph> <bpt id="2">&lt;legacyBold&gt;</bpt>(new)<ept id="2">&lt;/legacyBold&gt;</ept></source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;2015-02-28-Preview&lt;/codeInline&gt;</ph> <bpt id="2">&lt;legacyBold&gt;</bpt>(new)<ept id="2">&lt;/legacyBold&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;2015-02-28&lt;/codeInline&gt;</ph> introduces a breaking change for the <ph id="2">&lt;languageKeyword&gt;Suggestion operation&lt;/languageKeyword&gt;</ph>, with the introduction of the suggesters API (see <ph id="3">&lt;link xlink:href="ecafed05-c746-4d9e-ac8e-653066e909b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create Index (Azure Search Service REST API)&lt;/link&gt;</ph> and <ph id="4">&lt;link xlink:href="b3fed159-774d-42e0-8ded-ee453f6cd857" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Suggestions (Azure Search Service REST API)&lt;/link&gt;</ph> for details).</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;2015-02-28&lt;/codeInline&gt;</ph> introduces a breaking change for the <ph id="2">&lt;languageKeyword&gt;Suggestion operation&lt;/languageKeyword&gt;</ph>, with the introduction of the suggesters API (see <ph id="3">&lt;link xlink:href="ecafed05-c746-4d9e-ac8e-653066e909b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create Index (Azure Search Service REST API)&lt;/link&gt;</ph> and <ph id="4">&lt;link xlink:href="b3fed159-774d-42e0-8ded-ee453f6cd857" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Suggestions (Azure Search Service REST API)&lt;/link&gt;</ph> for details).</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>It is the only breaking change.</source>
+            <target state="new">It is the only breaking change.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;2015-02-28-Preview&lt;/codeInline&gt;</ph> introduces the same breaking change for the <ph id="2">&lt;languageKeyword&gt;Suggestion operation&lt;/languageKeyword&gt;</ph>, but it also provides the natural language analyzers from Microsoft (used by Office and Bing) and the <ph id="3">&lt;codeInline&gt;moreLikeThis&lt;/codeInline&gt;</ph> query feature.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;2015-02-28-Preview&lt;/codeInline&gt;</ph> introduces the same breaking change for the <ph id="2">&lt;languageKeyword&gt;Suggestion operation&lt;/languageKeyword&gt;</ph>, but it also provides the natural language analyzers from Microsoft (used by Office and Bing) and the <ph id="3">&lt;codeInline&gt;moreLikeThis&lt;/codeInline&gt;</ph> query feature.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>If you are using an older preview version, we recommend migrating to the generally available (GA) version.</source>
+            <target state="new">If you are using an older preview version, we recommend migrating to the generally available (GA) version.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Guidance for code migration can be found at <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Transition from preview to GA<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/en-us/documentation/articles/search-transition-from-preview/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">Guidance for code migration can be found at <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Transition from preview to GA<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/en-us/documentation/articles/search-transition-from-preview/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>In contrast with the Service REST API, the Management REST API has one version: <ph id="1">&lt;codeInline&gt;2015-02-28&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">In contrast with the Service REST API, the Management REST API has one version: <ph id="1">&lt;codeInline&gt;2015-02-28&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The previous version, <ph id="1">&lt;codeInline&gt;2014-07-31-Preview&lt;/codeInline&gt;</ph>, is deprecated and will be removed from the service in the future.</source>
+            <target state="new">The previous version, <ph id="1">&lt;codeInline&gt;2014-07-31-Preview&lt;/codeInline&gt;</ph>, is deprecated and will be removed from the service in the future.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Although the version numbers of the Management and Service REST APIs often coincide, the Management REST API has an independent versioning path.</source>
+            <target state="new">Although the version numbers of the Management and Service REST APIs often coincide, the Management REST API has an independent versioning path.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Over time, the <ph id="1">&lt;codeInline&gt;api-version&lt;/codeInline&gt;</ph> numbers of the REST APIs are more likely to diverge than stay the same.</source>
+            <target state="new">Over time, the <ph id="1">&lt;codeInline&gt;api-version&lt;/codeInline&gt;</ph> numbers of the REST APIs are more likely to diverge than stay the same.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Version List</source>
+            <target state="new">Version List</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Locked versions of the API are recommended for production applications.</source>
+            <target state="new">Locked versions of the API are recommended for production applications.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Preview versions have experimental features that do not always move forward into a locked version.</source>
+            <target state="new">Preview versions have experimental features that do not always move forward into a locked version.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>We strongly advise against using prototype APIs in production applications.</source>
+            <target state="new">We strongly advise against using prototype APIs in production applications.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Although newer versions are recommended, previous versions remain available for a limited period of time.</source>
+            <target state="new">Although newer versions are recommended, previous versions remain available for a limited period of time.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Version (newest to oldest)</source>
+            <target state="new">Version (newest to oldest)</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Status</source>
+            <target state="new">Status</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Feature changes <bpt id="1">&lt;superscript&gt;</bpt>1<ept id="1">&lt;/superscript&gt;</ept></source>
+            <target state="new">Feature changes <bpt id="1">&lt;superscript&gt;</bpt>1<ept id="1">&lt;/superscript&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Preview<bpt id="1">&lt;superscript&gt;</bpt>2<ept id="1">&lt;/superscript&gt;</ept></source>
+            <target state="new">Preview<bpt id="1">&lt;superscript&gt;</bpt>2<ept id="1">&lt;/superscript&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Adds Microsoft natural language processors for up to 50 languages, with improved text analysis and indexing for all languages.</source>
+            <target state="new">Adds Microsoft natural language processors for up to 50 languages, with improved text analysis and indexing for all languages.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="8f35915a-2bfa-4f23-80c3-e3f54e9e4543" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Language support (Azure Search Service REST API)&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="8f35915a-2bfa-4f23-80c3-e3f54e9e4543" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Language support (Azure Search Service REST API)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Adds a <ph id="1">&lt;languageKeyword&gt;moreLikeThis&lt;/languageKeyword&gt;</ph> query parameter, useful when you want to find documents that are relevant to another specific document.</source>
+            <target state="new">Adds a <ph id="1">&lt;languageKeyword&gt;moreLikeThis&lt;/languageKeyword&gt;</ph> query parameter, useful when you want to find documents that are relevant to another specific document.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="716ef056-adf4-4b16-85b8-2cb777bc8458" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Search Documents (Azure Search Service REST API)&lt;/link&gt;</ph> for details about this feature.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="716ef056-adf4-4b16-85b8-2cb777bc8458" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Search Documents (Azure Search Service REST API)&lt;/link&gt;</ph> for details about this feature.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;moreLikeThis&lt;/languageKeyword&gt;</ph> and natural language analyzers provided by Microsoft are the only differences between <ph id="2">&lt;codeInline&gt;2015-02-28&lt;/codeInline&gt;</ph> and <ph id="3">&lt;codeInline&gt;2015-02028-Preview&lt;/codeInline&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;moreLikeThis&lt;/languageKeyword&gt;</ph> and natural language analyzers provided by Microsoft are the only differences between <ph id="2">&lt;codeInline&gt;2015-02-28&lt;/codeInline&gt;</ph> and <ph id="3">&lt;codeInline&gt;2015-02028-Preview&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Lucene analyzers are in all versions except <ph id="1">&lt;codeInline&gt;2014-07-31-Preview&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Lucene analyzers are in all versions except <ph id="1">&lt;codeInline&gt;2014-07-31-Preview&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Locked</source>
+            <target state="new">Locked</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>General release <bpt id="1">&lt;superscript&gt;</bpt>3<ept id="1">&lt;/superscript&gt;</ept></source>
+            <target state="new">General release <bpt id="1">&lt;superscript&gt;</bpt>3<ept id="1">&lt;/superscript&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Includes all the features described in <ph id="1">&lt;codeInline&gt;2014-10-20-Preview&lt;/codeInline&gt;</ph>, plus the following additional features.</source>
+            <target state="new">Includes all the features described in <ph id="1">&lt;codeInline&gt;2014-10-20-Preview&lt;/codeInline&gt;</ph>, plus the following additional features.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Indexers API, used to simplify document load operations from Azure SQL Database and DocumentDB.</source>
+            <target state="new">Indexers API, used to simplify document load operations from Azure SQL Database and DocumentDB.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="99bd2afa-3413-424c-a54a-58c8bb12bdbe" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Indexer operations (Azure Search Service REST API)&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="99bd2afa-3413-424c-a54a-58c8bb12bdbe" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Indexer operations (Azure Search Service REST API)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>.NET SDK for Azure Search (provides built-in classes for creating and querying indexes).</source>
+            <target state="new">.NET SDK for Azure Search (provides built-in classes for creating and querying indexes).</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>See <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Search .NET SDK<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://msdn.microsoft.com/en-us/library/azure/dn951165.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for more information.</source>
+            <target state="new">See <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Search .NET SDK<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://msdn.microsoft.com/en-us/library/azure/dn951165.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for more information.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Preview</source>
+            <target state="new">Preview</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Adds several new features, including: </source>
+            <target state="new">Adds several new features, including: </target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Lucene language analyzers, including ability to specify an ASCIIfolding filter that can help with removing diacritics.</source>
+            <target state="new">Lucene language analyzers, including ability to specify an ASCIIfolding filter that can help with removing diacritics.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="8f35915a-2bfa-4f23-80c3-e3f54e9e4543" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Language support (Azure Search REST API)&lt;/link&gt;</ph> for details.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="8f35915a-2bfa-4f23-80c3-e3f54e9e4543" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Language support (Azure Search REST API)&lt;/link&gt;</ph> for details.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Support for Edm.Int64 data type.</source>
+            <target state="new">Support for Edm.Int64 data type.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="cc08c9f9-2aff-420f-b01a-bbde2e051c08" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Supported data types (Azure Search)&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="cc08c9f9-2aff-420f-b01a-bbde2e051c08" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Supported data types (Azure Search)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Suggesters API (provides more powerful type-ahead or auto-complete queries, including support for fuzzy matching.</source>
+            <target state="new">Suggesters API (provides more powerful type-ahead or auto-complete queries, including support for fuzzy matching.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>To create suggesters, see the "Suggesters" section in <ph id="1">&lt;link xlink:href="ecafed05-c746-4d9e-ac8e-653066e909b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create Index (Azure Search Service REST API)&lt;/link&gt;</ph>.</source>
+            <target state="new">To create suggesters, see the "Suggesters" section in <ph id="1">&lt;link xlink:href="ecafed05-c746-4d9e-ac8e-653066e909b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create Index (Azure Search Service REST API)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>To use them, see <ph id="1">&lt;link xlink:href="b3fed159-774d-42e0-8ded-ee453f6cd857" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Suggestions (Azure Search Service REST API)&lt;/link&gt;</ph>.</source>
+            <target state="new">To use them, see <ph id="1">&lt;link xlink:href="b3fed159-774d-42e0-8ded-ee453f6cd857" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Suggestions (Azure Search Service REST API)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Tag scoring profiles, used for boosting the search rank of documents based on personalized information exposed through tags (such as boosting brand preferences based on shopping history).</source>
+            <target state="new">Tag scoring profiles, used for boosting the search rank of documents based on personalized information exposed through tags (such as boosting brand preferences based on shopping history).</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="719b924e-6d8a-43c1-b7b0-827487020e3a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Add scoring profiles to a search index (Azure Search Service REST API)&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="719b924e-6d8a-43c1-b7b0-827487020e3a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Add scoring profiles to a search index (Azure Search Service REST API)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>All of these features are now part of the general release and are documented in MSDN.</source>
+            <target state="new">All of these features are now part of the general release and are documented in MSDN.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Locked</source>
+            <target state="new">Locked</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Public preview release.</source>
+            <target state="new">Public preview release.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;superscript&gt;</bpt>1<ept id="1">&lt;/superscript&gt;</ept> Feature announcements can be found at <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>Latest updates to Azure Search<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/search-latest-updates/&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;superscript&gt;</bpt>1<ept id="1">&lt;/superscript&gt;</ept> Feature announcements can be found at <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>Latest updates to Azure Search<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/search-latest-updates/&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>You can also read about features in <ph id="1">&lt;link xlink:href="a47e2a88-f9f9-4731-ab5f-e30ba1b5262b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure Search Overview&lt;/link&gt;</ph>.</source>
+            <target state="new">You can also read about features in <ph id="1">&lt;link xlink:href="a47e2a88-f9f9-4731-ab5f-e30ba1b5262b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure Search Overview&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;superscript&gt;</bpt>2<ept id="1">&lt;/superscript&gt;</ept> Preview features are not guaranteed to be migrated to a locked release.</source>
+            <target state="new"><bpt id="1">&lt;superscript&gt;</bpt>2<ept id="1">&lt;/superscript&gt;</ept> Preview features are not guaranteed to be migrated to a locked release.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Whereas features in a locked version are considered stable and unlikely to change with the exception of small backward-compatible fixes and enhancements, preview features are available for testing and experimentation, with the goal of gathering feedback on feature design and implementation.</source>
+            <target state="new">Whereas features in a locked version are considered stable and unlikely to change with the exception of small backward-compatible fixes and enhancements, preview features are available for testing and experimentation, with the goal of gathering feedback on feature design and implementation.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>However, because preview features are not locked, we recommend against writing production code that takes a dependency on preview versions.</source>
+            <target state="new">However, because preview features are not locked, we recommend against writing production code that takes a dependency on preview versions.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;superscript&gt;</bpt>3<ept id="1">&lt;/superscript&gt;</ept> General availability means that Azure Search is now under the service level agreement (SLA).</source>
+            <target state="new"><bpt id="1">&lt;superscript&gt;</bpt>3<ept id="1">&lt;/superscript&gt;</ept> General availability means that Azure Search is now under the service level agreement (SLA).</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>The SLA can be found at <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Search Service Level Agreements<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/support/legal/sla/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">The SLA can be found at <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Search Service Level Agreements<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/support/legal/sla/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>This is the only API version that is under SLA.</source>
+            <target state="new">This is the only API version that is under SLA.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Azure Search Service REST API: 2014-10-20-Preview</source>
+            <target state="new">Azure Search Service REST API: 2014-10-20-Preview</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Azure Search Service REST API: 2014-07-31-Preview</source>
+            <target state="new">Azure Search Service REST API: 2014-07-31-Preview</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Azure Search .NET SDK</source>
+            <target state="new">Azure Search .NET SDK</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-CN" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANizEKwzAMAL/iB1gg28K2unbp1KkfkGOJBtIE0gRCX19zN96ZJW0UJ1AlAgqG0LA2mDBIZrYgwt4Z5TJVKYChCxBqgsaiIy3IcdCtexcpR+vKoNINiHqFmpggcSsyEkEN3g1/b7g/vbuW2Uyv47Zv2zF275J3j/Mj62uX9bvIMW/rH+9uzMGhAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Token Issuance and Retry Guidelines</source>
+            <target state="new">Token Issuance and Retry Guidelines</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory supports several token issuance endpoints that clients can query.</source>
+            <target state="new">Azure Active Directory supports several token issuance endpoints that clients can query.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This article defines guidelines for implementing retry logic for these endpoints to handle an unexpected network or server failure.</source>
+            <target state="new">This article defines guidelines for implementing retry logic for these endpoints to handle an unexpected network or server failure.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Error-Handling Scenarios</source>
+            <target state="new">Error-Handling Scenarios</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Failures that respond to retries typically return an HTTP 500-series error codes for a request to an Azure AD endpoint.</source>
+            <target state="new">Failures that respond to retries typically return an HTTP 500-series error codes for a request to an Azure AD endpoint.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>In some scenarios, the client is an application or service that makes automated requests to Azure AD.</source>
+            <target state="new">In some scenarios, the client is an application or service that makes automated requests to Azure AD.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>In other scenarios, such as web-based federation that uses the WS-Federation protocol, the client is a web browser and the end-user must retry manually.</source>
+            <target state="new">In other scenarios, such as web-based federation that uses the WS-Federation protocol, the client is a web browser and the end-user must retry manually.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>This topic covers error-handling scenarios in which the client is an application or service, such as token requests for web services using different profiles of OAuth 2.0 protocol.</source>
+            <target state="new">This topic covers error-handling scenarios in which the client is an application or service, such as token requests for web services using different profiles of OAuth 2.0 protocol.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Retry Guidelines</source>
+            <target state="new">Retry Guidelines</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>The following guidelines explain how to implement retry logic in the error-handling scenarios.</source>
+            <target state="new">The following guidelines explain how to implement retry logic in the error-handling scenarios.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Guideline #1: Implement retry logic based on HTTP 500-series error responses</source>
+            <target state="new">Guideline #1: Implement retry logic based on HTTP 500-series error responses</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Retry logic is strongly recommended when <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> returns HTTP 500-series errors.</source>
+            <target state="new">Retry logic is strongly recommended when <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> returns HTTP 500-series errors.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The following list includes examples of typical HTTP 500-series errors.</source>
+            <target state="new">The following list includes examples of typical HTTP 500-series errors.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>HTTP Error 500 - Internal Server Error</source>
+            <target state="new">HTTP Error 500 - Internal Server Error</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>HTTP Error 502 - Bad Gateway</source>
+            <target state="new">HTTP Error 502 - Bad Gateway</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>HTTP Error 503 - Service Unavailable</source>
+            <target state="new">HTTP Error 503 - Service Unavailable</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>HTTP Error 504 – Gateway Timeout</source>
+            <target state="new">HTTP Error 504 – Gateway Timeout</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Although individual HTTP codes can be listed explicitly in the retry logic, it is sufficient to invoke retry logic if any HTTP 500-series error is returned.</source>
+            <target state="new">Although individual HTTP codes can be listed explicitly in the retry logic, it is sufficient to invoke retry logic if any HTTP 500-series error is returned.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Typically, retry logic is not recommended when HTTP 400-series error codes are returned.</source>
+            <target state="new">Typically, retry logic is not recommended when HTTP 400-series error codes are returned.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>A 400-series HTTP error response code from <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> means the request is invalid and needs to be revised.</source>
+            <target state="new">A 400-series HTTP error response code from <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> means the request is invalid and needs to be revised.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Retry logic should be triggered by HTTP error codes, such as HTTP 504 (External server timeout) or the HTTP 500 error code series, and not by <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> error codes, such as ACS90005.</source>
+            <target state="new">Retry logic should be triggered by HTTP error codes, such as HTTP 504 (External server timeout) or the HTTP 500 error code series, and not by <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> error codes, such as ACS90005.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> error codes are informational and subject to change.</source>
+            <target state="new"><ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> error codes are informational and subject to change.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Guideline #2: Retries should use a back-off timer for optimal flow control</source>
+            <target state="new">Guideline #2: Retries should use a back-off timer for optimal flow control</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>When a client receives an HTTP 500-series error, the client should wait before retrying the request.</source>
+            <target state="new">When a client receives an HTTP 500-series error, the client should wait before retrying the request.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>For best results, it is recommended that this period of time increase with each subsequent retry.</source>
+            <target state="new">For best results, it is recommended that this period of time increase with each subsequent retry.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>This approach allows transient errors to be resolved quickly while optimizing the request rate for transient network or server issues that take longer to resolve.</source>
+            <target state="new">This approach allows transient errors to be resolved quickly while optimizing the request rate for transient network or server issues that take longer to resolve.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>For example, use an exponential back-off timer where the delay before retry increases exponentially with each instance, such as Retry 1: 1 second, Retry 2: 2 seconds, Retry 3: 4 seconds, and so on.</source>
+            <target state="new">For example, use an exponential back-off timer where the delay before retry increases exponentially with each instance, such as Retry 1: 1 second, Retry 2: 2 seconds, Retry 3: 4 seconds, and so on.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Adjust the number of retries and the time between each retry based on your user experience requirements.</source>
+            <target state="new">Adjust the number of retries and the time between each retry based on your user experience requirements.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>However, we recommend up to five retries over a period of five minutes.</source>
+            <target state="new">However, we recommend up to five retries over a period of five minutes.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Failures caused by a timeout take longer to resolve.</source>
+            <target state="new">Failures caused by a timeout take longer to resolve.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-CN" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzMENwjAMAMBVPEAsOYmTJnz58OLFAnYSi0qllUqRKqaHG+DM4lAODcdgRvZGqFQUG3nJtZoXqQ5USm4aOrIkQ+6loCatOJJ0smE9xslB99asjwm1CyFHSlgnNvTUUsiZqs/swDv4PvF6d3Aus9k4j8u+bYeD4OCf3D4vWR+7rO9FjnlbfxuKGqahAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Azure HDInsight On-Demand Linked Service</source>
+            <target state="new">Azure HDInsight On-Demand Linked Service</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Azure HDInsight On-Demand Linked Service</source>
+            <target state="new">Azure HDInsight On-Demand Linked Service</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This topic provides the JSON format that is supported by the July 2015 Release of Azure PowerShell.</source>
+            <target state="new">This topic provides the JSON format that is supported by the July 2015 Release of Azure PowerShell.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>If you are using an older version, see <ph id="1">&lt;link xlink:href="68e95b38-743b-46f0-9f40-29203c4bafbd" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure HDInsight On-Demand Linked Service&lt;/link&gt;</ph> for the old JSON format.</source>
+            <target state="new">If you are using an older version, see <ph id="1">&lt;link xlink:href="68e95b38-743b-46f0-9f40-29203c4bafbd" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure HDInsight On-Demand Linked Service&lt;/link&gt;</ph> for the old JSON format.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You create an on-demand Azure HDInsight linked service to link an on-demand Azure HDInsight cluster to an Azure data factory.</source>
+            <target state="new">You create an on-demand Azure HDInsight linked service to link an on-demand Azure HDInsight cluster to an Azure data factory.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>This topic describes the JSON properties for defining an on-demand HDInsight linked service.</source>
+            <target state="new">This topic describes the JSON properties for defining an on-demand HDInsight linked service.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>When you use the Data Factory Editor in Azure Portal, the editor provides you a JSON template for defining a linked service that you can modify and deploy to create a linked service.</source>
+            <target state="new">When you use the Data Factory Editor in Azure Portal, the editor provides you a JSON template for defining a linked service that you can modify and deploy to create a linked service.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>To use the <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.Azure.Commands.DataFactories.New-AzureDataFactoryLinkedService&lt;/codeEntityReference&gt;</ph> cmdlet to create a linked service, you will need to create a JSON file and use it with the cmdlet.</source>
+            <target state="new">To use the <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.Azure.Commands.DataFactories.New-AzureDataFactoryLinkedService&lt;/codeEntityReference&gt;</ph> cmdlet to create a linked service, you will need to create a JSON file and use it with the cmdlet.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The on-demand HDInsight cluster is automatically created by the Azure Data Factory service to process data.</source>
+            <target state="new">The on-demand HDInsight cluster is automatically created by the Azure Data Factory service to process data.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>The on-demand HDInsight cluster is created in the data center location that is same as that of the storage account (linkedServiceName property in the JSON) associated with the on-demand HDInsight cluster.</source>
+            <target state="new">The on-demand HDInsight cluster is created in the data center location that is same as that of the storage account (linkedServiceName property in the JSON) associated with the on-demand HDInsight cluster.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>You will not see it created in  your subscription; the Azure Data Factory service manages the on-demand HDInsight cluster for you.</source>
+            <target state="new">You will not see it created in  your subscription; the Azure Data Factory service manages the on-demand HDInsight cluster for you.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The logs for the jobs that are run on the on-demand HDInsight cluster are copied to the storage account associated with the HDInsight cluster.</source>
+            <target state="new">The logs for the jobs that are run on the on-demand HDInsight cluster are copied to the storage account associated with the HDInsight cluster.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>You can access these logs from the Data Factory portal in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Activity Run Details<ept id="1">&lt;/embeddedLabel&gt;</ept> blade.</source>
+            <target state="new">You can access these logs from the Data Factory portal in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Activity Run Details<ept id="1">&lt;/embeddedLabel&gt;</ept> blade.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>It takes 15+ minutes for the HDInsight cluster to be created on demand.</source>
+            <target state="new">It takes 15+ minutes for the HDInsight cluster to be created on demand.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>You will be charged only for the time when the HDInsight cluster is up and running jobs.</source>
+            <target state="new">You will be charged only for the time when the HDInsight cluster is up and running jobs.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Properties</source>
+            <target state="new">Properties</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Property</source>
+            <target state="new">Property</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>type</source>
+            <target state="new">type</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>type<ept id="1">&lt;/embeddedLabel&gt;</ept> property should be set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>HDInsightOnDemand<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>type<ept id="1">&lt;/embeddedLabel&gt;</ept> property should be set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>HDInsightOnDemand<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>clusterSize</source>
+            <target state="new">clusterSize</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>The size of the on-demand cluster.</source>
+            <target state="new">The size of the on-demand cluster.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Specify how many nodes you want to be in this on-demand cluster.</source>
+            <target state="new">Specify how many nodes you want to be in this on-demand cluster.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>jobscontainer</source>
+            <target state="new">jobscontainer</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>The blob container that holds data used by pig/hive/package jobs and where the cluster logs will be stored.</source>
+            <target state="new">The blob container that holds data used by pig/hive/package jobs and where the cluster logs will be stored.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>timetolive</source>
+            <target state="new">timetolive</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Specifies how long the on-demand HDInsight cluster stays alive after it is done with processing a slice.</source>
+            <target state="new">Specifies how long the on-demand HDInsight cluster stays alive after it is done with processing a slice.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>If another slice needs to be processed while this cluster is alive, the slice is processed by the same cluster.</source>
+            <target state="new">If another slice needs to be processed while this cluster is alive, the slice is processed by the same cluster.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>For example,  if the processing of a slice takes 6 minutes and timetolive is set to 5 minutes, the cluster stays alive for 5 minutes after the 6 minutes of processing the current slice.</source>
+            <target state="new">For example,  if the processing of a slice takes 6 minutes and timetolive is set to 5 minutes, the cluster stays alive for 5 minutes after the 6 minutes of processing the current slice.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>If another slice is ready to run, the slice is processed by the same cluster.</source>
+            <target state="new">If another slice is ready to run, the slice is processed by the same cluster.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>The cluster stays alive for 5 minutes after processing the second slice.</source>
+            <target state="new">The cluster stays alive for 5 minutes after processing the second slice.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Basically, as long as the cluster is not idle for more than timetolive, it stays alive to process more slices.</source>
+            <target state="new">Basically, as long as the cluster is not idle for more than timetolive, it stays alive to process more slices.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Creating an on-demand HDInsight cluster is an expensive operation (could take a while), so use this setting as needed to improve performance of a data factory by reusing an on-demand HDInsight cluster.</source>
+            <target state="new">Creating an on-demand HDInsight cluster is an expensive operation (could take a while), so use this setting as needed to improve performance of a data factory by reusing an on-demand HDInsight cluster.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>If you set this value to 0, the cluster is deleted as soon as the slice is processed.</source>
+            <target state="new">If you set this value to 0, the cluster is deleted as soon as the slice is processed.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>If you set a high value and it stays idle because there are no slices to process, you incur unnecessary charges from running the cluster.</source>
+            <target state="new">If you set a high value and it stays idle because there are no slices to process, you incur unnecessary charges from running the cluster.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Therefore, you set it an appropriate value to suit your needs.</source>
+            <target state="new">Therefore, you set it an appropriate value to suit your needs.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>TimeToLive property cross the pipeline boundaries.</source>
+            <target state="new">TimeToLive property cross the pipeline boundaries.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>If two pipelines (or actually activities in the pipelines) point to the same on-demand HDInsight cluster, they may use the same instance of on-demand HDInsight cluster, i.e., slices processed by these two pipelines may share the same on-demand HDInsight cluster.</source>
+            <target state="new">If two pipelines (or actually activities in the pipelines) point to the same on-demand HDInsight cluster, they may use the same instance of on-demand HDInsight cluster, i.e., slices processed by these two pipelines may share the same on-demand HDInsight cluster.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>version</source>
+            <target state="new">version</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Version of the HDInsight cluster.</source>
+            <target state="new">Version of the HDInsight cluster.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>This property is optional.</source>
+            <target state="new">This property is optional.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>linkedServiceName</source>
+            <target state="new">linkedServiceName</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>The blob store to be used by the on-demand cluster for storing and processing data.</source>
+            <target state="new">The blob store to be used by the on-demand cluster for storing and processing data.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>additionalLinkedServiceNames</source>
+            <target state="new">additionalLinkedServiceNames</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Specifies additional storage accounts for the HDInsight linked service so that the Data Factory service can register them on your behalf.</source>
+            <target state="new">Specifies additional storage accounts for the HDInsight linked service so that the Data Factory service can register them on your behalf.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>You can also specify the following properties for creating/configuring the on-demand HDInsight cluster.</source>
+            <target state="new">You can also specify the following properties for creating/configuring the on-demand HDInsight cluster.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Property</source>
+            <target state="new">Property</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>coreConfiguration</source>
+            <target state="new">coreConfiguration</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Specifies the core configuration parameters (as in core-site.xml) for the HDInsight cluster to be created.</source>
+            <target state="new">Specifies the core configuration parameters (as in core-site.xml) for the HDInsight cluster to be created.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>hBaseConfiguration</source>
+            <target state="new">hBaseConfiguration</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Specifies the HBase configuration parameters (hbase-site.xml) for the HDInsight cluster.</source>
+            <target state="new">Specifies the HBase configuration parameters (hbase-site.xml) for the HDInsight cluster.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>hdfsConfiguration</source>
+            <target state="new">hdfsConfiguration</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Specifies the HDFS configuration parameters (hdfs-site.xml) for the HDInsight cluster.</source>
+            <target state="new">Specifies the HDFS configuration parameters (hdfs-site.xml) for the HDInsight cluster.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>hiveConfiguration</source>
+            <target state="new">hiveConfiguration</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Specifies the hive configuration parameters (hive-site.xml) for the HDInsight cluster.</source>
+            <target state="new">Specifies the hive configuration parameters (hive-site.xml) for the HDInsight cluster.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>mapReduceConfiguration</source>
+            <target state="new">mapReduceConfiguration</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Specifies the MapReduce configuration parameters (mapred-site.xml) for the HDInsight cluster.</source>
+            <target state="new">Specifies the MapReduce configuration parameters (mapred-site.xml) for the HDInsight cluster.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>oozieConfiguration</source>
+            <target state="new">oozieConfiguration</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Specifies the Oozie configuration parameters (oozie-site.xml) for the HDInsight cluster.</source>
+            <target state="new">Specifies the Oozie configuration parameters (oozie-site.xml) for the HDInsight cluster.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>stormConfiguration</source>
+            <target state="new">stormConfiguration</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Specifies the Storm configuration parameters (storm-site.xml) for the HDInsight cluster.</source>
+            <target state="new">Specifies the Storm configuration parameters (storm-site.xml) for the HDInsight cluster.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>yarnConfiguration</source>
+            <target state="new">yarnConfiguration</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Specifies the Yarn configuration parameters (yarn-site.xml) for the HDInsight cluster.</source>
+            <target state="new">Specifies the Yarn configuration parameters (yarn-site.xml) for the HDInsight cluster.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>See the <ph id="1">&lt;link xlink:href="68e95b38-743b-46f0-9f40-29203c4bafbd#Example3" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Example 3 – with cluster creation parameters&lt;/link&gt;</ph> section for an example of using some of these properties.</source>
+            <target state="new">See the <ph id="1">&lt;link xlink:href="68e95b38-743b-46f0-9f40-29203c4bafbd#Example3" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Example 3 – with cluster creation parameters&lt;/link&gt;</ph> section for an example of using some of these properties.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Examples</source>
+            <target state="new">Examples</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Example 1</source>
+            <target state="new">Example 1</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Example 2 – with additionalLinkedServiceNames</source>
+            <target state="new">Example 2 – with additionalLinkedServiceNames</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Example 3 – with cluster creation parameters</source>
+            <target state="new">Example 3 – with cluster creation parameters</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-CN" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzcENwjAMQNFVMkAs2YmTJly5cOLEAnaIRaXSSqVIFdOTAf77ZrErhwa9MwOTISgWhYYkuVYjkepdeTbESgi5TwnYrIBqIojBOGooTbN6p5WapD7ilCbgjAJVrAGmihoLT2TDIu9+L7jevTuX2ayfx2XftsO7MD7e3b5vWR+7rJ9Fjnlb/+g3MTqhAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Troubleshooting the Azure Import/Export Tool</source>
+            <target state="new">Troubleshooting the Azure Import/Export Tool</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The Microsoft Azure Import/Export tool returns error messages if it runs into issues.</source>
+            <target state="new">The Microsoft Azure Import/Export tool returns error messages if it runs into issues.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This topic lists some common issues that users may run into.</source>
+            <target state="new">This topic lists some common issues that users may run into.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>A copy session fails, what I should do?</source>
+            <target state="new">A copy session fails, what I should do?</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>When a copy session fails, there are two options:</source>
+            <target state="new">When a copy session fails, there are two options:</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>If the error is retryable, for example if the network share was offline for a short period and now is back online, you can resume the copy session.</source>
+            <target state="new">If the error is retryable, for example if the network share was offline for a short period and now is back online, you can resume the copy session.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>If the error is not retryable, for example if you specified the wrong source file directory in the command line parameters, you need to abort the copy session.</source>
+            <target state="new">If the error is not retryable, for example if you specified the wrong source file directory in the command line parameters, you need to abort the copy session.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="3d818245-8b1b-4435-a41f-8e5ec1f194b2" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Preparing Hard Drives for an Import Job&lt;/link&gt;</ph> for more information about resuming and aborting copy sessions.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="3d818245-8b1b-4435-a41f-8e5ec1f194b2" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Preparing Hard Drives for an Import Job&lt;/link&gt;</ph> for more information about resuming and aborting copy sessions.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>I can’t resume or abort a copy session.</source>
+            <target state="new">I can’t resume or abort a copy session.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>If the copy session is the first copy session for a drive, then the error message should state: "The first copy session cannot be resumed or aborted."</source>
+            <target state="new">If the copy session is the first copy session for a drive, then the error message should state: "The first copy session cannot be resumed or aborted."</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>In this case, you can delete the old journal file and rerun the command.</source>
+            <target state="new">In this case, you can delete the old journal file and rerun the command.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>If a copy session is not the first one for a drive, it can always be resumed or aborted.</source>
+            <target state="new">If a copy session is not the first one for a drive, it can always be resumed or aborted.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>I lost the journal file, can I still create the job?</source>
+            <target state="new">I lost the journal file, can I still create the job?</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The journal file for a drive contains the complete information of copying data to this drive, and it is needed to add more files to the drive and will be used to create an import job.</source>
+            <target state="new">The journal file for a drive contains the complete information of copying data to this drive, and it is needed to add more files to the drive and will be used to create an import job.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>If the journal file is lost, you will have to redo all the copy sessions for the drive.</source>
+            <target state="new">If the journal file is lost, you will have to redo all the copy sessions for the drive.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

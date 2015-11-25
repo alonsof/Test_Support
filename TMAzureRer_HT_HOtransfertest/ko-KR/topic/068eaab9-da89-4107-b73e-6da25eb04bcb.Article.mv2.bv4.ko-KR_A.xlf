@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzFEKwjAMANCr9AANpGnsWk8g+CdeIFkTGM4VdMKO7/7e13PPpkwzmDEDJ0dQrAozJimteRJpMUjzU1ShYxVglAzSPQNRlsqVkArFgKWaiDboUtt54QQ6ZYPShS6myDprDCmG14D7I4ZjXdzt2K+fMfYYzoFjuP3esj0/sn1X2Zex/QEtA3rkoQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Client-side Logging with the .NET Storage Client Library</source>
+            <target state="new">Client-side Logging with the .NET Storage Client Library</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The storage client Library (from version 2.1 onwards) enables you to log Azure Storage requests client-side from within your .NET client application using the standard .NET diagnostics infrastructure.</source>
+            <target state="new">The storage client Library (from version 2.1 onwards) enables you to log Azure Storage requests client-side from within your .NET client application using the standard .NET diagnostics infrastructure.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This enables you to see details of the requests your client sends to the Azure Storage services and the responses it receives.</source>
+            <target state="new">This enables you to see details of the requests your client sends to the Azure Storage services and the responses it receives.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The Storage Client Library gives you control over which storage requests you want to log on the client (Azure web or worker role, or an on-premises application) and the .NET diagnostics infrastructure gives you full control over the log data, such as where to send it.</source>
+            <target state="new">The Storage Client Library gives you control over which storage requests you want to log on the client (Azure web or worker role, or an on-premises application) and the .NET diagnostics infrastructure gives you full control over the log data, such as where to send it.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>For example, you could choose to send the log data to a file, or send it to an application for processing.</source>
+            <target state="new">For example, you could choose to send the log data to a file, or send it to an application for processing.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>In combination with Azure Storage Analytics and network monitoring, Storage Client Library logging enables you to build up a detailed picture of how your application interacts with Azure Storage services.</source>
+            <target state="new">In combination with Azure Storage Analytics and network monitoring, Storage Client Library logging enables you to build up a detailed picture of how your application interacts with Azure Storage services.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>For more information, see the guide <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Monitoring, Diagnosing, and Troubleshooting Microsoft Azure Storage<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=510535&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information, see the guide <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Monitoring, Diagnosing, and Troubleshooting Microsoft Azure Storage<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=510535&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>How to enable Storage Client Library logging</source>
+            <target state="new">How to enable Storage Client Library logging</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The following example shows the system.diagnostics configuration necessary to collect and persist storage log messages to a text file.</source>
+            <target state="new">The following example shows the system.diagnostics configuration necessary to collect and persist storage log messages to a text file.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>This configuration section can be added to either app.config or web.config files.</source>
+            <target state="new">This configuration section can be added to either app.config or web.config files.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>This particular example configures the Storage Client Library to write log messages to the physical file C:\logs\WebRole.log, but you could use other trace listeners such as the <bpt id="1">&lt;embeddedLabel&gt;</bpt>EventLogTraceListener<ept id="1">&lt;/embeddedLabel&gt;</ept> to write to the Windows Event Log, or the <bpt id="2">&lt;embeddedLabel&gt;</bpt>EventProviderTraceListener<ept id="2">&lt;/embeddedLabel&gt;</ept> to write trace data to the ETW subsystem.</source>
+            <target state="new">This particular example configures the Storage Client Library to write log messages to the physical file C:\logs\WebRole.log, but you could use other trace listeners such as the <bpt id="1">&lt;embeddedLabel&gt;</bpt>EventLogTraceListener<ept id="1">&lt;/embeddedLabel&gt;</ept> to write to the Windows Event Log, or the <bpt id="2">&lt;embeddedLabel&gt;</bpt>EventProviderTraceListener<ept id="2">&lt;/embeddedLabel&gt;</ept> to write trace data to the ETW subsystem.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>In addition, this example you can also configure <bpt id="1">&lt;embeddedLabel&gt;</bpt>autoflush<ept id="1">&lt;/embeddedLabel&gt;</ept> to true in order to write the log entries to the file immediately instead of buffering them; this may be useful in a dev/test environment with low volumes of trace messages, but in a production environment you may want to set <bpt id="2">&lt;embeddedLabel&gt;</bpt>autoflush<ept id="2">&lt;/embeddedLabel&gt;</ept> to false.</source>
+            <target state="new">In addition, this example you can also configure <bpt id="1">&lt;embeddedLabel&gt;</bpt>autoflush<ept id="1">&lt;/embeddedLabel&gt;</ept> to true in order to write the log entries to the file immediately instead of buffering them; this may be useful in a dev/test environment with low volumes of trace messages, but in a production environment you may want to set <bpt id="2">&lt;embeddedLabel&gt;</bpt>autoflush<ept id="2">&lt;/embeddedLabel&gt;</ept> to false.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>You use the configuration settings to enable client tracing (and specify the level such as <bpt id="1">&lt;embeddedLabel&gt;</bpt>Verbose<ept id="1">&lt;/embeddedLabel&gt;</ept> for all messages) for all storage operations in the client.</source>
+            <target state="new">You use the configuration settings to enable client tracing (and specify the level such as <bpt id="1">&lt;embeddedLabel&gt;</bpt>Verbose<ept id="1">&lt;/embeddedLabel&gt;</ept> for all messages) for all storage operations in the client.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Id</source>
+            <target state="new">Id</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Log Level </source>
+            <target state="new">Log Level </target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Events</source>
+            <target state="new">Events</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Off</source>
+            <target state="new">Off</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Nothing will be logged.</source>
+            <target state="new">Nothing will be logged.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Error</source>
+            <target state="new">Error</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>If an exception cannot or will not be handled internally and will be thrown to the user; it will be logged as an error.</source>
+            <target state="new">If an exception cannot or will not be handled internally and will be thrown to the user; it will be logged as an error.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>2</source>
+            <target state="new">2</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Warning</source>
+            <target state="new">Warning</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>If an exception is caught and handled internally, it will be logged as a warning.</source>
+            <target state="new">If an exception is caught and handled internally, it will be logged as a warning.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Primary use case for this is the retry scenario, where an exception is not thrown back to the user to be able to retry.</source>
+            <target state="new">Primary use case for this is the retry scenario, where an exception is not thrown back to the user to be able to retry.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>It can also happen in operations such as CreateIfNotExists, where we handle the 404 error silently.</source>
+            <target state="new">It can also happen in operations such as CreateIfNotExists, where we handle the 404 error silently.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>3</source>
+            <target state="new">3</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Informational</source>
+            <target state="new">Informational</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>The following info will be logged:</source>
+            <target state="new">The following info will be logged:</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>•Right after the user calls a method to start an operation, request details such as URI and client request ID will be logged.</source>
+            <target state="new">•Right after the user calls a method to start an operation, request details such as URI and client request ID will be logged.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>•Important milestones such as Sending Request Start/End, Upload Data Start/End, Receive Response Start/End, Download Data Start/End will be logged to mark the timestamps.</source>
+            <target state="new">•Important milestones such as Sending Request Start/End, Upload Data Start/End, Receive Response Start/End, Download Data Start/End will be logged to mark the timestamps.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>•Right after the headers are received, response details such as request ID and HTTP status code will be logged.</source>
+            <target state="new">•Right after the headers are received, response details such as request ID and HTTP status code will be logged.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>•If an operation fails and the storage client decides to retry, the reason for that decision will be logged along with when the next retry is going to happen.</source>
+            <target state="new">•If an operation fails and the storage client decides to retry, the reason for that decision will be logged along with when the next retry is going to happen.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>•All client-side timeouts will be logged when storage client decides to abort a pending request.</source>
+            <target state="new">•All client-side timeouts will be logged when storage client decides to abort a pending request.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>4</source>
+            <target state="new">4</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Verbose</source>
+            <target state="new">Verbose</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Following info will be logged:</source>
+            <target state="new">Following info will be logged:</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>•String-to-sign for each request</source>
+            <target state="new">•String-to-sign for each request</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>•Any extra details specific to operations (this is up to each operation to define and use)</source>
+            <target state="new">•Any extra details specific to operations (this is up to each operation to define and use)</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>By default, the Storage Client Library logs details of all storage operations at the verbosity level you specify in the configuration file.</source>
+            <target state="new">By default, the Storage Client Library logs details of all storage operations at the verbosity level you specify in the configuration file.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>It is also possible to limit the logging to specific areas of your client application: this can reduce the amount of data logged and help you find the information you need.</source>
+            <target state="new">It is also possible to limit the logging to specific areas of your client application: this can reduce the amount of data logged and help you find the information you need.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>TO do this, you need to add some code to your client application.</source>
+            <target state="new">TO do this, you need to add some code to your client application.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Typically, after enabling client-side tracing in the configuration file, you then switch it off again globally in code by using the <bpt id="1">&lt;embeddedLabel&gt;</bpt>OperationContext<ept id="1">&lt;/embeddedLabel&gt;</ept> class.</source>
+            <target state="new">Typically, after enabling client-side tracing in the configuration file, you then switch it off again globally in code by using the <bpt id="1">&lt;embeddedLabel&gt;</bpt>OperationContext<ept id="1">&lt;/embeddedLabel&gt;</ept> class.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>For example, in an ASP.NET MVC application in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Application_Start<ept id="1">&lt;/embeddedLabel&gt;</ept> method before your application performs any storage operations:</source>
+            <target state="new">For example, in an ASP.NET MVC application in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Application_Start<ept id="1">&lt;/embeddedLabel&gt;</ept> method before your application performs any storage operations:</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Then you can enable tracing for the specific operations you are interested in by creating a custom <bpt id="1">&lt;embeddedLabel&gt;</bpt>OperationContext<ept id="1">&lt;/embeddedLabel&gt;</ept> object that defines the logging level.</source>
+            <target state="new">Then you can enable tracing for the specific operations you are interested in by creating a custom <bpt id="1">&lt;embeddedLabel&gt;</bpt>OperationContext<ept id="1">&lt;/embeddedLabel&gt;</ept> object that defines the logging level.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Then pass the <bpt id="1">&lt;embeddedLabel&gt;</bpt>OperationContext<ept id="1">&lt;/embeddedLabel&gt;</ept> object as a parameter to the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Execute<ept id="2">&lt;/embeddedLabel&gt;</ept> method you use to invoke a storage operation as shown in the following example:</source>
+            <target state="new">Then pass the <bpt id="1">&lt;embeddedLabel&gt;</bpt>OperationContext<ept id="1">&lt;/embeddedLabel&gt;</ept> object as a parameter to the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Execute<ept id="2">&lt;/embeddedLabel&gt;</ept> method you use to invoke a storage operation as shown in the following example:</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Client-side log schema and sample</source>
+            <target state="new">Client-side log schema and sample</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>The following is an extract from the client-side log generated by the Storage Client Library for an operation with a Client Request ID including c3aa328b.</source>
+            <target state="new">The following is an extract from the client-side log generated by the Storage Client Library for an operation with a Client Request ID including c3aa328b.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>The Client Request Id is a correlation identifier that allows messages logged client side to be correlated with network traces and storage logs.</source>
+            <target state="new">The Client Request Id is a correlation identifier that allows messages logged client side to be correlated with network traces and storage logs.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>For more information on correlation see Monitoring, Diagnosing and Troubleshooting Azure Storage.</source>
+            <target state="new">For more information on correlation see Monitoring, Diagnosing and Troubleshooting Azure Storage.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>The extract includes commentary (indented and italicized) on some key information that can be observed from within the log files.</source>
+            <target state="new">The extract includes commentary (indented and italicized) on some key information that can be observed from within the log files.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>To illustrate this using the first row of the log file shown below, the fields are</source>
+            <target state="new">To illustrate this using the first row of the log file shown below, the fields are</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Source</source>
+            <target state="new">Source</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Microsoft.WindowsAzure.Storage</source>
+            <target state="new">Microsoft.WindowsAzure.Storage</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Verbosity</source>
+            <target state="new">Verbosity</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Information</source>
+            <target state="new">Information</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Verbosity No</source>
+            <target state="new">Verbosity No</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>3</source>
+            <target state="new">3</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Client Request ID</source>
+            <target state="new">Client Request ID</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>c3aa328b...</source>
+            <target state="new">c3aa328b...</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Operation Text</source>
+            <target state="new">Operation Text</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Starting operation with location Primary per location mode PrimaryOnly.</source>
+            <target state="new">Starting operation with location Primary per location mode PrimaryOnly.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Information: 3 : c3aa328b...: Starting operation with location Primary per location mode PrimaryOnly.&lt;/codeInline&gt;</ph><bpt id="2">&lt;br &gt;</bpt><ept id="2">&lt;/br&gt;</ept><bpt id="3">&lt;legacyItalic&gt;</bpt>The trace message above shows that the <bpt id="4">&lt;externalLink&gt;</bpt><bpt id="5">&lt;linkText&gt;</bpt>location mode<ept id="5">&lt;/linkText&gt;</ept><ph id="6">&lt;linkUri&gt;http://msdn.microsoft.com/library/azure/microsoft.windowsazure.storage.retrypolicies.locationmode.aspx&lt;/linkUri&gt;</ph><ept id="4">&lt;/externalLink&gt;</ept> is set to primary only, meaning that a failed request will not be sent to a secondary location.<ept id="3">&lt;/legacyItalic&gt;</ept> <bpt id="7">&lt;br &gt;</bpt><ept id="7">&lt;/br&gt;</ept><bpt id="8">&lt;br &gt;</bpt><ept id="8">&lt;/br&gt;</ept><ph id="9">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Information: 3 : c3aa328b...: Starting synchronous request to https://storageaccountname.table.core.windows.net/mailinglist.&lt;/codeInline&gt;</ph><bpt id="10">&lt;br &gt;</bpt><ept id="10">&lt;/br&gt;</ept><bpt id="11">&lt;legacyItalic&gt;</bpt>The trace message above shows that the request is synchronous.<ept id="11">&lt;/legacyItalic&gt;</ept><bpt id="12">&lt;br &gt;</bpt><ept id="12">&lt;/br&gt;</ept> <bpt id="13">&lt;br &gt;</bpt><ept id="13">&lt;/br&gt;</ept><ph id="14">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Information: 3 : c3aa328b...: Setting payload format for the request to 'Json'.&lt;/codeInline&gt;</ph><bpt id="15">&lt;br &gt;</bpt><ept id="15">&lt;/br&gt;</ept><bpt id="16">&lt;legacyItalic&gt;</bpt>The trace message above shows that the response should be return formatted as JSON.<ept id="16">&lt;/legacyItalic&gt;</ept> <bpt id="17">&lt;br &gt;</bpt><ept id="17">&lt;/br&gt;</ept><bpt id="18">&lt;br &gt;</bpt><ept id="18">&lt;/br&gt;</ept><ph id="19">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Verbose: 4 : c3aa328b...: StringToSign = GET...Fri, 23 May 2014 06:19:48 GMT./storageaccountname/mailinglist.&lt;/codeInline&gt;</ph><bpt id="20">&lt;br &gt;</bpt><ept id="20">&lt;/br&gt;</ept><bpt id="21">&lt;legacyItalic&gt;</bpt>The trace message above includes the StringToSign information which is useful for debugging auth failures. Verbose messages also contain full request details  including operation type and request parameters.<ept id="21">&lt;/legacyItalic&gt;</ept><bpt id="22">&lt;br &gt;</bpt><ept id="22">&lt;/br&gt;</ept> <bpt id="23">&lt;br &gt;</bpt><ept id="23">&lt;/br&gt;</ept><ph id="24">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Information: 3 : c3aa328b...: Waiting for response.&lt;/codeInline&gt;</ph><bpt id="25">&lt;br &gt;</bpt><ept id="25">&lt;/br&gt;</ept><bpt id="26">&lt;legacyItalic&gt;</bpt>The trace message above shows that the request has been sent and the client is awaiting a response.<ept id="26">&lt;/legacyItalic&gt;</ept><bpt id="27">&lt;br &gt;</bpt><ept id="27">&lt;/br&gt;</ept> <bpt id="28">&lt;br &gt;</bpt><ept id="28">&lt;/br&gt;</ept><ph id="29">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Information: 3 : c3aa328b...: Response received. Status code = 200, Request ID = 417db530-853d-48a7-a23c-0c8d5f728178, Content-MD5 = , ETag =&lt;/codeInline&gt;</ph><bpt id="30">&lt;br &gt;</bpt><ept id="30">&lt;/br&gt;</ept> <bpt id="31">&lt;legacyItalic&gt;</bpt>The trace message above shows that the response has been received and its http status code.<ept id="31">&lt;/legacyItalic&gt;</ept> <bpt id="32">&lt;br &gt;</bpt><ept id="32">&lt;/br&gt;</ept><bpt id="33">&lt;br &gt;</bpt><ept id="33">&lt;/br&gt;</ept><ph id="34">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Information: 3 : c3aa328b...: Response headers were processed successfully, proceeding with the rest of the operation.&lt;/codeInline&gt;</ph><bpt id="35">&lt;br &gt;</bpt><ept id="35">&lt;/br&gt;</ept><ph id="36">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Information: 3 : c3aa328b...: Processing response body.&lt;/codeInline&gt;</ph><bpt id="37">&lt;br &gt;</bpt><ept id="37">&lt;/br&gt;</ept><ph id="38">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Information: 3 : c3aa328b...: Retrieved '8' results with continuation token ''.&lt;/codeInline&gt;</ph><bpt id="39">&lt;br &gt;</bpt><ept id="39">&lt;/br&gt;</ept><bpt id="40">&lt;legacyItalic&gt;</bpt>The trace message above shows that 8 results were retrieved and no continuation token was provided meaning no more results exist for this query.<ept id="40">&lt;/legacyItalic&gt;</ept> <bpt id="41">&lt;br &gt;</bpt><ept id="41">&lt;/br&gt;</ept><bpt id="42">&lt;br &gt;</bpt><ept id="42">&lt;/br&gt;</ept><ph id="43">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Information: 3 : c3aa328b...: Operation completed successfully.&lt;/codeInline&gt;</ph><bpt id="44">&lt;br &gt;</bpt><ept id="44">&lt;/br&gt;</ept><bpt id="45">&lt;legacyItalic&gt;</bpt>The trace message above shows that the operation completed successfully.<ept id="45">&lt;/legacyItalic&gt;</ept></source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Information: 3 : c3aa328b...: Starting operation with location Primary per location mode PrimaryOnly.&lt;/codeInline&gt;</ph><bpt id="2">&lt;br &gt;</bpt><ept id="2">&lt;/br&gt;</ept><bpt id="3">&lt;legacyItalic&gt;</bpt>The trace message above shows that the <bpt id="4">&lt;externalLink&gt;</bpt><bpt id="5">&lt;linkText&gt;</bpt>location mode<ept id="5">&lt;/linkText&gt;</ept><ph id="6">&lt;linkUri&gt;http://msdn.microsoft.com/library/azure/microsoft.windowsazure.storage.retrypolicies.locationmode.aspx&lt;/linkUri&gt;</ph><ept id="4">&lt;/externalLink&gt;</ept> is set to primary only, meaning that a failed request will not be sent to a secondary location.<ept id="3">&lt;/legacyItalic&gt;</ept> <bpt id="7">&lt;br &gt;</bpt><ept id="7">&lt;/br&gt;</ept><bpt id="8">&lt;br &gt;</bpt><ept id="8">&lt;/br&gt;</ept><ph id="9">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Information: 3 : c3aa328b...: Starting synchronous request to https://storageaccountname.table.core.windows.net/mailinglist.&lt;/codeInline&gt;</ph><bpt id="10">&lt;br &gt;</bpt><ept id="10">&lt;/br&gt;</ept><bpt id="11">&lt;legacyItalic&gt;</bpt>The trace message above shows that the request is synchronous.<ept id="11">&lt;/legacyItalic&gt;</ept><bpt id="12">&lt;br &gt;</bpt><ept id="12">&lt;/br&gt;</ept> <bpt id="13">&lt;br &gt;</bpt><ept id="13">&lt;/br&gt;</ept><ph id="14">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Information: 3 : c3aa328b...: Setting payload format for the request to 'Json'.&lt;/codeInline&gt;</ph><bpt id="15">&lt;br &gt;</bpt><ept id="15">&lt;/br&gt;</ept><bpt id="16">&lt;legacyItalic&gt;</bpt>The trace message above shows that the response should be return formatted as JSON.<ept id="16">&lt;/legacyItalic&gt;</ept> <bpt id="17">&lt;br &gt;</bpt><ept id="17">&lt;/br&gt;</ept><bpt id="18">&lt;br &gt;</bpt><ept id="18">&lt;/br&gt;</ept><ph id="19">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Verbose: 4 : c3aa328b...: StringToSign = GET...Fri, 23 May 2014 06:19:48 GMT./storageaccountname/mailinglist.&lt;/codeInline&gt;</ph><bpt id="20">&lt;br &gt;</bpt><ept id="20">&lt;/br&gt;</ept><bpt id="21">&lt;legacyItalic&gt;</bpt>The trace message above includes the StringToSign information which is useful for debugging auth failures. Verbose messages also contain full request details  including operation type and request parameters.<ept id="21">&lt;/legacyItalic&gt;</ept><bpt id="22">&lt;br &gt;</bpt><ept id="22">&lt;/br&gt;</ept> <bpt id="23">&lt;br &gt;</bpt><ept id="23">&lt;/br&gt;</ept><ph id="24">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Information: 3 : c3aa328b...: Waiting for response.&lt;/codeInline&gt;</ph><bpt id="25">&lt;br &gt;</bpt><ept id="25">&lt;/br&gt;</ept><bpt id="26">&lt;legacyItalic&gt;</bpt>The trace message above shows that the request has been sent and the client is awaiting a response.<ept id="26">&lt;/legacyItalic&gt;</ept><bpt id="27">&lt;br &gt;</bpt><ept id="27">&lt;/br&gt;</ept> <bpt id="28">&lt;br &gt;</bpt><ept id="28">&lt;/br&gt;</ept><ph id="29">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Information: 3 : c3aa328b...: Response received. Status code = 200, Request ID = 417db530-853d-48a7-a23c-0c8d5f728178, Content-MD5 = , ETag =&lt;/codeInline&gt;</ph><bpt id="30">&lt;br &gt;</bpt><ept id="30">&lt;/br&gt;</ept> <bpt id="31">&lt;legacyItalic&gt;</bpt>The trace message above shows that the response has been received and its http status code.<ept id="31">&lt;/legacyItalic&gt;</ept> <bpt id="32">&lt;br &gt;</bpt><ept id="32">&lt;/br&gt;</ept><bpt id="33">&lt;br &gt;</bpt><ept id="33">&lt;/br&gt;</ept><ph id="34">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Information: 3 : c3aa328b...: Response headers were processed successfully, proceeding with the rest of the operation.&lt;/codeInline&gt;</ph><bpt id="35">&lt;br &gt;</bpt><ept id="35">&lt;/br&gt;</ept><ph id="36">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Information: 3 : c3aa328b...: Processing response body.&lt;/codeInline&gt;</ph><bpt id="37">&lt;br &gt;</bpt><ept id="37">&lt;/br&gt;</ept><ph id="38">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Information: 3 : c3aa328b...: Retrieved '8' results with continuation token ''.&lt;/codeInline&gt;</ph><bpt id="39">&lt;br &gt;</bpt><ept id="39">&lt;/br&gt;</ept><bpt id="40">&lt;legacyItalic&gt;</bpt>The trace message above shows that 8 results were retrieved and no continuation token was provided meaning no more results exist for this query.<ept id="40">&lt;/legacyItalic&gt;</ept> <bpt id="41">&lt;br &gt;</bpt><ept id="41">&lt;/br&gt;</ept><bpt id="42">&lt;br &gt;</bpt><ept id="42">&lt;/br&gt;</ept><ph id="43">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Information: 3 : c3aa328b...: Operation completed successfully.&lt;/codeInline&gt;</ph><bpt id="44">&lt;br &gt;</bpt><ept id="44">&lt;/br&gt;</ept><bpt id="45">&lt;legacyItalic&gt;</bpt>The trace message above shows that the operation completed successfully.<ept id="45">&lt;/legacyItalic&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>The following two verbose (level 4) log entries show a HEAD and a DELETE request and illustrate the detailed information that the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Operation Text<ept id="1">&lt;/embeddedLabel&gt;</ept> field contains: <bpt id="2">&lt;br &gt;</bpt><ept id="2">&lt;/br&gt;</ept><ph id="3">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Verbose: 4 : 07b26a5d...: StringToSign = HEAD............x-ms-client-request-id:07b26a5d....x-ms-date:Tue, 03 Jun 2014 10:33:11 GMT.x-ms-version:2014-02-14./storageaccountname/azuremmblobcontainer.restype:container.&lt;/codeInline&gt;</ph><bpt id="4">&lt;br &gt;</bpt><ept id="4">&lt;/br&gt;</ept><ph id="5">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Verbose: 4 : 07b26a5d...: StringToSign = DELETE............x-ms-client-request-id:07b26a5d....x-ms-date:Tue, 03 Jun 2014 10:33:12 GMT.x-ms-version:2014-02-14./storageaccountname/azuremmblobcontainer.restype:container.&lt;/codeInline&gt;</ph><bpt id="6">&lt;br &gt;</bpt><ept id="6">&lt;/br&gt;</ept><bpt id="7">&lt;legacyItalic&gt;</bpt>The trace message above shows the OperationText field within verbose trace messages including detailed information related to a specific request including HTTP operation type (HEAD, DELETE, POST etc), the client request id, the timestamp, SDK version and additional operation specific data.<ept id="7">&lt;/legacyItalic&gt;</ept></source>
+            <target state="new">The following two verbose (level 4) log entries show a HEAD and a DELETE request and illustrate the detailed information that the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Operation Text<ept id="1">&lt;/embeddedLabel&gt;</ept> field contains: <bpt id="2">&lt;br &gt;</bpt><ept id="2">&lt;/br&gt;</ept><ph id="3">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Verbose: 4 : 07b26a5d...: StringToSign = HEAD............x-ms-client-request-id:07b26a5d....x-ms-date:Tue, 03 Jun 2014 10:33:11 GMT.x-ms-version:2014-02-14./storageaccountname/azuremmblobcontainer.restype:container.&lt;/codeInline&gt;</ph><bpt id="4">&lt;br &gt;</bpt><ept id="4">&lt;/br&gt;</ept><ph id="5">&lt;codeInline&gt;Microsoft.WindowsAzure.Storage Verbose: 4 : 07b26a5d...: StringToSign = DELETE............x-ms-client-request-id:07b26a5d....x-ms-date:Tue, 03 Jun 2014 10:33:12 GMT.x-ms-version:2014-02-14./storageaccountname/azuremmblobcontainer.restype:container.&lt;/codeInline&gt;</ph><bpt id="6">&lt;br &gt;</bpt><ept id="6">&lt;/br&gt;</ept><bpt id="7">&lt;legacyItalic&gt;</bpt>The trace message above shows the OperationText field within verbose trace messages including detailed information related to a specific request including HTTP operation type (HEAD, DELETE, POST etc), the client request id, the timestamp, SDK version and additional operation specific data.<ept id="7">&lt;/legacyItalic&gt;</ept></target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

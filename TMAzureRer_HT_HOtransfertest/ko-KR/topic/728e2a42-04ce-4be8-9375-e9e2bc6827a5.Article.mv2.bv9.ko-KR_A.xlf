@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzdsJwzAMQNFVPIAFtqL40QkK/StdQFYkCE1jSFPI+PX/uVyzSRuhgCoRULQALZQGEiKnWi0yV++SpFTEDJbGQy1RgWVEkiPhZJSizd5lLIpMCIFEgZoWqFOeQatik1Qw81DRu3eHx9O7a1vN9DpvR++nd+jdWN1/H95fB+/fjc+173/qRDmRoQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Repairing an Export Job</source>
+            <target state="new">Repairing an Export Job</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>After an export job has completed, you can run the Microsoft Azure Import/Export tool on premise to:</source>
+            <target state="new">After an export job has completed, you can run the Microsoft Azure Import/Export tool on premise to:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Download any files that the Azure Import/Export service was unable to export.</source>
+            <target state="new">Download any files that the Azure Import/Export service was unable to export.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Validate that the files on the drive were correctly exported.</source>
+            <target state="new">Validate that the files on the drive were correctly exported.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You must have connectivity to Azure Storage to use this functionality.</source>
+            <target state="new">You must have connectivity to Azure Storage to use this functionality.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>The command for repairing an import job is <bpt id="1">&lt;legacyBold&gt;</bpt>RepairExport<ept id="1">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new">The command for repairing an import job is <bpt id="1">&lt;legacyBold&gt;</bpt>RepairExport<ept id="1">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The following parameters can be specified:</source>
+            <target state="new">The following parameters can be specified:</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Parameter</source>
+            <target state="new">Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Path to the repair file, which tracks the progress of the repair, and allows you to resume an interrupted repair.</source>
+            <target state="new">Path to the repair file, which tracks the progress of the repair, and allows you to resume an interrupted repair.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Each drive must have one and only one repair file.</source>
+            <target state="new">Each drive must have one and only one repair file.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>When you start a repair for a given drive, you will pass in the path to a repair file which does not yet exist.</source>
+            <target state="new">When you start a repair for a given drive, you will pass in the path to a repair file which does not yet exist.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>To resume an interrupted repair, you should pass in the name of an existing repair file.</source>
+            <target state="new">To resume an interrupted repair, you should pass in the name of an existing repair file.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The repair file corresponding to the target drive must always be specified.</source>
+            <target state="new">The repair file corresponding to the target drive must always be specified.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>The log directory.</source>
+            <target state="new">The log directory.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Verbose log files will be written to this directory.</source>
+            <target state="new">Verbose log files will be written to this directory.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>If no log directory is specified, the current directory will be used as the log directory.</source>
+            <target state="new">If no log directory is specified, the current directory will be used as the log directory.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>The directory to validate and repair.</source>
+            <target state="new">The directory to validate and repair.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>This is usually the root directory of the export drive, but could also be a network file share containing a copy of the exported files.</source>
+            <target state="new">This is usually the root directory of the export drive, but could also be a network file share containing a copy of the exported files.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>You should specify the BitLocker key if you want the tool to unlock an encrypted where the exported files are stored.</source>
+            <target state="new">You should specify the BitLocker key if you want the tool to unlock an encrypted where the exported files are stored.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>The name of the storage account for the export job.</source>
+            <target state="new">The name of the storage account for the export job.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required<ept id="1">&lt;/embeddedLabel&gt;</ept> if and only if a container SAS is not specified.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required<ept id="1">&lt;/embeddedLabel&gt;</ept> if and only if a container SAS is not specified.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>The account key for the storage account for the export job.</source>
+            <target state="new">The account key for the storage account for the export job.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required<ept id="1">&lt;/embeddedLabel&gt;</ept> if and only if the storage account key is not specified.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required<ept id="1">&lt;/embeddedLabel&gt;</ept> if and only if the storage account key is not specified.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>The container SAS for accessing the blobs associated with the export job.</source>
+            <target state="new">The container SAS for accessing the blobs associated with the export job.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>The path to the drive copy log file.</source>
+            <target state="new">The path to the drive copy log file.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>The file is generated by the Windows Azure Import/Export service and can be downloaded from the blob storage associated with the job.</source>
+            <target state="new">The file is generated by the Windows Azure Import/Export service and can be downloaded from the blob storage associated with the job.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>The copy log file contains information about failed blobs or files which are to be repaired.</source>
+            <target state="new">The copy log file contains information about failed blobs or files which are to be repaired.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>The path to the export drive's manifest file.</source>
+            <target state="new">The path to the export drive's manifest file.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>This file is generated by the Windows Azure Import/Export service and stored on the export drive, and optionally in a blob in the storage account associated with the job.</source>
+            <target state="new">This file is generated by the Windows Azure Import/Export service and stored on the export drive, and optionally in a blob in the storage account associated with the job.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>The content of the files on the export drive will be verified with the MD5 hashes contained in this file.</source>
+            <target state="new">The content of the files on the export drive will be verified with the MD5 hashes contained in this file.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Any files that are determined to be corrupted will be downloaded and rewritten to the target directories.</source>
+            <target state="new">Any files that are determined to be corrupted will be downloaded and rewritten to the target directories.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Using RepairExport Mode to Correct Failed Exports</source>
+            <target state="new">Using RepairExport Mode to Correct Failed Exports</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>You can use the Azure Import/Export tool to download files that failed to export.</source>
+            <target state="new">You can use the Azure Import/Export tool to download files that failed to export.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>The copy log file will contain a list of files that failed to export.</source>
+            <target state="new">The copy log file will contain a list of files that failed to export.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>The causes of export failures include the following possibilities:</source>
+            <target state="new">The causes of export failures include the following possibilities:</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Damaged drives</source>
+            <target state="new">Damaged drives</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>The storage account key changed during the transfer process</source>
+            <target state="new">The storage account key changed during the transfer process</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>To run the tool in <bpt id="1">&lt;legacyBold&gt;</bpt>RepairExport<ept id="1">&lt;/legacyBold&gt;</ept> mode, you first need to connect the drive containing the exported files to your computer.</source>
+            <target state="new">To run the tool in <bpt id="1">&lt;legacyBold&gt;</bpt>RepairExport<ept id="1">&lt;/legacyBold&gt;</ept> mode, you first need to connect the drive containing the exported files to your computer.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Next, run the Azure Import/Export tool, specifying the path to that drive with the <ph id="1">&lt;codeInline&gt;/d&lt;/codeInline&gt;</ph> parameter.</source>
+            <target state="new">Next, run the Azure Import/Export tool, specifying the path to that drive with the <ph id="1">&lt;codeInline&gt;/d&lt;/codeInline&gt;</ph> parameter.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>You also need to specify the path to the drive's copy log file that you downloaded.</source>
+            <target state="new">You also need to specify the path to the drive's copy log file that you downloaded.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>The following command line example below runs the tool to repair any files that failed to export:</source>
+            <target state="new">The following command line example below runs the tool to repair any files that failed to export:</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>The following is an example of a copy log file that shows that one block in the blob failed to export:</source>
+            <target state="new">The following is an example of a copy log file that shows that one block in the blob failed to export:</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>The copy log file indicates that a failure occurred while the Windows Azure Import/Export service was downloading one of the blob's blocks to the file on the export drive.</source>
+            <target state="new">The copy log file indicates that a failure occurred while the Windows Azure Import/Export service was downloading one of the blob's blocks to the file on the export drive.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>The other components of the file downloaded successfully, and the file length was correctly set.</source>
+            <target state="new">The other components of the file downloaded successfully, and the file length was correctly set.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>In this case, the tool will open the file on the drive, download the block from the storage account, and write it to the file range starting from offset 65536 with length 65536.</source>
+            <target state="new">In this case, the tool will open the file on the drive, download the block from the storage account, and write it to the file range starting from offset 65536 with length 65536.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Using RepairExport to Validate Drive Contents</source>
+            <target state="new">Using RepairExport to Validate Drive Contents</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>You can also use Azure Import/Export with the <bpt id="1">&lt;legacyBold&gt;</bpt>RepairExport<ept id="1">&lt;/legacyBold&gt;</ept> option to validate the contents on the drive are correct.</source>
+            <target state="new">You can also use Azure Import/Export with the <bpt id="1">&lt;legacyBold&gt;</bpt>RepairExport<ept id="1">&lt;/legacyBold&gt;</ept> option to validate the contents on the drive are correct.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>The manifest file on each export drive contains MD5s for the contents of the drive.</source>
+            <target state="new">The manifest file on each export drive contains MD5s for the contents of the drive.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>The Azure Import/Export service can also save the manifest files to a storage account during the export process.</source>
+            <target state="new">The Azure Import/Export service can also save the manifest files to a storage account during the export process.</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>The location of the manifest files is available via the <ph id="1">&lt;link xlink:href="1d416186-c5a7-423c-9a24-bad4f7b89828" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Job&lt;/link&gt;</ph> operation when the job has completed.</source>
+            <target state="new">The location of the manifest files is available via the <ph id="1">&lt;link xlink:href="1d416186-c5a7-423c-9a24-bad4f7b89828" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Job&lt;/link&gt;</ph> operation when the job has completed.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="f3119e1c-2c25-48ad-8752-a6ed4adadbb0" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Import/Export Service Manifest File Format&lt;/link&gt;</ph> for more information about the format of a drive manifest file.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="f3119e1c-2c25-48ad-8752-a6ed4adadbb0" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Import/Export Service Manifest File Format&lt;/link&gt;</ph> for more information about the format of a drive manifest file.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>The following example shows how to run the Azure Import/Export tool with the <ph id="1">&lt;system&gt;/ManifestFile&lt;/system&gt;</ph> and <ph id="2">&lt;system&gt;/CopyLogFile&lt;/system&gt;</ph> parameters:</source>
+            <target state="new">The following example shows how to run the Azure Import/Export tool with the <ph id="1">&lt;system&gt;/ManifestFile&lt;/system&gt;</ph> and <ph id="2">&lt;system&gt;/CopyLogFile&lt;/system&gt;</ph> parameters:</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>The following is an example of a manifest file:</source>
+            <target state="new">The following is an example of a manifest file:</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>After finishing the repair process, the tool will read through each file referenced in the manifest file and verify the file's integrity with the MD5 hashes.</source>
+            <target state="new">After finishing the repair process, the tool will read through each file referenced in the manifest file and verify the file's integrity with the MD5 hashes.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>For the manifest above, it will go through the following components.</source>
+            <target state="new">For the manifest above, it will go through the following components.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>G:\pictures\city\redmond.jpg, offset 0, length 3584</source>
+            <target state="new">G:\pictures\city\redmond.jpg, offset 0, length 3584</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>G:\pictures\city\redmond.jpg, offset 3584, length 3584</source>
+            <target state="new">G:\pictures\city\redmond.jpg, offset 3584, length 3584</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>G:\pictures\city\redmond.jpg, offset 7168, length 3584</source>
+            <target state="new">G:\pictures\city\redmond.jpg, offset 7168, length 3584</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>G:\pictures\city\redmond.jpg.properties</source>
+            <target state="new">G:\pictures\city\redmond.jpg.properties</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>G:\pictures\wild\canyon.jpg, offset 0, length 2721</source>
+            <target state="new">G:\pictures\wild\canyon.jpg, offset 0, length 2721</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>G:\pictures\wild\canyon.jpg, offset 2721, length 2721</source>
+            <target state="new">G:\pictures\wild\canyon.jpg, offset 2721, length 2721</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>G:\pictures\wild\canyon.jpg, offset 5442, length 2721</source>
+            <target state="new">G:\pictures\wild\canyon.jpg, offset 5442, length 2721</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>G:\pictures\wild\canyon.jpg, offset 8163, length 2721</source>
+            <target state="new">G:\pictures\wild\canyon.jpg, offset 8163, length 2721</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>G:\pictures\wild\canyon.jpg.properties</source>
+            <target state="new">G:\pictures\wild\canyon.jpg.properties</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Any component failing the verification will be downloaded by the tool and rewritten to the same file on the drive.</source>
+            <target state="new">Any component failing the verification will be downloaded by the tool and rewritten to the same file on the drive.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

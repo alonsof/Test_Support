@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ja-JP" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzMsJwzAMANBVNIAFtiPLcicoPfXQBeSPICVNIE0h4zf3xzObRqXYcAwipGAeq5eKzQflUiyoFgfdE9WpMcYwGCnXjNWiYkvco7KocHIgVYSHTMiB5LqoYOneMHWS0SRGypcKDt6Kj6eDc5nNxnnc9m07HEQH2cH999H1tev6XfSYt/UPedal/KEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Creating an Import Job</source>
+            <target state="new">Creating an Import Job</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Creating an import job for the Microsoft Azure Import/Export service using the REST API involves the following steps:</source>
+            <target state="new">Creating an import job for the Microsoft Azure Import/Export service using the REST API involves the following steps:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Preparing drives with the Azure Import/Export tool.</source>
+            <target state="new">Preparing drives with the Azure Import/Export tool.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Obtaining the location to which to ship the drive.</source>
+            <target state="new">Obtaining the location to which to ship the drive.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Creating the import job.</source>
+            <target state="new">Creating the import job.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Shipping the drives to Microsoft via a supported carrier service.</source>
+            <target state="new">Shipping the drives to Microsoft via a supported carrier service.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Updating the import job with the shipping details.</source>
+            <target state="new">Updating the import job with the shipping details.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>See <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Using the Microsoft Azure Import/Export Service to Transfer Data to Blob Storage<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=329852%%amp;amp;clcid=0x409&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for an overview of the Import/Export service and a tutorial that demonstrates how to use the <bpt id="4">&lt;externalLink&gt;</bpt><bpt id="5">&lt;linkText&gt;</bpt>Microsoft Azure Management Portal<ept id="5">&lt;/linkText&gt;</ept><ph id="6">&lt;linkUri&gt;http://www.windowsazure.com/&lt;/linkUri&gt;</ph><ept id="4">&lt;/externalLink&gt;</ept> to create and manage import and export jobs.</source>
+            <target state="new">See <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Using the Microsoft Azure Import/Export Service to Transfer Data to Blob Storage<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=329852%%amp;amp;clcid=0x409&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for an overview of the Import/Export service and a tutorial that demonstrates how to use the <bpt id="4">&lt;externalLink&gt;</bpt><bpt id="5">&lt;linkText&gt;</bpt>Microsoft Azure Management Portal<ept id="5">&lt;/linkText&gt;</ept><ph id="6">&lt;linkUri&gt;http://www.windowsazure.com/&lt;/linkUri&gt;</ph><ept id="4">&lt;/externalLink&gt;</ept> to create and manage import and export jobs.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Preparing Drives with the Azure Import/Export Tool</source>
+            <target state="new">Preparing Drives with the Azure Import/Export Tool</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>The steps to prepare drives for an import job are the same whether you create the job via the portal or via the REST API.</source>
+            <target state="new">The steps to prepare drives for an import job are the same whether you create the job via the portal or via the REST API.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Below is a brief overview of drive preparation.</source>
+            <target state="new">Below is a brief overview of drive preparation.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Refer to the <ph id="1">&lt;link xlink:href="f77535bb-d577-438a-bdd3-e15a82e0c543" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;WAImportExport Tool Reference&lt;/link&gt;</ph> for complete instructions.</source>
+            <target state="new">Refer to the <ph id="1">&lt;link xlink:href="f77535bb-d577-438a-bdd3-e15a82e0c543" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;WAImportExport Tool Reference&lt;/link&gt;</ph> for complete instructions.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>You can download the Azure Import/Export tool <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>here<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=301900&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">You can download the Azure Import/Export tool <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>here<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=301900&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Preparing your drive involves:</source>
+            <target state="new">Preparing your drive involves:</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Identifying the data to be imported.</source>
+            <target state="new">Identifying the data to be imported.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Identifying the destination blobs in Windows Azure Storage.</source>
+            <target state="new">Identifying the destination blobs in Windows Azure Storage.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Using the Azure Import/Export tool to copy your data to one or more hard drives.</source>
+            <target state="new">Using the Azure Import/Export tool to copy your data to one or more hard drives.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The Azure Import/Export tool will also generate a manifest file for each of the drives as it is prepared.</source>
+            <target state="new">The Azure Import/Export tool will also generate a manifest file for each of the drives as it is prepared.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>A manifest file contains:</source>
+            <target state="new">A manifest file contains:</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>An enumeration of all the files intended for upload and the mappings from these files to blobs.</source>
+            <target state="new">An enumeration of all the files intended for upload and the mappings from these files to blobs.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Checksums of the segments of each file.</source>
+            <target state="new">Checksums of the segments of each file.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Information about the metadata and properties to associate with each blob.</source>
+            <target state="new">Information about the metadata and properties to associate with each blob.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>A listing of the action to take if a blob that is being uploaded has the same name as an existing blob in the container.</source>
+            <target state="new">A listing of the action to take if a blob that is being uploaded has the same name as an existing blob in the container.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Possible options are: a) overwrite the blob with the file b) keep the existing blob and skip uploading the file, c) append a suffix to the name so that it does not conflict with other files.</source>
+            <target state="new">Possible options are: a) overwrite the blob with the file b) keep the existing blob and skip uploading the file, c) append a suffix to the name so that it does not conflict with other files.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Obtaining Your Shipping Location</source>
+            <target state="new">Obtaining Your Shipping Location</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Before creating an import job, you need to obtain a shipping location name and address by calling the <ph id="1">&lt;link xlink:href="6260cd93-6c8e-4986-a2b6-a3c9df886ff6" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;List Locations&lt;/link&gt;</ph> operation.</source>
+            <target state="new">Before creating an import job, you need to obtain a shipping location name and address by calling the <ph id="1">&lt;link xlink:href="6260cd93-6c8e-4986-a2b6-a3c9df886ff6" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;List Locations&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;List Locations&lt;/languageKeyword&gt;</ph> will return a list of locations and their mailing addresses based on the location of your storage account.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;List Locations&lt;/languageKeyword&gt;</ph> will return a list of locations and their mailing addresses based on the location of your storage account.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>You can select a location from the returned list and ship your hard drives to that address.</source>
+            <target state="new">You can select a location from the returned list and ship your hard drives to that address.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Note that <ph id="1">&lt;languageKeyword&gt;List Locations&lt;/languageKeyword&gt;</ph> returns only one possible shipping location.</source>
+            <target state="new">Note that <ph id="1">&lt;languageKeyword&gt;List Locations&lt;/languageKeyword&gt;</ph> returns only one possible shipping location.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Follow the steps below to obtain the shipping location:</source>
+            <target state="new">Follow the steps below to obtain the shipping location:</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Identify the name of the location of your storage account.</source>
+            <target state="new">Identify the name of the location of your storage account.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>This value can be found under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Location<ept id="1">&lt;/embeddedLabel&gt;</ept> field on the storage account’s <bpt id="2">&lt;embeddedLabel&gt;</bpt>Dashboard<ept id="2">&lt;/embeddedLabel&gt;</ept> in the management portal or queried for by using the service management API operation <ph id="3">&lt;link xlink:href="06de06a9-3363-4c03-8a99-3fbaf761642c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Storage Account Properties&lt;/link&gt;</ph>.</source>
+            <target state="new">This value can be found under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Location<ept id="1">&lt;/embeddedLabel&gt;</ept> field on the storage account’s <bpt id="2">&lt;embeddedLabel&gt;</bpt>Dashboard<ept id="2">&lt;/embeddedLabel&gt;</ept> in the management portal or queried for by using the service management API operation <ph id="3">&lt;link xlink:href="06de06a9-3363-4c03-8a99-3fbaf761642c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Storage Account Properties&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Retrieve a list of locations that are available to process this storage account by calling the <ph id="1">&lt;languageKeyword&gt;List Locations&lt;/languageKeyword&gt;</ph> operation with the query parameter <ph id="2">&lt;codeInline&gt;originlocation=%%amp;lt;location-name%%amp;gt;&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Retrieve a list of locations that are available to process this storage account by calling the <ph id="1">&lt;languageKeyword&gt;List Locations&lt;/languageKeyword&gt;</ph> operation with the query parameter <ph id="2">&lt;codeInline&gt;originlocation=%%amp;lt;location-name%%amp;gt;&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>The list returned will contain one or more locations to which you can ship your drives.</source>
+            <target state="new">The list returned will contain one or more locations to which you can ship your drives.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Select a location from the returned list and note its name and mailing address.</source>
+            <target state="new">Select a location from the returned list and note its name and mailing address.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;List Locations&lt;/languageKeyword&gt;</ph> either returns one possible location, or none.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;List Locations&lt;/languageKeyword&gt;</ph> either returns one possible location, or none.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>If no locations are returned, the service is not yet available for your storage account.</source>
+            <target state="new">If no locations are returned, the service is not yet available for your storage account.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Creating the Import Job</source>
+            <target state="new">Creating the Import Job</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>To create the import job, call the <ph id="1">&lt;link xlink:href="2f703ff1-d52b-43bd-81ec-90350a39e2af" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Job&lt;/link&gt;</ph> operation.</source>
+            <target state="new">To create the import job, call the <ph id="1">&lt;link xlink:href="2f703ff1-d52b-43bd-81ec-90350a39e2af" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Job&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>You will need to provide the following information:</source>
+            <target state="new">You will need to provide the following information:</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>A name for the job.</source>
+            <target state="new">A name for the job.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>The storage account name.</source>
+            <target state="new">The storage account name.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>The storage account key.</source>
+            <target state="new">The storage account key.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>The shipping location name, obtained from the previous step.</source>
+            <target state="new">The shipping location name, obtained from the previous step.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>A job type (Import).</source>
+            <target state="new">A job type (Import).</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>The return address where the drives should be sent after the import job has completed.</source>
+            <target state="new">The return address where the drives should be sent after the import job has completed.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>The list of drives in the job.</source>
+            <target state="new">The list of drives in the job.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>For each drive, you must include the following information that was obtained during the drive preparation step:</source>
+            <target state="new">For each drive, you must include the following information that was obtained during the drive preparation step:</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>The drive Id</source>
+            <target state="new">The drive Id</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>The BitLocker key</source>
+            <target state="new">The BitLocker key</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>The manifest file relative path on the hard drive</source>
+            <target state="new">The manifest file relative path on the hard drive</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>The Base16 encoded manifest file MD5 hash</source>
+            <target state="new">The Base16 encoded manifest file MD5 hash</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Shipping Your Drives</source>
+            <target state="new">Shipping Your Drives</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>You must ship your drives to the address that you obtained from the previous step,and you must provide the Import/Export service with the tracking number of the package.</source>
+            <target state="new">You must ship your drives to the address that you obtained from the previous step,and you must provide the Import/Export service with the tracking number of the package.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>You must ship your drives via a supported carrier service, which will provide a tracking number for your package.</source>
+            <target state="new">You must ship your drives via a supported carrier service, which will provide a tracking number for your package.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Updating the Import Job with Your Shipping Information</source>
+            <target state="new">Updating the Import Job with Your Shipping Information</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>After you have your tracking number, call the <ph id="1">&lt;link xlink:href="6f83d480-c09e-4e3b-b096-46e140e8c93d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Update Job Properties&lt;/link&gt;</ph> operation to update the shipping carrier name, the tracking number for the job, and the carrier account number for return shipping.</source>
+            <target state="new">After you have your tracking number, call the <ph id="1">&lt;link xlink:href="6f83d480-c09e-4e3b-b096-46e140e8c93d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Update Job Properties&lt;/link&gt;</ph> operation to update the shipping carrier name, the tracking number for the job, and the carrier account number for return shipping.</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>You can optionally specify the number of drives and the shipping date as well.</source>
+            <target state="new">You can optionally specify the number of drives and the shipping date as well.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAAVylEKwyAMgOGreAADRqM2e95gB9gFok2g0LXQddDjz8H/9n9mSRvFDqpEQGgBWpga9IBSmA1F2DtGw5CNoMzjUS4ILLVCHEhm00jcvZtVCqbOoCl3oJqGIkTQyqlOqbbUmnf4h3B/eHeti5le5+3Y99O7OBrz+X3L9jpk+6xyLvv2A7UM3RyiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Certificates and Keys Management Guidelines</source>
+            <target state="new">Certificates and Keys Management Guidelines</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Certificates and Keys Management Guidelines</source>
+            <target state="new">Certificates and Keys Management Guidelines</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Applies To</source>
+            <target state="new">Applies To</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Summary </source>
+            <target state="new">Summary </target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>This topic describes the guidelines for using certificates and keys in <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</source>
+            <target state="new">This topic describes the guidelines for using certificates and keys in <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Because certificates and keys expire by design, it is important to track the expiration dates and take appropriate action prior to expiration so that applications that use <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> continue to function properly without interruption.</source>
+            <target state="new">Because certificates and keys expire by design, it is important to track the expiration dates and take appropriate action prior to expiration so that applications that use <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> continue to function properly without interruption.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Track expiry and renew  certificates, keys and passwords used by the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>, relying party applications, service identities and the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service account.</source>
+            <target state="new">Track expiry and renew  certificates, keys and passwords used by the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>, relying party applications, service identities and the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service account.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Objectives</source>
+            <target state="new">Objectives</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>List the certificates and keys that must be tracked for expiration dates</source>
+            <target state="new">List the certificates and keys that must be tracked for expiration dates</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Outline the renewal procedures for the certificates and keys</source>
+            <target state="new">Outline the renewal procedures for the certificates and keys</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>See the specific certificate, credential or key section in this topic for error messages and renewal process.</source>
+            <target state="new">See the specific certificate, credential or key section in this topic for error messages and renewal process.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Overview</source>
+            <target state="new">Overview</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Because certificates are guaranteed to expire, it is good practice to upload a new certificate well in advance of the expiration of the current certificate.</source>
+            <target state="new">Because certificates are guaranteed to expire, it is good practice to upload a new certificate well in advance of the expiration of the current certificate.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The high-level steps that should be involved are as follows:</source>
+            <target state="new">The high-level steps that should be involved are as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Upload<ept id="1">&lt;/embeddedLabel&gt;</ept> a new secondary certificate.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Upload<ept id="1">&lt;/embeddedLabel&gt;</ept> a new secondary certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Notify<ept id="1">&lt;/embeddedLabel&gt;</ept> the partners that use the service of the upcoming change.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Notify<ept id="1">&lt;/embeddedLabel&gt;</ept> the partners that use the service of the upcoming change.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Partners should update their certificate configuration for their relying parties (for example, a thumbprint of the certificate configured in web.config under trustedIssuers node in an ASP.NET web application)</source>
+            <target state="new">Partners should update their certificate configuration for their relying parties (for example, a thumbprint of the certificate configured in web.config under trustedIssuers node in an ASP.NET web application)</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Switch signing<ept id="1">&lt;/embeddedLabel&gt;</ept> to the new certificate (mark it primary) while leaving the previous one in place for a reasonable grace period.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Switch signing<ept id="1">&lt;/embeddedLabel&gt;</ept> to the new certificate (mark it primary) while leaving the previous one in place for a reasonable grace period.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>After the grace period ends, <bpt id="1">&lt;embeddedLabel&gt;</bpt>remove <ept id="1">&lt;/embeddedLabel&gt;</ept>the old certificate.</source>
+            <target state="new">After the grace period ends, <bpt id="1">&lt;embeddedLabel&gt;</bpt>remove <ept id="1">&lt;/embeddedLabel&gt;</ept>the old certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>When a certificate or a key expires, attempts by <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> to issue tokens fail and the relying party application cannot operate properly.</source>
+            <target state="new">When a certificate or a key expires, attempts by <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> to issue tokens fail and the relying party application cannot operate properly.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> ignores expired certificates and keys, resulting in the same exceptions that would be thrown if no certificate or key was ever configured.</source>
+            <target state="new"><ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> ignores expired certificates and keys, resulting in the same exceptions that would be thrown if no certificate or key was ever configured.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>The following sections provide information about managing certificates and keys that <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> uses, how to renew them and how to identify certificates and keys that are nearing expiry or have expired.</source>
+            <target state="new">The following sections provide information about managing certificates and keys that <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> uses, how to renew them and how to identify certificates and keys that are nearing expiry or have expired.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>To manage certificates and keys for <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>s and relying party applications, use the <bpt id="2">&lt;ui&gt;</bpt>Certificates and Keys<ept id="2">&lt;/ui&gt;</ept> page of the <ph id="3">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</source>
+            <target state="new">To manage certificates and keys for <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>s and relying party applications, use the <bpt id="2">&lt;ui&gt;</bpt>Certificates and Keys<ept id="2">&lt;/ui&gt;</ept> page of the <ph id="3">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>For more information about these credential types, see <ph id="1">&lt;link xlink:href="b75ed5c7-ca81-44a2-8d8d-6a63399f87dd" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Certificates and Keys&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about these credential types, see <ph id="1">&lt;link xlink:href="b75ed5c7-ca81-44a2-8d8d-6a63399f87dd" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Certificates and Keys&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>To manage credentials (certificates, keys or passwords) of service identities, use the <bpt id="1">&lt;ui&gt;</bpt>Service identities<ept id="1">&lt;/ui&gt;</ept> page of the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</source>
+            <target state="new">To manage credentials (certificates, keys or passwords) of service identities, use the <bpt id="1">&lt;ui&gt;</bpt>Service identities<ept id="1">&lt;/ui&gt;</ept> page of the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>For more information about service identities, see <ph id="1">&lt;link xlink:href="52225343-ab35-4455-b3f9-e014d7ac6b78" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Service Identities&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about service identities, see <ph id="1">&lt;link xlink:href="52225343-ab35-4455-b3f9-e014d7ac6b78" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Service Identities&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>To manage credentials (certificates, keys or passwords) of <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service accounts, use the <bpt id="2">&lt;ui&gt;</bpt>Management Service<ept id="2">&lt;/ui&gt;</ept> page of the <ph id="3">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</source>
+            <target state="new">To manage credentials (certificates, keys or passwords) of <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service accounts, use the <bpt id="2">&lt;ui&gt;</bpt>Management Service<ept id="2">&lt;/ui&gt;</ept> page of the <ph id="3">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>For more information about the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service, see <ph id="2">&lt;link xlink:href="f69b173a-fcf8-4f59-864a-09b05541d3df" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ACS Management Service&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service, see <ph id="2">&lt;link xlink:href="f69b173a-fcf8-4f59-864a-09b05541d3df" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ACS Management Service&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>To manage certificates for WS-Federation identity providers, such as AD FS 2.0, use the <bpt id="1">&lt;ui&gt;</bpt>Identity providers<ept id="1">&lt;/ui&gt;</ept> page in the ACS Management Portal.</source>
+            <target state="new">To manage certificates for WS-Federation identity providers, such as AD FS 2.0, use the <bpt id="1">&lt;ui&gt;</bpt>Identity providers<ept id="1">&lt;/ui&gt;</ept> page in the ACS Management Portal.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="dea613c9-e35c-4731-9411-e7937837b3bb#BKMK_WS-Fed" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;WS-Federation identity provider certificate&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="b80c168c-b985-4cb9-9865-7963ba9ef142" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;WS-Federation Identity Providers&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="dea613c9-e35c-4731-9411-e7937837b3bb#BKMK_WS-Fed" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;WS-Federation identity provider certificate&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="b80c168c-b985-4cb9-9865-7963ba9ef142" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;WS-Federation Identity Providers&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>To view and update WS-Federation identity provider certificates and keys programmatically, use the <ph id="1">&lt;link xlink:href="f69b173a-fcf8-4f59-864a-09b05541d3df" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ACS Management Service&lt;/link&gt;</ph>.</source>
+            <target state="new">To view and update WS-Federation identity provider certificates and keys programmatically, use the <ph id="1">&lt;link xlink:href="f69b173a-fcf8-4f59-864a-09b05541d3df" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ACS Management Service&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>To verify the effective dates of a certificate, query the values of the <ph id="1">&lt;parameterReference&gt;StartDate&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;EndDate&lt;/parameterReference&gt;</ph> properties of the <ph id="3">&lt;link xlink:href="0c6268e7-774a-4cb3-a17a-43773a2d0cf0" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;IdentityProviderKey&lt;/link&gt;</ph> entity.</source>
+            <target state="new">To verify the effective dates of a certificate, query the values of the <ph id="1">&lt;parameterReference&gt;StartDate&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;EndDate&lt;/parameterReference&gt;</ph> properties of the <ph id="3">&lt;link xlink:href="0c6268e7-774a-4cb3-a17a-43773a2d0cf0" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;IdentityProviderKey&lt;/link&gt;</ph> entity.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>For more information, download the KeyManagement code sample, <ph id="1">&lt;link xlink:href="6a7c9ad5-c120-416c-8667-688f8a6a45d3" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Code Sample: Key Management&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, download the KeyManagement code sample, <ph id="1">&lt;link xlink:href="6a7c9ad5-c120-416c-8667-688f8a6a45d3" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Code Sample: Key Management&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>When you request a token that is signed by an expired certificate or key, ACS throws exceptions that have <ph id="1">&lt;link xlink:href="5ba09d76-7619-40e4-aa8d-ce3d5f3e77f8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ACS Error Codes&lt;/link&gt;</ph> specific to the certificate or key.</source>
+            <target state="new">When you request a token that is signed by an expired certificate or key, ACS throws exceptions that have <ph id="1">&lt;link xlink:href="5ba09d76-7619-40e4-aa8d-ce3d5f3e77f8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ACS Error Codes&lt;/link&gt;</ph> specific to the certificate or key.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Consult the sections below for specific error codes.</source>
+            <target state="new">Consult the sections below for specific error codes.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Available certificates and keys</source>
+            <target state="new">Available certificates and keys</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>The following list displays the available certificates and keys that are used in <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> and must be tracked for expiration dates:</source>
+            <target state="new">The following list displays the available certificates and keys that are used in <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> and must be tracked for expiration dates:</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>See the specific certificate, credential or key section in this topic for error messages and renewal process.</source>
+            <target state="new">See the specific certificate, credential or key section in this topic for error messages and renewal process.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Token signing certificates</source>
+            <target state="new">Token signing certificates</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Token signing keys</source>
+            <target state="new">Token signing keys</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Token encryption certificates</source>
+            <target state="new">Token encryption certificates</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Token decryption certificates</source>
+            <target state="new">Token decryption certificates</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Service identity credentials</source>
+            <target state="new">Service identity credentials</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service account credentials</source>
+            <target state="new"><ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service account credentials</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>WS-Federation identity provider signing and encryption certificates</source>
+            <target state="new">WS-Federation identity provider signing and encryption certificates</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>The rest of this topic covers each certificate and key in detail.</source>
+            <target state="new">The rest of this topic covers each certificate and key in detail.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Token signing certificates</source>
+            <target state="new">Token signing certificates</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> signs all security tokens it issues.</source>
+            <target state="new"><ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> signs all security tokens it issues.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>It uses X.509 certificates to sign SAML tokens for applications.</source>
+            <target state="new">It uses X.509 certificates to sign SAML tokens for applications.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>When a signing certificate has expired, ACS returns the following errors when you request a token:</source>
+            <target state="new">When a signing certificate has expired, ACS returns the following errors when you request a token:</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Error Code</source>
+            <target state="new">Error Code</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Message</source>
+            <target state="new">Message</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Remedy</source>
+            <target state="new">Remedy</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>ACS50004</source>
+            <target state="new">ACS50004</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>No primary X.509 signing certificate is configured.</source>
+            <target state="new">No primary X.509 signing certificate is configured.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>A signing certificate is required for SAML.</source>
+            <target state="new">A signing certificate is required for SAML.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>If the chosen relying party uses SAML tokens, ensure that a valid X.509 certificate is configured for the relying party or the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</source>
+            <target state="new">If the chosen relying party uses SAML tokens, ensure that a valid X.509 certificate is configured for the relying party or the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>The certificate must be set to primary and must not be expired.</source>
+            <target state="new">The certificate must be set to primary and must not be expired.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>To renew a signing certificate:</source>
+            <target state="new">To renew a signing certificate:</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>Certificates and Keys<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>Certificates and Keys<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Select a certificate with a status of <bpt id="1">&lt;embeddedLabel&gt;</bpt>Near expired<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expired<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select a certificate with a status of <bpt id="1">&lt;embeddedLabel&gt;</bpt>Near expired<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expired<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>Certificates and Keys<ept id="1">&lt;/ui&gt;</ept> section, certificates and keys for the <ph id="2">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> are labeled <bpt id="3">&lt;ui&gt;</bpt>Service Namespace<ept id="3">&lt;/ui&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>Certificates and Keys<ept id="1">&lt;/ui&gt;</ept> section, certificates and keys for the <ph id="2">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> are labeled <bpt id="3">&lt;ui&gt;</bpt>Service Namespace<ept id="3">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Enter or generate a certificate as required.</source>
+            <target state="new">Enter or generate a certificate as required.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Update the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Effective<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expiration<ept id="2">&lt;/embeddedLabel&gt;</ept> dates.</source>
+            <target state="new">Update the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Effective<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expiration<ept id="2">&lt;/embeddedLabel&gt;</ept> dates.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept> to complete.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept> to complete.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Token signing key</source>
+            <target state="new">Token signing key</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> signs all security tokens it issues.</source>
+            <target state="new"><ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> signs all security tokens it issues.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>ACS uses 256-bit symmetric signing keys for applications that consumes SWT tokens issued by <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</source>
+            <target state="new">ACS uses 256-bit symmetric signing keys for applications that consumes SWT tokens issued by <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>When signing keys expire, ACS returns the following errors when you request a token:</source>
+            <target state="new">When signing keys expire, ACS returns the following errors when you request a token:</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Error Code</source>
+            <target state="new">Error Code</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Message</source>
+            <target state="new">Message</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Remedy</source>
+            <target state="new">Remedy</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>ACS50003</source>
+            <target state="new">ACS50003</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>No primary symmetric signing key is configured.</source>
+            <target state="new">No primary symmetric signing key is configured.</target>
+          </trans-unit>
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>A symmetric signing key is required for SWT.</source>
+            <target state="new">A symmetric signing key is required for SWT.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>If the chosen relying party uses SWT as its token type, ensure that a symmetric key is configured for the relying party or the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>, and that the key is set to primary and is not expired.</source>
+            <target state="new">If the chosen relying party uses SWT as its token type, ensure that a symmetric key is configured for the relying party or the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>, and that the key is set to primary and is not expired.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>To renew a signing key:</source>
+            <target state="new">To renew a signing key:</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>Certificates and Keys<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>Certificates and Keys<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Select a key with a status of <bpt id="1">&lt;embeddedLabel&gt;</bpt>Near expired<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expired<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select a key with a status of <bpt id="1">&lt;embeddedLabel&gt;</bpt>Near expired<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expired<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>Certificates and Keys<ept id="1">&lt;/ui&gt;</ept> section, certificates and keys for the <ph id="2">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> are labeled <bpt id="3">&lt;ui&gt;</bpt>Service Namespace<ept id="3">&lt;/ui&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>Certificates and Keys<ept id="1">&lt;/ui&gt;</ept> section, certificates and keys for the <ph id="2">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> are labeled <bpt id="3">&lt;ui&gt;</bpt>Service Namespace<ept id="3">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Enter or generate a key as required.</source>
+            <target state="new">Enter or generate a key as required.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Update the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Effective<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expiration<ept id="2">&lt;/embeddedLabel&gt;</ept> dates.</source>
+            <target state="new">Update the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Effective<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expiration<ept id="2">&lt;/embeddedLabel&gt;</ept> dates.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept> to complete.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept> to complete.</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Token encryption certificates</source>
+            <target state="new">Token encryption certificates</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Token encryption is required when a relying party application is a web service that uses proof-of-possession tokens over the WS-Trust protocol.</source>
+            <target state="new">Token encryption is required when a relying party application is a web service that uses proof-of-possession tokens over the WS-Trust protocol.</target>
+          </trans-unit>
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>In other cases, token encryption is optional.</source>
+            <target state="new">In other cases, token encryption is optional.</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>When encryption certificates expire, ACS returns the following errors when you request a token:</source>
+            <target state="new">When encryption certificates expire, ACS returns the following errors when you request a token:</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Error Code</source>
+            <target state="new">Error Code</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Message</source>
+            <target state="new">Message</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Remedy</source>
+            <target state="new">Remedy</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>ACS50005</source>
+            <target state="new">ACS50005</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Token encryption is required but no encrypting certificate is configured for the relying party.</source>
+            <target state="new">Token encryption is required but no encrypting certificate is configured for the relying party.</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Either disable token encryption for the chosen relying party or upload an X.509 certificate to be used for token encryption.</source>
+            <target state="new">Either disable token encryption for the chosen relying party or upload an X.509 certificate to be used for token encryption.</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>To renew an encryption certificate:</source>
+            <target state="new">To renew an encryption certificate:</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>Certificates and Keys<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>Certificates and Keys<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Select a certificate with a status of <bpt id="1">&lt;embeddedLabel&gt;</bpt>Near expired<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expired<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select a certificate with a status of <bpt id="1">&lt;embeddedLabel&gt;</bpt>Near expired<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expired<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>Certificates and Keys<ept id="1">&lt;/ui&gt;</ept> section, certificates and keys for the <ph id="2">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> are labeled <bpt id="3">&lt;ui&gt;</bpt>Service Namespace<ept id="3">&lt;/ui&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>Certificates and Keys<ept id="1">&lt;/ui&gt;</ept> section, certificates and keys for the <ph id="2">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> are labeled <bpt id="3">&lt;ui&gt;</bpt>Service Namespace<ept id="3">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Enter or browse to the new certificate file, and  then enter the password for that file.</source>
+            <target state="new">Enter or browse to the new certificate file, and  then enter the password for that file.</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept> to complete.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept> to complete.</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Token decryption certificates</source>
+            <target state="new">Token decryption certificates</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> can accept encrypted tokens from WS-Federation identity providers, such as AD FS 2.0.</source>
+            <target state="new"><ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> can accept encrypted tokens from WS-Federation identity providers, such as AD FS 2.0.</target>
+          </trans-unit>
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>ACS uses an X.509 certificate hosted in <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> for decryption.</source>
+            <target state="new">ACS uses an X.509 certificate hosted in <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> for decryption.</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>When decryption certificates expire, ACS returns the following errors when you request a token:</source>
+            <target state="new">When decryption certificates expire, ACS returns the following errors when you request a token:</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>Error Code</source>
+            <target state="new">Error Code</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>Message</source>
+            <target state="new">Message</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>ACS10001</source>
+            <target state="new">ACS10001</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>An error occurred while processing the SOAP header.</source>
+            <target state="new">An error occurred while processing the SOAP header.</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>ACS20001</source>
+            <target state="new">ACS20001</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>An error occurred while processing a WS-Federation sign-in response.</source>
+            <target state="new">An error occurred while processing a WS-Federation sign-in response.</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>To renew a decryption certificate:</source>
+            <target state="new">To renew a decryption certificate:</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>Certificates and Keys<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>Certificates and Keys<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>Use the <bpt id="1">&lt;ui&gt;</bpt>Certificates and Keys<ept id="1">&lt;/ui&gt;</ept> section in the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal to manage certificates or keys related to <ph id="3">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>s and relying party applications.</source>
+            <target state="new">Use the <bpt id="1">&lt;ui&gt;</bpt>Certificates and Keys<ept id="1">&lt;/ui&gt;</ept> section in the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal to manage certificates or keys related to <ph id="3">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>s and relying party applications.</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>Select a certificate with a status of <bpt id="1">&lt;embeddedLabel&gt;</bpt>Near expired<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expired<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select a certificate with a status of <bpt id="1">&lt;embeddedLabel&gt;</bpt>Near expired<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expired<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>Certificates and Keys<ept id="1">&lt;/ui&gt;</ept> section, certificates and keys for the <ph id="2">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> are labeled <bpt id="3">&lt;ui&gt;</bpt>Service Namespace<ept id="3">&lt;/ui&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>Certificates and Keys<ept id="1">&lt;/ui&gt;</ept> section, certificates and keys for the <ph id="2">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> are labeled <bpt id="3">&lt;ui&gt;</bpt>Service Namespace<ept id="3">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>Enter or browse to the new certificate file then enter the password for that file.</source>
+            <target state="new">Enter or browse to the new certificate file then enter the password for that file.</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept> to complete.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept> to complete.</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>Service identity credentials</source>
+            <target state="new">Service identity credentials</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Service identities are credentials that are configured globally for the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</source>
+            <target state="new">Service identities are credentials that are configured globally for the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>They allow applications or clients to authenticate directly with <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> and receive a token.</source>
+            <target state="new">They allow applications or clients to authenticate directly with <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> and receive a token.</target>
+          </trans-unit>
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>An <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> service identity can be use symmetric keys, passwords, and X.509 certificates.</source>
+            <target state="new">An <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> service identity can be use symmetric keys, passwords, and X.509 certificates.</target>
+          </trans-unit>
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> throws the following exceptions when credentials are expired.</source>
+            <target state="new"><ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> throws the following exceptions when credentials are expired.</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>Credential</source>
+            <target state="new">Credential</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>Error Code</source>
+            <target state="new">Error Code</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>Message</source>
+            <target state="new">Message</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>Remedy</source>
+            <target state="new">Remedy</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>Symmetric key, Password</source>
+            <target state="new">Symmetric key, Password</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>ACS50006</source>
+            <target state="new">ACS50006</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>Signature verification failed.</source>
+            <target state="new">Signature verification failed.</target>
+          </trans-unit>
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>(M Details are in the message.)</source>
+            <target state="new">(M Details are in the message.)</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>X.509 Certificate</source>
+            <target state="new">X.509 Certificate</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>ACS50016</source>
+            <target state="new">ACS50016</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>X509Certificate with subject '&lt;Certificate subject name&gt;' and thumbprint '&lt;Certificate thumbprint&gt;' does not match any configured certificate.</source>
+            <target state="new">X509Certificate with subject '&lt;Certificate subject name&gt;' and thumbprint '&lt;Certificate thumbprint&gt;' does not match any configured certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>Ensure that the requested certificate has been uploaded to ACS.</source>
+            <target state="new">Ensure that the requested certificate has been uploaded to ACS.</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>To verify and update expiration dates of symmetric keys or password, or to upload new certificate as service identity credentials follow instructions outlined in <ph id="1">&lt;link xlink:href="8629f6a5-7463-4fe0-8ec5-66cc2c75a9aa" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How To: Add Service Identities with an X.509 Certificate, Password, or Symmetric Key&lt;/link&gt;</ph>.</source>
+            <target state="new">To verify and update expiration dates of symmetric keys or password, or to upload new certificate as service identity credentials follow instructions outlined in <ph id="1">&lt;link xlink:href="8629f6a5-7463-4fe0-8ec5-66cc2c75a9aa" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How To: Add Service Identities with an X.509 Certificate, Password, or Symmetric Key&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>List of service identity credentials available in the <bpt id="1">&lt;ui&gt;</bpt>Edit Service Identity<ept id="1">&lt;/ui&gt;</ept> page.</source>
+            <target state="new">List of service identity credentials available in the <bpt id="1">&lt;ui&gt;</bpt>Edit Service Identity<ept id="1">&lt;/ui&gt;</ept> page.</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>Go to the <bpt id="1">&lt;ui&gt;</bpt>Service identities<ept id="1">&lt;/ui&gt;</ept> page in the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</source>
+            <target state="new">Go to the <bpt id="1">&lt;ui&gt;</bpt>Service identities<ept id="1">&lt;/ui&gt;</ept> page in the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>Select a service identity.</source>
+            <target state="new">Select a service identity.</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>Select a credential, symmetric key, password or X.509 certificate with an <bpt id="1">&lt;embeddedLabel&gt;</bpt>Expired<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Near Expired<ept id="2">&lt;/embeddedLabel&gt;</ept> status.</source>
+            <target state="new">Select a credential, symmetric key, password or X.509 certificate with an <bpt id="1">&lt;embeddedLabel&gt;</bpt>Expired<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Near Expired<ept id="2">&lt;/embeddedLabel&gt;</ept> status.</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>For a symmetric key, enter or generate a new key, and enter <bpt id="1">&lt;embeddedLabel&gt;</bpt>Effective<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expiration<ept id="2">&lt;/embeddedLabel&gt;</ept> dates.</source>
+            <target state="new">For a symmetric key, enter or generate a new key, and enter <bpt id="1">&lt;embeddedLabel&gt;</bpt>Effective<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expiration<ept id="2">&lt;/embeddedLabel&gt;</ept> dates.</target>
+          </trans-unit>
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>For a password, enter a new password and enter <bpt id="1">&lt;embeddedLabel&gt;</bpt>Effective<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expiration<ept id="2">&lt;/embeddedLabel&gt;</ept> dates.</source>
+            <target state="new">For a password, enter a new password and enter <bpt id="1">&lt;embeddedLabel&gt;</bpt>Effective<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expiration<ept id="2">&lt;/embeddedLabel&gt;</ept> dates.</target>
+          </trans-unit>
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>For an X.509 certificate, enter or browse to a new certificate file and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">For an X.509 certificate, enter or browse to a new certificate file and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>Management Service Credentials</source>
+            <target state="new">Management Service Credentials</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service is a key component of <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> that allows you to programmatically manage and configure settings in an <ph id="3">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service is a key component of <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> that allows you to programmatically manage and configure settings in an <ph id="3">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>An <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service account can use symmetric keys, passwords, and an X.509 certificates.</source>
+            <target state="new">An <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service account can use symmetric keys, passwords, and an X.509 certificates.</target>
+          </trans-unit>
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>If these credentials are expired, <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> throws the following exceptions.</source>
+            <target state="new">If these credentials are expired, <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> throws the following exceptions.</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>Credential</source>
+            <target state="new">Credential</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>Error Code</source>
+            <target state="new">Error Code</target>
+          </trans-unit>
+        </group>
+        <group id="123">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>Message</source>
+            <target state="new">Message</target>
+          </trans-unit>
+        </group>
+        <group id="124">
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>Remedy</source>
+            <target state="new">Remedy</target>
+          </trans-unit>
+        </group>
+        <group id="125">
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>Symmetric key or Password</source>
+            <target state="new">Symmetric key or Password</target>
+          </trans-unit>
+        </group>
+        <group id="126">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>ACS50006</source>
+            <target state="new">ACS50006</target>
+          </trans-unit>
+        </group>
+        <group id="127">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>Signature verification failed.</source>
+            <target state="new">Signature verification failed.</target>
+          </trans-unit>
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>(There may be more details in the message.)</source>
+            <target state="new">(There may be more details in the message.)</target>
+          </trans-unit>
+        </group>
+        <group id="128">
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>X.509 Certificate</source>
+            <target state="new">X.509 Certificate</target>
+          </trans-unit>
+        </group>
+        <group id="129">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>ACS50016</source>
+            <target state="new">ACS50016</target>
+          </trans-unit>
+        </group>
+        <group id="130">
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>X509Certificate with subject '&lt;Certificate subject name&gt;' and thumbprint '&lt;Certificate thumbprint&gt;' does not match any configured certificate.</source>
+            <target state="new">X509Certificate with subject '&lt;Certificate subject name&gt;' and thumbprint '&lt;Certificate thumbprint&gt;' does not match any configured certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="131">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>Ensure that the requested certificate has been uploaded to <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</source>
+            <target state="new">Ensure that the requested certificate has been uploaded to <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="132">
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>The list of the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service account credentials is displayed on the <bpt id="2">&lt;ui&gt;</bpt>Edit Management Service Account<ept id="2">&lt;/ui&gt;</ept> page in the <ph id="3">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</source>
+            <target state="new">The list of the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service account credentials is displayed on the <bpt id="2">&lt;ui&gt;</bpt>Edit Management Service Account<ept id="2">&lt;/ui&gt;</ept> page in the <ph id="3">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</target>
+          </trans-unit>
+        </group>
+        <group id="133">
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>Go to the <bpt id="1">&lt;ui&gt;</bpt>Management service<ept id="1">&lt;/ui&gt;</ept> page in the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</source>
+            <target state="new">Go to the <bpt id="1">&lt;ui&gt;</bpt>Management service<ept id="1">&lt;/ui&gt;</ept> page in the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</target>
+          </trans-unit>
+        </group>
+        <group id="134">
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>Select a management service account.</source>
+            <target state="new">Select a management service account.</target>
+          </trans-unit>
+        </group>
+        <group id="135">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>Select  credentials, symmetric keys, passwords, or X.509 certificate with a status of <bpt id="1">&lt;embeddedLabel&gt;</bpt>Expired<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Near Expired<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select  credentials, symmetric keys, passwords, or X.509 certificate with a status of <bpt id="1">&lt;embeddedLabel&gt;</bpt>Expired<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Near Expired<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="136">
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>For a symmetric key, enter or generate a new key  and enter <bpt id="1">&lt;embeddedLabel&gt;</bpt>Effective<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expiration<ept id="2">&lt;/embeddedLabel&gt;</ept> dates.</source>
+            <target state="new">For a symmetric key, enter or generate a new key  and enter <bpt id="1">&lt;embeddedLabel&gt;</bpt>Effective<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expiration<ept id="2">&lt;/embeddedLabel&gt;</ept> dates.</target>
+          </trans-unit>
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="137">
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>For a password, enter a new password and enter <bpt id="1">&lt;embeddedLabel&gt;</bpt>Effective<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expiration<ept id="2">&lt;/embeddedLabel&gt;</ept> dates.</source>
+            <target state="new">For a password, enter a new password and enter <bpt id="1">&lt;embeddedLabel&gt;</bpt>Effective<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expiration<ept id="2">&lt;/embeddedLabel&gt;</ept> dates.</target>
+          </trans-unit>
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="138">
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>For an X.509 certificate, enter or browse to a new certificate, and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">For an X.509 certificate, enter or browse to a new certificate, and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="139">
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>WS-Federation identity provider certificate</source>
+            <target state="new">WS-Federation identity provider certificate</target>
+          </trans-unit>
+        </group>
+        <group id="140">
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source>The federation metadata document for a WS-Federation identity provider includes a thumbprint that identifies the X.509 certificate that is used to sign tokens for the identify provider.</source>
+            <target state="new">The federation metadata document for a WS-Federation identity provider includes a thumbprint that identifies the X.509 certificate that is used to sign tokens for the identify provider.</target>
+          </trans-unit>
+        </group>
+        <group id="141">
+          <trans-unit id="171" translate="yes" xml:space="preserve">
+            <source>To determine whether a WS-Federation identity provider certificate is within the range of its effective dates, use the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service or the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</source>
+            <target state="new">To determine whether a WS-Federation identity provider certificate is within the range of its effective dates, use the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service or the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</target>
+          </trans-unit>
+        </group>
+        <group id="142">
+          <trans-unit id="172" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>To use the ACS Management Portal:<ept id="1">&lt;/embeddedLabel&gt;</ept> </source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>To use the ACS Management Portal:<ept id="1">&lt;/embeddedLabel&gt;</ept> </target>
+          </trans-unit>
+        </group>
+        <group id="143">
+          <trans-unit id="173" translate="yes" xml:space="preserve">
+            <source>Log in to the Azure Management Portal  <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>https://manage.WindowsAzure.com<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=275081&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">Log in to the Azure Management Portal  <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>https://manage.WindowsAzure.com<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=275081&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="144">
+          <trans-unit id="174" translate="yes" xml:space="preserve">
+            <source>Select an Access Control namespace and then click <bpt id="1">&lt;ui&gt;</bpt>Manage<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Select an Access Control namespace and then click <bpt id="1">&lt;ui&gt;</bpt>Manage<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="175" translate="yes" xml:space="preserve">
+            <source>(Or, click <bpt id="1">&lt;ui&gt;</bpt>Access Control Namespaces<ept id="1">&lt;/ui&gt;</ept>, select an Access Control namespace, and then click <bpt id="2">&lt;ui&gt;</bpt>Manage<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">(Or, click <bpt id="1">&lt;ui&gt;</bpt>Access Control Namespaces<ept id="1">&lt;/ui&gt;</ept>, select an Access Control namespace, and then click <bpt id="2">&lt;ui&gt;</bpt>Manage<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="145">
+          <trans-unit id="176" translate="yes" xml:space="preserve">
+            <source>In the ACS Management Portal, click <bpt id="1">&lt;ui&gt;</bpt>Identity providers<ept id="1">&lt;/ui&gt;</ept> and then select a WS-Federation identity provider.</source>
+            <target state="new">In the ACS Management Portal, click <bpt id="1">&lt;ui&gt;</bpt>Identity providers<ept id="1">&lt;/ui&gt;</ept> and then select a WS-Federation identity provider.</target>
+          </trans-unit>
+        </group>
+        <group id="146">
+          <trans-unit id="177" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>Token Signing Certificates<ept id="1">&lt;/ui&gt;</ept> section, view the effective dates and <bpt id="2">&lt;ui&gt;</bpt>Status<ept id="2">&lt;/ui&gt;</ept> of the WS-Federation identity provider certificate.</source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>Token Signing Certificates<ept id="1">&lt;/ui&gt;</ept> section, view the effective dates and <bpt id="2">&lt;ui&gt;</bpt>Status<ept id="2">&lt;/ui&gt;</ept> of the WS-Federation identity provider certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="147">
+          <trans-unit id="178" translate="yes" xml:space="preserve">
+            <source>If the certificated status is <bpt id="1">&lt;ui&gt;</bpt>Expired<ept id="1">&lt;/ui&gt;</ept> or <bpt id="2">&lt;ui&gt;</bpt>Near Expired<ept id="2">&lt;/ui&gt;</ept>, verify that the WS-Federation identity provider (AD FS or a custom identity provider) has added a secondary signing certificate.</source>
+            <target state="new">If the certificated status is <bpt id="1">&lt;ui&gt;</bpt>Expired<ept id="1">&lt;/ui&gt;</ept> or <bpt id="2">&lt;ui&gt;</bpt>Near Expired<ept id="2">&lt;/ui&gt;</ept>, verify that the WS-Federation identity provider (AD FS or a custom identity provider) has added a secondary signing certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="148">
+          <trans-unit id="179" translate="yes" xml:space="preserve">
+            <source>If you used a URL to identify the federation metadata for the WS-Federation identity provider, select <bpt id="1">&lt;ui&gt;</bpt>Reimport data from WS-Federation metadata URL upon save<ept id="1">&lt;/ui&gt;</ept> and then click <bpt id="2">&lt;ui&gt;</bpt>Save<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">If you used a URL to identify the federation metadata for the WS-Federation identity provider, select <bpt id="1">&lt;ui&gt;</bpt>Reimport data from WS-Federation metadata URL upon save<ept id="1">&lt;/ui&gt;</ept> and then click <bpt id="2">&lt;ui&gt;</bpt>Save<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="180" translate="yes" xml:space="preserve">
+            <source>If you uploaded the WS-Federation metadata as a local file, upload the new WS-Federation metadata file again and then click <bpt id="1">&lt;ui&gt;</bpt>Save<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">If you uploaded the WS-Federation metadata as a local file, upload the new WS-Federation metadata file again and then click <bpt id="1">&lt;ui&gt;</bpt>Save<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="149">
+          <trans-unit id="181" translate="yes" xml:space="preserve">
+            <source>If ACS receives a token from an identity provider that is signed with an expired or unknown certificate, ACS throws the following exceptions.</source>
+            <target state="new">If ACS receives a token from an identity provider that is signed with an expired or unknown certificate, ACS throws the following exceptions.</target>
+          </trans-unit>
+        </group>
+        <group id="150">
+          <trans-unit id="182" translate="yes" xml:space="preserve">
+            <source>Error Code</source>
+            <target state="new">Error Code</target>
+          </trans-unit>
+        </group>
+        <group id="151">
+          <trans-unit id="183" translate="yes" xml:space="preserve">
+            <source>Message</source>
+            <target state="new">Message</target>
+          </trans-unit>
+        </group>
+        <group id="152">
+          <trans-unit id="184" translate="yes" xml:space="preserve">
+            <source>ACS10001</source>
+            <target state="new">ACS10001</target>
+          </trans-unit>
+        </group>
+        <group id="153">
+          <trans-unit id="185" translate="yes" xml:space="preserve">
+            <source>An error occurred while processing the SOAP header.</source>
+            <target state="new">An error occurred while processing the SOAP header.</target>
+          </trans-unit>
+        </group>
+        <group id="154">
+          <trans-unit id="186" translate="yes" xml:space="preserve">
+            <source>ACS20001</source>
+            <target state="new">ACS20001</target>
+          </trans-unit>
+        </group>
+        <group id="155">
+          <trans-unit id="187" translate="yes" xml:space="preserve">
+            <source>An error occurred while processing a WS-Federation sign-in response.</source>
+            <target state="new">An error occurred while processing a WS-Federation sign-in response.</target>
+          </trans-unit>
+        </group>
+        <group id="156">
+          <trans-unit id="188" translate="yes" xml:space="preserve">
+            <source>ACS50006</source>
+            <target state="new">ACS50006</target>
+          </trans-unit>
+        </group>
+        <group id="157">
+          <trans-unit id="189" translate="yes" xml:space="preserve">
+            <source>Signature verification failed.</source>
+            <target state="new">Signature verification failed.</target>
+          </trans-unit>
+          <trans-unit id="190" translate="yes" xml:space="preserve">
+            <source>(There may be more details in the message.)</source>
+            <target state="new">(There may be more details in the message.)</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzMsJwzAMANBVPIAE/shO1XMLHaALSLYEgTSBNIWM39wfz72YUu5oRoSUPKLGm2KPSRqzJxGGIKVxtm7YeUpIJQtyJMc6JnWu5DJVCDqG1jY6qhRDapaRq0R0vZCnMopdV4IwDB9PCOcyu9t53PdtOyBkCATh9fvI+t5l/S5yzNv6B+IYtkShAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Define the Autoscaling Formula for a Pool</source>
+            <target state="new">Define the Autoscaling Formula for a Pool</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Automatically scaling applications allows dynamic adjustment of the number of dedicated task virtual machines that are used to process tasks.</source>
+            <target state="new">Automatically scaling applications allows dynamic adjustment of the number of dedicated task virtual machines that are used to process tasks.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>You can specify automatic scaling settings when a pool is created and you can update them later.</source>
+            <target state="new">You can specify automatic scaling settings when a pool is created and you can update them later.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>When automatic scaling is enabled, the number of task virtual machines that are available is adjusted every few minutes based on the settings.</source>
+            <target state="new">When automatic scaling is enabled, the number of task virtual machines that are available is adjusted every few minutes based on the settings.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Automatic scaling formulas</source>
+            <target state="new">Automatic scaling formulas</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>The formula that you define is used to compute the number of available task virtual machines in the pool for the next interval of processing.</source>
+            <target state="new">The formula that you define is used to compute the number of available task virtual machines in the pool for the next interval of processing.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The total size of the formula cannot exceed 8KB, and a formula can include up to 100 statements.</source>
+            <target state="new">The total size of the formula cannot exceed 8KB, and a formula can include up to 100 statements.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>To test an automatic scaling formula, use <ph id="1">&lt;link xlink:href="e40475c7-827c-4d24-9716-b2aa20cf5312" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Evaluate Autoscale&lt;/link&gt;</ph>.</source>
+            <target state="new">To test an automatic scaling formula, use <ph id="1">&lt;link xlink:href="e40475c7-827c-4d24-9716-b2aa20cf5312" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Evaluate Autoscale&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Each formula is a list of statements, and each statement has the following form:</source>
+            <target state="new">Each formula is a list of statements, and each statement has the following form:</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;VAR = Expression&lt;/languageKeyword&gt;</ph>(<bpt id="2">&lt;legacyLink xlink:href="bddb56dc-ba3e-46e2-95a0-fbbf9f13d3e9#bk_sysvar" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>system-defined variables<ept id="2">&lt;/legacyLink&gt;</ept>, user-defined variables);</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;VAR = Expression&lt;/languageKeyword&gt;</ph>(<bpt id="2">&lt;legacyLink xlink:href="bddb56dc-ba3e-46e2-95a0-fbbf9f13d3e9#bk_sysvar" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>system-defined variables<ept id="2">&lt;/legacyLink&gt;</ept>, user-defined variables);</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>You can also combine variables to define complex formulas.</source>
+            <target state="new">You can also combine variables to define complex formulas.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>For example:</source>
+            <target state="new">For example:</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;VAR₀ = Expression₀&lt;/languageKeyword&gt;</ph>(<ph id="2">&lt;parameterReference&gt;system-defined variables&lt;/parameterReference&gt;</ph>);</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;VAR₀ = Expression₀&lt;/languageKeyword&gt;</ph>(<ph id="2">&lt;parameterReference&gt;system-defined variables&lt;/parameterReference&gt;</ph>);</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;VAR₁ = Expression₁&lt;/languageKeyword&gt;</ph>(<ph id="2">&lt;parameterReference&gt;system-defined variables&lt;/parameterReference&gt;</ph>, <ph id="3">&lt;languageKeyword&gt;VAR₀&lt;/languageKeyword&gt;</ph>);</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;VAR₁ = Expression₁&lt;/languageKeyword&gt;</ph>(<ph id="2">&lt;parameterReference&gt;system-defined variables&lt;/parameterReference&gt;</ph>, <ph id="3">&lt;languageKeyword&gt;VAR₀&lt;/languageKeyword&gt;</ph>);</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Types</source>
+            <target state="new">Types</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>The following types are supported in automatic scaling formulas:</source>
+            <target state="new">The following types are supported in automatic scaling formulas:</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;doubleVec&lt;/languageKeyword&gt;</ph> – vector of double values</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;doubleVec&lt;/languageKeyword&gt;</ph> – vector of double values</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;string&lt;/languageKeyword&gt;</ph> – quoted text</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;string&lt;/languageKeyword&gt;</ph> – quoted text</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>This type uses the following predefined values:</source>
+            <target state="new">This type uses the following predefined values:</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;TimeInterval_100ns&lt;/languageKeyword&gt;</ph> (100 nanoseconds)</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;TimeInterval_100ns&lt;/languageKeyword&gt;</ph> (100 nanoseconds)</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;TimeInterval_Year&lt;/languageKeyword&gt;</ph> (defined as 52 weeks, not for computing exact years)</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;TimeInterval_Year&lt;/languageKeyword&gt;</ph> (defined as 52 weeks, not for computing exact years)</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Operators and functions</source>
+            <target state="new">Operators and functions</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Statements in automatic scaling formulas are free-formed expressions.</source>
+            <target state="new">Statements in automatic scaling formulas are free-formed expressions.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>They can include any predefined system variables, any user defined variables, any constant values, and any supported operations on these variables or constants.</source>
+            <target state="new">They can include any predefined system variables, any user defined variables, any constant values, and any supported operations on these variables or constants.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>The following table lists the operations are allowed on the types listed above.</source>
+            <target state="new">The following table lists the operations are allowed on the types listed above.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Operation</source>
+            <target state="new">Operation</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Allowed operators</source>
+            <target state="new">Allowed operators</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>double &lt;operator&gt; double =&gt; double</source>
+            <target state="new">double &lt;operator&gt; double =&gt; double</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>+, -, *, /</source>
+            <target state="new">+, -, *, /</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>double &lt;operator&gt; timeinterval =&gt; timeinterval</source>
+            <target state="new">double &lt;operator&gt; timeinterval =&gt; timeinterval</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>*</source>
+            <target state="new">*</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>doubleVec &lt;operator&gt; double =&gt; doubleVec</source>
+            <target state="new">doubleVec &lt;operator&gt; double =&gt; doubleVec</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>+, -, *, /</source>
+            <target state="new">+, -, *, /</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>doubleVec &lt;operator&gt; doubleVec =&gt; doubleVec</source>
+            <target state="new">doubleVec &lt;operator&gt; doubleVec =&gt; doubleVec</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>+, -, *, /</source>
+            <target state="new">+, -, *, /</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>timeinterval &lt;operator&gt; double =&gt; timeinterval</source>
+            <target state="new">timeinterval &lt;operator&gt; double =&gt; timeinterval</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>*, /</source>
+            <target state="new">*, /</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>timeinterval &lt;operator&gt; timeinterval =&gt; timeinterval</source>
+            <target state="new">timeinterval &lt;operator&gt; timeinterval =&gt; timeinterval</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>+, -</source>
+            <target state="new">+, -</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>timeinterval &lt;operator&gt; timestamp =&gt; timestamp</source>
+            <target state="new">timeinterval &lt;operator&gt; timestamp =&gt; timestamp</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>+</source>
+            <target state="new">+</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>timestamp &lt;operator&gt; timeinterval =&gt; timestamp</source>
+            <target state="new">timestamp &lt;operator&gt; timeinterval =&gt; timestamp</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>+</source>
+            <target state="new">+</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>timestamp &lt;operator&gt; timestamp =&gt; timeinterval</source>
+            <target state="new">timestamp &lt;operator&gt; timestamp =&gt; timeinterval</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>-</source>
+            <target state="new">-</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>&lt;operator&gt;double =&gt; double</source>
+            <target state="new">&lt;operator&gt;double =&gt; double</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>-, !</source>
+            <target state="new">-, !</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>&lt;operator&gt;timeinterval =&gt; timeinterval</source>
+            <target state="new">&lt;operator&gt;timeinterval =&gt; timeinterval</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>-</source>
+            <target state="new">-</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>double &lt;operator&gt; double =&gt; double</source>
+            <target state="new">double &lt;operator&gt; double =&gt; double</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>&lt;, &lt;=, ==, &gt;=, &gt;, !=</source>
+            <target state="new">&lt;, &lt;=, ==, &gt;=, &gt;, !=</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>string &lt;operator&gt; string =&gt; double</source>
+            <target state="new">string &lt;operator&gt; string =&gt; double</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>&lt;, &lt;=, ==, &gt;=, &gt;, !=</source>
+            <target state="new">&lt;, &lt;=, ==, &gt;=, &gt;, !=</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>timestamp &lt;operator&gt; timestamp =&gt; double</source>
+            <target state="new">timestamp &lt;operator&gt; timestamp =&gt; double</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>&lt;, &lt;=, ==, &gt;=, &gt;, !=</source>
+            <target state="new">&lt;, &lt;=, ==, &gt;=, &gt;, !=</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>timeinterval &lt;operator&gt; timeinterval =&gt; double</source>
+            <target state="new">timeinterval &lt;operator&gt; timeinterval =&gt; double</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>&lt;, &lt;=, ==, &gt;=, &gt;, !=</source>
+            <target state="new">&lt;, &lt;=, ==, &gt;=, &gt;, !=</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>double &lt;operator&gt; double =&gt; double</source>
+            <target state="new">double &lt;operator&gt; double =&gt; double</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>&amp;&amp;, ||</source>
+            <target state="new">&amp;&amp;, ||</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>test is double only (non-zero is true, zero is false)</source>
+            <target state="new">test is double only (non-zero is true, zero is false)</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>?</source>
+            <target state="new">?</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>:</source>
+            <target state="new">:</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>The following table describes the set of predefined functions that is available to define an automatic scaling formula.</source>
+            <target state="new">The following table describes the set of predefined functions that is available to define an automatic scaling formula.</target>
+          </trans-unit>
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Some of the functions described in the table can accept a list as an argument.</source>
+            <target state="new">Some of the functions described in the table can accept a list as an argument.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>The comma separated list is any combination of double and doubleVec.</source>
+            <target state="new">The comma separated list is any combination of double and doubleVec.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>For example:</source>
+            <target state="new">For example:</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>doubleVecList := ( (double | doubleVec)+(, (double | doubleVec) )* )?</source>
+            <target state="new">doubleVecList := ( (double | doubleVec)+(, (double | doubleVec) )* )?</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>The doubleVecList value is converted to a single doubleVec prior to evaluation.</source>
+            <target state="new">The doubleVecList value is converted to a single doubleVec prior to evaluation.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>For example, if v = [1,2,3], then calling avg(v) is equivalent to calling avg(1,2,3) and calling avg(v, 7) is equivalent to calling avg(1,2,3,7).</source>
+            <target state="new">For example, if v = [1,2,3], then calling avg(v) is equivalent to calling avg(1,2,3) and calling avg(v, 7) is equivalent to calling avg(1,2,3,7).</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Function</source>
+            <target state="new">Function</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>double <ph id="1">&lt;languageKeyword&gt;avg&lt;/languageKeyword&gt;</ph>(doubleVecList)</source>
+            <target state="new">double <ph id="1">&lt;languageKeyword&gt;avg&lt;/languageKeyword&gt;</ph>(doubleVecList)</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>The average value for all values in the doubleVecList.</source>
+            <target state="new">The average value for all values in the doubleVecList.</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>double <ph id="1">&lt;languageKeyword&gt;len&lt;/languageKeyword&gt;</ph>(doubleVecList)</source>
+            <target state="new">double <ph id="1">&lt;languageKeyword&gt;len&lt;/languageKeyword&gt;</ph>(doubleVecList)</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>The length of the vector created from the doubleVecList.</source>
+            <target state="new">The length of the vector created from the doubleVecList.</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>double <ph id="1">&lt;languageKeyword&gt;lg&lt;/languageKeyword&gt;</ph>(double)</source>
+            <target state="new">double <ph id="1">&lt;languageKeyword&gt;lg&lt;/languageKeyword&gt;</ph>(double)</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Log base 2.</source>
+            <target state="new">Log base 2.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>doubleVec <ph id="1">&lt;languageKeyword&gt;lg&lt;/languageKeyword&gt;</ph>(doubleVecList)</source>
+            <target state="new">doubleVec <ph id="1">&lt;languageKeyword&gt;lg&lt;/languageKeyword&gt;</ph>(doubleVecList)</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Componentwise log base 2.</source>
+            <target state="new">Componentwise log base 2.</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>vec(double) must be explicitly passed for single double parameter, otherwise the  double lg(double) version is assumed.</source>
+            <target state="new">vec(double) must be explicitly passed for single double parameter, otherwise the  double lg(double) version is assumed.</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>double <ph id="1">&lt;languageKeyword&gt;ln&lt;/languageKeyword&gt;</ph>(double)</source>
+            <target state="new">double <ph id="1">&lt;languageKeyword&gt;ln&lt;/languageKeyword&gt;</ph>(double)</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Natural log.</source>
+            <target state="new">Natural log.</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>doubleVec <ph id="1">&lt;languageKeyword&gt;ln&lt;/languageKeyword&gt;</ph>(doubleVecList)</source>
+            <target state="new">doubleVec <ph id="1">&lt;languageKeyword&gt;ln&lt;/languageKeyword&gt;</ph>(doubleVecList)</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Componentwise log base 2.</source>
+            <target state="new">Componentwise log base 2.</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>vec(double) must be explicitly passed for single double parameter, otherwise the  double lg(double) version is assumed.</source>
+            <target state="new">vec(double) must be explicitly passed for single double parameter, otherwise the  double lg(double) version is assumed.</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>double <ph id="1">&lt;languageKeyword&gt;log&lt;/languageKeyword&gt;</ph>(double)</source>
+            <target state="new">double <ph id="1">&lt;languageKeyword&gt;log&lt;/languageKeyword&gt;</ph>(double)</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Log base 10.</source>
+            <target state="new">Log base 10.</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>doubleVec <ph id="1">&lt;languageKeyword&gt;log&lt;/languageKeyword&gt;</ph>(doubleVecList)</source>
+            <target state="new">doubleVec <ph id="1">&lt;languageKeyword&gt;log&lt;/languageKeyword&gt;</ph>(doubleVecList)</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Componentwise log base 10.</source>
+            <target state="new">Componentwise log base 10.</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>vec(double) must be explicitly passed for single double parameter, otherwise the  double log(double) version is assumed.</source>
+            <target state="new">vec(double) must be explicitly passed for single double parameter, otherwise the  double log(double) version is assumed.</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>double <ph id="1">&lt;languageKeyword&gt;max&lt;/languageKeyword&gt;</ph>(doubleVecList)</source>
+            <target state="new">double <ph id="1">&lt;languageKeyword&gt;max&lt;/languageKeyword&gt;</ph>(doubleVecList)</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>The maximum value in the doubleVecList.</source>
+            <target state="new">The maximum value in the doubleVecList.</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>double <ph id="1">&lt;languageKeyword&gt;min&lt;/languageKeyword&gt;</ph>(doubleVecList)</source>
+            <target state="new">double <ph id="1">&lt;languageKeyword&gt;min&lt;/languageKeyword&gt;</ph>(doubleVecList)</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>The minimum value in the doubleVecList.</source>
+            <target state="new">The minimum value in the doubleVecList.</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>double <ph id="1">&lt;languageKeyword&gt;norm&lt;/languageKeyword&gt;</ph>(doubleVecList)</source>
+            <target state="new">double <ph id="1">&lt;languageKeyword&gt;norm&lt;/languageKeyword&gt;</ph>(doubleVecList)</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>The two-norm of the vector created from the doubleVecList.</source>
+            <target state="new">The two-norm of the vector created from the doubleVecList.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>double <ph id="1">&lt;languageKeyword&gt;percentile&lt;/languageKeyword&gt;</ph>(doubleVec v, double p)</source>
+            <target state="new">double <ph id="1">&lt;languageKeyword&gt;percentile&lt;/languageKeyword&gt;</ph>(doubleVec v, double p)</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>The percentile element of the vector v.</source>
+            <target state="new">The percentile element of the vector v.</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>double <ph id="1">&lt;languageKeyword&gt;rand&lt;/languageKeyword&gt;</ph>()</source>
+            <target state="new">double <ph id="1">&lt;languageKeyword&gt;rand&lt;/languageKeyword&gt;</ph>()</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>A random value between 0.0 and 1.0.</source>
+            <target state="new">A random value between 0.0 and 1.0.</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>double <ph id="1">&lt;languageKeyword&gt;range&lt;/languageKeyword&gt;</ph>(doubleVecList)</source>
+            <target state="new">double <ph id="1">&lt;languageKeyword&gt;range&lt;/languageKeyword&gt;</ph>(doubleVecList)</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>The difference between the min and max values in doubleVecList.</source>
+            <target state="new">The difference between the min and max values in doubleVecList.</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>double <ph id="1">&lt;languageKeyword&gt;std&lt;/languageKeyword&gt;</ph>(doubleVecList)</source>
+            <target state="new">double <ph id="1">&lt;languageKeyword&gt;std&lt;/languageKeyword&gt;</ph>(doubleVecList)</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>The sample standard deviation of the values in the doubleVecList.</source>
+            <target state="new">The sample standard deviation of the values in the doubleVecList.</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;stop&lt;/languageKeyword&gt;</ph>()</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;stop&lt;/languageKeyword&gt;</ph>()</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Stop auto-scaling expression evaluation.</source>
+            <target state="new">Stop auto-scaling expression evaluation.</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>double <ph id="1">&lt;languageKeyword&gt;sum&lt;/languageKeyword&gt;</ph>(doubleVecList)</source>
+            <target state="new">double <ph id="1">&lt;languageKeyword&gt;sum&lt;/languageKeyword&gt;</ph>(doubleVecList)</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>The sum of all the components of doubleVecList.</source>
+            <target state="new">The sum of all the components of doubleVecList.</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>timestamp <ph id="1">&lt;languageKeyword&gt;time&lt;/languageKeyword&gt;</ph>(string dateTime="")</source>
+            <target state="new">timestamp <ph id="1">&lt;languageKeyword&gt;time&lt;/languageKeyword&gt;</ph>(string dateTime="")</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>The timestamp of the current time if no parameters passed, or the timestamp of the dateTime string if passed.</source>
+            <target state="new">The timestamp of the current time if no parameters passed, or the timestamp of the dateTime string if passed.</target>
+          </trans-unit>
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Supported dateTime formats are W3CDTF and RFC1123.</source>
+            <target state="new">Supported dateTime formats are W3CDTF and RFC1123.</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>double <ph id="1">&lt;languageKeyword&gt;val&lt;/languageKeyword&gt;</ph>(doubleVec v, double i)</source>
+            <target state="new">double <ph id="1">&lt;languageKeyword&gt;val&lt;/languageKeyword&gt;</ph>(doubleVec v, double i)</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>The value of the element at location i in vector v with a starting index of zero.</source>
+            <target state="new">The value of the element at location i in vector v with a starting index of zero.</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>doubleVec <ph id="1">&lt;languageKeyword&gt;vec&lt;/languageKeyword&gt;</ph>(doubleVecList)</source>
+            <target state="new">doubleVec <ph id="1">&lt;languageKeyword&gt;vec&lt;/languageKeyword&gt;</ph>(doubleVecList)</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>Explicitly create a single doubleVec from doubleVecList.</source>
+            <target state="new">Explicitly create a single doubleVec from doubleVecList.</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>System defined variables</source>
+            <target state="new">System defined variables</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>The following table describes the system-defined variables that are used to manage task virtual machines in a pool.</source>
+            <target state="new">The following table describes the system-defined variables that are used to manage task virtual machines in a pool.</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Variable</source>
+            <target state="new">Variable</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>Specifies the target number of dedicated task virtual machines for the pool.</source>
+            <target state="new">Specifies the target number of dedicated task virtual machines for the pool.</target>
+          </trans-unit>
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>The value can be changed based upon actual usage for tasks.</source>
+            <target state="new">The value can be changed based upon actual usage for tasks.</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>Specifies the action that occurs when task virtual machines are removed from a pool.</source>
+            <target state="new">Specifies the action that occurs when task virtual machines are removed from a pool.</target>
+          </trans-unit>
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>The possible values are:</source>
+            <target state="new">The possible values are:</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;requeue&lt;/languageKeyword&gt;</ph> – Terminate tasks immediately and put them back on the job queue so that they are rescheduled</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;requeue&lt;/languageKeyword&gt;</ph> – Terminate tasks immediately and put them back on the job queue so that they are rescheduled</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;terminate&lt;/languageKeyword&gt;</ph> – Terminate tasks immediately and remove them from the job queue</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;terminate&lt;/languageKeyword&gt;</ph> – Terminate tasks immediately and remove them from the job queue</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;taskcompletion&lt;/languageKeyword&gt;</ph> – Wait for currently running tasks to finish and then remove the machine from the pool</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;taskcompletion&lt;/languageKeyword&gt;</ph> – Wait for currently running tasks to finish and then remove the machine from the pool</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;retaineddata&lt;/languageKeyword&gt;</ph> - Wait for all the local task retained data on the TVM to get cleaned up (as a result of user defined data retention policies) before taking away the TVM.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;retaineddata&lt;/languageKeyword&gt;</ph> - Wait for all the local task retained data on the TVM to get cleaned up (as a result of user defined data retention policies) before taking away the TVM.</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>The following table describes the system-defined variables that are used to make adjustments based on metrics.</source>
+            <target state="new">The following table describes the system-defined variables that are used to make adjustments based on metrics.</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>Variable</source>
+            <target state="new">Variable</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>The average percentage of CPU usage across all task virtual machines in the sample.</source>
+            <target state="new">The average percentage of CPU usage across all task virtual machines in the sample.</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>The number of seconds consumed by all task virtual machines in the sample.</source>
+            <target state="new">The number of seconds consumed by all task virtual machines in the sample.</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>The average number of megabytes used by all task virtual machines in the sample.</source>
+            <target state="new">The average number of megabytes used by all task virtual machines in the sample.</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>The average number of gigabytes used on the local disk of all task virtual machines in the sample.</source>
+            <target state="new">The average number of gigabytes used on the local disk of all task virtual machines in the sample.</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>The number of bytes read by all task virtual machines in the sample.</source>
+            <target state="new">The number of bytes read by all task virtual machines in the sample.</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>The number of bytes written by all task virtual machines in the sample.</source>
+            <target state="new">The number of bytes written by all task virtual machines in the sample.</target>
+          </trans-unit>
+        </group>
+        <group id="123">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>The count of read disk operations performed by all task virtual machines in the sample.</source>
+            <target state="new">The count of read disk operations performed by all task virtual machines in the sample.</target>
+          </trans-unit>
+        </group>
+        <group id="124">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>The count of write disk operations performed by all task virtual machines in the sample.</source>
+            <target state="new">The count of write disk operations performed by all task virtual machines in the sample.</target>
+          </trans-unit>
+        </group>
+        <group id="125">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>The number of inbound bytes into all task virtual machines in the sample.</source>
+            <target state="new">The number of inbound bytes into all task virtual machines in the sample.</target>
+          </trans-unit>
+        </group>
+        <group id="126">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>The number of outbound bytes into all task virtual machines in the sample.</source>
+            <target state="new">The number of outbound bytes into all task virtual machines in the sample.</target>
+          </trans-unit>
+        </group>
+        <group id="127">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>The count of task virtual machines in the pool which contributed to the sample values.</source>
+            <target state="new">The count of task virtual machines in the pool which contributed to the sample values.</target>
+          </trans-unit>
+        </group>
+        <group id="128">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>The number of tasks that are in an active state on the pool at the time of the sample.</source>
+            <target state="new">The number of tasks that are in an active state on the pool at the time of the sample.</target>
+          </trans-unit>
+        </group>
+        <group id="129">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>The number of tasks in a running state on the pool at the time of the sample.</source>
+            <target state="new">The number of tasks in a running state on the pool at the time of the sample.</target>
+          </trans-unit>
+        </group>
+        <group id="130">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>The number of tasks that finished successfully over the sample period.</source>
+            <target state="new">The number of tasks that finished successfully over the sample period.</target>
+          </trans-unit>
+        </group>
+        <group id="131">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>The number of tasks that failed over the sample period.</source>
+            <target state="new">The number of tasks that failed over the sample period.</target>
+          </trans-unit>
+        </group>
+        <group id="132">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>The current number of dedicated task virtual machines for the pool.</source>
+            <target state="new">The current number of dedicated task virtual machines for the pool.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

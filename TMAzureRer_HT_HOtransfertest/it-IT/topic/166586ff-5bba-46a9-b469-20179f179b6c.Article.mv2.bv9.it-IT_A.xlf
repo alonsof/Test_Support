@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="it-IT" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAVzcEJwzAMQNFVPIAFdirLVido71lASiUIpAmkLmT8uvfH/+43U5wWMEMEzJ5AU1NYUhZi9izCMUgmMiMDqZ7/SoZ6MUxNMGWuxb3FMFBp5A5FVQBJGBRpqJTrKFVWWoaKYe3wnGO4ttXdrn4/j6PHMMUwVo/vW/b5lP2zSV+P/QeSJb6uoQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Build Count Table (deprecated)</source>
+            <target state="new">Build Count Table (deprecated)</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Builds a count table that can be used to create count-based features.</source>
+            <target state="new">Builds a count table that can be used to create count-based features.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Category: <ph id="1">&lt;link xlink:href="81c457af-f5c0-4b2d-922c-fdef2274413c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Data Transformation\Learning with Counts&lt;/link&gt;</ph></source>
+            <target state="new">Category: <ph id="1">&lt;link xlink:href="81c457af-f5c0-4b2d-922c-fdef2274413c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Data Transformation\Learning with Counts&lt;/link&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Module Overview</source>
+            <target state="new">Module Overview</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You can use the <bpt id="1">&lt;ui&gt;</bpt>Build Count Table<ept id="1">&lt;/ui&gt;</ept> module to analyze training data and create a <bpt id="2">&lt;newTerm&gt;</bpt>count table<ept id="2">&lt;/newTerm&gt;</ept>, which contains the joint distribution of all feature columns given a specified label column.</source>
+            <target state="new">You can use the <bpt id="1">&lt;ui&gt;</bpt>Build Count Table<ept id="1">&lt;/ui&gt;</ept> module to analyze training data and create a <bpt id="2">&lt;newTerm&gt;</bpt>count table<ept id="2">&lt;/newTerm&gt;</ept>, which contains the joint distribution of all feature columns given a specified label column.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>You provide this table of counts as an input to the <ph id="1">&lt;link xlink:href="217741b5-730a-4c4b-839c-93c9cbb80ae7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Count Featurizer&lt;/link&gt;</ph> module, which uses the count-based information to create a set of features that is more compact than the original training data, but which captures all the most useful information.</source>
+            <target state="new">You provide this table of counts as an input to the <ph id="1">&lt;link xlink:href="217741b5-730a-4c4b-839c-93c9cbb80ae7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Count Featurizer&lt;/link&gt;</ph> module, which uses the count-based information to create a set of features that is more compact than the original training data, but which captures all the most useful information.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>You can generate a new count table from a dataset each time you run your experiment, or you can write the table to blob storage or a Hive table, and then update or reuse the table in other experiments or with other data.</source>
+            <target state="new">You can generate a new count table from a dataset each time you run your experiment, or you can write the table to blob storage or a Hive table, and then update or reuse the table in other experiments or with other data.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Updating or reusing the data is useful in scenarios such as these:</source>
+            <target state="new">Updating or reusing the data is useful in scenarios such as these:</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>When new data becomes available to further enhance the model, you can create a new count table and merge it with previously created counts table to improve the joint distributions.</source>
+            <target state="new">When new data becomes available to further enhance the model, you can create a new count table and merge it with previously created counts table to improve the joint distributions.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>If you generate a set of counts that reflects the expected distribution of data in the real world domain, you can reuse that table when scoring new models, to ensure that features reflect the real world, rather than risk overfitting your model on a small and possibly skewed subset of data.</source>
+            <target state="new">If you generate a set of counts that reflects the expected distribution of data in the real world domain, you can reuse that table when scoring new models, to ensure that features reflect the real world, rather than risk overfitting your model on a small and possibly skewed subset of data.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>This module has been deprecated.</source>
+            <target state="new">This module has been deprecated.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>For new experiments, we recommend that you use the following modules:</source>
+            <target state="new">For new experiments, we recommend that you use the following modules:</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>For backward compatibility with existing experiments, the following modules can help you update an existing count table, or change the count table to a new count transformation.</source>
+            <target state="new">For backward compatibility with existing experiments, the following modules can help you update an existing count table, or change the count table to a new count transformation.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Examples</source>
+            <target state="new">Examples</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>You can see how this module is used by exploring these sample experiments in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Model Gallery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://gallery.azureml.net/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>:</source>
+            <target state="new">You can see how this module is used by exploring these sample experiments in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Model Gallery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://gallery.azureml.net/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>:</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>flight delay prediction<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525277&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> sample demonstrates the use of count-based featurization over a very large dataset.</source>
+            <target state="new">The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>flight delay prediction<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525277&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> sample demonstrates the use of count-based featurization over a very large dataset.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Technical Notes</source>
+            <target state="new">Technical Notes</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>In statistical learning theory, a classification problem can be formulated as the problem of finding an estimate of a target function from labelled data drawn from an unknown fixed distribution.</source>
+            <target state="new">In statistical learning theory, a classification problem can be formulated as the problem of finding an estimate of a target function from labelled data drawn from an unknown fixed distribution.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>In fact, if there is a way to know the exact joint distribution of the features of the data and the label, you can readily estimate the target function, given a metric for evaluating the estimates.</source>
+            <target state="new">In fact, if there is a way to know the exact joint distribution of the features of the data and the label, you can readily estimate the target function, given a metric for evaluating the estimates.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Therefore, if all combinations of all columns of the dataset are used to build the count table, the generated count table must completely describe the distribution of the label values over the training data.</source>
+            <target state="new">Therefore, if all combinations of all columns of the dataset are used to build the count table, the generated count table must completely describe the distribution of the label values over the training data.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>However, if there are <bpt id="1">&lt;legacyItalic&gt;</bpt>N<ept id="1">&lt;/legacyItalic&gt;</ept> columns in the training data, then there are <bpt id="2">&lt;legacyItalic&gt;</bpt>2^N<ept id="2">&lt;/legacyItalic&gt;</ept> choices of joint columns to count, which becomes an enormous number when <bpt id="3">&lt;legacyItalic&gt;</bpt>N<ept id="3">&lt;/legacyItalic&gt;</ept> is large.</source>
+            <target state="new">However, if there are <bpt id="1">&lt;legacyItalic&gt;</bpt>N<ept id="1">&lt;/legacyItalic&gt;</ept> columns in the training data, then there are <bpt id="2">&lt;legacyItalic&gt;</bpt>2^N<ept id="2">&lt;/legacyItalic&gt;</ept> choices of joint columns to count, which becomes an enormous number when <bpt id="3">&lt;legacyItalic&gt;</bpt>N<ept id="3">&lt;/legacyItalic&gt;</ept> is large.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Therefore, in practice, you will typically choose a small subset of joint columns to build the count table, and use the count table to compute additional features, which can be used to train classifiers such as a decision tree or a neural network.</source>
+            <target state="new">Therefore, in practice, you will typically choose a small subset of joint columns to build the count table, and use the count table to compute additional features, which can be used to train classifiers such as a decision tree or a neural network.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>For any subset of selected columns in the training data, and for each row of the data, you can look up values in the count table to generate any combination of the following features: </source>
+            <target state="new">For any subset of selected columns in the training data, and for each row of the data, you can look up values in the count table to generate any combination of the following features: </target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Total counts per label class</source>
+            <target state="new">Total counts per label class</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Log of the odds ratio (log odds) for each label class</source>
+            <target state="new">Log of the odds ratio (log odds) for each label class</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>A flag indicating whether the total counts of the appearance of the row is too low for sufficient statistical significance</source>
+            <target state="new">A flag indicating whether the total counts of the appearance of the row is too low for sufficient statistical significance</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>These additional features can be used in combination with the other original columns of the training data, or you can replace some of the original data columns with the count featurized columns.</source>
+            <target state="new">These additional features can be used in combination with the other original columns of the training data, or you can replace some of the original data columns with the count featurized columns.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Expected Inputs</source>
+            <target state="new">Expected Inputs</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Input data</source>
+            <target state="new">Input data</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>The data to count.</source>
+            <target state="new">The data to count.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Module Parameters</source>
+            <target state="new">Module Parameters</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Range</source>
+            <target state="new">Range</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Optional</source>
+            <target state="new">Optional</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Default</source>
+            <target state="new">Default</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source> Description</source>
+            <target state="new"> Description</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Account key</source>
+            <target state="new">Account key</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>SecureString</source>
+            <target state="new">SecureString</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>countingType:Blob</source>
+            <target state="new">countingType:Blob</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>The key of the storage account used for the count table.</source>
+            <target state="new">The key of the storage account used for the count table.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Account name</source>
+            <target state="new">Account name</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>countingType:Blob</source>
+            <target state="new">countingType:Blob</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>The name of the storage account used for the count table.</source>
+            <target state="new">The name of the storage account used for the count table.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Blob format</source>
+            <target state="new">Blob format</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>BlobFormat</source>
+            <target state="new">BlobFormat</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>countingType:Blob</source>
+            <target state="new">countingType:Blob</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>CSV</source>
+            <target state="new">CSV</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Specify the format of the blob file used for the counts table.</source>
+            <target state="new">Specify the format of the blob file used for the counts table.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Blob format</source>
+            <target state="new">Blob format</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>BlobFormat</source>
+            <target state="new">BlobFormat</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>countingType:MapReduce</source>
+            <target state="new">countingType:MapReduce</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>CSV</source>
+            <target state="new">CSV</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>The blob text file format.</source>
+            <target state="new">The blob text file format.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Blob name</source>
+            <target state="new">Blob name</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>countingType:Blob</source>
+            <target state="new">countingType:Blob</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>The name of the Azure blob where the count table is stored.</source>
+            <target state="new">The name of the Azure blob where the count table is stored.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Cluster URI</source>
+            <target state="new">Cluster URI</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>countingType:MapReduce</source>
+            <target state="new">countingType:MapReduce</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>The URI to the HDInsight Hadoop cluster to perform MapReduce counting for MapReduce counting.</source>
+            <target state="new">The URI to the HDInsight Hadoop cluster to perform MapReduce counting for MapReduce counting.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Container name</source>
+            <target state="new">Container name</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>countingType:Blob</source>
+            <target state="new">countingType:Blob</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>The name of the blob container where the count table will be saved.</source>
+            <target state="new">The name of the blob container where the count table will be saved.</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Count columns</source>
+            <target state="new">Count columns</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>countingType:Blob</source>
+            <target state="new">countingType:Blob</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>A list of the columns to perform counting on, specified as a comma-separated list of column indices.</source>
+            <target state="new">A list of the columns to perform counting on, specified as a comma-separated list of column indices.</target>
+          </trans-unit>
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Column indexes are 1-based.</source>
+            <target state="new">Column indexes are 1-based.</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Count columns</source>
+            <target state="new">Count columns</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>countingType:MapReduce</source>
+            <target state="new">countingType:MapReduce</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>The one-based indices of groups of columns to perform counting for MapReduce counting.</source>
+            <target state="new">The one-based indices of groups of columns to perform counting for MapReduce counting.</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Count table type</source>
+            <target state="new">Count table type</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>CountTableType</source>
+            <target state="new">CountTableType</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>countingType:Blob</source>
+            <target state="new">countingType:Blob</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Dictionary</source>
+            <target state="new">Dictionary</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Specify the type of count table to use: Dictionary or CMSketch.</source>
+            <target state="new">Specify the type of count table to use: Dictionary or CMSketch.</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Count table type</source>
+            <target state="new">Count table type</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>CountTableType</source>
+            <target state="new">CountTableType</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>countingType:MapReduce</source>
+            <target state="new">countingType:MapReduce</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Dictionary</source>
+            <target state="new">Dictionary</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Specify the type of count table to use: Dictionary or CMSketch.</source>
+            <target state="new">Specify the type of count table to use: Dictionary or CMSketch.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Default container name</source>
+            <target state="new">Default container name</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>countingType:MapReduce</source>
+            <target state="new">countingType:MapReduce</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>The name of the blob container to write the count table for MapReduce counting.</source>
+            <target state="new">The name of the blob container to write the count table for MapReduce counting.</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Default storage account key</source>
+            <target state="new">Default storage account key</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>SecureString</source>
+            <target state="new">SecureString</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>countingType:MapReduce</source>
+            <target state="new">countingType:MapReduce</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>The key of the storage account containing the input blob for MapReduce counting.</source>
+            <target state="new">The key of the storage account containing the input blob for MapReduce counting.</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Default storage account name</source>
+            <target state="new">Default storage account name</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>countingType:MapReduce</source>
+            <target state="new">countingType:MapReduce</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>The name of the storage account containing the input blob for MapReduce counting.</source>
+            <target state="new">The name of the storage account containing the input blob for MapReduce counting.</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Depth of CM sketch table</source>
+            <target state="new">Depth of CM sketch table</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>&gt;=1</source>
+            <target state="new">&gt;=1</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>azureCountTableType:CMSketch</source>
+            <target state="new">azureCountTableType:CMSketch</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>4</source>
+            <target state="new">4</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>If you choose the CMSketch format for the count table, specify the depth of the CM sketch table.</source>
+            <target state="new">If you choose the CMSketch format for the count table, specify the depth of the CM sketch table.</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>Depth of CM sketch table</source>
+            <target state="new">Depth of CM sketch table</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>&gt;=1</source>
+            <target state="new">&gt;=1</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>dataCountTableType:CMSketch</source>
+            <target state="new">dataCountTableType:CMSketch</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>4</source>
+            <target state="new">4</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>If you choose the CMSketch format for the count table, specify the depth of the CM sketch table.</source>
+            <target state="new">If you choose the CMSketch format for the count table, specify the depth of the CM sketch table.</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>Input blob name</source>
+            <target state="new">Input blob name</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>countingType:MapReduce</source>
+            <target state="new">countingType:MapReduce</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>The name of the blob that contains the data to be counted using MapReduce counting.</source>
+            <target state="new">The name of the blob that contains the data to be counted using MapReduce counting.</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Input data container</source>
+            <target state="new">Input data container</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>HadoopInputContainer</source>
+            <target state="new">HadoopInputContainer</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>countingType:MapReduce</source>
+            <target state="new">countingType:MapReduce</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>Default container</source>
+            <target state="new">Default container</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>The container that contains the blob with input for MapReduce counting.</source>
+            <target state="new">The container that contains the blob with input for MapReduce counting.</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>Label column</source>
+            <target state="new">Label column</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>&gt;=1</source>
+            <target state="new">&gt;=1</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>countingType:Blob</source>
+            <target state="new">countingType:Blob</target>
+          </trans-unit>
+        </group>
+        <group id="123">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="124">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>The index of the label column.</source>
+            <target state="new">The index of the label column.</target>
+          </trans-unit>
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>Column indexes are 1-based.</source>
+            <target state="new">Column indexes are 1-based.</target>
+          </trans-unit>
+        </group>
+        <group id="125">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>Label column</source>
+            <target state="new">Label column</target>
+          </trans-unit>
+        </group>
+        <group id="126">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="127">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>&gt;=1</source>
+            <target state="new">&gt;=1</target>
+          </trans-unit>
+        </group>
+        <group id="128">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>countingType:MapReduce</source>
+            <target state="new">countingType:MapReduce</target>
+          </trans-unit>
+        </group>
+        <group id="129">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="130">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>The index of the label column.</source>
+            <target state="new">The index of the label column.</target>
+          </trans-unit>
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>Column indexes are 1-based.</source>
+            <target state="new">Column indexes are 1-based.</target>
+          </trans-unit>
+        </group>
+        <group id="131">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>Label column index or name</source>
+            <target state="new">Label column index or name</target>
+          </trans-unit>
+        </group>
+        <group id="132">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>ColumnSelection</source>
+            <target state="new">ColumnSelection</target>
+          </trans-unit>
+        </group>
+        <group id="133">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>countingType:Dataset</source>
+            <target state="new">countingType:Dataset</target>
+          </trans-unit>
+        </group>
+        <group id="134">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>Select the column that contains the label for the dataset.</source>
+            <target state="new">Select the column that contains the label for the dataset.</target>
+          </trans-unit>
+        </group>
+        <group id="135">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>Module type</source>
+            <target state="new">Module type</target>
+          </trans-unit>
+        </group>
+        <group id="136">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>CountingType</source>
+            <target state="new">CountingType</target>
+          </trans-unit>
+        </group>
+        <group id="137">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>Required</source>
+            <target state="new">Required</target>
+          </trans-unit>
+        </group>
+        <group id="138">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>Dataset</source>
+            <target state="new">Dataset</target>
+          </trans-unit>
+        </group>
+        <group id="139">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>Specify where the counts table will be created and stored.</source>
+            <target state="new">Specify where the counts table will be created and stored.</target>
+          </trans-unit>
+        </group>
+        <group id="140">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>Number of classes</source>
+            <target state="new">Number of classes</target>
+          </trans-unit>
+        </group>
+        <group id="141">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="142">
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>&gt;=2</source>
+            <target state="new">&gt;=2</target>
+          </trans-unit>
+        </group>
+        <group id="143">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>Required</source>
+            <target state="new">Required</target>
+          </trans-unit>
+        </group>
+        <group id="144">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>2</source>
+            <target state="new">2</target>
+          </trans-unit>
+        </group>
+        <group id="145">
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>The number of classes for the label.</source>
+            <target state="new">The number of classes for the label.</target>
+          </trans-unit>
+        </group>
+        <group id="146">
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>Output blob path</source>
+            <target state="new">Output blob path</target>
+          </trans-unit>
+        </group>
+        <group id="147">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>string</source>
+            <target state="new">string</target>
+          </trans-unit>
+        </group>
+        <group id="148">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>countingType:MapReduce</source>
+            <target state="new">countingType:MapReduce</target>
+          </trans-unit>
+        </group>
+        <group id="149">
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>The output blob path for the count table for MapReduce counting.</source>
+            <target state="new">The output blob path for the count table for MapReduce counting.</target>
+          </trans-unit>
+        </group>
+        <group id="150">
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>Password</source>
+            <target state="new">Password</target>
+          </trans-unit>
+        </group>
+        <group id="151">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>SecureString</source>
+            <target state="new">SecureString</target>
+          </trans-unit>
+        </group>
+        <group id="152">
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>countingType:MapReduce</source>
+            <target state="new">countingType:MapReduce</target>
+          </trans-unit>
+        </group>
+        <group id="153">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>The password to login to the HDInsight Hadoop cluster for MapReduce counting.</source>
+            <target state="new">The password to login to the HDInsight Hadoop cluster for MapReduce counting.</target>
+          </trans-unit>
+        </group>
+        <group id="154">
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>Select columns to count</source>
+            <target state="new">Select columns to count</target>
+          </trans-unit>
+        </group>
+        <group id="155">
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>ColumnSelection</source>
+            <target state="new">ColumnSelection</target>
+          </trans-unit>
+        </group>
+        <group id="156">
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>countingType:Dataset</source>
+            <target state="new">countingType:Dataset</target>
+          </trans-unit>
+        </group>
+        <group id="157">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>Select columns for counting.</source>
+            <target state="new">Select columns for counting.</target>
+          </trans-unit>
+        </group>
+        <group id="158">
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>The bits of hash function</source>
+            <target state="new">The bits of hash function</target>
+          </trans-unit>
+        </group>
+        <group id="159">
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="160">
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>[12;31]</source>
+            <target state="new">[12;31]</target>
+          </trans-unit>
+        </group>
+        <group id="161">
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>Required</source>
+            <target state="new">Required</target>
+          </trans-unit>
+        </group>
+        <group id="162">
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>20</source>
+            <target state="new">20</target>
+          </trans-unit>
+        </group>
+        <group id="163">
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>Number of bits used for the hash function</source>
+            <target state="new">Number of bits used for the hash function</target>
+          </trans-unit>
+        </group>
+        <group id="164">
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source>The seed of hash function</source>
+            <target state="new">The seed of hash function</target>
+          </trans-unit>
+        </group>
+        <group id="165">
+          <trans-unit id="171" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="166">
+          <trans-unit id="172" translate="yes" xml:space="preserve">
+            <source>Required</source>
+            <target state="new">Required</target>
+          </trans-unit>
+        </group>
+        <group id="167">
+          <trans-unit id="173" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="168">
+          <trans-unit id="174" translate="yes" xml:space="preserve">
+            <source>Specify a seed to use when initializing the hash function.</source>
+            <target state="new">Specify a seed to use when initializing the hash function.</target>
+          </trans-unit>
+        </group>
+        <group id="169">
+          <trans-unit id="175" translate="yes" xml:space="preserve">
+            <source>The URI to the input blob container</source>
+            <target state="new">The URI to the input blob container</target>
+          </trans-unit>
+        </group>
+        <group id="170">
+          <trans-unit id="176" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="171">
+          <trans-unit id="177" translate="yes" xml:space="preserve">
+            <source>hadoopInputContainer:ExternalContainer</source>
+            <target state="new">hadoopInputContainer:ExternalContainer</target>
+          </trans-unit>
+        </group>
+        <group id="172">
+          <trans-unit id="178" translate="yes" xml:space="preserve">
+            <source>The URI to the input blob container.</source>
+            <target state="new">The URI to the input blob container.</target>
+          </trans-unit>
+          <trans-unit id="179" translate="yes" xml:space="preserve">
+            <source>The container should have public read access.</source>
+            <target state="new">The container should have public read access.</target>
+          </trans-unit>
+        </group>
+        <group id="173">
+          <trans-unit id="180" translate="yes" xml:space="preserve">
+            <source>Username</source>
+            <target state="new">Username</target>
+          </trans-unit>
+        </group>
+        <group id="174">
+          <trans-unit id="181" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="175">
+          <trans-unit id="182" translate="yes" xml:space="preserve">
+            <source>countingType:MapReduce</source>
+            <target state="new">countingType:MapReduce</target>
+          </trans-unit>
+        </group>
+        <group id="176">
+          <trans-unit id="183" translate="yes" xml:space="preserve">
+            <source>The username to login to the HDInsight Hadoop cluster for MapReduce counting.</source>
+            <target state="new">The username to login to the HDInsight Hadoop cluster for MapReduce counting.</target>
+          </trans-unit>
+        </group>
+        <group id="177">
+          <trans-unit id="184" translate="yes" xml:space="preserve">
+            <source>Width of CM sketch table</source>
+            <target state="new">Width of CM sketch table</target>
+          </trans-unit>
+        </group>
+        <group id="178">
+          <trans-unit id="185" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="179">
+          <trans-unit id="186" translate="yes" xml:space="preserve">
+            <source>[1;31]</source>
+            <target state="new">[1;31]</target>
+          </trans-unit>
+        </group>
+        <group id="180">
+          <trans-unit id="187" translate="yes" xml:space="preserve">
+            <source>azureCountTableType:CMSketch</source>
+            <target state="new">azureCountTableType:CMSketch</target>
+          </trans-unit>
+        </group>
+        <group id="181">
+          <trans-unit id="188" translate="yes" xml:space="preserve">
+            <source>20</source>
+            <target state="new">20</target>
+          </trans-unit>
+        </group>
+        <group id="182">
+          <trans-unit id="189" translate="yes" xml:space="preserve">
+            <source>If you choose the CMSketch format for the count table, specify the width of the CM sketch table.</source>
+            <target state="new">If you choose the CMSketch format for the count table, specify the width of the CM sketch table.</target>
+          </trans-unit>
+        </group>
+        <group id="183">
+          <trans-unit id="190" translate="yes" xml:space="preserve">
+            <source>Width of CM sketch table</source>
+            <target state="new">Width of CM sketch table</target>
+          </trans-unit>
+        </group>
+        <group id="184">
+          <trans-unit id="191" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="185">
+          <trans-unit id="192" translate="yes" xml:space="preserve">
+            <source>[1;31]</source>
+            <target state="new">[1;31]</target>
+          </trans-unit>
+        </group>
+        <group id="186">
+          <trans-unit id="193" translate="yes" xml:space="preserve">
+            <source>dataCountTableType:CMSketch</source>
+            <target state="new">dataCountTableType:CMSketch</target>
+          </trans-unit>
+        </group>
+        <group id="187">
+          <trans-unit id="194" translate="yes" xml:space="preserve">
+            <source>20</source>
+            <target state="new">20</target>
+          </trans-unit>
+        </group>
+        <group id="188">
+          <trans-unit id="195" translate="yes" xml:space="preserve">
+            <source>If you choose the CMSketch format for the count table, specify the width of the CM sketch table.</source>
+            <target state="new">If you choose the CMSketch format for the count table, specify the width of the CM sketch table.</target>
+          </trans-unit>
+        </group>
+        <group id="189">
+          <trans-unit id="196" translate="yes" xml:space="preserve">
+            <source>Outputs</source>
+            <target state="new">Outputs</target>
+          </trans-unit>
+        </group>
+        <group id="190">
+          <trans-unit id="197" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="191">
+          <trans-unit id="198" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="192">
+          <trans-unit id="199" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="193">
+          <trans-unit id="200" translate="yes" xml:space="preserve">
+            <source>Count metadata</source>
+            <target state="new">Count metadata</target>
+          </trans-unit>
+        </group>
+        <group id="194">
+          <trans-unit id="201" translate="yes" xml:space="preserve">
+            <source>The metadata of counts.</source>
+            <target state="new">The metadata of counts.</target>
+          </trans-unit>
+        </group>
+        <group id="195">
+          <trans-unit id="202" translate="yes" xml:space="preserve">
+            <source>Count table</source>
+            <target state="new">Count table</target>
+          </trans-unit>
+        </group>
+        <group id="196">
+          <trans-unit id="203" translate="yes" xml:space="preserve">
+            <source>The count table.</source>
+            <target state="new">The count table.</target>
+          </trans-unit>
+        </group>
+        <group id="197">
+          <trans-unit id="204" translate="yes" xml:space="preserve">
+            <source>Exceptions</source>
+            <target state="new">Exceptions</target>
+          </trans-unit>
+        </group>
+        <group id="198">
+          <trans-unit id="205" translate="yes" xml:space="preserve">
+            <source>For a list of all exceptions, see <ph id="1">&lt;link xlink:href="38cc86bd-4223-4e8b-b23e-4d4fbf3a5620" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Module Error Codes&lt;/link&gt;</ph>.</source>
+            <target state="new">For a list of all exceptions, see <ph id="1">&lt;link xlink:href="38cc86bd-4223-4e8b-b23e-4d4fbf3a5620" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Module Error Codes&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="199">
+          <trans-unit id="206" translate="yes" xml:space="preserve">
+            <source>Exception</source>
+            <target state="new">Exception</target>
+          </trans-unit>
+        </group>
+        <group id="200">
+          <trans-unit id="207" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="201">
+          <trans-unit id="208" translate="yes" xml:space="preserve">
+            <source>Exception occurs if one or more of inputs are null or empty.</source>
+            <target state="new">Exception occurs if one or more of inputs are null or empty.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

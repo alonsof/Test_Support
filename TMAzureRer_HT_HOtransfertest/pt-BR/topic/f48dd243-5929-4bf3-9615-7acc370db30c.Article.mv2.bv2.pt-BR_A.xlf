@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="pt-BR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAdwksKAjEMANCr9AANJG2mbVy6ci1eIP0EBsYZ0QpzfMHHM4ujcmgwBjMwGULFUqEhaRIxUhXvIg+iZgtUwQScSUCzCVDRUmrqKMm8My69B46wSBDgahEk0QJZW4sZe43YvCPvXhOud+/ObTUb57y8j2N6F/5v36fuj7fun03neuw/20OXcqEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Version 2012-02-12</source>
+            <target state="new">Version 2012-02-12</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The 2012-02-12 version of the Azure storage services includes these changes:</source>
+            <target state="new">The 2012-02-12 version of the Azure storage services includes these changes:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="b022aff3-053b-4bd7-9ebe-3f06e7e8f801" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Copy Blob (REST API)&lt;/link&gt;</ph> now works asynchronously, and can copy from any Azure storage account.</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="b022aff3-053b-4bd7-9ebe-3f06e7e8f801" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Copy Blob (REST API)&lt;/link&gt;</ph> now works asynchronously, and can copy from any Azure storage account.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Containers can be leased, and all leases support shorter or infinite durations.</source>
+            <target state="new">Containers can be leased, and all leases support shorter or infinite durations.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You must now provide a lease duration.</source>
+            <target state="new">You must now provide a lease duration.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>A released lease cannot be broken or renewed.</source>
+            <target state="new">A released lease cannot be broken or renewed.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Previously these operations were allowed.</source>
+            <target state="new">Previously these operations were allowed.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>If you break a lease that is breaking or already broken, no error will occur.</source>
+            <target state="new">If you break a lease that is breaking or already broken, no error will occur.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The lease ID of an active lease can be changed.</source>
+            <target state="new">The lease ID of an active lease can be changed.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>A lease ID can be included on an operation to acquire a lease.</source>
+            <target state="new">A lease ID can be included on an operation to acquire a lease.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>When breaking a lease, you can specify a period during which the lease should remain active.</source>
+            <target state="new">When breaking a lease, you can specify a period during which the lease should remain active.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Table and Queue services now support shared access signatures.</source>
+            <target state="new">Table and Queue services now support shared access signatures.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>A shared access signature can live longer than an hour, even with no stored access policy.</source>
+            <target state="new">A shared access signature can live longer than an hour, even with no stored access policy.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The Blob service now provides MD5 hashes for the <ph id="1">&lt;link xlink:href="b213c30f-8d30-4718-ba77-2030f3009719" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Blob (REST API)&lt;/link&gt;</ph> operation.</source>
+            <target state="new">The Blob service now provides MD5 hashes for the <ph id="1">&lt;link xlink:href="b213c30f-8d30-4718-ba77-2030f3009719" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Blob (REST API)&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

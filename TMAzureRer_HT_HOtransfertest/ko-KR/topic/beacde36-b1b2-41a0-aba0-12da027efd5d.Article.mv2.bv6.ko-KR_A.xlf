@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzM0JwzAMQOFVPIAF8o8cuxMUeitdQLItCE1jSFPI+PXlnR6faugSfYXeY4ToFEEwC1R0nEpRx1yscYExu6aAVAUiIQJ7CkBLpkwL5VjUGulcWw8JxImfFs9LZpxvjH7p2qhNy5r3gMfTmmtbVft13o4xTmu8Ncma++/D++vg/bvxuY79D2rjVQyhAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Azure</source>
+            <target state="new">Azure</target>
+            <context-group>
+              <context context-type="x-metadataname">applies_to_product</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>How to Fix Error ACS50008</source>
+            <target state="new">How to Fix Error ACS50008</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This topic provides information about possible causes of and solutions for the ACS50008 error.</source>
+            <target state="new">This topic provides information about possible causes of and solutions for the ACS50008 error.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>For more information about ACS error codes, see <ph id="1">&lt;link xlink:href="5ba09d76-7619-40e4-aa8d-ce3d5f3e77f8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ACS Error Codes&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about ACS error codes, see <ph id="1">&lt;link xlink:href="5ba09d76-7619-40e4-aa8d-ce3d5f3e77f8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ACS Error Codes&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The ACS50008 typically appears as part of a comprehensive error message, such as the following.</source>
+            <target state="new">The ACS50008 typically appears as part of a comprehensive error message, such as the following.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>The message can appear in a web browser, such as in a custom web application single sign-on scenario, or in the HTTP trace, such as when using single sign-on with SharePoint.</source>
+            <target state="new">The message can appear in a web browser, such as in a custom web application single sign-on scenario, or in the HTTP trace, such as when using single sign-on with SharePoint.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The information below can help you fix an ACS50008 error.</source>
+            <target state="new">The information below can help you fix an ACS50008 error.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Sometimes ACS50008 errors are accompanied by another ACS error code that indicates the exact cause of the error, such as  ACS50017, which indicates that the certificate is unable to chain to a trusted root.</source>
+            <target state="new">Sometimes ACS50008 errors are accompanied by another ACS error code that indicates the exact cause of the error, such as  ACS50017, which indicates that the certificate is unable to chain to a trusted root.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>ACS returns ACS50008  when the SAML token that the federated STS provides to ACS does not satisfy ACS token requirements.</source>
+            <target state="new">ACS returns ACS50008  when the SAML token that the federated STS provides to ACS does not satisfy ACS token requirements.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Possible causes include the following:</source>
+            <target state="new">Possible causes include the following:</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The signing certificate specified in the federation metadata of the federated STS does not match the signing key of the SAML token (assertion).</source>
+            <target state="new">The signing certificate specified in the federation metadata of the federated STS does not match the signing key of the SAML token (assertion).</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>This typically occurs when the  federation STS signing certificate  is updated, but the federated metadata provided to ACS matches the previous signing certificate.</source>
+            <target state="new">This typically occurs when the  federation STS signing certificate  is updated, but the federated metadata provided to ACS matches the previous signing certificate.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>To update the federation metadata in the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> portal, click <bpt id="2">&lt;ui&gt;</bpt>Identity providers<ept id="2">&lt;/ui&gt;</ept>, click a WS-Federation identity provider, and use the features in the <bpt id="3">&lt;ui&gt;</bpt>WS-Federation metadata<ept id="3">&lt;/ui&gt;</ept> section to update the metadata.</source>
+            <target state="new">To update the federation metadata in the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> portal, click <bpt id="2">&lt;ui&gt;</bpt>Identity providers<ept id="2">&lt;/ui&gt;</ept>, click a WS-Federation identity provider, and use the features in the <bpt id="3">&lt;ui&gt;</bpt>WS-Federation metadata<ept id="3">&lt;/ui&gt;</ept> section to update the metadata.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The Issuer name in the SAML token does not match the  HYPERLINK "http://sharepoint/sites/DSHome/azure/Wiki/Parts%20of%20Federation%20Metadata%20Document.aspx" EntityID in the federation metadata.</source>
+            <target state="new">The Issuer name in the SAML token does not match the  HYPERLINK "http://sharepoint/sites/DSHome/azure/Wiki/Parts%20of%20Federation%20Metadata%20Document.aspx" EntityID in the federation metadata.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The EntityID and Issuer name fields much match exactly, including any ending forward slash in a metadata URL.</source>
+            <target state="new">The EntityID and Issuer name fields much match exactly, including any ending forward slash in a metadata URL.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>To correct the problem, update the STS so that it generates updated federation metadata or update the SAML token.</source>
+            <target state="new">To correct the problem, update the STS so that it generates updated federation metadata or update the SAML token.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Manually changing the federation metadata XML will not work.</source>
+            <target state="new">Manually changing the federation metadata XML will not work.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The validity period in the SAML token issued by the federated STS is set to the past or the future.</source>
+            <target state="new">The validity period in the SAML token issued by the federated STS is set to the past or the future.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>This can occur when the system time of the operating system on which the federated STS runs is inaccurate.</source>
+            <target state="new">This can occur when the system time of the operating system on which the federated STS runs is inaccurate.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>To fix the problem, increase the token life time setting on the federated STS or reset the system time on the operating system and assure that it stays accurate.</source>
+            <target state="new">To fix the problem, increase the token life time setting on the federated STS or reset the system time on the operating system and assure that it stays accurate.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>The Pool.ntp.org project includes a method for assuring the accuracy of the system time.</source>
+            <target state="new">The Pool.ntp.org project includes a method for assuring the accuracy of the system time.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>For more information, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://www.pool.ntp.org/en/use.html<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.pool.ntp.org/en/use.html&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://www.pool.ntp.org/en/use.html<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.pool.ntp.org/en/use.html&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

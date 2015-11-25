@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ja-JP" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzMEJwzAMAMBVPIAFkiWZuBOUvvroArJsQ0qaQJpCxm/eBzcG9yrJoXcREBoIFacKjmS5lEFmJYZuzs2dQHNlkIIM1nMGU9WpezFqOYZmlFAoQxNMIKgOpXkCyzwpVxdliYFieBs8njGcyzxGP4/bvm1HDOmya7n/Pra+dlu/ix3ztv4BaDqGmaIAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Best Practices for Performance Improvements Using Service Bus Brokered Messaging</source>
+            <target state="new">Best Practices for Performance Improvements Using Service Bus Brokered Messaging</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This topic describes how to use <ph id="1">&lt;token&gt;sb1&lt;/token&gt;</ph> to optimize performance when exchanging brokered messages.</source>
+            <target state="new">This topic describes how to use <ph id="1">&lt;token&gt;sb1&lt;/token&gt;</ph> to optimize performance when exchanging brokered messages.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>The first part of this topic describes the different mechanisms that are offered to help increase performance.</source>
+            <target state="new">The first part of this topic describes the different mechanisms that are offered to help increase performance.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The second part provides guidance on how to use <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> in a way that can offer the best performance in a given scenario.</source>
+            <target state="new">The second part provides guidance on how to use <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> in a way that can offer the best performance in a given scenario.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Throughout this topic, the term “client” refers to any entity that accesses <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">Throughout this topic, the term “client” refers to any entity that accesses <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>A client can take the role of a sender or a receiver.</source>
+            <target state="new">A client can take the role of a sender or a receiver.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The term “sender” is used for a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> queue or topic client that sends messages to a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> queue or topic.</source>
+            <target state="new">The term “sender” is used for a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> queue or topic client that sends messages to a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> queue or topic.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The term “receiver” refers to a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> queue or subscription client that receives messages from a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> queue or subscription.</source>
+            <target state="new">The term “receiver” refers to a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> queue or subscription client that receives messages from a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> queue or subscription.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Mechanisms</source>
+            <target state="new">Mechanisms</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>This section introduces several concepts employed by <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> to help boost performance.</source>
+            <target state="new">This section introduces several concepts employed by <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> to help boost performance.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Protocols</source>
+            <target state="new">Protocols</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> enables clients to send and receive messages via two protocols: the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol, and HTTP.</source>
+            <target state="new"><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> enables clients to send and receive messages via two protocols: the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol, and HTTP.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol is more efficient, because it maintains the connection to the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> service as long as the message factory exists.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol is more efficient, because it maintains the connection to the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> service as long as the message factory exists.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>It also implements batching and prefetching.</source>
+            <target state="new">It also implements batching and prefetching.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol is available for .NET applications using the .NET API.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol is available for .NET applications using the .NET API.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Unless explicitly mentioned, all content in this topic assumes the use of the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol.</source>
+            <target state="new">Unless explicitly mentioned, all content in this topic assumes the use of the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Reusing factories and clients</source>
+            <target state="new">Reusing factories and clients</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client objects, such as <ph id="2">&lt;codeEntityReference qualifyHint="true"&gt;T:Microsoft.ServiceBus.Messaging.QueueClient&lt;/codeEntityReference&gt;</ph> or <ph id="3">&lt;codeEntityReference qualifyHint="true"&gt;T:Microsoft.ServiceBus.Messaging.MessageSender&lt;/codeEntityReference&gt;</ph>, are created through a <ph id="4">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> object, which also provides internal management of connections.</source>
+            <target state="new"><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client objects, such as <ph id="2">&lt;codeEntityReference qualifyHint="true"&gt;T:Microsoft.ServiceBus.Messaging.QueueClient&lt;/codeEntityReference&gt;</ph> or <ph id="3">&lt;codeEntityReference qualifyHint="true"&gt;T:Microsoft.ServiceBus.Messaging.MessageSender&lt;/codeEntityReference&gt;</ph>, are created through a <ph id="4">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> object, which also provides internal management of connections.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>You should not close messaging factories or queue, topic, and subscription clients after you send a message, and then re-create them when you send the next message.</source>
+            <target state="new">You should not close messaging factories or queue, topic, and subscription clients after you send a message, and then re-create them when you send the next message.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Closing a messaging factory deletes the connection to the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service, and a new connection is established when recreating the factory.</source>
+            <target state="new">Closing a messaging factory deletes the connection to the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service, and a new connection is established when recreating the factory.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Establishing a connection is an expensive operation that can be avoided by re-using the same factory and client objects for multiple operations.</source>
+            <target state="new">Establishing a connection is an expensive operation that can be avoided by re-using the same factory and client objects for multiple operations.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Concurrent operations</source>
+            <target state="new">Concurrent operations</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Performing an operation (send, receive, delete, etc.)</source>
+            <target state="new">Performing an operation (send, receive, delete, etc.)</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>takes some time.</source>
+            <target state="new">takes some time.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>This time includes the processing of the operation by the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service in addition to the latency of the request and the reply.</source>
+            <target state="new">This time includes the processing of the operation by the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service in addition to the latency of the request and the reply.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>To increase the number of operations per time, operations must execute concurrently.</source>
+            <target state="new">To increase the number of operations per time, operations must execute concurrently.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>You can do this in several different ways:</source>
+            <target state="new">You can do this in several different ways:</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Asynchronous operations<ept id="1">&lt;/embeddedLabel&gt;</ept>: the client pipelines operations by performing asynchronous operations.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Asynchronous operations<ept id="1">&lt;/embeddedLabel&gt;</ept>: the client pipelines operations by performing asynchronous operations.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>The next request is started before the previous request is completed.</source>
+            <target state="new">The next request is started before the previous request is completed.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>The following is an example of an asynchronous <bpt id="1">&lt;embeddedLabel&gt;</bpt>send<ept id="1">&lt;/embeddedLabel&gt;</ept> operation:</source>
+            <target state="new">The following is an example of an asynchronous <bpt id="1">&lt;embeddedLabel&gt;</bpt>send<ept id="1">&lt;/embeddedLabel&gt;</ept> operation:</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>This is an example of an asynchronous <bpt id="1">&lt;embeddedLabel&gt;</bpt>receive<ept id="1">&lt;/embeddedLabel&gt;</ept> operation:</source>
+            <target state="new">This is an example of an asynchronous <bpt id="1">&lt;embeddedLabel&gt;</bpt>receive<ept id="1">&lt;/embeddedLabel&gt;</ept> operation:</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Multiple factories<ept id="1">&lt;/embeddedLabel&gt;</ept>: all clients (senders in addition to receivers) that are created by the same factory share one TCP connection.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Multiple factories<ept id="1">&lt;/embeddedLabel&gt;</ept>: all clients (senders in addition to receivers) that are created by the same factory share one TCP connection.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>The maximum message throughput is limited by the number of operations that can go through this TCP connection.</source>
+            <target state="new">The maximum message throughput is limited by the number of operations that can go through this TCP connection.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>The throughput that can be obtained with a single factory varies greatly with TCP round-trip times and message size.</source>
+            <target state="new">The throughput that can be obtained with a single factory varies greatly with TCP round-trip times and message size.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>To obtain higher throughput rates, you should use multiple messaging factories.</source>
+            <target state="new">To obtain higher throughput rates, you should use multiple messaging factories.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Receive mode</source>
+            <target state="new">Receive mode</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>When creating a queue or subscription client, you can specify a receive mode: <bpt id="1">&lt;newTerm&gt;</bpt>Peek-lock<ept id="1">&lt;/newTerm&gt;</ept> or <bpt id="2">&lt;newTerm&gt;</bpt>Receive and delete<ept id="2">&lt;/newTerm&gt;</ept>.</source>
+            <target state="new">When creating a queue or subscription client, you can specify a receive mode: <bpt id="1">&lt;newTerm&gt;</bpt>Peek-lock<ept id="1">&lt;/newTerm&gt;</ept> or <bpt id="2">&lt;newTerm&gt;</bpt>Receive and delete<ept id="2">&lt;/newTerm&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>The default receive mode is <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;F:Microsoft.ServiceBus.Messaging.ReceiveMode.PeekLock&lt;/codeEntityReference&gt;</ph>.</source>
+            <target state="new">The default receive mode is <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;F:Microsoft.ServiceBus.Messaging.ReceiveMode.PeekLock&lt;/codeEntityReference&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>When operating in this mode, the client sends a request to receive a message from <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">When operating in this mode, the client sends a request to receive a message from <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>After the client has received the message, it sends a request to complete the message.</source>
+            <target state="new">After the client has received the message, it sends a request to complete the message.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>When setting the receive mode to <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;F:Microsoft.ServiceBus.Messaging.ReceiveMode.ReceiveAndDelete&lt;/codeEntityReference&gt;</ph>, both steps are combined in a single request.</source>
+            <target state="new">When setting the receive mode to <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;F:Microsoft.ServiceBus.Messaging.ReceiveMode.ReceiveAndDelete&lt;/codeEntityReference&gt;</ph>, both steps are combined in a single request.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>This reduces the overall number of operations, and can improve the overall message throughput.</source>
+            <target state="new">This reduces the overall number of operations, and can improve the overall message throughput.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>This performance gain comes at the risk of losing messages.</source>
+            <target state="new">This performance gain comes at the risk of losing messages.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> does not support transactions for receive-and-delete operations.</source>
+            <target state="new"><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> does not support transactions for receive-and-delete operations.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>In addition, peek-lock semantics are required for any scenarios in which the client wants to defer or deadletter a message.</source>
+            <target state="new">In addition, peek-lock semantics are required for any scenarios in which the client wants to defer or deadletter a message.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Client-side batching</source>
+            <target state="new">Client-side batching</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Client-side batching enables a queue or topic client to delay the sending of a message for a certain period of time.</source>
+            <target state="new">Client-side batching enables a queue or topic client to delay the sending of a message for a certain period of time.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>If the client sends additional messages during this time period, it transmits the messages in a single batch.</source>
+            <target state="new">If the client sends additional messages during this time period, it transmits the messages in a single batch.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Client-side batching also causes a queue/subscription client to batch multiple <bpt id="1">&lt;embeddedLabel&gt;</bpt>Complete<ept id="1">&lt;/embeddedLabel&gt;</ept> requests into a single request.</source>
+            <target state="new">Client-side batching also causes a queue/subscription client to batch multiple <bpt id="1">&lt;embeddedLabel&gt;</bpt>Complete<ept id="1">&lt;/embeddedLabel&gt;</ept> requests into a single request.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Batching is only available for asynchronous <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Complete<ept id="2">&lt;/embeddedLabel&gt;</ept> operations.</source>
+            <target state="new">Batching is only available for asynchronous <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Complete<ept id="2">&lt;/embeddedLabel&gt;</ept> operations.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Synchronous operations are immediately sent to the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service.</source>
+            <target state="new">Synchronous operations are immediately sent to the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Batching does not occur for peek or receive operations, nor does batching occur across clients.</source>
+            <target state="new">Batching does not occur for peek or receive operations, nor does batching occur across clients.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>If the batch exceeds the maximum message size, the last message is removed from the batch, and the client immediately sends the batch.</source>
+            <target state="new">If the batch exceeds the maximum message size, the last message is removed from the batch, and the client immediately sends the batch.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>The last message becomes the first message of the next batch.</source>
+            <target state="new">The last message becomes the first message of the next batch.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>By default, a client uses a batch interval of 20ms.</source>
+            <target state="new">By default, a client uses a batch interval of 20ms.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>You can change the batch interval by setting the <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;P:Microsoft.ServiceBus.Messaging.NetMessagingTransportSettings.BatchFlushInterval&lt;/codeEntityReference&gt;</ph> property before creating the messaging factory.</source>
+            <target state="new">You can change the batch interval by setting the <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;P:Microsoft.ServiceBus.Messaging.NetMessagingTransportSettings.BatchFlushInterval&lt;/codeEntityReference&gt;</ph> property before creating the messaging factory.</target>
+          </trans-unit>
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>This setting affects all clients that are created by this factory.</source>
+            <target state="new">This setting affects all clients that are created by this factory.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>To disable batching, set the <ph id="1">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.NetMessagingTransportSettings.BatchFlushInterval&lt;/codeEntityReference&gt;</ph> property to <ph id="2">&lt;languageKeyword&gt;TimeSpan.Zero&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">To disable batching, set the <ph id="1">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.NetMessagingTransportSettings.BatchFlushInterval&lt;/codeEntityReference&gt;</ph> property to <ph id="2">&lt;languageKeyword&gt;TimeSpan.Zero&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>For example:</source>
+            <target state="new">For example:</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Batching does not affect the number of billable messaging operations, and is available only for the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol.</source>
+            <target state="new">Batching does not affect the number of billable messaging operations, and is available only for the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>The HTTP protocol does not support batching.</source>
+            <target state="new">The HTTP protocol does not support batching.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Batching store access</source>
+            <target state="new">Batching store access</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>To increase the throughput of a queue/topic/subscription, the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service batches multiple messages when it writes to its internal store.</source>
+            <target state="new">To increase the throughput of a queue/topic/subscription, the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service batches multiple messages when it writes to its internal store.</target>
+          </trans-unit>
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>If enabled on a queue or topic, writing messages into the store will be batched.</source>
+            <target state="new">If enabled on a queue or topic, writing messages into the store will be batched.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>If enabled on a queue or subscription, deleting messages from the store will be batched.</source>
+            <target state="new">If enabled on a queue or subscription, deleting messages from the store will be batched.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>If batched store access is enabled for an entity, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> delays a store write operation regarding that entity by up to 20ms.</source>
+            <target state="new">If batched store access is enabled for an entity, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> delays a store write operation regarding that entity by up to 20ms.</target>
+          </trans-unit>
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Additional store operations that occur during this interval are added to the batch.</source>
+            <target state="new">Additional store operations that occur during this interval are added to the batch.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Batched store access only affects <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Complete<ept id="2">&lt;/embeddedLabel&gt;</ept> operations; receive operations are not affected.</source>
+            <target state="new">Batched store access only affects <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Complete<ept id="2">&lt;/embeddedLabel&gt;</ept> operations; receive operations are not affected.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Batched store access is a property on an entity.</source>
+            <target state="new">Batched store access is a property on an entity.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Batching occurs across all entities that enable batched store access.</source>
+            <target state="new">Batching occurs across all entities that enable batched store access.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>When creating a new queue, topic or subscription, batched store access is enabled by default.</source>
+            <target state="new">When creating a new queue, topic or subscription, batched store access is enabled by default.</target>
+          </trans-unit>
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>To disable batched store access, set the <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;P:Microsoft.ServiceBus.Messaging.QueueDescription.EnableBatchedOperations&lt;/codeEntityReference&gt;</ph> property to <ph id="2">&lt;languageKeyword&gt;false&lt;/languageKeyword&gt;</ph> before creating the entity.</source>
+            <target state="new">To disable batched store access, set the <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;P:Microsoft.ServiceBus.Messaging.QueueDescription.EnableBatchedOperations&lt;/codeEntityReference&gt;</ph> property to <ph id="2">&lt;languageKeyword&gt;false&lt;/languageKeyword&gt;</ph> before creating the entity.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>For example:</source>
+            <target state="new">For example:</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Batched store access does not affect the number of billable messaging operations, and is a property of a queue, topic, or subscription.</source>
+            <target state="new">Batched store access does not affect the number of billable messaging operations, and is a property of a queue, topic, or subscription.</target>
+          </trans-unit>
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>It is independent of the receive mode and the protocol that is used between a client and the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service.</source>
+            <target state="new">It is independent of the receive mode and the protocol that is used between a client and the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Prefetching</source>
+            <target state="new">Prefetching</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Prefetching enables the queue or subscription client to load additional messages from the service when it performs a receive operation.</source>
+            <target state="new">Prefetching enables the queue or subscription client to load additional messages from the service when it performs a receive operation.</target>
+          </trans-unit>
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>The client stores these messages in a local cache.</source>
+            <target state="new">The client stores these messages in a local cache.</target>
+          </trans-unit>
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>The size of the cache is determined by the <ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;P:Microsoft.ServiceBus.Messaging.QueueClient.PrefetchCount&lt;/codeEntityReference&gt;</ph> and <ph id="2">&lt;codeEntityReference qualifyHint="true"&gt;P:Microsoft.ServiceBus.Messaging.SubscriptionClient.PrefetchCount&lt;/codeEntityReference&gt;</ph> properties.</source>
+            <target state="new">The size of the cache is determined by the <ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;P:Microsoft.ServiceBus.Messaging.QueueClient.PrefetchCount&lt;/codeEntityReference&gt;</ph> and <ph id="2">&lt;codeEntityReference qualifyHint="true"&gt;P:Microsoft.ServiceBus.Messaging.SubscriptionClient.PrefetchCount&lt;/codeEntityReference&gt;</ph> properties.</target>
+          </trans-unit>
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Each client that enables prefetching maintains its own cache.</source>
+            <target state="new">Each client that enables prefetching maintains its own cache.</target>
+          </trans-unit>
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>A cache is not shared across clients.</source>
+            <target state="new">A cache is not shared across clients.</target>
+          </trans-unit>
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>If the client initiates a receive operation and its cache is empty, the service transmits a batch of messages.</source>
+            <target state="new">If the client initiates a receive operation and its cache is empty, the service transmits a batch of messages.</target>
+          </trans-unit>
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>The size of the batch equals the size of the cache or 256KB, whichever is smaller.</source>
+            <target state="new">The size of the batch equals the size of the cache or 256KB, whichever is smaller.</target>
+          </trans-unit>
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>If the client initiates a receive operation and the cache contains a message, the message is taken from the cache.</source>
+            <target state="new">If the client initiates a receive operation and the cache contains a message, the message is taken from the cache.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>When a message is prefetched, the service locks the prefetched message.</source>
+            <target state="new">When a message is prefetched, the service locks the prefetched message.</target>
+          </trans-unit>
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>By doing this, the prefetched message cannot be received by a different receiver.</source>
+            <target state="new">By doing this, the prefetched message cannot be received by a different receiver.</target>
+          </trans-unit>
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>If the receiver cannot complete the message before the lock expires, the message becomes available to other receivers.</source>
+            <target state="new">If the receiver cannot complete the message before the lock expires, the message becomes available to other receivers.</target>
+          </trans-unit>
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>The prefetched copy of the message remains in the cache.</source>
+            <target state="new">The prefetched copy of the message remains in the cache.</target>
+          </trans-unit>
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>The receiver that consumes the expired cached copy will receive an exception when it tries to complete that message.</source>
+            <target state="new">The receiver that consumes the expired cached copy will receive an exception when it tries to complete that message.</target>
+          </trans-unit>
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>By default, the message lock expires after 60 seconds.</source>
+            <target state="new">By default, the message lock expires after 60 seconds.</target>
+          </trans-unit>
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>This value can be extended to 5 minutes.</source>
+            <target state="new">This value can be extended to 5 minutes.</target>
+          </trans-unit>
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>To prevent the consumption of expired messages, the cache size should always be smaller than the number of messages that can be consumed by a client within the lock time-out interval.</source>
+            <target state="new">To prevent the consumption of expired messages, the cache size should always be smaller than the number of messages that can be consumed by a client within the lock time-out interval.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>When using the default lock expiration of 60 seconds, a good value for <ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;P:Microsoft.ServiceBus.Messaging.SubscriptionClient.PrefetchCount&lt;/codeEntityReference&gt;</ph> is 20 times the maximum processing rates of all receivers of the factory.</source>
+            <target state="new">When using the default lock expiration of 60 seconds, a good value for <ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;P:Microsoft.ServiceBus.Messaging.SubscriptionClient.PrefetchCount&lt;/codeEntityReference&gt;</ph> is 20 times the maximum processing rates of all receivers of the factory.</target>
+          </trans-unit>
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>For example, a factory creates 3 receivers, and each receiver can process up to 10 messages per second.</source>
+            <target state="new">For example, a factory creates 3 receivers, and each receiver can process up to 10 messages per second.</target>
+          </trans-unit>
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>The prefetch count should not exceed 20*3*10 = 600.</source>
+            <target state="new">The prefetch count should not exceed 20*3*10 = 600.</target>
+          </trans-unit>
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>By default, <ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;P:Microsoft.ServiceBus.Messaging.QueueClient.PrefetchCount&lt;/codeEntityReference&gt;</ph> is set to 0, which means that no additional messages are fetched from the service.</source>
+            <target state="new">By default, <ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;P:Microsoft.ServiceBus.Messaging.QueueClient.PrefetchCount&lt;/codeEntityReference&gt;</ph> is set to 0, which means that no additional messages are fetched from the service.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Prefetching messages increases the overall throughput for a queue or subscription because it reduces the overall number of message operations, or round trips.</source>
+            <target state="new">Prefetching messages increases the overall throughput for a queue or subscription because it reduces the overall number of message operations, or round trips.</target>
+          </trans-unit>
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Fetching the first message, however, will take longer (due to the increased message size).</source>
+            <target state="new">Fetching the first message, however, will take longer (due to the increased message size).</target>
+          </trans-unit>
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Receiving prefetched messages will be faster because these messages have already been downloaded by the client.</source>
+            <target state="new">Receiving prefetched messages will be faster because these messages have already been downloaded by the client.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>The time-to-live (TTL) property of a message is checked by the server at the time the server sends the message to the client.</source>
+            <target state="new">The time-to-live (TTL) property of a message is checked by the server at the time the server sends the message to the client.</target>
+          </trans-unit>
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>The client does not check the message’s TTL property when the message is received.</source>
+            <target state="new">The client does not check the message’s TTL property when the message is received.</target>
+          </trans-unit>
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Instead, the message can be received even if the message’s TTL has passed while the message was cached by the client.</source>
+            <target state="new">Instead, the message can be received even if the message’s TTL has passed while the message was cached by the client.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Prefetching does not affect the number of billable messaging operations, and is available only for the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol.</source>
+            <target state="new">Prefetching does not affect the number of billable messaging operations, and is available only for the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol.</target>
+          </trans-unit>
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>The HTTP protocol does not support prefetching.</source>
+            <target state="new">The HTTP protocol does not support prefetching.</target>
+          </trans-unit>
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>Prefetching is available for both synchronous and asynchronous receive operations.</source>
+            <target state="new">Prefetching is available for both synchronous and asynchronous receive operations.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Use of express queues or topics</source>
+            <target state="new">Use of express queues or topics</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>Express entities enable high throughput and reduced latency scenarios.</source>
+            <target state="new">Express entities enable high throughput and reduced latency scenarios.</target>
+          </trans-unit>
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>With express entities, if a message is sent to a queue or topic is, it is not immediately stored in the messaging store.</source>
+            <target state="new">With express entities, if a message is sent to a queue or topic is, it is not immediately stored in the messaging store.</target>
+          </trans-unit>
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>Instead, the message is cached in memory.</source>
+            <target state="new">Instead, the message is cached in memory.</target>
+          </trans-unit>
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>If a message remains in the queue for more than a few seconds, it is automatically written to stable storage, thus protecting it against loss due to an outage.</source>
+            <target state="new">If a message remains in the queue for more than a few seconds, it is automatically written to stable storage, thus protecting it against loss due to an outage.</target>
+          </trans-unit>
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Writing the message into a memory cache increases throughput and reduces latency because there is no access to stable storage at the time the message is sent.</source>
+            <target state="new">Writing the message into a memory cache increases throughput and reduces latency because there is no access to stable storage at the time the message is sent.</target>
+          </trans-unit>
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>Messages that are consumed within a few seconds are not written to the messaging store.</source>
+            <target state="new">Messages that are consumed within a few seconds are not written to the messaging store.</target>
+          </trans-unit>
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>The following example creates an express topic:</source>
+            <target state="new">The following example creates an express topic:</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>If a message containing critical information that must not be lost is sent to an express entity, the sender can force <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> to immediately persist the message to stable storage by setting the <ph id="2">&lt;codeEntityReference qualifyHint="false"&gt;P:Microsoft.ServiceBus.Messaging.BrokeredMessage.ForcePersistence&lt;/codeEntityReference&gt;</ph> property to <ph id="3">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">If a message containing critical information that must not be lost is sent to an express entity, the sender can force <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> to immediately persist the message to stable storage by setting the <ph id="2">&lt;codeEntityReference qualifyHint="false"&gt;P:Microsoft.ServiceBus.Messaging.BrokeredMessage.ForcePersistence&lt;/codeEntityReference&gt;</ph> property to <ph id="3">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;crdefault&lt;/token&gt;</ph> <ph id="2">&lt;link xlink:href="4d1ad081-82ea-47bc-ae4e-38d41f22a0db" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;What's New in the Azure SDK 2.3 Release (April 2014)&lt;/link&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;token&gt;crdefault&lt;/token&gt;</ph> <ph id="2">&lt;link xlink:href="4d1ad081-82ea-47bc-ae4e-38d41f22a0db" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;What's New in the Azure SDK 2.3 Release (April 2014)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Use of partitioned queues or topics</source>
+            <target state="new">Use of partitioned queues or topics</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>Internally, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> uses the same node and messaging store to process and store all messages for a messaging entity (queue or topic).</source>
+            <target state="new">Internally, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> uses the same node and messaging store to process and store all messages for a messaging entity (queue or topic).</target>
+          </trans-unit>
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>A partitioned queue or topic, on the other hand, is distributed across multiple nodes and messaging stores.</source>
+            <target state="new">A partitioned queue or topic, on the other hand, is distributed across multiple nodes and messaging stores.</target>
+          </trans-unit>
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>Partitioned queues and topics not only yield a higher throughput than regular queues and topics, they also exhibit superior availability.</source>
+            <target state="new">Partitioned queues and topics not only yield a higher throughput than regular queues and topics, they also exhibit superior availability.</target>
+          </trans-unit>
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>To create a partitioned entity, set the <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;P:Microsoft.ServiceBus.Messaging.QueueDescription.EnablePartitioning&lt;/codeEntityReference&gt;</ph> property to <ph id="2">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph>, as shown in the following example.</source>
+            <target state="new">To create a partitioned entity, set the <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;P:Microsoft.ServiceBus.Messaging.QueueDescription.EnablePartitioning&lt;/codeEntityReference&gt;</ph> property to <ph id="2">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph>, as shown in the following example.</target>
+          </trans-unit>
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;crabout&lt;/token&gt;</ph> partitioned entities, see <ph id="2">&lt;link xlink:href="cfbb5d64-b54e-4420-9971-436d8d820583" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Partitioning Messaging Entities&lt;/link&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;token&gt;crabout&lt;/token&gt;</ph> partitioned entities, see <ph id="2">&lt;link xlink:href="cfbb5d64-b54e-4420-9971-436d8d820583" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Partitioning Messaging Entities&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>Use of multiple queues</source>
+            <target state="new">Use of multiple queues</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>If it is not possible to use a partitioned queue or topic, or the expected load cannot be handled by a single partitioned queue or topic, you must use multiple messaging entities.</source>
+            <target state="new">If it is not possible to use a partitioned queue or topic, or the expected load cannot be handled by a single partitioned queue or topic, you must use multiple messaging entities.</target>
+          </trans-unit>
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>When using multiple entities, create a dedicated client for each entity, instead of using the same client for all entities.</source>
+            <target state="new">When using multiple entities, create a dedicated client for each entity, instead of using the same client for all entities.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>Scenarios</source>
+            <target state="new">Scenarios</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>The following sections describe typical messaging scenarios and outline the preferred <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> settings.</source>
+            <target state="new">The following sections describe typical messaging scenarios and outline the preferred <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> settings.</target>
+          </trans-unit>
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>Throughput rates are classified as small (&lt;1msg/s), moderate (≥1msg/s, &lt;100msg/s) and high (≥100msg/s).</source>
+            <target state="new">Throughput rates are classified as small (&lt;1msg/s), moderate (≥1msg/s, &lt;100msg/s) and high (≥100msg/s).</target>
+          </trans-unit>
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>The number of clients are classified as small (≤5), moderate (&gt;5, ≤20), and large (&gt;20).</source>
+            <target state="new">The number of clients are classified as small (≤5), moderate (&gt;5, ≤20), and large (&gt;20).</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>High-throughput queue</source>
+            <target state="new">High-throughput queue</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>Goal: Maximize throughput of a single queue.</source>
+            <target state="new">Goal: Maximize throughput of a single queue.</target>
+          </trans-unit>
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>The number of senders and receivers is small.</source>
+            <target state="new">The number of senders and receivers is small.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>Use a partitioned queue for improved performance and availability.</source>
+            <target state="new">Use a partitioned queue for improved performance and availability.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>To increase the overall send rate into the queue, use multiple message factories to create senders.</source>
+            <target state="new">To increase the overall send rate into the queue, use multiple message factories to create senders.</target>
+          </trans-unit>
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>For each sender, use asynchronous operations or multiple threads.</source>
+            <target state="new">For each sender, use asynchronous operations or multiple threads.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>To increase the overall receive rate from the queue, use multiple message factories to create receivers.</source>
+            <target state="new">To increase the overall receive rate from the queue, use multiple message factories to create receivers.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>Use asynchronous operations to take advantage of client-side batching.</source>
+            <target state="new">Use asynchronous operations to take advantage of client-side batching.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>Set the batching interval to 50ms to reduce the number of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol transmissions.</source>
+            <target state="new">Set the batching interval to 50ms to reduce the number of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol transmissions.</target>
+          </trans-unit>
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>If multiple senders are used, increase the batching interval to 100ms.</source>
+            <target state="new">If multiple senders are used, increase the batching interval to 100ms.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>Leave batched store access enabled.</source>
+            <target state="new">Leave batched store access enabled.</target>
+          </trans-unit>
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>This increases the overall rate at which messages can be written into the queue.</source>
+            <target state="new">This increases the overall rate at which messages can be written into the queue.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>Set the prefetch count to 20 times the maximum processing rates of all receivers of a factory.</source>
+            <target state="new">Set the prefetch count to 20 times the maximum processing rates of all receivers of a factory.</target>
+          </trans-unit>
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>This reduces the number of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol transmissions.</source>
+            <target state="new">This reduces the number of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol transmissions.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>Multiple high-throughput queues</source>
+            <target state="new">Multiple high-throughput queues</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>Goal: Maximize overall throughput of multiple queues.</source>
+            <target state="new">Goal: Maximize overall throughput of multiple queues.</target>
+          </trans-unit>
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>The throughput of an individual queue is moderate or high.</source>
+            <target state="new">The throughput of an individual queue is moderate or high.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>To obtain maximum throughput across multiple queues, use the settings outlined to maximize the throughput of a single queue.</source>
+            <target state="new">To obtain maximum throughput across multiple queues, use the settings outlined to maximize the throughput of a single queue.</target>
+          </trans-unit>
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>In addition, use different factories to create clients that send or receive from different queues.</source>
+            <target state="new">In addition, use different factories to create clients that send or receive from different queues.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>Low latency queue</source>
+            <target state="new">Low latency queue</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>Goal: Minimize end-to-end latency of a queue or topic.</source>
+            <target state="new">Goal: Minimize end-to-end latency of a queue or topic.</target>
+          </trans-unit>
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>The number of senders and receivers is small.</source>
+            <target state="new">The number of senders and receivers is small.</target>
+          </trans-unit>
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>The throughput of the queue is small or moderate.</source>
+            <target state="new">The throughput of the queue is small or moderate.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>Use a partitioned queue for improved availability.</source>
+            <target state="new">Use a partitioned queue for improved availability.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>Disable client-side batching.</source>
+            <target state="new">Disable client-side batching.</target>
+          </trans-unit>
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>The client immediately sends a message.</source>
+            <target state="new">The client immediately sends a message.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>Disable batched store access.</source>
+            <target state="new">Disable batched store access.</target>
+          </trans-unit>
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>The service immediately writes the message to the store.</source>
+            <target state="new">The service immediately writes the message to the store.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>If using a single client, set the prefetch count to 20 times the processing rate of the receiver.</source>
+            <target state="new">If using a single client, set the prefetch count to 20 times the processing rate of the receiver.</target>
+          </trans-unit>
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>If multiple messages arrive at the queue at the same time, the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol transmits them all at the same time.</source>
+            <target state="new">If multiple messages arrive at the queue at the same time, the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol transmits them all at the same time.</target>
+          </trans-unit>
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>When the client receives the next message, that message is already in the local cache.</source>
+            <target state="new">When the client receives the next message, that message is already in the local cache.</target>
+          </trans-unit>
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>The cache should be small.</source>
+            <target state="new">The cache should be small.</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>If using multiple clients, set the prefetch count to 0.</source>
+            <target state="new">If using multiple clients, set the prefetch count to 0.</target>
+          </trans-unit>
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>By doing this, the second client can receive the second message while the first client is still processing the first message.</source>
+            <target state="new">By doing this, the second client can receive the second message while the first client is still processing the first message.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>Queue with a large number of senders</source>
+            <target state="new">Queue with a large number of senders</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>Goal: Maximize throughput of a queue or topic with a large number of senders.</source>
+            <target state="new">Goal: Maximize throughput of a queue or topic with a large number of senders.</target>
+          </trans-unit>
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>Each sender sends messages with a moderate rate.</source>
+            <target state="new">Each sender sends messages with a moderate rate.</target>
+          </trans-unit>
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>The number of receivers is small.</source>
+            <target state="new">The number of receivers is small.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> enables up to 1000 concurrent connections to a messaging entity (or 5000 using AMQP).</source>
+            <target state="new"><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> enables up to 1000 concurrent connections to a messaging entity (or 5000 using AMQP).</target>
+          </trans-unit>
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>This limit is enforced at the namespace level, and queues/topics/subscriptions are capped by the limit of concurrent connections per namespace.</source>
+            <target state="new">This limit is enforced at the namespace level, and queues/topics/subscriptions are capped by the limit of concurrent connections per namespace.</target>
+          </trans-unit>
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>For queues, this number is shared between senders and receivers.</source>
+            <target state="new">For queues, this number is shared between senders and receivers.</target>
+          </trans-unit>
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source>If all 1000 connections are required for senders, you should replace the queue with a topic and a single subscription.</source>
+            <target state="new">If all 1000 connections are required for senders, you should replace the queue with a topic and a single subscription.</target>
+          </trans-unit>
+          <trans-unit id="171" translate="yes" xml:space="preserve">
+            <source>A topic accepts up to 1000 concurrent connections from senders, whereas the subscription accepts an additional 1000 concurrent connections from receivers.</source>
+            <target state="new">A topic accepts up to 1000 concurrent connections from senders, whereas the subscription accepts an additional 1000 concurrent connections from receivers.</target>
+          </trans-unit>
+          <trans-unit id="172" translate="yes" xml:space="preserve">
+            <source>If more than 1000 concurrent senders are required, the senders should send messages to the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> protocol via HTTP.</source>
+            <target state="new">If more than 1000 concurrent senders are required, the senders should send messages to the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> protocol via HTTP.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="173" translate="yes" xml:space="preserve">
+            <source>To maximize throughput, do the following:</source>
+            <target state="new">To maximize throughput, do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="174" translate="yes" xml:space="preserve">
+            <source>Use a partitioned queue for improved performance and availability.</source>
+            <target state="new">Use a partitioned queue for improved performance and availability.</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="175" translate="yes" xml:space="preserve">
+            <source>If each sender resides in a different process, use only a single factory per process.</source>
+            <target state="new">If each sender resides in a different process, use only a single factory per process.</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="176" translate="yes" xml:space="preserve">
+            <source>Use asynchronous operations to take advantage of client-side batching.</source>
+            <target state="new">Use asynchronous operations to take advantage of client-side batching.</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="177" translate="yes" xml:space="preserve">
+            <source>Use the default batching interval of 20ms to reduce the number of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol transmissions.</source>
+            <target state="new">Use the default batching interval of 20ms to reduce the number of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol transmissions.</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="178" translate="yes" xml:space="preserve">
+            <source>Leave batched store access enabled.</source>
+            <target state="new">Leave batched store access enabled.</target>
+          </trans-unit>
+          <trans-unit id="179" translate="yes" xml:space="preserve">
+            <source>This increases the overall rate at which messages can be written into the queue or topic.</source>
+            <target state="new">This increases the overall rate at which messages can be written into the queue or topic.</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="180" translate="yes" xml:space="preserve">
+            <source>Set the prefetch count to 20 times the maximum processing rates of all receivers of a factory.</source>
+            <target state="new">Set the prefetch count to 20 times the maximum processing rates of all receivers of a factory.</target>
+          </trans-unit>
+          <trans-unit id="181" translate="yes" xml:space="preserve">
+            <source>This reduces the number of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol transmissions.</source>
+            <target state="new">This reduces the number of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol transmissions.</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="182" translate="yes" xml:space="preserve">
+            <source>Queue with a large number of receivers</source>
+            <target state="new">Queue with a large number of receivers</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="183" translate="yes" xml:space="preserve">
+            <source>Goal: Maximize the receive rate of a queue or subscription with a large number of receivers.</source>
+            <target state="new">Goal: Maximize the receive rate of a queue or subscription with a large number of receivers.</target>
+          </trans-unit>
+          <trans-unit id="184" translate="yes" xml:space="preserve">
+            <source>Each receiver receives messages at a moderate rate.</source>
+            <target state="new">Each receiver receives messages at a moderate rate.</target>
+          </trans-unit>
+          <trans-unit id="185" translate="yes" xml:space="preserve">
+            <source>The number of senders is small.</source>
+            <target state="new">The number of senders is small.</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="186" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> enables up to 1000 concurrent connections to an entity.</source>
+            <target state="new"><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> enables up to 1000 concurrent connections to an entity.</target>
+          </trans-unit>
+          <trans-unit id="187" translate="yes" xml:space="preserve">
+            <source>If a queue requires more than 1000 receivers, you should replace the queue with a topic and multiple subscriptions.</source>
+            <target state="new">If a queue requires more than 1000 receivers, you should replace the queue with a topic and multiple subscriptions.</target>
+          </trans-unit>
+          <trans-unit id="188" translate="yes" xml:space="preserve">
+            <source>Each subscription can support up to 1000 concurrent connections.</source>
+            <target state="new">Each subscription can support up to 1000 concurrent connections.</target>
+          </trans-unit>
+          <trans-unit id="189" translate="yes" xml:space="preserve">
+            <source>Alternatively, receivers can access the queue via the HTTP protocol.</source>
+            <target state="new">Alternatively, receivers can access the queue via the HTTP protocol.</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="190" translate="yes" xml:space="preserve">
+            <source>To maximize throughput, do the following:</source>
+            <target state="new">To maximize throughput, do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="191" translate="yes" xml:space="preserve">
+            <source>Use a partitioned queue for improved performance and availability.</source>
+            <target state="new">Use a partitioned queue for improved performance and availability.</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="192" translate="yes" xml:space="preserve">
+            <source>If each receiver resides in a different process, use only a single factory per process.</source>
+            <target state="new">If each receiver resides in a different process, use only a single factory per process.</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="193" translate="yes" xml:space="preserve">
+            <source>Receivers can use synchronous or asynchronous operations.</source>
+            <target state="new">Receivers can use synchronous or asynchronous operations.</target>
+          </trans-unit>
+          <trans-unit id="194" translate="yes" xml:space="preserve">
+            <source>Given the moderate receive rate of an individual receiver, client-side batching of a <ph id="1">&lt;languageKeyword&gt;Complete&lt;/languageKeyword&gt;</ph> request does not affect receiver throughput.</source>
+            <target state="new">Given the moderate receive rate of an individual receiver, client-side batching of a <ph id="1">&lt;languageKeyword&gt;Complete&lt;/languageKeyword&gt;</ph> request does not affect receiver throughput.</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="195" translate="yes" xml:space="preserve">
+            <source>Leave batched store access enabled.</source>
+            <target state="new">Leave batched store access enabled.</target>
+          </trans-unit>
+          <trans-unit id="196" translate="yes" xml:space="preserve">
+            <source>This reduces the overall load of the entity.</source>
+            <target state="new">This reduces the overall load of the entity.</target>
+          </trans-unit>
+          <trans-unit id="197" translate="yes" xml:space="preserve">
+            <source>It also reduces the overall rate at which messages can be written into the queue or topic.</source>
+            <target state="new">It also reduces the overall rate at which messages can be written into the queue or topic.</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="198" translate="yes" xml:space="preserve">
+            <source>Set the prefetch count to a small value (for example, <ph id="1">&lt;languageKeyword&gt;PrefetchCount&lt;/languageKeyword&gt;</ph> = 10).</source>
+            <target state="new">Set the prefetch count to a small value (for example, <ph id="1">&lt;languageKeyword&gt;PrefetchCount&lt;/languageKeyword&gt;</ph> = 10).</target>
+          </trans-unit>
+          <trans-unit id="199" translate="yes" xml:space="preserve">
+            <source>This prevents receivers from being idle while other receivers have large numbers of messages cached.</source>
+            <target state="new">This prevents receivers from being idle while other receivers have large numbers of messages cached.</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="200" translate="yes" xml:space="preserve">
+            <source>Topic with a small number of subscriptions</source>
+            <target state="new">Topic with a small number of subscriptions</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="201" translate="yes" xml:space="preserve">
+            <source>Goal: Maximize the throughput of a topic with a small number of subscriptions.</source>
+            <target state="new">Goal: Maximize the throughput of a topic with a small number of subscriptions.</target>
+          </trans-unit>
+          <trans-unit id="202" translate="yes" xml:space="preserve">
+            <source>A message is received by many subscriptions, which means the combined receive rate over all subscriptions is larger than the send rate.</source>
+            <target state="new">A message is received by many subscriptions, which means the combined receive rate over all subscriptions is larger than the send rate.</target>
+          </trans-unit>
+          <trans-unit id="203" translate="yes" xml:space="preserve">
+            <source>The number of senders is small.</source>
+            <target state="new">The number of senders is small.</target>
+          </trans-unit>
+          <trans-unit id="204" translate="yes" xml:space="preserve">
+            <source>The number of receivers per subscription is small.</source>
+            <target state="new">The number of receivers per subscription is small.</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="205" translate="yes" xml:space="preserve">
+            <source>To maximize throughput, do the following:</source>
+            <target state="new">To maximize throughput, do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="206" translate="yes" xml:space="preserve">
+            <source>Use a partitioned topic for improved performance and availability.</source>
+            <target state="new">Use a partitioned topic for improved performance and availability.</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="207" translate="yes" xml:space="preserve">
+            <source>To increase the overall send rate into the topic, use multiple message factories to create senders.</source>
+            <target state="new">To increase the overall send rate into the topic, use multiple message factories to create senders.</target>
+          </trans-unit>
+          <trans-unit id="208" translate="yes" xml:space="preserve">
+            <source>For each sender, use asynchronous operations or multiple threads.</source>
+            <target state="new">For each sender, use asynchronous operations or multiple threads.</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="209" translate="yes" xml:space="preserve">
+            <source>To increase the overall receive rate from a subscription, use multiple message factories to create receivers.</source>
+            <target state="new">To increase the overall receive rate from a subscription, use multiple message factories to create receivers.</target>
+          </trans-unit>
+          <trans-unit id="210" translate="yes" xml:space="preserve">
+            <source>For each receiver, use asynchronous operations or multiple threads.</source>
+            <target state="new">For each receiver, use asynchronous operations or multiple threads.</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="211" translate="yes" xml:space="preserve">
+            <source>Use asynchronous operations to take advantage of client-side batching.</source>
+            <target state="new">Use asynchronous operations to take advantage of client-side batching.</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="212" translate="yes" xml:space="preserve">
+            <source>Use the default batching interval of 20ms to reduce the number of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol transmissions.</source>
+            <target state="new">Use the default batching interval of 20ms to reduce the number of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol transmissions.</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="213" translate="yes" xml:space="preserve">
+            <source>Leave batched store access enabled.</source>
+            <target state="new">Leave batched store access enabled.</target>
+          </trans-unit>
+          <trans-unit id="214" translate="yes" xml:space="preserve">
+            <source>This increases the overall rate at which messages can be written into the topic.</source>
+            <target state="new">This increases the overall rate at which messages can be written into the topic.</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="215" translate="yes" xml:space="preserve">
+            <source>Set the prefetch count to 20 times the maximum processing rates of all receivers of a factory.</source>
+            <target state="new">Set the prefetch count to 20 times the maximum processing rates of all receivers of a factory.</target>
+          </trans-unit>
+          <trans-unit id="216" translate="yes" xml:space="preserve">
+            <source>This reduces the number of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol transmissions.</source>
+            <target state="new">This reduces the number of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol transmissions.</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="217" translate="yes" xml:space="preserve">
+            <source>Topic with a large number of subscriptions</source>
+            <target state="new">Topic with a large number of subscriptions</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="218" translate="yes" xml:space="preserve">
+            <source>Goal: Maximize the throughput of a topic with a large number of subscriptions.</source>
+            <target state="new">Goal: Maximize the throughput of a topic with a large number of subscriptions.</target>
+          </trans-unit>
+          <trans-unit id="219" translate="yes" xml:space="preserve">
+            <source>A message is received by many subscriptions, which means the combined receive rate over all subscriptions is much larger than the send rate.</source>
+            <target state="new">A message is received by many subscriptions, which means the combined receive rate over all subscriptions is much larger than the send rate.</target>
+          </trans-unit>
+          <trans-unit id="220" translate="yes" xml:space="preserve">
+            <source>The number of senders is small.</source>
+            <target state="new">The number of senders is small.</target>
+          </trans-unit>
+          <trans-unit id="221" translate="yes" xml:space="preserve">
+            <source>The number of receivers per subscription is small.</source>
+            <target state="new">The number of receivers per subscription is small.</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="222" translate="yes" xml:space="preserve">
+            <source>Topics with a large number of subscriptions typically expose a low overall throughput if all messages are routed to all subscriptions.</source>
+            <target state="new">Topics with a large number of subscriptions typically expose a low overall throughput if all messages are routed to all subscriptions.</target>
+          </trans-unit>
+          <trans-unit id="223" translate="yes" xml:space="preserve">
+            <source>This is caused by the fact that each message is received many times, and all messages that are contained in a topic and all its subscriptions are stored in the same store.</source>
+            <target state="new">This is caused by the fact that each message is received many times, and all messages that are contained in a topic and all its subscriptions are stored in the same store.</target>
+          </trans-unit>
+          <trans-unit id="224" translate="yes" xml:space="preserve">
+            <source>It is assumed that the number of senders and number of receivers per subscription is small.</source>
+            <target state="new">It is assumed that the number of senders and number of receivers per subscription is small.</target>
+          </trans-unit>
+          <trans-unit id="225" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> supports up to 2,000 subscriptions per topic.</source>
+            <target state="new"><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> supports up to 2,000 subscriptions per topic.</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="226" translate="yes" xml:space="preserve">
+            <source>To maximize throughput, do the following:</source>
+            <target state="new">To maximize throughput, do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="227" translate="yes" xml:space="preserve">
+            <source>Use a partitioned topic for improved performance and availability.</source>
+            <target state="new">Use a partitioned topic for improved performance and availability.</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="228" translate="yes" xml:space="preserve">
+            <source>Use asynchronous operations to take advantage of client-side batching.</source>
+            <target state="new">Use asynchronous operations to take advantage of client-side batching.</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="229" translate="yes" xml:space="preserve">
+            <source>Use the default batching interval of 20ms to reduce the number of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol transmissions.</source>
+            <target state="new">Use the default batching interval of 20ms to reduce the number of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol transmissions.</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="230" translate="yes" xml:space="preserve">
+            <source>Leave batched store access enabled.</source>
+            <target state="new">Leave batched store access enabled.</target>
+          </trans-unit>
+          <trans-unit id="231" translate="yes" xml:space="preserve">
+            <source>This increases the overall rate at which messages can be written into the topic.</source>
+            <target state="new">This increases the overall rate at which messages can be written into the topic.</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="232" translate="yes" xml:space="preserve">
+            <source>Set the prefetch count to 20 times the expected receive rate in seconds.</source>
+            <target state="new">Set the prefetch count to 20 times the expected receive rate in seconds.</target>
+          </trans-unit>
+          <trans-unit id="233" translate="yes" xml:space="preserve">
+            <source>This reduces the number of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol transmissions.</source>
+            <target state="new">This reduces the number of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client protocol transmissions.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

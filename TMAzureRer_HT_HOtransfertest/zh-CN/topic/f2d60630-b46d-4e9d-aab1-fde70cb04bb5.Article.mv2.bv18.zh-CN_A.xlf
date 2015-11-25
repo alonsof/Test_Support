@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-CN" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzMEKwjAMANBfyQc00Kxpt3r14smTP5C0CQ7mBjph+PXu/OC5J1MeGpoxI5NH1DgptkhSanUSqQGEKFfjisxRkD1llN4yuozNLKlR4QA+9BJLOgcuHdlqRxEl9G5jbBpZNQegAL8nXu8BjmV2t2O/vLdtDzCcNgW4fV+yPt6yfhbZ5239A5wlN0WiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>LocalResourceGetRootPath</source>
+            <target state="new">LocalResourceGetRootPath</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Returns the root file path to the local storage resource.</source>
+            <target state="new">Returns the root file path to the local storage resource.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>A pointer to the local store resource, returned from a call to the <ph id="1">&lt;link xlink:href="068f1496-75f2-44f4-b4dc-b57748fbf0f3" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;RoleEnvrionmentGetLocalResource Function&lt;/link&gt;</ph> function.</source>
+            <target state="new">A pointer to the local store resource, returned from a call to the <ph id="1">&lt;link xlink:href="068f1496-75f2-44f4-b4dc-b57748fbf0f3" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;RoleEnvrionmentGetLocalResource Function&lt;/link&gt;</ph> function.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>The buffer to write the file path of the local store resource.</source>
+            <target state="new">The buffer to write the file path of the local store resource.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Maximum size of <ph id="1">&lt;parameterReference&gt;pszDest&lt;/parameterReference&gt;</ph> buffer.</source>
+            <target state="new">Maximum size of <ph id="1">&lt;parameterReference&gt;pszDest&lt;/parameterReference&gt;</ph> buffer.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Contains the required size of the <ph id="1">&lt;parameterReference&gt;pszDest&lt;/parameterReference&gt;</ph> buffer if the current buffer is too small.</source>
+            <target state="new">Contains the required size of the <ph id="1">&lt;parameterReference&gt;pszDest&lt;/parameterReference&gt;</ph> buffer if the current buffer is too small.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Use the SUCCEEDED macro to determine whether a call to the <ph id="1">&lt;languageKeyword&gt;LocalResourceGetRootPath&lt;/languageKeyword&gt;</ph> function has succeeded or failed.</source>
+            <target state="new">Use the SUCCEEDED macro to determine whether a call to the <ph id="1">&lt;languageKeyword&gt;LocalResourceGetRootPath&lt;/languageKeyword&gt;</ph> function has succeeded or failed.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>If the call fails due to the value of <ph id="1">&lt;parameterReference&gt;cchDest&lt;/parameterReference&gt;</ph> being too small, the <ph id="2">&lt;languageKeyword&gt;LocalResourceGetRootPath&lt;/languageKeyword&gt;</ph> function returns the ROLEMANAGER_E_INSUFFICIENT_BUFFER constant.</source>
+            <target state="new">If the call fails due to the value of <ph id="1">&lt;parameterReference&gt;cchDest&lt;/parameterReference&gt;</ph> being too small, the <ph id="2">&lt;languageKeyword&gt;LocalResourceGetRootPath&lt;/languageKeyword&gt;</ph> function returns the ROLEMANAGER_E_INSUFFICIENT_BUFFER constant.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="9126ae14-9abe-45bb-b27f-e67aa9e5c4d2" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Return Codes&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="9126ae14-9abe-45bb-b27f-e67aa9e5c4d2" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Return Codes&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>None.</source>
+            <target state="new">None.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Function Information</source>
+            <target state="new">Function Information</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Header File</source>
+            <target state="new">Header File</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>ServiceRuntime.h</source>
+            <target state="new">ServiceRuntime.h</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Import Library</source>
+            <target state="new">Import Library</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>&lt;<bpt id="1">&lt;placeholder&gt;</bpt>Azure SDK installation directory<ept id="1">&lt;/placeholder&gt;</ept>&gt;\lib\x64\mswasr.lib</source>
+            <target state="new">&lt;<bpt id="1">&lt;placeholder&gt;</bpt>Azure SDK installation directory<ept id="1">&lt;/placeholder&gt;</ept>&gt;\lib\x64\mswasr.lib</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>&lt;<bpt id="1">&lt;placeholder&gt;</bpt>Azure SDK installation directory<ept id="1">&lt;/placeholder&gt;</ept>&gt;\lib\x86\mswasr.lib</source>
+            <target state="new">&lt;<bpt id="1">&lt;placeholder&gt;</bpt>Azure SDK installation directory<ept id="1">&lt;/placeholder&gt;</ept>&gt;\lib\x86\mswasr.lib</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

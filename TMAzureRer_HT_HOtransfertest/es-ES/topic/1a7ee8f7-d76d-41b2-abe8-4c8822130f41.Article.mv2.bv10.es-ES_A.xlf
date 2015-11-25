@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzEsKwzAMANGr+AAW+CNsqftC9+0FZFuCQJpAkkKOX6/nMWZZG6YOqoiA0QK0QA16iFKYLYqwd5Vz6SwFMjEBcp1KssLQVBO2HGiod1GqKlmFUcuYr5ZAmk7fiVKKORjGqbzTE55v7+51MdP7ehz7fnmXZgvevX5f2T6HbOcq17Jvf80WKjuiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Step 1: Build and Deploy the Relay Services</source>
+            <target state="new">Step 1: Build and Deploy the Relay Services</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This step of the tutorial demonstrates how to create a relay service that receives a message from the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> and generates a response for the insurance quotes that come in.</source>
+            <target state="new">This step of the tutorial demonstrates how to create a relay service that receives a message from the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> and generates a response for the insurance quotes that come in.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>The service also stamps the response with the message headers before sending it back to the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>.</source>
+            <target state="new">The service also stamps the response with the message headers before sending it back to the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>As per the business scenario, this step demonstrates how to create two services.</source>
+            <target state="new">As per the business scenario, this step demonstrates how to create two services.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>One service receives insurance quotes less than $10000 and the other receives insurance quotes more than $10000.</source>
+            <target state="new">One service receives insurance quotes less than $10000 and the other receives insurance quotes more than $10000.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>This scenario could also have used an external WCF service instead, but using relay services provides the option of extensibility.</source>
+            <target state="new">This scenario could also have used an external WCF service instead, but using relay services provides the option of extensibility.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Relay services can serve as an interface endpoint to more elaborate systems behind an organization’s firewall.</source>
+            <target state="new">Relay services can serve as an interface endpoint to more elaborate systems behind an organization’s firewall.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>For example, even though Northwind Traders receive and validate the insurance quotes over the cloud, it might still be storing the message data in a line-of-business (LOB) application behind a firewall.</source>
+            <target state="new">For example, even though Northwind Traders receive and validate the insurance quotes over the cloud, it might still be storing the message data in a line-of-business (LOB) application behind a firewall.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Or, after receiving the message it might be triggering off a workflow in SharePoint Server.</source>
+            <target state="new">Or, after receiving the message it might be triggering off a workflow in SharePoint Server.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>So, using a relay service provides the capability to create hybrid applications.</source>
+            <target state="new">So, using a relay service provides the capability to create hybrid applications.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>For more information, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>How to Use the Service Bus Relay Service<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=252250&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (http://go.microsoft.com/fwlink/?LinkId=252250).</source>
+            <target state="new">For more information, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>How to Use the Service Bus Relay Service<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=252250&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (http://go.microsoft.com/fwlink/?LinkId=252250).</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>This topic does not create a service from scratch.</source>
+            <target state="new">This topic does not create a service from scratch.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>It only presents the code that receives the message and generates a response.</source>
+            <target state="new">It only presents the code that receives the message and generates a response.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>You can download the entire code from <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>MSDN Code Gallery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=252395&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">You can download the entire code from <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>MSDN Code Gallery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=252395&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>To build and deploy RelayReceiverServiceA</source>
+            <target state="new">To build and deploy RelayReceiverServiceA</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Download the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>MSDN Code Gallery sample<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=252395&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">Download the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>MSDN Code Gallery sample<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=252395&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Extract the package contents and open the <bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceA<ept id="1">&lt;/embeddedLabel&gt;</ept> project.</source>
+            <target state="new">Extract the package contents and open the <bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceA<ept id="1">&lt;/embeddedLabel&gt;</ept> project.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>From Solution Explorer, double-click and open <bpt id="1">&lt;embeddedLabel&gt;</bpt>RouteTwoWayReceiveService.cs<ept id="1">&lt;/embeddedLabel&gt;</ept> and verify the following code block:</source>
+            <target state="new">From Solution Explorer, double-click and open <bpt id="1">&lt;embeddedLabel&gt;</bpt>RouteTwoWayReceiveService.cs<ept id="1">&lt;/embeddedLabel&gt;</ept> and verify the following code block:</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Verify the following namespaces are present:</source>
+            <target state="new">Verify the following namespaces are present:</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Verify the existing code block is present.</source>
+            <target state="new">Verify the existing code block is present.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>This code block receives a message from the bridge, stamps the required headers, and sends the response back to the bridge.</source>
+            <target state="new">This code block receives a message from the bridge, stamps the required headers, and sends the response back to the bridge.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Notice the values assigned to the headers <bpt id="1">&lt;embeddedLabel&gt;</bpt>MsgStatus<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Eligibility<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Notice the values assigned to the headers <bpt id="1">&lt;embeddedLabel&gt;</bpt>MsgStatus<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Eligibility<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>These values were defined as part of the <ph id="1">&lt;link xlink:href="14d7f8b8-074c-485f-a2f6-c9a02cc1779a#BKMK_Scenario" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Business Scenario&lt;/link&gt;</ph>.</source>
+            <target state="new">These values were defined as part of the <ph id="1">&lt;link xlink:href="14d7f8b8-074c-485f-a2f6-c9a02cc1779a#BKMK_Scenario" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Business Scenario&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>RouteTwoWayReceiveService<ept id="1">&lt;/embeddedLabel&gt;</ept> class implements the <bpt id="2">&lt;embeddedLabel&gt;</bpt>IRouteTwoWayReceiveService<ept id="2">&lt;/embeddedLabel&gt;</ept> interface.</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>RouteTwoWayReceiveService<ept id="1">&lt;/embeddedLabel&gt;</ept> class implements the <bpt id="2">&lt;embeddedLabel&gt;</bpt>IRouteTwoWayReceiveService<ept id="2">&lt;/embeddedLabel&gt;</ept> interface.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>So, make sure the interface definition (<bpt id="1">&lt;embeddedLabel&gt;</bpt>IRouteTwoWayReceiveService.cs<ept id="1">&lt;/embeddedLabel&gt;</ept>) includes the <bpt id="2">&lt;embeddedLabel&gt;</bpt>ReceiveAndReply<ept id="2">&lt;/embeddedLabel&gt;</ept> method declaration.</source>
+            <target state="new">So, make sure the interface definition (<bpt id="1">&lt;embeddedLabel&gt;</bpt>IRouteTwoWayReceiveService.cs<ept id="1">&lt;/embeddedLabel&gt;</ept>) includes the <bpt id="2">&lt;embeddedLabel&gt;</bpt>ReceiveAndReply<ept id="2">&lt;/embeddedLabel&gt;</ept> method declaration.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Press <bpt id="1">&lt;userInput&gt;</bpt>F6<ept id="1">&lt;/userInput&gt;</ept> to build the solution.</source>
+            <target state="new">Press <bpt id="1">&lt;userInput&gt;</bpt>F6<ept id="1">&lt;/userInput&gt;</ept> to build the solution.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Open a command prompt and navigate to location for the \bin\Debug folder for the project.</source>
+            <target state="new">Open a command prompt and navigate to location for the \bin\Debug folder for the project.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Type the following command:</source>
+            <target state="new">Type the following command:</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Here, ‘2’ denotes that you are deploying a two-way relay service.</source>
+            <target state="new">Here, ‘2’ denotes that you are deploying a two-way relay service.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>The relative address <bpt id="1">&lt;embeddedLabel&gt;</bpt>/RelayReceiverServiceA<ept id="1">&lt;/embeddedLabel&gt;</ept> must be the same that you specified in the procedure <ph id="2">&lt;link xlink:href="5780b286-e997-4b09-8217-9ebe1103a5b4#BKMK_RelayServiceA" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;To represent RelayReceiverServiceA in the project&lt;/link&gt;</ph>.</source>
+            <target state="new">The relative address <bpt id="1">&lt;embeddedLabel&gt;</bpt>/RelayReceiverServiceA<ept id="1">&lt;/embeddedLabel&gt;</ept> must be the same that you specified in the procedure <ph id="2">&lt;link xlink:href="5780b286-e997-4b09-8217-9ebe1103a5b4#BKMK_RelayServiceA" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;To represent RelayReceiverServiceA in the project&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>After the relay service is successfully deployed, the command prompt displays the following:</source>
+            <target state="new">After the relay service is successfully deployed, the command prompt displays the following:</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>To build and deploy RelayReceiverServiceB</source>
+            <target state="new">To build and deploy RelayReceiverServiceB</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>From the sample you downloaded from the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>MSDN Code Gallery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=252395&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> open the <bpt id="4">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceB<ept id="4">&lt;/embeddedLabel&gt;</ept> project.</source>
+            <target state="new">From the sample you downloaded from the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>MSDN Code Gallery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=252395&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> open the <bpt id="4">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceB<ept id="4">&lt;/embeddedLabel&gt;</ept> project.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>From Solution Explorer, double-click and open <bpt id="1">&lt;embeddedLabel&gt;</bpt>RouteTwoWayReceiveService.cs<ept id="1">&lt;/embeddedLabel&gt;</ept> and verify the following code block:</source>
+            <target state="new">From Solution Explorer, double-click and open <bpt id="1">&lt;embeddedLabel&gt;</bpt>RouteTwoWayReceiveService.cs<ept id="1">&lt;/embeddedLabel&gt;</ept> and verify the following code block:</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Verify the following namespaces are present:</source>
+            <target state="new">Verify the following namespaces are present:</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Replace the existing code block with the following code block:</source>
+            <target state="new">Replace the existing code block with the following code block:</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Notice the values assigned to the headers <bpt id="1">&lt;embeddedLabel&gt;</bpt>MsgStatus<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Eligibility<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Notice the values assigned to the headers <bpt id="1">&lt;embeddedLabel&gt;</bpt>MsgStatus<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Eligibility<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>These values were defined as part of the <ph id="1">&lt;link xlink:href="14d7f8b8-074c-485f-a2f6-c9a02cc1779a#BKMK_Scenario" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Business Scenario&lt;/link&gt;</ph>.</source>
+            <target state="new">These values were defined as part of the <ph id="1">&lt;link xlink:href="14d7f8b8-074c-485f-a2f6-c9a02cc1779a#BKMK_Scenario" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Business Scenario&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>RouteTwoWayReceiveService<ept id="1">&lt;/embeddedLabel&gt;</ept> class implements the <bpt id="2">&lt;embeddedLabel&gt;</bpt>IRouteTwoWayReceiveService<ept id="2">&lt;/embeddedLabel&gt;</ept> interface.</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>RouteTwoWayReceiveService<ept id="1">&lt;/embeddedLabel&gt;</ept> class implements the <bpt id="2">&lt;embeddedLabel&gt;</bpt>IRouteTwoWayReceiveService<ept id="2">&lt;/embeddedLabel&gt;</ept> interface.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>So, make sure the interface definition (<bpt id="1">&lt;embeddedLabel&gt;</bpt>IRouteTwoWayReceiveService.cs<ept id="1">&lt;/embeddedLabel&gt;</ept>) includes the <bpt id="2">&lt;embeddedLabel&gt;</bpt>ReceiveAndReply<ept id="2">&lt;/embeddedLabel&gt;</ept> method declaration.</source>
+            <target state="new">So, make sure the interface definition (<bpt id="1">&lt;embeddedLabel&gt;</bpt>IRouteTwoWayReceiveService.cs<ept id="1">&lt;/embeddedLabel&gt;</ept>) includes the <bpt id="2">&lt;embeddedLabel&gt;</bpt>ReceiveAndReply<ept id="2">&lt;/embeddedLabel&gt;</ept> method declaration.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Press <bpt id="1">&lt;userInput&gt;</bpt>F6<ept id="1">&lt;/userInput&gt;</ept> to build the solution.</source>
+            <target state="new">Press <bpt id="1">&lt;userInput&gt;</bpt>F6<ept id="1">&lt;/userInput&gt;</ept> to build the solution.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Open a command prompt and navigate to location for the \bin\Debug folder for the project.</source>
+            <target state="new">Open a command prompt and navigate to location for the \bin\Debug folder for the project.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Type the following command:</source>
+            <target state="new">Type the following command:</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Here, ‘2’ denotes that you are deploying a two-way relay service.</source>
+            <target state="new">Here, ‘2’ denotes that you are deploying a two-way relay service.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>The relative address <bpt id="1">&lt;embeddedLabel&gt;</bpt>/RelayReceiverServiceB<ept id="1">&lt;/embeddedLabel&gt;</ept> must be the same that you specified in the procedure <ph id="2">&lt;link xlink:href="5780b286-e997-4b09-8217-9ebe1103a5b4#BKMK_RelayServiceB" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;To represent RelayReceiverServiceB in the project&lt;/link&gt;</ph>.</source>
+            <target state="new">The relative address <bpt id="1">&lt;embeddedLabel&gt;</bpt>/RelayReceiverServiceB<ept id="1">&lt;/embeddedLabel&gt;</ept> must be the same that you specified in the procedure <ph id="2">&lt;link xlink:href="5780b286-e997-4b09-8217-9ebe1103a5b4#BKMK_RelayServiceB" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;To represent RelayReceiverServiceB in the project&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>After the relay service is successfully deployed, the command prompt displays the following:</source>
+            <target state="new">After the relay service is successfully deployed, the command prompt displays the following:</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzEsKwzAMANGr+AAW+CMHq/tC9+0FJFmGQOpAkkKOX6/nMb1nE0wKZoiAsQeQUAU0RF6IemQm75qwEkUGKrkA1pCBkQQohGzNtKlG7wpTlpYSLMg6VaxAkhlmbdzqrFy8m9BOeL69u7e1d7uvx7Hvl3dpHrx7/b48PgePc+Nr3ccfo+k8fqEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>OpenID Connect 1.0</source>
+            <target state="new">OpenID Connect 1.0</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>OpenID Connect 1.0 in Azure Active Directory (Azure AD) enables you to use the OAuth 2.0 protocol for single sign-on.</source>
+            <target state="new">OpenID Connect 1.0 in Azure Active Directory (Azure AD) enables you to use the OAuth 2.0 protocol for single sign-on.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>OAuth 2.0 is an authorization protocol, but OpenID Connect extends OAuth 2.0 for use as an authentication protocol.</source>
+            <target state="new">OAuth 2.0 is an authorization protocol, but OpenID Connect extends OAuth 2.0 for use as an authentication protocol.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>A primary feature of the OpenID Connect protocol is that it returns an <ph id="1">&lt;parameterReference&gt;id_token&lt;/parameterReference&gt;</ph>, which is used to authenticate the user.</source>
+            <target state="new">A primary feature of the OpenID Connect protocol is that it returns an <ph id="1">&lt;parameterReference&gt;id_token&lt;/parameterReference&gt;</ph>, which is used to authenticate the user.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>For more information about OpenID Connect, see the specification, <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>OpenID Connect Core 1.0<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://openid.net/specs/openid-connect-core-1_0.html&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information about OpenID Connect, see the specification, <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>OpenID Connect Core 1.0<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://openid.net/specs/openid-connect-core-1_0.html&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Here is a sample OpenID Connect request to Azure AD:</source>
+            <target state="new">Here is a sample OpenID Connect request to Azure AD:</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>In addition to the support for the <ph id="1">&lt;parameterReference&gt;id_token&lt;/parameterReference&gt;</ph> response type, we have added support for the following parameters in the request.</source>
+            <target state="new">In addition to the support for the <ph id="1">&lt;parameterReference&gt;id_token&lt;/parameterReference&gt;</ph> response type, we have added support for the following parameters in the request.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Parameter</source>
+            <target state="new">Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>nonce</source>
+            <target state="new">nonce</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>[Required] This is value is used to protect against token replay attacks.</source>
+            <target state="new">[Required] This is value is used to protect against token replay attacks.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The value provided in the request must match the <ph id="1">&lt;parameterReference&gt;nonce&lt;/parameterReference&gt;</ph> claim value that is returned in the <ph id="2">&lt;parameterReference&gt;id_token&lt;/parameterReference&gt;</ph>.</source>
+            <target state="new">The value provided in the request must match the <ph id="1">&lt;parameterReference&gt;nonce&lt;/parameterReference&gt;</ph> claim value that is returned in the <ph id="2">&lt;parameterReference&gt;id_token&lt;/parameterReference&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>This nonce must be unique to a user session and difficult to guess, such as a GUID.</source>
+            <target state="new">This nonce must be unique to a user session and difficult to guess, such as a GUID.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>response_mode</source>
+            <target state="new">response_mode</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>[Required] Indicates the encoding of the response.</source>
+            <target state="new">[Required] Indicates the encoding of the response.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Supported values are <ph id="1">&lt;parameterReference&gt;fragment&lt;/parameterReference&gt;</ph> (URL fragment) and <ph id="2">&lt;parameterReference&gt;form_post&lt;/parameterReference&gt;</ph> (HTTP form POST).</source>
+            <target state="new">Supported values are <ph id="1">&lt;parameterReference&gt;fragment&lt;/parameterReference&gt;</ph> (URL fragment) and <ph id="2">&lt;parameterReference&gt;form_post&lt;/parameterReference&gt;</ph> (HTTP form POST).</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;response_mode&lt;/parameterReference&gt;</ph> parameter is required, because the current default response encoding is in a query parameter.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;response_mode&lt;/parameterReference&gt;</ph> parameter is required, because the current default response encoding is in a query parameter.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>This behavior is incompatible with the specification and the default value is likely to change.</source>
+            <target state="new">This behavior is incompatible with the specification and the default value is likely to change.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>To prevent your client from failing in the future, include the <ph id="1">&lt;parameterReference&gt;response_mode&lt;/parameterReference&gt;</ph> parameter in the request with a value of <ph id="2">&lt;parameterReference&gt;fragment&lt;/parameterReference&gt;</ph> or <ph id="3">&lt;parameterReference&gt;form_post&lt;/parameterReference&gt;</ph>.</source>
+            <target state="new">To prevent your client from failing in the future, include the <ph id="1">&lt;parameterReference&gt;response_mode&lt;/parameterReference&gt;</ph> parameter in the request with a value of <ph id="2">&lt;parameterReference&gt;fragment&lt;/parameterReference&gt;</ph> or <ph id="3">&lt;parameterReference&gt;form_post&lt;/parameterReference&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-CN" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAAVzTEKwzAMQNGr+AAWWIrrWF27dOrUC8i2RANpAkkKoaevO/8H32zQEqmCaowQ0QKUkAvUgJKYDUXYO8JkvWXAFMe/GqCojkBju1AUFgvNu8qSKaUA1Lh2hQ0yEkFsrKEMVZnEO/Tu+4Lbw7tznsz0PK7buh590lvw7v55y/LcZNlnOaZ1+QE12n+pogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Feature Hashing</source>
+            <target state="new">Feature Hashing</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Converts text data to integer encoded features using the Vowpal Wabbit library</source>
+            <target state="new">Converts text data to integer encoded features using the Vowpal Wabbit library</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Category: <ph id="1">&lt;link xlink:href="c790e4eb-2aae-4228-a12f-69809b9e70ae" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Text Analytics&lt;/link&gt;</ph></source>
+            <target state="new">Category: <ph id="1">&lt;link xlink:href="c790e4eb-2aae-4228-a12f-69809b9e70ae" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Text Analytics&lt;/link&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Module Overview</source>
+            <target state="new">Module Overview</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You can use the <bpt id="1">&lt;ui&gt;</bpt>Feature Hashing<ept id="1">&lt;/ui&gt;</ept> module to transform a stream of English text into a set of features represented as integers.</source>
+            <target state="new">You can use the <bpt id="1">&lt;ui&gt;</bpt>Feature Hashing<ept id="1">&lt;/ui&gt;</ept> module to transform a stream of English text into a set of features represented as integers.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>For example, suppose you have a set of sentences like this one:</source>
+            <target state="new">For example, suppose you have a set of sentences like this one:</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Text</source>
+            <target state="new">Text</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Hashed text</source>
+            <target state="new">Hashed text</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>I liked this book</source>
+            <target state="new">I liked this book</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>0 1 0 0 2 1 0 0</source>
+            <target state="new">0 1 0 0 2 1 0 0</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Internally, the <bpt id="1">&lt;ui&gt;</bpt>Feature Hashing<ept id="1">&lt;/ui&gt;</ept> module creates a dictionary of n-grams, converts the dictionary terms into hash values, and then computes their use in each case.</source>
+            <target state="new">Internally, the <bpt id="1">&lt;ui&gt;</bpt>Feature Hashing<ept id="1">&lt;/ui&gt;</ept> module creates a dictionary of n-grams, converts the dictionary terms into hash values, and then computes their use in each case.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Each hashing feature represents one or more n-gram text features.</source>
+            <target state="new">Each hashing feature represents one or more n-gram text features.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>You can control the size of the n-grams by using the <bpt id="1">&lt;ui&gt;</bpt>N-grams<ept id="1">&lt;/ui&gt;</ept> property.</source>
+            <target state="new">You can control the size of the n-grams by using the <bpt id="1">&lt;ui&gt;</bpt>N-grams<ept id="1">&lt;/ui&gt;</ept> property.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>If <bpt id="1">&lt;ui&gt;</bpt>N-grams<ept id="1">&lt;/ui&gt;</ept> = 1: Unigrams, or single words.</source>
+            <target state="new">If <bpt id="1">&lt;ui&gt;</bpt>N-grams<ept id="1">&lt;/ui&gt;</ept> = 1: Unigrams, or single words.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>If <bpt id="1">&lt;ui&gt;</bpt>N-grams<ept id="1">&lt;/ui&gt;</ept> = 2: Bigrams, or two words in succession.</source>
+            <target state="new">If <bpt id="1">&lt;ui&gt;</bpt>N-grams<ept id="1">&lt;/ui&gt;</ept> = 2: Bigrams, or two words in succession.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>If <bpt id="1">&lt;ui&gt;</bpt>N-grams<ept id="1">&lt;/ui&gt;</ept> = 3: Trigrams, or three words in a row.</source>
+            <target state="new">If <bpt id="1">&lt;ui&gt;</bpt>N-grams<ept id="1">&lt;/ui&gt;</ept> = 3: Trigrams, or three words in a row.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>After hashing, the features for each case would look something like this:</source>
+            <target state="new">After hashing, the features for each case would look something like this:</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Rating</source>
+            <target state="new">Rating</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Hashing feature 1</source>
+            <target state="new">Hashing feature 1</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Hashing feature 2</source>
+            <target state="new">Hashing feature 2</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Hashing feature 3</source>
+            <target state="new">Hashing feature 3</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>4</source>
+            <target state="new">4</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>2</source>
+            <target state="new">2</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>5</source>
+            <target state="new">5</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>5</source>
+            <target state="new">5</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>5</source>
+            <target state="new">5</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>2</source>
+            <target state="new">2</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>In contrast, if you pass the column of text data directly to the <ph id="1">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> module, it would handle the text column as a categorical feature column, with many, many distinct values.</source>
+            <target state="new">In contrast, if you pass the column of text data directly to the <ph id="1">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> module, it would handle the text column as a categorical feature column, with many, many distinct values.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>The advantage of using feature hashing, compared to working with text directly, is that you can represent text documents of variable-length as numeric feature vectors of equal-length, and achieve dimensionality reduction.</source>
+            <target state="new">The advantage of using feature hashing, compared to working with text directly, is that you can represent text documents of variable-length as numeric feature vectors of equal-length, and achieve dimensionality reduction.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Having the outputs as numeric also makes it possible to use many different machine learning methods with the data, including classification, clustering, or information retrieval.</source>
+            <target state="new">Having the outputs as numeric also makes it possible to use many different machine learning methods with the data, including classification, clustering, or information retrieval.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Because it replaces string comparison operations with hash lookups, <bpt id="1">&lt;ui&gt;</bpt>Feature Hashing<ept id="1">&lt;/ui&gt;</ept> makes the lookup of feature weights much faster.</source>
+            <target state="new">Because it replaces string comparison operations with hash lookups, <bpt id="1">&lt;ui&gt;</bpt>Feature Hashing<ept id="1">&lt;/ui&gt;</ept> makes the lookup of feature weights much faster.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>How to Use Feature Hashing</source>
+            <target state="new">How to Use Feature Hashing</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Some best practices that you can use while modeling text data are demonstrated in the following diagram representing an experiment: </source>
+            <target state="new">Some best practices that you can use while modeling text data are demonstrated in the following diagram representing an experiment: </target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>You might need to add an <ph id="1">&lt;link xlink:href="30806023-392b-42e0-94d6-6b775a6e0fd5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Execute R Script&lt;/link&gt;</ph> module before using <bpt id="2">&lt;ui&gt;</bpt>Feature Hashing<ept id="2">&lt;/ui&gt;</ept>, in order to preprocess the input text.</source>
+            <target state="new">You might need to add an <ph id="1">&lt;link xlink:href="30806023-392b-42e0-94d6-6b775a6e0fd5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Execute R Script&lt;/link&gt;</ph> module before using <bpt id="2">&lt;ui&gt;</bpt>Feature Hashing<ept id="2">&lt;/ui&gt;</ept>, in order to preprocess the input text.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Processing includes word breaking, stop word removal, case normalization, removing special characters, and stemming.</source>
+            <target state="new">Processing includes word breaking, stop word removal, case normalization, removing special characters, and stemming.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>You should add a <ph id="1">&lt;link xlink:href="1ec722fa-b623-4e26-a44e-a50c6d726223" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Project Columns&lt;/link&gt;</ph> module after the <bpt id="2">&lt;ui&gt;</bpt>Feature Hashing<ept id="2">&lt;/ui&gt;</ept> to remove the text columns from the output data set.</source>
+            <target state="new">You should add a <ph id="1">&lt;link xlink:href="1ec722fa-b623-4e26-a44e-a50c6d726223" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Project Columns&lt;/link&gt;</ph> module after the <bpt id="2">&lt;ui&gt;</bpt>Feature Hashing<ept id="2">&lt;/ui&gt;</ept> to remove the text columns from the output data set.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>You don’t need the text columns after the hashing features have been generated.</source>
+            <target state="new">You don’t need the text columns after the hashing features have been generated.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Azure Machine Learning Studio provides a <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>template for text classification<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525957&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> that lets you to use the feature hashing module for feature extraction.</source>
+            <target state="new">Azure Machine Learning Studio provides a <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>template for text classification<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525957&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> that lets you to use the feature hashing module for feature extraction.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Examples</source>
+            <target state="new">Examples</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>For examples of how feature hashing is used in for text analytics, see these samples in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Model Gallery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://gallery.azureml.net/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>:</source>
+            <target state="new">For examples of how feature hashing is used in for text analytics, see these samples in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Model Gallery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://gallery.azureml.net/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>:</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>News Categorization sample<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525167&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> uses feature hashing to classify articles into a predefined list of categories.</source>
+            <target state="new">The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>News Categorization sample<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525167&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> uses feature hashing to classify articles into a predefined list of categories.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Similar Companies sample<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525164&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> uses the text of Wikipedia articles to categorize companies.</source>
+            <target state="new">The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Similar Companies sample<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525164&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> uses the text of Wikipedia articles to categorize companies.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>In the five-part <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Text Classification sample<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;Text Classification sample&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, text from Twitter messages is used to perform sentiment analysis.</source>
+            <target state="new">In the five-part <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Text Classification sample<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;Text Classification sample&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, text from Twitter messages is used to perform sentiment analysis.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Technical Notes</source>
+            <target state="new">Technical Notes</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;ui&gt;</bpt>Feature Hashing<ept id="1">&lt;/ui&gt;</ept> module uses a fast machine learning framework called Vowpal Wabbit that hashes feature words into in-memory indexes, using a popular open source hash function called murmurhash3.</source>
+            <target state="new">The <bpt id="1">&lt;ui&gt;</bpt>Feature Hashing<ept id="1">&lt;/ui&gt;</ept> module uses a fast machine learning framework called Vowpal Wabbit that hashes feature words into in-memory indexes, using a popular open source hash function called murmurhash3.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>This hash function is a non-cryptographic hashing algorithm that maps text inputs to integers, and is popular because it performs well in a random distribution of keys.</source>
+            <target state="new">This hash function is a non-cryptographic hashing algorithm that maps text inputs to integers, and is popular because it performs well in a random distribution of keys.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Unlike cryptographic hash functions, it can be easily reversed by an adversary, so that it is unsuitable for cryptographic purposes</source>
+            <target state="new">Unlike cryptographic hash functions, it can be easily reversed by an adversary, so that it is unsuitable for cryptographic purposes</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>The purpose of hashing is to convert variable-length text documents into equal-length numeric feature vectors, to support dimensionality reduction and make the lookup of feature weights faster.</source>
+            <target state="new">The purpose of hashing is to convert variable-length text documents into equal-length numeric feature vectors, to support dimensionality reduction and make the lookup of feature weights faster.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Each hashing feature represents one or more n-gram text features (unigrams or individual words, bi-grams, tri-grams, etc.), depending on the number of bits (represented as <ph id="1">&lt;math&gt;k&lt;/math&gt;</ph>) and on the number of n-grams specified as parameters.</source>
+            <target state="new">Each hashing feature represents one or more n-gram text features (unigrams or individual words, bi-grams, tri-grams, etc.), depending on the number of bits (represented as <ph id="1">&lt;math&gt;k&lt;/math&gt;</ph>) and on the number of n-grams specified as parameters.</target>
+          </trans-unit>
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>It projects feature names to the machine architecture unsigned word using the murmurhash v3 (32-bit only) algorithm which then is ANDed with <ph id="1">&lt;math&gt;(2^k)-1&lt;/math&gt;</ph>.</source>
+            <target state="new">It projects feature names to the machine architecture unsigned word using the murmurhash v3 (32-bit only) algorithm which then is ANDed with <ph id="1">&lt;math&gt;(2^k)-1&lt;/math&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>That is, the hashed value is projected down to the first <ph id="1">&lt;math&gt;k&lt;/math&gt;</ph> lower-order bits, and the remaining bits are zeroed out.</source>
+            <target state="new">That is, the hashed value is projected down to the first <ph id="1">&lt;math&gt;k&lt;/math&gt;</ph> lower-order bits, and the remaining bits are zeroed out.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>If the specified number of bits is 14, the hash table can hold <ph id="1">&lt;math&gt;2&lt;/math&gt;</ph><bpt id="2">&lt;superscript&gt;</bpt>14<ept id="2">&lt;/superscript&gt;</ept><ph id="3">&lt;math&gt;-1&lt;/math&gt;</ph> (or 16,383) entries.</source>
+            <target state="new">If the specified number of bits is 14, the hash table can hold <ph id="1">&lt;math&gt;2&lt;/math&gt;</ph><bpt id="2">&lt;superscript&gt;</bpt>14<ept id="2">&lt;/superscript&gt;</ept><ph id="3">&lt;math&gt;-1&lt;/math&gt;</ph> (or 16,383) entries.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>For many problems, the default hash table (bitsize = 10) is more than adequate, but in some cases, more space might be needed to avoid collisions.</source>
+            <target state="new">For many problems, the default hash table (bitsize = 10) is more than adequate, but in some cases, more space might be needed to avoid collisions.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>We recommend that you try using a different number of bits for the <bpt id="1">&lt;ui&gt;</bpt>Hashing bitsize<ept id="1">&lt;/ui&gt;</ept> parameter, and evaluate the performance of the machine learning solution.</source>
+            <target state="new">We recommend that you try using a different number of bits for the <bpt id="1">&lt;ui&gt;</bpt>Hashing bitsize<ept id="1">&lt;/ui&gt;</ept> parameter, and evaluate the performance of the machine learning solution.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Expected Inputs</source>
+            <target state="new">Expected Inputs</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Dataset</source>
+            <target state="new">Dataset</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Input dataset</source>
+            <target state="new">Input dataset</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Module Parameters</source>
+            <target state="new">Module Parameters</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Range</source>
+            <target state="new">Range</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Default</source>
+            <target state="new">Default</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Target columns</source>
+            <target state="new">Target columns</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Any</source>
+            <target state="new">Any</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>ColumnSelection</source>
+            <target state="new">ColumnSelection</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>StringFeature</source>
+            <target state="new">StringFeature</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Choose the columns to which hashing will be applied</source>
+            <target state="new">Choose the columns to which hashing will be applied</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Hashing bitsize</source>
+            <target state="new">Hashing bitsize</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>[1;31]</source>
+            <target state="new">[1;31]</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>10</source>
+            <target state="new">10</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Type the number of bits to use when hashing the selected columns</source>
+            <target state="new">Type the number of bits to use when hashing the selected columns</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>N-grams</source>
+            <target state="new">N-grams</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>[0;10]</source>
+            <target state="new">[0;10]</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>2</source>
+            <target state="new">2</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Specify the number of N-grams generated during hashing</source>
+            <target state="new">Specify the number of N-grams generated during hashing</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>By default, both unigrams and bigrams are extracted</source>
+            <target state="new">By default, both unigrams and bigrams are extracted</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Outputs</source>
+            <target state="new">Outputs</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>Transformed dataset</source>
+            <target state="new">Transformed dataset</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Output dataset with hashed columns</source>
+            <target state="new">Output dataset with hashed columns</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Exceptions</source>
+            <target state="new">Exceptions</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>Exception</source>
+            <target state="new">Exception</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Exception occurs if one or more specified columns of data set couldn't be found.</source>
+            <target state="new">Exception occurs if one or more specified columns of data set couldn't be found.</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>Exception occurs if one or more of inputs are null or empty.</source>
+            <target state="new">Exception occurs if one or more of inputs are null or empty.</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>Exception occurs if parameter is less than or equal to specific value.</source>
+            <target state="new">Exception occurs if parameter is less than or equal to specific value.</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>Exception occurs if one or more specified columns have type unsupported by current module.</source>
+            <target state="new">Exception occurs if one or more specified columns have type unsupported by current module.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

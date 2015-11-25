@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzdsJwzAMQNFVPIAFliPLdgco/S5dQH4IAqkNaQIZv/m+HK7q0gv5Cr0TAaE6KC4VqA6Fc1YUydb4JTpFFvDNBaBKCNKFIbS8JMKbhWpNDFpSDA24JAZqxJBKrRDJM0rrIXm2Bq3RHZ5va65tVe3X8djnPO7J3Zw1r/Mr47PL+G1yrHP8AS/YkheiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Cross-Validate Model</source>
+            <target state="new">Cross-Validate Model</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Cross-validates parameter estimates for classification or regression models by partitioning the data</source>
+            <target state="new">Cross-validates parameter estimates for classification or regression models by partitioning the data</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Category: <bpt id="1">&lt;legacyLink xlink:href="EA496474-D04C-474F-896F-3F4531CD8BE0" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Machine Learning / Evaluate<ept id="1">&lt;/legacyLink&gt;</ept></source>
+            <target state="new">Category: <bpt id="1">&lt;legacyLink xlink:href="EA496474-D04C-474F-896F-3F4531CD8BE0" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Machine Learning / Evaluate<ept id="1">&lt;/legacyLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Module Overview</source>
+            <target state="new">Module Overview</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You can use <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> to test an untrained classification or regression model.</source>
+            <target state="new">You can use <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> to test an untrained classification or regression model.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>The result of cross-validation can help you interpret the quality of the data set and understand whether the model is susceptible to variations in the data.</source>
+            <target state="new">The result of cross-validation can help you interpret the quality of the data set and understand whether the model is susceptible to variations in the data.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> takes an untrained classification or regression model and a training data set as an input.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> takes an untrained classification or regression model and a training data set as an input.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>It returns evaluation results by cross-validation fold.</source>
+            <target state="new">It returns evaluation results by cross-validation fold.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>It also returns the scored dataset.</source>
+            <target state="new">It also returns the scored dataset.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Understanding Cross-Validation</source>
+            <target state="new">Understanding Cross-Validation</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Cross validation randomly splits the training data into a number of partitions, called <bpt id="1">&lt;newTerm&gt;</bpt>folds<ept id="1">&lt;/newTerm&gt;</ept>.</source>
+            <target state="new">Cross validation randomly splits the training data into a number of partitions, called <bpt id="1">&lt;newTerm&gt;</bpt>folds<ept id="1">&lt;/newTerm&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The algorithm defaults to 10 folds if you have not previously partitioned the dataset.</source>
+            <target state="new">The algorithm defaults to 10 folds if you have not previously partitioned the dataset.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Then, the module sets aside the data in one fold to use for validation (called the <bpt id="1">&lt;newTerm&gt;</bpt>holdout fold<ept id="1">&lt;/newTerm&gt;</ept>), and uses the remaining folds to train a model.</source>
+            <target state="new">Then, the module sets aside the data in one fold to use for validation (called the <bpt id="1">&lt;newTerm&gt;</bpt>holdout fold<ept id="1">&lt;/newTerm&gt;</ept>), and uses the remaining folds to train a model.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The model is validated on the hold-out fold.</source>
+            <target state="new">The model is validated on the hold-out fold.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>After models for each fold have been trained and validated, <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> generates a set of performance metrics and scored results for all folds.</source>
+            <target state="new">After models for each fold have been trained and validated, <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> generates a set of performance metrics and scored results for all folds.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>The other way that you can evaluate a model is to divide the data into a training and test set using <ph id="1">&lt;link xlink:href="70530644-c97a-4ab6-85f7-88bf30a8be5f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Split&lt;/link&gt;</ph>, and validate the model on the training data.</source>
+            <target state="new">The other way that you can evaluate a model is to divide the data into a training and test set using <ph id="1">&lt;link xlink:href="70530644-c97a-4ab6-85f7-88bf30a8be5f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Split&lt;/link&gt;</ph>, and validate the model on the training data.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>However, the advantage of using <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> instead is that cross-validation measures the performance of the model with the specified parameters in a bigger data space – basically it uses the entire training dataset for both training and evaluation, instead of some portion of it.</source>
+            <target state="new">However, the advantage of using <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> instead is that cross-validation measures the performance of the model with the specified parameters in a bigger data space – basically it uses the entire training dataset for both training and evaluation, instead of some portion of it.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>In contrast, if you validate a model by using data generated from a random split, typically you evaluate the model only on 30% or less of the available data.</source>
+            <target state="new">In contrast, if you validate a model by using data generated from a random split, typically you evaluate the model only on 30% or less of the available data.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>However, because <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> trains and validates the model multiple times over a larger dataset, it is much more computationally intensive and takes much longer than validating on a random split.</source>
+            <target state="new">However, because <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> trains and validates the model multiple times over a larger dataset, it is much more computationally intensive and takes much longer than validating on a random split.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Therefore, we recommend that you use <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> in the initial phase of building and testing your model, to evaluate the goodness of the model parameters, assuming that computation time is tolerable, and then train and evaluate your model using the established parameters with the <ph id="2">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> and <ph id="3">&lt;link xlink:href="927d65ac-3b50-4694-9903-20f6c1672089" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Evaluate Model&lt;/link&gt;</ph> modules.</source>
+            <target state="new">Therefore, we recommend that you use <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> in the initial phase of building and testing your model, to evaluate the goodness of the model parameters, assuming that computation time is tolerable, and then train and evaluate your model using the established parameters with the <ph id="2">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> and <ph id="3">&lt;link xlink:href="927d65ac-3b50-4694-9903-20f6c1672089" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Evaluate Model&lt;/link&gt;</ph> modules.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>How to Use Cross-Validate Model</source>
+            <target state="new">How to Use Cross-Validate Model</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> is simple to use, though it can take a long time to run if you use a lot of data.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> is simple to use, though it can take a long time to run if you use a lot of data.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>First, connect the untrained model to evaluate.</source>
+            <target state="new">First, connect the untrained model to evaluate.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>The model can be untrained because <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> automatically trains the model as part of evaluation.</source>
+            <target state="new">The model can be untrained because <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> automatically trains the model as part of evaluation.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Connect the training dataset.</source>
+            <target state="new">Connect the training dataset.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>If you want to be able to repeat the results exactly, set a value for the <bpt id="1">&lt;ui&gt;</bpt>Random seed<ept id="1">&lt;/ui&gt;</ept> parameter.</source>
+            <target state="new">If you want to be able to repeat the results exactly, set a value for the <bpt id="1">&lt;ui&gt;</bpt>Random seed<ept id="1">&lt;/ui&gt;</ept> parameter.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> randomly splits the training data into 10 folds.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> randomly splits the training data into 10 folds.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>A fold is a subset of the original dataset.</source>
+            <target state="new">A fold is a subset of the original dataset.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>If you want to use some other number of partitions, use <ph id="1">&lt;link xlink:href="a8726e34-1b3e-4515-b59a-3e4a475654b8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Partition and Sample&lt;/link&gt;</ph> to create the desired number of partitions.</source>
+            <target state="new">If you want to use some other number of partitions, use <ph id="1">&lt;link xlink:href="a8726e34-1b3e-4515-b59a-3e4a475654b8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Partition and Sample&lt;/link&gt;</ph> to create the desired number of partitions.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>In each iteration over the dataset, <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> uses one fold as a validation dataset, and uses the remaining folds to train a model.</source>
+            <target state="new">In each iteration over the dataset, <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> uses one fold as a validation dataset, and uses the remaining folds to train a model.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Each of the 10 models is tested against the data in all the other folds.</source>
+            <target state="new">Each of the 10 models is tested against the data in all the other folds.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>After all iterations are complete, <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> creates a set of performance metrics for all models, as well as scores for the entire dataset.</source>
+            <target state="new">After all iterations are complete, <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> creates a set of performance metrics for all models, as well as scores for the entire dataset.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>To view the results, in the experiment, right-click the output port of the <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> module and select <bpt id="2">&lt;ui&gt;</bpt>View Results<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">To view the results, in the experiment, right-click the output port of the <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> module and select <bpt id="2">&lt;ui&gt;</bpt>View Results<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Results</source>
+            <target state="new">Results</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> returns a set of evaluation metrics for each fold, and a summary for the entire dataset.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> returns a set of evaluation metrics for each fold, and a summary for the entire dataset.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>The first output dataset contains scores and probabilities for the model, as well as the source data for each row.</source>
+            <target state="new">The first output dataset contains scores and probabilities for the model, as well as the source data for each row.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Fold assignment.<ept id="1">&lt;/embeddedLabel&gt;</ept>   Indicates which fold each row of data was assigned to.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Fold assignment.<ept id="1">&lt;/embeddedLabel&gt;</ept>   Indicates which fold each row of data was assigned to.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>During cross-validation.</source>
+            <target state="new">During cross-validation.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Scored Labels.<ept id="1">&lt;/embeddedLabel&gt;</ept>   The predicted value for each row.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Scored Labels.<ept id="1">&lt;/embeddedLabel&gt;</ept>   The predicted value for each row.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Scored Probabiities.<ept id="1">&lt;/embeddedLabel&gt;</ept>   A probability score for the current predicted value.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Scored Probabiities.<ept id="1">&lt;/embeddedLabel&gt;</ept>   A probability score for the current predicted value.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>The second output contains a summary report.</source>
+            <target state="new">The second output contains a summary report.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>A careful review and comparison of fold results can help you identify irregularities in the dataset or the model.</source>
+            <target state="new">A careful review and comparison of fold results can help you identify irregularities in the dataset or the model.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Fold number.<ept id="1">&lt;/embeddedLabel&gt;</ept>    An identifier for the current fold results.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Fold number.<ept id="1">&lt;/embeddedLabel&gt;</ept>    An identifier for the current fold results.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Number of examples in fold.<ept id="1">&lt;/embeddedLabel&gt;</ept>    The count of rows assigned to each fold.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Number of examples in fold.<ept id="1">&lt;/embeddedLabel&gt;</ept>    The count of rows assigned to each fold.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Model.<ept id="1">&lt;/embeddedLabel&gt;</ept>    The type of learner that was used in creating the models.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Model.<ept id="1">&lt;/embeddedLabel&gt;</ept>    The type of learner that was used in creating the models.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Metrics.<ept id="1">&lt;/embeddedLabel&gt;</ept>   The metrics that are provided depend on the type of model that you are evaluating.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Metrics.<ept id="1">&lt;/embeddedLabel&gt;</ept>   The metrics that are provided depend on the type of model that you are evaluating.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Classification models<ept id="1">&lt;/embeddedLabel&gt;</ept>: Precision, recall, F-score, AUC, average log loss, and training log loss metrics.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Classification models<ept id="1">&lt;/embeddedLabel&gt;</ept>: Precision, recall, F-score, AUC, average log loss, and training log loss metrics.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Regression models<ept id="1">&lt;/embeddedLabel&gt;</ept>: Mean absolute error, root mean squared error, relative absolute error, and relative squared error metrics</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Regression models<ept id="1">&lt;/embeddedLabel&gt;</ept>: Mean absolute error, root mean squared error, relative absolute error, and relative squared error metrics</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>For an example of how to interpret the results of cross-validation, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>this Model Gallery example<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://gallery.azureml.net/Experiment/d9d3c11b360343be9c9cbdc6a3981350&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, of cross-validation on a binary classification model.</source>
+            <target state="new">For an example of how to interpret the results of cross-validation, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>this Model Gallery example<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://gallery.azureml.net/Experiment/d9d3c11b360343be9c9cbdc6a3981350&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, of cross-validation on a binary classification model.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>By looking at the results for each of the hold-out folds, you can learn these tihngs:</source>
+            <target state="new">By looking at the results for each of the hold-out folds, you can learn these tihngs:</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Fold 7<ept id="1">&lt;/embeddedLabel&gt;</ept> is in the first row.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Fold 7<ept id="1">&lt;/embeddedLabel&gt;</ept> is in the first row.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>From the name, Fold 7, you can tell that the model was trained on the data in folds 0-6 and folds 8-9.</source>
+            <target state="new">From the name, Fold 7, you can tell that the model was trained on the data in folds 0-6 and folds 8-9.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>The model was then evaluated using the data in Fold 7.</source>
+            <target state="new">The model was then evaluated using the data in Fold 7.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>For Fold 7, the <bpt id="1">&lt;ui&gt;</bpt>Scored Probability<ept id="1">&lt;/ui&gt;</ept> is 0.132534, and the <bpt id="2">&lt;ui&gt;</bpt>Scored Labels<ept id="2">&lt;/ui&gt;</ept> is &lt;=50K.</source>
+            <target state="new">For Fold 7, the <bpt id="1">&lt;ui&gt;</bpt>Scored Probability<ept id="1">&lt;/ui&gt;</ept> is 0.132534, and the <bpt id="2">&lt;ui&gt;</bpt>Scored Labels<ept id="2">&lt;/ui&gt;</ept> is &lt;=50K.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>This means that the Fold 7 model predicts the label of this particular row as &lt;=50K, with a predicted probability of 0.132534.</source>
+            <target state="new">This means that the Fold 7 model predicts the label of this particular row as &lt;=50K, with a predicted probability of 0.132534.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Similarly, the second row is assigned to <bpt id="1">&lt;embeddedLabel&gt;</bpt>Fold 1<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Similarly, the second row is assigned to <bpt id="1">&lt;embeddedLabel&gt;</bpt>Fold 1<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Therefore, this particular model was trained on the data in folds 0 and folds 2-9.</source>
+            <target state="new">Therefore, this particular model was trained on the data in folds 0 and folds 2-9.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>This model also predicts the value of <bpt id="1">&lt;ui&gt;</bpt>Scored Labels<ept id="1">&lt;/ui&gt;</ept> for this row as &lt;=50K, but in this model, the <bpt id="2">&lt;ui&gt;</bpt>Score Probability<ept id="2">&lt;/ui&gt;</ept> is 0.074428.</source>
+            <target state="new">This model also predicts the value of <bpt id="1">&lt;ui&gt;</bpt>Scored Labels<ept id="1">&lt;/ui&gt;</ept> for this row as &lt;=50K, but in this model, the <bpt id="2">&lt;ui&gt;</bpt>Score Probability<ept id="2">&lt;/ui&gt;</ept> is 0.074428.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Examples</source>
+            <target state="new">Examples</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>For examples of how cross-validation is used in machine learning, see these sample experiments in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Model Gallery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://gallery.azureml.net/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>:</source>
+            <target state="new">For examples of how cross-validation is used in machine learning, see these sample experiments in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Model Gallery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://gallery.azureml.net/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>:</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Cross validation for binary classifier<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525734&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>: Demonstrates how to use cross-validation with a binary classification model</source>
+            <target state="new"><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Cross validation for binary classifier<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525734&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>: Demonstrates how to use cross-validation with a binary classification model</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Cross Validation Regression: Auto Imports Dataset<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525735&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>: Demonstrates how to use cross validation with regression models and how to interpret the results</source>
+            <target state="new"><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Cross Validation Regression: Auto Imports Dataset<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525735&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>: Demonstrates how to use cross validation with regression models and how to interpret the results</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Technical Notes</source>
+            <target state="new">Technical Notes</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>It is a best practice to normalize datasets before using them for cross-validation.</source>
+            <target state="new">It is a best practice to normalize datasets before using them for cross-validation.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Because <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> trains and validates the model multiple times, it is much more computationally intensive and takes longer time than validating on random split to complete.</source>
+            <target state="new">Because <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> trains and validates the model multiple times, it is much more computationally intensive and takes longer time than validating on random split to complete.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>We recommend that you use <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> to establish the goodness of the model given the specified parameters.</source>
+            <target state="new">We recommend that you use <bpt id="1">&lt;ui&gt;</bpt>Cross-Validate Model<ept id="1">&lt;/ui&gt;</ept> to establish the goodness of the model given the specified parameters.</target>
+          </trans-unit>
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>We also recommend that you use <ph id="1">&lt;link xlink:href="038d91b6-c2f2-42a1-9215-1f2c20ed1b40" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Sweep Parameters&lt;/link&gt;</ph> to identify the optimal parameters.</source>
+            <target state="new">We also recommend that you use <ph id="1">&lt;link xlink:href="038d91b6-c2f2-42a1-9215-1f2c20ed1b40" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Sweep Parameters&lt;/link&gt;</ph> to identify the optimal parameters.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Expected Inputs</source>
+            <target state="new">Expected Inputs</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Untrained model</source>
+            <target state="new">Untrained model</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Untrained model for cross validation on dataset</source>
+            <target state="new">Untrained model for cross validation on dataset</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Dataset</source>
+            <target state="new">Dataset</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Input dataset</source>
+            <target state="new">Input dataset</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Module Parameters</source>
+            <target state="new">Module Parameters</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Range</source>
+            <target state="new">Range</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Default</source>
+            <target state="new">Default</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Label column</source>
+            <target state="new">Label column</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>any</source>
+            <target state="new">any</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>ColumnSelection</source>
+            <target state="new">ColumnSelection</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Select the column that contains the label to use for validation</source>
+            <target state="new">Select the column that contains the label to use for validation</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Random seed</source>
+            <target state="new">Random seed</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>any</source>
+            <target state="new">any</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Seed value for random number generator</source>
+            <target state="new">Seed value for random number generator</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>This value is optional.</source>
+            <target state="new">This value is optional.</target>
+          </trans-unit>
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>If not specified</source>
+            <target state="new">If not specified</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Outputs</source>
+            <target state="new">Outputs</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Scored results</source>
+            <target state="new">Scored results</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Results of scoring</source>
+            <target state="new">Results of scoring</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Evaluation results by fold</source>
+            <target state="new">Evaluation results by fold</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Results of evaluation (by fold and entire)</source>
+            <target state="new">Results of evaluation (by fold and entire)</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>Exceptions</source>
+            <target state="new">Exceptions</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Exception</source>
+            <target state="new">Exception</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>Exception occurs if no features were provided for a given user or item.</source>
+            <target state="new">Exception occurs if no features were provided for a given user or item.</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>Exception occurs if argument is not a number.</source>
+            <target state="new">Exception occurs if argument is not a number.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Exception occurs if argument is Infinity.</source>
+            <target state="new">Exception occurs if argument is Infinity.</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>Exception occurs if one or more specified columns of data set couldn't be found.</source>
+            <target state="new">Exception occurs if one or more specified columns of data set couldn't be found.</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>Exception occurs if one or more of inputs are null or empty.</source>
+            <target state="new">Exception occurs if one or more of inputs are null or empty.</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>Exception occurs if parameter is greater than or equal to the specified value.</source>
+            <target state="new">Exception occurs if parameter is greater than or equal to the specified value.</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>Exception occurs if parameter is not in range.</source>
+            <target state="new">Exception occurs if parameter is not in range.</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Exception occurs if the learner that is passed to the module has an invalid type.</source>
+            <target state="new">Exception occurs if the learner that is passed to the module has an invalid type.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

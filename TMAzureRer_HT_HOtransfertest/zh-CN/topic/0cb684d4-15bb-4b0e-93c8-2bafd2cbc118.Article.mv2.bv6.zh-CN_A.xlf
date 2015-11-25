@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-CN" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAVzcEKwjAMANBfyQc00HZp13r14smTP5BkCQ7mBjph+PXq/cFzH0woK5oRISWPKLEJakxce/fE3APkMvFo7tjYFEkiY9c6oJGNGqvkXkqAqFIbTYSpiPyVYR+0YRb2KatoSi1ACvC54/ka4Fhmdzv203Pb9l8SoAa4vB+83p68vhbe5239AmNvMXuhAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Update Load-Balanced Endpoint Set</source>
+            <target state="new">Update Load-Balanced Endpoint Set</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;languageKeyword&gt;Update Load-Balanced Endpoint Set&lt;/languageKeyword&gt;</ph> operation updates the configuration of the specified load-balanced input endpoints on all Virtual Machines in a deployment.</source>
+            <target state="new">The <ph id="1">&lt;languageKeyword&gt;Update Load-Balanced Endpoint Set&lt;/languageKeyword&gt;</ph> operation updates the configuration of the specified load-balanced input endpoints on all Virtual Machines in a deployment.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>For more information, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Load Balancing Virtual Machines<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.windowsazure.com/manage/windows/common-tasks/how-to-load-balance-virtual-machines/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Load Balancing Virtual Machines<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.windowsazure.com/manage/windows/common-tasks/how-to-load-balance-virtual-machines/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Request</source>
+            <target state="new">Request</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;languageKeyword&gt;Update Load-Balanced Endpoint Set&lt;/languageKeyword&gt;</ph> request may be specified as follows.</source>
+            <target state="new">The <ph id="1">&lt;languageKeyword&gt;Update Load-Balanced Endpoint Set&lt;/languageKeyword&gt;</ph> request may be specified as follows.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Replace <ph id="1">&lt;codeInline&gt;%%amp;lt;subscription-id%%amp;gt;&lt;/codeInline&gt;</ph> with the subscription ID, <ph id="2">&lt;codeInline&gt;%%amp;lt;cloudservice-name%%amp;gt;&lt;/codeInline&gt;</ph> with the name of the cloud service, and <ph id="3">&lt;codeInline&gt;%%amp;lt;deployment-name%%amp;gt;&lt;/codeInline&gt;</ph> with the name of the deployment.</source>
+            <target state="new">Replace <ph id="1">&lt;codeInline&gt;%%amp;lt;subscription-id%%amp;gt;&lt;/codeInline&gt;</ph> with the subscription ID, <ph id="2">&lt;codeInline&gt;%%amp;lt;cloudservice-name%%amp;gt;&lt;/codeInline&gt;</ph> with the name of the cloud service, and <ph id="3">&lt;codeInline&gt;%%amp;lt;deployment-name%%amp;gt;&lt;/codeInline&gt;</ph> with the name of the deployment.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Method</source>
+            <target state="new">Method</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Request URI</source>
+            <target state="new">Request URI</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>POST</source>
+            <target state="new">POST</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>You must make sure that the request that is made to the management service is secure.</source>
+            <target state="new">You must make sure that the request that is made to the management service is secure.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>For additional details, see <ph id="1">&lt;link xlink:href="1becb7dc-1cdc-4db4-8ae8-7e351c96c251" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Authenticating Service Management Requests&lt;/link&gt;</ph>.</source>
+            <target state="new">For additional details, see <ph id="1">&lt;link xlink:href="1becb7dc-1cdc-4db4-8ae8-7e351c96c251" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Authenticating Service Management Requests&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>URI Parameters</source>
+            <target state="new">URI Parameters</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>URI Parameter</source>
+            <target state="new">URI Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>comp=UpdateLbSet</source>
+            <target state="new">comp=UpdateLbSet</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Specifies that the load-balanced endpoint set must be updated.</source>
+            <target state="new">Specifies that the load-balanced endpoint set must be updated.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Request Headers</source>
+            <target state="new">Request Headers</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>The following table describes the request headers.</source>
+            <target state="new">The following table describes the request headers.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Request Header</source>
+            <target state="new">Request Header</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Set this header to application/xml.</source>
+            <target state="new">Set this header to application/xml.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Specifies the version of the operation to use for this request.</source>
+            <target state="new">Specifies the version of the operation to use for this request.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>This header should be set to <bpt id="1">&lt;userInput&gt;</bpt>2013-06-01<ept id="1">&lt;/userInput&gt;</ept> or higher.</source>
+            <target state="new">This header should be set to <bpt id="1">&lt;userInput&gt;</bpt>2013-06-01<ept id="1">&lt;/userInput&gt;</ept> or higher.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>For more information about versioning headers, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Service Management Versioning<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/windowsazure/gg592580.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information about versioning headers, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Service Management Versioning<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/windowsazure/gg592580.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Request Body</source>
+            <target state="new">Request Body</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>The format of the request body is as follows:</source>
+            <target state="new">The format of the request body is as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>The following table describes the elements of the request body.</source>
+            <target state="new">The following table describes the elements of the request body.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Element name</source>
+            <target state="new">Element name</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>InputEndpoint</source>
+            <target state="new">InputEndpoint</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Specifies the properties that define an external endpoint for the Virtual Machine.</source>
+            <target state="new">Specifies the properties that define an external endpoint for the Virtual Machine.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>LoadBalancedEndpointSetName</source>
+            <target state="new">LoadBalancedEndpointSetName</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Specifies a name for a set of load-balanced endpoints.</source>
+            <target state="new">Specifies a name for a set of load-balanced endpoints.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>At least one Virtual Machine in the deployment must have an endpoint with this <ph id="1">&lt;languageKeyword&gt;LoadBalancedEndpointSetName&lt;/languageKeyword&gt;</ph> defined.</source>
+            <target state="new">At least one Virtual Machine in the deployment must have an endpoint with this <ph id="1">&lt;languageKeyword&gt;LoadBalancedEndpointSetName&lt;/languageKeyword&gt;</ph> defined.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>LocalPort</source>
+            <target state="new">LocalPort</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Specifies the internal port on which the Virtual Machine is listening.</source>
+            <target state="new">Specifies the internal port on which the Virtual Machine is listening.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>All endpoints in the load-balanced endpoint set will be updated with this value.</source>
+            <target state="new">All endpoints in the load-balanced endpoint set will be updated with this value.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>To keep unique local ports on each Virtual Machine for a load-balanced endpoint, specify 0 (zero) for this value and use <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Update Role<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/jj157187.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> to change a specific endpoint.</source>
+            <target state="new">To keep unique local ports on each Virtual Machine for a load-balanced endpoint, specify 0 (zero) for this value and use <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Update Role<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/jj157187.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> to change a specific endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Port</source>
+            <target state="new">Port</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Specifies the external port to use for the endpoint.</source>
+            <target state="new">Specifies the external port to use for the endpoint.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Allowed values are between 1 and 65535 inclusive.</source>
+            <target state="new">Allowed values are between 1 and 65535 inclusive.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>A unique Port and Protocol combination must be specified for each input endpoint in the set.</source>
+            <target state="new">A unique Port and Protocol combination must be specified for each input endpoint in the set.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Specifies endpoint settings that the load balancer uses to monitor the availability of the Virtual Machine before forwarding traffic to the endpoint.</source>
+            <target state="new">Specifies endpoint settings that the load balancer uses to monitor the availability of the Virtual Machine before forwarding traffic to the endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>If this element is not specified, the probe settings from the existing load-balanced endpoint definition are retained.</source>
+            <target state="new">If this element is not specified, the probe settings from the existing load-balanced endpoint definition are retained.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Protocol</source>
+            <target state="new">Protocol</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Required Specifies the protocol to use for the endpoint.</source>
+            <target state="new">Required Specifies the protocol to use for the endpoint.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>A unique Port and Protocol combination must be specified for each input endpoint in the set.</source>
+            <target state="new">A unique Port and Protocol combination must be specified for each input endpoint in the set.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>If <ph id="1">&lt;languageKeyword&gt;EnableDirectServerReturn&lt;/languageKeyword&gt;</ph> set to <ph id="2">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph>, you cannot update the value of <ph id="3">&lt;languageKeyword&gt;Protocol&lt;/languageKeyword&gt;</ph></source>
+            <target state="new">If <ph id="1">&lt;languageKeyword&gt;EnableDirectServerReturn&lt;/languageKeyword&gt;</ph> set to <ph id="2">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph>, you cannot update the value of <ph id="3">&lt;languageKeyword&gt;Protocol&lt;/languageKeyword&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Possible values are:</source>
+            <target state="new">Possible values are:</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>EnableDirectServerReturn</source>
+            <target state="new">EnableDirectServerReturn</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Specifies whether the endpoint uses Direct Server Return.</source>
+            <target state="new">Specifies whether the endpoint uses Direct Server Return.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;languageKeyword&gt;EnableDirectServerReturn&lt;/languageKeyword&gt;</ph> element is not supported for RDP, SSH, or WinRM endpoints and it is not supported when the public port and local port of an endpoint are different.</source>
+            <target state="new">The <ph id="1">&lt;languageKeyword&gt;EnableDirectServerReturn&lt;/languageKeyword&gt;</ph> element is not supported for RDP, SSH, or WinRM endpoints and it is not supported when the public port and local port of an endpoint are different.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>You cannot disable <ph id="1">&lt;languageKeyword&gt;EnableDirectServerReturn&lt;/languageKeyword&gt;</ph> on an endpoint.</source>
+            <target state="new">You cannot disable <ph id="1">&lt;languageKeyword&gt;EnableDirectServerReturn&lt;/languageKeyword&gt;</ph> on an endpoint.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>If <ph id="1">&lt;languageKeyword&gt;EnableDirectServerReturn&lt;/languageKeyword&gt;</ph> set to <ph id="2">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph>, you cannot update the value of <ph id="3">&lt;languageKeyword&gt;Protocol&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">If <ph id="1">&lt;languageKeyword&gt;EnableDirectServerReturn&lt;/languageKeyword&gt;</ph> set to <ph id="2">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph>, you cannot update the value of <ph id="3">&lt;languageKeyword&gt;Protocol&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>It is recommended that this element is only used when setting up Virtual Machines for SQL Server and AlwaysOn Availability Groups.</source>
+            <target state="new">It is recommended that this element is only used when setting up Virtual Machines for SQL Server and AlwaysOn Availability Groups.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>For more information, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>High Availability and Disaster Recovery for SQL Server in Azure Virtual Machines<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/jj870962.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>High Availability and Disaster Recovery for SQL Server in Azure Virtual Machines<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/jj870962.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Possible values are:</source>
+            <target state="new">Possible values are:</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>The default value is <ph id="1">&lt;languageKeyword&gt;false&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">The default value is <ph id="1">&lt;languageKeyword&gt;false&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Specifies a collection of rules that control the network traffic to the endpoint.</source>
+            <target state="new">Specifies a collection of rules that control the network traffic to the endpoint.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>To remove the ACLs from a load-balanced endpoint, do not specify this this element in the request.</source>
+            <target state="new">To remove the ACLs from a load-balanced endpoint, do not specify this this element in the request.</target>
+          </trans-unit>
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Changes to ACLs are not merged with existing ACLs.</source>
+            <target state="new">Changes to ACLs are not merged with existing ACLs.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>LoadBalancerName</source>
+            <target state="new">LoadBalancerName</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Specifies the name of the internal load balancer that is associated with this endpoint.</source>
+            <target state="new">Specifies the name of the internal load balancer that is associated with this endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;languageKeyword&gt;LoadBalancerName&lt;/languageKeyword&gt;</ph> element is only available using version 2014-05-01 or higher.</source>
+            <target state="new">The <ph id="1">&lt;languageKeyword&gt;LoadBalancerName&lt;/languageKeyword&gt;</ph> element is only available using version 2014-05-01 or higher.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>IdleTimeoutInMinutes</source>
+            <target state="new">IdleTimeoutInMinutes</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Specifies the timeout for the TCP idle connection.</source>
+            <target state="new">Specifies the timeout for the TCP idle connection.</target>
+          </trans-unit>
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>The value can be set between 4 and 30 minutes.</source>
+            <target state="new">The value can be set between 4 and 30 minutes.</target>
+          </trans-unit>
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>The default value is 4 minutes.</source>
+            <target state="new">The default value is 4 minutes.</target>
+          </trans-unit>
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>This element is only used when the protocol is set to TCP.</source>
+            <target state="new">This element is only used when the protocol is set to TCP.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;languageKeyword&gt;IdleTimeoutInMinutes&lt;/languageKeyword&gt;</ph> element is only available using version 2014-06-01 or higher.</source>
+            <target state="new">The <ph id="1">&lt;languageKeyword&gt;IdleTimeoutInMinutes&lt;/languageKeyword&gt;</ph> element is only available using version 2014-06-01 or higher.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>LoadBalancerProbe</source>
+            <target state="new">LoadBalancerProbe</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Specifies the endpoint settings that the load balancer uses to monitor the availability of the virtual machine before forwarding traffic to the endpoint.</source>
+            <target state="new">Specifies the endpoint settings that the load balancer uses to monitor the availability of the virtual machine before forwarding traffic to the endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Element name</source>
+            <target state="new">Element name</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Path</source>
+            <target state="new">Path</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Specifies the relative path to inspect to determine the availability status of the Virtual Machine.</source>
+            <target state="new">Specifies the relative path to inspect to determine the availability status of the Virtual Machine.</target>
+          </trans-unit>
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>If Protocol is set to <ph id="1">&lt;languageKeyword&gt;TCP&lt;/languageKeyword&gt;</ph>, this value must be NULL.</source>
+            <target state="new">If Protocol is set to <ph id="1">&lt;languageKeyword&gt;TCP&lt;/languageKeyword&gt;</ph>, this value must be NULL.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Example:</source>
+            <target state="new">Example:</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>path</source>
+            <target state="new">path</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>The probe will use https://example.com/path to perform the probe.</source>
+            <target state="new">The probe will use https://example.com/path to perform the probe.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Port</source>
+            <target state="new">Port</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Specifies the port to use to inspect the availability status of the Virtual Machine.</source>
+            <target state="new">Specifies the port to use to inspect the availability status of the Virtual Machine.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Protocol</source>
+            <target state="new">Protocol</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Specifies the protocol to use to inspect the availability status of the virtual machine.</source>
+            <target state="new">Specifies the protocol to use to inspect the availability status of the virtual machine.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Possible values are:</source>
+            <target state="new">Possible values are:</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>IntervalInSeconds</source>
+            <target state="new">IntervalInSeconds</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Specifies the interval for the load balancer probe in seconds.</source>
+            <target state="new">Specifies the interval for the load balancer probe in seconds.</target>
+          </trans-unit>
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>The minimum value is 5 seconds.</source>
+            <target state="new">The minimum value is 5 seconds.</target>
+          </trans-unit>
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>The default is 15 seconds.</source>
+            <target state="new">The default is 15 seconds.</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>TimeoutInSeconds</source>
+            <target state="new">TimeoutInSeconds</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>Specifies the timeout for the load balancer probe in seconds.</source>
+            <target state="new">Specifies the timeout for the load balancer probe in seconds.</target>
+          </trans-unit>
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>The minimum value is 11 seconds.</source>
+            <target state="new">The minimum value is 11 seconds.</target>
+          </trans-unit>
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>The default is 31 seconds.</source>
+            <target state="new">The default is 31 seconds.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>EndpointACL</source>
+            <target state="new">EndpointACL</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>Contains a collection of rules that control the network traffic to the endpoint.</source>
+            <target state="new">Contains a collection of rules that control the network traffic to the endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>Element name</source>
+            <target state="new">Element name</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>Rules</source>
+            <target state="new">Rules</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>Specifies a collection of access control rules.</source>
+            <target state="new">Specifies a collection of access control rules.</target>
+          </trans-unit>
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>A maximum of 50 rules are allowed.</source>
+            <target state="new">A maximum of 50 rules are allowed.</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>Rule</source>
+            <target state="new">Rule</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>Specifies the definition of an access control rule.</source>
+            <target state="new">Specifies the definition of an access control rule.</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>Order</source>
+            <target state="new">Order</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>Specifies the priority of the rule.</source>
+            <target state="new">Specifies the priority of the rule.</target>
+          </trans-unit>
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>The value can be between 0 and 65535.</source>
+            <target state="new">The value can be between 0 and 65535.</target>
+          </trans-unit>
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>The order number must be unique for each rule in the collection.</source>
+            <target state="new">The order number must be unique for each rule in the collection.</target>
+          </trans-unit>
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>The lower the order number, the higher the priority of the rule.</source>
+            <target state="new">The lower the order number, the higher the priority of the rule.</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>Action</source>
+            <target state="new">Action</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>Specifies whether traffic that matches the rule should be permitted or denied.</source>
+            <target state="new">Specifies whether traffic that matches the rule should be permitted or denied.</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>Possible values are:</source>
+            <target state="new">Possible values are:</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>RemoteSubnet</source>
+            <target state="new">RemoteSubnet</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>Specifies the subnet for the rule.</source>
+            <target state="new">Specifies the subnet for the rule.</target>
+          </trans-unit>
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>The subnet must be in IPV4 Classless Inter-Domain Routing (CIDR) notation, and must be a valid subnet.</source>
+            <target state="new">The subnet must be in IPV4 Classless Inter-Domain Routing (CIDR) notation, and must be a valid subnet.</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>For example, 10.0.0.0/24</source>
+            <target state="new">For example, 10.0.0.0/24</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>Specifies a description for the rule.</source>
+            <target state="new">Specifies a description for the rule.</target>
+          </trans-unit>
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>The maximum length of the description is 256 characters.</source>
+            <target state="new">The maximum length of the description is 256 characters.</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>Response</source>
+            <target state="new">Response</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>The response includes an HTTP status code, a set of response headers, and a response body.</source>
+            <target state="new">The response includes an HTTP status code, a set of response headers, and a response body.</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>Status Code</source>
+            <target state="new">Status Code</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>A successful operation returns status code 202 (Accepted).</source>
+            <target state="new">A successful operation returns status code 202 (Accepted).</target>
+          </trans-unit>
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>For information about status codes, see <ph id="1">&lt;link xlink:href="10f8d244-4649-4063-b6c9-7a20765513fa" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Status and Error Codes&lt;/link&gt;</ph>.</source>
+            <target state="new">For information about status codes, see <ph id="1">&lt;link xlink:href="10f8d244-4649-4063-b6c9-7a20765513fa" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Status and Error Codes&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>Response Headers</source>
+            <target state="new">Response Headers</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>The response for this operation includes the following headers.</source>
+            <target state="new">The response for this operation includes the following headers.</target>
+          </trans-unit>
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>The response may also include additional standard HTTP headers.</source>
+            <target state="new">The response may also include additional standard HTTP headers.</target>
+          </trans-unit>
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>All standard headers conform to the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>HTTP/1.1 protocol specification<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?linkid=150478&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">All standard headers conform to the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>HTTP/1.1 protocol specification<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?linkid=150478&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>Response Header</source>
+            <target state="new">Response Header</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>A value that uniquely identifies a request made against the management service.</source>
+            <target state="new">A value that uniquely identifies a request made against the management service.</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>Response Body</source>
+            <target state="new">Response Body</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>None.</source>
+            <target state="new">None.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

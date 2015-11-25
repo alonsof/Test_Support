@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-TW" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzFEKgzAMgOGr9AANNG1sm51gBxD2nNaECU7BKchOP5//j98saaPYQZUICC1AC7VBDyiZ2VCEvashcirYIGSuQFJv1ZJCtDrkPPWpUPTO0jSUbgZK1YBYEjQtCDxgUZEYyMg79O73hvHl3bXMZnodj33bDu/uA97xeX5kHXdZv4sc87b+AVxv2NmiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Get All Group Memberships (transitive)</source>
+            <target state="new">Get All Group Memberships (transitive)</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The Get All Group Memberships operation is performed by invoking the <bpt id="1">&lt;embeddedLabel&gt;</bpt>getMemberGroups<ept id="1">&lt;/embeddedLabel&gt;</ept> function on a user, contact, group, or service principal.</source>
+            <target state="new">The Get All Group Memberships operation is performed by invoking the <bpt id="1">&lt;embeddedLabel&gt;</bpt>getMemberGroups<ept id="1">&lt;/embeddedLabel&gt;</ept> function on a user, contact, group, or service principal.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This function takes a single parameter that indicates whether only membership in security enabled groups or whether membership in all groups should be checked.</source>
+            <target state="new">This function takes a single parameter that indicates whether only membership in security enabled groups or whether membership in all groups should be checked.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>It returns a collection that contains the Object IDs of the groups of which the user, contact, group, or service principal is a member.</source>
+            <target state="new">It returns a collection that contains the Object IDs of the groups of which the user, contact, group, or service principal is a member.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The operation is transitive, that is, if User A is a member of Group B and Group B is a member of Group C and the function is invoked on User A and Group C in one of the groups passed in the collection of groups to check, Group C will be in the collection returned by the function.</source>
+            <target state="new">The operation is transitive, that is, if User A is a member of Group B and Group B is a member of Group C and the function is invoked on User A and Group C in one of the groups passed in the collection of groups to check, Group C will be in the collection returned by the function.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>This is different than the <ph id="1">&lt;languageKeyword&gt;isMemberOf&lt;/languageKeyword&gt;</ph> navigation property, which returns only groups in which an entity has direct membership and cannot be filtered to return only security enabled groups.</source>
+            <target state="new">This is different than the <ph id="1">&lt;languageKeyword&gt;isMemberOf&lt;/languageKeyword&gt;</ph> navigation property, which returns only groups in which an entity has direct membership and cannot be filtered to return only security enabled groups.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Request URI</source>
+            <target state="new">Request URI</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The request may be constructed as follows.</source>
+            <target state="new">The request may be constructed as follows.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Replace <ph id="1">&lt;parameterReference&gt;mytenantdomain&lt;/parameterReference&gt;</ph> with the domain of your Azure Active Directory tenant, such as <ph id="2">&lt;parameterReference&gt;contoso.onmicrosoft.com&lt;/parameterReference&gt;</ph>.</source>
+            <target state="new">Replace <ph id="1">&lt;parameterReference&gt;mytenantdomain&lt;/parameterReference&gt;</ph> with the domain of your Azure Active Directory tenant, such as <ph id="2">&lt;parameterReference&gt;contoso.onmicrosoft.com&lt;/parameterReference&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> query string parameter is required.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;api-version&lt;/parameterReference&gt;</ph> query string parameter is required.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The examples in this topic use the tenant domain to address the tenant.</source>
+            <target state="new">The examples in this topic use the tenant domain to address the tenant.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>For other ways of addressing the tenant, see <ph id="1">&lt;link xlink:href="5b0f3e3d-f96e-4b5b-864d-fc7c6b185097" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Addressing Aliases&lt;/link&gt;</ph>.</source>
+            <target state="new">For other ways of addressing the tenant, see <ph id="1">&lt;link xlink:href="5b0f3e3d-f96e-4b5b-864d-fc7c6b185097" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Addressing Aliases&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>HTTP Method</source>
+            <target state="new">HTTP Method</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Request URI</source>
+            <target state="new">Request URI</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>HTTP Version</source>
+            <target state="new">HTTP Version</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>POST</source>
+            <target state="new">POST</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>https://graph.windows.net/mytenantdomain/users|contacts|groups|serviceprincipals/&lt;identifier&gt;/getMemberGroups?api-version=2013-04-05</source>
+            <target state="new">https://graph.windows.net/mytenantdomain/users|contacts|groups|serviceprincipals/&lt;identifier&gt;/getMemberGroups?api-version=2013-04-05</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>HTTP 1.1</source>
+            <target state="new">HTTP 1.1</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Specify the resource set – users, contacts, groups, or serviceprincipals -- according to the entity against which the function is to be called.</source>
+            <target state="new">Specify the resource set – users, contacts, groups, or serviceprincipals -- according to the entity against which the function is to be called.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>For contacts, groups, and service principals the identifier should be an object ID; for users, it can be either the object ID or the user principal name.</source>
+            <target state="new">For contacts, groups, and service principals the identifier should be an object ID; for users, it can be either the object ID or the user principal name.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>If the <ph id="1">&lt;parameterReference&gt;securityEnabledOnly&lt;/parameterReference&gt;</ph> parameter is <ph id="2">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph>, the maximum number of groups that can be returned is 1000; if it is <ph id="3">&lt;languageKeyword&gt;false&lt;/languageKeyword&gt;</ph>, the maximum number of groups that can be returned is 4500.</source>
+            <target state="new">If the <ph id="1">&lt;parameterReference&gt;securityEnabledOnly&lt;/parameterReference&gt;</ph> parameter is <ph id="2">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph>, the maximum number of groups that can be returned is 1000; if it is <ph id="3">&lt;languageKeyword&gt;false&lt;/languageKeyword&gt;</ph>, the maximum number of groups that can be returned is 4500.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Request Headers</source>
+            <target state="new">Request Headers</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Request Header</source>
+            <target state="new">Request Header</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Authorization</source>
+            <target state="new">Authorization</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>A bearer token issued by Azure Active Directory.</source>
+            <target state="new">A bearer token issued by Azure Active Directory.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>See <bpt id="1">&lt;legacyLink xlink:href="874839d9-6de6-43aa-9a5c-613b0c93247e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Authentication Scenarios for Azure AD<ept id="1">&lt;/legacyLink&gt;</ept> for more information.</source>
+            <target state="new">See <bpt id="1">&lt;legacyLink xlink:href="874839d9-6de6-43aa-9a5c-613b0c93247e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Authentication Scenarios for Azure AD<ept id="1">&lt;/legacyLink&gt;</ept> for more information.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Content-Type</source>
+            <target state="new">Content-Type</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>The media type of the content in the request body.</source>
+            <target state="new">The media type of the content in the request body.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Content-Length</source>
+            <target state="new">Content-Length</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>The length of the request in bytes.</source>
+            <target state="new">The length of the request in bytes.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Request Body</source>
+            <target state="new">Request Body</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>The parameters to the function: <ph id="1">&lt;parameterReference&gt;securityEnabledOnly&lt;/parameterReference&gt;</ph>, a boolean that is <ph id="2">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph> to indicate that only security groups of which the entity is a member should be returned, or <ph id="3">&lt;languageKeyword&gt;false&lt;/languageKeyword&gt;</ph> to indicate that all groups of which the entity is a member should be returned.</source>
+            <target state="new">The parameters to the function: <ph id="1">&lt;parameterReference&gt;securityEnabledOnly&lt;/parameterReference&gt;</ph>, a boolean that is <ph id="2">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph> to indicate that only security groups of which the entity is a member should be returned, or <ph id="3">&lt;languageKeyword&gt;false&lt;/languageKeyword&gt;</ph> to indicate that all groups of which the entity is a member should be returned.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Sample Requests</source>
+            <target state="new">Sample Requests</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>The following sample request gets all of the groups, security enabled and otherwise, of which the user Mohamed@contoso.onmicrosoft.com is a member.</source>
+            <target state="new">The following sample request gets all of the groups, security enabled and otherwise, of which the user Mohamed@contoso.onmicrosoft.com is a member.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Response</source>
+            <target state="new">Response</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Status Code</source>
+            <target state="new">Status Code</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>A successful operation returns status code <bpt id="1">&lt;embeddedLabel&gt;</bpt>200 OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">A successful operation returns status code <bpt id="1">&lt;embeddedLabel&gt;</bpt>200 OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Headers</source>
+            <target state="new">Headers</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Response Header</source>
+            <target state="new">Response Header</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>ocp-aad-diagnostics-server-name</source>
+            <target state="new">ocp-aad-diagnostics-server-name</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>The identifier for the server that performed the requested operation.</source>
+            <target state="new">The identifier for the server that performed the requested operation.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>ocp-aad-session-key</source>
+            <target state="new">ocp-aad-session-key</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>The key that identifies the current session with the directory service.</source>
+            <target state="new">The key that identifies the current session with the directory service.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Sample Response</source>
+            <target state="new">Sample Response</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>The response contains the collection of object IDs for the groups of which the user, contact, group, or service principal is a member.</source>
+            <target state="new">The response contains the collection of object IDs for the groups of which the user, contact, group, or service principal is a member.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>The following sample response is received when the sample request above is sent.</source>
+            <target state="new">The following sample response is received when the sample request above is sent.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>It returns a collection that contains the object IDs of the three groups in which the user has membership, either directly or transitively through his membership in another group.</source>
+            <target state="new">It returns a collection that contains the object IDs of the three groups in which the user has membership, either directly or transitively through his membership in another group.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

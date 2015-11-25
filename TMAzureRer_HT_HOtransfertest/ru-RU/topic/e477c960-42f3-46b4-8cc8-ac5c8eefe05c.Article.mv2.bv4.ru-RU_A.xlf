@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ru-RU" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzcsJwzAMANBVNIAEtqP40wl6Lu0AspAgkCaQJpDx6/uD5z5Z56RkxkwcPVAPtZOGKLk1jyINgXMTZ3cqZRqKzYdqlbrEHFPyOashGJeiLQfi5BNx7kxVtZLorNXMLcyKEBGOi14fhHtd3O0+H8e+nwhpPAjP6yvb+5Dtt8q57Nsf+U+WRaEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Update the properties of a pool</source>
+            <target state="new">Update the properties of a pool</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Replaces only the pool properties specified in the request.</source>
+            <target state="new">Replaces only the pool properties specified in the request.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>For example, if the pool has a start task associated with it, and a request does not specify a start task element, then the pool keeps the existing start task.</source>
+            <target state="new">For example, if the pool has a start task associated with it, and a request does not specify a start task element, then the pool keeps the existing start task.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Request</source>
+            <target state="new">Request</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="0e07b9cb-8fdf-4ff7-b707-e964200df0f8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Common parameters and headers&lt;/link&gt;</ph> for headers and parameters that are used by all requests related to pools.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="0e07b9cb-8fdf-4ff7-b707-e964200df0f8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Common parameters and headers&lt;/link&gt;</ph> for headers and parameters that are used by all requests related to pools.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Method</source>
+            <target state="new">Method</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Request URI</source>
+            <target state="new">Request URI</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>PATCH</source>
+            <target state="new">PATCH</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Replace {pool-id} with the id of the pool that you want to update.</source>
+            <target state="new">Replace {pool-id} with the id of the pool that you want to update.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>The following example shows a request to change the pool’s start task without modifying any other pool settings:</source>
+            <target state="new">The following example shows a request to change the pool’s start task without modifying any other pool settings:</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Element name</source>
+            <target state="new">Element name</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Required</source>
+            <target state="new">Required</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Notes</source>
+            <target state="new">Notes</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Complex Type</source>
+            <target state="new">Complex Type</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Specifies a task to run on each compute node as it joins the pool.</source>
+            <target state="new">Specifies a task to run on each compute node as it joins the pool.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The task runs when the node is added to the pool or when the node is restarted.</source>
+            <target state="new">The task runs when the node is added to the pool or when the node is restarted.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>If this element is present, it overwrites any existing start task.</source>
+            <target state="new">If this element is present, it overwrites any existing start task.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>If this element is not present, any existing start task is left unchanged.</source>
+            <target state="new">If this element is not present, any existing start task is left unchanged.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>certificateReferences</source>
+            <target state="new">certificateReferences</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Collection</source>
+            <target state="new">Collection</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>A list of certificates to be installed on each compute node in the pool.</source>
+            <target state="new">A list of certificates to be installed on each compute node in the pool.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>If this element is present, it replaces any existing certificate references configured on the pool.</source>
+            <target state="new">If this element is present, it replaces any existing certificate references configured on the pool.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>If you specify an empty collection, any existing certificate references are removed from the pool.</source>
+            <target state="new">If you specify an empty collection, any existing certificate references are removed from the pool.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>If this element is not present, any existing certificate references are left unchanged.</source>
+            <target state="new">If this element is not present, any existing certificate references are left unchanged.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Each certificate in the list must have been previously added to the Batch account.</source>
+            <target state="new">Each certificate in the list must have been previously added to the Batch account.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>For more information about adding a certificate, see <ph id="1">&lt;link xlink:href="b0b26391-1b9f-4d4a-87fe-029f51a30a72" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Add a certificate to an account&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about adding a certificate, see <ph id="1">&lt;link xlink:href="b0b26391-1b9f-4d4a-87fe-029f51a30a72" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Add a certificate to an account&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>metadata</source>
+            <target state="new">metadata</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Collection</source>
+            <target state="new">Collection</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>A list of name-value pairs associated with the pool as metadata.</source>
+            <target state="new">A list of name-value pairs associated with the pool as metadata.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>If this element is present, it replaces any existing metadata configured on the pool.</source>
+            <target state="new">If this element is present, it replaces any existing metadata configured on the pool.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>If you specify an empty collection, any metadata is removed from the pool.</source>
+            <target state="new">If you specify an empty collection, any metadata is removed from the pool.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>If this element is not present, any existing metadata is left unchanged.</source>
+            <target state="new">If this element is not present, any existing metadata is left unchanged.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>startTask</source>
+            <target state="new">startTask</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Element name</source>
+            <target state="new">Element name</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Required</source>
+            <target state="new">Required</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Notes</source>
+            <target state="new">Notes</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>commandLine</source>
+            <target state="new">commandLine</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Specifies the command line of the start task.</source>
+            <target state="new">Specifies the command line of the start task.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Collection</source>
+            <target state="new">Collection</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>A list of files that Batch will download to the compute node before running the command line.</source>
+            <target state="new">A list of files that Batch will download to the compute node before running the command line.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>If you are providing the executable for the task, at least one instance of this element is required to specify the source location and target location of the executable file.</source>
+            <target state="new">If you are providing the executable for the task, at least one instance of this element is required to specify the source location and target location of the executable file.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>If the task requires additional supporting files, add additional instances of this element to list these files.</source>
+            <target state="new">If the task requires additional supporting files, add additional instances of this element to list these files.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Files that listed under this element are located in the task’s <ph id="1">&lt;languageKeyword&gt;wd&lt;/languageKeyword&gt;</ph> directory.</source>
+            <target state="new">Files that listed under this element are located in the task’s <ph id="1">&lt;languageKeyword&gt;wd&lt;/languageKeyword&gt;</ph> directory.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="6e4a5e67-dc09-4de2-8ae9-88a30987fcfb" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;List the task files in an account&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="6e4a5e67-dc09-4de2-8ae9-88a30987fcfb" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;List the task files in an account&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>If the command line is a default server program, and requires no additional supporting files, you do not need to include this element.</source>
+            <target state="new">If the command line is a default server program, and requires no additional supporting files, you do not need to include this element.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Collection</source>
+            <target state="new">Collection</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>A list of environment variable settings for the start task.</source>
+            <target state="new">A list of environment variable settings for the start task.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>runElevated</source>
+            <target state="new">runElevated</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Boolean</source>
+            <target state="new">Boolean</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Specifies whether to run the start task in elevated mode.</source>
+            <target state="new">Specifies whether to run the start task in elevated mode.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>The default value is false.</source>
+            <target state="new">The default value is false.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>maxTaskRetryCount</source>
+            <target state="new">maxTaskRetryCount</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Int32</source>
+            <target state="new">Int32</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>The maximum number of times the task may be retried.</source>
+            <target state="new">The maximum number of times the task may be retried.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>The Batch service retries a task if its exit code is nonzero.</source>
+            <target state="new">The Batch service retries a task if its exit code is nonzero.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Note that this value specifically controls the number of retries.</source>
+            <target state="new">Note that this value specifically controls the number of retries.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>The Batch service will try the task once, and may then retry up to this limit.</source>
+            <target state="new">The Batch service will try the task once, and may then retry up to this limit.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>For example, if the maximum retry count is 3, Batch tries the task up to 4 times (one initial try and 3 retries).</source>
+            <target state="new">For example, if the maximum retry count is 3, Batch tries the task up to 4 times (one initial try and 3 retries).</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>If the maximum retry count is 0, the Batch service does not retry the task.</source>
+            <target state="new">If the maximum retry count is 0, the Batch service does not retry the task.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>If the maximum retry count is -1, the Batch service retries the task without limit.</source>
+            <target state="new">If the maximum retry count is -1, the Batch service retries the task without limit.</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>waitForSuccess</source>
+            <target state="new">waitForSuccess</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Boolean</source>
+            <target state="new">Boolean</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Specifies whether the Batch Service should wait for the start task to complete successfully (that is, to exit with exit code 0) before scheduling any tasks on the compute node.</source>
+            <target state="new">Specifies whether the Batch Service should wait for the start task to complete successfully (that is, to exit with exit code 0) before scheduling any tasks on the compute node.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>If true and the start task fails on a compute node, the Batch service retries the start task up to its maximum retry count (maxTaskRetryCount).</source>
+            <target state="new">If true and the start task fails on a compute node, the Batch service retries the start task up to its maximum retry count (maxTaskRetryCount).</target>
+          </trans-unit>
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>If the task has still not completed successfully after all retries, then the Batch service marks the compute node unusable, and will not schedule tasks to it.</source>
+            <target state="new">If the task has still not completed successfully after all retries, then the Batch service marks the compute node unusable, and will not schedule tasks to it.</target>
+          </trans-unit>
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>This condition can be detected via the node state and scheduling error detail.If false, the Batch service will not wait for the start task to complete.</source>
+            <target state="new">This condition can be detected via the node state and scheduling error detail.If false, the Batch service will not wait for the start task to complete.</target>
+          </trans-unit>
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>In this case, other tasks can start executing on the compute node while the start task is still running; and even if the start task fails, new tasks will continue to be scheduled on the node.</source>
+            <target state="new">In this case, other tasks can start executing on the compute node while the start task is still running; and even if the start task fails, new tasks will continue to be scheduled on the node.</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>The default is true.</source>
+            <target state="new">The default is true.</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>resourceFiles</source>
+            <target state="new">resourceFiles</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Element name</source>
+            <target state="new">Element name</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Required</source>
+            <target state="new">Required</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Notes</source>
+            <target state="new">Notes</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>blobSource</source>
+            <target state="new">blobSource</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>The URL of a blob in Azure storage.</source>
+            <target state="new">The URL of a blob in Azure storage.</target>
+          </trans-unit>
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>The Batch service downloads the blob to the specified file path.</source>
+            <target state="new">The Batch service downloads the blob to the specified file path.</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>The URL must be readable using anonymous access; that is, the Batch service does not present any credentials when downloading the blob.</source>
+            <target state="new">The URL must be readable using anonymous access; that is, the Batch service does not present any credentials when downloading the blob.</target>
+          </trans-unit>
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>There are two ways to get such a URL for a blob in Azure storage:</source>
+            <target state="new">There are two ways to get such a URL for a blob in Azure storage:</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Use a Shared Access Signature (SAS) granting read permissions on the blob.</source>
+            <target state="new">Use a Shared Access Signature (SAS) granting read permissions on the blob.</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Set the ACL for the blob’s container to allow public access.</source>
+            <target state="new">Set the ACL for the blob’s container to allow public access.</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>filePath</source>
+            <target state="new">filePath</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>The location on the compute node to which the file should be downloaded.</source>
+            <target state="new">The location on the compute node to which the file should be downloaded.</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>environmentSettings</source>
+            <target state="new">environmentSettings</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Element name</source>
+            <target state="new">Element name</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>Required</source>
+            <target state="new">Required</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Notes</source>
+            <target state="new">Notes</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>name</source>
+            <target state="new">name</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>The name of the environment variable.</source>
+            <target state="new">The name of the environment variable.</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>value</source>
+            <target state="new">value</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>The value of the environment variable.</source>
+            <target state="new">The value of the environment variable.</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>certificateReferences</source>
+            <target state="new">certificateReferences</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>Element name</source>
+            <target state="new">Element name</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>Required</source>
+            <target state="new">Required</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Notes</source>
+            <target state="new">Notes</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>thumbprint</source>
+            <target state="new">thumbprint</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>The thumbprint of the certificate.</source>
+            <target state="new">The thumbprint of the certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>thumbprintAlgorithm</source>
+            <target state="new">thumbprintAlgorithm</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>The algorithm with which the thumbprint is associated.</source>
+            <target state="new">The algorithm with which the thumbprint is associated.</target>
+          </trans-unit>
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>This must be <ph id="1">&lt;languageKeyword&gt;sha1&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">This must be <ph id="1">&lt;languageKeyword&gt;sha1&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>storeLocation</source>
+            <target state="new">storeLocation</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>The location of the certificate store on the compute node into which to install the certificate.</source>
+            <target state="new">The location of the certificate store on the compute node into which to install the certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>Possible values are:</source>
+            <target state="new">Possible values are:</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>The default value is <ph id="1">&lt;languageKeyword&gt;CurrentUser&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">The default value is <ph id="1">&lt;languageKeyword&gt;CurrentUser&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>storeName</source>
+            <target state="new">storeName</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>The name of the certificate store on the compute node into which to install the certificate.</source>
+            <target state="new">The name of the certificate store on the compute node into which to install the certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>Possible values are:</source>
+            <target state="new">Possible values are:</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>Any custom store name</source>
+            <target state="new">Any custom store name</target>
+          </trans-unit>
+        </group>
+        <group id="123">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>The default value is <ph id="1">&lt;languageKeyword&gt;My&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">The default value is <ph id="1">&lt;languageKeyword&gt;My&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="124">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>Visibility</source>
+            <target state="new">Visibility</target>
+          </trans-unit>
+        </group>
+        <group id="125">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="126">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="127">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>Specifies which user accounts on the compute node should have access to the private data of the certificate.</source>
+            <target state="new">Specifies which user accounts on the compute node should have access to the private data of the certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="128">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>Possible values are:</source>
+            <target state="new">Possible values are:</target>
+          </trans-unit>
+        </group>
+        <group id="129">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;starttask&lt;/languageKeyword&gt;</ph> – The user account under which the start task is run.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;starttask&lt;/languageKeyword&gt;</ph> – The user account under which the start task is run.</target>
+          </trans-unit>
+        </group>
+        <group id="130">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;task&lt;/languageKeyword&gt;</ph> – The accounts under which job tasks are run.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;task&lt;/languageKeyword&gt;</ph> – The accounts under which job tasks are run.</target>
+          </trans-unit>
+        </group>
+        <group id="131">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;rdp&lt;/languageKeyword&gt;</ph> – The accounts under which users remotely access the node (using Remote Desktop).</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;rdp&lt;/languageKeyword&gt;</ph> – The accounts under which users remotely access the node (using Remote Desktop).</target>
+          </trans-unit>
+        </group>
+        <group id="132">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>You can specify more than one value by providing a comma-separated list.</source>
+            <target state="new">You can specify more than one value by providing a comma-separated list.</target>
+          </trans-unit>
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>For example, <bpt id="1">&lt;legacyItalic&gt;</bpt>starttask,task<ept id="1">&lt;/legacyItalic&gt;</ept> grants access to both the start task and job tasks, but not RDP users.</source>
+            <target state="new">For example, <bpt id="1">&lt;legacyItalic&gt;</bpt>starttask,task<ept id="1">&lt;/legacyItalic&gt;</ept> grants access to both the start task and job tasks, but not RDP users.</target>
+          </trans-unit>
+        </group>
+        <group id="133">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>The default is that the certificate is visible to all the user accounts listed above, i.e. a value of <bpt id="1">&lt;legacyItalic&gt;</bpt>starttask,task,rdp<ept id="1">&lt;/legacyItalic&gt;</ept>.</source>
+            <target state="new">The default is that the certificate is visible to all the user accounts listed above, i.e. a value of <bpt id="1">&lt;legacyItalic&gt;</bpt>starttask,task,rdp<ept id="1">&lt;/legacyItalic&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="134">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>metadata</source>
+            <target state="new">metadata</target>
+          </trans-unit>
+        </group>
+        <group id="135">
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>Element name</source>
+            <target state="new">Element name</target>
+          </trans-unit>
+        </group>
+        <group id="136">
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>Required</source>
+            <target state="new">Required</target>
+          </trans-unit>
+        </group>
+        <group id="137">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="138">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>Notes</source>
+            <target state="new">Notes</target>
+          </trans-unit>
+        </group>
+        <group id="139">
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>name</source>
+            <target state="new">name</target>
+          </trans-unit>
+        </group>
+        <group id="140">
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="141">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="142">
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>The name of the metadata setting.</source>
+            <target state="new">The name of the metadata setting.</target>
+          </trans-unit>
+        </group>
+        <group id="143">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>value</source>
+            <target state="new">value</target>
+          </trans-unit>
+        </group>
+        <group id="144">
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="145">
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="146">
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>The value of the metadata setting.</source>
+            <target state="new">The value of the metadata setting.</target>
+          </trans-unit>
+        </group>
+        <group id="147">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>The following example shows all of the start task, certificate references collection, and metadata collection being updated:</source>
+            <target state="new">The following example shows all of the start task, certificate references collection, and metadata collection being updated:</target>
+          </trans-unit>
+        </group>
+        <group id="148">
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>Response</source>
+            <target state="new">Response</target>
+          </trans-unit>
+        </group>
+        <group id="149">
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>Status code: 200.</source>
+            <target state="new">Status code: 200.</target>
+          </trans-unit>
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="e9da2d54-053a-4392-a5ba-26229c7cc9a5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Status and Error Codes&lt;/link&gt;</ph></source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="e9da2d54-053a-4392-a5ba-26229c7cc9a5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Status and Error Codes&lt;/link&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="150">
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>Remark</source>
+            <target state="new">Remark</target>
+          </trans-unit>
+        </group>
+        <group id="151">
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>To replace all of the properties of a pool, use <ph id="1">&lt;link xlink:href="fc04b4f5-54a6-4c8e-a3d4-8305ce025b91" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Replace the properties of a pool&lt;/link&gt;</ph>.</source>
+            <target state="new">To replace all of the properties of a pool, use <ph id="1">&lt;link xlink:href="fc04b4f5-54a6-4c8e-a3d4-8305ce025b91" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Replace the properties of a pool&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

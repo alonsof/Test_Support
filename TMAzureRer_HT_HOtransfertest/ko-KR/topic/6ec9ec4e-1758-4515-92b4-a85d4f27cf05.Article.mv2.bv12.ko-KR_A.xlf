@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANyVEKwjAMANCr9AANNF3aNZ5A8E+8QBoTGM4VdMKO7z7e13OfrFNWMCMCQk/QU+ugCaUyO4pwDMYpI7cKFW0Catqgz6nCJFPqXpW79hiqKZuSAc6lARUswLkTSCtP8jyrpxIDxvAacLvHcKyLux375TPGHkM+73T9vWV7fGT7rrIvY/sDHFhFw6IAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Working with the Root Container</source>
+            <target state="new">Working with the Root Container</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>A root container serves as a default container for your storage account.</source>
+            <target state="new">A root container serves as a default container for your storage account.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>A storage account may have one root container.</source>
+            <target state="new">A storage account may have one root container.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The root container must be explicitly created and must be named <ph id="1">&lt;codeInline&gt;$root&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">The root container must be explicitly created and must be named <ph id="1">&lt;codeInline&gt;$root&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>A blob stored in the root container may be addressed without referencing the root container name, so that a blob can be addressed at the top level of the storage account hierarchy.</source>
+            <target state="new">A blob stored in the root container may be addressed without referencing the root container name, so that a blob can be addressed at the top level of the storage account hierarchy.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>For example, you can reference a blob that resides in the root container in the following manner:</source>
+            <target state="new">For example, you can reference a blob that resides in the root container in the following manner:</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Managing the Root Container</source>
+            <target state="new">Managing the Root Container</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>To use the root container with your storage account, create a new container named <ph id="1">&lt;codeInline&gt;$root&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">To use the root container with your storage account, create a new container named <ph id="1">&lt;codeInline&gt;$root&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The following sample request shows how to create the root container:</source>
+            <target state="new">The following sample request shows how to create the root container:</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>You can also delete the root container if you no longer have a need for it.</source>
+            <target state="new">You can also delete the root container if you no longer have a need for it.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Like other containers, the root container can be made available for anonymous public access.</source>
+            <target state="new">Like other containers, the root container can be made available for anonymous public access.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>You can make the container public by setting the <ph id="1">&lt;parameterReference&gt;x-ms-blob-public-access&lt;/parameterReference&gt;</ph> header when the container is created, or by calling <ph id="2">&lt;link xlink:href="55958376-0879-4805-ace9-079d297ab3fa" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Container ACL&lt;/link&gt;</ph> after it already exists.</source>
+            <target state="new">You can make the container public by setting the <ph id="1">&lt;parameterReference&gt;x-ms-blob-public-access&lt;/parameterReference&gt;</ph> header when the container is created, or by calling <ph id="2">&lt;link xlink:href="55958376-0879-4805-ace9-079d297ab3fa" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Container ACL&lt;/link&gt;</ph> after it already exists.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>See <bpt id="1">&lt;legacyLink xlink:href="1d1c1a78-7a01-4477-b8e0-394d122e15a6" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Restrict Access to Containers and Blobs<ept id="1">&lt;/legacyLink&gt;</ept> for more information.</source>
+            <target state="new">See <bpt id="1">&lt;legacyLink xlink:href="1d1c1a78-7a01-4477-b8e0-394d122e15a6" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Restrict Access to Containers and Blobs<ept id="1">&lt;/legacyLink&gt;</ept> for more information.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>If the root container is present, it will appear when you perform the <ph id="1">&lt;link xlink:href="1a1d2a8e-de2b-4fa8-9d6d-582998a26a4f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;List Containers&lt;/link&gt;</ph> operation against the storage account.</source>
+            <target state="new">If the root container is present, it will appear when you perform the <ph id="1">&lt;link xlink:href="1a1d2a8e-de2b-4fa8-9d6d-582998a26a4f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;List Containers&lt;/link&gt;</ph> operation against the storage account.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>When you perform a <ph id="1">&lt;link xlink:href="fa4760a6-5343-4aa1-b484-df823ce817e7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;List Blobs&lt;/link&gt;</ph> operation against the root container, the root container does not appear in the resource URLs for the blobs returned.</source>
+            <target state="new">When you perform a <ph id="1">&lt;link xlink:href="fa4760a6-5343-4aa1-b484-df823ce817e7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;List Blobs&lt;/link&gt;</ph> operation against the root container, the root container does not appear in the resource URLs for the blobs returned.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>The following request syntax shows how to call <ph id="1">&lt;unmanagedCodeEntityReference&gt;List Blobs&lt;/unmanagedCodeEntityReference&gt;</ph> against the root container:</source>
+            <target state="new">The following request syntax shows how to call <ph id="1">&lt;unmanagedCodeEntityReference&gt;List Blobs&lt;/unmanagedCodeEntityReference&gt;</ph> against the root container:</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>A blob in the root container cannot include a forward slash (/) in its name.</source>
+            <target state="new">A blob in the root container cannot include a forward slash (/) in its name.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Examples</source>
+            <target state="new">Examples</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>The following examples show how to work with container and blob resources, including the root container:</source>
+            <target state="new">The following examples show how to work with container and blob resources, including the root container:</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>GET Operations</source>
+            <target state="new">GET Operations</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>To list the containers in a storage account:</source>
+            <target state="new">To list the containers in a storage account:</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>To get a container's properties:</source>
+            <target state="new">To get a container's properties:</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>To list the blobs in a container named <ph id="1">&lt;codeInline&gt;mycontainer&lt;/codeInline&gt;</ph>:</source>
+            <target state="new">To list the blobs in a container named <ph id="1">&lt;codeInline&gt;mycontainer&lt;/codeInline&gt;</ph>:</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>To list the blobs in the root container:</source>
+            <target state="new">To list the blobs in the root container:</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>To read a blob named <ph id="1">&lt;codeInline&gt;myfile&lt;/codeInline&gt;</ph> from a container named <ph id="2">&lt;codeInline&gt;mycontainer&lt;/codeInline&gt;</ph>:</source>
+            <target state="new">To read a blob named <ph id="1">&lt;codeInline&gt;myfile&lt;/codeInline&gt;</ph> from a container named <ph id="2">&lt;codeInline&gt;mycontainer&lt;/codeInline&gt;</ph>:</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>To read a blob named <ph id="1">&lt;codeInline&gt;myphoto&lt;/codeInline&gt;</ph> from the root container:</source>
+            <target state="new">To read a blob named <ph id="1">&lt;codeInline&gt;myphoto&lt;/codeInline&gt;</ph> from the root container:</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>You can also explicitly reference the root container:</source>
+            <target state="new">You can also explicitly reference the root container:</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>To read blob metadata on a blob in the root container:</source>
+            <target state="new">To read blob metadata on a blob in the root container:</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>You can also explicitly reference the root container:</source>
+            <target state="new">You can also explicitly reference the root container:</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Be careful to avoid including a trailing forward slash (/) when referencing a blob under the root container.</source>
+            <target state="new">Be careful to avoid including a trailing forward slash (/) when referencing a blob under the root container.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>For example, a URL such as the following now results in status code 400 (Bad Request):</source>
+            <target state="new">For example, a URL such as the following now results in status code 400 (Bad Request):</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>https://myaccount.blob.core.windows.net/myblob/</source>
+            <target state="new">https://myaccount.blob.core.windows.net/myblob/</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>In the above example, the Blob service reads the container name as <ph id="1">&lt;codeInline&gt;myblob&lt;/codeInline&gt;</ph> and expects to see a blob name after the trailing slash.</source>
+            <target state="new">In the above example, the Blob service reads the container name as <ph id="1">&lt;codeInline&gt;myblob&lt;/codeInline&gt;</ph> and expects to see a blob name after the trailing slash.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>The request is malformed due to the missing blob name.</source>
+            <target state="new">The request is malformed due to the missing blob name.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>The following URL is valid for an operation on a blob in the root container:</source>
+            <target state="new">The following URL is valid for an operation on a blob in the root container:</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>https://myaccount.blob.core.windows.net/myblob</source>
+            <target state="new">https://myaccount.blob.core.windows.net/myblob</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>PUT Operations</source>
+            <target state="new">PUT Operations</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>To create a container named <ph id="1">&lt;codeInline&gt;mycontainer&lt;/codeInline&gt;</ph>:</source>
+            <target state="new">To create a container named <ph id="1">&lt;codeInline&gt;mycontainer&lt;/codeInline&gt;</ph>:</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>To create a blob named <ph id="1">&lt;codeInline&gt;myblob&lt;/codeInline&gt;</ph> in the root container:</source>
+            <target state="new">To create a blob named <ph id="1">&lt;codeInline&gt;myblob&lt;/codeInline&gt;</ph> in the root container:</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>You can also explicitly specify the root container:</source>
+            <target state="new">You can also explicitly specify the root container:</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>To create a blob named <ph id="1">&lt;codeInline&gt;myblob&lt;/codeInline&gt;</ph> in a container named <ph id="2">&lt;codeInline&gt;mycontainer&lt;/codeInline&gt;</ph>:</source>
+            <target state="new">To create a blob named <ph id="1">&lt;codeInline&gt;myblob&lt;/codeInline&gt;</ph> in a container named <ph id="2">&lt;codeInline&gt;mycontainer&lt;/codeInline&gt;</ph>:</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>To create a blob named <ph id="1">&lt;codeInline&gt;photos/myphoto&lt;/codeInline&gt;</ph> in a container named <ph id="2">&lt;codeInline&gt;mycontainer&lt;/codeInline&gt;</ph>:</source>
+            <target state="new">To create a blob named <ph id="1">&lt;codeInline&gt;photos/myphoto&lt;/codeInline&gt;</ph> in a container named <ph id="2">&lt;codeInline&gt;mycontainer&lt;/codeInline&gt;</ph>:</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>To set metadata on a blob named <ph id="1">&lt;codeInline&gt;myblob&lt;/codeInline&gt;</ph> in the root container:</source>
+            <target state="new">To set metadata on a blob named <ph id="1">&lt;codeInline&gt;myblob&lt;/codeInline&gt;</ph> in the root container:</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>DELETE Operations</source>
+            <target state="new">DELETE Operations</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>To delete a container named <ph id="1">&lt;codeInline&gt;mycontainer&lt;/codeInline&gt;</ph>:</source>
+            <target state="new">To delete a container named <ph id="1">&lt;codeInline&gt;mycontainer&lt;/codeInline&gt;</ph>:</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>To delete the root container:</source>
+            <target state="new">To delete the root container:</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>To delete the blob <ph id="1">&lt;codeInline&gt;myblob&lt;/codeInline&gt;</ph> from the root container:</source>
+            <target state="new">To delete the blob <ph id="1">&lt;codeInline&gt;myblob&lt;/codeInline&gt;</ph> from the root container:</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>You can also explicitly specify the root container:</source>
+            <target state="new">You can also explicitly specify the root container:</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

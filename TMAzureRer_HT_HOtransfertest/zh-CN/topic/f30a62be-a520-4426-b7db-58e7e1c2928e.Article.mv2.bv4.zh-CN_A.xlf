@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-CN" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzDEOgzAMAMCv+AGxFAcTkq5dOnXqB+xgq0gUJKAS6uvLdNu5d6acGpoxI5NH1FgUWyTJtTqJ1ABkVAsJoedSkDU71kYFh55Hyx13UTSAX+SkhtKniMwpow6jYl9sMGqppmLXFeD3xvszwDlP7nYet21djwApAAd4fD+yvDZZ9lmOaV3+hjweUqEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Create or Update a RecordSet</source>
+            <target state="new">Create or Update a RecordSet</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Create or update a RecordSet within a DNS zone.</source>
+            <target state="new">Create or update a RecordSet within a DNS zone.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Request</source>
+            <target state="new">Request</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="c9e3f8c2-c5ba-4e59-84c7-5b0ce338daac#bk_common" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Common parameters and headers&lt;/link&gt;</ph> for headers and parameters that are used by all requests related to RecordSet.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="c9e3f8c2-c5ba-4e59-84c7-5b0ce338daac#bk_common" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Common parameters and headers&lt;/link&gt;</ph> for headers and parameters that are used by all requests related to RecordSet.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Method</source>
+            <target state="new">Method</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Request URI</source>
+            <target state="new">Request URI</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>PUT / PATCH</source>
+            <target state="new">PUT / PATCH</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/dnsZones/{zoneName}/{recordType}/{recordSetName}?api-version={api-version}</source>
+            <target state="new">https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/dnsZones/{zoneName}/{recordType}/{recordSetName}?api-version={api-version}</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Replace:</source>
+            <target state="new">Replace:</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>{zoneName} with the name of the DNS zone</source>
+            <target state="new">{zoneName} with the name of the DNS zone</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>{recordType} with the DNS record type (A, AAAA, CNAME, MX, SOA, NS, SRV, TXT)</source>
+            <target state="new">{recordType} with the DNS record type (A, AAAA, CNAME, MX, SOA, NS, SRV, TXT)</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>{recordSetName} with the name of the RecordSet to be created/updated, use ‘@’ for RecordSets at the apex of the zone (e.g. SOA/NS).</source>
+            <target state="new">{recordSetName} with the name of the RecordSet to be created/updated, use ‘@’ for RecordSets at the apex of the zone (e.g. SOA/NS).</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Example Body</source>
+            <target state="new">Example Body</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>A</source>
+            <target state="new">A</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>AAAA</source>
+            <target state="new">AAAA</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>CNAME</source>
+            <target state="new">CNAME</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>MX</source>
+            <target state="new">MX</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>NS</source>
+            <target state="new">NS</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>SOA</source>
+            <target state="new">SOA</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>SRV</source>
+            <target state="new">SRV</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Note: The ‘Service’ and ‘Protocol’ should be specified as part of the record name, including leading underscores</source>
+            <target state="new">Note: The ‘Service’ and ‘Protocol’ should be specified as part of the record name, including leading underscores</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>TXT</source>
+            <target state="new">TXT</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Element name</source>
+            <target state="new">Element name</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Required</source>
+            <target state="new">Required</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>location</source>
+            <target state="new">location</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Specifies the geo-location of the resource, as DNS is a global service use “global”.</source>
+            <target state="new">Specifies the geo-location of the resource, as DNS is a global service use “global”.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>tags</source>
+            <target state="new">tags</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Complex Type</source>
+            <target state="new">Complex Type</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>The tags and their values to associate with the zone, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Using tags to organize your Azure resources<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/en-us/documentation/articles/azure-preview-portal-using-tags/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">The tags and their values to associate with the zone, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Using tags to organize your Azure resources<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/en-us/documentation/articles/azure-preview-portal-using-tags/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>TTL</source>
+            <target state="new">TTL</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Positive Integer</source>
+            <target state="new">Positive Integer</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>The Time To Live (TTL) of the DNS records.</source>
+            <target state="new">The Time To Live (TTL) of the DNS records.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Properties</source>
+            <target state="new">Properties</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Complex Type</source>
+            <target state="new">Complex Type</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Array of properties depending on record type, see above for examples and below for descriptions</source>
+            <target state="new">Array of properties depending on record type, see above for examples and below for descriptions</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>A Records</source>
+            <target state="new">A Records</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Array</source>
+            <target state="new">Array</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Zero or more A records, each record contains an IPv4 Address</source>
+            <target state="new">Zero or more A records, each record contains an IPv4 Address</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>ipv4Address</source>
+            <target state="new">ipv4Address</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>For A records</source>
+            <target state="new">For A records</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>IPv4 Address in string notation</source>
+            <target state="new">IPv4 Address in string notation</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>AAAA Records</source>
+            <target state="new">AAAA Records</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Array</source>
+            <target state="new">Array</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Zero or more AAAA records, each record contains an IPv6 Address</source>
+            <target state="new">Zero or more AAAA records, each record contains an IPv6 Address</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>ipv6Address</source>
+            <target state="new">ipv6Address</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>For AAAA records</source>
+            <target state="new">For AAAA records</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>IPv6 Address in string notation</source>
+            <target state="new">IPv6 Address in string notation</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>CNAMERecord</source>
+            <target state="new">CNAMERecord</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Complex Type</source>
+            <target state="new">Complex Type</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Contains a single ‘cname’ record, A CNAME cannot co-exist with each other or with other record types.</source>
+            <target state="new">Contains a single ‘cname’ record, A CNAME cannot co-exist with each other or with other record types.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>cname</source>
+            <target state="new">cname</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>For CNAME records</source>
+            <target state="new">For CNAME records</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>The target of the CNAME</source>
+            <target state="new">The target of the CNAME</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>MXRecords</source>
+            <target state="new">MXRecords</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Array</source>
+            <target state="new">Array</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Zero or more MX records, each with a ‘preference’ and ‘exchange’.</source>
+            <target state="new">Zero or more MX records, each with a ‘preference’ and ‘exchange’.</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>preference</source>
+            <target state="new">preference</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>For MX records</source>
+            <target state="new">For MX records</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Positive Integer</source>
+            <target state="new">Positive Integer</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>String representing the “preference” value of the MX records.</source>
+            <target state="new">String representing the “preference” value of the MX records.</target>
+          </trans-unit>
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Records with lower preference value take priority.</source>
+            <target state="new">Records with lower preference value take priority.</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>exchange</source>
+            <target state="new">exchange</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>For MX records</source>
+            <target state="new">For MX records</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>The mail server responsible for the domain covered by the MX record.</source>
+            <target state="new">The mail server responsible for the domain covered by the MX record.</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>NSRecords</source>
+            <target state="new">NSRecords</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Array</source>
+            <target state="new">Array</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Zero or more NS records, each with a ‘nsdname’.</source>
+            <target state="new">Zero or more NS records, each with a ‘nsdname’.</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>nsdname</source>
+            <target state="new">nsdname</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>For NS records</source>
+            <target state="new">For NS records</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>The name server that is authoritative for the domain.</source>
+            <target state="new">The name server that is authoritative for the domain.</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>SRVRecords</source>
+            <target state="new">SRVRecords</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Array</source>
+            <target state="new">Array</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Zero or more SRV records, each with ‘priority’, ‘weight’, ‘port’ &amp; ‘target’.</source>
+            <target state="new">Zero or more SRV records, each with ‘priority’, ‘weight’, ‘port’ &amp; ‘target’.</target>
+          </trans-unit>
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>The ‘service’ and ‘protocol’ are part of the record name.</source>
+            <target state="new">The ‘service’ and ‘protocol’ are part of the record name.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>target</source>
+            <target state="new">target</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>For SRV records</source>
+            <target state="new">For SRV records</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>FQDN of the service.</source>
+            <target state="new">FQDN of the service.</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>port</source>
+            <target state="new">port</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>For SRV records</source>
+            <target state="new">For SRV records</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>0..65K</source>
+            <target state="new">0..65K</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Port the service is listening on.</source>
+            <target state="new">Port the service is listening on.</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>priority</source>
+            <target state="new">priority</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>For SRV records</source>
+            <target state="new">For SRV records</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Positive Integer</source>
+            <target state="new">Positive Integer</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Priority of the SRV record.</source>
+            <target state="new">Priority of the SRV record.</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>weight</source>
+            <target state="new">weight</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>For SRV records</source>
+            <target state="new">For SRV records</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Positive Integer</source>
+            <target state="new">Positive Integer</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Weight of the SRV record.</source>
+            <target state="new">Weight of the SRV record.</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>TXTRecords</source>
+            <target state="new">TXTRecords</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>Array</source>
+            <target state="new">Array</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Zero or more TXT records, each with a single ‘value’</source>
+            <target state="new">Zero or more TXT records, each with a single ‘value’</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>value</source>
+            <target state="new">value</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>For TXTRecords</source>
+            <target state="new">For TXTRecords</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>The text content of the TXT record, limited to 255 bytes.</source>
+            <target state="new">The text content of the TXT record, limited to 255 bytes.</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Response</source>
+            <target state="new">Response</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>Status code: 200/201 depending on whether the resource is updated or created.</source>
+            <target state="new">Status code: 200/201 depending on whether the resource is updated or created.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAdyVEKwjAMANCr9AANJF2Wtp5A8E+8QLomMJwr6IQdX/D9PvfJGqcFzJiByREalgYLkkqtTqo1hinpxGgOplmANWVoKWeYZaa5i0hNLYall1SFGJI3AxYq0Lo6lG5YLWMnLDFQDM8Bt3sM57a623lc3mMc/+AYrt+X7o+37p9Nj3XsP+epa+qhAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>List versions of a secret</source>
+            <target state="new">List versions of a secret</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>List versions of a secret</source>
+            <target state="new">List versions of a secret</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Retrieves a list of the given secret’s versions stored in the Key Vault.</source>
+            <target state="new">Retrieves a list of the given secret’s versions stored in the Key Vault.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The LIST VERSIONS operation can be applied to all versions having the same secret name in the same key vault.</source>
+            <target state="new">The LIST VERSIONS operation can be applied to all versions having the same secret name in the same key vault.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The full secret identifier and attributes are provided in the response.</source>
+            <target state="new">The full secret identifier and attributes are provided in the response.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>You may use the nextLink field via an HTTP GET to retrieve the next set of results, which will include another nextLink field.</source>
+            <target state="new">You may use the nextLink field via an HTTP GET to retrieve the next set of results, which will include another nextLink field.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The enumeration is completed if and only if nextLink is empty.</source>
+            <target state="new">The enumeration is completed if and only if nextLink is empty.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>No values are returned for the secrets and only current versions of a secret are listed.</source>
+            <target state="new">No values are returned for the secrets and only current versions of a secret are listed.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Authorization: Requires the secrets/list permission.</source>
+            <target state="new">Authorization: Requires the secrets/list permission.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Request</source>
+            <target state="new">Request</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Method</source>
+            <target state="new">Method</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>URL</source>
+            <target state="new">URL</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>GET</source>
+            <target state="new">GET</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Query option “maxresults={maxresults}” is optional.</source>
+            <target state="new">Query option “maxresults={maxresults}” is optional.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The value of maxresults must be an non-negative integer less than 25.</source>
+            <target state="new">The value of maxresults must be an non-negative integer less than 25.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>If a value out of the range is specified, the request will fail with an Http 400 error.</source>
+            <target state="new">If a value out of the range is specified, the request will fail with an Http 400 error.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>If this query option is not specified, the service will return up to 25 results.</source>
+            <target state="new">If this query option is not specified, the service will return up to 25 results.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Request Body - None, this is an HTTP GET operation.</source>
+            <target state="new">Request Body - None, this is an HTTP GET operation.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Response</source>
+            <target state="new">Response</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Retrieved list of secret identifiers from the Key Vault.</source>
+            <target state="new">Retrieved list of secret identifiers from the Key Vault.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

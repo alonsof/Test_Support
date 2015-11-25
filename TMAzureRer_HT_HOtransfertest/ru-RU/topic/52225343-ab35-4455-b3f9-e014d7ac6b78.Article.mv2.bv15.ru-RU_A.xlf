@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ru-RU" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANyssJwzAMANBVPIAF/sgfdYKeSzuAZFsQSBNIHcj4zfk91TgEQ4MxEAG9OhBXBZrznInUM5M1Kh2pBw/UKt+LMnBhhC5cPFOOuRZrUgghRYzAEhMgpgQSlWA4j71wy1KqNd6a44TXx5prXVTHNR/Hvk9rwm3Jmuf55e198PZbeS779gfGF2eYogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Service Identities</source>
+            <target state="new">Service Identities</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Azure</source>
+            <target state="new">Azure</target>
+            <context-group>
+              <context context-type="x-metadataname">applies_to_product</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Service Identities</source>
+            <target state="new">Service Identities</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>In <ph id="1">&lt;token&gt;firstref_acs&lt;/token&gt;</ph>, a <bpt id="2">&lt;newTerm&gt;</bpt>service identity<ept id="2">&lt;/newTerm&gt;</ept> is a credential that is registered with an <ph id="3">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> and is intended for use by autonomous applications or clients.</source>
+            <target state="new">In <ph id="1">&lt;token&gt;firstref_acs&lt;/token&gt;</ph>, a <bpt id="2">&lt;newTerm&gt;</bpt>service identity<ept id="2">&lt;/newTerm&gt;</ept> is a credential that is registered with an <ph id="3">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> and is intended for use by autonomous applications or clients.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>In other words, service identities are credentials that are configured globally for the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> that allow applications or clients to authenticate directly with <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> and receive a token.</source>
+            <target state="new">In other words, service identities are credentials that are configured globally for the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> that allow applications or clients to authenticate directly with <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> and receive a token.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>An <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> may contain many service identities.</source>
+            <target state="new">An <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> may contain many service identities.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>In <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>, service identities are usually used for authenticating an autonomous application or client with an <ph id="2">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> and thereby grant that autonomous application or client access to the relying party application.</source>
+            <target state="new">In <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>, service identities are usually used for authenticating an autonomous application or client with an <ph id="2">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> and thereby grant that autonomous application or client access to the relying party application.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Rule groups that are associated with relying party applications exclusively define which service identities are accepted for which relying party applications.</source>
+            <target state="new">Rule groups that are associated with relying party applications exclusively define which service identities are accepted for which relying party applications.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Service identities are not intended to be used as end-user credentials.</source>
+            <target state="new">Service identities are not intended to be used as end-user credentials.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>In <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>, service identities are most commonly used in REST web service scenarios, over the OAuth WRAP protocol, where a client requests a SWT token directly from <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> to present to the web service.</source>
+            <target state="new">In <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>, service identities are most commonly used in REST web service scenarios, over the OAuth WRAP protocol, where a client requests a SWT token directly from <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> to present to the web service.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Credential Types</source>
+            <target state="new">Credential Types</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The following are the credential types that an <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> service identity can be associated with:</source>
+            <target state="new">The following are the credential types that an <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> service identity can be associated with:</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Symmetric key<ept id="1">&lt;/embeddedLabel&gt;</ept>—This credential is used in signed SWT token requests to <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> over the OAuth WRAP or the OAuth 2.0 protocols or in signed JWT token requests to <ph id="3">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> over the OAuth 2.0 protocols.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Symmetric key<ept id="1">&lt;/embeddedLabel&gt;</ept>—This credential is used in signed SWT token requests to <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> over the OAuth WRAP or the OAuth 2.0 protocols or in signed JWT token requests to <ph id="3">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> over the OAuth 2.0 protocols.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>In other words, this credential allows autonomous applications or clients to authenticate with <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> by issuing a SWT or a JWT token and signing that SWT or JWT token with a symmetric key.</source>
+            <target state="new">In other words, this credential allows autonomous applications or clients to authenticate with <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> by issuing a SWT or a JWT token and signing that SWT or JWT token with a symmetric key.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Password<ept id="1">&lt;/embeddedLabel&gt;</ept>—This credential allows autonomous applications or clients to authenticate with <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> by transmitting this credential to an <ph id="3">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Password<ept id="1">&lt;/embeddedLabel&gt;</ept>—This credential allows autonomous applications or clients to authenticate with <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> by transmitting this credential to an <ph id="3">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Password credentials are sent in plaintext token requests to <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> over the OAuth WRAP or the OAuth 2.0, or the WS-Trust protocols.</source>
+            <target state="new">Password credentials are sent in plaintext token requests to <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> over the OAuth WRAP or the OAuth 2.0, or the WS-Trust protocols.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>X.509 Certificate<ept id="1">&lt;/embeddedLabel&gt;</ept>—An X.509 Certificate credential allows autonomous applications and clients to authenticate with <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> via the WS-Trust protocol (certificate authentication).</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>X.509 Certificate<ept id="1">&lt;/embeddedLabel&gt;</ept>—An X.509 Certificate credential allows autonomous applications and clients to authenticate with <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> via the WS-Trust protocol (certificate authentication).</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>For more information and detailed steps about how to add service identities with the credentials previously described using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal, see <ph id="2">&lt;link xlink:href="8629f6a5-7463-4fe0-8ec5-66cc2c75a9aa" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How To: Add Service Identities with X.509 Certificate, Password, or Symmetric Key&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information and detailed steps about how to add service identities with the credentials previously described using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal, see <ph id="2">&lt;link xlink:href="8629f6a5-7463-4fe0-8ec5-66cc2c75a9aa" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How To: Add Service Identities with X.509 Certificate, Password, or Symmetric Key&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

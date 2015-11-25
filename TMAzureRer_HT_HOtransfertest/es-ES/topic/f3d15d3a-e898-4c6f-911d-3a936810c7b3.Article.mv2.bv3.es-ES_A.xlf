@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANylEKwyAMANCreAADxlg1+x/sf7tA1AQKXQttBz3++v2eGWlLsYNqSpDQArRQG/SAkpkNRdi7qeSQOEaoMhqkzgStGEFPVkSxTzWqd0YDp0ECWrneKxsw4gASplwx9NLIO/ROD3i+vbuW2Uyv87Fv2+ld9O7m1+8r62eX9VjknLf1D9EJV/yhAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Enabling Storage Metrics and Viewing Metrics Data</source>
+            <target state="new">Enabling Storage Metrics and Viewing Metrics Data</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>By default, Storage Metrics is not enabled for your storage services.</source>
+            <target state="new">By default, Storage Metrics is not enabled for your storage services.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>You can enable monitoring using either the Windows Azure Management Portal, Windows PowerShell, or programmatically through a storage API.</source>
+            <target state="new">You can enable monitoring using either the Windows Azure Management Portal, Windows PowerShell, or programmatically through a storage API.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>When you enable Storage Metrics, you must choose a retention period for the data: this period determines for how long the storage service keeps the metrics and charges you for the space required to store them.</source>
+            <target state="new">When you enable Storage Metrics, you must choose a retention period for the data: this period determines for how long the storage service keeps the metrics and charges you for the space required to store them.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Typically, you should use a shorter retention period for minute metrics than hourly metrics because of the significant extra space required for minute metrics.</source>
+            <target state="new">Typically, you should use a shorter retention period for minute metrics than hourly metrics because of the significant extra space required for minute metrics.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>You should choose a retention period such that you have sufficient time to analyze the data and download any metrics you wish to keep for off-line analysis or reporting purposes.</source>
+            <target state="new">You should choose a retention period such that you have sufficient time to analyze the data and download any metrics you wish to keep for off-line analysis or reporting purposes.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Remember that you will also be billed for downloading metrics data from your storage account.</source>
+            <target state="new">Remember that you will also be billed for downloading metrics data from your storage account.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>In this section:</source>
+            <target state="new">In this section:</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>How to enable Storage Metrics using the Windows Azure Management Portal</source>
+            <target state="new">How to enable Storage Metrics using the Windows Azure Management Portal</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>In the Windows Azure Management Portal, you use the Configure page for a storage account to control Storage Metrics.</source>
+            <target state="new">In the Windows Azure Management Portal, you use the Configure page for a storage account to control Storage Metrics.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>For monitoring, you can set a level and a retention period in days for each of blobs, tables, and queues.</source>
+            <target state="new">For monitoring, you can set a level and a retention period in days for each of blobs, tables, and queues.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>In each case, the level is one of the following:</source>
+            <target state="new">In each case, the level is one of the following:</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Off<ept id="1">&lt;/embeddedLabel&gt;</ept> — this means no metrics are collected.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Off<ept id="1">&lt;/embeddedLabel&gt;</ept> — this means no metrics are collected.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Minimal<ept id="1">&lt;/embeddedLabel&gt;</ept> — Storage Metrics collects a basic set of metrics such as ingress/egress, availability, latency, and success percentages, which are aggregated for the Blob, Table, and Queue services.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Minimal<ept id="1">&lt;/embeddedLabel&gt;</ept> — Storage Metrics collects a basic set of metrics such as ingress/egress, availability, latency, and success percentages, which are aggregated for the Blob, Table, and Queue services.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Verbose<ept id="1">&lt;/embeddedLabel&gt;</ept> — Storage Metrics collects a full set of metrics that includes the same metrics for each storage API operation, in addition to the service-level metrics.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Verbose<ept id="1">&lt;/embeddedLabel&gt;</ept> — Storage Metrics collects a full set of metrics that includes the same metrics for each storage API operation, in addition to the service-level metrics.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Verbose metrics enable closer analysis of issues that occur during application operations.</source>
+            <target state="new">Verbose metrics enable closer analysis of issues that occur during application operations.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Note that the Management Portal does not currently enable you to configure minute metrics in your storage account; you must enable minute metrics using PowerShell or programmatically.</source>
+            <target state="new">Note that the Management Portal does not currently enable you to configure minute metrics in your storage account; you must enable minute metrics using PowerShell or programmatically.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>For more information, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>About Storage Analytics Metrics<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/azure/hh343258.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>About Storage Analytics Metrics<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/azure/hh343258.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>How to enable Storage Metrics using PowerShell</source>
+            <target state="new">How to enable Storage Metrics using PowerShell</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>You can use PowerShell on your local machine to configure Storage Metrics in your storage account by using the Windows Azure PowerShell cmdlet <bpt id="1">&lt;embeddedLabel&gt;</bpt>Get-AzureStorageServiceMetricsProperty<ept id="1">&lt;/embeddedLabel&gt;</ept> to retrieve the current settings, and the cmdlet <bpt id="2">&lt;embeddedLabel&gt;</bpt>Set-AzureStorageServiceMetricsProperty<ept id="2">&lt;/embeddedLabel&gt;</ept> to change the current settings.</source>
+            <target state="new">You can use PowerShell on your local machine to configure Storage Metrics in your storage account by using the Windows Azure PowerShell cmdlet <bpt id="1">&lt;embeddedLabel&gt;</bpt>Get-AzureStorageServiceMetricsProperty<ept id="1">&lt;/embeddedLabel&gt;</ept> to retrieve the current settings, and the cmdlet <bpt id="2">&lt;embeddedLabel&gt;</bpt>Set-AzureStorageServiceMetricsProperty<ept id="2">&lt;/embeddedLabel&gt;</ept> to change the current settings.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>The cmdlets that control Storage Metrics use the following parameters:</source>
+            <target state="new">The cmdlets that control Storage Metrics use the following parameters:</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>MetricsType<ept id="1">&lt;/embeddedLabel&gt;</ept> possible values are <bpt id="2">&lt;embeddedLabel&gt;</bpt>Hour<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>Minute<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>MetricsType<ept id="1">&lt;/embeddedLabel&gt;</ept> possible values are <bpt id="2">&lt;embeddedLabel&gt;</bpt>Hour<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>Minute<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>ServiceType<ept id="1">&lt;/embeddedLabel&gt;</ept> possible value are <bpt id="2">&lt;embeddedLabel&gt;</bpt>Blob<ept id="2">&lt;/embeddedLabel&gt;</ept>,  <bpt id="3">&lt;embeddedLabel&gt;</bpt>Queue<ept id="3">&lt;/embeddedLabel&gt;</ept>, and <bpt id="4">&lt;embeddedLabel&gt;</bpt>Table<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>ServiceType<ept id="1">&lt;/embeddedLabel&gt;</ept> possible value are <bpt id="2">&lt;embeddedLabel&gt;</bpt>Blob<ept id="2">&lt;/embeddedLabel&gt;</ept>,  <bpt id="3">&lt;embeddedLabel&gt;</bpt>Queue<ept id="3">&lt;/embeddedLabel&gt;</ept>, and <bpt id="4">&lt;embeddedLabel&gt;</bpt>Table<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>MetricsLevel<ept id="1">&lt;/embeddedLabel&gt;</ept> possible values are <bpt id="2">&lt;embeddedLabel&gt;</bpt>None<ept id="2">&lt;/embeddedLabel&gt;</ept> (equivalent to Off in the Management Portal),  <bpt id="3">&lt;embeddedLabel&gt;</bpt>Service<ept id="3">&lt;/embeddedLabel&gt;</ept> (equivalent to Minimal in the Management Portal), and <bpt id="4">&lt;embeddedLabel&gt;</bpt>ServiceAndApi<ept id="4">&lt;/embeddedLabel&gt;</ept> (equivalent to Verbose in the Management Portal).</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>MetricsLevel<ept id="1">&lt;/embeddedLabel&gt;</ept> possible values are <bpt id="2">&lt;embeddedLabel&gt;</bpt>None<ept id="2">&lt;/embeddedLabel&gt;</ept> (equivalent to Off in the Management Portal),  <bpt id="3">&lt;embeddedLabel&gt;</bpt>Service<ept id="3">&lt;/embeddedLabel&gt;</ept> (equivalent to Minimal in the Management Portal), and <bpt id="4">&lt;embeddedLabel&gt;</bpt>ServiceAndApi<ept id="4">&lt;/embeddedLabel&gt;</ept> (equivalent to Verbose in the Management Portal).</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>For example, the following command switches on minute metrics for the blob service in your default storage account with the retention period set to five days:</source>
+            <target state="new">For example, the following command switches on minute metrics for the blob service in your default storage account with the retention period set to five days:</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>The following command retrieves the current hourly metrics level and retention days for the blob service in your default storage account:</source>
+            <target state="new">The following command retrieves the current hourly metrics level and retention days for the blob service in your default storage account:</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>For information about how to configure the Azure PowerShell cmdlets to work with your Azure subscription and how to select the default storage account to use, see: <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>How to install and configure Azure PowerShell<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/install-configure-powershell/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For information about how to configure the Azure PowerShell cmdlets to work with your Azure subscription and how to select the default storage account to use, see: <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>How to install and configure Azure PowerShell<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/install-configure-powershell/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>How to enable Storage Metrics programmatically</source>
+            <target state="new">How to enable Storage Metrics programmatically</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>In addition to using the Windows Azure Management Portal or the Azure PowerShell cmdlets to control Storage Metrics, you can also use one of the Azure Storage APIs.</source>
+            <target state="new">In addition to using the Windows Azure Management Portal or the Azure PowerShell cmdlets to control Storage Metrics, you can also use one of the Azure Storage APIs.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>For example, if you are using a .NET language you can use the Storage Client Library.</source>
+            <target state="new">For example, if you are using a .NET language you can use the Storage Client Library.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>The classes <bpt id="1">&lt;embeddedLabel&gt;</bpt>CloudBlobClient<ept id="1">&lt;/embeddedLabel&gt;</ept>, <bpt id="2">&lt;embeddedLabel&gt;</bpt>CloudQueueClient<ept id="2">&lt;/embeddedLabel&gt;</ept>, and <bpt id="3">&lt;embeddedLabel&gt;</bpt>CloudTableClient<ept id="3">&lt;/embeddedLabel&gt;</ept> all have methods such as <bpt id="4">&lt;embeddedLabel&gt;</bpt>SetServiceProperties<ept id="4">&lt;/embeddedLabel&gt;</ept> and <bpt id="5">&lt;embeddedLabel&gt;</bpt>SetServicePropertiesAsync<ept id="5">&lt;/embeddedLabel&gt;</ept> that take a <bpt id="6">&lt;embeddedLabel&gt;</bpt>ServiceProperties<ept id="6">&lt;/embeddedLabel&gt;</ept> object as a parameter.</source>
+            <target state="new">The classes <bpt id="1">&lt;embeddedLabel&gt;</bpt>CloudBlobClient<ept id="1">&lt;/embeddedLabel&gt;</ept>, <bpt id="2">&lt;embeddedLabel&gt;</bpt>CloudQueueClient<ept id="2">&lt;/embeddedLabel&gt;</ept>, and <bpt id="3">&lt;embeddedLabel&gt;</bpt>CloudTableClient<ept id="3">&lt;/embeddedLabel&gt;</ept> all have methods such as <bpt id="4">&lt;embeddedLabel&gt;</bpt>SetServiceProperties<ept id="4">&lt;/embeddedLabel&gt;</ept> and <bpt id="5">&lt;embeddedLabel&gt;</bpt>SetServicePropertiesAsync<ept id="5">&lt;/embeddedLabel&gt;</ept> that take a <bpt id="6">&lt;embeddedLabel&gt;</bpt>ServiceProperties<ept id="6">&lt;/embeddedLabel&gt;</ept> object as a parameter.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>You can use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ServiceProperties<ept id="1">&lt;/embeddedLabel&gt;</ept> object to configure Storage Metrics.</source>
+            <target state="new">You can use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ServiceProperties<ept id="1">&lt;/embeddedLabel&gt;</ept> object to configure Storage Metrics.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>For example, the following C# snippet shows how to change the metrics level and retention days for the hourly queue metrics:</source>
+            <target state="new">For example, the following C# snippet shows how to change the metrics level and retention days for the hourly queue metrics:</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>For more information about using a .NET language to configure Storage Metrics, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Storage Client Library for .NET<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/azure/wa_storage_30_reference_home.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information about using a .NET language to configure Storage Metrics, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Storage Client Library for .NET<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/azure/wa_storage_30_reference_home.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>For general information about configuring Storage Metrics using the REST API, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Enabling and Configuring Storage Analytics<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/en-us/library/azure/hh360996.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For general information about configuring Storage Metrics using the REST API, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Enabling and Configuring Storage Analytics<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/en-us/library/azure/hh360996.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Viewing Storage Metrics</source>
+            <target state="new">Viewing Storage Metrics</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>When you have configured Storage Metrics to monitor your storage account, it records the metrics in a set of well-known tables in your storage account.</source>
+            <target state="new">When you have configured Storage Metrics to monitor your storage account, it records the metrics in a set of well-known tables in your storage account.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>You can use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Monitor<ept id="1">&lt;/embeddedLabel&gt;</ept> page for your storage account in the Management Portal to view the hourly metrics as they become available on a chart.</source>
+            <target state="new">You can use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Monitor<ept id="1">&lt;/embeddedLabel&gt;</ept> page for your storage account in the Management Portal to view the hourly metrics as they become available on a chart.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>On this page in the Management Portal, you can:</source>
+            <target state="new">On this page in the Management Portal, you can:</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Select which metrics to plot on the chart (the choice of available metrics will depend on whether you chose verbose or minimal monitoring for the service on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Configure<ept id="1">&lt;/embeddedLabel&gt;</ept> page).</source>
+            <target state="new">Select which metrics to plot on the chart (the choice of available metrics will depend on whether you chose verbose or minimal monitoring for the service on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Configure<ept id="1">&lt;/embeddedLabel&gt;</ept> page).</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Select the time range for the metrics displayed on the chart.</source>
+            <target state="new">Select the time range for the metrics displayed on the chart.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Choose to use an absolute or relative scale to plot the metrics.</source>
+            <target state="new">Choose to use an absolute or relative scale to plot the metrics.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Configure email alerts to notify you when a specific metric reaches a certain value.</source>
+            <target state="new">Configure email alerts to notify you when a specific metric reaches a certain value.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>If you want to download the metrics for long-term storage or to analyze them locally, you will need to use a tool or write some code to read the tables.</source>
+            <target state="new">If you want to download the metrics for long-term storage or to analyze them locally, you will need to use a tool or write some code to read the tables.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>You must download the minute metrics for analysis.</source>
+            <target state="new">You must download the minute metrics for analysis.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>The tables do not appear if you list all the tables in your storage account, but you can access them directly by name.</source>
+            <target state="new">The tables do not appear if you list all the tables in your storage account, but you can access them directly by name.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Many third-party storage-browsing tools are aware of these tables and enable you to view them directly (see the blog post <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Windows Azure Storage Explorers<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://blogs.msdn.com/b/windowsazurestorage/archive/2014/03/11/windows-azure-storage-explorers-2014.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for a list of available tools).</source>
+            <target state="new">Many third-party storage-browsing tools are aware of these tables and enable you to view them directly (see the blog post <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Windows Azure Storage Explorers<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://blogs.msdn.com/b/windowsazurestorage/archive/2014/03/11/windows-azure-storage-explorers-2014.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for a list of available tools).</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Metrics</source>
+            <target state="new">Metrics</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Table names</source>
+            <target state="new">Table names</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Notes</source>
+            <target state="new">Notes</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Hourly metrics</source>
+            <target state="new">Hourly metrics</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>$MetricsHourPrimaryTransactionsBlob</source>
+            <target state="new">$MetricsHourPrimaryTransactionsBlob</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>$MetricsHourPrimaryTransactionsTable</source>
+            <target state="new">$MetricsHourPrimaryTransactionsTable</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>$MetricsHourPrimaryTransactionsQueue</source>
+            <target state="new">$MetricsHourPrimaryTransactionsQueue</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>In versions prior to 2013-08-15, these tables were known as:</source>
+            <target state="new">In versions prior to 2013-08-15, these tables were known as:</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>$MetricsTransactionsBlob</source>
+            <target state="new">$MetricsTransactionsBlob</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>$MetricsTransactionsTable</source>
+            <target state="new">$MetricsTransactionsTable</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>$MetricsTransactionsQueue</source>
+            <target state="new">$MetricsTransactionsQueue</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Minute metrics</source>
+            <target state="new">Minute metrics</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>$MetricsMinutePrimaryTransactionsBlob</source>
+            <target state="new">$MetricsMinutePrimaryTransactionsBlob</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>$MetricsMinutePrimaryTransactionsTable</source>
+            <target state="new">$MetricsMinutePrimaryTransactionsTable</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>$MetricsMinutePrimaryTransactionsQueue</source>
+            <target state="new">$MetricsMinutePrimaryTransactionsQueue</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Can only be enabled using PowerShell or programmatically.</source>
+            <target state="new">Can only be enabled using PowerShell or programmatically.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Capacity</source>
+            <target state="new">Capacity</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>$MetricsCapacityBlob</source>
+            <target state="new">$MetricsCapacityBlob</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Blob service only.</source>
+            <target state="new">Blob service only.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>You can find full details of the schemas for these tables at <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Storage Analytics Metrics Table Schema<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/azure/hh343264.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">You can find full details of the schemas for these tables at <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Storage Analytics Metrics Table Schema<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/azure/hh343264.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>The sample rows below show only a subset of the columns available, but illustrate some important features of the way Storage Metrics saves these metrics:</source>
+            <target state="new">The sample rows below show only a subset of the columns available, but illustrate some important features of the way Storage Metrics saves these metrics:</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>PartitionKey</source>
+            <target state="new">PartitionKey</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>RowKey</source>
+            <target state="new">RowKey</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Timestamp</source>
+            <target state="new">Timestamp</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>TotalRequests</source>
+            <target state="new">TotalRequests</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>TotalBillableRequests</source>
+            <target state="new">TotalBillableRequests</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>TotalIngress</source>
+            <target state="new">TotalIngress</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>TotalEgress</source>
+            <target state="new">TotalEgress</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Availability</source>
+            <target state="new">Availability</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>AverageE2ELatency</source>
+            <target state="new">AverageE2ELatency</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>AverageServerLatency</source>
+            <target state="new">AverageServerLatency</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>PercentSuccess</source>
+            <target state="new">PercentSuccess</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>20140522T1100</source>
+            <target state="new">20140522T1100</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>user;All</source>
+            <target state="new">user;All</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>2014-05-22T11:01:16.7650250Z</source>
+            <target state="new">2014-05-22T11:01:16.7650250Z</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>7</source>
+            <target state="new">7</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>7</source>
+            <target state="new">7</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>4003</source>
+            <target state="new">4003</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>46801</source>
+            <target state="new">46801</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>100</source>
+            <target state="new">100</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>104.4286</source>
+            <target state="new">104.4286</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>6.857143</source>
+            <target state="new">6.857143</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>100</source>
+            <target state="new">100</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>20140522T1100</source>
+            <target state="new">20140522T1100</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>user;QueryEntities</source>
+            <target state="new">user;QueryEntities</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>2014-05-22T11:01:16.7640250Z</source>
+            <target state="new">2014-05-22T11:01:16.7640250Z</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>5</source>
+            <target state="new">5</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>5</source>
+            <target state="new">5</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>2694</source>
+            <target state="new">2694</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>45951</source>
+            <target state="new">45951</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>100</source>
+            <target state="new">100</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>143.8</source>
+            <target state="new">143.8</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>7.8</source>
+            <target state="new">7.8</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>100</source>
+            <target state="new">100</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>20140522T1100</source>
+            <target state="new">20140522T1100</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>user;QueryEntity</source>
+            <target state="new">user;QueryEntity</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>2014-05-22T11:01:16.7650250Z</source>
+            <target state="new">2014-05-22T11:01:16.7650250Z</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>538</source>
+            <target state="new">538</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>633</source>
+            <target state="new">633</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>100</source>
+            <target state="new">100</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>3</source>
+            <target state="new">3</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>3</source>
+            <target state="new">3</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>100</source>
+            <target state="new">100</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>20140522T1100</source>
+            <target state="new">20140522T1100</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>user;UpdateEntity</source>
+            <target state="new">user;UpdateEntity</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>2014-05-22T11:01:16.7650250Z</source>
+            <target state="new">2014-05-22T11:01:16.7650250Z</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>771</source>
+            <target state="new">771</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>217</source>
+            <target state="new">217</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>100</source>
+            <target state="new">100</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>9</source>
+            <target state="new">9</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>6</source>
+            <target state="new">6</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>100</source>
+            <target state="new">100</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>In this example minute metrics data, the partition key uses the time at minute resolution.</source>
+            <target state="new">In this example minute metrics data, the partition key uses the time at minute resolution.</target>
+          </trans-unit>
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>The row key identifies the type of information that is stored in the row and this is composed of two pieces of information, the access type, and the request type:</source>
+            <target state="new">The row key identifies the type of information that is stored in the row and this is composed of two pieces of information, the access type, and the request type:</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>The access type is either <bpt id="1">&lt;embeddedLabel&gt;</bpt>user<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>system<ept id="2">&lt;/embeddedLabel&gt;</ept>, where <bpt id="3">&lt;embeddedLabel&gt;</bpt>user<ept id="3">&lt;/embeddedLabel&gt;</ept> refers to all user requests to the storage service, and <bpt id="4">&lt;embeddedLabel&gt;</bpt>system<ept id="4">&lt;/embeddedLabel&gt;</ept> refers to requests made by Storage Analytics.</source>
+            <target state="new">The access type is either <bpt id="1">&lt;embeddedLabel&gt;</bpt>user<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>system<ept id="2">&lt;/embeddedLabel&gt;</ept>, where <bpt id="3">&lt;embeddedLabel&gt;</bpt>user<ept id="3">&lt;/embeddedLabel&gt;</ept> refers to all user requests to the storage service, and <bpt id="4">&lt;embeddedLabel&gt;</bpt>system<ept id="4">&lt;/embeddedLabel&gt;</ept> refers to requests made by Storage Analytics.</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>The request type is either <bpt id="1">&lt;embeddedLabel&gt;</bpt>all<ept id="1">&lt;/embeddedLabel&gt;</ept> in which case it is a summary line, or it identifies the specific API such as <bpt id="2">&lt;embeddedLabel&gt;</bpt>QueryEntity<ept id="2">&lt;/embeddedLabel&gt;</ept> or <bpt id="3">&lt;embeddedLabel&gt;</bpt>UpdateEntity<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The request type is either <bpt id="1">&lt;embeddedLabel&gt;</bpt>all<ept id="1">&lt;/embeddedLabel&gt;</ept> in which case it is a summary line, or it identifies the specific API such as <bpt id="2">&lt;embeddedLabel&gt;</bpt>QueryEntity<ept id="2">&lt;/embeddedLabel&gt;</ept> or <bpt id="3">&lt;embeddedLabel&gt;</bpt>UpdateEntity<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>The sample data above shows all the records for a single minute (starting at 11:00AM), so the number of <bpt id="1">&lt;embeddedLabel&gt;</bpt>QueryEntities<ept id="1">&lt;/embeddedLabel&gt;</ept> requests plus the number of <bpt id="2">&lt;embeddedLabel&gt;</bpt>QueryEntity<ept id="2">&lt;/embeddedLabel&gt;</ept> requests plus the number of <bpt id="3">&lt;embeddedLabel&gt;</bpt>UpdateEntity<ept id="3">&lt;/embeddedLabel&gt;</ept> requests add up to seven, which is the total shown on the <bpt id="4">&lt;embeddedLabel&gt;</bpt>user:All<ept id="4">&lt;/embeddedLabel&gt;</ept> row.</source>
+            <target state="new">The sample data above shows all the records for a single minute (starting at 11:00AM), so the number of <bpt id="1">&lt;embeddedLabel&gt;</bpt>QueryEntities<ept id="1">&lt;/embeddedLabel&gt;</ept> requests plus the number of <bpt id="2">&lt;embeddedLabel&gt;</bpt>QueryEntity<ept id="2">&lt;/embeddedLabel&gt;</ept> requests plus the number of <bpt id="3">&lt;embeddedLabel&gt;</bpt>UpdateEntity<ept id="3">&lt;/embeddedLabel&gt;</ept> requests add up to seven, which is the total shown on the <bpt id="4">&lt;embeddedLabel&gt;</bpt>user:All<ept id="4">&lt;/embeddedLabel&gt;</ept> row.</target>
+          </trans-unit>
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>Similarly, you can derive the average end-to-end latency 104.4286 on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>user:All<ept id="1">&lt;/embeddedLabel&gt;</ept> row by calculating ((143.8 * 5) + 3 + 9)/7.</source>
+            <target state="new">Similarly, you can derive the average end-to-end latency 104.4286 on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>user:All<ept id="1">&lt;/embeddedLabel&gt;</ept> row by calculating ((143.8 * 5) + 3 + 9)/7.</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>You should consider setting up alerts in the Management Portal on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Monitor<ept id="1">&lt;/embeddedLabel&gt;</ept> page so that Storage Metrics can automatically notify you of any important changes in the behavior of your storage services.If you use a storage explorer tool to download this metrics data in a delimited format, you can use Microsoft Excel to analyze the data.</source>
+            <target state="new">You should consider setting up alerts in the Management Portal on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Monitor<ept id="1">&lt;/embeddedLabel&gt;</ept> page so that Storage Metrics can automatically notify you of any important changes in the behavior of your storage services.If you use a storage explorer tool to download this metrics data in a delimited format, you can use Microsoft Excel to analyze the data.</target>
+          </trans-unit>
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>See the blog post <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Windows Azure Storage Explorers<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://blogs.msdn.com/b/windowsazurestorage/archive/2014/03/11/windows-azure-storage-explorers-2014.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for a list of available storage explorer tools.</source>
+            <target state="new">See the blog post <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Windows Azure Storage Explorers<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://blogs.msdn.com/b/windowsazurestorage/archive/2014/03/11/windows-azure-storage-explorers-2014.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for a list of available storage explorer tools.</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>Accessing metrics data programmatically</source>
+            <target state="new">Accessing metrics data programmatically</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>The following listing shows sample C# code that accesses the minute metrics for a range of minutes and displays the results in a console Window.</source>
+            <target state="new">The following listing shows sample C# code that accesses the minute metrics for a range of minutes and displays the results in a console Window.</target>
+          </trans-unit>
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>It uses the Azure Storage Library version 4 that includes the <bpt id="1">&lt;embeddedLabel&gt;</bpt>CloudAnalyticsClient<ept id="1">&lt;/embeddedLabel&gt;</ept> class that simplifies accessing the metrics tables in storage.</source>
+            <target state="new">It uses the Azure Storage Library version 4 that includes the <bpt id="1">&lt;embeddedLabel&gt;</bpt>CloudAnalyticsClient<ept id="1">&lt;/embeddedLabel&gt;</ept> class that simplifies accessing the metrics tables in storage.</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>What charges do you incur when you enable storage metrics?</source>
+            <target state="new">What charges do you incur when you enable storage metrics?</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>Write requests to create table entities for metrics are charged at the standard rates applicable to all Windows Azure Storage operations.</source>
+            <target state="new">Write requests to create table entities for metrics are charged at the standard rates applicable to all Windows Azure Storage operations.</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>Read and delete requests by a client to metrics data are also billable at standard rates.</source>
+            <target state="new">Read and delete requests by a client to metrics data are also billable at standard rates.</target>
+          </trans-unit>
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>If you have configured a data retention policy, you are not charged when Windows Azure Storage deletes old metrics data.</source>
+            <target state="new">If you have configured a data retention policy, you are not charged when Windows Azure Storage deletes old metrics data.</target>
+          </trans-unit>
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>However, if you delete analytics data, your account is charged for the delete operations.</source>
+            <target state="new">However, if you delete analytics data, your account is charged for the delete operations.</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>The capacity used by the metrics tables is also billable: you can use the following to estimate the amount of capacity used for storing metrics data:</source>
+            <target state="new">The capacity used by the metrics tables is also billable: you can use the following to estimate the amount of capacity used for storing metrics data:</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>If each hour a service utilizes every API in every service, then approximately 148KB of data is stored every hour in the metrics transaction tables if you have enabled both service and API level summary.</source>
+            <target state="new">If each hour a service utilizes every API in every service, then approximately 148KB of data is stored every hour in the metrics transaction tables if you have enabled both service and API level summary.</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>If each hour a service utilizes every API in every service, then approximately 12KB of data is stored every hour in the metrics transaction tables if you have enabled just service level summary.</source>
+            <target state="new">If each hour a service utilizes every API in every service, then approximately 12KB of data is stored every hour in the metrics transaction tables if you have enabled just service level summary.</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>The capacity table for blobs has two rows added each day (provided user has opted in for logs): this implies that every day the size of this table increases by up to approximately 300 bytes.</source>
+            <target state="new">The capacity table for blobs has two rows added each day (provided user has opted in for logs): this implies that every day the size of this table increases by up to approximately 300 bytes.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAdzMEJwzAMQNFVPIAFliM7Uc8tdIAuINkSBNIE0hQyfkMv//Lguw+mlBuYEQGhJ9A0KbSEUpkdRTgGnHomQwFq5UoxAvXG0IQxt6Su6jGIFBy7IBCPE9BgHbgmB8+1eSnqwuV6xdAN7o8YzmV2t/O47dt2/CHH8Py+ZX3tsn4WOeZt/QE26WoUoQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Select Columns Transform</source>
+            <target state="new">Select Columns Transform</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Creates a transformation that selects the same subset of columns as in the given dataset</source>
+            <target state="new">Creates a transformation that selects the same subset of columns as in the given dataset</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>
+Category: <bpt id="1">&lt;legacyLink xlink:href="92B32033-F75F-4854-AC8F-9110B3FE7E09" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Data Transformation / Manipulation<ept id="1">&lt;/legacyLink&gt;</ept></source>
+            <target state="new">
+Category: <bpt id="1">&lt;legacyLink xlink:href="92B32033-F75F-4854-AC8F-9110B3FE7E09" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Data Transformation / Manipulation<ept id="1">&lt;/legacyLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>You can use the <bpt id="1">&lt;ui&gt;</bpt>Select Columns Transform<ept id="1">&lt;/ui&gt;</ept> module to create a transformation that will ensure that the same set of columns is always used in downstream operations.</source>
+            <target state="new">You can use the <bpt id="1">&lt;ui&gt;</bpt>Select Columns Transform<ept id="1">&lt;/ui&gt;</ept> module to create a transformation that will ensure that the same set of columns is always used in downstream operations.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>This can be useful if you want to apply an operation that always requires specific columns and you make sure that column selections do not change, as this might break the experiment or change the results.</source>
+            <target state="new">This can be useful if you want to apply an operation that always requires specific columns and you make sure that column selections do not change, as this might break the experiment or change the results.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Note that you can also use <ph id="1">&lt;link xlink:href="1ec722fa-b623-4e26-a44e-a50c6d726223" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Project columns&lt;/link&gt;</ph> to choose a subset of columns to use in a downstream module.</source>
+            <target state="new">Note that you can also use <ph id="1">&lt;link xlink:href="1ec722fa-b623-4e26-a44e-a50c6d726223" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Project columns&lt;/link&gt;</ph> to choose a subset of columns to use in a downstream module.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>However, <ph id="1">&lt;link xlink:href="1ec722fa-b623-4e26-a44e-a50c6d726223" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Project columns&lt;/link&gt;</ph> is not always the easiest to configure if there are many columns.</source>
+            <target state="new">However, <ph id="1">&lt;link xlink:href="1ec722fa-b623-4e26-a44e-a50c6d726223" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Project columns&lt;/link&gt;</ph> is not always the easiest to configure if there are many columns.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Moreover, there are times when the selection of columns in an input dataset might change depending on feature selection or other operations.</source>
+            <target state="new">Moreover, there are times when the selection of columns in an input dataset might change depending on feature selection or other operations.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>For example, suppose you use <ph id="1">&lt;link xlink:href="818b356b-045c-412b-aa12-94a1d2dad90f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Filter Based Feature Selection&lt;/link&gt;</ph> with a dataset to automatically find the best features in a dataset, and then use the dataset created by <ph id="2">&lt;link xlink:href="818b356b-045c-412b-aa12-94a1d2dad90f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Filter Based Feature Selection&lt;/link&gt;</ph> as an input to <ph id="3">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph>.</source>
+            <target state="new">For example, suppose you use <ph id="1">&lt;link xlink:href="818b356b-045c-412b-aa12-94a1d2dad90f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Filter Based Feature Selection&lt;/link&gt;</ph> with a dataset to automatically find the best features in a dataset, and then use the dataset created by <ph id="2">&lt;link xlink:href="818b356b-045c-412b-aa12-94a1d2dad90f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Filter Based Feature Selection&lt;/link&gt;</ph> as an input to <ph id="3">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Because <ph id="1">&lt;link xlink:href="818b356b-045c-412b-aa12-94a1d2dad90f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Filter Based Feature Selection&lt;/link&gt;</ph> evaluates the feature importance based on the values in the column, it is impossible to know beforehand which columns to use when scoring.</source>
+            <target state="new">Because <ph id="1">&lt;link xlink:href="818b356b-045c-412b-aa12-94a1d2dad90f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Filter Based Feature Selection&lt;/link&gt;</ph> evaluates the feature importance based on the values in the column, it is impossible to know beforehand which columns to use when scoring.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Moreover, if you apply <ph id="1">&lt;link xlink:href="818b356b-045c-412b-aa12-94a1d2dad90f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Filter Based Feature Selection&lt;/link&gt;</ph> to the scoring dataset, it might choose a different set of columns, which would cause the scoring operation to fail.</source>
+            <target state="new">Moreover, if you apply <ph id="1">&lt;link xlink:href="818b356b-045c-412b-aa12-94a1d2dad90f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Filter Based Feature Selection&lt;/link&gt;</ph> to the scoring dataset, it might choose a different set of columns, which would cause the scoring operation to fail.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>In this scenario, you can use the <bpt id="1">&lt;ui&gt;</bpt>Select Columns Transform<ept id="1">&lt;/ui&gt;</ept> module to generate a transformation (which you can save as an <ph id="2">&lt;link xlink:href="444302ce-a1b6-4003-9a64-8a56120be6ce" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Itransform&lt;/link&gt;</ph>) to ensure that the same set of columns is used for scoring that is used for training.</source>
+            <target state="new">In this scenario, you can use the <bpt id="1">&lt;ui&gt;</bpt>Select Columns Transform<ept id="1">&lt;/ui&gt;</ept> module to generate a transformation (which you can save as an <ph id="2">&lt;link xlink:href="444302ce-a1b6-4003-9a64-8a56120be6ce" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Itransform&lt;/link&gt;</ph>) to ensure that the same set of columns is used for scoring that is used for training.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Expected Inputs</source>
+            <target state="new">Expected Inputs</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Dataset with desired columns</source>
+            <target state="new">Dataset with desired columns</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Dataset containing desired set of columns</source>
+            <target state="new">Dataset containing desired set of columns</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Outputs</source>
+            <target state="new">Outputs</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Columns selection transformation</source>
+            <target state="new">Columns selection transformation</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Transformation that selects the same subset of columns as in the given dataset.</source>
+            <target state="new">Transformation that selects the same subset of columns as in the given dataset.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Exceptions</source>
+            <target state="new">Exceptions</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Exception</source>
+            <target state="new">Exception</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Exception occurs if one or more of inputs are null or empty.</source>
+            <target state="new">Exception occurs if one or more of inputs are null or empty.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

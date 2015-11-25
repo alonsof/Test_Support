@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ja-JP" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANysENwjAMAMBVPIAtJXESHCZAvHiwgJ3GUlFppVKkjg/3PncellOnMXKmHD2QBTHqIWptzaNqQ3BjDX0kMitCefCFlJNQl9wmrpO0UBDEslqvEyXv9l+tkHAwaiyq3EtwcYSI8FK6PxDOZXYf53Hdt+1ASAgV4fZ96/rcdf0seszb+gPINBaroQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Trading Partner Management Object Model: REST Endpoint</source>
+            <target state="new">Trading Partner Management Object Model: REST Endpoint</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>REST endpoint used for the TPM OM APIs.</source>
+            <target state="new">REST endpoint used for the TPM OM APIs.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>After you have provisioned your BizTalk Service (steps at <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/p/?LinkId=299821<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=299821&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>), a deployment URL is created for your environment.</source>
+            <target state="new">After you have provisioned your BizTalk Service (steps at <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/p/?LinkId=299821<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=299821&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>), a deployment URL is created for your environment.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>You can use that URL to arrive at the REST endpoint used for the TPM OM APIs.</source>
+            <target state="new">You can use that URL to arrive at the REST endpoint used for the TPM OM APIs.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>In this topic:</source>
+            <target state="new">In this topic:</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Discovering the TPM OM Entities</source>
+            <target state="new">Discovering the TPM OM Entities</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>TPM OM API uses the <ph id="1">&lt;codeInline&gt;$metadata&lt;/codeInline&gt;</ph> operation to make the entities discoverable.</source>
+            <target state="new">TPM OM API uses the <ph id="1">&lt;codeInline&gt;$metadata&lt;/codeInline&gt;</ph> operation to make the entities discoverable.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The URI to retrieve the metadata is:</source>
+            <target state="new">The URI to retrieve the metadata is:</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Here, <bpt id="1">&lt;legacyItalic&gt;</bpt>&lt;base_URL&gt;<ept id="1">&lt;/legacyItalic&gt;</ept> refers to the deployment URL of the <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> environment.</source>
+            <target state="new">Here, <bpt id="1">&lt;legacyItalic&gt;</bpt>&lt;base_URL&gt;<ept id="1">&lt;/legacyItalic&gt;</ept> refers to the deployment URL of the <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> environment.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>For example, if the deployment URL is <ph id="1">&lt;codeInline&gt;https://mybiztalkservice.biztalk.windows.net&lt;/codeInline&gt;</ph>, the URL to retrieve the metadata should be <ph id="2">&lt;codeInline&gt;https://mybiztalkservice.biztalk.windows.net/default/$PartnerManagement/$metadata&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">For example, if the deployment URL is <ph id="1">&lt;codeInline&gt;https://mybiztalkservice.biztalk.windows.net&lt;/codeInline&gt;</ph>, the URL to retrieve the metadata should be <ph id="2">&lt;codeInline&gt;https://mybiztalkservice.biztalk.windows.net/default/$PartnerManagement/$metadata&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>This URL allows you to retrieve all valid entity types, entity properties, associations, and so on.</source>
+            <target state="new">This URL allows you to retrieve all valid entity types, entity properties, associations, and so on.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>You can also view the metadata by hitting the endpoint in a browser.</source>
+            <target state="new">You can also view the metadata by hitting the endpoint in a browser.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>TPM OM API: What to do Where?</source>
+            <target state="new">TPM OM API: What to do Where?</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The TPM OM API enables users to write applications to create and manage the entities required in business-to-business messaging.</source>
+            <target state="new">The TPM OM API enables users to write applications to create and manage the entities required in business-to-business messaging.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>While the object model aims to have complete parity with the operations available through the portal, there are some tasks that are done outside the use of the object model.</source>
+            <target state="new">While the object model aims to have complete parity with the operations available through the portal, there are some tasks that are done outside the use of the object model.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>This section provides information on the tasks that can be performed using the object model, the tasks that can be performed using the <ph id="1">&lt;link xlink:href="381e888e-1289-4cc2-a2fa-58128379d72c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure BizTalk Services PowerShell CmdLets&lt;/link&gt;</ph>, and the tasks that can be performed using the <ph id="2">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>.</source>
+            <target state="new">This section provides information on the tasks that can be performed using the object model, the tasks that can be performed using the <ph id="1">&lt;link xlink:href="381e888e-1289-4cc2-a2fa-58128379d72c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure BizTalk Services PowerShell CmdLets&lt;/link&gt;</ph>, and the tasks that can be performed using the <ph id="2">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Using the Object Model</source>
+            <target state="new">Using the Object Model</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Using the PowerShell Cmdlets</source>
+            <target state="new">Using the PowerShell Cmdlets</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Using the Portal</source>
+            <target state="new">Using the Portal</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Create Partner</source>
+            <target state="new">Create Partner</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>--- Create Profile</source>
+            <target state="new">--- Create Profile</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>--- Add Identities</source>
+            <target state="new">--- Add Identities</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>--- Upload Certificate</source>
+            <target state="new">--- Upload Certificate</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Create X12 Agreement</source>
+            <target state="new">Create X12 Agreement</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>--- Set Partner1, Partner2</source>
+            <target state="new">--- Set Partner1, Partner2</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>--- Add Identities</source>
+            <target state="new">--- Add Identities</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>--- Upload Schema</source>
+            <target state="new">--- Upload Schema</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>--- Create Batch</source>
+            <target state="new">--- Create Batch</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Deploy X12 <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s</source>
+            <target state="new">Deploy X12 <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>--- Add Route Settings</source>
+            <target state="new">--- Add Route Settings</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>--- Upload Transform</source>
+            <target state="new">--- Upload Transform</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Create AS2 Agreement</source>
+            <target state="new">Create AS2 Agreement</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>--- Set Partner1, Partner2</source>
+            <target state="new">--- Set Partner1, Partner2</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Deploy AS2 <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s</source>
+            <target state="new">Deploy AS2 <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>--- Add Route Settings</source>
+            <target state="new">--- Add Route Settings</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Create EDIFACT Agreement</source>
+            <target state="new">Create EDIFACT Agreement</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>--- Set Partner1, Partner2</source>
+            <target state="new">--- Set Partner1, Partner2</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>--- Add Identities</source>
+            <target state="new">--- Add Identities</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>--- Upload Schema</source>
+            <target state="new">--- Upload Schema</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>--- Create Batch</source>
+            <target state="new">--- Create Batch</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Deploy EDIFACT <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s</source>
+            <target state="new">Deploy EDIFACT <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>--- Add Route Settings</source>
+            <target state="new">--- Add Route Settings</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>--- Upload Transform</source>
+            <target state="new">--- Upload Transform</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>√</source>
+            <target state="new">√</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Connecting to the TPM OM API REST Endpoint</source>
+            <target state="new">Connecting to the TPM OM API REST Endpoint</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>To retrieve the metadata about TPM OM entities, you can simply hit the endpoint in a browser.</source>
+            <target state="new">To retrieve the metadata about TPM OM entities, you can simply hit the endpoint in a browser.</target>
+          </trans-unit>
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>However, if you want to perform any CRUD operations on the entities, you must request messages that include the required header values as well as message payload (if required).</source>
+            <target state="new">However, if you want to perform any CRUD operations on the entities, you must request messages that include the required header values as well as message payload (if required).</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>You must include the required headers for invoking the REST endpoint.</source>
+            <target state="new">You must include the required headers for invoking the REST endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>TPM OM API enables users to send OData-based HTTP requests to create TPM OM entities and receive responses in verbose JSON, atom+pub, or straight XML.</source>
+            <target state="new">TPM OM API enables users to send OData-based HTTP requests to create TPM OM entities and receive responses in verbose JSON, atom+pub, or straight XML.</target>
+          </trans-unit>
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Because the TPM OM API conforms to <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> design guidelines, there is a set of required HTTP headers that each client must use when connecting to the TPM OM API REST endpoint, as well as a set of optional headers that can be used.</source>
+            <target state="new">Because the TPM OM API conforms to <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> design guidelines, there is a set of required HTTP headers that each client must use when connecting to the TPM OM API REST endpoint, as well as a set of optional headers that can be used.</target>
+          </trans-unit>
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>The following sections describe the headers and HTTP verbs you can use with the TPM OM API.</source>
+            <target state="new">The following sections describe the headers and HTTP verbs you can use with the TPM OM API.</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>For a list of required and optional headers, see the HTTP Request, HTTP Response, and HTTP Verbs sections (in this topic).</source>
+            <target state="new">For a list of required and optional headers, see the HTTP Request, HTTP Response, and HTTP Verbs sections (in this topic).</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Wherever applicable, you must include the required property names with appropriate values.</source>
+            <target state="new">Wherever applicable, you must include the required property names with appropriate values.</target>
+          </trans-unit>
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>For a list of entities and their properties, see <ph id="1">&lt;link xlink:href="cbc5d811-89a6-4ef0-b8ea-39f780a8328f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;BizTalk Services Portal REST API: Exposed Entities and Properties&lt;/link&gt;</ph>.</source>
+            <target state="new">For a list of entities and their properties, see <ph id="1">&lt;link xlink:href="cbc5d811-89a6-4ef0-b8ea-39f780a8328f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;BizTalk Services Portal REST API: Exposed Entities and Properties&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Supported HTTP Request Headers</source>
+            <target state="new">Supported HTTP Request Headers</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Every call made to the TPM OM API REST endpoints must include a set of required headers and also a set of optional headers, if you want to.</source>
+            <target state="new">Every call made to the TPM OM API REST endpoints must include a set of required headers and also a set of optional headers, if you want to.</target>
+          </trans-unit>
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>The following table lists the required headers:</source>
+            <target state="new">The following table lists the required headers:</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Required Headers</source>
+            <target state="new">Required Headers</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Header</source>
+            <target state="new">Header</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Value</source>
+            <target state="new">Value</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Authorization</source>
+            <target state="new">Authorization</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>WRAP <ph id="1">&lt;token&gt;ac2&lt;/token&gt;</ph> tokens</source>
+            <target state="new">WRAP <ph id="1">&lt;token&gt;ac2&lt;/token&gt;</ph> tokens</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>The value must include the access token provided by the <ph id="1">&lt;token&gt;firstref_acs&lt;/token&gt;</ph>.</source>
+            <target state="new">The value must include the access token provided by the <ph id="1">&lt;token&gt;firstref_acs&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>To retrieve an <ph id="1">&lt;token&gt;ac2&lt;/token&gt;</ph> token using the WRAP protocol, see <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>http://msdn.microsoft.com/library/windowsazure/hh674475.aspx<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://msdn.microsoft.com/library/windowsazure/hh674475.aspx&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">To retrieve an <ph id="1">&lt;token&gt;ac2&lt;/token&gt;</ph> token using the WRAP protocol, see <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>http://msdn.microsoft.com/library/windowsazure/hh674475.aspx<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://msdn.microsoft.com/library/windowsazure/hh674475.aspx&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>Host</source>
+            <target state="new">Host</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>Specifies the host and the port number of the resource being targeted.</source>
+            <target state="new">Specifies the host and the port number of the resource being targeted.</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>DataServiceVersion</source>
+            <target state="new">DataServiceVersion</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Decimal</source>
+            <target state="new">Decimal</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>1.0</source>
+            <target state="new">1.0</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>MaxDataServiceVersion</source>
+            <target state="new">MaxDataServiceVersion</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>Decimal</source>
+            <target state="new">Decimal</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>3.0</source>
+            <target state="new">3.0</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>x-ms-version</source>
+            <target state="new">x-ms-version</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>Decimal</source>
+            <target state="new">Decimal</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>1.0</source>
+            <target state="new">1.0</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>If-Match</source>
+            <target state="new">If-Match</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>Entity tag</source>
+            <target state="new">Entity tag</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>Specifies that an operation is performed only if the entity tag specified in the request header matches with the entity tag of the object.</source>
+            <target state="new">Specifies that an operation is performed only if the entity tag specified in the request header matches with the entity tag of the object.</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>This header is required only when performing update or delete operations.</source>
+            <target state="new">This header is required only when performing update or delete operations.</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>Because the TPM OM API uses OData to expose its underlying asset metadata repository through REST APIs, the <bpt id="1">&lt;embeddedLabel&gt;</bpt>DataServiceVersion<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>MaxDataServiceVersion<ept id="2">&lt;/embeddedLabel&gt;</ept> headers should be included in any request.</source>
+            <target state="new">Because the TPM OM API uses OData to expose its underlying asset metadata repository through REST APIs, the <bpt id="1">&lt;embeddedLabel&gt;</bpt>DataServiceVersion<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>MaxDataServiceVersion<ept id="2">&lt;/embeddedLabel&gt;</ept> headers should be included in any request.</target>
+          </trans-unit>
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>If they are not included, then currently the TPM OM API assumes the DataServiceVersion value in use is 1.0.</source>
+            <target state="new">If they are not included, then currently the TPM OM API assumes the DataServiceVersion value in use is 1.0.</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>Optional Headers</source>
+            <target state="new">Optional Headers</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>Header</source>
+            <target state="new">Header</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>Value</source>
+            <target state="new">Value</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>Date</source>
+            <target state="new">Date</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>RFC 1123 date</source>
+            <target state="new">RFC 1123 date</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>Timestamp of the request</source>
+            <target state="new">Timestamp of the request</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>Accept</source>
+            <target state="new">Accept</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>Content type</source>
+            <target state="new">Content type</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>The requested content type for the response such as the following:</source>
+            <target state="new">The requested content type for the response such as the following:</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>application/xml</source>
+            <target state="new">application/xml</target>
+          </trans-unit>
+        </group>
+        <group id="123">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>application/json;odata=verbose</source>
+            <target state="new">application/json;odata=verbose</target>
+          </trans-unit>
+        </group>
+        <group id="124">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>application/atom+xml</source>
+            <target state="new">application/atom+xml</target>
+          </trans-unit>
+        </group>
+        <group id="125">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>Accept-Encoding</source>
+            <target state="new">Accept-Encoding</target>
+          </trans-unit>
+        </group>
+        <group id="126">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>Gzip, deflate</source>
+            <target state="new">Gzip, deflate</target>
+          </trans-unit>
+        </group>
+        <group id="127">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>GZIP and DEFLATE encoding, when applicable.</source>
+            <target state="new">GZIP and DEFLATE encoding, when applicable.</target>
+          </trans-unit>
+        </group>
+        <group id="128">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>Accept-Language</source>
+            <target state="new">Accept-Language</target>
+          </trans-unit>
+        </group>
+        <group id="129">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>"en", "es", and so on</source>
+            <target state="new">"en", "es", and so on</target>
+          </trans-unit>
+        </group>
+        <group id="130">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>Specifies the preferred language of the response.</source>
+            <target state="new">Specifies the preferred language of the response.</target>
+          </trans-unit>
+        </group>
+        <group id="131">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>Accept-Charset</source>
+            <target state="new">Accept-Charset</target>
+          </trans-unit>
+        </group>
+        <group id="132">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>Charset type like UTF-8</source>
+            <target state="new">Charset type like UTF-8</target>
+          </trans-unit>
+        </group>
+        <group id="133">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>Default is UTF-8</source>
+            <target state="new">Default is UTF-8</target>
+          </trans-unit>
+        </group>
+        <group id="134">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>X-HTTP-Method</source>
+            <target state="new">X-HTTP-Method</target>
+          </trans-unit>
+        </group>
+        <group id="135">
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>HTTP Method</source>
+            <target state="new">HTTP Method</target>
+          </trans-unit>
+        </group>
+        <group id="136">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>Allows clients or firewalls that do not support HTTP methods like PUT or DELETE to use these methods, tunneled via a GET call.</source>
+            <target state="new">Allows clients or firewalls that do not support HTTP methods like PUT or DELETE to use these methods, tunneled via a GET call.</target>
+          </trans-unit>
+        </group>
+        <group id="137">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>Content-Type</source>
+            <target state="new">Content-Type</target>
+          </trans-unit>
+        </group>
+        <group id="138">
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>Content type</source>
+            <target state="new">Content type</target>
+          </trans-unit>
+        </group>
+        <group id="139">
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>Content type of the request body in POST and PUT requests.</source>
+            <target state="new">Content type of the request body in POST and PUT requests.</target>
+          </trans-unit>
+        </group>
+        <group id="140">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>Supported HTTP Response Headers</source>
+            <target state="new">Supported HTTP Response Headers</target>
+          </trans-unit>
+        </group>
+        <group id="141">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>The following is a set of headers that may be returned to you depending on the resource you were requesting and the action you intended to perform.</source>
+            <target state="new">The following is a set of headers that may be returned to you depending on the resource you were requesting and the action you intended to perform.</target>
+          </trans-unit>
+        </group>
+        <group id="142">
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>Header</source>
+            <target state="new">Header</target>
+          </trans-unit>
+        </group>
+        <group id="143">
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="144">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>Value</source>
+            <target state="new">Value</target>
+          </trans-unit>
+        </group>
+        <group id="145">
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>Date</source>
+            <target state="new">Date</target>
+          </trans-unit>
+        </group>
+        <group id="146">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>RFC 1123 date</source>
+            <target state="new">RFC 1123 date</target>
+          </trans-unit>
+        </group>
+        <group id="147">
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>The date that the request was processed</source>
+            <target state="new">The date that the request was processed</target>
+          </trans-unit>
+        </group>
+        <group id="148">
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>Content-Type</source>
+            <target state="new">Content-Type</target>
+          </trans-unit>
+        </group>
+        <group id="149">
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>Varies</source>
+            <target state="new">Varies</target>
+          </trans-unit>
+        </group>
+        <group id="150">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>The content type of the response body</source>
+            <target state="new">The content type of the response body</target>
+          </trans-unit>
+        </group>
+        <group id="151">
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>Content-Encoding</source>
+            <target state="new">Content-Encoding</target>
+          </trans-unit>
+        </group>
+        <group id="152">
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>Varies</source>
+            <target state="new">Varies</target>
+          </trans-unit>
+        </group>
+        <group id="153">
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>Gzip or deflate, as appropriate</source>
+            <target state="new">Gzip or deflate, as appropriate</target>
+          </trans-unit>
+        </group>
+        <group id="154">
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>Cache-Control</source>
+            <target state="new">Cache-Control</target>
+          </trans-unit>
+        </group>
+        <group id="155">
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>-</source>
+            <target state="new">-</target>
+          </trans-unit>
+        </group>
+        <group id="156">
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>Specifies whether caching mechanisms, from server to client, may cache the object.</source>
+            <target state="new">Specifies whether caching mechanisms, from server to client, may cache the object.</target>
+          </trans-unit>
+        </group>
+        <group id="157">
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source>Content-Length</source>
+            <target state="new">Content-Length</target>
+          </trans-unit>
+        </group>
+        <group id="158">
+          <trans-unit id="171" translate="yes" xml:space="preserve">
+            <source>Content type</source>
+            <target state="new">Content type</target>
+          </trans-unit>
+        </group>
+        <group id="159">
+          <trans-unit id="172" translate="yes" xml:space="preserve">
+            <source>The length of the response body</source>
+            <target state="new">The length of the response body</target>
+          </trans-unit>
+        </group>
+        <group id="160">
+          <trans-unit id="173" translate="yes" xml:space="preserve">
+            <source>Server</source>
+            <target state="new">Server</target>
+          </trans-unit>
+        </group>
+        <group id="161">
+          <trans-unit id="174" translate="yes" xml:space="preserve">
+            <source>-</source>
+            <target state="new">-</target>
+          </trans-unit>
+        </group>
+        <group id="162">
+          <trans-unit id="175" translate="yes" xml:space="preserve">
+            <source>A server name.</source>
+            <target state="new">A server name.</target>
+          </trans-unit>
+        </group>
+        <group id="163">
+          <trans-unit id="176" translate="yes" xml:space="preserve">
+            <source>X-Content-Type-Options</source>
+            <target state="new">X-Content-Type-Options</target>
+          </trans-unit>
+        </group>
+        <group id="164">
+          <trans-unit id="177" translate="yes" xml:space="preserve">
+            <source>Content type</source>
+            <target state="new">Content type</target>
+          </trans-unit>
+        </group>
+        <group id="165">
+          <trans-unit id="178" translate="yes" xml:space="preserve">
+            <source>The only possible value “nonsniff” prevents browsers from MIME-sniffing a response from the declared content-type.</source>
+            <target state="new">The only possible value “nonsniff” prevents browsers from MIME-sniffing a response from the declared content-type.</target>
+          </trans-unit>
+        </group>
+        <group id="166">
+          <trans-unit id="179" translate="yes" xml:space="preserve">
+            <source>Supported HTTP Verbs</source>
+            <target state="new">Supported HTTP Verbs</target>
+          </trans-unit>
+        </group>
+        <group id="167">
+          <trans-unit id="180" translate="yes" xml:space="preserve">
+            <source>The following is a complete list of HTTP verbs that are supported by the TPM OM API and can be used when making HTTP requests:</source>
+            <target state="new">The following is a complete list of HTTP verbs that are supported by the TPM OM API and can be used when making HTTP requests:</target>
+          </trans-unit>
+        </group>
+        <group id="168">
+          <trans-unit id="181" translate="yes" xml:space="preserve">
+            <source>VERB</source>
+            <target state="new">VERB</target>
+          </trans-unit>
+        </group>
+        <group id="169">
+          <trans-unit id="182" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="170">
+          <trans-unit id="183" translate="yes" xml:space="preserve">
+            <source>GET</source>
+            <target state="new">GET</target>
+          </trans-unit>
+        </group>
+        <group id="171">
+          <trans-unit id="184" translate="yes" xml:space="preserve">
+            <source>Returns the current value for an entity</source>
+            <target state="new">Returns the current value for an entity</target>
+          </trans-unit>
+        </group>
+        <group id="172">
+          <trans-unit id="185" translate="yes" xml:space="preserve">
+            <source>POST</source>
+            <target state="new">POST</target>
+          </trans-unit>
+        </group>
+        <group id="173">
+          <trans-unit id="186" translate="yes" xml:space="preserve">
+            <source>Creates an object (or submits a command) based on the provided data</source>
+            <target state="new">Creates an object (or submits a command) based on the provided data</target>
+          </trans-unit>
+        </group>
+        <group id="174">
+          <trans-unit id="187" translate="yes" xml:space="preserve">
+            <source>PUT</source>
+            <target state="new">PUT</target>
+          </trans-unit>
+        </group>
+        <group id="175">
+          <trans-unit id="188" translate="yes" xml:space="preserve">
+            <source>Replaces an object, or creates a new object (when applicable)</source>
+            <target state="new">Replaces an object, or creates a new object (when applicable)</target>
+          </trans-unit>
+        </group>
+        <group id="176">
+          <trans-unit id="189" translate="yes" xml:space="preserve">
+            <source>DELETE</source>
+            <target state="new">DELETE</target>
+          </trans-unit>
+        </group>
+        <group id="177">
+          <trans-unit id="190" translate="yes" xml:space="preserve">
+            <source>Deletes an object</source>
+            <target state="new">Deletes an object</target>
+          </trans-unit>
+        </group>
+        <group id="178">
+          <trans-unit id="191" translate="yes" xml:space="preserve">
+            <source>MERGE</source>
+            <target state="new">MERGE</target>
+          </trans-unit>
+        </group>
+        <group id="179">
+          <trans-unit id="192" translate="yes" xml:space="preserve">
+            <source>Updates an existing object with named property changes.</source>
+            <target state="new">Updates an existing object with named property changes.</target>
+          </trans-unit>
+        </group>
+        <group id="180">
+          <trans-unit id="193" translate="yes" xml:space="preserve">
+            <source>Creating .NET Applications Using the TPM OM API</source>
+            <target state="new">Creating .NET Applications Using the TPM OM API</target>
+          </trans-unit>
+        </group>
+        <group id="181">
+          <trans-unit id="194" translate="yes" xml:space="preserve">
+            <source>Because the TPM OM API is based on the OData protocol, you can use the WCF Data Services to build .NET applications that perform CRUD operations on the entities.</source>
+            <target state="new">Because the TPM OM API is based on the OData protocol, you can use the WCF Data Services to build .NET applications that perform CRUD operations on the entities.</target>
+          </trans-unit>
+          <trans-unit id="195" translate="yes" xml:space="preserve">
+            <source>For more information on how create .NET applications using the TPM OM API, see <ph id="1">&lt;link xlink:href="b1464cb6-685d-47ea-8596-bc4655234fc8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Creating .NET Applications Using TPM OM REST API&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information on how create .NET applications using the TPM OM API, see <ph id="1">&lt;link xlink:href="b1464cb6-685d-47ea-8596-bc4655234fc8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Creating .NET Applications Using TPM OM REST API&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

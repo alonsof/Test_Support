@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANjMEJwzAMAFfxABZIsWNb/Rf6bxeQHQkCaQKJCxm/fh53nFnQGqcGqjFCJEOoWCo0JEnMRiLsHc0mWZEgaVogVowgrQoIhaXkbEI4KhWugxvYXCaIiQ04hBlEsy6GXAzbeI3wgufbu3tbzfTuj/M4unfTcNm71+8r++eU/dqkr8f+ByPJtWmiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Single Sign-on (SAML Protocol)</source>
+            <target state="new">Single Sign-on (SAML Protocol)</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory supports the SAML 2.0 web browser single sign-on (SSO) profile.</source>
+            <target state="new">Azure Active Directory supports the SAML 2.0 web browser single sign-on (SSO) profile.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>To request that Azure Active Directory authenticate a user, the cloud service (the service provider) must use an HTTP Redirect binding to pass an <ph id="1">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> (authentication request) element to Azure Active Directory (the identity provider).</source>
+            <target state="new">To request that Azure Active Directory authenticate a user, the cloud service (the service provider) must use an HTTP Redirect binding to pass an <ph id="1">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> (authentication request) element to Azure Active Directory (the identity provider).</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory uses an HTTP Post binding to post a <ph id="1">&lt;system&gt;Response&lt;/system&gt;</ph> element to the cloud service.</source>
+            <target state="new">Azure Active Directory uses an HTTP Post binding to post a <ph id="1">&lt;system&gt;Response&lt;/system&gt;</ph> element to the cloud service.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>This topic describes the SAML 2.0 authentication requests and responses that Azure Active Directory supports for single sign-on.</source>
+            <target state="new">This topic describes the SAML 2.0 authentication requests and responses that Azure Active Directory supports for single sign-on.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>It lists and describes the required, optional, ignored, and unsupported elements and attributes, and value requirements.</source>
+            <target state="new">It lists and describes the required, optional, ignored, and unsupported elements and attributes, and value requirements.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>This diagram depicts the workflow of the Azure Active Directory authentication process for single sign-on.</source>
+            <target state="new">This diagram depicts the workflow of the Azure Active Directory authentication process for single sign-on.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>AuthnRequest</source>
+            <target state="new">AuthnRequest</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>This section describes the elements in a SAML 2.0 authorization request to Azure Active Directory.</source>
+            <target state="new">This section describes the elements in a SAML 2.0 authorization request to Azure Active Directory.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>The following is a sample SAML 2.0 <ph id="1">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> element with only the required attributes.</source>
+            <target state="new">The following is a sample SAML 2.0 <ph id="1">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> element with only the required attributes.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>AuthnRequest Element</source>
+            <target state="new">AuthnRequest Element</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>To request a user authentication, cloud services send an <ph id="1">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> element to Azure Active Directory.</source>
+            <target state="new">To request a user authentication, cloud services send an <ph id="1">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> element to Azure Active Directory.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The following list describes the required, optional, and ignored attributes when the <ph id="1">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> element is used in this context.</source>
+            <target state="new">The following list describes the required, optional, and ignored attributes when the <ph id="1">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> element is used in this context.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Required Attributes</source>
+            <target state="new">Required Attributes</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;ID&lt;/system&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;system&gt;ID&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory uses the value of the <ph id="1">&lt;system&gt;ID&lt;/system&gt;</ph> attribute to populate the <ph id="2">&lt;system&gt;InResponseTo&lt;/system&gt;</ph> attribute of the SAML <ph id="3">&lt;system&gt;Response&lt;/system&gt;</ph> that it returns.</source>
+            <target state="new">Azure Active Directory uses the value of the <ph id="1">&lt;system&gt;ID&lt;/system&gt;</ph> attribute to populate the <ph id="2">&lt;system&gt;InResponseTo&lt;/system&gt;</ph> attribute of the SAML <ph id="3">&lt;system&gt;Response&lt;/system&gt;</ph> that it returns.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>The SAML specification requires that the value of ID must not begin with a number.</source>
+            <target state="new">The SAML specification requires that the value of ID must not begin with a number.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>A common strategy to generate a value for the ID attribute is to prepend a predefined string, such as "id", to the string representation of a GUID.</source>
+            <target state="new">A common strategy to generate a value for the ID attribute is to prepend a predefined string, such as "id", to the string representation of a GUID.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;Version&lt;/system&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;system&gt;Version&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Set the value of the version attribute to <ph id="1">&lt;system&gt;2.0&lt;/system&gt;</ph>.</source>
+            <target state="new">Set the value of the version attribute to <ph id="1">&lt;system&gt;2.0&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>This value is required.</source>
+            <target state="new">This value is required.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;IssueInstant&lt;/system&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;system&gt;IssueInstant&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Set the value of the <ph id="1">&lt;system&gt;IssueInstant&lt;/system&gt;</ph> attribute to a <ph id="2">&lt;system&gt;DateTime&lt;/system&gt;</ph> string with a Coordinated Universal Time (UTC) value and <bpt id="3">&lt;externalLink&gt;</bpt><bpt id="4">&lt;linkText&gt;</bpt>round-trip format ("o")<ept id="4">&lt;/linkText&gt;</ept><ph id="5">&lt;linkUri&gt;http://msdn.microsoft.com/library/az4se3k1.aspx&lt;/linkUri&gt;</ph><ept id="3">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">Set the value of the <ph id="1">&lt;system&gt;IssueInstant&lt;/system&gt;</ph> attribute to a <ph id="2">&lt;system&gt;DateTime&lt;/system&gt;</ph> string with a Coordinated Universal Time (UTC) value and <bpt id="3">&lt;externalLink&gt;</bpt><bpt id="4">&lt;linkText&gt;</bpt>round-trip format ("o")<ept id="4">&lt;/linkText&gt;</ept><ph id="5">&lt;linkUri&gt;http://msdn.microsoft.com/library/az4se3k1.aspx&lt;/linkUri&gt;</ph><ept id="3">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory expects a Datetime value of this type, but does not  evaluate or use the value.</source>
+            <target state="new">Azure Active Directory expects a Datetime value of this type, but does not  evaluate or use the value.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Optional Attributes</source>
+            <target state="new">Optional Attributes</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;AssertionConsumerServiceURL&lt;/system&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;system&gt;AssertionConsumerServiceURL&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>If provided, the value of the <ph id="1">&lt;system&gt;AssertionConsumerServiceURL&lt;/system&gt;</ph> attribute must exactly match the value of the <ph id="2">&lt;system&gt;RedirectUri&lt;/system&gt;</ph> of the service principal object that represents the cloud service in Azure Active Directory.</source>
+            <target state="new">If provided, the value of the <ph id="1">&lt;system&gt;AssertionConsumerServiceURL&lt;/system&gt;</ph> attribute must exactly match the value of the <ph id="2">&lt;system&gt;RedirectUri&lt;/system&gt;</ph> of the service principal object that represents the cloud service in Azure Active Directory.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;ForceAuthn&lt;/system&gt;</ph>: If provided, set the value to <ph id="2">&lt;system&gt;false&lt;/system&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;system&gt;ForceAuthn&lt;/system&gt;</ph>: If provided, set the value to <ph id="2">&lt;system&gt;false&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Any other value causes an error.</source>
+            <target state="new">Any other value causes an error.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;IsPassive&lt;/system&gt;</ph>: If provided, set the value to <ph id="2">&lt;system&gt;false&lt;/system&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;system&gt;IsPassive&lt;/system&gt;</ph>: If provided, set the value to <ph id="2">&lt;system&gt;false&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Any other value causes an error.</source>
+            <target state="new">Any other value causes an error.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;Ignored Attributes&lt;/system&gt;</ph>: Consent, Destination, AssertionConsumerServiceIndex, AttributeConsumerServiceIndex, ProviderName</source>
+            <target state="new"><ph id="1">&lt;system&gt;Ignored Attributes&lt;/system&gt;</ph>: Consent, Destination, AssertionConsumerServiceIndex, AttributeConsumerServiceIndex, ProviderName</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Conditions Element in AuthnRequest</source>
+            <target state="new">Conditions Element in AuthnRequest</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory ignores the <ph id="1">&lt;system&gt;Conditions&lt;/system&gt;</ph> element in an <ph id="2">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> element.</source>
+            <target state="new">Azure Active Directory ignores the <ph id="1">&lt;system&gt;Conditions&lt;/system&gt;</ph> element in an <ph id="2">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> element.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Issuer Element in AuthnRequest</source>
+            <target state="new">Issuer Element in AuthnRequest</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;Issuer&lt;/system&gt;</ph> element is required in any <ph id="2">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> element sent to Azure Active Directory.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;Issuer&lt;/system&gt;</ph> element is required in any <ph id="2">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> element sent to Azure Active Directory.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>The following SAML excerpt shows a sample Issuer element.</source>
+            <target state="new">The following SAML excerpt shows a sample Issuer element.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>The value of the <ph id="1">&lt;system&gt;Issuer&lt;/system&gt;</ph> element must exactly match one of the <ph id="2">&lt;system&gt;ServicePrincipalNames&lt;/system&gt;</ph> in the service principal object that represents the cloud service in Azure Active Directory.</source>
+            <target state="new">The value of the <ph id="1">&lt;system&gt;Issuer&lt;/system&gt;</ph> element must exactly match one of the <ph id="2">&lt;system&gt;ServicePrincipalNames&lt;/system&gt;</ph> in the service principal object that represents the cloud service in Azure Active Directory.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Set the value of the Issuer element to the <ph id="1">&lt;system&gt;App ID URI&lt;/system&gt;</ph> that is specified during application registration.</source>
+            <target state="new">Set the value of the Issuer element to the <ph id="1">&lt;system&gt;App ID URI&lt;/system&gt;</ph> that is specified during application registration.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>NameIDPolicy Element in AuthnRequest</source>
+            <target state="new">NameIDPolicy Element in AuthnRequest</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;NameIDPolicy&lt;/system&gt;</ph> element, which requests a particular name ID format, is optional in <ph id="2">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> elements sent to Azure Active Directory.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;NameIDPolicy&lt;/system&gt;</ph> element, which requests a particular name ID format, is optional in <ph id="2">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> elements sent to Azure Active Directory.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>If <ph id="1">&lt;system&gt;NameIDPolicy&lt;/system&gt;</ph> is provided, you can include its optional <ph id="2">&lt;system&gt;Format&lt;/system&gt;</ph> attribute.</source>
+            <target state="new">If <ph id="1">&lt;system&gt;NameIDPolicy&lt;/system&gt;</ph> is provided, you can include its optional <ph id="2">&lt;system&gt;Format&lt;/system&gt;</ph> attribute.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>If provided, the <ph id="1">&lt;system&gt;Format&lt;/system&gt;</ph> attribute must have one of the following values.</source>
+            <target state="new">If provided, the <ph id="1">&lt;system&gt;Format&lt;/system&gt;</ph> attribute must have one of the following values.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Any other value results in an error.</source>
+            <target state="new">Any other value results in an error.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;"urn:oasis:names:tc:SAML:2.0:nameid-format:persistent"&lt;/codeInline&gt;</ph>: Azure Active Directory issues the NameID claim as a pairwise identifier.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;"urn:oasis:names:tc:SAML:2.0:nameid-format:persistent"&lt;/codeInline&gt;</ph>: Azure Active Directory issues the NameID claim as a pairwise identifier.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;"urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress"&lt;/codeInline&gt;</ph>: Azure Active Directory issues the NameID claim in e-mail address format.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;"urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress"&lt;/codeInline&gt;</ph>: Azure Active Directory issues the NameID claim in e-mail address format.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;"urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified"&lt;/codeInline&gt;</ph>: This value permits Azure Active Directory to select the claim format.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;"urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified"&lt;/codeInline&gt;</ph>: This value permits Azure Active Directory to select the claim format.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory issues the NameID as a pairwise identifier.</source>
+            <target state="new">Azure Active Directory issues the NameID as a pairwise identifier.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Do not include the <ph id="1">&lt;system&gt;SPNameQualifier&lt;/system&gt;</ph> attribute.</source>
+            <target state="new">Do not include the <ph id="1">&lt;system&gt;SPNameQualifier&lt;/system&gt;</ph> attribute.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>If you include the <ph id="1">&lt;system&gt;AllowCreate&lt;/system&gt;</ph> attribute, Azure Active Directory doesn't return an error, but the element is ignored.</source>
+            <target state="new">If you include the <ph id="1">&lt;system&gt;AllowCreate&lt;/system&gt;</ph> attribute, Azure Active Directory doesn't return an error, but the element is ignored.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>The following is an example of a valid <ph id="1">&lt;system&gt;NameIdPolicy&lt;/system&gt;</ph> element.</source>
+            <target state="new">The following is an example of a valid <ph id="1">&lt;system&gt;NameIdPolicy&lt;/system&gt;</ph> element.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>RequestedAuthnContext Element</source>
+            <target state="new">RequestedAuthnContext Element</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;RequestedAuthnContext&lt;/system&gt;</ph> element specifies the desired authentication methods.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;RequestedAuthnContext&lt;/system&gt;</ph> element specifies the desired authentication methods.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>It is optional in <ph id="1">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> elements sent to Azure Active Directory.</source>
+            <target state="new">It is optional in <ph id="1">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> elements sent to Azure Active Directory.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory supports only one <ph id="1">&lt;system&gt;AuthnContextClassRef&lt;/system&gt;</ph> (request of authentication context class) value, <ph id="2">&lt;codeInline&gt;"urn:oasis:names:tc:SAML:2.0:ac:classes:Password"&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Azure Active Directory supports only one <ph id="1">&lt;system&gt;AuthnContextClassRef&lt;/system&gt;</ph> (request of authentication context class) value, <ph id="2">&lt;codeInline&gt;"urn:oasis:names:tc:SAML:2.0:ac:classes:Password"&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Scoping Element in AuthnRequest</source>
+            <target state="new">Scoping Element in AuthnRequest</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;Scoping&lt;/system&gt;</ph> element, which includes a list of identity providers, is optional in <ph id="2">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> elements sent to Azure Active Directory.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;Scoping&lt;/system&gt;</ph> element, which includes a list of identity providers, is optional in <ph id="2">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> elements sent to Azure Active Directory.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Do not include the <ph id="1">&lt;system&gt;ProxyCount&lt;/system&gt;</ph> attribute, <ph id="2">&lt;system&gt;IDPList&lt;/system&gt;</ph> option, or the <ph id="3">&lt;system&gt;RequesterID&lt;/system&gt;</ph> element, in the <ph id="4">&lt;system&gt;Scoping&lt;/system&gt;</ph> element of an <ph id="5">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> sent to Azure Active Directory.</source>
+            <target state="new">Do not include the <ph id="1">&lt;system&gt;ProxyCount&lt;/system&gt;</ph> attribute, <ph id="2">&lt;system&gt;IDPList&lt;/system&gt;</ph> option, or the <ph id="3">&lt;system&gt;RequesterID&lt;/system&gt;</ph> element, in the <ph id="4">&lt;system&gt;Scoping&lt;/system&gt;</ph> element of an <ph id="5">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> sent to Azure Active Directory.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>They are not supported.</source>
+            <target state="new">They are not supported.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Signature Element in AuthnRequest</source>
+            <target state="new">Signature Element in AuthnRequest</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Do not include a Signature element in an <ph id="1">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> sent to Azure Active Directory.</source>
+            <target state="new">Do not include a Signature element in an <ph id="1">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> sent to Azure Active Directory.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory does not support signed authentication requests.</source>
+            <target state="new">Azure Active Directory does not support signed authentication requests.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Subject Element in AuthnRequest</source>
+            <target state="new">Subject Element in AuthnRequest</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory ignores Subject element of <ph id="1">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> elements.</source>
+            <target state="new">Azure Active Directory ignores Subject element of <ph id="1">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> elements.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Response</source>
+            <target state="new">Response</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>When a requested sign-on completes successfully, Azure Active Directory posts a response to the cloud service (service provider).</source>
+            <target state="new">When a requested sign-on completes successfully, Azure Active Directory posts a response to the cloud service (service provider).</target>
+          </trans-unit>
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>This section describes the format of the response.</source>
+            <target state="new">This section describes the format of the response.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>The following SAML sample shows the response to a successful sign-on attempt.</source>
+            <target state="new">The following SAML sample shows the response to a successful sign-on attempt.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Response Element</source>
+            <target state="new">Response Element</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;Response&lt;/system&gt;</ph> element includes the results of the authorization request.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;Response&lt;/system&gt;</ph> element includes the results of the authorization request.</target>
+          </trans-unit>
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory includes the <ph id="1">&lt;system&gt;ID&lt;/system&gt;</ph>, <ph id="2">&lt;system&gt;Version&lt;/system&gt;</ph> and <ph id="3">&lt;system&gt;IssueInstant&lt;/system&gt;</ph> attributes of the <ph id="4">&lt;system&gt;Response&lt;/system&gt;</ph> element.</source>
+            <target state="new">Azure Active Directory includes the <ph id="1">&lt;system&gt;ID&lt;/system&gt;</ph>, <ph id="2">&lt;system&gt;Version&lt;/system&gt;</ph> and <ph id="3">&lt;system&gt;IssueInstant&lt;/system&gt;</ph> attributes of the <ph id="4">&lt;system&gt;Response&lt;/system&gt;</ph> element.</target>
+          </trans-unit>
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>It also sets the values of the following attributes.</source>
+            <target state="new">It also sets the values of the following attributes.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;Destination&lt;/system&gt;</ph>: When sign-on completes successfully, Azure Active Directory sets the value of the <ph id="2">&lt;system&gt;Destination&lt;/system&gt;</ph> attribute to the <ph id="3">&lt;system&gt;RedirectUri&lt;/system&gt;</ph> of the service provider.</source>
+            <target state="new"><ph id="1">&lt;system&gt;Destination&lt;/system&gt;</ph>: When sign-on completes successfully, Azure Active Directory sets the value of the <ph id="2">&lt;system&gt;Destination&lt;/system&gt;</ph> attribute to the <ph id="3">&lt;system&gt;RedirectUri&lt;/system&gt;</ph> of the service provider.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;InResponseTo&lt;/system&gt;</ph>: Azure Active Directory always sets the value of <ph id="2">&lt;system&gt;InResponseTo&lt;/system&gt;</ph> attribute to the value of the <ph id="3">&lt;system&gt;ID&lt;/system&gt;</ph> attribute of the <ph id="4">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> element that initiated the response.</source>
+            <target state="new"><ph id="1">&lt;system&gt;InResponseTo&lt;/system&gt;</ph>: Azure Active Directory always sets the value of <ph id="2">&lt;system&gt;InResponseTo&lt;/system&gt;</ph> attribute to the value of the <ph id="3">&lt;system&gt;ID&lt;/system&gt;</ph> attribute of the <ph id="4">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> element that initiated the response.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Issuer Element in Response Element</source>
+            <target state="new">Issuer Element in Response Element</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory sets the value of <ph id="1">&lt;system&gt;Issuer&lt;/system&gt;</ph> element to <ph id="2">&lt;codeInline&gt;"https://login.microsoftonline.com/%%amp;lt;TenantIDGUID%%amp;gt;/"&lt;/codeInline&gt;</ph> where &lt;TenantIDGUID&gt; is the Tenant ID of the Azure Active Directory tenant.</source>
+            <target state="new">Azure Active Directory sets the value of <ph id="1">&lt;system&gt;Issuer&lt;/system&gt;</ph> element to <ph id="2">&lt;codeInline&gt;"https://login.microsoftonline.com/%%amp;lt;TenantIDGUID%%amp;gt;/"&lt;/codeInline&gt;</ph> where &lt;TenantIDGUID&gt; is the Tenant ID of the Azure Active Directory tenant.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>The following SAML excerpt shows a sample <ph id="1">&lt;system&gt;Issuer&lt;/system&gt;</ph> element.</source>
+            <target state="new">The following SAML excerpt shows a sample <ph id="1">&lt;system&gt;Issuer&lt;/system&gt;</ph> element.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Signature Element in Response </source>
+            <target state="new">Signature Element in Response </target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory signs the <ph id="1">&lt;system&gt;Response&lt;/system&gt;</ph> element in response to a successful sign-on.</source>
+            <target state="new">Azure Active Directory signs the <ph id="1">&lt;system&gt;Response&lt;/system&gt;</ph> element in response to a successful sign-on.</target>
+          </trans-unit>
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;Signature&lt;/system&gt;</ph> element in the <ph id="2">&lt;system&gt;Response&lt;/system&gt;</ph> element contains a digital signature that the cloud service can use to authenticate the source and verity the integrity of the response.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;Signature&lt;/system&gt;</ph> element in the <ph id="2">&lt;system&gt;Response&lt;/system&gt;</ph> element contains a digital signature that the cloud service can use to authenticate the source and verity the integrity of the response.</target>
+          </trans-unit>
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>To generate this digital signature, Azure Active Directory uses the signing key specified in the <ph id="1">&lt;system&gt;IDPSSODescriptor&lt;/system&gt;</ph> element of its metadata document.</source>
+            <target state="new">To generate this digital signature, Azure Active Directory uses the signing key specified in the <ph id="1">&lt;system&gt;IDPSSODescriptor&lt;/system&gt;</ph> element of its metadata document.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory also signs the <ph id="1">&lt;system&gt;Assertion&lt;/system&gt;</ph> element in the <ph id="2">&lt;system&gt;Response&lt;/system&gt;</ph> element, but the two <ph id="3">&lt;system&gt;Signature&lt;/system&gt;</ph> elements are independent.</source>
+            <target state="new">Azure Active Directory also signs the <ph id="1">&lt;system&gt;Assertion&lt;/system&gt;</ph> element in the <ph id="2">&lt;system&gt;Response&lt;/system&gt;</ph> element, but the two <ph id="3">&lt;system&gt;Signature&lt;/system&gt;</ph> elements are independent.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>The following SAML excerpt shows a sample <ph id="1">&lt;system&gt;Signature&lt;/system&gt;</ph> element.</source>
+            <target state="new">The following SAML excerpt shows a sample <ph id="1">&lt;system&gt;Signature&lt;/system&gt;</ph> element.</target>
+          </trans-unit>
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>In this sample, the digital signature is replaced by ellipses.</source>
+            <target state="new">In this sample, the digital signature is replaced by ellipses.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>For more information about the <ph id="1">&lt;system&gt;IDPSSODescriptor&lt;/system&gt;</ph> element, see <ph id="2">&lt;link xlink:href="590b6fd4-d6c7-43db-b6fa-c03f2718ea2e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Application Registration and Metadata Exchange&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about the <ph id="1">&lt;system&gt;IDPSSODescriptor&lt;/system&gt;</ph> element, see <ph id="2">&lt;link xlink:href="590b6fd4-d6c7-43db-b6fa-c03f2718ea2e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Application Registration and Metadata Exchange&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Status Element in Response</source>
+            <target state="new">Status Element in Response</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory uses the <ph id="1">&lt;system&gt;Status&lt;/system&gt;</ph> element to convey the success or failure of sign-on.</source>
+            <target state="new">Azure Active Directory uses the <ph id="1">&lt;system&gt;Status&lt;/system&gt;</ph> element to convey the success or failure of sign-on.</target>
+          </trans-unit>
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;StatusCode&lt;/system&gt;</ph> element in the <ph id="2">&lt;system&gt;Status&lt;/system&gt;</ph> element contains a code or a set of nested codes that represent the status of the request.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;StatusCode&lt;/system&gt;</ph> element in the <ph id="2">&lt;system&gt;Status&lt;/system&gt;</ph> element contains a code or a set of nested codes that represent the status of the request.</target>
+          </trans-unit>
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;Status&lt;/system&gt;</ph> element also includes the <ph id="2">&lt;system&gt;StatusMessage&lt;/system&gt;</ph> element, which contains custom error messages that are generated during the sign-on process.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;Status&lt;/system&gt;</ph> element also includes the <ph id="2">&lt;system&gt;StatusMessage&lt;/system&gt;</ph> element, which contains custom error messages that are generated during the sign-on process.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>For more information about the authentication errors that Azure Active Directory returns, see <ph id="1">&lt;link xlink:href="8a075750-c6cf-46fe-916d-0e39c5178354" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Authentication Protocol Error Reference&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about the authentication errors that Azure Active Directory returns, see <ph id="1">&lt;link xlink:href="8a075750-c6cf-46fe-916d-0e39c5178354" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Authentication Protocol Error Reference&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>The following SAML excerpt shows a sample SAML response to an unsuccessful sign-on attempt.</source>
+            <target state="new">The following SAML excerpt shows a sample SAML response to an unsuccessful sign-on attempt.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Assertion Element in Response</source>
+            <target state="new">Assertion Element in Response</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory sets the following attributes on the <ph id="1">&lt;system&gt;Assertion&lt;/system&gt;</ph> element in the <ph id="2">&lt;system&gt;Response&lt;/system&gt;</ph> element: ID, IssueInstant, and Version.</source>
+            <target state="new">Azure Active Directory sets the following attributes on the <ph id="1">&lt;system&gt;Assertion&lt;/system&gt;</ph> element in the <ph id="2">&lt;system&gt;Response&lt;/system&gt;</ph> element: ID, IssueInstant, and Version.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Issuer Element in Assertion </source>
+            <target state="new">Issuer Element in Assertion </target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory sets the value of the <ph id="1">&lt;system&gt;Issuer&lt;/system&gt;</ph> element in the <ph id="2">&lt;system&gt;Assertion&lt;/system&gt;</ph> element to <ph id="3">&lt;codeInline&gt;https://sts.windows.net/%%amp;lt;TenantIDGUID%%amp;gt;/&lt;/codeInline&gt;</ph> where &lt;TenantIDGUID&gt; is the Tenant ID of the Azure Active Directory tenant.</source>
+            <target state="new">Azure Active Directory sets the value of the <ph id="1">&lt;system&gt;Issuer&lt;/system&gt;</ph> element in the <ph id="2">&lt;system&gt;Assertion&lt;/system&gt;</ph> element to <ph id="3">&lt;codeInline&gt;https://sts.windows.net/%%amp;lt;TenantIDGUID%%amp;gt;/&lt;/codeInline&gt;</ph> where &lt;TenantIDGUID&gt; is the Tenant ID of the Azure Active Directory tenant.</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>The following SAML excerpt shows a sample <ph id="1">&lt;system&gt;Issuer&lt;/system&gt;</ph> element in the Assertion element.</source>
+            <target state="new">The following SAML excerpt shows a sample <ph id="1">&lt;system&gt;Issuer&lt;/system&gt;</ph> element in the Assertion element.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Signature Element in Assertion </source>
+            <target state="new">Signature Element in Assertion </target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory signs the assertion in a response to a successful sign-on.</source>
+            <target state="new">Azure Active Directory signs the assertion in a response to a successful sign-on.</target>
+          </trans-unit>
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;Signature&lt;/system&gt;</ph> element in the <ph id="2">&lt;system&gt;Assertion&lt;/system&gt;</ph> element contains a digital signature that the cloud service can use to authenticate the source verify the integrity of the assertion.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;Signature&lt;/system&gt;</ph> element in the <ph id="2">&lt;system&gt;Assertion&lt;/system&gt;</ph> element contains a digital signature that the cloud service can use to authenticate the source verify the integrity of the assertion.</target>
+          </trans-unit>
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>To generate this digital signature, Azure Active Directory uses the signing key specified in the <ph id="1">&lt;system&gt;IDPSSODescriptor&lt;/system&gt;</ph> element of its metadata document.</source>
+            <target state="new">To generate this digital signature, Azure Active Directory uses the signing key specified in the <ph id="1">&lt;system&gt;IDPSSODescriptor&lt;/system&gt;</ph> element of its metadata document.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>For more information about the <ph id="1">&lt;system&gt;IDPSSODescriptor&lt;/system&gt;</ph> element, see <ph id="2">&lt;link xlink:href="590b6fd4-d6c7-43db-b6fa-c03f2718ea2e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Application Registration and Metadata Exchange&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about the <ph id="1">&lt;system&gt;IDPSSODescriptor&lt;/system&gt;</ph> element, see <ph id="2">&lt;link xlink:href="590b6fd4-d6c7-43db-b6fa-c03f2718ea2e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Application Registration and Metadata Exchange&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>The following SAML excerpt shows a sample <ph id="1">&lt;system&gt;Signature&lt;/system&gt;</ph> element in the Assertion element.</source>
+            <target state="new">The following SAML excerpt shows a sample <ph id="1">&lt;system&gt;Signature&lt;/system&gt;</ph> element in the Assertion element.</target>
+          </trans-unit>
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>In this sample, the digital signature is replaced by ellipses.</source>
+            <target state="new">In this sample, the digital signature is replaced by ellipses.</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>Subject Element in Assertion </source>
+            <target state="new">Subject Element in Assertion </target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;Subject&lt;/system&gt;</ph> element of the <ph id="2">&lt;system&gt;Assertion&lt;/system&gt;</ph> element in an Azure Active Directory response specifies the principal that is the subject of the statements in the assertion.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;Subject&lt;/system&gt;</ph> element of the <ph id="2">&lt;system&gt;Assertion&lt;/system&gt;</ph> element in an Azure Active Directory response specifies the principal that is the subject of the statements in the assertion.</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;Subject&lt;/system&gt;</ph> element in a response returned by Azure Active Directory  contains the <ph id="2">&lt;system&gt;NameId&lt;/system&gt;</ph> and <ph id="3">&lt;system&gt;SubjectConfirmation&lt;/system&gt;</ph> elements.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;Subject&lt;/system&gt;</ph> element in a response returned by Azure Active Directory  contains the <ph id="2">&lt;system&gt;NameId&lt;/system&gt;</ph> and <ph id="3">&lt;system&gt;SubjectConfirmation&lt;/system&gt;</ph> elements.</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>The value of <ph id="1">&lt;system&gt;NameId&lt;/system&gt;</ph> element is an opaque and immutable identifier that represents the authenticated user.</source>
+            <target state="new">The value of <ph id="1">&lt;system&gt;NameId&lt;/system&gt;</ph> element is an opaque and immutable identifier that represents the authenticated user.</target>
+          </trans-unit>
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;NameId&lt;/system&gt;</ph> value is a targeted identifier that is directed only to the service provider that is the audience for the token.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;NameId&lt;/system&gt;</ph> value is a targeted identifier that is directed only to the service provider that is the audience for the token.</target>
+          </trans-unit>
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;NameId&lt;/system&gt;</ph> value is persistent; it can be revoked, but is never reassigned.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;NameId&lt;/system&gt;</ph> value is persistent; it can be revoked, but is never reassigned.</target>
+          </trans-unit>
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>It is also opaque, that is, it does not reveal anything about the user and it cannot be used as an identifier for attribute queries.</source>
+            <target state="new">It is also opaque, that is, it does not reveal anything about the user and it cannot be used as an identifier for attribute queries.</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>The following SAML excerpt shows a sample <ph id="1">&lt;system&gt;Subject&lt;/system&gt;</ph> element.</source>
+            <target state="new">The following SAML excerpt shows a sample <ph id="1">&lt;system&gt;Subject&lt;/system&gt;</ph> element.</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory sets the <ph id="1">&lt;system&gt;Method&lt;/system&gt;</ph> attribute of the <ph id="2">&lt;system&gt;SubjectConfirmation&lt;/system&gt;</ph> element only to <ph id="3">&lt;codeInline&gt;"urn:oasis:names:tc:SAML:2.0:cm:bearer"&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Azure Active Directory sets the <ph id="1">&lt;system&gt;Method&lt;/system&gt;</ph> attribute of the <ph id="2">&lt;system&gt;SubjectConfirmation&lt;/system&gt;</ph> element only to <ph id="3">&lt;codeInline&gt;"urn:oasis:names:tc:SAML:2.0:cm:bearer"&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>Conditions Element in Assertion</source>
+            <target state="new">Conditions Element in Assertion</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;Conditions&lt;/system&gt;</ph> element in the <ph id="2">&lt;system&gt;Assertion&lt;/system&gt;</ph> element specifies conditions that define the acceptable use of SAML assertions.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;Conditions&lt;/system&gt;</ph> element in the <ph id="2">&lt;system&gt;Assertion&lt;/system&gt;</ph> element specifies conditions that define the acceptable use of SAML assertions.</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>The following SAML excerpt shows a sample <ph id="1">&lt;system&gt;Conditions&lt;/system&gt;</ph> element.</source>
+            <target state="new">The following SAML excerpt shows a sample <ph id="1">&lt;system&gt;Conditions&lt;/system&gt;</ph> element.</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory sets the <ph id="1">&lt;system&gt;NotBefore&lt;/system&gt;</ph> and <ph id="2">&lt;system&gt;NotOnOrAfter&lt;/system&gt;</ph> attributes of the <ph id="3">&lt;system&gt;Conditions&lt;/system&gt;</ph> element of the <ph id="4">&lt;system&gt;Assertion&lt;/system&gt;</ph> element.</source>
+            <target state="new">Azure Active Directory sets the <ph id="1">&lt;system&gt;NotBefore&lt;/system&gt;</ph> and <ph id="2">&lt;system&gt;NotOnOrAfter&lt;/system&gt;</ph> attributes of the <ph id="3">&lt;system&gt;Conditions&lt;/system&gt;</ph> element of the <ph id="4">&lt;system&gt;Assertion&lt;/system&gt;</ph> element.</target>
+          </trans-unit>
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>These attributes specify the interval during which the assertion is valid.</source>
+            <target state="new">These attributes specify the interval during which the assertion is valid.</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>The value of the <ph id="1">&lt;system&gt;NotBefore&lt;/system&gt;</ph> attribute is equal to or slightly (less than a second) later than the value of <ph id="2">&lt;system&gt;IssueInstant&lt;/system&gt;</ph> attribute of the <ph id="3">&lt;system&gt;Assertion&lt;/system&gt;</ph> element.</source>
+            <target state="new">The value of the <ph id="1">&lt;system&gt;NotBefore&lt;/system&gt;</ph> attribute is equal to or slightly (less than a second) later than the value of <ph id="2">&lt;system&gt;IssueInstant&lt;/system&gt;</ph> attribute of the <ph id="3">&lt;system&gt;Assertion&lt;/system&gt;</ph> element.</target>
+          </trans-unit>
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory does not account for any time difference between itself and the cloud service (service provider), and does not add any buffer to this time.</source>
+            <target state="new">Azure Active Directory does not account for any time difference between itself and the cloud service (service provider), and does not add any buffer to this time.</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>The value of the <ph id="1">&lt;system&gt;NotOnOrAfter&lt;/system&gt;</ph> attribute is 70 minutes later than the value of the <ph id="2">&lt;system&gt;NotBefore&lt;/system&gt;</ph> attribute.</source>
+            <target state="new">The value of the <ph id="1">&lt;system&gt;NotOnOrAfter&lt;/system&gt;</ph> attribute is 70 minutes later than the value of the <ph id="2">&lt;system&gt;NotBefore&lt;/system&gt;</ph> attribute.</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>Audience Element in Assertion</source>
+            <target state="new">Audience Element in Assertion</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;Audience&lt;/system&gt;</ph> element appears in the <ph id="2">&lt;system&gt;AudienceRestriction&lt;/system&gt;</ph> element of the <ph id="3">&lt;system&gt;Conditions&lt;/system&gt;</ph> element in the response assertion .</source>
+            <target state="new">The <ph id="1">&lt;system&gt;Audience&lt;/system&gt;</ph> element appears in the <ph id="2">&lt;system&gt;AudienceRestriction&lt;/system&gt;</ph> element of the <ph id="3">&lt;system&gt;Conditions&lt;/system&gt;</ph> element in the response assertion .</target>
+          </trans-unit>
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>The value of <ph id="1">&lt;system&gt;Audience&lt;/system&gt;</ph> is a URI that identifies an intended audience.</source>
+            <target state="new">The value of <ph id="1">&lt;system&gt;Audience&lt;/system&gt;</ph> is a URI that identifies an intended audience.</target>
+          </trans-unit>
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory sets the value of the <ph id="1">&lt;system&gt;Audience&lt;/system&gt;</ph> element to the value of <ph id="2">&lt;system&gt;Issuer&lt;/system&gt;</ph> element of the <ph id="3">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> that initiated the sign-on.</source>
+            <target state="new">Azure Active Directory sets the value of the <ph id="1">&lt;system&gt;Audience&lt;/system&gt;</ph> element to the value of <ph id="2">&lt;system&gt;Issuer&lt;/system&gt;</ph> element of the <ph id="3">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> that initiated the sign-on.</target>
+          </trans-unit>
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>The issuer of the authentication request is the audience for the response.</source>
+            <target state="new">The issuer of the authentication request is the audience for the response.</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>The following SAML excerpt shows a sample <ph id="1">&lt;system&gt;Audience&lt;/system&gt;</ph> element in an <ph id="2">&lt;system&gt;AudienceRestriction&lt;/system&gt;</ph> element.</source>
+            <target state="new">The following SAML excerpt shows a sample <ph id="1">&lt;system&gt;Audience&lt;/system&gt;</ph> element in an <ph id="2">&lt;system&gt;AudienceRestriction&lt;/system&gt;</ph> element.</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>Like the <ph id="1">&lt;system&gt;Issuer&lt;/system&gt;</ph> value, the <ph id="2">&lt;system&gt;Audience&lt;/system&gt;</ph> value must exactly match one of the service principal names that represents the cloud service in Azure Active Directory.</source>
+            <target state="new">Like the <ph id="1">&lt;system&gt;Issuer&lt;/system&gt;</ph> value, the <ph id="2">&lt;system&gt;Audience&lt;/system&gt;</ph> value must exactly match one of the service principal names that represents the cloud service in Azure Active Directory.</target>
+          </trans-unit>
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>However, if the value of the <ph id="1">&lt;system&gt;Issuer&lt;/system&gt;</ph> element in the <ph id="2">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> element is not a URI value, the <ph id="3">&lt;system&gt;Audience&lt;/system&gt;</ph> value in the response is the <ph id="4">&lt;system&gt;Issuer&lt;/system&gt;</ph> value prefixed with <ph id="5">&lt;codeInline&gt;spn:&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">However, if the value of the <ph id="1">&lt;system&gt;Issuer&lt;/system&gt;</ph> element in the <ph id="2">&lt;system&gt;AuthnRequest&lt;/system&gt;</ph> element is not a URI value, the <ph id="3">&lt;system&gt;Audience&lt;/system&gt;</ph> value in the response is the <ph id="4">&lt;system&gt;Issuer&lt;/system&gt;</ph> value prefixed with <ph id="5">&lt;codeInline&gt;spn:&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>To evaluate the <ph id="1">&lt;system&gt;Audience&lt;/system&gt;</ph> value, use the value of the <ph id="2">&lt;system&gt;App ID URI&lt;/system&gt;</ph> that was specified during application registration.</source>
+            <target state="new">To evaluate the <ph id="1">&lt;system&gt;Audience&lt;/system&gt;</ph> value, use the value of the <ph id="2">&lt;system&gt;App ID URI&lt;/system&gt;</ph> that was specified during application registration.</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>AttributeStatement Element in Assertion</source>
+            <target state="new">AttributeStatement Element in Assertion</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;AttributeStatement&lt;/system&gt;</ph> element contains claims about the subject or user.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;AttributeStatement&lt;/system&gt;</ph> element contains claims about the subject or user.</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>The following SAML excerpt is a sample <ph id="1">&lt;system&gt;AttributeStatement&lt;/system&gt;</ph> element.</source>
+            <target state="new">The following SAML excerpt is a sample <ph id="1">&lt;system&gt;AttributeStatement&lt;/system&gt;</ph> element.</target>
+          </trans-unit>
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>The ellipsis indicates that the element can include multiple attributes and attribute values.</source>
+            <target state="new">The ellipsis indicates that the element can include multiple attributes and attribute values.</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory adds multiple claims about the authenticated user to the value of the <ph id="1">&lt;system&gt;AttributeStatement&lt;/system&gt;</ph> element, including <ph id="2">&lt;system&gt;Name&lt;/system&gt;</ph> and  <ph id="3">&lt;system&gt;ObjectIdentifier&lt;/system&gt;</ph> claims</source>
+            <target state="new">Azure Active Directory adds multiple claims about the authenticated user to the value of the <ph id="1">&lt;system&gt;AttributeStatement&lt;/system&gt;</ph> element, including <ph id="2">&lt;system&gt;Name&lt;/system&gt;</ph> and  <ph id="3">&lt;system&gt;ObjectIdentifier&lt;/system&gt;</ph> claims</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;Name Claim&lt;/system&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;system&gt;Name Claim&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>The value of the Name attribute (<ph id="1">&lt;codeInline&gt;http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name&lt;/codeInline&gt;</ph>) is the user principal name of the authenticated user, such as <ph id="2">&lt;codeInline&gt;testuser@managedtenant.com&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">The value of the Name attribute (<ph id="1">&lt;codeInline&gt;http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name&lt;/codeInline&gt;</ph>) is the user principal name of the authenticated user, such as <ph id="2">&lt;codeInline&gt;testuser@managedtenant.com&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;ObjectIdentifier Claim&lt;/system&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;system&gt;ObjectIdentifier Claim&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>The value of the ObjectIdentifier attribute <ph id="1">&lt;codeInline&gt;"http://schemas.microsoft.com/identity/claims/objectidentifier"&lt;/codeInline&gt;</ph> is the <ph id="2">&lt;system&gt;ObjectId&lt;/system&gt;</ph> of the directory object that represents the authenticated user in Azure Active Directory.</source>
+            <target state="new">The value of the ObjectIdentifier attribute <ph id="1">&lt;codeInline&gt;"http://schemas.microsoft.com/identity/claims/objectidentifier"&lt;/codeInline&gt;</ph> is the <ph id="2">&lt;system&gt;ObjectId&lt;/system&gt;</ph> of the directory object that represents the authenticated user in Azure Active Directory.</target>
+          </trans-unit>
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;ObjectId&lt;/system&gt;</ph> is an immutable, globally unique, and re-use safe identifier of the authenticated user.</source>
+            <target state="new"><ph id="1">&lt;system&gt;ObjectId&lt;/system&gt;</ph> is an immutable, globally unique, and re-use safe identifier of the authenticated user.</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>For more information about the claim types that Azure Active Directory supports, see <bpt id="1">&lt;legacyLink xlink:href="9d35e4bc-7b72-49d1-b723-5464eee6be2c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Supported Token and Claim Types<ept id="1">&lt;/legacyLink&gt;</ept>.</source>
+            <target state="new">For more information about the claim types that Azure Active Directory supports, see <bpt id="1">&lt;legacyLink xlink:href="9d35e4bc-7b72-49d1-b723-5464eee6be2c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Supported Token and Claim Types<ept id="1">&lt;/legacyLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>AuthnStatement Element in Assertion</source>
+            <target state="new">AuthnStatement Element in Assertion</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;AuthnStatement&lt;/system&gt;</ph> asserts that the assertion subject was authenticated by a particular means at a particular time.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;AuthnStatement&lt;/system&gt;</ph> asserts that the assertion subject was authenticated by a particular means at a particular time.</target>
+          </trans-unit>
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;AuthnInstant&lt;/system&gt;</ph> attribute of the <ph id="2">&lt;system&gt;AuthnStatement&lt;/system&gt;</ph> element specifies the time at which the user authenticated with Azure Active Directory.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;AuthnInstant&lt;/system&gt;</ph> attribute of the <ph id="2">&lt;system&gt;AuthnStatement&lt;/system&gt;</ph> element specifies the time at which the user authenticated with Azure Active Directory.</target>
+          </trans-unit>
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;AuthnStatement&lt;/system&gt;</ph> element also contains the <ph id="2">&lt;system&gt;AuthnContext&lt;/system&gt;</ph> element, which specifies the class of the authentication context used to authenticate the user.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;AuthnStatement&lt;/system&gt;</ph> element also contains the <ph id="2">&lt;system&gt;AuthnContext&lt;/system&gt;</ph> element, which specifies the class of the authentication context used to authenticate the user.</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>The following shows a sample AuthnStatement element.</source>
+            <target state="new">The following shows a sample AuthnStatement element.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

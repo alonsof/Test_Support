@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAVylEKgzAMgOGr5AANpG207U4w2NvYBdKagMxZUAcefw7+p4/fLGrl0FCVGdkbYaVcsZGXsRTzIsWBemqDTnRxTMiTZcwUCFOcktYoQzR1UFlFUvM4xvK/eMDsG6NobiGJBErewdW74+Pp4FxmMz2P29b74SA4SA7u34+sr03WfZFj7usPJEKybaEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Specifying Conditional Headers</source>
+            <target state="new">Specifying Conditional Headers</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Batch service supports conditional headers on all the PUT, PATCH, DELETE, HEAD and GET operations on the following resources: pool, workitem, job, task and files.</source>
+            <target state="new">Batch service supports conditional headers on all the PUT, PATCH, DELETE, HEAD and GET operations on the following resources: pool, workitem, job, task and files.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>A PUT/PATCH and possibly a POST call (the exact list of operations is listed below) on these resources can cause the ETag and Last-Modified-Time to change.</source>
+            <target state="new">A PUT/PATCH and possibly a POST call (the exact list of operations is listed below) on these resources can cause the ETag and Last-Modified-Time to change.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Both write operations (PUT/PATCH/POST) and read operations (GET/HEAD) will return the current ETag and a Last-Modified-Time for the resource.</source>
+            <target state="new">Both write operations (PUT/PATCH/POST) and read operations (GET/HEAD) will return the current ETag and a Last-Modified-Time for the resource.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>These can be used in for subsequent conditional PUT, PATCH, POST, DELETE, HEAD or GET operations.</source>
+            <target state="new">These can be used in for subsequent conditional PUT, PATCH, POST, DELETE, HEAD or GET operations.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Pool, workitem, job and task support both ETag and Last-Modified-Time.</source>
+            <target state="new">Pool, workitem, job and task support both ETag and Last-Modified-Time.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Files only support Last-Modified-Time because files are modified directly by tasks on the TVM using Windows File System APIs.</source>
+            <target state="new">Files only support Last-Modified-Time because files are modified directly by tasks on the TVM using Windows File System APIs.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The Last-Modified-Time for files are based on the file system maintained file attributes.</source>
+            <target state="new">The Last-Modified-Time for files are based on the file system maintained file attributes.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>TVMs do not support any conditional operations.</source>
+            <target state="new">TVMs do not support any conditional operations.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Below table lists the APIs which support conditional operations and also the APIs which return the current ETag and Last-Modified time of the resource.</source>
+            <target state="new">Below table lists the APIs which support conditional operations and also the APIs which return the current ETag and Last-Modified time of the resource.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>All other APIs which are not listed in the below table do not support conditional headers and also do not return E-Tag/Last-Modified.</source>
+            <target state="new">All other APIs which are not listed in the below table do not support conditional headers and also do not return E-Tag/Last-Modified.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Operation</source>
+            <target state="new">Operation</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Supports Conditional Headers?</source>
+            <target state="new">Supports Conditional Headers?</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Returns E-Tag/Last-Modified Headers?</source>
+            <target state="new">Returns E-Tag/Last-Modified Headers?</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="8e5cb917-2230-4d0a-951d-9f21f70cee4f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get information about a pool&lt;/link&gt;</ph> </source>
+            <target state="new"><ph id="1">&lt;link xlink:href="8e5cb917-2230-4d0a-951d-9f21f70cee4f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get information about a pool&lt;/link&gt;</ph> </target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Add a job schedule</source>
+            <target state="new">Add a job schedule</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Delete a job schedule</source>
+            <target state="new">Delete a job schedule</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Update a job schedule</source>
+            <target state="new">Update a job schedule</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>You can specify conditional headers to carry out an operation only if a specified condition has been met.</source>
+            <target state="new">You can specify conditional headers to carry out an operation only if a specified condition has been met.</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>The Batch service follows the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>HTTP/1.1 protocol specification<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?linkid=150478&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for conditional headers.</source>
+            <target state="new">The Batch service follows the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>HTTP/1.1 protocol specification<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?linkid=150478&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for conditional headers.</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Supported Conditional Headers</source>
+            <target state="new">Supported Conditional Headers</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>The supported conditional headers are described in the following table.</source>
+            <target state="new">The supported conditional headers are described in the following table.</target>
+          </trans-unit>
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Task Files only support if-modified-since and if-unmodified-since.</source>
+            <target state="new">Task Files only support if-modified-since and if-unmodified-since.</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Conditional header</source>
+            <target state="new">Conditional header</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>If-Match</source>
+            <target state="new">If-Match</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>An ETag is specified.</source>
+            <target state="new">An ETag is specified.</target>
+          </trans-unit>
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Specify this header to perform the operation only if the resource’s ETag is an exact match as specified.</source>
+            <target state="new">Specify this header to perform the operation only if the resource’s ETag is an exact match as specified.</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>If-None-Match</source>
+            <target state="new">If-None-Match</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>An ETag is specified.</source>
+            <target state="new">An ETag is specified.</target>
+          </trans-unit>
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Specify this header to perform the operation only if the resource’s ETag does not match the specified ETag.</source>
+            <target state="new">Specify this header to perform the operation only if the resource’s ETag does not match the specified ETag.</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>If-Modified-Since</source>
+            <target state="new">If-Modified-Since</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>A DateTime value.</source>
+            <target state="new">A DateTime value.</target>
+          </trans-unit>
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Specify this header to perform the operation only if the resource has been modified since the specified time.</source>
+            <target state="new">Specify this header to perform the operation only if the resource has been modified since the specified time.</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>If-Unmodified-Since</source>
+            <target state="new">If-Unmodified-Since</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>A DateTime value.</source>
+            <target state="new">A DateTime value.</target>
+          </trans-unit>
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Specify this header to perform the operation only if the resource has not been modified since the specified date/time.</source>
+            <target state="new">Specify this header to perform the operation only if the resource has not been modified since the specified date/time.</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>The Batch service uses the below rules to process requests specifying conditional headers:</source>
+            <target state="new">The Batch service uses the below rules to process requests specifying conditional headers:</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>If a request specifies both the <bpt id="1">&lt;legacyItalic&gt;</bpt>If-None-Match<ept id="1">&lt;/legacyItalic&gt;</ept> and <bpt id="2">&lt;legacyItalic&gt;</bpt>If-Modified-Since<ept id="2">&lt;/legacyItalic&gt;</ept> headers, the request is evaluated based on the criteria specified in <bpt id="3">&lt;legacyItalic&gt;</bpt>If-None-Match<ept id="3">&lt;/legacyItalic&gt;</ept>.</source>
+            <target state="new">If a request specifies both the <bpt id="1">&lt;legacyItalic&gt;</bpt>If-None-Match<ept id="1">&lt;/legacyItalic&gt;</ept> and <bpt id="2">&lt;legacyItalic&gt;</bpt>If-Modified-Since<ept id="2">&lt;/legacyItalic&gt;</ept> headers, the request is evaluated based on the criteria specified in <bpt id="3">&lt;legacyItalic&gt;</bpt>If-None-Match<ept id="3">&lt;/legacyItalic&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>If a request specifies both the <bpt id="1">&lt;legacyItalic&gt;</bpt>If-Match<ept id="1">&lt;/legacyItalic&gt;</ept> and <bpt id="2">&lt;legacyItalic&gt;</bpt>If-Unmodified-Since<ept id="2">&lt;/legacyItalic&gt;</ept> headers, the request is evaluated based on the criteria specified in <bpt id="3">&lt;legacyItalic&gt;</bpt>If-Match<ept id="3">&lt;/legacyItalic&gt;</ept>.</source>
+            <target state="new">If a request specifies both the <bpt id="1">&lt;legacyItalic&gt;</bpt>If-Match<ept id="1">&lt;/legacyItalic&gt;</ept> and <bpt id="2">&lt;legacyItalic&gt;</bpt>If-Unmodified-Since<ept id="2">&lt;/legacyItalic&gt;</ept> headers, the request is evaluated based on the criteria specified in <bpt id="3">&lt;legacyItalic&gt;</bpt>If-Match<ept id="3">&lt;/legacyItalic&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>With the exception of the two combinations of conditional headers listed above, a request may specify only a single conditional header.</source>
+            <target state="new">With the exception of the two combinations of conditional headers listed above, a request may specify only a single conditional header.</target>
+          </trans-unit>
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Specifying more than one conditional header results in status code 400 (Bad Request).</source>
+            <target state="new">Specifying more than one conditional header results in status code 400 (Bad Request).</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>HTTP Response Codes for Operations Supporting Conditional Headers</source>
+            <target state="new">HTTP Response Codes for Operations Supporting Conditional Headers</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Batch service returns an HTTP response code in accordance with the HTTP/1.1 protocol specification (RFC 2616).</source>
+            <target state="new">Batch service returns an HTTP response code in accordance with the HTTP/1.1 protocol specification (RFC 2616).</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Read Operations</source>
+            <target state="new">Read Operations</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>The following table indicates the response codes returned for an unmet condition for each conditional header when the operation is a read operation.</source>
+            <target state="new">The following table indicates the response codes returned for an unmet condition for each conditional header when the operation is a read operation.</target>
+          </trans-unit>
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>Read operations use the verbs GET or HEAD.</source>
+            <target state="new">Read operations use the verbs GET or HEAD.</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Conditional header</source>
+            <target state="new">Conditional header</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>Response code if condition has not been met</source>
+            <target state="new">Response code if condition has not been met</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>If-Match</source>
+            <target state="new">If-Match</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>Precondition Failed (412)</source>
+            <target state="new">Precondition Failed (412)</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>If-None-Match</source>
+            <target state="new">If-None-Match</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Not Modified (304)</source>
+            <target state="new">Not Modified (304)</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>If-Modified-Since</source>
+            <target state="new">If-Modified-Since</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>Not Modified (304)</source>
+            <target state="new">Not Modified (304)</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>If-Unmodified-Since</source>
+            <target state="new">If-Unmodified-Since</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>Precondition Failed (412)</source>
+            <target state="new">Precondition Failed (412)</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Write Operations</source>
+            <target state="new">Write Operations</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>The following table indicates the response codes returned for an unmet condition for each conditional header when the operation is a write operation.</source>
+            <target state="new">The following table indicates the response codes returned for an unmet condition for each conditional header when the operation is a write operation.</target>
+          </trans-unit>
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Write operations use the verbs POST, PUT, PATCH or DELETE.</source>
+            <target state="new">Write operations use the verbs POST, PUT, PATCH or DELETE.</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>Conditional header</source>
+            <target state="new">Conditional header</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>Response code if condition has not been met</source>
+            <target state="new">Response code if condition has not been met</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>If-Match</source>
+            <target state="new">If-Match</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>Precondition Failed (412)</source>
+            <target state="new">Precondition Failed (412)</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>If-None-Match</source>
+            <target state="new">If-None-Match</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>Precondition Failed (412)</source>
+            <target state="new">Precondition Failed (412)</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>If-Modified-Since</source>
+            <target state="new">If-Modified-Since</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>Precondition Failed (412)</source>
+            <target state="new">Precondition Failed (412)</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>If-Unmodified-Since</source>
+            <target state="new">If-Unmodified-Since</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>Precondition Failed (412)</source>
+            <target state="new">Precondition Failed (412)</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

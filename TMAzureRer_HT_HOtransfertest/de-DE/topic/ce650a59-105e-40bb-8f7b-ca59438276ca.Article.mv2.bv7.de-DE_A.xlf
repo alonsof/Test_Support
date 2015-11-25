@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzNsJwzAMQNFVNIAE8tvudwsdoAvIjgSBNIE0gYzf/F4O1yxoj36QaowUnTF1rp0GO8mtmRNpCLWEwZ0nYp8DxeHzrRqT1+JkymxcE8LQnFhSI8dJKXLvVK3cr7vFUH3JQxAcwqT0fCFcy2ym1/HYt+1A8AgF4X1+Zf3ssv4WOeZt/QP+wI6SoQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Data Factory JSON Scripting Reference</source>
+            <target state="new">Data Factory JSON Scripting Reference</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>When creating an Azure data factory, you create <bpt id="1">&lt;embeddedLabel&gt;</bpt>linked services<ept id="1">&lt;/embeddedLabel&gt;</ept> for data stores and computes you will be using in the data factory, create <bpt id="2">&lt;embeddedLabel&gt;</bpt>datasets<ept id="2">&lt;/embeddedLabel&gt;</ept> to represent input and output data in the linked data stores, and then create a <bpt id="3">&lt;embeddedLabel&gt;</bpt>pipeline<ept id="3">&lt;/embeddedLabel&gt;</ept> with activities that use the data sets.</source>
+            <target state="new">When creating an Azure data factory, you create <bpt id="1">&lt;embeddedLabel&gt;</bpt>linked services<ept id="1">&lt;/embeddedLabel&gt;</ept> for data stores and computes you will be using in the data factory, create <bpt id="2">&lt;embeddedLabel&gt;</bpt>datasets<ept id="2">&lt;/embeddedLabel&gt;</ept> to represent input and output data in the linked data stores, and then create a <bpt id="3">&lt;embeddedLabel&gt;</bpt>pipeline<ept id="3">&lt;/embeddedLabel&gt;</ept> with activities that use the data sets.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>For a simple scenario of copying data from an Azure blob (source) to an Azure SQL database (sink) in a data factory, you do the following:</source>
+            <target state="new">For a simple scenario of copying data from an Azure blob (source) to an Azure SQL database (sink) in a data factory, you do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Create an Azure data factory using either the Azure Portal or Azure PowerShell.</source>
+            <target state="new">Create an Azure data factory using either the Azure Portal or Azure PowerShell.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Create two linked services for the input and output data stores: Azure Storage and Azure SQL database.</source>
+            <target state="new">Create two linked services for the input and output data stores: Azure Storage and Azure SQL database.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="3ac59458-eabd-4c21-8b5f-ab7a3f175a91" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure Storage Linked Service&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="366eef64-8bb2-4e1d-9ff2-b0a129a7710f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure SQL Linked Service&lt;/link&gt;</ph> topics for JSON schema to define these linked services.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="3ac59458-eabd-4c21-8b5f-ab7a3f175a91" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure Storage Linked Service&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="366eef64-8bb2-4e1d-9ff2-b0a129a7710f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure SQL Linked Service&lt;/link&gt;</ph> topics for JSON schema to define these linked services.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>You create the JSON snippet in the Data Factory Editor and deploy (or) create a JSON file and use it with the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>New-AzureDataFactoryLinkedService<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://msdn.microsoft.com/library/azure/dn820246.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> cmdlet to create the linked service..</source>
+            <target state="new">You create the JSON snippet in the Data Factory Editor and deploy (or) create a JSON file and use it with the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>New-AzureDataFactoryLinkedService<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://msdn.microsoft.com/library/azure/dn820246.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> cmdlet to create the linked service..</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Create two datasets, one for input and the other for output of the copy operation.</source>
+            <target state="new">Create two datasets, one for input and the other for output of the copy operation.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>See the <ph id="1">&lt;link xlink:href="271962fb-81a8-4008-8b46-a6f497457078" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Datasets&lt;/link&gt;</ph> topic for JSON schema to define datasets.</source>
+            <target state="new">See the <ph id="1">&lt;link xlink:href="271962fb-81a8-4008-8b46-a6f497457078" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Datasets&lt;/link&gt;</ph> topic for JSON schema to define datasets.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Note that <ph id="1">&lt;link xlink:href="88f04b09-891b-425b-9a4b-257bcc7e8fb4" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;TypeProperties Element&lt;/link&gt;</ph> in the dataset JSON contain different properties for different types of datasets.</source>
+            <target state="new">Note that <ph id="1">&lt;link xlink:href="88f04b09-891b-425b-9a4b-257bcc7e8fb4" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;TypeProperties Element&lt;/link&gt;</ph> in the dataset JSON contain different properties for different types of datasets.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>In this example, you will need to create datasets with location type set to: <ph id="1">&lt;link xlink:href="88f04b09-891b-425b-9a4b-257bcc7e8fb4#AzureBlob" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure Blob&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="88f04b09-891b-425b-9a4b-257bcc7e8fb4#AzureSQL" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure SQL Database&lt;/link&gt;</ph>.</source>
+            <target state="new">In this example, you will need to create datasets with location type set to: <ph id="1">&lt;link xlink:href="88f04b09-891b-425b-9a4b-257bcc7e8fb4#AzureBlob" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure Blob&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="88f04b09-891b-425b-9a4b-257bcc7e8fb4#AzureSQL" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure SQL Database&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Create the JSON snippet either in the Data Factory Editor and deploy (or) create a JSON file and use it with the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>New-AzureDataFactoryTable<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://msdn.microsoft.com/library/azure/dn835096.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> cmdlet to create a table (rectangular dataset with a schema).</source>
+            <target state="new">Create the JSON snippet either in the Data Factory Editor and deploy (or) create a JSON file and use it with the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>New-AzureDataFactoryTable<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://msdn.microsoft.com/library/azure/dn835096.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> cmdlet to create a table (rectangular dataset with a schema).</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Create a pipeline with a <ph id="1">&lt;link xlink:href="a063fce2-da3d-492a-8fae-6c92d22f7866" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Copy Activity&lt;/link&gt;</ph> with the above two data sets as input and output.</source>
+            <target state="new">Create a pipeline with a <ph id="1">&lt;link xlink:href="a063fce2-da3d-492a-8fae-6c92d22f7866" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Copy Activity&lt;/link&gt;</ph> with the above two data sets as input and output.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>See the <ph id="1">&lt;link xlink:href="c90a5779-eefe-473a-acfa-40934b50d0cc" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Pipelines and Activities&lt;/link&gt;</ph> topic for JSON schema for defining a pipeline.</source>
+            <target state="new">See the <ph id="1">&lt;link xlink:href="c90a5779-eefe-473a-acfa-40934b50d0cc" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Pipelines and Activities&lt;/link&gt;</ph> topic for JSON schema for defining a pipeline.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>For the copy activity JSON in the pipeline definition, use <ph id="1">&lt;link xlink:href="352a8dcf-36c3-4ee8-9d85-399a96e2e955#BlobSource" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;BlobSource&lt;/link&gt;</ph> as the source and <ph id="2">&lt;link xlink:href="352a8dcf-36c3-4ee8-9d85-399a96e2e955#BlobSink" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;BlobSink properties&lt;/link&gt;</ph> as the sink.</source>
+            <target state="new">For the copy activity JSON in the pipeline definition, use <ph id="1">&lt;link xlink:href="352a8dcf-36c3-4ee8-9d85-399a96e2e955#BlobSource" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;BlobSource&lt;/link&gt;</ph> as the source and <ph id="2">&lt;link xlink:href="352a8dcf-36c3-4ee8-9d85-399a96e2e955#BlobSink" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;BlobSink properties&lt;/link&gt;</ph> as the sink.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Create the JSON snippet either in the Data Factory Editor and deploy (or) create a JSON file and use it with the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>New-AzureDataFactoryPipeline<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://msdn.microsoft.com/library/azure/dn820227.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> cmdlet to create the pipeline.</source>
+            <target state="new">Create the JSON snippet either in the Data Factory Editor and deploy (or) create a JSON file and use it with the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>New-AzureDataFactoryPipeline<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://msdn.microsoft.com/library/azure/dn820227.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> cmdlet to create the pipeline.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="bb089bf5-9c10-4c0b-97f2-146b2f5efb8a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Examples&lt;/link&gt;</ph> for JSON examples of using a Copy Activity in a pipeline.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="bb089bf5-9c10-4c0b-97f2-146b2f5efb8a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Examples&lt;/link&gt;</ph> for JSON examples of using a Copy Activity in a pipeline.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The following table provides you the set of data stores supported by the Azure Data Factory service and the types of entities (linked service, table location, source/sink in pipelines) in JSON definitions.</source>
+            <target state="new">The following table provides you the set of data stores supported by the Azure Data Factory service and the types of entities (linked service, table location, source/sink in pipelines) in JSON definitions.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Data Store</source>
+            <target state="new">Data Store</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Linked service type in JSON</source>
+            <target state="new">Linked service type in JSON</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Dataset type in JSON</source>
+            <target state="new">Dataset type in JSON</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Source type in pipeline/copy activity JSON</source>
+            <target state="new">Source type in pipeline/copy activity JSON</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Sink type in pipeline/copy activity JSON</source>
+            <target state="new">Sink type in pipeline/copy activity JSON</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Azure Storage</source>
+            <target state="new">Azure Storage</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="3ac59458-eabd-4c21-8b5f-ab7a3f175a91" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;AzureStorage&lt;/link&gt;</ph> (AzureStorage)</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="3ac59458-eabd-4c21-8b5f-ab7a3f175a91" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;AzureStorage&lt;/link&gt;</ph> (AzureStorage)</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="88f04b09-891b-425b-9a4b-257bcc7e8fb4#AzureBlob" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;AzureBlob&lt;/link&gt;</ph><bpt id="2">&lt;br &gt;</bpt><ept id="2">&lt;/br&gt;</ept><ph id="3">&lt;link xlink:href="88f04b09-891b-425b-9a4b-257bcc7e8fb4#AzureTable" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;AzureTable&lt;/link&gt;</ph> </source>
+            <target state="new"><ph id="1">&lt;link xlink:href="88f04b09-891b-425b-9a4b-257bcc7e8fb4#AzureBlob" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;AzureBlob&lt;/link&gt;</ph><bpt id="2">&lt;br &gt;</bpt><ept id="2">&lt;/br&gt;</ept><ph id="3">&lt;link xlink:href="88f04b09-891b-425b-9a4b-257bcc7e8fb4#AzureTable" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;AzureTable&lt;/link&gt;</ph> </target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="352a8dcf-36c3-4ee8-9d85-399a96e2e955#BlobSource" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;BlobSource&lt;/link&gt;</ph> or <ph id="2">&lt;link xlink:href="352a8dcf-36c3-4ee8-9d85-399a96e2e955#TableSource" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;AzureTableSource&lt;/link&gt;</ph></source>
+            <target state="new"><ph id="1">&lt;link xlink:href="352a8dcf-36c3-4ee8-9d85-399a96e2e955#BlobSource" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;BlobSource&lt;/link&gt;</ph> or <ph id="2">&lt;link xlink:href="352a8dcf-36c3-4ee8-9d85-399a96e2e955#TableSource" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;AzureTableSource&lt;/link&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="352a8dcf-36c3-4ee8-9d85-399a96e2e955#BlobSink" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;BlobSink&lt;/link&gt;</ph> or <ph id="2">&lt;link xlink:href="352a8dcf-36c3-4ee8-9d85-399a96e2e955#TableSink" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;AzureTableSink&lt;/link&gt;</ph></source>
+            <target state="new"><ph id="1">&lt;link xlink:href="352a8dcf-36c3-4ee8-9d85-399a96e2e955#BlobSink" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;BlobSink&lt;/link&gt;</ph> or <ph id="2">&lt;link xlink:href="352a8dcf-36c3-4ee8-9d85-399a96e2e955#TableSink" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;AzureTableSink&lt;/link&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Azure SQL</source>
+            <target state="new">Azure SQL</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="366eef64-8bb2-4e1d-9ff2-b0a129a7710f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;AzureSqlDatabase&lt;/link&gt;</ph>(AzureSqlDatabase)</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="366eef64-8bb2-4e1d-9ff2-b0a129a7710f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;AzureSqlDatabase&lt;/link&gt;</ph>(AzureSqlDatabase)</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Azure DocumentDB</source>
+            <target state="new">Azure DocumentDB</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="6ebdea1d-fe37-4463-9dae-f40c2405df4f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;DocumentDb&lt;/link&gt;</ph> (DocumentDb)</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="6ebdea1d-fe37-4463-9dae-f40c2405df4f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;DocumentDb&lt;/link&gt;</ph> (DocumentDb)</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>On-premises SQL Server</source>
+            <target state="new">On-premises SQL Server</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="6d25308b-b9c3-414f-98d4-a1abd72e13ea" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OnPremisesSqlServer&lt;/link&gt;</ph> (OnPremisesSqlServer)</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="6d25308b-b9c3-414f-98d4-a1abd72e13ea" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OnPremisesSqlServer&lt;/link&gt;</ph> (OnPremisesSqlServer)</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>On-premises Oracle</source>
+            <target state="new">On-premises Oracle</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="06ea2928-7b43-4358-b508-5774ace47120" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OnPremisesOracle&lt;/link&gt;</ph> (OnPremisesOracle)</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="06ea2928-7b43-4358-b508-5774ace47120" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OnPremisesOracle&lt;/link&gt;</ph> (OnPremisesOracle)</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Not supported.</source>
+            <target state="new">Not supported.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>On-premises MySQL</source>
+            <target state="new">On-premises MySQL</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="72503351-a72a-4a8c-8c80-22947856d569" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OnPremisesMySql&lt;/link&gt;</ph> (OnPremisesMySql)</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="72503351-a72a-4a8c-8c80-22947856d569" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OnPremisesMySql&lt;/link&gt;</ph> (OnPremisesMySql)</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Not supported.</source>
+            <target state="new">Not supported.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>On-premises DB2</source>
+            <target state="new">On-premises DB2</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="30cdc291-9599-40fc-b0b9-f7ae46de4438" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OnPremisesDb2&lt;/link&gt;</ph> (OnPremisesDb2)</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="30cdc291-9599-40fc-b0b9-f7ae46de4438" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OnPremisesDb2&lt;/link&gt;</ph> (OnPremisesDb2)</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Not supported.</source>
+            <target state="new">Not supported.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>On-premises Teradata</source>
+            <target state="new">On-premises Teradata</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="89c138f7-5f15-4e7e-a2da-1cb8781c4634" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OnPremisesTeradata&lt;/link&gt;</ph> (OnPremisesTeradata)</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="89c138f7-5f15-4e7e-a2da-1cb8781c4634" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OnPremisesTeradata&lt;/link&gt;</ph> (OnPremisesTeradata)</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Not supported.</source>
+            <target state="new">Not supported.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>On-premises Sybase</source>
+            <target state="new">On-premises Sybase</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="0a718ef8-401a-4582-ab2e-b23b028810e7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OnPremisesSybase&lt;/link&gt;</ph> (OnPremisesSybase)</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="0a718ef8-401a-4582-ab2e-b23b028810e7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OnPremisesSybase&lt;/link&gt;</ph> (OnPremisesSybase)</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Not supported.</source>
+            <target state="new">Not supported.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>On-premises PostgreSQL</source>
+            <target state="new">On-premises PostgreSQL</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="7ec7e66d-b168-43df-a18c-a638312f8690" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OnPremisesPostgreSql&lt;/link&gt;</ph> (OnPremisesPostgreSql</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="7ec7e66d-b168-43df-a18c-a638312f8690" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OnPremisesPostgreSql&lt;/link&gt;</ph> (OnPremisesPostgreSql</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Not supported.</source>
+            <target state="new">Not supported.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>On-premises File System</source>
+            <target state="new">On-premises File System</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="73e627c8-6263-4373-a350-efe4bf75f5c5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OnPremisesFileSystemLinkedService&lt;/link&gt;</ph> (OnPremisesFileSystemLinkedService)</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="73e627c8-6263-4373-a350-efe4bf75f5c5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OnPremisesFileSystemLinkedService&lt;/link&gt;</ph> (OnPremisesFileSystemLinkedService)</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>FileSystemSource<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>FileSystemSource<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="352a8dcf-36c3-4ee8-9d85-399a96e2e955" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Supported Sources and Sinks&lt;/link&gt;</ph> for details</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="352a8dcf-36c3-4ee8-9d85-399a96e2e955" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Supported Sources and Sinks&lt;/link&gt;</ph> for details</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Not supported.</source>
+            <target state="new">Not supported.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>In This Section</source>
+            <target state="new">In This Section</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Topics in this section describe the JSON format for describing Azure Data Factory entities.</source>
+            <target state="new">Topics in this section describe the JSON format for describing Azure Data Factory entities.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

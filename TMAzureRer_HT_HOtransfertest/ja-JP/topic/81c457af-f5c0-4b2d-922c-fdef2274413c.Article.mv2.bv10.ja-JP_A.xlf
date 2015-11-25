@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ja-JP" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzMEJwzAMQNFVPIAEliIndicoPfXQBWRHgpQ0gTSFjF//64PvPlgVbmgmgkIescZcsUXSsRQn1QIh1d6cCYuboaSRsFpibAO7keTa0gQhU5M0qaOnFlEqz1i4r302Z55EaGgQCMJb8fGEcK2Lu13n7dj3EwJ3ixDuv49ur0O376rnsm9/exn2rqIAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Learning with Counts</source>
+            <target state="new">Learning with Counts</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Data Transformation / Learning with Counts</source>
+            <target state="new">Data Transformation / Learning with Counts</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Learning with counts is an efficient way to create a compact set of features for a dataset, based on counts of the values.</source>
+            <target state="new">Learning with counts is an efficient way to create a compact set of features for a dataset, based on counts of the values.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>You can use the modules in this section to build a set of counts and features, and later update the counts and the features to take advantage of new data, or merge two sets of count data.</source>
+            <target state="new">You can use the modules in this section to build a set of counts and features, and later update the counts and the features to take advantage of new data, or merge two sets of count data.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The basic idea underlying <bpt id="1">&lt;newTerm&gt;</bpt>count-based featurization<ept id="1">&lt;/newTerm&gt;</ept> is simple: by calculating counts, you can quickly and easily get a summary of what columns contain the most important information.</source>
+            <target state="new">The basic idea underlying <bpt id="1">&lt;newTerm&gt;</bpt>count-based featurization<ept id="1">&lt;/newTerm&gt;</ept> is simple: by calculating counts, you can quickly and easily get a summary of what columns contain the most important information.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Bascially, you count the number of times a value appears, and then use that information as a feature for input to a model.</source>
+            <target state="new">Bascially, you count the number of times a value appears, and then use that information as a feature for input to a model.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Example of Count-Based Learning</source>
+            <target state="new">Example of Count-Based Learning</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Imagine you’re trying to validate a credit card transaction.</source>
+            <target state="new">Imagine you’re trying to validate a credit card transaction.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>One crucial piece of information is where this transaction came from, and one of the most common encodings of that location is the postal code.</source>
+            <target state="new">One crucial piece of information is where this transaction came from, and one of the most common encodings of that location is the postal code.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>However, there might be as many as 40,000 postal codes, zip codes, and geographical codes to account for.</source>
+            <target state="new">However, there might be as many as 40,000 postal codes, zip codes, and geographical codes to account for.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Does your model have the capacity to learn 40,000 more parameters?</source>
+            <target state="new">Does your model have the capacity to learn 40,000 more parameters?</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>If you give it that capacity, do you now have enough training data to prevent it from overfitting?</source>
+            <target state="new">If you give it that capacity, do you now have enough training data to prevent it from overfitting?</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>If you had really good data with lots of samples, such fine-grained local granularity could be quite powerful.</source>
+            <target state="new">If you had really good data with lots of samples, such fine-grained local granularity could be quite powerful.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>However, if you have only one sample of a fraudulent transaction from a small locality, does it mean that all of the transactions from that place are bad, or that you don’t have enough data?</source>
+            <target state="new">However, if you have only one sample of a fraudulent transaction from a small locality, does it mean that all of the transactions from that place are bad, or that you don’t have enough data?</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>One solution to this conundrum is to learn with counts.</source>
+            <target state="new">One solution to this conundrum is to learn with counts.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>That is, rather than introduce 40,000 more features, you can observe the counts and proportions of fraud for each postal code.</source>
+            <target state="new">That is, rather than introduce 40,000 more features, you can observe the counts and proportions of fraud for each postal code.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>By using these counts as features, you gain a notion of the strength of the evidence for each value.</source>
+            <target state="new">By using these counts as features, you gain a notion of the strength of the evidence for each value.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Moreover, by encoding the relevant statistics of the counts, the learner can use the statistics to decide when to back off and use other features.</source>
+            <target state="new">Moreover, by encoding the relevant statistics of the counts, the learner can use the statistics to decide when to back off and use other features.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Count-based learning is very attractive for many reasons: You have fewer features, requiring fewer parameters, which makes for faster learning, faster prediction, smaller predictors, and less potential to overfit.</source>
+            <target state="new">Count-based learning is very attractive for many reasons: You have fewer features, requiring fewer parameters, which makes for faster learning, faster prediction, smaller predictors, and less potential to overfit.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>How Counts are Created</source>
+            <target state="new">How Counts are Created</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>An example might help to demonstrate how count-based features are created and applied.</source>
+            <target state="new">An example might help to demonstrate how count-based features are created and applied.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>This example is highly simplified, to give you an idea of the overall process, and how to use and interpret count-based features.</source>
+            <target state="new">This example is highly simplified, to give you an idea of the overall process, and how to use and interpret count-based features.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Suppose you have a table like this, with labels and inputs</source>
+            <target state="new">Suppose you have a table like this, with labels and inputs</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Label column</source>
+            <target state="new">Label column</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Input value</source>
+            <target state="new">Input value</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>A</source>
+            <target state="new">A</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>A</source>
+            <target state="new">A</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>A</source>
+            <target state="new">A</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>B</source>
+            <target state="new">B</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>B</source>
+            <target state="new">B</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>B</source>
+            <target state="new">B</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>B</source>
+            <target state="new">B</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Here is how count-based features are created:</source>
+            <target state="new">Here is how count-based features are created:</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Each case (or row, or sample) has a set of values in columns.</source>
+            <target state="new">Each case (or row, or sample) has a set of values in columns.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Here, the values are A, B, and so forth.</source>
+            <target state="new">Here, the values are A, B, and so forth.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>For a particular set of values, you find all the other cases in that dataset that have the same value.</source>
+            <target state="new">For a particular set of values, you find all the other cases in that dataset that have the same value.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>In this case, there are three instances of A and four of B.</source>
+            <target state="new">In this case, there are three instances of A and four of B.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Next, you count their class memberships as features in themselves.</source>
+            <target state="new">Next, you count their class memberships as features in themselves.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>In this case, you get a small matrix, in which there are 1 cases where A=0, 1 case where A = 1, 1 case where B= 0, and 3 cases where B = 1.</source>
+            <target state="new">In this case, you get a small matrix, in which there are 1 cases where A=0, 1 case where A = 1, 1 case where B= 0, and 3 cases where B = 1.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>When you create features based on this matrix, you get a variety of count-based features, including a calculation of the log-odds ratio as well as the counts for each target class:</source>
+            <target state="new">When you create features based on this matrix, you get a variety of count-based features, including a calculation of the log-odds ratio as well as the counts for each target class:</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Label</source>
+            <target state="new">Label</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>0_0_Class000_Count</source>
+            <target state="new">0_0_Class000_Count</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>0_0_Class001_Count</source>
+            <target state="new">0_0_Class001_Count</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>0_0_Class000_LogOdds</source>
+            <target state="new">0_0_Class000_LogOdds</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>0_0_IsBackoff</source>
+            <target state="new">0_0_IsBackoff</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>2</source>
+            <target state="new">2</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>0.510826</source>
+            <target state="new">0.510826</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>2</source>
+            <target state="new">2</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>0.510826</source>
+            <target state="new">0.510826</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>2</source>
+            <target state="new">2</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>0.510826</source>
+            <target state="new">0.510826</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>3</source>
+            <target state="new">3</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>-0.8473</source>
+            <target state="new">-0.8473</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>3</source>
+            <target state="new">3</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>-0.8473</source>
+            <target state="new">-0.8473</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>3</source>
+            <target state="new">3</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>-0.8473</source>
+            <target state="new">-0.8473</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>3</source>
+            <target state="new">3</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>-0.8473</source>
+            <target state="new">-0.8473</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>List of Modules</source>
+            <target state="new">List of Modules</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>The Learning with Counts category includes the following modules: </source>
+            <target state="new">The Learning with Counts category includes the following modules: </target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Module</source>
+            <target state="new">Module</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Creates a count table and count-based features from a dataset, and saves it as a transformation</source>
+            <target state="new">Creates a count table and count-based features from a dataset, and saves it as a transformation</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Exports count table from a counting transform</source>
+            <target state="new">Exports count table from a counting transform</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>This module supports backward compatibility with experiments that create count-based features using <ph id="1">&lt;link xlink:href="166586ff-5bba-46a9-b469-20179f179b6c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Build count table&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="217741b5-730a-4c4b-839c-93c9cbb80ae7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Count Featurizer&lt;/link&gt;</ph>.</source>
+            <target state="new">This module supports backward compatibility with experiments that create count-based features using <ph id="1">&lt;link xlink:href="166586ff-5bba-46a9-b469-20179f179b6c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Build count table&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="217741b5-730a-4c4b-839c-93c9cbb80ae7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Count Featurizer&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Imports an existing count table</source>
+            <target state="new">Imports an existing count table</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>This module supports backward compatibility with experiments that create count-based features using <ph id="1">&lt;link xlink:href="166586ff-5bba-46a9-b469-20179f179b6c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Build count table&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="217741b5-730a-4c4b-839c-93c9cbb80ae7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Count Featurizer&lt;/link&gt;</ph>.</source>
+            <target state="new">This module supports backward compatibility with experiments that create count-based features using <ph id="1">&lt;link xlink:href="166586ff-5bba-46a9-b469-20179f179b6c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Build count table&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="217741b5-730a-4c4b-839c-93c9cbb80ae7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Count Featurizer&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>It supports conversion of count tables to count transformations.</source>
+            <target state="new">It supports conversion of count tables to count transformations.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Merges two sets of count-based features</source>
+            <target state="new">Merges two sets of count-based features</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Modifies count-based features derived from an existing count table</source>
+            <target state="new">Modifies count-based features derived from an existing count table</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-TW" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAFwVEKwjAMANCr5AAJpF2atp7AAwz8TrsGB3MDnTA8ve+5T6NJ7DSGCElwpsalUedgWqsHs4qgObekPdOSI5MMTVQ9M1lLNfTuxcOEYMIxNmEq0pVEQ6OiMshSXeIycWYdCAHh96T5gXBtq/u4ztv7OE6EiJAQ7t+X7fPb9s9m53rsf86NOeahAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Certificates</source>
+            <target state="new">Certificates</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Certificates</source>
+            <target state="new">Certificates</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>The Batch service can install user provided certificates on compute nodes in order to authenticate operations, perform encryption and decryption, etc.</source>
+            <target state="new">The Batch service can install user provided certificates on compute nodes in order to authenticate operations, perform encryption and decryption, etc.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>A typical use of certificates is to encrypt user secret information.</source>
+            <target state="new">A typical use of certificates is to encrypt user secret information.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The user creates a certificate, adds it to the Batch account (via the Add a certificate API) and associates it with the pool where the information is going to be used (via the Add a pool API).</source>
+            <target state="new">The user creates a certificate, adds it to the Batch account (via the Add a certificate API) and associates it with the pool where the information is going to be used (via the Add a pool API).</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>The user then encrypts the secrets using the certificate, and passes them to a task either as a command line parameter or in one of the resource files.</source>
+            <target state="new">The user then encrypts the secrets using the certificate, and passes them to a task either as a command line parameter or in one of the resource files.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The task program has access to the certificate, and can use it to decrypt the secrets.</source>
+            <target state="new">The task program has access to the certificate, and can use it to decrypt the secrets.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>A common example of a user secret is an Azure Storage account key, where the user wants the task to download data from a storage account.</source>
+            <target state="new">A common example of a user secret is an Azure Storage account key, where the user wants the task to download data from a storage account.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The Add a certificate API can be used to add a certificate to an account.</source>
+            <target state="new">The Add a certificate API can be used to add a certificate to an account.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>The user can then refer to the certificate when creating a new pool, or can update an existing pool to refer to the new certificate.</source>
+            <target state="new">The user can then refer to the certificate when creating a new pool, or can update an existing pool to refer to the new certificate.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The Batch service then installs the referenced certificates on each node of the pool.</source>
+            <target state="new">The Batch service then installs the referenced certificates on each node of the pool.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>You can do the following with certificates:</source>
+            <target state="new">You can do the following with certificates:</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANjMEJwzAMAFfxABbYsuLY/Rf6bxeQFQkCaQKJCxm/huM+B2eWtBEKqBIBRQvQQmkgIXKu1SJz9U7mio0KA80lAkmeoKVEUFNNU83IEs07w8x5SQIFhyhEBcZZIYwR81JsKeJd9E4veL69u7fVTO/+OI+je4eDEV+/L++fk/dr474e+x+bfvvOogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Update Index</source>
+            <target state="new">Update Index</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Update Index (Azure Search Service REST API)</source>
+            <target state="new">Update Index (Azure Search Service REST API)</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>You can update an existing index within Azure Search using an HTTP PUT request.</source>
+            <target state="new">You can update an existing index within Azure Search using an HTTP PUT request.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Updates can include adding new fields to the existing schema, modifying CORS options, and modifying scoring profiles (see <ph id="1">&lt;link xlink:href="719b924e-6d8a-43c1-b7b0-827487020e3a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Add scoring profiles to a search index (Azure Search API)&lt;/link&gt;</ph> for more information).</source>
+            <target state="new">Updates can include adding new fields to the existing schema, modifying CORS options, and modifying scoring profiles (see <ph id="1">&lt;link xlink:href="719b924e-6d8a-43c1-b7b0-827487020e3a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Add scoring profiles to a search index (Azure Search API)&lt;/link&gt;</ph> for more information).</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You can specify the name of the index to update on the request URI.</source>
+            <target state="new">You can specify the name of the index to update on the request URI.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Support for index schema updates is limited to operations that don't require rebuilding the search index.</source>
+            <target state="new">Support for index schema updates is limited to operations that don't require rebuilding the search index.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Any changes that require re-indexing, such as changing field types, are not currently supported.</source>
+            <target state="new">Any changes that require re-indexing, such as changing field types, are not currently supported.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>New fields can be added at any time, although existing fields cannot be changed or deleted.</source>
+            <target state="new">New fields can be added at any time, although existing fields cannot be changed or deleted.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The same applies to <ph id="1">&lt;languageKeyword&gt;suggesters&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">The same applies to <ph id="1">&lt;languageKeyword&gt;suggesters&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>New fields may be added to <ph id="1">&lt;languageKeyword&gt;suggesters&lt;/languageKeyword&gt;</ph> at the time the fields are added, but fields cannot be removed from <ph id="2">&lt;languageKeyword&gt;suggesters&lt;/languageKeyword&gt;</ph> and existing fields cannot be added.</source>
+            <target state="new">New fields may be added to <ph id="1">&lt;languageKeyword&gt;suggesters&lt;/languageKeyword&gt;</ph> at the time the fields are added, but fields cannot be removed from <ph id="2">&lt;languageKeyword&gt;suggesters&lt;/languageKeyword&gt;</ph> and existing fields cannot be added.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>For more information on <ph id="1">&lt;languageKeyword&gt;suggesters&lt;/languageKeyword&gt;</ph>, see <ph id="2">&lt;link xlink:href="ecafed05-c746-4d9e-ac8e-653066e909b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create Index (Azure Search Service REST API)&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information on <ph id="1">&lt;languageKeyword&gt;suggesters&lt;/languageKeyword&gt;</ph>, see <ph id="2">&lt;link xlink:href="ecafed05-c746-4d9e-ac8e-653066e909b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create Index (Azure Search Service REST API)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>When adding a new field to an index, all existing documents in the index be automatically have a null value for that field.</source>
+            <target state="new">When adding a new field to an index, all existing documents in the index be automatically have a null value for that field.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>No additional storage space will be consumed until new documents are added to the index.</source>
+            <target state="new">No additional storage space will be consumed until new documents are added to the index.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Request</source>
+            <target state="new">Request</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>HTTPS is required for all service requests.</source>
+            <target state="new">HTTPS is required for all service requests.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;languageKeyword&gt;Update Index&lt;/languageKeyword&gt;</ph> request is constructed using HTTP PUT.</source>
+            <target state="new">The <ph id="1">&lt;languageKeyword&gt;Update Index&lt;/languageKeyword&gt;</ph> request is constructed using HTTP PUT.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>With PUT, the index name is part of the URL.</source>
+            <target state="new">With PUT, the index name is part of the URL.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>If the index doesn't exist, it is created.</source>
+            <target state="new">If the index doesn't exist, it is created.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>If it already exists, it is updated to the new definition.</source>
+            <target state="new">If it already exists, it is updated to the new definition.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>The index name must be lower case, start with a letter or number, have no slashes or dots, and be less than 128 characters.</source>
+            <target state="new">The index name must be lower case, start with a letter or number, have no slashes or dots, and be less than 128 characters.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>After starting the index name with a letter or number, the rest of the name can include any letter, number and dashes, as long as the dashes are not consecutive.</source>
+            <target state="new">After starting the index name with a letter or number, the rest of the name can include any letter, number and dashes, as long as the dashes are not consecutive.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeInline&gt;api-version&lt;/codeInline&gt;</ph> parameter is required.</source>
+            <target state="new">The <ph id="1">&lt;codeInline&gt;api-version&lt;/codeInline&gt;</ph> parameter is required.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>The current version is <ph id="1">&lt;codeInline&gt;api-version=2015-02-28&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">The current version is <ph id="1">&lt;codeInline&gt;api-version=2015-02-28&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="62ffee0b-ae3b-46c1-9ddb-a372d21c6f4d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Versions of the Azure Search Service REST API&lt;/link&gt;</ph> for details and alternative versions.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="62ffee0b-ae3b-46c1-9ddb-a372d21c6f4d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Versions of the Azure Search Service REST API&lt;/link&gt;</ph> for details and alternative versions.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Request Headers</source>
+            <target state="new">Request Headers</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>The following table describes the required and optional request headers.</source>
+            <target state="new">The following table describes the required and optional request headers.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Request Header</source>
+            <target state="new">Request Header</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Set this to <ph id="1">&lt;codeInline&gt;application/json&lt;/codeInline&gt;</ph></source>
+            <target state="new">Set this to <ph id="1">&lt;codeInline&gt;application/json&lt;/codeInline&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeInline&gt;api-key&lt;/codeInline&gt;</ph> is used to authenticate the request to your Search service.</source>
+            <target state="new">The <ph id="1">&lt;codeInline&gt;api-key&lt;/codeInline&gt;</ph> is used to authenticate the request to your Search service.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>It is a string value, unique to your service.</source>
+            <target state="new">It is a string value, unique to your service.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;languageKeyword&gt;Update Index&lt;/languageKeyword&gt;</ph> request must include an <ph id="2">&lt;codeInline&gt;api-key&lt;/codeInline&gt;</ph> header set to your admin key (as opposed to a query key).</source>
+            <target state="new">The <ph id="1">&lt;languageKeyword&gt;Update Index&lt;/languageKeyword&gt;</ph> request must include an <ph id="2">&lt;codeInline&gt;api-key&lt;/codeInline&gt;</ph> header set to your admin key (as opposed to a query key).</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>You will also need the service name to construct the request URL.</source>
+            <target state="new">You will also need the service name to construct the request URL.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>You can get the service name and <ph id="1">&lt;codeInline&gt;api-key&lt;/codeInline&gt;</ph> from your service dashboard in the Azure Portal.</source>
+            <target state="new">You can get the service name and <ph id="1">&lt;codeInline&gt;api-key&lt;/codeInline&gt;</ph> from your service dashboard in the Azure Portal.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>See <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Create an Azure Search service in the portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/en-us/documentation/articles/search-create-service-portal/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for page navigation help.</source>
+            <target state="new">See <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Create an Azure Search service in the portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/en-us/documentation/articles/search-create-service-portal/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for page navigation help.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Request Body Syntax</source>
+            <target state="new">Request Body Syntax</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>When updating an existing index, the body must include the original schema definition, plus the new fields you are adding, as well as the modified scoring profiles and CORS options, if any.</source>
+            <target state="new">When updating an existing index, the body must include the original schema definition, plus the new fields you are adding, as well as the modified scoring profiles and CORS options, if any.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>If you are not modifying the scoring profiles and CORS options, you must include the original values from when the index was created.</source>
+            <target state="new">If you are not modifying the scoring profiles and CORS options, you must include the original values from when the index was created.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>In general, the best pattern to use for updates is to retrieve the index definition with a GET, modify it, and then update it with PUT.</source>
+            <target state="new">In general, the best pattern to use for updates is to retrieve the index definition with a GET, modify it, and then update it with PUT.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>The schema syntax used to create an index is reproduced here for convenience.</source>
+            <target state="new">The schema syntax used to create an index is reproduced here for convenience.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="ecafed05-c746-4d9e-ac8e-653066e909b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create Index (Azure Search API)&lt;/link&gt;</ph> for more details.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="ecafed05-c746-4d9e-ac8e-653066e909b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create Index (Azure Search API)&lt;/link&gt;</ph> for more details.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Response</source>
+            <target state="new">Response</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>For a successful request, you should see "204 No Content".</source>
+            <target state="new">For a successful request, you should see "204 No Content".</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>By default the response body will be empty.</source>
+            <target state="new">By default the response body will be empty.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>However, if the <ph id="1">&lt;codeInline&gt;Prefer&lt;/codeInline&gt;</ph> request header is set to <ph id="2">&lt;codeInline&gt;return=representation&lt;/codeInline&gt;</ph>, the response body will contain the JSON for the index definition that was updated.</source>
+            <target state="new">However, if the <ph id="1">&lt;codeInline&gt;Prefer&lt;/codeInline&gt;</ph> request header is set to <ph id="2">&lt;codeInline&gt;return=representation&lt;/codeInline&gt;</ph>, the response body will contain the JSON for the index definition that was updated.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>In this case, the success status code will be "200 OK.</source>
+            <target state="new">In this case, the success status code will be "200 OK.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Azure Search .NET SDK</source>
+            <target state="new">Azure Search .NET SDK</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

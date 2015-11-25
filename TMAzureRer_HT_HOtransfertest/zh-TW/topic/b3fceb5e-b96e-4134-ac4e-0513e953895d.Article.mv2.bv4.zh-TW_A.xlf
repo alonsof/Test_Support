@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-TW" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAVzFEKwjAMANCr5AAJNGtaW0/gAQZ+p12Cg7nBnDA8vXqA99yjNRk6mYmQsAdqoTTqgTXX6qxaETIX7VObaLiYkoTqVOqQ/sgsZOfOBaFF79aSUavZflcU0i5GIXG0mmKpaUJghM+DxjvCuczudh7XfdsOhAFBEG7vp67jrutr0WPe1i+9yGkOoQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Migrate a Mobile Service to use Notification Hubs</source>
+            <target state="new">Migrate a Mobile Service to use Notification Hubs</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Your <ph id="1">&lt;token&gt;firstref_zumo&lt;/token&gt;</ph> app uses a series of Node.js modules to send push notifications to the various platforms:</source>
+            <target state="new">Your <ph id="1">&lt;token&gt;firstref_zumo&lt;/token&gt;</ph> app uses a series of Node.js modules to send push notifications to the various platforms:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>APN<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://www.npmjs.org/package/apn&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (for iOS)</source>
+            <target state="new"><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>APN<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://www.npmjs.org/package/apn&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (for iOS)</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>WNS<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://www.npmjs.org/package/wns&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (for Windows Store)</source>
+            <target state="new"><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>WNS<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://www.npmjs.org/package/wns&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (for Windows Store)</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Dpush<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://www.npmjs.org/package/dpush&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (for Android)</source>
+            <target state="new"><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Dpush<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://www.npmjs.org/package/dpush&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (for Android)</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>MPNS<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://www.npmjs.org/package/mpns&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (for Windows Phone)</source>
+            <target state="new"><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>MPNS<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://www.npmjs.org/package/mpns&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (for Windows Phone)</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>These modules are accessed through the push object, in which <ph id="1">&lt;token&gt;nextref_zumo&lt;/token&gt;</ph> instantiates them with the credentials configured in the portal.</source>
+            <target state="new">These modules are accessed through the push object, in which <ph id="1">&lt;token&gt;nextref_zumo&lt;/token&gt;</ph> instantiates them with the credentials configured in the portal.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>When you upgrade to push notifications powered by Notification Hubs, your mobile service has the following major differences:</source>
+            <target state="new">When you upgrade to push notifications powered by Notification Hubs, your mobile service has the following major differences:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The push object is an instance of <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>NotificationHubService<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://dl.windowsazure.com/nodedocs/NotificationHubService.html&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> from the Windows Azure SDK for Node.js.</source>
+            <target state="new">The push object is an instance of <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>NotificationHubService<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://dl.windowsazure.com/nodedocs/NotificationHubService.html&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> from the Windows Azure SDK for Node.js.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>This instance is configured to connect with the hub that has been created for your Mobile Service and that contains all the required push credentials (still configured through the portal).</source>
+            <target state="new">This instance is configured to connect with the hub that has been created for your Mobile Service and that contains all the required push credentials (still configured through the portal).</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The only difference is that the callback parameter is changed to follow the Mobile Services convention of separated success and error callbacks.</source>
+            <target state="new">The only difference is that the callback parameter is changed to follow the Mobile Services convention of separated success and error callbacks.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>While the methods to send push notifications are very similar to the previously  mentioned node, <ph id="1">&lt;languageKeyword&gt;modulespreviNotificationHubs&lt;/languageKeyword&gt;</ph> does not allow you to send to a platform-specific handle (for example, ChannelURIs, device tokens, or registrationids); rather it requires you to specify a target tag, that is obtained when a device registers.</source>
+            <target state="new">While the methods to send push notifications are very similar to the previously  mentioned node, <ph id="1">&lt;languageKeyword&gt;modulespreviNotificationHubs&lt;/languageKeyword&gt;</ph> does not allow you to send to a platform-specific handle (for example, ChannelURIs, device tokens, or registrationids); rather it requires you to specify a target tag, that is obtained when a device registers.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>For more information about tags, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>this article<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/windowsazure/dn530749.aspx?cs-save-lang=1%%amp;amp;cs-lang=javascript&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information about tags, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>this article<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/windowsazure/dn530749.aspx?cs-save-lang=1%%amp;amp;cs-lang=javascript&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Comparison of a push design with and without Notification Hubs</source>
+            <target state="new">Comparison of a push design with and without Notification Hubs</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The following table proposes a set of analogies that helps to translate a design that uses MS push without Notification Hubs, to a design that does make use of it.</source>
+            <target state="new">The following table proposes a set of analogies that helps to translate a design that uses MS push without Notification Hubs, to a design that does make use of it.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Most importantly, no Channels table is needed.</source>
+            <target state="new">Most importantly, no Channels table is needed.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>MS without Notification Hub</source>
+            <target state="new">MS without Notification Hub</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>MS with Notification Hub</source>
+            <target state="new">MS with Notification Hub</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Notes</source>
+            <target state="new">Notes</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Insert in Channels table</source>
+            <target state="new">Insert in Channels table</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Register from the client SDK</source>
+            <target state="new">Register from the client SDK</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>MS will register the device into the hub and automatically add the client’s installation ID to the tags</source>
+            <target state="new">MS will register the device into the hub and automatically add the client’s installation ID to the tags</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Push to channel</source>
+            <target state="new">Push to channel</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Push to installation_id tag</source>
+            <target state="new">Push to installation_id tag</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Query to get the target channels (e.g. find all CannelURIs of people interested in Yankees updates)</source>
+            <target state="new">Query to get the target channels (e.g. find all CannelURIs of people interested in Yankees updates)</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Add/remove tags to device registrations, in one of two ways:</source>
+            <target state="new">Add/remove tags to device registrations, in one of two ways:</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>If it depends on the client, call Register again (note that all tags are going to be overwritten)</source>
+            <target state="new">If it depends on the client, call Register again (note that all tags are going to be overwritten)</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>If it must occur in a script, use the push object to obtain the registration (using the <ph id="1">&lt;languageKeyword&gt;installation_id&lt;/languageKeyword&gt;</ph> tag) add/remove tags and then update</source>
+            <target state="new">If it must occur in a script, use the push object to obtain the registration (using the <ph id="1">&lt;languageKeyword&gt;installation_id&lt;/languageKeyword&gt;</ph> tag) add/remove tags and then update</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Note that when the query is very dynamic, it might be better to still query the database and retrieve a set of installation ids</source>
+            <target state="new">Note that when the query is very dynamic, it might be better to still query the database and retrieve a set of installation ids</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>For loop to push to a set of channels</source>
+            <target state="new">For loop to push to a set of channels</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Push to tag</source>
+            <target state="new">Push to tag</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Manage feedback from notification systems to remove expired channels</source>
+            <target state="new">Manage feedback from notification systems to remove expired channels</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>        Automatically handled by notification hubs      </source>
+            <target state="new">        Automatically handled by notification hubs      </target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Note that when using MS with Notification Hubs, you cannot read the Apple feedback channel from any other part of your application, as it may result in a violation of the Apple guidelines for push notifications.</source>
+            <target state="new">Note that when using MS with Notification Hubs, you cannot read the Apple feedback channel from any other part of your application, as it may result in a violation of the Apple guidelines for push notifications.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Special considerations for Apple feedback</source>
+            <target state="new">Special considerations for Apple feedback</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>When using Notification Hubs, expired tokens are automatically retrieved from Apple and the corresponding registrations expire.</source>
+            <target state="new">When using Notification Hubs, expired tokens are automatically retrieved from Apple and the corresponding registrations expire.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>This means that if your app was performing some other operation when retrieving expired channels, it will be unable to continue.</source>
+            <target state="new">This means that if your app was performing some other operation when retrieving expired channels, it will be unable to continue.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Usually, the feedback channel is used to delete or mark users that abandoned the app.</source>
+            <target state="new">Usually, the feedback channel is used to delete or mark users that abandoned the app.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>One way to approach this problem is to make sure to write a last logged-in value in your users table, and use a scheduler job to periodically delete or mark inactive users.</source>
+            <target state="new">One way to approach this problem is to make sure to write a last logged-in value in your users table, and use a scheduler job to periodically delete or mark inactive users.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Migration Strategies</source>
+            <target state="new">Migration Strategies</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>For all new services (or services adding push notifications) we strongly recommend that you take advantage of Notification Hubs push notifications.</source>
+            <target state="new">For all new services (or services adding push notifications) we strongly recommend that you take advantage of Notification Hubs push notifications.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>If you already have a Mobile Service in production, you have the following options.</source>
+            <target state="new">If you already have a Mobile Service in production, you have the following options.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>No migration</source>
+            <target state="new">No migration</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>You can continue to use the current Mobile Service push infrastructure and, if you need to use advanced features such as broadcast, advanced targeting or per-device personalization, you can still use a Notification Hub directly, as explained <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>in this topic<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.windowsazure.com/documentation/articles/notification-hubs-windows-store-dotnet-get-started/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">You can continue to use the current Mobile Service push infrastructure and, if you need to use advanced features such as broadcast, advanced targeting or per-device personalization, you can still use a Notification Hub directly, as explained <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>in this topic<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.windowsazure.com/documentation/articles/notification-hubs-windows-store-dotnet-get-started/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>The advantage to this method is that there is no change or compatibility break in your app.</source>
+            <target state="new">The advantage to this method is that there is no change or compatibility break in your app.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>The disadvantages involve the maintenance of two different push engines, and you cannot use a Mobile Services original push and a Notification Hub together when sending to Apple devices (the feedback channel will not be handled properly).</source>
+            <target state="new">The disadvantages involve the maintenance of two different push engines, and you cannot use a Mobile Services original push and a Notification Hub together when sending to Apple devices (the feedback channel will not be handled properly).</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Clean break</source>
+            <target state="new">Clean break</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>If it is acceptable to force your users to update your app in order to continue receiving push notifications, the clean break migration makes it very easy to start taking advantage of all that the Notification Hubs integration has to offer.</source>
+            <target state="new">If it is acceptable to force your users to update your app in order to continue receiving push notifications, the clean break migration makes it very easy to start taking advantage of all that the Notification Hubs integration has to offer.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>To perform a clean break migration you must do the following:</source>
+            <target state="new">To perform a clean break migration you must do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Stop pushing to old clients; for example, comment out all calls to push objects in your scripts.</source>
+            <target state="new">Stop pushing to old clients; for example, comment out all calls to push objects in your scripts.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Enable enhanced push with Notification Hubs on your Mobile Service (this will change the behavior of the push object).</source>
+            <target state="new">Enable enhanced push with Notification Hubs on your Mobile Service (this will change the behavior of the push object).</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Release a new client version that registers for push notifications instead of inserting the ChannelURI/device token/registration id in a table.</source>
+            <target state="new">Release a new client version that registers for push notifications instead of inserting the ChannelURI/device token/registration id in a table.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Update your Mobile Service scripts to push again.</source>
+            <target state="new">Update your Mobile Service scripts to push again.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>The advantages to this approach are an easy migration strategy and a single feature-rich push infrastructure.</source>
+            <target state="new">The advantages to this approach are an easy migration strategy and a single feature-rich push infrastructure.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>The disadvantage is that the client app requires an update to continue receiving push notifications.</source>
+            <target state="new">The disadvantage is that the client app requires an update to continue receiving push notifications.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Hybrid</source>
+            <target state="new">Hybrid</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>If you must continue sending push notifications to older clients, and at the same time want to migrate to the Notification Hubs-based push infrastructure, you can build a solution that uses the old push infrastructure for older clients and the Notification Hub for your new clients.</source>
+            <target state="new">If you must continue sending push notifications to older clients, and at the same time want to migrate to the Notification Hubs-based push infrastructure, you can build a solution that uses the old push infrastructure for older clients and the Notification Hub for your new clients.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>The hybrid strategy does not work for Apple clients.</source>
+            <target state="new">The hybrid strategy does not work for Apple clients.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>When your Mobile Service starts using Notification Hubs, the feedback channel will be collected by the Notification Hub, and it is not possible to correctly maintain a table with device tokens in your Mobile Service.</source>
+            <target state="new">When your Mobile Service starts using Notification Hubs, the feedback channel will be collected by the Notification Hub, and it is not possible to correctly maintain a table with device tokens in your Mobile Service.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>This problem does not exist for Android and Windows Store/Phone clients.</source>
+            <target state="new">This problem does not exist for Android and Windows Store/Phone clients.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>To use the hybrid strategy, do the following:</source>
+            <target state="new">To use the hybrid strategy, do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Update service to autodetect the Notification Hubs presence and use the correct modules to use the legacy push infrastructure (see next section).</source>
+            <target state="new">Update service to autodetect the Notification Hubs presence and use the correct modules to use the legacy push infrastructure (see next section).</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Migrate service to use Notification Hubs.</source>
+            <target state="new">Migrate service to use Notification Hubs.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Release new clients that</source>
+            <target state="new">Release new clients that</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Continue updating the Channels table with a Boolean flag representing the fact that they are registered on Notification Hubs, or </source>
+            <target state="new">Continue updating the Channels table with a Boolean flag representing the fact that they are registered on Notification Hubs, or </target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Register with the Notification Hub.</source>
+            <target state="new">Register with the Notification Hub.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>When pushing, </source>
+            <target state="new">When pushing, </target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Check on the Channels table to see if the client is registered with Notification Hubs.</source>
+            <target state="new">Check on the Channels table to see if the client is registered with Notification Hubs.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Use the legacy push infrastructure -- if flag is <ph id="1">&lt;languageKeyword&gt;false&lt;/languageKeyword&gt;</ph>; push to the <ph id="2">&lt;languageKeyword&gt;installation_id&lt;/languageKeyword&gt;</ph> tag using the new push object if the flag is <ph id="3">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">Use the legacy push infrastructure -- if flag is <ph id="1">&lt;languageKeyword&gt;false&lt;/languageKeyword&gt;</ph>; push to the <ph id="2">&lt;languageKeyword&gt;installation_id&lt;/languageKeyword&gt;</ph> tag using the new push object if the flag is <ph id="3">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>See the next section for a code example.</source>
+            <target state="new">See the next section for a code example.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>You can start using Notification Hubs advanced features but they will only reach your new clients.</source>
+            <target state="new">You can start using Notification Hubs advanced features but they will only reach your new clients.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>You can devise variations of the hybrid strategy depending on how you store ChannelURIs and GCM registration ids.</source>
+            <target state="new">You can devise variations of the hybrid strategy depending on how you store ChannelURIs and GCM registration ids.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>The advantages to this approach are that there is no required client update, and you also have the ability to use all Notification Hubs push features for new clients.</source>
+            <target state="new">The advantages to this approach are that there is no required client update, and you also have the ability to use all Notification Hubs push features for new clients.</target>
+          </trans-unit>
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>The disadvantages of course, are that there is more migration work involved, and this approach does not work at all for Apple clients.</source>
+            <target state="new">The disadvantages of course, are that there is more migration work involved, and this approach does not work at all for Apple clients.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>How to use old node modules in an upgraded Mobile Service</source>
+            <target state="new">How to use old node modules in an upgraded Mobile Service</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>The main idea is to manually create a new instance of the legacy node module.</source>
+            <target state="new">The main idea is to manually create a new instance of the legacy node module.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>As explained in the previous section, you will not be able to use the APNS module in a Mobile Service that is using a Notification Hub, as they will compete for access on the feedback channel, and potentially result in a violation of the Apple guidelines for push notifications.</source>
+            <target state="new">As explained in the previous section, you will not be able to use the APNS module in a Mobile Service that is using a Notification Hub, as they will compete for access on the feedback channel, and potentially result in a violation of the Apple guidelines for push notifications.</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>WNS</source>
+            <target state="new">WNS</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Since the push credentials are stored in the Notification Hub, you will have to reenter them as application config.</source>
+            <target state="new">Since the push credentials are stored in the Notification Hub, you will have to reenter them as application config.</target>
+          </trans-unit>
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>To do this, go to the <bpt id="1">&lt;ui&gt;</bpt>Configure<ept id="1">&lt;/ui&gt;</ept> tab in the portal and insert your PackageSID ad Client Secret as properties WNS_CLIENT_ID and WNS_CLIENT_SECRET, respectively.</source>
+            <target state="new">To do this, go to the <bpt id="1">&lt;ui&gt;</bpt>Configure<ept id="1">&lt;/ui&gt;</ept> tab in the portal and insert your PackageSID ad Client Secret as properties WNS_CLIENT_ID and WNS_CLIENT_SECRET, respectively.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Subsequently, each time you use push.wns in your script, you must add the following function, substituting the <ph id="1">&lt;codeInline&gt;push.wns.send*&lt;/codeInline&gt;</ph> call with the following:</source>
+            <target state="new">Subsequently, each time you use push.wns in your script, you must add the following function, substituting the <ph id="1">&lt;codeInline&gt;push.wns.send*&lt;/codeInline&gt;</ph> call with the following:</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Note that the callback structure of the node modules is different than that of the original Mobile Service module.</source>
+            <target state="new">Note that the callback structure of the node modules is different than that of the original Mobile Service module.</target>
+          </trans-unit>
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>For example:</source>
+            <target state="new">For example:</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Old call</source>
+            <target state="new">Old call</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Using Node module</source>
+            <target state="new">Using Node module</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>GCM</source>
+            <target state="new">GCM</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Similar to WNS, you must put your GCM <bpt id="1">&lt;embeddedLabel&gt;</bpt>ApiKey<ept id="1">&lt;/embeddedLabel&gt;</ept> in your application settings, as explained above.</source>
+            <target state="new">Similar to WNS, you must put your GCM <bpt id="1">&lt;embeddedLabel&gt;</bpt>ApiKey<ept id="1">&lt;/embeddedLabel&gt;</ept> in your application settings, as explained above.</target>
+          </trans-unit>
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>You can call it <ph id="1">&lt;codeInline&gt;GCM_APIKEY&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">You can call it <ph id="1">&lt;codeInline&gt;GCM_APIKEY&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>The code appears as follows:</source>
+            <target state="new">The code appears as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Old call</source>
+            <target state="new">Old call</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Using Node module</source>
+            <target state="new">Using Node module</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>MPNS</source>
+            <target state="new">MPNS</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>MPNS is easier, because the Mobile Service did not support authenticated push.</source>
+            <target state="new">MPNS is easier, because the Mobile Service did not support authenticated push.</target>
+          </trans-unit>
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>When using MPNS, you can perform the following substitutions:</source>
+            <target state="new">When using MPNS, you can perform the following substitutions:</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Old call</source>
+            <target state="new">Old call</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Using Node module</source>
+            <target state="new">Using Node module</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

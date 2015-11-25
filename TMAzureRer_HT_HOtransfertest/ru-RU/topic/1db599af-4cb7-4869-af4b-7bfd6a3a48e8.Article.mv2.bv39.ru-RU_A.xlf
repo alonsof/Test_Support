@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ru-RU" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzcsJwzAMANBVPIAF/si/TtBzaQeQbAkCaQKpAxm/uT94qlEYQwcRRECvDthVhu485dbUEzVrNKmX0DNUkgCY8gDuKYJK91UGlijDGj84tUYK2LkA1tyAFBkK68gUCavUW1lznPD6WHOti6pc83Hs+7QmWBPv63l+aXsftP1Wmsu+/QHh6YbvogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Storage Services REST API Reference</source>
+            <target state="new">Storage Services REST API Reference</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The REST APIs for the Windows® Azure™ storage services offer programmatic access to the Blob, Queue, Table, and File services in Azure or in the development environment, via the storage emulator.</source>
+            <target state="new">The REST APIs for the Windows® Azure™ storage services offer programmatic access to the Blob, Queue, Table, and File services in Azure or in the development environment, via the storage emulator.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>All storage services are accessible via REST APIs.</source>
+            <target state="new">All storage services are accessible via REST APIs.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Storage services may be accessed from within a service running in Azure, or directly over the Internet from any application that can send an HTTP/HTTPS request and receive an HTTP/HTTPS response.</source>
+            <target state="new">Storage services may be accessed from within a service running in Azure, or directly over the Internet from any application that can send an HTTP/HTTPS request and receive an HTTP/HTTPS response.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The Azure storage services support both HTTP and HTTPS; however, using HTTPS is highly recommended.</source>
+            <target state="new">The Azure storage services support both HTTP and HTTPS; however, using HTTPS is highly recommended.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Storage Account</source>
+            <target state="new">Storage Account</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>All access to storage services takes place through the storage account.</source>
+            <target state="new">All access to storage services takes place through the storage account.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The storage account is the highest level of the namespace for accessing each of the fundamental services.</source>
+            <target state="new">The storage account is the highest level of the namespace for accessing each of the fundamental services.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>It is also the basis for authentication.</source>
+            <target state="new">It is also the basis for authentication.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>The REST APIs for storage services expose the storage account as a resource.</source>
+            <target state="new">The REST APIs for storage services expose the storage account as a resource.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>To create and manage a storage account, see <bpt id="1">&lt;legacyLink xlink:href="673cc2bd-6232-4152-9a6f-6d80324d7f87" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Manage Accounts, Subscriptions, and Administrative Roles<ept id="1">&lt;/legacyLink&gt;</ept>.</source>
+            <target state="new">To create and manage a storage account, see <bpt id="1">&lt;legacyLink xlink:href="673cc2bd-6232-4152-9a6f-6d80324d7f87" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Manage Accounts, Subscriptions, and Administrative Roles<ept id="1">&lt;/legacyLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Blob Service</source>
+            <target state="new">Blob Service</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The Blob service provides storage for entities, such as binary files and text files.</source>
+            <target state="new">The Blob service provides storage for entities, such as binary files and text files.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The REST API for the Blob service exposes two resources: containers and blobs.</source>
+            <target state="new">The REST API for the Blob service exposes two resources: containers and blobs.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>A container is a set of blobs; every blob must belong to a container.</source>
+            <target state="new">A container is a set of blobs; every blob must belong to a container.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>The Blob service defines three types of blobs:</source>
+            <target state="new">The Blob service defines three types of blobs:</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Block blobs, which are optimized for streaming.</source>
+            <target state="new">Block blobs, which are optimized for streaming.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>This type of blob is the only blob type available with versions prior to 2009-09-19.</source>
+            <target state="new">This type of blob is the only blob type available with versions prior to 2009-09-19.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Page blobs, which are optimized for random read/write operations and which provide the ability to write to a range of bytes in a blob.</source>
+            <target state="new">Page blobs, which are optimized for random read/write operations and which provide the ability to write to a range of bytes in a blob.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Page blobs are available with version 2009-09-19 and later.</source>
+            <target state="new">Page blobs are available with version 2009-09-19 and later.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Append blobs, which are optimized for append operations only.</source>
+            <target state="new">Append blobs, which are optimized for append operations only.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Append blobs are available only with version 2015-02-21 and later.</source>
+            <target state="new">Append blobs are available only with version 2015-02-21 and later.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Containers and blobs support user-defined metadata in the form of name-value pairs specified as headers on a request operation.</source>
+            <target state="new">Containers and blobs support user-defined metadata in the form of name-value pairs specified as headers on a request operation.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Using the REST API for the Blob service, developers can create a hierarchical namespace similar to a file system.</source>
+            <target state="new">Using the REST API for the Blob service, developers can create a hierarchical namespace similar to a file system.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Blob names may encode a hierarchy by using a configurable path separator.</source>
+            <target state="new">Blob names may encode a hierarchy by using a configurable path separator.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>For example, the blob names <bpt id="1">&lt;placeholder&gt;</bpt>MyGroup/MyBlob1<ept id="1">&lt;/placeholder&gt;</ept> and <bpt id="2">&lt;placeholder&gt;</bpt>MyGroup/MyBlob2<ept id="2">&lt;/placeholder&gt;</ept> imply a virtual level of organization for blobs.</source>
+            <target state="new">For example, the blob names <bpt id="1">&lt;placeholder&gt;</bpt>MyGroup/MyBlob1<ept id="1">&lt;/placeholder&gt;</ept> and <bpt id="2">&lt;placeholder&gt;</bpt>MyGroup/MyBlob2<ept id="2">&lt;/placeholder&gt;</ept> imply a virtual level of organization for blobs.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>The enumeration operation for blobs supports traversing the virtual hierarchy in a manner similar to that of a file system, so that you can return a set of blobs that are organized beneath a group.</source>
+            <target state="new">The enumeration operation for blobs supports traversing the virtual hierarchy in a manner similar to that of a file system, so that you can return a set of blobs that are organized beneath a group.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>For example, you can enumerate all blobs organized under <bpt id="1">&lt;placeholder&gt;</bpt>MyGroup/<ept id="1">&lt;/placeholder&gt;</ept>.</source>
+            <target state="new">For example, you can enumerate all blobs organized under <bpt id="1">&lt;placeholder&gt;</bpt>MyGroup/<ept id="1">&lt;/placeholder&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>A block blob may be created in one of two ways.</source>
+            <target state="new">A block blob may be created in one of two ways.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Block blobs less than or equal to 64 MB in size can be uploaded by calling the <ph id="1">&lt;link xlink:href="b213c30f-8d30-4718-ba77-2030f3009719" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Blob&lt;/link&gt;</ph> operation.</source>
+            <target state="new">Block blobs less than or equal to 64 MB in size can be uploaded by calling the <ph id="1">&lt;link xlink:href="b213c30f-8d30-4718-ba77-2030f3009719" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Blob&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Block blobs larger than 64 MB must be uploaded as a set of blocks, each of which must be less than or equal to 4 MB in size.</source>
+            <target state="new">Block blobs larger than 64 MB must be uploaded as a set of blocks, each of which must be less than or equal to 4 MB in size.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>A set of successfully uploaded blocks can be assembled in a specified order into a single contiguous blob by calling <ph id="1">&lt;link xlink:href="c864893e-d758-475a-b419-af0c60dd2569" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Block List&lt;/link&gt;</ph>.</source>
+            <target state="new">A set of successfully uploaded blocks can be assembled in a specified order into a single contiguous blob by calling <ph id="1">&lt;link xlink:href="c864893e-d758-475a-b419-af0c60dd2569" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Block List&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>The maximum size currently supported for a block blob is 200,000 MB.</source>
+            <target state="new">The maximum size currently supported for a block blob is 200,000 MB.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Page blobs are created and initialized with a maximum size with a call to <ph id="1">&lt;link xlink:href="b213c30f-8d30-4718-ba77-2030f3009719" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Blob&lt;/link&gt;</ph>.</source>
+            <target state="new">Page blobs are created and initialized with a maximum size with a call to <ph id="1">&lt;link xlink:href="b213c30f-8d30-4718-ba77-2030f3009719" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Blob&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>To write content to a page blob, you call the <ph id="1">&lt;link xlink:href="ba36957a-ffd0-4080-8325-0fbb85d56330" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Page&lt;/link&gt;</ph> operation.</source>
+            <target state="new">To write content to a page blob, you call the <ph id="1">&lt;link xlink:href="ba36957a-ffd0-4080-8325-0fbb85d56330" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Page&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>The maximum size currently supported for a page blob is 1 TB.</source>
+            <target state="new">The maximum size currently supported for a page blob is 1 TB.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Append blobs can be created by calling <ph id="1">&lt;link xlink:href="b213c30f-8d30-4718-ba77-2030f3009719" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Blob&lt;/link&gt;</ph>.</source>
+            <target state="new">Append blobs can be created by calling <ph id="1">&lt;link xlink:href="b213c30f-8d30-4718-ba77-2030f3009719" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Blob&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>An append blob created with the <ph id="1">&lt;link xlink:href="b213c30f-8d30-4718-ba77-2030f3009719" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Blob&lt;/link&gt;</ph> operation does not include any content.</source>
+            <target state="new">An append blob created with the <ph id="1">&lt;link xlink:href="b213c30f-8d30-4718-ba77-2030f3009719" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Blob&lt;/link&gt;</ph> operation does not include any content.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>To write content to an append blob, you add blocks to the end of the blob by calling the <ph id="1">&lt;link xlink:href="08d3ac04-23b4-4d39-9c40-06a38bdc6df1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Append Block&lt;/link&gt;</ph> operation.</source>
+            <target state="new">To write content to an append blob, you add blocks to the end of the blob by calling the <ph id="1">&lt;link xlink:href="08d3ac04-23b4-4d39-9c40-06a38bdc6df1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Append Block&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Updating or deleting existing blocks is not supported.</source>
+            <target state="new">Updating or deleting existing blocks is not supported.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Each block can be of different size, up to a maximum of 4 MB.</source>
+            <target state="new">Each block can be of different size, up to a maximum of 4 MB.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>The maximum size for a append blob is 200,000 MB, and an append blob can include no more than 50,000 blocks.</source>
+            <target state="new">The maximum size for a append blob is 200,000 MB, and an append blob can include no more than 50,000 blocks.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Blobs support conditional update operations that may be useful for concurrency control and efficient uploading.</source>
+            <target state="new">Blobs support conditional update operations that may be useful for concurrency control and efficient uploading.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Blobs can be read by calling the <ph id="1">&lt;link xlink:href="a3e943b4-5745-4e64-9d6f-728bbefbd5ee" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob&lt;/link&gt;</ph> operation.</source>
+            <target state="new">Blobs can be read by calling the <ph id="1">&lt;link xlink:href="a3e943b4-5745-4e64-9d6f-728bbefbd5ee" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>A client may read the entire blob, or an arbitrary range of bytes.</source>
+            <target state="new">A client may read the entire blob, or an arbitrary range of bytes.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>For the Blob service API reference, see <ph id="1">&lt;link xlink:href="fa36aa0e-256a-488b-bc85-af7c3a230937" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Blob Service API&lt;/link&gt;</ph>.</source>
+            <target state="new">For the Blob service API reference, see <ph id="1">&lt;link xlink:href="fa36aa0e-256a-488b-bc85-af7c3a230937" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Blob Service API&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Queue Service</source>
+            <target state="new">Queue Service</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>The Queue service provides reliable, persistent messaging within and between services.</source>
+            <target state="new">The Queue service provides reliable, persistent messaging within and between services.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>The REST API for the Queue service exposes two resources: queues and messages.</source>
+            <target state="new">The REST API for the Queue service exposes two resources: queues and messages.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Queues support user-defined metadata in the form of name-value pairs specified as headers on a request operation.</source>
+            <target state="new">Queues support user-defined metadata in the form of name-value pairs specified as headers on a request operation.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Each storage account may have an unlimited number of message queues that are named uniquely within the account.</source>
+            <target state="new">Each storage account may have an unlimited number of message queues that are named uniquely within the account.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Each message queue may contain an unlimited number of messages.</source>
+            <target state="new">Each message queue may contain an unlimited number of messages.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>The maximum size for a message is limited to 64KB for version 2011-08-18 and 8KB for previous versions.</source>
+            <target state="new">The maximum size for a message is limited to 64KB for version 2011-08-18 and 8KB for previous versions.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>When a message is read from the queue, the consumer is expected to process the message and then delete it.</source>
+            <target state="new">When a message is read from the queue, the consumer is expected to process the message and then delete it.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>After the message is read, it is made invisible to other consumers for a specified interval.</source>
+            <target state="new">After the message is read, it is made invisible to other consumers for a specified interval.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>If the message has not yet been deleted at the time the interval expires, its visibility is restored, so that another consumer may process it.</source>
+            <target state="new">If the message has not yet been deleted at the time the interval expires, its visibility is restored, so that another consumer may process it.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>For more information about the Queue service, see <ph id="1">&lt;link xlink:href="2793691c-e763-413d-93e7-e111312d5f4b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Queue Service API&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about the Queue service, see <ph id="1">&lt;link xlink:href="2793691c-e763-413d-93e7-e111312d5f4b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Queue Service API&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Table Service</source>
+            <target state="new">Table Service</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>The Table service provides structured storage in the form of tables.</source>
+            <target state="new">The Table service provides structured storage in the form of tables.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>The Table service supports a REST API that implements the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>OData protocol<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.odata.org/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">The Table service supports a REST API that implements the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>OData protocol<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.odata.org/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Within a storage account, a developer may create named tables.</source>
+            <target state="new">Within a storage account, a developer may create named tables.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Tables store data as entities.</source>
+            <target state="new">Tables store data as entities.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>An entity is a collection of named properties and their values, similar to a row.</source>
+            <target state="new">An entity is a collection of named properties and their values, similar to a row.</target>
+          </trans-unit>
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Tables are partitioned to support load balancing across storage nodes.</source>
+            <target state="new">Tables are partitioned to support load balancing across storage nodes.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Each table has as its first property a partition key that specifies the partition an entity belongs to.</source>
+            <target state="new">Each table has as its first property a partition key that specifies the partition an entity belongs to.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>The second property is a row key that identifies an entity within a given partition.</source>
+            <target state="new">The second property is a row key that identifies an entity within a given partition.</target>
+          </trans-unit>
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>The combination of the partition key and the row key forms a primary key that identifies each entity uniquely within the table.</source>
+            <target state="new">The combination of the partition key and the row key forms a primary key that identifies each entity uniquely within the table.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>The Table service does not enforce any schema.</source>
+            <target state="new">The Table service does not enforce any schema.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>A developer may choose to implement and enforce a schema on the client side.</source>
+            <target state="new">A developer may choose to implement and enforce a schema on the client side.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>For more information about the Table service, see <ph id="1">&lt;link xlink:href="8e8a98bc-9cd0-42c2-b0aa-be6a4065c35c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Table Storage API&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about the Table service, see <ph id="1">&lt;link xlink:href="8e8a98bc-9cd0-42c2-b0aa-be6a4065c35c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Table Storage API&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>File Service</source>
+            <target state="new">File Service</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>The Server Message Block (SMB) protocol is the preferred file share protocol used on premise today.</source>
+            <target state="new">The Server Message Block (SMB) protocol is the preferred file share protocol used on premise today.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>The Microsoft Azure File service enables customers to leverage the availability and scalability of Azure’s Cloud Infrastructure as a Service (IaaS) SMB without having to rewrite SMB client applications.</source>
+            <target state="new">The Microsoft Azure File service enables customers to leverage the availability and scalability of Azure’s Cloud Infrastructure as a Service (IaaS) SMB without having to rewrite SMB client applications.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>The Azure File service also offers a compelling alternative to traditional Direct Attached Storage (DAS) and Storage Area Network (SAN) solutions, which are often complex and expensive to install, configure, and operate.</source>
+            <target state="new">The Azure File service also offers a compelling alternative to traditional Direct Attached Storage (DAS) and Storage Area Network (SAN) solutions, which are often complex and expensive to install, configure, and operate.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Files stored in Azure File service shares are accessible via the SMB protocol, and also via REST APIs.</source>
+            <target state="new">Files stored in Azure File service shares are accessible via the SMB protocol, and also via REST APIs.</target>
+          </trans-unit>
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>The File service offers the following four resources: the storage account, shares, directories, and files.</source>
+            <target state="new">The File service offers the following four resources: the storage account, shares, directories, and files.</target>
+          </trans-unit>
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Shares provide a way to organize sets of files and also can be mounted as an SMB file share that is hosted in the cloud.</source>
+            <target state="new">Shares provide a way to organize sets of files and also can be mounted as an SMB file share that is hosted in the cloud.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

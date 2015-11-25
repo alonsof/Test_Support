@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANyssJwzAMANBVPIAFli1HUe+F3tsF5I8gkCaQpJDx6+vjmaVeKFbonQgILUAJc4EaUCcRQ1XxjolS7Xlw4rFyjSDKDVgNzazZXMbSPCOyKmQOMpYIaMIASjk3jik16t6hd/2E59u7e13M+n09jn2/vIveTd69fl/dPodu56rXsm9/bF7zTKEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Azure</source>
+            <target state="new">Azure</target>
+            <context-group>
+              <context context-type="x-metadataname">applies_to_product</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>How to: Add an Azure AD Tenant as an Identity Provider</source>
+            <target state="new">How to: Add an Azure AD Tenant as an Identity Provider</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Applies To</source>
+            <target state="new">Applies To</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Overview</source>
+            <target state="new">Overview</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>This topic explains how to add an Azure Active Directory (AD) tenant to the list of identity providers in your <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</source>
+            <target state="new">This topic explains how to add an Azure Active Directory (AD) tenant to the list of identity providers in your <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>This feature allows you to use the tenant as identity provider for applications that are associated with the namespace.</source>
+            <target state="new">This feature allows you to use the tenant as identity provider for applications that are associated with the namespace.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The process has two major elements:</source>
+            <target state="new">The process has two major elements:</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Add the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> to the Azure AD tenant to as a web app.</source>
+            <target state="new">Add the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> to the Azure AD tenant to as a web app.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>This allows the namespace (web app) to receive tokens from Azure AD.</source>
+            <target state="new">This allows the namespace (web app) to receive tokens from Azure AD.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Add the Azure AD tenant to the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> as an identity provider.</source>
+            <target state="new">Add the Azure AD tenant to the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> as an identity provider.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The remaining steps are common to all identity providers in ACS.</source>
+            <target state="new">The remaining steps are common to all identity providers in ACS.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>You can add relying party applications and rules that determine which identity claims are passed from identity providers to the relying party applications.</source>
+            <target state="new">You can add relying party applications and rules that determine which identity claims are passed from identity providers to the relying party applications.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Requirements</source>
+            <target state="new">Requirements</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The instructions in this topic require the following:</source>
+            <target state="new">The instructions in this topic require the following:</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>An Azure subscription.</source>
+            <target state="new">An Azure subscription.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>For more information, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Getting Started with Azure<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=320795&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Getting Started with Azure<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=320795&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>An Azure Access Control namespace.</source>
+            <target state="new">An Azure Access Control namespace.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>For help, see <ph id="1">&lt;link xlink:href="dba0b42b-c631-4f60-bb3a-7b84d2ac406f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to: Create an Access Control Namespace&lt;/link&gt;</ph>.</source>
+            <target state="new">For help, see <ph id="1">&lt;link xlink:href="dba0b42b-c631-4f60-bb3a-7b84d2ac406f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to: Create an Access Control Namespace&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Visual Studio 2012</source>
+            <target state="new">Visual Studio 2012</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Summary of Steps </source>
+            <target state="new">Summary of Steps </target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>To add an Azure AD tenant as an identity provider, complete the following steps:</source>
+            <target state="new">To add an Azure AD tenant as an identity provider, complete the following steps:</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Step 1: Find the name of the Access Control namespace</source>
+            <target state="new">Step 1: Find the name of the Access Control namespace</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>In this step, we'll copy the namespace name for use in the next step.</source>
+            <target state="new">In this step, we'll copy the namespace name for use in the next step.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>You will need the namespace name to indicate that tokens should be sent to the endpoint that receives WS-Federation sign-in responses.</source>
+            <target state="new">You will need the namespace name to indicate that tokens should be sent to the endpoint that receives WS-Federation sign-in responses.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Although the namespace URL is in a field labeled <bpt id="1">&lt;ui&gt;</bpt>Management Portal<ept id="1">&lt;/ui&gt;</ept>, the tokens are sent to the specified endpoint, not the portal.</source>
+            <target state="new">Although the namespace URL is in a field labeled <bpt id="1">&lt;ui&gt;</bpt>Management Portal<ept id="1">&lt;/ui&gt;</ept>, the tokens are sent to the specified endpoint, not the portal.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>Application Integration<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>Application Integration<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Copy the value of the <bpt id="1">&lt;ui&gt;</bpt>Management Portal<ept id="1">&lt;/ui&gt;</ept> field.</source>
+            <target state="new">Copy the value of the <bpt id="1">&lt;ui&gt;</bpt>Management Portal<ept id="1">&lt;/ui&gt;</ept> field.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>The URL in the Management Portal field has the following format:</source>
+            <target state="new">The URL in the Management Portal field has the following format:</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>https://&lt; <ph id="1">&lt;parameterReference&gt;Namespace&lt;/parameterReference&gt;</ph>&gt;.accesscontrol.windows.net/</source>
+            <target state="new">https://&lt; <ph id="1">&lt;parameterReference&gt;Namespace&lt;/parameterReference&gt;</ph>&gt;.accesscontrol.windows.net/</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Save the value.</source>
+            <target state="new">Save the value.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>You'll need it in the next step.</source>
+            <target state="new">You'll need it in the next step.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>The value of the <bpt id="1">&lt;ui&gt;</bpt>Management Portal<ept id="1">&lt;/ui&gt;</ept> field is the namespace name and the URL of the endpoint that receives WS-Federation sign-in responses.</source>
+            <target state="new">The value of the <bpt id="1">&lt;ui&gt;</bpt>Management Portal<ept id="1">&lt;/ui&gt;</ept> field is the namespace name and the URL of the endpoint that receives WS-Federation sign-in responses.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Step 2: Add the Access Control namespace as a web application</source>
+            <target state="new">Step 2: Add the Access Control namespace as a web application</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>In this step, you will use the features of the Azure Management Portal to add the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> as a web application in the Azure AD tenant.</source>
+            <target state="new">In this step, you will use the features of the Azure Management Portal to add the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> as a web application in the Azure AD tenant.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>This makes the tenant a recipient of the tokens that Azure AD generates.</source>
+            <target state="new">This makes the tenant a recipient of the tokens that Azure AD generates.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Go to the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.windowsazure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> and sign in.</source>
+            <target state="new">Go to the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.windowsazure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> and sign in.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>Active Directory<ept id="1">&lt;/ui&gt;</ept>, click a directory, click <bpt id="2">&lt;ui&gt;</bpt>Applications<ept id="2">&lt;/ui&gt;</ept>, and then click <bpt id="3">&lt;ui&gt;</bpt>Add<ept id="3">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>Active Directory<ept id="1">&lt;/ui&gt;</ept>, click a directory, click <bpt id="2">&lt;ui&gt;</bpt>Applications<ept id="2">&lt;/ui&gt;</ept>, and then click <bpt id="3">&lt;ui&gt;</bpt>Add<ept id="3">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Enter a name for the app.</source>
+            <target state="new">Enter a name for the app.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>Type<ept id="1">&lt;/ui&gt;</ept> field, select <bpt id="2">&lt;ui&gt;</bpt>Web Application and/or Web API<ept id="2">&lt;/ui&gt;</ept> (the default).</source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>Type<ept id="1">&lt;/ui&gt;</ept> field, select <bpt id="2">&lt;ui&gt;</bpt>Web Application and/or Web API<ept id="2">&lt;/ui&gt;</ept> (the default).</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>To advance, click the arrow.</source>
+            <target state="new">To advance, click the arrow.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>In the App URL and App ID URI text boxes, paste the URL that was in the <bpt id="1">&lt;ui&gt;</bpt>Management Portal<ept id="1">&lt;/ui&gt;</ept> field on the <bpt id="2">&lt;ui&gt;</bpt>Application Integration<ept id="2">&lt;/ui&gt;</ept> page.</source>
+            <target state="new">In the App URL and App ID URI text boxes, paste the URL that was in the <bpt id="1">&lt;ui&gt;</bpt>Management Portal<ept id="1">&lt;/ui&gt;</ept> field on the <bpt id="2">&lt;ui&gt;</bpt>Application Integration<ept id="2">&lt;/ui&gt;</ept> page.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>To continue, click the arrow.</source>
+            <target state="new">To continue, click the arrow.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>The App URL is the address to which token are sent when a user authenticates successfully.</source>
+            <target state="new">The App URL is the address to which token are sent when a user authenticates successfully.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>The App ID URI is the audience to which the token are scoped.</source>
+            <target state="new">The App ID URI is the audience to which the token are scoped.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>If we used any value other than the <ph id="1">&lt;parameterReference&gt;entityID&lt;/parameterReference&gt;</ph> of the <ph id="2">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>, ACS would be interpret it as a token reused from a man-in-the-middle attack.</source>
+            <target state="new">If we used any value other than the <ph id="1">&lt;parameterReference&gt;entityID&lt;/parameterReference&gt;</ph> of the <ph id="2">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>, ACS would be interpret it as a token reused from a man-in-the-middle attack.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>When pasting, be careful not to include trailing spaces or extra characters after the final forward slash (/).</source>
+            <target state="new">When pasting, be careful not to include trailing spaces or extra characters after the final forward slash (/).</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Otherwise, Azure AD will mark the URL as invalid.</source>
+            <target state="new">Otherwise, Azure AD will mark the URL as invalid.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>On the Directory Access page, select the default setting, <bpt id="1">&lt;ui&gt;</bpt>Single Sign-On<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">On the Directory Access page, select the default setting, <bpt id="1">&lt;ui&gt;</bpt>Single Sign-On<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Because ACS does not call the Graph API, the setting is not used.</source>
+            <target state="new">Because ACS does not call the Graph API, the setting is not used.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>To finish the process, click the check mark.</source>
+            <target state="new">To finish the process, click the check mark.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>At this point, your Azure AD tenant knows about your <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> and can issue tokens for it.</source>
+            <target state="new">At this point, your Azure AD tenant knows about your <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> and can issue tokens for it.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>On the final page, copy the Federation Metadata URL.</source>
+            <target state="new">On the final page, copy the Federation Metadata URL.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>You'll need it in a few minutes.</source>
+            <target state="new">You'll need it in a few minutes.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>To return to this page:</source>
+            <target state="new">To return to this page:</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Go to the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.WindowsAzure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> and sign in.</source>
+            <target state="new">Go to the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.WindowsAzure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> and sign in.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Click an Azure directory.</source>
+            <target state="new">Click an Azure directory.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>Applications<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>Applications<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Click the application.</source>
+            <target state="new">Click the application.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>The Federation Metadata URL is also listed on the <bpt id="1">&lt;ui&gt;</bpt>App Endpoints<ept id="1">&lt;/ui&gt;</ept> page for the application.</source>
+            <target state="new">The Federation Metadata URL is also listed on the <bpt id="1">&lt;ui&gt;</bpt>App Endpoints<ept id="1">&lt;/ui&gt;</ept> page for the application.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>To view this page, on the Application page, click <bpt id="1">&lt;ui&gt;</bpt>View Endpoints<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">To view this page, on the Application page, click <bpt id="1">&lt;ui&gt;</bpt>View Endpoints<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Step 3:  Add the Azure AD tenant identity provider to the Access Control namespace</source>
+            <target state="new">Step 3:  Add the Azure AD tenant identity provider to the Access Control namespace</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>In this step, you will add the security token service (STS) for the Azure AD tenant to the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</source>
+            <target state="new">In this step, you will add the security token service (STS) for the Azure AD tenant to the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>This action opens the ACS Management Portal for the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</source>
+            <target state="new">This action opens the ACS Management Portal for the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>Identity providers<ept id="1">&lt;/ui&gt;</ept> and then click <bpt id="2">&lt;ui&gt;</bpt>Add<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>Identity providers<ept id="1">&lt;/ui&gt;</ept> and then click <bpt id="2">&lt;ui&gt;</bpt>Add<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Select WS-Federation identity provider and then click Next.</source>
+            <target state="new">Select WS-Federation identity provider and then click Next.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Enter a display name and login link text.</source>
+            <target state="new">Enter a display name and login link text.</target>
+          </trans-unit>
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>There are no special requirements for these values.</source>
+            <target state="new">There are no special requirements for these values.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>In the WS-Federation metadata section, click <bpt id="1">&lt;ui&gt;</bpt>URL<ept id="1">&lt;/ui&gt;</ept> and then paste the Federation Metadata URL that you copied from the application page.</source>
+            <target state="new">In the WS-Federation metadata section, click <bpt id="1">&lt;ui&gt;</bpt>URL<ept id="1">&lt;/ui&gt;</ept> and then paste the Federation Metadata URL that you copied from the application page.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Then, click <bpt id="1">&lt;ui&gt;</bpt>Save<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Then, click <bpt id="1">&lt;ui&gt;</bpt>Save<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Another useful field on this page is the <bpt id="1">&lt;ui&gt;</bpt>Login Link Text<ept id="1">&lt;/ui&gt;</ept> field.</source>
+            <target state="new">Another useful field on this page is the <bpt id="1">&lt;ui&gt;</bpt>Login Link Text<ept id="1">&lt;/ui&gt;</ept> field.</target>
+          </trans-unit>
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>The value of that field appears in the list of identity providers offered to users when they sign in to the application.</source>
+            <target state="new">The value of that field appears in the list of identity providers offered to users when they sign in to the application.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Step 4: Use the Azure AD tenant identity provider with your app</source>
+            <target state="new">Step 4: Use the Azure AD tenant identity provider with your app</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>The Azure AD tenant is now registered as an identity provider for the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</source>
+            <target state="new">The Azure AD tenant is now registered as an identity provider for the <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>In some sense, our task is complete.</source>
+            <target state="new">In some sense, our task is complete.</target>
+          </trans-unit>
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>However, in this step, we'll show you how to use the new identity provider by adding it to the offering of identity providers for a web application.</source>
+            <target state="new">However, in this step, we'll show you how to use the new identity provider by adding it to the offering of identity providers for a web application.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>To select the new identity provider for your app, use the standard procedure:</source>
+            <target state="new">To select the new identity provider for your app, use the standard procedure:</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Start Visual Studio 2012 and open a web application.</source>
+            <target state="new">Start Visual Studio 2012 and open a web application.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>In Solution Explorer, right-click the app name, and then click <bpt id="1">&lt;ui&gt;</bpt>Identity and Access<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">In Solution Explorer, right-click the app name, and then click <bpt id="1">&lt;ui&gt;</bpt>Identity and Access<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>On the Providers tab, click <bpt id="1">&lt;ui&gt;</bpt>Use the Azure Access Control Service<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">On the Providers tab, click <bpt id="1">&lt;ui&gt;</bpt>Use the Azure Access Control Service<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>To associate the app with an Access Control namespace, you need the management key for the namespace.</source>
+            <target state="new">To associate the app with an Access Control namespace, you need the management key for the namespace.</target>
+          </trans-unit>
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Here's how to find it.</source>
+            <target state="new">Here's how to find it.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>Management Service<ept id="1">&lt;/ui&gt;</ept>, click <bpt id="2">&lt;ui&gt;</bpt>Management client<ept id="2">&lt;/ui&gt;</ept>, and then click <bpt id="3">&lt;ui&gt;</bpt>Symmetric key<ept id="3">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>Management Service<ept id="1">&lt;/ui&gt;</ept>, click <bpt id="2">&lt;ui&gt;</bpt>Management client<ept id="2">&lt;/ui&gt;</ept>, and then click <bpt id="3">&lt;ui&gt;</bpt>Symmetric key<ept id="3">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>Show Key<ept id="1">&lt;/ui&gt;</ept>, copy the key value, and then click <bpt id="2">&lt;ui&gt;</bpt>Hide Key<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>Show Key<ept id="1">&lt;/ui&gt;</ept>, copy the key value, and then click <bpt id="2">&lt;ui&gt;</bpt>Hide Key<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Now, back in the Visual Studio <bpt id="1">&lt;ui&gt;</bpt>Configure ACS namespace<ept id="1">&lt;/ui&gt;</ept> dialog box, enter the name of the Access Control namespace and paste the management key value.</source>
+            <target state="new">Now, back in the Visual Studio <bpt id="1">&lt;ui&gt;</bpt>Configure ACS namespace<ept id="1">&lt;/ui&gt;</ept> dialog box, enter the name of the Access Control namespace and paste the management key value.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Then, select the Azure AD tenant identity provider from the list of identity providers in the namespace.</source>
+            <target state="new">Then, select the Azure AD tenant identity provider from the list of identity providers in the namespace.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>When you run the app, a log-in dialog box includes the Azure AD tenant identity provider among the identity provider choices.</source>
+            <target state="new">When you run the app, a log-in dialog box includes the Azure AD tenant identity provider among the identity provider choices.</target>
+          </trans-unit>
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>(The name that appears on this page is defined in the <bpt id="1">&lt;ui&gt;</bpt>Login Link Text<ept id="1">&lt;/ui&gt;</ept> field on the identity provider settings page.)</source>
+            <target state="new">(The name that appears on this page is defined in the <bpt id="1">&lt;ui&gt;</bpt>Login Link Text<ept id="1">&lt;/ui&gt;</ept> field on the identity provider settings page.)</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Select the Azure AD tenant and then sign in with your organizational account.</source>
+            <target state="new">Select the Azure AD tenant and then sign in with your organizational account.</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Now, you have access to your application.</source>
+            <target state="new">Now, you have access to your application.</target>
+          </trans-unit>
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>The authentication tokens are forwarded to the Azure AD tenant as the identity provider.</source>
+            <target state="new">The authentication tokens are forwarded to the Azure AD tenant as the identity provider.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

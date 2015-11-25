@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANi8EJwzAMAFfxABLIjmzHfbfQAbqA5EgQSBNoU8j49ec+d+c+mXLqaMaMHJ1QaVbsFKW05lGkQcjJJOfe0SkZsmpDrUyYLbdSNE26TBDKwmOVEYgrsg/MpSbMxNWkz7mSQogQFsP7A8K1re52nbfPcZwQ0nAE4fl7y/76yP7d5FyP/Q/4xgwiogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Relayed Messaging</source>
+            <target state="new">Relayed Messaging</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Service Bus Relayed Messaging</source>
+            <target state="new">Service Bus Relayed Messaging</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This section contains information and guidance about the relayed messaging pattern supported by <ph id="1">&lt;token&gt;sb1&lt;/token&gt;</ph>.</source>
+            <target state="new">This section contains information and guidance about the relayed messaging pattern supported by <ph id="1">&lt;token&gt;sb1&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>At the highest conceptual level, using <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> requires:</source>
+            <target state="new">At the highest conceptual level, using <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> requires:</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>One web service that either possesses a <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Shared Access Signature<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://msdn.microsoft.com/library/dn170477.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (SAS) key or is trusted by the <ph id="4">&lt;token&gt;ac2&lt;/token&gt;</ph> service to create endpoints and receive and send messages (typically responses but also event notifications) from the <ph id="5">&lt;token&gt;sb2&lt;/token&gt;</ph> endpoint that it creates.</source>
+            <target state="new">One web service that either possesses a <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Shared Access Signature<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://msdn.microsoft.com/library/dn170477.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (SAS) key or is trusted by the <ph id="4">&lt;token&gt;ac2&lt;/token&gt;</ph> service to create endpoints and receive and send messages (typically responses but also event notifications) from the <ph id="5">&lt;token&gt;sb2&lt;/token&gt;</ph> endpoint that it creates.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>One client application that either possesses a SAS key or is trusted by the <ph id="1">&lt;token&gt;ac2&lt;/token&gt;</ph> service to send and receive messages (typically requests and responses but also event notifications) at a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> endpoint.</source>
+            <target state="new">One client application that either possesses a SAS key or is trusted by the <ph id="1">&lt;token&gt;ac2&lt;/token&gt;</ph> service to send and receive messages (typically requests and responses but also event notifications) at a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>There is only one difference between the two web service applications: the first web service possesses a SAS key or is trusted by <ph id="1">&lt;token&gt;ac2&lt;/token&gt;</ph> to create an endpoint—that is, an address, or Uniform Resource Indicator (URI)—with <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">There is only one difference between the two web service applications: the first web service possesses a SAS key or is trusted by <ph id="1">&lt;token&gt;ac2&lt;/token&gt;</ph> to create an endpoint—that is, an address, or Uniform Resource Indicator (URI)—with <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;crabout&lt;/token&gt;</ph> endpoints and addresses and how they are used in <ph id="2">&lt;token&gt;indigo1&lt;/token&gt;</ph> and <ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph>, see <bpt id="4">&lt;legacyLink xlink:href="http://go.microsoft.com/fwlink/?LinkId=183576" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Specifying an Endpoint Address<ept id="4">&lt;/legacyLink&gt;</ept>.</source>
+            <target state="new"><ph id="1">&lt;token&gt;crabout&lt;/token&gt;</ph> endpoints and addresses and how they are used in <ph id="2">&lt;token&gt;indigo1&lt;/token&gt;</ph> and <ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph>, see <bpt id="4">&lt;legacyLink xlink:href="http://go.microsoft.com/fwlink/?LinkId=183576" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Specifying an Endpoint Address<ept id="4">&lt;/legacyLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The second web application (the client), however, cannot create, affect, or manage the registered <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> endpoint; instead, it possesses a SAS key or is trusted by <ph id="2">&lt;token&gt;ac2&lt;/token&gt;</ph> to interact with endpoints that are already registered.</source>
+            <target state="new">The second web application (the client), however, cannot create, affect, or manage the registered <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> endpoint; instead, it possesses a SAS key or is trusted by <ph id="2">&lt;token&gt;ac2&lt;/token&gt;</ph> to interact with endpoints that are already registered.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Typically, the former type of application is referred to as a <bpt id="1">&lt;newTerm&gt;</bpt>service<ept id="1">&lt;/newTerm&gt;</ept> (instead of <bpt id="2">&lt;newTerm&gt;</bpt>client<ept id="2">&lt;/newTerm&gt;</ept> or calling application), because without a controlling or managing web service, <ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph> would have no endpoints with which other web-enabled applications can communicate.</source>
+            <target state="new">Typically, the former type of application is referred to as a <bpt id="1">&lt;newTerm&gt;</bpt>service<ept id="1">&lt;/newTerm&gt;</ept> (instead of <bpt id="2">&lt;newTerm&gt;</bpt>client<ept id="2">&lt;/newTerm&gt;</ept> or calling application), because without a controlling or managing web service, <ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph> would have no endpoints with which other web-enabled applications can communicate.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Web applications that interact with a pre-existing <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> endpoint are conventionally referred to as web service client applications, because they consume the features available at a registered <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> endpoint.</source>
+            <target state="new">Web applications that interact with a pre-existing <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> endpoint are conventionally referred to as web service client applications, because they consume the features available at a registered <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> supports two types of messaging patterns: <bpt id="2">&lt;newTerm&gt;</bpt>relayed messaging<ept id="2">&lt;/newTerm&gt;</ept> and <bpt id="3">&lt;newTerm&gt;</bpt>brokered messaging<ept id="3">&lt;/newTerm&gt;</ept>.</source>
+            <target state="new"><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> supports two types of messaging patterns: <bpt id="2">&lt;newTerm&gt;</bpt>relayed messaging<ept id="2">&lt;/newTerm&gt;</ept> and <bpt id="3">&lt;newTerm&gt;</bpt>brokered messaging<ept id="3">&lt;/newTerm&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The two messaging patterns are discussed in the <ph id="1">&lt;link xlink:href="7c51e661-013a-4b5a-8e6c-1a0b8df0bd0e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Relayed and Brokered Messaging&lt;/link&gt;</ph> topic.</source>
+            <target state="new">The two messaging patterns are discussed in the <ph id="1">&lt;link xlink:href="7c51e661-013a-4b5a-8e6c-1a0b8df0bd0e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Relayed and Brokered Messaging&lt;/link&gt;</ph> topic.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>This section provides an overview of the technical features of the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> relayed messaging pattern, at a high level.</source>
+            <target state="new">This section provides an overview of the technical features of the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> relayed messaging pattern, at a high level.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The following additional topics in this section describe application development with <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> from the point of view of a development lifecycle.</source>
+            <target state="new">The following additional topics in this section describe application development with <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> from the point of view of a development lifecycle.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Not every development goal requires starting at any one point in the cycle; if you have to develop a client that invokes a service published by <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>, you do not have to read about publishing a service endpoint.</source>
+            <target state="new">Not every development goal requires starting at any one point in the cycle; if you have to develop a client that invokes a service published by <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>, you do not have to read about publishing a service endpoint.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Instead, start with <ph id="1">&lt;link xlink:href="3468b3db-91b6-4e76-a5ff-216d4c765d05" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Building an AppFabric Service Bus Client Application&lt;/link&gt;</ph>.</source>
+            <target state="new">Instead, start with <ph id="1">&lt;link xlink:href="3468b3db-91b6-4e76-a5ff-216d4c765d05" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Building an AppFabric Service Bus Client Application&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Describes how to build a simple <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client application and service using the “relay” messaging capabilities.</source>
+            <target state="new">Describes how to build a simple <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> client application and service using the “relay” messaging capabilities.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Describes how to build a simple <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> host application that exposes a REST-based interface.</source>
+            <target state="new">Describes how to build a simple <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> host application that exposes a REST-based interface.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Describes general programming lifecycles for creating an application that uses <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">Describes general programming lifecycles for creating an application that uses <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Describes all of the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> <ph id="2">&lt;token&gt;indigo2&lt;/token&gt;</ph> bindings and the standard <ph id="3">&lt;token&gt;indigo2&lt;/token&gt;</ph> bindings to which they correspond.</source>
+            <target state="new">Describes all of the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> <ph id="2">&lt;token&gt;indigo2&lt;/token&gt;</ph> bindings and the standard <ph id="3">&lt;token&gt;indigo2&lt;/token&gt;</ph> bindings to which they correspond.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Describes how to design an <ph id="1">&lt;token&gt;indigo1&lt;/token&gt;</ph> service contract that can be registered to be available on at a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> endpoint.</source>
+            <target state="new">Describes how to design an <ph id="1">&lt;token&gt;indigo1&lt;/token&gt;</ph> service contract that can be registered to be available on at a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Describes how to configure an application that uses <ph id="1">&lt;token&gt;indigo2&lt;/token&gt;</ph>.</source>
+            <target state="new">Describes how to configure an application that uses <ph id="1">&lt;token&gt;indigo2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Describes how to make a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> application more secure.</source>
+            <target state="new">Describes how to make a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> application more secure.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Describes how to set up a <ph id="1">&lt;token&gt;indigo2&lt;/token&gt;</ph> service for hosting.</source>
+            <target state="new">Describes how to set up a <ph id="1">&lt;token&gt;indigo2&lt;/token&gt;</ph> service for hosting.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Describes how to build a client application that connects to and uses a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service endpoint to communicate with the originating service.</source>
+            <target state="new">Describes how to build a client application that connects to and uses a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service endpoint to communicate with the originating service.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Describes how to use the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service registry to register service endpoints, expose them in the registry, publish WSDL metadata exchange endpoints, and locate service endpoints that have been registered to be publicly visible.</source>
+            <target state="new">Describes how to use the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service registry to register service endpoints, expose them in the registry, publish WSDL metadata exchange endpoints, and locate service endpoints that have been registered to be publicly visible.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

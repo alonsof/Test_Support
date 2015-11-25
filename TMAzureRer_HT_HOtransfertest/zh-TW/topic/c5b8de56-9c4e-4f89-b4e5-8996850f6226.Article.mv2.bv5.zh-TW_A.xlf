@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-TW" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANylEKwjAMANCr5AAJrDXpGk/gAQZ+p12Cg7mBThieXt/3i7h449zJnZk4xUBtqI36kKyoRjJThJGFs7pR05KJpcxkNQnV7D2JCI88I3RpdXYppJ2dOKpSY/8v1VJliJJzQUgI3wdNd4RzXSL8PK6vfT8QMoIg3D5P26aXbe/VjmXffj9sROGhAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Step 4: Create and Configure the LOB Target</source>
+            <target state="new">Step 4: Create and Configure the LOB Target</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Create <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph>s and <ph id="2">&lt;token&gt;lobtarget&lt;/token&gt;</ph>s in your <ph id="3">&lt;token&gt;af_integration&lt;/token&gt;</ph> application to connect to an on-premises LOB application.</source>
+            <target state="new">Create <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph>s and <ph id="2">&lt;token&gt;lobtarget&lt;/token&gt;</ph>s in your <ph id="3">&lt;token&gt;af_integration&lt;/token&gt;</ph> application to connect to an on-premises LOB application.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="2360e515-3493-4c35-92dc-87b587520697" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Service Bus Connect Architecture&lt;/link&gt;</ph> describes how <ph id="2">&lt;token&gt;lobrelay&lt;/token&gt;</ph>s and <ph id="3">&lt;token&gt;lobtarget&lt;/token&gt;</ph>s manage connectivity with an on-premises LOB application.</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="2360e515-3493-4c35-92dc-87b587520697" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Service Bus Connect Architecture&lt;/link&gt;</ph> describes how <ph id="2">&lt;token&gt;lobrelay&lt;/token&gt;</ph>s and <ph id="3">&lt;token&gt;lobtarget&lt;/token&gt;</ph>s manage connectivity with an on-premises LOB application.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>This section lists how to create a <ph id="1">&lt;token&gt;ssNoVersion&lt;/token&gt;</ph> table where the sales order data is inserted, how to create a <ph id="2">&lt;token&gt;lobrelay&lt;/token&gt;</ph> and target for the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Insert<ept id="3">&lt;/embeddedLabel&gt;</ept> operation on the <ph id="4">&lt;token&gt;ssNoVersion&lt;/token&gt;</ph> table, and how to generate the schema for the <bpt id="5">&lt;embeddedLabel&gt;</bpt>Insert<ept id="5">&lt;/embeddedLabel&gt;</ept> operation on the <ph id="6">&lt;token&gt;ssNoVersion&lt;/token&gt;</ph> table.</source>
+            <target state="new">This section lists how to create a <ph id="1">&lt;token&gt;ssNoVersion&lt;/token&gt;</ph> table where the sales order data is inserted, how to create a <ph id="2">&lt;token&gt;lobrelay&lt;/token&gt;</ph> and target for the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Insert<ept id="3">&lt;/embeddedLabel&gt;</ept> operation on the <ph id="4">&lt;token&gt;ssNoVersion&lt;/token&gt;</ph> table, and how to generate the schema for the <bpt id="5">&lt;embeddedLabel&gt;</bpt>Insert<ept id="5">&lt;/embeddedLabel&gt;</ept> operation on the <ph id="6">&lt;token&gt;ssNoVersion&lt;/token&gt;</ph> table.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Specifically:</source>
+            <target state="new">Specifically:</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Create the SQL Server table</source>
+            <target state="new">Create the SQL Server table</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Use these steps to create the <bpt id="1">&lt;embeddedLabel&gt;</bpt>OrderDetails<ept id="1">&lt;/embeddedLabel&gt;</ept> table in <ph id="2">&lt;token&gt;ssNoVersion&lt;/token&gt;</ph> in which the sales order data is inserted.</source>
+            <target state="new">Use these steps to create the <bpt id="1">&lt;embeddedLabel&gt;</bpt>OrderDetails<ept id="1">&lt;/embeddedLabel&gt;</ept> table in <ph id="2">&lt;token&gt;ssNoVersion&lt;/token&gt;</ph> in which the sales order data is inserted.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The script is also available in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>FTP_EAI_Tutorial<ept id="1">&lt;/embeddedLabel&gt;</ept> sample at <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/?LinkId=247973<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=247973&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">The script is also available in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>FTP_EAI_Tutorial<ept id="1">&lt;/embeddedLabel&gt;</ept> sample at <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/?LinkId=247973<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=247973&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>This script assumes that you already have an <bpt id="1">&lt;embeddedLabel&gt;</bpt>Orders<ept id="1">&lt;/embeddedLabel&gt;</ept> database created.</source>
+            <target state="new">This script assumes that you already have an <bpt id="1">&lt;embeddedLabel&gt;</bpt>Orders<ept id="1">&lt;/embeddedLabel&gt;</ept> database created.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Open <ph id="1">&lt;token&gt;ssManStudioFull&lt;/token&gt;</ph>.</source>
+            <target state="new">Open <ph id="1">&lt;token&gt;ssManStudioFull&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Run the following script to create the <bpt id="1">&lt;embeddedLabel&gt;</bpt>OrderDetails<ept id="1">&lt;/embeddedLabel&gt;</ept> table:</source>
+            <target state="new">Run the following script to create the <bpt id="1">&lt;embeddedLabel&gt;</bpt>OrderDetails<ept id="1">&lt;/embeddedLabel&gt;</ept> table:</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Confirm the table is created in the database.</source>
+            <target state="new">Confirm the table is created in the database.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Create a SQL Server LOBTarget</source>
+            <target state="new">Create a SQL Server LOBTarget</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Create the <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph> and the <ph id="2">&lt;token&gt;lobtarget&lt;/token&gt;</ph> for the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Insert<ept id="3">&lt;/embeddedLabel&gt;</ept> operation on the <bpt id="4">&lt;embeddedLabel&gt;</bpt>OrderDetails<ept id="4">&lt;/embeddedLabel&gt;</ept> table:</source>
+            <target state="new">Create the <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph> and the <ph id="2">&lt;token&gt;lobtarget&lt;/token&gt;</ph> for the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Insert<ept id="3">&lt;/embeddedLabel&gt;</ept> operation on the <bpt id="4">&lt;embeddedLabel&gt;</bpt>OrderDetails<ept id="4">&lt;/embeddedLabel&gt;</ept> table:</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>In the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, from <bpt id="2">&lt;legacyBold&gt;</bpt>Server Explorer<ept id="2">&lt;/legacyBold&gt;</ept>, right-click <bpt id="3">&lt;embeddedLabel&gt;</bpt><ph id="4">&lt;token&gt;lobconnect&lt;/token&gt;</ph>s<ept id="3">&lt;/embeddedLabel&gt;</ept>, and then select <bpt id="5">&lt;legacyBold&gt;</bpt>Add BizTalk Adapter Service<ept id="5">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new">In the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, from <bpt id="2">&lt;legacyBold&gt;</bpt>Server Explorer<ept id="2">&lt;/legacyBold&gt;</ept>, right-click <bpt id="3">&lt;embeddedLabel&gt;</bpt><ph id="4">&lt;token&gt;lobconnect&lt;/token&gt;</ph>s<ept id="3">&lt;/embeddedLabel&gt;</ept>, and then select <bpt id="5">&lt;legacyBold&gt;</bpt>Add BizTalk Adapter Service<ept id="5">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>This prompts for the <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph> Management URL.</source>
+            <target state="new">This prompts for the <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph> Management URL.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Enter the management URL.</source>
+            <target state="new">Enter the management URL.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph> Management URL is path to the ManagementService.svc WCF service hosted in IIS.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph> Management URL is path to the ManagementService.svc WCF service hosted in IIS.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="355e839a-c2ca-48e2-bc2e-e3cd1ad32466" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Runtime: ServiceBus Connect Service Runtime Components&lt;/link&gt;</ph> provides more information on the <ph id="2">&lt;token&gt;lobconnect&lt;/token&gt;</ph> components within IIS.</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="355e839a-c2ca-48e2-bc2e-e3cd1ad32466" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Runtime: ServiceBus Connect Service Runtime Components&lt;/link&gt;</ph> provides more information on the <ph id="2">&lt;token&gt;lobconnect&lt;/token&gt;</ph> components within IIS.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>If the <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph> Runtime is installed locally with the default settings, enter: <bpt id="2">&lt;legacyBold&gt;</bpt>http://localhost:8080/BAService/ManagementService.svc/<ept id="2">&lt;/legacyBold&gt;</ept></source>
+            <target state="new">If the <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph> Runtime is installed locally with the default settings, enter: <bpt id="2">&lt;legacyBold&gt;</bpt>http://localhost:8080/BAService/ManagementService.svc/<ept id="2">&lt;/legacyBold&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>If the <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph> Runtime is installed remotely with the default settings, enter: <bpt id="2">&lt;legacyBold&gt;</bpt>http://ServerName:8080/BAService/ManagementService.svc/<ept id="2">&lt;/legacyBold&gt;</ept></source>
+            <target state="new">If the <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph> Runtime is installed remotely with the default settings, enter: <bpt id="2">&lt;legacyBold&gt;</bpt>http://ServerName:8080/BAService/ManagementService.svc/<ept id="2">&lt;/legacyBold&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;legacyBold&gt;</bpt>OK<ept id="1">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;legacyBold&gt;</bpt>OK<ept id="1">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Expand the newly added server, expand <bpt id="1">&lt;embeddedLabel&gt;</bpt>LOB Types<ept id="1">&lt;/embeddedLabel&gt;</ept>, right-click <bpt id="2">&lt;embeddedLabel&gt;</bpt>SQL<ept id="2">&lt;/embeddedLabel&gt;</ept>, and select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add SQL Target<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Expand the newly added server, expand <bpt id="1">&lt;embeddedLabel&gt;</bpt>LOB Types<ept id="1">&lt;/embeddedLabel&gt;</ept>, right-click <bpt id="2">&lt;embeddedLabel&gt;</bpt>SQL<ept id="2">&lt;/embeddedLabel&gt;</ept>, and select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add SQL Target<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add a Target<ept id="1">&lt;/embeddedLabel&gt;</ept> wizard opens.</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add a Target<ept id="1">&lt;/embeddedLabel&gt;</ept> wizard opens.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Before You Begin<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Next<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Before You Begin<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Next<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>On <bpt id="1">&lt;embeddedLabel&gt;</bpt>Connection Parameters<ept id="1">&lt;/embeddedLabel&gt;</ept>, enter the <ph id="2">&lt;token&gt;ssNoVersion&lt;/token&gt;</ph> details and the credentials to use for the connection.</source>
+            <target state="new">On <bpt id="1">&lt;embeddedLabel&gt;</bpt>Connection Parameters<ept id="1">&lt;/embeddedLabel&gt;</ept>, enter the <ph id="2">&lt;token&gt;ssNoVersion&lt;/token&gt;</ph> details and the credentials to use for the connection.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Next<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Next<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>You can use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Advanced<ept id="1">&lt;/embeddedLabel&gt;</ept> button to build the <ph id="2">&lt;token&gt;ssNoVersion&lt;/token&gt;</ph> connection URI and also enter the binding properties for the connection.</source>
+            <target state="new">You can use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Advanced<ept id="1">&lt;/embeddedLabel&gt;</ept> button to build the <ph id="2">&lt;token&gt;ssNoVersion&lt;/token&gt;</ph> connection URI and also enter the binding properties for the connection.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>The SQL Server Connection URI<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=228970&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> provides additional information about how to build the URI.</source>
+            <target state="new"><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>The SQL Server Connection URI<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=228970&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> provides additional information about how to build the URI.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>For binding properties, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Working with BizTalk Adapter for SQL Server Binding Properties<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=228971&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For binding properties, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Working with BizTalk Adapter for SQL Server Binding Properties<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=228971&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>For this tutorial, leave the default setting as-is for the binding properties.</source>
+            <target state="new">For this tutorial, leave the default setting as-is for the binding properties.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Operations<ept id="1">&lt;/embeddedLabel&gt;</ept>, expand <bpt id="2">&lt;embeddedLabel&gt;</bpt>Tables<ept id="2">&lt;/embeddedLabel&gt;</ept>, expand <bpt id="3">&lt;embeddedLabel&gt;</bpt>OrderDetails<ept id="3">&lt;/embeddedLabel&gt;</ept>, select <bpt id="4">&lt;embeddedLabel&gt;</bpt>Insert<ept id="4">&lt;/embeddedLabel&gt;</ept>, and then select the right arrow.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Operations<ept id="1">&lt;/embeddedLabel&gt;</ept>, expand <bpt id="2">&lt;embeddedLabel&gt;</bpt>Tables<ept id="2">&lt;/embeddedLabel&gt;</ept>, expand <bpt id="3">&lt;embeddedLabel&gt;</bpt>OrderDetails<ept id="3">&lt;/embeddedLabel&gt;</ept>, select <bpt id="4">&lt;embeddedLabel&gt;</bpt>Insert<ept id="4">&lt;/embeddedLabel&gt;</ept>, and then select the right arrow.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Insert<ept id="1">&lt;/embeddedLabel&gt;</ept> operation is now listed under the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Selected operations<ept id="2">&lt;/embeddedLabel&gt;</ept> section.</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Insert<ept id="1">&lt;/embeddedLabel&gt;</ept> operation is now listed under the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Selected operations<ept id="2">&lt;/embeddedLabel&gt;</ept> section.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Next<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Next<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Runtime Security<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Fixed Windows credential<ept id="2">&lt;/embeddedLabel&gt;</ept>, enter the credentials, and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Next<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Runtime Security<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Fixed Windows credential<ept id="2">&lt;/embeddedLabel&gt;</ept>, enter the credentials, and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Next<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>This security type determines how the client message is authenticated with the <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph>.</source>
+            <target state="new">This security type determines how the client message is authenticated with the <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Options include:</source>
+            <target state="new">Options include:</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Fixed Username</source>
+            <target state="new">Fixed Username</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Using a username and password created locally on the LOB system.</source>
+            <target state="new">Using a username and password created locally on the LOB system.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Fixed Windows credential</source>
+            <target state="new">Fixed Windows credential</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Use a Windows domain account.</source>
+            <target state="new">Use a Windows domain account.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Custom SOAP Header</source>
+            <target state="new">Custom SOAP Header</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>You create a custom SOAP header to include the username and password.</source>
+            <target state="new">You create a custom SOAP header to include the username and password.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Message Credential</source>
+            <target state="new">Message Credential</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>You are including the logon credentials in the WS-Security header of the message.</source>
+            <target state="new">You are including the logon credentials in the WS-Security header of the message.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Deployment<ept id="1">&lt;/embeddedLabel&gt;</ept>, choose an existing <ph id="2">&lt;token&gt;lobrelay&lt;/token&gt;</ph> or create a new <ph id="3">&lt;token&gt;lobrelay&lt;/token&gt;</ph>.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Deployment<ept id="1">&lt;/embeddedLabel&gt;</ept>, choose an existing <ph id="2">&lt;token&gt;lobrelay&lt;/token&gt;</ph> or create a new <ph id="3">&lt;token&gt;lobrelay&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>A single <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph> can be used with multiple <ph id="2">&lt;token&gt;lobtarget&lt;/token&gt;</ph>s.</source>
+            <target state="new">A single <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph> can be used with multiple <ph id="2">&lt;token&gt;lobtarget&lt;/token&gt;</ph>s.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>There are restrictions based on the security model.</source>
+            <target state="new">There are restrictions based on the security model.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>As a best practice, group the same security method in one <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph>.</source>
+            <target state="new">As a best practice, group the same security method in one <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>For example, use the same <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph> to host the <ph id="2">&lt;token&gt;lobtarget&lt;/token&gt;</ph>s that use Message Credential or Fixed Windows security type.</source>
+            <target state="new">For example, use the same <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph> to host the <ph id="2">&lt;token&gt;lobtarget&lt;/token&gt;</ph>s that use Message Credential or Fixed Windows security type.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>To create a new <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph>:</source>
+            <target state="new">To create a new <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph>:</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Namespace</source>
+            <target state="new">Namespace</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Enter your <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace; the LOB relay is created in the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">Enter your <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace; the LOB relay is created in the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>The namespace name is listed in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=211879&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">The namespace name is listed in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=211879&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>For example, if <bpt id="1">&lt;legacyItalic&gt;</bpt>myNamespace<ept id="1">&lt;/legacyItalic&gt;</ept> is the namespace, this updates the Management address to:<ph id="2">&lt;codeInline&gt;http://MyServer:8080/BAService/ManagementService.svc/myNamepsace&lt;/codeInline&gt;</ph></source>
+            <target state="new">For example, if <bpt id="1">&lt;legacyItalic&gt;</bpt>myNamespace<ept id="1">&lt;/legacyItalic&gt;</ept> is the namespace, this updates the Management address to:<ph id="2">&lt;codeInline&gt;http://MyServer:8080/BAService/ManagementService.svc/myNamepsace&lt;/codeInline&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Issuer Name</source>
+            <target state="new">Issuer Name</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Enter a valid <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> Issuer Name.</source>
+            <target state="new">Enter a valid <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> Issuer Name.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Issuer Secret</source>
+            <target state="new">Issuer Secret</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Enter a valid<ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> Issuer Secret key.</source>
+            <target state="new">Enter a valid<ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> Issuer Secret key.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Relay Path</source>
+            <target state="new">Relay Path</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Enter the desired name of the relay path.</source>
+            <target state="new">Enter the desired name of the relay path.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>For this tutorial, set this property to <bpt id="1">&lt;userInput&gt;</bpt>SQLLOBRelay<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For this tutorial, set this property to <bpt id="1">&lt;userInput&gt;</bpt>SQLLOBRelay<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Target Sub-path</source>
+            <target state="new">Target Sub-path</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Enter a sub-path to make this target unique.</source>
+            <target state="new">Enter a sub-path to make this target unique.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>For example, you can enter <bpt id="1">&lt;userInput&gt;</bpt>OrderDetails<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For example, you can enter <bpt id="1">&lt;userInput&gt;</bpt>OrderDetails<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Target runtime URL</source>
+            <target state="new">Target runtime URL</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>This is automatically populated with the namespace name, relay path, and target sub-path you entered.</source>
+            <target state="new">This is automatically populated with the namespace name, relay path, and target sub-path you entered.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>If using these examples, it is populated with something like:</source>
+            <target state="new">If using these examples, it is populated with something like:</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Next<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Next<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Summary<ept id="1">&lt;/embeddedLabel&gt;</ept>, review your values.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Summary<ept id="1">&lt;/embeddedLabel&gt;</ept>, review your values.</target>
+          </trans-unit>
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Create<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Create<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>When the wizard completes, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Finish<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">When the wizard completes, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Finish<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>The following activities occur in the background:</source>
+            <target state="new">The following activities occur in the background:</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph> is created in Server Explorer.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph> is created in Server Explorer.</target>
+          </trans-unit>
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>It can be disabled, started, and deleted.</source>
+            <target state="new">It can be disabled, started, and deleted.</target>
+          </trans-unit>
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Its configuration can also be exported.</source>
+            <target state="new">Its configuration can also be exported.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph> is created as an application in IIS.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph> is created as an application in IIS.</target>
+          </trans-unit>
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>This application uses the Runtime for this specific <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph>.</source>
+            <target state="new">This application uses the Runtime for this specific <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="355e839a-c2ca-48e2-bc2e-e3cd1ad32466" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Runtime: ServiceBus Connect Service Runtime Components&lt;/link&gt;</ph> describes the IIS components.</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="355e839a-c2ca-48e2-bc2e-e3cd1ad32466" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Runtime: ServiceBus Connect Service Runtime Components&lt;/link&gt;</ph> describes the IIS components.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>To use the <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph>:</source>
+            <target state="new">To use the <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph>:</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Set the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Runtime Security<ept id="1">&lt;/embeddedLabel&gt;</ept> property for the relay endpoint:</source>
+            <target state="new">Set the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Runtime Security<ept id="1">&lt;/embeddedLabel&gt;</ept> property for the relay endpoint:</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Right-click the relay endpoint in Server Explorer and select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Right-click the relay endpoint in Server Explorer and select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, select the ellipsis <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> next to the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Runtime Security<ept id="3">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, select the ellipsis <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> next to the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Runtime Security<ept id="3">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit Security<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Fixed Windows Credentials<ept id="2">&lt;/embeddedLabel&gt;</ept>, and enter username and password to connect to the <ph id="3">&lt;token&gt;ssNoVersion&lt;/token&gt;</ph>.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit Security<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Fixed Windows Credentials<ept id="2">&lt;/embeddedLabel&gt;</ept>, and enter username and password to connect to the <ph id="3">&lt;token&gt;ssNoVersion&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Drag and drop the <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph> onto the design area.</source>
+            <target state="new">Drag and drop the <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph> onto the design area.</target>
+          </trans-unit>
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Note the <bpt id="1">&lt;legacyBold&gt;</bpt>Entity Name<ept id="1">&lt;/legacyBold&gt;</ept> property of the <ph id="2">&lt;token&gt;lobtarget&lt;/token&gt;</ph>.</source>
+            <target state="new">Note the <bpt id="1">&lt;legacyBold&gt;</bpt>Entity Name<ept id="1">&lt;/legacyBold&gt;</ept> property of the <ph id="2">&lt;token&gt;lobtarget&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>The default value is <bpt id="1">&lt;legacyItalic&gt;</bpt>Relay-Path_target-sub-path<ept id="1">&lt;/legacyItalic&gt;</ept>.</source>
+            <target state="new">The default value is <bpt id="1">&lt;legacyItalic&gt;</bpt>Relay-Path_target-sub-path<ept id="1">&lt;/legacyItalic&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>If using the examples above, it is <bpt id="1">&lt;legacyItalic&gt;</bpt>sqllobrelay_orderdetails<ept id="1">&lt;/legacyItalic&gt;</ept>.</source>
+            <target state="new">If using the examples above, it is <bpt id="1">&lt;legacyItalic&gt;</bpt>sqllobrelay_orderdetails<ept id="1">&lt;/legacyItalic&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Open the .config file for the LOB target, which typically has the <bpt id="1">&lt;legacyItalic&gt;</bpt>YourRelayPath_target-sub-path.config<ept id="1">&lt;/legacyItalic&gt;</ept> naming convention.</source>
+            <target state="new">Open the .config file for the LOB target, which typically has the <bpt id="1">&lt;legacyItalic&gt;</bpt>YourRelayPath_target-sub-path.config<ept id="1">&lt;/legacyItalic&gt;</ept> naming convention.</target>
+          </trans-unit>
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Enter the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer name and issuer secret, as shown:</source>
+            <target state="new">Enter the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer name and issuer secret, as shown:</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Save changes to the config file.</source>
+            <target state="new">Save changes to the config file.</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Generate the Schema</source>
+            <target state="new">Generate the Schema</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Generate the schema for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Insert<ept id="1">&lt;/embeddedLabel&gt;</ept> operation on the <bpt id="2">&lt;embeddedLabel&gt;</bpt>OrderDetails<ept id="2">&lt;/embeddedLabel&gt;</ept> table:</source>
+            <target state="new">Generate the schema for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Insert<ept id="1">&lt;/embeddedLabel&gt;</ept> operation on the <bpt id="2">&lt;embeddedLabel&gt;</bpt>OrderDetails<ept id="2">&lt;/embeddedLabel&gt;</ept> table:</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>In the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Server Explorer<ept id="2">&lt;/embeddedLabel&gt;</ept>, right click the <ph id="3">&lt;token&gt;lobtarget&lt;/token&gt;</ph> you just created, and then select <bpt id="4">&lt;embeddedLabel&gt;</bpt>Add schemas to FTP_EAI_Tutorial<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Server Explorer<ept id="2">&lt;/embeddedLabel&gt;</ept>, right click the <ph id="3">&lt;token&gt;lobtarget&lt;/token&gt;</ph> you just created, and then select <bpt id="4">&lt;embeddedLabel&gt;</bpt>Add schemas to FTP_EAI_Tutorial<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Schema Generation<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog opens.</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Schema Generation<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog opens.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Set the file name prefix to <bpt id="1">&lt;userInput&gt;</bpt>FTP_EAI_Tutorial_<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">Set the file name prefix to <bpt id="1">&lt;userInput&gt;</bpt>FTP_EAI_Tutorial_<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Leave the folder name to its default value of <bpt id="1">&lt;embeddedLabel&gt;</bpt>LOB Schemas<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Leave the folder name to its default value of <bpt id="1">&lt;embeddedLabel&gt;</bpt>LOB Schemas<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>Select credential type as <bpt id="1">&lt;embeddedLabel&gt;</bpt>Windows<ept id="1">&lt;/embeddedLabel&gt;</ept> to use Windows authentication to connect to <ph id="2">&lt;token&gt;ssNoVersion&lt;/token&gt;</ph>, and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>OK<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select credential type as <bpt id="1">&lt;embeddedLabel&gt;</bpt>Windows<ept id="1">&lt;/embeddedLabel&gt;</ept> to use Windows authentication to connect to <ph id="2">&lt;token&gt;ssNoVersion&lt;/token&gt;</ph>, and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>OK<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>The schemas are added to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>FTP_EAI_Tutorial<ept id="1">&lt;/embeddedLabel&gt;</ept> project under the <bpt id="2">&lt;embeddedLabel&gt;</bpt>LOB Schemas<ept id="2">&lt;/embeddedLabel&gt;</ept> folder.</source>
+            <target state="new">The schemas are added to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>FTP_EAI_Tutorial<ept id="1">&lt;/embeddedLabel&gt;</ept> project under the <bpt id="2">&lt;embeddedLabel&gt;</bpt>LOB Schemas<ept id="2">&lt;/embeddedLabel&gt;</ept> folder.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

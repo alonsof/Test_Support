@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ru-RU" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAdzFsKgzAQRuGtZAH5IZOMqdMV9Lm0C5jJBQSrYBVcfqVwHj9O76kZx4LWmMHUAyyMhhJIs0gnVfEuFVG9CUHVCFxCheUaMRrleNGcaPRObaAhZcK1imCpBZJFEWqqypw4SPWOvNsOPN/enfPUezv3+7auu3fx3+P46PLadPnOuk/r8gNCjIxeoQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Version 2011-08-18</source>
+            <target state="new">Version 2011-08-18</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The 2011-08-18 version of the Azure storage services includes these changes:</source>
+            <target state="new">The 2011-08-18 version of the Azure storage services includes these changes:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="a3e943b4-5745-4e64-9d6f-728bbefbd5ee" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob&lt;/link&gt;</ph> returns an <ph id="2">&lt;parameterReference&gt;Accept-Ranges:bytes&lt;/parameterReference&gt;</ph> header in the response to indicate that the service supports range requests.</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="a3e943b4-5745-4e64-9d6f-728bbefbd5ee" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob&lt;/link&gt;</ph> returns an <ph id="2">&lt;parameterReference&gt;Accept-Ranges:bytes&lt;/parameterReference&gt;</ph> header in the response to indicate that the service supports range requests.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="a3e943b4-5745-4e64-9d6f-728bbefbd5ee" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob&lt;/link&gt;</ph> supports a new Range header format that reads from the specified offset to the end of the blob.</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="a3e943b4-5745-4e64-9d6f-728bbefbd5ee" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob&lt;/link&gt;</ph> supports a new Range header format that reads from the specified offset to the end of the blob.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="8087cabc-5e40-4def-8790-a97a20448946" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Specifying the Range Header for Blob Service Operations&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="8087cabc-5e40-4def-8790-a97a20448946" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Specifying the Range Header for Blob Service Operations&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>ETags returned by the Blob service are enclosed in quotes.</source>
+            <target state="new">ETags returned by the Blob service are enclosed in quotes.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>In addition, the Blob service will accept quoted and unquoted ETags.</source>
+            <target state="new">In addition, the Blob service will accept quoted and unquoted ETags.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="65424a3c-ab49-4994-865c-827409598092" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Service Properties&lt;/link&gt;</ph> can specify a default version to use when an un-versioned request is received.</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="65424a3c-ab49-4994-865c-827409598092" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Service Properties&lt;/link&gt;</ph> can specify a default version to use when an un-versioned request is received.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>If-Match GET and PUT operations against the Blob service will now return HTTP 404 (“Not Found) and HTTP 412 (“Precondition Failed”) if the blob doesn’t exist.</source>
+            <target state="new">If-Match GET and PUT operations against the Blob service will now return HTTP 404 (“Not Found) and HTTP 412 (“Precondition Failed”) if the blob doesn’t exist.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>This change applies to 2009-09-19 and newer versions.</source>
+            <target state="new">This change applies to 2009-09-19 and newer versions.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The Table service supports projections of selected properties by using the $select query option.</source>
+            <target state="new">The Table service supports projections of selected properties by using the $select query option.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="8cfef6f9-eb7f-40f0-9016-dff44d36b6e1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Query Entities&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="c1ff6980-6c93-4327-9d19-69790370e1ee" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Writing LINQ Queries&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="8cfef6f9-eb7f-40f0-9016-dff44d36b6e1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Query Entities&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="c1ff6980-6c93-4327-9d19-69790370e1ee" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Writing LINQ Queries&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The Table service adds the <ph id="1">&lt;link xlink:href="630d4109-2112-46c2-83fc-657d2ab1d26f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Insert Or Replace Entity&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="2de2c193-befe-4b7f-864a-650f3d861939" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Insert Or Merge Entity&lt;/link&gt;</ph> operations, which “upsert” an entity.</source>
+            <target state="new">The Table service adds the <ph id="1">&lt;link xlink:href="630d4109-2112-46c2-83fc-657d2ab1d26f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Insert Or Replace Entity&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="2de2c193-befe-4b7f-864a-650f3d861939" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Insert Or Merge Entity&lt;/link&gt;</ph> operations, which “upsert” an entity.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The Queue service adds the <ph id="1">&lt;link xlink:href="5f574ef2-2371-4336-94de-c2cef61edb6f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Update Message&lt;/link&gt;</ph> operation, which can extend the invisibility time of a message or update the contents of the message.</source>
+            <target state="new">The Queue service adds the <ph id="1">&lt;link xlink:href="5f574ef2-2371-4336-94de-c2cef61edb6f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Update Message&lt;/link&gt;</ph> operation, which can extend the invisibility time of a message or update the contents of the message.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;link xlink:href="0a3c4fcc-0b0b-4331-87a1-01d13f3de86e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Message&lt;/link&gt;</ph> operation adds the optional <ph id="2">&lt;parameterReference&gt;visibilitytimeout&lt;/parameterReference&gt;</ph> parameter which can extend the invisibility time of a new message.</source>
+            <target state="new">The <ph id="1">&lt;link xlink:href="0a3c4fcc-0b0b-4331-87a1-01d13f3de86e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Message&lt;/link&gt;</ph> operation adds the optional <ph id="2">&lt;parameterReference&gt;visibilitytimeout&lt;/parameterReference&gt;</ph> parameter which can extend the invisibility time of a new message.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;visibilitytimeout&lt;/parameterReference&gt;</ph> parameter can now be set to a maximum of 7 days, up from the previous maximum of 2 hours.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;visibilitytimeout&lt;/parameterReference&gt;</ph> parameter can now be set to a maximum of 7 days, up from the previous maximum of 2 hours.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Queue messages can now be 64KB in size, up from the previous maximum size of 8KB.</source>
+            <target state="new">Queue messages can now be 64KB in size, up from the previous maximum size of 8KB.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ja-JP" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAdzF0KwjAMAOCr9AAN9CfdUk8gPvngBZKsgclsYU7Y8RWfP/jMchNMCq0hAkYLIIEENESearXIXL3jmRIKEsjEBqhkQBoKpKxCxWSRpXiHmlOsuQJxEfilDJQVIVmxCWflmJt30bsnw+3u3bmtZu08LvsYxx/Iu+vnxf2xc39vfKyjfwFDQS9RoQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Authentication, Requests and Responses</source>
+            <target state="new">Authentication, Requests and Responses</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Azure Key Vault</source>
+            <target state="new">Azure Key Vault</target>
+            <context-group>
+              <context context-type="x-metadataname">applies_to_product</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Authentication, Requests and Responses</source>
+            <target state="new">Authentication, Requests and Responses</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The Azure Key Vault supports JSON formatted requests and responses.</source>
+            <target state="new">The Azure Key Vault supports JSON formatted requests and responses.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Requests to the Azure Key Vault are directed to a valid Azure Key Vault URL using HTTPS with some URL parameters and JSON encoded request and response bodies.</source>
+            <target state="new">Requests to the Azure Key Vault are directed to a valid Azure Key Vault URL using HTTPS with some URL parameters and JSON encoded request and response bodies.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Request URL</source>
+            <target state="new">Request URL</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Key management operations use HTTP DELETE, GET, PATCH, PUT and HTTP POST and cryptographic operations against existing key objects use HTTP POST.</source>
+            <target state="new">Key management operations use HTTP DELETE, GET, PATCH, PUT and HTTP POST and cryptographic operations against existing key objects use HTTP POST.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Clients that cannot support specific HTTP verbs may also use HTTP POST using the X-HTTP-REQUEST header to specify the intended verb; requests that do not normally require a body should include an empty body when using HTTP POST, for example when using POST instead of DELETE.</source>
+            <target state="new">Clients that cannot support specific HTTP verbs may also use HTTP POST using the X-HTTP-REQUEST header to specify the intended verb; requests that do not normally require a body should include an empty body when using HTTP POST, for example when using POST instead of DELETE.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>To work with objects in the Azure Key Vault, the following are example URLs:</source>
+            <target state="new">To work with objects in the Azure Key Vault, the following are example URLs:</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>To CREATE a key called TESTKEY in a Key Vault use - <ph id="1">&lt;codeInline&gt;PUT /keys/TESTKEY?api-version=%%amp;lt;api_version%%amp;gt; HTTP/1.1&lt;/codeInline&gt;</ph></source>
+            <target state="new">To CREATE a key called TESTKEY in a Key Vault use - <ph id="1">&lt;codeInline&gt;PUT /keys/TESTKEY?api-version=%%amp;lt;api_version%%amp;gt; HTTP/1.1&lt;/codeInline&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>To IMPORT a key called IMPORTEDKEY into a Key Vault use - <ph id="1">&lt;codeInline&gt;POST /keys/IMPORTEDKEY/import?api-version=%%amp;lt;api_version%%amp;gt; HTTP/1.1&lt;/codeInline&gt;</ph></source>
+            <target state="new">To IMPORT a key called IMPORTEDKEY into a Key Vault use - <ph id="1">&lt;codeInline&gt;POST /keys/IMPORTEDKEY/import?api-version=%%amp;lt;api_version%%amp;gt; HTTP/1.1&lt;/codeInline&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>To GET a secret called MYSECRET in a Key Vault use - <ph id="1">&lt;codeInline&gt;GET /secrets/MYSECRET?api-version=%%amp;lt;api_version%%amp;gt; HTTP/1.1&lt;/codeInline&gt;</ph></source>
+            <target state="new">To GET a secret called MYSECRET in a Key Vault use - <ph id="1">&lt;codeInline&gt;GET /secrets/MYSECRET?api-version=%%amp;lt;api_version%%amp;gt; HTTP/1.1&lt;/codeInline&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>To SIGN a digest using a key called TESTKEY in a Key Vault use - <ph id="1">&lt;codeInline&gt;POST /keys/TESTKEY/sign?api-version=%%amp;lt;api_version%%amp;gt; HTTP/1.1&lt;/codeInline&gt;</ph></source>
+            <target state="new">To SIGN a digest using a key called TESTKEY in a Key Vault use - <ph id="1">&lt;codeInline&gt;POST /keys/TESTKEY/sign?api-version=%%amp;lt;api_version%%amp;gt; HTTP/1.1&lt;/codeInline&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The authority for a request to a Key Vault is always as follows,  <ph id="1">&lt;codeInline&gt;https://{keyvault-name}.vault.azure.net/&lt;/codeInline&gt;</ph></source>
+            <target state="new">The authority for a request to a Key Vault is always as follows,  <ph id="1">&lt;codeInline&gt;https://{keyvault-name}.vault.azure.net/&lt;/codeInline&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Keys are always stored under the /keys path, Secrets are always stored under the /secrets path.</source>
+            <target state="new">Keys are always stored under the /keys path, Secrets are always stored under the /secrets path.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>API Version</source>
+            <target state="new">API Version</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>The Azure Key Vault Service supports protocol versioning to provide compatibility with down-level clients, although not all capabilities will be available to those clients.</source>
+            <target state="new">The Azure Key Vault Service supports protocol versioning to provide compatibility with down-level clients, although not all capabilities will be available to those clients.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Clients must use the <ph id="1">&lt;codeInline&gt;api-version&lt;/codeInline&gt;</ph> query string parameter to specify the version of the protocol that they support as there is no default.</source>
+            <target state="new">Clients must use the <ph id="1">&lt;codeInline&gt;api-version&lt;/codeInline&gt;</ph> query string parameter to specify the version of the protocol that they support as there is no default.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Azure Key Vault protocol versions follow a date numbering scheme using a {YYYY}.{MM}.{DD} format.</source>
+            <target state="new">Azure Key Vault protocol versions follow a date numbering scheme using a {YYYY}.{MM}.{DD} format.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Request Body</source>
+            <target state="new">Request Body</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>As per the HTTP specification, GET operations must NOT have a request body, and POST and PUT operations must have a request body.</source>
+            <target state="new">As per the HTTP specification, GET operations must NOT have a request body, and POST and PUT operations must have a request body.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>The body in DELETE operations is optional in HTTP.</source>
+            <target state="new">The body in DELETE operations is optional in HTTP.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Unless otherwise noted in operation description, the request body content type must be application/json and must contain a serialized JSON object conformant to content type.</source>
+            <target state="new">Unless otherwise noted in operation description, the request body content type must be application/json and must contain a serialized JSON object conformant to content type.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Unless otherwise noted in operation description, the Accept request header must contain the application/json media type.</source>
+            <target state="new">Unless otherwise noted in operation description, the Accept request header must contain the application/json media type.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Response Body</source>
+            <target state="new">Response Body</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Unless otherwise noted in operation description, the response body content type of both successful and failed operations will be application/json and contains detailed error information.</source>
+            <target state="new">Unless otherwise noted in operation description, the response body content type of both successful and failed operations will be application/json and contains detailed error information.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Using HTTP POST</source>
+            <target state="new">Using HTTP POST</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Some clients may not be able to use certain HTTP verbs, such as PATCH or DELETE.</source>
+            <target state="new">Some clients may not be able to use certain HTTP verbs, such as PATCH or DELETE.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Azure Key Vault supports HTTP POST as an alternative for these clients provided that the client also includes the “X-HTTP-METHOD” header to specific the original HTTP verb.</source>
+            <target state="new">Azure Key Vault supports HTTP POST as an alternative for these clients provided that the client also includes the “X-HTTP-METHOD” header to specific the original HTTP verb.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Support for HTTP POST is noted for each of the API defined in this document.</source>
+            <target state="new">Support for HTTP POST is noted for each of the API defined in this document.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Error Responses</source>
+            <target state="new">Error Responses</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Error handling will use HTTP status codes.</source>
+            <target state="new">Error handling will use HTTP status codes.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Typical results are:</source>
+            <target state="new">Typical results are:</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>2xx – Success: Used for normal operation.</source>
+            <target state="new">2xx – Success: Used for normal operation.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>The response body will contain the expected result</source>
+            <target state="new">The response body will contain the expected result</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>3xx – Redirection: The 304 "Not Modified" may be returned to fulfill a conditional GET.</source>
+            <target state="new">3xx – Redirection: The 304 "Not Modified" may be returned to fulfill a conditional GET.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Other 3xx codes may be used in the future to indicate DNS and path changes.</source>
+            <target state="new">Other 3xx codes may be used in the future to indicate DNS and path changes.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>4xx – Client Error: Used for bad requests, missing keys, syntax errors, invalid parameters, authentication errors, etc. The response body will contain detailed error explanation.</source>
+            <target state="new">4xx – Client Error: Used for bad requests, missing keys, syntax errors, invalid parameters, authentication errors, etc. The response body will contain detailed error explanation.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>5xx – Server Error: Used for internal server errors.</source>
+            <target state="new">5xx – Server Error: Used for internal server errors.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>The response body will contain summarized error information.</source>
+            <target state="new">The response body will contain summarized error information.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>The system is designed to work behind a proxy or firewall.</source>
+            <target state="new">The system is designed to work behind a proxy or firewall.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Therefore, a client might receive other error codes.</source>
+            <target state="new">Therefore, a client might receive other error codes.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Azure Key Vault also returns error information in the response body when a problem occurs.</source>
+            <target state="new">Azure Key Vault also returns error information in the response body when a problem occurs.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>The response body is JSON formatted and takes the form:</source>
+            <target state="new">The response body is JSON formatted and takes the form:</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Authentication</source>
+            <target state="new">Authentication</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>All requests to Azure Key Vault MUST be authenticated.</source>
+            <target state="new">All requests to Azure Key Vault MUST be authenticated.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Azure Key Vault supports Azure Active Directory access tokens that may be obtained using OAuth2 [<bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>RFC6749<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://tools.ietf.org/html/rfc6749&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>].</source>
+            <target state="new">Azure Key Vault supports Azure Active Directory access tokens that may be obtained using OAuth2 [<bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>RFC6749<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://tools.ietf.org/html/rfc6749&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>].</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Access tokens must be sent to the service using the HTTP Authorization header:</source>
+            <target state="new">Access tokens must be sent to the service using the HTTP Authorization header:</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>When an access token is not supplied, or when a token is not accepted by the service, an HTTP 401 error will be returned to the client and will include the WWW-Authenticate header, for example:</source>
+            <target state="new">When an access token is not supplied, or when a token is not accepted by the service, an HTTP 401 error will be returned to the client and will include the WWW-Authenticate header, for example:</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>The parameters on the WWW-Authenticate header are:</source>
+            <target state="new">The parameters on the WWW-Authenticate header are:</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>authorization: The address of the OAuth2 authorization service that may be used to obtain an access token for the request.</source>
+            <target state="new">authorization: The address of the OAuth2 authorization service that may be used to obtain an access token for the request.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>resource: The name of the resource to use in the authorization request.</source>
+            <target state="new">resource: The name of the resource to use in the authorization request.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-CN" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAdjDEKwzAMAL/iB1hgObIjde3SqVM/YDkWDaQJpCmEvr6m691xZkNTihVaIwJCC6CBFWrAkkUMSxHvbMqJ44gwoWQgFoTuGEy5A4pB6+hdTmJUSWHox/5SAWFlSJgkthFtkF6hd98nXO/encts1s7jsm/b8RfJu9vnVdbHXtb3Uo55W39A5On/oQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Add an XML one-way bridge to process invoice</source>
+            <target state="new">Add an XML one-way bridge to process invoice</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This topic provides instructions on how to create a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> and how to add an <ph id="2">&lt;token&gt;one-way&lt;/token&gt;</ph> to it.</source>
+            <target state="new">This topic provides instructions on how to create a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> and how to add an <ph id="2">&lt;token&gt;one-way&lt;/token&gt;</ph> to it.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> receives the X12 810 invoice message from the EDI receive bridge and transforms it to a schema in which Contoso, Ltd.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> receives the X12 810 invoice message from the EDI receive bridge and transforms it to a schema in which Contoso, Ltd.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>expects the invoice messages.</source>
+            <target state="new">expects the invoice messages.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The bridge also invokes a custom code component that inserts the invoice data (after it is transformed to Contoso, Ltd.’s invoice schema) into a SQL Server database.</source>
+            <target state="new">The bridge also invokes a custom code component that inserts the invoice data (after it is transformed to Contoso, Ltd.’s invoice schema) into a SQL Server database.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Instructions related to creating the custom code component and including it in bridge configuration is available at <ph id="1">&lt;link xlink:href="edcfee5d-2174-4c80-a6a9-a2d1e9bef977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Include Custom Code to Use the SQL LOB Target&lt;/link&gt;</ph>.</source>
+            <target state="new">Instructions related to creating the custom code component and including it in bridge configuration is available at <ph id="1">&lt;link xlink:href="edcfee5d-2174-4c80-a6a9-a2d1e9bef977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Include Custom Code to Use the SQL LOB Target&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>To add an XML one-way bridge</source>
+            <target state="new">To add an XML one-way bridge</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Within the <bpt id="1">&lt;embeddedLabel&gt;</bpt>CloudCar_Integration<ept id="1">&lt;/embeddedLabel&gt;</ept> solution, add a new <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, and name it <bpt id="3">&lt;userInput&gt;</bpt>CloudCar_Integration_Invoice<ept id="3">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">Within the <bpt id="1">&lt;embeddedLabel&gt;</bpt>CloudCar_Integration<ept id="1">&lt;/embeddedLabel&gt;</ept> solution, add a new <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, and name it <bpt id="3">&lt;userInput&gt;</bpt>CloudCar_Integration_Invoice<ept id="3">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>CloudCar_Integration_Invoice<ept id="1">&lt;/embeddedLabel&gt;</ept> project, from the Solution Explorer, double-click the <bpt id="2">&lt;embeddedLabel&gt;</bpt>MessageFlowItinerary.bcs<ept id="2">&lt;/embeddedLabel&gt;</ept> file to open the bridge configuration surface.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>CloudCar_Integration_Invoice<ept id="1">&lt;/embeddedLabel&gt;</ept> project, from the Solution Explorer, double-click the <bpt id="2">&lt;embeddedLabel&gt;</bpt>MessageFlowItinerary.bcs<ept id="2">&lt;/embeddedLabel&gt;</ept> file to open the bridge configuration surface.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Right-click anywhere on <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Properties<ept id="2">&lt;/embeddedLabel&gt;</ept>, and update the <bpt id="3">&lt;embeddedLabel&gt;</bpt>BizTalk Service URL<ept id="3">&lt;/embeddedLabel&gt;</ept> property to include your <ph id="4">&lt;token&gt;af_integration&lt;/token&gt;</ph> name.</source>
+            <target state="new">Right-click anywhere on <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Properties<ept id="2">&lt;/embeddedLabel&gt;</ept>, and update the <bpt id="3">&lt;embeddedLabel&gt;</bpt>BizTalk Service URL<ept id="3">&lt;/embeddedLabel&gt;</ept> property to include your <ph id="4">&lt;token&gt;af_integration&lt;/token&gt;</ph> name.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>This is the name that you provided in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=211879&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> while provisioning <ph id="4">&lt;token&gt;af_integration&lt;/token&gt;</ph>.</source>
+            <target state="new">This is the name that you provided in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=211879&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> while provisioning <ph id="4">&lt;token&gt;af_integration&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Toolbox<ept id="1">&lt;/embeddedLabel&gt;</ept>, drag and drop the <bpt id="2">&lt;embeddedLabel&gt;</bpt><ph id="3">&lt;token&gt;one-way&lt;/token&gt;</ph><ept id="2">&lt;/embeddedLabel&gt;</ept> component to the bridge design surface.</source>
+            <target state="new">From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Toolbox<ept id="1">&lt;/embeddedLabel&gt;</ept>, drag and drop the <bpt id="2">&lt;embeddedLabel&gt;</bpt><ph id="3">&lt;token&gt;one-way&lt;/token&gt;</ph><ept id="2">&lt;/embeddedLabel&gt;</ept> component to the bridge design surface.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Right-click the <bpt id="1">&lt;embeddedLabel&gt;</bpt><ph id="2">&lt;token&gt;one-way&lt;/token&gt;</ph><ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Properties<ept id="3">&lt;/embeddedLabel&gt;</ept>, and change the value for <bpt id="4">&lt;embeddedLabel&gt;</bpt>Entity Name<ept id="4">&lt;/embeddedLabel&gt;</ept> and <bpt id="5">&lt;embeddedLabel&gt;</bpt>Relative Address<ept id="5">&lt;/embeddedLabel&gt;</ept> properties to <bpt id="6">&lt;userInput&gt;</bpt>InvoiceBridge<ept id="6">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">Right-click the <bpt id="1">&lt;embeddedLabel&gt;</bpt><ph id="2">&lt;token&gt;one-way&lt;/token&gt;</ph><ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Properties<ept id="3">&lt;/embeddedLabel&gt;</ept>, and change the value for <bpt id="4">&lt;embeddedLabel&gt;</bpt>Entity Name<ept id="4">&lt;/embeddedLabel&gt;</ept> and <bpt id="5">&lt;embeddedLabel&gt;</bpt>Relative Address<ept id="5">&lt;/embeddedLabel&gt;</ept> properties to <bpt id="6">&lt;userInput&gt;</bpt>InvoiceBridge<ept id="6">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>As a result, the complete endpoint URL where the bridge is deployed, which is shown in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Runtime Address<ept id="1">&lt;/embeddedLabel&gt;</ept> property, will resemble <ph id="2">&lt;codeInline&gt;https://&lt;legacyItalic&gt;%%amp;lt;mybiztalkservicename%%amp;gt;&lt;/legacyItalic&gt;.biztalk.windows.net/default/InvoiceBridge&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">As a result, the complete endpoint URL where the bridge is deployed, which is shown in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Runtime Address<ept id="1">&lt;/embeddedLabel&gt;</ept> property, will resemble <ph id="2">&lt;codeInline&gt;https://&lt;legacyItalic&gt;%%amp;lt;mybiztalkservicename%%amp;gt;&lt;/legacyItalic&gt;.biztalk.windows.net/default/InvoiceBridge&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>This endpoint receives the X12 810 invoice from the EDI Receive bridge.</source>
+            <target state="new">This endpoint receives the X12 810 invoice from the EDI Receive bridge.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Add the following artifacts to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> and save the changes.</source>
+            <target state="new">Add the following artifacts to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> and save the changes.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Artifact name</source>
+            <target state="new">Artifact name</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Invoice.xsd</source>
+            <target state="new">Invoice.xsd</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Message schema in which the invoice is expected</source>
+            <target state="new">Message schema in which the invoice is expected</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>X12_00401_850.xsd</source>
+            <target state="new">X12_00401_850.xsd</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Message schema for X12 810 invoice message</source>
+            <target state="new">Message schema for X12 810 invoice message</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>810ToInvoice.trfm</source>
+            <target state="new">810ToInvoice.trfm</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Transforms X12 810 invoice to Invoice.xsd.</source>
+            <target state="new">Transforms X12 810 invoice to Invoice.xsd.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>You can download these artifacts, which are included with the sample, uploaded to the MSDN code gallery at <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/p/?LinkId=324220<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=324220&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">You can download these artifacts, which are included with the sample, uploaded to the MSDN code gallery at <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/p/?LinkId=324220<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=324220&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Double-click the <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> to open the <ph id="2">&lt;token&gt;msgflow&lt;/token&gt;</ph> design surface and enter the message type that is processed by the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph>.</source>
+            <target state="new">Double-click the <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> to open the <ph id="2">&lt;token&gt;msgflow&lt;/token&gt;</ph> design surface and enter the message type that is processed by the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>To specify the message type, within the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Message Types<ept id="1">&lt;/embeddedLabel&gt;</ept> box, select the add icon [ <ph id="2">&lt;mediaLinkInline&gt;&lt;image xlink:href="fce8ff96-426e-468b-8afd-25eb4c847028" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/image&gt;&lt;/mediaLinkInline&gt;</ph> ] to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Message Type Picker<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">To specify the message type, within the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Message Types<ept id="1">&lt;/embeddedLabel&gt;</ept> box, select the add icon [ <ph id="2">&lt;mediaLinkInline&gt;&lt;image xlink:href="fce8ff96-426e-468b-8afd-25eb4c847028" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/image&gt;&lt;/mediaLinkInline&gt;</ph> ] to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Message Type Picker<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Message Type Picker<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Available message types<ept id="2">&lt;/embeddedLabel&gt;</ept> box, select the schema for the request message and then select the right arrow icon  [ <ph id="3">&lt;mediaLinkInline&gt;&lt;image xlink:href="a08ed386-6bf6-4164-9052-5f05154d8eff" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/image&gt;&lt;/mediaLinkInline&gt;</ph> ], and then select <bpt id="4">&lt;embeddedLabel&gt;</bpt>OK<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Message Type Picker<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Available message types<ept id="2">&lt;/embeddedLabel&gt;</ept> box, select the schema for the request message and then select the right arrow icon  [ <ph id="3">&lt;mediaLinkInline&gt;&lt;image xlink:href="a08ed386-6bf6-4164-9052-5f05154d8eff" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/image&gt;&lt;/mediaLinkInline&gt;</ph> ], and then select <bpt id="4">&lt;embeddedLabel&gt;</bpt>OK<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>For this tutorial, select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>X12_00401_810.xsd<ept id="1">&lt;/embeddedLabel&gt;</ept> schema because messages with this schema are routed to the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>.</source>
+            <target state="new">For this tutorial, select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>X12_00401_810.xsd<ept id="1">&lt;/embeddedLabel&gt;</ept> schema because messages with this schema are routed to the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>The selected schema should now be listed under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Request Message Type<ept id="1">&lt;/embeddedLabel&gt;</ept> box.</source>
+            <target state="new">The selected schema should now be listed under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Request Message Type<ept id="1">&lt;/embeddedLabel&gt;</ept> box.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Within the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transform<ept id="1">&lt;/embeddedLabel&gt;</ept> stage, select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Xml Transform<ept id="2">&lt;/embeddedLabel&gt;</ept> activity, and then from the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Properties<ept id="3">&lt;/embeddedLabel&gt;</ept> pane, select the ellipsis against the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Map<ept id="4">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">Within the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transform<ept id="1">&lt;/embeddedLabel&gt;</ept> stage, select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Xml Transform<ept id="2">&lt;/embeddedLabel&gt;</ept> activity, and then from the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Properties<ept id="3">&lt;/embeddedLabel&gt;</ept> pane, select the ellipsis against the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Map<ept id="4">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Map Selection<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>810ToInvoice.trfm<ept id="2">&lt;/embeddedLabel&gt;</ept> to add it to the bridge configuration.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Map Selection<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>810ToInvoice.trfm<ept id="2">&lt;/embeddedLabel&gt;</ept> to add it to the bridge configuration.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Save changes to the project.</source>
+            <target state="new">Save changes to the project.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

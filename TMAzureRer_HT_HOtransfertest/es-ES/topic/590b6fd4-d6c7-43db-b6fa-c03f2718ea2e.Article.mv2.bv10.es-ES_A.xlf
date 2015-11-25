@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANjEkKwzAMAL/iB1gg26od917ovf2AZEsQSBPIAnl+fRxmGLOkQrGBKhFQMATBSaBh4FyrBebqXTYkDVOCiKkD5RqBRRqQUk0lajFU7x4VJVsn6LkVoNQFBvN4JYslTMpxVME7PeD18e5eZjO9z+e+bad3cTj07n39eP3uvB4Ln/O2/gH9Jrc0ogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>SAML Protocol Metadata and Endpoints</source>
+            <target state="new">SAML Protocol Metadata and Endpoints</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>SAML protocol requires the identity provider (Azure Active Directory) and the service provider (the application) to exchange information about themselves.</source>
+            <target state="new">SAML protocol requires the identity provider (Azure Active Directory) and the service provider (the application) to exchange information about themselves.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>When a service provider is registered with Azure Active Directory, the developer registers federation-related information with Azure Active Directory, including the redirect URI and the metadata URI of the service provider.</source>
+            <target state="new">When a service provider is registered with Azure Active Directory, the developer registers federation-related information with Azure Active Directory, including the redirect URI and the metadata URI of the service provider.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory uses the metadata URI of the cloud service to retrieve the signing key and the logout URI of the cloud service.</source>
+            <target state="new">Azure Active Directory uses the metadata URI of the cloud service to retrieve the signing key and the logout URI of the cloud service.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>If the service provider does not support a metadata URL, the developer must contact Microsoft support to provide the logout URI and signing key.</source>
+            <target state="new">If the service provider does not support a metadata URL, the developer must contact Microsoft support to provide the logout URI and signing key.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory exposes tenant-specific and common (tenant-independent) single sign-on and single sign-out endpoints.</source>
+            <target state="new">Azure Active Directory exposes tenant-specific and common (tenant-independent) single sign-on and single sign-out endpoints.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The following table shows the endpoints for each type.</source>
+            <target state="new">The following table shows the endpoints for each type.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The Federation Metadata URLs represent addressable locations -- they are not just an identifiers -- so you can go to the endpoint to read the metadata.</source>
+            <target state="new">The Federation Metadata URLs represent addressable locations -- they are not just an identifiers -- so you can go to the endpoint to read the metadata.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Tenant-specific endpoint</source>
+            <target state="new">Tenant-specific endpoint</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Tenant-independent endpoint</source>
+            <target state="new">Tenant-independent endpoint</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The tenant-specific federation metadata is located at the tenant-specific metadata endpoint.</source>
+            <target state="new">The tenant-specific federation metadata is located at the tenant-specific metadata endpoint.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The &lt;TenantDomainName&gt; placeholder represents a registered domain name or TenantID GUID of an Azure AD tenant.</source>
+            <target state="new">The &lt;TenantDomainName&gt; placeholder represents a registered domain name or TenantID GUID of an Azure AD tenant.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>For example, the federation metadata of the <bpt id="1">&lt;placeholder&gt;</bpt>contoso.com<ept id="1">&lt;/placeholder&gt;</ept> tenant is at: <ph id="2">&lt;codeInline&gt;https://login.microsoftonline.com/&lt;codeFeaturedElement&gt;contoso.com&lt;/codeFeaturedElement&gt;/FederationMetadata/2007-06/FederationMetadata.xml&lt;/codeInline&gt;</ph></source>
+            <target state="new">For example, the federation metadata of the <bpt id="1">&lt;placeholder&gt;</bpt>contoso.com<ept id="1">&lt;/placeholder&gt;</ept> tenant is at: <ph id="2">&lt;codeInline&gt;https://login.microsoftonline.com/&lt;codeFeaturedElement&gt;contoso.com&lt;/codeFeaturedElement&gt;/FederationMetadata/2007-06/FederationMetadata.xml&lt;/codeInline&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The common or <bpt id="1">&lt;newTerm&gt;</bpt>tenant-independent<ept id="1">&lt;/newTerm&gt;</ept> federation metadata is located at the tenant-independent metadata endpoint: <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>https://login.microsoftonline.com/common/FederationMetadata/2007-06/FederationMetadata.xml<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;https://login.microsoftonline.com/common/FederationMetadata/2007-06/FederationMetadata.xml&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">The common or <bpt id="1">&lt;newTerm&gt;</bpt>tenant-independent<ept id="1">&lt;/newTerm&gt;</ept> federation metadata is located at the tenant-independent metadata endpoint: <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>https://login.microsoftonline.com/common/FederationMetadata/2007-06/FederationMetadata.xml<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;https://login.microsoftonline.com/common/FederationMetadata/2007-06/FederationMetadata.xml&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>You can go to that location to read the tenant-independent metadata.</source>
+            <target state="new">You can go to that location to read the tenant-independent metadata.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>In this endpoint address, "common" appears, instead of a tenant domain name or ID.</source>
+            <target state="new">In this endpoint address, "common" appears, instead of a tenant domain name or ID.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>For information about the Federation Metadata documents that Azure Active Directory publishes, see <ph id="1">&lt;link xlink:href="ee6193d7-1194-482a-a97c-51df5e31f458" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Federation Metadata&lt;/link&gt;</ph>.</source>
+            <target state="new">For information about the Federation Metadata documents that Azure Active Directory publishes, see <ph id="1">&lt;link xlink:href="ee6193d7-1194-482a-a97c-51df5e31f458" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Federation Metadata&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

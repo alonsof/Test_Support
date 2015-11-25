@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="pt-BR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzDEKwzAMQNGr6AAS2I4SrI6dOpdeQLItCKRJSV3I8evlT4/vPjXjVKg1ZuLogSxkoxKiLiIeVQWhmYZlYacccyPO0cmmIqQjUaqkbBFB3XOYXWliCcSiMrwlqrWoFq7j4ggDfjrdnwjXtrq3q9/O4+gICWFGePzeur9O3b+b9vXY/+MFstyhAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Hopping Window</source>
+            <target state="new">Hopping Window</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Hopping Window (Azure Stream Analytics)</source>
+            <target state="new">Hopping Window (Azure Stream Analytics)</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Unlike tumbling windows, hopping windows model scheduled overlapping windows.</source>
+            <target state="new">Unlike tumbling windows, hopping windows model scheduled overlapping windows.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>A hopping window specification consist of two parameters: the window size (how long each window lasts), and the window hop (by how much each window moves forward relative to the previous one).</source>
+            <target state="new">A hopping window specification consist of two parameters: the window size (how long each window lasts), and the window hop (by how much each window moves forward relative to the previous one).</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Note that a tumbling window is simply a hopping window whose ‘hop’ is equal to its ‘size’.</source>
+            <target state="new">Note that a tumbling window is simply a hopping window whose ‘hop’ is equal to its ‘size’.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>The following illustration shows a stream with a series of events.</source>
+            <target state="new">The following illustration shows a stream with a series of events.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Each box represents a hopping window and the events that are counted as part of that window, assuming that the ‘hop’ is 5, and the ‘size’ is 10.</source>
+            <target state="new">Each box represents a hopping window and the events that are counted as part of that window, assuming that the ‘hop’ is 5, and the ‘size’ is 10.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Hopping window of 10 minute duration and 5 minute hop</source>
+            <target state="new">Hopping window of 10 minute duration and 5 minute hop</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Syntax</source>
+            <target state="new">Syntax</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>The Hopping Window can be used in the above two ways.</source>
+            <target state="new">The Hopping Window can be used in the above two ways.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>If the windowsize and the hopsize has the same timeunit, you can use it without the Duration and Hop functions.</source>
+            <target state="new">If the windowsize and the hopsize has the same timeunit, you can use it without the Duration and Hop functions.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The Duration function can also be used with other types of windows to specify the window size.</source>
+            <target state="new">The Duration function can also be used with other types of windows to specify the window size.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Arguments</source>
+            <target state="new">Arguments</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>timeunit</source>
+            <target state="new">timeunit</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Is the unit of time for the windowsize or the hopsize.</source>
+            <target state="new">Is the unit of time for the windowsize or the hopsize.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>The following table lists all valid timeunit arguments.</source>
+            <target state="new">The following table lists all valid timeunit arguments.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Timeunit</source>
+            <target state="new">Timeunit</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Abbreviations</source>
+            <target state="new">Abbreviations</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>day</source>
+            <target state="new">day</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>dd, d</source>
+            <target state="new">dd, d</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>hour</source>
+            <target state="new">hour</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>hh</source>
+            <target state="new">hh</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>minute</source>
+            <target state="new">minute</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>mi, n</source>
+            <target state="new">mi, n</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>second</source>
+            <target state="new">second</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>ss, s</source>
+            <target state="new">ss, s</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>millisecond</source>
+            <target state="new">millisecond</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>ms</source>
+            <target state="new">ms</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>microsecond</source>
+            <target state="new">microsecond</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>mcs</source>
+            <target state="new">mcs</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>windowsize</source>
+            <target state="new">windowsize</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>A big integer which describes the size of the window.</source>
+            <target state="new">A big integer which describes the size of the window.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>The maximum size of the window in all cases is 7 days.</source>
+            <target state="new">The maximum size of the window in all cases is 7 days.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>hopsize</source>
+            <target state="new">hopsize</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>A big integer which describes the size of the Hop</source>
+            <target state="new">A big integer which describes the size of the Hop</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Examples</source>
+            <target state="new">Examples</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

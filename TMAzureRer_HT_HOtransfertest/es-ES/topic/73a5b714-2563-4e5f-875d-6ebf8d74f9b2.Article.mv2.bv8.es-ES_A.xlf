@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANyssJwzAMANBVNIAFtuOfei/03i4gxRIE0gQSFzJ+c37PbFJJcUbVlDAF8yi+Cc4+cCGywEwOciWKNQe0Fu8VpSNpJJzZcyNftHRxUCfOUkPCmMuESbNhq7ljUbHWazKS6CA40BOfbwfXupjpNR7Hvg8HtzUHr9+Xt8/B27nyWPbtDz0Tr16hAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Chaining Service Bus Entities with Auto-forwarding</source>
+            <target state="new">Chaining Service Bus Entities with Auto-forwarding</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;newTerm&gt;</bpt>Auto-forwarding<ept id="1">&lt;/newTerm&gt;</ept> feature enables you to chain a queue or subscription to another queue or topic that is part of the same <ph id="2">&lt;token&gt;servicensd&lt;/token&gt;</ph>.</source>
+            <target state="new">The <bpt id="1">&lt;newTerm&gt;</bpt>Auto-forwarding<ept id="1">&lt;/newTerm&gt;</ept> feature enables you to chain a queue or subscription to another queue or topic that is part of the same <ph id="2">&lt;token&gt;servicensd&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>When auto-forwarding is enabled, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> automatically removes messages that are placed in the first queue or subscription (source) and puts them in the second queue or topic (destination).</source>
+            <target state="new">When auto-forwarding is enabled, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> automatically removes messages that are placed in the first queue or subscription (source) and puts them in the second queue or topic (destination).</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Note that it is still possible to send a message to the destination entity directly.</source>
+            <target state="new">Note that it is still possible to send a message to the destination entity directly.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Also note that it is not possible to chain a subqueue, such as a deadletter queue, to another queue or topic.</source>
+            <target state="new">Also note that it is not possible to chain a subqueue, such as a deadletter queue, to another queue or topic.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Using Auto-forwarding</source>
+            <target state="new">Using Auto-forwarding</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>You can enable auto-forwarding by setting the <ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;P:Microsoft.ServiceBus.Messaging.QueueDescription.ForwardTo&lt;/codeEntityReference&gt;</ph> or <ph id="2">&lt;codeEntityReference qualifyHint="true"&gt;P:Microsoft.ServiceBus.Messaging.SubscriptionDescription.ForwardTo&lt;/codeEntityReference&gt;</ph> properties on the <ph id="3">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.QueueDescription&lt;/codeEntityReference&gt;</ph> or <ph id="4">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.SubscriptionDescription&lt;/codeEntityReference&gt;</ph> objects for the source:</source>
+            <target state="new">You can enable auto-forwarding by setting the <ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;P:Microsoft.ServiceBus.Messaging.QueueDescription.ForwardTo&lt;/codeEntityReference&gt;</ph> or <ph id="2">&lt;codeEntityReference qualifyHint="true"&gt;P:Microsoft.ServiceBus.Messaging.SubscriptionDescription.ForwardTo&lt;/codeEntityReference&gt;</ph> properties on the <ph id="3">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.QueueDescription&lt;/codeEntityReference&gt;</ph> or <ph id="4">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.SubscriptionDescription&lt;/codeEntityReference&gt;</ph> objects for the source:</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The destination entity must exist at the time the source entity is created.</source>
+            <target state="new">The destination entity must exist at the time the source entity is created.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>If the destination entity does not exist, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> returns an exception when asked to create the source entity.</source>
+            <target state="new">If the destination entity does not exist, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> returns an exception when asked to create the source entity.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>You can use auto-forwarding to scale out an individual topic.</source>
+            <target state="new">You can use auto-forwarding to scale out an individual topic.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> limits the number of subscriptions on a given topic.</source>
+            <target state="new"><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> limits the number of subscriptions on a given topic.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>You can accommodate additional subscriptions by creating second-level topics.</source>
+            <target state="new">You can accommodate additional subscriptions by creating second-level topics.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Note that even if you are not bound by the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> limitation on the number of subscriptions, adding a second level of topics can improve the overall throughput of your topic.</source>
+            <target state="new">Note that even if you are not bound by the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> limitation on the number of subscriptions, adding a second level of topics can improve the overall throughput of your topic.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>You can also use auto-forwarding to decouple message senders from receivers.</source>
+            <target state="new">You can also use auto-forwarding to decouple message senders from receivers.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>For example, consider an ERP system that consists of three modules: Order Processing, Inventory Management, and Customer Relations Management.</source>
+            <target state="new">For example, consider an ERP system that consists of three modules: Order Processing, Inventory Management, and Customer Relations Management.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Each of these modules generates messages that are enqueued into a corresponding topic.</source>
+            <target state="new">Each of these modules generates messages that are enqueued into a corresponding topic.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Alice and Bob are sales representatives that are interested in all messages that relate to their customers.</source>
+            <target state="new">Alice and Bob are sales representatives that are interested in all messages that relate to their customers.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>To receive those messages, Alice and Bob each create a personal queue and a subscription on each of the ERP topics that automatically forward all messages to their queue.</source>
+            <target state="new">To receive those messages, Alice and Bob each create a personal queue and a subscription on each of the ERP topics that automatically forward all messages to their queue.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>If Alice goes on vacation, her personal queue, rather than the ERP topic, fills up.</source>
+            <target state="new">If Alice goes on vacation, her personal queue, rather than the ERP topic, fills up.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>In this scenario, because a sales representative has not received any messages, none of the ERP topics ever reach quota.</source>
+            <target state="new">In this scenario, because a sales representative has not received any messages, none of the ERP topics ever reach quota.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Auto-forwarding Considerations</source>
+            <target state="new">Auto-forwarding Considerations</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>If the destination entity has many messages accumulated and exceeds the quota, or the destination entity is disabled, the source entity adds the messages to its dead-letter queue until there is space in the destination (or the entity is re-enabled).</source>
+            <target state="new">If the destination entity has many messages accumulated and exceeds the quota, or the destination entity is disabled, the source entity adds the messages to its dead-letter queue until there is space in the destination (or the entity is re-enabled).</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Those messages will continue to live in the dead-letter queue, so you must explicitly receive and process them from the dead-letter queue.</source>
+            <target state="new">Those messages will continue to live in the dead-letter queue, so you must explicitly receive and process them from the dead-letter queue.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>When chaining together individual topics to obtain a composite topic with many subscriptions, it is recommended that you have a moderate number of subscriptions on the first-level topic and many subscriptions on the second-level topics.</source>
+            <target state="new">When chaining together individual topics to obtain a composite topic with many subscriptions, it is recommended that you have a moderate number of subscriptions on the first-level topic and many subscriptions on the second-level topics.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>For example, a first-level topic with 20 subscriptions, each of them chained to a second-level topic with 200 subscriptions, allows for higher throughput than a first-level topic with 200 subscriptions, each chained to a second-level topic with 20 subscriptions.</source>
+            <target state="new">For example, a first-level topic with 20 subscriptions, each of them chained to a second-level topic with 200 subscriptions, allows for higher throughput than a first-level topic with 200 subscriptions, each chained to a second-level topic with 20 subscriptions.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> bills one operation for each forwarded message.</source>
+            <target state="new"><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> bills one operation for each forwarded message.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>For example, sending a message to a topic with 20 subscriptions, each of them configured to auto-forward messages to another queue or topic, is billed as 21 operations if all first-level subscriptions receive a copy of the message.</source>
+            <target state="new">For example, sending a message to a topic with 20 subscriptions, each of them configured to auto-forward messages to another queue or topic, is billed as 21 operations if all first-level subscriptions receive a copy of the message.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>To create a subscription that is chained to another queue or topic, the creator of the subscription must have <bpt id="1">&lt;embeddedLabel&gt;</bpt>manage<ept id="1">&lt;/embeddedLabel&gt;</ept> permissions on both the source and the destination entity.</source>
+            <target state="new">To create a subscription that is chained to another queue or topic, the creator of the subscription must have <bpt id="1">&lt;embeddedLabel&gt;</bpt>manage<ept id="1">&lt;/embeddedLabel&gt;</ept> permissions on both the source and the destination entity.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Sending messages to the source topic only requires <bpt id="1">&lt;embeddedLabel&gt;</bpt>send<ept id="1">&lt;/embeddedLabel&gt;</ept> permissions on the source topic.</source>
+            <target state="new">Sending messages to the source topic only requires <bpt id="1">&lt;embeddedLabel&gt;</bpt>send<ept id="1">&lt;/embeddedLabel&gt;</ept> permissions on the source topic.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

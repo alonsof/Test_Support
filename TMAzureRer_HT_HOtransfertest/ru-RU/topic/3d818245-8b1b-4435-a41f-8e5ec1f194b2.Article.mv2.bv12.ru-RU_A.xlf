@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ru-RU" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAAVjMEJwzAMAFfxABZYtpLKnaDv0g4gyxIE0gTSBDJ+08e97jj3Yo2yghkREHqClriBJpSxVkeRGkNRYnK9gSQ1oNEYuFqG3ItI99RZ5ao6I2cagBs2ICoDyHUEtsEUHSu1HAPGsB3wfMdwzpO7nft9W9c9hr+7eBwfWV6bLN9Z9mldfllCKgmiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Preparing Hard Drives for an Import Job</source>
+            <target state="new">Preparing Hard Drives for an Import Job</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>To prepare one or more hard drives for an import job, follow these steps:</source>
+            <target state="new">To prepare one or more hard drives for an import job, follow these steps:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Identify the data to import into the Blob service</source>
+            <target state="new">Identify the data to import into the Blob service</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Identify target virtual directories and blobs in the Blob service</source>
+            <target state="new">Identify target virtual directories and blobs in the Blob service</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Determine how many drives you'll need</source>
+            <target state="new">Determine how many drives you'll need</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Copy the data to each of your hard drives</source>
+            <target state="new">Copy the data to each of your hard drives</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>For a sample workflow, see <ph id="1">&lt;link xlink:href="6eb1b1b7-c69f-4365-b5ef-3cd5e05eb72a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Sample Workflow to Prepare Hard Drives for an Import Job&lt;/link&gt;</ph>.</source>
+            <target state="new">For a sample workflow, see <ph id="1">&lt;link xlink:href="6eb1b1b7-c69f-4365-b5ef-3cd5e05eb72a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Sample Workflow to Prepare Hard Drives for an Import Job&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Identify the Data to Be Imported</source>
+            <target state="new">Identify the Data to Be Imported</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The first step to creating an import job is to determine which directories and files you are going to import.</source>
+            <target state="new">The first step to creating an import job is to determine which directories and files you are going to import.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>This can be a list of directories, a list of unique files, or a combination of those two.</source>
+            <target state="new">This can be a list of directories, a list of unique files, or a combination of those two.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>When a directory is included, all files in the directory and its subdirectories will be part of the import job.</source>
+            <target state="new">When a directory is included, all files in the directory and its subdirectories will be part of the import job.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Since subdirectories are included recursively when a parent directory is included, specify only the parent directory.</source>
+            <target state="new">Since subdirectories are included recursively when a parent directory is included, specify only the parent directory.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Do not also specify any of its subdirectories.</source>
+            <target state="new">Do not also specify any of its subdirectories.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Currently, the Microsoft Azure Import/Export tool has the following limitation: if a directory contains more data than a hard drive can contain, then the directory needs to be broken into smaller directories.</source>
+            <target state="new">Currently, the Microsoft Azure Import/Export tool has the following limitation: if a directory contains more data than a hard drive can contain, then the directory needs to be broken into smaller directories.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>For example, if a directory contains 2.5TB of data and the hard drive's capacity is only 2TB, then you need to break the 2.5TB directory into smaller directories.</source>
+            <target state="new">For example, if a directory contains 2.5TB of data and the hard drive's capacity is only 2TB, then you need to break the 2.5TB directory into smaller directories.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>This limitation will be addressed in a later version of the tool.</source>
+            <target state="new">This limitation will be addressed in a later version of the tool.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Identify the Destination Locations in the Blob Service</source>
+            <target state="new">Identify the Destination Locations in the Blob Service</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>For each directory or file that will be imported, you need to identify a destination virtual directory or blob in the Azure Blob service.</source>
+            <target state="new">For each directory or file that will be imported, you need to identify a destination virtual directory or blob in the Azure Blob service.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>You will use these targets as inputs to the Azure Import/Export tool.</source>
+            <target state="new">You will use these targets as inputs to the Azure Import/Export tool.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Note that directories should be delimited with the forward slash character "/".</source>
+            <target state="new">Note that directories should be delimited with the forward slash character "/".</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>The following table shows some examples of blob targets:</source>
+            <target state="new">The following table shows some examples of blob targets:</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Source file or directory</source>
+            <target state="new">Source file or directory</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Destination blob or virtual directory</source>
+            <target state="new">Destination blob or virtual directory</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>H:\Video</source>
+            <target state="new">H:\Video</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>https://mystorageaccount.blob.core.windows.net/video </source>
+            <target state="new">https://mystorageaccount.blob.core.windows.net/video </target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>H:\Photo</source>
+            <target state="new">H:\Photo</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>https://mystorageaccount.blob.core.windows.net/photo</source>
+            <target state="new">https://mystorageaccount.blob.core.windows.net/photo</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>K:\Temp\FavoriteVideo.ISO</source>
+            <target state="new">K:\Temp\FavoriteVideo.ISO</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>https://mystorageaccount.blob.core.windows.net/favorite/FavoriteVideo.ISO </source>
+            <target state="new">https://mystorageaccount.blob.core.windows.net/favorite/FavoriteVideo.ISO </target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>\\myshare\john\music</source>
+            <target state="new">\\myshare\john\music</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>https://mystorageaccount.blob.core.windows.net/music </source>
+            <target state="new">https://mystorageaccount.blob.core.windows.net/music </target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Determine How Many Drives Are Needed</source>
+            <target state="new">Determine How Many Drives Are Needed</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Next, you need to determine:</source>
+            <target state="new">Next, you need to determine:</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>The number of hard drives needed to store the data.</source>
+            <target state="new">The number of hard drives needed to store the data.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>The directories and/or standalone files that will be copied to each of your hard drive.</source>
+            <target state="new">The directories and/or standalone files that will be copied to each of your hard drive.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Ensure that you have the number of hard drives you will need to store the data you are transferring.</source>
+            <target state="new">Ensure that you have the number of hard drives you will need to store the data you are transferring.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Copy Data to Your Hard Drive</source>
+            <target state="new">Copy Data to Your Hard Drive</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>This section describes how to call the Azure Import/Export tool to copy your data to one or more hard drives.</source>
+            <target state="new">This section describes how to call the Azure Import/Export tool to copy your data to one or more hard drives.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Each time you call the Azure Import/Export tool, you create a new <bpt id="1">&lt;newTerm&gt;</bpt>copy session<ept id="1">&lt;/newTerm&gt;</ept>.</source>
+            <target state="new">Each time you call the Azure Import/Export tool, you create a new <bpt id="1">&lt;newTerm&gt;</bpt>copy session<ept id="1">&lt;/newTerm&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>You create at least one copy session for each drive to which you copy data; in some cases, you may need more than one copy session to copy all of your data to single drive.</source>
+            <target state="new">You create at least one copy session for each drive to which you copy data; in some cases, you may need more than one copy session to copy all of your data to single drive.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Here are some reasons that you may need multiple copy sessions:</source>
+            <target state="new">Here are some reasons that you may need multiple copy sessions:</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>You must create a separate copy session for each drive that you copy to.</source>
+            <target state="new">You must create a separate copy session for each drive that you copy to.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>A copy session can copy either a single directory or a single blob to the drive.</source>
+            <target state="new">A copy session can copy either a single directory or a single blob to the drive.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>If you are copying multiple directories, multiple blobs, or a combination of both, you'll need to create multiple copy sessions.</source>
+            <target state="new">If you are copying multiple directories, multiple blobs, or a combination of both, you'll need to create multiple copy sessions.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>You can specify properties and metadata that will be set on the blobs imported as part of an import job.</source>
+            <target state="new">You can specify properties and metadata that will be set on the blobs imported as part of an import job.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>The properties or metadata that you specify for a copy session will apply to all blobs specified by that copy session.</source>
+            <target state="new">The properties or metadata that you specify for a copy session will apply to all blobs specified by that copy session.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>If you want to specify different properties or metadata for some blobs, you'll need to create a separate copy session.</source>
+            <target state="new">If you want to specify different properties or metadata for some blobs, you'll need to create a separate copy session.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="e8541695-bcfb-4bf0-84d9-72c9de32a0a8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Setting Properties and Metadata During the Import Process&lt;/link&gt;</ph> for more information.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="e8541695-bcfb-4bf0-84d9-72c9de32a0a8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Setting Properties and Metadata During the Import Process&lt;/link&gt;</ph> for more information.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>If you have multiple machines that meet the requirements outlined in <ph id="1">&lt;link xlink:href="c312b1ab-5b9e-4d24-becd-790a88b3ba8d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Setting Up the WAImportExport Tool&lt;/link&gt;</ph>, you can copy data to multiple hard drives in parallel by running an instance of this tool on each machine.</source>
+            <target state="new">If you have multiple machines that meet the requirements outlined in <ph id="1">&lt;link xlink:href="c312b1ab-5b9e-4d24-becd-790a88b3ba8d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Setting Up the WAImportExport Tool&lt;/link&gt;</ph>, you can copy data to multiple hard drives in parallel by running an instance of this tool on each machine.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>For each hard drive that you prepare with the Azure Import/Export tool, the tool will create a single journal file.</source>
+            <target state="new">For each hard drive that you prepare with the Azure Import/Export tool, the tool will create a single journal file.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>You will need the journal files from all of your drives to create the import job.</source>
+            <target state="new">You will need the journal files from all of your drives to create the import job.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>The journal file can also be used to resume drive preparation if the tool is interrupted.</source>
+            <target state="new">The journal file can also be used to resume drive preparation if the tool is interrupted.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Azure Import/Export Tool Syntax for an Import Job</source>
+            <target state="new">Azure Import/Export Tool Syntax for an Import Job</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>To prepare drives for an import job, call the Azure Import/Export tool with the <ph id="1">&lt;system&gt;PrepImport&lt;/system&gt;</ph> command.</source>
+            <target state="new">To prepare drives for an import job, call the Azure Import/Export tool with the <ph id="1">&lt;system&gt;PrepImport&lt;/system&gt;</ph> command.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Which parameters you include depends on whether this is the first copy session, or a subsequent copy session.</source>
+            <target state="new">Which parameters you include depends on whether this is the first copy session, or a subsequent copy session.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>The first copy session for a drive requires some additional parameters to specify the storage account key; the target drive letter; whether the drive must be formatted; whether the drive must be encrypted and if so, the BitLocker key; and the log directory.</source>
+            <target state="new">The first copy session for a drive requires some additional parameters to specify the storage account key; the target drive letter; whether the drive must be formatted; whether the drive must be encrypted and if so, the BitLocker key; and the log directory.</target>
+          </trans-unit>
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Here is the syntax for an initial copy session to copy a directory or a single file:</source>
+            <target state="new">Here is the syntax for an initial copy session to copy a directory or a single file:</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>First Copy Session to Copy a Single Directory</source>
+            <target state="new">First Copy Session to Copy a Single Directory</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>First Copy Session to Copy a Single File</source>
+            <target state="new">First Copy Session to Copy a Single File</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>In subsequent copy sessions, you do not need to specify the initial parameters.</source>
+            <target state="new">In subsequent copy sessions, you do not need to specify the initial parameters.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Here is the syntax for a subsequent copy session to copy a directory or a single file:</source>
+            <target state="new">Here is the syntax for a subsequent copy session to copy a directory or a single file:</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Subsequent Copy Sessions to Copy a Single Directory</source>
+            <target state="new">Subsequent Copy Sessions to Copy a Single Directory</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Subsequent Copy Sessions to Copy a Single File</source>
+            <target state="new">Subsequent Copy Sessions to Copy a Single File</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Parameters for the First Copy Session for a Hard Drive</source>
+            <target state="new">Parameters for the First Copy Session for a Hard Drive</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Each time you run the Azure Import/Export tool to copy files to the hard drive, the tool creates a copy session.</source>
+            <target state="new">Each time you run the Azure Import/Export tool to copy files to the hard drive, the tool creates a copy session.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Each copy session copies a single directory or a single file to a hard drive.</source>
+            <target state="new">Each copy session copies a single directory or a single file to a hard drive.</target>
+          </trans-unit>
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>The state of the copy session is written to the journal file.</source>
+            <target state="new">The state of the copy session is written to the journal file.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>If a copy session is interrupted (for example, due to a system power loss), it can be resumed by running the tool again and specifying the journal file on the command line.</source>
+            <target state="new">If a copy session is interrupted (for example, due to a system power loss), it can be resumed by running the tool again and specifying the journal file on the command line.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>If you specify the <ph id="1">&lt;system&gt;/format&lt;/system&gt;</ph> parameter for the first copy session, the drive will be formatted and all data on the drive will be erased.</source>
+            <target state="new">If you specify the <ph id="1">&lt;system&gt;/format&lt;/system&gt;</ph> parameter for the first copy session, the drive will be formatted and all data on the drive will be erased.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>It's recommended that you use blank drives only for your copy session.</source>
+            <target state="new">It's recommended that you use blank drives only for your copy session.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>The command used for the first copy session for each drive requires different parameters than the commands for subsequent copy sessions.</source>
+            <target state="new">The command used for the first copy session for each drive requires different parameters than the commands for subsequent copy sessions.</target>
+          </trans-unit>
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>The following table lists the additional parameters that are available for the first copy session:</source>
+            <target state="new">The following table lists the additional parameters that are available for the first copy session:</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Command-line parameter</source>
+            <target state="new">Command-line parameter</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/sk:&lt;/system&gt;</ph>&lt;StorageAccountKey&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/sk:&lt;/system&gt;</ph>&lt;StorageAccountKey&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> The storage account key for the storage account to which the data will be imported.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> The storage account key for the storage account to which the data will be imported.</target>
+          </trans-unit>
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>You must include either <ph id="1">&lt;system&gt;/sk:&lt;/system&gt;</ph>&lt;StorageAccountKey&gt; or <ph id="2">&lt;system&gt;/csas:&lt;/system&gt;</ph>&lt;ContainerSas&gt; in the command.</source>
+            <target state="new">You must include either <ph id="1">&lt;system&gt;/sk:&lt;/system&gt;</ph>&lt;StorageAccountKey&gt; or <ph id="2">&lt;system&gt;/csas:&lt;/system&gt;</ph>&lt;ContainerSas&gt; in the command.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/csas:&lt;/system&gt;</ph>&lt;ContainerSas&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/csas:&lt;/system&gt;</ph>&lt;ContainerSas&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Optional&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Optional&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>The container SAS to use to import data to the storage account.</source>
+            <target state="new">The container SAS to use to import data to the storage account.</target>
+          </trans-unit>
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>You must include either <ph id="1">&lt;system&gt;/sk:&lt;/system&gt;</ph>&lt;StorageAccountKey&gt; or <ph id="2">&lt;system&gt;/csas:&lt;/system&gt;</ph>&lt;ContainerSas&gt; in the command.</source>
+            <target state="new">You must include either <ph id="1">&lt;system&gt;/sk:&lt;/system&gt;</ph>&lt;StorageAccountKey&gt; or <ph id="2">&lt;system&gt;/csas:&lt;/system&gt;</ph>&lt;ContainerSas&gt; in the command.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>The value for this parameter must begin with the container name, followed by a question mark (?) and the SAS token.</source>
+            <target state="new">The value for this parameter must begin with the container name, followed by a question mark (?) and the SAS token.</target>
+          </trans-unit>
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>For example:</source>
+            <target state="new">For example:</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>The permissions, whether specified on the URL or in a stored access policy, must include Read, Write, and Delete for import jobs, and Read, Write and List for export jobs.</source>
+            <target state="new">The permissions, whether specified on the URL or in a stored access policy, must include Read, Write, and Delete for import jobs, and Read, Write and List for export jobs.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>When this parameter is specified, all blobs to be imported or exported must be within the container specified in the shared access signature.</source>
+            <target state="new">When this parameter is specified, all blobs to be imported or exported must be within the container specified in the shared access signature.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/t:&lt;/system&gt;</ph>&lt;TargetDriveLetter&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/t:&lt;/system&gt;</ph>&lt;TargetDriveLetter&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Required.&lt;/languageKeyword&gt;</ph> The drive letter of the target hard drive for the current copy session, without the trailing colon.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Required.&lt;/languageKeyword&gt;</ph> The drive letter of the target hard drive for the current copy session, without the trailing colon.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Specify this parameter when the drive needs to be formatted; otherwise, omit it.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Specify this parameter when the drive needs to be formatted; otherwise, omit it.</target>
+          </trans-unit>
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Before the tool formats the drive, it will prompt for a confirmation from console.</source>
+            <target state="new">Before the tool formats the drive, it will prompt for a confirmation from console.</target>
+          </trans-unit>
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>To suppress the confirmation, specify the /silentmode parameter.</source>
+            <target state="new">To suppress the confirmation, specify the /silentmode parameter.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Specify this parameter to suppress the confirmation for formatting the targert drive.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Specify this parameter to suppress the confirmation for formatting the targert drive.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Specified this parameter when the drive has not yet been encrypted with BitLocker and needs to be encrypted by the tool.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Specified this parameter when the drive has not yet been encrypted with BitLocker and needs to be encrypted by the tool.</target>
+          </trans-unit>
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>If the drive has already been encrypted with BitLocker, then omit this parameter and specify the <ph id="1">&lt;codeInline&gt;/bk&lt;/codeInline&gt;</ph> parameter, providing the existing BitLocker key.</source>
+            <target state="new">If the drive has already been encrypted with BitLocker, then omit this parameter and specify the <ph id="1">&lt;codeInline&gt;/bk&lt;/codeInline&gt;</ph> parameter, providing the existing BitLocker key.</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>If you specify the <ph id="1">&lt;codeInline&gt;/format&lt;/codeInline&gt;</ph> parameter, then you must also specify the <ph id="2">&lt;codeInline&gt;/encrypt&lt;/codeInline&gt;</ph> parameter.</source>
+            <target state="new">If you specify the <ph id="1">&lt;codeInline&gt;/format&lt;/codeInline&gt;</ph> parameter, then you must also specify the <ph id="2">&lt;codeInline&gt;/encrypt&lt;/codeInline&gt;</ph> parameter.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/bk:&lt;/system&gt;</ph>&lt;BitLockerKey&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/bk:&lt;/system&gt;</ph>&lt;BitLockerKey&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> If <ph id="2">&lt;codeInline&gt;/encrypt&lt;/codeInline&gt;</ph> is specified, omit this parameter.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> If <ph id="2">&lt;codeInline&gt;/encrypt&lt;/codeInline&gt;</ph> is specified, omit this parameter.</target>
+          </trans-unit>
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>If <ph id="1">&lt;codeInline&gt;/encrypt&lt;/codeInline&gt;</ph> is omitted, you need to have already have encrypted the drive with BitLocker.</source>
+            <target state="new">If <ph id="1">&lt;codeInline&gt;/encrypt&lt;/codeInline&gt;</ph> is omitted, you need to have already have encrypted the drive with BitLocker.</target>
+          </trans-unit>
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Use this parameter to specify the BitLocker key.</source>
+            <target state="new">Use this parameter to specify the BitLocker key.</target>
+          </trans-unit>
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>BitLocker encryption is required for all hard drives for import jobs.</source>
+            <target state="new">BitLocker encryption is required for all hard drives for import jobs.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/logdir:&lt;/system&gt;</ph>&lt;LogDirectory&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/logdir:&lt;/system&gt;</ph>&lt;LogDirectory&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> The log directory specifies a directory to be used to store verbose logs as well as temporary manifest files.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> The log directory specifies a directory to be used to store verbose logs as well as temporary manifest files.</target>
+          </trans-unit>
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>If not specified, the current directory will be used as the log directory.</source>
+            <target state="new">If not specified, the current directory will be used as the log directory.</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Parameters Required for All Copy Sessions</source>
+            <target state="new">Parameters Required for All Copy Sessions</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>The journal file contains the status for all copy sessions for a hard drive.</source>
+            <target state="new">The journal file contains the status for all copy sessions for a hard drive.</target>
+          </trans-unit>
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>It also contains the information needed to create the import job.</source>
+            <target state="new">It also contains the information needed to create the import job.</target>
+          </trans-unit>
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>You must always specify a journal file when running the Azure Import/Export tool, as well as a copy session ID:</source>
+            <target state="new">You must always specify a journal file when running the Azure Import/Export tool, as well as a copy session ID:</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>Command line parameter</source>
+            <target state="new">Command line parameter</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/j:&lt;/system&gt;</ph>&lt;JournalFile&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/j:&lt;/system&gt;</ph>&lt;JournalFile&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Required.&lt;/languageKeyword&gt;</ph> The path to the journal file.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Required.&lt;/languageKeyword&gt;</ph> The path to the journal file.</target>
+          </trans-unit>
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Each drive must have exactly one journal file.</source>
+            <target state="new">Each drive must have exactly one journal file.</target>
+          </trans-unit>
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>Note that the journal file must not reside on the target drive.</source>
+            <target state="new">Note that the journal file must not reside on the target drive.</target>
+          </trans-unit>
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>The journal file extension is <ph id="1">&lt;codeInline&gt;.jrn&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">The journal file extension is <ph id="1">&lt;codeInline&gt;.jrn&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/id:&lt;/system&gt;</ph>&lt;SessionId&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/id:&lt;/system&gt;</ph>&lt;SessionId&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Required.&lt;/languageKeyword&gt;</ph> The session ID identifies a copy session.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Required.&lt;/languageKeyword&gt;</ph> The session ID identifies a copy session.</target>
+          </trans-unit>
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>It is used to ensure accurate recovery of an interrupted copy session.</source>
+            <target state="new">It is used to ensure accurate recovery of an interrupted copy session.</target>
+          </trans-unit>
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>Files that are copied in a copy session are stored in a directory named after the session ID on the target drive.</source>
+            <target state="new">Files that are copied in a copy session are stored in a directory named after the session ID on the target drive.</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Parameters for Copying a Single Directory</source>
+            <target state="new">Parameters for Copying a Single Directory</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>When copying a single directory, the following required and optional parameters apply:</source>
+            <target state="new">When copying a single directory, the following required and optional parameters apply:</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>Command line parameter</source>
+            <target state="new">Command line parameter</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/srcdir:&lt;/system&gt;</ph>&lt;SourceDirectory&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/srcdir:&lt;/system&gt;</ph>&lt;SourceDirectory&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Required.&lt;/languageKeyword&gt;</ph> The source directory that contains files to be copied to the target drive.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Required.&lt;/languageKeyword&gt;</ph> The source directory that contains files to be copied to the target drive.</target>
+          </trans-unit>
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>The directory path must be an absolute path (not a relative path).</source>
+            <target state="new">The directory path must be an absolute path (not a relative path).</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/dstdir:&lt;/system&gt;</ph>&lt;DestinationBlobVirtualDirectory&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/dstdir:&lt;/system&gt;</ph>&lt;DestinationBlobVirtualDirectory&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Required.&lt;/languageKeyword&gt;</ph> The path to the destination virtual directory in your Windows Azure storage account.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Required.&lt;/languageKeyword&gt;</ph> The path to the destination virtual directory in your Windows Azure storage account.</target>
+          </trans-unit>
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>The virtual directory may or may not already exist.</source>
+            <target state="new">The virtual directory may or may not already exist.</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>You can specify a container, or a blob prefix like <ph id="1">&lt;codeInline&gt;music/70s/&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">You can specify a container, or a blob prefix like <ph id="1">&lt;codeInline&gt;music/70s/&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>The destination directory must begin with the container name, followed by a forward slash "/", and optionally may include a virtual blob directory that ends with "/".</source>
+            <target state="new">The destination directory must begin with the container name, followed by a forward slash "/", and optionally may include a virtual blob directory that ends with "/".</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>When the destination container is the root container, you must explicitly specify the root container, including the forward slash, as <ph id="1">&lt;codeInline&gt;$root/&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">When the destination container is the root container, you must explicitly specify the root container, including the forward slash, as <ph id="1">&lt;codeInline&gt;$root/&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>Since blobs under the root container cannot include "/" in their names, any subdirectories in the source directory will not be copied when the destination directory is the root container.</source>
+            <target state="new">Since blobs under the root container cannot include "/" in their names, any subdirectories in the source directory will not be copied when the destination directory is the root container.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>Be sure to use valid container names when specifying destination virtual directories or blobs.</source>
+            <target state="new">Be sure to use valid container names when specifying destination virtual directories or blobs.</target>
+          </trans-unit>
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>Keep in mind that container names must be lowercase.</source>
+            <target state="new">Keep in mind that container names must be lowercase.</target>
+          </trans-unit>
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>For container naming rules, see <ph id="1">&lt;link xlink:href="d525950c-17ba-4b3b-9ed1-19a2145f769a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Naming and Referencing Containers, Blobs, and Metadata&lt;/link&gt;</ph>.</source>
+            <target state="new">For container naming rules, see <ph id="1">&lt;link xlink:href="d525950c-17ba-4b3b-9ed1-19a2145f769a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Naming and Referencing Containers, Blobs, and Metadata&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/Disposition:&lt;/system&gt;</ph>&lt;rename|no-overwrite|overwrite&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/Disposition:&lt;/system&gt;</ph>&lt;rename|no-overwrite|overwrite&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Specifies the behavior when a blob with the specified address already exists.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Specifies the behavior when a blob with the specified address already exists.</target>
+          </trans-unit>
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>Valid values for this parameter are: <ph id="1">&lt;codeInline&gt;rename&lt;/codeInline&gt;</ph>, <ph id="2">&lt;codeInline&gt;no-overwrite&lt;/codeInline&gt;</ph> and <ph id="3">&lt;codeInline&gt;overwrite&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Valid values for this parameter are: <ph id="1">&lt;codeInline&gt;rename&lt;/codeInline&gt;</ph>, <ph id="2">&lt;codeInline&gt;no-overwrite&lt;/codeInline&gt;</ph> and <ph id="3">&lt;codeInline&gt;overwrite&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>Note that these values are case-sensitive.</source>
+            <target state="new">Note that these values are case-sensitive.</target>
+          </trans-unit>
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>If no value is specified, the default is <ph id="1">&lt;codeInline&gt;rename&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">If no value is specified, the default is <ph id="1">&lt;codeInline&gt;rename&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>The value specified for this parameter affects all the files in the directory specified by the <ph id="1">&lt;codeInline&gt;/srcdir&lt;/codeInline&gt;</ph> parameter.</source>
+            <target state="new">The value specified for this parameter affects all the files in the directory specified by the <ph id="1">&lt;codeInline&gt;/srcdir&lt;/codeInline&gt;</ph> parameter.</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/BlobType:&lt;/system&gt;</ph>&lt;BlockBlob|PageBlob&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/BlobType:&lt;/system&gt;</ph>&lt;BlockBlob|PageBlob&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Specifies the blob type for the destination blobs.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Specifies the blob type for the destination blobs.</target>
+          </trans-unit>
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>Valid values are: <ph id="1">&lt;codeInline&gt;BlockBlob&lt;/codeInline&gt;</ph> and <ph id="2">&lt;codeInline&gt;PageBlob&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Valid values are: <ph id="1">&lt;codeInline&gt;BlockBlob&lt;/codeInline&gt;</ph> and <ph id="2">&lt;codeInline&gt;PageBlob&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>Note that these values are case-sensitive.</source>
+            <target state="new">Note that these values are case-sensitive.</target>
+          </trans-unit>
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>If no value is specified, the default is <ph id="1">&lt;codeInline&gt;BlockBlob&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">If no value is specified, the default is <ph id="1">&lt;codeInline&gt;BlockBlob&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>In most cases, <ph id="1">&lt;codeInline&gt;BlockBlob&lt;/codeInline&gt;</ph> is recommended.</source>
+            <target state="new">In most cases, <ph id="1">&lt;codeInline&gt;BlockBlob&lt;/codeInline&gt;</ph> is recommended.</target>
+          </trans-unit>
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>If you specify <ph id="1">&lt;codeInline&gt;PageBlob&lt;/codeInline&gt;</ph>, the length of each file in the directory must be a multiple of 512, the size of a page for page blobs.</source>
+            <target state="new">If you specify <ph id="1">&lt;codeInline&gt;PageBlob&lt;/codeInline&gt;</ph>, the length of each file in the directory must be a multiple of 512, the size of a page for page blobs.</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/PropertyFile:&lt;/system&gt;</ph>&lt;PropertyFile&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/PropertyFile:&lt;/system&gt;</ph>&lt;PropertyFile&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Path to the property file for the destination blobs.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Path to the property file for the destination blobs.</target>
+          </trans-unit>
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="840364c6-d9a8-4b43-a9f3-f7441c625069" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Import/Export Service Metadata and Properties File Format&lt;/link&gt;</ph> for more information.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="840364c6-d9a8-4b43-a9f3-f7441c625069" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Import/Export Service Metadata and Properties File Format&lt;/link&gt;</ph> for more information.</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/MetadataFile:&lt;/system&gt;</ph>&lt;MetadataFile&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/MetadataFile:&lt;/system&gt;</ph>&lt;MetadataFile&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Path to the metadata file for the destination blobs.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Path to the metadata file for the destination blobs.</target>
+          </trans-unit>
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="840364c6-d9a8-4b43-a9f3-f7441c625069" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Import/Export Service Metadata and Properties File Format&lt;/link&gt;</ph> for more information.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="840364c6-d9a8-4b43-a9f3-f7441c625069" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Import/Export Service Metadata and Properties File Format&lt;/link&gt;</ph> for more information.</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>Parameters for Copying a Single File</source>
+            <target state="new">Parameters for Copying a Single File</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>When copying a single file, the following required and optional parameters apply:</source>
+            <target state="new">When copying a single file, the following required and optional parameters apply:</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>Command line parameter</source>
+            <target state="new">Command line parameter</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/srcfile:&lt;/system&gt;</ph>&lt;SourceFile&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/srcfile:&lt;/system&gt;</ph>&lt;SourceFile&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Required.&lt;/languageKeyword&gt;</ph> The full path to the file to be copied.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Required.&lt;/languageKeyword&gt;</ph> The full path to the file to be copied.</target>
+          </trans-unit>
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>The directory path must be an absolute path (not a relative path).</source>
+            <target state="new">The directory path must be an absolute path (not a relative path).</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/dstblob:&lt;/system&gt;</ph>&lt;DestinationBlobPath&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/dstblob:&lt;/system&gt;</ph>&lt;DestinationBlobPath&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Required.&lt;/languageKeyword&gt;</ph> The path to the destination blob in your Windows Azure storage account.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Required.&lt;/languageKeyword&gt;</ph> The path to the destination blob in your Windows Azure storage account.</target>
+          </trans-unit>
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>The blob may or may not already exist.</source>
+            <target state="new">The blob may or may not already exist.</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>Specify the blob name beginning with the container name.</source>
+            <target state="new">Specify the blob name beginning with the container name.</target>
+          </trans-unit>
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>The blob name cannot start with "/" or the storage account name.</source>
+            <target state="new">The blob name cannot start with "/" or the storage account name.</target>
+          </trans-unit>
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>For blob naming rules, see <ph id="1">&lt;link xlink:href="d525950c-17ba-4b3b-9ed1-19a2145f769a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Naming and Referencing Containers, Blobs, and Metadata&lt;/link&gt;</ph>.</source>
+            <target state="new">For blob naming rules, see <ph id="1">&lt;link xlink:href="d525950c-17ba-4b3b-9ed1-19a2145f769a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Naming and Referencing Containers, Blobs, and Metadata&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>When the destination container is the root container, you must explicitly specify <ph id="1">&lt;codeInline&gt;$root&lt;/codeInline&gt;</ph> as the container, such as <ph id="2">&lt;codeInline&gt;$root/sample.txt&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">When the destination container is the root container, you must explicitly specify <ph id="1">&lt;codeInline&gt;$root&lt;/codeInline&gt;</ph> as the container, such as <ph id="2">&lt;codeInline&gt;$root/sample.txt&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>Note that blobs under the root container cannot include "/" in their names.</source>
+            <target state="new">Note that blobs under the root container cannot include "/" in their names.</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/Disposition:&lt;/system&gt;</ph>&lt;rename|no-overwrite|overwrite&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/Disposition:&lt;/system&gt;</ph>&lt;rename|no-overwrite|overwrite&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Specifies the behavior when a blob with the specified address already exists.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Specifies the behavior when a blob with the specified address already exists.</target>
+          </trans-unit>
+          <trans-unit id="171" translate="yes" xml:space="preserve">
+            <source>Valid values for this parameter are: <ph id="1">&lt;codeInline&gt;rename&lt;/codeInline&gt;</ph>, <ph id="2">&lt;codeInline&gt;no-overwrite&lt;/codeInline&gt;</ph> and <ph id="3">&lt;codeInline&gt;overwrite&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Valid values for this parameter are: <ph id="1">&lt;codeInline&gt;rename&lt;/codeInline&gt;</ph>, <ph id="2">&lt;codeInline&gt;no-overwrite&lt;/codeInline&gt;</ph> and <ph id="3">&lt;codeInline&gt;overwrite&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="172" translate="yes" xml:space="preserve">
+            <source>Note that these values are case-sensitive.</source>
+            <target state="new">Note that these values are case-sensitive.</target>
+          </trans-unit>
+          <trans-unit id="173" translate="yes" xml:space="preserve">
+            <source>If no value is specified, the default is <ph id="1">&lt;codeInline&gt;rename&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">If no value is specified, the default is <ph id="1">&lt;codeInline&gt;rename&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="174" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/BlobType:&lt;/system&gt;</ph>&lt;BlockBlob|PageBlob&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/BlobType:&lt;/system&gt;</ph>&lt;BlockBlob|PageBlob&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="175" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Specifies the blob type for the destination blobs.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Specifies the blob type for the destination blobs.</target>
+          </trans-unit>
+          <trans-unit id="176" translate="yes" xml:space="preserve">
+            <source>Valid values are: <ph id="1">&lt;codeInline&gt;BlockBlob&lt;/codeInline&gt;</ph> and <ph id="2">&lt;codeInline&gt;PageBlob&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Valid values are: <ph id="1">&lt;codeInline&gt;BlockBlob&lt;/codeInline&gt;</ph> and <ph id="2">&lt;codeInline&gt;PageBlob&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="177" translate="yes" xml:space="preserve">
+            <source>Note that these values are case-sensitive.</source>
+            <target state="new">Note that these values are case-sensitive.</target>
+          </trans-unit>
+          <trans-unit id="178" translate="yes" xml:space="preserve">
+            <source>If no value is specified, the default is <ph id="1">&lt;codeInline&gt;BlockBlob&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">If no value is specified, the default is <ph id="1">&lt;codeInline&gt;BlockBlob&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="179" translate="yes" xml:space="preserve">
+            <source>In most cases, <ph id="1">&lt;codeInline&gt;BlockBlob&lt;/codeInline&gt;</ph> is recommended.</source>
+            <target state="new">In most cases, <ph id="1">&lt;codeInline&gt;BlockBlob&lt;/codeInline&gt;</ph> is recommended.</target>
+          </trans-unit>
+          <trans-unit id="180" translate="yes" xml:space="preserve">
+            <source>If you specify <ph id="1">&lt;codeInline&gt;PageBlob&lt;/codeInline&gt;</ph>, the length of each file in the directory must be a multiple of 512, the size of a page for page blobs.</source>
+            <target state="new">If you specify <ph id="1">&lt;codeInline&gt;PageBlob&lt;/codeInline&gt;</ph>, the length of each file in the directory must be a multiple of 512, the size of a page for page blobs.</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="181" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/PropertyFile:&lt;/system&gt;</ph>&lt;PropertyFile&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/PropertyFile:&lt;/system&gt;</ph>&lt;PropertyFile&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="182" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Path to the property file for the destination blobs.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Path to the property file for the destination blobs.</target>
+          </trans-unit>
+          <trans-unit id="183" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="840364c6-d9a8-4b43-a9f3-f7441c625069" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Import/Export Service Metadata and Properties File Format&lt;/link&gt;</ph> for more information.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="840364c6-d9a8-4b43-a9f3-f7441c625069" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Import/Export Service Metadata and Properties File Format&lt;/link&gt;</ph> for more information.</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="184" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/MetadataFile:&lt;/system&gt;</ph>&lt;MetadataFile&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/MetadataFile:&lt;/system&gt;</ph>&lt;MetadataFile&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="185" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Path to the metadata file for the destination blobs.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;Optional.&lt;/languageKeyword&gt;</ph> Path to the metadata file for the destination blobs.</target>
+          </trans-unit>
+          <trans-unit id="186" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="840364c6-d9a8-4b43-a9f3-f7441c625069" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Import/Export Service Metadata and Properties File Format&lt;/link&gt;</ph> for more information.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="840364c6-d9a8-4b43-a9f3-f7441c625069" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Import/Export Service Metadata and Properties File Format&lt;/link&gt;</ph> for more information.</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="187" translate="yes" xml:space="preserve">
+            <source>Resuming an Interrupted Copy Session</source>
+            <target state="new">Resuming an Interrupted Copy Session</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="188" translate="yes" xml:space="preserve">
+            <source>If a copy session is interrupted for any reason, you can resume it by running the tool with only the journal file specified:</source>
+            <target state="new">If a copy session is interrupted for any reason, you can resume it by running the tool with only the journal file specified:</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="189" translate="yes" xml:space="preserve">
+            <source>Only the most recent copy session, if terminated abnormally, can be resumed.</source>
+            <target state="new">Only the most recent copy session, if terminated abnormally, can be resumed.</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="190" translate="yes" xml:space="preserve">
+            <source>When you resume a copy session, do not modify the source data files and directories by adding or removing files.</source>
+            <target state="new">When you resume a copy session, do not modify the source data files and directories by adding or removing files.</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="191" translate="yes" xml:space="preserve">
+            <source>Aborting an Interrupted Copy Session</source>
+            <target state="new">Aborting an Interrupted Copy Session</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="192" translate="yes" xml:space="preserve">
+            <source>If a copy session is interrupted and it is not possible to resume (for example, if a source directory proved inaccessible), you must abort the current session so that it can be rolled back and new copy sessions can be started:</source>
+            <target state="new">If a copy session is interrupted and it is not possible to resume (for example, if a source directory proved inaccessible), you must abort the current session so that it can be rolled back and new copy sessions can be started:</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="193" translate="yes" xml:space="preserve">
+            <source>Only the last copy session, if terminated abnormally, can be aborted.</source>
+            <target state="new">Only the last copy session, if terminated abnormally, can be aborted.</target>
+          </trans-unit>
+          <trans-unit id="194" translate="yes" xml:space="preserve">
+            <source>Note that you cannot abort the first copy session for a drive.</source>
+            <target state="new">Note that you cannot abort the first copy session for a drive.</target>
+          </trans-unit>
+          <trans-unit id="195" translate="yes" xml:space="preserve">
+            <source>Instead you must restart the copy session with a new journal file.</source>
+            <target state="new">Instead you must restart the copy session with a new journal file.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

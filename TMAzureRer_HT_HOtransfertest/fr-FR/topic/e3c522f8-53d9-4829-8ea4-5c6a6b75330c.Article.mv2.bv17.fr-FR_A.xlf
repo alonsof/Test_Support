@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzcEJwzAMAMBVPIAFli07VgcofZcuIDkSBNoE0hQyfvO+x7kXU8oDzIiA0BNo6gojoTRmRxGOIaPi8Gqg6g7kXIBZEbA2wmQ4q7QYrIyas3eoZWagnhm6CUEdTZpOtZQ0YsAYfIf7M4bzvbjbedz2bTuu5LIphsfvI+trl/X7lmPZ1j9Q33InogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Two-Class Boosted Decision Tree</source>
+            <target state="new">Two-Class Boosted Decision Tree</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Creates a binary classifier using a boosted decision tree algorithm</source>
+            <target state="new">Creates a binary classifier using a boosted decision tree algorithm</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Category: <bpt id="1">&lt;legacyLink xlink:href="0D90DCAB-08E1-4A66-9EA1-B571C22AE74D" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Machine Learning / Initialize Model / Classification<ept id="1">&lt;/legacyLink&gt;</ept></source>
+            <target state="new">Category: <bpt id="1">&lt;legacyLink xlink:href="0D90DCAB-08E1-4A66-9EA1-B571C22AE74D" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Machine Learning / Initialize Model / Classification<ept id="1">&lt;/legacyLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Module Overview</source>
+            <target state="new">Module Overview</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You can use the <bpt id="1">&lt;ui&gt;</bpt>Two-Class Boosted Decision Tree<ept id="1">&lt;/ui&gt;</ept> module to create a machine learning model that is based on the boosted decision trees algorithm.</source>
+            <target state="new">You can use the <bpt id="1">&lt;ui&gt;</bpt>Two-Class Boosted Decision Tree<ept id="1">&lt;/ui&gt;</ept> module to create a machine learning model that is based on the boosted decision trees algorithm.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Generally, when properly configured, boosted decision trees are the easiest methods with which to get top performance on a wide variety of machine learning tasks.</source>
+            <target state="new">Generally, when properly configured, boosted decision trees are the easiest methods with which to get top performance on a wide variety of machine learning tasks.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>However, they are also one of the more memory-intensive learners, and the current implementation holds everything in memory; therefore, a boosted decision tree model might not be able to process the very large datasets that some linear learners can handle.</source>
+            <target state="new">However, they are also one of the more memory-intensive learners, and the current implementation holds everything in memory; therefore, a boosted decision tree model might not be able to process the very large datasets that some linear learners can handle.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>For more information about how to choose an algorithm, see these resources:</source>
+            <target state="new">For more information about how to choose an algorithm, see these resources:</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Machine learning algorithm cheat sheet for Microsoft Azure Machine Learning Studio</source>
+            <target state="new">Machine learning algorithm cheat sheet for Microsoft Azure Machine Learning Studio</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>How to choose Azure Machine Learning algorithms for clustering, classification, or regression</source>
+            <target state="new">How to choose Azure Machine Learning algorithms for clustering, classification, or regression</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Classification is a supervised learning method, and therefore requires a <bpt id="1">&lt;newTerm&gt;</bpt>tagged dataset<ept id="1">&lt;/newTerm&gt;</ept>, which includes a label column.</source>
+            <target state="new">Classification is a supervised learning method, and therefore requires a <bpt id="1">&lt;newTerm&gt;</bpt>tagged dataset<ept id="1">&lt;/newTerm&gt;</ept>, which includes a label column.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>You can train the model by providing the boosted decision tree model and the tagged dataset as an input to <ph id="1">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> or <ph id="2">&lt;link xlink:href="038d91b6-c2f2-42a1-9215-1f2c20ed1b40" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Sweep Parameters&lt;/link&gt;</ph>.</source>
+            <target state="new">You can train the model by providing the boosted decision tree model and the tagged dataset as an input to <ph id="1">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> or <ph id="2">&lt;link xlink:href="038d91b6-c2f2-42a1-9215-1f2c20ed1b40" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Sweep Parameters&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The trained model can then be used to predict values for the new input examples.</source>
+            <target state="new">The trained model can then be used to predict values for the new input examples.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>How to Configure a Boosted Tree Model</source>
+            <target state="new">How to Configure a Boosted Tree Model</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Specify how you want the model to be trained, by setting the <bpt id="1">&lt;ui&gt;</bpt>Create trainer mode<ept id="1">&lt;/ui&gt;</ept> option.</source>
+            <target state="new">Specify how you want the model to be trained, by setting the <bpt id="1">&lt;ui&gt;</bpt>Create trainer mode<ept id="1">&lt;/ui&gt;</ept> option.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Single Parameter</source>
+            <target state="new">Single Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>If you know how you want to configure the model, you can provide a specific set of values as arguments.</source>
+            <target state="new">If you know how you want to configure the model, you can provide a specific set of values as arguments.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>You might have learned these values by experimentation or received them as guidance.</source>
+            <target state="new">You might have learned these values by experimentation or received them as guidance.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Parameter Range</source>
+            <target state="new">Parameter Range</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>If you are not sure of the best parameters, you can find the optimal parameters by specifying multiple values and using a parameter sweep to find the optimal configuration.</source>
+            <target state="new">If you are not sure of the best parameters, you can find the optimal parameters by specifying multiple values and using a parameter sweep to find the optimal configuration.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="038d91b6-c2f2-42a1-9215-1f2c20ed1b40" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Sweep Parameters&lt;/link&gt;</ph> will iterate over all possible combinations of the settings you provided and determine the combination of settings that produces the optimal results.</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="038d91b6-c2f2-42a1-9215-1f2c20ed1b40" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Sweep Parameters&lt;/link&gt;</ph> will iterate over all possible combinations of the settings you provided and determine the combination of settings that produces the optimal results.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Continue to set other parameters that affect the behavior of the decision tree model, such as the number of trees and learning rate.</source>
+            <target state="new">Continue to set other parameters that affect the behavior of the decision tree model, such as the number of trees and learning rate.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>See the <bpt id="1">&lt;legacyLink xlink:href="#bkmk_Options" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Options<ept id="1">&lt;/legacyLink&gt;</ept> section for details.</source>
+            <target state="new">See the <bpt id="1">&lt;legacyLink xlink:href="#bkmk_Options" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Options<ept id="1">&lt;/legacyLink&gt;</ept> section for details.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>If you set the <bpt id="1">&lt;ui&gt;</bpt>Create trainer mode<ept id="1">&lt;/ui&gt;</ept> option to <bpt id="2">&lt;ui&gt;</bpt>Single Parameter<ept id="2">&lt;/ui&gt;</ept>, add a tagged dataset and train the model by using the <ph id="3">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> module.</source>
+            <target state="new">If you set the <bpt id="1">&lt;ui&gt;</bpt>Create trainer mode<ept id="1">&lt;/ui&gt;</ept> option to <bpt id="2">&lt;ui&gt;</bpt>Single Parameter<ept id="2">&lt;/ui&gt;</ept>, add a tagged dataset and train the model by using the <ph id="3">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> module.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>If you set the <bpt id="1">&lt;ui&gt;</bpt>Create trainer mode<ept id="1">&lt;/ui&gt;</ept> option to <bpt id="2">&lt;ui&gt;</bpt>Parameter Range<ept id="2">&lt;/ui&gt;</ept>, add a tagged dataset and train the model using <ph id="3">&lt;link xlink:href="038d91b6-c2f2-42a1-9215-1f2c20ed1b40" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Sweep Parameters&lt;/link&gt;</ph>.</source>
+            <target state="new">If you set the <bpt id="1">&lt;ui&gt;</bpt>Create trainer mode<ept id="1">&lt;/ui&gt;</ept> option to <bpt id="2">&lt;ui&gt;</bpt>Parameter Range<ept id="2">&lt;/ui&gt;</ept>, add a tagged dataset and train the model using <ph id="3">&lt;link xlink:href="038d91b6-c2f2-42a1-9215-1f2c20ed1b40" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Sweep Parameters&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>You can use the model trained using those parameters, or you can make a note of the parameter settings to use when configuring a learner.</source>
+            <target state="new">You can use the model trained using those parameters, or you can make a note of the parameter settings to use when configuring a learner.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Options</source>
+            <target state="new">Options</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>You can customize the behavior of the boosted decision trees classifier by using these parameters:</source>
+            <target state="new">You can customize the behavior of the boosted decision trees classifier by using these parameters:</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Create trainer mode</source>
+            <target state="new">Create trainer mode</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Choose the method used for configuring and training the model:</source>
+            <target state="new">Choose the method used for configuring and training the model:</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Single Parameter</source>
+            <target state="new">Single Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Select this option to configure and train the model with a single set of parameter values that you supply.</source>
+            <target state="new">Select this option to configure and train the model with a single set of parameter values that you supply.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>If you choose this option, you should train the model by using the <ph id="1">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> module.</source>
+            <target state="new">If you choose this option, you should train the model by using the <ph id="1">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> module.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Parameter Range</source>
+            <target state="new">Parameter Range</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Select this option to use the Range Builder and specify a range of possible values.</source>
+            <target state="new">Select this option to use the Range Builder and specify a range of possible values.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>You then train the model using a parameter sweep, to find the optimum configuration.</source>
+            <target state="new">You then train the model using a parameter sweep, to find the optimum configuration.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>If you pass a parameter range to <ph id="1">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph>, it will use only the first value in the parameter range list.</source>
+            <target state="new">If you pass a parameter range to <ph id="1">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph>, it will use only the first value in the parameter range list.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>If you pass a single set of parameter values to the <ph id="1">&lt;link xlink:href="038d91b6-c2f2-42a1-9215-1f2c20ed1b40" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Parameter sweep&lt;/link&gt;</ph> module, when it expects a range of settings for each parameter, it ignores the values and using the default values for the learner.</source>
+            <target state="new">If you pass a single set of parameter values to the <ph id="1">&lt;link xlink:href="038d91b6-c2f2-42a1-9215-1f2c20ed1b40" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Parameter sweep&lt;/link&gt;</ph> module, when it expects a range of settings for each parameter, it ignores the values and using the default values for the learner.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>If you select the <bpt id="1">&lt;ui&gt;</bpt>Parameter Range<ept id="1">&lt;/ui&gt;</ept> option and enter a single value for any parameter, that single value you specified will be used throughout the sweep, even if other parameters change across a range of values.</source>
+            <target state="new">If you select the <bpt id="1">&lt;ui&gt;</bpt>Parameter Range<ept id="1">&lt;/ui&gt;</ept> option and enter a single value for any parameter, that single value you specified will be used throughout the sweep, even if other parameters change across a range of values.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Maximum number of leaves per tree</source>
+            <target state="new">Maximum number of leaves per tree</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Type a number to constrain the number of terminal nodes (leaves) in any tree.</source>
+            <target state="new">Type a number to constrain the number of terminal nodes (leaves) in any tree.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>By increasing this value, you potentially increase the size of the tree and get better precision, at the risk of overfitting and longer training time.</source>
+            <target state="new">By increasing this value, you potentially increase the size of the tree and get better precision, at the risk of overfitting and longer training time.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Maximum number of samples per leaf node</source>
+            <target state="new">Maximum number of samples per leaf node</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Type a number to specify the minimum number of cases required to create any terminal node (leaf) in a tree.</source>
+            <target state="new">Type a number to specify the minimum number of cases required to create any terminal node (leaf) in a tree.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>By increasing this value, you increase the threshold for creating new rules.</source>
+            <target state="new">By increasing this value, you increase the threshold for creating new rules.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>For example, with the default value of 1, even a single case can cause a new rule to be created.</source>
+            <target state="new">For example, with the default value of 1, even a single case can cause a new rule to be created.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>If you increase the value to 5, the training data would have to contain at least 5 cases that meet the same conditions.</source>
+            <target state="new">If you increase the value to 5, the training data would have to contain at least 5 cases that meet the same conditions.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Learning rate</source>
+            <target state="new">Learning rate</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Type a value to use as the step size while learning.</source>
+            <target state="new">Type a value to use as the step size while learning.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>This parameter determines how fast or slow the learner converges on the optimal solution.</source>
+            <target state="new">This parameter determines how fast or slow the learner converges on the optimal solution.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>If the learning rate (or step size) is too big you might overshoot the optimal solution.</source>
+            <target state="new">If the learning rate (or step size) is too big you might overshoot the optimal solution.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>If the learning rate is too small, training takes longer to converge on the best solution.</source>
+            <target state="new">If the learning rate is too small, training takes longer to converge on the best solution.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Number of trees constructed</source>
+            <target state="new">Number of trees constructed</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Configure the maximum number of decision trees that can be created in the ensemble.</source>
+            <target state="new">Configure the maximum number of decision trees that can be created in the ensemble.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>By creating more decision trees, you can potentially get better coverage, but training time will increase.</source>
+            <target state="new">By creating more decision trees, you can potentially get better coverage, but training time will increase.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Random number seed</source>
+            <target state="new">Random number seed</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Optionally, type a non-negative integer to use as the random seed value.</source>
+            <target state="new">Optionally, type a non-negative integer to use as the random seed value.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Specifying a seed ensures reproducibility across runs that have the same data and parameters.</source>
+            <target state="new">Specifying a seed ensures reproducibility across runs that have the same data and parameters.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>The random seed is set by default to 0, which means the initial seed value is obtained from the system clock.</source>
+            <target state="new">The random seed is set by default to 0, which means the initial seed value is obtained from the system clock.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Allow unknown categorical levels</source>
+            <target state="new">Allow unknown categorical levels</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Select this option to create a group for unknown values in the training and validation sets.</source>
+            <target state="new">Select this option to create a group for unknown values in the training and validation sets.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>If you deselect it, the model can accept only the values that are contained in the training data.</source>
+            <target state="new">If you deselect it, the model can accept only the values that are contained in the training data.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>In the former case, the model might be less precise for known values, but it can provide better predictions for new (unknown) values.</source>
+            <target state="new">In the former case, the model might be less precise for known values, but it can provide better predictions for new (unknown) values.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Recommendations</source>
+            <target state="new">Recommendations</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>In general, boosted decision trees yield better results when features are somewhat related.</source>
+            <target state="new">In general, boosted decision trees yield better results when features are somewhat related.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>If features have a large degree of entropy (that is, they are not related), they share little or no mutual information, and ordering them in a tree will not yield a lot of predictive significance.</source>
+            <target state="new">If features have a large degree of entropy (that is, they are not related), they share little or no mutual information, and ordering them in a tree will not yield a lot of predictive significance.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Generally, boosting works well when you have many more examples than features because the model is prone to overfitting.</source>
+            <target state="new">Generally, boosting works well when you have many more examples than features because the model is prone to overfitting.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>If you have missing values in your data, add indicators for appropriate features.</source>
+            <target state="new">If you have missing values in your data, add indicators for appropriate features.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Because the treatment of features is a simple, non-parametric, less-than/greater-than comparison, normalization or any form of non-monotonic transformation function will have little effect.</source>
+            <target state="new">Because the treatment of features is a simple, non-parametric, less-than/greater-than comparison, normalization or any form of non-monotonic transformation function will have little effect.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>(It can possibly lead to the choice of different bins, which is effectively random.)</source>
+            <target state="new">(It can possibly lead to the choice of different bins, which is effectively random.)</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Examples</source>
+            <target state="new">Examples</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>For examples of how boosted decision trees are used in machine learning, see these sample experiments in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Model Gallery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://gallery.azureml.net/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>:</source>
+            <target state="new">For examples of how boosted decision trees are used in machine learning, see these sample experiments in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Model Gallery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://gallery.azureml.net/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>:</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Direct marketing<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525168&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> sample uses the <bpt id="4">&lt;ui&gt;</bpt>Two-Class Boosted Decision Tree<ept id="4">&lt;/ui&gt;</ept> algorithm to predict customer appetency.</source>
+            <target state="new">The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Direct marketing<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525168&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> sample uses the <bpt id="4">&lt;ui&gt;</bpt>Two-Class Boosted Decision Tree<ept id="4">&lt;/ui&gt;</ept> algorithm to predict customer appetency.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Flight delay prediction<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://gallery.azureml.net/Experiment/837e2095ce784f1ba5ac623a60232027&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> sample uses the <bpt id="4">&lt;ui&gt;</bpt>Two-Class Boosted Decision Tree<ept id="4">&lt;/ui&gt;</ept> algorithm to determine whether a flight is likely to be delayed.</source>
+            <target state="new">The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Flight delay prediction<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://gallery.azureml.net/Experiment/837e2095ce784f1ba5ac623a60232027&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> sample uses the <bpt id="4">&lt;ui&gt;</bpt>Two-Class Boosted Decision Tree<ept id="4">&lt;/ui&gt;</ept> algorithm to determine whether a flight is likely to be delayed.</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Credit card risk<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525270&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> sample uses the <bpt id="4">&lt;ui&gt;</bpt>Two-Class Boosted Decision Tree<ept id="4">&lt;/ui&gt;</ept> algorithm to predict risk.</source>
+            <target state="new">The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Credit card risk<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525270&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> sample uses the <bpt id="4">&lt;ui&gt;</bpt>Two-Class Boosted Decision Tree<ept id="4">&lt;/ui&gt;</ept> algorithm to predict risk.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Technical Notes</source>
+            <target state="new">Technical Notes</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>To train a boosted decision tree model, you must provide multiple data instances—that is, more than one row.</source>
+            <target state="new">To train a boosted decision tree model, you must provide multiple data instances—that is, more than one row.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>For detailed information about the boosted decision tree algorithm, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Greedy Function Approximation: A Gradient Boosting Machines<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www-stat.stanford.edu/~jhf/ftp/trebst.pdf&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For detailed information about the boosted decision tree algorithm, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Greedy Function Approximation: A Gradient Boosting Machines<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www-stat.stanford.edu/~jhf/ftp/trebst.pdf&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>The boosted decision tree algorithm in Azure Machine Learning uses the following boosting method:</source>
+            <target state="new">The boosted decision tree algorithm in Azure Machine Learning uses the following boosting method:</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Start with an empty ensemble of weak learners.</source>
+            <target state="new">Start with an empty ensemble of weak learners.</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>For each training example, get the current output of the ensemble.</source>
+            <target state="new">For each training example, get the current output of the ensemble.</target>
+          </trans-unit>
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>(This is the sum of the outputs of all weak learners in the ensemble.)</source>
+            <target state="new">(This is the sum of the outputs of all weak learners in the ensemble.)</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Calculate the gradient of the loss function (problem dependent) for each example.</source>
+            <target state="new">Calculate the gradient of the loss function (problem dependent) for each example.</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Use the example to fit a weak learner by using that gradient as the target function.</source>
+            <target state="new">Use the example to fit a weak learner by using that gradient as the target function.</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Add that weak learner to the ensemble with a strength indicated by the learning rate, and if desired, go to Step 2.</source>
+            <target state="new">Add that weak learner to the ensemble with a strength indicated by the learning rate, and if desired, go to Step 2.</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>The implementations are identical up to the gradient of the loss, which depends on whether the task is a binary classification problem or a regression problem.</source>
+            <target state="new">The implementations are identical up to the gradient of the loss, which depends on whether the task is a binary classification problem or a regression problem.</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>In a binary classification model, the log-loss is used, much like in logistic regression.</source>
+            <target state="new">In a binary classification model, the log-loss is used, much like in logistic regression.</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>In a <bpt id="1">&lt;legacyLink xlink:href="0207d252-6c41-4c77-84c3-73bdf1ac5960" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>regression<ept id="1">&lt;/legacyLink&gt;</ept> model, the squared loss is used, and the gradient is the current output, minus the target).</source>
+            <target state="new">In a <bpt id="1">&lt;legacyLink xlink:href="0207d252-6c41-4c77-84c3-73bdf1ac5960" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>regression<ept id="1">&lt;/legacyLink&gt;</ept> model, the squared loss is used, and the gradient is the current output, minus the target).</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>The weak learners in this implementation are the least-squares regression trees, which use the gradients calculated in Step 3 as the target.</source>
+            <target state="new">The weak learners in this implementation are the least-squares regression trees, which use the gradients calculated in Step 3 as the target.</target>
+          </trans-unit>
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>The trees are subject to the following restrictions:</source>
+            <target state="new">The trees are subject to the following restrictions:</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>They are trained up to a maximum number of leaves.</source>
+            <target state="new">They are trained up to a maximum number of leaves.</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Each leaf has a minimum number of examples to guard against overfitting.</source>
+            <target state="new">Each leaf has a minimum number of examples to guard against overfitting.</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Each decision node is a single feature that is compared against some threshold.</source>
+            <target state="new">Each decision node is a single feature that is compared against some threshold.</target>
+          </trans-unit>
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>If that feature is less than or equal to the threshold, it goes down one path, and if it is greater than the threshold, it goes down the other path.</source>
+            <target state="new">If that feature is less than or equal to the threshold, it goes down one path, and if it is greater than the threshold, it goes down the other path.</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Each leaf node is a constant value.</source>
+            <target state="new">Each leaf node is a constant value.</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>The tree-building algorithm greedily selects the feature and threshold for which a split will most decrease the squared loss with regard to the gradient calculated in Step 3.</source>
+            <target state="new">The tree-building algorithm greedily selects the feature and threshold for which a split will most decrease the squared loss with regard to the gradient calculated in Step 3.</target>
+          </trans-unit>
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>It is subject to a minimum number of training examples per leaf.</source>
+            <target state="new">It is subject to a minimum number of training examples per leaf.</target>
+          </trans-unit>
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>It repeatedly splits until it reaches the maximum number of leaves, or until no valid split is available.</source>
+            <target state="new">It repeatedly splits until it reaches the maximum number of leaves, or until no valid split is available.</target>
+          </trans-unit>
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Features are discretized and binned prior to training, so only a relatively small set of threshold candidates are considered, even for continuous features.</source>
+            <target state="new">Features are discretized and binned prior to training, so only a relatively small set of threshold candidates are considered, even for continuous features.</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Module Parameters</source>
+            <target state="new">Module Parameters</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Range</source>
+            <target state="new">Range</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>Default</source>
+            <target state="new">Default</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Maximum number of leaves per tree</source>
+            <target state="new">Maximum number of leaves per tree</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>&gt;=1</source>
+            <target state="new">&gt;=1</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>20</source>
+            <target state="new">20</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>Specify the maximum number of leaves allowed per tree</source>
+            <target state="new">Specify the maximum number of leaves allowed per tree</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Minimum number of samples per leaf node</source>
+            <target state="new">Minimum number of samples per leaf node</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>&gt;=1</source>
+            <target state="new">&gt;=1</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>10</source>
+            <target state="new">10</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>Specify the minimum number of cases required to form a leaf</source>
+            <target state="new">Specify the minimum number of cases required to form a leaf</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Learning rate</source>
+            <target state="new">Learning rate</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>[double.Epsilon;1.0]</source>
+            <target state="new">[double.Epsilon;1.0]</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Float</source>
+            <target state="new">Float</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>0.2</source>
+            <target state="new">0.2</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>Specify the initial learning rate</source>
+            <target state="new">Specify the initial learning rate</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>Number of trees constructed</source>
+            <target state="new">Number of trees constructed</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>&gt;=1</source>
+            <target state="new">&gt;=1</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>100</source>
+            <target state="new">100</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>Specify the maximum number of trees that can be created during training</source>
+            <target state="new">Specify the maximum number of trees that can be created during training</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>Random number seed</source>
+            <target state="new">Random number seed</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>Any</source>
+            <target state="new">Any</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>Type a value to seed the random number generator that is used by the model.</source>
+            <target state="new">Type a value to seed the random number generator that is used by the model.</target>
+          </trans-unit>
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>Leave it blank for the default.</source>
+            <target state="new">Leave it blank for the default.</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>Allow unknown categorical levels</source>
+            <target state="new">Allow unknown categorical levels</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>Any</source>
+            <target state="new">Any</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>Boolean</source>
+            <target state="new">Boolean</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>True</source>
+            <target state="new">True</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>If True, an additional level is created for each categorical column.</source>
+            <target state="new">If True, an additional level is created for each categorical column.</target>
+          </trans-unit>
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>Any levels in the test dataset that are not available in the training dataset are mapped to this additional level.</source>
+            <target state="new">Any levels in the test dataset that are not available in the training dataset are mapped to this additional level.</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>Output</source>
+            <target state="new">Output</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>Untrained model</source>
+            <target state="new">Untrained model</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>An untrained binary classification model</source>
+            <target state="new">An untrained binary classification model</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

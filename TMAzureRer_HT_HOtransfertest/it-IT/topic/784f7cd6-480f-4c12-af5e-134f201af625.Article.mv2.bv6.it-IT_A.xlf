@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="it-IT" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzEsKg0AMANCrzAESmMQ4n56g3XuBOCYgWAU7gsev+8dzH2wWbmgmgkIecY5lxhZJU61OqhVCztpK8YyLSEaxbFgbJ+SxNjKVSOyPKuK5LQmlREdpxKg+GtIgzs/niUcIBGHt+Jkg3Nvqbnd/ncfRITCEBOF9fXWfTt1/m/b12P+1dCF4oQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Reliable Uploads to Blob Storage via an HTML5 Control</source>
+            <target state="new">Reliable Uploads to Blob Storage via an HTML5 Control</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Author:<ept id="1">&lt;/embeddedLabel&gt;</ept> Rahul Rai, Associate Consultant, Microsoft Global Delivery</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Author:<ept id="1">&lt;/embeddedLabel&gt;</ept> Rahul Rai, Associate Consultant, Microsoft Global Delivery</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Source Code:<ept id="1">&lt;/embeddedLabel&gt;</ept> <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>http://code.msdn.microsoft.com/Silverlight-Azure-Blob-3b773e26<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://code.msdn.microsoft.com/Silverlight-Azure-Blob-3b773e26&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Source Code:<ept id="1">&lt;/embeddedLabel&gt;</ept> <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>http://code.msdn.microsoft.com/Silverlight-Azure-Blob-3b773e26<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://code.msdn.microsoft.com/Silverlight-Azure-Blob-3b773e26&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Summary</source>
+            <target state="new">Summary</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Use an HTML5 File API, AJAX and MVC 3 to build a robust file upload control to upload huge files securely and reliably to Azure blob storage with a provision of monitoring operation progress and operation cancellation.</source>
+            <target state="new">Use an HTML5 File API, AJAX and MVC 3 to build a robust file upload control to upload huge files securely and reliably to Azure blob storage with a provision of monitoring operation progress and operation cancellation.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Problem</source>
+            <target state="new">Problem</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Traditional file upload mechanisms lack client-side file processing capabilities and, therefore, cannot do chunked file uploads.</source>
+            <target state="new">Traditional file upload mechanisms lack client-side file processing capabilities and, therefore, cannot do chunked file uploads.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Chunking file uploads gives you useful options, such as retrying to upload only the blocks that failed to reach the server, easy progress monitoring, and uploading large files.</source>
+            <target state="new">Chunking file uploads gives you useful options, such as retrying to upload only the blocks that failed to reach the server, easy progress monitoring, and uploading large files.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>HTML5 provides improvements in language and multimedia.</source>
+            <target state="new">HTML5 provides improvements in language and multimedia.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>We can now build a more fault tolerant and secure file upload control using the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>HTML5 File API<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.w3.org/TR/file-upload/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> and Azure block blob.</source>
+            <target state="new">We can now build a more fault tolerant and secure file upload control using the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>HTML5 File API<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.w3.org/TR/file-upload/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> and Azure block blob.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Solution</source>
+            <target state="new">Solution</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>To build the file upload control, we need to develop three components:</source>
+            <target state="new">To build the file upload control, we need to develop three components:</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Client-side JavaScript that accepts and processes a file uploaded by user.</source>
+            <target state="new">Client-side JavaScript that accepts and processes a file uploaded by user.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Server-side code that processes file chunks sent by JavaScript.</source>
+            <target state="new">Server-side code that processes file chunks sent by JavaScript.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Client-side UI that invokes JavaScript.</source>
+            <target state="new">Client-side UI that invokes JavaScript.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Implementation of Solution</source>
+            <target state="new">Implementation of Solution</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Prerequisites:</source>
+            <target state="new">Prerequisites:</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>HTML5 supported browser (Internet Explorer 10+, FireFox 3.6+, or Google Chrome 7+)</source>
+            <target state="new">HTML5 supported browser (Internet Explorer 10+, FireFox 3.6+, or Google Chrome 7+)</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>MVC 3</source>
+            <target state="new">MVC 3</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>JQuery</source>
+            <target state="new">JQuery</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Azure Storage API</source>
+            <target state="new">Azure Storage API</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>To build this solution, use the following algorithm:</source>
+            <target state="new">To build this solution, use the following algorithm:</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Accept a file from the user and check the browser’s capability of handling an HTML5 FileList.</source>
+            <target state="new">Accept a file from the user and check the browser’s capability of handling an HTML5 FileList.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Send metadata of the file, such as name of file, file size, number of blocks, etc., to the server in the form of JQuery <bpt id="1">&lt;embeddedLabel&gt;</bpt>XmlHttpRequest<ept id="1">&lt;/embeddedLabel&gt;</ept>, and receive <bpt id="2">&lt;embeddedLabel&gt;</bpt>JSON<ept id="2">&lt;/embeddedLabel&gt;</ept> response from the server.</source>
+            <target state="new">Send metadata of the file, such as name of file, file size, number of blocks, etc., to the server in the form of JQuery <bpt id="1">&lt;embeddedLabel&gt;</bpt>XmlHttpRequest<ept id="1">&lt;/embeddedLabel&gt;</ept>, and receive <bpt id="2">&lt;embeddedLabel&gt;</bpt>JSON<ept id="2">&lt;/embeddedLabel&gt;</ept> response from the server.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>If the server has successfully saved this information, then start processing each file chunk.</source>
+            <target state="new">If the server has successfully saved this information, then start processing each file chunk.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Until the end of the file has been reached:</source>
+            <target state="new">Until the end of the file has been reached:</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Read 1 MB (configurable) slice of the file, attach an identifier to the request, and send it to the server with a block id (a sequentially generated number), where an <bpt id="1">&lt;embeddedLabel&gt;</bpt>Action<ept id="1">&lt;/embeddedLabel&gt;</ept> method in the MVC controller accepts the HTML5 blob and uploads it as a block blob to Azure storage.</source>
+            <target state="new">Read 1 MB (configurable) slice of the file, attach an identifier to the request, and send it to the server with a block id (a sequentially generated number), where an <bpt id="1">&lt;embeddedLabel&gt;</bpt>Action<ept id="1">&lt;/embeddedLabel&gt;</ept> method in the MVC controller accepts the HTML5 blob and uploads it as a block blob to Azure storage.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Get a response in the form of a <bpt id="1">&lt;embeddedLabel&gt;</bpt>JSON<ept id="1">&lt;/embeddedLabel&gt;</ept> message from the server and, upon success, process the next block.</source>
+            <target state="new">Get a response in the form of a <bpt id="1">&lt;embeddedLabel&gt;</bpt>JSON<ept id="1">&lt;/embeddedLabel&gt;</ept> message from the server and, upon success, process the next block.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>If the <bpt id="1">&lt;embeddedLabel&gt;</bpt>JSON<ept id="1">&lt;/embeddedLabel&gt;</ept> message has data about failure of operation, render this data on the client and abort the operation.</source>
+            <target state="new">If the <bpt id="1">&lt;embeddedLabel&gt;</bpt>JSON<ept id="1">&lt;/embeddedLabel&gt;</ept> message has data about failure of operation, render this data on the client and abort the operation.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>If an error is encountered in sending the blob from JavaScript, hold the operation for 5 seconds (configurable) and retry the operation for the particular blob three more times (configurable).</source>
+            <target state="new">If an error is encountered in sending the blob from JavaScript, hold the operation for 5 seconds (configurable) and retry the operation for the particular blob three more times (configurable).</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>If the blob still fails to upload, then abort the operation.</source>
+            <target state="new">If the blob still fails to upload, then abort the operation.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>If all the blobs successfully transmit to server, the <ph id="1">&lt;languageKeyword&gt;Action&lt;/languageKeyword&gt;</ph> method in MVC Controller commits the Azure blob by sending out the <ph id="2">&lt;codeInline&gt;Put Block List&lt;/codeInline&gt;</ph> request and sends the status of the operation to JavaScript as a <bpt id="3">&lt;embeddedLabel&gt;</bpt>JSON<ept id="3">&lt;/embeddedLabel&gt;</ept> message.</source>
+            <target state="new">If all the blobs successfully transmit to server, the <ph id="1">&lt;languageKeyword&gt;Action&lt;/languageKeyword&gt;</ph> method in MVC Controller commits the Azure blob by sending out the <ph id="2">&lt;codeInline&gt;Put Block List&lt;/codeInline&gt;</ph> request and sends the status of the operation to JavaScript as a <bpt id="3">&lt;embeddedLabel&gt;</bpt>JSON<ept id="3">&lt;/embeddedLabel&gt;</ept> message.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>At any time, you can cancel the operation and the system will force an exit from the routine by calling <ph id="1">&lt;codeInline&gt;abort()&lt;/codeInline&gt;</ph> on the handle attached to the current request in step 3a above.</source>
+            <target state="new">At any time, you can cancel the operation and the system will force an exit from the routine by calling <ph id="1">&lt;codeInline&gt;abort()&lt;/codeInline&gt;</ph> on the handle attached to the current request in step 3a above.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>The diagram below shows the steps in process:</source>
+            <target state="new">The diagram below shows the steps in process:</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Let’s now implement the solution by breaking down the algorithm in steps.</source>
+            <target state="new">Let’s now implement the solution by breaking down the algorithm in steps.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Please note that trivial implementations have been left out for simplicity:</source>
+            <target state="new">Please note that trivial implementations have been left out for simplicity:</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Accepting file from user and checking browser capabilities.</source>
+            <target state="new">Accepting file from user and checking browser capabilities.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Create an HTML5 supported MVC view with the following elements (high-level overview):</source>
+            <target state="new">Create an HTML5 supported MVC view with the following elements (high-level overview):</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Create a JavaScript file and implement <ph id="1">&lt;languageKeyword&gt;startUpload()&lt;/languageKeyword&gt;</ph> that is invoked from the <bpt id="2">&lt;ui&gt;</bpt>Upload<ept id="2">&lt;/ui&gt;</ept> button.</source>
+            <target state="new">Create a JavaScript file and implement <ph id="1">&lt;languageKeyword&gt;startUpload()&lt;/languageKeyword&gt;</ph> that is invoked from the <bpt id="2">&lt;ui&gt;</bpt>Upload<ept id="2">&lt;/ui&gt;</ept> button.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Click and test for browser compatibility for <bpt id="1">&lt;embeddedLabel&gt;</bpt>FileList<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click and test for browser compatibility for <bpt id="1">&lt;embeddedLabel&gt;</bpt>FileList<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Also, because the enumeration object that we have is non-modifiable, it is a good practice to freeze such objects.</source>
+            <target state="new">Also, because the enumeration object that we have is non-modifiable, it is a good practice to freeze such objects.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Design a prototype (as per ECMAScript5 guidelines) for <ph id="1">&lt;languageKeyword&gt;ChunkUpload&lt;/languageKeyword&gt;</ph> with all file knowledge encapsulated in it.</source>
+            <target state="new">Design a prototype (as per ECMAScript5 guidelines) for <ph id="1">&lt;languageKeyword&gt;ChunkUpload&lt;/languageKeyword&gt;</ph> with all file knowledge encapsulated in it.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Create an instance from this prototype and initialize its data members from within <ph id="1">&lt;languageKeyword&gt;startUpload()&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">Create an instance from this prototype and initialize its data members from within <ph id="1">&lt;languageKeyword&gt;startUpload()&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Send file metadata to server and save the information.</source>
+            <target state="new">Send file metadata to server and save the information.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Send file attributes as a <bpt id="1">&lt;embeddedLabel&gt;</bpt>JSON<ept id="1">&lt;/embeddedLabel&gt;</ept> message to server and on receiving a success message, proceed with chunked upload.</source>
+            <target state="new">Send file attributes as a <bpt id="1">&lt;embeddedLabel&gt;</bpt>JSON<ept id="1">&lt;/embeddedLabel&gt;</ept> message to server and on receiving a success message, proceed with chunked upload.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Implement <ph id="1">&lt;codeInline&gt;PrepareMetadata Action&lt;/codeInline&gt;</ph> on <bpt id="2">&lt;embeddedLabel&gt;</bpt>Home<ept id="2">&lt;/embeddedLabel&gt;</ept> controller.</source>
+            <target state="new">Implement <ph id="1">&lt;codeInline&gt;PrepareMetadata Action&lt;/codeInline&gt;</ph> on <bpt id="2">&lt;embeddedLabel&gt;</bpt>Home<ept id="2">&lt;/embeddedLabel&gt;</ept> controller.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Chunk uploading of file.</source>
+            <target state="new">Chunk uploading of file.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Create a function that sends file chunks to server as <bpt id="1">&lt;embeddedLabel&gt;</bpt>FormData<ept id="1">&lt;/embeddedLabel&gt;</ept> with an incremental chunk identifier.</source>
+            <target state="new">Create a function that sends file chunks to server as <bpt id="1">&lt;embeddedLabel&gt;</bpt>FormData<ept id="1">&lt;/embeddedLabel&gt;</ept> with an incremental chunk identifier.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Do not use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>XMLHttpRequest<ept id="1">&lt;/embeddedLabel&gt;</ept> to directly send requests as Network Load Balancing (NLB) may strip off request headers making the chunk information meaningless.</source>
+            <target state="new">Do not use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>XMLHttpRequest<ept id="1">&lt;/embeddedLabel&gt;</ept> to directly send requests as Network Load Balancing (NLB) may strip off request headers making the chunk information meaningless.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Note that currently the HTML5 slice function is implemented differently by different browsers, so the function is currently vendor prefixed.</source>
+            <target state="new">Note that currently the HTML5 slice function is implemented differently by different browsers, so the function is currently vendor prefixed.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>For FireFox: <ph id="1">&lt;codeInline&gt;mozslice()&lt;/codeInline&gt;</ph></source>
+            <target state="new">For FireFox: <ph id="1">&lt;codeInline&gt;mozslice()&lt;/codeInline&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>For Chrome: <ph id="1">&lt;codeInline&gt;webkitslice()&lt;/codeInline&gt;</ph></source>
+            <target state="new">For Chrome: <ph id="1">&lt;codeInline&gt;webkitslice()&lt;/codeInline&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Implement an <ph id="1">&lt;codeInline&gt;UploadBlock&lt;/codeInline&gt;</ph> action in <bpt id="2">&lt;embeddedLabel&gt;</bpt>Home<ept id="2">&lt;/embeddedLabel&gt;</ept> controller that takes incremental identifier as parameter, uploads the chunk and sends <bpt id="3">&lt;embeddedLabel&gt;</bpt>JSON<ept id="3">&lt;/embeddedLabel&gt;</ept> message to the script indicating status of the operation.</source>
+            <target state="new">Implement an <ph id="1">&lt;codeInline&gt;UploadBlock&lt;/codeInline&gt;</ph> action in <bpt id="2">&lt;embeddedLabel&gt;</bpt>Home<ept id="2">&lt;/embeddedLabel&gt;</ept> controller that takes incremental identifier as parameter, uploads the chunk and sends <bpt id="3">&lt;embeddedLabel&gt;</bpt>JSON<ept id="3">&lt;/embeddedLabel&gt;</ept> message to the script indicating status of the operation.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>If the identifier increments until the last block, then commit all blocks by sending a <ph id="1">&lt;codeInline&gt;PutBlockList&lt;/codeInline&gt;</ph> request.</source>
+            <target state="new">If the identifier increments until the last block, then commit all blocks by sending a <ph id="1">&lt;codeInline&gt;PutBlockList&lt;/codeInline&gt;</ph> request.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Recursively call the JavaScript function from success event handler of <ph id="1">&lt;codeInline&gt;JQueryXHR&lt;/codeInline&gt;</ph> in <ph id="2">&lt;codeInline&gt;sendNextChunk()&lt;/codeInline&gt;</ph> until end of file is reached.</source>
+            <target state="new">Recursively call the JavaScript function from success event handler of <ph id="1">&lt;codeInline&gt;JQueryXHR&lt;/codeInline&gt;</ph> in <ph id="2">&lt;codeInline&gt;sendNextChunk()&lt;/codeInline&gt;</ph> until end of file is reached.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>If an error is reported by server, then parse the <bpt id="1">&lt;embeddedLabel&gt;</bpt>JSON<ept id="1">&lt;/embeddedLabel&gt;</ept> message and abort the operation.</source>
+            <target state="new">If an error is reported by server, then parse the <bpt id="1">&lt;embeddedLabel&gt;</bpt>JSON<ept id="1">&lt;/embeddedLabel&gt;</ept> message and abort the operation.</target>
+          </trans-unit>
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>If the packet fails to reach the server (error event handler of <ph id="1">&lt;codeInline&gt;JQueryXHR&lt;/codeInline&gt;</ph>), then retry uploading the chunk with delays until you hit the maximum number of retries and then abort the operation.</source>
+            <target state="new">If the packet fails to reach the server (error event handler of <ph id="1">&lt;codeInline&gt;JQueryXHR&lt;/codeInline&gt;</ph>), then retry uploading the chunk with delays until you hit the maximum number of retries and then abort the operation.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>If all incremental identifiers reach total block count, then the <ph id="1">&lt;codeInline&gt;UploadBlock&lt;/codeInline&gt;</ph> action in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Home<ept id="2">&lt;/embeddedLabel&gt;</ept> controller will commit the blocks by sending a <ph id="3">&lt;codeInline&gt;PutBlockList&lt;/codeInline&gt;</ph> request.</source>
+            <target state="new">If all incremental identifiers reach total block count, then the <ph id="1">&lt;codeInline&gt;UploadBlock&lt;/codeInline&gt;</ph> action in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Home<ept id="2">&lt;/embeddedLabel&gt;</ept> controller will commit the blocks by sending a <ph id="3">&lt;codeInline&gt;PutBlockList&lt;/codeInline&gt;</ph> request.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>To cancel the operation at any time, cancel the current AJAX request to which you have tied an identifier by calling <ph id="1">&lt;codeInline&gt;abort()&lt;/codeInline&gt;</ph> on the request.</source>
+            <target state="new">To cancel the operation at any time, cancel the current AJAX request to which you have tied an identifier by calling <ph id="1">&lt;codeInline&gt;abort()&lt;/codeInline&gt;</ph> on the request.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Comparison between Silverlight version and HTML5 version of upload control</source>
+            <target state="new">Comparison between Silverlight version and HTML5 version of upload control</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>I wrote a field note about the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Silverlight version<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.microsoft.com/windowsazure/learn/real-world-guidance/field-notes/silverlight-azure-blob-parallel-upload/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> of file upload control.</source>
+            <target state="new">I wrote a field note about the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Silverlight version<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.microsoft.com/windowsazure/learn/real-world-guidance/field-notes/silverlight-azure-blob-parallel-upload/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> of file upload control.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Both the controls solve the issue of robust uploads through different approaches.</source>
+            <target state="new">Both the controls solve the issue of robust uploads through different approaches.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>The primary differences are summarized in the following table:</source>
+            <target state="new">The primary differences are summarized in the following table:</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Point of Difference</source>
+            <target state="new">Point of Difference</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Silverlight Version</source>
+            <target state="new">Silverlight Version</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>HTML5 Version</source>
+            <target state="new">HTML5 Version</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Browser dependence</source>
+            <target state="new">Browser dependence</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Runs on all browsers supporting Silverlight</source>
+            <target state="new">Runs on all browsers supporting Silverlight</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Runs on lesser number of browsers as HTML5 standards are yet to be widely implemented</source>
+            <target state="new">Runs on lesser number of browsers as HTML5 standards are yet to be widely implemented</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>File upload mode</source>
+            <target state="new">File upload mode</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Parallel</source>
+            <target state="new">Parallel</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Sequential</source>
+            <target state="new">Sequential</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Exposure of storage account keys</source>
+            <target state="new">Exposure of storage account keys</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>SAS is exposed to the control</source>
+            <target state="new">SAS is exposed to the control</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Has no knowledge of account keys</source>
+            <target state="new">Has no knowledge of account keys</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Time taken to render control</source>
+            <target state="new">Time taken to render control</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>High</source>
+            <target state="new">High</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Low</source>
+            <target state="new">Low</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Component responsible for upload</source>
+            <target state="new">Component responsible for upload</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Client end control</source>
+            <target state="new">Client end control</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Server handler</source>
+            <target state="new">Server handler</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Failed block retries</source>
+            <target state="new">Failed block retries</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Supported at client end</source>
+            <target state="new">Supported at client end</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Supported at client and server end</source>
+            <target state="new">Supported at client and server end</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Client memory requirements</source>
+            <target state="new">Client memory requirements</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>High</source>
+            <target state="new">High</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Low</source>
+            <target state="new">Low</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Time taken to upload file</source>
+            <target state="new">Time taken to upload file</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Low</source>
+            <target state="new">Low</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>High</source>
+            <target state="new">High</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Bandwidth utilization</source>
+            <target state="new">Bandwidth utilization</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>High</source>
+            <target state="new">High</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Low</source>
+            <target state="new">Low</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>File size supported</source>
+            <target state="new">File size supported</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Medium</source>
+            <target state="new">Medium</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>High</source>
+            <target state="new">High</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Future Scope</source>
+            <target state="new">Future Scope</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>To make chunk uploads in parallel instead of the current sequential implementation, you may send out all <bpt id="1">&lt;embeddedLabel&gt;</bpt>XmlHttpRequests<ept id="1">&lt;/embeddedLabel&gt;</ept> at one time instead of checking for successful delivery of each prenominal packet although this might clog the server if there is a high number of packets.</source>
+            <target state="new">To make chunk uploads in parallel instead of the current sequential implementation, you may send out all <bpt id="1">&lt;embeddedLabel&gt;</bpt>XmlHttpRequests<ept id="1">&lt;/embeddedLabel&gt;</ept> at one time instead of checking for successful delivery of each prenominal packet although this might clog the server if there is a high number of packets.</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>If AppFabric caching is used for maintaining metadata of file to upload, the control can easily scale out without requiring any modifications.</source>
+            <target state="new">If AppFabric caching is used for maintaining metadata of file to upload, the control can easily scale out without requiring any modifications.</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Support for multiple file upload may be added by carrying out the upload process for each file.</source>
+            <target state="new">Support for multiple file upload may be added by carrying out the upload process for each file.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>References</source>
+            <target state="new">References</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Slicing a file:<ept id="1">&lt;/embeddedLabel&gt;</ept> <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>http://www.html5rocks.com/en/tutorials/file/dndfiles/#toc-slicing-files<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://www.html5rocks.com/en/tutorials/file/dndfiles/&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Slicing a file:<ept id="1">&lt;/embeddedLabel&gt;</ept> <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>http://www.html5rocks.com/en/tutorials/file/dndfiles/#toc-slicing-files<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://www.html5rocks.com/en/tutorials/file/dndfiles/&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Blob object:<ept id="1">&lt;/embeddedLabel&gt;</ept> <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>https://developer.mozilla.org/en/DOM/Blob<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;https://developer.mozilla.org/en/DOM/Blob&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Blob object:<ept id="1">&lt;/embeddedLabel&gt;</ept> <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>https://developer.mozilla.org/en/DOM/Blob<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;https://developer.mozilla.org/en/DOM/Blob&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>ECMAScript Language Specification:<ept id="1">&lt;/embeddedLabel&gt;</ept> <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>http://www.ecma-international.org/publications/standards/Ecma-262.htm<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://www.ecma-international.org/publications/standards/Ecma-262.htm&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>ECMAScript Language Specification:<ept id="1">&lt;/embeddedLabel&gt;</ept> <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>http://www.ecma-international.org/publications/standards/Ecma-262.htm<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://www.ecma-international.org/publications/standards/Ecma-262.htm&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>jQuery API:<ept id="1">&lt;/embeddedLabel&gt;</ept> <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>http://api.jquery.com/<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://api.jquery.com/&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>jQuery API:<ept id="1">&lt;/embeddedLabel&gt;</ept> <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>http://api.jquery.com/<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://api.jquery.com/&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

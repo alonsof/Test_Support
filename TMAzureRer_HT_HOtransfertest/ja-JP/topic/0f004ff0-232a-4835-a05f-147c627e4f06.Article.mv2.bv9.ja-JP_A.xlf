@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ja-JP" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzcENgzAMBdBVMoAtOcknJJ2g6qmHLuCQWKKiIFEqMX5Z4D2z2CvCxL0DDG/CVXLlSbymUsyrFnJZUho9GpcCYxQxzoiNu1hDFdQGIycmAruEEIMychxYZTD2GKcUxg6TRM6Teys/nuTOZTbr53Hbt+0gF8hd1f330fW16/pd9Ji39Q8vKJaFoQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Step 1: Add the X12 SalesOrder (840) Schema and Transform to the Visual Studio Project</source>
+            <target state="new">Step 1: Add the X12 SalesOrder (840) Schema and Transform to the Visual Studio Project</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>In this step, you include the X12 840 sales order schema in your project.</source>
+            <target state="new">In this step, you include the X12 840 sales order schema in your project.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>You also create a <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph> to map the elements in the X12 schema and the <bpt id="2">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="2">&lt;/embeddedLabel&gt;</ept> schema you created in <ph id="3">&lt;link xlink:href="3ff6545f-a395-48d9-80d9-c756f987bf98" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 2: Create SalesOrder Schema&lt;/link&gt;</ph>.</source>
+            <target state="new">You also create a <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph> to map the elements in the X12 schema and the <bpt id="2">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="2">&lt;/embeddedLabel&gt;</ept> schema you created in <ph id="3">&lt;link xlink:href="3ff6545f-a395-48d9-80d9-c756f987bf98" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 2: Create SalesOrder Schema&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>This is required because the EDI <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> configured using the <ph id="2">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> sends the message to the EAI bridge, which expects the incoming messages in the <bpt id="3">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="3">&lt;/embeddedLabel&gt;</ept> schema.</source>
+            <target state="new">This is required because the EDI <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> configured using the <ph id="2">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> sends the message to the EAI bridge, which expects the incoming messages in the <bpt id="3">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="3">&lt;/embeddedLabel&gt;</ept> schema.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>In this step, you add the X12 840 sales order schema and the <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph> to the <bpt id="2">&lt;embeddedLabel&gt;</bpt>EAIEDITutorial<ept id="2">&lt;/embeddedLabel&gt;</ept> <ph id="3">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">In this step, you add the X12 840 sales order schema and the <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph> to the <bpt id="2">&lt;embeddedLabel&gt;</bpt>EAIEDITutorial<ept id="2">&lt;/embeddedLabel&gt;</ept> <ph id="3">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>However, you can always create a new project for just the schema and the <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph>.</source>
+            <target state="new">However, you can always create a new project for just the schema and the <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Typically, you should create a <bpt id="1">&lt;embeddedLabel&gt;</bpt>BizTalk Service Artifacts<ept id="1">&lt;/embeddedLabel&gt;</ept> project for such schemas and <ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph>s.</source>
+            <target state="new">Typically, you should create a <bpt id="1">&lt;embeddedLabel&gt;</bpt>BizTalk Service Artifacts<ept id="1">&lt;/embeddedLabel&gt;</ept> project for such schemas and <ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph>s.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>For more information about this project type, see <ph id="1">&lt;link xlink:href="03421690-817a-45a8-8492-c9cb98484102" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create a BizTalk Service Project&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about this project type, see <ph id="1">&lt;link xlink:href="03421690-817a-45a8-8492-c9cb98484102" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create a BizTalk Service Project&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>To include the X12 840 schema in the Visual Studio project</source>
+            <target state="new">To include the X12 840 schema in the Visual Studio project</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Download the EDI X12 schemas from <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/p/?LinkId=235057<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=235057&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">Download the EDI X12 schemas from <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/p/?LinkId=235057<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=235057&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The schema is available as part of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MicrosoftEdiXSDTemplates.zip<ept id="1">&lt;/embeddedLabel&gt;</ept> package.</source>
+            <target state="new">The schema is available as part of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MicrosoftEdiXSDTemplates.zip<ept id="1">&lt;/embeddedLabel&gt;</ept> package.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Right click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>EAIEDITutorial<ept id="1">&lt;/embeddedLabel&gt;</ept> project in <ph id="2">&lt;token&gt;vs_current_short&lt;/token&gt;</ph>, point to <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add<ept id="3">&lt;/embeddedLabel&gt;</ept>, and then click <bpt id="4">&lt;embeddedLabel&gt;</bpt>Existing Item<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Right click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>EAIEDITutorial<ept id="1">&lt;/embeddedLabel&gt;</ept> project in <ph id="2">&lt;token&gt;vs_current_short&lt;/token&gt;</ph>, point to <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add<ept id="3">&lt;/embeddedLabel&gt;</ept>, and then click <bpt id="4">&lt;embeddedLabel&gt;</bpt>Existing Item<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Navigate to the location where you downloaded and extracted the schemas, select the X12 840 schema (X12_00401_840.xsd), and add it to the project.</source>
+            <target state="new">Navigate to the location where you downloaded and extracted the schemas, select the X12 840 schema (X12_00401_840.xsd), and add it to the project.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Create a <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph> between the X12 840 schema and the SalesOrder schema.</source>
+            <target state="new">Create a <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph> between the X12 840 schema and the SalesOrder schema.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>You must create a <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph> to extract the values you want from the X12 message and reflect them in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="2">&lt;/embeddedLabel&gt;</ept> message.</source>
+            <target state="new">You must create a <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph> to extract the values you want from the X12 message and reflect them in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="2">&lt;/embeddedLabel&gt;</ept> message.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Specify the name of the map as <bpt id="1">&lt;embeddedLabel&gt;</bpt>EDI840ToSalesOrder.trfm<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Specify the name of the map as <bpt id="1">&lt;embeddedLabel&gt;</bpt>EDI840ToSalesOrder.trfm<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>For instructions, see <ph id="1">&lt;link xlink:href="e102686a-b1c5-467d-8f22-8fadec19189f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Creating a Transform Project (EDI Project)&lt;/link&gt;</ph>.</source>
+            <target state="new">For instructions, see <ph id="1">&lt;link xlink:href="e102686a-b1c5-467d-8f22-8fadec19189f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Creating a Transform Project (EDI Project)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>To include a transform</source>
+            <target state="new">To include a transform</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>In <ph id="1">&lt;token&gt;vs_current_short&lt;/token&gt;</ph>, right-click the <bpt id="2">&lt;embeddedLabel&gt;</bpt>EAIEDITutorial<ept id="2">&lt;/embeddedLabel&gt;</ept> project, point to <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add<ept id="3">&lt;/embeddedLabel&gt;</ept>, and then click <bpt id="4">&lt;embeddedLabel&gt;</bpt>New Item<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In <ph id="1">&lt;token&gt;vs_current_short&lt;/token&gt;</ph>, right-click the <bpt id="2">&lt;embeddedLabel&gt;</bpt>EAIEDITutorial<ept id="2">&lt;/embeddedLabel&gt;</ept> project, point to <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add<ept id="3">&lt;/embeddedLabel&gt;</ept>, and then click <bpt id="4">&lt;embeddedLabel&gt;</bpt>New Item<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>If you want to use an already created map, you can use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>EDI840ToSalesOrder.trfm<ept id="1">&lt;/embeddedLabel&gt;</ept> map.</source>
+            <target state="new">If you want to use an already created map, you can use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>EDI840ToSalesOrder.trfm<ept id="1">&lt;/embeddedLabel&gt;</ept> map.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>This map is available as part of the sample available from the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>MSDN Code Gallery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=316856&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">This map is available as part of the sample available from the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>MSDN Code Gallery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=316856&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;userInput&gt;</bpt>Add New Item<ept id="1">&lt;/userInput&gt;</ept> dialog box, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Map<ept id="2">&lt;/embeddedLabel&gt;</ept>, specify the map name as <bpt id="3">&lt;userInput&gt;</bpt>EDI840ToSalesOrder.trfm<ept id="3">&lt;/userInput&gt;</ept>, and then click <bpt id="4">&lt;embeddedLabel&gt;</bpt>OK<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;userInput&gt;</bpt>Add New Item<ept id="1">&lt;/userInput&gt;</ept> dialog box, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Map<ept id="2">&lt;/embeddedLabel&gt;</ept>, specify the map name as <bpt id="3">&lt;userInput&gt;</bpt>EDI840ToSalesOrder.trfm<ept id="3">&lt;/userInput&gt;</ept>, and then click <bpt id="4">&lt;embeddedLabel&gt;</bpt>OK<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>In Solution Explorer, double-click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>EDI840ToSalesOrder.trfm<ept id="1">&lt;/embeddedLabel&gt;</ept> file to open the map.</source>
+            <target state="new">In Solution Explorer, double-click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>EDI840ToSalesOrder.trfm<ept id="1">&lt;/embeddedLabel&gt;</ept> file to open the map.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>In the <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph> window, select the source schema to <bpt id="2">&lt;embeddedLabel&gt;</bpt>X12_00401_840.xsd<ept id="2">&lt;/embeddedLabel&gt;</ept> and the destination schema to <bpt id="3">&lt;embeddedLabel&gt;</bpt>ECommerceSalesOrder.xsd<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph> window, select the source schema to <bpt id="2">&lt;embeddedLabel&gt;</bpt>X12_00401_840.xsd<ept id="2">&lt;/embeddedLabel&gt;</ept> and the destination schema to <bpt id="3">&lt;embeddedLabel&gt;</bpt>ECommerceSalesOrder.xsd<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Directly map the following nodes in the source and destination schemas:</source>
+            <target state="new">Directly map the following nodes in the source and destination schemas:</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Source Schema</source>
+            <target state="new">Source Schema</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Destination Schema</source>
+            <target state="new">Destination Schema</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>N1Loop1/N2/N201</source>
+            <target state="new">N1Loop1/N2/N201</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>CompanyCode</source>
+            <target state="new">CompanyCode</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>PO1Loop1/PO1/PO107</source>
+            <target state="new">PO1Loop1/PO1/PO107</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>PartID</source>
+            <target state="new">PartID</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>PO1Loop1/PO1/PO102</source>
+            <target state="new">PO1Loop1/PO1/PO102</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Quantity</source>
+            <target state="new">Quantity</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>PO1Loop1/PO1/PO104</source>
+            <target state="new">PO1Loop1/PO1/PO104</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>AskPrice</source>
+            <target state="new">AskPrice</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>N1Loop1/N3/N301</source>
+            <target state="new">N1Loop1/N3/N301</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Address/Line1</source>
+            <target state="new">Address/Line1</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>N1Loop1/N3/N302</source>
+            <target state="new">N1Loop1/N3/N302</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Address/Line2</source>
+            <target state="new">Address/Line2</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>N1Loop1/N4/N401</source>
+            <target state="new">N1Loop1/N4/N401</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Address/City</source>
+            <target state="new">Address/City</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>N1Loop1/N3/N402</source>
+            <target state="new">N1Loop1/N3/N402</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Address/State</source>
+            <target state="new">Address/State</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>N1Loop1/N4/N404</source>
+            <target state="new">N1Loop1/N4/N404</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Address/Country</source>
+            <target state="new">Address/Country</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>N1Loop1/N4/N403</source>
+            <target state="new">N1Loop1/N4/N403</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Address/Zipcode</source>
+            <target state="new">Address/Zipcode</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>PER/PER02</source>
+            <target state="new">PER/PER02</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Contact/Firstname</source>
+            <target state="new">Contact/Firstname</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>PER/PER04</source>
+            <target state="new">PER/PER04</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Contact/Lastname</source>
+            <target state="new">Contact/Lastname</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Map the elements from the source schema (X12_00401_840) to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>RequestShipmentDate<ept id="1">&lt;/embeddedLabel&gt;</ept> element.</source>
+            <target state="new">Map the elements from the source schema (X12_00401_840) to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>RequestShipmentDate<ept id="1">&lt;/embeddedLabel&gt;</ept> element.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>The element in the source message that has the requested shipment date is <bpt id="1">&lt;embeddedLabel&gt;</bpt>BQT05<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The element in the source message that has the requested shipment date is <bpt id="1">&lt;embeddedLabel&gt;</bpt>BQT05<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>The value in that element is in the format YYYYMMDD.</source>
+            <target state="new">The value in that element is in the format YYYYMMDD.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>The value that must be entered in <bpt id="1">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="1">&lt;/embeddedLabel&gt;</ept> schema must be of the form YYYY-MM-DD.</source>
+            <target state="new">The value that must be entered in <bpt id="1">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="1">&lt;/embeddedLabel&gt;</ept> schema must be of the form YYYY-MM-DD.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>So, to achieve that, you must map the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BQT05<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>RequestShipmentDate<ept id="2">&lt;/embeddedLabel&gt;</ept> elements as shown in the screenshot below:</source>
+            <target state="new">So, to achieve that, you must map the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BQT05<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>RequestShipmentDate<ept id="2">&lt;/embeddedLabel&gt;</ept> elements as shown in the screenshot below:</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>To achieve this mapping, this is what you must do:</source>
+            <target state="new">To achieve this mapping, this is what you must do:</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Drag and drop a <bpt id="1">&lt;embeddedLabel&gt;</bpt>String Extract<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> on the mapper surface and connect it to the BTS05 element from the source schema.</source>
+            <target state="new">Drag and drop a <bpt id="1">&lt;embeddedLabel&gt;</bpt>String Extract<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> on the mapper surface and connect it to the BTS05 element from the source schema.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Double-click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>String Extract<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> and set the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Start Index<ept id="3">&lt;/embeddedLabel&gt;</ept> property to <bpt id="4">&lt;userInput&gt;</bpt>1<ept id="4">&lt;/userInput&gt;</ept> and the <bpt id="5">&lt;embeddedLabel&gt;</bpt>End Index<ept id="5">&lt;/embeddedLabel&gt;</ept> property to <bpt id="6">&lt;userInput&gt;</bpt>4<ept id="6">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">Double-click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>String Extract<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> and set the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Start Index<ept id="3">&lt;/embeddedLabel&gt;</ept> property to <bpt id="4">&lt;userInput&gt;</bpt>1<ept id="4">&lt;/userInput&gt;</ept> and the <bpt id="5">&lt;embeddedLabel&gt;</bpt>End Index<ept id="5">&lt;/embeddedLabel&gt;</ept> property to <bpt id="6">&lt;userInput&gt;</bpt>4<ept id="6">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Drag and drop a <bpt id="1">&lt;embeddedLabel&gt;</bpt>String Extract<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> on the mapper surface and connect it to the BTS05 element from the source schema.</source>
+            <target state="new">Drag and drop a <bpt id="1">&lt;embeddedLabel&gt;</bpt>String Extract<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> on the mapper surface and connect it to the BTS05 element from the source schema.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Double-click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>String Extract<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> and set the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Start Index<ept id="3">&lt;/embeddedLabel&gt;</ept> property to <bpt id="4">&lt;userInput&gt;</bpt>5<ept id="4">&lt;/userInput&gt;</ept> and the <bpt id="5">&lt;embeddedLabel&gt;</bpt>End Index<ept id="5">&lt;/embeddedLabel&gt;</ept> property to <bpt id="6">&lt;userInput&gt;</bpt>6<ept id="6">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">Double-click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>String Extract<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> and set the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Start Index<ept id="3">&lt;/embeddedLabel&gt;</ept> property to <bpt id="4">&lt;userInput&gt;</bpt>5<ept id="4">&lt;/userInput&gt;</ept> and the <bpt id="5">&lt;embeddedLabel&gt;</bpt>End Index<ept id="5">&lt;/embeddedLabel&gt;</ept> property to <bpt id="6">&lt;userInput&gt;</bpt>6<ept id="6">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Drag and drop a <bpt id="1">&lt;embeddedLabel&gt;</bpt>String Extract<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> on the mapper surface and connect it to the BTS05 element from the source schema.</source>
+            <target state="new">Drag and drop a <bpt id="1">&lt;embeddedLabel&gt;</bpt>String Extract<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> on the mapper surface and connect it to the BTS05 element from the source schema.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Double-click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>String Extract<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> and set the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Start Index<ept id="3">&lt;/embeddedLabel&gt;</ept> property to <bpt id="4">&lt;userInput&gt;</bpt>7<ept id="4">&lt;/userInput&gt;</ept> and the <bpt id="5">&lt;embeddedLabel&gt;</bpt>End Index<ept id="5">&lt;/embeddedLabel&gt;</ept> property to <bpt id="6">&lt;userInput&gt;</bpt>8<ept id="6">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">Double-click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>String Extract<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> and set the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Start Index<ept id="3">&lt;/embeddedLabel&gt;</ept> property to <bpt id="4">&lt;userInput&gt;</bpt>7<ept id="4">&lt;/userInput&gt;</ept> and the <bpt id="5">&lt;embeddedLabel&gt;</bpt>End Index<ept id="5">&lt;/embeddedLabel&gt;</ept> property to <bpt id="6">&lt;userInput&gt;</bpt>8<ept id="6">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>With this, you have now extracted the values for YYYY, MM, and DD.</source>
+            <target state="new">With this, you have now extracted the values for YYYY, MM, and DD.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>You must now use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>String Concatenate<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> to join the extracted values using a hyphen (-).</source>
+            <target state="new">You must now use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>String Concatenate<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> to join the extracted values using a hyphen (-).</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>This is how the configuration for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>String Concatenate<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> looks like.</source>
+            <target state="new">This is how the configuration for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>String Concatenate<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> looks like.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>In this screenshot, <bpt id="1">&lt;embeddedLabel&gt;</bpt>Input_0<ept id="1">&lt;/embeddedLabel&gt;</ept>, <bpt id="2">&lt;embeddedLabel&gt;</bpt>Input_2<ept id="2">&lt;/embeddedLabel&gt;</ept>, and <bpt id="3">&lt;embeddedLabel&gt;</bpt>Input_4<ept id="3">&lt;/embeddedLabel&gt;</ept> are from the <bpt id="4">&lt;embeddedLabel&gt;</bpt>String Extract<ept id="4">&lt;/embeddedLabel&gt;</ept> <ph id="5">&lt;token&gt;mapop&lt;/token&gt;</ph>s that are connected to the <bpt id="6">&lt;embeddedLabel&gt;</bpt>String Concatenate<ept id="6">&lt;/embeddedLabel&gt;</ept> <ph id="7">&lt;token&gt;mapop&lt;/token&gt;</ph>.</source>
+            <target state="new">In this screenshot, <bpt id="1">&lt;embeddedLabel&gt;</bpt>Input_0<ept id="1">&lt;/embeddedLabel&gt;</ept>, <bpt id="2">&lt;embeddedLabel&gt;</bpt>Input_2<ept id="2">&lt;/embeddedLabel&gt;</ept>, and <bpt id="3">&lt;embeddedLabel&gt;</bpt>Input_4<ept id="3">&lt;/embeddedLabel&gt;</ept> are from the <bpt id="4">&lt;embeddedLabel&gt;</bpt>String Extract<ept id="4">&lt;/embeddedLabel&gt;</ept> <ph id="5">&lt;token&gt;mapop&lt;/token&gt;</ph>s that are connected to the <bpt id="6">&lt;embeddedLabel&gt;</bpt>String Concatenate<ept id="6">&lt;/embeddedLabel&gt;</ept> <ph id="7">&lt;token&gt;mapop&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Values for <bpt id="1">&lt;embeddedLabel&gt;</bpt>Input_1<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Input_3<ept id="2">&lt;/embeddedLabel&gt;</ept> are set as hyphens (-).</source>
+            <target state="new">Values for <bpt id="1">&lt;embeddedLabel&gt;</bpt>Input_1<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Input_3<ept id="2">&lt;/embeddedLabel&gt;</ept> are set as hyphens (-).</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>After this <ph id="1">&lt;token&gt;mapop&lt;/token&gt;</ph>, the value that will be transferred to the <bpt id="2">&lt;embeddedLabel&gt;</bpt>RequestShipmentDate<ept id="2">&lt;/embeddedLabel&gt;</ept> element will be in the format YYYY-MM-DD.</source>
+            <target state="new">After this <ph id="1">&lt;token&gt;mapop&lt;/token&gt;</ph>, the value that will be transferred to the <bpt id="2">&lt;embeddedLabel&gt;</bpt>RequestShipmentDate<ept id="2">&lt;/embeddedLabel&gt;</ept> element will be in the format YYYY-MM-DD.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>You must now connect the <bpt id="1">&lt;embeddedLabel&gt;</bpt>String Concatenate<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> to the <bpt id="3">&lt;embeddedLabel&gt;</bpt>RequestShipmentDate<ept id="3">&lt;/embeddedLabel&gt;</ept> element in the destination schema.</source>
+            <target state="new">You must now connect the <bpt id="1">&lt;embeddedLabel&gt;</bpt>String Concatenate<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> to the <bpt id="3">&lt;embeddedLabel&gt;</bpt>RequestShipmentDate<ept id="3">&lt;/embeddedLabel&gt;</ept> element in the destination schema.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Repeat the tasks in the previous step to map the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BQT03<ept id="1">&lt;/embeddedLabel&gt;</ept> element in the source schema to the <bpt id="2">&lt;embeddedLabel&gt;</bpt>DateNow<ept id="2">&lt;/embeddedLabel&gt;</ept> element in the destination schema.</source>
+            <target state="new">Repeat the tasks in the previous step to map the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BQT03<ept id="1">&lt;/embeddedLabel&gt;</ept> element in the source schema to the <bpt id="2">&lt;embeddedLabel&gt;</bpt>DateNow<ept id="2">&lt;/embeddedLabel&gt;</ept> element in the destination schema.</target>
+          </trans-unit>
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>The mapped elements must look like the following:</source>
+            <target state="new">The mapped elements must look like the following:</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>To populate a value in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Comments<ept id="1">&lt;/embeddedLabel&gt;</ept> element, map the N201 element in the source schema with the Comments element in the destination schema using the <bpt id="2">&lt;embeddedLabel&gt;</bpt>String Concatenate<ept id="2">&lt;/embeddedLabel&gt;</ept> <ph id="3">&lt;token&gt;mapop&lt;/token&gt;</ph>.</source>
+            <target state="new">To populate a value in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Comments<ept id="1">&lt;/embeddedLabel&gt;</ept> element, map the N201 element in the source schema with the Comments element in the destination schema using the <bpt id="2">&lt;embeddedLabel&gt;</bpt>String Concatenate<ept id="2">&lt;/embeddedLabel&gt;</ept> <ph id="3">&lt;token&gt;mapop&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Drag and drop a <bpt id="1">&lt;embeddedLabel&gt;</bpt>String Concatenate<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> on the mapper surface.</source>
+            <target state="new">Drag and drop a <bpt id="1">&lt;embeddedLabel&gt;</bpt>String Concatenate<ept id="1">&lt;/embeddedLabel&gt;</ept> <ph id="2">&lt;token&gt;mapop&lt;/token&gt;</ph> on the mapper surface.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Double-click the <ph id="1">&lt;token&gt;mapop&lt;/token&gt;</ph> to open the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Configure String Concatenate<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box and set the Input_0 property to “<bpt id="3">&lt;userInput&gt;</bpt>Order from partner <ept id="3">&lt;/userInput&gt;</ept>“.</source>
+            <target state="new">Double-click the <ph id="1">&lt;token&gt;mapop&lt;/token&gt;</ph> to open the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Configure String Concatenate<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box and set the Input_0 property to “<bpt id="3">&lt;userInput&gt;</bpt>Order from partner <ept id="3">&lt;/userInput&gt;</ept>“.</target>
+          </trans-unit>
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Connect the <bpt id="1">&lt;embeddedLabel&gt;</bpt>N201<ept id="1">&lt;/embeddedLabel&gt;</ept> element in the source schema to the <bpt id="2">&lt;embeddedLabel&gt;</bpt>String Concatenate<ept id="2">&lt;/embeddedLabel&gt;</ept> <ph id="3">&lt;token&gt;mapop&lt;/token&gt;</ph> and then join the <bpt id="4">&lt;embeddedLabel&gt;</bpt>mapop<ept id="4">&lt;/embeddedLabel&gt;</ept> to the <bpt id="5">&lt;embeddedLabel&gt;</bpt>Comments<ept id="5">&lt;/embeddedLabel&gt;</ept> element in the destination schema.</source>
+            <target state="new">Connect the <bpt id="1">&lt;embeddedLabel&gt;</bpt>N201<ept id="1">&lt;/embeddedLabel&gt;</ept> element in the source schema to the <bpt id="2">&lt;embeddedLabel&gt;</bpt>String Concatenate<ept id="2">&lt;/embeddedLabel&gt;</ept> <ph id="3">&lt;token&gt;mapop&lt;/token&gt;</ph> and then join the <bpt id="4">&lt;embeddedLabel&gt;</bpt>mapop<ept id="4">&lt;/embeddedLabel&gt;</ept> to the <bpt id="5">&lt;embeddedLabel&gt;</bpt>Comments<ept id="5">&lt;/embeddedLabel&gt;</ept> element in the destination schema.</target>
+          </trans-unit>
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>The configuration for the <ph id="1">&lt;token&gt;mapop&lt;/token&gt;</ph> must resemble the following:</source>
+            <target state="new">The configuration for the <ph id="1">&lt;token&gt;mapop&lt;/token&gt;</ph> must resemble the following:</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>With this configuration, if the value in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>N201<ept id="1">&lt;/embeddedLabel&gt;</ept> element in the source schema is <bpt id="2">&lt;legacyItalic&gt;</bpt>XYZ<ept id="2">&lt;/legacyItalic&gt;</ept>, for example, the value in the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Comments<ept id="3">&lt;/embeddedLabel&gt;</ept> element in the destination schema will be set to <bpt id="4">&lt;legacyItalic&gt;</bpt>Order from Partner XYZ<ept id="4">&lt;/legacyItalic&gt;</ept>.</source>
+            <target state="new">With this configuration, if the value in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>N201<ept id="1">&lt;/embeddedLabel&gt;</ept> element in the source schema is <bpt id="2">&lt;legacyItalic&gt;</bpt>XYZ<ept id="2">&lt;/legacyItalic&gt;</ept>, for example, the value in the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Comments<ept id="3">&lt;/embeddedLabel&gt;</ept> element in the destination schema will be set to <bpt id="4">&lt;legacyItalic&gt;</bpt>Order from Partner XYZ<ept id="4">&lt;/legacyItalic&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Save changes to the map.</source>
+            <target state="new">Save changes to the map.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

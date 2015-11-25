@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="pt-BR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANyjsKwzAMANCr6AASWJa/HTt1Lr2AnFgQSJOSuJDjt29+ZtJb8BP1HgIFNkfNlUaTY021GqtWBO0pS/GeYlT7r9moRfYkLkfLTZypIhSekxPJpLUJhdSNSqxCEjmX5Cz5XBAY4TPo/kS41sWsX+N27PtA8AiC8Pi+dXsdup2rjmXfflzwJa+hAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Facebook's Graph API 2.0 Upgrade and ACS</source>
+            <target state="new">Facebook's Graph API 2.0 Upgrade and ACS</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>On April 30, 2015, all Facebook-enabled applications will be automatically upgraded to Facebook’s Graph API v2.0.</source>
+            <target state="new">On April 30, 2015, all Facebook-enabled applications will be automatically upgraded to Facebook’s Graph API v2.0.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>If you use Facebook as an identity provider in an ACS namespace, you may need to make changes to your Facebook identity provider configurations in ACS, code changes to your application, or both to avoid downtime.For more information about Facebook’s plans, see the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Facebook Platform Upgrade Guide<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://developers.facebook.com/docs/apps/upgrading&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">If you use Facebook as an identity provider in an ACS namespace, you may need to make changes to your Facebook identity provider configurations in ACS, code changes to your application, or both to avoid downtime.For more information about Facebook’s plans, see the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Facebook Platform Upgrade Guide<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://developers.facebook.com/docs/apps/upgrading&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Background</source>
+            <target state="new">Background</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>ACS uses the following Facebook endpoints: https://www.facebook.com/dialog/oauth, https://graph.facebook.com/oauth/access_token, https://www.facebook.com/logout.php and https://graph.facebook.com/me.</source>
+            <target state="new">ACS uses the following Facebook endpoints: https://www.facebook.com/dialog/oauth, https://graph.facebook.com/oauth/access_token, https://www.facebook.com/logout.php and https://graph.facebook.com/me.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Facebook will automatically upgrade these “version-less” Graph API requests to use v2.0 on April 30, 2015.</source>
+            <target state="new">Facebook will automatically upgrade these “version-less” Graph API requests to use v2.0 on April 30, 2015.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>When adding Facebook as an identity provider in ACS, ‘email’ is set as an application permission (by default).</source>
+            <target state="new">When adding Facebook as an identity provider in ACS, ‘email’ is set as an application permission (by default).</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>If you have chosen no application permissions (empty field) or the default (‘email’) in your Facebook identity provider configurations, then you do not need to make any application or configuration changes.</source>
+            <target state="new">If you have chosen no application permissions (empty field) or the default (‘email’) in your Facebook identity provider configurations, then you do not need to make any application or configuration changes.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>If you have chosen other application permissions, then you should review this topic completely to assess impact and take appropriate steps.</source>
+            <target state="new">If you have chosen other application permissions, then you should review this topic completely to assess impact and take appropriate steps.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Assessing Impact</source>
+            <target state="new">Assessing Impact</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The following changes made by Facebook need your consideration:</source>
+            <target state="new">The following changes made by Facebook need your consideration:</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Permissions</source>
+            <target state="new">Permissions</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The ‘basic_info’ permission, which is implicitly part of every Facebook request, will be replaced by the ‘public_profile’ permission, which will also be implicit.</source>
+            <target state="new">The ‘basic_info’ permission, which is implicitly part of every Facebook request, will be replaced by the ‘public_profile’ permission, which will also be implicit.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The permission sets for the two are identical, except that in the latter case the list of friends will be part of a separate permission ‘user_friends’.</source>
+            <target state="new">The permission sets for the two are identical, except that in the latter case the list of friends will be part of a separate permission ‘user_friends’.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>To get equivalent functionality to the ‘basic_info’ permission, you will need to request the ‘user_friends’ permission explicitly.</source>
+            <target state="new">To get equivalent functionality to the ‘basic_info’ permission, you will need to request the ‘user_friends’ permission explicitly.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Significant changes have been made to ‘friends’-based permissions.</source>
+            <target state="new">Significant changes have been made to ‘friends’-based permissions.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Facebook Platform Upgrade Guide<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://developers.facebook.com/docs/apps/upgrading&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> outlines them in detail.</source>
+            <target state="new">The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Facebook Platform Upgrade Guide<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://developers.facebook.com/docs/apps/upgrading&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> outlines them in detail.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Facebook requires applications that request additional permissions beyond ‘basic_profile’, ‘email’ and ‘user_friends’ to go through their <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Login Review<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://developers.facebook.com/docs/apps/review/login&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>  process.</source>
+            <target state="new">Facebook requires applications that request additional permissions beyond ‘basic_profile’, ‘email’ and ‘user_friends’ to go through their <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Login Review<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://developers.facebook.com/docs/apps/review/login&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>  process.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Declined Permissions</source>
+            <target state="new">Declined Permissions</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Facebook will allow users to choose which permissions to grant to an application, with the option to selectively decline permissions.</source>
+            <target state="new">Facebook will allow users to choose which permissions to grant to an application, with the option to selectively decline permissions.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Applications will have to handle these use cases.</source>
+            <target state="new">Applications will have to handle these use cases.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Users cannot decline the ‘public_profile’ permission.</source>
+            <target state="new">Users cannot decline the ‘public_profile’ permission.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>If the user declines the ‘email’ permission, ACS will not pass the ‘email’ claim in the token back to the application.</source>
+            <target state="new">If the user declines the ‘email’ permission, ACS will not pass the ‘email’ claim in the token back to the application.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>App-scoped User IDs</source>
+            <target state="new">App-scoped User IDs</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>User IDs sent in the ACS token as the ‘Name identifier’ claim will go from being globally-scoped IDs (same User ID across multiple Facebook applications) to app-scoped IDs (different User IDs for each Facebook application).</source>
+            <target state="new">User IDs sent in the ACS token as the ‘Name identifier’ claim will go from being globally-scoped IDs (same User ID across multiple Facebook applications) to app-scoped IDs (different User IDs for each Facebook application).</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>This is the case only for Facebook users newly signing into the application.</source>
+            <target state="new">This is the case only for Facebook users newly signing into the application.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>It is backward-compatible for users who have already signed in to the application before.</source>
+            <target state="new">It is backward-compatible for users who have already signed in to the application before.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>If the application relies on globally-scoped User IDs to correlate the user across different Facebook application registrations, it will have to make adjustments and use Facebook’s <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Business Mapping API<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://developers.facebook.com/docs/apps/for-business&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> to do the same.</source>
+            <target state="new">If the application relies on globally-scoped User IDs to correlate the user across different Facebook application registrations, it will have to make adjustments and use Facebook’s <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Business Mapping API<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://developers.facebook.com/docs/apps/for-business&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> to do the same.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Recommendations</source>
+            <target state="new">Recommendations</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>If you find that there is impact to your Facebook-enabled ACS applications, here is a non-exhaustive list of recommendations.</source>
+            <target state="new">If you find that there is impact to your Facebook-enabled ACS applications, here is a non-exhaustive list of recommendations.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Not all of these may be applicable to you.</source>
+            <target state="new">Not all of these may be applicable to you.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Refer to the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Facebook Platform Upgrade Guide<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://developers.facebook.com/docs/apps/upgrading&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for the complete list.</source>
+            <target state="new">Refer to the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Facebook Platform Upgrade Guide<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://developers.facebook.com/docs/apps/upgrading&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for the complete list.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Make sure that you don’t have any dependencies on deprecated application permissions.</source>
+            <target state="new">Make sure that you don’t have any dependencies on deprecated application permissions.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Submit extended application permissions for Facebook’s <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Login Review<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://developers.facebook.com/docs/apps/review/login&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">Submit extended application permissions for Facebook’s <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Login Review<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://developers.facebook.com/docs/apps/review/login&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Alternatively, you can scale back your application to use only ‘basic_profile’, ‘email’ and ‘user_friends’ application permissions.</source>
+            <target state="new">Alternatively, you can scale back your application to use only ‘basic_profile’, ‘email’ and ‘user_friends’ application permissions.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Update your application’s logic to handle declined permissions.</source>
+            <target state="new">Update your application’s logic to handle declined permissions.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Update your application’s logic to handle app-scoped User IDs if you have to correlate users across multiple Facebook app registrations.</source>
+            <target state="new">Update your application’s logic to handle app-scoped User IDs if you have to correlate users across multiple Facebook app registrations.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Use Facebook’s <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Business Mapping API<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://developers.facebook.com/docs/apps/for-business&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> to do this.</source>
+            <target state="new">Use Facebook’s <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Business Mapping API<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://developers.facebook.com/docs/apps/for-business&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> to do this.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

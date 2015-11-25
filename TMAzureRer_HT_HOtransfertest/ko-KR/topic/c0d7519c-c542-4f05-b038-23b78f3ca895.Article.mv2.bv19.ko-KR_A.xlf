@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzVEKwyAMgOGreAADakw1O8Fgb2MXiJmBsq5C20GPvz7/8P1m2FtOCr3nDDlagBZqAw1RJmaLIuwdJtU+CYFYCZDL1KAqMjBWwojUtRTvNLwLRVZQygmyBbosrJCwlWqoUpm8i959Bjye3p3LbNbP47aNcXiXrna97r+vrK9N1n2RYx7rH4HyJTyiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>How to: Host a Service on Azure that Accesses Service Bus</source>
+            <target state="new">How to: Host a Service on Azure that Accesses Service Bus</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Creating a service application that runs on <ph id="1">&lt;token&gt;azure_1&lt;/token&gt;</ph> follows the programming patterns for both an <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph> and a traditional <ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph> application: you define and implement the service contract, configure the endpoint, create the credentials, and then start the host.</source>
+            <target state="new">Creating a service application that runs on <ph id="1">&lt;token&gt;azure_1&lt;/token&gt;</ph> follows the programming patterns for both an <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph> and a traditional <ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph> application: you define and implement the service contract, configure the endpoint, create the credentials, and then start the host.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Once you are finished, you stop the host.</source>
+            <target state="new">Once you are finished, you stop the host.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>However, note that there are two unique issues when you create a service in <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph>:</source>
+            <target state="new">However, note that there are two unique issues when you create a service in <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph>:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt><ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph> does not store <ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph> and <ph id="4">&lt;token&gt;ac2&lt;/token&gt;</ph> configuration information in the Machine.config file<ept id="1">&lt;/embeddedLabel&gt;</ept> </source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt><ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph> does not store <ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph> and <ph id="4">&lt;token&gt;ac2&lt;/token&gt;</ph> configuration information in the Machine.config file<ept id="1">&lt;/embeddedLabel&gt;</ept> </target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Because <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> does not install the <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph> SDK, the Machine.config file on a <ph id="3">&lt;token&gt;azure_2&lt;/token&gt;</ph> computer has no information about <ph id="4">&lt;token&gt;sb2&lt;/token&gt;</ph> bindings or endpoints.</source>
+            <target state="new">Because <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> does not install the <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph> SDK, the Machine.config file on a <ph id="3">&lt;token&gt;azure_2&lt;/token&gt;</ph> computer has no information about <ph id="4">&lt;token&gt;sb2&lt;/token&gt;</ph> bindings or endpoints.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>As stated previously, <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> security restrictions prevent you from modifying the <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph> Machine.config file.</source>
+            <target state="new">As stated previously, <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> security restrictions prevent you from modifying the <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph> Machine.config file.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Therefore, there are two options to make <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> and <ph id="2">&lt;token&gt;ac2&lt;/token&gt;</ph> configuration information available to your <ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph> applications.</source>
+            <target state="new">Therefore, there are two options to make <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> and <ph id="2">&lt;token&gt;ac2&lt;/token&gt;</ph> configuration information available to your <ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph> applications.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The recommended solution is to use the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> APIs to programmatically configure your application.</source>
+            <target state="new">The recommended solution is to use the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> APIs to programmatically configure your application.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>For example, although you could store name and password information in the App.config file, you would programmatically set any relay binding configurations.</source>
+            <target state="new">For example, although you could store name and password information in the App.config file, you would programmatically set any relay binding configurations.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;crabout&lt;/token&gt;</ph> setting configuration programmatically, see <ph id="2">&lt;link xlink:href="c3c38827-e436-4e31-8ea6-3d90e6d169d4" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configuring an AppFabric Service Bus Application&lt;/link&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;token&gt;crabout&lt;/token&gt;</ph> setting configuration programmatically, see <ph id="2">&lt;link xlink:href="c3c38827-e436-4e31-8ea6-3d90e6d169d4" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configuring an AppFabric Service Bus Application&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The second solution is to manually modify the App.config file for your application by adding all of the relevant information.</source>
+            <target state="new">The second solution is to manually modify the App.config file for your application by adding all of the relevant information.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Once you do this, you can use the App.config file to configure bindings and endpoints.</source>
+            <target state="new">Once you do this, you can use the App.config file to configure bindings and endpoints.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>To do so, you can see the Machine.config file on a computer that has the <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> SDK installed, find all <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph>-related configuration information, and copy them to your application App.config file.</source>
+            <target state="new">To do so, you can see the Machine.config file on a computer that has the <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> SDK installed, find all <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph>-related configuration information, and copy them to your application App.config file.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>While this lets you use the App.config file on the host service, it will be difficult to test your code: you may encounter duplication issues with the Machine.config file of the local test computer, which will already have the <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> SDK installed.</source>
+            <target state="new">While this lets you use the App.config file on the host service, it will be difficult to test your code: you may encounter duplication issues with the Machine.config file of the local test computer, which will already have the <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> SDK installed.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Therefore, we recommend that you use the previous option, and set everything programmatically.</source>
+            <target state="new">Therefore, we recommend that you use the previous option, and set everything programmatically.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> must have Full Trust authorization to run on <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph></source>
+            <target state="new"><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> must have Full Trust authorization to run on <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>As with all other <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> applications, you must make sure that the operating system is running with Full Trust authorization.</source>
+            <target state="new">As with all other <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> applications, you must make sure that the operating system is running with Full Trust authorization.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>This can be set in the ServiceDefinition.csdef file of your <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> project, using the following procedure.</source>
+            <target state="new">This can be set in the ServiceDefinition.csdef file of your <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> project, using the following procedure.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>To package the Service Bus assembly with your application</source>
+            <target state="new">To package the Service Bus assembly with your application</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;ui&gt;</bpt>Solution Explorer<ept id="1">&lt;/ui&gt;</ept>, under the <bpt id="2">&lt;ui&gt;</bpt>WorkerRole<ept id="2">&lt;/ui&gt;</ept> or <bpt id="3">&lt;ui&gt;</bpt>WebRole<ept id="3">&lt;/ui&gt;</ept> node (depending on where your code is located), add the <bpt id="4">&lt;ui&gt;</bpt>Microsoft.ServiceBus.dll<ept id="4">&lt;/ui&gt;</ept> assembly to your <ph id="5">&lt;token&gt;azure_2&lt;/token&gt;</ph> project as a reference.</source>
+            <target state="new">In <bpt id="1">&lt;ui&gt;</bpt>Solution Explorer<ept id="1">&lt;/ui&gt;</ept>, under the <bpt id="2">&lt;ui&gt;</bpt>WorkerRole<ept id="2">&lt;/ui&gt;</ept> or <bpt id="3">&lt;ui&gt;</bpt>WebRole<ept id="3">&lt;/ui&gt;</ept> node (depending on where your code is located), add the <bpt id="4">&lt;ui&gt;</bpt>Microsoft.ServiceBus.dll<ept id="4">&lt;/ui&gt;</ept> assembly to your <ph id="5">&lt;token&gt;azure_2&lt;/token&gt;</ph> project as a reference.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>This step is the standard process for adding a reference to an assembly.</source>
+            <target state="new">This step is the standard process for adding a reference to an assembly.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>Reference<ept id="1">&lt;/ui&gt;</ept> folder, right-click <bpt id="2">&lt;ui&gt;</bpt>Microsoft.ServiceBus<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>Reference<ept id="1">&lt;/ui&gt;</ept> folder, right-click <bpt id="2">&lt;ui&gt;</bpt>Microsoft.ServiceBus<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Then click <bpt id="1">&lt;ui&gt;</bpt>Properties<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Then click <bpt id="1">&lt;ui&gt;</bpt>Properties<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>Properties<ept id="1">&lt;/ui&gt;</ept> dialog, set <bpt id="2">&lt;ui&gt;</bpt>Copy Local<ept id="2">&lt;/ui&gt;</ept> to <bpt id="3">&lt;ui&gt;</bpt>True<ept id="3">&lt;/ui&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>Properties<ept id="1">&lt;/ui&gt;</ept> dialog, set <bpt id="2">&lt;ui&gt;</bpt>Copy Local<ept id="2">&lt;/ui&gt;</ept> to <bpt id="3">&lt;ui&gt;</bpt>True<ept id="3">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Doing so ensures that the Microsoft.ServiceBus.dll assembly is copied to the local \bin path and available to your application when it is running on <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph>.</source>
+            <target state="new">Doing so ensures that the Microsoft.ServiceBus.dll assembly is copied to the local \bin path and available to your application when it is running on <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>To set the Azure application to Full Trust</source>
+            <target state="new">To set the Azure application to Full Trust</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>In the ServiceDefinition.csdef file in your project, set the <ph id="1">&lt;codeInline&gt;enableNativeCodeExecution&lt;/codeInline&gt;</ph> field to <ph id="2">&lt;codeInline&gt;"true"&lt;/codeInline&gt;</ph>, as shown in the following code.</source>
+            <target state="new">In the ServiceDefinition.csdef file in your project, set the <ph id="1">&lt;codeInline&gt;enableNativeCodeExecution&lt;/codeInline&gt;</ph> field to <ph id="2">&lt;codeInline&gt;"true"&lt;/codeInline&gt;</ph>, as shown in the following code.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Replace <ph id="1">&lt;codeInline&gt;"ApplicationNameHere"&lt;/codeInline&gt;</ph> with the name of your application:</source>
+            <target state="new">Replace <ph id="1">&lt;codeInline&gt;"ApplicationNameHere"&lt;/codeInline&gt;</ph> with the name of your application:</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

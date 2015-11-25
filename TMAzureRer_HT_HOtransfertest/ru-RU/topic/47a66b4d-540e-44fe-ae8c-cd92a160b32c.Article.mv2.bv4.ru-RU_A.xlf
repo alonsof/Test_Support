@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ru-RU" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzFEKgzAMANCr9AANtDWtZifY99gOkKQJCE7BKXj8+f947oMJFgUzRMDsCSRNApoyNyLPzBSDlc6VkKFqHQEpKdAwdXARktwoJ8kx4MitCXaomAwQ3YBtUtBOhXNLMhSN4Yb7Ca9PDNcyu9t1PPZtO2Io9xDD8/zy+t55/S18zNv6B9E1znKhAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Important Information About Signing Key Rollover</source>
+            <target state="new">Important Information About Signing Key Rollover</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Important Information About Signing Key Rollover in Azure AD</source>
+            <target state="new">Important Information About Signing Key Rollover in Azure AD</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This topic discusses what you need to know about the public keys that are used in Azure AD to sign security tokens.</source>
+            <target state="new">This topic discusses what you need to know about the public keys that are used in Azure AD to sign security tokens.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>It is important to note that these keys rollover on a 6 week schedule.</source>
+            <target state="new">It is important to note that these keys rollover on a 6 week schedule.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>In an emergency, a key could be changed much sooner than 6 weeks.</source>
+            <target state="new">In an emergency, a key could be changed much sooner than 6 weeks.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>All applications that use Azure AD should be able to programmatically handle the key rollover process.</source>
+            <target state="new">All applications that use Azure AD should be able to programmatically handle the key rollover process.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Continue reading to understand how the keys work, and how to update your application to handle key rollover.</source>
+            <target state="new">Continue reading to understand how the keys work, and how to update your application to handle key rollover.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Overview of Signing Keys in Azure AD</source>
+            <target state="new">Overview of Signing Keys in Azure AD</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Azure AD uses public-key cryptography built on industry standards to establish trust between itself and the applications that use it.</source>
+            <target state="new">Azure AD uses public-key cryptography built on industry standards to establish trust between itself and the applications that use it.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>In practical terms, this works in the following way: Azure AD uses a signing key that consists of a public and private key pair.</source>
+            <target state="new">In practical terms, this works in the following way: Azure AD uses a signing key that consists of a public and private key pair.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>When a user signs in to an application that uses Azure AD for authentication, Azure AD creates a security token that contains information about the user.</source>
+            <target state="new">When a user signs in to an application that uses Azure AD for authentication, Azure AD creates a security token that contains information about the user.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>This token is signed by Azure AD using its private key before it is sent back to the application.</source>
+            <target state="new">This token is signed by Azure AD using its private key before it is sent back to the application.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>To verify that the token is valid and actually originated from Azure AD, the application must validate the token’s signature using the public key exposed by Azure AD that is contained in the tenant’s federation metadata document.</source>
+            <target state="new">To verify that the token is valid and actually originated from Azure AD, the application must validate the token’s signature using the public key exposed by Azure AD that is contained in the tenant’s federation metadata document.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>This public key – and the signing key from which it derives – is the same one used for all tenants in Azure AD.</source>
+            <target state="new">This public key – and the signing key from which it derives – is the same one used for all tenants in Azure AD.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>For security purposes, Azure AD’s public key rolls on a 6 week interval.</source>
+            <target state="new">For security purposes, Azure AD’s public key rolls on a 6 week interval.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>In the case of an emergency, the key could rollover much sooner than 6 weeks.</source>
+            <target state="new">In the case of an emergency, the key could rollover much sooner than 6 weeks.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Any application that integrates with Azure AD should be prepared to handle a key rollover event no matter how frequently it may occur.</source>
+            <target state="new">Any application that integrates with Azure AD should be prepared to handle a key rollover event no matter how frequently it may occur.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Depending on when you created your application and what authentication library it was built with, your application may or may not have the necessary logic to handle key rollover.</source>
+            <target state="new">Depending on when you created your application and what authentication library it was built with, your application may or may not have the necessary logic to handle key rollover.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>If it doesn’t, and your application attempts to use an expired public key to verify the signature on a token, the sign-in request will fail.</source>
+            <target state="new">If it doesn’t, and your application attempts to use an expired public key to verify the signature on a token, the sign-in request will fail.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Because a key may be rolled at any moment, there is always more than one valid public key available in the federation metadata document.</source>
+            <target state="new">Because a key may be rolled at any moment, there is always more than one valid public key available in the federation metadata document.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Your application should be prepared to use any of the keys specified in the document, since one key may be rolled soon, another may be its replacement, and so forth.</source>
+            <target state="new">Your application should be prepared to use any of the keys specified in the document, since one key may be rolled soon, another may be its replacement, and so forth.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>It is recommended that your application cache these keys in a database or a configuration file to increase the efficiency of communicating with Azure AD during the sign-in process and to quickly validate a token using a different key.</source>
+            <target state="new">It is recommended that your application cache these keys in a database or a configuration file to increase the efficiency of communicating with Azure AD during the sign-in process and to quickly validate a token using a different key.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>The following section covers the common scenarios and how to update your application.</source>
+            <target state="new">The following section covers the common scenarios and how to update your application.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>How to Update your Application with Key Rollover Logic</source>
+            <target state="new">How to Update your Application with Key Rollover Logic</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>How your application handles key rollover depends on variables such as what identity framework was used, the framework version, or type of application.</source>
+            <target state="new">How your application handles key rollover depends on variables such as what identity framework was used, the framework version, or type of application.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Each section below will show you how to update the most common application types and configurations.</source>
+            <target state="new">Each section below will show you how to update the most common application types and configurations.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>You can also follow the steps to make sure the logic is working properly.</source>
+            <target state="new">You can also follow the steps to make sure the logic is working properly.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>There are four common application types that are covered in the following sections, and all other scenarios are covered by following the steps in <ph id="1">&lt;link xlink:href="47a66b4d-540e-44fe-ae8c-cd92a160b32c#BKMK_Manually" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Manually Retrieve the Latest Key and Update Your Application&lt;/link&gt;</ph>.</source>
+            <target state="new">There are four common application types that are covered in the following sections, and all other scenarios are covered by following the steps in <ph id="1">&lt;link xlink:href="47a66b4d-540e-44fe-ae8c-cd92a160b32c#BKMK_Manually" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Manually Retrieve the Latest Key and Update Your Application&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Web Applications Created with Visual Studio 2013</source>
+            <target state="new">Web Applications Created with Visual Studio 2013</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>If your application was built using a web application template in Visual Studio 2013 and you selected <bpt id="1">&lt;embeddedLabel&gt;</bpt>Organizational Accounts<ept id="1">&lt;/embeddedLabel&gt;</ept> from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Change Authentication<ept id="2">&lt;/embeddedLabel&gt;</ept> menu, it already has the necessary logic to handle key rollover.</source>
+            <target state="new">If your application was built using a web application template in Visual Studio 2013 and you selected <bpt id="1">&lt;embeddedLabel&gt;</bpt>Organizational Accounts<ept id="1">&lt;/embeddedLabel&gt;</ept> from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Change Authentication<ept id="2">&lt;/embeddedLabel&gt;</ept> menu, it already has the necessary logic to handle key rollover.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>This logic stores your organization’s unique identifier and the signing key information in two database tables associated with the project.</source>
+            <target state="new">This logic stores your organization’s unique identifier and the signing key information in two database tables associated with the project.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>You can find the connection string for the database in the project’s Web.config file.</source>
+            <target state="new">You can find the connection string for the database in the project’s Web.config file.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>If you added authentication to your solution manually, your application does not have the necessary key rollover logic.</source>
+            <target state="new">If you added authentication to your solution manually, your application does not have the necessary key rollover logic.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>You will need to write it yourself, or follow the steps in <ph id="1">&lt;link xlink:href="47a66b4d-540e-44fe-ae8c-cd92a160b32c#BKMK_Manually" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Manually Retrieve the Latest Key and Update Your Application&lt;/link&gt;</ph>.</source>
+            <target state="new">You will need to write it yourself, or follow the steps in <ph id="1">&lt;link xlink:href="47a66b4d-540e-44fe-ae8c-cd92a160b32c#BKMK_Manually" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Manually Retrieve the Latest Key and Update Your Application&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>The following steps will help you verify that the logic is working properly in your application.</source>
+            <target state="new">The following steps will help you verify that the logic is working properly in your application.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>How to verify the key rollover logic is working properly</source>
+            <target state="new">How to verify the key rollover logic is working properly</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>In Visual Studio 2013, open the solution, and then click on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Server Explorer<ept id="1">&lt;/embeddedLabel&gt;</ept> tab on the right window.</source>
+            <target state="new">In Visual Studio 2013, open the solution, and then click on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Server Explorer<ept id="1">&lt;/embeddedLabel&gt;</ept> tab on the right window.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Expand <bpt id="1">&lt;embeddedLabel&gt;</bpt>Data Connections<ept id="1">&lt;/embeddedLabel&gt;</ept>, <bpt id="2">&lt;embeddedLabel&gt;</bpt>DefaultConnection<ept id="2">&lt;/embeddedLabel&gt;</ept>, and then <bpt id="3">&lt;embeddedLabel&gt;</bpt>Tables<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Expand <bpt id="1">&lt;embeddedLabel&gt;</bpt>Data Connections<ept id="1">&lt;/embeddedLabel&gt;</ept>, <bpt id="2">&lt;embeddedLabel&gt;</bpt>DefaultConnection<ept id="2">&lt;/embeddedLabel&gt;</ept>, and then <bpt id="3">&lt;embeddedLabel&gt;</bpt>Tables<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Locate the <bpt id="1">&lt;embeddedLabel&gt;</bpt>IssuingAuthorityKeys<ept id="1">&lt;/embeddedLabel&gt;</ept> table, right-click it, and then click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Show Table Data<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Locate the <bpt id="1">&lt;embeddedLabel&gt;</bpt>IssuingAuthorityKeys<ept id="1">&lt;/embeddedLabel&gt;</ept> table, right-click it, and then click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Show Table Data<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>IssuingAuthorityKeys<ept id="1">&lt;/embeddedLabel&gt;</ept> table, there will be at least one row, which corresponds to the thumbprint value for the key.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>IssuingAuthorityKeys<ept id="1">&lt;/embeddedLabel&gt;</ept> table, there will be at least one row, which corresponds to the thumbprint value for the key.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Delete any rows in the table.</source>
+            <target state="new">Delete any rows in the table.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Right-click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Tenants<ept id="1">&lt;/embeddedLabel&gt;</ept> table, and then click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Show Table Data<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Right-click the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Tenants<ept id="1">&lt;/embeddedLabel&gt;</ept> table, and then click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Show Table Data<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Tenants<ept id="1">&lt;/embeddedLabel&gt;</ept> table, there will be at least one row, which corresponds to a unique directory tenant identifier.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Tenants<ept id="1">&lt;/embeddedLabel&gt;</ept> table, there will be at least one row, which corresponds to a unique directory tenant identifier.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Delete any rows in the table.</source>
+            <target state="new">Delete any rows in the table.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>It’s important that you not only delete the rows in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>IssuingAuthorityKeys<ept id="1">&lt;/embeddedLabel&gt;</ept> table, but also the rows in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Tenants<ept id="2">&lt;/embeddedLabel&gt;</ept> table, as both values are used to retrieve the latest federation metadata document.</source>
+            <target state="new">It’s important that you not only delete the rows in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>IssuingAuthorityKeys<ept id="1">&lt;/embeddedLabel&gt;</ept> table, but also the rows in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Tenants<ept id="2">&lt;/embeddedLabel&gt;</ept> table, as both values are used to retrieve the latest federation metadata document.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>If you don’t delete both, you’ll get an error at runtime.</source>
+            <target state="new">If you don’t delete both, you’ll get an error at runtime.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Build and run the application.</source>
+            <target state="new">Build and run the application.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>After you have logged in to your account, you can stop the application.</source>
+            <target state="new">After you have logged in to your account, you can stop the application.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Return to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Server Explorer<ept id="1">&lt;/embeddedLabel&gt;</ept> and look at the values in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>IssuingAuthorityKeys<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>Tenants<ept id="3">&lt;/embeddedLabel&gt;</ept> table.</source>
+            <target state="new">Return to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Server Explorer<ept id="1">&lt;/embeddedLabel&gt;</ept> and look at the values in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>IssuingAuthorityKeys<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>Tenants<ept id="3">&lt;/embeddedLabel&gt;</ept> table.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>You’ll notice that they have been automatically repopulated with the appropriate information from the federation metadata document.</source>
+            <target state="new">You’ll notice that they have been automatically repopulated with the appropriate information from the federation metadata document.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Web Applications Created with Visual Studio 2012</source>
+            <target state="new">Web Applications Created with Visual Studio 2012</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>If your application was built in Visual Studio 2012, you probably used the Identity and Access Tool to configure your application.</source>
+            <target state="new">If your application was built in Visual Studio 2012, you probably used the Identity and Access Tool to configure your application.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>It’s also likely that you are using the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Validating Issuer Name Registry<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/dn205067(v=vs.110).aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (VINR).</source>
+            <target state="new">It’s also likely that you are using the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Validating Issuer Name Registry<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/dn205067(v=vs.110).aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (VINR).</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>The VINR is responsible for maintaining information about trusted identity providers (Azure AD) and the keys used to validate tokens issued by them.</source>
+            <target state="new">The VINR is responsible for maintaining information about trusted identity providers (Azure AD) and the keys used to validate tokens issued by them.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>The VINR also makes it easy to automatically update the key information stored in a Web.config file by downloading the latest federation metadata document associated with your directory, checking if the configuration is out of date with the latest document, and updating the application to use the new key as necessary.</source>
+            <target state="new">The VINR also makes it easy to automatically update the key information stored in a Web.config file by downloading the latest federation metadata document associated with your directory, checking if the configuration is out of date with the latest document, and updating the application to use the new key as necessary.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>If you created your application using any of the code samples or walkthrough documentation provided by Microsoft, the key rollover logic is already included in your project.</source>
+            <target state="new">If you created your application using any of the code samples or walkthrough documentation provided by Microsoft, the key rollover logic is already included in your project.</target>
+          </trans-unit>
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>You will notice that the code below already exists in your project.</source>
+            <target state="new">You will notice that the code below already exists in your project.</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>If your application does not already have this logic, follow the steps below to add it and to verify that it’s working correctly.</source>
+            <target state="new">If your application does not already have this logic, follow the steps below to add it and to verify that it’s working correctly.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>These steps will not work if you did not use the Identity and Access Tool and instead configured your application manually.</source>
+            <target state="new">These steps will not work if you did not use the Identity and Access Tool and instead configured your application manually.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>You will need to write it yourself, or follow the steps in <ph id="1">&lt;link xlink:href="47a66b4d-540e-44fe-ae8c-cd92a160b32c#BKMK_Manually" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Manually Retrieve the Latest Key and Update Your Application&lt;/link&gt;</ph>.</source>
+            <target state="new">You will need to write it yourself, or follow the steps in <ph id="1">&lt;link xlink:href="47a66b4d-540e-44fe-ae8c-cd92a160b32c#BKMK_Manually" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Manually Retrieve the Latest Key and Update Your Application&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>How to update your application with key rollover logic</source>
+            <target state="new">How to update your application with key rollover logic</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Solution Explorer<ept id="1">&lt;/embeddedLabel&gt;</ept>, add a reference to the <bpt id="2">&lt;embeddedLabel&gt;</bpt>System.IdentityModel<ept id="2">&lt;/embeddedLabel&gt;</ept> assembly for the appropriate project.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Solution Explorer<ept id="1">&lt;/embeddedLabel&gt;</ept>, add a reference to the <bpt id="2">&lt;embeddedLabel&gt;</bpt>System.IdentityModel<ept id="2">&lt;/embeddedLabel&gt;</ept> assembly for the appropriate project.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Open the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Global.asax.cs<ept id="1">&lt;/embeddedLabel&gt;</ept> file and add the following using directives:</source>
+            <target state="new">Open the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Global.asax.cs<ept id="1">&lt;/embeddedLabel&gt;</ept> file and add the following using directives:</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Add the following method to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Global.asax.cs<ept id="1">&lt;/embeddedLabel&gt;</ept> file:</source>
+            <target state="new">Add the following method to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Global.asax.cs<ept id="1">&lt;/embeddedLabel&gt;</ept> file:</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Invoke the <bpt id="1">&lt;embeddedLabel&gt;</bpt>RefreshValidationSettings()<ept id="1">&lt;/embeddedLabel&gt;</ept> method in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Application_Start()<ept id="2">&lt;/embeddedLabel&gt;</ept> method in <bpt id="3">&lt;embeddedLabel&gt;</bpt>Global.asax.cs<ept id="3">&lt;/embeddedLabel&gt;</ept> as shown:</source>
+            <target state="new">Invoke the <bpt id="1">&lt;embeddedLabel&gt;</bpt>RefreshValidationSettings()<ept id="1">&lt;/embeddedLabel&gt;</ept> method in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Application_Start()<ept id="2">&lt;/embeddedLabel&gt;</ept> method in <bpt id="3">&lt;embeddedLabel&gt;</bpt>Global.asax.cs<ept id="3">&lt;/embeddedLabel&gt;</ept> as shown:</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Once you have followed these steps, your application’s Web.config will be updated with the latest information from the federation metadata document, including the latest keys.</source>
+            <target state="new">Once you have followed these steps, your application’s Web.config will be updated with the latest information from the federation metadata document, including the latest keys.</target>
+          </trans-unit>
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>This update will occur every time your application pool recycles in IIS; by default IIS is set to recycle applications every 29 hours.</source>
+            <target state="new">This update will occur every time your application pool recycles in IIS; by default IIS is set to recycle applications every 29 hours.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>For more context about this update, see <bpt id="1">&lt;legacyLink xlink:href="055e1155-2d4d-4c85-b44e-d406872ba595" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Adding Sign-On to Your Web Application Using Azure AD<ept id="1">&lt;/legacyLink&gt;</ept>.</source>
+            <target state="new">For more context about this update, see <bpt id="1">&lt;legacyLink xlink:href="055e1155-2d4d-4c85-b44e-d406872ba595" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Adding Sign-On to Your Web Application Using Azure AD<ept id="1">&lt;/legacyLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>How to verify the key rollover logic is working</source>
+            <target state="new">How to verify the key rollover logic is working</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>After you have verified that your application is using the code above, open the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Web.config<ept id="1">&lt;/embeddedLabel&gt;</ept> file and navigate to the <bpt id="2">&lt;embeddedLabel&gt;</bpt>&lt;issuerNameRegistry&gt;<ept id="2">&lt;/embeddedLabel&gt;</ept> block, specifically looking for the following few lines:</source>
+            <target state="new">After you have verified that your application is using the code above, open the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Web.config<ept id="1">&lt;/embeddedLabel&gt;</ept> file and navigate to the <bpt id="2">&lt;embeddedLabel&gt;</bpt>&lt;issuerNameRegistry&gt;<ept id="2">&lt;/embeddedLabel&gt;</ept> block, specifically looking for the following few lines:</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>&lt;add thumbprint=””&gt;<ept id="1">&lt;/embeddedLabel&gt;</ept> setting, change the thumbprint value by replacing any character with a different one.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>&lt;add thumbprint=””&gt;<ept id="1">&lt;/embeddedLabel&gt;</ept> setting, change the thumbprint value by replacing any character with a different one.</target>
+          </trans-unit>
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Save the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Web.config<ept id="1">&lt;/embeddedLabel&gt;</ept> file.</source>
+            <target state="new">Save the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Web.config<ept id="1">&lt;/embeddedLabel&gt;</ept> file.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Build the application, and then run it.</source>
+            <target state="new">Build the application, and then run it.</target>
+          </trans-unit>
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>If you can complete the sign-in process, your application is successfully updating the key by downloading the required information from your directory’s federation metadata document.</source>
+            <target state="new">If you can complete the sign-in process, your application is successfully updating the key by downloading the required information from your directory’s federation metadata document.</target>
+          </trans-unit>
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>If you are having issues signing in, ensure the changes in your application are correct by reading the <bpt id="1">&lt;legacyLink xlink:href="055e1155-2d4d-4c85-b44e-d406872ba595" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Adding Sign-On to Your Web Application Using Azure AD<ept id="1">&lt;/legacyLink&gt;</ept> topic, or downloading and inspecting the following code sample: <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>Multi-Tenant Cloud Application for Azure Active Directory<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://code.msdn.microsoft.com/Multi-Tenant-Cloud-8015b84b&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">If you are having issues signing in, ensure the changes in your application are correct by reading the <bpt id="1">&lt;legacyLink xlink:href="055e1155-2d4d-4c85-b44e-d406872ba595" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Adding Sign-On to Your Web Application Using Azure AD<ept id="1">&lt;/legacyLink&gt;</ept> topic, or downloading and inspecting the following code sample: <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>Multi-Tenant Cloud Application for Azure Active Directory<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://code.msdn.microsoft.com/Multi-Tenant-Cloud-8015b84b&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Web Applications Created with Visual Studio 2008 or 2010 and Windows Identity Foundation (WIF) v. 1.0 for .NET 3.5</source>
+            <target state="new">Web Applications Created with Visual Studio 2008 or 2010 and Windows Identity Foundation (WIF) v. 1.0 for .NET 3.5</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>If you built an application on WIF v1.0, there is no provided mechanism to automatically refresh your application’s configuration to use a new key.</source>
+            <target state="new">If you built an application on WIF v1.0, there is no provided mechanism to automatically refresh your application’s configuration to use a new key.</target>
+          </trans-unit>
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>The easiest way to update the key is to use the FedUtil tooling included in the WIF SDK, which can retrieve the latest metadata document and update your configuration.</source>
+            <target state="new">The easiest way to update the key is to use the FedUtil tooling included in the WIF SDK, which can retrieve the latest metadata document and update your configuration.</target>
+          </trans-unit>
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>These instructions are included below.</source>
+            <target state="new">These instructions are included below.</target>
+          </trans-unit>
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Alternatively, you can do one of the following:</source>
+            <target state="new">Alternatively, you can do one of the following:</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Follow the instructions in the <ph id="1">&lt;link xlink:href="47a66b4d-540e-44fe-ae8c-cd92a160b32c#BKMK_Manually" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Manually Retrieve the Latest Key and Update Your Application&lt;/link&gt;</ph> section below and write logic to perform the steps programmatically.</source>
+            <target state="new">Follow the instructions in the <ph id="1">&lt;link xlink:href="47a66b4d-540e-44fe-ae8c-cd92a160b32c#BKMK_Manually" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Manually Retrieve the Latest Key and Update Your Application&lt;/link&gt;</ph> section below and write logic to perform the steps programmatically.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Update your application to .NET 4.5, which includes the newest version of WIF located in the System namespace.</source>
+            <target state="new">Update your application to .NET 4.5, which includes the newest version of WIF located in the System namespace.</target>
+          </trans-unit>
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>You can then use the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Validating Issuer Name Registry<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/dn205067(v=vs.110).aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (VINR) to perform automatic updates of the application’s configuration.</source>
+            <target state="new">You can then use the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Validating Issuer Name Registry<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/dn205067(v=vs.110).aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (VINR) to perform automatic updates of the application’s configuration.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>How to update your application using the WIF v1.0 SDK tooling</source>
+            <target state="new">How to update your application using the WIF v1.0 SDK tooling</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Verify that you have the WIF v1.0 SDK installed on your development machine for Visual Studio 2008 or 2010.</source>
+            <target state="new">Verify that you have the WIF v1.0 SDK installed on your development machine for Visual Studio 2008 or 2010.</target>
+          </trans-unit>
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>You can <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>download it from here<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.microsoft.com/download/details.aspx?id=4451&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> if you have not yet installed it.</source>
+            <target state="new">You can <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>download it from here<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.microsoft.com/download/details.aspx?id=4451&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> if you have not yet installed it.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>In Visual Studio, open the solution, and then right-click the applicable project and select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Update federation metadata<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In Visual Studio, open the solution, and then right-click the applicable project and select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Update federation metadata<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>If this option is not available, FedUtil and/or the WIF v1.0 SDK has not been installed.</source>
+            <target state="new">If this option is not available, FedUtil and/or the WIF v1.0 SDK has not been installed.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>From the prompt, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Update<ept id="1">&lt;/embeddedLabel&gt;</ept> to begin updating your federation metadata.</source>
+            <target state="new">From the prompt, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Update<ept id="1">&lt;/embeddedLabel&gt;</ept> to begin updating your federation metadata.</target>
+          </trans-unit>
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>If you have access to the server environment where the application is hosted, you can optionally use FedUtil’s <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>automatic metadata update scheduler<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/ee517272.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">If you have access to the server environment where the application is hosted, you can optionally use FedUtil’s <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>automatic metadata update scheduler<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/ee517272.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Finish<ept id="1">&lt;/embeddedLabel&gt;</ept> to complete the update process.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Finish<ept id="1">&lt;/embeddedLabel&gt;</ept> to complete the update process.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Web APIs that use JSON Web Tokens (JWT)</source>
+            <target state="new">Web APIs that use JSON Web Tokens (JWT)</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>If you have an application that calls a web API using a JWT token issued by Azure AD to authorize the request, the JWT token is validated in the same way that a sign-on request is validated: using Azure AD’s public key to verify the signature.</source>
+            <target state="new">If you have an application that calls a web API using a JWT token issued by Azure AD to authorize the request, the JWT token is validated in the same way that a sign-on request is validated: using Azure AD’s public key to verify the signature.</target>
+          </trans-unit>
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Web API applications need to be prepared to handle key rollover because they ultimately use the same X509 certificate to sign the token.</source>
+            <target state="new">Web API applications need to be prepared to handle key rollover because they ultimately use the same X509 certificate to sign the token.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>If you created a web API application in Visual Studio 2013 using the Web API template, and then selected <bpt id="1">&lt;embeddedLabel&gt;</bpt>Organizational Accounts<ept id="1">&lt;/embeddedLabel&gt;</ept> from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Change Authentication<ept id="2">&lt;/embeddedLabel&gt;</ept> menu, you already have the necessary logic in your application.</source>
+            <target state="new">If you created a web API application in Visual Studio 2013 using the Web API template, and then selected <bpt id="1">&lt;embeddedLabel&gt;</bpt>Organizational Accounts<ept id="1">&lt;/embeddedLabel&gt;</ept> from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Change Authentication<ept id="2">&lt;/embeddedLabel&gt;</ept> menu, you already have the necessary logic in your application.</target>
+          </trans-unit>
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>If you manually configured authentication, follow the instructions below to learn how to configure your Web API to automatically update its key information.</source>
+            <target state="new">If you manually configured authentication, follow the instructions below to learn how to configure your Web API to automatically update its key information.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>The following code snippet demonstrates how to get the latest keys from the federation metadata document, and then use the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>JWT Token Handler<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/dn205065(v=vs.110).aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> to validate the token.</source>
+            <target state="new">The following code snippet demonstrates how to get the latest keys from the federation metadata document, and then use the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>JWT Token Handler<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/dn205065(v=vs.110).aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> to validate the token.</target>
+          </trans-unit>
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>The code snippet assumes that you will use your own caching mechanism for persisting the key to validate future tokens from Azure AD, whether it be in a database, configuration file, or elsewhere.</source>
+            <target state="new">The code snippet assumes that you will use your own caching mechanism for persisting the key to validate future tokens from Azure AD, whether it be in a database, configuration file, or elsewhere.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>The following snippet is intended for demonstration purposes.</source>
+            <target state="new">The following snippet is intended for demonstration purposes.</target>
+          </trans-unit>
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>You should understand the security implications of disabling certificate validation, exposing potentially sensitive exception errors, secure mechanisms for caching tokens, and so on.</source>
+            <target state="new">You should understand the security implications of disabling certificate validation, exposing potentially sensitive exception errors, secure mechanisms for caching tokens, and so on.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>Manually Retrieve the Latest Key and Update Your Application</source>
+            <target state="new">Manually Retrieve the Latest Key and Update Your Application</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>If your application type or platform does not currently support an automatic mechanism for updating the key, you can perform the following steps:</source>
+            <target state="new">If your application type or platform does not currently support an automatic mechanism for updating the key, you can perform the following steps:</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>In a web browser, go to <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>https://manage.windowsazure.com<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.windowsazure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, sign in to your account, and then click on the Active Directory icon from the left menu.</source>
+            <target state="new">In a web browser, go to <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>https://manage.windowsazure.com<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.windowsazure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, sign in to your account, and then click on the Active Directory icon from the left menu.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>Click on the directory where your application is registered, and then click on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>View Endpoints<ept id="1">&lt;/embeddedLabel&gt;</ept> link on the command bar.</source>
+            <target state="new">Click on the directory where your application is registered, and then click on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>View Endpoints<ept id="1">&lt;/embeddedLabel&gt;</ept> link on the command bar.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>From the list of single sign-on and directory endpoints, copy the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Federation Metadata Document<ept id="1">&lt;/embeddedLabel&gt;</ept> link.</source>
+            <target state="new">From the list of single sign-on and directory endpoints, copy the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Federation Metadata Document<ept id="1">&lt;/embeddedLabel&gt;</ept> link.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Open a new tab in your browser, and go to the URL that you just copied.</source>
+            <target state="new">Open a new tab in your browser, and go to the URL that you just copied.</target>
+          </trans-unit>
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>You will see the contents of the Federation Metadata XML document.</source>
+            <target state="new">You will see the contents of the Federation Metadata XML document.</target>
+          </trans-unit>
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>For more information about this document, see the <ph id="1">&lt;link xlink:href="ee6193d7-1194-482a-a97c-51df5e31f458" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Federation Metadata&lt;/link&gt;</ph> topic.</source>
+            <target state="new">For more information about this document, see the <ph id="1">&lt;link xlink:href="ee6193d7-1194-482a-a97c-51df5e31f458" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Federation Metadata&lt;/link&gt;</ph> topic.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>For the purposes of updating an application to use a new key, locate each <bpt id="1">&lt;embeddedLabel&gt;</bpt>&lt;RoleDescriptor&gt;<ept id="1">&lt;/embeddedLabel&gt;</ept> block, and then copy the value of each block’s <bpt id="2">&lt;embeddedLabel&gt;</bpt>&lt;X509Certificate&gt;<ept id="2">&lt;/embeddedLabel&gt;</ept> element.</source>
+            <target state="new">For the purposes of updating an application to use a new key, locate each <bpt id="1">&lt;embeddedLabel&gt;</bpt>&lt;RoleDescriptor&gt;<ept id="1">&lt;/embeddedLabel&gt;</ept> block, and then copy the value of each block’s <bpt id="2">&lt;embeddedLabel&gt;</bpt>&lt;X509Certificate&gt;<ept id="2">&lt;/embeddedLabel&gt;</ept> element.</target>
+          </trans-unit>
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>For example:</source>
+            <target state="new">For example:</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>It’s important that you record each certificate value in the metadata document, as one key may be expiring soon, another may be its replacement, and so on.</source>
+            <target state="new">It’s important that you record each certificate value in the metadata document, as one key may be expiring soon, another may be its replacement, and so on.</target>
+          </trans-unit>
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>For more information see the section above: <ph id="1">&lt;link xlink:href="47a66b4d-540e-44fe-ae8c-cd92a160b32c#BKMK_Overview" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Overview of Signing Keys in Azure AD&lt;/link&gt;</ph></source>
+            <target state="new">For more information see the section above: <ph id="1">&lt;link xlink:href="47a66b4d-540e-44fe-ae8c-cd92a160b32c#BKMK_Overview" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Overview of Signing Keys in Azure AD&lt;/link&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>After you’ve copied the value of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>&lt;X509Certificate&gt;<ept id="1">&lt;/embeddedLabel&gt;</ept> element, open a plain text editor and paste the value.</source>
+            <target state="new">After you’ve copied the value of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>&lt;X509Certificate&gt;<ept id="1">&lt;/embeddedLabel&gt;</ept> element, open a plain text editor and paste the value.</target>
+          </trans-unit>
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>Make sure that you remove any trailing whitespace, and then save the file with a <bpt id="1">&lt;embeddedLabel&gt;</bpt>.cer<ept id="1">&lt;/embeddedLabel&gt;</ept> extension.</source>
+            <target state="new">Make sure that you remove any trailing whitespace, and then save the file with a <bpt id="1">&lt;embeddedLabel&gt;</bpt>.cer<ept id="1">&lt;/embeddedLabel&gt;</ept> extension.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>You’ve just created the X509 certificate that is used as the public key for Azure AD.</source>
+            <target state="new">You’ve just created the X509 certificate that is used as the public key for Azure AD.</target>
+          </trans-unit>
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Using the details of the certificate, such as its thumbprint and expiration date, you can manually or programmatically check that your application’s currently used certificate and thumbprint are valid.</source>
+            <target state="new">Using the details of the certificate, such as its thumbprint and expiration date, you can manually or programmatically check that your application’s currently used certificate and thumbprint are valid.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>Adding Sign-On to Your Web Application Using Azure AD</source>
+            <target state="new">Adding Sign-On to Your Web Application Using Azure AD</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory Authentication Protocols</source>
+            <target state="new">Azure Active Directory Authentication Protocols</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ja-JP" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAdzF0KwjAMAOCr9AAN9CdtU08gPvngBZI1gcncYE7Y8RXhe/7MsgqmCVQRAaMFkEACU4hce7fI3L0ryLUVTJAlNkCiAdJrBTIz0pJbLuwdjsgjUARKyoBNJmBFhUzjF6fEYYh30bsnw+3u3bnMZnoel33bDu/S3/Xz4vWx8/pe+Ji39QsRnIrzoQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>What's New in the Azure SDK 2.3 Release (April 2014)</source>
+            <target state="new">What's New in the Azure SDK 2.3 Release (April 2014)</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;sb1&lt;/token&gt;</ph> April 2014 (<ph id="2">&lt;token&gt;azure_1&lt;/token&gt;</ph> SDK 2.3) release contains a number of new features and capabilities.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;sb1&lt;/token&gt;</ph> April 2014 (<ph id="2">&lt;token&gt;azure_1&lt;/token&gt;</ph> SDK 2.3) release contains a number of new features and capabilities.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This topic summarizes the new features and contains links to more information.</source>
+            <target state="new">This topic summarizes the new features and contains links to more information.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Express Entities</source>
+            <target state="new">Express Entities</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Scenarios that are built around a request-reply pattern require low end-to-end latency.</source>
+            <target state="new">Scenarios that are built around a request-reply pattern require low end-to-end latency.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>To further reduce end-to-end latency, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> now enables you to specify that messages are temporarily stored in memory instead of immediately being written to stable storage.</source>
+            <target state="new">To further reduce end-to-end latency, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> now enables you to specify that messages are temporarily stored in memory instead of immediately being written to stable storage.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>In addition to low latency scenarios, this feature has the following advantages:</source>
+            <target state="new">In addition to low latency scenarios, this feature has the following advantages:</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>If a message is sent to a queue or topic, the message is cached in memory.</source>
+            <target state="new">If a message is sent to a queue or topic, the message is cached in memory.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>If a message remains in the queue for more than a few seconds, it is automatically written to stable storage, thus protecting it against loss due to an outage.</source>
+            <target state="new">If a message remains in the queue for more than a few seconds, it is automatically written to stable storage, thus protecting it against loss due to an outage.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Messages that are consumed within a few seconds are not written to stable storage.</source>
+            <target state="new">Messages that are consumed within a few seconds are not written to stable storage.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>If a message is sent to a topic with multiple subscriptions, and is subsequently received from some but not all subscriptions, the message is written to stable storage.</source>
+            <target state="new">If a message is sent to a topic with multiple subscriptions, and is subsequently received from some but not all subscriptions, the message is written to stable storage.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The following code shows how to create an express queue:</source>
+            <target state="new">The following code shows how to create an express queue:</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>If you are processing messages with critical information that must not be lost, you can force <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> to immediately persist the message to stable storage, by using the <ph id="2">&lt;codeEntityReference qualifyHint="true"&gt;P:Microsoft.ServiceBus.Messaging.BrokeredMessage.ForcePersistence&lt;/codeEntityReference&gt;</ph> property.</source>
+            <target state="new">If you are processing messages with critical information that must not be lost, you can force <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> to immediately persist the message to stable storage, by using the <ph id="2">&lt;codeEntityReference qualifyHint="true"&gt;P:Microsoft.ServiceBus.Messaging.BrokeredMessage.ForcePersistence&lt;/codeEntityReference&gt;</ph> property.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>To enable this feature, you must use Microsoft.ServiceBus.dll version 2.3.2.</source>
+            <target state="new">To enable this feature, you must use Microsoft.ServiceBus.dll version 2.3.2.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>If you download the latest NuGet package, you will automatically have the latest version.</source>
+            <target state="new">If you download the latest NuGet package, you will automatically have the latest version.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;crdefault&lt;/token&gt;</ph> <ph id="2">&lt;link xlink:href="57075aa0-218f-4a93-9a33-24e62667ce46" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Using the NuGet Service Bus Package&lt;/link&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;token&gt;crdefault&lt;/token&gt;</ph> <ph id="2">&lt;link xlink:href="57075aa0-218f-4a93-9a33-24e62667ce46" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Using the NuGet Service Bus Package&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Also, when using REST over HTTP, specify <bpt id="1">&lt;embeddedLabel&gt;</bpt>api-version=2014-04<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Also, when using REST over HTTP, specify <bpt id="1">&lt;embeddedLabel&gt;</bpt>api-version=2014-04<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>OnMessage changes</source>
+            <target state="new">OnMessage changes</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;M:Microsoft.ServiceBus.Messaging.QueueClient.OnMessage(System.Action{Microsoft.ServiceBus.Messaging.BrokeredMessage})&lt;/codeEntityReference&gt;</ph> introduces receive semantics for sessions.</source>
+            <target state="new"><ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;M:Microsoft.ServiceBus.Messaging.QueueClient.OnMessage(System.Action{Microsoft.ServiceBus.Messaging.BrokeredMessage})&lt;/codeEntityReference&gt;</ph> introduces receive semantics for sessions.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;M:Microsoft.ServiceBus.Messaging.QueueClient.OnMessage(System.Action{Microsoft.ServiceBus.Messaging.BrokeredMessage})&lt;/codeEntityReference&gt;</ph> now uses asynchronous operations to help improve performance.</source>
+            <target state="new"><ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;M:Microsoft.ServiceBus.Messaging.QueueClient.OnMessage(System.Action{Microsoft.ServiceBus.Messaging.BrokeredMessage})&lt;/codeEntityReference&gt;</ph> now uses asynchronous operations to help improve performance.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>This implies a change to the message completion behavior; user code is not invoked until the <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;M:Microsoft.ServiceBus.Messaging.QueueClient.Complete(System.Guid)&lt;/codeEntityReference&gt;</ph> operation is either complete, or failed.</source>
+            <target state="new">This implies a change to the message completion behavior; user code is not invoked until the <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;M:Microsoft.ServiceBus.Messaging.QueueClient.Complete(System.Guid)&lt;/codeEntityReference&gt;</ph> operation is either complete, or failed.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>OnMessage Sessions</source>
+            <target state="new">OnMessage Sessions</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>This release of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> introduces new push-style APIs for consuming messages from sessions.</source>
+            <target state="new">This release of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> introduces new push-style APIs for consuming messages from sessions.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>The following code shows how to write a session-aware <ph id="1">&lt;languageKeyword&gt;OnMessage()&lt;/languageKeyword&gt;</ph> method.</source>
+            <target state="new">The following code shows how to write a session-aware <ph id="1">&lt;languageKeyword&gt;OnMessage()&lt;/languageKeyword&gt;</ph> method.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>The sample shows asynchronous code:</source>
+            <target state="new">The sample shows asynchronous code:</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>The following sample code shows how to implement <ph id="1">&lt;languageKeyword&gt;OnClose()&lt;/languageKeyword&gt;</ph>/<ph id="2">&lt;languageKeyword&gt;OnSessionLockLost()&lt;/languageKeyword&gt;</ph> semantics in order to handle graceful or ungraceful terminations:</source>
+            <target state="new">The following sample code shows how to implement <ph id="1">&lt;languageKeyword&gt;OnClose()&lt;/languageKeyword&gt;</ph>/<ph id="2">&lt;languageKeyword&gt;OnSessionLockLost()&lt;/languageKeyword&gt;</ph> semantics in order to handle graceful or ungraceful terminations:</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>In addition, <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.QueueClient&lt;/codeEntityReference&gt;</ph> and <ph id="2">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.SubscriptionClient&lt;/codeEntityReference&gt;</ph> now include the following overloaded method to register a session handler:</source>
+            <target state="new">In addition, <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.QueueClient&lt;/codeEntityReference&gt;</ph> and <ph id="2">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.SubscriptionClient&lt;/codeEntityReference&gt;</ph> now include the following overloaded method to register a session handler:</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Asynchronous versions of these API are also provided, because <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;M:Microsoft.ServiceBus.Messaging.QueueClient.RegisterSessionHandler(System.Type)&lt;/codeEntityReference&gt;</ph> takes some time to register the receiving session.</source>
+            <target state="new">Asynchronous versions of these API are also provided, because <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;M:Microsoft.ServiceBus.Messaging.QueueClient.RegisterSessionHandler(System.Type)&lt;/codeEntityReference&gt;</ph> takes some time to register the receiving session.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>As such, you may receive an exception if the entity does not exist, or if the entity does not support sessions.</source>
+            <target state="new">As such, you may receive an exception if the entity does not exist, or if the entity does not support sessions.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Autoforwarding for deadletter queues</source>
+            <target state="new">Autoforwarding for deadletter queues</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>The Auto-forwarding feature enables you to chain a subscription or queue to another queue or topic that is part of the same service namespace.</source>
+            <target state="new">The Auto-forwarding feature enables you to chain a subscription or queue to another queue or topic that is part of the same service namespace.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>When auto-forwarding is enabled, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> automatically removes messages that are placed in the first queue or subscription (source) and puts them in the second queue or topic (destination).</source>
+            <target state="new">When auto-forwarding is enabled, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> automatically removes messages that are placed in the first queue or subscription (source) and puts them in the second queue or topic (destination).</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>See the <ph id="1">&lt;link xlink:href="73a5b714-2563-4e5f-875d-6ebf8d74f9b2" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Chaining Service Bus entities with Auto-forwarding&lt;/link&gt;</ph> topic.</source>
+            <target state="new">See the <ph id="1">&lt;link xlink:href="73a5b714-2563-4e5f-875d-6ebf8d74f9b2" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Chaining Service Bus entities with Auto-forwarding&lt;/link&gt;</ph> topic.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>With this release of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>, you can now enable auto-forwarding from dead letter queues by setting the <ph id="2">&lt;codeEntityReference qualifyHint="true"&gt;P:Microsoft.ServiceBus.Messaging.QueueDescription.ForwardDeadLetteredMessagesTo&lt;/codeEntityReference&gt;</ph> property on the <ph id="3">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.QueueDescription&lt;/codeEntityReference&gt;</ph> or <ph id="4">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.SubscriptionDescription&lt;/codeEntityReference&gt;</ph> objects.</source>
+            <target state="new">With this release of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>, you can now enable auto-forwarding from dead letter queues by setting the <ph id="2">&lt;codeEntityReference qualifyHint="true"&gt;P:Microsoft.ServiceBus.Messaging.QueueDescription.ForwardDeadLetteredMessagesTo&lt;/codeEntityReference&gt;</ph> property on the <ph id="3">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.QueueDescription&lt;/codeEntityReference&gt;</ph> or <ph id="4">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.SubscriptionDescription&lt;/codeEntityReference&gt;</ph> objects.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>For a working example, see the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Service Bus Autoforwarding<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://code.msdn.microsoft.com/windowsazure/Service-Bus-Autoforwarding-b9df470b&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> sample.</source>
+            <target state="new">For a working example, see the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Service Bus Autoforwarding<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://code.msdn.microsoft.com/windowsazure/Service-Bus-Autoforwarding-b9df470b&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> sample.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Service Bus Autoforwarding</source>
+            <target state="new">Service Bus Autoforwarding</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Connectivity mode autodetect</source>
+            <target state="new">Connectivity mode autodetect</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;T:Microsoft.ServiceBus.ConnectivityMode&lt;/codeEntityReference&gt;</ph> enumeration enables you to automatically select between the TCP, HTTP and HTTPS connectivity modes based on an auto-detection mechanism that probes whether either connectivity option is available for the current network environment.</source>
+            <target state="new">The <ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;T:Microsoft.ServiceBus.ConnectivityMode&lt;/codeEntityReference&gt;</ph> enumeration enables you to automatically select between the TCP, HTTP and HTTPS connectivity modes based on an auto-detection mechanism that probes whether either connectivity option is available for the current network environment.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>This is now supported for queues and topics in addition to relay.</source>
+            <target state="new">This is now supported for queues and topics in addition to relay.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>HTTP Send batch</source>
+            <target state="new">HTTP Send batch</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>To help increase throughput when using <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>, you can use client-side batching (as described in the <ph id="2">&lt;link xlink:href="da120416-d402-405c-9dc2-a63853bc4534" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Best Practices for Performance Improvements Using Service Bus Brokered Messaging&lt;/link&gt;</ph> topic).</source>
+            <target state="new">To help increase throughput when using <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>, you can use client-side batching (as described in the <ph id="2">&lt;link xlink:href="da120416-d402-405c-9dc2-a63853bc4534" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Best Practices for Performance Improvements Using Service Bus Brokered Messaging&lt;/link&gt;</ph> topic).</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>This feature reduces the number of protocol transmissions when sending messages, by batching multiple messages into one.</source>
+            <target state="new">This feature reduces the number of protocol transmissions when sending messages, by batching multiple messages into one.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>With this release of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>, client-side batching is now supported in REST scenarios.</source>
+            <target state="new">With this release of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>, client-side batching is now supported in REST scenarios.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>For example, the following code shows how to use REST to send a batch of messages:</source>
+            <target state="new">For example, the following code shows how to use REST to send a batch of messages:</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>With this release, the message body must be valid JSON and follow a convention to describe each message.</source>
+            <target state="new">With this release, the message body must be valid JSON and follow a convention to describe each message.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>There are no common message properties.</source>
+            <target state="new">There are no common message properties.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Each message has its own set of broker properties and custom properties, which must be part of the JSON string.</source>
+            <target state="new">Each message has its own set of broker properties and custom properties, which must be part of the JSON string.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>For a working example, see the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Service Bus HTTP Client<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://code.msdn.microsoft.com/windowsazure/Service-Bus-HTTP-client-fe7da74a&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> sample.</source>
+            <target state="new">For a working example, see the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Service Bus HTTP Client<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://code.msdn.microsoft.com/windowsazure/Service-Bus-HTTP-client-fe7da74a&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> sample.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Using the Service Bus via REST / HTTP</source>
+            <target state="new">Using the Service Bus via REST / HTTP</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Service Bus HTTP Client</source>
+            <target state="new">Service Bus HTTP Client</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

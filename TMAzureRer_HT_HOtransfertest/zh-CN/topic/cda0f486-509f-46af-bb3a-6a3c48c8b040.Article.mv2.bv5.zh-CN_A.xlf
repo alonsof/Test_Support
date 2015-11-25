@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-CN" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzDEOwjAMAMCv5AG2FKduSFhZmJj4gO3EolJppVKkitfT7aZzH7pyMuydGZk8osaiaJEk1+okUiF4Se0UIY2iyBcn1GQJs5J2b8koJQjWJDqXjGOsjpzFUXUQzDIYFysaOUIgCL8X3h4Qjnly78d+3dZ1h3AOI4T79y3Lc5PlM8s+rcsfXP49C6EAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Asynchronous Messaging Patterns and High Availability</source>
+            <target state="new">Asynchronous Messaging Patterns and High Availability</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Asynchronous messaging can be implemented in a variety of different ways.</source>
+            <target state="new">Asynchronous messaging can be implemented in a variety of different ways.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>With queues, topics and subscriptions, collectively called <bpt id="1">&lt;newTerm&gt;</bpt>messaging entities<ept id="1">&lt;/newTerm&gt;</ept>, <ph id="2">&lt;token&gt;sb1&lt;/token&gt;</ph> supports asynchrony via a store and forward mechanism.</source>
+            <target state="new">With queues, topics and subscriptions, collectively called <bpt id="1">&lt;newTerm&gt;</bpt>messaging entities<ept id="1">&lt;/newTerm&gt;</ept>, <ph id="2">&lt;token&gt;sb1&lt;/token&gt;</ph> supports asynchrony via a store and forward mechanism.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>In normal (synchronous) operation, you send messages to queues and topics, and receive messages from queues and subscriptions.</source>
+            <target state="new">In normal (synchronous) operation, you send messages to queues and topics, and receive messages from queues and subscriptions.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Applications you write depend on these entities always being available.</source>
+            <target state="new">Applications you write depend on these entities always being available.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>When the entity health changes, due to a variety of circumstances, you need a way to provide a reduced capability entity that can satisfy most needs.</source>
+            <target state="new">When the entity health changes, due to a variety of circumstances, you need a way to provide a reduced capability entity that can satisfy most needs.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Applications typically use asynchronous messaging patterns to enable a number of communication scenarios.</source>
+            <target state="new">Applications typically use asynchronous messaging patterns to enable a number of communication scenarios.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>You can build applications in which clients can send messages to services, even when the service is not running.</source>
+            <target state="new">You can build applications in which clients can send messages to services, even when the service is not running.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>For applications that experience bursts of communications, a queue can help level the load by providing a place to buffer communications.</source>
+            <target state="new">For applications that experience bursts of communications, a queue can help level the load by providing a place to buffer communications.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Finally, you can get a simple but effective load balancer to distribute messages across multiple machines.</source>
+            <target state="new">Finally, you can get a simple but effective load balancer to distribute messages across multiple machines.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>In order to maintain availability of any of these entities, consider a number of different ways in which these entities can appear unavailable for a durable messaging system.</source>
+            <target state="new">In order to maintain availability of any of these entities, consider a number of different ways in which these entities can appear unavailable for a durable messaging system.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Generally speaking, we see the entity become unavailable to applications we write in the following different ways:</source>
+            <target state="new">Generally speaking, we see the entity become unavailable to applications we write in the following different ways:</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Unable to send messages.</source>
+            <target state="new">Unable to send messages.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Unable to receive messages.</source>
+            <target state="new">Unable to receive messages.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Unable to administer entities (create, retrieve, update, or delete entities).</source>
+            <target state="new">Unable to administer entities (create, retrieve, update, or delete entities).</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Unable to contact the service.</source>
+            <target state="new">Unable to contact the service.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>For each of these failures, different failure modes exist that enable an application to continue to perform work at some level of reduced capability.</source>
+            <target state="new">For each of these failures, different failure modes exist that enable an application to continue to perform work at some level of reduced capability.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>For example, a system that can send messages but not receive them can still receive orders from customers but cannot process those orders.</source>
+            <target state="new">For example, a system that can send messages but not receive them can still receive orders from customers but cannot process those orders.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>This topic discusses potential issues that can occur, and how those issues are mitigated.</source>
+            <target state="new">This topic discusses potential issues that can occur, and how those issues are mitigated.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> has introduced a number of mitigations which you must opt into, and this topic also discusses the rules governing the use of those opt-in mitigations.</source>
+            <target state="new"><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> has introduced a number of mitigations which you must opt into, and this topic also discusses the rules governing the use of those opt-in mitigations.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Reliability in Service Bus</source>
+            <target state="new">Reliability in Service Bus</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>There are various ways to handle message and entity issues, and there are guidelines governing the appropriate use of those mitigations.</source>
+            <target state="new">There are various ways to handle message and entity issues, and there are guidelines governing the appropriate use of those mitigations.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>To understand the guidelines, you must first understand what can fail in <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">To understand the guidelines, you must first understand what can fail in <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Due to the design of Azure systems, all of these issues tend to be short-lived.</source>
+            <target state="new">Due to the design of Azure systems, all of these issues tend to be short-lived.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>At a high level, the different causes of unavailability appear as follows:</source>
+            <target state="new">At a high level, the different causes of unavailability appear as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Throttling from an external system on which <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> depends.</source>
+            <target state="new">Throttling from an external system on which <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> depends.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Throttling occurs from interactions with storage and compute resources.</source>
+            <target state="new">Throttling occurs from interactions with storage and compute resources.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Issue for a system on which <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> depends.</source>
+            <target state="new">Issue for a system on which <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> depends.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>For example, a given part of storage can encounter issues.</source>
+            <target state="new">For example, a given part of storage can encounter issues.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Failure of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> on single subsystem.</source>
+            <target state="new">Failure of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> on single subsystem.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>In this situation, a compute node can get into an inconsistent state and must restart itself, causing all entities it serves to load balance to other nodes.</source>
+            <target state="new">In this situation, a compute node can get into an inconsistent state and must restart itself, causing all entities it serves to load balance to other nodes.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>This in turn can cause a short period of slow message processing.</source>
+            <target state="new">This in turn can cause a short period of slow message processing.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Failure of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> within an Azure datacenter.</source>
+            <target state="new">Failure of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> within an Azure datacenter.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>This is the classic “catastrophic failure” during which the system is unreachable for many minutes or a few hours.</source>
+            <target state="new">This is the classic “catastrophic failure” during which the system is unreachable for many minutes or a few hours.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>The term <bpt id="1">&lt;embeddedLabel&gt;</bpt>storage<ept id="1">&lt;/embeddedLabel&gt;</ept> can mean both Azure Storage and SQL Azure.</source>
+            <target state="new">The term <bpt id="1">&lt;embeddedLabel&gt;</bpt>storage<ept id="1">&lt;/embeddedLabel&gt;</ept> can mean both Azure Storage and SQL Azure.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> contains a number of mitigations for the above issues.</source>
+            <target state="new"><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> contains a number of mitigations for the above issues.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>The following sections discuss each issue and their respective mitigations.</source>
+            <target state="new">The following sections discuss each issue and their respective mitigations.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Throttling</source>
+            <target state="new">Throttling</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>With <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>, throttling allows for cooperative message rate management.</source>
+            <target state="new">With <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>, throttling allows for cooperative message rate management.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Each individual <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> node houses many entities.</source>
+            <target state="new">Each individual <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> node houses many entities.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Each of those entities makes demands on the system in terms of CPU, memory, storage, and other facets.</source>
+            <target state="new">Each of those entities makes demands on the system in terms of CPU, memory, storage, and other facets.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>When any of these facets detects usage that exceeds defined thresholds, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> can deny a given request.</source>
+            <target state="new">When any of these facets detects usage that exceeds defined thresholds, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> can deny a given request.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>The caller receives a <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.ServerBusyException&lt;/codeEntityReference&gt;</ph> and retries after 10 seconds.</source>
+            <target state="new">The caller receives a <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.ServerBusyException&lt;/codeEntityReference&gt;</ph> and retries after 10 seconds.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>As a mitigation, the code must read the error and halt any retries of the message for at least 10 seconds.</source>
+            <target state="new">As a mitigation, the code must read the error and halt any retries of the message for at least 10 seconds.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Since the error may happen across pieces of the customer application, it is expected that each piece independently executes the retry logic.</source>
+            <target state="new">Since the error may happen across pieces of the customer application, it is expected that each piece independently executes the retry logic.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>The code can reduce the probability of being throttled by enabling partitioning on a queue or topic.</source>
+            <target state="new">The code can reduce the probability of being throttled by enabling partitioning on a queue or topic.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Issue for an Azure dependency</source>
+            <target state="new">Issue for an Azure dependency</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Other components within Azure can occasionally have service issues.</source>
+            <target state="new">Other components within Azure can occasionally have service issues.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>For example, when a system that <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> uses is being upgraded, that system may temporarily have reduced capabilities.</source>
+            <target state="new">For example, when a system that <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> uses is being upgraded, that system may temporarily have reduced capabilities.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>To work around these types of issues, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> regularly investigates and implements mitigations.</source>
+            <target state="new">To work around these types of issues, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> regularly investigates and implements mitigations.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Side effects of these mitigations do appear.</source>
+            <target state="new">Side effects of these mitigations do appear.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>For example, to handle transient issues with storage, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> implements a system that allows message send operations to work consistently.</source>
+            <target state="new">For example, to handle transient issues with storage, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> implements a system that allows message send operations to work consistently.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Due to the nature of the mitigation, a sent message can take up to 15 minutes to appear in the affected queue or subscription and be ready for a receive operation.</source>
+            <target state="new">Due to the nature of the mitigation, a sent message can take up to 15 minutes to appear in the affected queue or subscription and be ready for a receive operation.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Generally speaking, most entities will not experience this issue.</source>
+            <target state="new">Generally speaking, most entities will not experience this issue.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>However, given the number of entities in <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> within Azure, this mitigation is sometimes needed for a small subset of <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> customers.</source>
+            <target state="new">However, given the number of entities in <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> within Azure, this mitigation is sometimes needed for a small subset of <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> customers.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Service Bus failure on a single subsystem</source>
+            <target state="new">Service Bus failure on a single subsystem</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>With any application, circumstances can cause an internal component of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> can become inconsistent.</source>
+            <target state="new">With any application, circumstances can cause an internal component of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> can become inconsistent.</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>When <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> detects this, it collects data from the application to aid in diagnosing what happened.</source>
+            <target state="new">When <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> detects this, it collects data from the application to aid in diagnosing what happened.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Once the data is collected, the application is restarted in an attempt to return it to a consistent state.</source>
+            <target state="new">Once the data is collected, the application is restarted in an attempt to return it to a consistent state.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>This process happens fairly quickly, and results in an entity appearing to be unavailable for up to a few minutes, though typical downtimes are much shorter.</source>
+            <target state="new">This process happens fairly quickly, and results in an entity appearing to be unavailable for up to a few minutes, though typical downtimes are much shorter.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>In these cases, the client application generates a <ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;T:System.TimeoutException&lt;/codeEntityReference&gt;</ph> or <ph id="2">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.MessagingException&lt;/codeEntityReference&gt;</ph> exception.</source>
+            <target state="new">In these cases, the client application generates a <ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;T:System.TimeoutException&lt;/codeEntityReference&gt;</ph> or <ph id="2">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.MessagingException&lt;/codeEntityReference&gt;</ph> exception.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> .NET SDK contains a mitigation for this issue in the form of automated client retry logic.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> .NET SDK contains a mitigation for this issue in the form of automated client retry logic.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Once the retry period is exhausted and the message is not delivered, you can explore using other features such as <bpt id="1">&lt;newTerm&gt;</bpt>paired namespaces<ept id="1">&lt;/newTerm&gt;</ept>.</source>
+            <target state="new">Once the retry period is exhausted and the message is not delivered, you can explore using other features such as <bpt id="1">&lt;newTerm&gt;</bpt>paired namespaces<ept id="1">&lt;/newTerm&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Paired namespaces have other caveats which are discussed later in this document.</source>
+            <target state="new">Paired namespaces have other caveats which are discussed later in this document.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Failure of Service Bus within an Azure datacenter</source>
+            <target state="new">Failure of Service Bus within an Azure datacenter</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>The most probable reason for a failure in an Azure datacenter is a failed upgrade deployment of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> or a dependent system.</source>
+            <target state="new">The most probable reason for a failure in an Azure datacenter is a failed upgrade deployment of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> or a dependent system.</target>
+          </trans-unit>
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>As the platform has matured, the likelihood of this type of failure has diminished.</source>
+            <target state="new">As the platform has matured, the likelihood of this type of failure has diminished.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>A datacenter failure can also happen for reasons that include the following:</source>
+            <target state="new">A datacenter failure can also happen for reasons that include the following:</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Electrical outage (power supply and generating power disappear).</source>
+            <target state="new">Electrical outage (power supply and generating power disappear).</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Connectivity (Internet break between your clients and Azure).</source>
+            <target state="new">Connectivity (Internet break between your clients and Azure).</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>In both cases, a natural or man-made disaster caused the issue.</source>
+            <target state="new">In both cases, a natural or man-made disaster caused the issue.</target>
+          </trans-unit>
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>To work around this and make sure that you can still send messages, you can use paired namespaces to allow messages to be sent to a second location while the primary location is made healthy again.</source>
+            <target state="new">To work around this and make sure that you can still send messages, you can use paired namespaces to allow messages to be sent to a second location while the primary location is made healthy again.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;crdefault&lt;/token&gt;</ph> <ph id="2">&lt;link xlink:href="07682de0-2bcf-443d-aab9-ccf480f7d4bd" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Best Practices for Insulating Service Bus Applications Against Service Bus Outages and Disasters&lt;/link&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;token&gt;crdefault&lt;/token&gt;</ph> <ph id="2">&lt;link xlink:href="07682de0-2bcf-443d-aab9-ccf480f7d4bd" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Best Practices for Insulating Service Bus Applications Against Service Bus Outages and Disasters&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Paired Namespaces</source>
+            <target state="new">Paired Namespaces</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>paired namespaces<ept id="1">&lt;/embeddedLabel&gt;</ept> feature supports scenarios in which a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> entity or deployment within a data center becomes unavailable.</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>paired namespaces<ept id="1">&lt;/embeddedLabel&gt;</ept> feature supports scenarios in which a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> entity or deployment within a data center becomes unavailable.</target>
+          </trans-unit>
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>While this event occurs infrequently, distributed systems still must be prepared to handle worst case scenarios.</source>
+            <target state="new">While this event occurs infrequently, distributed systems still must be prepared to handle worst case scenarios.</target>
+          </trans-unit>
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Typically, this event happens because some element on which <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> depends is experiencing a short-lived issue.</source>
+            <target state="new">Typically, this event happens because some element on which <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> depends is experiencing a short-lived issue.</target>
+          </trans-unit>
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>To maintain application availability during an outage, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> users can use two separate namespaces, preferably in separate data centers, to host their messaging entities.</source>
+            <target state="new">To maintain application availability during an outage, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> users can use two separate namespaces, preferably in separate data centers, to host their messaging entities.</target>
+          </trans-unit>
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>The remainder of this section uses the following terminology:</source>
+            <target state="new">The remainder of this section uses the following terminology:</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Primary namespace<ept id="1">&lt;/embeddedLabel&gt;</ept>: The namespace your application interacts with for send and receive operations.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Primary namespace<ept id="1">&lt;/embeddedLabel&gt;</ept>: The namespace your application interacts with for send and receive operations.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Secondary namespace<ept id="1">&lt;/embeddedLabel&gt;</ept>: The namespace that acts as a backup to the primary namespace.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Secondary namespace<ept id="1">&lt;/embeddedLabel&gt;</ept>: The namespace that acts as a backup to the primary namespace.</target>
+          </trans-unit>
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Application logic does not interact with this namespace.</source>
+            <target state="new">Application logic does not interact with this namespace.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Failover interval<ept id="1">&lt;/embeddedLabel&gt;</ept>: The amount of time to accept normal failures before the application switches from the primary namespace to the secondary namespace.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Failover interval<ept id="1">&lt;/embeddedLabel&gt;</ept>: The amount of time to accept normal failures before the application switches from the primary namespace to the secondary namespace.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Paired namespaces support send availability.</source>
+            <target state="new">Paired namespaces support send availability.</target>
+          </trans-unit>
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Send availability focuses on preserving the ability to send messages.</source>
+            <target state="new">Send availability focuses on preserving the ability to send messages.</target>
+          </trans-unit>
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>To use send availability, your application must meet the following requirements:</source>
+            <target state="new">To use send availability, your application must meet the following requirements:</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Messages are only received from the primary namespace.</source>
+            <target state="new">Messages are only received from the primary namespace.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Messages sent to a given queue/topic might arrive out of order.</source>
+            <target state="new">Messages sent to a given queue/topic might arrive out of order.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>If your application uses sessions:</source>
+            <target state="new">If your application uses sessions:</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Messages within a session might arrive out of order.</source>
+            <target state="new">Messages within a session might arrive out of order.</target>
+          </trans-unit>
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>This is a break from normal functionality of sessions.</source>
+            <target state="new">This is a break from normal functionality of sessions.</target>
+          </trans-unit>
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>This means that your application uses sessions to logically group messages.</source>
+            <target state="new">This means that your application uses sessions to logically group messages.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Session state is only maintained on the primary namespace.</source>
+            <target state="new">Session state is only maintained on the primary namespace.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>The primary queue can come online and start accepting messages before the secondary queue delivers all messages into the primary queue.</source>
+            <target state="new">The primary queue can come online and start accepting messages before the secondary queue delivers all messages into the primary queue.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>This section discusses the API, how the APIs are implemented, and shows sample code that uses the feature.</source>
+            <target state="new">This section discusses the API, how the APIs are implemented, and shows sample code that uses the feature.</target>
+          </trans-unit>
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Note that there are billing implications associated with this feature.</source>
+            <target state="new">Note that there are billing implications associated with this feature.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>The MessagingFactory.PairNamespaceAsync API</source>
+            <target state="new">The MessagingFactory.PairNamespaceAsync API</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>The paired namespaces feature introduces the following new method on the <ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> class:</source>
+            <target state="new">The paired namespaces feature introduces the following new method on the <ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> class:</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>When the task completes, the namespace pairing is also complete and ready to act upon for any <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.MessageReceiver&lt;/codeEntityReference&gt;</ph>, <ph id="2">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.QueueClient&lt;/codeEntityReference&gt;</ph>, or <ph id="3">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.TopicClient&lt;/codeEntityReference&gt;</ph> created with the <ph id="4">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph>.</source>
+            <target state="new">When the task completes, the namespace pairing is also complete and ready to act upon for any <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.MessageReceiver&lt;/codeEntityReference&gt;</ph>, <ph id="2">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.QueueClient&lt;/codeEntityReference&gt;</ph>, or <ph id="3">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.TopicClient&lt;/codeEntityReference&gt;</ph> created with the <ph id="4">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;T:Microsoft.ServiceBus.Messaging.PairedNamespaceOptions&lt;/codeEntityReference&gt;</ph> is the base class for the different types of pairing that are available with a <ph id="2">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;T:Microsoft.ServiceBus.Messaging.PairedNamespaceOptions&lt;/codeEntityReference&gt;</ph> is the base class for the different types of pairing that are available with a <ph id="2">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>Currently, the only derived class is one named <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions&lt;/codeEntityReference&gt;</ph>, which implements the send availability requirements.</source>
+            <target state="new">Currently, the only derived class is one named <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions&lt;/codeEntityReference&gt;</ph>, which implements the send availability requirements.</target>
+          </trans-unit>
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions&lt;/codeEntityReference&gt;</ph> has a set of constructors which all build on each other.</source>
+            <target state="new"><ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;T:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions&lt;/codeEntityReference&gt;</ph> has a set of constructors which all build on each other.</target>
+          </trans-unit>
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Looking at the constructor with the most parameters, you can understand the behavior of the other constructors.</source>
+            <target state="new">Looking at the constructor with the most parameters, you can understand the behavior of the other constructors.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>These parameters have the following meanings:</source>
+            <target state="new">These parameters have the following meanings:</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;parameterReference&gt;secondaryNamespaceManager&lt;/parameterReference&gt;</ph>: An initialized <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.NamespaceManager&lt;/codeEntityReference&gt;</ph> instance for the secondary namespace that the <ph id="3">&lt;codeEntityReference&gt;M:Microsoft.ServiceBus.Messaging.MessagingFactory.PairNamespaceAsync(Microsoft.ServiceBus.Messaging.PairedNamespaceOptions)&lt;/codeEntityReference&gt;</ph> method can use to set up the secondary namespace.</source>
+            <target state="new"><ph id="1">&lt;parameterReference&gt;secondaryNamespaceManager&lt;/parameterReference&gt;</ph>: An initialized <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.NamespaceManager&lt;/codeEntityReference&gt;</ph> instance for the secondary namespace that the <ph id="3">&lt;codeEntityReference&gt;M:Microsoft.ServiceBus.Messaging.MessagingFactory.PairNamespaceAsync(Microsoft.ServiceBus.Messaging.PairedNamespaceOptions)&lt;/codeEntityReference&gt;</ph> method can use to set up the secondary namespace.</target>
+          </trans-unit>
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>The manager will be used to obtain the list of queues in the namespace and make sure that the required backlog queues exist.</source>
+            <target state="new">The manager will be used to obtain the list of queues in the namespace and make sure that the required backlog queues exist.</target>
+          </trans-unit>
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>If those queues do not exist, they will be created.</source>
+            <target state="new">If those queues do not exist, they will be created.</target>
+          </trans-unit>
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.NamespaceManager&lt;/codeEntityReference&gt;</ph> requires the ability to create a token with the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Manage<ept id="2">&lt;/embeddedLabel&gt;</ept> claim.</source>
+            <target state="new">The <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.NamespaceManager&lt;/codeEntityReference&gt;</ph> requires the ability to create a token with the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Manage<ept id="2">&lt;/embeddedLabel&gt;</ept> claim.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;parameterReference&gt;messagingFactory&lt;/parameterReference&gt;</ph>: The <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> instance for the secondary namespace.</source>
+            <target state="new"><ph id="1">&lt;parameterReference&gt;messagingFactory&lt;/parameterReference&gt;</ph>: The <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> instance for the secondary namespace.</target>
+          </trans-unit>
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> is used to send and, if the <ph id="2">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions.EnableSyphon&lt;/codeEntityReference&gt;</ph> property is set to <ph id="3">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph>, to receive messages from the backlog queues.</source>
+            <target state="new">The <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> is used to send and, if the <ph id="2">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions.EnableSyphon&lt;/codeEntityReference&gt;</ph> property is set to <ph id="3">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph>, to receive messages from the backlog queues.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;parameterReference&gt;backlogQueueCount&lt;/parameterReference&gt;</ph>: The number of backlog queues to create.</source>
+            <target state="new"><ph id="1">&lt;parameterReference&gt;backlogQueueCount&lt;/parameterReference&gt;</ph>: The number of backlog queues to create.</target>
+          </trans-unit>
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>This value must be at least 1.</source>
+            <target state="new">This value must be at least 1.</target>
+          </trans-unit>
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>When sending messages to the backlog, one of these queues is randomly chosen.</source>
+            <target state="new">When sending messages to the backlog, one of these queues is randomly chosen.</target>
+          </trans-unit>
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>If you set the value to 1, then only one queue can ever be used.</source>
+            <target state="new">If you set the value to 1, then only one queue can ever be used.</target>
+          </trans-unit>
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>When this happens and the one backlog queue generates errors, the client is not be able to try a different backlog queue and may fail to send your message.</source>
+            <target state="new">When this happens and the one backlog queue generates errors, the client is not be able to try a different backlog queue and may fail to send your message.</target>
+          </trans-unit>
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>We recommend setting this value to some larger value and default the value to 10.</source>
+            <target state="new">We recommend setting this value to some larger value and default the value to 10.</target>
+          </trans-unit>
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>You can change this to a higher or lower value depending on how much data your application sends per day.</source>
+            <target state="new">You can change this to a higher or lower value depending on how much data your application sends per day.</target>
+          </trans-unit>
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Each backlog queue can hold up to 5 GB of messages.</source>
+            <target state="new">Each backlog queue can hold up to 5 GB of messages.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;parameterReference&gt;failoverInterval&lt;/parameterReference&gt;</ph>: The amount of time that you will accept failures on the primary namespace before switching any single entity over to the secondary namespace.</source>
+            <target state="new"><ph id="1">&lt;parameterReference&gt;failoverInterval&lt;/parameterReference&gt;</ph>: The amount of time that you will accept failures on the primary namespace before switching any single entity over to the secondary namespace.</target>
+          </trans-unit>
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>Failovers occur on an entity-by-entity basis.</source>
+            <target state="new">Failovers occur on an entity-by-entity basis.</target>
+          </trans-unit>
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>Entities in a single namespace frequently live in different nodes within <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">Entities in a single namespace frequently live in different nodes within <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>A failure in one entity does not imply a failure in another.</source>
+            <target state="new">A failure in one entity does not imply a failure in another.</target>
+          </trans-unit>
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>You can set this value to <ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;F:System.TimeSpan.Zero&lt;/codeEntityReference&gt;</ph> to failover to the secondary immediately after your first, non-transient failure.</source>
+            <target state="new">You can set this value to <ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;F:System.TimeSpan.Zero&lt;/codeEntityReference&gt;</ph> to failover to the secondary immediately after your first, non-transient failure.</target>
+          </trans-unit>
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>Failures that trigger the failover timer are any <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingException&lt;/codeEntityReference&gt;</ph> in which the <ph id="2">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.MessagingException.IsTransient&lt;/codeEntityReference&gt;</ph> property is false, or a <ph id="3">&lt;codeEntityReference&gt;T:System.TimeoutException&lt;/codeEntityReference&gt;</ph>.</source>
+            <target state="new">Failures that trigger the failover timer are any <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingException&lt;/codeEntityReference&gt;</ph> in which the <ph id="2">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.MessagingException.IsTransient&lt;/codeEntityReference&gt;</ph> property is false, or a <ph id="3">&lt;codeEntityReference&gt;T:System.TimeoutException&lt;/codeEntityReference&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>Other exceptions, such as <ph id="1">&lt;codeEntityReference&gt;T:System.UnauthorizedAccessException&lt;/codeEntityReference&gt;</ph> will not cause failover, because they indicate that the client is configured incorrectly.</source>
+            <target state="new">Other exceptions, such as <ph id="1">&lt;codeEntityReference&gt;T:System.UnauthorizedAccessException&lt;/codeEntityReference&gt;</ph> will not cause failover, because they indicate that the client is configured incorrectly.</target>
+          </trans-unit>
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>A <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.ServerBusyException&lt;/codeEntityReference&gt;</ph> does not cause failover because the correct pattern is to wait 10 seconds, then send the message again.</source>
+            <target state="new">A <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.ServerBusyException&lt;/codeEntityReference&gt;</ph> does not cause failover because the correct pattern is to wait 10 seconds, then send the message again.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;parameterReference&gt;enableSyphon&lt;/parameterReference&gt;</ph>: Indicates that this particular pairing should also syphon messages from the secondary namespace back to the primary namespace.</source>
+            <target state="new"><ph id="1">&lt;parameterReference&gt;enableSyphon&lt;/parameterReference&gt;</ph>: Indicates that this particular pairing should also syphon messages from the secondary namespace back to the primary namespace.</target>
+          </trans-unit>
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>In general, applications that send messages should set this value to <ph id="1">&lt;languageKeyword&gt;false&lt;/languageKeyword&gt;</ph>; applications that receive messages should set this value to <ph id="2">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">In general, applications that send messages should set this value to <ph id="1">&lt;languageKeyword&gt;false&lt;/languageKeyword&gt;</ph>; applications that receive messages should set this value to <ph id="2">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>The reason for this is that frequently, there are fewer message receivers than message senders.</source>
+            <target state="new">The reason for this is that frequently, there are fewer message receivers than message senders.</target>
+          </trans-unit>
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>Depending on the number of receivers, you can choose to have a single application instance handle the syphon duties.</source>
+            <target state="new">Depending on the number of receivers, you can choose to have a single application instance handle the syphon duties.</target>
+          </trans-unit>
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>Using many receivers has billing implications for each backlog queue.</source>
+            <target state="new">Using many receivers has billing implications for each backlog queue.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>To use the code, create a primary <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> instance, a secondary <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> instance, a secondary <ph id="3">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.NamespaceManager&lt;/codeEntityReference&gt;</ph> instance, and a <ph id="4">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions&lt;/codeEntityReference&gt;</ph> instance.</source>
+            <target state="new">To use the code, create a primary <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> instance, a secondary <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> instance, a secondary <ph id="3">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.NamespaceManager&lt;/codeEntityReference&gt;</ph> instance, and a <ph id="4">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions&lt;/codeEntityReference&gt;</ph> instance.</target>
+          </trans-unit>
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>The call can be as simple as the following:</source>
+            <target state="new">The call can be as simple as the following:</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>When the task returned by the <ph id="1">&lt;codeEntityReference&gt;M:Microsoft.ServiceBus.Messaging.MessagingFactory.PairNamespaceAsync(Microsoft.ServiceBus.Messaging.PairedNamespaceOptions)&lt;/codeEntityReference&gt;</ph> method completes, everything will be set up and ready to use.</source>
+            <target state="new">When the task returned by the <ph id="1">&lt;codeEntityReference&gt;M:Microsoft.ServiceBus.Messaging.MessagingFactory.PairNamespaceAsync(Microsoft.ServiceBus.Messaging.PairedNamespaceOptions)&lt;/codeEntityReference&gt;</ph> method completes, everything will be set up and ready to use.</target>
+          </trans-unit>
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>Before the task is returned, you may not have completed all of the background work necessary for the pairing to work right.</source>
+            <target state="new">Before the task is returned, you may not have completed all of the background work necessary for the pairing to work right.</target>
+          </trans-unit>
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>As a result, you should not start sending messages until the task returns.</source>
+            <target state="new">As a result, you should not start sending messages until the task returns.</target>
+          </trans-unit>
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>If any failures occurred, such as bad credentials, or failure to create the backlog queues, those exceptions will be thrown once the task completes.</source>
+            <target state="new">If any failures occurred, such as bad credentials, or failure to create the backlog queues, those exceptions will be thrown once the task completes.</target>
+          </trans-unit>
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>Once the task returns, verify that the queues were found or created by examining the <ph id="1">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions.BacklogQueueCount&lt;/codeEntityReference&gt;</ph> property on your <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions&lt;/codeEntityReference&gt;</ph> instance.</source>
+            <target state="new">Once the task returns, verify that the queues were found or created by examining the <ph id="1">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions.BacklogQueueCount&lt;/codeEntityReference&gt;</ph> property on your <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions&lt;/codeEntityReference&gt;</ph> instance.</target>
+          </trans-unit>
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>For the preceding code, that operation appears as follows:</source>
+            <target state="new">For the preceding code, that operation appears as follows:</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

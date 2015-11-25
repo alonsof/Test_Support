@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-TW" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzFEKgzAMANCr9AAJNG2qzU6wAwj7TmvCBKewOZCdfv4/nnu2xqmjGTMyecQWa8MeSQcRJ1WB0LXEmMeGNduInJNgqz6jC1kzitV6hiBqTOSKxFKQk15XTwN2vlRXmUurEAjC74nTA8K5Lu52Hrf3vh8QEgQuEO7fl27TW7fPqseyb3/SPzipogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Setting Timeouts for Blob Service Operations</source>
+            <target state="new">Setting Timeouts for Blob Service Operations</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>A call to a Blob service API can include a server timeout interval, specified in the <ph id="1">&lt;codeInline&gt;timeout&lt;/codeInline&gt;</ph> parameter of the request URI.</source>
+            <target state="new">A call to a Blob service API can include a server timeout interval, specified in the <ph id="1">&lt;codeInline&gt;timeout&lt;/codeInline&gt;</ph> parameter of the request URI.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>If the server timeout interval elapses before the service has finished processing the request, the service returns an error.</source>
+            <target state="new">If the server timeout interval elapses before the service has finished processing the request, the service returns an error.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The maximum timeout interval for Blob service operations is 30 seconds, with some exceptions noted below.</source>
+            <target state="new">The maximum timeout interval for Blob service operations is 30 seconds, with some exceptions noted below.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Apart from these exceptions, the Blob service automatically reduces any timeouts larger than 30 seconds to the 30-second maximum.</source>
+            <target state="new">Apart from these exceptions, the Blob service automatically reduces any timeouts larger than 30 seconds to the 30-second maximum.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Example</source>
+            <target state="new">Example</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The following example REST URI sets the timeout interval for the <ph id="1">&lt;link xlink:href="1a1d2a8e-de2b-4fa8-9d6d-582998a26a4f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;List Containers&lt;/link&gt;</ph> operation to 20 seconds:</source>
+            <target state="new">The following example REST URI sets the timeout interval for the <ph id="1">&lt;link xlink:href="1a1d2a8e-de2b-4fa8-9d6d-582998a26a4f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;List Containers&lt;/link&gt;</ph> operation to 20 seconds:</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Exceptions to Default Timeout Interval</source>
+            <target state="new">Exceptions to Default Timeout Interval</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The following operations implement exceptions to the standard 30 second timeout interval:</source>
+            <target state="new">The following operations implement exceptions to the standard 30 second timeout interval:</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Calls to get a blob, get page ranges, or get a block list are permitted 2 minutes per megabyte to complete.</source>
+            <target state="new">Calls to get a blob, get page ranges, or get a block list are permitted 2 minutes per megabyte to complete.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>If an operation is taking longer than 2 minutes per megabyte on average, it will time out.</source>
+            <target state="new">If an operation is taking longer than 2 minutes per megabyte on average, it will time out.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Calls to write a blob, write a block, or write a page are permitted 10 minutes per megabyte to complete.</source>
+            <target state="new">Calls to write a blob, write a block, or write a page are permitted 10 minutes per megabyte to complete.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>If an operation is taking longer than 10 minutes per megabyte on average, it will time out.</source>
+            <target state="new">If an operation is taking longer than 10 minutes per megabyte on average, it will time out.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The maximum timeout to write a block list is 60 seconds.</source>
+            <target state="new">The maximum timeout to write a block list is 60 seconds.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>A container that was recently deleted cannot be recreated until all of its blobs are deleted.</source>
+            <target state="new">A container that was recently deleted cannot be recreated until all of its blobs are deleted.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Depending on how much data was stored within the container, complete deletion can take seconds or minutes.</source>
+            <target state="new">Depending on how much data was stored within the container, complete deletion can take seconds or minutes.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>If you try to create a container of the same name during this cleanup period, your call returns an error immediately.</source>
+            <target state="new">If you try to create a container of the same name during this cleanup period, your call returns an error immediately.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

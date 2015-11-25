@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="it-IT" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzVEKgzAMANCr9AAJJG1a7U6w/XuBpKYgOAXXgcff3gVe78lNYkN3ERTuhEazYSPWUmtn1QrBpEyUVJDXbCjZV1SKitWsUJq5TpIgSJlLah6RiSOK54rqTdHSKl4jR84EgSFsA18LhHvfevd7PK7zHBAihH/1/L71WC49PruO7Tx+CqdLUKEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Step 10: Test the Solution</source>
+            <target state="new">Step 10: Test the Solution</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This section demonstrates how to test the solution by dropping a flat-file message to a folder on the FTP Server.</source>
+            <target state="new">This section demonstrates how to test the solution by dropping a flat-file message to a folder on the FTP Server.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>The one-way bridge consumes this message, processes it, and then writes the values into the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Claims<ept id="1">&lt;/embeddedLabel&gt;</ept> table in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>InsuranceData<ept id="2">&lt;/embeddedLabel&gt;</ept> database in the on-premises SQL Server instance for Humongous Insurance.</source>
+            <target state="new">The one-way bridge consumes this message, processes it, and then writes the values into the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Claims<ept id="1">&lt;/embeddedLabel&gt;</ept> table in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>InsuranceData<ept id="2">&lt;/embeddedLabel&gt;</ept> database in the on-premises SQL Server instance for Humongous Insurance.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>To send a message to the bridge</source>
+            <target state="new">To send a message to the bridge</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Locate the <bpt id="1">&lt;embeddedLabel&gt;</bpt>SampleInsuranceClaim.txt<ept id="1">&lt;/embeddedLabel&gt;</ept> message under the location where you downloaded the <bpt id="2">&lt;embeddedLabel&gt;</bpt>FlatFile_Bridge<ept id="2">&lt;/embeddedLabel&gt;</ept> sample.</source>
+            <target state="new">Locate the <bpt id="1">&lt;embeddedLabel&gt;</bpt>SampleInsuranceClaim.txt<ept id="1">&lt;/embeddedLabel&gt;</ept> message under the location where you downloaded the <bpt id="2">&lt;embeddedLabel&gt;</bpt>FlatFile_Bridge<ept id="2">&lt;/embeddedLabel&gt;</ept> sample.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>See the contents of the message, which resemble the following:</source>
+            <target state="new">See the contents of the message, which resemble the following:</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Notice the second element, <bpt id="1">&lt;embeddedLabel&gt;</bpt>HI<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Notice the second element, <bpt id="1">&lt;embeddedLabel&gt;</bpt>HI<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>This is type of claim that is being processed.</source>
+            <target state="new">This is type of claim that is being processed.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Also, notice that there is no claim description for this claim type in the message that is sent by Northwind.</source>
+            <target state="new">Also, notice that there is no claim description for this claim type in the message that is sent by Northwind.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Copy the message to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ReceiveFFMessage<ept id="1">&lt;/embeddedLabel&gt;</ept> folder on the FTP Server.</source>
+            <target state="new">Copy the message to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>ReceiveFFMessage<ept id="1">&lt;/embeddedLabel&gt;</ept> folder on the FTP Server.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The bridge you configured as part of the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> picks messages from this folder.</source>
+            <target state="new">The bridge you configured as part of the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> picks messages from this folder.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Wait for the message to disappear.</source>
+            <target state="new">Wait for the message to disappear.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Now go to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Claims<ept id="1">&lt;/embeddedLabel&gt;</ept> table in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>InsuranceData<ept id="2">&lt;/embeddedLabel&gt;</ept> database and verify if the new values have been inserted.</source>
+            <target state="new">Now go to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Claims<ept id="1">&lt;/embeddedLabel&gt;</ept> table in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>InsuranceData<ept id="2">&lt;/embeddedLabel&gt;</ept> database and verify if the new values have been inserted.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Notice that even though the input flat-file message did not have a claim description, the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Claims<ept id="1">&lt;/embeddedLabel&gt;</ept> table has the value “HealthInsurance” inserted for the <bpt id="2">&lt;embeddedLabel&gt;</bpt>ClaimTypeDescription<ept id="2">&lt;/embeddedLabel&gt;</ept> column.</source>
+            <target state="new">Notice that even though the input flat-file message did not have a claim description, the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Claims<ept id="1">&lt;/embeddedLabel&gt;</ept> table has the value “HealthInsurance” inserted for the <bpt id="2">&lt;embeddedLabel&gt;</bpt>ClaimTypeDescription<ept id="2">&lt;/embeddedLabel&gt;</ept> column.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>This value was included in the message by using the <ph id="1">&lt;token&gt;ssSDSfull&lt;/token&gt;</ph> lookup configured as part of the bridge and the transform.</source>
+            <target state="new">This value was included in the message by using the <ph id="1">&lt;token&gt;ssSDSfull&lt;/token&gt;</ph> lookup configured as part of the bridge and the transform.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>If you want to see how the lookup configuration looks up value from the <ph id="1">&lt;token&gt;ssSDS&lt;/token&gt;</ph> table, change the value in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>ClaimTypeDescription<ept id="2">&lt;/embeddedLabel&gt;</ept> in the <ph id="3">&lt;token&gt;ssSDS&lt;/token&gt;</ph> table and then drop another message to the FTP location.</source>
+            <target state="new">If you want to see how the lookup configuration looks up value from the <ph id="1">&lt;token&gt;ssSDS&lt;/token&gt;</ph> table, change the value in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>ClaimTypeDescription<ept id="2">&lt;/embeddedLabel&gt;</ept> in the <ph id="3">&lt;token&gt;ssSDS&lt;/token&gt;</ph> table and then drop another message to the FTP location.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>The next message that is inserted in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Claims<ept id="1">&lt;/embeddedLabel&gt;</ept> table must have the new value you entered in the <ph id="2">&lt;token&gt;ssSDS&lt;/token&gt;</ph>.</source>
+            <target state="new">The next message that is inserted in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Claims<ept id="1">&lt;/embeddedLabel&gt;</ept> table must have the new value you entered in the <ph id="2">&lt;token&gt;ssSDS&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Because you configured the bridge to track message properties, you can also view the tracked data from the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>.</source>
+            <target state="new">Because you configured the bridge to track message properties, you can also view the tracked data from the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Log in to the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>, and from the left pane, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Tracking<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Log in to the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>, and from the left pane, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Tracking<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>In the right pane, under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Messages<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, see the different levels of tracking info.</source>
+            <target state="new">In the right pane, under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Messages<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, see the different levels of tracking info.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Select a row, and from the bottom of the screen click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Details<ept id="1">&lt;/embeddedLabel&gt;</ept> to see more details about that event.</source>
+            <target state="new">Select a row, and from the bottom of the screen click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Details<ept id="1">&lt;/embeddedLabel&gt;</ept> to see more details about that event.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>For example, the following screenshot shows the detailed info about the Route activity.</source>
+            <target state="new">For example, the following screenshot shows the detailed info about the Route activity.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Note that it shows the values for <bpt id="1">&lt;embeddedLabel&gt;</bpt>ClaimType<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>ClaimTypeDescription<ept id="2">&lt;/embeddedLabel&gt;</ept> properties.</source>
+            <target state="new">Note that it shows the values for <bpt id="1">&lt;embeddedLabel&gt;</bpt>ClaimType<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>ClaimTypeDescription<ept id="2">&lt;/embeddedLabel&gt;</ept> properties.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>That’s because you selected these properties to be tracked (see <ph id="1">&lt;link xlink:href="a8cffcf3-2815-4e19-84b5-5b75d8b3f0c4#BKMK_Tracking" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configure Tracking&lt;/link&gt;</ph>) when you configured tracking as part of the bridge configuration.</source>
+            <target state="new">That’s because you selected these properties to be tracked (see <ph id="1">&lt;link xlink:href="a8cffcf3-2815-4e19-84b5-5b75d8b3f0c4#BKMK_Tracking" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configure Tracking&lt;/link&gt;</ph>) when you configured tracking as part of the bridge configuration.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>For more information about how to track messages, see <ph id="1">&lt;link xlink:href="100d9ba7-0ebc-40bf-8b5f-92641c9639ba" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Tracking Messages&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about how to track messages, see <ph id="1">&lt;link xlink:href="100d9ba7-0ebc-40bf-8b5f-92641c9639ba" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Tracking Messages&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

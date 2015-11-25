@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-TW" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANy1EKgzAMANCr9AANpG0a251gBxD2ndSUCU7BKchOPz/e5+s9mVJsYEYEFDqCYlFoGIRr7UGkeleYY1EdgK1OQE0MNLEBEqrEIVFuyTtr0m3CDG0gBpqqgbRiwDkh3xOrZu+Cd783jC/vrmXu3a7jsW/b4V30jm7P8yPruMv6XeSYt/UPGlEoFqIAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Create Index</source>
+            <target state="new">Create Index</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Create Index (Azure Search Service REST API)</source>
+            <target state="new">Create Index (Azure Search Service REST API)</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>An index is the primary means of organizing and searching documents in Azure Search, similar to how a table organizes records in a database.</source>
+            <target state="new">An index is the primary means of organizing and searching documents in Azure Search, similar to how a table organizes records in a database.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Each index has a collection of documents that all conform to the index schema (field names, data types, and properties), but indexes also specify additional constructs (suggesters, scoring profiles, and CORS configuration) that define other search behaviors.</source>
+            <target state="new">Each index has a collection of documents that all conform to the index schema (field names, data types, and properties), but indexes also specify additional constructs (suggesters, scoring profiles, and CORS configuration) that define other search behaviors.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You can create a new index within an Azure Search service using an HTTP POST or PUT request.</source>
+            <target state="new">You can create a new index within an Azure Search service using an HTTP POST or PUT request.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>The body of the request is a JSON schema that specifies the index and configuration information.</source>
+            <target state="new">The body of the request is a JSON schema that specifies the index and configuration information.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Alternatively, you can use PUT and specify the index name on the URI.</source>
+            <target state="new">Alternatively, you can use PUT and specify the index name on the URI.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>If the index does not exist, it will be created.</source>
+            <target state="new">If the index does not exist, it will be created.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Creating an index establishes the schema and metadata.</source>
+            <target state="new">Creating an index establishes the schema and metadata.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Populating the index is a separate operation.</source>
+            <target state="new">Populating the index is a separate operation.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>For this step, you can use an indexer (see <ph id="1">&lt;link xlink:href="99bd2afa-3413-424c-a54a-58c8bb12bdbe" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Indexer operations (Azure Search Service REST API)&lt;/link&gt;</ph>, available for supported data sources) or an <ph id="2">&lt;link xlink:href="75503cda-fbc5-4e70-ac14-35fdedd0c001" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Add, Update or Delete Documents (Azure Search Service REST API)&lt;/link&gt;</ph>.</source>
+            <target state="new">For this step, you can use an indexer (see <ph id="1">&lt;link xlink:href="99bd2afa-3413-424c-a54a-58c8bb12bdbe" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Indexer operations (Azure Search Service REST API)&lt;/link&gt;</ph>, available for supported data sources) or an <ph id="2">&lt;link xlink:href="75503cda-fbc5-4e70-ac14-35fdedd0c001" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Add, Update or Delete Documents (Azure Search Service REST API)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The inverted index is generated when the documents are posted.</source>
+            <target state="new">The inverted index is generated when the documents are posted.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The maximum number of indexes that you can create varies by pricing tier.</source>
+            <target state="new">The maximum number of indexes that you can create varies by pricing tier.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The free service allows up to 3 indexes.</source>
+            <target state="new">The free service allows up to 3 indexes.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Standard service allows 50 indexes per Search service.</source>
+            <target state="new">Standard service allows 50 indexes per Search service.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="a8b1e21e-7703-4718-8e29-c8825354b3ec" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Limits and constraints (Azure Search API)&lt;/link&gt;</ph> for details.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="a8b1e21e-7703-4718-8e29-c8825354b3ec" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Limits and constraints (Azure Search API)&lt;/link&gt;</ph> for details.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Request</source>
+            <target state="new">Request</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>HTTPS is required for all service requests.</source>
+            <target state="new">HTTPS is required for all service requests.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;languageKeyword&gt;Create Index&lt;/languageKeyword&gt;</ph> request can be constructed using either a POST or PUT method.</source>
+            <target state="new">The <ph id="1">&lt;languageKeyword&gt;Create Index&lt;/languageKeyword&gt;</ph> request can be constructed using either a POST or PUT method.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>When using POST, provide an index name in the request body along with the index schema definition.</source>
+            <target state="new">When using POST, provide an index name in the request body along with the index schema definition.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>With PUT, the index name is part of the URL.</source>
+            <target state="new">With PUT, the index name is part of the URL.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>If the index doesn't exist, it is created.</source>
+            <target state="new">If the index doesn't exist, it is created.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>If it already exists, it is updated to the new definition.</source>
+            <target state="new">If it already exists, it is updated to the new definition.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Notice that you can only POST or PUT one index at a time.</source>
+            <target state="new">Notice that you can only POST or PUT one index at a time.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>The index name must be lower case, start with a letter or number, have no slashes or dots, and be less than 128 characters.</source>
+            <target state="new">The index name must be lower case, start with a letter or number, have no slashes or dots, and be less than 128 characters.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>After starting the index name with a letter or number, the rest of the name can include any letter, number and dashes, as long as the dashes are not consecutive.</source>
+            <target state="new">After starting the index name with a letter or number, the rest of the name can include any letter, number and dashes, as long as the dashes are not consecutive.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;languageKeyword&gt;api-version&lt;/languageKeyword&gt;</ph> parameter is required.</source>
+            <target state="new">The <ph id="1">&lt;languageKeyword&gt;api-version&lt;/languageKeyword&gt;</ph> parameter is required.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>The current version is <ph id="1">&lt;codeInline&gt;api-version=2015-02-28&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">The current version is <ph id="1">&lt;codeInline&gt;api-version=2015-02-28&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="62ffee0b-ae3b-46c1-9ddb-a372d21c6f4d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Versions of the Azure Search Service REST API&lt;/link&gt;</ph> for details, including information about alternative versions.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="62ffee0b-ae3b-46c1-9ddb-a372d21c6f4d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Versions of the Azure Search Service REST API&lt;/link&gt;</ph> for details, including information about alternative versions.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="8f35915a-2bfa-4f23-80c3-e3f54e9e4543" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Language support (Azure Search REST API)&lt;/link&gt;</ph> for details about language analyzers.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="8f35915a-2bfa-4f23-80c3-e3f54e9e4543" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Language support (Azure Search REST API)&lt;/link&gt;</ph> for details about language analyzers.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Request Headers</source>
+            <target state="new">Request Headers</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>The following table describes the required and optional request headers.</source>
+            <target state="new">The following table describes the required and optional request headers.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Request Header</source>
+            <target state="new">Request Header</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Set this to <ph id="1">&lt;codeInline&gt;application/json&lt;/codeInline&gt;</ph></source>
+            <target state="new">Set this to <ph id="1">&lt;codeInline&gt;application/json&lt;/codeInline&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeInline&gt;api-key&lt;/codeInline&gt;</ph> is used to authenticate the request to your Search service.</source>
+            <target state="new">The <ph id="1">&lt;codeInline&gt;api-key&lt;/codeInline&gt;</ph> is used to authenticate the request to your Search service.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>It is a string value, unique to your service.</source>
+            <target state="new">It is a string value, unique to your service.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;languageKeyword&gt;Create Index&lt;/languageKeyword&gt;</ph> request must include an <ph id="2">&lt;codeInline&gt;api-key&lt;/codeInline&gt;</ph> header set to your admin key (as opposed to a query key).</source>
+            <target state="new">The <ph id="1">&lt;languageKeyword&gt;Create Index&lt;/languageKeyword&gt;</ph> request must include an <ph id="2">&lt;codeInline&gt;api-key&lt;/codeInline&gt;</ph> header set to your admin key (as opposed to a query key).</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>You will also need the service name to construct the request URL.</source>
+            <target state="new">You will also need the service name to construct the request URL.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>You can get both the service name and <ph id="1">&lt;codeInline&gt;api-key&lt;/codeInline&gt;</ph> from your service dashboard in the Azure Portal.</source>
+            <target state="new">You can get both the service name and <ph id="1">&lt;codeInline&gt;api-key&lt;/codeInline&gt;</ph> from your service dashboard in the Azure Portal.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>See <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Create an Azure Search service in the portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/en-us/documentation/articles/search-create-service-portal/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for page navigation help.</source>
+            <target state="new">See <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Create an Azure Search service in the portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/en-us/documentation/articles/search-create-service-portal/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for page navigation help.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Request Body Syntax</source>
+            <target state="new">Request Body Syntax</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>The body of the request contains a schema definition, which includes the list of data fields within documents that will be fed into this index.</source>
+            <target state="new">The body of the request contains a schema definition, which includes the list of data fields within documents that will be fed into this index.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Note that for a POST request, you must specify the index name in the request body.</source>
+            <target state="new">Note that for a POST request, you must specify the index name in the request body.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>There can only be one <ph id="1">&lt;languageKeyword&gt;key&lt;/languageKeyword&gt;</ph> field in the index.</source>
+            <target state="new">There can only be one <ph id="1">&lt;languageKeyword&gt;key&lt;/languageKeyword&gt;</ph> field in the index.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>It has to be a string field.</source>
+            <target state="new">It has to be a string field.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>This field represents the unique identifier for each document stored with the index.</source>
+            <target state="new">This field represents the unique identifier for each document stored with the index.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>The main parts of an index include the following:</source>
+            <target state="new">The main parts of an index include the following:</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;fields&lt;/languageKeyword&gt;</ph> that will be fed into this index, including name, data type, and properties that define allowable actions on that field.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;fields&lt;/languageKeyword&gt;</ph> that will be fed into this index, including name, data type, and properties that define allowable actions on that field.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;suggesters&lt;/languageKeyword&gt;</ph> used for auto-complete or type-ahead queries.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;suggesters&lt;/languageKeyword&gt;</ph> used for auto-complete or type-ahead queries.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;scoringProfiles&lt;/languageKeyword&gt;</ph> used for custom search score ranking.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;scoringProfiles&lt;/languageKeyword&gt;</ph> used for custom search score ranking.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="719b924e-6d8a-43c1-b7b0-827487020e3a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Add scoring profiles to a search index (Azure Search API)&lt;/link&gt;</ph>.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="719b924e-6d8a-43c1-b7b0-827487020e3a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Add scoring profiles to a search index (Azure Search API)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;defaultScoringProfile&lt;/languageKeyword&gt;</ph> used to overwrite the default scoring behaviors.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;defaultScoringProfile&lt;/languageKeyword&gt;</ph> used to overwrite the default scoring behaviors.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;corsOptions&lt;/languageKeyword&gt;</ph> to allow cross-origin queries against your index.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;corsOptions&lt;/languageKeyword&gt;</ph> to allow cross-origin queries against your index.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>The syntax for structuring the request payload is as follows.</source>
+            <target state="new">The syntax for structuring the request payload is as follows.</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>A sample request is provided further on in this topic.</source>
+            <target state="new">A sample request is provided further on in this topic.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Index Attributes</source>
+            <target state="new">Index Attributes</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>The following attributes can be set when creating an index.</source>
+            <target state="new">The following attributes can be set when creating an index.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Attribute</source>
+            <target state="new">Attribute</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Sets the name of the field.</source>
+            <target state="new">Sets the name of the field.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Sets the data type for the field.</source>
+            <target state="new">Sets the data type for the field.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="cc08c9f9-2aff-420f-b01a-bbde2e051c08" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Supported data types (Azure Search)&lt;/link&gt;</ph> for a list of supported types.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="cc08c9f9-2aff-420f-b01a-bbde2e051c08" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Supported data types (Azure Search)&lt;/link&gt;</ph> for a list of supported types.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Marks the field as full-text search-able.</source>
+            <target state="new">Marks the field as full-text search-able.</target>
+          </trans-unit>
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>This means it will undergo analysis such as word-breaking during indexing.</source>
+            <target state="new">This means it will undergo analysis such as word-breaking during indexing.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>If you set a searchable field to a value like "sunny day", internally it will be split into the individual tokens "sunny" and "day".</source>
+            <target state="new">If you set a searchable field to a value like "sunny day", internally it will be split into the individual tokens "sunny" and "day".</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>This enables full-text searches for these terms.</source>
+            <target state="new">This enables full-text searches for these terms.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Fields of type <ph id="1">&lt;codeInline&gt;Edm.String&lt;/codeInline&gt;</ph> or <ph id="2">&lt;codeInline&gt;Collection(Edm.String)&lt;/codeInline&gt;</ph> are <ph id="3">&lt;languageKeyword&gt;searchable&lt;/languageKeyword&gt;</ph> by default.</source>
+            <target state="new">Fields of type <ph id="1">&lt;codeInline&gt;Edm.String&lt;/codeInline&gt;</ph> or <ph id="2">&lt;codeInline&gt;Collection(Edm.String)&lt;/codeInline&gt;</ph> are <ph id="3">&lt;languageKeyword&gt;searchable&lt;/languageKeyword&gt;</ph> by default.</target>
+          </trans-unit>
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Fields of other types are not <ph id="1">&lt;languageKeyword&gt;searchable&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">Fields of other types are not <ph id="1">&lt;languageKeyword&gt;searchable&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;searchable&lt;/languageKeyword&gt;</ph> fields consume extra space in your index since Azure Search will store an additional tokenized version of the field value for full-text searches.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;searchable&lt;/languageKeyword&gt;</ph> fields consume extra space in your index since Azure Search will store an additional tokenized version of the field value for full-text searches.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>If you want to save space in your index and you don't need a field to be included in searches, set <ph id="1">&lt;languageKeyword&gt;searchable&lt;/languageKeyword&gt;</ph> to <ph id="2">&lt;codeInline&gt;false&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">If you want to save space in your index and you don't need a field to be included in searches, set <ph id="1">&lt;languageKeyword&gt;searchable&lt;/languageKeyword&gt;</ph> to <ph id="2">&lt;codeInline&gt;false&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Allows the field to be referenced in <ph id="1">&lt;languageKeyword&gt;$filter&lt;/languageKeyword&gt;</ph> queries.</source>
+            <target state="new">Allows the field to be referenced in <ph id="1">&lt;languageKeyword&gt;$filter&lt;/languageKeyword&gt;</ph> queries.</target>
+          </trans-unit>
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;filterable&lt;/languageKeyword&gt;</ph> differs from searchable in how strings are handled.</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;filterable&lt;/languageKeyword&gt;</ph> differs from searchable in how strings are handled.</target>
+          </trans-unit>
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Fields of type <ph id="1">&lt;codeInline&gt;Edm.String&lt;/codeInline&gt;</ph> or <ph id="2">&lt;codeInline&gt;Collection(Edm.String)&lt;/codeInline&gt;</ph> that are <ph id="3">&lt;languageKeyword&gt;filterable&lt;/languageKeyword&gt;</ph> do not undergo word-breaking, so comparisons are for exact matches only.</source>
+            <target state="new">Fields of type <ph id="1">&lt;codeInline&gt;Edm.String&lt;/codeInline&gt;</ph> or <ph id="2">&lt;codeInline&gt;Collection(Edm.String)&lt;/codeInline&gt;</ph> that are <ph id="3">&lt;languageKeyword&gt;filterable&lt;/languageKeyword&gt;</ph> do not undergo word-breaking, so comparisons are for exact matches only.</target>
+          </trans-unit>
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>For example, if you set such a field f to "sunny day", <ph id="1">&lt;codeInline&gt;$filter=f eq 'sunny'&lt;/codeInline&gt;</ph> will find no matches, but <ph id="2">&lt;codeInline&gt;$filter=f eq 'sunny day'&lt;/codeInline&gt;</ph> will.</source>
+            <target state="new">For example, if you set such a field f to "sunny day", <ph id="1">&lt;codeInline&gt;$filter=f eq 'sunny'&lt;/codeInline&gt;</ph> will find no matches, but <ph id="2">&lt;codeInline&gt;$filter=f eq 'sunny day'&lt;/codeInline&gt;</ph> will.</target>
+          </trans-unit>
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>All fields are <ph id="1">&lt;languageKeyword&gt;filterable&lt;/languageKeyword&gt;</ph> by default.</source>
+            <target state="new">All fields are <ph id="1">&lt;languageKeyword&gt;filterable&lt;/languageKeyword&gt;</ph> by default.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>By default the system sorts results by score, but in many experiences users will want to sort by fields in the documents.</source>
+            <target state="new">By default the system sorts results by score, but in many experiences users will want to sort by fields in the documents.</target>
+          </trans-unit>
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Fields of type <ph id="1">&lt;codeInline&gt;Collection(Edm.String)&lt;/codeInline&gt;</ph> cannot be <ph id="2">&lt;languageKeyword&gt;sortable&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">Fields of type <ph id="1">&lt;codeInline&gt;Collection(Edm.String)&lt;/codeInline&gt;</ph> cannot be <ph id="2">&lt;languageKeyword&gt;sortable&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>All other fields are <ph id="1">&lt;languageKeyword&gt;sortable&lt;/languageKeyword&gt;</ph> by default.</source>
+            <target state="new">All other fields are <ph id="1">&lt;languageKeyword&gt;sortable&lt;/languageKeyword&gt;</ph> by default.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Typically used in a presentation of search results that includes hit count by category (e.g. search for digital cameras and see hits by brand, by megapixels, by price, etc.).</source>
+            <target state="new">Typically used in a presentation of search results that includes hit count by category (e.g. search for digital cameras and see hits by brand, by megapixels, by price, etc.).</target>
+          </trans-unit>
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>This option cannot be used with fields of type <ph id="1">&lt;codeInline&gt;Edm.GeographyPoint&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">This option cannot be used with fields of type <ph id="1">&lt;codeInline&gt;Edm.GeographyPoint&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>All other fields are <ph id="1">&lt;languageKeyword&gt;facetable&lt;/languageKeyword&gt;</ph> by default.</source>
+            <target state="new">All other fields are <ph id="1">&lt;languageKeyword&gt;facetable&lt;/languageKeyword&gt;</ph> by default.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Fields of type <ph id="1">&lt;codeInline&gt;Edm.String&lt;/codeInline&gt;</ph> that are <ph id="2">&lt;languageKeyword&gt;filterable&lt;/languageKeyword&gt;</ph>, <ph id="3">&lt;languageKeyword&gt;sortable&lt;/languageKeyword&gt;</ph>, or <ph id="4">&lt;languageKeyword&gt;facetable&lt;/languageKeyword&gt;</ph> can be at most 32 kilobytes in length.</source>
+            <target state="new">Fields of type <ph id="1">&lt;codeInline&gt;Edm.String&lt;/codeInline&gt;</ph> that are <ph id="2">&lt;languageKeyword&gt;filterable&lt;/languageKeyword&gt;</ph>, <ph id="3">&lt;languageKeyword&gt;sortable&lt;/languageKeyword&gt;</ph>, or <ph id="4">&lt;languageKeyword&gt;facetable&lt;/languageKeyword&gt;</ph> can be at most 32 kilobytes in length.</target>
+          </trans-unit>
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>This is because such fields are treated as a single search term, and the maximum length of a term in Azure Search is 32K kilobytes.</source>
+            <target state="new">This is because such fields are treated as a single search term, and the maximum length of a term in Azure Search is 32K kilobytes.</target>
+          </trans-unit>
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>If you need to store more text than this in a single string field, you will need to explicitly set <ph id="1">&lt;languageKeyword&gt;filterable&lt;/languageKeyword&gt;</ph>, <ph id="2">&lt;languageKeyword&gt;sortable&lt;/languageKeyword&gt;</ph>, and <ph id="3">&lt;languageKeyword&gt;facetable&lt;/languageKeyword&gt;</ph> to <ph id="4">&lt;codeInline&gt;false&lt;/codeInline&gt;</ph> in your index definition.</source>
+            <target state="new">If you need to store more text than this in a single string field, you will need to explicitly set <ph id="1">&lt;languageKeyword&gt;filterable&lt;/languageKeyword&gt;</ph>, <ph id="2">&lt;languageKeyword&gt;sortable&lt;/languageKeyword&gt;</ph>, and <ph id="3">&lt;languageKeyword&gt;facetable&lt;/languageKeyword&gt;</ph> to <ph id="4">&lt;codeInline&gt;false&lt;/codeInline&gt;</ph> in your index definition.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>If a field has none of the above attributes set to <ph id="1">&lt;codeInline&gt;true&lt;/codeInline&gt;</ph> (searchable, filterable, sortable, facetable) the field is effectively excluded from the inverted index.</source>
+            <target state="new">If a field has none of the above attributes set to <ph id="1">&lt;codeInline&gt;true&lt;/codeInline&gt;</ph> (searchable, filterable, sortable, facetable) the field is effectively excluded from the inverted index.</target>
+          </trans-unit>
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>This option is useful for fields that are not used in queries, but are needed in search results.</source>
+            <target state="new">This option is useful for fields that are not used in queries, but are needed in search results.</target>
+          </trans-unit>
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Excluding such fields from the index improves performance.</source>
+            <target state="new">Excluding such fields from the index improves performance.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Previous versions of the API included a <ph id="1">&lt;languageKeyword&gt;suggestions&lt;/languageKeyword&gt;</ph> property.</source>
+            <target state="new">Previous versions of the API included a <ph id="1">&lt;languageKeyword&gt;suggestions&lt;/languageKeyword&gt;</ph> property.</target>
+          </trans-unit>
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>This boolean property is now discontinued.</source>
+            <target state="new">This boolean property is now discontinued.</target>
+          </trans-unit>
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Please use the Suggesters API instead.</source>
+            <target state="new">Please use the Suggesters API instead.</target>
+          </trans-unit>
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>In the preview version, the <ph id="1">&lt;languageKeyword&gt;suggestions&lt;/languageKeyword&gt;</ph> property was used to specify whether the field could be used for auto-complete for type ahead, for fields of type <ph id="2">&lt;codeInline&gt;Edm.String&lt;/codeInline&gt;</ph> or <ph id="3">&lt;codeInline&gt;Collection(Edm.String)&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">In the preview version, the <ph id="1">&lt;languageKeyword&gt;suggestions&lt;/languageKeyword&gt;</ph> property was used to specify whether the field could be used for auto-complete for type ahead, for fields of type <ph id="2">&lt;codeInline&gt;Edm.String&lt;/codeInline&gt;</ph> or <ph id="3">&lt;codeInline&gt;Collection(Edm.String)&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Marks the field as containing unique identifiers for documents within the index.</source>
+            <target state="new">Marks the field as containing unique identifiers for documents within the index.</target>
+          </trans-unit>
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Exactly one field must be chosen as the key field and it must be of type <ph id="1">&lt;codeInline&gt;Edm.String&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Exactly one field must be chosen as the key field and it must be of type <ph id="1">&lt;codeInline&gt;Edm.String&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Key fields can be used to look up documents directly.</source>
+            <target state="new">Key fields can be used to look up documents directly.</target>
+          </trans-unit>
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="74a67156-c579-4b5f-8f61-3c2e8b83070c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Lookup a document in a search index (Azure Search)&lt;/link&gt;</ph> for details.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="74a67156-c579-4b5f-8f61-3c2e8b83070c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Lookup a document in a search index (Azure Search)&lt;/link&gt;</ph> for details.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Sets whether the field can be returned in a search result.</source>
+            <target state="new">Sets whether the field can be returned in a search result.</target>
+          </trans-unit>
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>This is useful when you want to use a field (e.g., margin) as a filter, sorting, or scoring mechanism but do not want the field to be visible to the end user.</source>
+            <target state="new">This is useful when you want to use a field (e.g., margin) as a filter, sorting, or scoring mechanism but do not want the field to be visible to the end user.</target>
+          </trans-unit>
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>This attribute must be <ph id="1">&lt;codeInline&gt;true&lt;/codeInline&gt;</ph> for <ph id="2">&lt;codeInline&gt;key&lt;/codeInline&gt;</ph> fields.</source>
+            <target state="new">This attribute must be <ph id="1">&lt;codeInline&gt;true&lt;/codeInline&gt;</ph> for <ph id="2">&lt;codeInline&gt;key&lt;/codeInline&gt;</ph> fields.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Sets the name of the language analyzer to use for the field.</source>
+            <target state="new">Sets the name of the language analyzer to use for the field.</target>
+          </trans-unit>
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>For the allowed set of values see <ph id="1">&lt;link xlink:href="8f35915a-2bfa-4f23-80c3-e3f54e9e4543" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Language support (Azure Search REST API)&lt;/link&gt;</ph>.</source>
+            <target state="new">For the allowed set of values see <ph id="1">&lt;link xlink:href="8f35915a-2bfa-4f23-80c3-e3f54e9e4543" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Language support (Azure Search REST API)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>This option can be used only with <ph id="1">&lt;languageKeyword&gt;searchable&lt;/languageKeyword&gt;</ph> fields.</source>
+            <target state="new">This option can be used only with <ph id="1">&lt;languageKeyword&gt;searchable&lt;/languageKeyword&gt;</ph> fields.</target>
+          </trans-unit>
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>Once the analyzer is chosen, it cannot be changed for the field.</source>
+            <target state="new">Once the analyzer is chosen, it cannot be changed for the field.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Suggesters</source>
+            <target state="new">Suggesters</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>A <ph id="1">&lt;codeInline&gt;suggester&lt;/codeInline&gt;</ph> defines which fields in an index are used to support auto-complete in searches.</source>
+            <target state="new">A <ph id="1">&lt;codeInline&gt;suggester&lt;/codeInline&gt;</ph> defines which fields in an index are used to support auto-complete in searches.</target>
+          </trans-unit>
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>Typically partial search strings are sent to the <ph id="1">&lt;link xlink:href="b3fed159-774d-42e0-8ded-ee453f6cd857" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Suggestions (Azure Search Service REST API)&lt;/link&gt;</ph> while the user is typing a search query, and the API returns a set of suggested phrases.</source>
+            <target state="new">Typically partial search strings are sent to the <ph id="1">&lt;link xlink:href="b3fed159-774d-42e0-8ded-ee453f6cd857" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Suggestions (Azure Search Service REST API)&lt;/link&gt;</ph> while the user is typing a search query, and the API returns a set of suggested phrases.</target>
+          </trans-unit>
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>A <ph id="1">&lt;languageKeyword&gt;suggester&lt;/languageKeyword&gt;</ph> that you define in the index determines which fields are used to build the type-ahead search term.</source>
+            <target state="new">A <ph id="1">&lt;languageKeyword&gt;suggester&lt;/languageKeyword&gt;</ph> that you define in the index determines which fields are used to build the type-ahead search term.</target>
+          </trans-unit>
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="1dbc2c8d-5dfb-4662-bf5c-acd289848985" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Suggesters&lt;/link&gt;</ph> for configuration details.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="1dbc2c8d-5dfb-4662-bf5c-acd289848985" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Suggesters&lt;/link&gt;</ph> for configuration details.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Scoring Profiles</source>
+            <target state="new">Scoring Profiles</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>A scoring profile defines custom scoring behaviors that let you influence which items appear higher in the search results.</source>
+            <target state="new">A scoring profile defines custom scoring behaviors that let you influence which items appear higher in the search results.</target>
+          </trans-unit>
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>Scoring profiles are made up of field weights and functions.</source>
+            <target state="new">Scoring profiles are made up of field weights and functions.</target>
+          </trans-unit>
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>To use them, you specify a profile by name on the query string.</source>
+            <target state="new">To use them, you specify a profile by name on the query string.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>A default scoring profile operates behind the scenes to compute a search score for every item in a result set.</source>
+            <target state="new">A default scoring profile operates behind the scenes to compute a search score for every item in a result set.</target>
+          </trans-unit>
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>You can use the internal, unnamed scoring profile.</source>
+            <target state="new">You can use the internal, unnamed scoring profile.</target>
+          </trans-unit>
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>Alternatively, set <ph id="1">&lt;languageKeyword&gt;defaultScoringProfile&lt;/languageKeyword&gt;</ph> to use a custom profile as the default, invoked whenever a custom profile is not specified on the query string.</source>
+            <target state="new">Alternatively, set <ph id="1">&lt;languageKeyword&gt;defaultScoringProfile&lt;/languageKeyword&gt;</ph> to use a custom profile as the default, invoked whenever a custom profile is not specified on the query string.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="719b924e-6d8a-43c1-b7b0-827487020e3a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Add scoring profiles to a search index (Azure Search API)&lt;/link&gt;</ph> for details.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="719b924e-6d8a-43c1-b7b0-827487020e3a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Add scoring profiles to a search index (Azure Search API)&lt;/link&gt;</ph> for details.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>CORS Options</source>
+            <target state="new">CORS Options</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>Client-side JavaScript cannot call any APIs by default since the browser will prevent all cross-origin requests.</source>
+            <target state="new">Client-side JavaScript cannot call any APIs by default since the browser will prevent all cross-origin requests.</target>
+          </trans-unit>
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>To allow cross-origin queries to your index, enable CORS (Cross-Origin Resource Sharing) by setting the <ph id="1">&lt;languageKeyword&gt;corsOptions&lt;/languageKeyword&gt;</ph> attribute.</source>
+            <target state="new">To allow cross-origin queries to your index, enable CORS (Cross-Origin Resource Sharing) by setting the <ph id="1">&lt;languageKeyword&gt;corsOptions&lt;/languageKeyword&gt;</ph> attribute.</target>
+          </trans-unit>
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>Note that for security reasons, only query APIs support CORS.</source>
+            <target state="new">Note that for security reasons, only query APIs support CORS.</target>
+          </trans-unit>
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>The following options can be set for CORS:</source>
+            <target state="new">The following options can be set for CORS:</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;allowedOrigins&lt;/languageKeyword&gt;</ph> (required):</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;allowedOrigins&lt;/languageKeyword&gt;</ph> (required):</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>This is a list of origins that will be granted access to your index.</source>
+            <target state="new">This is a list of origins that will be granted access to your index.</target>
+          </trans-unit>
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>This means that any JavaScript code served from those origins will be allowed to query your index (assuming it provides the correct <ph id="1">&lt;codeInline&gt;api-key&lt;/codeInline&gt;</ph>).</source>
+            <target state="new">This means that any JavaScript code served from those origins will be allowed to query your index (assuming it provides the correct <ph id="1">&lt;codeInline&gt;api-key&lt;/codeInline&gt;</ph>).</target>
+          </trans-unit>
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>Each origin is typically of the form protocol://&lt;fully-qualified-domain-name&gt;:&lt;port&gt; although the &lt;port&gt; is often omitted.</source>
+            <target state="new">Each origin is typically of the form protocol://&lt;fully-qualified-domain-name&gt;:&lt;port&gt; although the &lt;port&gt; is often omitted.</target>
+          </trans-unit>
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>See <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Cross-origin resource sharing (Wikipedia)<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://en.wikipedia.org/wiki/Cross-origin_resource_sharing&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for more details.</source>
+            <target state="new">See <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Cross-origin resource sharing (Wikipedia)<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://en.wikipedia.org/wiki/Cross-origin_resource_sharing&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for more details.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>If you want to allow access to all origins, include * as a single item in the <ph id="1">&lt;languageKeyword&gt;allowedOrigins&lt;/languageKeyword&gt;</ph> array.</source>
+            <target state="new">If you want to allow access to all origins, include * as a single item in the <ph id="1">&lt;languageKeyword&gt;allowedOrigins&lt;/languageKeyword&gt;</ph> array.</target>
+          </trans-unit>
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>Note that <bpt id="1">&lt;embeddedLabel&gt;</bpt>this is not recommended practice for production search services<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Note that <bpt id="1">&lt;embeddedLabel&gt;</bpt>this is not recommended practice for production search services<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>However, it may be useful for development or debugging purposes.</source>
+            <target state="new">However, it may be useful for development or debugging purposes.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;languageKeyword&gt;maxAgeInSeconds&lt;/languageKeyword&gt;</ph> (optional):</source>
+            <target state="new"><ph id="1">&lt;languageKeyword&gt;maxAgeInSeconds&lt;/languageKeyword&gt;</ph> (optional):</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>Browsers use this value to determine the duration (in seconds) to cache CORS preflight responses.</source>
+            <target state="new">Browsers use this value to determine the duration (in seconds) to cache CORS preflight responses.</target>
+          </trans-unit>
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>This must be a non-negative integer.</source>
+            <target state="new">This must be a non-negative integer.</target>
+          </trans-unit>
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>The larger this value is, the better performance will be, but the longer it will take for CORS policy changes to take effect.</source>
+            <target state="new">The larger this value is, the better performance will be, but the longer it will take for CORS policy changes to take effect.</target>
+          </trans-unit>
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>If it is not set, a default duration of 5 minutes will be used.</source>
+            <target state="new">If it is not set, a default duration of 5 minutes will be used.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>Request Body Example</source>
+            <target state="new">Request Body Example</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>You can have up to 1000 fields in each index.</source>
+            <target state="new">You can have up to 1000 fields in each index.</target>
+          </trans-unit>
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="a8b1e21e-7703-4718-8e29-c8825354b3ec" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Limits and constraints (Azure Search API)&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="36a5b042-285b-46d1-8065-9558e328967c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Naming Rules (Azure Search)&lt;/link&gt;</ph> for information about maximum limits and allowable characters.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="a8b1e21e-7703-4718-8e29-c8825354b3ec" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Limits and constraints (Azure Search API)&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="36a5b042-285b-46d1-8065-9558e328967c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Naming Rules (Azure Search)&lt;/link&gt;</ph> for information about maximum limits and allowable characters.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>Response</source>
+            <target state="new">Response</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>For a successful request, you should see status code "201 Created".</source>
+            <target state="new">For a successful request, you should see status code "201 Created".</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>By default, the response body will contain the JSON for the index definition that was created.</source>
+            <target state="new">By default, the response body will contain the JSON for the index definition that was created.</target>
+          </trans-unit>
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>However, if the Prefer request header is set to return=minimal, the response body will be empty, and the success status code will be "204 No Content" instead of "201 Created".</source>
+            <target state="new">However, if the Prefer request header is set to return=minimal, the response body will be empty, and the success status code will be "204 No Content" instead of "201 Created".</target>
+          </trans-unit>
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>This is true regardless of whether PUT or POST is used to create the index.</source>
+            <target state="new">This is true regardless of whether PUT or POST is used to create the index.</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>Remarks</source>
+            <target state="new">Remarks</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>Currently, there is limited support for index schema updates.</source>
+            <target state="new">Currently, there is limited support for index schema updates.</target>
+          </trans-unit>
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>Any schema updates that would require re-indexing such as changing field types are not currently supported.</source>
+            <target state="new">Any schema updates that would require re-indexing such as changing field types are not currently supported.</target>
+          </trans-unit>
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>Although existing fields cannot be changed or deleted, new fields can be added to an existing index at any time.</source>
+            <target state="new">Although existing fields cannot be changed or deleted, new fields can be added to an existing index at any time.</target>
+          </trans-unit>
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>When a new field is added, all existing documents in the index will automatically have a null value for that field.</source>
+            <target state="new">When a new field is added, all existing documents in the index will automatically have a null value for that field.</target>
+          </trans-unit>
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>No additional storage space will be consumed until new documents are added to the index.</source>
+            <target state="new">No additional storage space will be consumed until new documents are added to the index.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>Azure Search .NET SDK</source>
+            <target state="new">Azure Search .NET SDK</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

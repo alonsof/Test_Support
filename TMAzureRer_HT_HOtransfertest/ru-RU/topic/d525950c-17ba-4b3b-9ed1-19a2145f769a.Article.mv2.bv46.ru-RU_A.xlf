@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ru-RU" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANyssJwzAMANBVNIAE/shO1Al6Lu0Aki1DoE0gTSDjt+/8xshunBq5MxPHEcjCbNRC1CoyoqogqDfOWmcKnv5rNKHZe6apWcjWU6nqCL2kIiU0ipMpsWUj8R4piqbIZUxVFCEi7Cc9XgjXexnDr+O2b9uBkBC4ItzPj67PXdfvW49lW39Sum2yogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Naming and Referencing Containers, Blobs, and Metadata</source>
+            <target state="new">Naming and Referencing Containers, Blobs, and Metadata</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This topic describes naming and referring to containers, blobs, metadata, and snapshots.</source>
+            <target state="new">This topic describes naming and referring to containers, blobs, metadata, and snapshots.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>A storage account can contain zero or more containers.</source>
+            <target state="new">A storage account can contain zero or more containers.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>A container contains properties, metadata, and zero or more blobs.</source>
+            <target state="new">A container contains properties, metadata, and zero or more blobs.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>A blob is any single entity comprised of binary data, properties, and metadata.</source>
+            <target state="new">A blob is any single entity comprised of binary data, properties, and metadata.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Resource Names</source>
+            <target state="new">Resource Names</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The URI to reference a container or a blob must be unique.</source>
+            <target state="new">The URI to reference a container or a blob must be unique.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Because every account name is unique, two accounts can have containers with the same name.</source>
+            <target state="new">Because every account name is unique, two accounts can have containers with the same name.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>However, within a given storage account, every container must have a unique name.</source>
+            <target state="new">However, within a given storage account, every container must have a unique name.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Every blob within a given container must also have a unique name within that container.</source>
+            <target state="new">Every blob within a given container must also have a unique name within that container.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>If you attempt to create a container or blob with a name that violates naming rules, the request will fail with status code 400 (Bad Request).</source>
+            <target state="new">If you attempt to create a container or blob with a name that violates naming rules, the request will fail with status code 400 (Bad Request).</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Blob and container names are passed to the Blob service within a URL.</source>
+            <target state="new">Blob and container names are passed to the Blob service within a URL.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Certain characters must be percent-encoded to appear in a URL, using UTF-8 (preferred) or MBCS.</source>
+            <target state="new">Certain characters must be percent-encoded to appear in a URL, using UTF-8 (preferred) or MBCS.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>This encoding occurs automatically when you use the Azure .NET Libraries or construct a <ph id="1">&lt;codeEntityReference autoUpgrade="true" qualifyHint="false"&gt;T:System.Uri&lt;/codeEntityReference&gt;</ph> object that includes a blob or container name.</source>
+            <target state="new">This encoding occurs automatically when you use the Azure .NET Libraries or construct a <ph id="1">&lt;codeEntityReference autoUpgrade="true" qualifyHint="false"&gt;T:System.Uri&lt;/codeEntityReference&gt;</ph> object that includes a blob or container name.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>However, there are certain characters that are not valid in URL paths even when encoded.</source>
+            <target state="new">However, there are certain characters that are not valid in URL paths even when encoded.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>These characters cannot appear in blob or container names.</source>
+            <target state="new">These characters cannot appear in blob or container names.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Code points like \uE000, while valid in NTFS filenames, are not valid Unicode characters, so they cannot be used.</source>
+            <target state="new">Code points like \uE000, while valid in NTFS filenames, are not valid Unicode characters, so they cannot be used.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>In addition, some ASCII or Unicode characters, like control characters (0x00 to 0x1F, \u0081, etc.), are also not allowed.</source>
+            <target state="new">In addition, some ASCII or Unicode characters, like control characters (0x00 to 0x1F, \u0081, etc.), are also not allowed.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>For rules governing Unicode strings in HTTP/1.1 see:</source>
+            <target state="new">For rules governing Unicode strings in HTTP/1.1 see:</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>RFC 2616, Section 2.2: Basic Rules</source>
+            <target state="new">RFC 2616, Section 2.2: Basic Rules</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>RFC 3987</source>
+            <target state="new">RFC 3987</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Container Names</source>
+            <target state="new">Container Names</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>A container name must be a valid DNS name, conforming to the following naming rules:</source>
+            <target state="new">A container name must be a valid DNS name, conforming to the following naming rules:</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Container names must start with a letter or number, and can contain only letters, numbers, and the dash (-) character.</source>
+            <target state="new">Container names must start with a letter or number, and can contain only letters, numbers, and the dash (-) character.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Every dash (-) character must be immediately preceded and followed by a letter or number; consecutive dashes are not permitted in container names.</source>
+            <target state="new">Every dash (-) character must be immediately preceded and followed by a letter or number; consecutive dashes are not permitted in container names.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>All letters in a container name must be lowercase.</source>
+            <target state="new">All letters in a container name must be lowercase.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Container names must be from 3 through 63 characters long.</source>
+            <target state="new">Container names must be from 3 through 63 characters long.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Blob Names</source>
+            <target state="new">Blob Names</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>A blob name must conforming to the following naming rules:</source>
+            <target state="new">A blob name must conforming to the following naming rules:</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>A blob name can contain any combination of characters.</source>
+            <target state="new">A blob name can contain any combination of characters.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>A blob name must be at least one character long and cannot be more than 1,024 characters long.</source>
+            <target state="new">A blob name must be at least one character long and cannot be more than 1,024 characters long.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Blob names are case-sensitive.</source>
+            <target state="new">Blob names are case-sensitive.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Reserved URL characters must be properly escaped.</source>
+            <target state="new">Reserved URL characters must be properly escaped.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>The number of path segments comprising the blob name cannot exceed 254.</source>
+            <target state="new">The number of path segments comprising the blob name cannot exceed 254.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>A path segment is the string between consecutive delimiter characters (<bpt id="1">&lt;legacyItalic&gt;</bpt>e.g.<ept id="1">&lt;/legacyItalic&gt;</ept>, the forward slash '/') that corresponds to the name of a virtual directory.</source>
+            <target state="new">A path segment is the string between consecutive delimiter characters (<bpt id="1">&lt;legacyItalic&gt;</bpt>e.g.<ept id="1">&lt;/legacyItalic&gt;</ept>, the forward slash '/') that corresponds to the name of a virtual directory.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Avoid blob names that end with a dot (.), a forward slash (/), or a sequence or combination of the two.</source>
+            <target state="new">Avoid blob names that end with a dot (.), a forward slash (/), or a sequence or combination of the two.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>The Blob service is based on a flat storage scheme, not a hierarchical scheme.</source>
+            <target state="new">The Blob service is based on a flat storage scheme, not a hierarchical scheme.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>However, you may specify a character or string delimiter within a blob name to create a virtual hierarchy.</source>
+            <target state="new">However, you may specify a character or string delimiter within a blob name to create a virtual hierarchy.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>For example, the following list shows valid and unique blob names.</source>
+            <target state="new">For example, the following list shows valid and unique blob names.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Notice that a string can be valid as both a blob name and as a virtual directory name in the same container:</source>
+            <target state="new">Notice that a string can be valid as both a blob name and as a virtual directory name in the same container:</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>/a</source>
+            <target state="new">/a</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>/a.txt</source>
+            <target state="new">/a.txt</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>/a/b</source>
+            <target state="new">/a/b</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>/a/b.txt</source>
+            <target state="new">/a/b.txt</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>You can take advantage of the delimiter character when enumerating blobs.</source>
+            <target state="new">You can take advantage of the delimiter character when enumerating blobs.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Metadata Names</source>
+            <target state="new">Metadata Names</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Metadata for a container or blob resource is stored as name-value pairs associated with the resource.</source>
+            <target state="new">Metadata for a container or blob resource is stored as name-value pairs associated with the resource.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Metadata names must adhere to the naming rules for <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>C# identifiers<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/aa664670(VS.71).aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">Metadata names must adhere to the naming rules for <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>C# identifiers<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/aa664670(VS.71).aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Note that metadata names preserve the case with which they were created, but are case-insensitive when set or read.</source>
+            <target state="new">Note that metadata names preserve the case with which they were created, but are case-insensitive when set or read.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>If two or more metadata headers with the same name are submitted for a resource, the Blob service returns status code 400 (Bad Request).</source>
+            <target state="new">If two or more metadata headers with the same name are submitted for a resource, the Blob service returns status code 400 (Bad Request).</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Resource URI Syntax</source>
+            <target state="new">Resource URI Syntax</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Each resource has a corresponding base URI, which refers to the resource itself.</source>
+            <target state="new">Each resource has a corresponding base URI, which refers to the resource itself.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>For the storage account, the base URI includes the name of the account only:</source>
+            <target state="new">For the storage account, the base URI includes the name of the account only:</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>For a container, the base URI includes the name of the account and the name of the container:</source>
+            <target state="new">For a container, the base URI includes the name of the account and the name of the container:</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>For a blob, the base URI includes the name of the account, the name of the container, and the name of the blob:</source>
+            <target state="new">For a blob, the base URI includes the name of the account, the name of the container, and the name of the blob:</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>A storage account may have a root container, a default container that can be omitted from the URI.</source>
+            <target state="new">A storage account may have a root container, a default container that can be omitted from the URI.</target>
+          </trans-unit>
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>A blob in the root container can be referenced without naming the container, or the root container can be explicitly referenced by its name (<ph id="1">&lt;codeInline&gt;$root&lt;/codeInline&gt;</ph>).</source>
+            <target state="new">A blob in the root container can be referenced without naming the container, or the root container can be explicitly referenced by its name (<ph id="1">&lt;codeInline&gt;$root&lt;/codeInline&gt;</ph>).</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="6ec9ec4e-1758-4515-92b4-a85d4f27cf05" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Working with the Root Container&lt;/link&gt;</ph> for more information.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="6ec9ec4e-1758-4515-92b4-a85d4f27cf05" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Working with the Root Container&lt;/link&gt;</ph> for more information.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>The following URIs both refer to a blob in the root container:</source>
+            <target state="new">The following URIs both refer to a blob in the root container:</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Blob Snapshots</source>
+            <target state="new">Blob Snapshots</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>A snapshot is a read-only version of a blob stored as it was at the time the snapshot was created.</source>
+            <target state="new">A snapshot is a read-only version of a blob stored as it was at the time the snapshot was created.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>You can use snapshots to create a backup or checkpoint of a blob.</source>
+            <target state="new">You can use snapshots to create a backup or checkpoint of a blob.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>A snapshot blob name includes the base blob URI plus a date-time value that indicates when the snapshot was created.</source>
+            <target state="new">A snapshot blob name includes the base blob URI plus a date-time value that indicates when the snapshot was created.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>For example, assume that a blob has the following URI:</source>
+            <target state="new">For example, assume that a blob has the following URI:</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>The URI for a snapshot of that blob is formed as follows:</source>
+            <target state="new">The URI for a snapshot of that blob is formed as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>The .NET client library can list snapshots as <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.StorageClient.CloudBlob&lt;/codeEntityReference&gt;</ph> objects when you call <ph id="2">&lt;codeEntityReference&gt;M:Microsoft.WindowsAzure.StorageClient.CloudBlobContainer.ListBlobs(Microsoft.WindowsAzure.StorageClient.BlobRequestOptions)&lt;/codeEntityReference&gt;</ph> with <ph id="3">&lt;codeEntityReference&gt;P:Microsoft.WindowsAzure.StorageClient.BlobRequestOptions.BlobListingDetails&lt;/codeEntityReference&gt;</ph> set to <ph id="4">&lt;codeEntityReference&gt;F:Microsoft.WindowsAzure.StorageClient.BlobListingDetails.Snapshots&lt;/codeEntityReference&gt;</ph>.</source>
+            <target state="new">The .NET client library can list snapshots as <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.WindowsAzure.StorageClient.CloudBlob&lt;/codeEntityReference&gt;</ph> objects when you call <ph id="2">&lt;codeEntityReference&gt;M:Microsoft.WindowsAzure.StorageClient.CloudBlobContainer.ListBlobs(Microsoft.WindowsAzure.StorageClient.BlobRequestOptions)&lt;/codeEntityReference&gt;</ph> with <ph id="3">&lt;codeEntityReference&gt;P:Microsoft.WindowsAzure.StorageClient.BlobRequestOptions.BlobListingDetails&lt;/codeEntityReference&gt;</ph> set to <ph id="4">&lt;codeEntityReference&gt;F:Microsoft.WindowsAzure.StorageClient.BlobListingDetails.Snapshots&lt;/codeEntityReference&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>How to Use the Blob Storage Service</source>
+            <target state="new">How to Use the Blob Storage Service</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

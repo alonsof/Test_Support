@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzMEJwzAMAMBVPIAFlq3YcQcofZcuIMkSBNoE0hQyfvO477kXE8oKZkRA6AkkzQKakGvvjsw9hobNVYpDs8pAMghmsgLZaOSh6pJzDJqkae0VhucBpMjQp2GApXaZp6mZeQwYg+9wf8Zwvhd3O4/bvm1HDNeAl8fvw+tr5/X75mPZ1j9OoGB5ogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Step 6: Test the Solution</source>
+            <target state="new">Step 6: Test the Solution</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>In this topic, you go through the procedures to test the solution.</source>
+            <target state="new">In this topic, you go through the procedures to test the solution.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This solution has two scenarios to be tested:</source>
+            <target state="new">This solution has two scenarios to be tested:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>The success scenario<ept id="1">&lt;/embeddedLabel&gt;</ept> where the message is routed from the EDI receive pipeline to the intermediary <ph id="2">&lt;token&gt;xml_bridge&lt;/token&gt;</ph>, hosted at <ph id="3">&lt;codeInline&gt;https://&lt;legacyItalic&gt;%%amp;lt;mybiztalkservicename%%amp;gt;&lt;/legacyItalic&gt;.biztalk.windows.net/default/B2BConnector&lt;/codeInline&gt;</ph>, which finally routes the message to an on-premise SAP Server via a relay endpoint hosted on <ph id="4">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>The success scenario<ept id="1">&lt;/embeddedLabel&gt;</ept> where the message is routed from the EDI receive pipeline to the intermediary <ph id="2">&lt;token&gt;xml_bridge&lt;/token&gt;</ph>, hosted at <ph id="3">&lt;codeInline&gt;https://&lt;legacyItalic&gt;%%amp;lt;mybiztalkservicename%%amp;gt;&lt;/legacyItalic&gt;.biztalk.windows.net/default/B2BConnector&lt;/codeInline&gt;</ph>, which finally routes the message to an on-premise SAP Server via a relay endpoint hosted on <ph id="4">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>To test this scenario, you drop a valid X12 850 PO message to the FTP location and then use the SAP GUI to see if the ORDERS05 IDOC is received in SAP.</source>
+            <target state="new">To test this scenario, you drop a valid X12 850 PO message to the FTP location and then use the SAP GUI to see if the ORDERS05 IDOC is received in SAP.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>The failure scenario<ept id="1">&lt;/embeddedLabel&gt;</ept> where the message is routed to <ph id="2">&lt;codeInline&gt;https://&lt;legacyItalic&gt;%%amp;lt;servicebus_namespace%%amp;gt;&lt;/legacyItalic&gt;.servicebus.windows.net/Suspend&lt;/codeInline&gt;</ph>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>The failure scenario<ept id="1">&lt;/embeddedLabel&gt;</ept> where the message is routed to <ph id="2">&lt;codeInline&gt;https://&lt;legacyItalic&gt;%%amp;lt;servicebus_namespace%%amp;gt;&lt;/legacyItalic&gt;.servicebus.windows.net/Suspend&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>To test this scenario, we’ll drop an invalid X12 850 PO message (so that it fails), and gets routed to failure endpoint.</source>
+            <target state="new">To test this scenario, we’ll drop an invalid X12 850 PO message (so that it fails), and gets routed to failure endpoint.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>We use a relay receiver service that captures any message that hits the failure endpoint and writes the error message to an XML file.</source>
+            <target state="new">We use a relay receiver service that captures any message that hits the failure endpoint and writes the error message to an XML file.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>To test the success scenario</source>
+            <target state="new">To test the success scenario</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Navigate to the location where you downloaded and extracted <bpt id="1">&lt;embeddedLabel&gt;</bpt>SAPIntegration.zip<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Navigate to the location where you downloaded and extracted <bpt id="1">&lt;embeddedLabel&gt;</bpt>SAPIntegration.zip<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>InputMessages<ept id="1">&lt;/embeddedLabel&gt;</ept> folder, copy <bpt id="2">&lt;embeddedLabel&gt;</bpt>Success_SampleMessage.edi<ept id="2">&lt;/embeddedLabel&gt;</ept> and drop it to the FTP location you specified in the EDI agreement.</source>
+            <target state="new">From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>InputMessages<ept id="1">&lt;/embeddedLabel&gt;</ept> folder, copy <bpt id="2">&lt;embeddedLabel&gt;</bpt>Success_SampleMessage.edi<ept id="2">&lt;/embeddedLabel&gt;</ept> and drop it to the FTP location you specified in the EDI agreement.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Wait for the file to disappear.</source>
+            <target state="new">Wait for the file to disappear.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Using the SAP GUI, logon to the SAP Server you are targeting for this scenario.</source>
+            <target state="new">Using the SAP GUI, logon to the SAP Server you are targeting for this scenario.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>On the home screen, enter <bpt id="1">&lt;userInput&gt;</bpt>WE02<ept id="1">&lt;/userInput&gt;</ept> in the text box and press <bpt id="2">&lt;userInput&gt;</bpt>ENTER<ept id="2">&lt;/userInput&gt;</ept>:</source>
+            <target state="new">On the home screen, enter <bpt id="1">&lt;userInput&gt;</bpt>WE02<ept id="1">&lt;/userInput&gt;</ept> in the text box and press <bpt id="2">&lt;userInput&gt;</bpt>ENTER<ept id="2">&lt;/userInput&gt;</ept>:</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>On the IDOC List page, press <bpt id="1">&lt;userInput&gt;</bpt>F8<ept id="1">&lt;/userInput&gt;</ept> to retrieve a list of IDOCs received.</source>
+            <target state="new">On the IDOC List page, press <bpt id="1">&lt;userInput&gt;</bpt>F8<ept id="1">&lt;/userInput&gt;</ept> to retrieve a list of IDOCs received.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>You must see an entry for the most recent IDOC received, as shown in the following screenshot:</source>
+            <target state="new">You must see an entry for the most recent IDOC received, as shown in the following screenshot:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>To test the failure scenario</source>
+            <target state="new">To test the failure scenario</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Download the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageReceiver<ept id="1">&lt;/embeddedLabel&gt;</ept> tool from <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>Azure BizTalk Services Samples<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=303933&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">Download the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageReceiver<ept id="1">&lt;/embeddedLabel&gt;</ept> tool from <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>Azure BizTalk Services Samples<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=303933&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Build the project and use the resulting command line executable to receive messages at a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> endpoint.</source>
+            <target state="new">Build the project and use the resulting command line executable to receive messages at a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> endpoint.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>This tool accepts command line parameter, and the sequence and usage of those parameters are:</source>
+            <target state="new">This tool accepts command line parameter, and the sequence and usage of those parameters are:</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Where:::</source>
+            <target state="new">Where:::</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Parameter name</source>
+            <target state="new">Parameter name</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> Namespace</source>
+            <target state="new"><ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> Namespace</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace</source>
+            <target state="new">The <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>IssuerName</source>
+            <target state="new">IssuerName</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Issuer Name for the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace</source>
+            <target state="new">Issuer Name for the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>IssuerKey</source>
+            <target state="new">IssuerKey</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Issuer Key for the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace</source>
+            <target state="new">Issuer Key for the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>RelativeAddress</source>
+            <target state="new">RelativeAddress</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Relative address of the relay endpoint where suspended messages are routed.</source>
+            <target state="new">Relative address of the relay endpoint where suspended messages are routed.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>You get this address under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Message Suspension Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> section of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Route<ept id="2">&lt;/embeddedLabel&gt;</ept> page on the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Receive Settings<ept id="3">&lt;/embeddedLabel&gt;</ept> tab for the agreement you created in <ph id="4">&lt;link xlink:href="370548fe-3443-4ae5-ba83-a29faad46b94" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create and Deploy the EDI Receive Pipeline&lt;/link&gt;</ph>.</source>
+            <target state="new">You get this address under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Message Suspension Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> section of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Route<ept id="2">&lt;/embeddedLabel&gt;</ept> page on the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Receive Settings<ept id="3">&lt;/embeddedLabel&gt;</ept> tab for the agreement you created in <ph id="4">&lt;link xlink:href="370548fe-3443-4ae5-ba83-a29faad46b94" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create and Deploy the EDI Receive Pipeline&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>For this tutorial, you configured the agreement to send suspended messages to <ph id="1">&lt;codeInline&gt;http://&lt;legacyItalic&gt;%%amp;lt;servicebus_namespace%%amp;gt;&lt;/legacyItalic&gt;.servicebus.windows.net/Suspend&lt;/codeInline&gt;</ph>, so you must set this parameter to <bpt id="2">&lt;userInput&gt;</bpt>Suspend<ept id="2">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For this tutorial, you configured the agreement to send suspended messages to <ph id="1">&lt;codeInline&gt;http://&lt;legacyItalic&gt;%%amp;lt;servicebus_namespace%%amp;gt;&lt;/legacyItalic&gt;.servicebus.windows.net/Suspend&lt;/codeInline&gt;</ph>, so you must set this parameter to <bpt id="2">&lt;userInput&gt;</bpt>Suspend<ept id="2">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Mode</source>
+            <target state="new">Mode</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Indicate whether the entity is a Queue, one-way relay, or a two-way relay.</source>
+            <target state="new">Indicate whether the entity is a Queue, one-way relay, or a two-way relay.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>For this tutorial, because we chose to receive the messages to a one-way relay, you must set this to <bpt id="1">&lt;userInput&gt;</bpt>OneWayRelay<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For this tutorial, because we chose to receive the messages to a one-way relay, you must set this to <bpt id="1">&lt;userInput&gt;</bpt>OneWayRelay<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>For this tutorial, to test the EDI solution, open a command prompt, navigate to the solution where you built the MessageReceiver project, and run the following command:</source>
+            <target state="new">For this tutorial, to test the EDI solution, open a command prompt, navigate to the solution where you built the MessageReceiver project, and run the following command:</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>This starts the relay service where the suspended messages get routed to.</source>
+            <target state="new">This starts the relay service where the suspended messages get routed to.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Navigate to the location where you downloaded and extracted <bpt id="1">&lt;embeddedLabel&gt;</bpt>SAPIntegration.zip<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Navigate to the location where you downloaded and extracted <bpt id="1">&lt;embeddedLabel&gt;</bpt>SAPIntegration.zip<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>InputMessages<ept id="1">&lt;/embeddedLabel&gt;</ept> folder, copy <bpt id="2">&lt;embeddedLabel&gt;</bpt>Failure_SampleMessage.edi<ept id="2">&lt;/embeddedLabel&gt;</ept> and drop it to the FTP location you specified in the EDI agreement.</source>
+            <target state="new">From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>InputMessages<ept id="1">&lt;/embeddedLabel&gt;</ept> folder, copy <bpt id="2">&lt;embeddedLabel&gt;</bpt>Failure_SampleMessage.edi<ept id="2">&lt;/embeddedLabel&gt;</ept> and drop it to the FTP location you specified in the EDI agreement.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Wait for the file to disappear.</source>
+            <target state="new">Wait for the file to disappear.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Switch back to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageReceiver<ept id="1">&lt;/embeddedLabel&gt;</ept> console window.</source>
+            <target state="new">Switch back to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageReceiver<ept id="1">&lt;/embeddedLabel&gt;</ept> console window.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>This console application shows the message received at the endpoint.</source>
+            <target state="new">This console application shows the message received at the endpoint.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>The message is also saved under the \bin\Debug folder of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageReceiver<ept id="1">&lt;/embeddedLabel&gt;</ept> project.</source>
+            <target state="new">The message is also saved under the \bin\Debug folder of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageReceiver<ept id="1">&lt;/embeddedLabel&gt;</ept> project.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

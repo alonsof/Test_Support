@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAdzFsKwjAQQNGtZAEZmEdapq5A8E/cwGSagWJtQCt0+RY/LwduhLRa2KG1UqBQIFTUCo5k4zQFmU05oWkZByTwhgxFKaAqCag5FZxFsEpOyjhUc4OIer5GIVA/U3BmZpfQ5jlRTs8Ot3tOx7pEtGO/vHvf/8A5Xb8v2x5v2z6r7Uvffhasbi2hAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="content">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Run a background processing task on the partition's primary replica.</source>
+            <target state="new">Run a background processing task on the partition's primary replica.</target>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The token to monitor for cancellation requests.</source>
+            <target state="new">The token to monitor for cancellation requests.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Implementers should take special care to honor the cancellationToken promptly, as delay in doing so may impact service availability.</source>
+            <target state="new">Implementers should take special care to honor the cancellationToken promptly, as delay in doing so may impact service availability.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>A task that represents the background processing operation.</source>
+            <target state="new">A task that represents the background processing operation.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Called on ChangeRole to Primary, this method is intended to allow derivations to implement background processing tasks which may be independent of client requests.</source>
+            <target state="new">Called on ChangeRole to Primary, this method is intended to allow derivations to implement background processing tasks which may be independent of client requests.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Unlike worker role RoleEntryPoint or a program's Main method, replica lifetime is not tied to RunAsync; terminating RunAsync is not considered termination of the service/replica, and no additional action is taken by the framework in this case.</source>
+            <target state="new">Unlike worker role RoleEntryPoint or a program's Main method, replica lifetime is not tied to RunAsync; terminating RunAsync is not considered termination of the service/replica, and no additional action is taken by the framework in this case.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Throwing an exception from within RunAsync is considered failure, and will result in transient fault being reported and subsequent replica movement.</source>
+            <target state="new">Throwing an exception from within RunAsync is considered failure, and will result in transient fault being reported and subsequent replica movement.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

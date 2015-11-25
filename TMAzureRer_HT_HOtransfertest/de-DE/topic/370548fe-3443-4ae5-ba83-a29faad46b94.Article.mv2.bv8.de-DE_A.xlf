@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzVEKgzAMANCr9AANpG2qyb432AF2gVQTEJyCU/D46/+D516sUZ7AjAgoOUJDbjBh0kHEk6rEkJuK8kQwcnIg4wyMFbvCVGmQ2QrFUEasxG5QiAqQWoWmXECzuOpMQ5OuUgyzwfMVw70u7nafj2Pfz57EwDG8r69un0O336rnsm9/geKKvKEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Step 5: Create and Deploy the EDI Receive Pipeline</source>
+            <target state="new">Step 5: Create and Deploy the EDI Receive Pipeline</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>In this topic, you configure the EDI Receive <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> that receives an X12 850 PO message from an FTP server, processes it, transforms it to an ORDERS05 IDOC, and then routes it to the <ph id="2">&lt;token&gt;one-way&lt;/token&gt;</ph> that you deployed in the previous step.</source>
+            <target state="new">In this topic, you configure the EDI Receive <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> that receives an X12 850 PO message from an FTP server, processes it, transforms it to an ORDERS05 IDOC, and then routes it to the <ph id="2">&lt;token&gt;one-way&lt;/token&gt;</ph> that you deployed in the previous step.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>To configure an EDI Receive pipeline</source>
+            <target state="new">To configure an EDI Receive pipeline</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Log into the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>.</source>
+            <target state="new">Log into the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You can get the URL for the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> from your <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription.</source>
+            <target state="new">You can get the URL for the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> from your <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>For more information about logging into the portal, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/p/?LinkId=317714<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=317714&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information about logging into the portal, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/p/?LinkId=317714<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=317714&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Create a partner for <bpt id="1">&lt;embeddedLabel&gt;</bpt>Fabrikam<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Contoso<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Create a partner for <bpt id="1">&lt;embeddedLabel&gt;</bpt>Fabrikam<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Contoso<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>On the left pane, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Partners<ept id="1">&lt;/embeddedLabel&gt;</ept>, and then from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Partners<ept id="2">&lt;/embeddedLabel&gt;</ept> page, select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add Partner<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">On the left pane, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Partners<ept id="1">&lt;/embeddedLabel&gt;</ept>, and then from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Partners<ept id="2">&lt;/embeddedLabel&gt;</ept> page, select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add Partner<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Create an agreement between the two partners.</source>
+            <target state="new">Create an agreement between the two partners.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Agreements<ept id="1">&lt;/embeddedLabel&gt;</ept> page, select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>EDI<ept id="2">&lt;/embeddedLabel&gt;</ept> tab if you are not already on that tab.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Agreements<ept id="1">&lt;/embeddedLabel&gt;</ept> page, select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>EDI<ept id="2">&lt;/embeddedLabel&gt;</ept> tab if you are not already on that tab.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Set the following values for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>General Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> tab.</source>
+            <target state="new">Set the following values for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>General Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> tab.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Field</source>
+            <target state="new">Field</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Enter a name for the agreement.</source>
+            <target state="new">Enter a name for the agreement.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>For this tutorial, enter <bpt id="1">&lt;userInput&gt;</bpt>SAPIntegration<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For this tutorial, enter <bpt id="1">&lt;userInput&gt;</bpt>SAPIntegration<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>This is a mandatory field.</source>
+            <target state="new">This is a mandatory field.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>The name for the agreement must be unique.</source>
+            <target state="new">The name for the agreement must be unique.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Protocol</source>
+            <target state="new">Protocol</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;userInput&gt;</bpt>X12<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;userInput&gt;</bpt>X12<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Enter notes or a description for the agreement.</source>
+            <target state="new">Enter notes or a description for the agreement.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Hosted Partner</source>
+            <target state="new">Hosted Partner</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Select the hosted partner for the agreement.</source>
+            <target state="new">Select the hosted partner for the agreement.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>A hosted partner is a partner managed by the service provider and the pipelines are deployed for that partner during agreement deployment.</source>
+            <target state="new">A hosted partner is a partner managed by the service provider and the pipelines are deployed for that partner during agreement deployment.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Typically partners managed by service provider are configured as a hosted partner while the enterprise partners are guest partners.</source>
+            <target state="new">Typically partners managed by service provider are configured as a hosted partner while the enterprise partners are guest partners.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>For this tutorial, the hosted partner is <bpt id="1">&lt;embeddedLabel&gt;</bpt>Fabrikam<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">For this tutorial, the hosted partner is <bpt id="1">&lt;embeddedLabel&gt;</bpt>Fabrikam<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>The default profile for Fabrikam is displayed in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Profile<ept id="1">&lt;/embeddedLabel&gt;</ept> field.</source>
+            <target state="new">The default profile for Fabrikam is displayed in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Profile<ept id="1">&lt;/embeddedLabel&gt;</ept> field.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Guest Partner</source>
+            <target state="new">Guest Partner</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Select the partner for the agreement (who is not a hosted partner).</source>
+            <target state="new">Select the partner for the agreement (who is not a hosted partner).</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>For this tutorial, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Contoso<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">For this tutorial, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Contoso<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>The default profile for Contoso is displayed in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Profile<ept id="1">&lt;/embeddedLabel&gt;</ept> field.</source>
+            <target state="new">The default profile for Contoso is displayed in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Profile<ept id="1">&lt;/embeddedLabel&gt;</ept> field.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Identities</source>
+            <target state="new">Identities</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Hosted Partner ID Qualifier</source>
+            <target state="new">Hosted Partner ID Qualifier</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Select an authenticating qualifier that provides unique business identities to the trading partners.</source>
+            <target state="new">Select an authenticating qualifier that provides unique business identities to the trading partners.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>For this tutorial, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>ZZ-Mutually Defined<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">For this tutorial, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>ZZ-Mutually Defined<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Value</source>
+            <target state="new">Value</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Enter <bpt id="1">&lt;userInput&gt;</bpt>FABRIKAM<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">Enter <bpt id="1">&lt;userInput&gt;</bpt>FABRIKAM<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Guest Partner ID Qualifier</source>
+            <target state="new">Guest Partner ID Qualifier</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Select an authenticating qualifier that provides unique business identities to the trading partners.</source>
+            <target state="new">Select an authenticating qualifier that provides unique business identities to the trading partners.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>For this tutorial, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>ZZ-Mutually Defined<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">For this tutorial, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>ZZ-Mutually Defined<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Value</source>
+            <target state="new">Value</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Enter <bpt id="1">&lt;userInput&gt;</bpt>CONTOSO<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">Enter <bpt id="1">&lt;userInput&gt;</bpt>CONTOSO<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Tracking</source>
+            <target state="new">Tracking</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Track Send side message properties</source>
+            <target state="new">Track Send side message properties</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Check this to store the message properties when the EDI message is sent to the partner.</source>
+            <target state="new">Check this to store the message properties when the EDI message is sent to the partner.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Once stored, you can query this data by clicking <bpt id="1">&lt;embeddedLabel&gt;</bpt>Tracking<ept id="1">&lt;/embeddedLabel&gt;</ept> on the <ph id="2">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> home page.</source>
+            <target state="new">Once stored, you can query this data by clicking <bpt id="1">&lt;embeddedLabel&gt;</bpt>Tracking<ept id="1">&lt;/embeddedLabel&gt;</ept> on the <ph id="2">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> home page.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>When enabled, you can also store the message body by checking <bpt id="1">&lt;ui&gt;</bpt>Archive Send side message<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">When enabled, you can also store the message body by checking <bpt id="1">&lt;ui&gt;</bpt>Archive Send side message<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Track Receive side message properties</source>
+            <target state="new">Track Receive side message properties</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Check this to store the message properties when the EDI message is received from a partner.</source>
+            <target state="new">Check this to store the message properties when the EDI message is received from a partner.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Once stored, you can query this data by clicking <bpt id="1">&lt;embeddedLabel&gt;</bpt>Tracking<ept id="1">&lt;/embeddedLabel&gt;</ept> on the <ph id="2">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> home page.</source>
+            <target state="new">Once stored, you can query this data by clicking <bpt id="1">&lt;embeddedLabel&gt;</bpt>Tracking<ept id="1">&lt;/embeddedLabel&gt;</ept> on the <ph id="2">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> home page.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>When enabled, you can also store the message body by checking <bpt id="1">&lt;ui&gt;</bpt>Archive Receive side message<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">When enabled, you can also store the message body by checking <bpt id="1">&lt;ui&gt;</bpt>Archive Receive side message<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;ui&gt;</bpt>Continue<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;ui&gt;</bpt>Continue<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Selecting <bpt id="1">&lt;embeddedLabel&gt;</bpt>Continue<ept id="1">&lt;/embeddedLabel&gt;</ept> adds two new tabs: one for receive settings and the other for send settings.</source>
+            <target state="new">Selecting <bpt id="1">&lt;embeddedLabel&gt;</bpt>Continue<ept id="1">&lt;/embeddedLabel&gt;</ept> adds two new tabs: one for receive settings and the other for send settings.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Each tab is for a one-way agreement between the two partners, one for receiving messages and the other for sending messages.</source>
+            <target state="new">Each tab is for a one-way agreement between the two partners, one for receiving messages and the other for sending messages.</target>
+          </trans-unit>
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>The properties in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Receive Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> tab define how the EDI receive bridge is configured.</source>
+            <target state="new">The properties in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Receive Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> tab define how the EDI receive bridge is configured.</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>This bridge receives incoming EDI messages that are sent to Fabrikam.</source>
+            <target state="new">This bridge receives incoming EDI messages that are sent to Fabrikam.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Similarly, the properties in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> tab define how the EDI send bridge is configured.</source>
+            <target state="new">Similarly, the properties in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> tab define how the EDI send bridge is configured.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>This bridge sends EDI messages from Fabrikam to its trading partners like Contoso.</source>
+            <target state="new">This bridge sends EDI messages from Fabrikam to its trading partners like Contoso.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>To specify the receive settings</source>
+            <target state="new">To specify the receive settings</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>From the agreements page, select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Receive Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> tab.</source>
+            <target state="new">From the agreements page, select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Receive Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> tab.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Enter the following values for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transport<ept id="1">&lt;/embeddedLabel&gt;</ept> section:</source>
+            <target state="new">Enter the following values for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transport<ept id="1">&lt;/embeddedLabel&gt;</ept> section:</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>For <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transport Type<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>FTP<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">For <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transport Type<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>FTP<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>In the scenario used in this tutorial, Contoso sends the X12 850 message using an FTP location.</source>
+            <target state="new">In the scenario used in this tutorial, Contoso sends the X12 850 message using an FTP location.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Provide the name of the FTP Server from where the messages are picked.</source>
+            <target state="new">Provide the name of the FTP Server from where the messages are picked.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Enter the username and password to connect to the FTP Server.</source>
+            <target state="new">Enter the username and password to connect to the FTP Server.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Enter the relative path on the server from where to pick the X12 850 message.</source>
+            <target state="new">Enter the relative path on the server from where to pick the X12 850 message.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Enter the following values for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Protocol<ept id="1">&lt;/embeddedLabel&gt;</ept> section:</source>
+            <target state="new">Enter the following values for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Protocol<ept id="1">&lt;/embeddedLabel&gt;</ept> section:</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Enter whether you want to receive technical (TA1) and functional acknowledgements (997).</source>
+            <target state="new">Enter whether you want to receive technical (TA1) and functional acknowledgements (997).</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Schemas<ept id="1">&lt;/embeddedLabel&gt;</ept>, select the plus sign and specify the following values:</source>
+            <target state="new">Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Schemas<ept id="1">&lt;/embeddedLabel&gt;</ept>, select the plus sign and specify the following values:</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>For this</source>
+            <target state="new">For this</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Specify this</source>
+            <target state="new">Specify this</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>For <bpt id="1">&lt;embeddedLabel&gt;</bpt>Version<ept id="1">&lt;/embeddedLabel&gt;</ept></source>
+            <target state="new">For <bpt id="1">&lt;embeddedLabel&gt;</bpt>Version<ept id="1">&lt;/embeddedLabel&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Specify <bpt id="1">&lt;embeddedLabel&gt;</bpt>00401<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Specify <bpt id="1">&lt;embeddedLabel&gt;</bpt>00401<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>For <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transaction Type (ST1)<ept id="1">&lt;/embeddedLabel&gt;</ept></source>
+            <target state="new">For <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transaction Type (ST1)<ept id="1">&lt;/embeddedLabel&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Specify <bpt id="1">&lt;embeddedLabel&gt;</bpt>850 – Purchase Order<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Specify <bpt id="1">&lt;embeddedLabel&gt;</bpt>850 – Purchase Order<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>For <bpt id="1">&lt;embeddedLabel&gt;</bpt>Sender Application (GS02)<ept id="1">&lt;/embeddedLabel&gt;</ept></source>
+            <target state="new">For <bpt id="1">&lt;embeddedLabel&gt;</bpt>Sender Application (GS02)<ept id="1">&lt;/embeddedLabel&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Specify <bpt id="1">&lt;userInput&gt;</bpt>CONTOSO<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">Specify <bpt id="1">&lt;userInput&gt;</bpt>CONTOSO<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>For <bpt id="1">&lt;embeddedLabel&gt;</bpt>Schema<ept id="1">&lt;/embeddedLabel&gt;</ept></source>
+            <target state="new">For <bpt id="1">&lt;embeddedLabel&gt;</bpt>Schema<ept id="1">&lt;/embeddedLabel&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>From the drop-down list, select the schema (X12_00401_850.xsd).</source>
+            <target state="new">From the drop-down list, select the schema (X12_00401_850.xsd).</target>
+          </trans-unit>
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>This schema was uploaded to your <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> when you deployed the <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> in the last step.</source>
+            <target state="new">This schema was uploaded to your <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> when you deployed the <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> in the last step.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transform<ept id="1">&lt;/embeddedLabel&gt;</ept> section, select the plus sign to add a transform to the agreement.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transform<ept id="1">&lt;/embeddedLabel&gt;</ept> section, select the plus sign to add a transform to the agreement.</target>
+          </trans-unit>
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>From the drop-down list, select the X12_00401_850.xsd schema and the transform you created earlier (AzureTransformations.trfm).</source>
+            <target state="new">From the drop-down list, select the X12_00401_850.xsd schema and the transform you created earlier (AzureTransformations.trfm).</target>
+          </trans-unit>
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>The schema as well as the transform is deployed to the <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription when you deployed the <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> in the previous step:</source>
+            <target state="new">The schema as well as the transform is deployed to the <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription when you deployed the <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> in the previous step:</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route<ept id="1">&lt;/embeddedLabel&gt;</ept> page, under <bpt id="2">&lt;embeddedLabel&gt;</bpt>Route Settings<ept id="2">&lt;/embeddedLabel&gt;</ept>, select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add<ept id="3">&lt;/embeddedLabel&gt;</ept> to add a route destination.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route<ept id="1">&lt;/embeddedLabel&gt;</ept> page, under <bpt id="2">&lt;embeddedLabel&gt;</bpt>Route Settings<ept id="2">&lt;/embeddedLabel&gt;</ept>, select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add<ept id="3">&lt;/embeddedLabel&gt;</ept> to add a route destination.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Set the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Rule Name<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;userInput&gt;</bpt>SendToBridge<ept id="2">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">Set the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Rule Name<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;userInput&gt;</bpt>SendToBridge<ept id="2">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route rule<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Use advanced definitions<ept id="2">&lt;/embeddedLabel&gt;</ept>, and enter the following expression in the text box:</source>
+            <target state="new">Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route rule<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Use advanced definitions<ept id="2">&lt;/embeddedLabel&gt;</ept>, and enter the following expression in the text box:</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>This expression always resolves to true, which means that all the messages are routed to the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>.</source>
+            <target state="new">This expression always resolves to true, which means that all the messages are routed to the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Even if you do not select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Use advanced definitions<ept id="1">&lt;/embeddedLabel&gt;</ept> option and do not provide any route rule, by default this option is selected and its value is set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>1=1<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Even if you do not select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Use advanced definitions<ept id="1">&lt;/embeddedLabel&gt;</ept> option and do not provide any route rule, by default this option is selected and its value is set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>1=1<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>This means that the default behavior is to route all the messages to the route destination.</source>
+            <target state="new">This means that the default behavior is to route all the messages to the route destination.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route action<ept id="1">&lt;/embeddedLabel&gt;</ept>, select the plus sign to add a new row and set the following values:</source>
+            <target state="new">Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route action<ept id="1">&lt;/embeddedLabel&gt;</ept>, select the plus sign to add a new row and set the following values:</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Set <bpt id="1">&lt;embeddedLabel&gt;</bpt>Target Type<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;embeddedLabel&gt;</bpt>Http Header<ept id="2">&lt;/embeddedLabel&gt;</ept></source>
+            <target state="new">Set <bpt id="1">&lt;embeddedLabel&gt;</bpt>Target Type<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;embeddedLabel&gt;</bpt>Http Header<ept id="2">&lt;/embeddedLabel&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Set <bpt id="1">&lt;embeddedLabel&gt;</bpt>Header Name<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;embeddedLabel&gt;</bpt>Content-Type<ept id="2">&lt;/embeddedLabel&gt;</ept></source>
+            <target state="new">Set <bpt id="1">&lt;embeddedLabel&gt;</bpt>Header Name<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;embeddedLabel&gt;</bpt>Content-Type<ept id="2">&lt;/embeddedLabel&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Set <bpt id="1">&lt;embeddedLabel&gt;</bpt>Value Type<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;embeddedLabel&gt;</bpt>Constant<ept id="2">&lt;/embeddedLabel&gt;</ept></source>
+            <target state="new">Set <bpt id="1">&lt;embeddedLabel&gt;</bpt>Value Type<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;embeddedLabel&gt;</bpt>Constant<ept id="2">&lt;/embeddedLabel&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Set <bpt id="1">&lt;embeddedLabel&gt;</bpt>Constant Value<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;embeddedLabel&gt;</bpt>application/xml<ept id="2">&lt;/embeddedLabel&gt;</ept></source>
+            <target state="new">Set <bpt id="1">&lt;embeddedLabel&gt;</bpt>Constant Value<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;embeddedLabel&gt;</bpt>application/xml<ept id="2">&lt;/embeddedLabel&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>This ensures that all the messages that are routed to the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> include a <bpt id="2">&lt;embeddedLabel&gt;</bpt>content-type<ept id="2">&lt;/embeddedLabel&gt;</ept> header with its value set to <bpt id="3">&lt;embeddedLabel&gt;</bpt>application/xml<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">This ensures that all the messages that are routed to the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> include a <bpt id="2">&lt;embeddedLabel&gt;</bpt>content-type<ept id="2">&lt;/embeddedLabel&gt;</ept> header with its value set to <bpt id="3">&lt;embeddedLabel&gt;</bpt>application/xml<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Without this header, the bridge receiving the message treats it as a flat-file message and might result in validation errors.</source>
+            <target state="new">Without this header, the bridge receiving the message treats it as a flat-file message and might result in validation errors.</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route destination<ept id="1">&lt;/embeddedLabel&gt;</ept>, set <bpt id="2">&lt;embeddedLabel&gt;</bpt>Transport type<ept id="2">&lt;/embeddedLabel&gt;</ept> to <bpt id="3">&lt;embeddedLabel&gt;</bpt>Azure BizTalk Bridge<ept id="3">&lt;/embeddedLabel&gt;</ept> and in the text box enter the entity name of the <ph id="4">&lt;token&gt;bridge&lt;/token&gt;</ph> on the message flow surface.</source>
+            <target state="new">Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route destination<ept id="1">&lt;/embeddedLabel&gt;</ept>, set <bpt id="2">&lt;embeddedLabel&gt;</bpt>Transport type<ept id="2">&lt;/embeddedLabel&gt;</ept> to <bpt id="3">&lt;embeddedLabel&gt;</bpt>Azure BizTalk Bridge<ept id="3">&lt;/embeddedLabel&gt;</ept> and in the text box enter the entity name of the <ph id="4">&lt;token&gt;bridge&lt;/token&gt;</ph> on the message flow surface.</target>
+          </trans-unit>
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>For this tutorial, you specified the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> name as <bpt id="2">&lt;embeddedLabel&gt;</bpt>B2BConnector<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">For this tutorial, you specified the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> name as <bpt id="2">&lt;embeddedLabel&gt;</bpt>B2BConnector<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>Using this name the bridge deployment endpoint is built, which is <ph id="1">&lt;codeInline&gt;http://&lt;legacyItalic&gt;%%amp;lt;mybiztalkservicename%%amp;gt;&lt;/legacyItalic&gt;.biztalk.windows.net/default/&lt;codeFeaturedElement&gt;B2BConnector&lt;/codeFeaturedElement&gt;&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Using this name the bridge deployment endpoint is built, which is <ph id="1">&lt;codeInline&gt;http://&lt;legacyItalic&gt;%%amp;lt;mybiztalkservicename%%amp;gt;&lt;/legacyItalic&gt;.biztalk.windows.net/default/&lt;codeFeaturedElement&gt;B2BConnector&lt;/codeFeaturedElement&gt;&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>With this configuration, all the messages processed by the agreement are routed to the <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> bridge you deployed earlier.</source>
+            <target state="new">With this configuration, all the messages processed by the agreement are routed to the <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> bridge you deployed earlier.</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route<ept id="1">&lt;/embeddedLabel&gt;</ept> page, under <bpt id="2">&lt;embeddedLabel&gt;</bpt>Message Suspension Settings<ept id="2">&lt;/embeddedLabel&gt;</ept>, enter the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Transport Type<ept id="3">&lt;/embeddedLabel&gt;</ept> as <bpt id="4">&lt;embeddedLabel&gt;</bpt>Azure Service Bus<ept id="4">&lt;/embeddedLabel&gt;</ept>, and then enter the following values:</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route<ept id="1">&lt;/embeddedLabel&gt;</ept> page, under <bpt id="2">&lt;embeddedLabel&gt;</bpt>Message Suspension Settings<ept id="2">&lt;/embeddedLabel&gt;</ept>, enter the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Transport Type<ept id="3">&lt;/embeddedLabel&gt;</ept> as <bpt id="4">&lt;embeddedLabel&gt;</bpt>Azure Service Bus<ept id="4">&lt;/embeddedLabel&gt;</ept>, and then enter the following values:</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>Set the route destination type to <bpt id="1">&lt;embeddedLabel&gt;</bpt>BasicHttpRelay<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Set the route destination type to <bpt id="1">&lt;embeddedLabel&gt;</bpt>BasicHttpRelay<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Enter the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace, issuer name, and issuer key.</source>
+            <target state="new">Enter the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace, issuer name, and issuer key.</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>Enter the endpoint URL where a relay receiver service is already running.</source>
+            <target state="new">Enter the endpoint URL where a relay receiver service is already running.</target>
+          </trans-unit>
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>For this tutorial, specify this as <bpt id="1">&lt;userInput&gt;</bpt>Suspend<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For this tutorial, specify this as <bpt id="1">&lt;userInput&gt;</bpt>Suspend<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>So, the complete URL where a failed message is sent is <ph id="1">&lt;codeInline&gt;http://&lt;legacyItalic&gt;%%amp;lt;servicebus_namespace%%amp;gt;&lt;/legacyItalic&gt;.servicebus.windows.net/Suspend&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">So, the complete URL where a failed message is sent is <ph id="1">&lt;codeInline&gt;http://&lt;legacyItalic&gt;%%amp;lt;servicebus_namespace%%amp;gt;&lt;/legacyItalic&gt;.servicebus.windows.net/Suspend&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>To specify the send settings</source>
+            <target state="new">To specify the send settings</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>From the agreements page, select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> tab.</source>
+            <target state="new">From the agreements page, select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> tab.</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>Even though this tutorial does not cover the send side of the agreement, you must specify the minimum default values to successfully deploy the agreement.</source>
+            <target state="new">Even though this tutorial does not cover the send side of the agreement, you must specify the minimum default values to successfully deploy the agreement.</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>Retain the default values <bpt id="1">&lt;embeddedLabel&gt;</bpt>Inbound URL<ept id="1">&lt;/embeddedLabel&gt;</ept>, <bpt id="2">&lt;embeddedLabel&gt;</bpt>Transform<ept id="2">&lt;/embeddedLabel&gt;</ept>, and <bpt id="3">&lt;embeddedLabel&gt;</bpt>Batching<ept id="3">&lt;/embeddedLabel&gt;</ept> tabs.</source>
+            <target state="new">Retain the default values <bpt id="1">&lt;embeddedLabel&gt;</bpt>Inbound URL<ept id="1">&lt;/embeddedLabel&gt;</ept>, <bpt id="2">&lt;embeddedLabel&gt;</bpt>Transform<ept id="2">&lt;/embeddedLabel&gt;</ept>, and <bpt id="3">&lt;embeddedLabel&gt;</bpt>Batching<ept id="3">&lt;/embeddedLabel&gt;</ept> tabs.</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Protocol<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, under <bpt id="2">&lt;embeddedLabel&gt;</bpt>Schemas<ept id="2">&lt;/embeddedLabel&gt;</ept>, enter the following values:</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Protocol<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, under <bpt id="2">&lt;embeddedLabel&gt;</bpt>Schemas<ept id="2">&lt;/embeddedLabel&gt;</ept>, enter the following values:</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>Property</source>
+            <target state="new">Property</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>For <bpt id="1">&lt;embeddedLabel&gt;</bpt>Version<ept id="1">&lt;/embeddedLabel&gt;</ept></source>
+            <target state="new">For <bpt id="1">&lt;embeddedLabel&gt;</bpt>Version<ept id="1">&lt;/embeddedLabel&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Set this to <bpt id="1">&lt;embeddedLabel&gt;</bpt>00401<ept id="1">&lt;/embeddedLabel&gt;</ept></source>
+            <target state="new">Set this to <bpt id="1">&lt;embeddedLabel&gt;</bpt>00401<ept id="1">&lt;/embeddedLabel&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>For <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transaction Type (ST01)<ept id="1">&lt;/embeddedLabel&gt;</ept></source>
+            <target state="new">For <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transaction Type (ST01)<ept id="1">&lt;/embeddedLabel&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>Set this to <bpt id="1">&lt;embeddedLabel&gt;</bpt>850 – Purchase Order<ept id="1">&lt;/embeddedLabel&gt;</ept></source>
+            <target state="new">Set this to <bpt id="1">&lt;embeddedLabel&gt;</bpt>850 – Purchase Order<ept id="1">&lt;/embeddedLabel&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>For <bpt id="1">&lt;embeddedLabel&gt;</bpt>Schema<ept id="1">&lt;/embeddedLabel&gt;</ept></source>
+            <target state="new">For <bpt id="1">&lt;embeddedLabel&gt;</bpt>Schema<ept id="1">&lt;/embeddedLabel&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>Set this to <bpt id="1">&lt;embeddedLabel&gt;</bpt>X12_00401_850<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Set this to <bpt id="1">&lt;embeddedLabel&gt;</bpt>X12_00401_850<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transport<ept id="1">&lt;/embeddedLabel&gt;</ept> section, under <bpt id="2">&lt;embeddedLabel&gt;</bpt>Transport Settings<ept id="2">&lt;/embeddedLabel&gt;</ept>, enter the following values:</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transport<ept id="1">&lt;/embeddedLabel&gt;</ept> section, under <bpt id="2">&lt;embeddedLabel&gt;</bpt>Transport Settings<ept id="2">&lt;/embeddedLabel&gt;</ept>, enter the following values:</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>Set the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transport Type<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;embeddedLabel&gt;</bpt>FTP/S<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Set the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transport Type<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;embeddedLabel&gt;</bpt>FTP/S<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>Enter the required values for the FTP transport.</source>
+            <target state="new">Enter the required values for the FTP transport.</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transport<ept id="1">&lt;/embeddedLabel&gt;</ept> section, under <bpt id="2">&lt;embeddedLabel&gt;</bpt>Message Suspension Settings<ept id="2">&lt;/embeddedLabel&gt;</ept>, enter the following values:</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transport<ept id="1">&lt;/embeddedLabel&gt;</ept> section, under <bpt id="2">&lt;embeddedLabel&gt;</bpt>Message Suspension Settings<ept id="2">&lt;/embeddedLabel&gt;</ept>, enter the following values:</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>Set the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transport Type<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;embeddedLabel&gt;</bpt>Azure Service Bus<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Set the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transport Type<ept id="1">&lt;/embeddedLabel&gt;</ept> to <bpt id="2">&lt;embeddedLabel&gt;</bpt>Azure Service Bus<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>Set the route destination type to <bpt id="1">&lt;embeddedLabel&gt;</bpt>BasicHttpRelay<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Set the route destination type to <bpt id="1">&lt;embeddedLabel&gt;</bpt>BasicHttpRelay<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>Specify the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace, issuer name, and issuer key.</source>
+            <target state="new">Specify the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace, issuer name, and issuer key.</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>Specify the endpoint URL where a relay receiver service is already running.</source>
+            <target state="new">Specify the endpoint URL where a relay receiver service is already running.</target>
+          </trans-unit>
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>For this tutorial, specify this as <bpt id="1">&lt;userInput&gt;</bpt>Suspend<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For this tutorial, specify this as <bpt id="1">&lt;userInput&gt;</bpt>Suspend<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>So, the complete URL where a failed message is sent is <ph id="1">&lt;codeInline&gt;http://&lt;legacyItalic&gt;%%amp;lt;servicebus_namespace%%amp;gt;&lt;/legacyItalic&gt;.servicebus.windows.net/Send_Failure&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">So, the complete URL where a failed message is sent is <ph id="1">&lt;codeInline&gt;http://&lt;legacyItalic&gt;%%amp;lt;servicebus_namespace%%amp;gt;&lt;/legacyItalic&gt;.servicebus.windows.net/Send_Failure&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Deploy Agreement<ept id="1">&lt;/embeddedLabel&gt;</ept> to deploy the agreement.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Deploy Agreement<ept id="1">&lt;/embeddedLabel&gt;</ept> to deploy the agreement.</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>Once the agreement is deployed, to test the solution, you can go ahead and drop a test PO 850 message in the folder on the FTP server that you specified as part of the agreement.</source>
+            <target state="new">Once the agreement is deployed, to test the solution, you can go ahead and drop a test PO 850 message in the folder on the FTP server that you specified as part of the agreement.</target>
+          </trans-unit>
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>More details on how to test the solution are provided in the next topic, <ph id="1">&lt;link xlink:href="c0b7c696-df2d-4c1a-95de-1369b8557eef" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Test the Solution&lt;/link&gt;</ph>.</source>
+            <target state="new">More details on how to test the solution are provided in the next topic, <ph id="1">&lt;link xlink:href="c0b7c696-df2d-4c1a-95de-1369b8557eef" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Test the Solution&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

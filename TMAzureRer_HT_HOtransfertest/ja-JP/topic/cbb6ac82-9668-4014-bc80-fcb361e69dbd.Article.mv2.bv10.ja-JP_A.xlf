@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ja-JP" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANysENwjAMAMBVPEAsOYkxCRMgXjxYwHYSqai0UilSx6fvuzFyN06OvTMjx0FoVAydokqtI6rWAFlTyenKSI0NmciwXliwNOlaY3HzHMDNRL0krCLlXJHRvBAOtyyxS23WAsQAb8XHM8AxT2P0Y79t67oHSKdRgPvvo8tr0+U76z6tyx+TYAmBogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Conventions for Function Prototypes</source>
+            <target state="new">Conventions for Function Prototypes</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The Azure Service Runtime Native Library provides function prototypes in generic, UTF-8, and Unicode versions.</source>
+            <target state="new">The Azure Service Runtime Native Library provides function prototypes in generic, UTF-8, and Unicode versions.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>The prototypes can be compiled to produce either UTF-8 prototypes or Unicode prototypes.</source>
+            <target state="new">The prototypes can be compiled to produce either UTF-8 prototypes or Unicode prototypes.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>All three prototypes are discussed in this topic and are illustrated by code samples for the <ph id="1">&lt;link xlink:href="19f99ad3-f616-45f9-8505-e57e0d68268e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;RoleEnvironmentGetConfigurationSetting Function&lt;/link&gt;</ph> function.</source>
+            <target state="new">All three prototypes are discussed in this topic and are illustrated by code samples for the <ph id="1">&lt;link xlink:href="19f99ad3-f616-45f9-8505-e57e0d68268e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;RoleEnvironmentGetConfigurationSetting Function&lt;/link&gt;</ph> function.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>These conventions are similar to those defined for the Windows API, except that the Azure Service Runtime Native Library function prototypes are UTF-8 instead of ANSI.</source>
+            <target state="new">These conventions are similar to those defined for the Windows API, except that the Azure Service Runtime Native Library function prototypes are UTF-8 instead of ANSI.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>The Azure Service Runtime Native Library defines all functions using <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>STDAPI<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/ms686631(VS.85).aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, which indicates that the function returns an HRESULT.</source>
+            <target state="new">The Azure Service Runtime Native Library defines all functions using <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>STDAPI<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/ms686631(VS.85).aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, which indicates that the function returns an HRESULT.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The following is an example of a generic prototype.</source>
+            <target state="new">The following is an example of a generic prototype.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The header file provides the generic function name implemented as a macro.</source>
+            <target state="new">The header file provides the generic function name implemented as a macro.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The preprocessor expands the macro into either the UTF-8 or Unicode function name.</source>
+            <target state="new">The preprocessor expands the macro into either the UTF-8 or Unicode function name.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>The letter "A" (UTF-8) or "W" (Unicode) is added at the end of the generic function name, as appropriate.</source>
+            <target state="new">The letter "A" (UTF-8) or "W" (Unicode) is added at the end of the generic function name, as appropriate.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The header file then provides two specific prototypes, one for UTF-8 and one for Unicode, as shown in the following examples.</source>
+            <target state="new">The header file then provides two specific prototypes, one for UTF-8 and one for Unicode, as shown in the following examples.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>As explained in <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt> Windows Data Types for Strings<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/dd374131(VS.85).aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, the generic function prototype uses the data type LPCTSTR for the text parameter.</source>
+            <target state="new">As explained in <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt> Windows Data Types for Strings<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/dd374131(VS.85).aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, the generic function prototype uses the data type LPCTSTR for the text parameter.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>However, the Windows code page prototype uses the type LPCSTR, and the Unicode prototype uses LPCWSTR.</source>
+            <target state="new">However, the Windows code page prototype uses the type LPCSTR, and the Unicode prototype uses LPCWSTR.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>For all functions with text arguments, applications should normally use the generic function prototypes.</source>
+            <target state="new">For all functions with text arguments, applications should normally use the generic function prototypes.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>If an application defines "UNICODE" either before the #include statements for the header files or during compilation, the statements will be compiled into Unicode functions.</source>
+            <target state="new">If an application defines "UNICODE" either before the #include statements for the header files or during compilation, the statements will be compiled into Unicode functions.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Your application should always use a generic function prototype with the generic string and character types.</source>
+            <target state="new">Your application should always use a generic function prototype with the generic string and character types.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>All function names that end with an uppercase "W" take Unicode, that is, wide character, parameters.</source>
+            <target state="new">All function names that end with an uppercase "W" take Unicode, that is, wide character, parameters.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Conventions for Function Prototypes (Windows API)</source>
+            <target state="new">Conventions for Function Prototypes (Windows API)</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Unicode in the Windows API</source>
+            <target state="new">Unicode in the Windows API</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>STDAPI</source>
+            <target state="new">STDAPI</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

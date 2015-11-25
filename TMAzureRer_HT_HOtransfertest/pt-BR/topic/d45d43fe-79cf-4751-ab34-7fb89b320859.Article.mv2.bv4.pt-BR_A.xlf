@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="pt-BR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzMsJwzAMANBVPIAEdiT/euyp59IFJMeCQJqUxIWM374Bnhl15alh78zIwTyqL4rNB0m1WhCp4MhSoCwRvaaInCShJgrYpM2RS82RFdzMcWayjrk2Q84xoCgxZtNSlSZf4v8K4D4D709w17qY9Wvcjn0f4CZwDO7xfcv2OmQ7VxnLvv0AN7UZFKEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>What's New in the Azure SDK 2.1 Release (July 2013)</source>
+            <target state="new">What's New in the Azure SDK 2.1 Release (July 2013)</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;sb1&lt;/token&gt;</ph> July 2013 release contains a number of new features and capabilities.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;sb1&lt;/token&gt;</ph> July 2013 release contains a number of new features and capabilities.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This topic summarizes the new features and contains links to more information.</source>
+            <target state="new">This topic summarizes the new features and contains links to more information.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Paired Namespaces</source>
+            <target state="new">Paired Namespaces</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>For detailed information about paired namespaces and high availability, see the new topic <ph id="1">&lt;link xlink:href="cda0f486-509f-46af-bb3a-6a3c48c8b040" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Asynchronous Messaging Patterns and High Availability&lt;/link&gt;</ph>.</source>
+            <target state="new">For detailed information about paired namespaces and high availability, see the new topic <ph id="1">&lt;link xlink:href="cda0f486-509f-46af-bb3a-6a3c48c8b040" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Asynchronous Messaging Patterns and High Availability&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Sometimes, due to short-lived or transient outages, when a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> <ph id="2">&lt;token&gt;servicensd&lt;/token&gt;</ph> becomes unavailable you are unable to send or receive messages to the namespace hosting the queue, topic, or subscription.</source>
+            <target state="new">Sometimes, due to short-lived or transient outages, when a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> <ph id="2">&lt;token&gt;servicensd&lt;/token&gt;</ph> becomes unavailable you are unable to send or receive messages to the namespace hosting the queue, topic, or subscription.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Previously, the typical workaround was to set up a separate namespace that can act as a backup, then implement extensive failover and retry logic.</source>
+            <target state="new">Previously, the typical workaround was to set up a separate namespace that can act as a backup, then implement extensive failover and retry logic.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>For more robust high availability, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> now supports <bpt id="2">&lt;newTerm&gt;</bpt>Paired Namespaces<ept id="2">&lt;/newTerm&gt;</ept>, which enables you to connect two namespaces.</source>
+            <target state="new">For more robust high availability, <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> now supports <bpt id="2">&lt;newTerm&gt;</bpt>Paired Namespaces<ept id="2">&lt;/newTerm&gt;</ept>, which enables you to connect two namespaces.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>When you activate the secondary namespace, messages are stored in the secondary queue for delivery to the primary queue at a later time.</source>
+            <target state="new">When you activate the secondary namespace, messages are stored in the secondary queue for delivery to the primary queue at a later time.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>If the primary container (namespace) becomes unavailable for some reason, automatic failover enables the messages in the secondary queue to be delivered to the primary queue.</source>
+            <target state="new">If the primary container (namespace) becomes unavailable for some reason, automatic failover enables the messages in the secondary queue to be delivered to the primary queue.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>This feature is called <bpt id="1">&lt;newTerm&gt;</bpt>Send Availability<ept id="1">&lt;/newTerm&gt;</ept>, which enables a single sender to continue to process messages in the event that one of the new namespaces encounters a messaging entity that becomes unavailable.</source>
+            <target state="new">This feature is called <bpt id="1">&lt;newTerm&gt;</bpt>Send Availability<ept id="1">&lt;/newTerm&gt;</ept>, which enables a single sender to continue to process messages in the event that one of the new namespaces encounters a messaging entity that becomes unavailable.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>When the primary entity is unavailable, messages are sent to the secondary entity.</source>
+            <target state="new">When the primary entity is unavailable, messages are sent to the secondary entity.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Set the <ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;P:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions.EnableSyphon&lt;/codeEntityReference&gt;</ph> property to <ph id="2">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph> on cloud service worker roles (backend processing), not on Web sites and Web roles (frontend processing).</source>
+            <target state="new">Set the <ph id="1">&lt;codeEntityReference qualifyHint="true"&gt;P:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions.EnableSyphon&lt;/codeEntityReference&gt;</ph> property to <ph id="2">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph> on cloud service worker roles (backend processing), not on Web sites and Web roles (frontend processing).</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Note that syphons from secondary to primary do not preserve message ordering.</source>
+            <target state="new">Note that syphons from secondary to primary do not preserve message ordering.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>For example:</source>
+            <target state="new">For example:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Azure Tools for Visual Studio Changes</source>
+            <target state="new">Azure Tools for Visual Studio Changes</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>In this release, the Azure Tools for Visual Studio contain enhancements and changes to the management of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> messaging entities using Server Explorer.</source>
+            <target state="new">In this release, the Azure Tools for Visual Studio contain enhancements and changes to the management of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> messaging entities using Server Explorer.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The most noticeable change is that the <bpt id="1">&lt;embeddedLabel&gt;</bpt><ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph><ept id="1">&lt;/embeddedLabel&gt;</ept> node is now integrated into the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Azure<ept id="3">&lt;/embeddedLabel&gt;</ept> node.</source>
+            <target state="new">The most noticeable change is that the <bpt id="1">&lt;embeddedLabel&gt;</bpt><ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph><ept id="1">&lt;/embeddedLabel&gt;</ept> node is now integrated into the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Azure<ept id="3">&lt;/embeddedLabel&gt;</ept> node.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="1ce0960d-84ae-410f-bc6d-fd231ca46931" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Browsing Service Bus Resources with the Visual Studio Server Explorer&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="1ce0960d-84ae-410f-bc6d-fd231ca46931" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Browsing Service Bus Resources with the Visual Studio Server Explorer&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Additionally, there has been a change to the code generated by the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Azure Worker Role with Service Bus Queue<ept id="1">&lt;/embeddedLabel&gt;</ept> project template.</source>
+            <target state="new">Additionally, there has been a change to the code generated by the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Azure Worker Role with Service Bus Queue<ept id="1">&lt;/embeddedLabel&gt;</ept> project template.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>This code now uses an event-driven “message pump” programming model using the <ph id="1">&lt;codeEntityReference&gt;M:Microsoft.ServiceBus.Messaging.QueueClient.OnMessage(System.Action{Microsoft.ServiceBus.Messaging.BrokeredMessage})&lt;/codeEntityReference&gt;</ph> method.</source>
+            <target state="new">This code now uses an event-driven “message pump” programming model using the <ph id="1">&lt;codeEntityReference&gt;M:Microsoft.ServiceBus.Messaging.QueueClient.OnMessage(System.Action{Microsoft.ServiceBus.Messaging.BrokeredMessage})&lt;/codeEntityReference&gt;</ph> method.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>For example, the project type generates the following template:</source>
+            <target state="new">For example, the project type generates the following template:</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;crdefault&lt;/token&gt;</ph> the “Event-Driven Message Programing Model” section in <ph id="2">&lt;link xlink:href="757c9c0a-3eeb-4450-9e39-1a29f2a40d12" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;What's New in the Azure SDK 2.0 Release (April 2013)&lt;/link&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;token&gt;crdefault&lt;/token&gt;</ph> the “Event-Driven Message Programing Model” section in <ph id="2">&lt;link xlink:href="757c9c0a-3eeb-4450-9e39-1a29f2a40d12" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;What's New in the Azure SDK 2.0 Release (April 2013)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Azure Notification Hubs</source>
+            <target state="new">Azure Notification Hubs</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>In this release, Azure supports Notification Hubs as part of the Azure SDK 2.1, in the Microsoft.ServiceBus.dll assembly.</source>
+            <target state="new">In this release, Azure supports Notification Hubs as part of the Azure SDK 2.1, in the Microsoft.ServiceBus.dll assembly.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>You can now create, update and delete notification hubs programmatically, manage your device registrations, and send push notifications to all your mobile clients across all platforms (Windows Store, Windows Phone 8, iOS, and Android).</source>
+            <target state="new">You can now create, update and delete notification hubs programmatically, manage your device registrations, and send push notifications to all your mobile clients across all platforms (Windows Store, Windows Phone 8, iOS, and Android).</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Learn more about notification hubs on MSDN in the <bpt id="1">&lt;legacyLink xlink:href="27c514b4-3bc4-4ac2-9008-f384ea702821" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Notification Hubs Overview<ept id="1">&lt;/legacyLink&gt;</ept> topic, or watch the notification hubs //BUILD/ presentation <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>here<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://channel9.msdn.com/Events/Build/2013/3-515&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">Learn more about notification hubs on MSDN in the <bpt id="1">&lt;legacyLink xlink:href="27c514b4-3bc4-4ac2-9008-f384ea702821" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Notification Hubs Overview<ept id="1">&lt;/legacyLink&gt;</ept> topic, or watch the notification hubs //BUILD/ presentation <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>here<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://channel9.msdn.com/Events/Build/2013/3-515&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

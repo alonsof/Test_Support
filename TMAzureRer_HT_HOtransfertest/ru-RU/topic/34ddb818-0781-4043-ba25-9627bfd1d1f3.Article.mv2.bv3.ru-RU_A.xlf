@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ru-RU" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAVzFEKgzAMANCr5AANNG207U6wb9kOkLQNCE7BKXj8uf/HM4tdOVTsnRmZzKP6rFg9yViKkUhxkIbk9Q+sV0KOUjEbF9TUSs89NgnsIHJrmimjT/lWniOqhAHLGJJao0YWHZCD/cTp7eBaZrN+HY992w4H4R4cPM+PrK9d1u8ix7ytP7VibZehAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Overview (REST API Reference)</source>
+            <target state="new">Overview (REST API Reference)</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The simplified REST API sets for managing entities are as follows: </source>
+            <target state="new">The simplified REST API sets for managing entities are as follows: </target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>GET on any unoccupied naming node (for example, / or /test) is a discovery operation and returns an AtomPub feed listing children.</source>
+            <target state="new">GET on any unoccupied naming node (for example, / or /test) is a discovery operation and returns an AtomPub feed listing children.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>It will only return the “immediate node.”</source>
+            <target state="new">It will only return the “immediate node.”</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>For example, if you have queues at A/B/C, and perform a GET on “/”, it returns “/A”.</source>
+            <target state="new">For example, if you have queues at A/B/C, and perform a GET on “/”, it returns “/A”.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>If you perform a GET on “/A”, it returns only “/A/B”, and so on.</source>
+            <target state="new">If you perform a GET on “/A”, it returns only “/A/B”, and so on.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>“GET” against any occupied node (for example, /test1/test2, /test1/example, or /test2) is a get operation and returns an <ph id="1">&lt;languageKeyword&gt;AtomPub&lt;/languageKeyword&gt;</ph> entry with the description.</source>
+            <target state="new">“GET” against any occupied node (for example, /test1/test2, /test1/example, or /test2) is a get operation and returns an <ph id="1">&lt;languageKeyword&gt;AtomPub&lt;/languageKeyword&gt;</ph> entry with the description.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>“PUT” against any unoccupied node is a create operation.</source>
+            <target state="new">“PUT” against any unoccupied node is a create operation.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The request body is and <ph id="1">&lt;languageKeyword&gt;AtomPub&lt;/languageKeyword&gt;</ph> entry with the description.</source>
+            <target state="new">The request body is and <ph id="1">&lt;languageKeyword&gt;AtomPub&lt;/languageKeyword&gt;</ph> entry with the description.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>“DELETE” against any occupied node is a delete operation.</source>
+            <target state="new">“DELETE” against any occupied node is a delete operation.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>“DELETE” against any unoccupied node is ignored and returns success.</source>
+            <target state="new">“DELETE” against any unoccupied node is ignored and returns success.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzUsKwzAMANGr+AAWyLJS290Xum8vIDkSBNIE8oEcv1nPg3HPpkwdzJiBkyMoVoWOSR6teRJpMTTBQc0rkOgIPCQFya5ArDy4oddqMWDv2okyCHMF5jRCVTJoqGPLpZdSbpVisB1enxiueXK363hu63rEQHe7X+/zJ8t3k2Wf5ZjW5Q+AHuWFogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Pipelines and Activities</source>
+            <target state="new">Pipelines and Activities</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This topic and its sub-topics provides the JSON format that is supported by the older versions of Azure PowerShell.</source>
+            <target state="new">This topic and its sub-topics provides the JSON format that is supported by the older versions of Azure PowerShell.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>If you are using the July 2015 Release version of Azure PowerShell or later, see <ph id="1">&lt;link xlink:href="c90a5779-eefe-473a-acfa-40934b50d0cc" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Pipelines and Activities&lt;/link&gt;</ph> for the latest JSON format.</source>
+            <target state="new">If you are using the July 2015 Release version of Azure PowerShell or later, see <ph id="1">&lt;link xlink:href="c90a5779-eefe-473a-acfa-40934b50d0cc" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Pipelines and Activities&lt;/link&gt;</ph> for the latest JSON format.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>You can convert the JSON from old format to new format by using the tool: <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>JSON Upgrade Tool<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?linkid=618507&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept></source>
+            <target state="new">You can convert the JSON from old format to new format by using the tool: <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>JSON Upgrade Tool<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?linkid=618507&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The top level structure of the pipeline JSON is as follows: </source>
+            <target state="new">The top level structure of the pipeline JSON is as follows: </target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Within the square brackets ([ ]), there can be one or more activities defined with each activity having the following top-level structure.</source>
+            <target state="new">Within the square brackets ([ ]), there can be one or more activities defined with each activity having the following top-level structure.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The following table describes the tags within the Activity JSON:</source>
+            <target state="new">The following table describes the tags within the Activity JSON:</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Tag</source>
+            <target state="new">Tag</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Required</source>
+            <target state="new">Required</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>name</source>
+            <target state="new">name</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Name of the activity.</source>
+            <target state="new">Name of the activity.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Specify a name that represents the action that the activity is configured to do.</source>
+            <target state="new">Specify a name that represents the action that the activity is configured to do.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>description</source>
+            <target state="new">description</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Text describing what the activity is used for.</source>
+            <target state="new">Text describing what the activity is used for.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>type</source>
+            <target state="new">type</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Specifies the type of the activity.</source>
+            <target state="new">Specifies the type of the activity.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="0ccbc223-a448-441d-8b2e-90bd937c777e#ActivityTypes" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Activity Types&lt;/link&gt;</ph> section for details.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="0ccbc223-a448-441d-8b2e-90bd937c777e#ActivityTypes" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Activity Types&lt;/link&gt;</ph> section for details.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>inputs</source>
+            <target state="new">inputs</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Input tables used by the activity.</source>
+            <target state="new">Input tables used by the activity.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="0ccbc223-a448-441d-8b2e-90bd937c777e#InputAndOutputTables" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Input and output tables&lt;/link&gt;</ph> section for details.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="0ccbc223-a448-441d-8b2e-90bd937c777e#InputAndOutputTables" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Input and output tables&lt;/link&gt;</ph> section for details.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>outputs</source>
+            <target state="new">outputs</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Output tables used by the activity.</source>
+            <target state="new">Output tables used by the activity.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="0ccbc223-a448-441d-8b2e-90bd937c777e#InputAndOutputTables" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Input and output tables&lt;/link&gt;</ph> section for details.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="0ccbc223-a448-441d-8b2e-90bd937c777e#InputAndOutputTables" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Input and output tables&lt;/link&gt;</ph> section for details.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>linkedServiceName</source>
+            <target state="new">linkedServiceName</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Name of the linked service used by the activity.</source>
+            <target state="new">Name of the linked service used by the activity.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>
+For example, the HDInsight activity requires that you specify the linked service that links to the HDInsight cluster.</source>
+            <target state="new">
+For example, the HDInsight activity requires that you specify the linked service that links to the HDInsight cluster.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>You do not need to specify the linkedServiceName when using Copy Activity.</source>
+            <target state="new">You do not need to specify the linkedServiceName when using Copy Activity.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Yes (HDInsight Activity, Azure Machine Learning Batch Scoring Activity)</source>
+            <target state="new">Yes (HDInsight Activity, Azure Machine Learning Batch Scoring Activity)</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>No (Copy Activity, Stored Procedure Activity)</source>
+            <target state="new">No (Copy Activity, Stored Procedure Activity)</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>transformation</source>
+            <target state="new">transformation</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Properties in the transformation depend on type (example: CopyActivity or HDInsightActivity).</source>
+            <target state="new">Properties in the transformation depend on type (example: CopyActivity or HDInsightActivity).</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>See the topics listed in <ph id="1">&lt;link xlink:href="0ccbc223-a448-441d-8b2e-90bd937c777e#InThisSection" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;In This Section&lt;/link&gt;</ph> for details.</source>
+            <target state="new">See the topics listed in <ph id="1">&lt;link xlink:href="0ccbc223-a448-441d-8b2e-90bd937c777e#InThisSection" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;In This Section&lt;/link&gt;</ph> for details.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>policy</source>
+            <target state="new">policy</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Policies which affect the run-time behavior of the activity.</source>
+            <target state="new">Policies which affect the run-time behavior of the activity.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>If it is not specified, default policies will be used.</source>
+            <target state="new">If it is not specified, default policies will be used.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="0ccbc223-a448-441d-8b2e-90bd937c777e#Policies" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Policies&lt;/link&gt;</ph> section for details.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="0ccbc223-a448-441d-8b2e-90bd937c777e#Policies" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Policies&lt;/link&gt;</ph> section for details.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>start</source>
+            <target state="new">start</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Start date-time for the pipeline.</source>
+            <target state="new">Start date-time for the pipeline.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>start<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>end<ept id="2">&lt;/embeddedLabel&gt;</ept> properties together specify active period for the pipeline.</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>start<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>end<ept id="2">&lt;/embeddedLabel&gt;</ept> properties together specify active period for the pipeline.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Output slices are only produced with in this active period.</source>
+            <target state="new">Output slices are only produced with in this active period.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>No.</source>
+            <target state="new">No.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>You can set active period for a pipeline using the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Set-AzureDataFactoryPipelineActivePeriod<ept id="1">&lt;/embeddedLabel&gt;</ept> cmdlet.</source>
+            <target state="new">You can set active period for a pipeline using the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Set-AzureDataFactoryPipelineActivePeriod<ept id="1">&lt;/embeddedLabel&gt;</ept> cmdlet.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>end</source>
+            <target state="new">end</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>End date-time for the pipeline.</source>
+            <target state="new">End date-time for the pipeline.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Activity types</source>
+            <target state="new">Activity types</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>type<ept id="1">&lt;/embeddedLabel&gt;</ept> property has different value for each activity allowed in a pipeline by the Azure Data Factory service.</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>type<ept id="1">&lt;/embeddedLabel&gt;</ept> property has different value for each activity allowed in a pipeline by the Azure Data Factory service.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>A pipeline can have one or more activities.</source>
+            <target state="new">A pipeline can have one or more activities.</target>
+          </trans-unit>
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>The following table provides the details.</source>
+            <target state="new">The following table provides the details.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Activity</source>
+            <target state="new">Activity</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Copy</source>
+            <target state="new">Copy</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Copies the data from a data store to another data store.</source>
+            <target state="new">Copies the data from a data store to another data store.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>The store can be either a cloud or on-premises store.</source>
+            <target state="new">The store can be either a cloud or on-premises store.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>HDInsightActivity</source>
+            <target state="new">HDInsightActivity</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>This activity supports three types of transformations: </source>
+            <target state="new">This activity supports three types of transformations: </target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Pig<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Pig<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Specifies the Pig script that will process the data from the input tables, and produce data to output tables.</source>
+            <target state="new">Specifies the Pig script that will process the data from the input tables, and produce data to output tables.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Hive<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Hive<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Specifies the Hive script that will process the data from the input tables, and produce data to output tables.</source>
+            <target state="new">Specifies the Hive script that will process the data from the input tables, and produce data to output tables.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>MapReduce<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>MapReduce<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Specifies the MapReduce program that will be invoked to process the data from the input tables, and produce data to the output tables.</source>
+            <target state="new">Specifies the MapReduce program that will be invoked to process the data from the input tables, and produce data to the output tables.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Azure Machine Learning Batch Scoring Activity</source>
+            <target state="new">Azure Machine Learning Batch Scoring Activity</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>This activity gets the location of the input file from your input tables, call the Azure Machine Learning batch scoring API, and copy the batch scoring output to the blob given in your output table.</source>
+            <target state="new">This activity gets the location of the input file from your input tables, call the Azure Machine Learning batch scoring API, and copy the batch scoring output to the blob given in your output table.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Stored Procedure Activity</source>
+            <target state="new">Stored Procedure Activity</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>This activity invokes a stored procedure in an Azure SQL Database when the input data is ready and produces output as per the schedule defined by the output table.</source>
+            <target state="new">This activity invokes a stored procedure in an Azure SQL Database when the input data is ready and produces output as per the schedule defined by the output table.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Input and output tables</source>
+            <target state="new">Input and output tables</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>The syntax for specifying inputs and outputs in JSON is as follows:</source>
+            <target state="new">The syntax for specifying inputs and outputs in JSON is as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>The number of <bpt id="1">&lt;embeddedLabel&gt;</bpt>inputs<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>outputs<ept id="2">&lt;/embeddedLabel&gt;</ept> differ for each activity.</source>
+            <target state="new">The number of <bpt id="1">&lt;embeddedLabel&gt;</bpt>inputs<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>outputs<ept id="2">&lt;/embeddedLabel&gt;</ept> differ for each activity.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Activity</source>
+            <target state="new">Activity</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Number of inputs</source>
+            <target state="new">Number of inputs</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Number of outputs</source>
+            <target state="new">Number of outputs</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Copy</source>
+            <target state="new">Copy</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>HDInsight activity with Pig transformation</source>
+            <target state="new">HDInsight activity with Pig transformation</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>&gt;=0</source>
+            <target state="new">&gt;=0</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>&gt;=1</source>
+            <target state="new">&gt;=1</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>HDInsight activity with Hive transformation</source>
+            <target state="new">HDInsight activity with Hive transformation</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>&gt;=0</source>
+            <target state="new">&gt;=0</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>&gt;=1</source>
+            <target state="new">&gt;=1</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>HDInsight activity with MapReduce transformation</source>
+            <target state="new">HDInsight activity with MapReduce transformation</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>&gt;=0</source>
+            <target state="new">&gt;=0</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>&gt;=1</source>
+            <target state="new">&gt;=1</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>HDInsight activity with Hadoop Streaming</source>
+            <target state="new">HDInsight activity with Hadoop Streaming</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>&gt;=0</source>
+            <target state="new">&gt;=0</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>&gt;=1</source>
+            <target state="new">&gt;=1</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Azure Machine Learning Batch Scoring Activity</source>
+            <target state="new">Azure Machine Learning Batch Scoring Activity</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Stored Procedure Activity</source>
+            <target state="new">Stored Procedure Activity</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>&gt;=0</source>
+            <target state="new">&gt;=0</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>&gt;=1</source>
+            <target state="new">&gt;=1</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>.NET Activity</source>
+            <target state="new">.NET Activity</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>&gt;=0</source>
+            <target state="new">&gt;=0</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>&gt;=1</source>
+            <target state="new">&gt;=1</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>If you specify multiple output tables for an activity, the tables must be on the same schedule.</source>
+            <target state="new">If you specify multiple output tables for an activity, the tables must be on the same schedule.</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Policies</source>
+            <target state="new">Policies</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>You can specify policies for an activity that affect the run-time behavior, specifically when the slice of a table is processed.</source>
+            <target state="new">You can specify policies for an activity that affect the run-time behavior, specifically when the slice of a table is processed.</target>
+          </trans-unit>
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>The following provides the details.</source>
+            <target state="new">The following provides the details.</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>Policy Property</source>
+            <target state="new">Policy Property</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Valid Values</source>
+            <target state="new">Valid Values</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>Additional notes</source>
+            <target state="new">Additional notes</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>concurrency</source>
+            <target state="new">concurrency</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>Number of concurrent executions of the activity.</source>
+            <target state="new">Number of concurrent executions of the activity.</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Maximum value is 10.</source>
+            <target state="new">Maximum value is 10.</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>Default value is 1.</source>
+            <target state="new">Default value is 1.</target>
+          </trans-unit>
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>It determines the number of parallel activity executions that can happen on different slices.</source>
+            <target state="new">It determines the number of parallel activity executions that can happen on different slices.</target>
+          </trans-unit>
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>For example, if an activity needs to go through a large set of available data, having a larger concurrency speeds up the data processing.</source>
+            <target state="new">For example, if an activity needs to go through a large set of available data, having a larger concurrency speeds up the data processing.</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>executionPriorityOrder</source>
+            <target state="new">executionPriorityOrder</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>Determines the ordering of data slices that is processed.</source>
+            <target state="new">Determines the ordering of data slices that is processed.</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>NewestFirst</source>
+            <target state="new">NewestFirst</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>OldestFirst</source>
+            <target state="new">OldestFirst</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>For example, if you have 2 slices (one happening at 4pm, and another one at 5pm), and both are pending execution.</source>
+            <target state="new">For example, if you have 2 slices (one happening at 4pm, and another one at 5pm), and both are pending execution.</target>
+          </trans-unit>
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>If you set the executionPriorityOrder to be NewestFirst, the slice at 5pm will be processed first.</source>
+            <target state="new">If you set the executionPriorityOrder to be NewestFirst, the slice at 5pm will be processed first.</target>
+          </trans-unit>
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>Similarly if you set the executionPriorityORder to be OldestFIrst, then the slice at 4pm will be processed.</source>
+            <target state="new">Similarly if you set the executionPriorityORder to be OldestFIrst, then the slice at 4pm will be processed.</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>retry</source>
+            <target state="new">retry</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>Number of retries before the data processing for the slice is marked as Failure.</source>
+            <target state="new">Number of retries before the data processing for the slice is marked as Failure.</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>Maximum value is 10.</source>
+            <target state="new">Maximum value is 10.</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>Activity execution for a data slice is retried up to the specified retry count.</source>
+            <target state="new">Activity execution for a data slice is retried up to the specified retry count.</target>
+          </trans-unit>
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>The retry is done as soon as possible after the failure.</source>
+            <target state="new">The retry is done as soon as possible after the failure.</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>timeout</source>
+            <target state="new">timeout</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>Timeout for the activity</source>
+            <target state="new">Timeout for the activity</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>TimeSpan</source>
+            <target state="new">TimeSpan</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>(Default: 00:00:00)</source>
+            <target state="new">(Default: 00:00:00)</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>Example: 01:00:00</source>
+            <target state="new">Example: 01:00:00</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>If a value is not specified or is 0, the timeout is infinite.</source>
+            <target state="new">If a value is not specified or is 0, the timeout is infinite.</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>If the data processing time on a slice exceeds the timeout value, it is canceled, and the system attempts to retry the processing.</source>
+            <target state="new">If the data processing time on a slice exceeds the timeout value, it is canceled, and the system attempts to retry the processing.</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>The number of retries depends on the retry property.</source>
+            <target state="new">The number of retries depends on the retry property.</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>When timeout occurs, the status will be TimedOut.</source>
+            <target state="new">When timeout occurs, the status will be TimedOut.</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>delay</source>
+            <target state="new">delay</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>Specify the delay before data processing of the slice starts.</source>
+            <target state="new">Specify the delay before data processing of the slice starts.</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>TimeSpan(Default: 00:00:00)</source>
+            <target state="new">TimeSpan(Default: 00:00:00)</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>The execution of activity for a data slice is started after the Delay is past the expected execution time.</source>
+            <target state="new">The execution of activity for a data slice is started after the Delay is past the expected execution time.</target>
+          </trans-unit>
+        </group>
+        <group id="123">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>longRetry</source>
+            <target state="new">longRetry</target>
+          </trans-unit>
+        </group>
+        <group id="124">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>The number of long retry attempts before the slice execution is failed.</source>
+            <target state="new">The number of long retry attempts before the slice execution is failed.</target>
+          </trans-unit>
+        </group>
+        <group id="125">
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>Integer.</source>
+            <target state="new">Integer.</target>
+          </trans-unit>
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>Default 0Maximum value is 10.</source>
+            <target state="new">Default 0Maximum value is 10.</target>
+          </trans-unit>
+        </group>
+        <group id="126">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>LongRetry attempts are spaced by LongRetryInterval.</source>
+            <target state="new">LongRetry attempts are spaced by LongRetryInterval.</target>
+          </trans-unit>
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>So if you need to specify a time between retry attempts, use LongRetry.</source>
+            <target state="new">So if you need to specify a time between retry attempts, use LongRetry.</target>
+          </trans-unit>
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>If both Retry and LongRetry are specified,  each LongRetry attempt will include Retry attempts and the max number of attempts will be Retry * LongRetry.</source>
+            <target state="new">If both Retry and LongRetry are specified,  each LongRetry attempt will include Retry attempts and the max number of attempts will be Retry * LongRetry.</target>
+          </trans-unit>
+        </group>
+        <group id="127">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>For example, if we have the following in activity policy:</source>
+            <target state="new">For example, if we have the following in activity policy:</target>
+          </trans-unit>
+        </group>
+        <group id="128">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>If there is only one slice to execute (status is PendingExecution), and activity execution fails every time, there would be 3 (Retry) consecutive execution attempts.</source>
+            <target state="new">If there is only one slice to execute (status is PendingExecution), and activity execution fails every time, there would be 3 (Retry) consecutive execution attempts.</target>
+          </trans-unit>
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>After each attempt the slice status  would be Retry.</source>
+            <target state="new">After each attempt the slice status  would be Retry.</target>
+          </trans-unit>
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>Then the slice status would be LongRetry.</source>
+            <target state="new">Then the slice status would be LongRetry.</target>
+          </trans-unit>
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>After 1 hour (LongRetryInteval), there would be another set of 3 (Retry) consecutive execution attempts.</source>
+            <target state="new">After 1 hour (LongRetryInteval), there would be another set of 3 (Retry) consecutive execution attempts.</target>
+          </trans-unit>
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>After that, the slice status would be Failed and no more retries would be attempted.</source>
+            <target state="new">After that, the slice status would be Failed and no more retries would be attempted.</target>
+          </trans-unit>
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>This means we retried 6 times total (3*2).</source>
+            <target state="new">This means we retried 6 times total (3*2).</target>
+          </trans-unit>
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>Obviously, if any execution succeeds, the slice status would be Ready and no more retries will be attempted.</source>
+            <target state="new">Obviously, if any execution succeeds, the slice status would be Ready and no more retries will be attempted.</target>
+          </trans-unit>
+        </group>
+        <group id="129">
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>longRetryInterval</source>
+            <target state="new">longRetryInterval</target>
+          </trans-unit>
+        </group>
+        <group id="130">
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>The delay between long retry attempts.</source>
+            <target state="new">The delay between long retry attempts.</target>
+          </trans-unit>
+        </group>
+        <group id="131">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>Timespan (Default: 00:00:00)</source>
+            <target state="new">Timespan (Default: 00:00:00)</target>
+          </trans-unit>
+        </group>
+        <group id="132">
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>In This Section</source>
+            <target state="new">In This Section</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

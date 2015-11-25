@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ja-JP" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzMsNwjAMANBVPIAtxYmb1EyAOHFgAedjqai0EhSp48Mb4LmnUSU2GkOEhD1QDXOlFtiyqrOZIky19ZJnpu5zIek9kVpXssihBvM2TQHBSi9RvFJOrv9rRFKRQTGZS+bROCYERnga3e4I57q4j/O4vPf9QIgIgnD9vmx7vG37rHYs+/YD4IZiIKEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>CORS Support for the Storage Services</source>
+            <target state="new">CORS Support for the Storage Services</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Cross-Origin Resource Sharing (CORS) Support for the Azure Storage Services</source>
+            <target state="new">Cross-Origin Resource Sharing (CORS) Support for the Azure Storage Services</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Beginning with version 2013-08-15, the Azure storage services support Cross-Origin Resource Sharing (CORS) for the Blob, File, Table, and Queue services.</source>
+            <target state="new">Beginning with version 2013-08-15, the Azure storage services support Cross-Origin Resource Sharing (CORS) for the Blob, File, Table, and Queue services.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>CORS is an HTTP feature that enables a web application running under one domain to access resources in another domain.</source>
+            <target state="new">CORS is an HTTP feature that enables a web application running under one domain to access resources in another domain.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Web browsers implement a security restriction known as <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>same-origin policy<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.w3.org/Security/wiki/Same_Origin_Policy&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> that prevents a web page from calling APIs in a different domain; CORS provides a secure way to allow one domain (the origin domain) to call APIs in another domain.</source>
+            <target state="new">Web browsers implement a security restriction known as <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>same-origin policy<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.w3.org/Security/wiki/Same_Origin_Policy&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> that prevents a web page from calling APIs in a different domain; CORS provides a secure way to allow one domain (the origin domain) to call APIs in another domain.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>See <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>the CORS specification<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.w3.org/TR/cors/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for details on CORS.</source>
+            <target state="new">See <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>the CORS specification<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.w3.org/TR/cors/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> for details on CORS.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>You can set CORS rules individually for each of the storage services, by calling <ph id="1">&lt;link xlink:href="65424a3c-ab49-4994-865c-827409598092" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Service Properties (REST API)&lt;/link&gt;</ph>, <ph id="2">&lt;link xlink:href="bb492133-44d1-4f75-9928-d5d03924d7eb" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set File Service Properties&lt;/link&gt;</ph>, <ph id="3">&lt;link xlink:href="3ed99e96-b502-4543-9692-3c48343eeb2d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Queue Service Properties (REST API)&lt;/link&gt;</ph>, and <ph id="4">&lt;link xlink:href="aff6740b-6ea5-4548-b226-322eb76dad94" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Table Service Properties (REST API)&lt;/link&gt;</ph>.</source>
+            <target state="new">You can set CORS rules individually for each of the storage services, by calling <ph id="1">&lt;link xlink:href="65424a3c-ab49-4994-865c-827409598092" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Service Properties (REST API)&lt;/link&gt;</ph>, <ph id="2">&lt;link xlink:href="bb492133-44d1-4f75-9928-d5d03924d7eb" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set File Service Properties&lt;/link&gt;</ph>, <ph id="3">&lt;link xlink:href="3ed99e96-b502-4543-9692-3c48343eeb2d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Queue Service Properties (REST API)&lt;/link&gt;</ph>, and <ph id="4">&lt;link xlink:href="aff6740b-6ea5-4548-b226-322eb76dad94" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Table Service Properties (REST API)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Once you set the CORS rules for the service, then a properly authenticated request made against the service from a different domain will be evaluated to determine whether it is allowed according to the rules you have specified.</source>
+            <target state="new">Once you set the CORS rules for the service, then a properly authenticated request made against the service from a different domain will be evaluated to determine whether it is allowed according to the rules you have specified.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Note that CORS is not an authentication mechanism.</source>
+            <target state="new">Note that CORS is not an authentication mechanism.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Any request made against a storage resource when CORS is enabled must either have a proper authentication signature, or must be made against a public resource.</source>
+            <target state="new">Any request made against a storage resource when CORS is enabled must either have a proper authentication signature, or must be made against a public resource.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Understanding CORS Requests</source>
+            <target state="new">Understanding CORS Requests</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>A CORS request from an origin domain may consist of two separate requests:</source>
+            <target state="new">A CORS request from an origin domain may consist of two separate requests:</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>A preflight request, which queries the CORS restrictions imposed by the service.</source>
+            <target state="new">A preflight request, which queries the CORS restrictions imposed by the service.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The preflight request is required unless the request method is a <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>simple method<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.w3.org/TR/cors/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, meaning GET, HEAD, or POST.</source>
+            <target state="new">The preflight request is required unless the request method is a <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>simple method<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.w3.org/TR/cors/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, meaning GET, HEAD, or POST.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The actual request, made against the desired resource.</source>
+            <target state="new">The actual request, made against the desired resource.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Preflight Request</source>
+            <target state="new">Preflight Request</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>The preflight request queries the CORS restrictions that have been established for the storage service by the account owner.</source>
+            <target state="new">The preflight request queries the CORS restrictions that have been established for the storage service by the account owner.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The web browser (or other user agent) sends an OPTIONS request that includes the request headers, method and origin domain.</source>
+            <target state="new">The web browser (or other user agent) sends an OPTIONS request that includes the request headers, method and origin domain.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>The storage service evaluates the intended operation based on a pre-configured set of CORS rules that specify which origin domains, request methods, and request headers may be specified on an actual request against a storage resource.</source>
+            <target state="new">The storage service evaluates the intended operation based on a pre-configured set of CORS rules that specify which origin domains, request methods, and request headers may be specified on an actual request against a storage resource.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>If CORS is enabled for the service and there is a CORS rule that matches the preflight request, the service responds with status code 200 (OK), and includes the required Access-Control headers in the response.</source>
+            <target state="new">If CORS is enabled for the service and there is a CORS rule that matches the preflight request, the service responds with status code 200 (OK), and includes the required Access-Control headers in the response.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>If CORS is not enabled for the service or no CORS rule matches the preflight request, the service will respond with status code 403 (Forbidden).</source>
+            <target state="new">If CORS is not enabled for the service or no CORS rule matches the preflight request, the service will respond with status code 403 (Forbidden).</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>If the OPTIONS request doesn’t contain the required CORS headers (the Origin and Access-Control-Request-Method headers), the service will respond with status code 400 (Bad request).</source>
+            <target state="new">If the OPTIONS request doesn’t contain the required CORS headers (the Origin and Access-Control-Request-Method headers), the service will respond with status code 400 (Bad request).</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Note that a preflight request is evaluated against the service (Blob, File, Queue, or Table) and not against the requested resource.</source>
+            <target state="new">Note that a preflight request is evaluated against the service (Blob, File, Queue, or Table) and not against the requested resource.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>The account owner must have enabled CORS as part of the account service properties in order for the request to succeed.</source>
+            <target state="new">The account owner must have enabled CORS as part of the account service properties in order for the request to succeed.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Actual Request</source>
+            <target state="new">Actual Request</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Once the preflight request is accepted and the response is returned, the browser will dispatch the actual request against the storage resource.</source>
+            <target state="new">Once the preflight request is accepted and the response is returned, the browser will dispatch the actual request against the storage resource.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>The browser will deny the actual request immediately if the preflight request is rejected.</source>
+            <target state="new">The browser will deny the actual request immediately if the preflight request is rejected.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>The actual request is treated as normal request against the storage service.</source>
+            <target state="new">The actual request is treated as normal request against the storage service.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>The presence of the Origin header indicates that the request is a CORS request and the service will check the matching CORS rules.</source>
+            <target state="new">The presence of the Origin header indicates that the request is a CORS request and the service will check the matching CORS rules.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>If a match is found, the Access-Control headers are added to the response and sent back to the client.</source>
+            <target state="new">If a match is found, the Access-Control headers are added to the response and sent back to the client.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>If a match is not found, the CORS Access-Control headers are not returned.</source>
+            <target state="new">If a match is not found, the CORS Access-Control headers are not returned.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Enabling CORS for the Azure Storage Services</source>
+            <target state="new">Enabling CORS for the Azure Storage Services</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>CORS rules are set at the service level, so you need to enable or disable CORS for each service (Blob, File, Queue and Table) separately.</source>
+            <target state="new">CORS rules are set at the service level, so you need to enable or disable CORS for each service (Blob, File, Queue and Table) separately.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>By default, CORS is disabled for each service.</source>
+            <target state="new">By default, CORS is disabled for each service.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>To enable CORS, you need to set the appropriate service properties using version 2013-08-15 or later, and add CORS rules to the service properties.</source>
+            <target state="new">To enable CORS, you need to set the appropriate service properties using version 2013-08-15 or later, and add CORS rules to the service properties.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>For details about how to enable or disable CORS for a service and how to set CORS rules, please refer to <ph id="1">&lt;link xlink:href="65424a3c-ab49-4994-865c-827409598092" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Service Properties (REST API)&lt;/link&gt;</ph>, <ph id="2">&lt;link xlink:href="bb492133-44d1-4f75-9928-d5d03924d7eb" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set File Service Properties&lt;/link&gt;</ph>, <ph id="3">&lt;link xlink:href="aff6740b-6ea5-4548-b226-322eb76dad94" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Table Service Properties (REST API)&lt;/link&gt;</ph>, and  <ph id="4">&lt;link xlink:href="3ed99e96-b502-4543-9692-3c48343eeb2d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Queue Service Properties (REST API)&lt;/link&gt;</ph>.</source>
+            <target state="new">For details about how to enable or disable CORS for a service and how to set CORS rules, please refer to <ph id="1">&lt;link xlink:href="65424a3c-ab49-4994-865c-827409598092" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Service Properties (REST API)&lt;/link&gt;</ph>, <ph id="2">&lt;link xlink:href="bb492133-44d1-4f75-9928-d5d03924d7eb" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set File Service Properties&lt;/link&gt;</ph>, <ph id="3">&lt;link xlink:href="aff6740b-6ea5-4548-b226-322eb76dad94" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Table Service Properties (REST API)&lt;/link&gt;</ph>, and  <ph id="4">&lt;link xlink:href="3ed99e96-b502-4543-9692-3c48343eeb2d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Queue Service Properties (REST API)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Here is a sample of a single CORS rule, specified via a Set Service Properties operation:</source>
+            <target state="new">Here is a sample of a single CORS rule, specified via a Set Service Properties operation:</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Each element included in the CORS rule is described below:</source>
+            <target state="new">Each element included in the CORS rule is described below:</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>AllowedOrigins<ept id="1">&lt;/embeddedLabel&gt;</ept>: The origin domains that are permitted to make a request against the storage service via CORS.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>AllowedOrigins<ept id="1">&lt;/embeddedLabel&gt;</ept>: The origin domains that are permitted to make a request against the storage service via CORS.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>The origin domain is the domain from which the request originates.</source>
+            <target state="new">The origin domain is the domain from which the request originates.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Note that the origin must be an exact case-sensitive match with the origin that the user age sends to the service.</source>
+            <target state="new">Note that the origin must be an exact case-sensitive match with the origin that the user age sends to the service.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>You can also use the wildcard character '*' to allow all origin domains to make requests via CORS.</source>
+            <target state="new">You can also use the wildcard character '*' to allow all origin domains to make requests via CORS.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>In the example above, the domains <bpt id="1">&lt;fictitiousUri&gt;</bpt>http://www.contoso.com<ept id="1">&lt;/fictitiousUri&gt;</ept> and <bpt id="2">&lt;fictitiousUri&gt;</bpt>http://www.fabrikam.com<ept id="2">&lt;/fictitiousUri&gt;</ept> can make requests against the service using CORS.</source>
+            <target state="new">In the example above, the domains <bpt id="1">&lt;fictitiousUri&gt;</bpt>http://www.contoso.com<ept id="1">&lt;/fictitiousUri&gt;</ept> and <bpt id="2">&lt;fictitiousUri&gt;</bpt>http://www.fabrikam.com<ept id="2">&lt;/fictitiousUri&gt;</ept> can make requests against the service using CORS.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>AllowedMethods<ept id="1">&lt;/embeddedLabel&gt;</ept>: The methods (HTTP request verbs) that the origin domain may use for a CORS request.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>AllowedMethods<ept id="1">&lt;/embeddedLabel&gt;</ept>: The methods (HTTP request verbs) that the origin domain may use for a CORS request.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>In the example above, only PUT and GET requests are permitted.</source>
+            <target state="new">In the example above, only PUT and GET requests are permitted.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>AllowedHeaders<ept id="1">&lt;/embeddedLabel&gt;</ept>: The request headers that the origin domain may specify on the CORS request.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>AllowedHeaders<ept id="1">&lt;/embeddedLabel&gt;</ept>: The request headers that the origin domain may specify on the CORS request.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>In the example above, all metadata headers starting with <ph id="1">&lt;parameterReference&gt;x-ms-meta-data&lt;/parameterReference&gt;</ph>, <ph id="2">&lt;parameterReference&gt;x-ms-meta-target&lt;/parameterReference&gt;</ph>, and <ph id="3">&lt;parameterReference&gt;x-ms-meta-abc&lt;/parameterReference&gt;</ph> are permitted.</source>
+            <target state="new">In the example above, all metadata headers starting with <ph id="1">&lt;parameterReference&gt;x-ms-meta-data&lt;/parameterReference&gt;</ph>, <ph id="2">&lt;parameterReference&gt;x-ms-meta-target&lt;/parameterReference&gt;</ph>, and <ph id="3">&lt;parameterReference&gt;x-ms-meta-abc&lt;/parameterReference&gt;</ph> are permitted.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Note that the wildcard character '*' indicates that any header beginning with the specified prefix is allowed.</source>
+            <target state="new">Note that the wildcard character '*' indicates that any header beginning with the specified prefix is allowed.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>ExposedHeaders<ept id="1">&lt;/embeddedLabel&gt;</ept>: The response headers that may be sent in the response to the CORS request and exposed by the browser to the request issuer.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>ExposedHeaders<ept id="1">&lt;/embeddedLabel&gt;</ept>: The response headers that may be sent in the response to the CORS request and exposed by the browser to the request issuer.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>In the example above, the browser is instructed to expose any header beginning with <ph id="1">&lt;parameterReference&gt;x-ms-meta&lt;/parameterReference&gt;</ph>.</source>
+            <target state="new">In the example above, the browser is instructed to expose any header beginning with <ph id="1">&lt;parameterReference&gt;x-ms-meta&lt;/parameterReference&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>MaxAgeInSeconds<ept id="1">&lt;/embeddedLabel&gt;</ept>: The maximum amount time that a browser should cache the preflight OPTIONS request.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>MaxAgeInSeconds<ept id="1">&lt;/embeddedLabel&gt;</ept>: The maximum amount time that a browser should cache the preflight OPTIONS request.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>The Azure storage services support specifying prefixed headers for both the <bpt id="1">&lt;embeddedLabel&gt;</bpt>AllowedHeaders<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>ExposedHeaders<ept id="2">&lt;/embeddedLabel&gt;</ept> elements.</source>
+            <target state="new">The Azure storage services support specifying prefixed headers for both the <bpt id="1">&lt;embeddedLabel&gt;</bpt>AllowedHeaders<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>ExposedHeaders<ept id="2">&lt;/embeddedLabel&gt;</ept> elements.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>To allow a category of headers, you can specify a common prefix to that category.</source>
+            <target state="new">To allow a category of headers, you can specify a common prefix to that category.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>For example, specifying <ph id="1">&lt;parameterReference&gt;x-ms-meta*&lt;/parameterReference&gt;</ph> as a prefixed header establishes a rule that will match all headers that begin with <ph id="2">&lt;parameterReference&gt;x-ms-meta&lt;/parameterReference&gt;</ph>.</source>
+            <target state="new">For example, specifying <ph id="1">&lt;parameterReference&gt;x-ms-meta*&lt;/parameterReference&gt;</ph> as a prefixed header establishes a rule that will match all headers that begin with <ph id="2">&lt;parameterReference&gt;x-ms-meta&lt;/parameterReference&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>The following limitations apply to CORS rules:</source>
+            <target state="new">The following limitations apply to CORS rules:</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>You can specify up to five CORS rules per storage service (Blob, File, Table, and Queue).</source>
+            <target state="new">You can specify up to five CORS rules per storage service (Blob, File, Table, and Queue).</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>The maximum size of all CORS rules settings on the request, excluding XML tags, should not exceed 2 KB.</source>
+            <target state="new">The maximum size of all CORS rules settings on the request, excluding XML tags, should not exceed 2 KB.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>The length of an allowed header, exposed header, or allowed origin should not exceed 256 characters.</source>
+            <target state="new">The length of an allowed header, exposed header, or allowed origin should not exceed 256 characters.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Allowed headers and exposed headers may be either:</source>
+            <target state="new">Allowed headers and exposed headers may be either:</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Literal headers, where the exact header name is provided, such as <ph id="1">&lt;system&gt;x-ms-meta-processed&lt;/system&gt;</ph>.</source>
+            <target state="new">Literal headers, where the exact header name is provided, such as <ph id="1">&lt;system&gt;x-ms-meta-processed&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>A maximum of 64 literal headers may be specified on the request.</source>
+            <target state="new">A maximum of 64 literal headers may be specified on the request.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Prefixed headers, where a prefix of the header is provided, such as <ph id="1">&lt;system&gt;x-ms-meta-data*&lt;/system&gt;</ph>.</source>
+            <target state="new">Prefixed headers, where a prefix of the header is provided, such as <ph id="1">&lt;system&gt;x-ms-meta-data*&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Specifying a prefix in this manner allows or exposes any header that begins with the given prefix.</source>
+            <target state="new">Specifying a prefix in this manner allows or exposes any header that begins with the given prefix.</target>
+          </trans-unit>
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>A maximum of two prefixed headers may be specified on the request.</source>
+            <target state="new">A maximum of two prefixed headers may be specified on the request.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>The methods (or HTTP verbs) specified in the <ph id="1">&lt;system&gt;AllowedMethods&lt;/system&gt;</ph> element must conform to the methods supported by Azure storage service APIs.</source>
+            <target state="new">The methods (or HTTP verbs) specified in the <ph id="1">&lt;system&gt;AllowedMethods&lt;/system&gt;</ph> element must conform to the methods supported by Azure storage service APIs.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Supported methods are DELETE, GET, HEAD, MERGE, POST, OPTIONS and PUT.</source>
+            <target state="new">Supported methods are DELETE, GET, HEAD, MERGE, POST, OPTIONS and PUT.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Understanding CORS Rule Evaluation Logic</source>
+            <target state="new">Understanding CORS Rule Evaluation Logic</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>When a storage service receives a preflight or actual request, it evaluates that request based on the CORS rules you have established for the service via the appropriate Set Service Properties operation.</source>
+            <target state="new">When a storage service receives a preflight or actual request, it evaluates that request based on the CORS rules you have established for the service via the appropriate Set Service Properties operation.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>CORS rules are evaluated in the order in which they were set in the request body of the Set Service Properties operation.</source>
+            <target state="new">CORS rules are evaluated in the order in which they were set in the request body of the Set Service Properties operation.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>CORS rules are evaluated as follows:</source>
+            <target state="new">CORS rules are evaluated as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>First, the origin domain of the request is checked against the domains listed for the <ph id="1">&lt;languageKeyword&gt;AllowedOrigins&lt;/languageKeyword&gt;</ph> element.</source>
+            <target state="new">First, the origin domain of the request is checked against the domains listed for the <ph id="1">&lt;languageKeyword&gt;AllowedOrigins&lt;/languageKeyword&gt;</ph> element.</target>
+          </trans-unit>
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>If the origin domain is included in the list, or all domains are allowed with the wildcard character '*', then rules evaluation proceeds.</source>
+            <target state="new">If the origin domain is included in the list, or all domains are allowed with the wildcard character '*', then rules evaluation proceeds.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>If the origin domain is not included, then the request fails.</source>
+            <target state="new">If the origin domain is not included, then the request fails.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Next, the method (or HTTP verb) of the request is checked against the methods listed in the <ph id="1">&lt;languageKeyword&gt;AllowedMethods&lt;/languageKeyword&gt;</ph> element.</source>
+            <target state="new">Next, the method (or HTTP verb) of the request is checked against the methods listed in the <ph id="1">&lt;languageKeyword&gt;AllowedMethods&lt;/languageKeyword&gt;</ph> element.</target>
+          </trans-unit>
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>If the method is included in the list, then rules evaluation proceeds; if not, then the request fails.</source>
+            <target state="new">If the method is included in the list, then rules evaluation proceeds; if not, then the request fails.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>If the request matches a rule in its origin domain and its method, that rule is selected to process the request and no further rules are evaluated.</source>
+            <target state="new">If the request matches a rule in its origin domain and its method, that rule is selected to process the request and no further rules are evaluated.</target>
+          </trans-unit>
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Before the request can succeed, however, any headers specified on the request are checked against the headers listed in the <ph id="1">&lt;languageKeyword&gt;AllowedHeaders&lt;/languageKeyword&gt;</ph> element.</source>
+            <target state="new">Before the request can succeed, however, any headers specified on the request are checked against the headers listed in the <ph id="1">&lt;languageKeyword&gt;AllowedHeaders&lt;/languageKeyword&gt;</ph> element.</target>
+          </trans-unit>
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>If the headers sent do not match the allowed headers, the request fails.</source>
+            <target state="new">If the headers sent do not match the allowed headers, the request fails.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Since the rules are processed in the order they are present in the request body, best practices recommend that you specify the most restrictive rules with respect to origins first in the list, so that these are evaluated first.</source>
+            <target state="new">Since the rules are processed in the order they are present in the request body, best practices recommend that you specify the most restrictive rules with respect to origins first in the list, so that these are evaluated first.</target>
+          </trans-unit>
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Specify rules that are less restrictive – for example, a rule to allow all origins – at the end of the list.</source>
+            <target state="new">Specify rules that are less restrictive – for example, a rule to allow all origins – at the end of the list.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Example – CORS Rules Evaluation</source>
+            <target state="new">Example – CORS Rules Evaluation</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>The following example shows a partial request body for an operation to set CORS rules for the storage services.</source>
+            <target state="new">The following example shows a partial request body for an operation to set CORS rules for the storage services.</target>
+          </trans-unit>
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="65424a3c-ab49-4994-865c-827409598092" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Service Properties (REST API)&lt;/link&gt;</ph>, <ph id="2">&lt;link xlink:href="bb492133-44d1-4f75-9928-d5d03924d7eb" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set File Service Properties&lt;/link&gt;</ph>, <ph id="3">&lt;link xlink:href="3ed99e96-b502-4543-9692-3c48343eeb2d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Queue Service Properties (REST API)&lt;/link&gt;</ph>, and <ph id="4">&lt;link xlink:href="aff6740b-6ea5-4548-b226-322eb76dad94" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Table Service Properties (REST API)&lt;/link&gt;</ph> for details on constructing the request.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="65424a3c-ab49-4994-865c-827409598092" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Service Properties (REST API)&lt;/link&gt;</ph>, <ph id="2">&lt;link xlink:href="bb492133-44d1-4f75-9928-d5d03924d7eb" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set File Service Properties&lt;/link&gt;</ph>, <ph id="3">&lt;link xlink:href="3ed99e96-b502-4543-9692-3c48343eeb2d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Queue Service Properties (REST API)&lt;/link&gt;</ph>, and <ph id="4">&lt;link xlink:href="aff6740b-6ea5-4548-b226-322eb76dad94" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Table Service Properties (REST API)&lt;/link&gt;</ph> for details on constructing the request.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Next, consider the following CORS requests:</source>
+            <target state="new">Next, consider the following CORS requests:</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>PUT</source>
+            <target state="new">PUT</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>http://www.contoso.com</source>
+            <target state="new">http://www.contoso.com</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>First rule</source>
+            <target state="new">First rule</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Success</source>
+            <target state="new">Success</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>GET</source>
+            <target state="new">GET</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>http://www.contoso.com</source>
+            <target state="new">http://www.contoso.com</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Second rule</source>
+            <target state="new">Second rule</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Success</source>
+            <target state="new">Success</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>GET</source>
+            <target state="new">GET</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>http://www.contoso.com</source>
+            <target state="new">http://www.contoso.com</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Second rule</source>
+            <target state="new">Second rule</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Failure</source>
+            <target state="new">Failure</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>The first request matches the first rule – the origin domain matches the allowed origins, the method matches the allowed methods, and the header matches the allowed headers – and so succeeds.</source>
+            <target state="new">The first request matches the first rule – the origin domain matches the allowed origins, the method matches the allowed methods, and the header matches the allowed headers – and so succeeds.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>The second request does not match the first rule because the method does not match the allowed methods.</source>
+            <target state="new">The second request does not match the first rule because the method does not match the allowed methods.</target>
+          </trans-unit>
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>It does, however, match the second rule, so it succeeds.</source>
+            <target state="new">It does, however, match the second rule, so it succeeds.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>The third request matches the second rule in its origin domain and method, so no further rules are evaluated.</source>
+            <target state="new">The third request matches the second rule in its origin domain and method, so no further rules are evaluated.</target>
+          </trans-unit>
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>However, the <ph id="1">&lt;parameterReference&gt;x-ms-client-request-id&lt;/parameterReference&gt;</ph> header is not allowed by the second rule, so the request fails, despite the fact that the semantics of the third rule would have allowed it to succeed.</source>
+            <target state="new">However, the <ph id="1">&lt;parameterReference&gt;x-ms-client-request-id&lt;/parameterReference&gt;</ph> header is not allowed by the second rule, so the request fails, despite the fact that the semantics of the third rule would have allowed it to succeed.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Although this example shows a less restrictive rule before a more restrictive one, in general the best practice is to list the most restrictive rules first.</source>
+            <target state="new">Although this example shows a less restrictive rule before a more restrictive one, in general the best practice is to list the most restrictive rules first.</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Understanding How the Vary Header is Set</source>
+            <target state="new">Understanding How the Vary Header is Set</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;Vary&lt;/parameterReference&gt;</ph> header is a standard HTTP/1.1 header consisting of a set of request header fields that advise the browser or user agent about the criteria that were selected by the server to process the request.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;Vary&lt;/parameterReference&gt;</ph> header is a standard HTTP/1.1 header consisting of a set of request header fields that advise the browser or user agent about the criteria that were selected by the server to process the request.</target>
+          </trans-unit>
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;Vary&lt;/parameterReference&gt;</ph> header is mainly used for caching by proxies, browsers, and CDNs, which use it to determine how the response should be cached.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;Vary&lt;/parameterReference&gt;</ph> header is mainly used for caching by proxies, browsers, and CDNs, which use it to determine how the response should be cached.</target>
+          </trans-unit>
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>For details, see the specification for the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Vary header<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For details, see the specification for the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Vary header<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>When the browser or another user agent caches the response from a CORS request, the origin domain is cached as the allowed origin.</source>
+            <target state="new">When the browser or another user agent caches the response from a CORS request, the origin domain is cached as the allowed origin.</target>
+          </trans-unit>
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>When a second domain issues the same request for a storage resource while the cache is active, the user agent retrieves the cached origin domain.</source>
+            <target state="new">When a second domain issues the same request for a storage resource while the cache is active, the user agent retrieves the cached origin domain.</target>
+          </trans-unit>
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>The second domain does not match the cached domain, so the request fails when it would otherwise succeed.</source>
+            <target state="new">The second domain does not match the cached domain, so the request fails when it would otherwise succeed.</target>
+          </trans-unit>
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>In certain cases, Azure Storage sets the <ph id="1">&lt;parameterReference&gt;Vary&lt;/parameterReference&gt;</ph> header to <bpt id="2">&lt;userInput&gt;</bpt>Origin<ept id="2">&lt;/userInput&gt;</ept> to instruct the user agent to send the subsequent CORS request to the service when the requesting domain differs from the cached origin.</source>
+            <target state="new">In certain cases, Azure Storage sets the <ph id="1">&lt;parameterReference&gt;Vary&lt;/parameterReference&gt;</ph> header to <bpt id="2">&lt;userInput&gt;</bpt>Origin<ept id="2">&lt;/userInput&gt;</ept> to instruct the user agent to send the subsequent CORS request to the service when the requesting domain differs from the cached origin.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Azure Storage sets the <ph id="1">&lt;parameterReference&gt;Vary&lt;/parameterReference&gt;</ph> header to <bpt id="2">&lt;userInput&gt;</bpt>Origin<ept id="2">&lt;/userInput&gt;</ept> for actual GET/HEAD requests in the following cases:</source>
+            <target state="new">Azure Storage sets the <ph id="1">&lt;parameterReference&gt;Vary&lt;/parameterReference&gt;</ph> header to <bpt id="2">&lt;userInput&gt;</bpt>Origin<ept id="2">&lt;/userInput&gt;</ept> for actual GET/HEAD requests in the following cases:</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>When the request origin exactly matches the allowed origin defined by a CORS rule.</source>
+            <target state="new">When the request origin exactly matches the allowed origin defined by a CORS rule.</target>
+          </trans-unit>
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>To be an exact match, the CORS rule may not include a wildcard '*' character.</source>
+            <target state="new">To be an exact match, the CORS rule may not include a wildcard '*' character.</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>There is no rule matching the request origin, but CORS is enabled for the storage service.</source>
+            <target state="new">There is no rule matching the request origin, but CORS is enabled for the storage service.</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>In the case where a GET/HEAD request matches a CORS rule that allows all origins, the response indicates that all origins are allowed, and the user agent cache will allow subsequent requests from any origin domain while the cache is active.</source>
+            <target state="new">In the case where a GET/HEAD request matches a CORS rule that allows all origins, the response indicates that all origins are allowed, and the user agent cache will allow subsequent requests from any origin domain while the cache is active.</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Note that for requests using methods other than GET/HEAD, the storage services will not set the <ph id="1">&lt;parameterReference&gt;Vary&lt;/parameterReference&gt;</ph> header, since responses to these methods are not cached by user agents.</source>
+            <target state="new">Note that for requests using methods other than GET/HEAD, the storage services will not set the <ph id="1">&lt;parameterReference&gt;Vary&lt;/parameterReference&gt;</ph> header, since responses to these methods are not cached by user agents.</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>The following table indicates how Azure storage will respond to GET/HEAD requests based on the previously mentioned cases:</source>
+            <target state="new">The following table indicates how Azure storage will respond to GET/HEAD requests based on the previously mentioned cases:</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Request</source>
+            <target state="new">Request</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>Account setting and result of rule evaluation</source>
+            <target state="new">Account setting and result of rule evaluation</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>Response</source>
+            <target state="new">Response</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>Origin header present on request</source>
+            <target state="new">Origin header present on request</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>CORS rule(s) specified for this service</source>
+            <target state="new">CORS rule(s) specified for this service</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>Matching  rule exists that allows all origins (*)</source>
+            <target state="new">Matching  rule exists that allows all origins (*)</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>Matching rule exists for exact origin match</source>
+            <target state="new">Matching rule exists for exact origin match</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>Response includes Vary header set to Origin</source>
+            <target state="new">Response includes Vary header set to Origin</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>Response includes Access-Control-Allowed-Origin: "*"</source>
+            <target state="new">Response includes Access-Control-Allowed-Origin: "*"</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>Response includes Access-Control-Exposed-Headers</source>
+            <target state="new">Response includes Access-Control-Exposed-Headers</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="123">
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="124">
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="125">
+          <trans-unit id="171" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="126">
+          <trans-unit id="172" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="127">
+          <trans-unit id="173" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="128">
+          <trans-unit id="174" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="129">
+          <trans-unit id="175" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="130">
+          <trans-unit id="176" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="131">
+          <trans-unit id="177" translate="yes" xml:space="preserve">
+            <source>Billing for CORS Requests</source>
+            <target state="new">Billing for CORS Requests</target>
+          </trans-unit>
+        </group>
+        <group id="132">
+          <trans-unit id="178" translate="yes" xml:space="preserve">
+            <source>Successful preflight requests are billed if you have enabled CORS for any of the storage services for your account (by calling <ph id="1">&lt;link xlink:href="65424a3c-ab49-4994-865c-827409598092" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Service Properties (REST API)&lt;/link&gt;</ph>, <ph id="2">&lt;link xlink:href="3ed99e96-b502-4543-9692-3c48343eeb2d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Queue Service Properties (REST API)&lt;/link&gt;</ph>, <ph id="3">&lt;link xlink:href="bb492133-44d1-4f75-9928-d5d03924d7eb" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set File Service Properties&lt;/link&gt;</ph>, or <ph id="4">&lt;link xlink:href="aff6740b-6ea5-4548-b226-322eb76dad94" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Table Service Properties (REST API)&lt;/link&gt;</ph>).</source>
+            <target state="new">Successful preflight requests are billed if you have enabled CORS for any of the storage services for your account (by calling <ph id="1">&lt;link xlink:href="65424a3c-ab49-4994-865c-827409598092" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Blob Service Properties (REST API)&lt;/link&gt;</ph>, <ph id="2">&lt;link xlink:href="3ed99e96-b502-4543-9692-3c48343eeb2d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Queue Service Properties (REST API)&lt;/link&gt;</ph>, <ph id="3">&lt;link xlink:href="bb492133-44d1-4f75-9928-d5d03924d7eb" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set File Service Properties&lt;/link&gt;</ph>, or <ph id="4">&lt;link xlink:href="aff6740b-6ea5-4548-b226-322eb76dad94" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Set Table Service Properties (REST API)&lt;/link&gt;</ph>).</target>
+          </trans-unit>
+          <trans-unit id="179" translate="yes" xml:space="preserve">
+            <source>To minimize charges, consider setting the <ph id="1">&lt;languageKeyword&gt;MaxAgeInSeconds&lt;/languageKeyword&gt;</ph> element in your CORS rules to a large value so that the user agent caches the request.</source>
+            <target state="new">To minimize charges, consider setting the <ph id="1">&lt;languageKeyword&gt;MaxAgeInSeconds&lt;/languageKeyword&gt;</ph> element in your CORS rules to a large value so that the user agent caches the request.</target>
+          </trans-unit>
+        </group>
+        <group id="133">
+          <trans-unit id="180" translate="yes" xml:space="preserve">
+            <source>Unsuccessful preflight requests will not be billed.</source>
+            <target state="new">Unsuccessful preflight requests will not be billed.</target>
+          </trans-unit>
+        </group>
+        <group id="134">
+          <trans-unit id="181" translate="yes" xml:space="preserve">
+            <source>W3C Cross-Origin Resource Sharing Specification</source>
+            <target state="new">W3C Cross-Origin Resource Sharing Specification</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

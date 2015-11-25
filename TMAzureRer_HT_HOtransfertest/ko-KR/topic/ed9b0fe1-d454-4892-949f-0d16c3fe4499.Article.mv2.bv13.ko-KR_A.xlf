@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzVEKwjAMgOGr9AANNG3cEk8g+CZeIO0SGM4VdMKOb59/+H73YpVyAzMiIPQENXGFllAnEUdViYE9+6wzAXPLQMkRqlABlmwViRuzx2CL1OSGsNBlWCOCkDikBadWfAxkWBjDq8P9EcO5re52HtdP70cMebQSw+331v350f276bH2/Q8MCr0rogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Creating Applications that Use Service Bus Topics and Subscriptions</source>
+            <target state="new">Creating Applications that Use Service Bus Topics and Subscriptions</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;sb1&lt;/token&gt;</ph> supports a set of cloud-based, message-oriented-middleware technologies including reliable message queuing and durable publish/subscribe messaging.</source>
+            <target state="new"><ph id="1">&lt;token&gt;sb1&lt;/token&gt;</ph> supports a set of cloud-based, message-oriented-middleware technologies including reliable message queuing and durable publish/subscribe messaging.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This article builds on the information provided in <ph id="1">&lt;link xlink:href="c3cc1ff2-aa60-45a2-bd05-6f4d8ce804b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Creating Applications that Use Service Bus Queues&lt;/link&gt;</ph> and offers an introduction to the publish/subscribe capabilities offered by <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> <bpt id="3">&lt;newTerm&gt;</bpt>topics<ept id="3">&lt;/newTerm&gt;</ept>.</source>
+            <target state="new">This article builds on the information provided in <ph id="1">&lt;link xlink:href="c3cc1ff2-aa60-45a2-bd05-6f4d8ce804b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Creating Applications that Use Service Bus Queues&lt;/link&gt;</ph> and offers an introduction to the publish/subscribe capabilities offered by <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> <bpt id="3">&lt;newTerm&gt;</bpt>topics<ept id="3">&lt;/newTerm&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>This article is not intended to cover all the features of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">This article is not intended to cover all the features of <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>However, it will give you just enough information to start using this feature.</source>
+            <target state="new">However, it will give you just enough information to start using this feature.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Evolving retail scenario</source>
+            <target state="new">Evolving retail scenario</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>This article continues the retail scenario used in <ph id="1">&lt;link xlink:href="c3cc1ff2-aa60-45a2-bd05-6f4d8ce804b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Creating Applications that Use Service Bus Queues&lt;/link&gt;</ph>.</source>
+            <target state="new">This article continues the retail scenario used in <ph id="1">&lt;link xlink:href="c3cc1ff2-aa60-45a2-bd05-6f4d8ce804b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Creating Applications that Use Service Bus Queues&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Recall that sales data from individual Point of Sale (POS) terminals must be routed to an <bpt id="1">&lt;embeddedLabel&gt;</bpt>Inventory Management System<ept id="1">&lt;/embeddedLabel&gt;</ept> which uses that data to determine when stock has to be replenished.</source>
+            <target state="new">Recall that sales data from individual Point of Sale (POS) terminals must be routed to an <bpt id="1">&lt;embeddedLabel&gt;</bpt>Inventory Management System<ept id="1">&lt;/embeddedLabel&gt;</ept> which uses that data to determine when stock has to be replenished.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Each POS terminal reports its sales data by sending messages to the <ph id="1">&lt;languageKeyword&gt;DataCollectionQueue&lt;/languageKeyword&gt;</ph> queue, where they remain until they are received by the inventory management system, as shown here:</source>
+            <target state="new">Each POS terminal reports its sales data by sending messages to the <ph id="1">&lt;languageKeyword&gt;DataCollectionQueue&lt;/languageKeyword&gt;</ph> queue, where they remain until they are received by the inventory management system, as shown here:</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>To evolve this scenario, a new requirement has been added to the system: the store owner wants to be able to monitor how the store is performing in real-time.</source>
+            <target state="new">To evolve this scenario, a new requirement has been added to the system: the store owner wants to be able to monitor how the store is performing in real-time.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>To address this requirement, the system must “tap” off the sales data stream.</source>
+            <target state="new">To address this requirement, the system must “tap” off the sales data stream.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>We still want each message sent by the POS terminals to be sent to the inventory management system as before, but we want another copy of each message that we can use to present the dashboard view to the store owner.</source>
+            <target state="new">We still want each message sent by the POS terminals to be sent to the inventory management system as before, but we want another copy of each message that we can use to present the dashboard view to the store owner.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>In any situation such as this, in which you require each message to be consumed by multiple parties, you can use <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> <bpt id="2">&lt;newTerm&gt;</bpt>topics<ept id="2">&lt;/newTerm&gt;</ept>.</source>
+            <target state="new">In any situation such as this, in which you require each message to be consumed by multiple parties, you can use <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> <bpt id="2">&lt;newTerm&gt;</bpt>topics<ept id="2">&lt;/newTerm&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Topics provide a publish/subscribe pattern in which each published message is made available to one or more subscriptions registered with the topic.</source>
+            <target state="new">Topics provide a publish/subscribe pattern in which each published message is made available to one or more subscriptions registered with the topic.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>In contrast, with queues each message is received by a single consumer.</source>
+            <target state="new">In contrast, with queues each message is received by a single consumer.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Messages are sent to a topic in the same way as they are sent to a queue.</source>
+            <target state="new">Messages are sent to a topic in the same way as they are sent to a queue.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>However, messages are not received from the topic directly; they are received from subscriptions.</source>
+            <target state="new">However, messages are not received from the topic directly; they are received from subscriptions.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>You can think of a subscription to a topic as a virtual queue that receives copies of the messages that are sent to that topic.</source>
+            <target state="new">You can think of a subscription to a topic as a virtual queue that receives copies of the messages that are sent to that topic.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Messages are received from a subscription the same way as they are received from a queue.</source>
+            <target state="new">Messages are received from a subscription the same way as they are received from a queue.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Going back to the retail scenario, the queue is replaced by a topic, and a subscription is added that will be used by the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Inventory Management System<ept id="1">&lt;/embeddedLabel&gt;</ept> component.</source>
+            <target state="new">Going back to the retail scenario, the queue is replaced by a topic, and a subscription is added that will be used by the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Inventory Management System<ept id="1">&lt;/embeddedLabel&gt;</ept> component.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>The system now appears as follows:</source>
+            <target state="new">The system now appears as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>The configuration here performs identically to the previous queue-based design.</source>
+            <target state="new">The configuration here performs identically to the previous queue-based design.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>That is, messages sent to the topic are routed to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Inventory<ept id="1">&lt;/embeddedLabel&gt;</ept> subscription, from which the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Inventory Management System<ept id="2">&lt;/embeddedLabel&gt;</ept> consumes them.</source>
+            <target state="new">That is, messages sent to the topic are routed to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Inventory<ept id="1">&lt;/embeddedLabel&gt;</ept> subscription, from which the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Inventory Management System<ept id="2">&lt;/embeddedLabel&gt;</ept> consumes them.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>In order to support the management dashboard, we must create a second subscription on the topic, as shown here:</source>
+            <target state="new">In order to support the management dashboard, we must create a second subscription on the topic, as shown here:</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>With this configuration, each message from the POS terminals is made available to both the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Dashboard<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Inventory<ept id="2">&lt;/embeddedLabel&gt;</ept> subscriptions.</source>
+            <target state="new">With this configuration, each message from the POS terminals is made available to both the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Dashboard<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Inventory<ept id="2">&lt;/embeddedLabel&gt;</ept> subscriptions.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Show me the code</source>
+            <target state="new">Show me the code</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="c3cc1ff2-aa60-45a2-bd05-6f4d8ce804b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Creating Applications that Use Service Bus Queues&lt;/link&gt;</ph> describes how to sign-up for a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> account and create a <ph id="3">&lt;token&gt;servicensd&lt;/token&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="c3cc1ff2-aa60-45a2-bd05-6f4d8ce804b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Creating Applications that Use Service Bus Queues&lt;/link&gt;</ph> describes how to sign-up for a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> account and create a <ph id="3">&lt;token&gt;servicensd&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>To use a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> <ph id="2">&lt;token&gt;servicensd&lt;/token&gt;</ph>, an application must reference the <ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph> assembly, specifically Microsoft.ServiceBus.dll.</source>
+            <target state="new">To use a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> <ph id="2">&lt;token&gt;servicensd&lt;/token&gt;</ph>, an application must reference the <ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph> assembly, specifically Microsoft.ServiceBus.dll.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>The easiest way to reference <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> dependencies is to install the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> <bpt id="3">&lt;externalLink&gt;</bpt><bpt id="4">&lt;linkText&gt;</bpt>Nuget package<ept id="4">&lt;/linkText&gt;</ept><ph id="5">&lt;linkUri&gt;https://www.nuget.org/packages/WindowsAzure.ServiceBus/&lt;/linkUri&gt;</ph><ept id="3">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">The easiest way to reference <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> dependencies is to install the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> <bpt id="3">&lt;externalLink&gt;</bpt><bpt id="4">&lt;linkText&gt;</bpt>Nuget package<ept id="4">&lt;/linkText&gt;</ept><ph id="5">&lt;linkUri&gt;https://www.nuget.org/packages/WindowsAzure.ServiceBus/&lt;/linkUri&gt;</ph><ept id="3">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>You can also find the assembly as part of the <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> SDK.</source>
+            <target state="new">You can also find the assembly as part of the <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> SDK.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>The download is available at the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure SDK download page<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/downloads/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">The download is available at the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure SDK download page<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/downloads/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Creating the topic and subscriptions</source>
+            <target state="new">Creating the topic and subscriptions</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Management operations for <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> messaging entities (queues and publish/subscribe topics) are performed via the <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.NamespaceManager&lt;/codeEntityReference&gt;</ph> class.</source>
+            <target state="new">Management operations for <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> messaging entities (queues and publish/subscribe topics) are performed via the <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.NamespaceManager&lt;/codeEntityReference&gt;</ph> class.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Appropriate credentials are required in order to create a <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.NamespaceManager&lt;/codeEntityReference&gt;</ph> instance for a particular <ph id="2">&lt;token&gt;servicensd&lt;/token&gt;</ph>.</source>
+            <target state="new">Appropriate credentials are required in order to create a <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.NamespaceManager&lt;/codeEntityReference&gt;</ph> instance for a particular <ph id="2">&lt;token&gt;servicensd&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.TokenProvider&lt;/codeEntityReference&gt;</ph> class represents a security token provider with built-in factory methods returning some well-known token providers.</source>
+            <target state="new">The <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.TokenProvider&lt;/codeEntityReference&gt;</ph> class represents a security token provider with built-in factory methods returning some well-known token providers.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>We’ll use a <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;M:Microsoft.ServiceBus.TokenProvider.CreateSharedAccessSignatureTokenProvider(System.String)&lt;/codeEntityReference&gt;</ph> method to hold the shared access signature (SAS) credentials.</source>
+            <target state="new">We’ll use a <ph id="1">&lt;codeEntityReference qualifyHint="false"&gt;M:Microsoft.ServiceBus.TokenProvider.CreateSharedAccessSignatureTokenProvider(System.String)&lt;/codeEntityReference&gt;</ph> method to hold the shared access signature (SAS) credentials.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.NamespaceManager&lt;/codeEntityReference&gt;</ph> instance is then constructed with the base address of the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> <ph id="3">&lt;token&gt;servicensd&lt;/token&gt;</ph> and the token provider.</source>
+            <target state="new">The <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.NamespaceManager&lt;/codeEntityReference&gt;</ph> instance is then constructed with the base address of the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> <ph id="3">&lt;token&gt;servicensd&lt;/token&gt;</ph> and the token provider.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.NamespaceManager&lt;/codeEntityReference&gt;</ph> class provides methods to create, enumerate and delete messaging entities.</source>
+            <target state="new">The <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.NamespaceManager&lt;/codeEntityReference&gt;</ph> class provides methods to create, enumerate and delete messaging entities.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>The snippet that is shown here shows how the <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.NamespaceManager&lt;/codeEntityReference&gt;</ph> instance is created and used to create the <ph id="2">&lt;languageKeyword&gt;DataCollectionTopic&lt;/languageKeyword&gt;</ph> topic.</source>
+            <target state="new">The snippet that is shown here shows how the <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.NamespaceManager&lt;/codeEntityReference&gt;</ph> instance is created and used to create the <ph id="2">&lt;languageKeyword&gt;DataCollectionTopic&lt;/languageKeyword&gt;</ph> topic.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Note that there are overloads of the <ph id="1">&lt;codeEntityReference&gt;M:Microsoft.ServiceBus.NamespaceManager.CreateTopic(System.String)&lt;/codeEntityReference&gt;</ph> method that enable you to set properties of the topic.</source>
+            <target state="new">Note that there are overloads of the <ph id="1">&lt;codeEntityReference&gt;M:Microsoft.ServiceBus.NamespaceManager.CreateTopic(System.String)&lt;/codeEntityReference&gt;</ph> method that enable you to set properties of the topic.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>For example, you can set the default time-to-live (TTL) value for messages sent to the topic.</source>
+            <target state="new">For example, you can set the default time-to-live (TTL) value for messages sent to the topic.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Next, add the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Inventory<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Dashboard<ept id="2">&lt;/embeddedLabel&gt;</ept> subscriptions.</source>
+            <target state="new">Next, add the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Inventory<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Dashboard<ept id="2">&lt;/embeddedLabel&gt;</ept> subscriptions.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Sending messages to the topic</source>
+            <target state="new">Sending messages to the topic</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>For runtime operations on <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> entities; for example, sending and receiving messages, an application first creates a <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> object.</source>
+            <target state="new">For runtime operations on <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> entities; for example, sending and receiving messages, an application first creates a <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> object.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Similar to the <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.NamespaceManager&lt;/codeEntityReference&gt;</ph> class, the <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> instance is created from the base address of the <ph id="3">&lt;token&gt;servicensd&lt;/token&gt;</ph> and the token provider.</source>
+            <target state="new">Similar to the <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.NamespaceManager&lt;/codeEntityReference&gt;</ph> class, the <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> instance is created from the base address of the <ph id="3">&lt;token&gt;servicensd&lt;/token&gt;</ph> and the token provider.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Messages sent to, and received from <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> topics, are instances of the <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.BrokeredMessage&lt;/codeEntityReference&gt;</ph> class.</source>
+            <target state="new">Messages sent to, and received from <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> topics, are instances of the <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.BrokeredMessage&lt;/codeEntityReference&gt;</ph> class.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>This class consists of a set of standard properties (such as <ph id="1">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.BrokeredMessage.Label&lt;/codeEntityReference&gt;</ph> and <ph id="2">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.BrokeredMessage.TimeToLive&lt;/codeEntityReference&gt;</ph>), a dictionary that is used to hold application properties, and a body of arbitrary application data.</source>
+            <target state="new">This class consists of a set of standard properties (such as <ph id="1">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.BrokeredMessage.Label&lt;/codeEntityReference&gt;</ph> and <ph id="2">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.BrokeredMessage.TimeToLive&lt;/codeEntityReference&gt;</ph>), a dictionary that is used to hold application properties, and a body of arbitrary application data.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>An application can set the body by passing in any serializable object (the following example passes in a <ph id="1">&lt;languageKeyword&gt;SalesData&lt;/languageKeyword&gt;</ph> object that represents the sales data from the POS terminal), which will use the <ph id="2">&lt;codeEntityReference&gt;T:System.Runtime.Serialization.DataContractSerializer&lt;/codeEntityReference&gt;</ph> to serialize the object.</source>
+            <target state="new">An application can set the body by passing in any serializable object (the following example passes in a <ph id="1">&lt;languageKeyword&gt;SalesData&lt;/languageKeyword&gt;</ph> object that represents the sales data from the POS terminal), which will use the <ph id="2">&lt;codeEntityReference&gt;T:System.Runtime.Serialization.DataContractSerializer&lt;/codeEntityReference&gt;</ph> to serialize the object.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Alternatively, a <ph id="1">&lt;codeEntityReference&gt;T:System.IO.Stream&lt;/codeEntityReference&gt;</ph> can be provided.</source>
+            <target state="new">Alternatively, a <ph id="1">&lt;codeEntityReference&gt;T:System.IO.Stream&lt;/codeEntityReference&gt;</ph> can be provided.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>The easiest way to send messages to the topic is to use <ph id="1">&lt;codeEntityReference&gt;M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateMessageSender(System.String)&lt;/codeEntityReference&gt;</ph> to create a <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessageSender&lt;/codeEntityReference&gt;</ph> object directly from the <ph id="3">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> instance.</source>
+            <target state="new">The easiest way to send messages to the topic is to use <ph id="1">&lt;codeEntityReference&gt;M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateMessageSender(System.String)&lt;/codeEntityReference&gt;</ph> to create a <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessageSender&lt;/codeEntityReference&gt;</ph> object directly from the <ph id="3">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> instance.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Receiving messages from a subscription</source>
+            <target state="new">Receiving messages from a subscription</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Similar to using queues, to receive messages from a subscription you can use a <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessageReceiver&lt;/codeEntityReference&gt;</ph> object which you create directly from the <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> using <ph id="3">&lt;codeEntityReference&gt;M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateMessageReceiver(System.String)&lt;/codeEntityReference&gt;</ph>.</source>
+            <target state="new">Similar to using queues, to receive messages from a subscription you can use a <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessageReceiver&lt;/codeEntityReference&gt;</ph> object which you create directly from the <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessagingFactory&lt;/codeEntityReference&gt;</ph> using <ph id="3">&lt;codeEntityReference&gt;M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateMessageReceiver(System.String)&lt;/codeEntityReference&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>You can use one of the two different receive modes (<ph id="1">&lt;languageKeyword&gt;ReceiveAndDelete&lt;/languageKeyword&gt;</ph> and <ph id="2">&lt;languageKeyword&gt;PeekLock&lt;/languageKeyword&gt;</ph>), as discussed in <ph id="3">&lt;link xlink:href="c3cc1ff2-aa60-45a2-bd05-6f4d8ce804b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Creating Applications that Use Service Bus Queues&lt;/link&gt;</ph>.</source>
+            <target state="new">You can use one of the two different receive modes (<ph id="1">&lt;languageKeyword&gt;ReceiveAndDelete&lt;/languageKeyword&gt;</ph> and <ph id="2">&lt;languageKeyword&gt;PeekLock&lt;/languageKeyword&gt;</ph>), as discussed in <ph id="3">&lt;link xlink:href="c3cc1ff2-aa60-45a2-bd05-6f4d8ce804b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Creating Applications that Use Service Bus Queues&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Note that when you create a <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessageReceiver&lt;/codeEntityReference&gt;</ph> for subscriptions, the <ph id="2">&lt;parameterReference&gt;entityPath&lt;/parameterReference&gt;</ph> parameter is of the form <ph id="3">&lt;codeInline&gt;topicPath/subscriptions/subscriptionName&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Note that when you create a <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessageReceiver&lt;/codeEntityReference&gt;</ph> for subscriptions, the <ph id="2">&lt;parameterReference&gt;entityPath&lt;/parameterReference&gt;</ph> parameter is of the form <ph id="3">&lt;codeInline&gt;topicPath/subscriptions/subscriptionName&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Therefore, to create a <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessageReceiver&lt;/codeEntityReference&gt;</ph> for the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Inventory<ept id="2">&lt;/embeddedLabel&gt;</ept> subscription of the <bpt id="3">&lt;embeddedLabel&gt;</bpt>DataCollectionTopic<ept id="3">&lt;/embeddedLabel&gt;</ept> topic, <ph id="4">&lt;parameterReference&gt;entityPath&lt;/parameterReference&gt;</ph> must be <ph id="5">&lt;codeInline&gt;DataCollectionTopic/subscriptions/Inventory&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Therefore, to create a <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.MessageReceiver&lt;/codeEntityReference&gt;</ph> for the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Inventory<ept id="2">&lt;/embeddedLabel&gt;</ept> subscription of the <bpt id="3">&lt;embeddedLabel&gt;</bpt>DataCollectionTopic<ept id="3">&lt;/embeddedLabel&gt;</ept> topic, <ph id="4">&lt;parameterReference&gt;entityPath&lt;/parameterReference&gt;</ph> must be <ph id="5">&lt;codeInline&gt;DataCollectionTopic/subscriptions/Inventory&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>The code appears as follows:</source>
+            <target state="new">The code appears as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Subscription filters</source>
+            <target state="new">Subscription filters</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>So far, in this article all messages sent to the topic are made available to all registered subscriptions.</source>
+            <target state="new">So far, in this article all messages sent to the topic are made available to all registered subscriptions.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>The key phrase there is “made available.”</source>
+            <target state="new">The key phrase there is “made available.”</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>While <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> subscriptions see all messages sent to the topic, you can copy only a subset of those messages to the virtual subscription queue.</source>
+            <target state="new">While <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> subscriptions see all messages sent to the topic, you can copy only a subset of those messages to the virtual subscription queue.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>This is performed using subscription <bpt id="1">&lt;newTerm&gt;</bpt>filters<ept id="1">&lt;/newTerm&gt;</ept>.</source>
+            <target state="new">This is performed using subscription <bpt id="1">&lt;newTerm&gt;</bpt>filters<ept id="1">&lt;/newTerm&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>When you create a subscription, you can supply a filter expression in the form of a SQL92 style predicate that operates over the properties of the message, both the system properties (for example, <ph id="1">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.BrokeredMessage.Label&lt;/codeEntityReference&gt;</ph>) and the application properties, such as <bpt id="2">&lt;embeddedLabel&gt;</bpt>StoreName<ept id="2">&lt;/embeddedLabel&gt;</ept> in the previous example.</source>
+            <target state="new">When you create a subscription, you can supply a filter expression in the form of a SQL92 style predicate that operates over the properties of the message, both the system properties (for example, <ph id="1">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.BrokeredMessage.Label&lt;/codeEntityReference&gt;</ph>) and the application properties, such as <bpt id="2">&lt;embeddedLabel&gt;</bpt>StoreName<ept id="2">&lt;/embeddedLabel&gt;</ept> in the previous example.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Evolving the scenario to illustrate this, a second store is to be added to our retail scenario.</source>
+            <target state="new">Evolving the scenario to illustrate this, a second store is to be added to our retail scenario.</target>
+          </trans-unit>
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Sales data from all of the POS terminals from both stores still have to be routed to the centralized inventory management system, but a store manager using the dashboard tool is only interested in the performance of that store.</source>
+            <target state="new">Sales data from all of the POS terminals from both stores still have to be routed to the centralized inventory management system, but a store manager using the dashboard tool is only interested in the performance of that store.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>You can use subscription filtering to achieve this.</source>
+            <target state="new">You can use subscription filtering to achieve this.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Note that when the POS terminals publish messages, they set the <bpt id="1">&lt;embeddedLabel&gt;</bpt>StoreName<ept id="1">&lt;/embeddedLabel&gt;</ept> application property on the message.</source>
+            <target state="new">Note that when the POS terminals publish messages, they set the <bpt id="1">&lt;embeddedLabel&gt;</bpt>StoreName<ept id="1">&lt;/embeddedLabel&gt;</ept> application property on the message.</target>
+          </trans-unit>
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Given two stores, for example <bpt id="1">&lt;embeddedLabel&gt;</bpt>Redmond<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Seattle<ept id="2">&lt;/embeddedLabel&gt;</ept>, the POS terminals in the Redmond store stamp their sales data messages with a <bpt id="3">&lt;embeddedLabel&gt;</bpt>StoreName<ept id="3">&lt;/embeddedLabel&gt;</ept> equal to <bpt id="4">&lt;embeddedLabel&gt;</bpt>Redmond<ept id="4">&lt;/embeddedLabel&gt;</ept>, whereas the <bpt id="5">&lt;embeddedLabel&gt;</bpt>Seattle<ept id="5">&lt;/embeddedLabel&gt;</ept> store POS terminals use a <bpt id="6">&lt;embeddedLabel&gt;</bpt>StoreName<ept id="6">&lt;/embeddedLabel&gt;</ept> equal to <bpt id="7">&lt;embeddedLabel&gt;</bpt>Seattle<ept id="7">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Given two stores, for example <bpt id="1">&lt;embeddedLabel&gt;</bpt>Redmond<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Seattle<ept id="2">&lt;/embeddedLabel&gt;</ept>, the POS terminals in the Redmond store stamp their sales data messages with a <bpt id="3">&lt;embeddedLabel&gt;</bpt>StoreName<ept id="3">&lt;/embeddedLabel&gt;</ept> equal to <bpt id="4">&lt;embeddedLabel&gt;</bpt>Redmond<ept id="4">&lt;/embeddedLabel&gt;</ept>, whereas the <bpt id="5">&lt;embeddedLabel&gt;</bpt>Seattle<ept id="5">&lt;/embeddedLabel&gt;</ept> store POS terminals use a <bpt id="6">&lt;embeddedLabel&gt;</bpt>StoreName<ept id="6">&lt;/embeddedLabel&gt;</ept> equal to <bpt id="7">&lt;embeddedLabel&gt;</bpt>Seattle<ept id="7">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>The store manager of the Redmond store only wants to see data from its POS terminals.</source>
+            <target state="new">The store manager of the Redmond store only wants to see data from its POS terminals.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>The system appears as follows:</source>
+            <target state="new">The system appears as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>To set up this routing, you create the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Dashboard<ept id="1">&lt;/embeddedLabel&gt;</ept> subscription as follows:</source>
+            <target state="new">To set up this routing, you create the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Dashboard<ept id="1">&lt;/embeddedLabel&gt;</ept> subscription as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>With this subscription filter, only messages that have the <bpt id="1">&lt;embeddedLabel&gt;</bpt>StoreName<ept id="1">&lt;/embeddedLabel&gt;</ept> property set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>Redmond<ept id="2">&lt;/embeddedLabel&gt;</ept> will be copied to the virtual queue for the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Dashboard<ept id="3">&lt;/embeddedLabel&gt;</ept> subscription.</source>
+            <target state="new">With this subscription filter, only messages that have the <bpt id="1">&lt;embeddedLabel&gt;</bpt>StoreName<ept id="1">&lt;/embeddedLabel&gt;</ept> property set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>Redmond<ept id="2">&lt;/embeddedLabel&gt;</ept> will be copied to the virtual queue for the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Dashboard<ept id="3">&lt;/embeddedLabel&gt;</ept> subscription.</target>
+          </trans-unit>
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>There is a bigger story to tell around subscription filtering.</source>
+            <target state="new">There is a bigger story to tell around subscription filtering.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Applications can have multiple filter rules per subscription in addition to the ability to modify the properties of a message as it passes to a subscription’s virtual queue.</source>
+            <target state="new">Applications can have multiple filter rules per subscription in addition to the ability to modify the properties of a message as it passes to a subscription’s virtual queue.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Summary</source>
+            <target state="new">Summary</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>This article demonstrated how to start using the topic-based publish/subscribe feature in <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">This article demonstrated how to start using the topic-based publish/subscribe feature in <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>All of the reasons to use queuing described in <ph id="1">&lt;link xlink:href="c3cc1ff2-aa60-45a2-bd05-6f4d8ce804b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Creating Applications that Use Service Bus Queues&lt;/link&gt;</ph> also apply to topics, specifically:</source>
+            <target state="new">All of the reasons to use queuing described in <ph id="1">&lt;link xlink:href="c3cc1ff2-aa60-45a2-bd05-6f4d8ce804b5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Creating Applications that Use Service Bus Queues&lt;/link&gt;</ph> also apply to topics, specifically:</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Temporal decoupling – message producers and consumers do not have to be online at the same time.</source>
+            <target state="new">Temporal decoupling – message producers and consumers do not have to be online at the same time.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Load leveling – peaks in load are smoothed out by the topic enabling consuming applications to be provisioned for average load instead of peak load.</source>
+            <target state="new">Load leveling – peaks in load are smoothed out by the topic enabling consuming applications to be provisioned for average load instead of peak load.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Load balancing – similar to a queue, you can have multiple competing consumers listening on a single subscription, with each message handed off to only one of the consumers, thereby balancing load.</source>
+            <target state="new">Load balancing – similar to a queue, you can have multiple competing consumers listening on a single subscription, with each message handed off to only one of the consumers, thereby balancing load.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Loose coupling – you can evolve the messaging network without affecting existing endpoints; for example, adding subscriptions or changing filters to a topic to allow for new consumers.</source>
+            <target state="new">Loose coupling – you can evolve the messaging network without affecting existing endpoints; for example, adding subscriptions or changing filters to a topic to allow for new consumers.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

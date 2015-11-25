@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-TW" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAdzNsJwzAMQNFVPIAFlqNYdifoAIF+y45EA6kDaQqh0/cB9/NwzQatFBuoEgGhBaghV2gBJZViKFK8EzaMOiOIlgbEMYHUQFAYx4yFAo/Ju4B55NgYalP9vfJXmcA8ZDVG07k279C79x2mm3fnupjpeVz2bTu8i/+ur4f0aZf+XOVYtv4BfmxjaKEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Setting the Prefer Header to Manage Response Echo on Insert Operations</source>
+            <target state="new">Setting the Prefer Header to Manage Response Echo on Insert Operations</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>By default, the <ph id="1">&lt;link xlink:href="e7b7c22f-39d1-46b1-9f3a-0ccaeabde95a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create Table (REST API)&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="9ca046aa-e9b4-4eaf-a7c0-d6ccdbaf48b9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Insert Entity (REST API)&lt;/link&gt;</ph> operations return a response payload that echoes the data contained in the request body.</source>
+            <target state="new">By default, the <ph id="1">&lt;link xlink:href="e7b7c22f-39d1-46b1-9f3a-0ccaeabde95a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create Table (REST API)&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="9ca046aa-e9b4-4eaf-a7c0-d6ccdbaf48b9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Insert Entity (REST API)&lt;/link&gt;</ph> operations return a response payload that echoes the data contained in the request body.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>For version 2013-08-15 and higher of the storage services and OData data service version 3.0, it is possible to omit the response body echo by setting the <ph id="1">&lt;parameterReference&gt;Prefer&lt;/parameterReference&gt;</ph> header to <ph id="2">&lt;codeInline&gt;return-no-content&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">For version 2013-08-15 and higher of the storage services and OData data service version 3.0, it is possible to omit the response body echo by setting the <ph id="1">&lt;parameterReference&gt;Prefer&lt;/parameterReference&gt;</ph> header to <ph id="2">&lt;codeInline&gt;return-no-content&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>If the <ph id="1">&lt;parameterReference&gt;Prefer&lt;/parameterReference&gt;</ph> header is set to <ph id="2">&lt;codeInline&gt;return-no-content&lt;/codeInline&gt;</ph>, the service will respond with status code 204 (<ph id="3">&lt;languageKeyword&gt;No Content&lt;/languageKeyword&gt;</ph>) and response header <ph id="4">&lt;parameterReference&gt;Preference-Applied:&lt;/parameterReference&gt;</ph> <ph id="5">&lt;codeInline&gt;return-no-content&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">If the <ph id="1">&lt;parameterReference&gt;Prefer&lt;/parameterReference&gt;</ph> header is set to <ph id="2">&lt;codeInline&gt;return-no-content&lt;/codeInline&gt;</ph>, the service will respond with status code 204 (<ph id="3">&lt;languageKeyword&gt;No Content&lt;/languageKeyword&gt;</ph>) and response header <ph id="4">&lt;parameterReference&gt;Preference-Applied:&lt;/parameterReference&gt;</ph> <ph id="5">&lt;codeInline&gt;return-no-content&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You can also set the <ph id="1">&lt;parameterReference&gt;Prefer&lt;/parameterReference&gt;</ph> header to <ph id="2">&lt;codeInline&gt;return-content&lt;/codeInline&gt;</ph>, which provides the default behavior of returning the response payload.</source>
+            <target state="new">You can also set the <ph id="1">&lt;parameterReference&gt;Prefer&lt;/parameterReference&gt;</ph> header to <ph id="2">&lt;codeInline&gt;return-content&lt;/codeInline&gt;</ph>, which provides the default behavior of returning the response payload.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>In this case, the service will respond with status code 201 (<ph id="1">&lt;languageKeyword&gt;Created&lt;/languageKeyword&gt;</ph>) and response header <ph id="2">&lt;parameterReference&gt;Preference-Applied:&lt;/parameterReference&gt;</ph> <ph id="3">&lt;codeInline&gt;return-content&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">In this case, the service will respond with status code 201 (<ph id="1">&lt;languageKeyword&gt;Created&lt;/languageKeyword&gt;</ph>) and response header <ph id="2">&lt;parameterReference&gt;Preference-Applied:&lt;/parameterReference&gt;</ph> <ph id="3">&lt;codeInline&gt;return-content&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>If no <ph id="1">&lt;parameterReference&gt;Prefer&lt;/parameterReference&gt;</ph> header is specified, the service responds with status code 201 (<ph id="2">&lt;languageKeyword&gt;Created&lt;/languageKeyword&gt;</ph>) without the <ph id="3">&lt;parameterReference&gt;Preference-Applied&lt;/parameterReference&gt;</ph> header in the response.</source>
+            <target state="new">If no <ph id="1">&lt;parameterReference&gt;Prefer&lt;/parameterReference&gt;</ph> header is specified, the service responds with status code 201 (<ph id="2">&lt;languageKeyword&gt;Created&lt;/languageKeyword&gt;</ph>) without the <ph id="3">&lt;parameterReference&gt;Preference-Applied&lt;/parameterReference&gt;</ph> header in the response.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>For more details, see the documentation for the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>OData Prefer header<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/hh537533.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more details, see the documentation for the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>OData Prefer header<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/hh537533.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

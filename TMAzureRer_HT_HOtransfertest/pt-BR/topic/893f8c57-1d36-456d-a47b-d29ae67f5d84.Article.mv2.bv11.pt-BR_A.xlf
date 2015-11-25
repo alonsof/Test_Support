@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="pt-BR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANyjsOwyAMANCrcAAsGTAGOnbqXPUC5mMpUppUKZVy/GZ+TzWMSr7BGERAThEq5goNnXAp6kSKNc17lJ4QOIUEFFuHHBqDaxGL58CM1ZpcguYWE7ge+FrcQShV6L7I4KSxZ7LGWfOZcH9ac66L6jjn7dj3aY2/7MLH7y3b65Dtu8pc9u0P8EEC06IAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Image Reader</source>
+            <target state="new">Image Reader</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Loads images from Azure BLOB Storage into a dataset</source>
+            <target state="new">Loads images from Azure BLOB Storage into a dataset</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Category: <bpt id="1">&lt;legacyLink xlink:href="A682181B-FA8E-4F5D-A361-766C619DF288" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>OpenCV Library Modules<ept id="1">&lt;/legacyLink&gt;</ept></source>
+            <target state="new">Category: <bpt id="1">&lt;legacyLink xlink:href="A682181B-FA8E-4F5D-A361-766C619DF288" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>OpenCV Library Modules<ept id="1">&lt;/legacyLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Module Overview</source>
+            <target state="new">Module Overview</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You can use the <bpt id="1">&lt;ui&gt;</bpt>Image Reader<ept id="1">&lt;/ui&gt;</ept> module to get images from Azure Blob storage and create an image dataset from them.</source>
+            <target state="new">You can use the <bpt id="1">&lt;ui&gt;</bpt>Image Reader<ept id="1">&lt;/ui&gt;</ept> module to get images from Azure Blob storage and create an image dataset from them.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>When you read an image from blob storage using <bpt id="1">&lt;ui&gt;</bpt>Image Reader<ept id="1">&lt;/ui&gt;</ept>, the image is represented as a series of numeric values for the red, green, and blue channels, along with the image file name.</source>
+            <target state="new">When you read an image from blob storage using <bpt id="1">&lt;ui&gt;</bpt>Image Reader<ept id="1">&lt;/ui&gt;</ept>, the image is represented as a series of numeric values for the red, green, and blue channels, along with the image file name.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>You can then pass this dataset to the <ph id="1">&lt;link xlink:href="401b4f92-e724-4d5a-be81-d5b0ff9bdb33" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Score Model&lt;/link&gt;</ph> module, and connect a pre-trained image classification model to predict the image type.</source>
+            <target state="new">You can then pass this dataset to the <ph id="1">&lt;link xlink:href="401b4f92-e724-4d5a-be81-d5b0ff9bdb33" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Score Model&lt;/link&gt;</ph> module, and connect a pre-trained image classification model to predict the image type.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;link xlink:href="403eb35a-83b2-4191-a212-7716292c7a5b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Pretrained image classifier&lt;/link&gt;</ph> provided in Azure Machine Learning currently supports recognition of faces in frontal view; other image classifiers are not yet available.</source>
+            <target state="new">The <ph id="1">&lt;link xlink:href="403eb35a-83b2-4191-a212-7716292c7a5b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Pretrained image classifier&lt;/link&gt;</ph> provided in Azure Machine Learning currently supports recognition of faces in frontal view; other image classifiers are not yet available.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>See the <bpt id="1">&lt;legacyLink xlink:href="#bkmk_Notes" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Technical Notes<ept id="1">&lt;/legacyLink&gt;</ept> section for a list of the requirements that apply to images.</source>
+            <target state="new">See the <bpt id="1">&lt;legacyLink xlink:href="#bkmk_Notes" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Technical Notes<ept id="1">&lt;/legacyLink&gt;</ept> section for a list of the requirements that apply to images.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Note also that you cannot use image datasets with <ph id="1">&lt;link xlink:href="a85a6491-fe78-4461-ba01-2f798a9e3927" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> or <ph id="2">&lt;link xlink:href="75fb875d-6b86-4d46-8bcc-74261ade5826" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Cross-Validate Model&lt;/link&gt;</ph>.</source>
+            <target state="new">Note also that you cannot use image datasets with <ph id="1">&lt;link xlink:href="a85a6491-fe78-4461-ba01-2f798a9e3927" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> or <ph id="2">&lt;link xlink:href="75fb875d-6b86-4d46-8bcc-74261ade5826" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Cross-Validate Model&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>How Images are Processed</source>
+            <target state="new">How Images are Processed</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>Image Reader<ept id="1">&lt;/ui&gt;</ept> determines the type of an image by reading the first few bytes of the content, not by the file extension.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>Image Reader<ept id="1">&lt;/ui&gt;</ept> determines the type of an image by reading the first few bytes of the content, not by the file extension.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The following image formats are supported:</source>
+            <target state="new">The following image formats are supported:</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Windows bitmap files: *.bmp, *.dib</source>
+            <target state="new">Windows bitmap files: *.bmp, *.dib</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>JPEG files: *.jpeg, *.jpg, *.jpe</source>
+            <target state="new">JPEG files: *.jpeg, *.jpg, *.jpe</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>JPEG 2000 files: *.jp2</source>
+            <target state="new">JPEG 2000 files: *.jp2</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Portable Network Graphics: *.png</source>
+            <target state="new">Portable Network Graphics: *.png</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Portable image format: *.pbm, *.pgm, *.ppm</source>
+            <target state="new">Portable image format: *.pbm, *.pgm, *.ppm</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Sun Raster: *.sr, *.ras</source>
+            <target state="new">Sun Raster: *.sr, *.ras</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>TIFF files: *.tiff, *.tif</source>
+            <target state="new">TIFF files: *.tiff, *.tif</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Each row of the output dataset contains data from one image, ordered as follows:</source>
+            <target state="new">Each row of the output dataset contains data from one image, ordered as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>The first column contains image names.</source>
+            <target state="new">The first column contains image names.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>All other columns contain flattened data from the red, green, and blue color channels, in that order.</source>
+            <target state="new">All other columns contain flattened data from the red, green, and blue color channels, in that order.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Therefore, depending on the color depth of the image and the image format, there could be many thousands of columns for a single image.</source>
+            <target state="new">Therefore, depending on the color depth of the image and the image format, there could be many thousands of columns for a single image.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>The transparency channel is ignored.</source>
+            <target state="new">The transparency channel is ignored.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>In the output dataset, the rows are sorted alphabetically by image name.</source>
+            <target state="new">In the output dataset, the rows are sorted alphabetically by image name.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>How to Configure Image Reader</source>
+            <target state="new">How to Configure Image Reader</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>This example assumes that you have uploaded multiple images to an Azure blob storage, in a container designated for that purpose only.</source>
+            <target state="new">This example assumes that you have uploaded multiple images to an Azure blob storage, in a container designated for that purpose only.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Each image must be fairly small and have the same dimensions and color channels.</source>
+            <target state="new">Each image must be fairly small and have the same dimensions and color channels.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Add the <ph id="1">&lt;link xlink:href="893f8c57-1d36-456d-a47b-d29ae67f5d84" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Image Reader&lt;/link&gt;</ph> to your experiment.</source>
+            <target state="new">Add the <ph id="1">&lt;link xlink:href="893f8c57-1d36-456d-a47b-d29ae67f5d84" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Image Reader&lt;/link&gt;</ph> to your experiment.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Add the <ph id="1">&lt;link xlink:href="403eb35a-83b2-4191-a212-7716292c7a5b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Pretrained Classifier&lt;/link&gt;</ph> and the <ph id="2">&lt;link xlink:href="401b4f92-e724-4d5a-be81-d5b0ff9bdb33" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Score&lt;/link&gt;</ph> module.</source>
+            <target state="new">Add the <ph id="1">&lt;link xlink:href="403eb35a-83b2-4191-a212-7716292c7a5b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Pretrained Classifier&lt;/link&gt;</ph> and the <ph id="2">&lt;link xlink:href="401b4f92-e724-4d5a-be81-d5b0ff9bdb33" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Score&lt;/link&gt;</ph> module.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Configure the <bpt id="1">&lt;ui&gt;</bpt>Image Reader<ept id="1">&lt;/ui&gt;</ept> as follows:</source>
+            <target state="new">Configure the <bpt id="1">&lt;ui&gt;</bpt>Image Reader<ept id="1">&lt;/ui&gt;</ept> as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Specify the location of the images by specifying the authentication method, private or public.</source>
+            <target state="new">Specify the location of the images by specifying the authentication method, private or public.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>If the image set is in a blob that has been configured for public access through <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Shared Access Signatures<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://azure.microsoft.com/documentation/articles/storage-dotnet-shared-access-signature-part-1/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>(SAS), type the URL to the container that holds the images.</source>
+            <target state="new">If the image set is in a blob that has been configured for public access through <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Shared Access Signatures<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://azure.microsoft.com/documentation/articles/storage-dotnet-shared-access-signature-part-1/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>(SAS), type the URL to the container that holds the images.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>If the images are stored in a private account in Azure storage, select <bpt id="1">&lt;ui&gt;</bpt>Account<ept id="1">&lt;/ui&gt;</ept>, and then type the account name as it appears in the management portal.</source>
+            <target state="new">If the images are stored in a private account in Azure storage, select <bpt id="1">&lt;ui&gt;</bpt>Account<ept id="1">&lt;/ui&gt;</ept>, and then type the account name as it appears in the management portal.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Paste in the primary or secondary account key, which is provided in the Azure portal.</source>
+            <target state="new">Paste in the primary or secondary account key, which is provided in the Azure portal.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>For <bpt id="1">&lt;ui&gt;</bpt>Path to container<ept id="1">&lt;/ui&gt;</ept>, type just the container name.</source>
+            <target state="new">For <bpt id="1">&lt;ui&gt;</bpt>Path to container<ept id="1">&lt;/ui&gt;</ept>, type just the container name.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Connect the output of <bpt id="1">&lt;ui&gt;</bpt>Image Reader<ept id="1">&lt;/ui&gt;</ept> to the <ph id="2">&lt;link xlink:href="401b4f92-e724-4d5a-be81-d5b0ff9bdb33" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Score&lt;/link&gt;</ph> module.</source>
+            <target state="new">Connect the output of <bpt id="1">&lt;ui&gt;</bpt>Image Reader<ept id="1">&lt;/ui&gt;</ept> to the <ph id="2">&lt;link xlink:href="401b4f92-e724-4d5a-be81-d5b0ff9bdb33" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Score&lt;/link&gt;</ph> module.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Run the experiment.</source>
+            <target state="new">Run the experiment.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>To view the results of the experiment, we recommend that you add the <ph id="1">&lt;link xlink:href="1ec722fa-b623-4e26-a44e-a50c6d726223" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;project columns&lt;/link&gt;</ph> module, and select only these columns:</source>
+            <target state="new">To view the results of the experiment, we recommend that you add the <ph id="1">&lt;link xlink:href="1ec722fa-b623-4e26-a44e-a50c6d726223" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;project columns&lt;/link&gt;</ph> module, and select only these columns:</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Image Name</source>
+            <target state="new">Image Name</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Scored Labels</source>
+            <target state="new">Scored Labels</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Scored Probabilities</source>
+            <target state="new">Scored Probabilities</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Technical Notes</source>
+            <target state="new">Technical Notes</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>The following requirements apply to images processed by the <bpt id="1">&lt;ui&gt;</bpt>Image Reader<ept id="1">&lt;/ui&gt;</ept> module:</source>
+            <target state="new">The following requirements apply to images processed by the <bpt id="1">&lt;ui&gt;</bpt>Image Reader<ept id="1">&lt;/ui&gt;</ept> module:</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>All images must be the same shape.</source>
+            <target state="new">All images must be the same shape.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>All images must have the same color channels.</source>
+            <target state="new">All images must have the same color channels.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>For example, you cannot mix grayscale images with RBG images.</source>
+            <target state="new">For example, you cannot mix grayscale images with RBG images.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>There is a limit of 65536 pixels per image.</source>
+            <target state="new">There is a limit of 65536 pixels per image.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>However, the number of images is not limited.</source>
+            <target state="new">However, the number of images is not limited.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>If you specify a blob container as the source, the container must not contain blobs.</source>
+            <target state="new">If you specify a blob container as the source, the container must not contain blobs.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Ensure that the container contains only images before running the module.</source>
+            <target state="new">Ensure that the container contains only images before running the module.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Module Parameters</source>
+            <target state="new">Module Parameters</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Range</source>
+            <target state="new">Range</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Default</source>
+            <target state="new">Default</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Please specify authentication type</source>
+            <target state="new">Please specify authentication type</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>List</source>
+            <target state="new">List</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>AuthenticationType</source>
+            <target state="new">AuthenticationType</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Account</source>
+            <target state="new">Account</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Public or Shared Access Signature (SAS) URI or user credentials</source>
+            <target state="new">Public or Shared Access Signature (SAS) URI or user credentials</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>URI</source>
+            <target state="new">URI</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Any</source>
+            <target state="new">Any</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Uniform Resource Identifier with SAS or public access</source>
+            <target state="new">Uniform Resource Identifier with SAS or public access</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Account name</source>
+            <target state="new">Account name</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Any</source>
+            <target state="new">Any</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Name of the Azure Storage account</source>
+            <target state="new">Name of the Azure Storage account</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Account key</source>
+            <target state="new">Account key</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Any</source>
+            <target state="new">Any</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>SecureString</source>
+            <target state="new">SecureString</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Key associated with the Azure Storage account</source>
+            <target state="new">Key associated with the Azure Storage account</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Path to container, directory or blob</source>
+            <target state="new">Path to container, directory or blob</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Any</source>
+            <target state="new">Any</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Path to blob or name of table</source>
+            <target state="new">Path to blob or name of table</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Output</source>
+            <target state="new">Output</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Results dataset</source>
+            <target state="new">Results dataset</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Dataset with downloaded images</source>
+            <target state="new">Dataset with downloaded images</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Exceptions</source>
+            <target state="new">Exceptions</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>For a list of all error codes, see <ph id="1">&lt;link xlink:href="60822377-da7a-40b8-aec7-d185d1509344" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Module Error Codes&lt;/link&gt;</ph>.</source>
+            <target state="new">For a list of all error codes, see <ph id="1">&lt;link xlink:href="60822377-da7a-40b8-aec7-d185d1509344" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Module Error Codes&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Exception</source>
+            <target state="new">Exception</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Exception occurs if one or more inputs are null or empty.</source>
+            <target state="new">Exception occurs if one or more inputs are null or empty.</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Exception occurs when invalid URI is passed.</source>
+            <target state="new">Exception occurs when invalid URI is passed.</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Exception occurs if the Azure storage account name or container name is specified incorrectly.</source>
+            <target state="new">Exception occurs if the Azure storage account name or container name is specified incorrectly.</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Exception occurs if the database connection has failed.</source>
+            <target state="new">Exception occurs if the database connection has failed.</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Exception occurs when it is not possible to download a file.</source>
+            <target state="new">Exception occurs when it is not possible to download a file.</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Exception occurs when it is not possible to parse a file.</source>
+            <target state="new">Exception occurs when it is not possible to parse a file.</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Exception occurs when it is not possible to open a file.</source>
+            <target state="new">Exception occurs when it is not possible to open a file.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

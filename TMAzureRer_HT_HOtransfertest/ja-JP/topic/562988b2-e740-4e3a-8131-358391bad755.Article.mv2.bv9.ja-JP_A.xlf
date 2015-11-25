@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ja-JP" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzcEJwzAMQNFVPIAEli07dicoPfXQBWRbgpQ0gTSFjN/c/uHBN4vaOHRUZUYm89h8adg9Sa7VSKSC89EmkhGw5OGRq2UsSh4H1xwq99yVwaWrS2kBdeJLaRQsFAljKrFSkzGlBI7AvQUfT3DnMpvpedz2bTvABXDX6v77yPraZf0ucszb+gfcRy0IoQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Decision Forest Regression</source>
+            <target state="new">Decision Forest Regression</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Creates a regression model using the decision forest algorithm</source>
+            <target state="new">Creates a regression model using the decision forest algorithm</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Category: <bpt id="1">&lt;legacyLink xlink:href="97F9510F-60BA-4D78-8A33-3078A6C7F260" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Machine Learning / Initialize Model / Regression<ept id="1">&lt;/legacyLink&gt;</ept></source>
+            <target state="new">Category: <bpt id="1">&lt;legacyLink xlink:href="97F9510F-60BA-4D78-8A33-3078A6C7F260" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Machine Learning / Initialize Model / Regression<ept id="1">&lt;/legacyLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Module Overview</source>
+            <target state="new">Module Overview</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You can use the <bpt id="1">&lt;ui&gt;</bpt>Decision Forest Regression<ept id="1">&lt;/ui&gt;</ept> module to create a regression model using an ensemble of decision trees.</source>
+            <target state="new">You can use the <bpt id="1">&lt;ui&gt;</bpt>Decision Forest Regression<ept id="1">&lt;/ui&gt;</ept> module to create a regression model using an ensemble of decision trees.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>After you have configured the model, you must train the model using a tagged dataset and the <ph id="1">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> module.</source>
+            <target state="new">After you have configured the model, you must train the model using a tagged dataset and the <ph id="1">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> module.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The trained model can then be used to make predictions.</source>
+            <target state="new">The trained model can then be used to make predictions.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Alternatively, the untrained model can be passed to <ph id="1">&lt;link xlink:href="75fb875d-6b86-4d46-8bcc-74261ade5826" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Cross Validate Model&lt;/link&gt;</ph> for cross-validation against a labeled data set.</source>
+            <target state="new">Alternatively, the untrained model can be passed to <ph id="1">&lt;link xlink:href="75fb875d-6b86-4d46-8bcc-74261ade5826" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Cross Validate Model&lt;/link&gt;</ph> for cross-validation against a labeled data set.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Understanding Decision Forests for Regression</source>
+            <target state="new">Understanding Decision Forests for Regression</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Decision trees are non-parametric models that perform a sequence of simple tests for each instance, traversing a binary tree data structure until a leaf node (decision) is reached.</source>
+            <target state="new">Decision trees are non-parametric models that perform a sequence of simple tests for each instance, traversing a binary tree data structure until a leaf node (decision) is reached.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Decision trees have these advantages:</source>
+            <target state="new">Decision trees have these advantages:</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>They are efficient in both computation and memory usage during training and prediction.</source>
+            <target state="new">They are efficient in both computation and memory usage during training and prediction.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>They can represent non-linear decision boundaries.</source>
+            <target state="new">They can represent non-linear decision boundaries.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>They perform integrated feature selection and classification and are resilient in the presence of noisy features.</source>
+            <target state="new">They perform integrated feature selection and classification and are resilient in the presence of noisy features.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>This regression model consists of an ensemble of decision trees.</source>
+            <target state="new">This regression model consists of an ensemble of decision trees.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Each tree in a regression decision forest outputs a Gaussian distribution by way of prediction.</source>
+            <target state="new">Each tree in a regression decision forest outputs a Gaussian distribution by way of prediction.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>An aggregation is performed over the ensemble of trees to find a Gaussian distribution closest to the combined distribution for all trees in the model.</source>
+            <target state="new">An aggregation is performed over the ensemble of trees to find a Gaussian distribution closest to the combined distribution for all trees in the model.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>How to Configure a Decision Forest Regression Model</source>
+            <target state="new">How to Configure a Decision Forest Regression Model</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Drag the <bpt id="1">&lt;ui&gt;</bpt>Decision Forest Regression<ept id="1">&lt;/ui&gt;</ept> module into your experiment.</source>
+            <target state="new">Drag the <bpt id="1">&lt;ui&gt;</bpt>Decision Forest Regression<ept id="1">&lt;/ui&gt;</ept> module into your experiment.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Set model <bpt id="1">&lt;legacyLink xlink:href="#bkmk_Options" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>options<ept id="1">&lt;/legacyLink&gt;</ept>.</source>
+            <target state="new">Set model <bpt id="1">&lt;legacyLink xlink:href="#bkmk_Options" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>options<ept id="1">&lt;/legacyLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Connect an instance of <ph id="1">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> or <ph id="2">&lt;link xlink:href="038d91b6-c2f2-42a1-9215-1f2c20ed1b40" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Sweep Parameters&lt;/link&gt;</ph> to train the model using a tagged dataset.</source>
+            <target state="new">Connect an instance of <ph id="1">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> or <ph id="2">&lt;link xlink:href="038d91b6-c2f2-42a1-9215-1f2c20ed1b40" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Sweep Parameters&lt;/link&gt;</ph> to train the model using a tagged dataset.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;newTerm&gt;</bpt>Tagged<ept id="1">&lt;/newTerm&gt;</ept> means that the dataset contains a label column that contains the regression model’s expected output variable.</source>
+            <target state="new"><bpt id="1">&lt;newTerm&gt;</bpt>Tagged<ept id="1">&lt;/newTerm&gt;</ept> means that the dataset contains a label column that contains the regression model’s expected output variable.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>The trained model can then be used to make predictions.</source>
+            <target state="new">The trained model can then be used to make predictions.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Alternatively, the untrained model can be passed to <ph id="1">&lt;link xlink:href="75fb875d-6b86-4d46-8bcc-74261ade5826" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Cross Validate Model&lt;/link&gt;</ph> for cross-validation against a labeled data set.</source>
+            <target state="new">Alternatively, the untrained model can be passed to <ph id="1">&lt;link xlink:href="75fb875d-6b86-4d46-8bcc-74261ade5826" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Cross Validate Model&lt;/link&gt;</ph> for cross-validation against a labeled data set.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Options</source>
+            <target state="new">Options</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>You can configure a regression model using the same parameters that apply to other decision forest models:</source>
+            <target state="new">You can configure a regression model using the same parameters that apply to other decision forest models:</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Resampling method</source>
+            <target state="new">Resampling method</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>You can specify which method should be used to combine the results of individual trees.</source>
+            <target state="new">You can specify which method should be used to combine the results of individual trees.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>You can choose from <bpt id="1">&lt;newTerm&gt;</bpt>bagging<ept id="1">&lt;/newTerm&gt;</ept> or <bpt id="2">&lt;newTerm&gt;</bpt>replication<ept id="2">&lt;/newTerm&gt;</ept>.</source>
+            <target state="new">You can choose from <bpt id="1">&lt;newTerm&gt;</bpt>bagging<ept id="1">&lt;/newTerm&gt;</ept> or <bpt id="2">&lt;newTerm&gt;</bpt>replication<ept id="2">&lt;/newTerm&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyItalic&gt;</bpt><bpt id="2">&lt;ui&gt;</bpt>Bagging<ept id="2">&lt;/ui&gt;</ept><ept id="1">&lt;/legacyItalic&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;legacyItalic&gt;</bpt><bpt id="2">&lt;ui&gt;</bpt>Bagging<ept id="2">&lt;/ui&gt;</ept><ept id="1">&lt;/legacyItalic&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Select this option to use bagging, also called <bpt id="1">&lt;newTerm&gt;</bpt>bootstrap aggregating<ept id="1">&lt;/newTerm&gt;</ept>.</source>
+            <target state="new">Select this option to use bagging, also called <bpt id="1">&lt;newTerm&gt;</bpt>bootstrap aggregating<ept id="1">&lt;/newTerm&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Each tree in a regression decision forest outputs a Gaussian distribution by way of prediction.</source>
+            <target state="new">Each tree in a regression decision forest outputs a Gaussian distribution by way of prediction.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>The aggregation is to find a Gaussian whose first two moments match the moments of the mixture of Gaussians given by combining all Gaussians returned by individual trees.</source>
+            <target state="new">The aggregation is to find a Gaussian whose first two moments match the moments of the mixture of Gaussians given by combining all Gaussians returned by individual trees.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyItalic&gt;</bpt><bpt id="2">&lt;ui&gt;</bpt>Replicate<ept id="2">&lt;/ui&gt;</ept><ept id="1">&lt;/legacyItalic&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;legacyItalic&gt;</bpt><bpt id="2">&lt;ui&gt;</bpt>Replicate<ept id="2">&lt;/ui&gt;</ept><ept id="1">&lt;/legacyItalic&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>In replication, each tree is trained on exactly the same input data.</source>
+            <target state="new">In replication, each tree is trained on exactly the same input data.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Number of decision trees</source>
+            <target state="new">Number of decision trees</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Specify the total number of decision trees that are created in the ensemble.</source>
+            <target state="new">Specify the total number of decision trees that are created in the ensemble.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>By creating more decision trees, you can potentially get better coverage, but training time will increase.</source>
+            <target state="new">By creating more decision trees, you can potentially get better coverage, but training time will increase.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Maximum depth of the decision trees</source>
+            <target state="new">Maximum depth of the decision trees</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Specify the maximum depth of each tree in the ensemble.</source>
+            <target state="new">Specify the maximum depth of each tree in the ensemble.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Increasing the depth of a tree has the effect of increasing precision at the risk of some overfitting and increased training time.</source>
+            <target state="new">Increasing the depth of a tree has the effect of increasing precision at the risk of some overfitting and increased training time.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Number of random splits per node</source>
+            <target state="new">Number of random splits per node</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Specify the number of splits to use when building each node of the tree.</source>
+            <target state="new">Specify the number of splits to use when building each node of the tree.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>At each split, features in each level of the tree (node) are randomly divided.</source>
+            <target state="new">At each split, features in each level of the tree (node) are randomly divided.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Minimum number of samples per leaf node</source>
+            <target state="new">Minimum number of samples per leaf node</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Type a value that defines the number of samples or case required to create a decision tree leaf node.</source>
+            <target state="new">Type a value that defines the number of samples or case required to create a decision tree leaf node.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>By increasing this value, you increase the threshold for creating new rules.</source>
+            <target state="new">By increasing this value, you increase the threshold for creating new rules.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>For example, with the default value of 1, even a single case can cause a new rule to be created.</source>
+            <target state="new">For example, with the default value of 1, even a single case can cause a new rule to be created.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>If you increase the value to 5, the training data would have to contain at least 5 cases that meet the same conditions.</source>
+            <target state="new">If you increase the value to 5, the training data would have to contain at least 5 cases that meet the same conditions.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Allow unknown values for categorical features</source>
+            <target state="new">Allow unknown values for categorical features</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>When this option is selected, the model will create a grouping for Unknown values.</source>
+            <target state="new">When this option is selected, the model will create a grouping for Unknown values.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>If you deselect this option, the model can accept only the values contained in the training data.</source>
+            <target state="new">If you deselect this option, the model can accept only the values contained in the training data.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>In the former case, the model might be less precise on known values but provide better predictions for new (unknown) values.</source>
+            <target state="new">In the former case, the model might be less precise on known values but provide better predictions for new (unknown) values.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Recommendations</source>
+            <target state="new">Recommendations</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>If you have limited data or want to minimize the time spent training the model, try these settings:</source>
+            <target state="new">If you have limited data or want to minimize the time spent training the model, try these settings:</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Limited training set.  <ept id="1">&lt;/legacyBold&gt;</ept>If the training set contains a limited number of instances: </source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Limited training set.  <ept id="1">&lt;/legacyBold&gt;</ept>If the training set contains a limited number of instances: </target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Create the decision forest using a large number of decision trees (for example, more than 20)</source>
+            <target state="new">Create the decision forest using a large number of decision trees (for example, more than 20)</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Use the <bpt id="1">&lt;ui&gt;</bpt>Bagging<ept id="1">&lt;/ui&gt;</ept> option for resampling</source>
+            <target state="new">Use the <bpt id="1">&lt;ui&gt;</bpt>Bagging<ept id="1">&lt;/ui&gt;</ept> option for resampling</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Specify a large number of random splits per node (for example, more than 1000)</source>
+            <target state="new">Specify a large number of random splits per node (for example, more than 1000)</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Limited training time. <ept id="1">&lt;/legacyBold&gt;</ept>If the training set contains a large number of instances and training time is limited:</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Limited training time. <ept id="1">&lt;/legacyBold&gt;</ept>If the training set contains a large number of instances and training time is limited:</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Create the decision forest using fewer decision trees (for example, 5-10)</source>
+            <target state="new">Create the decision forest using fewer decision trees (for example, 5-10)</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Use the <bpt id="1">&lt;ui&gt;</bpt>Replicate<ept id="1">&lt;/ui&gt;</ept> option for resampling</source>
+            <target state="new">Use the <bpt id="1">&lt;ui&gt;</bpt>Replicate<ept id="1">&lt;/ui&gt;</ept> option for resampling</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Specify a small number of random splits per node (for example, less than 100)</source>
+            <target state="new">Specify a small number of random splits per node (for example, less than 100)</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Examples</source>
+            <target state="new">Examples</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>For examples of regression models, see these sample experiments in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Model Gallery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://gallery.azureml.net/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>:</source>
+            <target state="new">For examples of regression models, see these sample experiments in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Model Gallery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://gallery.azureml.net/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>:</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Compare Regression Models sample<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525731&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> contrasts several different kinds of regression models.</source>
+            <target state="new">The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Compare Regression Models sample<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525731&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> contrasts several different kinds of regression models.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>sentiment analysis sample<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525274&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> uses several different regression models to generate predicted ratings.</source>
+            <target state="new">The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>sentiment analysis sample<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525274&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> uses several different regression models to generate predicted ratings.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Technical Notes</source>
+            <target state="new">Technical Notes</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Module Parameters</source>
+            <target state="new">Module Parameters</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Range</source>
+            <target state="new">Range</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Default</source>
+            <target state="new">Default</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Resampling method</source>
+            <target state="new">Resampling method</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>any</source>
+            <target state="new">any</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>ResamplingMethod</source>
+            <target state="new">ResamplingMethod</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Bagging</source>
+            <target state="new">Bagging</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Choose a resampling method</source>
+            <target state="new">Choose a resampling method</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Number of decision trees</source>
+            <target state="new">Number of decision trees</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>&gt;=1</source>
+            <target state="new">&gt;=1</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>8</source>
+            <target state="new">8</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Specify the number of decision trees to create in the ensemble</source>
+            <target state="new">Specify the number of decision trees to create in the ensemble</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Maximum depth of the decision trees</source>
+            <target state="new">Maximum depth of the decision trees</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>&gt;=1</source>
+            <target state="new">&gt;=1</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>32</source>
+            <target state="new">32</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Specify the maximum depth of any decision tree that can be created in the ensemble</source>
+            <target state="new">Specify the maximum depth of any decision tree that can be created in the ensemble</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Number of random splits per node</source>
+            <target state="new">Number of random splits per node</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>&gt;=1</source>
+            <target state="new">&gt;=1</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>128</source>
+            <target state="new">128</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Specify the number of splits generated per node, from which the optimal split is selected</source>
+            <target state="new">Specify the number of splits generated per node, from which the optimal split is selected</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Minimum number of samples per leaf node</source>
+            <target state="new">Minimum number of samples per leaf node</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>&gt;=1</source>
+            <target state="new">&gt;=1</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Specify the minimum number of training samples required to generate a leaf node</source>
+            <target state="new">Specify the minimum number of training samples required to generate a leaf node</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Allow unknown values for categorical features</source>
+            <target state="new">Allow unknown values for categorical features</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>any</source>
+            <target state="new">any</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Boolean</source>
+            <target state="new">Boolean</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>true</source>
+            <target state="new">true</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>Indicate whether unknown values of existing categorical features can be mapped to a new, additional feature</source>
+            <target state="new">Indicate whether unknown values of existing categorical features can be mapped to a new, additional feature</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>Outputs</source>
+            <target state="new">Outputs</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>Untrained model</source>
+            <target state="new">Untrained model</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>An untrained regression model</source>
+            <target state="new">An untrained regression model</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzFEKwyAMgOGreAADaoI1ex/sfbtA1AQKnYW2gx5/vv4f/GaolVIDVSKgaAFqKBVaiJKZLYqwd127EucKGJYGRNWAUQuYFm7CWIiTd7nNZrhAyNqBkBVqSx16FowTUsb5it7pCc+3d/e2mul9PY59v7ybh8mv31fG55BxbnKt+/gDx31CoaEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Authorization Code Grant Flow</source>
+            <target state="new">Authorization Code Grant Flow</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Access to web APIs by native clients and websites in Azure Active Directory (Azure AD) is implemented by using the OAuth 2.0 <bpt id="1">&lt;newTerm&gt;</bpt>Authorization Code Grant<ept id="1">&lt;/newTerm&gt;</ept> flow.</source>
+            <target state="new">Access to web APIs by native clients and websites in Azure Active Directory (Azure AD) is implemented by using the OAuth 2.0 <bpt id="1">&lt;newTerm&gt;</bpt>Authorization Code Grant<ept id="1">&lt;/newTerm&gt;</ept> flow.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>In this flow, the user delegates access to a client application.</source>
+            <target state="new">In this flow, the user delegates access to a client application.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The transaction is protected and mediated by a code grant, which is exchanged for an access token.</source>
+            <target state="new">The transaction is protected and mediated by a code grant, which is exchanged for an access token.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The client application never sees the user's credentials and the user agent never sees the access token.</source>
+            <target state="new">The client application never sees the user's credentials and the user agent never sees the access token.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>The standard Authorization Code Grant flow is described in Section 4.1 of the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>The OAuth 2.0 Authorization Framework<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://tools.ietf.org/html/rfc6749&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>This diagram shows how the Authorization Code Grant Flow works in Azure AD.</source>
+            <target state="new">The standard Authorization Code Grant flow is described in Section 4.1 of the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>The OAuth 2.0 Authorization Framework<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://tools.ietf.org/html/rfc6749&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>This diagram shows how the Authorization Code Grant Flow works in Azure AD.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Authorization Code Grant Flow Diagram</source>
+            <target state="new">Authorization Code Grant Flow Diagram</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The following diagram illustrates the Authorization Code Grant flow.</source>
+            <target state="new">The following diagram illustrates the Authorization Code Grant flow.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The client application starts the flow by redirecting the user agent to the Azure AD authorization endpoint.</source>
+            <target state="new">The client application starts the flow by redirecting the user agent to the Azure AD authorization endpoint.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>The user authenticates and consents, if consent is required.</source>
+            <target state="new">The user authenticates and consents, if consent is required.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The Azure AD authorization endpoint redirects the user agent back to the client application with an authorization code.</source>
+            <target state="new">The Azure AD authorization endpoint redirects the user agent back to the client application with an authorization code.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The user agent returns authorization code to the client application’s redirect URI.</source>
+            <target state="new">The user agent returns authorization code to the client application’s redirect URI.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The client application requests an access token from the Azure AD token issuance endpoint.</source>
+            <target state="new">The client application requests an access token from the Azure AD token issuance endpoint.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>It presents the authorization code to prove that the user has consented.</source>
+            <target state="new">It presents the authorization code to prove that the user has consented.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The Azure AD token issuance endpoint returns an access token and a refresh token.</source>
+            <target state="new">The Azure AD token issuance endpoint returns an access token and a refresh token.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>The refresh token can be used to request additional access tokens.</source>
+            <target state="new">The refresh token can be used to request additional access tokens.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>The client application uses the access token to authenticate to the Web API.</source>
+            <target state="new">The client application uses the access token to authenticate to the Web API.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>After authenticating the client application, the web API returns the requested data.</source>
+            <target state="new">After authenticating the client application, the web API returns the requested data.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Register the Application in Azure AD</source>
+            <target state="new">Register the Application in Azure AD</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>To begin, use the Azure Management Portal to register the application in your Azure AD tenant.</source>
+            <target state="new">To begin, use the Azure Management Portal to register the application in your Azure AD tenant.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>For detailed instructions, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Adding, Updating, and Removing an App<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=391831&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept></source>
+            <target state="new">For detailed instructions, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Adding, Updating, and Removing an App<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=391831&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Request an authorization code</source>
+            <target state="new">Request an authorization code</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Next, the application prompts the user to authenticate to Azure AD and to allow Azure AD to release an authorization code to the application.</source>
+            <target state="new">Next, the application prompts the user to authenticate to Azure AD and to allow Azure AD to release an authorization code to the application.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>The application presents the authorization code to an authorization server and the authorization server returns an access token that gives the application permission to access the resource.</source>
+            <target state="new">The application presents the authorization code to an authorization server and the authorization server returns an access token that gives the application permission to access the resource.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>To get the authorization code, the web browser (or an embedded web browser control) navigates to a tenant-specific or common (tenant-independent) endpoint.</source>
+            <target state="new">To get the authorization code, the web browser (or an embedded web browser control) navigates to a tenant-specific or common (tenant-independent) endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>If the user is part of an organization, an administrator of the organization can consent or decline on the user's behalf, or permit the user to consent.</source>
+            <target state="new">If the user is part of an organization, an administrator of the organization can consent or decline on the user's behalf, or permit the user to consent.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>The user is given the option to consent only when the administrator permits it.</source>
+            <target state="new">The user is given the option to consent only when the administrator permits it.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Authorization Code Request</source>
+            <target state="new">Authorization Code Request</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>To request an authorization code for access to a resource, create an OAuth 2.0 GET request, like this one:</source>
+            <target state="new">To request an authorization code for access to a resource, create an OAuth 2.0 GET request, like this one:</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>For example:</source>
+            <target state="new">For example:</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>The following table describes the valid parameters in the request.</source>
+            <target state="new">The following table describes the valid parameters in the request.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Parameter</source>
+            <target state="new">Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>[Required] Specifies the client id of the application that is registered in Azure Active Directory.</source>
+            <target state="new">[Required] Specifies the client id of the application that is registered in Azure Active Directory.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>To find the application's client ID, in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.WindowsAzure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, click <bpt id="4">&lt;ui&gt;</bpt>Active Directory<ept id="4">&lt;/ui&gt;</ept>, click the directory, click the application and then click <bpt id="5">&lt;ui&gt;</bpt>Configure<ept id="5">&lt;/ui&gt;</ept>.</source>
+            <target state="new">To find the application's client ID, in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.WindowsAzure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, click <bpt id="4">&lt;ui&gt;</bpt>Active Directory<ept id="4">&lt;/ui&gt;</ept>, click the directory, click the application and then click <bpt id="5">&lt;ui&gt;</bpt>Configure<ept id="5">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>[Optional] Provides a hint about the tenant or domain that the user should use to sign in.</source>
+            <target state="new">[Optional] Provides a hint about the tenant or domain that the user should use to sign in.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>The value of the <ph id="1">&lt;parameterReference&gt;domain_hint&lt;/parameterReference&gt;</ph> is a registered domain for the tenant.</source>
+            <target state="new">The value of the <ph id="1">&lt;parameterReference&gt;domain_hint&lt;/parameterReference&gt;</ph> is a registered domain for the tenant.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>If the tenant is federated to an on-premises directory, AAD redirects to the specified tenant federation server.</source>
+            <target state="new">If the tenant is federated to an on-premises directory, AAD redirects to the specified tenant federation server.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>[Optional] Provides a hint to the user on the sign-in page.</source>
+            <target state="new">[Optional] Provides a hint to the user on the sign-in page.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>For example, this value is pre-filled in the username field on the sign-in page.</source>
+            <target state="new">For example, this value is pre-filled in the username field on the sign-in page.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>[Optional] Indicate the type of user interaction that is required.</source>
+            <target state="new">[Optional] Indicate the type of user interaction that is required.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Valid values are:</source>
+            <target state="new">Valid values are:</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>-- <ph id="1">&lt;parameterReference&gt;login&lt;/parameterReference&gt;</ph>: The user should be prompted to re-authenticate.-- <ph id="2">&lt;parameterReference&gt;consent&lt;/parameterReference&gt;</ph>: User consent has been granted, but needs to be updated.</source>
+            <target state="new">-- <ph id="1">&lt;parameterReference&gt;login&lt;/parameterReference&gt;</ph>: The user should be prompted to re-authenticate.-- <ph id="2">&lt;parameterReference&gt;consent&lt;/parameterReference&gt;</ph>: User consent has been granted, but needs to be updated.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>The user should be prompted to consent.</source>
+            <target state="new">The user should be prompted to consent.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>-- <ph id="1">&lt;parameterReference&gt;admin_consent&lt;/parameterReference&gt;</ph>: An administrator should be prompted to consent on behalf of all users in their organization.</source>
+            <target state="new">-- <ph id="1">&lt;parameterReference&gt;admin_consent&lt;/parameterReference&gt;</ph>: An administrator should be prompted to consent on behalf of all users in their organization.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>[Recommended] Specifies the reply URL of the application.</source>
+            <target state="new">[Recommended] Specifies the reply URL of the application.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>To find the application's reply URL, in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.WindowsAzure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, click <bpt id="4">&lt;ui&gt;</bpt>Active Directory<ept id="4">&lt;/ui&gt;</ept>, click the directory, and then click the application and then click <bpt id="5">&lt;ui&gt;</bpt>Configure<ept id="5">&lt;/ui&gt;</ept>.</source>
+            <target state="new">To find the application's reply URL, in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.WindowsAzure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, click <bpt id="4">&lt;ui&gt;</bpt>Active Directory<ept id="4">&lt;/ui&gt;</ept>, click the directory, and then click the application and then click <bpt id="5">&lt;ui&gt;</bpt>Configure<ept id="5">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;system&gt;Reply URL&lt;/system&gt;</ph> field is in the <bpt id="2">&lt;ui&gt;</bpt>Single Sign-on<ept id="2">&lt;/ui&gt;</ept> section of the <bpt id="3">&lt;ui&gt;</bpt>Configure<ept id="3">&lt;/ui&gt;</ept> page.</source>
+            <target state="new">The <ph id="1">&lt;system&gt;Reply URL&lt;/system&gt;</ph> field is in the <bpt id="2">&lt;ui&gt;</bpt>Single Sign-on<ept id="2">&lt;/ui&gt;</ept> section of the <bpt id="3">&lt;ui&gt;</bpt>Configure<ept id="3">&lt;/ui&gt;</ept> page.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source> [Optional] The App ID URI of the web API (secured resource).</source>
+            <target state="new"> [Optional] The App ID URI of the web API (secured resource).</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>To find the App ID URI of the web API, in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.WindowsAzure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, click <bpt id="4">&lt;ui&gt;</bpt>Active Directory<ept id="4">&lt;/ui&gt;</ept>, click the directory, click the application and then click <bpt id="5">&lt;ui&gt;</bpt>Configure<ept id="5">&lt;/ui&gt;</ept>.</source>
+            <target state="new">To find the App ID URI of the web API, in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.WindowsAzure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, click <bpt id="4">&lt;ui&gt;</bpt>Active Directory<ept id="4">&lt;/ui&gt;</ept>, click the directory, click the application and then click <bpt id="5">&lt;ui&gt;</bpt>Configure<ept id="5">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>[Required] Specifies the requested response type.</source>
+            <target state="new">[Required] Specifies the requested response type.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>In an authorization code grant request, the value must be <ph id="1">&lt;system&gt;code&lt;/system&gt;</ph>.</source>
+            <target state="new">In an authorization code grant request, the value must be <ph id="1">&lt;system&gt;code&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>[Recommended] A randomly generated non-reused value that is sent in the request and returned in the response.</source>
+            <target state="new">[Recommended] A randomly generated non-reused value that is sent in the request and returned in the response.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>This parameter is used as a mitigation against cross-site request forgery (CSRF) attacks.</source>
+            <target state="new">This parameter is used as a mitigation against cross-site request forgery (CSRF) attacks.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>For more information, see  <ph id="1">&lt;link xlink:href="12a33bb0-247c-460b-bb55-f5d1e699b1e7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Best Practices for OAuth 2.0 in Azure AD&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see  <ph id="1">&lt;link xlink:href="12a33bb0-247c-460b-bb55-f5d1e699b1e7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Best Practices for OAuth 2.0 in Azure AD&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Examples</source>
+            <target state="new">Examples</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>The following are examples of valid GET requests for an authorization code.</source>
+            <target state="new">The following are examples of valid GET requests for an authorization code.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>In this request, the application with <ph id="1">&lt;parameterReference&gt;client_id&lt;/parameterReference&gt;</ph> 2d4d11a2-f814-46a7-890a-274a72a7309e requests an authorization code.</source>
+            <target state="new">In this request, the application with <ph id="1">&lt;parameterReference&gt;client_id&lt;/parameterReference&gt;</ph> 2d4d11a2-f814-46a7-890a-274a72a7309e requests an authorization code.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>The authorization code will be used to request a token for the web  API with the resource identifierhttps://service.contoso.com/.</source>
+            <target state="new">The authorization code will be used to request a token for the web  API with the resource identifierhttps://service.contoso.com/.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Because the expected user is admin@contoso.com, this value used in a <ph id="1">&lt;parameterReference&gt;login_hint&lt;/parameterReference&gt;</ph> that is prefilled in username field on the sign-in page.</source>
+            <target state="new">Because the expected user is admin@contoso.com, this value used in a <ph id="1">&lt;parameterReference&gt;login_hint&lt;/parameterReference&gt;</ph> that is prefilled in username field on the sign-in page.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;redirect_uri&lt;/parameterReference&gt;</ph> value in the request is the registered redirect URI for the application.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;redirect_uri&lt;/parameterReference&gt;</ph> value in the request is the registered redirect URI for the application.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>When the application runs on the user’s device and is not hosted on a website, the redirect URI does not need to be a physical endpoint.</source>
+            <target state="new">When the application runs on the user’s device and is not hosted on a website, the redirect URI does not need to be a physical endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>The following example is similar to the previous one, but it uses the <ph id="1">&lt;parameterReference&gt;domain_hint&lt;/parameterReference&gt;</ph> parameter to suggest a domain and the <ph id="2">&lt;parameterReference&gt;prompt&lt;/parameterReference&gt;</ph> parameter to specify a consent prompt.</source>
+            <target state="new">The following example is similar to the previous one, but it uses the <ph id="1">&lt;parameterReference&gt;domain_hint&lt;/parameterReference&gt;</ph> parameter to suggest a domain and the <ph id="2">&lt;parameterReference&gt;prompt&lt;/parameterReference&gt;</ph> parameter to specify a consent prompt.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Authorization Code Response</source>
+            <target state="new">Authorization Code Response</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>When an application sends a GET request for an authorization code, Azure AD sends a response to the value of the <ph id="1">&lt;parameterReference&gt;redirect_uri&lt;/parameterReference&gt;</ph> parameter in the request.</source>
+            <target state="new">When an application sends a GET request for an authorization code, Azure AD sends a response to the value of the <ph id="1">&lt;parameterReference&gt;redirect_uri&lt;/parameterReference&gt;</ph> parameter in the request.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>The response includes the following parameters.</source>
+            <target state="new">The response includes the following parameters.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Parameter</source>
+            <target state="new">Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>admin_consent</source>
+            <target state="new">admin_consent</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>The value is True if an administrator consented to a consent request prompt.</source>
+            <target state="new">The value is True if an administrator consented to a consent request prompt.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>code</source>
+            <target state="new">code</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>The authorization code that the application requested.</source>
+            <target state="new">The authorization code that the application requested.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>The application can use the authorization code to request an access token for the target resource.</source>
+            <target state="new">The application can use the authorization code to request an access token for the target resource.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>session_state</source>
+            <target state="new">session_state</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>A unique value that identifies the current user session.</source>
+            <target state="new">A unique value that identifies the current user session.</target>
+          </trans-unit>
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>This value is a GUID, but should be treated as an opaque value that is passed without examination.</source>
+            <target state="new">This value is a GUID, but should be treated as an opaque value that is passed without examination.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>state</source>
+            <target state="new">state</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>If a state parameter is included in the request, the same value should appear in the response.</source>
+            <target state="new">If a state parameter is included in the request, the same value should appear in the response.</target>
+          </trans-unit>
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>The application should verify that the state values in the request and response are identical.</source>
+            <target state="new">The application should verify that the state values in the request and response are identical.</target>
+          </trans-unit>
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="12a33bb0-247c-460b-bb55-f5d1e699b1e7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Best Practices for OAuth 2.0 in Azure AD&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="12a33bb0-247c-460b-bb55-f5d1e699b1e7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Best Practices for OAuth 2.0 in Azure AD&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>The following is a sample response to an authorization code request.</source>
+            <target state="new">The following is a sample response to an authorization code request.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>The location header value matches the <ph id="1">&lt;parameterReference&gt;redirect_uri&lt;/parameterReference&gt;</ph> value in the request.</source>
+            <target state="new">The location header value matches the <ph id="1">&lt;parameterReference&gt;redirect_uri&lt;/parameterReference&gt;</ph> value in the request.</target>
+          </trans-unit>
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>If the <ph id="1">&lt;parameterReference&gt;state&lt;/parameterReference&gt;</ph> value in the response matches the <ph id="2">&lt;parameterReference&gt;state&lt;/parameterReference&gt;</ph> value in the request, the application should store the authorization code for use in the access token request.</source>
+            <target state="new">If the <ph id="1">&lt;parameterReference&gt;state&lt;/parameterReference&gt;</ph> value in the response matches the <ph id="2">&lt;parameterReference&gt;state&lt;/parameterReference&gt;</ph> value in the request, the application should store the authorization code for use in the access token request.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Use the Authorization Code to Request an Access Token</source>
+            <target state="new">Use the Authorization Code to Request an Access Token</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>When the application gets the authorization code from the authorization endpoint, it can use the authorization code to request an access token from Azure AD.</source>
+            <target state="new">When the application gets the authorization code from the authorization endpoint, it can use the authorization code to request an access token from Azure AD.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Access Token Request</source>
+            <target state="new">Access Token Request</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>To redeem an authorization code and get an access token, sent an HTTP POST request to a common or tenant-specific Azure AD Authorization endpoint.</source>
+            <target state="new">To redeem an authorization code and get an access token, sent an HTTP POST request to a common or tenant-specific Azure AD Authorization endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>The following parameters are valid in a token request.</source>
+            <target state="new">The following parameters are valid in a token request.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Parameter</source>
+            <target state="new">Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>client_id</source>
+            <target state="new">client_id</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>[Required] The client ID of the native client application.</source>
+            <target state="new">[Required] The client ID of the native client application.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>To find the application's client ID, in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.WindowsAzure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, click <bpt id="4">&lt;ui&gt;</bpt>Active Directory<ept id="4">&lt;/ui&gt;</ept>, click the directory, click the application and then click <bpt id="5">&lt;ui&gt;</bpt>Configure<ept id="5">&lt;/ui&gt;</ept>.</source>
+            <target state="new">To find the application's client ID, in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.WindowsAzure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, click <bpt id="4">&lt;ui&gt;</bpt>Active Directory<ept id="4">&lt;/ui&gt;</ept>, click the directory, click the application and then click <bpt id="5">&lt;ui&gt;</bpt>Configure<ept id="5">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>client_secret</source>
+            <target state="new">client_secret</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>[Required for confidential clients (websites)] Contains the client password.</source>
+            <target state="new">[Required for confidential clients (websites)] Contains the client password.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>code</source>
+            <target state="new">code</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>[Required] The authorization code from the <ph id="1">&lt;link xlink:href="aeab0a46-4da1-4300-be9c-3be418f07a5b#BKMK_authorization_code_response" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Authorization Code Response&lt;/link&gt;</ph>.</source>
+            <target state="new">[Required] The authorization code from the <ph id="1">&lt;link xlink:href="aeab0a46-4da1-4300-be9c-3be418f07a5b#BKMK_authorization_code_response" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Authorization Code Response&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>grant_type</source>
+            <target state="new">grant_type</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>[Required] Indicated the type of grant you are using.</source>
+            <target state="new">[Required] Indicated the type of grant you are using.</target>
+          </trans-unit>
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>For an authorization code grant, the value is <ph id="1">&lt;system&gt;authorization_code&lt;/system&gt;</ph>.</source>
+            <target state="new">For an authorization code grant, the value is <ph id="1">&lt;system&gt;authorization_code&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>redirect_uri</source>
+            <target state="new">redirect_uri</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>[Required if it was included in the authorization code request] Specifies the reply URL of the application.</source>
+            <target state="new">[Required if it was included in the authorization code request] Specifies the reply URL of the application.</target>
+          </trans-unit>
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>The value must match the value of the <ph id="1">&lt;parameterReference&gt;redirect_uri&lt;/parameterReference&gt;</ph> parameter in the authorization code request.</source>
+            <target state="new">The value must match the value of the <ph id="1">&lt;parameterReference&gt;redirect_uri&lt;/parameterReference&gt;</ph> parameter in the authorization code request.</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>To find the application's reply URL, in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.WindowsAzure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, click <bpt id="4">&lt;ui&gt;</bpt>Active Directory<ept id="4">&lt;/ui&gt;</ept>, click the directory, click the application, and then click <bpt id="5">&lt;ui&gt;</bpt>Configure<ept id="5">&lt;/ui&gt;</ept>.</source>
+            <target state="new">To find the application's reply URL, in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.WindowsAzure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, click <bpt id="4">&lt;ui&gt;</bpt>Active Directory<ept id="4">&lt;/ui&gt;</ept>, click the directory, click the application, and then click <bpt id="5">&lt;ui&gt;</bpt>Configure<ept id="5">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>resource</source>
+            <target state="new">resource</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>[Optional] The App ID URI of the web API (secured resource).</source>
+            <target state="new">[Optional] The App ID URI of the web API (secured resource).</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>To find the App ID URI, in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.WindowsAzure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, click <bpt id="4">&lt;ui&gt;</bpt>Active Directory<ept id="4">&lt;/ui&gt;</ept>, click the directory, click the application, and then click <bpt id="5">&lt;ui&gt;</bpt>Configure<ept id="5">&lt;/ui&gt;</ept>.</source>
+            <target state="new">To find the App ID URI, in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.WindowsAzure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, click <bpt id="4">&lt;ui&gt;</bpt>Active Directory<ept id="4">&lt;/ui&gt;</ept>, click the directory, click the application, and then click <bpt id="5">&lt;ui&gt;</bpt>Configure<ept id="5">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>Example</source>
+            <target state="new">Example</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>The following HTTP POST request includes all required parameters and the optional resource parameter.</source>
+            <target state="new">The following HTTP POST request includes all required parameters and the optional resource parameter.</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>Access Token Response</source>
+            <target state="new">Access Token Response</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>The response to a request for an access token includes the following parameters.</source>
+            <target state="new">The response to a request for an access token includes the following parameters.</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>Parameter</source>
+            <target state="new">Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>access_token</source>
+            <target state="new">access_token</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>The requested access token.</source>
+            <target state="new">The requested access token.</target>
+          </trans-unit>
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>The application can use this token to authenticate to the secured resource, such as a web API.</source>
+            <target state="new">The application can use this token to authenticate to the secured resource, such as a web API.</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>expires_in</source>
+            <target state="new">expires_in</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>How long the access token is valid (in seconds).</source>
+            <target state="new">How long the access token is valid (in seconds).</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>expires_on</source>
+            <target state="new">expires_on</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>The time when the access token expires.</source>
+            <target state="new">The time when the access token expires.</target>
+          </trans-unit>
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>The date is represented as the number of seconds from</source>
+            <target state="new">The date is represented as the number of seconds from</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>1970-01-01T0:0:0Z UTC until the expiration time.</source>
+            <target state="new">1970-01-01T0:0:0Z UTC until the expiration time.</target>
+          </trans-unit>
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>This value is used to determine the lifetime of cached tokens.</source>
+            <target state="new">This value is used to determine the lifetime of cached tokens.</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>id_token</source>
+            <target state="new">id_token</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>An unsigned JSON Web Token (JWT).</source>
+            <target state="new">An unsigned JSON Web Token (JWT).</target>
+          </trans-unit>
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>The application can use this token to request information about the user who consented.</source>
+            <target state="new">The application can use this token to request information about the user who consented.</target>
+          </trans-unit>
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>The application can cache the values and display them.</source>
+            <target state="new">The application can cache the values and display them.</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>refresh_token</source>
+            <target state="new">refresh_token</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>An OAuth 2.0 refresh token.</source>
+            <target state="new">An OAuth 2.0 refresh token.</target>
+          </trans-unit>
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>The application can use this token acquire additional access tokens after the current access token expires.</source>
+            <target state="new">The application can use this token acquire additional access tokens after the current access token expires.</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>resource</source>
+            <target state="new">resource</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>The App ID URI of the web API (secured resource).</source>
+            <target state="new">The App ID URI of the web API (secured resource).</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>scope</source>
+            <target state="new">scope</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>Impersonation permissions granted to the client application.</source>
+            <target state="new">Impersonation permissions granted to the client application.</target>
+          </trans-unit>
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>The default permission is <ph id="1">&lt;system&gt;user_impersonation&lt;/system&gt;</ph>.</source>
+            <target state="new">The default permission is <ph id="1">&lt;system&gt;user_impersonation&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>The owner of the secured resource can register additional values in Azure AD.</source>
+            <target state="new">The owner of the secured resource can register additional values in Azure AD.</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>token_type</source>
+            <target state="new">token_type</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>Indicates the token type value.</source>
+            <target state="new">Indicates the token type value.</target>
+          </trans-unit>
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>The only type that Azure AD supports is <ph id="1">&lt;system&gt;Bearer&lt;/system&gt;</ph> For more information about bearer tokens, see <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>The OAuth 2.0 Authorization Framework: Bearer Token Usage (RFC 6750).<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://www.rfc-editor.org/rfc/rfc6750.txt&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept></source>
+            <target state="new">The only type that Azure AD supports is <ph id="1">&lt;system&gt;Bearer&lt;/system&gt;</ph> For more information about bearer tokens, see <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>The OAuth 2.0 Authorization Framework: Bearer Token Usage (RFC 6750).<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://www.rfc-editor.org/rfc/rfc6750.txt&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>The id_token parameter value is a JSON web token (JWT) that includes the following claim types.</source>
+            <target state="new">The id_token parameter value is a JSON web token (JWT) that includes the following claim types.</target>
+          </trans-unit>
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>For more information about JSON web tokens, see the JWT IETF draft specification at <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/?LinkId=392344<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=392344&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information about JSON web tokens, see the JWT IETF draft specification at <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/?LinkId=392344<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=392344&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>Claim type</source>
+            <target state="new">Claim type</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>aud</source>
+            <target state="new">aud</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>Audience of the token.</source>
+            <target state="new">Audience of the token.</target>
+          </trans-unit>
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>When the token is issued to a client application, the audience is the <ph id="1">&lt;parameterReference&gt;client_id&lt;/parameterReference&gt;</ph> of the client.</source>
+            <target state="new">When the token is issued to a client application, the audience is the <ph id="1">&lt;parameterReference&gt;client_id&lt;/parameterReference&gt;</ph> of the client.</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>exp</source>
+            <target state="new">exp</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>Expiration time.</source>
+            <target state="new">Expiration time.</target>
+          </trans-unit>
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>The time when the token expires.</source>
+            <target state="new">The time when the token expires.</target>
+          </trans-unit>
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>For the token to be valid, the current date/time must be less than or equal to the <ph id="1">&lt;system&gt;exp&lt;/system&gt;</ph> value.</source>
+            <target state="new">For the token to be valid, the current date/time must be less than or equal to the <ph id="1">&lt;system&gt;exp&lt;/system&gt;</ph> value.</target>
+          </trans-unit>
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>The time is represented as the number of seconds from January 1, 1970 (1970-01-01T0:0:0Z) UTC until the time the token was issued.</source>
+            <target state="new">The time is represented as the number of seconds from January 1, 1970 (1970-01-01T0:0:0Z) UTC until the time the token was issued.</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>family_name</source>
+            <target state="new">family_name</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>User’s last name or surname.</source>
+            <target state="new">User’s last name or surname.</target>
+          </trans-unit>
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>The application can display this value.</source>
+            <target state="new">The application can display this value.</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>given_name</source>
+            <target state="new">given_name</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>User’s first name.</source>
+            <target state="new">User’s first name.</target>
+          </trans-unit>
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>The application can display this value.</source>
+            <target state="new">The application can display this value.</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>iat</source>
+            <target state="new">iat</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>Issued at time.</source>
+            <target state="new">Issued at time.</target>
+          </trans-unit>
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>The time when the JWT was issued.</source>
+            <target state="new">The time when the JWT was issued.</target>
+          </trans-unit>
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>The time is represented as the number of seconds from January 1, 1970 (1970-01-01T0:0:0Z) UTC until the time the token was issued.</source>
+            <target state="new">The time is represented as the number of seconds from January 1, 1970 (1970-01-01T0:0:0Z) UTC until the time the token was issued.</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>iss</source>
+            <target state="new">iss</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>Identifies the token issuer</source>
+            <target state="new">Identifies the token issuer</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>nbf</source>
+            <target state="new">nbf</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>Not before time.</source>
+            <target state="new">Not before time.</target>
+          </trans-unit>
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>The time when the token becomes effective.</source>
+            <target state="new">The time when the token becomes effective.</target>
+          </trans-unit>
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>For the token to be valid, the current date/time must be greater than or equal to the Nbf value.</source>
+            <target state="new">For the token to be valid, the current date/time must be greater than or equal to the Nbf value.</target>
+          </trans-unit>
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>The time is represented as the number of seconds from January 1, 1970 (1970-01-01T0:0:0Z) UTC until the time the token was issued.</source>
+            <target state="new">The time is represented as the number of seconds from January 1, 1970 (1970-01-01T0:0:0Z) UTC until the time the token was issued.</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>oid</source>
+            <target state="new">oid</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source>Object identifier (ID) of the user object in Azure AD.</source>
+            <target state="new">Object identifier (ID) of the user object in Azure AD.</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="171" translate="yes" xml:space="preserve">
+            <source>sub</source>
+            <target state="new">sub</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="172" translate="yes" xml:space="preserve">
+            <source>Token subject identifier.</source>
+            <target state="new">Token subject identifier.</target>
+          </trans-unit>
+          <trans-unit id="173" translate="yes" xml:space="preserve">
+            <source>This is a persistent and immutable identifier for the user that the token describes.</source>
+            <target state="new">This is a persistent and immutable identifier for the user that the token describes.</target>
+          </trans-unit>
+          <trans-unit id="174" translate="yes" xml:space="preserve">
+            <source>Use this value in caching logic.</source>
+            <target state="new">Use this value in caching logic.</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="175" translate="yes" xml:space="preserve">
+            <source>tid</source>
+            <target state="new">tid</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="176" translate="yes" xml:space="preserve">
+            <source>Tenant identifier (ID) of the Azure AD tenant that issued the token.</source>
+            <target state="new">Tenant identifier (ID) of the Azure AD tenant that issued the token.</target>
+          </trans-unit>
+        </group>
+        <group id="123">
+          <trans-unit id="177" translate="yes" xml:space="preserve">
+            <source>unique_name</source>
+            <target state="new">unique_name</target>
+          </trans-unit>
+        </group>
+        <group id="124">
+          <trans-unit id="178" translate="yes" xml:space="preserve">
+            <source>A unique identifier for that can be displayed to the user.</source>
+            <target state="new">A unique identifier for that can be displayed to the user.</target>
+          </trans-unit>
+          <trans-unit id="179" translate="yes" xml:space="preserve">
+            <source>This is usually a user principal name (UPN).</source>
+            <target state="new">This is usually a user principal name (UPN).</target>
+          </trans-unit>
+        </group>
+        <group id="125">
+          <trans-unit id="180" translate="yes" xml:space="preserve">
+            <source>upn</source>
+            <target state="new">upn</target>
+          </trans-unit>
+        </group>
+        <group id="126">
+          <trans-unit id="181" translate="yes" xml:space="preserve">
+            <source>User principal name of the user.</source>
+            <target state="new">User principal name of the user.</target>
+          </trans-unit>
+        </group>
+        <group id="127">
+          <trans-unit id="182" translate="yes" xml:space="preserve">
+            <source>ver</source>
+            <target state="new">ver</target>
+          </trans-unit>
+        </group>
+        <group id="128">
+          <trans-unit id="183" translate="yes" xml:space="preserve">
+            <source>Version.</source>
+            <target state="new">Version.</target>
+          </trans-unit>
+          <trans-unit id="184" translate="yes" xml:space="preserve">
+            <source>The version of the JWT token, typically 1.0.</source>
+            <target state="new">The version of the JWT token, typically 1.0.</target>
+          </trans-unit>
+        </group>
+        <group id="129">
+          <trans-unit id="185" translate="yes" xml:space="preserve">
+            <source>Example</source>
+            <target state="new">Example</target>
+          </trans-unit>
+        </group>
+        <group id="130">
+          <trans-unit id="186" translate="yes" xml:space="preserve">
+            <source>The following is a sample response to a request for an access token, when the token request includes an authorization code.</source>
+            <target state="new">The following is a sample response to a request for an access token, when the token request includes an authorization code.</target>
+          </trans-unit>
+        </group>
+        <group id="131">
+          <trans-unit id="187" translate="yes" xml:space="preserve">
+            <source>The JWT token in the value of the <ph id="1">&lt;parameterReference&gt;id_token&lt;/parameterReference&gt;</ph> parameter can be decoded into the following claims:</source>
+            <target state="new">The JWT token in the value of the <ph id="1">&lt;parameterReference&gt;id_token&lt;/parameterReference&gt;</ph> parameter can be decoded into the following claims:</target>
+          </trans-unit>
+        </group>
+        <group id="132">
+          <trans-unit id="188" translate="yes" xml:space="preserve">
+            <source>Use the Access Token to Access the Resource</source>
+            <target state="new">Use the Access Token to Access the Resource</target>
+          </trans-unit>
+        </group>
+        <group id="133">
+          <trans-unit id="189" translate="yes" xml:space="preserve">
+            <source>You can use the access token that is returned in the response to authenticate to a protected resources, such as a web API.</source>
+            <target state="new">You can use the access token that is returned in the response to authenticate to a protected resources, such as a web API.</target>
+          </trans-unit>
+          <trans-unit id="190" translate="yes" xml:space="preserve">
+            <source>Typically, the token is presented to the web API in an HTTP request using the Bearer scheme, which is described in <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>RFC 6750<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.rfc-editor.org/rfc/rfc6750.txt&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">Typically, the token is presented to the web API in an HTTP request using the Bearer scheme, which is described in <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>RFC 6750<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.rfc-editor.org/rfc/rfc6750.txt&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="191" translate="yes" xml:space="preserve">
+            <source>This specification explains how to use bearer tokens in HTTP requests to access protected resources.</source>
+            <target state="new">This specification explains how to use bearer tokens in HTTP requests to access protected resources.</target>
+          </trans-unit>
+        </group>
+        <group id="134">
+          <trans-unit id="192" translate="yes" xml:space="preserve">
+            <source>When the web API receives and validates the token, it gives the native client application access to the web API.</source>
+            <target state="new">When the web API receives and validates the token, it gives the native client application access to the web API.</target>
+          </trans-unit>
+        </group>
+        <group id="135">
+          <trans-unit id="193" translate="yes" xml:space="preserve">
+            <source>The following example shows a GET request that passes an access token in the request body.</source>
+            <target state="new">The following example shows a GET request that passes an access token in the request body.</target>
+          </trans-unit>
+          <trans-unit id="194" translate="yes" xml:space="preserve">
+            <source>The Authorization header indicates that it is a bearer token, which is valid for anyone who possesses the token.</source>
+            <target state="new">The Authorization header indicates that it is a bearer token, which is valid for anyone who possesses the token.</target>
+          </trans-unit>
+        </group>
+        <group id="136">
+          <trans-unit id="195" translate="yes" xml:space="preserve">
+            <source>Use the Refresh Token to Request a New Access Token</source>
+            <target state="new">Use the Refresh Token to Request a New Access Token</target>
+          </trans-unit>
+        </group>
+        <group id="137">
+          <trans-unit id="196" translate="yes" xml:space="preserve">
+            <source>When an access token expires, the native client application can use the refresh token to get a new access token.</source>
+            <target state="new">When an access token expires, the native client application can use the refresh token to get a new access token.</target>
+          </trans-unit>
+          <trans-unit id="197" translate="yes" xml:space="preserve">
+            <source>The lifetime of the refresh token is not provided and varies based on policy settings and the time when the authorization code grant is revoked by Azure AD.</source>
+            <target state="new">The lifetime of the refresh token is not provided and varies based on policy settings and the time when the authorization code grant is revoked by Azure AD.</target>
+          </trans-unit>
+          <trans-unit id="198" translate="yes" xml:space="preserve">
+            <source>The application should expect and handle cases when the request for a new access token fails.</source>
+            <target state="new">The application should expect and handle cases when the request for a new access token fails.</target>
+          </trans-unit>
+          <trans-unit id="199" translate="yes" xml:space="preserve">
+            <source>In that case, it should return to the code that requests a new access token.</source>
+            <target state="new">In that case, it should return to the code that requests a new access token.</target>
+          </trans-unit>
+          <trans-unit id="200" translate="yes" xml:space="preserve">
+            <source>For details, see <ph id="1">&lt;link xlink:href="12a33bb0-247c-460b-bb55-f5d1e699b1e7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Best Practices for OAuth 2.0 in Azure AD&lt;/link&gt;</ph>.</source>
+            <target state="new">For details, see <ph id="1">&lt;link xlink:href="12a33bb0-247c-460b-bb55-f5d1e699b1e7" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Best Practices for OAuth 2.0 in Azure AD&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="138">
+          <trans-unit id="201" translate="yes" xml:space="preserve">
+            <source>Access Token Request with a Refresh Token</source>
+            <target state="new">Access Token Request with a Refresh Token</target>
+          </trans-unit>
+        </group>
+        <group id="139">
+          <trans-unit id="202" translate="yes" xml:space="preserve">
+            <source>To use a refresh token to request a new access token, use an HTTP POST request to the common (tenant-independent) or a tenant-specific Azure AD endpoint.</source>
+            <target state="new">To use a refresh token to request a new access token, use an HTTP POST request to the common (tenant-independent) or a tenant-specific Azure AD endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="140">
+          <trans-unit id="203" translate="yes" xml:space="preserve">
+            <source>Use the following parameters in a token request that includes a refresh token.</source>
+            <target state="new">Use the following parameters in a token request that includes a refresh token.</target>
+          </trans-unit>
+        </group>
+        <group id="141">
+          <trans-unit id="204" translate="yes" xml:space="preserve">
+            <source>Parameter</source>
+            <target state="new">Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="142">
+          <trans-unit id="205" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="143">
+          <trans-unit id="206" translate="yes" xml:space="preserve">
+            <source>client_id</source>
+            <target state="new">client_id</target>
+          </trans-unit>
+        </group>
+        <group id="144">
+          <trans-unit id="207" translate="yes" xml:space="preserve">
+            <source>[Optional] The client ID of the native client application that is registered in Azure AD.</source>
+            <target state="new">[Optional] The client ID of the native client application that is registered in Azure AD.</target>
+          </trans-unit>
+        </group>
+        <group id="145">
+          <trans-unit id="208" translate="yes" xml:space="preserve">
+            <source>To find the application's client ID, in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.WindowsAzure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, click <bpt id="4">&lt;ui&gt;</bpt>Active Directory<ept id="4">&lt;/ui&gt;</ept>, click the directory, click the application, and then click <bpt id="5">&lt;ui&gt;</bpt>Configure<ept id="5">&lt;/ui&gt;</ept>.</source>
+            <target state="new">To find the application's client ID, in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.WindowsAzure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, click <bpt id="4">&lt;ui&gt;</bpt>Active Directory<ept id="4">&lt;/ui&gt;</ept>, click the directory, click the application, and then click <bpt id="5">&lt;ui&gt;</bpt>Configure<ept id="5">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="146">
+          <trans-unit id="209" translate="yes" xml:space="preserve">
+            <source>client_secret</source>
+            <target state="new">client_secret</target>
+          </trans-unit>
+        </group>
+        <group id="147">
+          <trans-unit id="210" translate="yes" xml:space="preserve">
+            <source>[Required for confidential clients (websites)] Contains the client password.</source>
+            <target state="new">[Required for confidential clients (websites)] Contains the client password.</target>
+          </trans-unit>
+        </group>
+        <group id="148">
+          <trans-unit id="211" translate="yes" xml:space="preserve">
+            <source>grant_type</source>
+            <target state="new">grant_type</target>
+          </trans-unit>
+        </group>
+        <group id="149">
+          <trans-unit id="212" translate="yes" xml:space="preserve">
+            <source>[Required] Indicates the type of grant being used.</source>
+            <target state="new">[Required] Indicates the type of grant being used.</target>
+          </trans-unit>
+          <trans-unit id="213" translate="yes" xml:space="preserve">
+            <source>In this case, the value must be <ph id="1">&lt;parameterReference&gt;refresh_token&lt;/parameterReference&gt;</ph>.</source>
+            <target state="new">In this case, the value must be <ph id="1">&lt;parameterReference&gt;refresh_token&lt;/parameterReference&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="150">
+          <trans-unit id="214" translate="yes" xml:space="preserve">
+            <source>refresh_token</source>
+            <target state="new">refresh_token</target>
+          </trans-unit>
+        </group>
+        <group id="151">
+          <trans-unit id="215" translate="yes" xml:space="preserve">
+            <source>[Required] The refresh token that was included in the response that provided the access token.</source>
+            <target state="new">[Required] The refresh token that was included in the response that provided the access token.</target>
+          </trans-unit>
+        </group>
+        <group id="152">
+          <trans-unit id="216" translate="yes" xml:space="preserve">
+            <source>resource</source>
+            <target state="new">resource</target>
+          </trans-unit>
+        </group>
+        <group id="153">
+          <trans-unit id="217" translate="yes" xml:space="preserve">
+            <source> [Optional] The App ID URI of the web API (secured resource).</source>
+            <target state="new"> [Optional] The App ID URI of the web API (secured resource).</target>
+          </trans-unit>
+        </group>
+        <group id="154">
+          <trans-unit id="218" translate="yes" xml:space="preserve">
+            <source>To find the App ID URI, in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.WindowsAzure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, click <bpt id="4">&lt;ui&gt;</bpt>Active Directory<ept id="4">&lt;/ui&gt;</ept>, click the directory, click the application, and then click <bpt id="5">&lt;ui&gt;</bpt>Configure<ept id="5">&lt;/ui&gt;</ept>.</source>
+            <target state="new">To find the App ID URI, in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://manage.WindowsAzure.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, click <bpt id="4">&lt;ui&gt;</bpt>Active Directory<ept id="4">&lt;/ui&gt;</ept>, click the directory, click the application, and then click <bpt id="5">&lt;ui&gt;</bpt>Configure<ept id="5">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="155">
+          <trans-unit id="219" translate="yes" xml:space="preserve">
+            <source>Examples</source>
+            <target state="new">Examples</target>
+          </trans-unit>
+        </group>
+        <group id="156">
+          <trans-unit id="220" translate="yes" xml:space="preserve">
+            <source>The following example uses a refresh_token to request a new access token.</source>
+            <target state="new">The following example uses a refresh_token to request a new access token.</target>
+          </trans-unit>
+          <trans-unit id="221" translate="yes" xml:space="preserve">
+            <source>The POST includes the required <ph id="1">&lt;parameterReference&gt;grant_type&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;refresh_token&lt;/parameterReference&gt;</ph> parameters, but none of the optional parameters.</source>
+            <target state="new">The POST includes the required <ph id="1">&lt;parameterReference&gt;grant_type&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;refresh_token&lt;/parameterReference&gt;</ph> parameters, but none of the optional parameters.</target>
+          </trans-unit>
+          <trans-unit id="222" translate="yes" xml:space="preserve">
+            <source>Typically, this format is used when the original request specified the resource and there's no need to include it again.</source>
+            <target state="new">Typically, this format is used when the original request specified the resource and there's no need to include it again.</target>
+          </trans-unit>
+        </group>
+        <group id="157">
+          <trans-unit id="223" translate="yes" xml:space="preserve">
+            <source>The following example shows a request from a confidential client (website).</source>
+            <target state="new">The following example shows a request from a confidential client (website).</target>
+          </trans-unit>
+          <trans-unit id="224" translate="yes" xml:space="preserve">
+            <source>It includes the <ph id="1">&lt;parameterReference&gt;client_id&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;client_secret&lt;/parameterReference&gt;</ph> parameters</source>
+            <target state="new">It includes the <ph id="1">&lt;parameterReference&gt;client_id&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;client_secret&lt;/parameterReference&gt;</ph> parameters</target>
+          </trans-unit>
+        </group>
+        <group id="158">
+          <trans-unit id="225" translate="yes" xml:space="preserve">
+            <source>The following example also uses a refresh token to request an access token.</source>
+            <target state="new">The following example also uses a refresh token to request an access token.</target>
+          </trans-unit>
+          <trans-unit id="226" translate="yes" xml:space="preserve">
+            <source>This request includes the <ph id="1">&lt;parameterReference&gt;resource&lt;/parameterReference&gt;</ph> parameter with a value that indicates the secured resource that the application wants to access.</source>
+            <target state="new">This request includes the <ph id="1">&lt;parameterReference&gt;resource&lt;/parameterReference&gt;</ph> parameter with a value that indicates the secured resource that the application wants to access.</target>
+          </trans-unit>
+        </group>
+        <group id="159">
+          <trans-unit id="227" translate="yes" xml:space="preserve">
+            <source>Access Token Response with a Refresh Token</source>
+            <target state="new">Access Token Response with a Refresh Token</target>
+          </trans-unit>
+        </group>
+        <group id="160">
+          <trans-unit id="228" translate="yes" xml:space="preserve">
+            <source>A successful response to an access token request that includes a refresh token includes the following parameters.</source>
+            <target state="new">A successful response to an access token request that includes a refresh token includes the following parameters.</target>
+          </trans-unit>
+        </group>
+        <group id="161">
+          <trans-unit id="229" translate="yes" xml:space="preserve">
+            <source>Parameter</source>
+            <target state="new">Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="162">
+          <trans-unit id="230" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="163">
+          <trans-unit id="231" translate="yes" xml:space="preserve">
+            <source>access_token</source>
+            <target state="new">access_token</target>
+          </trans-unit>
+        </group>
+        <group id="164">
+          <trans-unit id="232" translate="yes" xml:space="preserve">
+            <source>The new access token that was requested.</source>
+            <target state="new">The new access token that was requested.</target>
+          </trans-unit>
+        </group>
+        <group id="165">
+          <trans-unit id="233" translate="yes" xml:space="preserve">
+            <source>expires_in</source>
+            <target state="new">expires_in</target>
+          </trans-unit>
+        </group>
+        <group id="166">
+          <trans-unit id="234" translate="yes" xml:space="preserve">
+            <source>The remaining lifetime of the token in seconds.</source>
+            <target state="new">The remaining lifetime of the token in seconds.</target>
+          </trans-unit>
+          <trans-unit id="235" translate="yes" xml:space="preserve">
+            <source>A typical value is 3600 (one hour).</source>
+            <target state="new">A typical value is 3600 (one hour).</target>
+          </trans-unit>
+        </group>
+        <group id="167">
+          <trans-unit id="236" translate="yes" xml:space="preserve">
+            <source>expires_on</source>
+            <target state="new">expires_on</target>
+          </trans-unit>
+        </group>
+        <group id="168">
+          <trans-unit id="237" translate="yes" xml:space="preserve">
+            <source>The date and time on which the token expires.</source>
+            <target state="new">The date and time on which the token expires.</target>
+          </trans-unit>
+          <trans-unit id="238" translate="yes" xml:space="preserve">
+            <source>The date is represented as the number of seconds from 1970-01-01T0:0:0Z UTC until the expiration time.</source>
+            <target state="new">The date is represented as the number of seconds from 1970-01-01T0:0:0Z UTC until the expiration time.</target>
+          </trans-unit>
+        </group>
+        <group id="169">
+          <trans-unit id="239" translate="yes" xml:space="preserve">
+            <source>refresh_token</source>
+            <target state="new">refresh_token</target>
+          </trans-unit>
+        </group>
+        <group id="170">
+          <trans-unit id="240" translate="yes" xml:space="preserve">
+            <source>A new OAuth 2.0 refresh_token that can be used to request new access tokens when the one in this response expires.</source>
+            <target state="new">A new OAuth 2.0 refresh_token that can be used to request new access tokens when the one in this response expires.</target>
+          </trans-unit>
+        </group>
+        <group id="171">
+          <trans-unit id="241" translate="yes" xml:space="preserve">
+            <source>resource</source>
+            <target state="new">resource</target>
+          </trans-unit>
+        </group>
+        <group id="172">
+          <trans-unit id="242" translate="yes" xml:space="preserve">
+            <source>Identifies the secured resource that the access token can be used to access.</source>
+            <target state="new">Identifies the secured resource that the access token can be used to access.</target>
+          </trans-unit>
+        </group>
+        <group id="173">
+          <trans-unit id="243" translate="yes" xml:space="preserve">
+            <source>scope</source>
+            <target state="new">scope</target>
+          </trans-unit>
+        </group>
+        <group id="174">
+          <trans-unit id="244" translate="yes" xml:space="preserve">
+            <source>Impersonation permissions granted to the native client application.</source>
+            <target state="new">Impersonation permissions granted to the native client application.</target>
+          </trans-unit>
+          <trans-unit id="245" translate="yes" xml:space="preserve">
+            <source>The default permission is <bpt id="1">&lt;embeddedLabel&gt;</bpt>user_impersonation<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The default permission is <bpt id="1">&lt;embeddedLabel&gt;</bpt>user_impersonation<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="246" translate="yes" xml:space="preserve">
+            <source>The owner of the target resource can register alternate values in Azure AD.</source>
+            <target state="new">The owner of the target resource can register alternate values in Azure AD.</target>
+          </trans-unit>
+        </group>
+        <group id="175">
+          <trans-unit id="247" translate="yes" xml:space="preserve">
+            <source>token_type</source>
+            <target state="new">token_type</target>
+          </trans-unit>
+        </group>
+        <group id="176">
+          <trans-unit id="248" translate="yes" xml:space="preserve">
+            <source>The token type.</source>
+            <target state="new">The token type.</target>
+          </trans-unit>
+          <trans-unit id="249" translate="yes" xml:space="preserve">
+            <source>The only supported value is <bpt id="1">&lt;embeddedLabel&gt;</bpt>bearer<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The only supported value is <bpt id="1">&lt;embeddedLabel&gt;</bpt>bearer<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="177">
+          <trans-unit id="250" translate="yes" xml:space="preserve">
+            <source>Examples</source>
+            <target state="new">Examples</target>
+          </trans-unit>
+        </group>
+        <group id="178">
+          <trans-unit id="251" translate="yes" xml:space="preserve">
+            <source>The following is a sample response to an access token request that includes a refresh token.</source>
+            <target state="new">The following is a sample response to an access token request that includes a refresh token.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

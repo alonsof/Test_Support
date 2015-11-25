@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-TW" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANjcEJwzAMAFfxABbItixHnaADBPqWHYsG0gTaFEKnr9933JmlXik26J0IKBhCxalCw6AsYkFVvItaaMmkwBwrEC0CEmKBSGmJCZsVjN5RpqEbw1SojVZPIJIbcMMqITM2Ju+Cd78nzA/vrm0169d5ex/HOSaDZe/u35fu81v3z6bneux/NeghCKIAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Shared Access Signature Authentication with Service Bus</source>
+            <target state="new">Shared Access Signature Authentication with Service Bus</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Shared Access Signature (SAS) authentication allows applications to authenticate to <ph id="1">&lt;token&gt;sb1&lt;/token&gt;</ph> using an access key configured on the namespace, or on the entity with which specific rights are associated.</source>
+            <target state="new">Shared Access Signature (SAS) authentication allows applications to authenticate to <ph id="1">&lt;token&gt;sb1&lt;/token&gt;</ph> using an access key configured on the namespace, or on the entity with which specific rights are associated.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>You can then use this key to generate a SAS token that clients can use to authenticate to <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">You can then use this key to generate a SAS token that clients can use to authenticate to <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Concepts</source>
+            <target state="new">Concepts</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>SAS authentication in <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> involves the configuration of a cryptographic key with associated rights on a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> resource.</source>
+            <target state="new">SAS authentication in <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> involves the configuration of a cryptographic key with associated rights on a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> resource.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Clients claim access to <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> resources by presenting a SAS token.</source>
+            <target state="new">Clients claim access to <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> resources by presenting a SAS token.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>This token consists of the resource URI being accessed, and an expiry signed with the configured key.</source>
+            <target state="new">This token consists of the resource URI being accessed, and an expiry signed with the configured key.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>You can configure Shared Access Signature authorization rules on <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> relays, queues, topics, and Event Hubs.</source>
+            <target state="new">You can configure Shared Access Signature authorization rules on <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> relays, queues, topics, and Event Hubs.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>SAS authentication uses the following elements:</source>
+            <target state="new">SAS authentication uses the following elements:</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule&lt;/codeEntityReference&gt;</ph>: A 256-bit primary cryptographic key in Base64 representation, an optional secondary key, and a key name and associated rights (a collection of Listen, Send, or Manage rights).</source>
+            <target state="new"><ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule&lt;/codeEntityReference&gt;</ph>: A 256-bit primary cryptographic key in Base64 representation, an optional secondary key, and a key name and associated rights (a collection of Listen, Send, or Manage rights).</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeEntityReference&gt;F:Microsoft.ServiceBus.SharedAccessSignatureTokenProvider.SharedAccessSignature&lt;/codeEntityReference&gt;</ph> token: Generated using the HMAC-SHA256 of a resource string, consisting of the URI of the resource that is accessed and an expiry, with the cryptographic key.</source>
+            <target state="new"><ph id="1">&lt;codeEntityReference&gt;F:Microsoft.ServiceBus.SharedAccessSignatureTokenProvider.SharedAccessSignature&lt;/codeEntityReference&gt;</ph> token: Generated using the HMAC-SHA256 of a resource string, consisting of the URI of the resource that is accessed and an expiry, with the cryptographic key.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The signature and other elements described in the following sections are formatted into a string to form the <ph id="1">&lt;codeEntityReference&gt;F:Microsoft.ServiceBus.SharedAccessSignatureTokenProvider.SharedAccessSignature&lt;/codeEntityReference&gt;</ph> token.</source>
+            <target state="new">The signature and other elements described in the following sections are formatted into a string to form the <ph id="1">&lt;codeEntityReference&gt;F:Microsoft.ServiceBus.SharedAccessSignatureTokenProvider.SharedAccessSignature&lt;/codeEntityReference&gt;</ph> token.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Configuration for Shared Access Signature Authentication</source>
+            <target state="new">Configuration for Shared Access Signature Authentication</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>You can configure the <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule&lt;/codeEntityReference&gt;</ph> rule on <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> namespaces, queues, topics, or notification hubs.</source>
+            <target state="new">You can configure the <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule&lt;/codeEntityReference&gt;</ph> rule on <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> namespaces, queues, topics, or notification hubs.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Configuring a <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule&lt;/codeEntityReference&gt;</ph> on a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> subscription is currently not supported, but you can use rules configured on a namespace or topic to secure access to subscriptions.</source>
+            <target state="new">Configuring a <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule&lt;/codeEntityReference&gt;</ph> on a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> subscription is currently not supported, but you can use rules configured on a namespace or topic to secure access to subscriptions.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>For a working sample that illustrates this procedure, see the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Using Shared Access Signature (SAS) authentication with Service Bus Subscriptions<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://code.msdn.microsoft.com/windowsazure/Using-Shared-Access-e605b37c&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> sample.</source>
+            <target state="new">For a working sample that illustrates this procedure, see the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Using Shared Access Signature (SAS) authentication with Service Bus Subscriptions<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://code.msdn.microsoft.com/windowsazure/Using-Shared-Access-e605b37c&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> sample.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>A maximum of 12 such rules can be configured on a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace, queue, topic, or notification hub.</source>
+            <target state="new">A maximum of 12 such rules can be configured on a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace, queue, topic, or notification hub.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Rules that are configured on a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace apply to all entities in that namespace.</source>
+            <target state="new">Rules that are configured on a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace apply to all entities in that namespace.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>In this figure, the <bpt id="1">&lt;legacyItalic&gt;</bpt>manageRuleNS<ept id="1">&lt;/legacyItalic&gt;</ept>, <bpt id="2">&lt;legacyItalic&gt;</bpt>sendRuleNS<ept id="2">&lt;/legacyItalic&gt;</ept>, and <bpt id="3">&lt;legacyItalic&gt;</bpt>listenRuleNS<ept id="3">&lt;/legacyItalic&gt;</ept> authorization rules apply to both queue Q1 and topic T1, while <bpt id="4">&lt;legacyItalic&gt;</bpt>listenRuleQ<ept id="4">&lt;/legacyItalic&gt;</ept> and <bpt id="5">&lt;legacyItalic&gt;</bpt>sendRuleQ<ept id="5">&lt;/legacyItalic&gt;</ept> apply to only queue Q1 and <bpt id="6">&lt;legacyItalic&gt;</bpt>sendRuleT<ept id="6">&lt;/legacyItalic&gt;</ept> applies only to topic T1.</source>
+            <target state="new">In this figure, the <bpt id="1">&lt;legacyItalic&gt;</bpt>manageRuleNS<ept id="1">&lt;/legacyItalic&gt;</ept>, <bpt id="2">&lt;legacyItalic&gt;</bpt>sendRuleNS<ept id="2">&lt;/legacyItalic&gt;</ept>, and <bpt id="3">&lt;legacyItalic&gt;</bpt>listenRuleNS<ept id="3">&lt;/legacyItalic&gt;</ept> authorization rules apply to both queue Q1 and topic T1, while <bpt id="4">&lt;legacyItalic&gt;</bpt>listenRuleQ<ept id="4">&lt;/legacyItalic&gt;</ept> and <bpt id="5">&lt;legacyItalic&gt;</bpt>sendRuleQ<ept id="5">&lt;/legacyItalic&gt;</ept> apply to only queue Q1 and <bpt id="6">&lt;legacyItalic&gt;</bpt>sendRuleT<ept id="6">&lt;/legacyItalic&gt;</ept> applies only to topic T1.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>The key parameters of a <bpt id="1">&lt;embeddedLabel&gt;</bpt>SharedAccessAuthorizationRule<ept id="1">&lt;/embeddedLabel&gt;</ept> are as follows:</source>
+            <target state="new">The key parameters of a <bpt id="1">&lt;embeddedLabel&gt;</bpt>SharedAccessAuthorizationRule<ept id="1">&lt;/embeddedLabel&gt;</ept> are as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Parameter</source>
+            <target state="new">Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>KeyName</source>
+            <target state="new">KeyName</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>A string that describes the authorization rule.</source>
+            <target state="new">A string that describes the authorization rule.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>PrimaryKey</source>
+            <target state="new">PrimaryKey</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>A base64-encoded 256-bit primary key for signing and validating the SAS token.</source>
+            <target state="new">A base64-encoded 256-bit primary key for signing and validating the SAS token.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>SecondaryKey</source>
+            <target state="new">SecondaryKey</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>A base64-encoded 256-bit secondary key for signing and validating the SAS token.</source>
+            <target state="new">A base64-encoded 256-bit secondary key for signing and validating the SAS token.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>AccessRights</source>
+            <target state="new">AccessRights</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>A list of access rights granted by the authorization rule.</source>
+            <target state="new">A list of access rights granted by the authorization rule.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>These rights can be any collection of Listen, Send, and Manage rights.</source>
+            <target state="new">These rights can be any collection of Listen, Send, and Manage rights.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>When a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace is provisioned, a <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule&lt;/codeEntityReference&gt;</ph>, with <ph id="3">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule.KeyName&lt;/codeEntityReference&gt;</ph> set to <bpt id="4">&lt;embeddedLabel&gt;</bpt>RootManageSharedAccessKey<ept id="4">&lt;/embeddedLabel&gt;</ept>, is created by default.</source>
+            <target state="new">When a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace is provisioned, a <ph id="2">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule&lt;/codeEntityReference&gt;</ph>, with <ph id="3">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule.KeyName&lt;/codeEntityReference&gt;</ph> set to <bpt id="4">&lt;embeddedLabel&gt;</bpt>RootManageSharedAccessKey<ept id="4">&lt;/embeddedLabel&gt;</ept>, is created by default.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Two default <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule&lt;/codeEntityReference&gt;</ph> objects are also configured for notification hubs: one with Listen, Send, and Manage rights, and another with only Listen rights.</source>
+            <target state="new">Two default <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule&lt;/codeEntityReference&gt;</ph> objects are also configured for notification hubs: one with Listen, Send, and Manage rights, and another with only Listen rights.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Regenerating and Revoking keys for Shared Access Authorization Rules</source>
+            <target state="new">Regenerating and Revoking keys for Shared Access Authorization Rules</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>It is recommended that you periodically regenerate the keys used in the <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule&lt;/codeEntityReference&gt;</ph>.</source>
+            <target state="new">It is recommended that you periodically regenerate the keys used in the <ph id="1">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule&lt;/codeEntityReference&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Applications should generally use the <ph id="1">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule.PrimaryKey&lt;/codeEntityReference&gt;</ph> to generate a SAS token.</source>
+            <target state="new">Applications should generally use the <ph id="1">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule.PrimaryKey&lt;/codeEntityReference&gt;</ph> to generate a SAS token.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>When regenerating the keys, you should replace the <ph id="1">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule.SecondaryKey&lt;/codeEntityReference&gt;</ph> with the old primary key, and generate a new key as the new primary key.</source>
+            <target state="new">When regenerating the keys, you should replace the <ph id="1">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule.SecondaryKey&lt;/codeEntityReference&gt;</ph> with the old primary key, and generate a new key as the new primary key.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>This enables you to continue using tokens for authorization that were issued with the old primary key, and that have not yet expired.</source>
+            <target state="new">This enables you to continue using tokens for authorization that were issued with the old primary key, and that have not yet expired.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>If a key is compromised and you have to revoke the keys, you can regenerate both the <ph id="1">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule.PrimaryKey&lt;/codeEntityReference&gt;</ph> and the <ph id="2">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule.SecondaryKey&lt;/codeEntityReference&gt;</ph> of a <ph id="3">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule&lt;/codeEntityReference&gt;</ph>, replacing them with new keys.</source>
+            <target state="new">If a key is compromised and you have to revoke the keys, you can regenerate both the <ph id="1">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule.PrimaryKey&lt;/codeEntityReference&gt;</ph> and the <ph id="2">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule.SecondaryKey&lt;/codeEntityReference&gt;</ph> of a <ph id="3">&lt;codeEntityReference&gt;T:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule&lt;/codeEntityReference&gt;</ph>, replacing them with new keys.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>This procedure invalidates all tokens signed with the old keys.</source>
+            <target state="new">This procedure invalidates all tokens signed with the old keys.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Generating a Shared Access Signature token</source>
+            <target state="new">Generating a Shared Access Signature token</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Any client that has access to the signing keys specified in the shared access authorization rule can generate the SAS token.</source>
+            <target state="new">Any client that has access to the signing keys specified in the shared access authorization rule can generate the SAS token.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>It is formatted as follows:</source>
+            <target state="new">It is formatted as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;legacyBold&gt;</bpt>signature<ept id="1">&lt;/legacyBold&gt;</ept> for the SAS token is computed using the HMAC-SHA256 of a string-to-sign with the <ph id="2">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule.PrimaryKey&lt;/codeEntityReference&gt;</ph> property of an authorization rule.</source>
+            <target state="new">The <bpt id="1">&lt;legacyBold&gt;</bpt>signature<ept id="1">&lt;/legacyBold&gt;</ept> for the SAS token is computed using the HMAC-SHA256 of a string-to-sign with the <ph id="2">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule.PrimaryKey&lt;/codeEntityReference&gt;</ph> property of an authorization rule.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>The string-to-sign consists of a resource URI and an expiry, formatted as follows:</source>
+            <target state="new">The string-to-sign consists of a resource URI and an expiry, formatted as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Note that you should use the encoded resource URI for this operation.</source>
+            <target state="new">Note that you should use the encoded resource URI for this operation.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>The resource URI is the full URI of the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> resource to which access is claimed.</source>
+            <target state="new">The resource URI is the full URI of the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> resource to which access is claimed.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>For example, <ph id="1">&lt;codeInline&gt;http://%%amp;lt;namespace%%amp;gt;.servicebus.windows.net/%%amp;lt;entityPath%%amp;gt;&lt;/codeInline&gt;</ph> or <ph id="2">&lt;codeInline&gt;sb://%%amp;lt;namespace%%amp;gt;.servicebus.windows.net/%%amp;lt;entityPath%%amp;gt;&lt;/codeInline&gt;</ph>; that is, <ph id="3">&lt;codeInline&gt;http://contoso.servicebus.windows.net/contosoTopics/T1/Subscriptions/S3&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">For example, <ph id="1">&lt;codeInline&gt;http://%%amp;lt;namespace%%amp;gt;.servicebus.windows.net/%%amp;lt;entityPath%%amp;gt;&lt;/codeInline&gt;</ph> or <ph id="2">&lt;codeInline&gt;sb://%%amp;lt;namespace%%amp;gt;.servicebus.windows.net/%%amp;lt;entityPath%%amp;gt;&lt;/codeInline&gt;</ph>; that is, <ph id="3">&lt;codeInline&gt;http://contoso.servicebus.windows.net/contosoTopics/T1/Subscriptions/S3&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>The expiry is represented as the number of seconds since the epoch 00:00:00 UTC on 1 January 1970.</source>
+            <target state="new">The expiry is represented as the number of seconds since the epoch 00:00:00 UTC on 1 January 1970.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>The shared access authorization rule used for signing must be configured on the entity specified by this URI, or one of its hierarchical parents.</source>
+            <target state="new">The shared access authorization rule used for signing must be configured on the entity specified by this URI, or one of its hierarchical parents.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>For example, <ph id="1">&lt;codeInline&gt;http://contoso.servicebus.windows.net/contosoTopics/T1&lt;/codeInline&gt;</ph> or <ph id="2">&lt;codeInline&gt;http://contoso.servicebus.windows.net&lt;/codeInline&gt;</ph> in the previous example.)</source>
+            <target state="new">For example, <ph id="1">&lt;codeInline&gt;http://contoso.servicebus.windows.net/contosoTopics/T1&lt;/codeInline&gt;</ph> or <ph id="2">&lt;codeInline&gt;http://contoso.servicebus.windows.net&lt;/codeInline&gt;</ph> in the previous example.)</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>A SAS token is valid for all resources under the &lt;resourceURI&gt; used in the string-to-sign.</source>
+            <target state="new">A SAS token is valid for all resources under the &lt;resourceURI&gt; used in the string-to-sign.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule.KeyName&lt;/codeEntityReference&gt;</ph> in the SAS token refers to the <bpt id="2">&lt;embeddedLabel&gt;</bpt>keyName<ept id="2">&lt;/embeddedLabel&gt;</ept> of the shared access authorization rule used to generate the token.</source>
+            <target state="new">The <ph id="1">&lt;codeEntityReference&gt;P:Microsoft.ServiceBus.Messaging.SharedAccessAuthorizationRule.KeyName&lt;/codeEntityReference&gt;</ph> in the SAS token refers to the <bpt id="2">&lt;embeddedLabel&gt;</bpt>keyName<ept id="2">&lt;/embeddedLabel&gt;</ept> of the shared access authorization rule used to generate the token.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;legacyItalic&gt;</bpt>URL-encoded-resourceURI<ept id="1">&lt;/legacyItalic&gt;</ept> must be the same as the URI used in the string-to-sign during the computation of the signature.</source>
+            <target state="new">The <bpt id="1">&lt;legacyItalic&gt;</bpt>URL-encoded-resourceURI<ept id="1">&lt;/legacyItalic&gt;</ept> must be the same as the URI used in the string-to-sign during the computation of the signature.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>It should be <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>percent-encoded<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/4fkewx0t.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">It should be <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>percent-encoded<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/4fkewx0t.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Using Shared Access Signature authentication</source>
+            <target state="new">Using Shared Access Signature authentication</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>SAS authentication support is included in the Azure SDK version 2.0 and later.</source>
+            <target state="new">SAS authentication support is included in the Azure SDK version 2.0 and later.</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;crdefault&lt;/token&gt;</ph> <ph id="2">&lt;link xlink:href="f9837e0a-0922-4521-9300-ca962abb1ff6" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to use Shared Access Signature Authentication with Service Bus&lt;/link&gt;</ph>.</source>
+            <target state="new"><ph id="1">&lt;token&gt;crdefault&lt;/token&gt;</ph> <ph id="2">&lt;link xlink:href="f9837e0a-0922-4521-9300-ca962abb1ff6" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to use Shared Access Signature Authentication with Service Bus&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

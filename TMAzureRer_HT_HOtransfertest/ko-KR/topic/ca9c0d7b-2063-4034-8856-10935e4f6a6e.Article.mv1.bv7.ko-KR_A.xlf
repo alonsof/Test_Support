@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAdyl0KwjAMAOCr9AANpE3WH08g+CZeIG1TGM4VZoUdX/H5+3onLewrqDIDu45QMBWo6CTk3J1ItqZlota8giP1wJQIUuYIyj5xjOxCctZUyRVbLOAxEDASQ0pLAIeZFuUeJKg1v/gccLtbc25r73rOyzHG/EO05vp5yf44ZH9vMtexfwEAijWJoQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Include custom code to insert purchase order into SQL Server</source>
+            <target state="new">Include custom code to insert purchase order into SQL Server</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This topic provides instructions on how to include a custom code component as part of bridge configuration.</source>
+            <target state="new">This topic provides instructions on how to include a custom code component as part of bridge configuration.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>In this project, we use the custom code component to send a message to the <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph> that we configured in the previous step.</source>
+            <target state="new">In this project, we use the custom code component to send a message to the <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph> that we configured in the previous step.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>When a message with a valid schema is sent to that <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph>, the data from the message is written to a SQL Server database.</source>
+            <target state="new">When a message with a valid schema is sent to that <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph>, the data from the message is written to a SQL Server database.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>But why do we use custom code to insert data into a SQL Server database when we could use <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph> instead?</source>
+            <target state="new">But why do we use custom code to insert data into a SQL Server database when we could use <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph> instead?</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>That is because the <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> bridge can route messages to a single destination only using the bridge designer.</source>
+            <target state="new">That is because the <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> bridge can route messages to a single destination only using the bridge designer.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>For this scenario, we need to send the message to two destinations, the blob and <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph> endpoint.</source>
+            <target state="new">For this scenario, we need to send the message to two destinations, the blob and <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph> endpoint.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>So, we use custom code to send the message to the <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph> endpoint and the out-of-the-box bridge designer to send the message to the <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph> blob.</source>
+            <target state="new">So, we use custom code to send the message to the <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph> endpoint and the out-of-the-box bridge designer to send the message to the <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph> blob.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>To create a custom code component</source>
+            <target state="new">To create a custom code component</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>In the Visual Studio solution that contains the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> project, add a new C# class library project.</source>
+            <target state="new">In the Visual Studio solution that contains the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> project, add a new C# class library project.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>For this tutorial, name the project: <bpt id="1">&lt;userInput&gt;</bpt>CustomCode_PurchaseOrder<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For this tutorial, name the project: <bpt id="1">&lt;userInput&gt;</bpt>CustomCode_PurchaseOrder<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Add the following references:</source>
+            <target state="new">Add the following references:</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Microsoft.BizTalk.Services.</source>
+            <target state="new">Microsoft.BizTalk.Services.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The DLL is available in \Program Files\Microsoft Visual Studio 11.0\Common7\IDE\Extensions\Microsoft\<ph id="1">&lt;token&gt;af_integration_full&lt;/token&gt;</ph> SDK.</source>
+            <target state="new">The DLL is available in \Program Files\Microsoft Visual Studio 11.0\Common7\IDE\Extensions\Microsoft\<ph id="1">&lt;token&gt;af_integration_full&lt;/token&gt;</ph> SDK.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Microsoft.ServiceBus</source>
+            <target state="new">Microsoft.ServiceBus</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>System.Runtime.Serialization</source>
+            <target state="new">System.Runtime.Serialization</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>System.ServiceModel</source>
+            <target state="new">System.ServiceModel</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>System.ServiceModel.Channels</source>
+            <target state="new">System.ServiceModel.Channels</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Add the following namespaces to the existing list:</source>
+            <target state="new">Add the following namespaces to the existing list:</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>System.IO</source>
+            <target state="new">System.IO</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>System.Xml</source>
+            <target state="new">System.Xml</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>System.ServiceModel</source>
+            <target state="new">System.ServiceModel</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Microsoft.BizTalk.Services</source>
+            <target state="new">Microsoft.BizTalk.Services</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Microsoft.ServiceBus</source>
+            <target state="new">Microsoft.ServiceBus</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Implement the <ph id="1">&lt;codeInline&gt;IMessageInspector&lt;/codeInline&gt;</ph> interface.</source>
+            <target state="new">Implement the <ph id="1">&lt;codeInline&gt;IMessageInspector&lt;/codeInline&gt;</ph> interface.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>The following example defines a <ph id="1">&lt;codeInline&gt;WritePOToSQL&lt;/codeInline&gt;</ph> class that we will build to send an XML message to the <ph id="2">&lt;token&gt;lobrelay&lt;/token&gt;</ph> endpoint.</source>
+            <target state="new">The following example defines a <ph id="1">&lt;codeInline&gt;WritePOToSQL&lt;/codeInline&gt;</ph> class that we will build to send an XML message to the <ph id="2">&lt;token&gt;lobrelay&lt;/token&gt;</ph> endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Include your custom logic as part of the class definition.</source>
+            <target state="new">Include your custom logic as part of the class definition.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Because the <ph id="1">&lt;codeInline&gt;WritePOToSQL&lt;/codeInline&gt;</ph> class implements <ph id="2">&lt;codeInline&gt;IMessageInspector&lt;/codeInline&gt;</ph>, it must implement the <ph id="3">&lt;codeInline&gt;Execute&lt;/codeInline&gt;</ph> task.</source>
+            <target state="new">Because the <ph id="1">&lt;codeInline&gt;WritePOToSQL&lt;/codeInline&gt;</ph> class implements <ph id="2">&lt;codeInline&gt;IMessageInspector&lt;/codeInline&gt;</ph>, it must implement the <ph id="3">&lt;codeInline&gt;Execute&lt;/codeInline&gt;</ph> task.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>In this tutorial, we use the <ph id="1">&lt;codeInline&gt;Execute&lt;/codeInline&gt;</ph> task to create an XML message (with the same schema required to insert the data into the SQL Server database) from the message received from the customer.</source>
+            <target state="new">In this tutorial, we use the <ph id="1">&lt;codeInline&gt;Execute&lt;/codeInline&gt;</ph> task to create an XML message (with the same schema required to insert the data into the SQL Server database) from the message received from the customer.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>The XML message is then sent to the SQL Server <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph> so that it is inserted into the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Orders<ept id="2">&lt;/embeddedLabel&gt;</ept> table in the <bpt id="3">&lt;embeddedLabel&gt;</bpt>CloudCarDatabase<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The XML message is then sent to the SQL Server <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph> so that it is inserted into the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Orders<ept id="2">&lt;/embeddedLabel&gt;</ept> table in the <bpt id="3">&lt;embeddedLabel&gt;</bpt>CloudCarDatabase<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>The class that implements the <ph id="1">&lt;codeInline&gt;IMessageInspector&lt;/codeInline&gt;</ph> interface must include a default constructor that does not take any parameters.</source>
+            <target state="new">The class that implements the <ph id="1">&lt;codeInline&gt;IMessageInspector&lt;/codeInline&gt;</ph> interface must include a default constructor that does not take any parameters.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Add a strong name key to the project to sign the assembly and then build the project.</source>
+            <target state="new">Add a strong name key to the project to sign the assembly and then build the project.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>This will create the <bpt id="1">&lt;embeddedLabel&gt;</bpt>CustomCode_PurchaseOrder.dll<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">This will create the <bpt id="1">&lt;embeddedLabel&gt;</bpt>CustomCode_PurchaseOrder.dll<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>After building the project, you must add a reference to it from the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> so that the class is deployed to the cloud as part of the <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> deployment.</source>
+            <target state="new">After building the project, you must add a reference to it from the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> so that the class is deployed to the cloud as part of the <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> deployment.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>If the custom class has a dependency on any other DLLs they must be deployed as well, and you must add references to those DLLs too.</source>
+            <target state="new">If the custom class has a dependency on any other DLLs they must be deployed as well, and you must add references to those DLLs too.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Within the <bpt id="1">&lt;embeddedLabel&gt;</bpt>CloudCar_Integration_PurchaseOrder<ept id="1">&lt;/embeddedLabel&gt;</ept> project, right-click <bpt id="2">&lt;embeddedLabel&gt;</bpt>References<ept id="2">&lt;/embeddedLabel&gt;</ept>, and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add Reference<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Within the <bpt id="1">&lt;embeddedLabel&gt;</bpt>CloudCar_Integration_PurchaseOrder<ept id="1">&lt;/embeddedLabel&gt;</ept> project, right-click <bpt id="2">&lt;embeddedLabel&gt;</bpt>References<ept id="2">&lt;/embeddedLabel&gt;</ept>, and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add Reference<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Browse to the location for <bpt id="1">&lt;embeddedLabel&gt;</bpt>CustomCode_PurchaseOrder.dll<ept id="1">&lt;/embeddedLabel&gt;</ept>, and select the DLL to add a reference to the DLL.</source>
+            <target state="new">Browse to the location for <bpt id="1">&lt;embeddedLabel&gt;</bpt>CustomCode_PurchaseOrder.dll<ept id="1">&lt;/embeddedLabel&gt;</ept>, and select the DLL to add a reference to the DLL.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>After you have added the reference, ensure the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Copy Local<ept id="1">&lt;/embeddedLabel&gt;</ept> property for the DLL is set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>True<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">After you have added the reference, ensure the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Copy Local<ept id="1">&lt;/embeddedLabel&gt;</ept> property for the DLL is set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>True<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>For this tutorial, we are sending the message to the CloudCarDatabase <bpt id="1">&lt;legacyItalic&gt;</bpt>before<ept id="1">&lt;/legacyItalic&gt;</ept> the message is transformed.</source>
+            <target state="new">For this tutorial, we are sending the message to the CloudCarDatabase <bpt id="1">&lt;legacyItalic&gt;</bpt>before<ept id="1">&lt;/legacyItalic&gt;</ept> the message is transformed.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>To do so, double-click the <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph>, select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Transform<ept id="2">&lt;/embeddedLabel&gt;</ept> stage, and select the ellipsis (…)</source>
+            <target state="new">To do so, double-click the <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph>, select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Transform<ept id="2">&lt;/embeddedLabel&gt;</ept> stage, and select the ellipsis (…)</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>against the <bpt id="1">&lt;embeddedLabel&gt;</bpt>On Enter Inspector<ept id="1">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">against the <bpt id="1">&lt;embeddedLabel&gt;</bpt>On Enter Inspector<ept id="1">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Type<ept id="1">&lt;/embeddedLabel&gt;</ept> text box, enter the fully qualified assembly name for the custom code.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Type<ept id="1">&lt;/embeddedLabel&gt;</ept> text box, enter the fully qualified assembly name for the custom code.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>For example, the fully qualified assembly name for the CustomCode_PurchaseOrder.dll could be similar to:</source>
+            <target state="new">For example, the fully qualified assembly name for the CustomCode_PurchaseOrder.dll could be similar to:</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Save the changes then build the project.</source>
+            <target state="new">Save the changes then build the project.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

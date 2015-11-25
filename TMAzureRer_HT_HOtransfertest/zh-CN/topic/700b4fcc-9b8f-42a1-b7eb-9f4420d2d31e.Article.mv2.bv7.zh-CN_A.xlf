@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-CN" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzDEOwjAMQNGr5AC2ZKdumrCyMDFxATuJRaXSSlCkitPT/b/vPnSTWLF3ERR2QqNsWIk1leKsWiAkGX2sacSudFZtUMytZaxiJy8pKwuEicjEa8Vi2VGiMtrUDYuLRGqxDdwhMITfE693CMcyu/djv7y3bYcQzwOE2/el6+Ot62fRfd7WPxgyMn2hAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Client-directed login operation</source>
+            <target state="new">Client-directed login operation</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Requests an authentication token from <ph id="1">&lt;token&gt;firstref_zumo&lt;/token&gt;</ph> by using an identity token already obtained from an identity provider.</source>
+            <target state="new">Requests an authentication token from <ph id="1">&lt;token&gt;firstref_zumo&lt;/token&gt;</ph> by using an identity token already obtained from an identity provider.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>The returned token is used to make subsequent authenticated requests to the mobile service.</source>
+            <target state="new">The returned token is used to make subsequent authenticated requests to the mobile service.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The token presented to <ph id="1">&lt;token&gt;nextref_zumo&lt;/token&gt;</ph> for authentication must be obtained by the client independent of <ph id="2">&lt;token&gt;nextref_zumo&lt;/token&gt;</ph>, usually by using the providers SDK, such as the Facebook SDK for iOS.</source>
+            <target state="new">The token presented to <ph id="1">&lt;token&gt;nextref_zumo&lt;/token&gt;</ph> for authentication must be obtained by the client independent of <ph id="2">&lt;token&gt;nextref_zumo&lt;/token&gt;</ph>, usually by using the providers SDK, such as the Facebook SDK for iOS.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Use client-initiated authentication when your app obtains an identity token to enable single sign-on or get additional user information using the provider SDK.</source>
+            <target state="new">Use client-initiated authentication when your app obtains an identity token to enable single sign-on or get additional user information using the provider SDK.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>If your app doesn’t need to interact directly with the identity provider, you can instead use the <ph id="1">&lt;link xlink:href="a8026ebe-19c4-41c6-89e6-8b11b4b8f671" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Service-directed login operation&lt;/link&gt;</ph>.</source>
+            <target state="new">If your app doesn’t need to interact directly with the identity provider, you can instead use the <ph id="1">&lt;link xlink:href="a8026ebe-19c4-41c6-89e6-8b11b4b8f671" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Service-directed login operation&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>For more general information, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Logging in with Google, Microsoft and Facebook SDKs to Azure Mobile Services<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/blog/2014/10/27/logging-in-with-google-microsoft-and-facebook-sdks-to-azure-mobile-services/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept></source>
+            <target state="new">For more general information, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Logging in with Google, Microsoft and Facebook SDKs to Azure Mobile Services<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/blog/2014/10/27/logging-in-with-google-microsoft-and-facebook-sdks-to-azure-mobile-services/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Request</source>
+            <target state="new">Request</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The request may be specified as follows.</source>
+            <target state="new">The request may be specified as follows.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Replace <ph id="1">&lt;parameterReference&gt;%%amp;lt;service_name%%amp;gt;&lt;/parameterReference&gt;</ph> with your mobile service name and <ph id="2">&lt;parameterReference&gt;%%amp;lt;provider%%amp;gt;&lt;/parameterReference&gt;</ph> with the identity provider.</source>
+            <target state="new">Replace <ph id="1">&lt;parameterReference&gt;%%amp;lt;service_name%%amp;gt;&lt;/parameterReference&gt;</ph> with your mobile service name and <ph id="2">&lt;parameterReference&gt;%%amp;lt;provider%%amp;gt;&lt;/parameterReference&gt;</ph> with the identity provider.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>HTTP Verb</source>
+            <target state="new">HTTP Verb</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Request URI</source>
+            <target state="new">Request URI</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>HTTP Version</source>
+            <target state="new">HTTP Version</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>POST</source>
+            <target state="new">POST</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>HTTP/1.1</source>
+            <target state="new">HTTP/1.1</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>The identity provider used for authentication can be one of the following:</source>
+            <target state="new">The identity provider used for authentication can be one of the following:</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Provider value</source>
+            <target state="new">Provider value</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>JavaScript Backend Support</source>
+            <target state="new">JavaScript Backend Support</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>.Net Backend Support</source>
+            <target state="new">.Net Backend Support</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Login by presenting a token obtained from Facebook.</source>
+            <target state="new">Login by presenting a token obtained from Facebook.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Login by presenting a token obtained from Google.</source>
+            <target state="new">Login by presenting a token obtained from Google.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Login by presenting a token obtained from Live Connect.</source>
+            <target state="new">Login by presenting a token obtained from Live Connect.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Login by presenting a token obtained from Twitter.</source>
+            <target state="new">Login by presenting a token obtained from Twitter.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Login by presenting a token obtained from an Azure Active Directory.</source>
+            <target state="new">Login by presenting a token obtained from an Azure Active Directory.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>You must first configure the identity provider used for authentication with your mobile service.</source>
+            <target state="new">You must first configure the identity provider used for authentication with your mobile service.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>For more information, see <bpt id="1">&lt;legacyLink xlink:href="b1272c84-2a71-488f-b548-814b6fd75044" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Configure identity<ept id="1">&lt;/legacyLink&gt;</ept>.</source>
+            <target state="new">For more information, see <bpt id="1">&lt;legacyLink xlink:href="b1272c84-2a71-488f-b548-814b6fd75044" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Configure identity<ept id="1">&lt;/legacyLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>URI Parameters</source>
+            <target state="new">URI Parameters</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>None.</source>
+            <target state="new">None.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Request Headers</source>
+            <target state="new">Request Headers</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>The following table describes the request headers.</source>
+            <target state="new">The following table describes the request headers.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Request Header</source>
+            <target state="new">Request Header</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Required</source>
+            <target state="new">Required</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Set this header to <ph id="1">&lt;languageKeyword&gt;application/json&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">Set this header to <ph id="1">&lt;languageKeyword&gt;application/json&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>The length of the request body.</source>
+            <target state="new">The length of the request body.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>No</source>
+            <target state="new">No</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Set this header to <ph id="1">&lt;languageKeyword&gt;application/json&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">Set this header to <ph id="1">&lt;languageKeyword&gt;application/json&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Request Body</source>
+            <target state="new">Request Body</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>The request body contains a single object, expressed in JavaScript Object Notation (JSON).</source>
+            <target state="new">The request body contains a single object, expressed in JavaScript Object Notation (JSON).</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>The object contains a single field, which depends on the identity provider:</source>
+            <target state="new">The object contains a single field, which depends on the identity provider:</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Provider</source>
+            <target state="new">Provider</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>JSON object</source>
+            <target state="new">JSON object</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Microsoft Account</source>
+            <target state="new">Microsoft Account</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Facebook </source>
+            <target state="new">Facebook </target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Google</source>
+            <target state="new">Google</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Azure Active Directory</source>
+            <target state="new">Azure Active Directory</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Response</source>
+            <target state="new">Response</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>The response includes an HTTP status code, a set of response headers, and a response body.</source>
+            <target state="new">The response includes an HTTP status code, a set of response headers, and a response body.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Status Code</source>
+            <target state="new">Status Code</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>A successfully operation returns status code 200 (OK).</source>
+            <target state="new">A successfully operation returns status code 200 (OK).</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Response Headers</source>
+            <target state="new">Response Headers</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>The response for this operation includes the following headers.</source>
+            <target state="new">The response for this operation includes the following headers.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>The response may also include additional standard HTTP headers.</source>
+            <target state="new">The response may also include additional standard HTTP headers.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>All standard headers conform to the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>HTTP/1.1 protocol specification<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?linkid=150478&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">All standard headers conform to the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>HTTP/1.1 protocol specification<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?linkid=150478&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Response Header</source>
+            <target state="new">Response Header</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>The length of the response body.</source>
+            <target state="new">The length of the response body.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Header set to <ph id="1">&lt;languageKeyword&gt;application/json&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">Header set to <ph id="1">&lt;languageKeyword&gt;application/json&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Indicates which version of the runtime executed the request.</source>
+            <target state="new">Indicates which version of the runtime executed the request.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Response Body</source>
+            <target state="new">Response Body</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>The request body contains a single JSON object with two properties.</source>
+            <target state="new">The request body contains a single JSON object with two properties.</target>
+          </trans-unit>
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>The following table describes the properties of the JSON object in the response body.</source>
+            <target state="new">The following table describes the properties of the JSON object in the response body.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Property Name</source>
+            <target state="new">Property Name</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>JSON object that contains the <ph id="1">&lt;languageKeyword&gt;userId&lt;/languageKeyword&gt;</ph> value assigned by <ph id="2">&lt;token&gt;nextref_zumo&lt;/token&gt;</ph> to the authenticated user.</source>
+            <target state="new">JSON object that contains the <ph id="1">&lt;languageKeyword&gt;userId&lt;/languageKeyword&gt;</ph> value assigned by <ph id="2">&lt;token&gt;nextref_zumo&lt;/token&gt;</ph> to the authenticated user.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>A <bpt id="1">&lt;newTerm&gt;</bpt>JSON web token<ept id="1">&lt;/newTerm&gt;</ept> (JWT), which is the authentication token returned by <ph id="2">&lt;token&gt;nextref_zumo&lt;/token&gt;</ph> based on positive authentication.</source>
+            <target state="new">A <bpt id="1">&lt;newTerm&gt;</bpt>JSON web token<ept id="1">&lt;/newTerm&gt;</ept> (JWT), which is the authentication token returned by <ph id="2">&lt;token&gt;nextref_zumo&lt;/token&gt;</ph> based on positive authentication.</target>
+          </trans-unit>
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>This token is provided in subsequent authenticated requests to the mobile service, and can be cached until expired.</source>
+            <target state="new">This token is provided in subsequent authenticated requests to the mobile service, and can be cached until expired.</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>The response to a request to use a Microsoft Account token contains the following JSON payload:</source>
+            <target state="new">The response to a request to use a Microsoft Account token contains the following JSON payload:</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

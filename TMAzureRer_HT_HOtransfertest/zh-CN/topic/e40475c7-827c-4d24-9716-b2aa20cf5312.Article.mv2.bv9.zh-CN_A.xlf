@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-CN" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANjTEKwzAMAL/iB1hg2bIdde3SqVM/IDkWDaQJtCmEvr5e7w7OLHWl2KB3IiC0ABomhRZQCrOhCHtnJaeelQAHBWLpoGYKkrjUMjNLiN51ClRzqzDF2oDmSMAVC2gUiaFZTjgq9O73hOvdu3NdzPp5XN77fng33Fjdvi/ZHm/ZPqscy779Abi+1OGhAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Evaluate an automatic scaling formula</source>
+            <target state="new">Evaluate an automatic scaling formula</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Gets the result of evaluating an automatic scaling formula on the pool.</source>
+            <target state="new">Gets the result of evaluating an automatic scaling formula on the pool.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This API is primarily for validating an autoscale formula, as it simply returns the result to the client without applying the formula to the pool.</source>
+            <target state="new">This API is primarily for validating an autoscale formula, as it simply returns the result to the client without applying the formula to the pool.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Request</source>
+            <target state="new">Request</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="0e07b9cb-8fdf-4ff7-b707-e964200df0f8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Common parameters and headers&lt;/link&gt;</ph> for headers and parameters that are used by all requests related to pools.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="0e07b9cb-8fdf-4ff7-b707-e964200df0f8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Common parameters and headers&lt;/link&gt;</ph> for headers and parameters that are used by all requests related to pools.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Method</source>
+            <target state="new">Method</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Request URI</source>
+            <target state="new">Request URI</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>POST</source>
+            <target state="new">POST</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Replace {pool-id} with the id of the pool on which you want to evaluate an automatic scaling formula.</source>
+            <target state="new">Replace {pool-id} with the id of the pool on which you want to evaluate an automatic scaling formula.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Automatic scaling must be enabled on the pool to evaluate a formula.</source>
+            <target state="new">Automatic scaling must be enabled on the pool to evaluate a formula.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="a1ac3653-0840-45cd-a682-f1f51566a6cd" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Enable automatic scaling on a pool&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="a1ac3653-0840-45cd-a682-f1f51566a6cd" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Enable automatic scaling on a pool&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The following example shows a request body that could be used when automatic scaling is enabled.</source>
+            <target state="new">The following example shows a request body that could be used when automatic scaling is enabled.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The formula increases the number of nodes that are used by 10% when the CPU usage in the pool for past 10 minutes stays over 70%.</source>
+            <target state="new">The formula increases the number of nodes that are used by 10% when the CPU usage in the pool for past 10 minutes stays over 70%.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Element name</source>
+            <target state="new">Element name</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Required</source>
+            <target state="new">Required</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Notes</source>
+            <target state="new">Notes</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>autoScaleFormula</source>
+            <target state="new">autoScaleFormula</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Specifies a formula for the desired number of compute nodes in the pool.</source>
+            <target state="new">Specifies a formula for the desired number of compute nodes in the pool.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>The formula is validated and its results calculated, but is not applied to the pool.</source>
+            <target state="new">The formula is validated and its results calculated, but is not applied to the pool.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>To apply the formula to the pool, use <ph id="1">&lt;link xlink:href="a1ac3653-0840-45cd-a682-f1f51566a6cd" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Enable automatic scaling on a pool&lt;/link&gt;</ph>.</source>
+            <target state="new">To apply the formula to the pool, use <ph id="1">&lt;link xlink:href="a1ac3653-0840-45cd-a682-f1f51566a6cd" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Enable automatic scaling on a pool&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>For more information about specifying this formula, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Automatically scale compute nodes in an Azure Batch pool<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://msdn.microsoft.com/en-us/library/azure/dn820182.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information about specifying this formula, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Automatically scale compute nodes in an Azure Batch pool<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://msdn.microsoft.com/en-us/library/azure/dn820182.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Response</source>
+            <target state="new">Response</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="e9da2d54-053a-4392-a5ba-26229c7cc9a5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Status and Error Codes&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="e9da2d54-053a-4392-a5ba-26229c7cc9a5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Status and Error Codes&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>The previous example shows a typical error that occurs when data cannot be obtained from the pool.</source>
+            <target state="new">The previous example shows a typical error that occurs when data cannot be obtained from the pool.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Element name </source>
+            <target state="new">Element name </target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Notes</source>
+            <target state="new">Notes</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>timestamp</source>
+            <target state="new">timestamp</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>DateTime</source>
+            <target state="new">DateTime</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>The time at which the autoscale formula was evaluated</source>
+            <target state="new">The time at which the autoscale formula was evaluated</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>results</source>
+            <target state="new">results</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>The final values of all variables used in the autoscale formula.</source>
+            <target state="new">The final values of all variables used in the autoscale formula.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Each variable value is returned in the form $<bpt id="1">&lt;legacyItalic&gt;</bpt>variable=value<ept id="1">&lt;/legacyItalic&gt;</ept>, and variables are separated by semicolons.</source>
+            <target state="new">Each variable value is returned in the form $<bpt id="1">&lt;legacyItalic&gt;</bpt>variable=value<ept id="1">&lt;/legacyItalic&gt;</ept>, and variables are separated by semicolons.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>error</source>
+            <target state="new">error</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Complex Type</source>
+            <target state="new">Complex Type</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Contains details of the error encountered evaluating the autoscale formula on the pool, if evaluation was unsuccessful</source>
+            <target state="new">Contains details of the error encountered evaluating the autoscale formula on the pool, if evaluation was unsuccessful</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

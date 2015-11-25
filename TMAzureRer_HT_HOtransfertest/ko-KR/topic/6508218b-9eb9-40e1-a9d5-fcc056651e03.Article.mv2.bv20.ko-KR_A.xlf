@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANy1EKgzAMANCr9AANJNpUsxMM9jd2gbQmIHMWXAcef8L7fe6jlTRUMEsJEjlCwblARdIs4qQqMYjQ5FULEFWDtOQRBFmBFR0z+kSVY8iM80BXFisCCY1AZWHwWpFzZjIcY6AY3g0ezxjObXW3s9+O1noMwwVjuP8+ur8O3b+b9rXtf+GRsB2iAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Include a One-Way External Service Endpoint</source>
+            <target state="new">Include a One-Way External Service Endpoint</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Add a one-way external service endpoint to a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">Add a one-way external service endpoint to a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Use this destination to route a message to a WCF external service that takes a request but does not return a response.</source>
+            <target state="new">Use this destination to route a message to a WCF external service that takes a request but does not return a response.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The service you wish to represent as part of the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> must already be configured.</source>
+            <target state="new">The service you wish to represent as part of the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> must already be configured.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You cannot configure a service as part of the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">You cannot configure a service as part of the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Secure Message Transfer between the Bridge and the Service Endpoint</source>
+            <target state="new">Secure Message Transfer between the Bridge and the Service Endpoint</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>In scenarios involving message transfer between WCF client and services, both the client and service authentication is mandated.</source>
+            <target state="new">In scenarios involving message transfer between WCF client and services, both the client and service authentication is mandated.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>In routing scenarios where a bridge sends a message to a WCF service, the bridge is the client and the WCF endpoint where the message is routed to is the service.</source>
+            <target state="new">In routing scenarios where a bridge sends a message to a WCF service, the bridge is the client and the WCF endpoint where the message is routed to is the service.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> provides support for using certificates to authenticate both the client and the service.</source>
+            <target state="new"><ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> provides support for using certificates to authenticate both the client and the service.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>This support is limited to services with <ph id="1">&lt;codeInline&gt;basicHttpBinding&lt;/codeInline&gt;</ph> and <ph id="2">&lt;codeInline&gt;ws2007HttpBinding&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">This support is limited to services with <ph id="1">&lt;codeInline&gt;basicHttpBinding&lt;/codeInline&gt;</ph> and <ph id="2">&lt;codeInline&gt;ws2007HttpBinding&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The security configuration and the certificate information must be included in the binding and service behavior configuration sections service’s configuration file.</source>
+            <target state="new">The security configuration and the certificate information must be included in the binding and service behavior configuration sections service’s configuration file.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Also, the client’s certificate must be available in the artifact store for the <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription where the bridge (that sends the message to the service endpoint) eventually gets deployed.</source>
+            <target state="new">Also, the client’s certificate must be available in the artifact store for the <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> subscription where the bridge (that sends the message to the service endpoint) eventually gets deployed.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>To upload the certificate to the artifact store, see <ph id="1">&lt;link xlink:href="69a4f82d-c339-4780-8761-29f2dd37cd10#BKMK_Certs" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Certificates&lt;/link&gt;</ph>.</source>
+            <target state="new">To upload the certificate to the artifact store, see <ph id="1">&lt;link xlink:href="69a4f82d-c339-4780-8761-29f2dd37cd10#BKMK_Certs" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Certificates&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The certificate must be available in the artifact store before you deploy the bridge.</source>
+            <target state="new">The certificate must be available in the artifact store before you deploy the bridge.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>To ensure that the bridge gets deployed successfully, after uploading the certificate, wait for 30 seconds before deploying the bridge.</source>
+            <target state="new">To ensure that the bridge gets deployed successfully, after uploading the certificate, wait for 30 seconds before deploying the bridge.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>At a very high-level, these are the steps that you must perform to enable certificate authentication between the bridge and the WCF service endpoint:</source>
+            <target state="new">At a very high-level, these are the steps that you must perform to enable certificate authentication between the bridge and the WCF service endpoint:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>As part of your service configuration, add a new binding configuration to use certificate-based security.</source>
+            <target state="new">As part of your service configuration, add a new binding configuration to use certificate-based security.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Add a new service behavior configuration and include the configuration information about the client’s and server’s certificate.</source>
+            <target state="new">Add a new service behavior configuration and include the configuration information about the client’s and server’s certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Adding a One-way External Service Endpoint</source>
+            <target state="new">Adding a One-way External Service Endpoint</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Create a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, as described in <ph id="2">&lt;link xlink:href="03421690-817a-45a8-8492-c9cb98484102" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Create a Message Flow Project&lt;/link&gt;</ph>.</source>
+            <target state="new">Create a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, as described in <ph id="2">&lt;link xlink:href="03421690-817a-45a8-8492-c9cb98484102" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Create a Message Flow Project&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Right-click anywhere on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design area, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Properties<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Right-click anywhere on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design area, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Properties<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>For the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BizTalk Service URL<ept id="1">&lt;/embeddedLabel&gt;</ept> property, enter your <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> URL.</source>
+            <target state="new">For the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BizTalk Service URL<ept id="1">&lt;/embeddedLabel&gt;</ept> property, enter your <ph id="2">&lt;token&gt;af_integration&lt;/token&gt;</ph> URL.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Toolbox<ept id="1">&lt;/embeddedLabel&gt;</ept>, drag and drop the <bpt id="2">&lt;embeddedLabel&gt;</bpt>One-Way External Service Endpoint<ept id="2">&lt;/embeddedLabel&gt;</ept> component to the <ph id="3">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design area.</source>
+            <target state="new">From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Toolbox<ept id="1">&lt;/embeddedLabel&gt;</ept>, drag and drop the <bpt id="2">&lt;embeddedLabel&gt;</bpt>One-Way External Service Endpoint<ept id="2">&lt;/embeddedLabel&gt;</ept> component to the <ph id="3">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design area.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>This adds a configuration file to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">This adds a configuration file to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>For more information about the configuration file, see <ph id="1">&lt;link xlink:href="6508218b-9eb9-40e1-a9d5-fcc056651e03#BKMK_config" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 5&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about the configuration file, see <ph id="1">&lt;link xlink:href="6508218b-9eb9-40e1-a9d5-fcc056651e03#BKMK_config" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 5&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Right-click the component, and then select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Right-click the component, and then select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>The following table provides information about the properties:</source>
+            <target state="new">The following table provides information about the properties:</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Property Name</source>
+            <target state="new">Property Name</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Associated Project Item</source>
+            <target state="new">Associated Project Item</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>This is a read-only field and provides the name of the associated .config file.</source>
+            <target state="new">This is a read-only field and provides the name of the associated .config file.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>If you change the name of the component on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design area by changing the <ph id="2">&lt;link xlink:href="6508218b-9eb9-40e1-a9d5-fcc056651e03#EntityName" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Entity Name&lt;/link&gt;</ph> property, the name of the .config file also changes.</source>
+            <target state="new">If you change the name of the component on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design area by changing the <ph id="2">&lt;link xlink:href="6508218b-9eb9-40e1-a9d5-fcc056651e03#EntityName" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Entity Name&lt;/link&gt;</ph> property, the name of the .config file also changes.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Endpoint Configuration Name</source>
+            <target state="new">Endpoint Configuration Name</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Name of the client endpoint configuration in the .config file that defines the address, binding, and contract for the WCF service that you are representing on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design area.</source>
+            <target state="new">Name of the client endpoint configuration in the .config file that defines the address, binding, and contract for the WCF service that you are representing on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design area.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Because the service configuration file can have any number of endpoints defined, the endpoint name you specify for this property is matched with the endpoint configuration name in the .config file.</source>
+            <target state="new">Because the service configuration file can have any number of endpoints defined, the endpoint name you specify for this property is matched with the endpoint configuration name in the .config file.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>When a match happens, the corresponding address, binding, and contract for that endpoint are considered.</source>
+            <target state="new">When a match happens, the corresponding address, binding, and contract for that endpoint are considered.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>The value you enter for this property is not used for updating the <bpt id="1">&lt;embeddedLabel&gt;</bpt>name<ept id="1">&lt;/embeddedLabel&gt;</ept> attribute of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>endpoint<ept id="2">&lt;/embeddedLabel&gt;</ept> element in the associated .config file.</source>
+            <target state="new">The value you enter for this property is not used for updating the <bpt id="1">&lt;embeddedLabel&gt;</bpt>name<ept id="1">&lt;/embeddedLabel&gt;</ept> attribute of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>endpoint<ept id="2">&lt;/embeddedLabel&gt;</ept> element in the associated .config file.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>You must ensure that the associated .config file has at least one endpoint defined with the name you enter here.</source>
+            <target state="new">You must ensure that the associated .config file has at least one endpoint defined with the name you enter here.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>You can either update the .config manually to create the endpoint or use the Service Configuration Editor, as explained in <ph id="1">&lt;link xlink:href="6508218b-9eb9-40e1-a9d5-fcc056651e03#ServiceConfigEditor" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 5(a)&lt;/link&gt;</ph>.</source>
+            <target state="new">You can either update the .config manually to create the endpoint or use the Service Configuration Editor, as explained in <ph id="1">&lt;link xlink:href="6508218b-9eb9-40e1-a9d5-fcc056651e03#ServiceConfigEditor" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 5(a)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Entity Name</source>
+            <target state="new">Entity Name</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>The name of the external service component on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design area.</source>
+            <target state="new">The name of the external service component on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design area.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>This name should be unique for a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">This name should be unique for a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Runtime Address</source>
+            <target state="new">Runtime Address</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>The public runtime endpoint URL where the external service is deployed.</source>
+            <target state="new">The public runtime endpoint URL where the external service is deployed.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>When you drop the <bpt id="1">&lt;embeddedLabel&gt;</bpt>One-Way External Service Endpoint<ept id="1">&lt;/embeddedLabel&gt;</ept> component on the <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design area, it adds a configuration file with the same name as the value you provided for the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Entity Name<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">When you drop the <bpt id="1">&lt;embeddedLabel&gt;</bpt>One-Way External Service Endpoint<ept id="1">&lt;/embeddedLabel&gt;</ept> component on the <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design area, it adds a configuration file with the same name as the value you provided for the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Entity Name<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>This configuration file must be updated to provide information about the external service’s client endpoint such as the service binding and service contract.</source>
+            <target state="new">This configuration file must be updated to provide information about the external service’s client endpoint such as the service binding and service contract.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Perform the following steps to update the configuration file:</source>
+            <target state="new">Perform the following steps to update the configuration file:</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>From the Solution Explorer, right-click the .config file for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>One-Way External Service Endpoint<ept id="1">&lt;/embeddedLabel&gt;</ept> component, and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Edit WCF Configuration<ept id="2">&lt;/embeddedLabel&gt;</ept> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Service Configuration Editor<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">From the Solution Explorer, right-click the .config file for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>One-Way External Service Endpoint<ept id="1">&lt;/embeddedLabel&gt;</ept> component, and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Edit WCF Configuration<ept id="2">&lt;/embeddedLabel&gt;</ept> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Service Configuration Editor<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Expand <bpt id="1">&lt;embeddedLabel&gt;</bpt>Endpoints<ept id="1">&lt;/embeddedLabel&gt;</ept> node under the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Client<ept id="2">&lt;/embeddedLabel&gt;</ept> node in the Tree View pane, to see the default endpoint already created.</source>
+            <target state="new">Expand <bpt id="1">&lt;embeddedLabel&gt;</bpt>Endpoints<ept id="1">&lt;/embeddedLabel&gt;</ept> node under the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Client<ept id="2">&lt;/embeddedLabel&gt;</ept> node in the Tree View pane, to see the default endpoint already created.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Select the default endpoint and in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Client Endpoint<ept id="1">&lt;/embeddedLabel&gt;</ept> details pane, in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>General<ept id="2">&lt;/embeddedLabel&gt;</ept> tab, enter the following properties:</source>
+            <target state="new">Select the default endpoint and in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Client Endpoint<ept id="1">&lt;/embeddedLabel&gt;</ept> details pane, in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>General<ept id="2">&lt;/embeddedLabel&gt;</ept> tab, enter the following properties:</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Property Name</source>
+            <target state="new">Property Name</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Update the endpoint configuration name, for example, <bpt id="1">&lt;userInput&gt;</bpt>OneWayExternalService<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">Update the endpoint configuration name, for example, <bpt id="1">&lt;userInput&gt;</bpt>OneWayExternalService<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Whatever value you enter here, you must enter the same value for the <ph id="1">&lt;link xlink:href="6508218b-9eb9-40e1-a9d5-fcc056651e03#BKMK_EndpointConfig" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Endpoint Configuration Name&lt;/link&gt;</ph> property.</source>
+            <target state="new">Whatever value you enter here, you must enter the same value for the <ph id="1">&lt;link xlink:href="6508218b-9eb9-40e1-a9d5-fcc056651e03#BKMK_EndpointConfig" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Endpoint Configuration Name&lt;/link&gt;</ph> property.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Address</source>
+            <target state="new">Address</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>The complete address where the external one-way service is hosted, for example, <bpt id="1">&lt;legacyItalic&gt;</bpt>https://MyServices/myOneWayExternalService<ept id="1">&lt;/legacyItalic&gt;</ept>.</source>
+            <target state="new">The complete address where the external one-way service is hosted, for example, <bpt id="1">&lt;legacyItalic&gt;</bpt>https://MyServices/myOneWayExternalService<ept id="1">&lt;/legacyItalic&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>BehaviorConfiguration</source>
+            <target state="new">BehaviorConfiguration</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>If you want to include a custom endpoint behavior configuration, and if you already have it configured as part of the Service Configuration Editor under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Endpoint Behaviors<ept id="1">&lt;/embeddedLabel&gt;</ept> node, you can select that from the drop-down list.</source>
+            <target state="new">If you want to include a custom endpoint behavior configuration, and if you already have it configured as part of the Service Configuration Editor under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Endpoint Behaviors<ept id="1">&lt;/embeddedLabel&gt;</ept> node, you can select that from the drop-down list.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>For instructions on how to add a behavior configuration, see <ph id="1">&lt;link xlink:href="6508218b-9eb9-40e1-a9d5-fcc056651e03#BKMK_BehaviorConfig" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;To add a behavior configuration&lt;/link&gt;</ph>.</source>
+            <target state="new">For instructions on how to add a behavior configuration, see <ph id="1">&lt;link xlink:href="6508218b-9eb9-40e1-a9d5-fcc056651e03#BKMK_BehaviorConfig" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;To add a behavior configuration&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Binding</source>
+            <target state="new">Binding</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Specifies the type of binding you want to use for the endpoint.</source>
+            <target state="new">Specifies the type of binding you want to use for the endpoint.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>For example, for a WCF external service endpoint, you can choose <bpt id="1">&lt;userInput&gt;</bpt>basicHttpBinding<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For example, for a WCF external service endpoint, you can choose <bpt id="1">&lt;userInput&gt;</bpt>basicHttpBinding<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>BindingConfiguration</source>
+            <target state="new">BindingConfiguration</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Using this you can enter more details about the binding such as security requirements, and so on.</source>
+            <target state="new">Using this you can enter more details about the binding such as security requirements, and so on.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>If you want to include a binding configuration, and if you already have it configured as part of the Service Configuration Editor under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Bindings<ept id="1">&lt;/embeddedLabel&gt;</ept> node, you can select that from the drop-down list.</source>
+            <target state="new">If you want to include a binding configuration, and if you already have it configured as part of the Service Configuration Editor under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Bindings<ept id="1">&lt;/embeddedLabel&gt;</ept> node, you can select that from the drop-down list.</target>
+          </trans-unit>
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>For instructions on how to add a binding configuration, see <ph id="1">&lt;link xlink:href="6508218b-9eb9-40e1-a9d5-fcc056651e03#BKMK_BindingConfig" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;To add a binding configuration&lt;/link&gt;</ph>.</source>
+            <target state="new">For instructions on how to add a binding configuration, see <ph id="1">&lt;link xlink:href="6508218b-9eb9-40e1-a9d5-fcc056651e03#BKMK_BindingConfig" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;To add a binding configuration&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Contract</source>
+            <target state="new">Contract</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Enter the contract for the service.</source>
+            <target state="new">Enter the contract for the service.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>For a WCF one-way external service, the contract must be <bpt id="1">&lt;userInput&gt;</bpt>System.ServiceModel.Routing.ISimplexDatagramRouter<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For a WCF one-way external service, the contract must be <bpt id="1">&lt;userInput&gt;</bpt>System.ServiceModel.Routing.ISimplexDatagramRouter<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>From the File menu, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>, and select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Exit<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">From the File menu, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept>, and select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Exit<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Open the configuration file and verify that the values you entered in the Service Configuration Editor are reflected in the configuration file.</source>
+            <target state="new">Open the configuration file and verify that the values you entered in the Service Configuration Editor are reflected in the configuration file.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>A sample configuration file for an external one-way service endpoint would look like the following:</source>
+            <target state="new">A sample configuration file for an external one-way service endpoint would look like the following:</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>To add a behavior configuration</source>
+            <target state="new">To add a behavior configuration</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>In the Service Configuration Editor, from the Tree View pane, expand <bpt id="1">&lt;embeddedLabel&gt;</bpt>Advanced<ept id="1">&lt;/embeddedLabel&gt;</ept>, right-click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Endpoint Behaviors<ept id="2">&lt;/embeddedLabel&gt;</ept>, and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>New Endpoint Behavior Configuration<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the Service Configuration Editor, from the Tree View pane, expand <bpt id="1">&lt;embeddedLabel&gt;</bpt>Advanced<ept id="1">&lt;/embeddedLabel&gt;</ept>, right-click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Endpoint Behaviors<ept id="2">&lt;/embeddedLabel&gt;</ept>, and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>New Endpoint Behavior Configuration<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Behavior<ept id="1">&lt;/embeddedLabel&gt;</ept> details pane, enter a name for the behavior, for example, <bpt id="2">&lt;userInput&gt;</bpt>ServiceCredentialBehavior<ept id="2">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Behavior<ept id="1">&lt;/embeddedLabel&gt;</ept> details pane, enter a name for the behavior, for example, <bpt id="2">&lt;userInput&gt;</bpt>ServiceCredentialBehavior<ept id="2">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>The same name is available in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BehaviorConfiguration<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list in Step 4(b) above.</source>
+            <target state="new">The same name is available in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BehaviorConfiguration<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list in Step 4(b) above.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Behavior element extension position<ept id="1">&lt;/embeddedLabel&gt;</ept> area, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept>, from the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Available Elements<ept id="3">&lt;/embeddedLabel&gt;</ept> box, select the element that you want to add (e.g. <bpt id="4">&lt;embeddedLabel&gt;</bpt>clientCredentials<ept id="4">&lt;/embeddedLabel&gt;</ept>), and then select <bpt id="5">&lt;embeddedLabel&gt;</bpt>Add<ept id="5">&lt;/embeddedLabel&gt;</ept> again.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Behavior element extension position<ept id="1">&lt;/embeddedLabel&gt;</ept> area, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept>, from the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Available Elements<ept id="3">&lt;/embeddedLabel&gt;</ept> box, select the element that you want to add (e.g. <bpt id="4">&lt;embeddedLabel&gt;</bpt>clientCredentials<ept id="4">&lt;/embeddedLabel&gt;</ept>), and then select <bpt id="5">&lt;embeddedLabel&gt;</bpt>Add<ept id="5">&lt;/embeddedLabel&gt;</ept> again.</target>
+          </trans-unit>
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>This adds the <bpt id="1">&lt;embeddedLabel&gt;</bpt>clientCredentials<ept id="1">&lt;/embeddedLabel&gt;</ept> behavior extension in the tree structure.</source>
+            <target state="new">This adds the <bpt id="1">&lt;embeddedLabel&gt;</bpt>clientCredentials<ept id="1">&lt;/embeddedLabel&gt;</ept> behavior extension in the tree structure.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Expand the <bpt id="1">&lt;embeddedLabel&gt;</bpt>clientCredentials<ept id="1">&lt;/embeddedLabel&gt;</ept> section and specify the required properties for <bpt id="2">&lt;embeddedLabel&gt;</bpt>clientCertificate<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>serviceCertificate<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Expand the <bpt id="1">&lt;embeddedLabel&gt;</bpt>clientCredentials<ept id="1">&lt;/embeddedLabel&gt;</ept> section and specify the required properties for <bpt id="2">&lt;embeddedLabel&gt;</bpt>clientCertificate<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>serviceCertificate<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>In the Tree View pane, go back to the service endpoint that you created, and select the newly created endpoint behavior configuration from the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BehaviorConfiguration<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list.</source>
+            <target state="new">In the Tree View pane, go back to the service endpoint that you created, and select the newly created endpoint behavior configuration from the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BehaviorConfiguration<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>To add a binding configuration</source>
+            <target state="new">To add a binding configuration</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>In the Service Configuration Editor, from the Tree View pane, right-click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Bindings<ept id="1">&lt;/embeddedLabel&gt;</ept>, and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>New Binding Configuration<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the Service Configuration Editor, from the Tree View pane, right-click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Bindings<ept id="1">&lt;/embeddedLabel&gt;</ept>, and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>New Binding Configuration<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Create a New Binding<ept id="1">&lt;/embeddedLabel&gt;</ept> box, select the same binding that you specified in Step 4(b) above, and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>OK<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Create a New Binding<ept id="1">&lt;/embeddedLabel&gt;</ept> box, select the same binding that you specified in Step 4(b) above, and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>OK<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>In the binding details pane, on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Binding<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, for the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Name<ept id="2">&lt;/embeddedLabel&gt;</ept> property, enter a name for the binding configuration, for example <bpt id="3">&lt;userInput&gt;</bpt>ServiceBinding<ept id="3">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">In the binding details pane, on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Binding<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, for the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Name<ept id="2">&lt;/embeddedLabel&gt;</ept> property, enter a name for the binding configuration, for example <bpt id="3">&lt;userInput&gt;</bpt>ServiceBinding<ept id="3">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>The same name is available in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BindingConfiguration<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list in Step 4 (b) above.</source>
+            <target state="new">The same name is available in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BindingConfiguration<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list in Step 4 (b) above.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>In the binding details pane, on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Security<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, for the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Mode<ept id="2">&lt;/embeddedLabel&gt;</ept> drop-down list, select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Message<ept id="3">&lt;/embeddedLabel&gt;</ept> and for the <bpt id="4">&lt;embeddedLabel&gt;</bpt>MessageClientCredentialType<ept id="4">&lt;/embeddedLabel&gt;</ept> option, select <bpt id="5">&lt;embeddedLabel&gt;</bpt>Certificate<ept id="5">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the binding details pane, on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Security<ept id="1">&lt;/embeddedLabel&gt;</ept> tab, for the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Mode<ept id="2">&lt;/embeddedLabel&gt;</ept> drop-down list, select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Message<ept id="3">&lt;/embeddedLabel&gt;</ept> and for the <bpt id="4">&lt;embeddedLabel&gt;</bpt>MessageClientCredentialType<ept id="4">&lt;/embeddedLabel&gt;</ept> option, select <bpt id="5">&lt;embeddedLabel&gt;</bpt>Certificate<ept id="5">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>In the Tree View pane, go back to the service endpoint that you created, and select the newly created binding configuration from the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BindingConfiguration<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list.</source>
+            <target state="new">In the Tree View pane, go back to the service endpoint that you created, and select the newly created binding configuration from the <bpt id="1">&lt;embeddedLabel&gt;</bpt>BindingConfiguration<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>If you save and exit the configuration editor now, and open the configuration file in an XML editor, you notice that the following has been added to the service configuration file.</source>
+            <target state="new">If you save and exit the configuration editor now, and open the configuration file in an XML editor, you notice that the following has been added to the service configuration file.</target>
+          </trans-unit>
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>This excerpt assumes that the binding you selected was <bpt id="1">&lt;embeddedLabel&gt;</bpt>basicHttpBinding<ept id="1">&lt;/embeddedLabel&gt;</ept>:</source>
+            <target state="new">This excerpt assumes that the binding you selected was <bpt id="1">&lt;embeddedLabel&gt;</bpt>basicHttpBinding<ept id="1">&lt;/embeddedLabel&gt;</ept>:</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

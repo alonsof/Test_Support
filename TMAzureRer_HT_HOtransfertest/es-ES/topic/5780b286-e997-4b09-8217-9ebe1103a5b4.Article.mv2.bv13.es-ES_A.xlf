@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANyssJwzAMANBVPIAFkq04Vu+F3tsFJFeGQJpAPpDxm/N7vWc3Tg3cmYGpIxhWg4akRaSTqsRQDdn5myE1FOBiBBVLhkwJFQuVphzDMFa0VAu4yAhsd62JRhA3J8Ksg92LYvAdnu8Yrnnq3a/jsa3rEUO6LcfwOn+6fDZd9lmPaV3+5YB0O6IAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Step 5: Connect Bridge and Services</source>
+            <target state="new">Step 5: Connect Bridge and Services</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The previous topics in the tutorial demonstrated how to create the two relay services and how to configure the <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph>.</source>
+            <target state="new">The previous topics in the tutorial demonstrated how to create the two relay services and how to configure the <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This topic demonstrates how to connect the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to the two services so that the message that comes to the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> is routed to the right relay service.</source>
+            <target state="new">This topic demonstrates how to connect the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to the two services so that the message that comes to the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> is routed to the right relay service.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>And then finally, according to the <ph id="1">&lt;link xlink:href="14d7f8b8-074c-485f-a2f6-c9a02cc1779a#BKMK_Scenario" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Business Scenario&lt;/link&gt;</ph>, this tutorial demonstrates how to stamp the messages routed to the relay services with the <bpt id="2">&lt;embeddedLabel&gt;</bpt>QuoteType<ept id="2">&lt;/embeddedLabel&gt;</ept> message header.</source>
+            <target state="new">And then finally, according to the <ph id="1">&lt;link xlink:href="14d7f8b8-074c-485f-a2f6-c9a02cc1779a#BKMK_Scenario" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Business Scenario&lt;/link&gt;</ph>, this tutorial demonstrates how to stamp the messages routed to the relay services with the <bpt id="2">&lt;embeddedLabel&gt;</bpt>QuoteType<ept id="2">&lt;/embeddedLabel&gt;</ept> message header.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>To achieve these goals, perform the following three tasks:</source>
+            <target state="new">To achieve these goals, perform the following three tasks:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Add the two-way relay endpoint components to the itinerary designer to represent the two-way relay services that receive the message from the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>.</source>
+            <target state="new">Add the two-way relay endpoint components to the itinerary designer to represent the two-way relay services that receive the message from the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Connect the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to the two-way relay endpoints on the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> and set the routing condition.</source>
+            <target state="new">Connect the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to the two-way relay endpoints on the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> and set the routing condition.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Stamp the messages sent to the relay services with the <bpt id="1">&lt;embeddedLabel&gt;</bpt>QuoteType<ept id="1">&lt;/embeddedLabel&gt;</ept> message header.</source>
+            <target state="new">Stamp the messages sent to the relay services with the <bpt id="1">&lt;embeddedLabel&gt;</bpt>QuoteType<ept id="1">&lt;/embeddedLabel&gt;</ept> message header.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Represent Relay Services in the BizTalk Service Project</source>
+            <target state="new">Represent Relay Services in the BizTalk Service Project</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>As mentioned earlier, the tutorial already has two relay receiver services defined and one <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> configured to process the messages.</source>
+            <target state="new">As mentioned earlier, the tutorial already has two relay receiver services defined and one <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> configured to process the messages.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>While the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> is part of the <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, the relay receiver services are two separate projects in themselves.</source>
+            <target state="new">While the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> is part of the <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, the relay receiver services are two separate projects in themselves.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> and the relay receiver services must be connected together so that the messages processed by the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> can be routed to the services, and vice versa, the response from the relay services can be routed back to the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph> and then to the client.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> and the relay receiver services must be connected together so that the messages processed by the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> can be routed to the services, and vice versa, the response from the relay services can be routed back to the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph> and then to the client.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>To enable this scenario, the <ph id="1">&lt;token&gt;msgflow&lt;/token&gt;</ph> design surface provides a <bpt id="2">&lt;embeddedLabel&gt;</bpt>Two-Way Relay Endpoint<ept id="2">&lt;/embeddedLabel&gt;</ept> component that you can include in the <ph id="3">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> to represent two-way relay services, <bpt id="4">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceA<ept id="4">&lt;/embeddedLabel&gt;</ept> and <bpt id="5">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceB<ept id="5">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">To enable this scenario, the <ph id="1">&lt;token&gt;msgflow&lt;/token&gt;</ph> design surface provides a <bpt id="2">&lt;embeddedLabel&gt;</bpt>Two-Way Relay Endpoint<ept id="2">&lt;/embeddedLabel&gt;</ept> component that you can include in the <ph id="3">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> to represent two-way relay services, <bpt id="4">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceA<ept id="4">&lt;/embeddedLabel&gt;</ept> and <bpt id="5">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceB<ept id="5">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>To represent RelayReceiverServiceA in the project</source>
+            <target state="new">To represent RelayReceiverServiceA in the project</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Toolbox<ept id="1">&lt;/embeddedLabel&gt;</ept>, drag and drop the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Two-Way Relay Endpoint<ept id="2">&lt;/embeddedLabel&gt;</ept> component to the <ph id="3">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface.</source>
+            <target state="new">From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Toolbox<ept id="1">&lt;/embeddedLabel&gt;</ept>, drag and drop the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Two-Way Relay Endpoint<ept id="2">&lt;/embeddedLabel&gt;</ept> component to the <ph id="3">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>When you drop the component on the itinerary designer, it adds a configuration file to the project.</source>
+            <target state="new">When you drop the component on the itinerary designer, it adds a configuration file to the project.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>This configuration file must be updated to provide information about the endpoint for the relay service.</source>
+            <target state="new">This configuration file must be updated to provide information about the endpoint for the relay service.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Perform the following steps to update the configuration file.</source>
+            <target state="new">Perform the following steps to update the configuration file.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>From the Solution Explorer, right-click the .config file for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Two-Way Relay Endpoint<ept id="1">&lt;/embeddedLabel&gt;</ept> component and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Edit WCF Configuration<ept id="2">&lt;/embeddedLabel&gt;</ept> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Service Configuration Editor<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">From the Solution Explorer, right-click the .config file for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Two-Way Relay Endpoint<ept id="1">&lt;/embeddedLabel&gt;</ept> component and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Edit WCF Configuration<ept id="2">&lt;/embeddedLabel&gt;</ept> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Service Configuration Editor<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Expand the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Endpoints<ept id="1">&lt;/embeddedLabel&gt;</ept> node under the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Client<ept id="2">&lt;/embeddedLabel&gt;</ept> node in the tree view pane, and then select the existing endpoint <bpt id="3">&lt;embeddedLabel&gt;</bpt>TwoWayRelayServiceReference1<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Expand the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Endpoints<ept id="1">&lt;/embeddedLabel&gt;</ept> node under the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Client<ept id="2">&lt;/embeddedLabel&gt;</ept> node in the tree view pane, and then select the existing endpoint <bpt id="3">&lt;embeddedLabel&gt;</bpt>TwoWayRelayServiceReference1<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Client Endpoint<ept id="1">&lt;/embeddedLabel&gt;</ept> details pane, in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>General<ept id="2">&lt;/embeddedLabel&gt;</ept> tab, enter the following properties.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Client Endpoint<ept id="1">&lt;/embeddedLabel&gt;</ept> details pane, in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>General<ept id="2">&lt;/embeddedLabel&gt;</ept> tab, enter the following properties.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Property Name</source>
+            <target state="new">Property Name</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Enter the endpoint name, for example, <bpt id="1">&lt;userInput&gt;</bpt>RelayService_SmallAmounts<ept id="1">&lt;/userInput&gt;</ept>, to represent the relay receiver service that will process messages with quotation amount less than $10000.</source>
+            <target state="new">Enter the endpoint name, for example, <bpt id="1">&lt;userInput&gt;</bpt>RelayService_SmallAmounts<ept id="1">&lt;/userInput&gt;</ept>, to represent the relay receiver service that will process messages with quotation amount less than $10000.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Whatever value you enter here, enter the same value for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Endpoint Configuration Name<ept id="1">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">Whatever value you enter here, enter the same value for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Endpoint Configuration Name<ept id="1">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Address</source>
+            <target state="new">Address</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>The complete address where the relay endpoint is hosted on the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">The complete address where the relay endpoint is hosted on the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>For this tutorial, set the address to the URL where the <bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceA<ept id="1">&lt;/embeddedLabel&gt;</ept> is hosted.</source>
+            <target state="new">For this tutorial, set the address to the URL where the <bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceA<ept id="1">&lt;/embeddedLabel&gt;</ept> is hosted.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>You can get the address from the command prompt that represents the RelayReceiverServiceA.</source>
+            <target state="new">You can get the address from the command prompt that represents the RelayReceiverServiceA.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Typically, the address should be <ph id="1">&lt;codeInline&gt;https://%%amp;lt;your_servicebus_namespace%%amp;gt;.servicebus.windows.net/RelayReceiverServiceA&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Typically, the address should be <ph id="1">&lt;codeInline&gt;https://%%amp;lt;your_servicebus_namespace%%amp;gt;.servicebus.windows.net/RelayReceiverServiceA&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>In the Service Configuration Editor, from the Tree View pane, expand <bpt id="1">&lt;embeddedLabel&gt;</bpt>Advanced<ept id="1">&lt;/embeddedLabel&gt;</ept>, right-click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Endpoint Behaviors<ept id="2">&lt;/embeddedLabel&gt;</ept>, and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>New Endpoint Behavior Configuration<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the Service Configuration Editor, from the Tree View pane, expand <bpt id="1">&lt;embeddedLabel&gt;</bpt>Advanced<ept id="1">&lt;/embeddedLabel&gt;</ept>, right-click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Endpoint Behaviors<ept id="2">&lt;/embeddedLabel&gt;</ept>, and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>New Endpoint Behavior Configuration<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Behavior<ept id="1">&lt;/embeddedLabel&gt;</ept> details pane, enter a name for the behavior, for example, <bpt id="2">&lt;userInput&gt;</bpt>ServiceCredentialBehavior<ept id="2">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Behavior<ept id="1">&lt;/embeddedLabel&gt;</ept> details pane, enter a name for the behavior, for example, <bpt id="2">&lt;userInput&gt;</bpt>ServiceCredentialBehavior<ept id="2">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Behavior element extension position<ept id="1">&lt;/embeddedLabel&gt;</ept> area, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept>, from the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Available Elements<ept id="3">&lt;/embeddedLabel&gt;</ept> box, select <bpt id="4">&lt;userInput&gt;</bpt>transportClientEndpointBehavior<ept id="4">&lt;/userInput&gt;</ept>, and then select <bpt id="5">&lt;embeddedLabel&gt;</bpt>Add<ept id="5">&lt;/embeddedLabel&gt;</ept> again.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Behavior element extension position<ept id="1">&lt;/embeddedLabel&gt;</ept> area, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept>, from the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Available Elements<ept id="3">&lt;/embeddedLabel&gt;</ept> box, select <bpt id="4">&lt;userInput&gt;</bpt>transportClientEndpointBehavior<ept id="4">&lt;/userInput&gt;</ept>, and then select <bpt id="5">&lt;embeddedLabel&gt;</bpt>Add<ept id="5">&lt;/embeddedLabel&gt;</ept> again.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>You must add this element to enter the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> credentials for a particular endpoint.</source>
+            <target state="new">You must add this element to enter the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> credentials for a particular endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>In the Tree View pane, go back to the service endpoint (<bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayService_SmallAmounts<ept id="1">&lt;/embeddedLabel&gt;</ept>) that you created, and select the newly created endpoint behavior configuration from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>BehaviorConfiguration<ept id="2">&lt;/embeddedLabel&gt;</ept> drop-down list.</source>
+            <target state="new">In the Tree View pane, go back to the service endpoint (<bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayService_SmallAmounts<ept id="1">&lt;/embeddedLabel&gt;</ept>) that you created, and select the newly created endpoint behavior configuration from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>BehaviorConfiguration<ept id="2">&lt;/embeddedLabel&gt;</ept> drop-down list.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Accept the default values for all the other properties and from the <bpt id="1">&lt;embeddedLabel&gt;</bpt>File<ept id="1">&lt;/embeddedLabel&gt;</ept> menu, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Save<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Accept the default values for all the other properties and from the <bpt id="1">&lt;embeddedLabel&gt;</bpt>File<ept id="1">&lt;/embeddedLabel&gt;</ept> menu, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Save<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Close the dialog box.</source>
+            <target state="new">Close the dialog box.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Open the config file (available under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageFlowItinerary.bcs<ept id="1">&lt;/embeddedLabel&gt;</ept> in the Solution Explorer) in an XML editor.</source>
+            <target state="new">Open the config file (available under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageFlowItinerary.bcs<ept id="1">&lt;/embeddedLabel&gt;</ept> in the Solution Explorer) in an XML editor.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>You will notice that the following has been added to the service configuration file:</source>
+            <target state="new">You will notice that the following has been added to the service configuration file:</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>For a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> relay endpoint, you only need to include the token credentials.</source>
+            <target state="new">For a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> relay endpoint, you only need to include the token credentials.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>So, you must remove the <bpt id="1">&lt;embeddedLabel&gt;</bpt>clientCredentials<ept id="1">&lt;/embeddedLabel&gt;</ept> element and add the value for the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> Issuer Name and Issuer Secret for the <bpt id="3">&lt;embeddedLabel&gt;</bpt>tokenProvider<ept id="3">&lt;/embeddedLabel&gt;</ept> credentials.</source>
+            <target state="new">So, you must remove the <bpt id="1">&lt;embeddedLabel&gt;</bpt>clientCredentials<ept id="1">&lt;/embeddedLabel&gt;</ept> element and add the value for the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> Issuer Name and Issuer Secret for the <bpt id="3">&lt;embeddedLabel&gt;</bpt>tokenProvider<ept id="3">&lt;/embeddedLabel&gt;</ept> credentials.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>The section of the configuration file would now resemble the following:</source>
+            <target state="new">The section of the configuration file would now resemble the following:</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Save changes and close the configuration file.</source>
+            <target state="new">Save changes and close the configuration file.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>On the <ph id="1">&lt;token&gt;msgflow&lt;/token&gt;</ph> design surface, right-click the component, and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Properties<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">On the <ph id="1">&lt;token&gt;msgflow&lt;/token&gt;</ph> design surface, right-click the component, and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Properties<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>The following table provides information about the properties:</source>
+            <target state="new">The following table provides information about the properties:</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Property Name</source>
+            <target state="new">Property Name</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Associated Project Item</source>
+            <target state="new">Associated Project Item</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>A read-only field that provides the name of the associated .config file.</source>
+            <target state="new">A read-only field that provides the name of the associated .config file.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>If you change the name of the component on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface by changing the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Entity Name<ept id="2">&lt;/embeddedLabel&gt;</ept> property, the name of the .config also changes.</source>
+            <target state="new">If you change the name of the component on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface by changing the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Entity Name<ept id="2">&lt;/embeddedLabel&gt;</ept> property, the name of the .config also changes.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Endpoint Configuration Name</source>
+            <target state="new">Endpoint Configuration Name</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Name of the client endpoint configuration in the .config file that defines the address, the binding, and the contract for the WCF relay service that you are representing on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface.</source>
+            <target state="new">Name of the client endpoint configuration in the .config file that defines the address, the binding, and the contract for the WCF relay service that you are representing on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>For this tutorial, set this property to <bpt id="1">&lt;userInput&gt;</bpt>RelayService_SmallAmounts<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For this tutorial, set this property to <bpt id="1">&lt;userInput&gt;</bpt>RelayService_SmallAmounts<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>You specified the same value for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Name<ept id="1">&lt;/embeddedLabel&gt;</ept> property in the previous step.</source>
+            <target state="new">You specified the same value for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Name<ept id="1">&lt;/embeddedLabel&gt;</ept> property in the previous step.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Because the service configuration file can have any number of endpoints defined, the endpoint name you enter for this property is matched with the endpoint configuration name in the .config file.</source>
+            <target state="new">Because the service configuration file can have any number of endpoints defined, the endpoint name you enter for this property is matched with the endpoint configuration name in the .config file.</target>
+          </trans-unit>
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>When a match happens, the corresponding address, binding, and contract for that endpoint are considered.</source>
+            <target state="new">When a match happens, the corresponding address, binding, and contract for that endpoint are considered.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Entity Name</source>
+            <target state="new">Entity Name</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>The name of the relay endpoint component on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface.</source>
+            <target state="new">The name of the relay endpoint component on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>This name must be unique for an <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">This name must be unique for an <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>For this tutorial, name it <bpt id="1">&lt;userInput&gt;</bpt>SmallAmounts_Service<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For this tutorial, name it <bpt id="1">&lt;userInput&gt;</bpt>SmallAmounts_Service<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Runtime Address</source>
+            <target state="new">Runtime Address</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>The public runtime endpoint URL where the relay service is deployed.</source>
+            <target state="new">The public runtime endpoint URL where the relay service is deployed.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Save changes to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">Save changes to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>To represent RelayReceiverServiceB in the project</source>
+            <target state="new">To represent RelayReceiverServiceB in the project</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Toolbox<ept id="1">&lt;/embeddedLabel&gt;</ept>, drag and drop the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Two-Way Relay Endpoint<ept id="2">&lt;/embeddedLabel&gt;</ept> component to the <ph id="3">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface.</source>
+            <target state="new">From the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Toolbox<ept id="1">&lt;/embeddedLabel&gt;</ept>, drag and drop the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Two-Way Relay Endpoint<ept id="2">&lt;/embeddedLabel&gt;</ept> component to the <ph id="3">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>When you drop the component on the design surface, it adds a configuration file to the project.</source>
+            <target state="new">When you drop the component on the design surface, it adds a configuration file to the project.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>This configuration file must be updated to provide information about the endpoint for the relay service.</source>
+            <target state="new">This configuration file must be updated to provide information about the endpoint for the relay service.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Perform the following steps to update the configuration file.</source>
+            <target state="new">Perform the following steps to update the configuration file.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>From the Solution Explorer, right-click the .config file for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Two-Way Relay Endpoint<ept id="1">&lt;/embeddedLabel&gt;</ept> component and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Edit WCF Configuration<ept id="2">&lt;/embeddedLabel&gt;</ept> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Service Configuration Editor<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">From the Solution Explorer, right-click the .config file for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Two-Way Relay Endpoint<ept id="1">&lt;/embeddedLabel&gt;</ept> component and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Edit WCF Configuration<ept id="2">&lt;/embeddedLabel&gt;</ept> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Service Configuration Editor<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Expand the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Endpoints<ept id="1">&lt;/embeddedLabel&gt;</ept> node under the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Client<ept id="2">&lt;/embeddedLabel&gt;</ept> node in the tree view pane, and then select the existing endpoint <bpt id="3">&lt;embeddedLabel&gt;</bpt>TwoWayRelayServiceReference1<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Expand the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Endpoints<ept id="1">&lt;/embeddedLabel&gt;</ept> node under the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Client<ept id="2">&lt;/embeddedLabel&gt;</ept> node in the tree view pane, and then select the existing endpoint <bpt id="3">&lt;embeddedLabel&gt;</bpt>TwoWayRelayServiceReference1<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Client Endpoint<ept id="1">&lt;/embeddedLabel&gt;</ept> details pane, in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>General<ept id="2">&lt;/embeddedLabel&gt;</ept> tab, enter the following properties.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Client Endpoint<ept id="1">&lt;/embeddedLabel&gt;</ept> details pane, in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>General<ept id="2">&lt;/embeddedLabel&gt;</ept> tab, enter the following properties.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Property Name</source>
+            <target state="new">Property Name</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Enter the endpoint name, for example, <bpt id="1">&lt;userInput&gt;</bpt>RelayService_LargeAmounts<ept id="1">&lt;/userInput&gt;</ept>, to represent the relay receiver service that will process messages with quotation amount greater than $10000.</source>
+            <target state="new">Enter the endpoint name, for example, <bpt id="1">&lt;userInput&gt;</bpt>RelayService_LargeAmounts<ept id="1">&lt;/userInput&gt;</ept>, to represent the relay receiver service that will process messages with quotation amount greater than $10000.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Whatever value you enter here, enter the same value for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Endpoint Configuration Name<ept id="1">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">Whatever value you enter here, enter the same value for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Endpoint Configuration Name<ept id="1">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Address</source>
+            <target state="new">Address</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>The complete address where the relay endpoint is hosted on the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">The complete address where the relay endpoint is hosted on the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>For this tutorial, set the address to the URL where the <bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceB<ept id="1">&lt;/embeddedLabel&gt;</ept> is hosted.</source>
+            <target state="new">For this tutorial, set the address to the URL where the <bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceB<ept id="1">&lt;/embeddedLabel&gt;</ept> is hosted.</target>
+          </trans-unit>
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>You can get the address from the command prompt that represents the RelayReceiverServiceB.</source>
+            <target state="new">You can get the address from the command prompt that represents the RelayReceiverServiceB.</target>
+          </trans-unit>
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Typically, the address should be <ph id="1">&lt;codeInline&gt;https://%%amp;lt;your_servicebus_namespace%%amp;gt;.servicebus.windows.net/RelayReceiverServiceB&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Typically, the address should be <ph id="1">&lt;codeInline&gt;https://%%amp;lt;your_servicebus_namespace%%amp;gt;.servicebus.windows.net/RelayReceiverServiceB&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>In the Service Configuration Editor, from the Tree View pane, expand <bpt id="1">&lt;embeddedLabel&gt;</bpt>Advanced<ept id="1">&lt;/embeddedLabel&gt;</ept>, right-click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Endpoint Behaviors<ept id="2">&lt;/embeddedLabel&gt;</ept>, and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>New Endpoint Behavior Configuration<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the Service Configuration Editor, from the Tree View pane, expand <bpt id="1">&lt;embeddedLabel&gt;</bpt>Advanced<ept id="1">&lt;/embeddedLabel&gt;</ept>, right-click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Endpoint Behaviors<ept id="2">&lt;/embeddedLabel&gt;</ept>, and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>New Endpoint Behavior Configuration<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Behavior<ept id="1">&lt;/embeddedLabel&gt;</ept> details pane, enter a name for the behavior, for example, <bpt id="2">&lt;userInput&gt;</bpt>ServiceCredentialBehaviorB<ept id="2">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Behavior<ept id="1">&lt;/embeddedLabel&gt;</ept> details pane, enter a name for the behavior, for example, <bpt id="2">&lt;userInput&gt;</bpt>ServiceCredentialBehaviorB<ept id="2">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Behavior element extension position<ept id="1">&lt;/embeddedLabel&gt;</ept> area, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept>, from the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Available Elements<ept id="3">&lt;/embeddedLabel&gt;</ept> box, select <bpt id="4">&lt;userInput&gt;</bpt>transportClientEndpointBehavior<ept id="4">&lt;/userInput&gt;</ept>, and then select <bpt id="5">&lt;embeddedLabel&gt;</bpt>Add<ept id="5">&lt;/embeddedLabel&gt;</ept> again.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Behavior element extension position<ept id="1">&lt;/embeddedLabel&gt;</ept> area, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept>, from the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Available Elements<ept id="3">&lt;/embeddedLabel&gt;</ept> box, select <bpt id="4">&lt;userInput&gt;</bpt>transportClientEndpointBehavior<ept id="4">&lt;/userInput&gt;</ept>, and then select <bpt id="5">&lt;embeddedLabel&gt;</bpt>Add<ept id="5">&lt;/embeddedLabel&gt;</ept> again.</target>
+          </trans-unit>
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>You must add this element to enter the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> credentials for a particular endpoint.</source>
+            <target state="new">You must add this element to enter the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> credentials for a particular endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>In the Tree View pane, go back to the service endpoint (<bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayService_LargeAmounts<ept id="1">&lt;/embeddedLabel&gt;</ept>) that you created, and select the newly created endpoint behavior configuration from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>BehaviorConfiguration<ept id="2">&lt;/embeddedLabel&gt;</ept> drop-down list.</source>
+            <target state="new">In the Tree View pane, go back to the service endpoint (<bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayService_LargeAmounts<ept id="1">&lt;/embeddedLabel&gt;</ept>) that you created, and select the newly created endpoint behavior configuration from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>BehaviorConfiguration<ept id="2">&lt;/embeddedLabel&gt;</ept> drop-down list.</target>
+          </trans-unit>
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Accept the default values for all the other properties and from the <bpt id="1">&lt;embeddedLabel&gt;</bpt>File<ept id="1">&lt;/embeddedLabel&gt;</ept> menu, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Save<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Accept the default values for all the other properties and from the <bpt id="1">&lt;embeddedLabel&gt;</bpt>File<ept id="1">&lt;/embeddedLabel&gt;</ept> menu, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Save<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Close the dialog box.</source>
+            <target state="new">Close the dialog box.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Open the config file (available under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageFlowItinerary.bcs<ept id="1">&lt;/embeddedLabel&gt;</ept> node in the Solution Explorer) in an XML editor.</source>
+            <target state="new">Open the config file (available under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageFlowItinerary.bcs<ept id="1">&lt;/embeddedLabel&gt;</ept> node in the Solution Explorer) in an XML editor.</target>
+          </trans-unit>
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>You will notice that the following has been added to the service configuration file:</source>
+            <target state="new">You will notice that the following has been added to the service configuration file:</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>For a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> relay endpoint, you only need to include the token credentials.</source>
+            <target state="new">For a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> relay endpoint, you only need to include the token credentials.</target>
+          </trans-unit>
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>So, you must remove the <bpt id="1">&lt;embeddedLabel&gt;</bpt>clientCredentials<ept id="1">&lt;/embeddedLabel&gt;</ept> element and add the value for the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> Issuer Name and Issuer Secret for the <bpt id="3">&lt;embeddedLabel&gt;</bpt>tokenProvider<ept id="3">&lt;/embeddedLabel&gt;</ept> credentials.</source>
+            <target state="new">So, you must remove the <bpt id="1">&lt;embeddedLabel&gt;</bpt>clientCredentials<ept id="1">&lt;/embeddedLabel&gt;</ept> element and add the value for the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> Issuer Name and Issuer Secret for the <bpt id="3">&lt;embeddedLabel&gt;</bpt>tokenProvider<ept id="3">&lt;/embeddedLabel&gt;</ept> credentials.</target>
+          </trans-unit>
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>The section of the configuration file would now resemble the following:</source>
+            <target state="new">The section of the configuration file would now resemble the following:</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Save changes and close the configuration file.</source>
+            <target state="new">Save changes and close the configuration file.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>On the <ph id="1">&lt;token&gt;msgflow&lt;/token&gt;</ph> design surface, right-click the component, and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Properties<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">On the <ph id="1">&lt;token&gt;msgflow&lt;/token&gt;</ph> design surface, right-click the component, and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Properties<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>The following table provides information about the properties:</source>
+            <target state="new">The following table provides information about the properties:</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Property Name</source>
+            <target state="new">Property Name</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Associated Project Item</source>
+            <target state="new">Associated Project Item</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>A read-only field that provides the name of the associated .config file.</source>
+            <target state="new">A read-only field that provides the name of the associated .config file.</target>
+          </trans-unit>
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>If you change the name of the component on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface by changing the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Entity Name<ept id="2">&lt;/embeddedLabel&gt;</ept> property, the name of the .config also changes.</source>
+            <target state="new">If you change the name of the component on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface by changing the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Entity Name<ept id="2">&lt;/embeddedLabel&gt;</ept> property, the name of the .config also changes.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Endpoint Configuration Name</source>
+            <target state="new">Endpoint Configuration Name</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>Name of the client endpoint configuration in the .config file that defines the address, the binding, and the contract for the WCF relay service that you are representing on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface.</source>
+            <target state="new">Name of the client endpoint configuration in the .config file that defines the address, the binding, and the contract for the WCF relay service that you are representing on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface.</target>
+          </trans-unit>
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>For this tutorial, set this property to <bpt id="1">&lt;userInput&gt;</bpt>RelayService_LargeAmounts<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For this tutorial, set this property to <bpt id="1">&lt;userInput&gt;</bpt>RelayService_LargeAmounts<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>You specified the same value for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Name<ept id="1">&lt;/embeddedLabel&gt;</ept> property in the previous step.</source>
+            <target state="new">You specified the same value for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Name<ept id="1">&lt;/embeddedLabel&gt;</ept> property in the previous step.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>Because the service configuration file can have any number of endpoints defined, the endpoint name you enter for this property is matched with the endpoint configuration name in the .config file.</source>
+            <target state="new">Because the service configuration file can have any number of endpoints defined, the endpoint name you enter for this property is matched with the endpoint configuration name in the .config file.</target>
+          </trans-unit>
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>When a match happens, the corresponding address, binding, and contract for that endpoint are considered.</source>
+            <target state="new">When a match happens, the corresponding address, binding, and contract for that endpoint are considered.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>Entity Name</source>
+            <target state="new">Entity Name</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>The name of the relay endpoint component on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface.</source>
+            <target state="new">The name of the relay endpoint component on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design surface.</target>
+          </trans-unit>
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>This name must be unique for an <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">This name must be unique for an <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>For this tutorial, name it <bpt id="1">&lt;userInput&gt;</bpt>LargeAmounts_Service<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For this tutorial, name it <bpt id="1">&lt;userInput&gt;</bpt>LargeAmounts_Service<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>Runtime Address</source>
+            <target state="new">Runtime Address</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>The public runtime endpoint URL where the relay service is deployed.</source>
+            <target state="new">The public runtime endpoint URL where the relay service is deployed.</target>
+          </trans-unit>
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>For this tutorial, this value is <ph id="1">&lt;codeInline&gt;https://newintegration-0-9.servicebus.appfabriclabs.com/RelayReceiverServiceB&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">For this tutorial, this value is <ph id="1">&lt;codeInline&gt;https://newintegration-0-9.servicebus.appfabriclabs.com/RelayReceiverServiceB&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Save changes to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">Save changes to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>Connect the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> with Relay Services</source>
+            <target state="new">Connect the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> with Relay Services</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>This section provides instructions on how to connect the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> with the two relay services.</source>
+            <target state="new">This section provides instructions on how to connect the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> with the two relay services.</target>
+          </trans-unit>
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>As part of the Connectors, enter the ‘route conditions’ that govern when a message is routed to <bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceA<ept id="1">&lt;/embeddedLabel&gt;</ept> and when it’s routed to <bpt id="2">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceB<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">As part of the Connectors, enter the ‘route conditions’ that govern when a message is routed to <bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceA<ept id="1">&lt;/embeddedLabel&gt;</ept> and when it’s routed to <bpt id="2">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceB<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>The following procedure provides instructions on how to connect the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> with the two services and how to set the routing conditions.</source>
+            <target state="new">The following procedure provides instructions on how to connect the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> with the two services and how to set the routing conditions.</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>To connect <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> with relay services</source>
+            <target state="new">To connect <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> with relay services</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>In the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Connector<ept id="2">&lt;/embeddedLabel&gt;</ept> component under the <bpt id="3">&lt;embeddedLabel&gt;</bpt><ph id="4">&lt;token&gt;bridge&lt;/token&gt;</ph>s<ept id="3">&lt;/embeddedLabel&gt;</ept> category in the <bpt id="5">&lt;embeddedLabel&gt;</bpt>Toolbox<ept id="5">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Connector<ept id="2">&lt;/embeddedLabel&gt;</ept> component under the <bpt id="3">&lt;embeddedLabel&gt;</bpt><ph id="4">&lt;token&gt;bridge&lt;/token&gt;</ph>s<ept id="3">&lt;/embeddedLabel&gt;</ept> category in the <bpt id="5">&lt;embeddedLabel&gt;</bpt>Toolbox<ept id="5">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>Take the mouse pointer to the right-end of the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> (denoted by a red dot when you move the cursor over the component).</source>
+            <target state="new">Take the mouse pointer to the right-end of the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> (denoted by a red dot when you move the cursor over the component).</target>
+          </trans-unit>
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>The mouse pointer changes to show a small “<bpt id="1">&lt;embeddedLabel&gt;</bpt>S<ept id="1">&lt;/embeddedLabel&gt;</ept>” sign denoting that this component is the source for the Connector.</source>
+            <target state="new">The mouse pointer changes to show a small “<bpt id="1">&lt;embeddedLabel&gt;</bpt>S<ept id="1">&lt;/embeddedLabel&gt;</ept>” sign denoting that this component is the source for the Connector.</target>
+          </trans-unit>
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>Select and hold the mouse at the dot, drag it to the left end of the target component, <bpt id="1">&lt;embeddedLabel&gt;</bpt>SmallAmounts_Service<ept id="1">&lt;/embeddedLabel&gt;</ept> relay endpoint.</source>
+            <target state="new">Select and hold the mouse at the dot, drag it to the left end of the target component, <bpt id="1">&lt;embeddedLabel&gt;</bpt>SmallAmounts_Service<ept id="1">&lt;/embeddedLabel&gt;</ept> relay endpoint.</target>
+          </trans-unit>
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>The cursor changes again to show a small “<bpt id="1">&lt;embeddedLabel&gt;</bpt>T<ept id="1">&lt;/embeddedLabel&gt;</ept>” denoting the target; release the mouse.</source>
+            <target state="new">The cursor changes again to show a small “<bpt id="1">&lt;embeddedLabel&gt;</bpt>T<ept id="1">&lt;/embeddedLabel&gt;</ept>” denoting the target; release the mouse.</target>
+          </trans-unit>
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>The two components are now connected.</source>
+            <target state="new">The two components are now connected.</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>Repeat this step to connect the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to the other relay service endpoint, <bpt id="2">&lt;embeddedLabel&gt;</bpt>LargeAmounts_Service<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Repeat this step to connect the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to the other relay service endpoint, <bpt id="2">&lt;embeddedLabel&gt;</bpt>LargeAmounts_Service<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>Set the routing conditions on the two Connectors.</source>
+            <target state="new">Set the routing conditions on the two Connectors.</target>
+          </trans-unit>
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>The routing condition must be set on the quote amount in the request message that the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> receives.</source>
+            <target state="new">The routing condition must be set on the quote amount in the request message that the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> receives.</target>
+          </trans-unit>
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>The procedure, <ph id="1">&lt;link xlink:href="a4bf9e02-cac7-4bc8-b842-735294a240b8#BKMK_ReqP_Enrich" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;To extract and promote properties in the pre-transform Enrich stage&lt;/link&gt;</ph>, already configures the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> to extract the value of the quote amount into a property called <bpt id="3">&lt;embeddedLabel&gt;</bpt>QuoteAmount<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The procedure, <ph id="1">&lt;link xlink:href="a4bf9e02-cac7-4bc8-b842-735294a240b8#BKMK_ReqP_Enrich" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;To extract and promote properties in the pre-transform Enrich stage&lt;/link&gt;</ph>, already configures the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> to extract the value of the quote amount into a property called <bpt id="3">&lt;embeddedLabel&gt;</bpt>QuoteAmount<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>Here, you use that property to define the routing condition.</source>
+            <target state="new">Here, you use that property to define the routing condition.</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>Right-click the route Connector between <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>SmallAmounts_Service<ept id="2">&lt;/embeddedLabel&gt;</ept> relay endpoint, and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Properties<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Right-click the route Connector between <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>SmallAmounts_Service<ept id="2">&lt;/embeddedLabel&gt;</ept> relay endpoint, and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Properties<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept> pane, for the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Filter Condition<ept id="2">&lt;/embeddedLabel&gt;</ept> property, select the ellipsis <bpt id="3">&lt;embeddedLabel&gt;</bpt>(…)<ept id="3">&lt;/embeddedLabel&gt;</ept> button to the open the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Route Filter Configuration<ept id="4">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept> pane, for the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Filter Condition<ept id="2">&lt;/embeddedLabel&gt;</ept> property, select the ellipsis <bpt id="3">&lt;embeddedLabel&gt;</bpt>(…)<ept id="3">&lt;/embeddedLabel&gt;</ept> button to the open the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Route Filter Configuration<ept id="4">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>In the dialog box, select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Filter<ept id="1">&lt;/embeddedLabel&gt;</ept> option, and then enter the following filter string:</source>
+            <target state="new">In the dialog box, select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Filter<ept id="1">&lt;/embeddedLabel&gt;</ept> option, and then enter the following filter string:</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>Use standard SQL 92 syntax for filter expressions.</source>
+            <target state="new">Use standard SQL 92 syntax for filter expressions.</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> to save the changes and exit.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> to save the changes and exit.</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>Repeat the previous step for the Connector between <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>LargeAmounts_Service<ept id="2">&lt;/embeddedLabel&gt;</ept> relay endpoint and enter the filter string as:</source>
+            <target state="new">Repeat the previous step for the Connector between <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>LargeAmounts_Service<ept id="2">&lt;/embeddedLabel&gt;</ept> relay endpoint and enter the filter string as:</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;msgflow&lt;/token&gt;</ph> design surface resembles the following:</source>
+            <target state="new">The <ph id="1">&lt;token&gt;msgflow&lt;/token&gt;</ph> design surface resembles the following:</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>Save changes to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">Save changes to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>With these changes to the project, messages that are sent to the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> are appropriately routed to the right relay service based on the quote amount.</source>
+            <target state="new">With these changes to the project, messages that are sent to the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> are appropriately routed to the right relay service based on the quote amount.</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>Include Custom Headers in the Message</source>
+            <target state="new">Include Custom Headers in the Message</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>The other requirement of the <ph id="1">&lt;link xlink:href="14d7f8b8-074c-485f-a2f6-c9a02cc1779a#BKMK_Scenario" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Business Scenario&lt;/link&gt;</ph> as part of the routing configurations is to ensure that the messages sent to the relay services are stamped with a header called <bpt id="2">&lt;embeddedLabel&gt;</bpt>QuoteType<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The other requirement of the <ph id="1">&lt;link xlink:href="14d7f8b8-074c-485f-a2f6-c9a02cc1779a#BKMK_Scenario" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Business Scenario&lt;/link&gt;</ph> as part of the routing configurations is to ensure that the messages sent to the relay services are stamped with a header called <bpt id="2">&lt;embeddedLabel&gt;</bpt>QuoteType<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>The value of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>QuoteType<ept id="1">&lt;/embeddedLabel&gt;</ept> header must be set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>SmallAmounts<ept id="2">&lt;/embeddedLabel&gt;</ept> (if the message is routed to the relay endpoint <bpt id="3">&lt;embeddedLabel&gt;</bpt>SmallAmounts_Service<ept id="3">&lt;/embeddedLabel&gt;</ept>) or <bpt id="4">&lt;embeddedLabel&gt;</bpt>LargeAmounts<ept id="4">&lt;/embeddedLabel&gt;</ept> (if the message is routed to the relay endpoint <bpt id="5">&lt;embeddedLabel&gt;</bpt>LargeAmounts_Service<ept id="5">&lt;/embeddedLabel&gt;</ept>).</source>
+            <target state="new">The value of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>QuoteType<ept id="1">&lt;/embeddedLabel&gt;</ept> header must be set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>SmallAmounts<ept id="2">&lt;/embeddedLabel&gt;</ept> (if the message is routed to the relay endpoint <bpt id="3">&lt;embeddedLabel&gt;</bpt>SmallAmounts_Service<ept id="3">&lt;/embeddedLabel&gt;</ept>) or <bpt id="4">&lt;embeddedLabel&gt;</bpt>LargeAmounts<ept id="4">&lt;/embeddedLabel&gt;</ept> (if the message is routed to the relay endpoint <bpt id="5">&lt;embeddedLabel&gt;</bpt>LargeAmounts_Service<ept id="5">&lt;/embeddedLabel&gt;</ept>).</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>To add custom headers to the message</source>
+            <target state="new">To add custom headers to the message</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>Right-click the route Connector between the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> and the <bpt id="2">&lt;embeddedLabel&gt;</bpt>SmallAmounts_Service<ept id="2">&lt;/embeddedLabel&gt;</ept> relay endpoint, and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Properties<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Right-click the route Connector between the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> and the <bpt id="2">&lt;embeddedLabel&gt;</bpt>SmallAmounts_Service<ept id="2">&lt;/embeddedLabel&gt;</ept> relay endpoint, and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Properties<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>In the Properties pane, for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Action<ept id="1">&lt;/embeddedLabel&gt;</ept> property, select the ellipsis <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> button to the open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Route Actions<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">In the Properties pane, for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Action<ept id="1">&lt;/embeddedLabel&gt;</ept> property, select the ellipsis <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> button to the open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Route Actions<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Actions<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Actions<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, do the following:</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>Section</source>
+            <target state="new">Section</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>Field name</source>
+            <target state="new">Field name</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>Property (Read From)</source>
+            <target state="new">Property (Read From)</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>Expression</source>
+            <target state="new">Expression</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>Set this property to <bpt id="1">&lt;userInput&gt;</bpt>'SmallAmounts'<ept id="1">&lt;/userInput&gt;</ept>, which is the value of the message header we are adding.</source>
+            <target state="new">Set this property to <bpt id="1">&lt;userInput&gt;</bpt>'SmallAmounts'<ept id="1">&lt;/userInput&gt;</ept>, which is the value of the message header we are adding.</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>Always enter the value for an expression within single quotes.</source>
+            <target state="new">Always enter the value for an expression within single quotes.</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>Destination (Write To)</source>
+            <target state="new">Destination (Write To)</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>Set this property to <bpt id="1">&lt;userInput&gt;</bpt>SOAP<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">Set this property to <bpt id="1">&lt;userInput&gt;</bpt>SOAP<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>SOAP Header Namespace</source>
+            <target state="new">SOAP Header Namespace</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>Set this property to <ph id="1">&lt;codeInline&gt;http://Northwind.com/insurance/ACORD1/xml/&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Set this property to <ph id="1">&lt;codeInline&gt;http://Northwind.com/insurance/ACORD1/xml/&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>The value you enter is the namespace of the message header.</source>
+            <target state="new">The value you enter is the namespace of the message header.</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>Identifier</source>
+            <target state="new">Identifier</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>Set this property to <bpt id="1">&lt;userInput&gt;</bpt>QuoteType<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">Set this property to <bpt id="1">&lt;userInput&gt;</bpt>QuoteType<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>The value you enter is the name of the message header.</source>
+            <target state="new">The value you enter is the name of the message header.</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>The dialog box resembles the following:</source>
+            <target state="new">The dialog box resembles the following:</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>OK<ept id="3">&lt;/embeddedLabel&gt;</ept> again in the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Route Connections<ept id="4">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>OK<ept id="3">&lt;/embeddedLabel&gt;</ept> again in the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Route Connections<ept id="4">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>Repeat the last step on the route Connector between the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> and the <bpt id="2">&lt;embeddedLabel&gt;</bpt>LargeAmounts_Service<ept id="2">&lt;/embeddedLabel&gt;</ept> relay endpoint.</source>
+            <target state="new">Repeat the last step on the route Connector between the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> and the <bpt id="2">&lt;embeddedLabel&gt;</bpt>LargeAmounts_Service<ept id="2">&lt;/embeddedLabel&gt;</ept> relay endpoint.</target>
+          </trans-unit>
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>However, for that Connector you must enter the value in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Expression<ept id="1">&lt;/embeddedLabel&gt;</ept> field as <bpt id="2">&lt;userInput&gt;</bpt>'LargeAmounts'<ept id="2">&lt;/userInput&gt;</ept></source>
+            <target state="new">However, for that Connector you must enter the value in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Expression<ept id="1">&lt;/embeddedLabel&gt;</ept> field as <bpt id="2">&lt;userInput&gt;</bpt>'LargeAmounts'<ept id="2">&lt;/userInput&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source>Save changes to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">Save changes to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

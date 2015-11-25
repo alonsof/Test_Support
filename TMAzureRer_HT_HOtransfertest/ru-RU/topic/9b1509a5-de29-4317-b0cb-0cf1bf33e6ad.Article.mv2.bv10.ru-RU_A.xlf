@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ru-RU" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzMEJwzAMQNFVPIAFUmS7cSfoubQDSLYEgTaBNIGMX5//47uzaZoamKUEiRxBcVZoSFJqdRKpMSD23EoXKKUxpJ6H6opgPBMXIsrUY6hKGatk6DZVSEy38WoK2JzUma3IUBTDfsLzHcP1WdztOu77th0xTKNhDI/zK+trl/X3kWPZ1j/6B/YJogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Step 4: Receive Messages from the Queue</source>
+            <target state="new">Step 4: Receive Messages from the Queue</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This is the fourth step in the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> messaging features tutorial.</source>
+            <target state="new">This is the fourth step in the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> messaging features tutorial.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>In this step, you obtain the list of messages from the queue you created in the previous step.</source>
+            <target state="new">In this step, you obtain the list of messages from the queue you created in the previous step.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>To create a receiver and receive messages from the queue</source>
+            <target state="new">To create a receiver and receive messages from the queue</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>In the <ph id="1">&lt;codeInline&gt;Queue()&lt;/codeInline&gt;</ph> method, iterate through the queue and receive the messages using the <ph id="2">&lt;codeEntityReference qualifyHint="true"&gt;M:Microsoft.ServiceBus.Messaging.QueueClient.Receive&lt;/codeEntityReference&gt;</ph> method, printing out each message to the console.</source>
+            <target state="new">In the <ph id="1">&lt;codeInline&gt;Queue()&lt;/codeInline&gt;</ph> method, iterate through the queue and receive the messages using the <ph id="2">&lt;codeEntityReference qualifyHint="true"&gt;M:Microsoft.ServiceBus.Messaging.QueueClient.Receive&lt;/codeEntityReference&gt;</ph> method, printing out each message to the console.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Add the following code directly beneath the code you added in the previous step:</source>
+            <target state="new">Add the following code directly beneath the code you added in the previous step:</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>To end the Queue() method and clean up resources</source>
+            <target state="new">To end the Queue() method and clean up resources</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Directly beneath the previously added code, add the following code to clean up the message factory and queue resources:</source>
+            <target state="new">Directly beneath the previously added code, add the following code to clean up the message factory and queue resources:</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>To call the Queue() method</source>
+            <target state="new">To call the Queue() method</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>The last step is to add a statement that calls the <ph id="1">&lt;codeInline&gt;Queue()&lt;/codeInline&gt;</ph> method from the <ph id="2">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph> method.</source>
+            <target state="new">The last step is to add a statement that calls the <ph id="1">&lt;codeInline&gt;Queue()&lt;/codeInline&gt;</ph> method from the <ph id="2">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph> method.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Add the following highlighted line of code at the end of <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph>:</source>
+            <target state="new">Add the following highlighted line of code at the end of <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph>:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The following code contains the complete <bpt id="1">&lt;embeddedLabel&gt;</bpt>QueueSample<ept id="1">&lt;/embeddedLabel&gt;</ept> application.</source>
+            <target state="new">The following code contains the complete <bpt id="1">&lt;embeddedLabel&gt;</bpt>QueueSample<ept id="1">&lt;/embeddedLabel&gt;</ept> application.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

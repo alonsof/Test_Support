@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAAVyl0KwjAMAOCr5AAJpF1/Vg8gPosXSGoCg7nBrLDjq/A9fu6TaYqdzFKiFJxJeVbqHKS05kGkIYjGyXJjasH/SxMJx0w519o9+tOZEao5W28zNZeZUqmBtHulMrGpcrFeDSEg+EHXO8K5Lu52jsux7wMh/hSE2+cl2+OQ7b3KWPbtCyoHg6iiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Rule Groups and Rules</source>
+            <target state="new">Rule Groups and Rules</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Azure</source>
+            <target state="new">Azure</target>
+            <context-group>
+              <context context-type="x-metadataname">applies_to_product</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Rule Groups and Rules</source>
+            <target state="new">Rule Groups and Rules</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>In <ph id="1">&lt;token&gt;firstref_acs&lt;/token&gt;</ph>, a <bpt id="2">&lt;newTerm&gt;</bpt>rule group<ept id="2">&lt;/newTerm&gt;</ept> is a named set of claim rules that define which identity claims are passed from identity providers to your relying party application.</source>
+            <target state="new">In <ph id="1">&lt;token&gt;firstref_acs&lt;/token&gt;</ph>, a <bpt id="2">&lt;newTerm&gt;</bpt>rule group<ept id="2">&lt;/newTerm&gt;</ept> is a named set of claim rules that define which identity claims are passed from identity providers to your relying party application.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>In <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>, rule groups are associated with relying party applications.</source>
+            <target state="new">In <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>, rule groups are associated with relying party applications.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>A rule group can be used by more than one relying party application and a relying party application can reference more than one rule group.</source>
+            <target state="new">A rule group can be used by more than one relying party application and a relying party application can reference more than one rule group.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>When <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> receives a token request or a token from an identity provider, it runs through all of the rule groups associated with the relying party application to process the claims in the token.</source>
+            <target state="new">When <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> receives a token request or a token from an identity provider, it runs through all of the rule groups associated with the relying party application to process the claims in the token.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>All rule groups are run through simultaneously, as are all rules in each rule group (order does not matter).</source>
+            <target state="new">All rule groups are run through simultaneously, as are all rules in each rule group (order does not matter).</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>If the rules cause any new claims to be issued after the run is complete, then the rule groups associated with the relying party application are run through again.</source>
+            <target state="new">If the rules cause any new claims to be issued after the run is complete, then the rule groups associated with the relying party application are run through again.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Rule and rule group run process stops when no new claims are issued after the run process completes or after <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> completes ten run through’s (whichever comes first).</source>
+            <target state="new">Rule and rule group run process stops when no new claims are issued after the run process completes or after <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> completes ten run through’s (whichever comes first).</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>You can create and edit rule groups and rules either manually, using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal or programmatically, using the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service.</source>
+            <target state="new">You can create and edit rule groups and rules either manually, using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal or programmatically, using the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Configuring Rules with the ACS Management Portal</source>
+            <target state="new">Configuring Rules with the ACS Management Portal</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Creating Rule Groups</source>
+            <target state="new">Creating Rule Groups</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>When you add and configure the properties of a new relying party application in the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal, you can also create a rule group associated with this relying party application, because by default, the <bpt id="2">&lt;ui&gt;</bpt>Create New Rule Group<ept id="2">&lt;/ui&gt;</ept> option is checked in the <bpt id="3">&lt;ui&gt;</bpt>Add Relying Party Application<ept id="3">&lt;/ui&gt;</ept> page of the <ph id="4">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</source>
+            <target state="new">When you add and configure the properties of a new relying party application in the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal, you can also create a rule group associated with this relying party application, because by default, the <bpt id="2">&lt;ui&gt;</bpt>Create New Rule Group<ept id="2">&lt;/ui&gt;</ept> option is checked in the <bpt id="3">&lt;ui&gt;</bpt>Add Relying Party Application<ept id="3">&lt;/ui&gt;</ept> page of the <ph id="4">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>We strongly recommend that you keep this option selected and thus create a default rule group for your new relying party application.</source>
+            <target state="new">We strongly recommend that you keep this option selected and thus create a default rule group for your new relying party application.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>(For more information, see “Rule groups” in <ph id="1">&lt;link xlink:href="16708a9e-e1f1-4ad5-bed2-a49ccabc42b9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Relying Party Applications&lt;/link&gt;</ph>.)</source>
+            <target state="new">(For more information, see “Rule groups” in <ph id="1">&lt;link xlink:href="16708a9e-e1f1-4ad5-bed2-a49ccabc42b9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Relying Party Applications&lt;/link&gt;</ph>.)</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>You can also add rule groups using the <bpt id="1">&lt;ui&gt;</bpt>Rule Groups<ept id="1">&lt;/ui&gt;</ept> section of the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</source>
+            <target state="new">You can also add rule groups using the <bpt id="1">&lt;ui&gt;</bpt>Rule Groups<ept id="1">&lt;/ui&gt;</ept> section of the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Then, as you add relying party applications using the <bpt id="1">&lt;ui&gt;</bpt>Add Relying Party Application<ept id="1">&lt;/ui&gt;</ept> page, you can associate them with one or more existing rule groups.</source>
+            <target state="new">Then, as you add relying party applications using the <bpt id="1">&lt;ui&gt;</bpt>Add Relying Party Application<ept id="1">&lt;/ui&gt;</ept> page, you can associate them with one or more existing rule groups.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Generating Rules</source>
+            <target state="new">Generating Rules</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>After a rule group is created, you can use the <bpt id="1">&lt;ui&gt;</bpt>Edit Rule Group<ept id="1">&lt;/ui&gt;</ept> page of the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal to automatically generate rules.</source>
+            <target state="new">After a rule group is created, you can use the <bpt id="1">&lt;ui&gt;</bpt>Edit Rule Group<ept id="1">&lt;/ui&gt;</ept> page of the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal to automatically generate rules.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>If you decide to generate rules automatically, you are prompted to select the identity providers for which you want to generate the rules.</source>
+            <target state="new">If you decide to generate rules automatically, you are prompted to select the identity providers for which you want to generate the rules.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>When the rule group is linked to one or more relying party applications, the identity providers used by those relying party applications are selected by default.</source>
+            <target state="new">When the rule group is linked to one or more relying party applications, the identity providers used by those relying party applications are selected by default.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>For WS-Federation identity providers, a rule is created for each claim type that is offered in the identity provider’s WS-Federation metadata and this rule passes through the claim type and value.</source>
+            <target state="new">For WS-Federation identity providers, a rule is created for each claim type that is offered in the identity provider’s WS-Federation metadata and this rule passes through the claim type and value.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>For other identity providers, pass-through rules are generated based on a list of predetermined claim types.</source>
+            <target state="new">For other identity providers, pass-through rules are generated based on a list of predetermined claim types.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Viewing, Adding, and Editing Rules</source>
+            <target state="new">Viewing, Adding, and Editing Rules</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;ui&gt;</bpt>Edit Rule Group<ept id="1">&lt;/ui&gt;</ept> page of the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal displays all of the rules in a table, where the columns include the <bpt id="3">&lt;ui&gt;</bpt>Output Claim<ept id="3">&lt;/ui&gt;</ept> for the rule, the <bpt id="4">&lt;ui&gt;</bpt>Claim Issuer<ept id="4">&lt;/ui&gt;</ept> (can be an identity provider or <ph id="5">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>), and a <bpt id="6">&lt;ui&gt;</bpt>Description<ept id="6">&lt;/ui&gt;</ept>.</source>
+            <target state="new">The <bpt id="1">&lt;ui&gt;</bpt>Edit Rule Group<ept id="1">&lt;/ui&gt;</ept> page of the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal displays all of the rules in a table, where the columns include the <bpt id="3">&lt;ui&gt;</bpt>Output Claim<ept id="3">&lt;/ui&gt;</ept> for the rule, the <bpt id="4">&lt;ui&gt;</bpt>Claim Issuer<ept id="4">&lt;/ui&gt;</ept> (can be an identity provider or <ph id="5">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>), and a <bpt id="6">&lt;ui&gt;</bpt>Description<ept id="6">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>If you click a given rule in the table you are redirected to the <bpt id="1">&lt;ui&gt;</bpt>Edit Claim Rule<ept id="1">&lt;/ui&gt;</ept> page, where the rule may be edited.</source>
+            <target state="new">If you click a given rule in the table you are redirected to the <bpt id="1">&lt;ui&gt;</bpt>Edit Claim Rule<ept id="1">&lt;/ui&gt;</ept> page, where the rule may be edited.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>To add a new rule manually, you can click <bpt id="1">&lt;ui&gt;</bpt>Add<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">To add a new rule manually, you can click <bpt id="1">&lt;ui&gt;</bpt>Add<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Claim Rules</source>
+            <target state="new">Claim Rules</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Claim rules describe the logic of how <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> transforms input claims into output claims.</source>
+            <target state="new">Claim rules describe the logic of how <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> transforms input claims into output claims.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Rules are contained within rule groups, which are associated with relying party applications and are run through whenever a token is issued by <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> for an application.</source>
+            <target state="new">Rules are contained within rule groups, which are associated with relying party applications and are run through whenever a token is issued by <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> for an application.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>If a rule group contains no rules, then no token is issued to the relying party application.</source>
+            <target state="new">If a rule group contains no rules, then no token is issued to the relying party application.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Typically, one rule is required for every claim type that you want to issue to your relying party application.</source>
+            <target state="new">Typically, one rule is required for every claim type that you want to issue to your relying party application.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>It is possible to create and use only one rule to pass through all claim types and values.</source>
+            <target state="new">It is possible to create and use only one rule to pass through all claim types and values.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>However, using a rule per every claim type improves security and provides greater control over the data that is passed to your application.</source>
+            <target state="new">However, using a rule per every claim type improves security and provides greater control over the data that is passed to your application.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>In <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>, you can configure a rule to pass a claim received from an identity provider or client through to the relying party application without changing the claim’s type, issuer, or value.</source>
+            <target state="new">In <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>, you can configure a rule to pass a claim received from an identity provider or client through to the relying party application without changing the claim’s type, issuer, or value.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>These rules are called <bpt id="1">&lt;newTerm&gt;</bpt>pass-through<ept id="1">&lt;/newTerm&gt;</ept> rules.</source>
+            <target state="new">These rules are called <bpt id="1">&lt;newTerm&gt;</bpt>pass-through<ept id="1">&lt;/newTerm&gt;</ept> rules.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>For example, tokens issued by <ph id="1">&lt;token&gt;ms_acct&lt;/token&gt;</ph> contain a <ph id="2">&lt;system&gt;nameidentifier&lt;/system&gt;</ph> claim type.</source>
+            <target state="new">For example, tokens issued by <ph id="1">&lt;token&gt;ms_acct&lt;/token&gt;</ph> contain a <ph id="2">&lt;system&gt;nameidentifier&lt;/system&gt;</ph> claim type.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>To pass this claim unchanged to the relying party application, you have to configure a pass-through rule that processes the input <ph id="1">&lt;system&gt;nameidentifier&lt;/system&gt;</ph> claim type from the claim issuer, <ph id="2">&lt;token&gt;windows_live_id&lt;/token&gt;</ph>, and creates an identical output claim.</source>
+            <target state="new">To pass this claim unchanged to the relying party application, you have to configure a pass-through rule that processes the input <ph id="1">&lt;system&gt;nameidentifier&lt;/system&gt;</ph> claim type from the claim issuer, <ph id="2">&lt;token&gt;windows_live_id&lt;/token&gt;</ph>, and creates an identical output claim.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>The table below illustrates claims being passed through from a fictional AD FS 2.0 identity provider named Contoso.com.</source>
+            <target state="new">The table below illustrates claims being passed through from a fictional AD FS 2.0 identity provider named Contoso.com.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Input Claims</source>
+            <target state="new">Input Claims</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Output Claims</source>
+            <target state="new">Output Claims</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Issuer</source>
+            <target state="new">Issuer</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Value</source>
+            <target state="new">Value</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Issuer</source>
+            <target state="new">Issuer</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Value</source>
+            <target state="new">Value</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Contoso.com</source>
+            <target state="new">Contoso.com</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier</source>
+            <target state="new">http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>123456789</source>
+            <target state="new">123456789</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Access Control Service</source>
+            <target state="new">Access Control Service</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier</source>
+            <target state="new">http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>123456789</source>
+            <target state="new">123456789</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Contoso.com</source>
+            <target state="new">Contoso.com</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress</source>
+            <target state="new">http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>john@contoso.com</source>
+            <target state="new">john@contoso.com</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Access Control Service</source>
+            <target state="new">Access Control Service</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress</source>
+            <target state="new">http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>john@contoso.com</source>
+            <target state="new">john@contoso.com</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Contoso.com</source>
+            <target state="new">Contoso.com</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name</source>
+            <target state="new">http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>John Doe</source>
+            <target state="new">John Doe</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Access Control Service</source>
+            <target state="new">Access Control Service</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name</source>
+            <target state="new">http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>John Doe</source>
+            <target state="new">John Doe</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> rules engine also provides you with the ability to transform input claims into entirely different output claims, based on the claim issuer, input claim type, and value.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> rules engine also provides you with the ability to transform input claims into entirely different output claims, based on the claim issuer, input claim type, and value.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>In other words, the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> rules engine allows you to transform input tokens into different output tokens by adding, removing, or changing the claims that the tokens contain.</source>
+            <target state="new">In other words, the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> rules engine allows you to transform input tokens into different output tokens by adding, removing, or changing the claims that the tokens contain.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>This form of claims transformation makes <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> capable of implementing basic authorization based on claim input values.</source>
+            <target state="new">This form of claims transformation makes <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> capable of implementing basic authorization based on claim input values.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>The example below shows a claim type of “role” with a value of “administrator” being output if the “nameidentifier” input claim matches a specific value.</source>
+            <target state="new">The example below shows a claim type of “role” with a value of “administrator” being output if the “nameidentifier” input claim matches a specific value.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Input Claims</source>
+            <target state="new">Input Claims</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Output Claims</source>
+            <target state="new">Output Claims</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Issuer</source>
+            <target state="new">Issuer</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Value</source>
+            <target state="new">Value</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Issuer</source>
+            <target state="new">Issuer</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Value</source>
+            <target state="new">Value</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Contoso.com</source>
+            <target state="new">Contoso.com</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier</source>
+            <target state="new">http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>123456789</source>
+            <target state="new">123456789</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Access Control Service</source>
+            <target state="new">Access Control Service</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier</source>
+            <target state="new">http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>administrator</source>
+            <target state="new">administrator</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> rules engine also provides the ability to create output claims based on a conjunction of two input claims.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> rules engine also provides the ability to create output claims based on a conjunction of two input claims.</target>
+          </trans-unit>
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>In the example below, the output claim is of type “action” with a value of “write” if both the “nameidentifier” and the “role” input claims from Contoso.com match specific values.</source>
+            <target state="new">In the example below, the output claim is of type “action” with a value of “write” if both the “nameidentifier” and the “role” input claims from Contoso.com match specific values.</target>
+          </trans-unit>
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>When two input claims are specified in a rule, both values must match to generate the output claim.</source>
+            <target state="new">When two input claims are specified in a rule, both values must match to generate the output claim.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Input Claims</source>
+            <target state="new">Input Claims</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Ouutput Claims</source>
+            <target state="new">Ouutput Claims</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Issuer</source>
+            <target state="new">Issuer</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Value</source>
+            <target state="new">Value</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Issuer</source>
+            <target state="new">Issuer</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Value</source>
+            <target state="new">Value</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Contoso.com</source>
+            <target state="new">Contoso.com</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier</source>
+            <target state="new">http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>123456789</source>
+            <target state="new">123456789</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Access Control Service</source>
+            <target state="new">Access Control Service</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>http://schemas.xmlsoap.org/ws/2005/05/identity/claims/action</source>
+            <target state="new">http://schemas.xmlsoap.org/ws/2005/05/identity/claims/action</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>write</source>
+            <target state="new">write</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Contoso.com</source>
+            <target state="new">Contoso.com</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>http://schemas.xmlsoap.org/ws/2005/05/identity/claims/role</source>
+            <target state="new">http://schemas.xmlsoap.org/ws/2005/05/identity/claims/role</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>administrator</source>
+            <target state="new">administrator</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>For more information and steps about how to implement token transformation using rules, see <ph id="1">&lt;link xlink:href="d0422d14-75f4-411b-aa47-4ceeccb7a33a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How To: Implement Token Transformation Logic Using Rules&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information and steps about how to implement token transformation using rules, see <ph id="1">&lt;link xlink:href="d0422d14-75f4-411b-aa47-4ceeccb7a33a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How To: Implement Token Transformation Logic Using Rules&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>When you add new or edit existing claim rules with the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal, you must configure the following settings:</source>
+            <target state="new">When you add new or edit existing claim rules with the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal, you must configure the following settings:</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>Rule conditions (if) – Adding an Input Claim</source>
+            <target state="new">Rule conditions (if) – Adding an Input Claim</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>This section contains the conditions that must be true for the rule to issue an output claim.</source>
+            <target state="new">This section contains the conditions that must be true for the rule to issue an output claim.</target>
+          </trans-unit>
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>These conditions include the following:</source>
+            <target state="new">These conditions include the following:</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Claim issuer<ept id="1">&lt;/embeddedLabel&gt;</ept>—Refers to the entity that issued the input claim.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Claim issuer<ept id="1">&lt;/embeddedLabel&gt;</ept>—Refers to the entity that issued the input claim.</target>
+          </trans-unit>
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>This can be a configured identity provider (for example, <ph id="1">&lt;token&gt;ssWLiveID&lt;/token&gt;</ph>) or <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</source>
+            <target state="new">This can be a configured identity provider (for example, <ph id="1">&lt;token&gt;ssWLiveID&lt;/token&gt;</ph>) or <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> is the issuer if the input claim comes from a service identity or the input claim comes from another claim rule.</source>
+            <target state="new"><ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> is the issuer if the input claim comes from a service identity or the input claim comes from another claim rule.</target>
+          </trans-unit>
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="52225343-ab35-4455-b3f9-e014d7ac6b78" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Service Identities&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="52225343-ab35-4455-b3f9-e014d7ac6b78" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Service Identities&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Input claim type<ept id="1">&lt;/embeddedLabel&gt;</ept>—Refers to the input claim type received from the claim issuer.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Input claim type<ept id="1">&lt;/embeddedLabel&gt;</ept>—Refers to the input claim type received from the claim issuer.</target>
+          </trans-unit>
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>For example, the full claim type for the “nameidentifier” is http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier.</source>
+            <target state="new">For example, the full claim type for the “nameidentifier” is http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier.</target>
+          </trans-unit>
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>The options for this field include:</source>
+            <target state="new">The options for this field include:</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Any<ept id="1">&lt;/embeddedLabel&gt;</ept>—Returns true if any claim type is received from the issuer.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Any<ept id="1">&lt;/embeddedLabel&gt;</ept>—Returns true if any claim type is received from the issuer.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Select type<ept id="1">&lt;/embeddedLabel&gt;</ept>—Returns true if the input claim type matches the type selected in the drop-down menu.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Select type<ept id="1">&lt;/embeddedLabel&gt;</ept>—Returns true if the input claim type matches the type selected in the drop-down menu.</target>
+          </trans-unit>
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>This menu is populated with available claim types for the selected claim issuer.</source>
+            <target state="new">This menu is populated with available claim types for the selected claim issuer.</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Enter type<ept id="1">&lt;/embeddedLabel&gt;</ept>—Returns true if the input claim type matches the exact value entered in the field.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Enter type<ept id="1">&lt;/embeddedLabel&gt;</ept>—Returns true if the input claim type matches the exact value entered in the field.</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>This field is case-sensitive.</source>
+            <target state="new">This field is case-sensitive.</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Input claim value<ept id="1">&lt;/embeddedLabel&gt;</ept>—Refers to the value of the input claim received.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Input claim value<ept id="1">&lt;/embeddedLabel&gt;</ept>—Refers to the value of the input claim received.</target>
+          </trans-unit>
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>For example, the “nameidentifier” claim type uses an email address as its value and this field can be used to check for a specific email address.</source>
+            <target state="new">For example, the “nameidentifier” claim type uses an email address as its value and this field can be used to check for a specific email address.</target>
+          </trans-unit>
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>The options for this field include:</source>
+            <target state="new">The options for this field include:</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Any<ept id="1">&lt;/embeddedLabel&gt;</ept>—Returns true if any claim value is received from the issuer.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Any<ept id="1">&lt;/embeddedLabel&gt;</ept>—Returns true if any claim value is received from the issuer.</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Enter value<ept id="1">&lt;/embeddedLabel&gt;</ept>—Returns true if the input claim type matches the exact value entered in the field.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Enter value<ept id="1">&lt;/embeddedLabel&gt;</ept>—Returns true if the input claim type matches the exact value entered in the field.</target>
+          </trans-unit>
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>This option requires a specific input claim type to be selected or entered in the <bpt id="1">&lt;ui&gt;</bpt>Input Claim Type<ept id="1">&lt;/ui&gt;</ept> field.</source>
+            <target state="new">This option requires a specific input claim type to be selected or entered in the <bpt id="1">&lt;ui&gt;</bpt>Input Claim Type<ept id="1">&lt;/ui&gt;</ept> field.</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>This field is case-sensitive.</source>
+            <target state="new">This field is case-sensitive.</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>Rule conditions (if) – Adding a Second Input Claim</source>
+            <target state="new">Rule conditions (if) – Adding a Second Input Claim</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>To add a second claim to the rule, click <bpt id="1">&lt;ui&gt;</bpt>Add a second input claim<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">To add a second claim to the rule, click <bpt id="1">&lt;ui&gt;</bpt>Add a second input claim<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>This allows you to specify the additional conditions shown below.</source>
+            <target state="new">This allows you to specify the additional conditions shown below.</target>
+          </trans-unit>
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>Note that in a rule with two input claims, all conditions must be true to generate an output claim.</source>
+            <target state="new">Note that in a rule with two input claims, all conditions must be true to generate an output claim.</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>Claim issuer<ept id="1">&lt;/ui&gt;</ept>—Refers to the entity that issued the second input claim.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>Claim issuer<ept id="1">&lt;/ui&gt;</ept>—Refers to the entity that issued the second input claim.</target>
+          </trans-unit>
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>This can be the same identity provider selected for the first claim, or it can be <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</source>
+            <target state="new">This can be the same identity provider selected for the first claim, or it can be <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>Select <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> to specify claims generated from other claim rules during rules processing.</source>
+            <target state="new">Select <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> to specify claims generated from other claim rules during rules processing.</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>Two different identity providers cannot be selected for the first and second claims, as rules processing only occurs for one token issued from one identity provider at a time.</source>
+            <target state="new">Two different identity providers cannot be selected for the first and second claims, as rules processing only occurs for one token issued from one identity provider at a time.</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>Input claim type<ept id="1">&lt;/ui&gt;</ept>—Refers to the input claim type received from the claim issuer.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>Input claim type<ept id="1">&lt;/ui&gt;</ept>—Refers to the input claim type received from the claim issuer.</target>
+          </trans-unit>
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>For example, the full claim type for the “nameidentifier” is http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier.</source>
+            <target state="new">For example, the full claim type for the “nameidentifier” is http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier.</target>
+          </trans-unit>
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>The options for this field include:</source>
+            <target state="new">The options for this field include:</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>Select type<ept id="1">&lt;/ui&gt;</ept>—Returns true if the input claim type matches the type selected in the drop-down menu.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>Select type<ept id="1">&lt;/ui&gt;</ept>—Returns true if the input claim type matches the type selected in the drop-down menu.</target>
+          </trans-unit>
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>This menu is populated with available claim types for the selected claim issuer.</source>
+            <target state="new">This menu is populated with available claim types for the selected claim issuer.</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>Enter type<ept id="1">&lt;/ui&gt;</ept>—Returns true if the input claim type matches the exact value entered in the field.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>Enter type<ept id="1">&lt;/ui&gt;</ept>—Returns true if the input claim type matches the exact value entered in the field.</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>This field is case-sensitive.</source>
+            <target state="new">This field is case-sensitive.</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>Input claim value<ept id="1">&lt;/ui&gt;</ept>—Refers to the value of the input claim received.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>Input claim value<ept id="1">&lt;/ui&gt;</ept>—Refers to the value of the input claim received.</target>
+          </trans-unit>
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>For example, the “nameidentifier” claim type uses an email address as its value and this field can be used to check for a specific email address.</source>
+            <target state="new">For example, the “nameidentifier” claim type uses an email address as its value and this field can be used to check for a specific email address.</target>
+          </trans-unit>
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>This returns true if the input claim type matches the exact value entered in the field.</source>
+            <target state="new">This returns true if the input claim type matches the exact value entered in the field.</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>This field is case-sensitive.</source>
+            <target state="new">This field is case-sensitive.</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>Rule actions (then)</source>
+            <target state="new">Rule actions (then)</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>This section specifies the output claim that is issued by <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> if the conditions in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>If<ept id="2">&lt;/embeddedLabel&gt;</ept> section of the rule are true.</source>
+            <target state="new">This section specifies the output claim that is issued by <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> if the conditions in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>If<ept id="2">&lt;/embeddedLabel&gt;</ept> section of the rule are true.</target>
+          </trans-unit>
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>The output claim options include the following:</source>
+            <target state="new">The output claim options include the following:</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Output claim type<ept id="1">&lt;/embeddedLabel&gt;</ept>—The claim type that is issued by <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Output claim type<ept id="1">&lt;/embeddedLabel&gt;</ept>—The claim type that is issued by <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>The options for this field include the following:</source>
+            <target state="new">The options for this field include the following:</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Pass-through input claim type<ept id="1">&lt;/embeddedLabel&gt;</ept>—Issues an output claim that is of the same type as the input claim.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Pass-through input claim type<ept id="1">&lt;/embeddedLabel&gt;</ept>—Issues an output claim that is of the same type as the input claim.</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Select type<ept id="1">&lt;/embeddedLabel&gt;</ept>—Issues an output claim of the specified type.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Select type<ept id="1">&lt;/embeddedLabel&gt;</ept>—Issues an output claim of the specified type.</target>
+          </trans-unit>
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>The drop-down menu contains a list of common claim types.</source>
+            <target state="new">The drop-down menu contains a list of common claim types.</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Enter type<ept id="1">&lt;/embeddedLabel&gt;</ept>—Issues a claim of the entered type.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Enter type<ept id="1">&lt;/embeddedLabel&gt;</ept>—Issues a claim of the entered type.</target>
+          </trans-unit>
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>If the output claim is to be present in a SAML token, then this value must be a URI (for example, http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier).</source>
+            <target state="new">If the output claim is to be present in a SAML token, then this value must be a URI (for example, http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier).</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>This field is case-sensitive.</source>
+            <target state="new">This field is case-sensitive.</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Output claim value<ept id="1">&lt;/embeddedLabel&gt;</ept>—Refers to the value of the output claim issued by <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Output claim value<ept id="1">&lt;/embeddedLabel&gt;</ept>—Refers to the value of the output claim issued by <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>The options for this field include the following:</source>
+            <target state="new">The options for this field include the following:</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Pass-through input claim value<ept id="1">&lt;/embeddedLabel&gt;</ept>—Issues an output claim with the value identical to the value of the input claim.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Pass-through input claim value<ept id="1">&lt;/embeddedLabel&gt;</ept>—Issues an output claim with the value identical to the value of the input claim.</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Enter value<ept id="1">&lt;/embeddedLabel&gt;</ept>—Issues a claim that has the value entered in this field.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Enter value<ept id="1">&lt;/embeddedLabel&gt;</ept>—Issues a claim that has the value entered in this field.</target>
+          </trans-unit>
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>This option requires a specific input claim type to be selected or entered in the <bpt id="1">&lt;ui&gt;</bpt>Output Claim Type<ept id="1">&lt;/ui&gt;</ept> field.</source>
+            <target state="new">This option requires a specific input claim type to be selected or entered in the <bpt id="1">&lt;ui&gt;</bpt>Output Claim Type<ept id="1">&lt;/ui&gt;</ept> field.</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>This field is case-sensitive.</source>
+            <target state="new">This field is case-sensitive.</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>Rule Information</source>
+            <target state="new">Rule Information</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>You can use this section to create a description for a rule.</source>
+            <target state="new">You can use this section to create a description for a rule.</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>In <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>, rule descriptions are not automatically created for the generated rules.</source>
+            <target state="new">In <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>, rule descriptions are not automatically created for the generated rules.</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>Configuring Rules with the ACS Management Service</source>
+            <target state="new">Configuring Rules with the ACS Management Service</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>Rules in an <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> can be configured programmatically by using the <ph id="2">&lt;link xlink:href="f69b173a-fcf8-4f59-864a-09b05541d3df" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ACS Management Service&lt;/link&gt;</ph>.</source>
+            <target state="new">Rules in an <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> can be configured programmatically by using the <ph id="2">&lt;link xlink:href="f69b173a-fcf8-4f59-864a-09b05541d3df" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ACS Management Service&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source>For an example of how to configure rules by using ASP.NET, see <ph id="1">&lt;link xlink:href="ef05d80b-a5d4-461b-99dc-3e91215340d3" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Code Sample: Management Service&lt;/link&gt;</ph>.</source>
+            <target state="new">For an example of how to configure rules by using ASP.NET, see <ph id="1">&lt;link xlink:href="ef05d80b-a5d4-461b-99dc-3e91215340d3" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Code Sample: Management Service&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="171" translate="yes" xml:space="preserve">
+            <source>Below are important items to consider when using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service to configure rules:</source>
+            <target state="new">Below are important items to consider when using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service to configure rules:</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="172" translate="yes" xml:space="preserve">
+            <source>When editing and deleting rules in a rule group, it is recommended that you first query <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> for all  rules within that rule group, and use the rule IDs that your query returns to perform the edit or delete operations.</source>
+            <target state="new">When editing and deleting rules in a rule group, it is recommended that you first query <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> for all  rules within that rule group, and use the rule IDs that your query returns to perform the edit or delete operations.</target>
+          </trans-unit>
+          <trans-unit id="173" translate="yes" xml:space="preserve">
+            <source>It is not recommended that you store the IDs returned by the management service for future operations, as these IDs are not guaranteed to persist.</source>
+            <target state="new">It is not recommended that you store the IDs returned by the management service for future operations, as these IDs are not guaranteed to persist.</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="174" translate="yes" xml:space="preserve">
+            <source>If you are writing automatic retry logic for creating rules (such as in the event of a timeout), it is recommended that you first query for the existence of an identical rule in the current rule group before attempting to add it a second time.</source>
+            <target state="new">If you are writing automatic retry logic for creating rules (such as in the event of a timeout), it is recommended that you first query for the existence of an identical rule in the current rule group before attempting to add it a second time.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

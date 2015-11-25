@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="it-IT" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAAFwdsJwzAMAMBVNIAEfsiO3Ana/ywgqzIE0gRSFzJ+78bI3jkZuTMTxxGoB+lkIWptbUTVhsA2ovRi1EuKxNyNtGQhyW6i6sHljVC0LI1ToljNiTUXklQysS2dl+pZKiNEhG3Sa0W4920Mv+fjOs+JkBByQXj+Pnqslx7fXed2Hn//aBN3ogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Step 7: Implement WCF Client to Call the Service Bus</source>
+            <target state="new">Step 7: Implement WCF Client to Call the Service Bus</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Step 7: Implement WCF Client to Call the Service Bus</source>
+            <target state="new">Step 7: Implement WCF Client to Call the Service Bus</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This is the last of seven tasks required to create a basic <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service and a client that can call the service.</source>
+            <target state="new">This is the last of seven tasks required to create a basic <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> service and a client that can call the service.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>For an overview of all seven tasks, see <ph id="1">&lt;link xlink:href="24332c3c-277f-46f2-949a-d4381b8bfb0b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;AppFabric Service Bus Tutorial&lt;/link&gt;</ph>.</source>
+            <target state="new">For an overview of all seven tasks, see <ph id="1">&lt;link xlink:href="24332c3c-277f-46f2-949a-d4381b8bfb0b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;AppFabric Service Bus Tutorial&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>This topic describes how to implement a basic client application that accesses the service you created previously in this tutorial.</source>
+            <target state="new">This topic describes how to implement a basic client application that accesses the service you created previously in this tutorial.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Similar to the service, the client performs many of the same operations to access <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>:</source>
+            <target state="new">Similar to the service, the client performs many of the same operations to access <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>:</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Sets the connectivity mode.</source>
+            <target state="new">Sets the connectivity mode.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Creates the URI that locates the host service.</source>
+            <target state="new">Creates the URI that locates the host service.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Defines the security credentials.</source>
+            <target state="new">Defines the security credentials.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Applies the credentials to the connection.</source>
+            <target state="new">Applies the credentials to the connection.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Opens the connection.</source>
+            <target state="new">Opens the connection.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Performs the application-specific tasks.</source>
+            <target state="new">Performs the application-specific tasks.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Closes the connection.</source>
+            <target state="new">Closes the connection.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>However, one of the main differences is that the client application uses a channel to connect to <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>, whereas the service uses a call to <ph id="2">&lt;languageKeyword&gt;ServiceHost&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">However, one of the main differences is that the client application uses a channel to connect to <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>, whereas the service uses a call to <ph id="2">&lt;languageKeyword&gt;ServiceHost&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The code used for these tasks is provided in the example following the procedure.</source>
+            <target state="new">The code used for these tasks is provided in the example following the procedure.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Time to completion: 15 minutes</source>
+            <target state="new">Time to completion: 15 minutes</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>To implement a client application</source>
+            <target state="new">To implement a client application</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Set the connectivity mode to <ph id="1">&lt;codeInline&gt;AutoDetect&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Set the connectivity mode to <ph id="1">&lt;codeInline&gt;AutoDetect&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Add the following code inside the <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph> method of the client application.</source>
+            <target state="new">Add the following code inside the <ph id="1">&lt;codeInline&gt;Main()&lt;/codeInline&gt;</ph> method of the client application.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Define variables to hold the values for the <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph>, and SAS key that are read from the console.</source>
+            <target state="new">Define variables to hold the values for the <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph>, and SAS key that are read from the console.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Create the URI that defines the location of the host in your <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> project.</source>
+            <target state="new">Create the URI that defines the location of the host in your <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> project.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Create the credential object for your <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph> endpoint.</source>
+            <target state="new">Create the credential object for your <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph> endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Create the channel factory that loads the configuration described in the App.config file.</source>
+            <target state="new">Create the channel factory that loads the configuration described in the App.config file.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>A channel factory is a <ph id="1">&lt;token&gt;indigo2&lt;/token&gt;</ph> object that creates a channel through which the service and client applications communicate.</source>
+            <target state="new">A channel factory is a <ph id="1">&lt;token&gt;indigo2&lt;/token&gt;</ph> object that creates a channel through which the service and client applications communicate.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Apply the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> credentials.</source>
+            <target state="new">Apply the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> credentials.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Create and open the channel to the service.</source>
+            <target state="new">Create and open the channel to the service.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Write the basic user interface and functionality for the echo.</source>
+            <target state="new">Write the basic user interface and functionality for the echo.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Note that the code uses the instance of the channel object as a proxy for the service.</source>
+            <target state="new">Note that the code uses the instance of the channel object as a proxy for the service.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Close the channel, and close the factory.</source>
+            <target state="new">Close the channel, and close the factory.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>To run the client application</source>
+            <target state="new">To run the client application</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Press <bpt id="1">&lt;ui&gt;</bpt>F6<ept id="1">&lt;/ui&gt;</ept> to build the solution.</source>
+            <target state="new">Press <bpt id="1">&lt;ui&gt;</bpt>F6<ept id="1">&lt;/ui&gt;</ept> to build the solution.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>This builds both the client project and the service project that you created in a previous step of this tutorial and creating an executable file for each.</source>
+            <target state="new">This builds both the client project and the service project that you created in a previous step of this tutorial and creating an executable file for each.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Before running the client application, make sure that the service application is running.</source>
+            <target state="new">Before running the client application, make sure that the service application is running.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>You should now have an executable file for the Echo service application named EchoService.exe, located under your service project folder at \bin\Debug\EchoService.exe (for the debug configuration) or \bin\Release\EchoService.exe (for the release configuration).</source>
+            <target state="new">You should now have an executable file for the Echo service application named EchoService.exe, located under your service project folder at \bin\Debug\EchoService.exe (for the debug configuration) or \bin\Release\EchoService.exe (for the release configuration).</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Double-click this file to start the service application.</source>
+            <target state="new">Double-click this file to start the service application.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>A console window opens and prompts you for the <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph>.</source>
+            <target state="new">A console window opens and prompts you for the <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>In this console window, enter the <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph> and press Enter.</source>
+            <target state="new">In this console window, enter the <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph> and press Enter.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Next, you are prompted for your SAS key.</source>
+            <target state="new">Next, you are prompted for your SAS key.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Enter the SAS key and press ENTER.</source>
+            <target state="new">Enter the SAS key and press ENTER.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Here is an example output from the console window.</source>
+            <target state="new">Here is an example output from the console window.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Note that the values provided here are for example purposes only.</source>
+            <target state="new">Note that the values provided here are for example purposes only.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Your Service Namespace: myNamespace<bpt id="1">&lt;br &gt;</bpt><ept id="1">&lt;/br&gt;</ept>Your SAS Key: 1deCBMEhx/RV3bgwIhCohqdtzj/ZG2WnyC1cLhHTpk4=<bpt id="2">&lt;br &gt;</bpt><ept id="2">&lt;/br&gt;</ept></source>
+            <target state="new">Your Service Namespace: myNamespace<bpt id="1">&lt;br &gt;</bpt><ept id="1">&lt;/br&gt;</ept>Your SAS Key: 1deCBMEhx/RV3bgwIhCohqdtzj/ZG2WnyC1cLhHTpk4=<bpt id="2">&lt;br &gt;</bpt><ept id="2">&lt;/br&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>The service application starts and prints the address it is listening on to the console window as seen in the following example.</source>
+            <target state="new">The service application starts and prints the address it is listening on to the console window as seen in the following example.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Service address: sb://mynamespace.servicebus.windows.net/EchoService/<bpt id="1">&lt;br &gt;</bpt><ept id="1">&lt;/br&gt;</ept>Press [Enter] to exit</source>
+            <target state="new">Service address: sb://mynamespace.servicebus.windows.net/EchoService/<bpt id="1">&lt;br &gt;</bpt><ept id="1">&lt;/br&gt;</ept>Press [Enter] to exit</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Run the client application.</source>
+            <target state="new">Run the client application.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>You should now have an executable for the Echo client application named EchoClient.exe that is located under the client project directory at .\bin\Debug\EchoClient.exe (for the debug configuration) or .\bin\Release\EchoClient.exe (for the release configuration).</source>
+            <target state="new">You should now have an executable for the Echo client application named EchoClient.exe that is located under the client project directory at .\bin\Debug\EchoClient.exe (for the debug configuration) or .\bin\Release\EchoClient.exe (for the release configuration).</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Double-click this file to start the client application.</source>
+            <target state="new">Double-click this file to start the client application.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>A console window opens and prompts you for the same information that you entered previously for the service application.</source>
+            <target state="new">A console window opens and prompts you for the same information that you entered previously for the service application.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Follow the previous steps to enter the same values for the client application for the <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph>, issuer name, and issuer secret.</source>
+            <target state="new">Follow the previous steps to enter the same values for the client application for the <ph id="1">&lt;token&gt;servicensd&lt;/token&gt;</ph>, issuer name, and issuer secret.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>After entering these values, the client opens a channel to the service and prompts you to enter some text as seen in the following console output example.</source>
+            <target state="new">After entering these values, the client opens a channel to the service and prompts you to enter some text as seen in the following console output example.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Enter text to echo (or [Enter] to exit): </source>
+            <target state="new">Enter text to echo (or [Enter] to exit): </target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Enter some text to send to the service application and press ENTER.</source>
+            <target state="new">Enter some text to send to the service application and press ENTER.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>This text is sent to the service through the <ph id="1">&lt;codeInline&gt;Echo&lt;/codeInline&gt;</ph> service operation and appears in the service console window as in the following example output.</source>
+            <target state="new">This text is sent to the service through the <ph id="1">&lt;codeInline&gt;Echo&lt;/codeInline&gt;</ph> service operation and appears in the service console window as in the following example output.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Echoing: My sample text</source>
+            <target state="new">Echoing: My sample text</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>The client application receives the return value of the <ph id="1">&lt;codeInline&gt;Echo&lt;/codeInline&gt;</ph> operation, which is the original text, and prints it to its console window.</source>
+            <target state="new">The client application receives the return value of the <ph id="1">&lt;codeInline&gt;Echo&lt;/codeInline&gt;</ph> operation, which is the original text, and prints it to its console window.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>The following is an example output from the client console window.</source>
+            <target state="new">The following is an example output from the client console window.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Server echoed: My sample text</source>
+            <target state="new">Server echoed: My sample text</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>You can continue sending text messages from the client to the service in this manner.</source>
+            <target state="new">You can continue sending text messages from the client to the service in this manner.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>When you are finished, press ENTER in the client and service console windows to end both applications.</source>
+            <target state="new">When you are finished, press ENTER in the client and service console windows to end both applications.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>The following example shows how to create a client application, how to call the operations of the service, and how to close the client after the operation call is finished.</source>
+            <target state="new">The following example shows how to create a client application, how to call the operations of the service, and how to close the client after the operation call is finished.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Ensure that the service is running before you start the client.</source>
+            <target state="new">Ensure that the service is running before you start the client.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="df567361-3a9f-4d58-a3af-dd69b1dfaaff" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 4: Host and Run a Basic AppFabric Service Bus Service&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="df567361-3a9f-4d58-a3af-dd69b1dfaaff" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 4: Host and Run a Basic AppFabric Service Bus Service&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

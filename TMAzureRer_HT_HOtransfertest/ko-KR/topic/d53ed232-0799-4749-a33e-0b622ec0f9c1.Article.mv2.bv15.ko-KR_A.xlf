@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANylEKwyAMgOGreAAD0ag1O8Fgb2MXiKmBsq5C10GPv8L/9v1m1FuKCr2nBCkYQsPaQDFIYbYgwt6haCVrCpzKdSEVaDVMUEmzhNiC8uzdnKnPkSLgxAxpSgxC1AFbibErGmvw7uo94PH07lwXs34et32Mw7t4Wfbu/vvI9tpl+65yLGP7Azsyj2WiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Differential Query</source>
+            <target state="new">Differential Query</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Azure AD Graph API Differential Query</source>
+            <target state="new">Azure AD Graph API Differential Query</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This topic discusses differential queries that can be made to Azure Active Directory Graph.</source>
+            <target state="new">This topic discusses differential queries that can be made to Azure Active Directory Graph.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>A differential query request returns all changes made to specified entities during the time between two consecutive requests.</source>
+            <target state="new">A differential query request returns all changes made to specified entities during the time between two consecutive requests.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>For example, if you make a differential query request an hour after the previous differential query request, only the changes made during that hour will be returned.</source>
+            <target state="new">For example, if you make a differential query request an hour after the previous differential query request, only the changes made during that hour will be returned.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>This functionality is especially useful when synchronizing tenant directory data with an application’s data store.</source>
+            <target state="new">This functionality is especially useful when synchronizing tenant directory data with an application’s data store.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>To make a differential query request to a tenant’s directory, your application must be authorized by the tenant.</source>
+            <target state="new">To make a differential query request to a tenant’s directory, your application must be authorized by the tenant.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>For more information, see <bpt id="1">&lt;legacyLink xlink:href="b08d91fa-6a64-4deb-92f4-f5857add9ed8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Adding, Updating, and Removing an Application<ept id="1">&lt;/legacyLink&gt;</ept>.</source>
+            <target state="new">For more information, see <bpt id="1">&lt;legacyLink xlink:href="b08d91fa-6a64-4deb-92f4-f5857add9ed8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Adding, Updating, and Removing an Application<ept id="1">&lt;/legacyLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Differential Query Requests</source>
+            <target state="new">Differential Query Requests</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>This section describes differential query requests.</source>
+            <target state="new">This section describes differential query requests.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>All requests require the following components:</source>
+            <target state="new">All requests require the following components:</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>A valid request URL, including the Graph endpoint for the tenant and applicable query string parameters.</source>
+            <target state="new">A valid request URL, including the Graph endpoint for the tenant and applicable query string parameters.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>An authorization header, including a valid access token issued by Azure Active Directory.</source>
+            <target state="new">An authorization header, including a valid access token issued by Azure Active Directory.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>For more information on authenticating to the Graph API, see <bpt id="1">&lt;legacyLink xlink:href="874839d9-6de6-43aa-9a5c-613b0c93247e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Authentication Scenarios for Azure AD<ept id="1">&lt;/legacyLink&gt;</ept>.</source>
+            <target state="new">For more information on authenticating to the Graph API, see <bpt id="1">&lt;legacyLink xlink:href="874839d9-6de6-43aa-9a5c-613b0c93247e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Authentication Scenarios for Azure AD<ept id="1">&lt;/legacyLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Differential Query Request URL</source>
+            <target state="new">Differential Query Request URL</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>The following shows the format of the URL for differential query request; square brackets [] indicate optional elements.</source>
+            <target state="new">The following shows the format of the URL for differential query request; square brackets [] indicate optional elements.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>The URL is made up of a hierarchical segments followed by a series of query string parameters expressed as key-value pairs.</source>
+            <target state="new">The URL is made up of a hierarchical segments followed by a series of query string parameters expressed as key-value pairs.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>URL: Hierarchical Segments</source>
+            <target state="new">URL: Hierarchical Segments</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Segment</source>
+            <target state="new">Segment</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>&lt;tenantId&gt;</source>
+            <target state="new">&lt;tenantId&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>The unique identifier of the tenant that the query should be executed against.</source>
+            <target state="new">The unique identifier of the tenant that the query should be executed against.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>This is typically one of the verified domains (<bpt id="1">&lt;embeddedLabel&gt;</bpt>verifiedDomains<ept id="1">&lt;/embeddedLabel&gt;</ept> property) of the tenant, but it can also be the tenant’s object ID (<bpt id="2">&lt;embeddedLabel&gt;</bpt>objectId<ept id="2">&lt;/embeddedLabel&gt;</ept> property).</source>
+            <target state="new">This is typically one of the verified domains (<bpt id="1">&lt;embeddedLabel&gt;</bpt>verifiedDomains<ept id="1">&lt;/embeddedLabel&gt;</ept> property) of the tenant, but it can also be the tenant’s object ID (<bpt id="2">&lt;embeddedLabel&gt;</bpt>objectId<ept id="2">&lt;/embeddedLabel&gt;</ept> property).</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Not case-sensitive.</source>
+            <target state="new">Not case-sensitive.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>&lt;resourceSet&gt;</source>
+            <target state="new">&lt;resourceSet&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>The specific set of tenant resources this query should be executed against.</source>
+            <target state="new">The specific set of tenant resources this query should be executed against.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Determines what resources are returned in the query response.</source>
+            <target state="new">Determines what resources are returned in the query response.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Supported values are: “directoryObjects”, “users”, “contacts” or “groups”.</source>
+            <target state="new">Supported values are: “directoryObjects”, “users”, “contacts” or “groups”.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Values are case-sensitive.</source>
+            <target state="new">Values are case-sensitive.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>URL: Query String Parameters</source>
+            <target state="new">URL: Query String Parameters</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Parameter</source>
+            <target state="new">Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Specifies the version of the Graph API against which the request is issued.</source>
+            <target state="new">Specifies the version of the Graph API against which the request is issued.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Beginning with version 1.5, the value is expressed as a numeric version number; for example, api-version=1.5.</source>
+            <target state="new">Beginning with version 1.5, the value is expressed as a numeric version number; for example, api-version=1.5.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>For previous versions, the value is a string of the form <bpt id="1">&lt;legacyItalic&gt;</bpt>YYYY-MM-DD<ept id="1">&lt;/legacyItalic&gt;</ept>; for example, api-version=2013-04-05.</source>
+            <target state="new">For previous versions, the value is a string of the form <bpt id="1">&lt;legacyItalic&gt;</bpt>YYYY-MM-DD<ept id="1">&lt;/legacyItalic&gt;</ept>; for example, api-version=2013-04-05.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>(Replaces the use of <bpt id="1">&lt;embeddedLabel&gt;</bpt>x-ms-dirapi-data-contract-version<ept id="1">&lt;/embeddedLabel&gt;</ept> header in the preview version of Graph API.)</source>
+            <target state="new">(Replaces the use of <bpt id="1">&lt;embeddedLabel&gt;</bpt>x-ms-dirapi-data-contract-version<ept id="1">&lt;/embeddedLabel&gt;</ept> header in the preview version of Graph API.)</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>The token returned in either the <bpt id="1">&lt;embeddedLabel&gt;</bpt>deltaLink<ept id="1">&lt;/embeddedLabel&gt;</ept> property or the <bpt id="2">&lt;embeddedLabel&gt;</bpt>nextLink<ept id="2">&lt;/embeddedLabel&gt;</ept> property in the last response.</source>
+            <target state="new">The token returned in either the <bpt id="1">&lt;embeddedLabel&gt;</bpt>deltaLink<ept id="1">&lt;/embeddedLabel&gt;</ept> property or the <bpt id="2">&lt;embeddedLabel&gt;</bpt>nextLink<ept id="2">&lt;/embeddedLabel&gt;</ept> property in the last response.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Required, but will be empty on the first request.</source>
+            <target state="new">Required, but will be empty on the first request.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>(Replaces the <ph id="1">&lt;parameterReference&gt;skipToken&lt;/parameterReference&gt;</ph> query string parameter in the preview version of Graph API.)</source>
+            <target state="new">(Replaces the <ph id="1">&lt;parameterReference&gt;skipToken&lt;/parameterReference&gt;</ph> query string parameter in the preview version of Graph API.)</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Indicates which entity types should be included in the response.</source>
+            <target state="new">Indicates which entity types should be included in the response.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>The supported entity types are: User, Group and Contact.</source>
+            <target state="new">The supported entity types are: User, Group and Contact.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Only valid when &lt;resourceSet&gt; is “directoryObjects”; otherwise, &lt;resourceSet&gt; overrides the filter.</source>
+            <target state="new">Only valid when &lt;resourceSet&gt; is “directoryObjects”; otherwise, &lt;resourceSet&gt; overrides the filter.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>For example, if &lt;resourceSet&gt; is “users”, and the <ph id="1">&lt;parameterReference&gt;$filter&lt;/parameterReference&gt;</ph> parameter is also specified, only changes for users will be returned regardless of what is specified in the filter value.</source>
+            <target state="new">For example, if &lt;resourceSet&gt; is “users”, and the <ph id="1">&lt;parameterReference&gt;$filter&lt;/parameterReference&gt;</ph> parameter is also specified, only changes for users will be returned regardless of what is specified in the filter value.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>If &lt;resourceSet&gt; is “directoryObjects” and <ph id="1">&lt;parameterReference&gt;$filter&lt;/parameterReference&gt;</ph> is not specified, changes for all of the supported entity types (User, Group, and Contact) are returned.</source>
+            <target state="new">If &lt;resourceSet&gt; is “directoryObjects” and <ph id="1">&lt;parameterReference&gt;$filter&lt;/parameterReference&gt;</ph> is not specified, changes for all of the supported entity types (User, Group, and Contact) are returned.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>To specify a single entity type, use one of the following:</source>
+            <target state="new">To specify a single entity type, use one of the following:</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>$filter=isof(‘Microsoft.WindowsAzure.ActiveDirectory.Contact’)</source>
+            <target state="new">$filter=isof(‘Microsoft.WindowsAzure.ActiveDirectory.Contact’)</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>$filter=isof(‘Microsoft.WindowsAzure.ActiveDirectory.User’)</source>
+            <target state="new">$filter=isof(‘Microsoft.WindowsAzure.ActiveDirectory.User’)</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>$filter=isof(‘Microsoft.WindowsAzure.ActiveDirectory.Group’)</source>
+            <target state="new">$filter=isof(‘Microsoft.WindowsAzure.ActiveDirectory.Group’)</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>To specify multiple entity types, use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>or<ept id="1">&lt;/embeddedLabel&gt;</ept> operator; for example, $filter=isof('Microsoft.WindowsAzure.ActiveDirectory.User')%20or%20isof('Microsoft.WindowsAzure.ActiveDirectory.Group').</source>
+            <target state="new">To specify multiple entity types, use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>or<ept id="1">&lt;/embeddedLabel&gt;</ept> operator; for example, $filter=isof('Microsoft.WindowsAzure.ActiveDirectory.User')%20or%20isof('Microsoft.WindowsAzure.ActiveDirectory.Group').</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>(Replaces  the <ph id="1">&lt;parameterReference&gt;objectScope&lt;/parameterReference&gt;</ph> query string parameter in the preview version of Graph API.)</source>
+            <target state="new">(Replaces  the <ph id="1">&lt;parameterReference&gt;objectScope&lt;/parameterReference&gt;</ph> query string parameter in the preview version of Graph API.)</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Beginning with version 1.5, the Graph API namespace is changed from Microsoft.WindowsAzure.ActiveDirectory to Microsoft.DirectoryServices.</source>
+            <target state="new">Beginning with version 1.5, the Graph API namespace is changed from Microsoft.WindowsAzure.ActiveDirectory to Microsoft.DirectoryServices.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Earlier versions of the Graph API continue to use the previous namespace; for example, $filter=isof(‘Microsoft.WindowsAzure.ActiveDirectory.Contact’).</source>
+            <target state="new">Earlier versions of the Graph API continue to use the previous namespace; for example, $filter=isof(‘Microsoft.WindowsAzure.ActiveDirectory.Contact’).</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Specifies which properties should be included in the response.</source>
+            <target state="new">Specifies which properties should be included in the response.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>If $select is not specified, all properties are included.</source>
+            <target state="new">If $select is not specified, all properties are included.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Properties can be specified either fully qualified or non-qualified.</source>
+            <target state="new">Properties can be specified either fully qualified or non-qualified.</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Multiple properties are delimited by commas.</source>
+            <target state="new">Multiple properties are delimited by commas.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Fully qualified properties have the entity type specified; for example, User/displayName.</source>
+            <target state="new">Fully qualified properties have the entity type specified; for example, User/displayName.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Fully qualified properties MUST be used if &lt;resourceSet&gt; is specified as “directoryObjects”; for example, https://graph.windows.net/contoso.com/directoryObjects?api-version=2013-04-05&amp;deltaLink=&amp;$select=User/displayName,Group/description.</source>
+            <target state="new">Fully qualified properties MUST be used if &lt;resourceSet&gt; is specified as “directoryObjects”; for example, https://graph.windows.net/contoso.com/directoryObjects?api-version=2013-04-05&amp;deltaLink=&amp;$select=User/displayName,Group/description.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Non-qualified properties do not have the entity type specified; for example, displayName.</source>
+            <target state="new">Non-qualified properties do not have the entity type specified; for example, displayName.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>They can only be used when &lt;resourceSet&gt; is specified as a value other than “directoryObjects”; for example, https://graph.windows.net/contoso.com/users?api-version=2013-04-05&amp;deltaLink=&amp;$select=displayName,jobTitle.</source>
+            <target state="new">They can only be used when &lt;resourceSet&gt; is specified as a value other than “directoryObjects”; for example, https://graph.windows.net/contoso.com/users?api-version=2013-04-05&amp;deltaLink=&amp;$select=displayName,jobTitle.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>The key-value pairs in the query string are case-sensitive, but their order is not significant.</source>
+            <target state="new">The key-value pairs in the query string are case-sensitive, but their order is not significant.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>The following is an example of the simplest differential query.</source>
+            <target state="new">The following is an example of the simplest differential query.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>This is used during initial sync.</source>
+            <target state="new">This is used during initial sync.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>The following is an example of a subsequent request.</source>
+            <target state="new">The following is an example of a subsequent request.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Differential Query Responses</source>
+            <target state="new">Differential Query Responses</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>This section describes the contents of a differential query response that is returned when a differential query request is made.</source>
+            <target state="new">This section describes the contents of a differential query response that is returned when a differential query request is made.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>The following list describes the contents of a response:</source>
+            <target state="new">The following list describes the contents of a response:</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Zero to 200 <ph id="1">&lt;link xlink:href="b0c66543-c74f-4e46-b617-76f9b780e99e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;DirectoryObject&lt;/link&gt;</ph> entities, each of which contains changes for a specific <ph id="2">&lt;link xlink:href="6b0f847b-831b-474d-9189-78af89ee7977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;User&lt;/link&gt;</ph> or <ph id="3">&lt;link xlink:href="8c5aa9b2-7396-43d8-999a-df2e98b2a56f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Group&lt;/link&gt;</ph> or <ph id="4">&lt;link xlink:href="6844d2d7-02d5-41eb-8f46-3e3b19d801f6" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Contact&lt;/link&gt;</ph> object.</source>
+            <target state="new">Zero to 200 <ph id="1">&lt;link xlink:href="b0c66543-c74f-4e46-b617-76f9b780e99e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;DirectoryObject&lt;/link&gt;</ph> entities, each of which contains changes for a specific <ph id="2">&lt;link xlink:href="6b0f847b-831b-474d-9189-78af89ee7977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;User&lt;/link&gt;</ph> or <ph id="3">&lt;link xlink:href="8c5aa9b2-7396-43d8-999a-df2e98b2a56f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Group&lt;/link&gt;</ph> or <ph id="4">&lt;link xlink:href="6844d2d7-02d5-41eb-8f46-3e3b19d801f6" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Contact&lt;/link&gt;</ph> object.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Zero to 3000 <ph id="1">&lt;link xlink:href="9bb2df95-d696-43c7-90db-9c84acabab90" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;DirectoryLinkChange&lt;/link&gt;</ph> entities, each of which contains changes for a specific <bpt id="2">&lt;embeddedLabel&gt;</bpt>Member<ept id="2">&lt;/embeddedLabel&gt;</ept> or <bpt id="3">&lt;embeddedLabel&gt;</bpt>Manager<ept id="3">&lt;/embeddedLabel&gt;</ept> link.</source>
+            <target state="new">Zero to 3000 <ph id="1">&lt;link xlink:href="9bb2df95-d696-43c7-90db-9c84acabab90" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;DirectoryLinkChange&lt;/link&gt;</ph> entities, each of which contains changes for a specific <bpt id="2">&lt;embeddedLabel&gt;</bpt>Member<ept id="2">&lt;/embeddedLabel&gt;</ept> or <bpt id="3">&lt;embeddedLabel&gt;</bpt>Manager<ept id="3">&lt;/embeddedLabel&gt;</ept> link.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Either a <bpt id="1">&lt;embeddedLabel&gt;</bpt>deltaLink<ept id="1">&lt;/embeddedLabel&gt;</ept> or a <bpt id="2">&lt;embeddedLabel&gt;</bpt>nextLink<ept id="2">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">Either a <bpt id="1">&lt;embeddedLabel&gt;</bpt>deltaLink<ept id="1">&lt;/embeddedLabel&gt;</ept> or a <bpt id="2">&lt;embeddedLabel&gt;</bpt>nextLink<ept id="2">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>In either case, its value is a case-sensitive, URL-encoded string that embeds state information about the set of directory changes that have been returned to the client, with respect to remaining changes that have occurred in the directory.</source>
+            <target state="new">In either case, its value is a case-sensitive, URL-encoded string that embeds state information about the set of directory changes that have been returned to the client, with respect to remaining changes that have occurred in the directory.</target>
+          </trans-unit>
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>This string (or token) should be included in the <ph id="1">&lt;parameterReference&gt;deltaLink&lt;/parameterReference&gt;</ph> query string parameter in the next differential query request.</source>
+            <target state="new">This string (or token) should be included in the <ph id="1">&lt;parameterReference&gt;deltaLink&lt;/parameterReference&gt;</ph> query string parameter in the next differential query request.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>If the <bpt id="1">&lt;embeddedLabel&gt;</bpt>deltaLink<ept id="1">&lt;/embeddedLabel&gt;</ept> property is returned, there are no more directory changes left for the application to synchronize after this response.</source>
+            <target state="new">If the <bpt id="1">&lt;embeddedLabel&gt;</bpt>deltaLink<ept id="1">&lt;/embeddedLabel&gt;</ept> property is returned, there are no more directory changes left for the application to synchronize after this response.</target>
+          </trans-unit>
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>The application can wait for some predetermined time according to its own requirements to issue the next differential query request.</source>
+            <target state="new">The application can wait for some predetermined time according to its own requirements to issue the next differential query request.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>If the <bpt id="1">&lt;embeddedLabel&gt;</bpt>nextLink<ept id="1">&lt;/embeddedLabel&gt;</ept> property is returned, there are directory changes remaining for the application to synchronize after this response.</source>
+            <target state="new">If the <bpt id="1">&lt;embeddedLabel&gt;</bpt>nextLink<ept id="1">&lt;/embeddedLabel&gt;</ept> property is returned, there are directory changes remaining for the application to synchronize after this response.</target>
+          </trans-unit>
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>The application should issue the next differential query request at its earliest convenience.</source>
+            <target state="new">The application should issue the next differential query request at its earliest convenience.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Responses are always returned in JSON format.</source>
+            <target state="new">Responses are always returned in JSON format.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Considerations When Using Differential Query</source>
+            <target state="new">Considerations When Using Differential Query</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>The following list highlights important considerations for applications that use differential query:</source>
+            <target state="new">The following list highlights important considerations for applications that use differential query:</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Changes returned by differential query represent the state of the directory objects at the time of the response.</source>
+            <target state="new">Changes returned by differential query represent the state of the directory objects at the time of the response.</target>
+          </trans-unit>
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Your application must not treat these changes as transaction logs for replay.</source>
+            <target state="new">Your application must not treat these changes as transaction logs for replay.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Changes appear in the order in which they occurred.</source>
+            <target state="new">Changes appear in the order in which they occurred.</target>
+          </trans-unit>
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>The most-recently changed objects appear last even if the object was updated multiple times.</source>
+            <target state="new">The most-recently changed objects appear last even if the object was updated multiple times.</target>
+          </trans-unit>
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Their order is also not affected by when the client received the changes.</source>
+            <target state="new">Their order is also not affected by when the client received the changes.</target>
+          </trans-unit>
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>As a result, it is possible for changes to be presented out of order compared to how they initially occurred in the directory.</source>
+            <target state="new">As a result, it is possible for changes to be presented out of order compared to how they initially occurred in the directory.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Your application must be prepared for replays, which occur when the same change appears in subsequent responses.</source>
+            <target state="new">Your application must be prepared for replays, which occur when the same change appears in subsequent responses.</target>
+          </trans-unit>
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>While differential query makes a best effort to reduce replays, they are still possible.</source>
+            <target state="new">While differential query makes a best effort to reduce replays, they are still possible.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Your application must be prepared to handle a deletion change for an object it was not aware of.</source>
+            <target state="new">Your application must be prepared to handle a deletion change for an object it was not aware of.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Differential query can return a link to a source or target object that has not yet been returned by other responses.</source>
+            <target state="new">Differential query can return a link to a source or target object that has not yet been returned by other responses.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>See the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Additional Differential Query Features<ept id="1">&lt;/embeddedLabel&gt;</ept> section below for more information on using request headers to constrain your queries to improve performance.</source>
+            <target state="new">See the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Additional Differential Query Features<ept id="1">&lt;/embeddedLabel&gt;</ept> section below for more information on using request headers to constrain your queries to improve performance.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Request and Response Examples</source>
+            <target state="new">Request and Response Examples</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>The following is an example of an initial differential query request:</source>
+            <target state="new">The following is an example of an initial differential query request:</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>The following is an example of an incremental differential query request:</source>
+            <target state="new">The following is an example of an incremental differential query request:</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>In both of these sample requests, the <ph id="1">&lt;parameterReference&gt;$filter&lt;/parameterReference&gt;</ph> query parameter is shown for demonstration purposes only.</source>
+            <target state="new">In both of these sample requests, the <ph id="1">&lt;parameterReference&gt;$filter&lt;/parameterReference&gt;</ph> query parameter is shown for demonstration purposes only.</target>
+          </trans-unit>
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Because the filter specifies all of the possible target types for the differential query (User, Group, and Contact), it could be omitted and the query would return changes for all of these entity types by default.</source>
+            <target state="new">Because the filter specifies all of the possible target types for the differential query (User, Group, and Contact), it could be omitted and the query would return changes for all of these entity types by default.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>The following example response demonstrates the returned JSON:</source>
+            <target state="new">The following example response demonstrates the returned JSON:</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Additional Differential Query Features</source>
+            <target state="new">Additional Differential Query Features</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Differential Queries can now return only updated properties and links – this allows faster processing and reduced payloads for Differential Query calls.</source>
+            <target state="new">Differential Queries can now return only updated properties and links – this allows faster processing and reduced payloads for Differential Query calls.</target>
+          </trans-unit>
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>This option is enabled by setting the header <bpt id="1">&lt;embeddedLabel&gt;</bpt>ocp-aad-dq-include-only-changed-properties<ept id="1">&lt;/embeddedLabel&gt;</ept> to true as shown in this example.</source>
+            <target state="new">This option is enabled by setting the header <bpt id="1">&lt;embeddedLabel&gt;</bpt>ocp-aad-dq-include-only-changed-properties<ept id="1">&lt;/embeddedLabel&gt;</ept> to true as shown in this example.</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>For example if only the “displayName” property of user has changed.</source>
+            <target state="new">For example if only the “displayName” property of user has changed.</target>
+          </trans-unit>
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>The returned object would be similar to this:</source>
+            <target state="new">The returned object would be similar to this:</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Differential Sync support to sync from “now”<ept id="1">&lt;/embeddedLabel&gt;</ept> - a special header can be specified, requesting to only get an up-to-date deltaToken, this token can be used in subsequent queries, which will return only changes from “now”.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Differential Sync support to sync from “now”<ept id="1">&lt;/embeddedLabel&gt;</ept> - a special header can be specified, requesting to only get an up-to-date deltaToken, this token can be used in subsequent queries, which will return only changes from “now”.</target>
+          </trans-unit>
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>Here’s the example call:</source>
+            <target state="new">Here’s the example call:</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>The response will contain the deltaLink, but will not have the changed object(s), similar to this:</source>
+            <target state="new">The response will contain the deltaLink, but will not have the changed object(s), similar to this:</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Detecting a deleted item<ept id="1">&lt;/embeddedLabel&gt;</ept> – the response can also be used to detect a deleted item.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Detecting a deleted item<ept id="1">&lt;/embeddedLabel&gt;</ept> – the response can also be used to detect a deleted item.</target>
+          </trans-unit>
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>Deleted objects and deleted links are indicated by the "aad.isDeleted" property with a value set to true; this is necessary to make sure applications can learn about the deletion of previously created objects and links.</source>
+            <target state="new">Deleted objects and deleted links are indicated by the "aad.isDeleted" property with a value set to true; this is necessary to make sure applications can learn about the deletion of previously created objects and links.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

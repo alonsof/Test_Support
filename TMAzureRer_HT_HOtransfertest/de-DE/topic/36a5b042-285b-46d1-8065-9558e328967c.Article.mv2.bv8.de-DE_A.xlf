@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzcsJwzAMANBVNIAF/kiO3HMLHaALSI4FgTSBNoWM39wfPPcyjHLHMYiQkke0KIY9Jq2teVJtAXKxKjx1pKETkmhD8+LI7EUotwuWAKUqW6SMWdiQ6pxQYmVszDJKllanHiAFmAfeHwHOdXEf53H77PtxJQEkwPP31u310e276rHs2x+THLzaoQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Naming rules</source>
+            <target state="new">Naming rules</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Naming rules (Azure Search)</source>
+            <target state="new">Naming rules (Azure Search)</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This section explains the naming rules for Azure Search services, indexes, fields, document keys, scoring profiles, suggesters, indexers, and data sources.</source>
+            <target state="new">This section explains the naming rules for Azure Search services, indexes, fields, document keys, scoring profiles, suggesters, indexers, and data sources.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Chart of naming rules</source>
+            <target state="new">Chart of naming rules</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You'll notice that the conventions in the following table are not consistent down the line for all objects.</source>
+            <target state="new">You'll notice that the conventions in the following table are not consistent down the line for all objects.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>This is because objects are used in different contexts, where the naming rules of other standards are imposed on specific Azure Search objects.</source>
+            <target state="new">This is because objects are used in different contexts, where the naming rules of other standards are imposed on specific Azure Search objects.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>URLs, JSON, and DNS all have slightly different conventions in terms of case-sensitivity, special characters, and character placement.</source>
+            <target state="new">URLs, JSON, and DNS all have slightly different conventions in terms of case-sensitivity, special characters, and character placement.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>By necessity, objects referenced in a URL (host name, path, or query string) or JSON request body have to follow the naming conventions of the applicable standard, thus accounting for the variation you see below.</source>
+            <target state="new">By necessity, objects referenced in a URL (host name, path, or query string) or JSON request body have to follow the naming conventions of the applicable standard, thus accounting for the variation you see below.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Length</source>
+            <target state="new">Length</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Case</source>
+            <target state="new">Case</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Allowable characters </source>
+            <target state="new">Allowable characters </target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Character placement</source>
+            <target state="new">Character placement</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Example</source>
+            <target state="new">Example</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Service</source>
+            <target state="new">Service</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>2 - 15</source>
+            <target state="new">2 - 15</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Lower</source>
+            <target state="new">Lower</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Letters, numbers, dashes ("-")</source>
+            <target state="new">Letters, numbers, dashes ("-")</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>First and second characters must be a letter or number.</source>
+            <target state="new">First and second characters must be a letter or number.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>No consecutive dashes.</source>
+            <target state="new">No consecutive dashes.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>contoso-srch1</source>
+            <target state="new">contoso-srch1</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Index</source>
+            <target state="new">Index</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>2 - 128</source>
+            <target state="new">2 - 128</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Lower</source>
+            <target state="new">Lower</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Letters, numbers, dashes ("-")</source>
+            <target state="new">Letters, numbers, dashes ("-")</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>First character must be a letter or number.</source>
+            <target state="new">First character must be a letter or number.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>No consecutive dashes.</source>
+            <target state="new">No consecutive dashes.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>idx-hotels-2015</source>
+            <target state="new">idx-hotels-2015</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Field</source>
+            <target state="new">Field</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>1 -128</source>
+            <target state="new">1 -128</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Upper or lower </source>
+            <target state="new">Upper or lower </target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Letters, numbers, underscores ("_")</source>
+            <target state="new">Letters, numbers, underscores ("_")</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>First character must be a letter.</source>
+            <target state="new">First character must be a letter.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>The name cannot begin with "azureSearch".</source>
+            <target state="new">The name cannot begin with "azureSearch".</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Store_Name</source>
+            <target state="new">Store_Name</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Document key</source>
+            <target state="new">Document key</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>No upper limit, but keys must fit within the 8 KB URL length limit</source>
+            <target state="new">No upper limit, but keys must fit within the 8 KB URL length limit</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Upper or lower</source>
+            <target state="new">Upper or lower</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Letters, numbers, dashes ("-"), underscores ("_"), equal signs ("=")</source>
+            <target state="new">Letters, numbers, dashes ("-"), underscores ("_"), equal signs ("=")</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>For compound keys, we recommend using a dash, underscore, or equal sign as a separator.</source>
+            <target state="new">For compound keys, we recommend using a dash, underscore, or equal sign as a separator.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>If keys contain characters other than the above, we recommend encoding them using a URL-safe variant of Base64.</source>
+            <target state="new">If keys contain characters other than the above, we recommend encoding them using a URL-safe variant of Base64.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>For example, in .NET you can use the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>HttpServerUtility.UrlTokenEncode<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/system.web.httpserverutility.urltokenencode.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> method for this purpose.</source>
+            <target state="new">For example, in .NET you can use the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>HttpServerUtility.UrlTokenEncode<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/system.web.httpserverutility.urltokenencode.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> method for this purpose.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>No restrictions.</source>
+            <target state="new">No restrictions.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>RXhhbXBsZSBkb2N1bWVudCBrZXk= </source>
+            <target state="new">RXhhbXBsZSBkb2N1bWVudCBrZXk= </target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>This is the string “Example document key” encoded in base 64.</source>
+            <target state="new">This is the string “Example document key” encoded in base 64.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>URL-safe Base64 encoding is recommended because document keys are sometimes used in the URL path.</source>
+            <target state="new">URL-safe Base64 encoding is recommended because document keys are sometimes used in the URL path.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Encoding allows you to use characters in a document key that would otherwise be problematic in a URL.</source>
+            <target state="new">Encoding allows you to use characters in a document key that would otherwise be problematic in a URL.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Scoring profile</source>
+            <target state="new">Scoring profile</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>1 - 128</source>
+            <target state="new">1 - 128</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Upper or lower</source>
+            <target state="new">Upper or lower</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Letters, numbers, underscores ("_")</source>
+            <target state="new">Letters, numbers, underscores ("_")</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>First character must be a letter or number.</source>
+            <target state="new">First character must be a letter or number.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>BoostFunc_TagsCustHist</source>
+            <target state="new">BoostFunc_TagsCustHist</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Suggester</source>
+            <target state="new">Suggester</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>1 - 128</source>
+            <target state="new">1 - 128</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Upper or lower</source>
+            <target state="new">Upper or lower</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Letters, numbers, underscores ("_")</source>
+            <target state="new">Letters, numbers, underscores ("_")</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>First character must be a letter or number.</source>
+            <target state="new">First character must be a letter or number.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Sugst01_Apparel</source>
+            <target state="new">Sugst01_Apparel</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Data source</source>
+            <target state="new">Data source</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>1 - 128</source>
+            <target state="new">1 - 128</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Lower</source>
+            <target state="new">Lower</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Letters, numbers, dashes ("-")</source>
+            <target state="new">Letters, numbers, dashes ("-")</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>First and last character must be a letter or number.</source>
+            <target state="new">First and last character must be a letter or number.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>docdbds-onlinecatalog-20150228</source>
+            <target state="new">docdbds-onlinecatalog-20150228</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Indexer</source>
+            <target state="new">Indexer</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>1 -128</source>
+            <target state="new">1 -128</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Lower</source>
+            <target state="new">Lower</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Letters, numbers, dashes ("-")</source>
+            <target state="new">Letters, numbers, dashes ("-")</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>First and last character must be a letter or number.</source>
+            <target state="new">First and last character must be a letter or number.</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>docbindxr-onlinecatalog-20150228</source>
+            <target state="new">docbindxr-onlinecatalog-20150228</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Azure Search .NET SDK</source>
+            <target state="new">Azure Search .NET SDK</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

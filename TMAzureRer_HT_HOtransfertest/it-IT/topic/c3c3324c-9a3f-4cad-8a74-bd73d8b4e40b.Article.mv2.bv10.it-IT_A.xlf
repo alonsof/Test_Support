@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="it-IT" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANycsJwzAMANBVPIAEsqX40wnaexaQ/IFAmkDqQsZv3/WNwd0kVOxdBMUPQqNsWMlrLGV41QKOSlDusmAmbyhtMSwpFfQxagsaQs4KrnJlDlKxKA+Uqg2zJkFriVs26UIGzoPbJr5WcPe+jdHv+bjOc4IL/yNwz+9bj/XS47Pr3M7jB0TdjMaiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Access Control on Resources</source>
+            <target state="new">Access Control on Resources</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Access Control on DocumentDB Resources</source>
+            <target state="new">Access Control on DocumentDB Resources</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Access to DocumentDB resources is governed by a master key token or a resource token.</source>
+            <target state="new">Access to DocumentDB resources is governed by a master key token or a resource token.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The master key token is the all access key token that allows individuals to have full control of DocumentDB resources in a particular account.</source>
+            <target state="new">The master key token is the all access key token that allows individuals to have full control of DocumentDB resources in a particular account.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The master key is created during the creation of an account.</source>
+            <target state="new">The master key is created during the creation of an account.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>There are two sets of master keys, the primary key and the secondary key.</source>
+            <target state="new">There are two sets of master keys, the primary key and the secondary key.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The administrator of the account can then exercise key rotation using the secondary key.</source>
+            <target state="new">The administrator of the account can then exercise key rotation using the secondary key.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>In addition, the account administrator can also regenerate the keys as needed.</source>
+            <target state="new">In addition, the account administrator can also regenerate the keys as needed.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>For instructions on regenerating and rolling keys, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>How to manage a DocumentDB account<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/documentdb-manage-account/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For instructions on regenerating and rolling keys, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>How to manage a DocumentDB account<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/documentdb-manage-account/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Resource tokens are created when users in a database are set up with access permissions for precise access control on a resource.</source>
+            <target state="new">Resource tokens are created when users in a database are set up with access permissions for precise access control on a resource.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>A permission resource contains a hash resource token specifically constructed with the information regarding the resource path and access type a user has access to.</source>
+            <target state="new">A permission resource contains a hash resource token specifically constructed with the information regarding the resource path and access type a user has access to.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The permission resource token is time bound and the validity period can be overridden.</source>
+            <target state="new">The permission resource token is time bound and the validity period can be overridden.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>When a permission resource is acted upon on (POST, GET, PUT), a new resource token is generated.</source>
+            <target state="new">When a permission resource is acted upon on (POST, GET, PUT), a new resource token is generated.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>For information on permissions and resource tokens, see <ph id="1">&lt;link xlink:href="3f049486-c8ab-4fe6-831d-7b70c26c2582" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Operations on DocumentDB Permissions&lt;/link&gt;</ph>.</source>
+            <target state="new">For information on permissions and resource tokens, see <ph id="1">&lt;link xlink:href="3f049486-c8ab-4fe6-831d-7b70c26c2582" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Operations on DocumentDB Permissions&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>All REST operations must include the authorization header with the authorization string in order to interact with a resource.</source>
+            <target state="new">All REST operations must include the authorization header with the authorization string in order to interact with a resource.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>The authorization string has the following format:</source>
+            <target state="new">The authorization string has the following format:</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>The parts enclosed in brackets are as follows:</source>
+            <target state="new">The parts enclosed in brackets are as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>{typeoftoken} denotes the type of token: master or resource.</source>
+            <target state="new">{typeoftoken} denotes the type of token: master or resource.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>{tokenversion} denotes the version of the token.</source>
+            <target state="new">{tokenversion} denotes the version of the token.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>{hasgsignature} denotes the hashed token signature.</source>
+            <target state="new">{hasgsignature} denotes the hashed token signature.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>The authorization string should be encoded before adding it to the REST request to ensure that it contains no invalid characters.</source>
+            <target state="new">The authorization string should be encoded before adding it to the REST request to ensure that it contains no invalid characters.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>To pass in a resource token as the authorization string for a REST operation, the resource token must first be retrieved on behalf of the user by the REST based routine.</source>
+            <target state="new">To pass in a resource token as the authorization string for a REST operation, the resource token must first be retrieved on behalf of the user by the REST based routine.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Once the resource token is retrieved, the REST based routine can then set the value of authorization header for the resource token.</source>
+            <target state="new">Once the resource token is retrieved, the REST based routine can then set the value of authorization header for the resource token.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Constructing the Master Key Signature String</source>
+            <target state="new">Constructing the Master Key Signature String</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>The master key signature consists of the following ordered properties: <bpt id="1">&lt;legacyBold&gt;</bpt>VERB<ept id="1">&lt;/legacyBold&gt;</ept>, <bpt id="2">&lt;legacyBold&gt;</bpt>ResourceId<ept id="2">&lt;/legacyBold&gt;</ept>, <bpt id="3">&lt;legacyBold&gt;</bpt>ResourceType<ept id="3">&lt;/legacyBold&gt;</ept>, and <bpt id="4">&lt;legacyBold&gt;</bpt>x-ms-date<ept id="4">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new">The master key signature consists of the following ordered properties: <bpt id="1">&lt;legacyBold&gt;</bpt>VERB<ept id="1">&lt;/legacyBold&gt;</ept>, <bpt id="2">&lt;legacyBold&gt;</bpt>ResourceId<ept id="2">&lt;/legacyBold&gt;</ept>, <bpt id="3">&lt;legacyBold&gt;</bpt>ResourceType<ept id="3">&lt;/legacyBold&gt;</ept>, and <bpt id="4">&lt;legacyBold&gt;</bpt>x-ms-date<ept id="4">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>When constructing the master key signature string, keep in mind the following: </source>
+            <target state="new">When constructing the master key signature string, keep in mind the following: </target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;legacyBold&gt;</bpt>VERB<ept id="1">&lt;/legacyBold&gt;</ept> portion of the string is the HTTP verb, such as GET or PUT, and must be lowercase.</source>
+            <target state="new">The <bpt id="1">&lt;legacyBold&gt;</bpt>VERB<ept id="1">&lt;/legacyBold&gt;</ept> portion of the string is the HTTP verb, such as GET or PUT, and must be lowercase.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;legacyBold&gt;</bpt>ResourceType<ept id="1">&lt;/legacyBold&gt;</ept> portion of the string identifies the resource that the request is directed at, for example, dbs, colls, docs, attachments.</source>
+            <target state="new">The <bpt id="1">&lt;legacyBold&gt;</bpt>ResourceType<ept id="1">&lt;/legacyBold&gt;</ept> portion of the string identifies the resource that the request is directed at, for example, dbs, colls, docs, attachments.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;legacyBold&gt;</bpt>ResourceId<ept id="1">&lt;/legacyBold&gt;</ept> portion of the string identifies the id property of the resource that the request is directed at.</source>
+            <target state="new">The <bpt id="1">&lt;legacyBold&gt;</bpt>ResourceId<ept id="1">&lt;/legacyBold&gt;</ept> portion of the string identifies the id property of the resource that the request is directed at.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;legacyBold&gt;</bpt>date<ept id="1">&lt;/legacyBold&gt;</ept> portion of the string is the date and time the message was sent (in "HTTP-date" format as defined by <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>RFC 7231 Date/Time Formats<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://tools.ietf.org/html/rfc7231#section-7.1.1.1&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>) e.g. <ph id="5">&lt;codeInline&gt;Tue, 15 Nov 1994 08:12:31 GMT&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">The <bpt id="1">&lt;legacyBold&gt;</bpt>date<ept id="1">&lt;/legacyBold&gt;</ept> portion of the string is the date and time the message was sent (in "HTTP-date" format as defined by <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>RFC 7231 Date/Time Formats<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://tools.ietf.org/html/rfc7231#section-7.1.1.1&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>) e.g. <ph id="5">&lt;codeInline&gt;Tue, 15 Nov 1994 08:12:31 GMT&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>All new line characters (\n) shown are required within the signature string.</source>
+            <target state="new">All new line characters (\n) shown are required within the signature string.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>To encode the signature string for a request against DocumentDB, use the following format:</source>
+            <target state="new">To encode the signature string for a request against DocumentDB, use the following format:</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>StringToSign =</source>
+            <target state="new">StringToSign =</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>VERB + "\n" +</source>
+            <target state="new">VERB + "\n" +</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>ResourceType + "\n" +</source>
+            <target state="new">ResourceType + "\n" +</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>ResourceId + "\n" +</source>
+            <target state="new">ResourceId + "\n" +</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>date + "\n"</source>
+            <target state="new">date + "\n"</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Example [Node.js]:</source>
+            <target state="new">Example [Node.js]:</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>DocumentDB documentation</source>
+            <target state="new">DocumentDB documentation</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

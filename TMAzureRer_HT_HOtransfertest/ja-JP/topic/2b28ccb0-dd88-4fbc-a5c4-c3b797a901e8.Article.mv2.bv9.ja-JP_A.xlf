@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ja-JP" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANjcEJwzAMAFfxABbIsZLInaD01UcXkGQLUtIE0hQyfv097jj33JQGg9aIgJIjKLKCYZKpFE8iJYY65TmPHcukFYgqgSCPoJmTi3ZRMIZBBzZThFqZgVwNZDQCyzqXWQqmxjGkGN4Cj2cM17q4t+u8Hft+9jyGvrr/PrK9Dtm+q5zLvv0BbnxdzqEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Route and Reply Actions: Bridging Protocol Mismatch</source>
+            <target state="new">Route and Reply Actions: Bridging Protocol Mismatch</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Protocol mismatch comes into play when the message sender and message receiver operate on different message protocols.</source>
+            <target state="new">Protocol mismatch comes into play when the message sender and message receiver operate on different message protocols.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>In a typical <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> scenario involving <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>s, a message sender sends a message to the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph>.</source>
+            <target state="new">In a typical <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> scenario involving <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>s, a message sender sends a message to the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> process the message and then sends it out to the message receiver.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> process the message and then sends it out to the message receiver.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>This means the protocol mismatch has to be bridged at two instances:</source>
+            <target state="new">This means the protocol mismatch has to be bridged at two instances:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>First when the message is sent to the message receiver.</source>
+            <target state="new">First when the message is sent to the message receiver.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>This is applicable for both <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> and <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph> because in both cases the message has to be sent to a message receiver.</source>
+            <target state="new">This is applicable for both <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> and <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph> because in both cases the message has to be sent to a message receiver.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>This is called <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Action<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">This is called <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Action<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Second when the response message received from the message receiver is sent back to the message sender.</source>
+            <target state="new">Second when the response message received from the message receiver is sent back to the message sender.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>This is applicable only in <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> because only for this <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> a response has to be sent back to the message sender.</source>
+            <target state="new">This is applicable only in <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph> because only for this <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> a response has to be sent back to the message sender.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>This is called <bpt id="1">&lt;embeddedLabel&gt;</bpt>Reply Action<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">This is called <bpt id="1">&lt;embeddedLabel&gt;</bpt>Reply Action<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Both Route and Reply actions operate on the properties that you define in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage.</source>
+            <target state="new">Both Route and Reply actions operate on the properties that you define in the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Route Action</source>
+            <target state="new">Route Action</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Let us consider a scenario to understand how Route action can be used to do a protocol mismatch.</source>
+            <target state="new">Let us consider a scenario to understand how Route action can be used to do a protocol mismatch.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>As per the scenario, a POX (Plain Old XML)/REST message has to be sent to a WCF service (that expects SOAP message) via an <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph>.</source>
+            <target state="new">As per the scenario, a POX (Plain Old XML)/REST message has to be sent to a WCF service (that expects SOAP message) via an <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>The message that is sent to a bridge is a simple XML payload and has no headers.</source>
+            <target state="new">The message that is sent to a bridge is a simple XML payload and has no headers.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>On the other hand, the outgoing message to the WCF service must have some SOAP headers defined.</source>
+            <target state="new">On the other hand, the outgoing message to the WCF service must have some SOAP headers defined.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>To <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> this protocol mismatch, the persona that configures the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> uses the Route action to assign some relevant SOAP message headers, such as Action, MessageID, and so on to the outgoing message.</source>
+            <target state="new">To <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> this protocol mismatch, the persona that configures the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> uses the Route action to assign some relevant SOAP message headers, such as Action, MessageID, and so on to the outgoing message.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>After the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> is configured and deployed to the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>, a POX message is sent to the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph>.</source>
+            <target state="new">After the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> is configured and deployed to the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>, a POX message is sent to the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>After processing the message but before routing the message to the WCF service, the headers specified in the Route action of the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> are stamped on the message and then sent to the WCF service, thus bridging the protocol mismatch.</source>
+            <target state="new">After processing the message but before routing the message to the WCF service, the headers specified in the Route action of the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> are stamped on the message and then sent to the WCF service, thus bridging the protocol mismatch.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>To configure a Route action, see <ph id="1">&lt;link xlink:href="498de1a4-3427-4314-a152-8d5a7f026cc0#BKMK_RoutingAction" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;The Routing Action&lt;/link&gt;</ph>.</source>
+            <target state="new">To configure a Route action, see <ph id="1">&lt;link xlink:href="498de1a4-3427-4314-a152-8d5a7f026cc0#BKMK_RoutingAction" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;The Routing Action&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>The following table lists how the property values can be transferred between intermediary stages (or the destination) of a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> using Route actions:</source>
+            <target state="new">The following table lists how the property values can be transferred between intermediary stages (or the destination) of a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> using Route actions:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>From/To</source>
+            <target state="new">From/To</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>To other <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s</source>
+            <target state="new">To other <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>To Queues and Topics</source>
+            <target state="new">To Queues and Topics</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>To Relay or External Service Endpoints</source>
+            <target state="new">To Relay or External Service Endpoints</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>From <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph></source>
+            <target state="new">From <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>The properties can’t be transferred as-is (key-value pairs) but can be passed on by assigning them as values of outgoing message headers (HTTP or SOAP)</source>
+            <target state="new">The properties can’t be transferred as-is (key-value pairs) but can be passed on by assigning them as values of outgoing message headers (HTTP or SOAP)</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>The properties can be transferred as-is (key-value pairs) and can also be passed on as values of outgoing message headers</source>
+            <target state="new">The properties can be transferred as-is (key-value pairs) and can also be passed on as values of outgoing message headers</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>The properties can’t be transferred as-is (key-value pairs) but can be passed on by assigning them as values of outgoing message headers (HTTP or SOAP).</source>
+            <target state="new">The properties can’t be transferred as-is (key-value pairs) but can be passed on by assigning them as values of outgoing message headers (HTTP or SOAP).</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>However, it’s the prerogative of the bridge designer to ensure that relevant headers, which can be consumed by the relay or external service, are passed.</source>
+            <target state="new">However, it’s the prerogative of the bridge designer to ensure that relevant headers, which can be consumed by the relay or external service, are passed.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Reply Action</source>
+            <target state="new">Reply Action</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Reply action is exactly similar to Route action.</source>
+            <target state="new">Reply action is exactly similar to Route action.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>The only difference is that while the Route action is applicable when the message is sent to the intended message receiver (either in <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> or <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph>), the Reply action is applicable when the response message from a message receiver has to be routed back to the message sender (only in the case of <ph id="3">&lt;token&gt;request_response&lt;/token&gt;</ph>.)</source>
+            <target state="new">The only difference is that while the Route action is applicable when the message is sent to the intended message receiver (either in <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> or <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph>), the Reply action is applicable when the response message from a message receiver has to be routed back to the message sender (only in the case of <ph id="3">&lt;token&gt;request_response&lt;/token&gt;</ph>.)</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>To understand this better, you can simply reverse the scenario used for Route action.</source>
+            <target state="new">To understand this better, you can simply reverse the scenario used for Route action.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Consider that the message sender needs to send a SOAP message to REST service that expects POX/REST message, via an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph>.</source>
+            <target state="new">Consider that the message sender needs to send a SOAP message to REST service that expects POX/REST message, via an <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>The message that is sent to the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> is a SOAP message with all the relevant headers.</source>
+            <target state="new">The message that is sent to the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> is a SOAP message with all the relevant headers.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>, before routing the message to the REST service, implicitly strips the message headers and sends only the XML payload to the REST service.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>, before routing the message to the REST service, implicitly strips the message headers and sends only the XML payload to the REST service.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>The response from the REST service is also a POX message.</source>
+            <target state="new">The response from the REST service is also a POX message.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Before the POX response message is sent back to the message sender, the Reply action stamps the message headers on the POX message and then sends the SOAP enveloped message to the message sender.</source>
+            <target state="new">Before the POX response message is sent back to the message sender, the Reply action stamps the message headers on the POX message and then sends the SOAP enveloped message to the message sender.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>To configure a Reply action, see <ph id="1">&lt;link xlink:href="7e5fedb4-9ab1-4470-aa8a-204633391da7#BKMK_TwoWay_Reply" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create an XML Request-Reply Bridge&lt;/link&gt;</ph>.</source>
+            <target state="new">To configure a Reply action, see <ph id="1">&lt;link xlink:href="7e5fedb4-9ab1-4470-aa8a-204633391da7#BKMK_TwoWay_Reply" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Create an XML Request-Reply Bridge&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>The following table lists how the property values can be transferred back from a <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to the message sending client using Reply actions:</source>
+            <target state="new">The following table lists how the property values can be transferred back from a <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to the message sending client using Reply actions:</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>From/To</source>
+            <target state="new">From/To</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>To other <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s</source>
+            <target state="new">To other <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>To Relay or External Service Endpoints</source>
+            <target state="new">To Relay or External Service Endpoints</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>From <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph></source>
+            <target state="new">From <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>The properties can’t be transferred as-is (key-value pairs) but can be passed on by assigning them as values of outgoing message headers (HTTP or SOAP)</source>
+            <target state="new">The properties can’t be transferred as-is (key-value pairs) but can be passed on by assigning them as values of outgoing message headers (HTTP or SOAP)</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>The properties can’t be transferred as-is (key-value pairs) but can be passed on by assigning them as values of outgoing message headers (HTTP or SOAP).</source>
+            <target state="new">The properties can’t be transferred as-is (key-value pairs) but can be passed on by assigning them as values of outgoing message headers (HTTP or SOAP).</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>However, it’s the prerogative of the bridge designer to ensure that relevant headers, which can be consumed by the relay or external service, are passed.</source>
+            <target state="new">However, it’s the prerogative of the bridge designer to ensure that relevant headers, which can be consumed by the relay or external service, are passed.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Considerations While Setting the Header Properties through Route and Reply Actions</source>
+            <target state="new">Considerations While Setting the Header Properties through Route and Reply Actions</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Even though you can use Route and Reply actions to set message header properties, you must consider the following points:</source>
+            <target state="new">Even though you can use Route and Reply actions to set message header properties, you must consider the following points:</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>You must be careful when using the <bpt id="1">&lt;embeddedLabel&gt;</bpt>To<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>ReplyTo<ept id="2">&lt;/embeddedLabel&gt;</ept> SOAP message headers.</source>
+            <target state="new">You must be careful when using the <bpt id="1">&lt;embeddedLabel&gt;</bpt>To<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>ReplyTo<ept id="2">&lt;/embeddedLabel&gt;</ept> SOAP message headers.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>This is because the underlying binding, such as WCF bindings, can override these message headers.</source>
+            <target state="new">This is because the underlying binding, such as WCF bindings, can override these message headers.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>So, if the application that consumes these messages is expecting the message headers that you set through Route or Reply actions, it might result in unexpected errors.</source>
+            <target state="new">So, if the application that consumes these messages is expecting the message headers that you set through Route or Reply actions, it might result in unexpected errors.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>You must not set the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageID<ept id="1">&lt;/embeddedLabel&gt;</ept> SOAP header when routing a message to endpoints that use <bpt id="2">&lt;embeddedLabel&gt;</bpt>basicHttpBinding<ept id="2">&lt;/embeddedLabel&gt;</ept> or <bpt id="3">&lt;embeddedLabel&gt;</bpt>basicHttpRelayBinding<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">You must not set the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageID<ept id="1">&lt;/embeddedLabel&gt;</ept> SOAP header when routing a message to endpoints that use <bpt id="2">&lt;embeddedLabel&gt;</bpt>basicHttpBinding<ept id="2">&lt;/embeddedLabel&gt;</ept> or <bpt id="3">&lt;embeddedLabel&gt;</bpt>basicHttpRelayBinding<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

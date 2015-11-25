@@ -1,0 +1,1810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="it-IT" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzFEKgzAMgOGr5AANpG20difY3r1A2iYgOAVXweOvz9/Pbxa1cKioyozsjbDQUrCSlzln8yLZwcRsTVPGukhFTnPGbFmRYiLViYWaOCgtVg5t2GSj8p5Qio1rkRjEYmwWHHgHW8fP6uDZNzN9+us6z+5gWHLwvr9yrJccv136dh5/WkNPvqEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Designing a Scalable Partitioning Strategy</source>
+            <target state="new">Designing a Scalable Partitioning Strategy</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Designing a Scalable Partitioning Strategy for Azure Table Storage</source>
+            <target state="new">Designing a Scalable Partitioning Strategy for Azure Table Storage</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source> <bpt id="1">&lt;legacyBold&gt;</bpt>Author: <ept id="1">&lt;/legacyBold&gt;</ept><ph id="2">&lt;link xlink:href="8cf7f6dd-f58b-43ad-be1d-7e738ebedff1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/link&gt;</ph></source>
+            <target state="new"> <bpt id="1">&lt;legacyBold&gt;</bpt>Author: <ept id="1">&lt;/legacyBold&gt;</ept><ph id="2">&lt;link xlink:href="8cf7f6dd-f58b-43ad-be1d-7e738ebedff1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/link&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Learn more about <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>RBA Consulting<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.rbaconsulting.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">Learn more about <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>RBA Consulting<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.rbaconsulting.com&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Summary<ept id="1">&lt;/legacyBold&gt;</ept> This article discusses topics related to partitioning an Azure Table and the strategies used to ensure efficient scalability.</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Summary<ept id="1">&lt;/legacyBold&gt;</ept> This article discusses topics related to partitioning an Azure Table and the strategies used to ensure efficient scalability.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Azure provides cloud storage that is highly available and scalable.</source>
+            <target state="new">Azure provides cloud storage that is highly available and scalable.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The underlying storage system for Azure is provided through a set of services, including the Blob, Table, Queue, and File services.</source>
+            <target state="new">The underlying storage system for Azure is provided through a set of services, including the Blob, Table, Queue, and File services.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The Azure Table service is designed for storing structured data.</source>
+            <target state="new">The Azure Table service is designed for storing structured data.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The Azure Storage service supports an unlimited number of tables, and each table can scale to massive levels, providing terabytes of physical storage.</source>
+            <target state="new">The Azure Storage service supports an unlimited number of tables, and each table can scale to massive levels, providing terabytes of physical storage.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>To take best advantage of tables, you will need to partition your data optimally.</source>
+            <target state="new">To take best advantage of tables, you will need to partition your data optimally.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>This article explores strategies that allow you to efficiently partition data for Azure Table storage.</source>
+            <target state="new">This article explores strategies that allow you to efficiently partition data for Azure Table storage.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Table Entities</source>
+            <target state="new">Table Entities</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Table entities represent the units of data stored in a table and are similar to rows in a typical relational database table.</source>
+            <target state="new">Table entities represent the units of data stored in a table and are similar to rows in a typical relational database table.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Each entity defines a collection of properties.</source>
+            <target state="new">Each entity defines a collection of properties.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Each property is key/value pair defined by its name, value, and the value's data type.</source>
+            <target state="new">Each property is key/value pair defined by its name, value, and the value's data type.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Entities must define the following three system properties as part of the property collection:</source>
+            <target state="new">Entities must define the following three system properties as part of the property collection:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>PartitionKey<ept id="1">&lt;/legacyBold&gt;</ept> – The PartitionKey property stores string values that identify the partition that an entity belongs to.</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>PartitionKey<ept id="1">&lt;/legacyBold&gt;</ept> – The PartitionKey property stores string values that identify the partition that an entity belongs to.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Partitions, as discussed later, are integral to the scalability of the table.</source>
+            <target state="new">Partitions, as discussed later, are integral to the scalability of the table.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Entities with the same PartitionKey values are stored in the same partition.</source>
+            <target state="new">Entities with the same PartitionKey values are stored in the same partition.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>RowKey<ept id="1">&lt;/legacyBold&gt;</ept> – The RowKey property stores string values that uniquely identify entities within each partition.</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>RowKey<ept id="1">&lt;/legacyBold&gt;</ept> – The RowKey property stores string values that uniquely identify entities within each partition.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>The PartitionKey and the RowKey together form the primary key for the entity</source>
+            <target state="new">The PartitionKey and the RowKey together form the primary key for the entity</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Timestamp<ept id="1">&lt;/legacyBold&gt;</ept> – The Timestamp property provides traceability for an entity.</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Timestamp<ept id="1">&lt;/legacyBold&gt;</ept> – The Timestamp property provides traceability for an entity.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>A timestamp is a DateTime value that tells you the last time the entity was modified.</source>
+            <target state="new">A timestamp is a DateTime value that tells you the last time the entity was modified.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>A timestamp is sometimes referred to as the entity's version.</source>
+            <target state="new">A timestamp is sometimes referred to as the entity's version.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Modifications to timestamps are ignored because the table service maintains the value for this property during all inserts and update operations.</source>
+            <target state="new">Modifications to timestamps are ignored because the table service maintains the value for this property during all inserts and update operations.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Table Primary Key</source>
+            <target state="new">Table Primary Key</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>The primary key for an Azure entity consists of the combined PartitionKey and RowKey properties,  forming a single clustered index within the table.</source>
+            <target state="new">The primary key for an Azure entity consists of the combined PartitionKey and RowKey properties,  forming a single clustered index within the table.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>The PartitionKey and RowKey properties can store up to 1 KB of string values.</source>
+            <target state="new">The PartitionKey and RowKey properties can store up to 1 KB of string values.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Empty strings are also permitted; however, null values are not.</source>
+            <target state="new">Empty strings are also permitted; however, null values are not.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>The clustered index is sorted by the PartitionKey in ascending order and then by RowKey also in ascending order.</source>
+            <target state="new">The clustered index is sorted by the PartitionKey in ascending order and then by RowKey also in ascending order.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>The sort order is observed in all query responses.</source>
+            <target state="new">The sort order is observed in all query responses.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Lexical comparisons are used during the sorting operation.</source>
+            <target state="new">Lexical comparisons are used during the sorting operation.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Therefore, a string value of "111" will appear before a string value of "2".</source>
+            <target state="new">Therefore, a string value of "111" will appear before a string value of "2".</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>In some cases, you may want the order to be numeric.</source>
+            <target state="new">In some cases, you may want the order to be numeric.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>To sort in a numeric and ascending order, you will need to use fixed-length, zero-padded strings.</source>
+            <target state="new">To sort in a numeric and ascending order, you will need to use fixed-length, zero-padded strings.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>In the previous example, using "002" will allow it to appear before "111".</source>
+            <target state="new">In the previous example, using "002" will allow it to appear before "111".</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>The clustered index sorts by the PartitionKey in ascending order and then by RowKey in ascending order.</source>
+            <target state="new">The clustered index sorts by the PartitionKey in ascending order and then by RowKey in ascending order.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>The sort order is observed in all query responses.</source>
+            <target state="new">The sort order is observed in all query responses.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Lexical comparisons are used during the sorting operation.</source>
+            <target state="new">Lexical comparisons are used during the sorting operation.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Therefore, a string value of "111" will appear before a string value of "2".</source>
+            <target state="new">Therefore, a string value of "111" will appear before a string value of "2".</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>In some cases, you may want the order to be numeric.</source>
+            <target state="new">In some cases, you may want the order to be numeric.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>To sort in a numeric and ascending order, you will need to use fixed-length, zero-padded strings.</source>
+            <target state="new">To sort in a numeric and ascending order, you will need to use fixed-length, zero-padded strings.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>In the previous example, using "002" will allow it to appear before "111".</source>
+            <target state="new">In the previous example, using "002" will allow it to appear before "111".</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Table Partitions</source>
+            <target state="new">Table Partitions</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Partitions represent a collection of entities with the same PartitionKey values.</source>
+            <target state="new">Partitions represent a collection of entities with the same PartitionKey values.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Partitions are always served from one partition server and each partition server can serve one or more partitions.</source>
+            <target state="new">Partitions are always served from one partition server and each partition server can serve one or more partitions.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>A partition server has a rate limit of the number of entities it can serve from one partition over time.</source>
+            <target state="new">A partition server has a rate limit of the number of entities it can serve from one partition over time.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Specifically, a partition has a scalability target of 500 entities per second.</source>
+            <target state="new">Specifically, a partition has a scalability target of 500 entities per second.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>This throughput may be higher during minimal load on the storage node, but it will be throttled down when the node becomes hot or very active.</source>
+            <target state="new">This throughput may be higher during minimal load on the storage node, but it will be throttled down when the node becomes hot or very active.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>To better illustrate the concept of partitioning, the following figure illustrates a table that contains a small subset of data for footrace event registrations.</source>
+            <target state="new">To better illustrate the concept of partitioning, the following figure illustrates a table that contains a small subset of data for footrace event registrations.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>It presents a conceptual view of partitioning where the PartitionKey contains three different values comprised of the event's name and distance.</source>
+            <target state="new">It presents a conceptual view of partitioning where the PartitionKey contains three different values comprised of the event's name and distance.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>In this example, there are two partition servers.</source>
+            <target state="new">In this example, there are two partition servers.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Server A contains registrations for the half-marathon and 10 Km distances while Server B contains only the full-marathon distances.</source>
+            <target state="new">Server A contains registrations for the half-marathon and 10 Km distances while Server B contains only the full-marathon distances.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>The RowKey values are shown to provide context but are not meaningful for this example.</source>
+            <target state="new">The RowKey values are shown to provide context but are not meaningful for this example.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>A table with three partitions</source>
+            <target state="new">A table with three partitions</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Scalability</source>
+            <target state="new">Scalability</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Because a partition is always served from a single partition server and each partition server can serve one or more partitions, the efficiency of serving entities is correlated with the health of the server.</source>
+            <target state="new">Because a partition is always served from a single partition server and each partition server can serve one or more partitions, the efficiency of serving entities is correlated with the health of the server.</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Servers that encounter high traffic for their partitions may not be able to sustain a high throughput.</source>
+            <target state="new">Servers that encounter high traffic for their partitions may not be able to sustain a high throughput.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>For example, in the figure above, if there are many requests for "2011 New York City Marathon__Half", server A may become too hot.</source>
+            <target state="new">For example, in the figure above, if there are many requests for "2011 New York City Marathon__Half", server A may become too hot.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>To increase the throughput of the server, the storage system load-balances the partitions to other servers.</source>
+            <target state="new">To increase the throughput of the server, the storage system load-balances the partitions to other servers.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>The result is that the traffic is distributed across many other servers.</source>
+            <target state="new">The result is that the traffic is distributed across many other servers.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>For optimal load balancing of traffic, you should use more partitions, so that  the Azure Table service can distribute the partitions to more partition servers.</source>
+            <target state="new">For optimal load balancing of traffic, you should use more partitions, so that  the Azure Table service can distribute the partitions to more partition servers.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Entity Group Transactions</source>
+            <target state="new">Entity Group Transactions</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>An entity group transaction is a set of storage operations that are implemented atomically on entities with the same PartitionKey value.</source>
+            <target state="new">An entity group transaction is a set of storage operations that are implemented atomically on entities with the same PartitionKey value.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>If any storage operation in the entity group fails, then all the storage operations in it are rolled back.</source>
+            <target state="new">If any storage operation in the entity group fails, then all the storage operations in it are rolled back.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>An entity group transaction comprises no more than 100 storage operations and may be no more than 4 MB in size.</source>
+            <target state="new">An entity group transaction comprises no more than 100 storage operations and may be no more than 4 MB in size.</target>
+          </trans-unit>
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Entity group transactions provide Azure Table with a limited form of the atomicity, consistency, isolation, durability (ACID) semantics provided by relational databases.</source>
+            <target state="new">Entity group transactions provide Azure Table with a limited form of the atomicity, consistency, isolation, durability (ACID) semantics provided by relational databases.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Entity group transactions improve throughput since they reduce the number of individual storage operations that must be submitted to the Azure Table service.</source>
+            <target state="new">Entity group transactions improve throughput since they reduce the number of individual storage operations that must be submitted to the Azure Table service.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>They also provide an economic benefit since an entity group transaction is billed as a single storage operation regardless of how many storage operations it contains.</source>
+            <target state="new">They also provide an economic benefit since an entity group transaction is billed as a single storage operation regardless of how many storage operations it contains.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Since all the storage operations in an entity group transaction affect entities with the same PartitionKey value, a need to use entity group transactions can drive the selection of PartitionKey value.</source>
+            <target state="new">Since all the storage operations in an entity group transaction affect entities with the same PartitionKey value, a need to use entity group transactions can drive the selection of PartitionKey value.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Range Partitions</source>
+            <target state="new">Range Partitions</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>If you are using unique PartitionKey values for your entities, then each entity will belong in its own partition.</source>
+            <target state="new">If you are using unique PartitionKey values for your entities, then each entity will belong in its own partition.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>If the unique values you are using are increasing or decreasing in value, it is possible that Azure will create range partitions.</source>
+            <target state="new">If the unique values you are using are increasing or decreasing in value, it is possible that Azure will create range partitions.</target>
+          </trans-unit>
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Range partitions group entities that have sequential unique PartitionKey values to improve the performance of range queries.</source>
+            <target state="new">Range partitions group entities that have sequential unique PartitionKey values to improve the performance of range queries.</target>
+          </trans-unit>
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Without range partitions, a range query will need to cross partition boundaries or server boundaries, which can decrease the query performance.</source>
+            <target state="new">Without range partitions, a range query will need to cross partition boundaries or server boundaries, which can decrease the query performance.</target>
+          </trans-unit>
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Consider an application that uses the following table with an increasing sequence value for the PartitionKey.</source>
+            <target state="new">Consider an application that uses the following table with an increasing sequence value for the PartitionKey.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>PartitionKey</source>
+            <target state="new">PartitionKey</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>RowKey</source>
+            <target state="new">RowKey</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>"0001"</source>
+            <target state="new">"0001"</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>-</source>
+            <target state="new">-</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>"0002"</source>
+            <target state="new">"0002"</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>-</source>
+            <target state="new">-</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>"0003"</source>
+            <target state="new">"0003"</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>-</source>
+            <target state="new">-</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>"0004"</source>
+            <target state="new">"0004"</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>-</source>
+            <target state="new">-</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>"0005"</source>
+            <target state="new">"0005"</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>-</source>
+            <target state="new">-</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>"0006"</source>
+            <target state="new">"0006"</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>-</source>
+            <target state="new">-</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Azure may group the first three entities into a range partition.</source>
+            <target state="new">Azure may group the first three entities into a range partition.</target>
+          </trans-unit>
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>If you apply a range query to this table that uses the PartitionKey as the critiera and requests entities from "0001" to "0003,", the query may perform efficiently because they will be served from a single partition server.</source>
+            <target state="new">If you apply a range query to this table that uses the PartitionKey as the critiera and requests entities from "0001" to "0003,", the query may perform efficiently because they will be served from a single partition server.</target>
+          </trans-unit>
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>There is no guarantee when and how a range partition will be created.</source>
+            <target state="new">There is no guarantee when and how a range partition will be created.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>The existence of range partitions for your table can affect the performance of your insert operations if you are inserting entities with increasing, or decreasing, PartitionKey values.</source>
+            <target state="new">The existence of range partitions for your table can affect the performance of your insert operations if you are inserting entities with increasing, or decreasing, PartitionKey values.</target>
+          </trans-unit>
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Inserting entities with increasing PartitionKey values is called an Append Only pattern, and inserting with decreasing values is called a Prepend Only pattern.</source>
+            <target state="new">Inserting entities with increasing PartitionKey values is called an Append Only pattern, and inserting with decreasing values is called a Prepend Only pattern.</target>
+          </trans-unit>
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>You should consider not using such patterns because the overall throughput of your insert requests will be limited by a single partition server.</source>
+            <target state="new">You should consider not using such patterns because the overall throughput of your insert requests will be limited by a single partition server.</target>
+          </trans-unit>
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>This is because, if range partitions exists, then the first and last (range) partitions will contain the least and greatest PartitionKey values, respectively.</source>
+            <target state="new">This is because, if range partitions exists, then the first and last (range) partitions will contain the least and greatest PartitionKey values, respectively.</target>
+          </trans-unit>
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Therefore, the insert of a new entity, with a sequentially lower or higher PartitionKey value, will target one of the end partitions.</source>
+            <target state="new">Therefore, the insert of a new entity, with a sequentially lower or higher PartitionKey value, will target one of the end partitions.</target>
+          </trans-unit>
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>The following figure shows a possible set of range partitions based on the previous example.</source>
+            <target state="new">The following figure shows a possible set of range partitions based on the previous example.</target>
+          </trans-unit>
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>If a set of "0007", "0008" and "0009" entities were inserted, they would be assigned to the last (orange) partition.</source>
+            <target state="new">If a set of "0007", "0008" and "0009" entities were inserted, they would be assigned to the last (orange) partition.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>Set of range partitions</source>
+            <target state="new">Set of range partitions</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>It is important to note that there is no negative effect on performance if the insert operations are using more scattered PartitionKey values.</source>
+            <target state="new">It is important to note that there is no negative effect on performance if the insert operations are using more scattered PartitionKey values.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Analyzing Data</source>
+            <target state="new">Analyzing Data</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>Unlike a table in relational databases that allow you to manage indexes, Azure tables can only have one index which is always comprised of the PartitionKey and RowKey properties.</source>
+            <target state="new">Unlike a table in relational databases that allow you to manage indexes, Azure tables can only have one index which is always comprised of the PartitionKey and RowKey properties.</target>
+          </trans-unit>
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>You are not afforded the luxury of performance-tuning your table by adding more indexes or altering an existing one after you have rolled it out.</source>
+            <target state="new">You are not afforded the luxury of performance-tuning your table by adding more indexes or altering an existing one after you have rolled it out.</target>
+          </trans-unit>
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Therefore, you must analyze the data as you design your table.</source>
+            <target state="new">Therefore, you must analyze the data as you design your table.</target>
+          </trans-unit>
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>The most important aspects to consider for optimal scalability and query  and insert efficiency are the PartitionKey and RowKey values.</source>
+            <target state="new">The most important aspects to consider for optimal scalability and query  and insert efficiency are the PartitionKey and RowKey values.</target>
+          </trans-unit>
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>This article places more stress on how to choose the PartitionKey because it directly relates to how tables are partitioned.</source>
+            <target state="new">This article places more stress on how to choose the PartitionKey because it directly relates to how tables are partitioned.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>Partition Sizing</source>
+            <target state="new">Partition Sizing</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>Partition sizing refers to the number of entities a partition contains.</source>
+            <target state="new">Partition sizing refers to the number of entities a partition contains.</target>
+          </trans-unit>
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>As was mentioned in the "Scalability"section, more partitions mean better load balancing.</source>
+            <target state="new">As was mentioned in the "Scalability"section, more partitions mean better load balancing.</target>
+          </trans-unit>
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>The granularity of the PartitionKey value affects the size of the partitions.</source>
+            <target state="new">The granularity of the PartitionKey value affects the size of the partitions.</target>
+          </trans-unit>
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>At the coarsest level, if a single value is used as the PartitionKey, all the entities are in a single, very large, partition.</source>
+            <target state="new">At the coarsest level, if a single value is used as the PartitionKey, all the entities are in a single, very large, partition.</target>
+          </trans-unit>
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>Alternatively, at the finest level of granularity, the PartitionKey can contain unique values for each entity.</source>
+            <target state="new">Alternatively, at the finest level of granularity, the PartitionKey can contain unique values for each entity.</target>
+          </trans-unit>
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>The result is that there is a partition for each entity.</source>
+            <target state="new">The result is that there is a partition for each entity.</target>
+          </trans-unit>
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>The following table shows the advantages and disadvantages for the range of granularities.</source>
+            <target state="new">The following table shows the advantages and disadvantages for the range of granularities.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>PartitionKey Granularity</source>
+            <target state="new">PartitionKey Granularity</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Partition Size</source>
+            <target state="new">Partition Size</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>Advantages</source>
+            <target state="new">Advantages</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>Disadvantages</source>
+            <target state="new">Disadvantages</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>Single value</source>
+            <target state="new">Single value</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>Small number of entities</source>
+            <target state="new">Small number of entities</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>Batch transactions are possible with any entity</source>
+            <target state="new">Batch transactions are possible with any entity</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>All entities are local and served from the same storage node</source>
+            <target state="new">All entities are local and served from the same storage node</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>Single value</source>
+            <target state="new">Single value</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>Large number of entities</source>
+            <target state="new">Large number of entities</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>Entity Group Transactions may be possible with any entity.</source>
+            <target state="new">Entity Group Transactions may be possible with any entity.</target>
+          </trans-unit>
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>See  <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://msdn.microsoft.com/library/dd894038.aspx<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/dd894038.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>for more information on the limits of entity group transactions</source>
+            <target state="new">See  <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>http://msdn.microsoft.com/library/dd894038.aspx<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/dd894038.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>for more information on the limits of entity group transactions</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>Scaling is limited.</source>
+            <target state="new">Scaling is limited.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>Throughput is limited to the performance of a single server.</source>
+            <target state="new">Throughput is limited to the performance of a single server.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>Multiple values</source>
+            <target state="new">Multiple values</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>There are multiple partitions</source>
+            <target state="new">There are multiple partitions</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>Partition sizes depend on entity distribution</source>
+            <target state="new">Partition sizes depend on entity distribution</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>Batch transactions are possible on some entities</source>
+            <target state="new">Batch transactions are possible on some entities</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>Dynamic partitioning is possible</source>
+            <target state="new">Dynamic partitioning is possible</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>Single-request queries possible (no continuation tokens)</source>
+            <target state="new">Single-request queries possible (no continuation tokens)</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>Load balancing across more partition servers possible</source>
+            <target state="new">Load balancing across more partition servers possible</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>A highly uneven distribution of entities across partitions may limit the performance of the larger and more active partitions</source>
+            <target state="new">A highly uneven distribution of entities across partitions may limit the performance of the larger and more active partitions</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>Unique values</source>
+            <target state="new">Unique values</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>There are many small partitions.</source>
+            <target state="new">There are many small partitions.</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>The table is highly scalable</source>
+            <target state="new">The table is highly scalable</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>Range partitions may improve the performance of cross-partition range queries</source>
+            <target state="new">Range partitions may improve the performance of cross-partition range queries</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>Queries that involve ranges may require visits to more than one server.</source>
+            <target state="new">Queries that involve ranges may require visits to more than one server.</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>Batch transactions are not possible.</source>
+            <target state="new">Batch transactions are not possible.</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>Append or prepend-only patterns can affect insert-throughput </source>
+            <target state="new">Append or prepend-only patterns can affect insert-throughput </target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>This table shows how scaling is affected by the PartitionKey values.</source>
+            <target state="new">This table shows how scaling is affected by the PartitionKey values.</target>
+          </trans-unit>
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>It is a best practice to favor smaller partitions because they offer better load balancing.</source>
+            <target state="new">It is a best practice to favor smaller partitions because they offer better load balancing.</target>
+          </trans-unit>
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>Larger partitions may be appropriate in some scenarios, and are not necessarily disadvantageous.</source>
+            <target state="new">Larger partitions may be appropriate in some scenarios, and are not necessarily disadvantageous.</target>
+          </trans-unit>
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>For example, if your application does not require scalability, a single large partition may be appropriate.</source>
+            <target state="new">For example, if your application does not require scalability, a single large partition may be appropriate.</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>Determining Queries</source>
+            <target state="new">Determining Queries</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>Queries retrieve data from tables.</source>
+            <target state="new">Queries retrieve data from tables.</target>
+          </trans-unit>
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>When you analyze the data for an Azure table, it is important to consider which queries the application will use.</source>
+            <target state="new">When you analyze the data for an Azure table, it is important to consider which queries the application will use.</target>
+          </trans-unit>
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>If an application has several queries, you may need to prioritize them, although your decisions might be somewhat subjective.</source>
+            <target state="new">If an application has several queries, you may need to prioritize them, although your decisions might be somewhat subjective.</target>
+          </trans-unit>
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>In many cases, dominant queries are discernable from the other queries.</source>
+            <target state="new">In many cases, dominant queries are discernable from the other queries.</target>
+          </trans-unit>
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>In terms of performance, queries fall into different categories.</source>
+            <target state="new">In terms of performance, queries fall into different categories.</target>
+          </trans-unit>
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>Because a table only has one index, query performance is usually related to the PartitionKey and RowKey properties.</source>
+            <target state="new">Because a table only has one index, query performance is usually related to the PartitionKey and RowKey properties.</target>
+          </trans-unit>
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>The following table shows the different types of queries and their performance ratings.</source>
+            <target state="new">The following table shows the different types of queries and their performance ratings.</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>Query Type</source>
+            <target state="new">Query Type</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>PartitionKey Match</source>
+            <target state="new">PartitionKey Match</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>RowKey Match</source>
+            <target state="new">RowKey Match</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>Performance Rating</source>
+            <target state="new">Performance Rating</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>Point</source>
+            <target state="new">Point</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>Exact</source>
+            <target state="new">Exact</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>Exact</source>
+            <target state="new">Exact</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>Best</source>
+            <target state="new">Best</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>Row range scan</source>
+            <target state="new">Row range scan</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>Exact</source>
+            <target state="new">Exact</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>Partial</source>
+            <target state="new">Partial</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>Better with smaller-sized partitions</source>
+            <target state="new">Better with smaller-sized partitions</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source>Bad with very large-sized partitions</source>
+            <target state="new">Bad with very large-sized partitions</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="171" translate="yes" xml:space="preserve">
+            <source>Partition range scan</source>
+            <target state="new">Partition range scan</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="172" translate="yes" xml:space="preserve">
+            <source>Partial</source>
+            <target state="new">Partial</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="173" translate="yes" xml:space="preserve">
+            <source>Partial</source>
+            <target state="new">Partial</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="174" translate="yes" xml:space="preserve">
+            <source>Good with a small number of partition servers being touched</source>
+            <target state="new">Good with a small number of partition servers being touched</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="175" translate="yes" xml:space="preserve">
+            <source>Worse with more servers being touched</source>
+            <target state="new">Worse with more servers being touched</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="176" translate="yes" xml:space="preserve">
+            <source>Full table scan</source>
+            <target state="new">Full table scan</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="177" translate="yes" xml:space="preserve">
+            <source>Partial, none</source>
+            <target state="new">Partial, none</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="178" translate="yes" xml:space="preserve">
+            <source>Partial, none</source>
+            <target state="new">Partial, none</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="179" translate="yes" xml:space="preserve">
+            <source>Worse with a subset of partitions being scanned</source>
+            <target state="new">Worse with a subset of partitions being scanned</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="180" translate="yes" xml:space="preserve">
+            <source>Worst with all partitions being scanned</source>
+            <target state="new">Worst with all partitions being scanned</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="181" translate="yes" xml:space="preserve">
+            <source>The table defines performance ratings relative to each other.</source>
+            <target state="new">The table defines performance ratings relative to each other.</target>
+          </trans-unit>
+          <trans-unit id="182" translate="yes" xml:space="preserve">
+            <source>The number and size of the partitions may ultimately dictate how the query performs.</source>
+            <target state="new">The number and size of the partitions may ultimately dictate how the query performs.</target>
+          </trans-unit>
+          <trans-unit id="183" translate="yes" xml:space="preserve">
+            <source>For example, a partition range scan for a table with many and large partitions may perform poorly compared to a full table scan for a table with few and small partitions.</source>
+            <target state="new">For example, a partition range scan for a table with many and large partitions may perform poorly compared to a full table scan for a table with few and small partitions.</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="184" translate="yes" xml:space="preserve">
+            <source>The query types listed in this table show a progression from the best types of queries to use to the worst types, based on their performance ratings.</source>
+            <target state="new">The query types listed in this table show a progression from the best types of queries to use to the worst types, based on their performance ratings.</target>
+          </trans-unit>
+          <trans-unit id="185" translate="yes" xml:space="preserve">
+            <source>Point queries are the best types of queries to use because they fully use the table's clustered index.</source>
+            <target state="new">Point queries are the best types of queries to use because they fully use the table's clustered index.</target>
+          </trans-unit>
+          <trans-unit id="186" translate="yes" xml:space="preserve">
+            <source>The following point query uses the data from the footraces registration table.</source>
+            <target state="new">The following point query uses the data from the footraces registration table.</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="187" translate="yes" xml:space="preserve">
+            <source>If the application uses multiple queries, not all of them can be point queries.</source>
+            <target state="new">If the application uses multiple queries, not all of them can be point queries.</target>
+          </trans-unit>
+          <trans-unit id="188" translate="yes" xml:space="preserve">
+            <source>In terms of performance, range queries follow point queries.</source>
+            <target state="new">In terms of performance, range queries follow point queries.</target>
+          </trans-unit>
+          <trans-unit id="189" translate="yes" xml:space="preserve">
+            <source>There are two types of range queries: the row range scan and the partition range scan.</source>
+            <target state="new">There are two types of range queries: the row range scan and the partition range scan.</target>
+          </trans-unit>
+          <trans-unit id="190" translate="yes" xml:space="preserve">
+            <source>The row range scan specifies a single partition.</source>
+            <target state="new">The row range scan specifies a single partition.</target>
+          </trans-unit>
+          <trans-unit id="191" translate="yes" xml:space="preserve">
+            <source>Because the operation occurs on a single partition server, row range scans are generally more efficient then partition range scans.</source>
+            <target state="new">Because the operation occurs on a single partition server, row range scans are generally more efficient then partition range scans.</target>
+          </trans-unit>
+          <trans-unit id="192" translate="yes" xml:space="preserve">
+            <source>However, one key factor in the performance of row range scans is how selective a query is.</source>
+            <target state="new">However, one key factor in the performance of row range scans is how selective a query is.</target>
+          </trans-unit>
+          <trans-unit id="193" translate="yes" xml:space="preserve">
+            <source>Query selectivity dictates how many rows must be iterated to find the matching rows.</source>
+            <target state="new">Query selectivity dictates how many rows must be iterated to find the matching rows.</target>
+          </trans-unit>
+          <trans-unit id="194" translate="yes" xml:space="preserve">
+            <source>More selective queries are more efficient during row range scans.</source>
+            <target state="new">More selective queries are more efficient during row range scans.</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="195" translate="yes" xml:space="preserve">
+            <source>To assess the priorities of your queries, you need to consider the frequency and response time requirements for each query.</source>
+            <target state="new">To assess the priorities of your queries, you need to consider the frequency and response time requirements for each query.</target>
+          </trans-unit>
+          <trans-unit id="196" translate="yes" xml:space="preserve">
+            <source>Queries that are frequently executed may be prioritized higher.</source>
+            <target state="new">Queries that are frequently executed may be prioritized higher.</target>
+          </trans-unit>
+          <trans-unit id="197" translate="yes" xml:space="preserve">
+            <source>However, an important but rarely used query may have low latency requirements that could rank it higher on the priority list.</source>
+            <target state="new">However, an important but rarely used query may have low latency requirements that could rank it higher on the priority list.</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="198" translate="yes" xml:space="preserve">
+            <source>Choosing the PartitionKey</source>
+            <target state="new">Choosing the PartitionKey</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="199" translate="yes" xml:space="preserve">
+            <source>The core of any table's design is based on its scalability, the queries used to access it, and storage operation requirements.</source>
+            <target state="new">The core of any table's design is based on its scalability, the queries used to access it, and storage operation requirements.</target>
+          </trans-unit>
+          <trans-unit id="200" translate="yes" xml:space="preserve">
+            <source>The PartitionKey values you choose will dictate how a table will be partitioned and the type of queries that can be used.</source>
+            <target state="new">The PartitionKey values you choose will dictate how a table will be partitioned and the type of queries that can be used.</target>
+          </trans-unit>
+          <trans-unit id="201" translate="yes" xml:space="preserve">
+            <source>Storage operations, in particular inserts, can also affect your choice of PartitionKey values.</source>
+            <target state="new">Storage operations, in particular inserts, can also affect your choice of PartitionKey values.</target>
+          </trans-unit>
+          <trans-unit id="202" translate="yes" xml:space="preserve">
+            <source>The PartitionKey values can range from single values to unique values and also can be composed from multiple values.</source>
+            <target state="new">The PartitionKey values can range from single values to unique values and also can be composed from multiple values.</target>
+          </trans-unit>
+          <trans-unit id="203" translate="yes" xml:space="preserve">
+            <source>Entity properties can be composed to form the PartitionKey value.</source>
+            <target state="new">Entity properties can be composed to form the PartitionKey value.</target>
+          </trans-unit>
+          <trans-unit id="204" translate="yes" xml:space="preserve">
+            <source>Additionally, the application can compute the value.</source>
+            <target state="new">Additionally, the application can compute the value.</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="205" translate="yes" xml:space="preserve">
+            <source>Considering Entity Group Transactions</source>
+            <target state="new">Considering Entity Group Transactions</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="206" translate="yes" xml:space="preserve">
+            <source>Developers should first consider if the application will use entity group transactions (batch updates).</source>
+            <target state="new">Developers should first consider if the application will use entity group transactions (batch updates).</target>
+          </trans-unit>
+          <trans-unit id="207" translate="yes" xml:space="preserve">
+            <source>Entity group transactions require entities to have the same PartitionKey value.</source>
+            <target state="new">Entity group transactions require entities to have the same PartitionKey value.</target>
+          </trans-unit>
+          <trans-unit id="208" translate="yes" xml:space="preserve">
+            <source>Also, because batch updates are for an entire group, the choices for PartitionKey values can be limited.</source>
+            <target state="new">Also, because batch updates are for an entire group, the choices for PartitionKey values can be limited.</target>
+          </trans-unit>
+          <trans-unit id="209" translate="yes" xml:space="preserve">
+            <source>For example, a banking application that maintains cash transactions must insert cash transactions into the table atomically.</source>
+            <target state="new">For example, a banking application that maintains cash transactions must insert cash transactions into the table atomically.</target>
+          </trans-unit>
+          <trans-unit id="210" translate="yes" xml:space="preserve">
+            <source>This is because cash transactions represent both the debit and the credit sides and must net to zero.</source>
+            <target state="new">This is because cash transactions represent both the debit and the credit sides and must net to zero.</target>
+          </trans-unit>
+          <trans-unit id="211" translate="yes" xml:space="preserve">
+            <source>This requirement means that the account number cannot be used as any part of the PartitionKey because each side of the transaction uses different account numbers.</source>
+            <target state="new">This requirement means that the account number cannot be used as any part of the PartitionKey because each side of the transaction uses different account numbers.</target>
+          </trans-unit>
+          <trans-unit id="212" translate="yes" xml:space="preserve">
+            <source>Instead, a transaction ID may be a more natural choice.</source>
+            <target state="new">Instead, a transaction ID may be a more natural choice.</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="213" translate="yes" xml:space="preserve">
+            <source>Considering Partitions</source>
+            <target state="new">Considering Partitions</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="214" translate="yes" xml:space="preserve">
+            <source>Partition numbers and sizes affect the scalability of a table that is under load and are controlled by how granular the PartitionKey values are.</source>
+            <target state="new">Partition numbers and sizes affect the scalability of a table that is under load and are controlled by how granular the PartitionKey values are.</target>
+          </trans-unit>
+          <trans-unit id="215" translate="yes" xml:space="preserve">
+            <source>It can be challenging to determine the PartitionKey based on the partition size, especially if the distribution of values is hard to predict.</source>
+            <target state="new">It can be challenging to determine the PartitionKey based on the partition size, especially if the distribution of values is hard to predict.</target>
+          </trans-unit>
+          <trans-unit id="216" translate="yes" xml:space="preserve">
+            <source>A good rule of thumb is to use multiple, smaller partitions.</source>
+            <target state="new">A good rule of thumb is to use multiple, smaller partitions.</target>
+          </trans-unit>
+          <trans-unit id="217" translate="yes" xml:space="preserve">
+            <source>Many table partitions make it easier for the Azure Table service to manage the storage nodes in which the partitions are served from.</source>
+            <target state="new">Many table partitions make it easier for the Azure Table service to manage the storage nodes in which the partitions are served from.</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="218" translate="yes" xml:space="preserve">
+            <source>Choosing unique or finer values for the PartitionKey will result in smaller but many partitions.</source>
+            <target state="new">Choosing unique or finer values for the PartitionKey will result in smaller but many partitions.</target>
+          </trans-unit>
+          <trans-unit id="219" translate="yes" xml:space="preserve">
+            <source>This is generally favorable because the system can load balance the many partitions to distribute the load across many partitions.</source>
+            <target state="new">This is generally favorable because the system can load balance the many partitions to distribute the load across many partitions.</target>
+          </trans-unit>
+          <trans-unit id="220" translate="yes" xml:space="preserve">
+            <source>However, you should consider the effect of having many partitions on cross-partition range queries.</source>
+            <target state="new">However, you should consider the effect of having many partitions on cross-partition range queries.</target>
+          </trans-unit>
+          <trans-unit id="221" translate="yes" xml:space="preserve">
+            <source>These type of queries must visit multiple partitions to satisfy the query.</source>
+            <target state="new">These type of queries must visit multiple partitions to satisfy the query.</target>
+          </trans-unit>
+          <trans-unit id="222" translate="yes" xml:space="preserve">
+            <source>It is possible that the partitions are distributed across many partition servers.</source>
+            <target state="new">It is possible that the partitions are distributed across many partition servers.</target>
+          </trans-unit>
+          <trans-unit id="223" translate="yes" xml:space="preserve">
+            <source>If a query crosses a server boundary, continuation tokens must be returned.</source>
+            <target state="new">If a query crosses a server boundary, continuation tokens must be returned.</target>
+          </trans-unit>
+          <trans-unit id="224" translate="yes" xml:space="preserve">
+            <source>Continuation tokens specify the next PartitionKey or RowKey values that will retrieve the next set of data for the query.</source>
+            <target state="new">Continuation tokens specify the next PartitionKey or RowKey values that will retrieve the next set of data for the query.</target>
+          </trans-unit>
+          <trans-unit id="225" translate="yes" xml:space="preserve">
+            <source>In other words, continuation tokens represent at least one more request to the service which can degrade the overall performance of the query.</source>
+            <target state="new">In other words, continuation tokens represent at least one more request to the service which can degrade the overall performance of the query.</target>
+          </trans-unit>
+          <trans-unit id="226" translate="yes" xml:space="preserve">
+            <source>Query selectivity is another factor that can affect the performance of the query.</source>
+            <target state="new">Query selectivity is another factor that can affect the performance of the query.</target>
+          </trans-unit>
+          <trans-unit id="227" translate="yes" xml:space="preserve">
+            <source>Query selectivity is a measure of how many rows must be iterated for each partition.</source>
+            <target state="new">Query selectivity is a measure of how many rows must be iterated for each partition.</target>
+          </trans-unit>
+          <trans-unit id="228" translate="yes" xml:space="preserve">
+            <source>The more selective a query is, the more efficient it is at returning the desired rows.</source>
+            <target state="new">The more selective a query is, the more efficient it is at returning the desired rows.</target>
+          </trans-unit>
+          <trans-unit id="229" translate="yes" xml:space="preserve">
+            <source>The overall performance of range queries may depend on the number of partition servers that must be touched or how selective the query is.</source>
+            <target state="new">The overall performance of range queries may depend on the number of partition servers that must be touched or how selective the query is.</target>
+          </trans-unit>
+          <trans-unit id="230" translate="yes" xml:space="preserve">
+            <source>You also should avoid using the append or prepend only patterns when inserting data into your table.</source>
+            <target state="new">You also should avoid using the append or prepend only patterns when inserting data into your table.</target>
+          </trans-unit>
+          <trans-unit id="231" translate="yes" xml:space="preserve">
+            <source>Using such patterns, despite creating small and many partitions, can limit the throughput of your insert operations.</source>
+            <target state="new">Using such patterns, despite creating small and many partitions, can limit the throughput of your insert operations.</target>
+          </trans-unit>
+          <trans-unit id="232" translate="yes" xml:space="preserve">
+            <source>The append and prepend only patterns are discussed in "Range Partitions" section.</source>
+            <target state="new">The append and prepend only patterns are discussed in "Range Partitions" section.</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="233" translate="yes" xml:space="preserve">
+            <source>Considering Queries</source>
+            <target state="new">Considering Queries</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="234" translate="yes" xml:space="preserve">
+            <source>Knowing the queries that you will be using  will allow you to determine which properties are important to consider for the PartitionKey.</source>
+            <target state="new">Knowing the queries that you will be using  will allow you to determine which properties are important to consider for the PartitionKey.</target>
+          </trans-unit>
+          <trans-unit id="235" translate="yes" xml:space="preserve">
+            <source>The properties that are used in the queries are candidates for the PartitionKey.</source>
+            <target state="new">The properties that are used in the queries are candidates for the PartitionKey.</target>
+          </trans-unit>
+          <trans-unit id="236" translate="yes" xml:space="preserve">
+            <source>The following table provides a general guideline of how to determine the PartitionKey.</source>
+            <target state="new">The following table provides a general guideline of how to determine the PartitionKey.</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="237" translate="yes" xml:space="preserve">
+            <source>If the entity…</source>
+            <target state="new">If the entity…</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="238" translate="yes" xml:space="preserve">
+            <source>Action</source>
+            <target state="new">Action</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="239" translate="yes" xml:space="preserve">
+            <source>Has one key property</source>
+            <target state="new">Has one key property</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="240" translate="yes" xml:space="preserve">
+            <source>Use it as the PartitionKey</source>
+            <target state="new">Use it as the PartitionKey</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="241" translate="yes" xml:space="preserve">
+            <source>Has two key properties</source>
+            <target state="new">Has two key properties</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="242" translate="yes" xml:space="preserve">
+            <source>Use one as the PartitionKey and the other as the RowKey</source>
+            <target state="new">Use one as the PartitionKey and the other as the RowKey</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="243" translate="yes" xml:space="preserve">
+            <source>Has more than two key properties</source>
+            <target state="new">Has more than two key properties</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="244" translate="yes" xml:space="preserve">
+            <source>Use a composite key of concatenated values</source>
+            <target state="new">Use a composite key of concatenated values</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="245" translate="yes" xml:space="preserve">
+            <source>If there is more than one equally dominant query, you can insert the information multiple times with different RowKey values that you need.</source>
+            <target state="new">If there is more than one equally dominant query, you can insert the information multiple times with different RowKey values that you need.</target>
+          </trans-unit>
+          <trans-unit id="246" translate="yes" xml:space="preserve">
+            <source>The secondary (or tertiary, etc) rows will be managed by your application.</source>
+            <target state="new">The secondary (or tertiary, etc) rows will be managed by your application.</target>
+          </trans-unit>
+          <trans-unit id="247" translate="yes" xml:space="preserve">
+            <source>This pattern will allow you to satisfy the performance requirements of your queries.</source>
+            <target state="new">This pattern will allow you to satisfy the performance requirements of your queries.</target>
+          </trans-unit>
+          <trans-unit id="248" translate="yes" xml:space="preserve">
+            <source>The following example uses the data from the footrace registration example.</source>
+            <target state="new">The following example uses the data from the footrace registration example.</target>
+          </trans-unit>
+          <trans-unit id="249" translate="yes" xml:space="preserve">
+            <source>It has two dominant queries.</source>
+            <target state="new">It has two dominant queries.</target>
+          </trans-unit>
+          <trans-unit id="250" translate="yes" xml:space="preserve">
+            <source>They are:</source>
+            <target state="new">They are:</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="251" translate="yes" xml:space="preserve">
+            <source>Query by bib number</source>
+            <target state="new">Query by bib number</target>
+          </trans-unit>
+        </group>
+        <group id="123">
+          <trans-unit id="252" translate="yes" xml:space="preserve">
+            <source>Query by age</source>
+            <target state="new">Query by age</target>
+          </trans-unit>
+        </group>
+        <group id="124">
+          <trans-unit id="253" translate="yes" xml:space="preserve">
+            <source>To serve both dominant queries, insert two rows as an entity group transaction.</source>
+            <target state="new">To serve both dominant queries, insert two rows as an entity group transaction.</target>
+          </trans-unit>
+          <trans-unit id="254" translate="yes" xml:space="preserve">
+            <source>The following table shows the Partitionkey and RowKey properties for this scenario.</source>
+            <target state="new">The following table shows the Partitionkey and RowKey properties for this scenario.</target>
+          </trans-unit>
+          <trans-unit id="255" translate="yes" xml:space="preserve">
+            <source>The RowKey values provide a prefix for the bib and age to enable the application to distinguish from the two values.</source>
+            <target state="new">The RowKey values provide a prefix for the bib and age to enable the application to distinguish from the two values.</target>
+          </trans-unit>
+        </group>
+        <group id="125">
+          <trans-unit id="256" translate="yes" xml:space="preserve">
+            <source>PartitionKey</source>
+            <target state="new">PartitionKey</target>
+          </trans-unit>
+        </group>
+        <group id="126">
+          <trans-unit id="257" translate="yes" xml:space="preserve">
+            <source>RowKey</source>
+            <target state="new">RowKey</target>
+          </trans-unit>
+        </group>
+        <group id="127">
+          <trans-unit id="258" translate="yes" xml:space="preserve">
+            <source>2011 New York City Marathon__Full</source>
+            <target state="new">2011 New York City Marathon__Full</target>
+          </trans-unit>
+        </group>
+        <group id="128">
+          <trans-unit id="259" translate="yes" xml:space="preserve">
+            <source>BIB:01234__John__M__55</source>
+            <target state="new">BIB:01234__John__M__55</target>
+          </trans-unit>
+        </group>
+        <group id="129">
+          <trans-unit id="260" translate="yes" xml:space="preserve">
+            <source>2011 New York City Marathon__Full</source>
+            <target state="new">2011 New York City Marathon__Full</target>
+          </trans-unit>
+        </group>
+        <group id="130">
+          <trans-unit id="261" translate="yes" xml:space="preserve">
+            <source>AGE:055__1234__John__M</source>
+            <target state="new">AGE:055__1234__John__M</target>
+          </trans-unit>
+        </group>
+        <group id="131">
+          <trans-unit id="262" translate="yes" xml:space="preserve">
+            <source>In this example, an entity group transaction is possible because the PartitionKey values are the same.</source>
+            <target state="new">In this example, an entity group transaction is possible because the PartitionKey values are the same.</target>
+          </trans-unit>
+          <trans-unit id="263" translate="yes" xml:space="preserve">
+            <source>The group transaction provide atomicity of the insert operation.</source>
+            <target state="new">The group transaction provide atomicity of the insert operation.</target>
+          </trans-unit>
+          <trans-unit id="264" translate="yes" xml:space="preserve">
+            <source>Although it is possible to use this pattern with different PartitionKey values, it is recommended that you use the same values to gain this benefit.</source>
+            <target state="new">Although it is possible to use this pattern with different PartitionKey values, it is recommended that you use the same values to gain this benefit.</target>
+          </trans-unit>
+          <trans-unit id="265" translate="yes" xml:space="preserve">
+            <source>Otherwise, you may have to write extra logic to ensure atomic transactions with different PartitonKey values.</source>
+            <target state="new">Otherwise, you may have to write extra logic to ensure atomic transactions with different PartitonKey values.</target>
+          </trans-unit>
+        </group>
+        <group id="132">
+          <trans-unit id="266" translate="yes" xml:space="preserve">
+            <source>Considering Storage Operations</source>
+            <target state="new">Considering Storage Operations</target>
+          </trans-unit>
+        </group>
+        <group id="133">
+          <trans-unit id="267" translate="yes" xml:space="preserve">
+            <source>Azure tables can encounter load not just from queries, but also storage operations such as inserts, updates, and deletes.</source>
+            <target state="new">Azure tables can encounter load not just from queries, but also storage operations such as inserts, updates, and deletes.</target>
+          </trans-unit>
+          <trans-unit id="268" translate="yes" xml:space="preserve">
+            <source>You need to consider what type of storage operations you will be performing on the table and at what rate.</source>
+            <target state="new">You need to consider what type of storage operations you will be performing on the table and at what rate.</target>
+          </trans-unit>
+          <trans-unit id="269" translate="yes" xml:space="preserve">
+            <source>If you are performing these operations infrequently, then you may not need to worry about them.</source>
+            <target state="new">If you are performing these operations infrequently, then you may not need to worry about them.</target>
+          </trans-unit>
+          <trans-unit id="270" translate="yes" xml:space="preserve">
+            <source>However, for very frequent operations such as performing many inserts in a short period, you will need to consider how those operations are served as a result of the PartitionKey values that you choose.</source>
+            <target state="new">However, for very frequent operations such as performing many inserts in a short period, you will need to consider how those operations are served as a result of the PartitionKey values that you choose.</target>
+          </trans-unit>
+          <trans-unit id="271" translate="yes" xml:space="preserve">
+            <source>One important example is the append or prepend-only patterns.</source>
+            <target state="new">One important example is the append or prepend-only patterns.</target>
+          </trans-unit>
+          <trans-unit id="272" translate="yes" xml:space="preserve">
+            <source>These patterns were discussed in the previous section "Range Partitions."</source>
+            <target state="new">These patterns were discussed in the previous section "Range Partitions."</target>
+          </trans-unit>
+          <trans-unit id="273" translate="yes" xml:space="preserve">
+            <source>When the append or prepend-only pattern is used, it means that you are using unique ascending or descending values for the PartitionKey on subsequent insertions.</source>
+            <target state="new">When the append or prepend-only pattern is used, it means that you are using unique ascending or descending values for the PartitionKey on subsequent insertions.</target>
+          </trans-unit>
+          <trans-unit id="274" translate="yes" xml:space="preserve">
+            <source>If you combine this pattern with frequent insert operations, then your table will not be able service the insert operations with great scalability.</source>
+            <target state="new">If you combine this pattern with frequent insert operations, then your table will not be able service the insert operations with great scalability.</target>
+          </trans-unit>
+          <trans-unit id="275" translate="yes" xml:space="preserve">
+            <source>The scalability of your table is affected because Azure will not be able to load balance the operation requests to other partition servers.</source>
+            <target state="new">The scalability of your table is affected because Azure will not be able to load balance the operation requests to other partition servers.</target>
+          </trans-unit>
+          <trans-unit id="276" translate="yes" xml:space="preserve">
+            <source>Therefore, in this case, you may want to consider using values that are random, such as GUID values.</source>
+            <target state="new">Therefore, in this case, you may want to consider using values that are random, such as GUID values.</target>
+          </trans-unit>
+          <trans-unit id="277" translate="yes" xml:space="preserve">
+            <source>This will allow your partition sizes to remain small while maintaining load balancing during storage operations.</source>
+            <target state="new">This will allow your partition sizes to remain small while maintaining load balancing during storage operations.</target>
+          </trans-unit>
+        </group>
+        <group id="134">
+          <trans-unit id="278" translate="yes" xml:space="preserve">
+            <source>Table Partition Stress Testing</source>
+            <target state="new">Table Partition Stress Testing</target>
+          </trans-unit>
+        </group>
+        <group id="135">
+          <trans-unit id="279" translate="yes" xml:space="preserve">
+            <source>When the PartitionKey value is complex or requires comparisons to other PartitionKey mappings, you may need to test the table's performance.</source>
+            <target state="new">When the PartitionKey value is complex or requires comparisons to other PartitionKey mappings, you may need to test the table's performance.</target>
+          </trans-unit>
+          <trans-unit id="280" translate="yes" xml:space="preserve">
+            <source>The test should examine how well a partition performs under peak loads.</source>
+            <target state="new">The test should examine how well a partition performs under peak loads.</target>
+          </trans-unit>
+        </group>
+        <group id="136">
+          <trans-unit id="281" translate="yes" xml:space="preserve">
+            <source>To perform a stress test</source>
+            <target state="new">To perform a stress test</target>
+          </trans-unit>
+        </group>
+        <group id="137">
+          <trans-unit id="282" translate="yes" xml:space="preserve">
+            <source>Create a test table.</source>
+            <target state="new">Create a test table.</target>
+          </trans-unit>
+        </group>
+        <group id="138">
+          <trans-unit id="283" translate="yes" xml:space="preserve">
+            <source>Load the test table with data so that it contains entities with the PartitionKey that you will be targeting.</source>
+            <target state="new">Load the test table with data so that it contains entities with the PartitionKey that you will be targeting.</target>
+          </trans-unit>
+        </group>
+        <group id="139">
+          <trans-unit id="284" translate="yes" xml:space="preserve">
+            <source>Use the application to simulate peak load to the table, and target a single partition by using the PartitionKey from step 2.</source>
+            <target state="new">Use the application to simulate peak load to the table, and target a single partition by using the PartitionKey from step 2.</target>
+          </trans-unit>
+          <trans-unit id="285" translate="yes" xml:space="preserve">
+            <source>This step is different for every application, but the simulation should include all the necessary queries and storage operations.</source>
+            <target state="new">This step is different for every application, but the simulation should include all the necessary queries and storage operations.</target>
+          </trans-unit>
+          <trans-unit id="286" translate="yes" xml:space="preserve">
+            <source>The application may need to be tweaked so that it targets a single partition.</source>
+            <target state="new">The application may need to be tweaked so that it targets a single partition.</target>
+          </trans-unit>
+        </group>
+        <group id="140">
+          <trans-unit id="287" translate="yes" xml:space="preserve">
+            <source>Examine the throughput of the GET or PUT operations on the table.</source>
+            <target state="new">Examine the throughput of the GET or PUT operations on the table.</target>
+          </trans-unit>
+        </group>
+        <group id="141">
+          <trans-unit id="288" translate="yes" xml:space="preserve">
+            <source>To examine the throughput, compare the actual values to the specified limit of a single partition on a single server.</source>
+            <target state="new">To examine the throughput, compare the actual values to the specified limit of a single partition on a single server.</target>
+          </trans-unit>
+          <trans-unit id="289" translate="yes" xml:space="preserve">
+            <source>Partitions are limited to 500 entities per second.</source>
+            <target state="new">Partitions are limited to 500 entities per second.</target>
+          </trans-unit>
+          <trans-unit id="290" translate="yes" xml:space="preserve">
+            <source>If the throughput exceeds 500 entities per second for a partition, the server may run too hot in a production setting.</source>
+            <target state="new">If the throughput exceeds 500 entities per second for a partition, the server may run too hot in a production setting.</target>
+          </trans-unit>
+          <trans-unit id="291" translate="yes" xml:space="preserve">
+            <source>In this case, the PartitionKey values may be too coarse, so that there are not enough partitions or the partitions are too large.</source>
+            <target state="new">In this case, the PartitionKey values may be too coarse, so that there are not enough partitions or the partitions are too large.</target>
+          </trans-unit>
+          <trans-unit id="292" translate="yes" xml:space="preserve">
+            <source>You may need to modify the PartitionKey value so that the partitions can be distributed among more servers.</source>
+            <target state="new">You may need to modify the PartitionKey value so that the partitions can be distributed among more servers.</target>
+          </trans-unit>
+        </group>
+        <group id="142">
+          <trans-unit id="293" translate="yes" xml:space="preserve">
+            <source>Load Balancing</source>
+            <target state="new">Load Balancing</target>
+          </trans-unit>
+        </group>
+        <group id="143">
+          <trans-unit id="294" translate="yes" xml:space="preserve">
+            <source>Load balancing at the partition layer occurs when a partition gets too hot, which means the partition, specifically the partition server, is operating beyond its target scalability.</source>
+            <target state="new">Load balancing at the partition layer occurs when a partition gets too hot, which means the partition, specifically the partition server, is operating beyond its target scalability.</target>
+          </trans-unit>
+          <trans-unit id="295" translate="yes" xml:space="preserve">
+            <source>For Azure storage, each partition has a scalability target of 500 entities per second.</source>
+            <target state="new">For Azure storage, each partition has a scalability target of 500 entities per second.</target>
+          </trans-unit>
+          <trans-unit id="296" translate="yes" xml:space="preserve">
+            <source>Load balancing also occurs at the Distributed File System layer, or DFS layer.</source>
+            <target state="new">Load balancing also occurs at the Distributed File System layer, or DFS layer.</target>
+          </trans-unit>
+          <trans-unit id="297" translate="yes" xml:space="preserve">
+            <source>The load balancing at the DFS layer deals with I/O load, and is outside the scope of this article.</source>
+            <target state="new">The load balancing at the DFS layer deals with I/O load, and is outside the scope of this article.</target>
+          </trans-unit>
+          <trans-unit id="298" translate="yes" xml:space="preserve">
+            <source>Load balancing at the partition layer does not immediately occur after exceeding the scalability target.</source>
+            <target state="new">Load balancing at the partition layer does not immediately occur after exceeding the scalability target.</target>
+          </trans-unit>
+          <trans-unit id="299" translate="yes" xml:space="preserve">
+            <source>Instead, the system waits a few minutes before beginning the load balancing process.</source>
+            <target state="new">Instead, the system waits a few minutes before beginning the load balancing process.</target>
+          </trans-unit>
+          <trans-unit id="300" translate="yes" xml:space="preserve">
+            <source>This ensures that a partition has truly become hot.</source>
+            <target state="new">This ensures that a partition has truly become hot.</target>
+          </trans-unit>
+          <trans-unit id="301" translate="yes" xml:space="preserve">
+            <source>It is not necessary to prime partitions with generated load that triggers load balancing because the system will automatically perform the task.</source>
+            <target state="new">It is not necessary to prime partitions with generated load that triggers load balancing because the system will automatically perform the task.</target>
+          </trans-unit>
+          <trans-unit id="302" translate="yes" xml:space="preserve">
+            <source>It may be possible that if a table was primed with a certain load, the system will balance the partitions based on actual load, which results in a very different distribution of the partitions.</source>
+            <target state="new">It may be possible that if a table was primed with a certain load, the system will balance the partitions based on actual load, which results in a very different distribution of the partitions.</target>
+          </trans-unit>
+          <trans-unit id="303" translate="yes" xml:space="preserve">
+            <source>Instead of priming partitions, you should consider writing code that handles the Timeout and Server Busy errors.</source>
+            <target state="new">Instead of priming partitions, you should consider writing code that handles the Timeout and Server Busy errors.</target>
+          </trans-unit>
+          <trans-unit id="304" translate="yes" xml:space="preserve">
+            <source>Such errors are returned when the system is performing load balancing.</source>
+            <target state="new">Such errors are returned when the system is performing load balancing.</target>
+          </trans-unit>
+          <trans-unit id="305" translate="yes" xml:space="preserve">
+            <source>By handling those errors using a retry strategy, your application can better handle peak load.</source>
+            <target state="new">By handling those errors using a retry strategy, your application can better handle peak load.</target>
+          </trans-unit>
+          <trans-unit id="306" translate="yes" xml:space="preserve">
+            <source>Retry strategies are discussed in more detail in the following section.</source>
+            <target state="new">Retry strategies are discussed in more detail in the following section.</target>
+          </trans-unit>
+          <trans-unit id="307" translate="yes" xml:space="preserve">
+            <source>When load balancing occurs, the partition will become offline for a few seconds.</source>
+            <target state="new">When load balancing occurs, the partition will become offline for a few seconds.</target>
+          </trans-unit>
+          <trans-unit id="308" translate="yes" xml:space="preserve">
+            <source>During the offline period, the system is reassigning the partition to a different partition server.</source>
+            <target state="new">During the offline period, the system is reassigning the partition to a different partition server.</target>
+          </trans-unit>
+          <trans-unit id="309" translate="yes" xml:space="preserve">
+            <source>It is important to note that your data is not stored by the partition servers.</source>
+            <target state="new">It is important to note that your data is not stored by the partition servers.</target>
+          </trans-unit>
+          <trans-unit id="310" translate="yes" xml:space="preserve">
+            <source>Instead, the partition servers serve entities from the DFS layer.</source>
+            <target state="new">Instead, the partition servers serve entities from the DFS layer.</target>
+          </trans-unit>
+          <trans-unit id="311" translate="yes" xml:space="preserve">
+            <source>Because your data is not stored at the partition layer, moving partitions to different servers is a fast process.</source>
+            <target state="new">Because your data is not stored at the partition layer, moving partitions to different servers is a fast process.</target>
+          </trans-unit>
+          <trans-unit id="312" translate="yes" xml:space="preserve">
+            <source>This greatly limits the period of downtime, if any, that your application may encounter.</source>
+            <target state="new">This greatly limits the period of downtime, if any, that your application may encounter.</target>
+          </trans-unit>
+        </group>
+        <group id="144">
+          <trans-unit id="313" translate="yes" xml:space="preserve">
+            <source>Using a Retry Strategy</source>
+            <target state="new">Using a Retry Strategy</target>
+          </trans-unit>
+        </group>
+        <group id="145">
+          <trans-unit id="314" translate="yes" xml:space="preserve">
+            <source>It is important for your application to handle storage operation failures to ensure that you do not lose any data updates.</source>
+            <target state="new">It is important for your application to handle storage operation failures to ensure that you do not lose any data updates.</target>
+          </trans-unit>
+          <trans-unit id="315" translate="yes" xml:space="preserve">
+            <source>Some failures do not require a retry strategy.</source>
+            <target state="new">Some failures do not require a retry strategy.</target>
+          </trans-unit>
+          <trans-unit id="316" translate="yes" xml:space="preserve">
+            <source>For example, updates that return a 401 Unauthorized error will not benefit from retrying the operation because it is likely the application state will not change between retries that will resolve the 401 error.</source>
+            <target state="new">For example, updates that return a 401 Unauthorized error will not benefit from retrying the operation because it is likely the application state will not change between retries that will resolve the 401 error.</target>
+          </trans-unit>
+          <trans-unit id="317" translate="yes" xml:space="preserve">
+            <source>However, certain errors, such as Server Busy or Timeout, are related to the load balancing features of Azure that provide table scalability.</source>
+            <target state="new">However, certain errors, such as Server Busy or Timeout, are related to the load balancing features of Azure that provide table scalability.</target>
+          </trans-unit>
+          <trans-unit id="318" translate="yes" xml:space="preserve">
+            <source>When the storage nodes serving your entities become hot, Azure will balance the load by moving partitions to other nodes.</source>
+            <target state="new">When the storage nodes serving your entities become hot, Azure will balance the load by moving partitions to other nodes.</target>
+          </trans-unit>
+          <trans-unit id="319" translate="yes" xml:space="preserve">
+            <source>During this time, the partition may be inaccessible which results in the Server Busy or Timeout errors.</source>
+            <target state="new">During this time, the partition may be inaccessible which results in the Server Busy or Timeout errors.</target>
+          </trans-unit>
+          <trans-unit id="320" translate="yes" xml:space="preserve">
+            <source>Eventually, the partition will be reenabled and updates can resume.</source>
+            <target state="new">Eventually, the partition will be reenabled and updates can resume.</target>
+          </trans-unit>
+          <trans-unit id="321" translate="yes" xml:space="preserve">
+            <source>A retry strategy is appropriate for busy and timeout errors.</source>
+            <target state="new">A retry strategy is appropriate for busy and timeout errors.</target>
+          </trans-unit>
+          <trans-unit id="322" translate="yes" xml:space="preserve">
+            <source>In most cases, you can exclude 400-level errors and some 500-level errors from the retry logic, such as 501 Not Implemented or 505 HTTP Version Not Supported, and implement a retry strategy for some 500-level errors, such as Server Busy (503) and Timeout (504).</source>
+            <target state="new">In most cases, you can exclude 400-level errors and some 500-level errors from the retry logic, such as 501 Not Implemented or 505 HTTP Version Not Supported, and implement a retry strategy for some 500-level errors, such as Server Busy (503) and Timeout (504).</target>
+          </trans-unit>
+        </group>
+        <group id="146">
+          <trans-unit id="323" translate="yes" xml:space="preserve">
+            <source>There are three common retry strategies that you can use for your application.</source>
+            <target state="new">There are three common retry strategies that you can use for your application.</target>
+          </trans-unit>
+          <trans-unit id="324" translate="yes" xml:space="preserve">
+            <source>The following is a list of those retry strategies and their descriptions:</source>
+            <target state="new">The following is a list of those retry strategies and their descriptions:</target>
+          </trans-unit>
+        </group>
+        <group id="147">
+          <trans-unit id="325" translate="yes" xml:space="preserve">
+            <source>No Retry – No retry attempt is made</source>
+            <target state="new">No Retry – No retry attempt is made</target>
+          </trans-unit>
+        </group>
+        <group id="148">
+          <trans-unit id="326" translate="yes" xml:space="preserve">
+            <source>Fixed Backoff – The operation is retried N times with a constant backoff value</source>
+            <target state="new">Fixed Backoff – The operation is retried N times with a constant backoff value</target>
+          </trans-unit>
+        </group>
+        <group id="149">
+          <trans-unit id="327" translate="yes" xml:space="preserve">
+            <source>Exponential Backoff – The operation is retried N times with an exponential backoff value</source>
+            <target state="new">Exponential Backoff – The operation is retried N times with an exponential backoff value</target>
+          </trans-unit>
+        </group>
+        <group id="150">
+          <trans-unit id="328" translate="yes" xml:space="preserve">
+            <source>The No Retry strategy is a simple (and evasive) way to handle operation failures.</source>
+            <target state="new">The No Retry strategy is a simple (and evasive) way to handle operation failures.</target>
+          </trans-unit>
+          <trans-unit id="329" translate="yes" xml:space="preserve">
+            <source>However it is not very useful.</source>
+            <target state="new">However it is not very useful.</target>
+          </trans-unit>
+          <trans-unit id="330" translate="yes" xml:space="preserve">
+            <source>Not imposing any retry attempts poses obvious risks with data not being stored correctly after failed operations.</source>
+            <target state="new">Not imposing any retry attempts poses obvious risks with data not being stored correctly after failed operations.</target>
+          </trans-unit>
+          <trans-unit id="331" translate="yes" xml:space="preserve">
+            <source>Therefore, a better strategy is to use the Fixed Backoff strategy that provides the ability to retry operations with the same backoff duration.</source>
+            <target state="new">Therefore, a better strategy is to use the Fixed Backoff strategy that provides the ability to retry operations with the same backoff duration.</target>
+          </trans-unit>
+          <trans-unit id="332" translate="yes" xml:space="preserve">
+            <source>However, this strategy is not optimized for handling highly scalable tables because if many threads or processes are waiting for the same duration, collisions can occur.</source>
+            <target state="new">However, this strategy is not optimized for handling highly scalable tables because if many threads or processes are waiting for the same duration, collisions can occur.</target>
+          </trans-unit>
+          <trans-unit id="333" translate="yes" xml:space="preserve">
+            <source>The recommended retry strategy is one that uses an exponential backoff where each retry attempt is longer than the last attempt.</source>
+            <target state="new">The recommended retry strategy is one that uses an exponential backoff where each retry attempt is longer than the last attempt.</target>
+          </trans-unit>
+          <trans-unit id="334" translate="yes" xml:space="preserve">
+            <source>It is similar to the collision avoidance (CA) algorithm used in computer networks, such as Ethernet.</source>
+            <target state="new">It is similar to the collision avoidance (CA) algorithm used in computer networks, such as Ethernet.</target>
+          </trans-unit>
+          <trans-unit id="335" translate="yes" xml:space="preserve">
+            <source>The exponential backoff uses a random factor to provide an additional variance to the resulting interval.</source>
+            <target state="new">The exponential backoff uses a random factor to provide an additional variance to the resulting interval.</target>
+          </trans-unit>
+          <trans-unit id="336" translate="yes" xml:space="preserve">
+            <source>The backoff value is then constrained to minimum and maximum limits.</source>
+            <target state="new">The backoff value is then constrained to minimum and maximum limits.</target>
+          </trans-unit>
+          <trans-unit id="337" translate="yes" xml:space="preserve">
+            <source>The following formula can be used for calculating the next backoff value using an exponential algorithm:</source>
+            <target state="new">The following formula can be used for calculating the next backoff value using an exponential algorithm:</target>
+          </trans-unit>
+        </group>
+        <group id="151">
+          <trans-unit id="338" translate="yes" xml:space="preserve">
+            <source>y = Rand(0.8z, 1.2z)(2<bpt id="1">&lt;superscript&gt;</bpt>x<ept id="1">&lt;/superscript&gt;</ept>-1</source>
+            <target state="new">y = Rand(0.8z, 1.2z)(2<bpt id="1">&lt;superscript&gt;</bpt>x<ept id="1">&lt;/superscript&gt;</ept>-1</target>
+          </trans-unit>
+        </group>
+        <group id="152">
+          <trans-unit id="339" translate="yes" xml:space="preserve">
+            <source>y = Min(z<bpt id="1">&lt;subscript&gt;</bpt>min<ept id="1">&lt;/subscript&gt;</ept> + y, z<bpt id="2">&lt;subscript&gt;</bpt>max<ept id="2">&lt;/subscript&gt;</ept></source>
+            <target state="new">y = Min(z<bpt id="1">&lt;subscript&gt;</bpt>min<ept id="1">&lt;/subscript&gt;</ept> + y, z<bpt id="2">&lt;subscript&gt;</bpt>max<ept id="2">&lt;/subscript&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="153">
+          <trans-unit id="340" translate="yes" xml:space="preserve">
+            <source>     Where:</source>
+            <target state="new">     Where:</target>
+          </trans-unit>
+        </group>
+        <group id="154">
+          <trans-unit id="341" translate="yes" xml:space="preserve">
+            <source>     z = default backoff in milliseconds</source>
+            <target state="new">     z = default backoff in milliseconds</target>
+          </trans-unit>
+        </group>
+        <group id="155">
+          <trans-unit id="342" translate="yes" xml:space="preserve">
+            <source>     z<bpt id="1">&lt;subscript&gt;</bpt>min<ept id="1">&lt;/subscript&gt;</ept> = default minimum backoff in milliseconds</source>
+            <target state="new">     z<bpt id="1">&lt;subscript&gt;</bpt>min<ept id="1">&lt;/subscript&gt;</ept> = default minimum backoff in milliseconds</target>
+          </trans-unit>
+        </group>
+        <group id="156">
+          <trans-unit id="343" translate="yes" xml:space="preserve">
+            <source>     z<bpt id="1">&lt;subscript&gt;</bpt>max<ept id="1">&lt;/subscript&gt;</ept> = default maximum backoff in milliseconds</source>
+            <target state="new">     z<bpt id="1">&lt;subscript&gt;</bpt>max<ept id="1">&lt;/subscript&gt;</ept> = default maximum backoff in milliseconds</target>
+          </trans-unit>
+        </group>
+        <group id="157">
+          <trans-unit id="344" translate="yes" xml:space="preserve">
+            <source>     x = the number of retries</source>
+            <target state="new">     x = the number of retries</target>
+          </trans-unit>
+        </group>
+        <group id="158">
+          <trans-unit id="345" translate="yes" xml:space="preserve">
+            <source>     y = the backoff value in milliseconds</source>
+            <target state="new">     y = the backoff value in milliseconds</target>
+          </trans-unit>
+        </group>
+        <group id="159">
+          <trans-unit id="346" translate="yes" xml:space="preserve">
+            <source>The 0.8 and 1.2 multipliers used in the Rand (random) function produces a random variance of the default backoff within ±20% of the original value.</source>
+            <target state="new">The 0.8 and 1.2 multipliers used in the Rand (random) function produces a random variance of the default backoff within ±20% of the original value.</target>
+          </trans-unit>
+          <trans-unit id="347" translate="yes" xml:space="preserve">
+            <source>The ±20% range is acceptable for most retry strategies and prevents further collisions.</source>
+            <target state="new">The ±20% range is acceptable for most retry strategies and prevents further collisions.</target>
+          </trans-unit>
+          <trans-unit id="348" translate="yes" xml:space="preserve">
+            <source>The formula can be implemented using the following code:</source>
+            <target state="new">The formula can be implemented using the following code:</target>
+          </trans-unit>
+        </group>
+        <group id="160">
+          <trans-unit id="349" translate="yes" xml:space="preserve">
+            <source>Using the Storage Client Library</source>
+            <target state="new">Using the Storage Client Library</target>
+          </trans-unit>
+        </group>
+        <group id="161">
+          <trans-unit id="350" translate="yes" xml:space="preserve">
+            <source>If you are developing your application using the Azure Managed Library, you can leverage the included retry policies in the Storage Client Library.</source>
+            <target state="new">If you are developing your application using the Azure Managed Library, you can leverage the included retry policies in the Storage Client Library.</target>
+          </trans-unit>
+          <trans-unit id="351" translate="yes" xml:space="preserve">
+            <source>The retry mechanism in the library also allows you to extend the functionality with your custom retry policies.</source>
+            <target state="new">The retry mechanism in the library also allows you to extend the functionality with your custom retry policies.</target>
+          </trans-unit>
+          <trans-unit id="352" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;legacyBold&gt;</bpt>RetryPolicies<ept id="1">&lt;/legacyBold&gt;</ept> class in the <bpt id="2">&lt;legacyBold&gt;</bpt>Microsoft.WindowsAzure.StorageClient<ept id="2">&lt;/legacyBold&gt;</ept> namespace provides static methods that return a RetryPolicy object.</source>
+            <target state="new">The <bpt id="1">&lt;legacyBold&gt;</bpt>RetryPolicies<ept id="1">&lt;/legacyBold&gt;</ept> class in the <bpt id="2">&lt;legacyBold&gt;</bpt>Microsoft.WindowsAzure.StorageClient<ept id="2">&lt;/legacyBold&gt;</ept> namespace provides static methods that return a RetryPolicy object.</target>
+          </trans-unit>
+          <trans-unit id="353" translate="yes" xml:space="preserve">
+            <source>The RetryPolicy object is used in conjunction with the <bpt id="1">&lt;legacyBold&gt;</bpt>SaveChangesWithRetries<ept id="1">&lt;/legacyBold&gt;</ept> method in the <bpt id="2">&lt;legacyBold&gt;</bpt>TableServiceContext<ept id="2">&lt;/legacyBold&gt;</ept> class.</source>
+            <target state="new">The RetryPolicy object is used in conjunction with the <bpt id="1">&lt;legacyBold&gt;</bpt>SaveChangesWithRetries<ept id="1">&lt;/legacyBold&gt;</ept> method in the <bpt id="2">&lt;legacyBold&gt;</bpt>TableServiceContext<ept id="2">&lt;/legacyBold&gt;</ept> class.</target>
+          </trans-unit>
+          <trans-unit id="354" translate="yes" xml:space="preserve">
+            <source>The default policy that a TableServiceContext object uses is an instance of a RetryExponential class constructed using the RetryPolicies.DefaultClientRetryCount and RetryPolicies.DefaultClientBackoff values.</source>
+            <target state="new">The default policy that a TableServiceContext object uses is an instance of a RetryExponential class constructed using the RetryPolicies.DefaultClientRetryCount and RetryPolicies.DefaultClientBackoff values.</target>
+          </trans-unit>
+          <trans-unit id="355" translate="yes" xml:space="preserve">
+            <source>The following code shows how to construct a TableServiceContext class with a different RetryPolicy.</source>
+            <target state="new">The following code shows how to construct a TableServiceContext class with a different RetryPolicy.</target>
+          </trans-unit>
+        </group>
+        <group id="162">
+          <trans-unit id="356" translate="yes" xml:space="preserve">
+            <source>Summary</source>
+            <target state="new">Summary</target>
+          </trans-unit>
+        </group>
+        <group id="163">
+          <trans-unit id="357" translate="yes" xml:space="preserve">
+            <source>Azure Table Storage allows applications to store a massive amount of data because it manages and reassigns partitions across many storage nodes.</source>
+            <target state="new">Azure Table Storage allows applications to store a massive amount of data because it manages and reassigns partitions across many storage nodes.</target>
+          </trans-unit>
+          <trans-unit id="358" translate="yes" xml:space="preserve">
+            <source>You can use data partitioning to control the table’s scalability.</source>
+            <target state="new">You can use data partitioning to control the table’s scalability.</target>
+          </trans-unit>
+          <trans-unit id="359" translate="yes" xml:space="preserve">
+            <source>Plan ahead when you define a table's schema to ensure efficient partitioning strategies.</source>
+            <target state="new">Plan ahead when you define a table's schema to ensure efficient partitioning strategies.</target>
+          </trans-unit>
+          <trans-unit id="360" translate="yes" xml:space="preserve">
+            <source>Specifically, analyze the application’s requirements, data, and queries before you select PartitionKey values.</source>
+            <target state="new">Specifically, analyze the application’s requirements, data, and queries before you select PartitionKey values.</target>
+          </trans-unit>
+          <trans-unit id="361" translate="yes" xml:space="preserve">
+            <source>Each partition may be reassigned to different storage nodes as the system responds to traffic.</source>
+            <target state="new">Each partition may be reassigned to different storage nodes as the system responds to traffic.</target>
+          </trans-unit>
+          <trans-unit id="362" translate="yes" xml:space="preserve">
+            <source>Use a partition stress test to ensure that the table has the correct PartitionKey values.</source>
+            <target state="new">Use a partition stress test to ensure that the table has the correct PartitionKey values.</target>
+          </trans-unit>
+          <trans-unit id="363" translate="yes" xml:space="preserve">
+            <source>This test will allow you to recognize when partitions are too hot and to make the necessary partition adjustments.</source>
+            <target state="new">This test will allow you to recognize when partitions are too hot and to make the necessary partition adjustments.</target>
+          </trans-unit>
+          <trans-unit id="364" translate="yes" xml:space="preserve">
+            <source>To ensure that your application handles intermittent errors and you data is persisted, a retry strategy with backoff should be used.</source>
+            <target state="new">To ensure that your application handles intermittent errors and you data is persisted, a retry strategy with backoff should be used.</target>
+          </trans-unit>
+          <trans-unit id="365" translate="yes" xml:space="preserve">
+            <source>The default retry policy that the Azure Storage Client Library uses is one with an exponential backoff that avoids collisions and maximized the throughput of your application.</source>
+            <target state="new">The default retry policy that the Azure Storage Client Library uses is one with an exponential backoff that avoids collisions and maximized the throughput of your application.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

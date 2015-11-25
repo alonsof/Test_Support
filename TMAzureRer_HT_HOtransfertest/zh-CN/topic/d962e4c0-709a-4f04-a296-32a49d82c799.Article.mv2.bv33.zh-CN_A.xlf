@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-CN" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzDEOgzAMAMCv5AG2lDgO4K5dOnXqB5xgq0gUJKAS6uvLfjr3bJWpoRkzcvKINQ4VW0zaiXhSFQitllrYCtoQKzJpRS3c8OKkpU9Ni0MYpSPjFrGPosgeGZWkw0zKMg7UermuBOH3xvsTwjlP7nYet21dDwgEIWcIj+9Hl9emyz7rMa3LHx966fKiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Query Timeout and Pagination</source>
+            <target state="new">Query Timeout and Pagination</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The Table service supports the following two types of query operations:</source>
+            <target state="new">The Table service supports the following two types of query operations:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;link xlink:href="7010b048-a7cb-4c3a-b45e-99debe1c9f70" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Query Tables&lt;/link&gt;</ph> operation returns the list of tables within the specified storage account.</source>
+            <target state="new">The <ph id="1">&lt;link xlink:href="7010b048-a7cb-4c3a-b45e-99debe1c9f70" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Query Tables&lt;/link&gt;</ph> operation returns the list of tables within the specified storage account.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The list of tables may be filtered according to criteria specified on the request.</source>
+            <target state="new">The list of tables may be filtered according to criteria specified on the request.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;link xlink:href="8cfef6f9-eb7f-40f0-9016-dff44d36b6e1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Query Entities&lt;/link&gt;</ph> operation returns a set of entities from the specified table.</source>
+            <target state="new">The <ph id="1">&lt;link xlink:href="8cfef6f9-eb7f-40f0-9016-dff44d36b6e1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Query Entities&lt;/link&gt;</ph> operation returns a set of entities from the specified table.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Query results may be filtered according to criteria specified on the request.</source>
+            <target state="new">Query results may be filtered according to criteria specified on the request.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>A query against the Table service may return a maximum of 1,000 items at one time and may execute for a maximum of five seconds.</source>
+            <target state="new">A query against the Table service may return a maximum of 1,000 items at one time and may execute for a maximum of five seconds.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>If the result set contains more than 1,000 items, if the query did not complete within five seconds, or if the query crosses the partition boundary, the response includes headers which provide the developer with continuation tokens to use in order to resume the query at the next item in the result set.</source>
+            <target state="new">If the result set contains more than 1,000 items, if the query did not complete within five seconds, or if the query crosses the partition boundary, the response includes headers which provide the developer with continuation tokens to use in order to resume the query at the next item in the result set.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Continuation token headers may be returned for a <ph id="1">&lt;link xlink:href="7010b048-a7cb-4c3a-b45e-99debe1c9f70" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;List Tables&lt;/link&gt;</ph> operation or a <ph id="2">&lt;link xlink:href="8cfef6f9-eb7f-40f0-9016-dff44d36b6e1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;List Entities&lt;/link&gt;</ph> operation.</source>
+            <target state="new">Continuation token headers may be returned for a <ph id="1">&lt;link xlink:href="7010b048-a7cb-4c3a-b45e-99debe1c9f70" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;List Tables&lt;/link&gt;</ph> operation or a <ph id="2">&lt;link xlink:href="8cfef6f9-eb7f-40f0-9016-dff44d36b6e1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;List Entities&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Note that the total time allotted to the request for scheduling and processing the query is 30 seconds, including the five seconds for query execution.</source>
+            <target state="new">Note that the total time allotted to the request for scheduling and processing the query is 30 seconds, including the five seconds for query execution.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>It is possible for a query to return no results but to still return a continuation header.</source>
+            <target state="new">It is possible for a query to return no results but to still return a continuation header.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The continuation token headers are shown in the following table.</source>
+            <target state="new">The continuation token headers are shown in the following table.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Continuation token header</source>
+            <target state="new">Continuation token header</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>This header is returned in the context of a <ph id="1">&lt;link xlink:href="7010b048-a7cb-4c3a-b45e-99debe1c9f70" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Query Tables&lt;/link&gt;</ph> operation.</source>
+            <target state="new">This header is returned in the context of a <ph id="1">&lt;link xlink:href="7010b048-a7cb-4c3a-b45e-99debe1c9f70" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Query Tables&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>If the list of tables returned is not complete, a hash of the name of the next table in the list is included in the continuation token header.</source>
+            <target state="new">If the list of tables returned is not complete, a hash of the name of the next table in the list is included in the continuation token header.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>This header is returned in the context of a <ph id="1">&lt;link xlink:href="8cfef6f9-eb7f-40f0-9016-dff44d36b6e1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Query Entities&lt;/link&gt;</ph> operation.</source>
+            <target state="new">This header is returned in the context of a <ph id="1">&lt;link xlink:href="8cfef6f9-eb7f-40f0-9016-dff44d36b6e1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Query Entities&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The header contains a hash of the next partition key to be returned in a subsequent query against the table.</source>
+            <target state="new">The header contains a hash of the next partition key to be returned in a subsequent query against the table.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>This header is returned in the context of a <ph id="1">&lt;link xlink:href="8cfef6f9-eb7f-40f0-9016-dff44d36b6e1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Query Entities&lt;/link&gt;</ph> operation.</source>
+            <target state="new">This header is returned in the context of a <ph id="1">&lt;link xlink:href="8cfef6f9-eb7f-40f0-9016-dff44d36b6e1" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Query Entities&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>The header contains a hash of the next row key to be returned in a subsequent query against the table.</source>
+            <target state="new">The header contains a hash of the next row key to be returned in a subsequent query against the table.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Note that in some instances, <ph id="1">&lt;parameterReference&gt;x-ms-continuation-NextRowKey&lt;/parameterReference&gt;</ph> may be <ph id="2">&lt;languageKeyword&gt;null&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">Note that in some instances, <ph id="1">&lt;parameterReference&gt;x-ms-continuation-NextRowKey&lt;/parameterReference&gt;</ph> may be <ph id="2">&lt;languageKeyword&gt;null&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>To retrieve the continuation tokens and execute a subsequent query to return the next page of results, first inspect the response headers for continuation tokens.</source>
+            <target state="new">To retrieve the continuation tokens and execute a subsequent query to return the next page of results, first inspect the response headers for continuation tokens.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>If there are no headers or the header values are <ph id="1">&lt;languageKeyword&gt;null&lt;/languageKeyword&gt;</ph>, there are no additional entities to return.</source>
+            <target state="new">If there are no headers or the header values are <ph id="1">&lt;languageKeyword&gt;null&lt;/languageKeyword&gt;</ph>, there are no additional entities to return.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>If you are handling continuation tokens manually using the Microsoft .NET Client Library, first cast the result of the query operation to a <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>QueryOperationResponse<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=155325&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> object.</source>
+            <target state="new">If you are handling continuation tokens manually using the Microsoft .NET Client Library, first cast the result of the query operation to a <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>QueryOperationResponse<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=155325&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> object.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>You can then access the continuation token headers in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Headers<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=155326&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> property of the <ph id="4">&lt;unmanagedCodeEntityReference&gt;QueryOperationResponse&lt;/unmanagedCodeEntityReference&gt;</ph> object.</source>
+            <target state="new">You can then access the continuation token headers in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Headers<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=155326&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> property of the <ph id="4">&lt;unmanagedCodeEntityReference&gt;QueryOperationResponse&lt;/unmanagedCodeEntityReference&gt;</ph> object.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>After you have retrieved the continuation tokens, use their values to construct a query to return the next page of results.</source>
+            <target state="new">After you have retrieved the continuation tokens, use their values to construct a query to return the next page of results.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>A query request URI may take these parameters, which correspond to the continuation token headers returned with the response:</source>
+            <target state="new">A query request URI may take these parameters, which correspond to the continuation token headers returned with the response:</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>A client may set a timeout for a query operation by using the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Timeout<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=155327&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> property of the <ph id="4">&lt;unmanagedCodeEntityReference&gt;DataServiceContext&lt;/unmanagedCodeEntityReference&gt;</ph> class.</source>
+            <target state="new">A client may set a timeout for a query operation by using the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Timeout<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=155327&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> property of the <ph id="4">&lt;unmanagedCodeEntityReference&gt;DataServiceContext&lt;/unmanagedCodeEntityReference&gt;</ph> class.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>The total time allotted to the request for scheduling and processing the query is 30 seconds, including five seconds for query execution.</source>
+            <target state="new">The total time allotted to the request for scheduling and processing the query is 30 seconds, including five seconds for query execution.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>If the operation is an insert or delete operation, the operation may have succeeded on the server despite an error being returned by the client.</source>
+            <target state="new">If the operation is an insert or delete operation, the operation may have succeeded on the server despite an error being returned by the client.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>This may happen when the client timeout is set to less than 30 seconds, which is the maximum timeout for an insert, update, or delete operation.</source>
+            <target state="new">This may happen when the client timeout is set to less than 30 seconds, which is the maximum timeout for an insert, update, or delete operation.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Sample Response Headers and Subsequent Request</source>
+            <target state="new">Sample Response Headers and Subsequent Request</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>The following code example shows a set of sample response headers from an entity query against a table named Customers that returns continuation headers.</source>
+            <target state="new">The following code example shows a set of sample response headers from an entity query against a table named Customers that returns continuation headers.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Both <ph id="1">&lt;parameterReference&gt;x-ms-continuation-NextPartitionKey&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;x-ms-continuation-NextRowKey&lt;/parameterReference&gt;</ph> are returned.</source>
+            <target state="new">Both <ph id="1">&lt;parameterReference&gt;x-ms-continuation-NextPartitionKey&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;x-ms-continuation-NextRowKey&lt;/parameterReference&gt;</ph> are returned.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>The request for the next page of data can be constructed like the following URI:</source>
+            <target state="new">The request for the next page of data can be constructed like the following URI:</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

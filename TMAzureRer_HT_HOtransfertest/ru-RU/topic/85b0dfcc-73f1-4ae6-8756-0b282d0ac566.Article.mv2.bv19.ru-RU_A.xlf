@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ru-RU" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANjdsJwzAMAFfxABbIip+doN+lHUC2JQikCaQOZPz6/o77ONVFqqcGIt6Dd4pQMVdo6DiWoo65WCMUOCZKgBPwPSVg7ALZCyJNLVStyaFi19YgLerAs0TIKUTASpk6cgsxWuOsOS94fay5t1VV7vE4j2NYQ7PN1/P68v4+ef9tPNZj/wNk06xgogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>How to: Expose a Metadata Endpoint</source>
+            <target state="new">How to: Expose a Metadata Endpoint</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>A <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> metadata endpoint is a URI that exposes additional information about a service or client application.</source>
+            <target state="new">A <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> metadata endpoint is a URI that exposes additional information about a service or client application.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>For example, the Svcutil.exe tool uses the exposed metadata from a service to build a contract so that a developer can access that service.</source>
+            <target state="new">For example, the Svcutil.exe tool uses the exposed metadata from a service to build a contract so that a developer can access that service.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Without the metadata, the developer would have to gain access to the contract in some other way, such as asking the creator for a copy of it directly via e-mail.</source>
+            <target state="new">Without the metadata, the developer would have to gain access to the contract in some other way, such as asking the creator for a copy of it directly via e-mail.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Note that you can still implement an interface without metadata: metadata enables you to easily obtain the contract if you do not already have it.</source>
+            <target state="new">Note that you can still implement an interface without metadata: metadata enables you to easily obtain the contract if you do not already have it.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Also note that exposing a metadata endpoint differs from publishing your interface to the ATOM feed: the metadata endpoint contains additional information about the contract, whereas publishing on the ATOM feed just lists the service URI in a publicly-accessed database.</source>
+            <target state="new">Also note that exposing a metadata endpoint differs from publishing your interface to the ATOM feed: the metadata endpoint contains additional information about the contract, whereas publishing on the ATOM feed just lists the service URI in a publicly-accessed database.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The following is a simplified procedure for exposing metadata on an application that uses <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">The following is a simplified procedure for exposing metadata on an application that uses <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>For a complete discussion of metadata, see <ph id="1">&lt;link xlink:href="1d37645e-086d-4d68-a358-f3c5b6e8205e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Metadata Architecture Overview&lt;/link&gt;</ph> in the <ph id="2">&lt;token&gt;indigo1&lt;/token&gt;</ph> documentation.</source>
+            <target state="new">For a complete discussion of metadata, see <ph id="1">&lt;link xlink:href="1d37645e-086d-4d68-a358-f3c5b6e8205e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Metadata Architecture Overview&lt;/link&gt;</ph> in the <ph id="2">&lt;token&gt;indigo1&lt;/token&gt;</ph> documentation.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>To expose a metadata endpoint</source>
+            <target state="new">To expose a metadata endpoint</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>In the App.config file for the host application, add the metadata endpoint definition to the service configuration information.</source>
+            <target state="new">In the App.config file for the host application, add the metadata endpoint definition to the service configuration information.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>To add metadata publishing to the service, modify the application configuration information to include an additional <ph id="1">&lt;codeInline&gt;behaviors&lt;/codeInline&gt;</ph> section.</source>
+            <target state="new">To add metadata publishing to the service, modify the application configuration information to include an additional <ph id="1">&lt;codeInline&gt;behaviors&lt;/codeInline&gt;</ph> section.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Add the metadata behavior to the service by specifying the <ph id="1">&lt;codeInline&gt;behaviorConfiguration&lt;/codeInline&gt;</ph> property in the service definition.</source>
+            <target state="new">Add the metadata behavior to the service by specifying the <ph id="1">&lt;codeInline&gt;behaviorConfiguration&lt;/codeInline&gt;</ph> property in the service definition.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>If the metadata endpoint is specified with a different end-to-end security mode than the service endpoint, and uses a relative address while sharing the same base address with the service endpoint, an exception of type <ph id="1">&lt;languageKeyword&gt;System.ArgumentException&lt;/languageKeyword&gt;</ph> is thrown when you open the service host.</source>
+            <target state="new">If the metadata endpoint is specified with a different end-to-end security mode than the service endpoint, and uses a relative address while sharing the same base address with the service endpoint, an exception of type <ph id="1">&lt;languageKeyword&gt;System.ArgumentException&lt;/languageKeyword&gt;</ph> is thrown when you open the service host.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The following error message accompanies the exception: <bpt id="1">&lt;ui&gt;</bpt>Incompatible channel listener settings<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">The following error message accompanies the exception: <bpt id="1">&lt;ui&gt;</bpt>Incompatible channel listener settings<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>To resolve this issue, perform one of the following workarounds:</source>
+            <target state="new">To resolve this issue, perform one of the following workarounds:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Specify the address of the metadata endpoint as a fully-qualified address.</source>
+            <target state="new">Specify the address of the metadata endpoint as a fully-qualified address.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>If you want to use a relative address for the metadata endpoint that shares a base address with the service endpoint, specify the same end-to-end security mode for both the metadata and service endpoints.</source>
+            <target state="new">If you want to use a relative address for the metadata endpoint that shares a base address with the service endpoint, specify the same end-to-end security mode for both the metadata and service endpoints.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Use a relative address for the metadata endpoint with a base address that differs from the base address of the service endpoint.</source>
+            <target state="new">Use a relative address for the metadata endpoint with a base address that differs from the base address of the service endpoint.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

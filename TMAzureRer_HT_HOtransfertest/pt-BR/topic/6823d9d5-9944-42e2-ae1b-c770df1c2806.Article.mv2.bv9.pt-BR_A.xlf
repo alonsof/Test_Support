@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="pt-BR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAVzVEOwiAMANCrcACaFCgb9dMvv40XKNAmS+ZmFJMd33mB98ySVooNVImAgiFULBUaBpmYLYiwdwm5F8sJlNIMpJihdGxAXJvWwIglezeVmDr3DMx/K2oE0XBa84zdQosFJ++Cd68B17t3x7qY6TEu730f3kXvzur2fcr2eMv2WWUs+/YD/4QljqEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Delete a resource group</source>
+            <target state="new">Delete a resource group</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Delete a resource group from the specified subscription.</source>
+            <target state="new">Delete a resource group from the specified subscription.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>When you delete a resource group, all of its dependent resources are also deleted.</source>
+            <target state="new">When you delete a resource group, all of its dependent resources are also deleted.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Deleting a resource group also deletes all of its template deployments and currently stored operations.</source>
+            <target state="new">Deleting a resource group also deletes all of its template deployments and currently stored operations.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Request</source>
+            <target state="new">Request</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="8d088ecc-26eb-42e9-8acc-fe929ed33563#bk_common" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Common parameters and headers&lt;/link&gt;</ph> for headers and parameters that are used by all requests related to resource groups.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="8d088ecc-26eb-42e9-8acc-fe929ed33563#bk_common" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Common parameters and headers&lt;/link&gt;</ph> for headers and parameters that are used by all requests related to resource groups.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Method</source>
+            <target state="new">Method</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Request URI</source>
+            <target state="new">Request URI</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>DELETE</source>
+            <target state="new">DELETE</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Replace {resource-group-name} with the name of the resource group that you want to delete.</source>
+            <target state="new">Replace {resource-group-name} with the name of the resource group that you want to delete.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Response</source>
+            <target state="new">Response</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Status code: 202</source>
+            <target state="new">Status code: 202</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>This is an asynchronous operation that returns a status of 202 until all resources and the resource group are successfully deleted.</source>
+            <target state="new">This is an asynchronous operation that returns a status of 202 until all resources and the resource group are successfully deleted.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;parameterReference&gt;Location&lt;/parameterReference&gt;</ph> response header contains the URI that is used to obtain the status of the process.</source>
+            <target state="new">The <ph id="1">&lt;parameterReference&gt;Location&lt;/parameterReference&gt;</ph> response header contains the URI that is used to obtain the status of the process.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>While the process is running, a call to the URI in the Location header returns a status of 202.</source>
+            <target state="new">While the process is running, a call to the URI in the Location header returns a status of 202.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>When the process finishes and is successful, the URI in the <ph id="1">&lt;parameterReference&gt;Location&lt;/parameterReference&gt;</ph> header returns a status of 200.</source>
+            <target state="new">When the process finishes and is successful, the URI in the <ph id="1">&lt;parameterReference&gt;Location&lt;/parameterReference&gt;</ph> header returns a status of 200.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>If the asynchronous request failed, the URI in the Location header returns an error level status code.</source>
+            <target state="new">If the asynchronous request failed, the URI in the Location header returns an error level status code.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Remarks</source>
+            <target state="new">Remarks</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>The resource group is successfully deleted only if the deletion of all dependent resources also succeeds.</source>
+            <target state="new">The resource group is successfully deleted only if the deletion of all dependent resources also succeeds.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-CN" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAAVzDEOwjAMAMCv5AGxlDhu4rCyMDHxATuNRaXSSm2RKl4PrDecWepK2KB3IqBoATSwQgtRcq0WRap33LuhjQiBSwMqQwYdtUAtAUOQbGLdO8XK0nKCohWBuI3wcwRGHhI3Ku1/Re8+T7jevTvnyayfx2Vb18M79C4l727vlyyPTZZ9lmNaly/tHHlgogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Service REST API Reference</source>
+            <target state="new">Service REST API Reference</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Azure Search Service REST API</source>
+            <target state="new">Azure Search Service REST API</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Azure Search is a cloud-based service that you can use to build custom search applications.</source>
+            <target state="new">Azure Search is a cloud-based service that you can use to build custom search applications.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Azure Search has the concepts of <bpt id="1">&lt;newTerm&gt;</bpt>search services<ept id="1">&lt;/newTerm&gt;</ept> and <bpt id="2">&lt;newTerm&gt;</bpt>indexes<ept id="2">&lt;/newTerm&gt;</ept>, where a search service contains one or more indexes.</source>
+            <target state="new">Azure Search has the concepts of <bpt id="1">&lt;newTerm&gt;</bpt>search services<ept id="1">&lt;/newTerm&gt;</ept> and <bpt id="2">&lt;newTerm&gt;</bpt>indexes<ept id="2">&lt;/newTerm&gt;</ept>, where a search service contains one or more indexes.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Your search service is uniquely identified by a fully-qualified domain name (for example: `mysearchservice.search.windows.net`).</source>
+            <target state="new">Your search service is uniquely identified by a fully-qualified domain name (for example: `mysearchservice.search.windows.net`).</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>An api-key is generated when the service is provisioned, and is used to authenticate requests to your Azure Search service.</source>
+            <target state="new">An api-key is generated when the service is provisioned, and is used to authenticate requests to your Azure Search service.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>There are three types of operations that can be executed against the Azure Search Service:</source>
+            <target state="new">There are three types of operations that can be executed against the Azure Search Service:</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyLink xlink:href="028bc3ff-387f-4a42-a485-a32262508be9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Index operations<ept id="1">&lt;/legacyLink&gt;</ept>: Create, delete, update, or populate a search index.</source>
+            <target state="new"><bpt id="1">&lt;legacyLink xlink:href="028bc3ff-387f-4a42-a485-a32262508be9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Index operations<ept id="1">&lt;/legacyLink&gt;</ept>: Create, delete, update, or populate a search index.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyLink xlink:href="86722ded-daf6-4776-b984-b0dfd48218c0" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Document operations<ept id="1">&lt;/legacyLink&gt;</ept>: Query the index and lookup specific documents.</source>
+            <target state="new"><bpt id="1">&lt;legacyLink xlink:href="86722ded-daf6-4776-b984-b0dfd48218c0" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Document operations<ept id="1">&lt;/legacyLink&gt;</ept>: Query the index and lookup specific documents.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyLink xlink:href="99bd2afa-3413-424c-a54a-58c8bb12bdbe" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Indexer operations<ept id="1">&lt;/legacyLink&gt;</ept>: Automate aspects of an indexing operation by configuring a <ph id="2">&lt;languageKeyword&gt;data source&lt;/languageKeyword&gt;</ph> and an <ph id="3">&lt;languageKeyword&gt;indexer&lt;/languageKeyword&gt;</ph> that you can schedule or run on demand.</source>
+            <target state="new"><bpt id="1">&lt;legacyLink xlink:href="99bd2afa-3413-424c-a54a-58c8bb12bdbe" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Indexer operations<ept id="1">&lt;/legacyLink&gt;</ept>: Automate aspects of an indexing operation by configuring a <ph id="2">&lt;languageKeyword&gt;data source&lt;/languageKeyword&gt;</ph> and an <ph id="3">&lt;languageKeyword&gt;indexer&lt;/languageKeyword&gt;</ph> that you can schedule or run on demand.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>This feature is supported for a limited number of data source types.</source>
+            <target state="new">This feature is supported for a limited number of data source types.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>A separate API is provided for service administration.</source>
+            <target state="new">A separate API is provided for service administration.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Examples of service administration operations include provisioning the service or altering capacity.</source>
+            <target state="new">Examples of service administration operations include provisioning the service or altering capacity.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>For more information about this API, see <ph id="1">&lt;link xlink:href="25dbc5b6-5251-42b6-9dc4-c7e3e3e7aa80" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure Search Management REST API&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about this API, see <ph id="1">&lt;link xlink:href="25dbc5b6-5251-42b6-9dc4-c7e3e3e7aa80" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Azure Search Management REST API&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The APIs documented in this section provide access to operations on search data, such as index creation and population, document upload, and queries.</source>
+            <target state="new">The APIs documented in this section provide access to operations on search data, such as index creation and population, document upload, and queries.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>When calling the API, keep the following points in mind:</source>
+            <target state="new">When calling the API, keep the following points in mind:</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>All APIs must be issued over HTTPS (on the default port 443).</source>
+            <target state="new">All APIs must be issued over HTTPS (on the default port 443).</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>All APIs must be accompanied with an <ph id="1">&lt;languageKeyword&gt;api-key&lt;/languageKeyword&gt;</ph> in the header or in the query string.</source>
+            <target state="new">All APIs must be accompanied with an <ph id="1">&lt;languageKeyword&gt;api-key&lt;/languageKeyword&gt;</ph> in the header or in the query string.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>All API requests must include the <ph id="1">&lt;languageKeyword&gt;api-version&lt;/languageKeyword&gt;</ph> in the URI.</source>
+            <target state="new">All API requests must include the <ph id="1">&lt;languageKeyword&gt;api-version&lt;/languageKeyword&gt;</ph> in the URI.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Its value must be set to the version of the current service release, shown in the following example:</source>
+            <target state="new">Its value must be set to the version of the current service release, shown in the following example:</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>All API requests can optionally set the Accept HTTP header.</source>
+            <target state="new">All API requests can optionally set the Accept HTTP header.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>If is not set, the default is assumed to be <ph id="1">&lt;codeInline&gt;application/json&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">If is not set, the default is assumed to be <ph id="1">&lt;codeInline&gt;application/json&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Endpoint</source>
+            <target state="new">Endpoint</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>The endpoint for service operations is the URL of the Azure Search service you provisioned: https://&lt;yourService&gt;.search.windows.net.</source>
+            <target state="new">The endpoint for service operations is the URL of the Azure Search service you provisioned: https://&lt;yourService&gt;.search.windows.net.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Versions</source>
+            <target state="new">Versions</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;codeInline&gt;api-version=2015-02-28&lt;/codeInline&gt;</ph> is the general release version.</source>
+            <target state="new"><ph id="1">&lt;codeInline&gt;api-version=2015-02-28&lt;/codeInline&gt;</ph> is the general release version.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>This version operates under an Azure service level agreement (SLA).</source>
+            <target state="new">This version operates under an Azure service level agreement (SLA).</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Previous versions of the API were introduced during the public preview, starting with <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Search Service REST API: 2014-07-31-Preview<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/search-api-2014-07-31-preview/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">Previous versions of the API were introduced during the public preview, starting with <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Search Service REST API: 2014-07-31-Preview<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/search-api-2014-07-31-preview/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="62ffee0b-ae3b-46c1-9ddb-a372d21c6f4d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Search service versioning&lt;/link&gt;</ph> provides more information.</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="62ffee0b-ae3b-46c1-9ddb-a372d21c6f4d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Search service versioning&lt;/link&gt;</ph> provides more information.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Authentication and Access Control</source>
+            <target state="new">Authentication and Access Control</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Authentication to an Azure Search service requires two pieces of information: a search service URL and an <ph id="1">&lt;languageKeyword&gt;api-key&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">Authentication to an Azure Search service requires two pieces of information: a search service URL and an <ph id="1">&lt;languageKeyword&gt;api-key&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;languageKeyword&gt;api-keys&lt;/languageKeyword&gt;</ph> are generated when the service is created, and can be regenerated on demand after the service is provisioned.</source>
+            <target state="new">The <ph id="1">&lt;languageKeyword&gt;api-keys&lt;/languageKeyword&gt;</ph> are generated when the service is created, and can be regenerated on demand after the service is provisioned.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>An <ph id="1">&lt;languageKeyword&gt;api-key&lt;/languageKeyword&gt;</ph> is one of the following types:</source>
+            <target state="new">An <ph id="1">&lt;languageKeyword&gt;api-key&lt;/languageKeyword&gt;</ph> is one of the following types:</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Key</source>
+            <target state="new">Key</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Limits</source>
+            <target state="new">Limits</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Admin</source>
+            <target state="new">Admin</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Grants access to all operations, including the ability to create and delete <ph id="1">&lt;languageKeyword&gt;indexes&lt;/languageKeyword&gt;</ph>, <ph id="2">&lt;languageKeyword&gt;indexers&lt;/languageKeyword&gt;</ph>, and <ph id="3">&lt;languageKeyword&gt;data sources&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">Grants access to all operations, including the ability to create and delete <ph id="1">&lt;languageKeyword&gt;indexes&lt;/languageKeyword&gt;</ph>, <ph id="2">&lt;languageKeyword&gt;indexers&lt;/languageKeyword&gt;</ph>, and <ph id="3">&lt;languageKeyword&gt;data sources&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Maximum of 2 per service</source>
+            <target state="new">Maximum of 2 per service</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Query</source>
+            <target state="new">Query</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Read-only access to indexes and documents, typically distributed to client applications that issue search requests.</source>
+            <target state="new">Read-only access to indexes and documents, typically distributed to client applications that issue search requests.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>50 per service</source>
+            <target state="new">50 per service</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Access control is limited to service administration via the role-based access controls (RBAC) provided in the Azure Preview Portal.</source>
+            <target state="new">Access control is limited to service administration via the role-based access controls (RBAC) provided in the Azure Preview Portal.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Roles are used to set levels of access for service administration.</source>
+            <target state="new">Roles are used to set levels of access for service administration.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>For example, viewing the admin key is restricted to the Owner and Contributor roles, whereas viewing service status is visible to members of any role.</source>
+            <target state="new">For example, viewing the admin key is restricted to the Owner and Contributor roles, whereas viewing service status is visible to members of any role.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Data operations performed against a Search service endpoint, including index management, index population, and queries, are accessed via <ph id="1">&lt;codeInline&gt;api-keys&lt;/codeInline&gt;</ph> exclusively.</source>
+            <target state="new">Data operations performed against a Search service endpoint, including index management, index population, and queries, are accessed via <ph id="1">&lt;codeInline&gt;api-keys&lt;/codeInline&gt;</ph> exclusively.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>RBAC does not apply to either index or document-related operations.</source>
+            <target state="new">RBAC does not apply to either index or document-related operations.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>To learn more about <ph id="1">&lt;codeInline&gt;api-keys&lt;/codeInline&gt;</ph> or RBAC as it relates to Azure Search, see <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>Manage your Search service<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/search-manage/&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">To learn more about <ph id="1">&lt;codeInline&gt;api-keys&lt;/codeInline&gt;</ph> or RBAC as it relates to Azure Search, see <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>Manage your Search service<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/search-manage/&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>It is considered a poor security practice to pass sensitive data such as an <ph id="1">&lt;codeInline&gt;api-key&lt;/codeInline&gt;</ph> in the request URI.</source>
+            <target state="new">It is considered a poor security practice to pass sensitive data such as an <ph id="1">&lt;codeInline&gt;api-key&lt;/codeInline&gt;</ph> in the request URI.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>For this reason, Azure Search will only accept a query key as an <ph id="1">&lt;codeInline&gt;api-key&lt;/codeInline&gt;</ph> in the query string, and you should avoid doing so unless the contents of your index should be publicly available.</source>
+            <target state="new">For this reason, Azure Search will only accept a query key as an <ph id="1">&lt;codeInline&gt;api-key&lt;/codeInline&gt;</ph> in the query string, and you should avoid doing so unless the contents of your index should be publicly available.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>As a general rule, we recommend passing your <ph id="1">&lt;codeInline&gt;api-key&lt;/codeInline&gt;</ph> as a request header.</source>
+            <target state="new">As a general rule, we recommend passing your <ph id="1">&lt;codeInline&gt;api-key&lt;/codeInline&gt;</ph> as a request header.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Summary of APIs for creating and using an index</source>
+            <target state="new">Summary of APIs for creating and using an index</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>The Azure Search Service API supports two syntaxes for entity lookup: simple and alternative OData syntax (see <ph id="1">&lt;link xlink:href="9274de9b-5faa-449b-9c5f-1ff54aa3afd9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Support for OData (Azure Search)&lt;/link&gt;</ph> for details).</source>
+            <target state="new">The Azure Search Service API supports two syntaxes for entity lookup: simple and alternative OData syntax (see <ph id="1">&lt;link xlink:href="9274de9b-5faa-449b-9c5f-1ff54aa3afd9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Support for OData (Azure Search)&lt;/link&gt;</ph> for details).</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>The following list shows the simple syntax</source>
+            <target state="new">The following list shows the simple syntax</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>For information about programming tasks and what order to perform them in, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Search development workflow<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/search-workflow/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For information about programming tasks and what order to perform them in, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Search development workflow<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/search-workflow/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>To create the service and then experiment with the API using an HTTP diagnostic tool like Fiddler or Chrome Postman, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Create an Azure Search service<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/search-create-service-portal/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, followed by <bpt id="4">&lt;externalLink&gt;</bpt><bpt id="5">&lt;linkText&gt;</bpt>How to use Fiddler with Azure Search<ept id="5">&lt;/linkText&gt;</ept><ph id="6">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/search-fiddler&lt;/linkUri&gt;</ph><ept id="4">&lt;/externalLink&gt;</ept> or <bpt id="7">&lt;externalLink&gt;</bpt><bpt id="8">&lt;linkText&gt;</bpt>How to use Chrome Postman with Azure Search<ept id="8">&lt;/linkText&gt;</ept><ph id="9">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/search-chrome-postman/&lt;/linkUri&gt;</ph><ept id="7">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">To create the service and then experiment with the API using an HTTP diagnostic tool like Fiddler or Chrome Postman, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Create an Azure Search service<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/search-create-service-portal/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, followed by <bpt id="4">&lt;externalLink&gt;</bpt><bpt id="5">&lt;linkText&gt;</bpt>How to use Fiddler with Azure Search<ept id="5">&lt;/linkText&gt;</ept><ph id="6">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/search-fiddler&lt;/linkUri&gt;</ph><ept id="4">&lt;/externalLink&gt;</ept> or <bpt id="7">&lt;externalLink&gt;</bpt><bpt id="8">&lt;linkText&gt;</bpt>How to use Chrome Postman with Azure Search<ept id="8">&lt;/linkText&gt;</ept><ph id="9">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/search-chrome-postman/&lt;/linkUri&gt;</ph><ept id="7">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>How to use Azure Search in .NET</source>
+            <target state="new">How to use Azure Search in .NET</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Create an Azure Search service</source>
+            <target state="new">Create an Azure Search service</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Pricing Details</source>
+            <target state="new">Pricing Details</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Manage your search service on Microsoft Azure</source>
+            <target state="new">Manage your search service on Microsoft Azure</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Azure Search .NET SDK</source>
+            <target state="new">Azure Search .NET SDK</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

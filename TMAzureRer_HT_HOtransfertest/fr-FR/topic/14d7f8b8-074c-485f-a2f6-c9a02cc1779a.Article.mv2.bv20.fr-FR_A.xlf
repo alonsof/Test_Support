@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANyssJwzAMANBVPIAFkq360wFKz6ULSLYFgTSB1IWM38A7PrM4lEODMZiByRAUi0JDklSrkUj1Din1dk2oIRMwcwTtqsCRpEaN3DV5R9yzFS2AmRtwuRlIsAStCobWKOcq1/LODni8vDvXxWyc837s+/QuXNC75+8j2/uQ7bvKXPbtD8uuBP+iAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Tutorial: Using BizTalk Service Bridges to Send and Receive Messages from Service Bus Relay Service</source>
+            <target state="new">Tutorial: Using BizTalk Service Bridges to Send and Receive Messages from Service Bus Relay Service</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This tutorial provides instructions on how to send XML messages with different schemas to a single <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> endpoint deployed using <ph id="2">&lt;token&gt;af_integration_full&lt;/token&gt;</ph>.</source>
+            <target state="new">This tutorial provides instructions on how to send XML messages with different schemas to a single <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> endpoint deployed using <ph id="2">&lt;token&gt;af_integration_full&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> processes the message and routes them to more than one relay services based on the business logic defined as part of the solution.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> processes the message and routes them to more than one relay services based on the business logic defined as part of the solution.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Using this scenario, the tutorial also showcases other capabilities of <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> such as:</source>
+            <target state="new">Using this scenario, the tutorial also showcases other capabilities of <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> such as:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Filters<ept id="1">&lt;/embeddedLabel&gt;</ept>: The <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> enables you to route messages to the intended recipient based on filters.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Filters<ept id="1">&lt;/embeddedLabel&gt;</ept>: The <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> enables you to route messages to the intended recipient based on filters.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>The filters are set on certain values that are passed as part of the message.</source>
+            <target state="new">The filters are set on certain values that are passed as part of the message.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>For example, if the value in the element <bpt id="1">&lt;embeddedLabel&gt;</bpt>&lt;Recipient&gt;<ept id="1">&lt;/embeddedLabel&gt;</ept> in the XML message is set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>Finance<ept id="2">&lt;/embeddedLabel&gt;</ept>, send the message to <bpt id="3">&lt;embeddedLabel&gt;</bpt>Service A<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">For example, if the value in the element <bpt id="1">&lt;embeddedLabel&gt;</bpt>&lt;Recipient&gt;<ept id="1">&lt;/embeddedLabel&gt;</ept> in the XML message is set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>Finance<ept id="2">&lt;/embeddedLabel&gt;</ept>, send the message to <bpt id="3">&lt;embeddedLabel&gt;</bpt>Service A<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Otherwise, send the message to <bpt id="1">&lt;embeddedLabel&gt;</bpt>Service B<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Otherwise, send the message to <bpt id="1">&lt;embeddedLabel&gt;</bpt>Service B<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="498de1a4-3427-4314-a152-8d5a7f026cc0#BKMK_Filter" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;The Routing Condition&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="498de1a4-3427-4314-a152-8d5a7f026cc0#BKMK_Filter" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;The Routing Condition&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Action<ept id="1">&lt;/embeddedLabel&gt;</ept>: Route actions help in bridging protocol mismatch.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Action<ept id="1">&lt;/embeddedLabel&gt;</ept>: Route actions help in bridging protocol mismatch.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>For example, consider two applications, <bpt id="1">&lt;embeddedLabel&gt;</bpt>App A<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>App B<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">For example, consider two applications, <bpt id="1">&lt;embeddedLabel&gt;</bpt>App A<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>App B<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>App A<ept id="1">&lt;/embeddedLabel&gt;</ept> sends messages by using the REST protocol while <bpt id="2">&lt;embeddedLabel&gt;</bpt>App B<ept id="2">&lt;/embeddedLabel&gt;</ept> receives only SOAP messages.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>App A<ept id="1">&lt;/embeddedLabel&gt;</ept> sends messages by using the REST protocol while <bpt id="2">&lt;embeddedLabel&gt;</bpt>App B<ept id="2">&lt;/embeddedLabel&gt;</ept> receives only SOAP messages.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>If <bpt id="1">&lt;embeddedLabel&gt;</bpt>App A<ept id="1">&lt;/embeddedLabel&gt;</ept> sends the message to the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> instead, the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph> includes SOAP headers on the message as part of Route Action.</source>
+            <target state="new">If <bpt id="1">&lt;embeddedLabel&gt;</bpt>App A<ept id="1">&lt;/embeddedLabel&gt;</ept> sends the message to the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> instead, the <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph> includes SOAP headers on the message as part of Route Action.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> then sends the message over to <bpt id="2">&lt;embeddedLabel&gt;</bpt>App B<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> then sends the message over to <bpt id="2">&lt;embeddedLabel&gt;</bpt>App B<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="498de1a4-3427-4314-a152-8d5a7f026cc0#BKMK_RoutingAction" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;The Routing Action&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="498de1a4-3427-4314-a152-8d5a7f026cc0#BKMK_RoutingAction" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;The Routing Action&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Reply Action<ept id="1">&lt;/embeddedLabel&gt;</ept>: Reply Action provides the same capability while sending a response back to the client, that Route action provides while sending a message to the receiver.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Reply Action<ept id="1">&lt;/embeddedLabel&gt;</ept>: Reply Action provides the same capability while sending a response back to the client, that Route action provides while sending a message to the receiver.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>So, if <bpt id="1">&lt;embeddedLabel&gt;</bpt>App B<ept id="1">&lt;/embeddedLabel&gt;</ept> sends a response to <bpt id="2">&lt;embeddedLabel&gt;</bpt>App A<ept id="2">&lt;/embeddedLabel&gt;</ept>, <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph>s use the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Reply Action<ept id="4">&lt;/embeddedLabel&gt;</ept> capabilities to stamp the response with headers that the client requires.</source>
+            <target state="new">So, if <bpt id="1">&lt;embeddedLabel&gt;</bpt>App B<ept id="1">&lt;/embeddedLabel&gt;</ept> sends a response to <bpt id="2">&lt;embeddedLabel&gt;</bpt>App A<ept id="2">&lt;/embeddedLabel&gt;</ept>, <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph>s use the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Reply Action<ept id="4">&lt;/embeddedLabel&gt;</ept> capabilities to stamp the response with headers that the client requires.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>For more information, see the <ph id="1">&lt;link xlink:href="2b28ccb0-dd88-4fbc-a5c4-c3b797a901e8#BKMK_Send" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Reply Action&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see the <ph id="1">&lt;link xlink:href="2b28ccb0-dd88-4fbc-a5c4-c3b797a901e8#BKMK_Send" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Reply Action&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>This tutorial demonstrates these capabilities of the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>, in addition to other, using a business scenario.</source>
+            <target state="new">This tutorial demonstrates these capabilities of the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>, in addition to other, using a business scenario.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Business Scenario</source>
+            <target state="new">Business Scenario</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Northwind Traders is an automobile insurance company.</source>
+            <target state="new">Northwind Traders is an automobile insurance company.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Northwind Traders receive request for new policy quotes in an XML format compliant with the standard ACORD schema, an industry standard for insurance messages.</source>
+            <target state="new">Northwind Traders receive request for new policy quotes in an XML format compliant with the standard ACORD schema, an industry standard for insurance messages.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>The incoming messages can be in any ACORD-compliant format.</source>
+            <target state="new">The incoming messages can be in any ACORD-compliant format.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>So, Northwind Traders must configure a solution that can process XML messages that conform to more than one XML schema.</source>
+            <target state="new">So, Northwind Traders must configure a solution that can process XML messages that conform to more than one XML schema.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>After Northwind Traders receive the message, it is validated against the provided ACORD message schemas and transformed into a schema internal to Northwind.</source>
+            <target state="new">After Northwind Traders receive the message, it is validated against the provided ACORD message schemas and transformed into a schema internal to Northwind.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Northwind then sends the message to a backend service that processes the message further.</source>
+            <target state="new">Northwind then sends the message to a backend service that processes the message further.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>However, there are certain routing conditions before the message is sent to the service.</source>
+            <target state="new">However, there are certain routing conditions before the message is sent to the service.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>If the quote amount in the message is less than $10000, it must be sent to a relay service, say <bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceA<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">If the quote amount in the message is less than $10000, it must be sent to a relay service, say <bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceA<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Before sending the message to the relay service, a SOAP header called <bpt id="1">&lt;embeddedLabel&gt;</bpt>QuoteType<ept id="1">&lt;/embeddedLabel&gt;</ept> must be added to the message header.</source>
+            <target state="new">Before sending the message to the relay service, a SOAP header called <bpt id="1">&lt;embeddedLabel&gt;</bpt>QuoteType<ept id="1">&lt;/embeddedLabel&gt;</ept> must be added to the message header.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>The value of this header must be set to <bpt id="1">&lt;embeddedLabel&gt;</bpt>SmallAmounts<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The value of this header must be set to <bpt id="1">&lt;embeddedLabel&gt;</bpt>SmallAmounts<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>If the quote amount in the message is greater than $10000, it is treated as a high-risk claim and is sent to another relay service, say <bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceB<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">If the quote amount in the message is greater than $10000, it is treated as a high-risk claim and is sent to another relay service, say <bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceB<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Before sending the message to the service, a SOAP header called <bpt id="1">&lt;embeddedLabel&gt;</bpt>QuoteType<ept id="1">&lt;/embeddedLabel&gt;</ept> must be added to the message header.</source>
+            <target state="new">Before sending the message to the service, a SOAP header called <bpt id="1">&lt;embeddedLabel&gt;</bpt>QuoteType<ept id="1">&lt;/embeddedLabel&gt;</ept> must be added to the message header.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>The value of the header must be set to <bpt id="1">&lt;embeddedLabel&gt;</bpt>LargeAmounts<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The value of the header must be set to <bpt id="1">&lt;embeddedLabel&gt;</bpt>LargeAmounts<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>After receiving the message the services generate a response, add headers, and send a response back to the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>.</source>
+            <target state="new">After receiving the message the services generate a response, add headers, and send a response back to the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>The services add the following headers:</source>
+            <target state="new">The services add the following headers:</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Response from service</source>
+            <target state="new">Response from service</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Headers added</source>
+            <target state="new">Headers added</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>RelayServiceA</source>
+            <target state="new">RelayServiceA</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Header name</source>
+            <target state="new">Header name</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Header value</source>
+            <target state="new">Header value</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>MsgStatus</source>
+            <target state="new">MsgStatus</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Success</source>
+            <target state="new">Success</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Eligibility</source>
+            <target state="new">Eligibility</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>ApprovedForSmallAmounts</source>
+            <target state="new">ApprovedForSmallAmounts</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>RelayServiceB</source>
+            <target state="new">RelayServiceB</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Header name</source>
+            <target state="new">Header name</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Header value</source>
+            <target state="new">Header value</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>MsgStatus</source>
+            <target state="new">MsgStatus</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Success</source>
+            <target state="new">Success</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Eligibility</source>
+            <target state="new">Eligibility</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>ApprovedForLargeAmounts</source>
+            <target state="new">ApprovedForLargeAmounts</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>The response from the service is in the same format as the Northwind’s internal request format.</source>
+            <target state="new">The response from the service is in the same format as the Northwind’s internal request format.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>After the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> receives the response, it transforms it to the response message schema compliant with ACORD standards.</source>
+            <target state="new">After the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> receives the response, it transforms it to the response message schema compliant with ACORD standards.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> also extracts the value from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>MsgStatus<ept id="2">&lt;/embeddedLabel&gt;</ept> header and assigns it to an element in the response schema.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> also extracts the value from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>MsgStatus<ept id="2">&lt;/embeddedLabel&gt;</ept> header and assigns it to an element in the response schema.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Finally, before sending the message back to the client, the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> adds another header called <bpt id="2">&lt;embeddedLabel&gt;</bpt>ProcessingStatus<ept id="2">&lt;/embeddedLabel&gt;</ept> and sets its value to <bpt id="3">&lt;embeddedLabel&gt;</bpt>Complete<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Finally, before sending the message back to the client, the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> adds another header called <bpt id="2">&lt;embeddedLabel&gt;</bpt>ProcessingStatus<ept id="2">&lt;/embeddedLabel&gt;</ept> and sets its value to <bpt id="3">&lt;embeddedLabel&gt;</bpt>Complete<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>The following illustration represents this scenario.</source>
+            <target state="new">The following illustration represents this scenario.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>How to Achieve the Scenario Using <ph id="1">&lt;token&gt;af_integration_full&lt;/token&gt;</ph></source>
+            <target state="new">How to Achieve the Scenario Using <ph id="1">&lt;token&gt;af_integration_full&lt;/token&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Northwind Traders use <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> to set up this scenario.</source>
+            <target state="new">Northwind Traders use <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> to set up this scenario.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Here’s what Northwind Traders do at their end for this scenario to work end-to-end:</source>
+            <target state="new">Here’s what Northwind Traders do at their end for this scenario to work end-to-end:</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Northwind creates two relay services, <bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceA<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceB<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Northwind creates two relay services, <bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceA<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceB<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceA<ept id="1">&lt;/embeddedLabel&gt;</ept> receives messages with quote amount less than $10000.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceA<ept id="1">&lt;/embeddedLabel&gt;</ept> receives messages with quote amount less than $10000.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayServiceB<ept id="1">&lt;/embeddedLabel&gt;</ept> receives messages with quote amount greater than $10000.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayServiceB<ept id="1">&lt;/embeddedLabel&gt;</ept> receives messages with quote amount greater than $10000.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>After receiving the message, both the services generate a response message and stamp it with the headers, as described in the business scenario.</source>
+            <target state="new">After receiving the message, both the services generate a response message and stamp it with the headers, as described in the business scenario.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Northwind creates a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> and adds a <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph> to process the incoming XML messages and send a response.</source>
+            <target state="new">Northwind creates a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> and adds a <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph> to process the incoming XML messages and send a response.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Northwind also adds two-way relay service components, one each for <bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceA<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceB<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Northwind also adds two-way relay service components, one each for <bpt id="1">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceA<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>RelayReceiverServiceB<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Northwind adds all the required artifacts (schemas and transforms) to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">Northwind adds all the required artifacts (schemas and transforms) to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Northwind configures the <bpt id="1">&lt;legacyItalic&gt;</bpt>request<ept id="1">&lt;/legacyItalic&gt;</ept> path of the <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph> to do the following:</source>
+            <target state="new">Northwind configures the <bpt id="1">&lt;legacyItalic&gt;</bpt>request<ept id="1">&lt;/legacyItalic&gt;</ept> path of the <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph> to do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Configures the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Validate<ept id="1">&lt;/embeddedLabel&gt;</ept> stage to validate the XML messages against the ACORD schemas.</source>
+            <target state="new">Configures the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Validate<ept id="1">&lt;/embeddedLabel&gt;</ept> stage to validate the XML messages against the ACORD schemas.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Configures the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage to promote properties based on which the messages are routed to the backend services.</source>
+            <target state="new">Configures the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage to promote properties based on which the messages are routed to the backend services.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Configures The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transform<ept id="1">&lt;/embeddedLabel&gt;</ept> stage to transform messages from the ACORD schema to Northwind’s internal schema.</source>
+            <target state="new">Configures The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Transform<ept id="1">&lt;/embeddedLabel&gt;</ept> stage to transform messages from the ACORD schema to Northwind’s internal schema.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Northwind configures the <bpt id="1">&lt;legacyItalic&gt;</bpt>response<ept id="1">&lt;/legacyItalic&gt;</ept> path of the <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph> to do the following:</source>
+            <target state="new">Northwind configures the <bpt id="1">&lt;legacyItalic&gt;</bpt>response<ept id="1">&lt;/legacyItalic&gt;</ept> path of the <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph> to do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Configures the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage to extract the <bpt id="2">&lt;embeddedLabel&gt;</bpt>MsgStatus<ept id="2">&lt;/embeddedLabel&gt;</ept> header that the relay services added to the response message.</source>
+            <target state="new">Configures the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage to extract the <bpt id="2">&lt;embeddedLabel&gt;</bpt>MsgStatus<ept id="2">&lt;/embeddedLabel&gt;</ept> header that the relay services added to the response message.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Configures the <bpt id="1">&lt;embeddedLabel&gt;</bpt><ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph><ept id="1">&lt;/embeddedLabel&gt;</ept> stage to transform the response from the relay services into a message schema compliant with ACORD standards.</source>
+            <target state="new">Configures the <bpt id="1">&lt;embeddedLabel&gt;</bpt><ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph><ept id="1">&lt;/embeddedLabel&gt;</ept> stage to transform the response from the relay services into a message schema compliant with ACORD standards.</target>
+          </trans-unit>
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>In this stage, the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> also assigns the value from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>MsgStatus<ept id="2">&lt;/embeddedLabel&gt;</ept> header into an element in the response schema.</source>
+            <target state="new">In this stage, the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> also assigns the value from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>MsgStatus<ept id="2">&lt;/embeddedLabel&gt;</ept> header into an element in the response schema.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Configures the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Reply Action<ept id="1">&lt;/embeddedLabel&gt;</ept> to include the <bpt id="2">&lt;embeddedLabel&gt;</bpt>ProcessingStatus<ept id="2">&lt;/embeddedLabel&gt;</ept> header in the response message that is sent to the client.</source>
+            <target state="new">Configures the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Reply Action<ept id="1">&lt;/embeddedLabel&gt;</ept> to include the <bpt id="2">&lt;embeddedLabel&gt;</bpt>ProcessingStatus<ept id="2">&lt;/embeddedLabel&gt;</ept> header in the response message that is sent to the client.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Northwind adds two external relay endpoints to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> representing the two relay services and connects them to the <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph> bridge.</source>
+            <target state="new">Northwind adds two external relay endpoints to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> representing the two relay services and connects them to the <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph> bridge.</target>
+          </trans-unit>
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>As part of these routing connectors, Northwind does the following:</source>
+            <target state="new">As part of these routing connectors, Northwind does the following:</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Connects all the components on the <ph id="1">&lt;token&gt;msgflow&lt;/token&gt;</ph> design surface and sets the filter conditions based on the quote amount.</source>
+            <target state="new">Connects all the components on the <ph id="1">&lt;token&gt;msgflow&lt;/token&gt;</ph> design surface and sets the filter conditions based on the quote amount.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Stamps the <bpt id="1">&lt;embeddedLabel&gt;</bpt>QuoteType<ept id="1">&lt;/embeddedLabel&gt;</ept> header on the message and sets its value to either <bpt id="2">&lt;embeddedLabel&gt;</bpt>SmallAmounts<ept id="2">&lt;/embeddedLabel&gt;</ept> or <bpt id="3">&lt;embeddedLabel&gt;</bpt>LargeAmounts<ept id="3">&lt;/embeddedLabel&gt;</ept> depending on which service the message is being routed to.</source>
+            <target state="new">Stamps the <bpt id="1">&lt;embeddedLabel&gt;</bpt>QuoteType<ept id="1">&lt;/embeddedLabel&gt;</ept> header on the message and sets its value to either <bpt id="2">&lt;embeddedLabel&gt;</bpt>SmallAmounts<ept id="2">&lt;/embeddedLabel&gt;</ept> or <bpt id="3">&lt;embeddedLabel&gt;</bpt>LargeAmounts<ept id="3">&lt;/embeddedLabel&gt;</ept> depending on which service the message is being routed to.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Finally, Northwind deploys the two relay service on <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> and the <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> to <ph id="3">&lt;token&gt;af_integration&lt;/token&gt;</ph> and sends a message to the <ph id="4">&lt;token&gt;bridge&lt;/token&gt;</ph> endpoint.</source>
+            <target state="new">Finally, Northwind deploys the two relay service on <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> and the <ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> to <ph id="3">&lt;token&gt;af_integration&lt;/token&gt;</ph> and sends a message to the <ph id="4">&lt;token&gt;bridge&lt;/token&gt;</ph> endpoint.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>How to Use This Tutorial</source>
+            <target state="new">How to Use This Tutorial</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>This tutorial is written around a sample, <bpt id="1">&lt;embeddedLabel&gt;</bpt>Bridges_RelayServices.zip<ept id="1">&lt;/embeddedLabel&gt;</ept>, which is available as part of the download from the <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>MSDN Code Gallery<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=252395&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">This tutorial is written around a sample, <bpt id="1">&lt;embeddedLabel&gt;</bpt>Bridges_RelayServices.zip<ept id="1">&lt;/embeddedLabel&gt;</ept>, which is available as part of the download from the <bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>MSDN Code Gallery<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=252395&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>You could use the sample and go through this tutorial to understand how the sample was built.</source>
+            <target state="new">You could use the sample and go through this tutorial to understand how the sample was built.</target>
+          </trans-unit>
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Or, you could use this tutorial to create your own application.</source>
+            <target state="new">Or, you could use this tutorial to create your own application.</target>
+          </trans-unit>
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>This tutorial is targeted towards the second approach so that you understand how this application was built.</source>
+            <target state="new">This tutorial is targeted towards the second approach so that you understand how this application was built.</target>
+          </trans-unit>
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Also, as much as possible, the tutorial is consistent with the sample and uses the same names for artifacts (for example, schemas, transforms) as used in the sample.</source>
+            <target state="new">Also, as much as possible, the tutorial is consistent with the sample and uses the same names for artifacts (for example, schemas, transforms) as used in the sample.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Even though Microsoft recommends that you follow the tutorial to understand the concepts and procedures, do the following if you wish to use the sample:</source>
+            <target state="new">Even though Microsoft recommends that you follow the tutorial to understand the concepts and procedures, do the following if you wish to use the sample:</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>Download the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Bridges_RelayServices<ept id="1">&lt;/embeddedLabel&gt;</ept> sample and make relevant changes like providing your <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace, issuer name, issuer key.</source>
+            <target state="new">Download the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Bridges_RelayServices<ept id="1">&lt;/embeddedLabel&gt;</ept> sample and make relevant changes like providing your <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace, issuer name, issuer key.</target>
+          </trans-unit>
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>After making the required changes, build and deploy the application.</source>
+            <target state="new">After making the required changes, build and deploy the application.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Build and host the two relay services to accept request messages received via the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>.</source>
+            <target state="new">Build and host the two relay services to accept request messages received via the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageSender<ept id="1">&lt;/embeddedLabel&gt;</ept> tool provided with the package to send request messages to the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>.</source>
+            <target state="new">Use the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageSender<ept id="1">&lt;/embeddedLabel&gt;</ept> tool provided with the package to send request messages to the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Look at the command prompts for the services as well as the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageSender<ept id="1">&lt;/embeddedLabel&gt;</ept> tool to see if the messages were processed successfully.</source>
+            <target state="new">Look at the command prompts for the services as well as the <bpt id="1">&lt;embeddedLabel&gt;</bpt>MessageSender<ept id="1">&lt;/embeddedLabel&gt;</ept> tool to see if the messages were processed successfully.</target>
+          </trans-unit>
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>If the messages are successfully processed, the request and response schemas are saved under the project’s \bin\Debug folder.</source>
+            <target state="new">If the messages are successfully processed, the request and response schemas are saved under the project’s \bin\Debug folder.</target>
+          </trans-unit>
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>The location and name of the message files are also displayed on the respective command prompts.</source>
+            <target state="new">The location and name of the message files are also displayed on the respective command prompts.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Set Up Your Computer</source>
+            <target state="new">Set Up Your Computer</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>From the <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> download location (<bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/?LinkId=235057<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=235057&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>), download and install the <ph id="5">&lt;token&gt;af_integration&lt;/token&gt;</ph> SDK.</source>
+            <target state="new">From the <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> download location (<bpt id="2">&lt;externalLink&gt;</bpt><bpt id="3">&lt;linkText&gt;</bpt>http://go.microsoft.com/fwlink/?LinkId=235057<ept id="3">&lt;/linkText&gt;</ept><ph id="4">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=235057&lt;/linkUri&gt;</ph><ept id="2">&lt;/externalLink&gt;</ept>), download and install the <ph id="5">&lt;token&gt;af_integration&lt;/token&gt;</ph> SDK.</target>
+          </trans-unit>
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>For instructions, see <ph id="1">&lt;link xlink:href="10873203-56b3-445c-8340-ef073f5365f8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Installing the Azure BizTalk Services SDK - June 2013 Preview&lt;/link&gt;</ph>.</source>
+            <target state="new">For instructions, see <ph id="1">&lt;link xlink:href="10873203-56b3-445c-8340-ef073f5365f8" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Installing the Azure BizTalk Services SDK - June 2013 Preview&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Installing the SDK installs the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> template in <ph id="2">&lt;token&gt;vs_current_short&lt;/token&gt;</ph>.</source>
+            <target state="new">Installing the SDK installs the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> template in <ph id="2">&lt;token&gt;vs_current_short&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>This project template is used to create <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s that validate, <ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph>, and route messages to different endpoints as described in the business scenario.</source>
+            <target state="new">This project template is used to create <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>s that validate, <ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph>, and route messages to different endpoints as described in the business scenario.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>In This Section</source>
+            <target state="new">In This Section</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

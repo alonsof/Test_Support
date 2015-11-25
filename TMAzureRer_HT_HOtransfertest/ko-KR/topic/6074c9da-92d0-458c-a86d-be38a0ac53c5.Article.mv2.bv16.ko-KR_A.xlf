@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANyssJwzAMANBVPIAFcvyJ1QkKvZUuIMkWhKYxpClk/Ob8nlnskiaF3lOCFAxBsAooBi5EFpjJOzIsIVgAbaqQ+hU4ywzCMTMxNZ3Fu4JzUmoMNDWElKsC19JAeqyMrDlq9i549x7weHp3rotZP4/bPsbh3XRZ8e7++/D22nn7rnwsY/sDKQ2TmKIAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Azure</source>
+            <target state="new">Azure</target>
+            <context-group>
+              <context context-type="x-metadataname">applies_to_product</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Code Sample: ASP.NET MVC 4 with Federated Sign-out</source>
+            <target state="new">Code Sample: ASP.NET MVC 4 with Federated Sign-out</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>This sample illustrates how to integrate <ph id="1">&lt;token&gt;firstref_acs&lt;/token&gt;</ph> with an ASP.NET MVC 4 application.</source>
+            <target state="new">This sample illustrates how to integrate <ph id="1">&lt;token&gt;firstref_acs&lt;/token&gt;</ph> with an ASP.NET MVC 4 application.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>ACS integration enables single sign-on and single sign-out features for supported identity providers in an ASP.NET MVC 4 application.</source>
+            <target state="new">ACS integration enables single sign-on and single sign-out features for supported identity providers in an ASP.NET MVC 4 application.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The code for this sample is located in the <bpt id="1">&lt;ui&gt;</bpt>ASPNETSimpleMVC4<ept id="1">&lt;/ui&gt;</ept> (C#\Websites\ASPNETSimpleMVC4) subdirectory of the <ph id="2">&lt;token&gt;ad_acs_code_gallery&lt;/token&gt;</ph> package.</source>
+            <target state="new">The code for this sample is located in the <bpt id="1">&lt;ui&gt;</bpt>ASPNETSimpleMVC4<ept id="1">&lt;/ui&gt;</ept> (C#\Websites\ASPNETSimpleMVC4) subdirectory of the <ph id="2">&lt;token&gt;ad_acs_code_gallery&lt;/token&gt;</ph> package.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>For more information about the single sign-out feature in ACS, see <ph id="1">&lt;link xlink:href="c63a22d4-158b-4d8d-a957-edcd728f234b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Single sign-out&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about the single sign-out feature in ACS, see <ph id="1">&lt;link xlink:href="c63a22d4-158b-4d8d-a957-edcd728f234b" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Single sign-out&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Prerequisites</source>
+            <target state="new">Prerequisites</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>To run this sample, you will need:</source>
+            <target state="new">To run this sample, you will need:</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>An account in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=275081&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (http://go.microsoft.com/fwlink/?LinkID=275081) and an <ph id="4">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</source>
+            <target state="new">An account in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=275081&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (http://go.microsoft.com/fwlink/?LinkID=275081) and an <ph id="4">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>This sample uses an <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> called acssamples.</source>
+            <target state="new">This sample uses an <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> called acssamples.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Your namespace name can be different.</source>
+            <target state="new">Your namespace name can be different.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>For more information about creating an <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>, see <ph id="2">&lt;link xlink:href="dba0b42b-c631-4f60-bb3a-7b84d2ac406f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to: Create an Access Control Namespace&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about creating an <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>, see <ph id="2">&lt;link xlink:href="dba0b42b-c631-4f60-bb3a-7b84d2ac406f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to: Create an Access Control Namespace&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Identity and Access Tool for Visual Studio 2012<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/en-us/library/hh545418.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (http://msdn.microsoft.com/library/hh545418.aspx)</source>
+            <target state="new"><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Identity and Access Tool for Visual Studio 2012<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/en-us/library/hh545418.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (http://msdn.microsoft.com/library/hh545418.aspx)</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="b52e98da-25cc-47d0-832f-a3ee58951524" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ACS Prerequisites&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="b52e98da-25cc-47d0-832f-a3ee58951524" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;ACS Prerequisites&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Configuring the Sample</source>
+            <target state="new">Configuring the Sample</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>You can use the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal or the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service to configure this sample.</source>
+            <target state="new">You can use the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal or the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service to configure this sample.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>This topic describes both options.</source>
+            <target state="new">This topic describes both options.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Option 1: Using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal</source>
+            <target state="new">Option 1: Using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Option 2: Using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service</source>
+            <target state="new">Option 2: Using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Option 1: Using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal</source>
+            <target state="new">Option 1: Using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>To configure the sample using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal</source>
+            <target state="new">To configure the sample using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal opens.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal opens.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>To allow users of your application to login with their <ph id="1">&lt;system&gt;Google&lt;/system&gt;</ph> or <ph id="2">&lt;system&gt;Yahoo!&lt;/system&gt;</ph> identities, click <bpt id="3">&lt;ui&gt;</bpt>Identity providers<ept id="3">&lt;/ui&gt;</ept>, click <bpt id="4">&lt;ui&gt;</bpt>Add<ept id="4">&lt;/ui&gt;</ept> and then add <bpt id="5">&lt;ui&gt;</bpt>Google<ept id="5">&lt;/ui&gt;</ept> and <bpt id="6">&lt;ui&gt;</bpt>Yahoo!<ept id="6">&lt;/ui&gt;</ept>.</source>
+            <target state="new">To allow users of your application to login with their <ph id="1">&lt;system&gt;Google&lt;/system&gt;</ph> or <ph id="2">&lt;system&gt;Yahoo!&lt;/system&gt;</ph> identities, click <bpt id="3">&lt;ui&gt;</bpt>Identity providers<ept id="3">&lt;/ui&gt;</ept>, click <bpt id="4">&lt;ui&gt;</bpt>Add<ept id="4">&lt;/ui&gt;</ept> and then add <bpt id="5">&lt;ui&gt;</bpt>Google<ept id="5">&lt;/ui&gt;</ept> and <bpt id="6">&lt;ui&gt;</bpt>Yahoo!<ept id="6">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>For instructions, see <ph id="1">&lt;link xlink:href="b13d2d06-7d68-4c23-885a-302435830941" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Google as an ACS Identity Provider&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="760a3923-2311-48ef-bc78-c32b4cd2f861" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Yahoo! as an ACS Identity Provider&lt;/link&gt;</ph>. <ph id="3">&lt;token&gt;ms_acct&lt;/token&gt;</ph> is added by default and cannot be deleted.</source>
+            <target state="new">For instructions, see <ph id="1">&lt;link xlink:href="b13d2d06-7d68-4c23-885a-302435830941" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Google as an ACS Identity Provider&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="760a3923-2311-48ef-bc78-c32b4cd2f861" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Yahoo! as an ACS Identity Provider&lt;/link&gt;</ph>. <ph id="3">&lt;token&gt;ms_acct&lt;/token&gt;</ph> is added by default and cannot be deleted.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>To register your application with <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>, click <bpt id="2">&lt;ui&gt;</bpt>Relying party applications<ept id="2">&lt;/ui&gt;</ept>, click <bpt id="3">&lt;ui&gt;</bpt>Add<ept id="3">&lt;/ui&gt;</ept>, enter the following information in the form, and then click <bpt id="4">&lt;ui&gt;</bpt>Save<ept id="4">&lt;/ui&gt;</ept>.</source>
+            <target state="new">To register your application with <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>, click <bpt id="2">&lt;ui&gt;</bpt>Relying party applications<ept id="2">&lt;/ui&gt;</ept>, click <bpt id="3">&lt;ui&gt;</bpt>Add<ept id="3">&lt;/ui&gt;</ept>, enter the following information in the form, and then click <bpt id="4">&lt;ui&gt;</bpt>Save<ept id="4">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>Name<ept id="1">&lt;/ui&gt;</ept> field, enter <bpt id="2">&lt;ui&gt;</bpt>ASPNETMVC4Sample<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>Name<ept id="1">&lt;/ui&gt;</ept> field, enter <bpt id="2">&lt;ui&gt;</bpt>ASPNETMVC4Sample<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>Realm<ept id="1">&lt;/ui&gt;</ept> field, enter <bpt id="2">&lt;ui&gt;</bpt>http://localhost:65000/<ept id="2">&lt;/ui&gt;</ept> </source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>Realm<ept id="1">&lt;/ui&gt;</ept> field, enter <bpt id="2">&lt;ui&gt;</bpt>http://localhost:65000/<ept id="2">&lt;/ui&gt;</ept> </target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>Return URL<ept id="1">&lt;/ui&gt;</ept> field, enter <bpt id="2">&lt;ui&gt;</bpt>http://localhost:65000/<ept id="2">&lt;/ui&gt;</ept></source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>Return URL<ept id="1">&lt;/ui&gt;</ept> field, enter <bpt id="2">&lt;ui&gt;</bpt>http://localhost:65000/<ept id="2">&lt;/ui&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>Error URL<ept id="1">&lt;/ui&gt;</ept> field, enter <bpt id="2">&lt;ui&gt;</bpt>http://localhost:65000/Error<ept id="2">&lt;/ui&gt;</ept></source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>Error URL<ept id="1">&lt;/ui&gt;</ept> field, enter <bpt id="2">&lt;ui&gt;</bpt>http://localhost:65000/Error<ept id="2">&lt;/ui&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>Token format<ept id="1">&lt;/ui&gt;</ept> field, select <bpt id="2">&lt;ui&gt;</bpt>SAML 2.0<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>Token format<ept id="1">&lt;/ui&gt;</ept> field, select <bpt id="2">&lt;ui&gt;</bpt>SAML 2.0<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>Token signing<ept id="1">&lt;/ui&gt;</ept> field, select <bpt id="2">&lt;ui&gt;</bpt>Use service namespace certificate (standard)<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>Token signing<ept id="1">&lt;/ui&gt;</ept> field, select <bpt id="2">&lt;ui&gt;</bpt>Use service namespace certificate (standard)<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>For information about the fields and values on the Add Relying Party Application page, see <ph id="1">&lt;link xlink:href="16708a9e-e1f1-4ad5-bed2-a49ccabc42b9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Relying Party Applications&lt;/link&gt;</ph>.</source>
+            <target state="new">For information about the fields and values on the Add Relying Party Application page, see <ph id="1">&lt;link xlink:href="16708a9e-e1f1-4ad5-bed2-a49ccabc42b9" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Relying Party Applications&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>To create a rule group that sends all claims issued by the identity providers to the relying party application, click <bpt id="1">&lt;ui&gt;</bpt>Rule groups<ept id="1">&lt;/ui&gt;</ept>, click <bpt id="2">&lt;ui&gt;</bpt>Default Rule Group for ACS Simple MVC4 Sample<ept id="2">&lt;/ui&gt;</ept>, and click <bpt id="3">&lt;ui&gt;</bpt>Generate<ept id="3">&lt;/ui&gt;</ept>, and then clidk <bpt id="4">&lt;ui&gt;</bpt>Save<ept id="4">&lt;/ui&gt;</ept>.</source>
+            <target state="new">To create a rule group that sends all claims issued by the identity providers to the relying party application, click <bpt id="1">&lt;ui&gt;</bpt>Rule groups<ept id="1">&lt;/ui&gt;</ept>, click <bpt id="2">&lt;ui&gt;</bpt>Default Rule Group for ACS Simple MVC4 Sample<ept id="2">&lt;/ui&gt;</ept>, and click <bpt id="3">&lt;ui&gt;</bpt>Generate<ept id="3">&lt;/ui&gt;</ept>, and then clidk <bpt id="4">&lt;ui&gt;</bpt>Save<ept id="4">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>The Rule groups section of the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> portal create the rules that determine which claims <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> sends to your application.</source>
+            <target state="new">The Rule groups section of the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> portal create the rules that determine which claims <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> sends to your application.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>By selecting all generated rules, you configure <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> to send pass all claims issued by the identity providers to the relying party application.</source>
+            <target state="new">By selecting all generated rules, you configure <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> to send pass all claims issued by the identity providers to the relying party application.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>The sample is now configured and ready to run in <ph id="1">&lt;token&gt;vs2012&lt;/token&gt;</ph>.</source>
+            <target state="new">The sample is now configured and ready to run in <ph id="1">&lt;token&gt;vs2012&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Option 2: Using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service</source>
+            <target state="new">Option 2: Using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;vs_current_short&lt;/token&gt;</ph> sample solution has a console application called <bpt id="2">&lt;ui&gt;</bpt>ConfigureSample<ept id="2">&lt;/ui&gt;</ept> that uses the <ph id="3">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service and the common helpers defined in the Common class library.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;vs_current_short&lt;/token&gt;</ph> sample solution has a console application called <bpt id="2">&lt;ui&gt;</bpt>ConfigureSample<ept id="2">&lt;/ui&gt;</ept> that uses the <ph id="3">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service and the common helpers defined in the Common class library.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>You can use this application to configure your <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> for use with this sample.</source>
+            <target state="new">You can use this application to configure your <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> for use with this sample.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>To configure the sample using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service</source>
+            <target state="new">To configure the sample using the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Service</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>To configure the sample, open <bpt id="1">&lt;ui&gt;</bpt>SamplesConfiguration.cs<ept id="1">&lt;/ui&gt;</ept> (acs\Management\ManagementService\Common).</source>
+            <target state="new">To configure the sample, open <bpt id="1">&lt;ui&gt;</bpt>SamplesConfiguration.cs<ept id="1">&lt;/ui&gt;</ept> (acs\Management\ManagementService\Common).</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Replace the placeholders in the <ph id="1">&lt;system&gt;SamplesConfiguration&lt;/system&gt;</ph> class in the Common class library with information about your <ph id="2">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</source>
+            <target state="new">Replace the placeholders in the <ph id="1">&lt;system&gt;SamplesConfiguration&lt;/system&gt;</ph> class in the Common class library with information about your <ph id="2">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>You can find the information in the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</source>
+            <target state="new">You can find the information in the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>To navigate to the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal: <ph id="2">&lt;token&gt;ad_acs_portal&lt;/token&gt;</ph> <ph id="3">&lt;token&gt;ad_acs_manage_namespace&lt;/token&gt;</ph></source>
+            <target state="new">To navigate to the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal: <ph id="2">&lt;token&gt;ad_acs_portal&lt;/token&gt;</ph> <ph id="3">&lt;token&gt;ad_acs_manage_namespace&lt;/token&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>ServiceNamespace<ept id="1">&lt;/ui&gt;</ept> - Enter the name of your <ph id="2">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>ServiceNamespace<ept id="1">&lt;/ui&gt;</ept> - Enter the name of your <ph id="2">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>ManagementServiceIdentityName<ept id="1">&lt;/ui&gt;</ept> - Enter the name of an <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> management service account.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>ManagementServiceIdentityName<ept id="1">&lt;/ui&gt;</ept> - Enter the name of an <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> management service account.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>The default is <ph id="1">&lt;system&gt;ManagementClient&lt;/system&gt;</ph>.</source>
+            <target state="new">The default is <ph id="1">&lt;system&gt;ManagementClient&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>To find the management service account name, in the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal, click <bpt id="2">&lt;ui&gt;</bpt>Management service<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">To find the management service account name, in the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal, click <bpt id="2">&lt;ui&gt;</bpt>Management service<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>The accounts are listed by name under <bpt id="1">&lt;ui&gt;</bpt>Management Service Accounts<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">The accounts are listed by name under <bpt id="1">&lt;ui&gt;</bpt>Management Service Accounts<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>ManagementServiceIdentityKey<ept id="1">&lt;/ui&gt;</ept> - Enter the password for the management service account.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>ManagementServiceIdentityKey<ept id="1">&lt;/ui&gt;</ept> - Enter the password for the management service account.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>To find the management service account password, in the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal, click <bpt id="2">&lt;ui&gt;</bpt>Management service<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">To find the management service account password, in the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Management Portal, click <bpt id="2">&lt;ui&gt;</bpt>Management service<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Click the name of a management service account, and then, under <bpt id="1">&lt;ui&gt;</bpt>Credentials<ept id="1">&lt;/ui&gt;</ept>, click <bpt id="2">&lt;ui&gt;</bpt>Password<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click the name of a management service account, and then, under <bpt id="1">&lt;ui&gt;</bpt>Credentials<ept id="1">&lt;/ui&gt;</ept>, click <bpt id="2">&lt;ui&gt;</bpt>Password<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>The password appears in the <bpt id="1">&lt;ui&gt;</bpt>Password<ept id="1">&lt;/ui&gt;</ept> field.</source>
+            <target state="new">The password appears in the <bpt id="1">&lt;ui&gt;</bpt>Password<ept id="1">&lt;/ui&gt;</ept> field.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>To copy the password, click <bpt id="1">&lt;ui&gt;</bpt>Show Password<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">To copy the password, click <bpt id="1">&lt;ui&gt;</bpt>Show Password<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Run the <bpt id="1">&lt;ui&gt;</bpt>ConfigureSample<ept id="1">&lt;/ui&gt;</ept> application in <ph id="2">&lt;token&gt;vs_current_short&lt;/token&gt;</ph>.</source>
+            <target state="new">Run the <bpt id="1">&lt;ui&gt;</bpt>ConfigureSample<ept id="1">&lt;/ui&gt;</ept> application in <ph id="2">&lt;token&gt;vs_current_short&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>The application uses the data in <ph id="1">&lt;system&gt;SamplesConfiguration.cs&lt;/system&gt;</ph> to configure <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> to run the sample.</source>
+            <target state="new">The application uses the data in <ph id="1">&lt;system&gt;SamplesConfiguration.cs&lt;/system&gt;</ph> to configure <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> to run the sample.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Running the Sample</source>
+            <target state="new">Running the Sample</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>To run the sample</source>
+            <target state="new">To run the sample</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Open the solution file for the sample,  <bpt id="1">&lt;ui&gt;</bpt>ASPNETSimpleMVC4.sln<ept id="1">&lt;/ui&gt;</ept> (C#\Websites\ASPNETSimpleMVC4\), in <ph id="2">&lt;token&gt;vs2012&lt;/token&gt;</ph>.</source>
+            <target state="new">Open the solution file for the sample,  <bpt id="1">&lt;ui&gt;</bpt>ASPNETSimpleMVC4.sln<ept id="1">&lt;/ui&gt;</ept> (C#\Websites\ASPNETSimpleMVC4\), in <ph id="2">&lt;token&gt;vs2012&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Right-click the project and select <bpt id="1">&lt;ui&gt;</bpt>Identity and Access<ept id="1">&lt;/ui&gt;</ept> from the context menu.</source>
+            <target state="new">Right-click the project and select <bpt id="1">&lt;ui&gt;</bpt>Identity and Access<ept id="1">&lt;/ui&gt;</ept> from the context menu.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;ui&gt;</bpt>Use the Azure Access Control Service<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;ui&gt;</bpt>Use the Azure Access Control Service<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Next to <bpt id="1">&lt;ui&gt;</bpt>Select one or more providers ...<ept id="1">&lt;/ui&gt;</ept> click <bpt id="2">&lt;ui&gt;</bpt>Configure<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Next to <bpt id="1">&lt;ui&gt;</bpt>Select one or more providers ...<ept id="1">&lt;/ui&gt;</ept> click <bpt id="2">&lt;ui&gt;</bpt>Configure<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Enter your <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> and management service account password.</source>
+            <target state="new">Enter your <ph id="1">&lt;token&gt;ad_acs_namespace&lt;/token&gt;</ph> and management service account password.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Select one or more identity providers from the list.</source>
+            <target state="new">Select one or more identity providers from the list.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>The identity providers that appear are those that you added when you configured  the sample in the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> portal or the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> management service.</source>
+            <target state="new">The identity providers that appear are those that you added when you configured  the sample in the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> portal or the <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> management service.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Your relying party application is now configured to use ACS.</source>
+            <target state="new">Your relying party application is now configured to use ACS.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Press F5 to run the application.</source>
+            <target state="new">Press F5 to run the application.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Your browser is directed to the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Home Realm Discovery page.</source>
+            <target state="new">Your browser is directed to the <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> Home Realm Discovery page.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>Google<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>Google<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Your browser is redirected to a Google sign-in page.</source>
+            <target state="new">Your browser is redirected to a Google sign-in page.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Enter the credentials of a Google account and decline the user consent form.</source>
+            <target state="new">Enter the credentials of a Google account and decline the user consent form.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Your browser is redirected to <ph id="1">&lt;system&gt;http://localhost:65000/&lt;/system&gt;</ph>.</source>
+            <target state="new">Your browser is redirected to <ph id="1">&lt;system&gt;http://localhost:65000/&lt;/system&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Notice that your Google username appears in the top left corner of the page.</source>
+            <target state="new">Notice that your Google username appears in the top left corner of the page.</target>
+          </trans-unit>
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>This indicates that you are signed into the relying party application.To sign-out of the relying party application, click the Sign-out link.</source>
+            <target state="new">This indicates that you are signed into the relying party application.To sign-out of the relying party application, click the Sign-out link.</target>
+          </trans-unit>
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Notice that you are no longer authenticated.</source>
+            <target state="new">Notice that you are no longer authenticated.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

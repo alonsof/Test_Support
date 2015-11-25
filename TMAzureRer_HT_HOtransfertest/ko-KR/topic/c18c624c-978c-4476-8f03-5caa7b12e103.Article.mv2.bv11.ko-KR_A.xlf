@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANylEKwjAQRdGtZAF5kEmnTeIKBP/EDUzGDBRrA1qhyze/91yzqVWOitaYwWQBNeQKDSRLKUYixbsnzYnLTOBMBh4NOUVBoWSVg8RK41LKukRWlJQVzGlBtjBhVpFUKTYKk3fk3avjdvfu3Fazdh6XT++Hd3HYwOvvLfvjI/t3k2Pt+x8uy/HDogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Step 2: Expose a Relay Endpoint to Invoke Operations on ORDERS05 IDOC</source>
+            <target state="new">Step 2: Expose a Relay Endpoint to Invoke Operations on ORDERS05 IDOC</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>There are two main steps required to expose an SAP artifact as an operation that can be invoked by sending a message over <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> – create an <ph id="2">&lt;token&gt;lobtarget&lt;/token&gt;</ph> and an <ph id="3">&lt;token&gt;lobrelay&lt;/token&gt;</ph>.</source>
+            <target state="new">There are two main steps required to expose an SAP artifact as an operation that can be invoked by sending a message over <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> – create an <ph id="2">&lt;token&gt;lobtarget&lt;/token&gt;</ph> and an <ph id="3">&lt;token&gt;lobrelay&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>An <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph> defines how an <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph> application communicates to the Line-of-Business (LOB) system.</source>
+            <target state="new">An <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph> defines how an <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph> application communicates to the Line-of-Business (LOB) system.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph> controls the LOB system connection URI, the operation to perform, and the connection credentials.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph> controls the LOB system connection URI, the operation to perform, and the connection credentials.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>An <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph> is a WCF service running within an organizations firewall and listens to a relay endpoint on the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">An <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph> is a WCF service running within an organizations firewall and listens to a relay endpoint on the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>As the name suggests, the <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph> acts as a relay between the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> relay endpoint and the LOB system.</source>
+            <target state="new">As the name suggests, the <ph id="1">&lt;token&gt;lobrelay&lt;/token&gt;</ph> acts as a relay between the <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> relay endpoint and the LOB system.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>It receives the message at the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> relay endpoint and passes it on to the relevant LOB system using the <ph id="2">&lt;token&gt;lobtarget&lt;/token&gt;</ph> configuration.</source>
+            <target state="new">It receives the message at the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> relay endpoint and passes it on to the relevant LOB system using the <ph id="2">&lt;token&gt;lobtarget&lt;/token&gt;</ph> configuration.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>For more information, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>BizTalk Adapter Service Architecture<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=241590&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>BizTalk Adapter Service Architecture<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?LinkId=241590&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>In this topic, we create an <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph> and an <ph id="2">&lt;token&gt;lobrelay&lt;/token&gt;</ph> to expose the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Send<ept id="3">&lt;/embeddedLabel&gt;</ept> operation on the ORDERS05 IDOC.</source>
+            <target state="new">In this topic, we create an <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph> and an <ph id="2">&lt;token&gt;lobrelay&lt;/token&gt;</ph> to expose the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Send<ept id="3">&lt;/embeddedLabel&gt;</ept> operation on the ORDERS05 IDOC.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>To create an LOB Target and LOB Relay</source>
+            <target state="new">To create an LOB Target and LOB Relay</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Open Visual Studio (as an administrator), create a new <bpt id="1">&lt;embeddedLabel&gt;</bpt><ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph><ept id="1">&lt;/embeddedLabel&gt;</ept>, and name it <bpt id="3">&lt;embeddedLabel&gt;</bpt>SAPIntegration<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Open Visual Studio (as an administrator), create a new <bpt id="1">&lt;embeddedLabel&gt;</bpt><ph id="2">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph><ept id="1">&lt;/embeddedLabel&gt;</ept>, and name it <bpt id="3">&lt;embeddedLabel&gt;</bpt>SAPIntegration<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>You first start with adding a <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph> server.</source>
+            <target state="new">You first start with adding a <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph> server.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>This is the server where you installed the Runtime component of <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph>.</source>
+            <target state="new">This is the server where you installed the Runtime component of <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>To add a <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph> server, from the Server Explorer in Visual Studio, right-click <bpt id="2">&lt;embeddedLabel&gt;</bpt><ph id="3">&lt;token&gt;lobconnect&lt;/token&gt;</ph><ept id="2">&lt;/embeddedLabel&gt;</ept>s, and select <bpt id="4">&lt;embeddedLabel&gt;</bpt>Add <ph id="5">&lt;token&gt;lobconnect&lt;/token&gt;</ph><ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">To add a <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph> server, from the Server Explorer in Visual Studio, right-click <bpt id="2">&lt;embeddedLabel&gt;</bpt><ph id="3">&lt;token&gt;lobconnect&lt;/token&gt;</ph><ept id="2">&lt;/embeddedLabel&gt;</ept>s, and select <bpt id="4">&lt;embeddedLabel&gt;</bpt>Add <ph id="5">&lt;token&gt;lobconnect&lt;/token&gt;</ph><ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add <ph id="2">&lt;token&gt;lobconnect&lt;/token&gt;</ph><ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, enter the URL of the WCF service that monitors that <ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph> relay service, and then select <bpt id="4">&lt;embeddedLabel&gt;</bpt>OK<ept id="4">&lt;/embeddedLabel&gt;</ept>:</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add <ph id="2">&lt;token&gt;lobconnect&lt;/token&gt;</ph><ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, enter the URL of the WCF service that monitors that <ph id="3">&lt;token&gt;sb2&lt;/token&gt;</ph> relay service, and then select <bpt id="4">&lt;embeddedLabel&gt;</bpt>OK<ept id="4">&lt;/embeddedLabel&gt;</ept>:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Because you have all the components of <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph> installed on the same computer, the URL for that service will be <ph id="2">&lt;codeInline&gt;http://localhost:8080/BAService/ManagementService.svc/&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Because you have all the components of <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph> installed on the same computer, the URL for that service will be <ph id="2">&lt;codeInline&gt;http://localhost:8080/BAService/ManagementService.svc/&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>If you had installed <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph> Runtime component on a separate computer, you replace ‘localhost’ in the above URL with the name of that computer.</source>
+            <target state="new">If you had installed <ph id="1">&lt;token&gt;lobconnect&lt;/token&gt;</ph> Runtime component on a separate computer, you replace ‘localhost’ in the above URL with the name of that computer.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>In this tutorial, we are creating an application to integrate with SAP, so we must add an SAP target.</source>
+            <target state="new">In this tutorial, we are creating an application to integrate with SAP, so we must add an SAP target.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Expand the newly added server, expand <bpt id="1">&lt;embeddedLabel&gt;</bpt>LOB Types<ept id="1">&lt;/embeddedLabel&gt;</ept>, right-click <bpt id="2">&lt;embeddedLabel&gt;</bpt>SAP<ept id="2">&lt;/embeddedLabel&gt;</ept>, and select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add SAP Target<ept id="3">&lt;/embeddedLabel&gt;</ept>:</source>
+            <target state="new">Expand the newly added server, expand <bpt id="1">&lt;embeddedLabel&gt;</bpt>LOB Types<ept id="1">&lt;/embeddedLabel&gt;</ept>, right-click <bpt id="2">&lt;embeddedLabel&gt;</bpt>SAP<ept id="2">&lt;/embeddedLabel&gt;</ept>, and select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add SAP Target<ept id="3">&lt;/embeddedLabel&gt;</ept>:</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add a Target<ept id="1">&lt;/embeddedLabel&gt;</ept> wizard starts.</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add a Target<ept id="1">&lt;/embeddedLabel&gt;</ept> wizard starts.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Perform the following steps to create an <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph>.</source>
+            <target state="new">Perform the following steps to create an <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Read the information on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Before You Begin<ept id="1">&lt;/embeddedLabel&gt;</ept> page, and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Next<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Read the information on the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Before You Begin<ept id="1">&lt;/embeddedLabel&gt;</ept> page, and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Next<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Connection Parameters<ept id="1">&lt;/embeddedLabel&gt;</ept> page, specify the details for the SAP Server to connect to and the credentials to use for the connection.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Connection Parameters<ept id="1">&lt;/embeddedLabel&gt;</ept> page, specify the details for the SAP Server to connect to and the credentials to use for the connection.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Next<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Next<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Operations<ept id="1">&lt;/embeddedLabel&gt;</ept> page, expand the <bpt id="2">&lt;embeddedLabel&gt;</bpt>ORDERSO5<ept id="2">&lt;/embeddedLabel&gt;</ept> IDOC category (under \IDOC\ORDERS\).</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Operations<ept id="1">&lt;/embeddedLabel&gt;</ept> page, expand the <bpt id="2">&lt;embeddedLabel&gt;</bpt>ORDERSO5<ept id="2">&lt;/embeddedLabel&gt;</ept> IDOC category (under \IDOC\ORDERS\).</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>There are several versions of the IDOC available.</source>
+            <target state="new">There are several versions of the IDOC available.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>For this tutorial, we’ll select <bpt id="1">&lt;embeddedLabel&gt;</bpt>ORDERS05.V3(700)<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">For this tutorial, we’ll select <bpt id="1">&lt;embeddedLabel&gt;</bpt>ORDERS05.V3(700)<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Expand this IDOC, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send<ept id="1">&lt;/embeddedLabel&gt;</ept>, and then select the right arrow to add it to the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Selected Operations<ept id="2">&lt;/embeddedLabel&gt;</ept> box:</source>
+            <target state="new">Expand this IDOC, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send<ept id="1">&lt;/embeddedLabel&gt;</ept>, and then select the right arrow to add it to the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Selected Operations<ept id="2">&lt;/embeddedLabel&gt;</ept> box:</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Next<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Next<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Runtime Security<ept id="1">&lt;/embeddedLabel&gt;</ept> page, specify the security mechanism to be used by the LOB Server to authenticate the target resource when a message arrives from a client.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Runtime Security<ept id="1">&lt;/embeddedLabel&gt;</ept> page, specify the security mechanism to be used by the LOB Server to authenticate the target resource when a message arrives from a client.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>For this tutorial, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Fixed Username<ept id="1">&lt;/embeddedLabel&gt;</ept> and specify the credentials to connect to the SAP server.</source>
+            <target state="new">For this tutorial, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Fixed Username<ept id="1">&lt;/embeddedLabel&gt;</ept> and specify the credentials to connect to the SAP server.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Deployment<ept id="1">&lt;/embeddedLabel&gt;</ept> page, you create an <ph id="2">&lt;token&gt;lobrelay&lt;/token&gt;</ph> and an <ph id="3">&lt;token&gt;lobtarget&lt;/token&gt;</ph> to provide connectivity to your on-premise LOB applications from the cloud.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Deployment<ept id="1">&lt;/embeddedLabel&gt;</ept> page, you create an <ph id="2">&lt;token&gt;lobrelay&lt;/token&gt;</ph> and an <ph id="3">&lt;token&gt;lobtarget&lt;/token&gt;</ph> to provide connectivity to your on-premise LOB applications from the cloud.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Create new<ept id="1">&lt;/embeddedLabel&gt;</ept> option to create a new relay and provide the following values:</source>
+            <target state="new">Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Create new<ept id="1">&lt;/embeddedLabel&gt;</ept> option to create a new relay and provide the following values:</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Namespace</source>
+            <target state="new">Namespace</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Specify the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace on which the LOB relay endpoint is created.</source>
+            <target state="new">Specify the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace on which the LOB relay endpoint is created.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Issuer name</source>
+            <target state="new">Issuer name</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Specify the issuer name for the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace</source>
+            <target state="new">Specify the issuer name for the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Issuer secret</source>
+            <target state="new">Issuer secret</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Specify the issuer secret for the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace</source>
+            <target state="new">Specify the issuer secret for the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> namespace</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Relay path</source>
+            <target state="new">Relay path</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Specify a name for the relay.</source>
+            <target state="new">Specify a name for the relay.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>For this tutorial, enter <bpt id="1">&lt;userInput&gt;</bpt>sapintegration01<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For this tutorial, enter <bpt id="1">&lt;userInput&gt;</bpt>sapintegration01<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Target sub-path</source>
+            <target state="new">Target sub-path</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Enter a sub-path to make this target unique.</source>
+            <target state="new">Enter a sub-path to make this target unique.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>For this tutorial, enter <bpt id="1">&lt;userInput&gt;</bpt>orders<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For this tutorial, enter <bpt id="1">&lt;userInput&gt;</bpt>orders<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Target runtime URL<ept id="1">&lt;/embeddedLabel&gt;</ept> read-only property displays the URL where the relay is deployed on <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>.</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Target runtime URL<ept id="1">&lt;/embeddedLabel&gt;</ept> read-only property displays the URL where the relay is deployed on <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>This is the path where you could send a message to be inserted into the on-premises SAP Server.</source>
+            <target state="new">This is the path where you could send a message to be inserted into the on-premises SAP Server.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>In our scenario, this is where the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> sends the message.</source>
+            <target state="new">In our scenario, this is where the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> sends the message.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Next<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Next<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Summary<ept id="1">&lt;/embeddedLabel&gt;</ept> page, review the values you specified in the previous steps, and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Create<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">On the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Summary<ept id="1">&lt;/embeddedLabel&gt;</ept> page, review the values you specified in the previous steps, and then select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Create<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>When the wizard completes, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Finish<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">When the wizard completes, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Finish<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>In Visual Studio Server Explorer, you now have an entry under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>SAP<ept id="1">&lt;/embeddedLabel&gt;</ept> node.</source>
+            <target state="new">In Visual Studio Server Explorer, you now have an entry under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>SAP<ept id="1">&lt;/embeddedLabel&gt;</ept> node.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>This represents the relay endpoint created in <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> to relay PO messages coming from the cloud to the on-premises SAP system.</source>
+            <target state="new">This represents the relay endpoint created in <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> to relay PO messages coming from the cloud to the on-premises SAP system.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>To add schemas</source>
+            <target state="new">To add schemas</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>After adding the relay endpoint to an SAP system, you must add schemas that to send ORDERS05 PO messages to the SAP server.</source>
+            <target state="new">After adding the relay endpoint to an SAP system, you must add schemas that to send ORDERS05 PO messages to the SAP server.</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>To add the schemas, right-click the relay endpoint and select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add schemas to SAPIntegration<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">To add the schemas, right-click the relay endpoint and select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add schemas to SAPIntegration<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>In the dialog box, do the following:</source>
+            <target state="new">In the dialog box, do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Enter a filename prefix that will be included in the name of each schema file that is generated.</source>
+            <target state="new">Enter a filename prefix that will be included in the name of each schema file that is generated.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>For this tutorial, specify this as <bpt id="1">&lt;userInput&gt;</bpt>SAPIntegration_<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For this tutorial, specify this as <bpt id="1">&lt;userInput&gt;</bpt>SAPIntegration_<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Enter a folder name that will be added to your solution under which all the schemas will be added.</source>
+            <target state="new">Enter a folder name that will be added to your solution under which all the schemas will be added.</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>For this tutorial, specify the folder name as <bpt id="1">&lt;userInput&gt;</bpt>LOB Schemas<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For this tutorial, specify the folder name as <bpt id="1">&lt;userInput&gt;</bpt>LOB Schemas<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Enter the credentials to connect to an SAP system.</source>
+            <target state="new">Enter the credentials to connect to an SAP system.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>The schemas are added to the project under an <bpt id="1">&lt;embeddedLabel&gt;</bpt>LOB Schemas<ept id="1">&lt;/embeddedLabel&gt;</ept> folder.</source>
+            <target state="new">The schemas are added to the project under an <bpt id="1">&lt;embeddedLabel&gt;</bpt>LOB Schemas<ept id="1">&lt;/embeddedLabel&gt;</ept> folder.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>To use the LOB Target</source>
+            <target state="new">To use the LOB Target</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Right-click anywhere on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design area, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Properties<ept id="2">&lt;/embeddedLabel&gt;</ept> and update the <bpt id="3">&lt;embeddedLabel&gt;</bpt>BizTalk Service URL<ept id="3">&lt;/embeddedLabel&gt;</ept> property to include your <ph id="4">&lt;token&gt;af_integration&lt;/token&gt;</ph> name.</source>
+            <target state="new">Right-click anywhere on the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> design area, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Properties<ept id="2">&lt;/embeddedLabel&gt;</ept> and update the <bpt id="3">&lt;embeddedLabel&gt;</bpt>BizTalk Service URL<ept id="3">&lt;/embeddedLabel&gt;</ept> property to include your <ph id="4">&lt;token&gt;af_integration&lt;/token&gt;</ph> name.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>This is the name that you provided in <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=211879&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> while provisioning the <ph id="4">&lt;token&gt;af_integration&lt;/token&gt;</ph>.</source>
+            <target state="new">This is the name that you provided in <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Azure Management Portal<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=211879&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> while provisioning the <ph id="4">&lt;token&gt;af_integration&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Set the security property for the relay endpoint:</source>
+            <target state="new">Set the security property for the relay endpoint:</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Right-click the <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph> in Server Explorer and select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Properties<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Right-click the <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph> in Server Explorer and select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Properties<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>In the Properties grid, select the ellipsis <bpt id="1">&lt;embeddedLabel&gt;</bpt>(…)<ept id="1">&lt;/embeddedLabel&gt;</ept> against the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Runtime Security<ept id="2">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">In the Properties grid, select the ellipsis <bpt id="1">&lt;embeddedLabel&gt;</bpt>(…)<ept id="1">&lt;/embeddedLabel&gt;</ept> against the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Runtime Security<ept id="2">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit Security<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Fixed Username<ept id="2">&lt;/embeddedLabel&gt;</ept>, and enter the username and password to connect to the SAP Server.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit Security<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Fixed Username<ept id="2">&lt;/embeddedLabel&gt;</ept>, and enter the username and password to connect to the SAP Server.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Drag and drop the <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph> onto the design area.</source>
+            <target state="new">Drag and drop the <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph> onto the design area.</target>
+          </trans-unit>
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Note the <bpt id="1">&lt;legacyBold&gt;</bpt>Entity Name<ept id="1">&lt;/legacyBold&gt;</ept> property of the <ph id="2">&lt;token&gt;lobtarget&lt;/token&gt;</ph>.</source>
+            <target state="new">Note the <bpt id="1">&lt;legacyBold&gt;</bpt>Entity Name<ept id="1">&lt;/legacyBold&gt;</ept> property of the <ph id="2">&lt;token&gt;lobtarget&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>The default value is <bpt id="1">&lt;legacyItalic&gt;</bpt>Relay-Path_target-sub-path<ept id="1">&lt;/legacyItalic&gt;</ept>.</source>
+            <target state="new">The default value is <bpt id="1">&lt;legacyItalic&gt;</bpt>Relay-Path_target-sub-path<ept id="1">&lt;/legacyItalic&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>If using the examples above, it is <bpt id="1">&lt;legacyItalic&gt;</bpt>sapintegration01_orders<ept id="1">&lt;/legacyItalic&gt;</ept>.</source>
+            <target state="new">If using the examples above, it is <bpt id="1">&lt;legacyItalic&gt;</bpt>sapintegration01_orders<ept id="1">&lt;/legacyItalic&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Open the .config file for the <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph>, which typically has the naming convention as <bpt id="2">&lt;legacyItalic&gt;</bpt>YourRelayPath_target-sub-path.config<ept id="2">&lt;/legacyItalic&gt;</ept>.</source>
+            <target state="new">Open the .config file for the <ph id="1">&lt;token&gt;lobtarget&lt;/token&gt;</ph>, which typically has the naming convention as <bpt id="2">&lt;legacyItalic&gt;</bpt>YourRelayPath_target-sub-path.config<ept id="2">&lt;/legacyItalic&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Specify the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer name and issuer secret, as shown below:</source>
+            <target state="new">Specify the <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> issuer name and issuer secret, as shown below:</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Save changes to the config file.</source>
+            <target state="new">Save changes to the config file.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

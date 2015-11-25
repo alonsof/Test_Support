@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANylEKwyAMANCreAADTYxOd4LB/sYukKiBsq7C1kGPP7/fMwtdmSr0zgyMtoAuWaEuKKkUQ5HiXcJ4KdgqNCUCzhIgt6oQoloTzSmieBcKUW3cgMkE2Gyu0PqsJSrWnjMl79C714D7w7tzW836eVw/Yxze0bSJt99b9udH9u8mxzr2P6/QqrCiAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Step 6: Configure an XML One-Way Bridge</source>
+            <target state="new">Step 6: Configure an XML One-Way Bridge</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This topic provides instructions on how to configure an <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph>.</source>
+            <target state="new">This topic provides instructions on how to configure an <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>As part of the <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> configuration, we’ll do the following:</source>
+            <target state="new">As part of the <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> configuration, we’ll do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Configure the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to process the flat-file message of the type we created earlier.</source>
+            <target state="new">Configure the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to process the flat-file message of the type we created earlier.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Through promoted properties, extract the value of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>OrderId<ept id="1">&lt;/embeddedLabel&gt;</ept> record (before message transformation) and <bpt id="2">&lt;embeddedLabel&gt;</bpt>TotalAmount<ept id="2">&lt;/embeddedLabel&gt;</ept> (after message transformation).</source>
+            <target state="new">Through promoted properties, extract the value of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>OrderId<ept id="1">&lt;/embeddedLabel&gt;</ept> record (before message transformation) and <bpt id="2">&lt;embeddedLabel&gt;</bpt>TotalAmount<ept id="2">&lt;/embeddedLabel&gt;</ept> (after message transformation).</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>We’ll track the values for these two as the message gets processed by the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>.</source>
+            <target state="new">We’ll track the values for these two as the message gets processed by the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Configure the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to use the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Map.trfm<ept id="2">&lt;/embeddedLabel&gt;</ept> <ph id="3">&lt;token&gt;transform&lt;/token&gt;</ph> we created earlier.</source>
+            <target state="new">Configure the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to use the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Map.trfm<ept id="2">&lt;/embeddedLabel&gt;</ept> <ph id="3">&lt;token&gt;transform&lt;/token&gt;</ph> we created earlier.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Configure the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to track the messages it processes.</source>
+            <target state="new">Configure the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to track the messages it processes.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>To configure an <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph></source>
+            <target state="new">To configure an <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph></target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Drag and drop an <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> from toolbox to the <ph id="2">&lt;token&gt;msgflow&lt;/token&gt;</ph> design area.</source>
+            <target state="new">Drag and drop an <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> from toolbox to the <ph id="2">&lt;token&gt;msgflow&lt;/token&gt;</ph> design area.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>For the Entity Name and Relative Address properties of the bridge, enter <bpt id="1">&lt;userInput&gt;</bpt>ProcessOrders<ept id="1">&lt;/userInput&gt;</ept> for the value.</source>
+            <target state="new">For the Entity Name and Relative Address properties of the bridge, enter <bpt id="1">&lt;userInput&gt;</bpt>ProcessOrders<ept id="1">&lt;/userInput&gt;</ept> for the value.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Double-click the <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> on the itinerary designer.</source>
+            <target state="new">Double-click the <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> on the itinerary designer.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>On the <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> design area, within the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Message Types<ept id="2">&lt;/embeddedLabel&gt;</ept> box, select the add icon [ <ph id="3">&lt;mediaLinkInline&gt;&lt;image xlink:href="fce8ff96-426e-468b-8afd-25eb4c847028" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/image&gt;&lt;/mediaLinkInline&gt;</ph> ] to open the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Message Type Picker<ept id="4">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">On the <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> design area, within the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Message Types<ept id="2">&lt;/embeddedLabel&gt;</ept> box, select the add icon [ <ph id="3">&lt;mediaLinkInline&gt;&lt;image xlink:href="fce8ff96-426e-468b-8afd-25eb4c847028" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/image&gt;&lt;/mediaLinkInline&gt;</ph> ] to open the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Message Type Picker<ept id="4">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Message Type Picker<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Available message types<ept id="2">&lt;/embeddedLabel&gt;</ept> box, select the <bpt id="3">&lt;embeddedLabel&gt;</bpt>PurchaseOrder<ept id="3">&lt;/embeddedLabel&gt;</ept> message type, select the right arrow icon  [ <ph id="4">&lt;mediaLinkInline&gt;&lt;image xlink:href="a08ed386-6bf6-4164-9052-5f05154d8eff" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/image&gt;&lt;/mediaLinkInline&gt;</ph> ] to associate the request schema with the <ph id="5">&lt;token&gt;one-way&lt;/token&gt;</ph>, and then click <bpt id="6">&lt;embeddedLabel&gt;</bpt>OK<ept id="6">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Message Type Picker<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Available message types<ept id="2">&lt;/embeddedLabel&gt;</ept> box, select the <bpt id="3">&lt;embeddedLabel&gt;</bpt>PurchaseOrder<ept id="3">&lt;/embeddedLabel&gt;</ept> message type, select the right arrow icon  [ <ph id="4">&lt;mediaLinkInline&gt;&lt;image xlink:href="a08ed386-6bf6-4164-9052-5f05154d8eff" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/image&gt;&lt;/mediaLinkInline&gt;</ph> ] to associate the request schema with the <ph id="5">&lt;token&gt;one-way&lt;/token&gt;</ph>, and then click <bpt id="6">&lt;embeddedLabel&gt;</bpt>OK<ept id="6">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The schema that you selected should now be listed under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Request Message Type<ept id="1">&lt;/embeddedLabel&gt;</ept> section.</source>
+            <target state="new">The schema that you selected should now be listed under the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Request Message Type<ept id="1">&lt;/embeddedLabel&gt;</ept> section.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Configure the pre-transform <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage to extract the value of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>OrderId<ept id="2">&lt;/embeddedLabel&gt;</ept> element in the source schema.</source>
+            <target state="new">Configure the pre-transform <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage to extract the value of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>OrderId<ept id="2">&lt;/embeddedLabel&gt;</ept> element in the source schema.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Within the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage, select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="2">&lt;/embeddedLabel&gt;</ept> activity, and then from the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Properties<ept id="3">&lt;/embeddedLabel&gt;</ept> pane, select the ellipsis button <bpt id="4">&lt;embeddedLabel&gt;</bpt>(…)<ept id="4">&lt;/embeddedLabel&gt;</ept> against the <bpt id="5">&lt;embeddedLabel&gt;</bpt>Properties<ept id="5">&lt;/embeddedLabel&gt;</ept> property to open the <bpt id="6">&lt;embeddedLabel&gt;</bpt>Property Definition<ept id="6">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">Within the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage, select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="2">&lt;/embeddedLabel&gt;</ept> activity, and then from the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Properties<ept id="3">&lt;/embeddedLabel&gt;</ept> pane, select the ellipsis button <bpt id="4">&lt;embeddedLabel&gt;</bpt>(…)<ept id="4">&lt;/embeddedLabel&gt;</ept> against the <bpt id="5">&lt;embeddedLabel&gt;</bpt>Properties<ept id="5">&lt;/embeddedLabel&gt;</ept> property to open the <bpt id="6">&lt;embeddedLabel&gt;</bpt>Property Definition<ept id="6">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Property Definitions<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Property Definitions<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, do the following:</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Section</source>
+            <target state="new">Section</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Field Name</source>
+            <target state="new">Field Name</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Source (Read From)</source>
+            <target state="new">Source (Read From)</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Xpath<ept id="1">&lt;/embeddedLabel&gt;</ept> from the drop-down list.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Xpath<ept id="1">&lt;/embeddedLabel&gt;</ept> from the drop-down list.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Identifier</source>
+            <target state="new">Identifier</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Specify the Xpath query to extract the value of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>OrderId<ept id="1">&lt;/embeddedLabel&gt;</ept> from the request schema.</source>
+            <target state="new">Specify the Xpath query to extract the value of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>OrderId<ept id="1">&lt;/embeddedLabel&gt;</ept> from the request schema.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>You can get the Xpath query from the schema editor.</source>
+            <target state="new">You can get the Xpath query from the schema editor.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>OrderId<ept id="1">&lt;/embeddedLabel&gt;</ept> element in the schema editor, and in the Properties window look for the value of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Instance Xpath<ept id="2">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>OrderId<ept id="1">&lt;/embeddedLabel&gt;</ept> element in the schema editor, and in the Properties window look for the value of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Instance Xpath<ept id="2">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>That should be the Xpath query for the node.</source>
+            <target state="new">That should be the Xpath query for the node.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Message Type</source>
+            <target state="new">Message Type</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Select the schema pertaining to <bpt id="1">&lt;embeddedLabel&gt;</bpt>PurchaseOrder<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select the schema pertaining to <bpt id="1">&lt;embeddedLabel&gt;</bpt>PurchaseOrder<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Property (Write To)</source>
+            <target state="new">Property (Write To)</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Property Name</source>
+            <target state="new">Property Name</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Specifies the name of the property that you are defining.</source>
+            <target state="new">Specifies the name of the property that you are defining.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>For this tutorial, specify <bpt id="1">&lt;userInput&gt;</bpt>OrderId<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For this tutorial, specify <bpt id="1">&lt;userInput&gt;</bpt>OrderId<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Data Type</source>
+            <target state="new">Data Type</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Specifies the data type for the property.</source>
+            <target state="new">Specifies the data type for the property.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>For this tutorial, specify <bpt id="1">&lt;userInput&gt;</bpt>string<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For this tutorial, specify <bpt id="1">&lt;userInput&gt;</bpt>string<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>OK<ept id="3">&lt;/embeddedLabel&gt;</ept> in the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Property Definition<ept id="4">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>OK<ept id="3">&lt;/embeddedLabel&gt;</ept> in the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Property Definition<ept id="4">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Configure the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to use the <ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph> created earlier.</source>
+            <target state="new">Configure the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to use the <ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph> created earlier.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Within the <bpt id="1">&lt;embeddedLabel&gt;</bpt><ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph><ept id="1">&lt;/embeddedLabel&gt;</ept> stage, select the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Xml Transform<ept id="3">&lt;/embeddedLabel&gt;</ept> activity, and then from the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Properties<ept id="4">&lt;/embeddedLabel&gt;</ept> window, select the ellipsis button <bpt id="5">&lt;embeddedLabel&gt;</bpt>(…)<ept id="5">&lt;/embeddedLabel&gt;</ept> against the <bpt id="6">&lt;embeddedLabel&gt;</bpt>Maps<ept id="6">&lt;/embeddedLabel&gt;</ept> property to open the <bpt id="7">&lt;embeddedLabel&gt;</bpt>Map Selection<ept id="7">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">Within the <bpt id="1">&lt;embeddedLabel&gt;</bpt><ph id="2">&lt;token&gt;transform&lt;/token&gt;</ph><ept id="1">&lt;/embeddedLabel&gt;</ept> stage, select the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Xml Transform<ept id="3">&lt;/embeddedLabel&gt;</ept> activity, and then from the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Properties<ept id="4">&lt;/embeddedLabel&gt;</ept> window, select the ellipsis button <bpt id="5">&lt;embeddedLabel&gt;</bpt>(…)<ept id="5">&lt;/embeddedLabel&gt;</ept> against the <bpt id="6">&lt;embeddedLabel&gt;</bpt>Maps<ept id="6">&lt;/embeddedLabel&gt;</ept> property to open the <bpt id="7">&lt;embeddedLabel&gt;</bpt>Map Selection<ept id="7">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>From the list of <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph>s displayed in the dialog box, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Map.trfm<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">From the list of <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph>s displayed in the dialog box, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Map.trfm<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>You created this <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph> in the previous steps.</source>
+            <target state="new">You created this <ph id="1">&lt;token&gt;transform&lt;/token&gt;</ph> in the previous steps.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Configure the post-transform <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage to extract the value of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>TotalAmount<ept id="2">&lt;/embeddedLabel&gt;</ept> element in the source schema.</source>
+            <target state="new">Configure the post-transform <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage to extract the value of the <bpt id="2">&lt;embeddedLabel&gt;</bpt>TotalAmount<ept id="2">&lt;/embeddedLabel&gt;</ept> element in the source schema.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Within the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage, select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="2">&lt;/embeddedLabel&gt;</ept> activity, and then from the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Properties<ept id="3">&lt;/embeddedLabel&gt;</ept> pane, select the ellipsis button <bpt id="4">&lt;embeddedLabel&gt;</bpt>(…)<ept id="4">&lt;/embeddedLabel&gt;</ept> against the <bpt id="5">&lt;embeddedLabel&gt;</bpt>Properties<ept id="5">&lt;/embeddedLabel&gt;</ept> property to open the <bpt id="6">&lt;embeddedLabel&gt;</bpt>Property Definition<ept id="6">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">Within the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stage, select the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="2">&lt;/embeddedLabel&gt;</ept> activity, and then from the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Properties<ept id="3">&lt;/embeddedLabel&gt;</ept> pane, select the ellipsis button <bpt id="4">&lt;embeddedLabel&gt;</bpt>(…)<ept id="4">&lt;/embeddedLabel&gt;</ept> against the <bpt id="5">&lt;embeddedLabel&gt;</bpt>Properties<ept id="5">&lt;/embeddedLabel&gt;</ept> property to open the <bpt id="6">&lt;embeddedLabel&gt;</bpt>Property Definition<ept id="6">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Property Definitions<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Property Definitions<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, do the following:</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Section</source>
+            <target state="new">Section</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Field Name</source>
+            <target state="new">Field Name</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Source (Read From)</source>
+            <target state="new">Source (Read From)</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Xpath<ept id="1">&lt;/embeddedLabel&gt;</ept> from the drop-down list.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Xpath<ept id="1">&lt;/embeddedLabel&gt;</ept> from the drop-down list.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Identifier</source>
+            <target state="new">Identifier</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Specify the Xpath query to extract the value of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>TotalAmount<ept id="1">&lt;/embeddedLabel&gt;</ept> from the request schema.</source>
+            <target state="new">Specify the Xpath query to extract the value of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>TotalAmount<ept id="1">&lt;/embeddedLabel&gt;</ept> from the request schema.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Message Type</source>
+            <target state="new">Message Type</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Select the schema pertaining to <bpt id="1">&lt;embeddedLabel&gt;</bpt>Insert<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select the schema pertaining to <bpt id="1">&lt;embeddedLabel&gt;</bpt>Insert<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Property (Write To)</source>
+            <target state="new">Property (Write To)</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Property Name</source>
+            <target state="new">Property Name</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Specifies the name of the property that you are defining.</source>
+            <target state="new">Specifies the name of the property that you are defining.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>For this tutorial, specify <bpt id="1">&lt;userInput&gt;</bpt>TotalAmount<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">For this tutorial, specify <bpt id="1">&lt;userInput&gt;</bpt>TotalAmount<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Data Type</source>
+            <target state="new">Data Type</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Specifies the data type for the property.</source>
+            <target state="new">Specifies the data type for the property.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Specify <bpt id="1">&lt;userInput&gt;</bpt>long<ept id="1">&lt;/userInput&gt;</ept>.</source>
+            <target state="new">Specify <bpt id="1">&lt;userInput&gt;</bpt>long<ept id="1">&lt;/userInput&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>OK<ept id="3">&lt;/embeddedLabel&gt;</ept> in the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Property Definition<ept id="4">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add Property<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>OK<ept id="3">&lt;/embeddedLabel&gt;</ept> in the <bpt id="4">&lt;embeddedLabel&gt;</bpt>Property Definition<ept id="4">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Save changes to the project.</source>
+            <target state="new">Save changes to the project.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Configure the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to track message properties and other data, for the <bpt id="2">&lt;embeddedLabel&gt;</bpt>OrderId<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>TotalAmount<ept id="3">&lt;/embeddedLabel&gt;</ept> properties you just promoted.</source>
+            <target state="new">Configure the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> to track message properties and other data, for the <bpt id="2">&lt;embeddedLabel&gt;</bpt>OrderId<ept id="2">&lt;/embeddedLabel&gt;</ept> and <bpt id="3">&lt;embeddedLabel&gt;</bpt>TotalAmount<ept id="3">&lt;/embeddedLabel&gt;</ept> properties you just promoted.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Go back to the MessageFlowItinerary.bcs file, select the <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph>, and from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Properties<ept id="2">&lt;/embeddedLabel&gt;</ept> window, select the ellipsis (…)</source>
+            <target state="new">Go back to the MessageFlowItinerary.bcs file, select the <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph>, and from the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Properties<ept id="2">&lt;/embeddedLabel&gt;</ept> window, select the ellipsis (…)</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>against <bpt id="1">&lt;embeddedLabel&gt;</bpt>Track Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">against <bpt id="1">&lt;embeddedLabel&gt;</bpt>Track Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Track message processing events<ept id="1">&lt;/embeddedLabel&gt;</ept> check box to track detailed information such as when a stage starts, completes, or faults; when an activity within a stage starts, completes, or faults; whether an artifact gets retrieved, etc.</source>
+            <target state="new">Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Track message processing events<ept id="1">&lt;/embeddedLabel&gt;</ept> check box to track detailed information such as when a stage starts, completes, or faults; when an activity within a stage starts, completes, or faults; whether an artifact gets retrieved, etc.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Track all message properties<ept id="1">&lt;/embeddedLabel&gt;</ept> check box, and then select the properties you want to track.</source>
+            <target state="new">Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Track all message properties<ept id="1">&lt;/embeddedLabel&gt;</ept> check box, and then select the properties you want to track.</target>
+          </trans-unit>
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Note that the dialog box lists the properties that you promoted within any of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stages in a bridge.</source>
+            <target state="new">Note that the dialog box lists the properties that you promoted within any of the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="1">&lt;/embeddedLabel&gt;</ept> stages in a bridge.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>For this tutorial, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OrderId<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>TotalAmount<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">For this tutorial, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OrderId<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>TotalAmount<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Save the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> configuration and go back to the <ph id="2">&lt;token&gt;msgflow&lt;/token&gt;</ph> designer area.</source>
+            <target state="new">Save the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> configuration and go back to the <ph id="2">&lt;token&gt;msgflow&lt;/token&gt;</ph> designer area.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Connect the FTP source component to the <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> and the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> to the <ph id="3">&lt;token&gt;lobrelay&lt;/token&gt;</ph> entity.</source>
+            <target state="new">Connect the FTP source component to the <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> and the <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph> to the <ph id="3">&lt;token&gt;lobrelay&lt;/token&gt;</ph> entity.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Set the filter condition on the connector between the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> and the <ph id="2">&lt;token&gt;lobrelay&lt;/token&gt;</ph> entity.</source>
+            <target state="new">Set the filter condition on the connector between the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> and the <ph id="2">&lt;token&gt;lobrelay&lt;/token&gt;</ph> entity.</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Select the connector between <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> and the <ph id="2">&lt;token&gt;lobrelay&lt;/token&gt;</ph> entity.</source>
+            <target state="new">Select the connector between <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> and the <ph id="2">&lt;token&gt;lobrelay&lt;/token&gt;</ph> entity.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept> window, select the ellipsis <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> button for <bpt id="3">&lt;embeddedLabel&gt;</bpt>Filter Condition<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept> window, select the ellipsis <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> button for <bpt id="3">&lt;embeddedLabel&gt;</bpt>Filter Condition<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Filter Configuration<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, set the filter condition to <bpt id="2">&lt;embeddedLabel&gt;</bpt>Match All<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Filter Configuration<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, set the filter condition to <bpt id="2">&lt;embeddedLabel&gt;</bpt>Match All<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Set the Route action so that the outgoing message to the LOB application has a SOAP action header.</source>
+            <target state="new">Set the Route action so that the outgoing message to the LOB application has a SOAP action header.</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Open <bpt id="1">&lt;embeddedLabel&gt;</bpt>Server Explorer<ept id="1">&lt;/embeddedLabel&gt;</ept> and navigate to the <ph id="2">&lt;token&gt;ssNoVersion&lt;/token&gt;</ph> <ph id="3">&lt;token&gt;lobrelay&lt;/token&gt;</ph> we created earlier.</source>
+            <target state="new">Open <bpt id="1">&lt;embeddedLabel&gt;</bpt>Server Explorer<ept id="1">&lt;/embeddedLabel&gt;</ept> and navigate to the <ph id="2">&lt;token&gt;ssNoVersion&lt;/token&gt;</ph> <ph id="3">&lt;token&gt;lobrelay&lt;/token&gt;</ph> we created earlier.</target>
+          </trans-unit>
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Right click the relay, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, and for the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Operations<ept id="2">&lt;/embeddedLabel&gt;</ept> property, copy the value of the first operation.</source>
+            <target state="new">Right click the relay, select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, and for the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Operations<ept id="2">&lt;/embeddedLabel&gt;</ept> property, copy the value of the first operation.</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>On the <ph id="1">&lt;token&gt;msgflow&lt;/token&gt;</ph> design area, click the connector between <ph id="2">&lt;token&gt;one-way&lt;/token&gt;</ph> and the <ph id="3">&lt;token&gt;lobrelay&lt;/token&gt;</ph> entity.</source>
+            <target state="new">On the <ph id="1">&lt;token&gt;msgflow&lt;/token&gt;</ph> design area, click the connector between <ph id="2">&lt;token&gt;one-way&lt;/token&gt;</ph> and the <ph id="3">&lt;token&gt;lobrelay&lt;/token&gt;</ph> entity.</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, select the ellipsis <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> button for <bpt id="3">&lt;embeddedLabel&gt;</bpt>Route Action<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>, select the ellipsis <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> button for <bpt id="3">&lt;embeddedLabel&gt;</bpt>Route Action<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Actions<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">In <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Actions<ept id="1">&lt;/embeddedLabel&gt;</ept>, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, do the following:</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Property (Read From)<ept id="1">&lt;/embeddedLabel&gt;</ept> section, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expression<ept id="2">&lt;/embeddedLabel&gt;</ept>, and then paste the value that you copied.</source>
+            <target state="new">Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Property (Read From)<ept id="1">&lt;/embeddedLabel&gt;</ept> section, select <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expression<ept id="2">&lt;/embeddedLabel&gt;</ept>, and then paste the value that you copied.</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>You must always specify the value for an expression within single quotes.</source>
+            <target state="new">You must always specify the value for an expression within single quotes.</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Destination (Write To)<ept id="1">&lt;/embeddedLabel&gt;</ept> section, set the Type to <bpt id="2">&lt;embeddedLabel&gt;</bpt>SOAP<ept id="2">&lt;/embeddedLabel&gt;</ept> and the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Identifier<ept id="3">&lt;/embeddedLabel&gt;</ept> to <bpt id="4">&lt;embeddedLabel&gt;</bpt>Action<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Under <bpt id="1">&lt;embeddedLabel&gt;</bpt>Destination (Write To)<ept id="1">&lt;/embeddedLabel&gt;</ept> section, set the Type to <bpt id="2">&lt;embeddedLabel&gt;</bpt>SOAP<ept id="2">&lt;/embeddedLabel&gt;</ept> and the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Identifier<ept id="3">&lt;/embeddedLabel&gt;</ept> to <bpt id="4">&lt;embeddedLabel&gt;</bpt>Action<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>You must always specify the value for an expression within single quotes.</source>
+            <target state="new">You must always specify the value for an expression within single quotes.</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box to add the route action.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box to add the route action.</target>
+          </trans-unit>
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Route Actions<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Save<ept id="3">&lt;/embeddedLabel&gt;</ept> to save changes to a <ph id="4">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Route Actions<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box and then select <bpt id="3">&lt;embeddedLabel&gt;</bpt>Save<ept id="3">&lt;/embeddedLabel&gt;</ept> to save changes to a <ph id="4">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

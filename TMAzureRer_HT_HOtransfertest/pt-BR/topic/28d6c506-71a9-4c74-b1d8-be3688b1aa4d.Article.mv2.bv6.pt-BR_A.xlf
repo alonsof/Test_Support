@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="pt-BR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANjDEOwyAMAL/CA7CEwQHcsVPnqh/AgKVIaVKlVMrzy3S64U41dCFfoXciIFQH4rJAdVgis2IpbE3AyCSpQWqCQEtQ4DQ1evGVfWuxRmt8nlxchISFgWoiEGwZpIeYs8wVNWvQms+A+9Oaa1tV+zVu53GMmVszJ4/fu+yvs+zfrYz12P/KMHBeoQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>On-Premises File System Linked Service</source>
+            <target state="new">On-Premises File System Linked Service</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This topic provides the JSON format that is supported by the older versions of Azure PowerShell.</source>
+            <target state="new">This topic provides the JSON format that is supported by the older versions of Azure PowerShell.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>If you are using the July 2015 Release version of Azure PowerShell or later, see <ph id="1">&lt;link xlink:href="73e627c8-6263-4373-a350-efe4bf75f5c5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;On-Premises File Server Linked Service&lt;/link&gt;</ph> for the latest JSON format.</source>
+            <target state="new">If you are using the July 2015 Release version of Azure PowerShell or later, see <ph id="1">&lt;link xlink:href="73e627c8-6263-4373-a350-efe4bf75f5c5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;On-Premises File Server Linked Service&lt;/link&gt;</ph> for the latest JSON format.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>You can convert the JSON from old format to new format by using the tool: <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>JSON Upgrade Tool<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?linkid=618507&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept></source>
+            <target state="new">You can convert the JSON from old format to new format by using the tool: <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>JSON Upgrade Tool<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?linkid=618507&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>This topic describes the JSON properties for a linked service of type: <bpt id="1">&lt;embeddedLabel&gt;</bpt>File System (Windows/Linux network share or local disk)<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">This topic describes the JSON properties for a linked service of type: <bpt id="1">&lt;embeddedLabel&gt;</bpt>File System (Windows/Linux network share or local disk)<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>When creating a dataset based on this linked service, you set the location type in the dataset JSON to: <ph id="1">&lt;link xlink:href="5606aefb-b5d3-49f0-b108-2ab3d0652e77#OnPremFileSystem" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OnPremisesFileSystemLocation&lt;/link&gt;</ph>.</source>
+            <target state="new">When creating a dataset based on this linked service, you set the location type in the dataset JSON to: <ph id="1">&lt;link xlink:href="5606aefb-b5d3-49f0-b108-2ab3d0652e77#OnPremFileSystem" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OnPremisesFileSystemLocation&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>When creating a pipeline, you set the source type to <bpt id="1">&lt;embeddedLabel&gt;</bpt>FileSystemSource<ept id="1">&lt;/embeddedLabel&gt;</ept> if you are using an on-premises file system as a source in a copy operation.</source>
+            <target state="new">When creating a pipeline, you set the source type to <bpt id="1">&lt;embeddedLabel&gt;</bpt>FileSystemSource<ept id="1">&lt;/embeddedLabel&gt;</ept> if you are using an on-premises file system as a source in a copy operation.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Using an on-premises file system as a sink in a copy operation is not supported yet.</source>
+            <target state="new">Using an on-premises file system as a sink in a copy operation is not supported yet.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Supported file formats</source>
+            <target state="new">Supported file formats</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>When you use a linked service of type <bpt id="1">&lt;embeddedLabel&gt;</bpt>OnPremisesFileSystemLinkedService<ept id="1">&lt;/embeddedLabel&gt;</ept> with the Copy Activity, the activity can copy a file of any format (CSV/TSV/AVRO/JSON/XML, etc…)</source>
+            <target state="new">When you use a linked service of type <bpt id="1">&lt;embeddedLabel&gt;</bpt>OnPremisesFileSystemLinkedService<ept id="1">&lt;/embeddedLabel&gt;</ept> with the Copy Activity, the activity can copy a file of any format (CSV/TSV/AVRO/JSON/XML, etc…)</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>as it-is from the source to the destination.</source>
+            <target state="new">as it-is from the source to the destination.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Supported Gateway and PowerShell version</source>
+            <target state="new">Supported Gateway and PowerShell version</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The File System linked service requires you to install and configure Data Management Gateway on an on-premises Windows server.</source>
+            <target state="new">The File System linked service requires you to install and configure Data Management Gateway on an on-premises Windows server.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>For details about the Data Management Gateway, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Enable your pipelines to access on-premises data<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/data-factory-use-onpremises-datasources&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For details about the Data Management Gateway, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Enable your pipelines to access on-premises data<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://azure.microsoft.com/documentation/articles/data-factory-use-onpremises-datasources&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The supported gateway version is: <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>1.4.5492.1<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.microsoft.com/download/details.aspx?id=39717&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> or higher.</source>
+            <target state="new">The supported gateway version is: <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>1.4.5492.1<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.microsoft.com/download/details.aspx?id=39717&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> or higher.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>You must use the Azure PowerShell of version <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>0.8.14<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?linkid=320376%%amp;amp;clcid=0x409&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> or higher to use cmdlets such as New-AzureDataFactoryEncryptValue with  type parameter set to OnPremisesFileSystemLinkedService..</source>
+            <target state="new">You must use the Azure PowerShell of version <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>0.8.14<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/p/?linkid=320376%%amp;amp;clcid=0x409&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> or higher to use cmdlets such as New-AzureDataFactoryEncryptValue with  type parameter set to OnPremisesFileSystemLinkedService..</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Linux file share configuration</source>
+            <target state="new">Linux file share configuration</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Perform the following two steps to use a Linux file share with the File System Linked Service: </source>
+            <target state="new">Perform the following two steps to use a Linux file share with the File System Linked Service: </target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Install <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Samba<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://www.samba.org/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> on your Linux Server.</source>
+            <target state="new">Install <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Samba<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://www.samba.org/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> on your Linux Server.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Install and configure Data Management Gateway on a Windows server.</source>
+            <target state="new">Install and configure Data Management Gateway on a Windows server.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Installing gateway on a Linux server is not supported.</source>
+            <target state="new">Installing gateway on a Linux server is not supported.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Properties</source>
+            <target state="new">Properties</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Property</source>
+            <target state="new">Property</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Required</source>
+            <target state="new">Required</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>type</source>
+            <target state="new">type</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>type<ept id="1">&lt;/embeddedLabel&gt;</ept> property should be set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>OnPremisesFileSystemLinkedService<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>type<ept id="1">&lt;/embeddedLabel&gt;</ept> property should be set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>OnPremisesFileSystemLinkedService<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>host</source>
+            <target state="new">host</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Host name of the server.</source>
+            <target state="new">Host name of the server.</target>
+          </trans-unit>
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Use ‘ \ ’  as the escape character as in the following example: if your share is: \\servername, specify \\\\servername.</source>
+            <target state="new">Use ‘ \ ’  as the escape character as in the following example: if your share is: \\servername, specify \\\\servername.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>If the file system is local to the gateway machine, use <bpt id="1">&lt;embeddedLabel&gt;</bpt>Local<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>localhost<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">If the file system is local to the gateway machine, use <bpt id="1">&lt;embeddedLabel&gt;</bpt>Local<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>localhost<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>If the file system is on a server different from the gateway machine, use <bpt id="1">&lt;embeddedLabel&gt;</bpt>\\\\servername<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">If the file system is on a server different from the gateway machine, use <bpt id="1">&lt;embeddedLabel&gt;</bpt>\\\\servername<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>userid</source>
+            <target state="new">userid</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Specify the ID of the user who has access to the server.</source>
+            <target state="new">Specify the ID of the user who has access to the server.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>No (if you choose <bpt id="1">&lt;embeddedLabel&gt;</bpt>encryptedcredential<ept id="1">&lt;/embeddedLabel&gt;</ept>).</source>
+            <target state="new">No (if you choose <bpt id="1">&lt;embeddedLabel&gt;</bpt>encryptedcredential<ept id="1">&lt;/embeddedLabel&gt;</ept>).</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>password</source>
+            <target state="new">password</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>Specify the password for the user (userid).</source>
+            <target state="new">Specify the password for the user (userid).</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>No (if you choose <bpt id="1">&lt;embeddedLabel&gt;</bpt>encryptedcredential<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">No (if you choose <bpt id="1">&lt;embeddedLabel&gt;</bpt>encryptedcredential<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>encryptedcredential</source>
+            <target state="new">encryptedcredential</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Specify the encrypted credentials that you can get by running the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>New-AzureDataFactoryEncryptValue<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://msdn.microsoft.com/library/dn834940.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> cmdlet.</source>
+            <target state="new">Specify the encrypted credentials that you can get by running the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>New-AzureDataFactoryEncryptValue<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;https://msdn.microsoft.com/library/dn834940.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> cmdlet.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>No (if you choose to specify <bpt id="1">&lt;embeddedLabel&gt;</bpt>userid<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>password<ept id="2">&lt;/embeddedLabel&gt;</ept> in plain text)</source>
+            <target state="new">No (if you choose to specify <bpt id="1">&lt;embeddedLabel&gt;</bpt>userid<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>password<ept id="2">&lt;/embeddedLabel&gt;</ept> in plain text)</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>gatewayname</source>
+            <target state="new">gatewayname</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Name of the gateway that the Data Factory service should use to connect to the on-premises file system.</source>
+            <target state="new">Name of the gateway that the Data Factory service should use to connect to the on-premises file system.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>You must use the gateway of version <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>1.4.5492.1<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.microsoft.com/download/details.aspx?id=39717&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> or higher.</source>
+            <target state="new">You must use the gateway of version <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>1.4.5492.1<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://www.microsoft.com/download/details.aspx?id=39717&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> or higher.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Yes</source>
+            <target state="new">Yes</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Example 1 (using username and password in plain text)</source>
+            <target state="new">Example 1 (using username and password in plain text)</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Example 2 (using encryptedcredential)</source>
+            <target state="new">Example 2 (using encryptedcredential)</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

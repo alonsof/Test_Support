@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzMEJwzAMQNFVPIAFVuTIVgcoPZcuIKsWBNIE0hQyfn37h89zp97yZNB7zpDRE7RUG1hCZRFHVYnB6T0XRgOSliCbM9RuAoUrcTdCLVMMSdisyAyiY8hEo7xXcHcVn0gUSww4uAPuzxiudXHv13k79v2MYQgcw+P30e116PZd9Vz27Q+dKQuGoQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Diagnostics and Error Recovery for Import/Export Jobs</source>
+            <target state="new">Diagnostics and Error Recovery for Import/Export Jobs</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>For each drive processed, the Azure Import/Export service creates an error log in the associated storage account.</source>
+            <target state="new">For each drive processed, the Azure Import/Export service creates an error log in the associated storage account.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>You can also enable verbose logging by setting the <ph id="1">&lt;languageKeyword&gt;EnableVerboseLog&lt;/languageKeyword&gt;</ph> property to <ph id="2">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph> when calling the <ph id="3">&lt;link xlink:href="2f703ff1-d52b-43bd-81ec-90350a39e2af" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Job&lt;/link&gt;</ph> or <ph id="4">&lt;link xlink:href="6f83d480-c09e-4e3b-b096-46e140e8c93d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Update Job Properties&lt;/link&gt;</ph> operations.</source>
+            <target state="new">You can also enable verbose logging by setting the <ph id="1">&lt;languageKeyword&gt;EnableVerboseLog&lt;/languageKeyword&gt;</ph> property to <ph id="2">&lt;languageKeyword&gt;true&lt;/languageKeyword&gt;</ph> when calling the <ph id="3">&lt;link xlink:href="2f703ff1-d52b-43bd-81ec-90350a39e2af" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Job&lt;/link&gt;</ph> or <ph id="4">&lt;link xlink:href="6f83d480-c09e-4e3b-b096-46e140e8c93d" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Update Job Properties&lt;/link&gt;</ph> operations.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>By default, logs are written to a container named <ph id="1">&lt;languageKeyword&gt;waimportexport&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">By default, logs are written to a container named <ph id="1">&lt;languageKeyword&gt;waimportexport&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You can specify a different name by setting the <ph id="1">&lt;languageKeyword&gt;ImportExportStatesPath&lt;/languageKeyword&gt;</ph> property when calling the <ph id="2">&lt;languageKeyword&gt;Put Job&lt;/languageKeyword&gt;</ph> or <ph id="3">&lt;languageKeyword&gt;Update Job Properties&lt;/languageKeyword&gt;</ph> operations.</source>
+            <target state="new">You can specify a different name by setting the <ph id="1">&lt;languageKeyword&gt;ImportExportStatesPath&lt;/languageKeyword&gt;</ph> property when calling the <ph id="2">&lt;languageKeyword&gt;Put Job&lt;/languageKeyword&gt;</ph> or <ph id="3">&lt;languageKeyword&gt;Update Job Properties&lt;/languageKeyword&gt;</ph> operations.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>The logs are stored as block blobs with the following naming convention: <ph id="1">&lt;codeInline&gt;waies/jobname_driveid_timestamp_logtype.xml&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">The logs are stored as block blobs with the following naming convention: <ph id="1">&lt;codeInline&gt;waies/jobname_driveid_timestamp_logtype.xml&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>You can retrieve the URI of the logs for a job by calling the <ph id="1">&lt;link xlink:href="1d416186-c5a7-423c-9a24-bad4f7b89828" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Job&lt;/link&gt;</ph> operation.</source>
+            <target state="new">You can retrieve the URI of the logs for a job by calling the <ph id="1">&lt;link xlink:href="1d416186-c5a7-423c-9a24-bad4f7b89828" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Job&lt;/link&gt;</ph> operation.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The URI for the verbose log is returned in the <ph id="1">&lt;languageKeyword&gt;VerboseLogUri&lt;/languageKeyword&gt;</ph> property for each drive, while the URI for the error log is returned in the <ph id="2">&lt;languageKeyword&gt;ErrorLogUri&lt;/languageKeyword&gt;</ph> property.</source>
+            <target state="new">The URI for the verbose log is returned in the <ph id="1">&lt;languageKeyword&gt;VerboseLogUri&lt;/languageKeyword&gt;</ph> property for each drive, while the URI for the error log is returned in the <ph id="2">&lt;languageKeyword&gt;ErrorLogUri&lt;/languageKeyword&gt;</ph> property.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>You can use the logging data to identify the following issues:</source>
+            <target state="new">You can use the logging data to identify the following issues:</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Drive Errors</source>
+            <target state="new">Drive Errors</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Errors in accessing or reading the manifest file</source>
+            <target state="new">Errors in accessing or reading the manifest file</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Incorrect BitLocker keys</source>
+            <target state="new">Incorrect BitLocker keys</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Drive read/write errors</source>
+            <target state="new">Drive read/write errors</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Blob Errors</source>
+            <target state="new">Blob Errors</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Incorrect or conflicting blob or names</source>
+            <target state="new">Incorrect or conflicting blob or names</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Missing files</source>
+            <target state="new">Missing files</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Blob not found</source>
+            <target state="new">Blob not found</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Truncated files (the files on the disk are smaller than specified in the manifest)</source>
+            <target state="new">Truncated files (the files on the disk are smaller than specified in the manifest)</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Corrupted file content (for import jobs, detected with an MD5 checksum mismatch)</source>
+            <target state="new">Corrupted file content (for import jobs, detected with an MD5 checksum mismatch)</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Corrupted blob metadata and property files (detected with an MD5 checksum mismatch)</source>
+            <target state="new">Corrupted blob metadata and property files (detected with an MD5 checksum mismatch)</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Incorrect schema for the blob properties and/or metadata files</source>
+            <target state="new">Incorrect schema for the blob properties and/or metadata files</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>There may be cases where some parts of an import or export job do not complete successfully, while the overall job still completes.</source>
+            <target state="new">There may be cases where some parts of an import or export job do not complete successfully, while the overall job still completes.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>In this case, you can either upload or download the missing pieces of the data over network, or you can create a new job to transfer the data.</source>
+            <target state="new">In this case, you can either upload or download the missing pieces of the data over network, or you can create a new job to transfer the data.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>See the <ph id="1">&lt;link xlink:href="f77535bb-d577-438a-bdd3-e15a82e0c543" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;WAImportExport Tool Reference&lt;/link&gt;</ph> to learn how to repair the data over network.</source>
+            <target state="new">See the <ph id="1">&lt;link xlink:href="f77535bb-d577-438a-bdd3-e15a82e0c543" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;WAImportExport Tool Reference&lt;/link&gt;</ph> to learn how to repair the data over network.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

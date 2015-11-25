@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-CN" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANyjEOwjAMAMCv5AGxFKcmcVhZmJj4QJzYolJppRKkitfT+c5sUqHYQJUICC2ABBZoAWsqxbDW4h1LE+YkEFPLQH0yqKwGKYfUu02MRt4VikjdMiAaA2VWkMu5SIhNTQJG9Q69+73g9vDuWGYzPcZ137bhXTyNvbt/33V97nX9LHXM2/oHdKuRuaIAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>How to: Use an Error URL for Custom Error Handling</source>
+            <target state="new">How to: Use an Error URL for Custom Error Handling</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Azure</source>
+            <target state="new">Azure</target>
+            <context-group>
+              <context context-type="x-metadataname">applies_to_product</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>How to: Use an Error URL for Custom Error Handling</source>
+            <target state="new">How to: Use an Error URL for Custom Error Handling</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Applies To</source>
+            <target state="new">Applies To</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Summary</source>
+            <target state="new">Summary</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>This topic explains how to use the Error URL feature to implement custom login error handling in a relying party application.</source>
+            <target state="new">This topic explains how to use the Error URL feature to implement custom login error handling in a relying party application.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>An Error URL allows you to send errors that <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> generates back to the relying party application so the application can log and respond to errors.</source>
+            <target state="new">An Error URL allows you to send errors that <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> generates back to the relying party application so the application can log and respond to errors.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>For example, ASP.NET web sites can use the Error URL feature to present error messages to end users that are branded with the same look and feel as the website.</source>
+            <target state="new">For example, ASP.NET web sites can use the Error URL feature to present error messages to end users that are branded with the same look and feel as the website.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Contents</source>
+            <target state="new">Contents</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Objectives</source>
+            <target state="new">Objectives</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Overview</source>
+            <target state="new">Overview</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Summary of Steps</source>
+            <target state="new">Summary of Steps</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Step 1 – Enable the Error URL Feature</source>
+            <target state="new">Step 1 – Enable the Error URL Feature</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Step 2 – Create the Error Helper Classes</source>
+            <target state="new">Step 2 – Create the Error Helper Classes</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Step 3 – Process a JSON-Encoded Error Message</source>
+            <target state="new">Step 3 – Process a JSON-Encoded Error Message</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Step 4 – Configure Anonymous Access to the Error Page</source>
+            <target state="new">Step 4 – Configure Anonymous Access to the Error Page</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Step 5 – Test Your Work</source>
+            <target state="new">Step 5 – Test Your Work</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Objectives</source>
+            <target state="new">Objectives</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Identify the required configuration for using the Error URL feature.</source>
+            <target state="new">Identify the required configuration for using the Error URL feature.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Identify the helper code required to process error messages from <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</source>
+            <target state="new">Identify the helper code required to process error messages from <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Identify and troubleshoot potential pitfalls.</source>
+            <target state="new">Identify and troubleshoot potential pitfalls.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Overview</source>
+            <target state="new">Overview</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>An Error URL specifies the web address to which <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> redirects users if an error occurs during the login process.</source>
+            <target state="new">An Error URL specifies the web address to which <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> redirects users if an error occurs during the login process.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>The Error URL target is typically a custom error page that is hosted by the relying party application.</source>
+            <target state="new">The Error URL target is typically a custom error page that is hosted by the relying party application.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>As part of the redirect, <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> returns information about the error to the relying party application as a JSON-encoded HTTP URL parameter.</source>
+            <target state="new">As part of the redirect, <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> returns information about the error to the relying party application as a JSON-encoded HTTP URL parameter.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>You can include the JSON-encoded error information in the custom error page and/or display static help text.</source>
+            <target state="new">You can include the JSON-encoded error information in the custom error page and/or display static help text.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>The following is a sample of a JSON-encoded error message.</source>
+            <target state="new">The following is a sample of a JSON-encoded error message.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>{"context":null,"httpReturnCode":401,"identityProvider":"Google","timeStamp":"2010-12-17 21:01:36Z","traceId":"16bba464-03b9-48c6-a248-9d16747b1515","errors":[{"errorCode":"ACS30000","errorMessage":"There was an error processing an OpenID sign-in response."},{"errorCode":"ACS50019","errorMessage":"Sign-in was canceled by the user."}]}</source>
+            <target state="new">{"context":null,"httpReturnCode":401,"identityProvider":"Google","timeStamp":"2010-12-17 21:01:36Z","traceId":"16bba464-03b9-48c6-a248-9d16747b1515","errors":[{"errorCode":"ACS30000","errorMessage":"There was an error processing an OpenID sign-in response."},{"errorCode":"ACS50019","errorMessage":"Sign-in was canceled by the user."}]}</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Summary of Steps </source>
+            <target state="new">Summary of Steps </target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Use the follow process to handle <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> error messages:</source>
+            <target state="new">Use the follow process to handle <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> error messages:</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Step 1 – Enable the Error URL Feature</source>
+            <target state="new">Step 1 – Enable the Error URL Feature</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Step 2 – Create the Error Helper Classes</source>
+            <target state="new">Step 2 – Create the Error Helper Classes</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Step 3 – Process a JSON-Encoded Error Message</source>
+            <target state="new">Step 3 – Process a JSON-Encoded Error Message</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Step 4 – Configure Anonymous Access to the Error Page</source>
+            <target state="new">Step 4 – Configure Anonymous Access to the Error Page</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Step 5 – Test Your Work</source>
+            <target state="new">Step 5 – Test Your Work</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Step 1 – Enable the Error URL Feature</source>
+            <target state="new">Step 1 – Enable the Error URL Feature</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>To enable the Error URL feature for your relying party</source>
+            <target state="new">To enable the Error URL feature for your relying party</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>Relying party applications<ept id="1">&lt;/ui&gt;</ept> and select a relying party application.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>Relying party applications<ept id="1">&lt;/ui&gt;</ept> and select a relying party application.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;ui&gt;</bpt>Edit Relying Party Application<ept id="1">&lt;/ui&gt;</ept> page, enter your error page URL in the <bpt id="2">&lt;ui&gt;</bpt>Error URL<ept id="2">&lt;/ui&gt;</ept> field.</source>
+            <target state="new">On the <bpt id="1">&lt;ui&gt;</bpt>Edit Relying Party Application<ept id="1">&lt;/ui&gt;</ept> page, enter your error page URL in the <bpt id="2">&lt;ui&gt;</bpt>Error URL<ept id="2">&lt;/ui&gt;</ept> field.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> redirects user to this page when login errors occur.</source>
+            <target state="new"><ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> redirects user to this page when login errors occur.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Also, <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>  sends JSON URL encoded parameters to this page that include the error details.</source>
+            <target state="new">Also, <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>  sends JSON URL encoded parameters to this page that include the error details.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Step 2 – Create Error Helper Classes</source>
+            <target state="new">Step 2 – Create Error Helper Classes</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>This step creates error helper classes that deserialize the JSON-encoded error messages.</source>
+            <target state="new">This step creates error helper classes that deserialize the JSON-encoded error messages.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>To create Error helper classes</source>
+            <target state="new">To create Error helper classes</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Add a class file to your web application and give it a name, such as <bpt id="1">&lt;ui&gt;</bpt>Error.cs<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Add a class file to your web application and give it a name, such as <bpt id="1">&lt;ui&gt;</bpt>Error.cs<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Implement the <bpt id="1">&lt;ui&gt;</bpt>Error<ept id="1">&lt;/ui&gt;</ept> class as follows.</source>
+            <target state="new">Implement the <bpt id="1">&lt;ui&gt;</bpt>Error<ept id="1">&lt;/ui&gt;</ept> class as follows.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Add another class file and give it a name,  such as <bpt id="1">&lt;ui&gt;</bpt>ErrorDetails.cs<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Add another class file and give it a name,  such as <bpt id="1">&lt;ui&gt;</bpt>ErrorDetails.cs<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Implement the <bpt id="1">&lt;ui&gt;</bpt>ErrorDetails<ept id="1">&lt;/ui&gt;</ept> class as follows.</source>
+            <target state="new">Implement the <bpt id="1">&lt;ui&gt;</bpt>ErrorDetails<ept id="1">&lt;/ui&gt;</ept> class as follows.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>These classes will be used in the next step when processing error messages from <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</source>
+            <target state="new">These classes will be used in the next step when processing error messages from <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Step 3 – Process a JSON-Encoded Error Message</source>
+            <target state="new">Step 3 – Process a JSON-Encoded Error Message</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>This step shows how to process JSON-encoded error messages that <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> generates.</source>
+            <target state="new">This step shows how to process JSON-encoded error messages that <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> generates.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>To process a JSON-encoded error message generated by ACS</source>
+            <target state="new">To process a JSON-encoded error message generated by ACS</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Add an ASPX web page to your ASP.NET application and give it a name, such as <bpt id="1">&lt;ui&gt;</bpt>ErrorPage.aspx<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Add an ASPX web page to your ASP.NET application and give it a name, such as <bpt id="1">&lt;ui&gt;</bpt>ErrorPage.aspx<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Add the following labels controls to the ASP.NET markup.</source>
+            <target state="new">Add the following labels controls to the ASP.NET markup.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Switch to the page’s code-behind file, ErrorPge.aspx.cs.</source>
+            <target state="new">Switch to the page’s code-behind file, ErrorPge.aspx.cs.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Add the following declaration to the top.</source>
+            <target state="new">Add the following declaration to the top.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Add the following code to the <bpt id="1">&lt;ui&gt;</bpt>Page_Load<ept id="1">&lt;/ui&gt;</ept> method.</source>
+            <target state="new">Add the following code to the <bpt id="1">&lt;ui&gt;</bpt>Page_Load<ept id="1">&lt;/ui&gt;</ept> method.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>This code processes JSON-encoded error messages from <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</source>
+            <target state="new">This code processes JSON-encoded error messages from <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Step 4 – Configure Anonymous Access to the Error Page</source>
+            <target state="new">Step 4 – Configure Anonymous Access to the Error Page</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>This step configures anonymous access to the ErrorPage.aspx file.</source>
+            <target state="new">This step configures anonymous access to the ErrorPage.aspx file.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>If the page is protected and requires authorization, an infinite redirection loop results.</source>
+            <target state="new">If the page is protected and requires authorization, an infinite redirection loop results.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>If this occurs when <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> tries to access the page, <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> sends a JSON-encoded error.</source>
+            <target state="new">If this occurs when <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> tries to access the page, <ph id="2">&lt;token&gt;secondref_acs&lt;/token&gt;</ph> sends a JSON-encoded error.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Because the error page can be accessed anonymously and it might include code that echoes back HTML and/or writes data to your database, you should make sure that you prevent cross-site scripting and SQL Injection attacks.</source>
+            <target state="new">Because the error page can be accessed anonymously and it might include code that echoes back HTML and/or writes data to your database, you should make sure that you prevent cross-site scripting and SQL Injection attacks.</target>
+          </trans-unit>
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>The following resources describe this in more detail:</source>
+            <target state="new">The following resources describe this in more detail:</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>How To: Prevent Cross-Site Scripting in ASP.NET<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=178708&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (http://go.microsoft.com/fwlink/?LinkID=178708).</source>
+            <target state="new"><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>How To: Prevent Cross-Site Scripting in ASP.NET<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=178708&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (http://go.microsoft.com/fwlink/?LinkID=178708).</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>How To: Protect From Injection Attacks in ASP.NET<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=157572&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (http://go.microsoft.com/fwlink/?LinkID=157572).</source>
+            <target state="new"><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>How To: Protect From Injection Attacks in ASP.NET<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=157572&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> (http://go.microsoft.com/fwlink/?LinkID=157572).</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>How To: Protect From SQL Injection in ASP.NET<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=212978&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> http://go.microsoft.com/fwlink/?LinkID=212978.</source>
+            <target state="new"><bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>How To: Protect From SQL Injection in ASP.NET<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkID=212978&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> http://go.microsoft.com/fwlink/?LinkID=212978.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>To configure anonymous access to the error page</source>
+            <target state="new">To configure anonymous access to the error page</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Open the web.config in your application and add the following entry.</source>
+            <target state="new">Open the web.config in your application and add the following entry.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>This ensures that access to your page does not cause an infinite redirection loop.</source>
+            <target state="new">This ensures that access to your page does not cause an infinite redirection loop.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>Step 5 – Test Your Work</source>
+            <target state="new">Step 5 – Test Your Work</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>This step tests your Error URL configuration and implementation.</source>
+            <target state="new">This step tests your Error URL configuration and implementation.</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>To enable the Error URL feature for your relying party</source>
+            <target state="new">To enable the Error URL feature for your relying party</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>Rule Groups<ept id="1">&lt;/ui&gt;</ept> and then click a rule group that is associated with the relying party application.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>Rule Groups<ept id="1">&lt;/ui&gt;</ept> and then click a rule group that is associated with the relying party application.</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>The following step cannot be undone.</source>
+            <target state="new">The following step cannot be undone.</target>
+          </trans-unit>
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>However, if you are deleting generated rules, they can be generated again easily.</source>
+            <target state="new">However, if you are deleting generated rules, they can be generated again easily.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>On the <bpt id="1">&lt;ui&gt;</bpt>Edit Rule Group<ept id="1">&lt;/ui&gt;</ept> page, select all of the rules in the <bpt id="2">&lt;ui&gt;</bpt>Rules<ept id="2">&lt;/ui&gt;</ept> section, and then click <bpt id="3">&lt;ui&gt;</bpt>Delete Selected Rules<ept id="3">&lt;/ui&gt;</ept>.</source>
+            <target state="new">On the <bpt id="1">&lt;ui&gt;</bpt>Edit Rule Group<ept id="1">&lt;/ui&gt;</ept> page, select all of the rules in the <bpt id="2">&lt;ui&gt;</bpt>Rules<ept id="2">&lt;/ui&gt;</ept> section, and then click <bpt id="3">&lt;ui&gt;</bpt>Delete Selected Rules<ept id="3">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;ui&gt;</bpt>Save<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Click <bpt id="1">&lt;ui&gt;</bpt>Save<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Return to your website and navigate to one of the pages using your browser.</source>
+            <target state="new">Return to your website and navigate to one of the pages using your browser.</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>You should be redirected to your identity provider for authentication—<ph id="1">&lt;token&gt;ms_acct&lt;/token&gt;</ph>, Google, Facebook, Yahoo!, or <ph id="2">&lt;token&gt;secondref_adfs2&lt;/token&gt;</ph>—whatever is configured for your relying party as the identity provider.</source>
+            <target state="new">You should be redirected to your identity provider for authentication—<ph id="1">&lt;token&gt;ms_acct&lt;/token&gt;</ph>, Google, Facebook, Yahoo!, or <ph id="2">&lt;token&gt;secondref_adfs2&lt;/token&gt;</ph>—whatever is configured for your relying party as the identity provider.</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>After successful authentication you should be redirected back to <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>, which should generate an error since no rules are defined.</source>
+            <target state="new">After successful authentication you should be redirected back to <ph id="1">&lt;token&gt;secondref_acs&lt;/token&gt;</ph>, which should generate an error since no rules are defined.</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>This error should be displayed on your error page that you created in <ph id="1">&lt;link xlink:href="94214df7-11f8-478e-b5ef-4b48fefb012e#BKMK_3" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 2 – Create Error Helper Classes&lt;/link&gt;</ph>, and will be similar to the following: </source>
+            <target state="new">This error should be displayed on your error page that you created in <ph id="1">&lt;link xlink:href="94214df7-11f8-478e-b5ef-4b48fefb012e#BKMK_3" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Step 2 – Create Error Helper Classes&lt;/link&gt;</ph>, and will be similar to the following: </target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>uri:WindowsLiveID Error Code ACS50000: There was an error issuing a token.</source>
+            <target state="new">uri:WindowsLiveID Error Code ACS50000: There was an error issuing a token.</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Another way to test this is to deny user consent.</source>
+            <target state="new">Another way to test this is to deny user consent.</target>
+          </trans-unit>
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>This is presented when you log on using Facebook or Google.</source>
+            <target state="new">This is presented when you log on using Facebook or Google.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

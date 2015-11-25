@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="it-IT" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzFEKgzAMgOGr9AANJDXVZCfY3r1AUlsQnIKr4PHn88/3tzZU51SgVmZgagiO4lCQbFRtZKYxqGvFMWeQohkYkcA8T4DK2d2SlOoxJEpMaVGQQRrwJAKCVIFoeZYTL8xjDBTD2uEzx3Bva2v17q/zOPrDn4YxvK+v7fNp+2+zvh77H7oJ7J6iAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Repairing an Import Job</source>
+            <target state="new">Repairing an Import Job</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The Microsoft Azure Import/Export service may fail to copy some of your files or parts of a file to the Windows Azure Blob service.</source>
+            <target state="new">The Microsoft Azure Import/Export service may fail to copy some of your files or parts of a file to the Windows Azure Blob service.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Some reasons for failures include:</source>
+            <target state="new">Some reasons for failures include:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Corrupted files</source>
+            <target state="new">Corrupted files</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Damaged drives</source>
+            <target state="new">Damaged drives</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>The storage account key changed while the file was being transferred.</source>
+            <target state="new">The storage account key changed while the file was being transferred.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>You can run the Microsoft Azure Import/Export tool with the import job’s copy log files, and the tool will upload the missing files (or parts of a file) to your Windows Azure storage account to complete import job.</source>
+            <target state="new">You can run the Microsoft Azure Import/Export tool with the import job’s copy log files, and the tool will upload the missing files (or parts of a file) to your Windows Azure storage account to complete import job.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The command for repairing an import job is <bpt id="1">&lt;legacyBold&gt;</bpt>RepairImport<ept id="1">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new">The command for repairing an import job is <bpt id="1">&lt;legacyBold&gt;</bpt>RepairImport<ept id="1">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The following parameters can be specified:</source>
+            <target state="new">The following parameters can be specified:</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/r:&lt;/system&gt;</ph>&lt;RepairFile&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/r:&lt;/system&gt;</ph>&lt;RepairFile&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required.<ept id="1">&lt;/embeddedLabel&gt;</ept> Path to the repair file, which tracks the progress of the repair, and allows you to resume an interrupted repair.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required.<ept id="1">&lt;/embeddedLabel&gt;</ept> Path to the repair file, which tracks the progress of the repair, and allows you to resume an interrupted repair.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Each drive must have one and only one repair file.</source>
+            <target state="new">Each drive must have one and only one repair file.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>When you start a repair for a given drive, you will pass in the path to a repair file which does not yet exist.</source>
+            <target state="new">When you start a repair for a given drive, you will pass in the path to a repair file which does not yet exist.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>To resume an interrupted repair, you should pass in the name of an existing repair file.</source>
+            <target state="new">To resume an interrupted repair, you should pass in the name of an existing repair file.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>The repair file corresponding to the target drive must always be specified.</source>
+            <target state="new">The repair file corresponding to the target drive must always be specified.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/logdir:&lt;/system&gt;</ph>&lt;LogDirectory&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/logdir:&lt;/system&gt;</ph>&lt;LogDirectory&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Optional.<ept id="1">&lt;/embeddedLabel&gt;</ept> The log directory.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Optional.<ept id="1">&lt;/embeddedLabel&gt;</ept> The log directory.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Verbose log files will be written to this directory.</source>
+            <target state="new">Verbose log files will be written to this directory.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>If no log directory is specified, the current directory will be used as the log directory.</source>
+            <target state="new">If no log directory is specified, the current directory will be used as the log directory.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/d:&lt;/system&gt;</ph>&lt;TargetDirectories&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/d:&lt;/system&gt;</ph>&lt;TargetDirectories&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required.<ept id="1">&lt;/embeddedLabel&gt;</ept> One or more semicolon-separated directories that contain the original files that were imported.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required.<ept id="1">&lt;/embeddedLabel&gt;</ept> One or more semicolon-separated directories that contain the original files that were imported.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>The import drive may also be used, but is not required if alternate locations of original files are available.</source>
+            <target state="new">The import drive may also be used, but is not required if alternate locations of original files are available.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/bk:&lt;/system&gt;</ph>&lt;BitLockerKey&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/bk:&lt;/system&gt;</ph>&lt;BitLockerKey&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Optional.<ept id="1">&lt;/embeddedLabel&gt;</ept> You should specify the BitLocker key if you want the tool to unlock an encrypted drive where the original files are available.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Optional.<ept id="1">&lt;/embeddedLabel&gt;</ept> You should specify the BitLocker key if you want the tool to unlock an encrypted drive where the original files are available.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/sn:&lt;/system&gt;</ph>&lt;StorageAccountName&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/sn:&lt;/system&gt;</ph>&lt;StorageAccountName&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required.<ept id="1">&lt;/embeddedLabel&gt;</ept> The name of the storage account for the import job.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required.<ept id="1">&lt;/embeddedLabel&gt;</ept> The name of the storage account for the import job.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/sk:&lt;/system&gt;</ph>&lt;StorageAccountKey&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/sk:&lt;/system&gt;</ph>&lt;StorageAccountKey&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required<ept id="1">&lt;/embeddedLabel&gt;</ept> if and only if a container SAS is not specified.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required<ept id="1">&lt;/embeddedLabel&gt;</ept> if and only if a container SAS is not specified.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>The account key for the storage account for the import job.</source>
+            <target state="new">The account key for the storage account for the import job.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/csas:&lt;/system&gt;</ph>&lt;ContainerSas&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/csas:&lt;/system&gt;</ph>&lt;ContainerSas&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required<ept id="1">&lt;/embeddedLabel&gt;</ept> if and only if the storage account key is not specified.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required<ept id="1">&lt;/embeddedLabel&gt;</ept> if and only if the storage account key is not specified.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>The container SAS for accessing the blobs associated with the import job.</source>
+            <target state="new">The container SAS for accessing the blobs associated with the import job.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/CopyLogFile:&lt;/system&gt;</ph>&lt;DriveCopyLogFile&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/CopyLogFile:&lt;/system&gt;</ph>&lt;DriveCopyLogFile&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required.<ept id="1">&lt;/embeddedLabel&gt;</ept> Path to the drive copy log file (either verbose log or error log).</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Required.<ept id="1">&lt;/embeddedLabel&gt;</ept> Path to the drive copy log file (either verbose log or error log).</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>The file is generated by the Windows Azure Import/Export service and can be downloaded from the blob storage associated with the job.</source>
+            <target state="new">The file is generated by the Windows Azure Import/Export service and can be downloaded from the blob storage associated with the job.</target>
+          </trans-unit>
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>The copy log file contains information about failed blobs or files which are to be repaired.</source>
+            <target state="new">The copy log file contains information about failed blobs or files which are to be repaired.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;system&gt;/PathMapFile:&lt;/system&gt;</ph>&lt;DrivePathMapFile&gt;</source>
+            <target state="new"><ph id="1">&lt;system&gt;/PathMapFile:&lt;/system&gt;</ph>&lt;DrivePathMapFile&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;embeddedLabel&gt;</bpt>Optional.<ept id="1">&lt;/embeddedLabel&gt;</ept> Path to a text file that can be used to resolve ambiguities if you have multiple files with the same name that you were importing in the same job.</source>
+            <target state="new"><bpt id="1">&lt;embeddedLabel&gt;</bpt>Optional.<ept id="1">&lt;/embeddedLabel&gt;</ept> Path to a text file that can be used to resolve ambiguities if you have multiple files with the same name that you were importing in the same job.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>The first time the tool is run, it can populate this file with all of the ambiguous names.</source>
+            <target state="new">The first time the tool is run, it can populate this file with all of the ambiguous names.</target>
+          </trans-unit>
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Subsequent runs of the tool will use this file to resolve the ambiguities.</source>
+            <target state="new">Subsequent runs of the tool will use this file to resolve the ambiguities.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Using the RepairImport Command</source>
+            <target state="new">Using the RepairImport Command</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>To repair import data by streaming the data over the network, you must specify the directories that contain the original files you were importing using the <ph id="1">&lt;codeInline&gt;/d&lt;/codeInline&gt;</ph> parameter.</source>
+            <target state="new">To repair import data by streaming the data over the network, you must specify the directories that contain the original files you were importing using the <ph id="1">&lt;codeInline&gt;/d&lt;/codeInline&gt;</ph> parameter.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>You must also specify the copy log file that you downloaded from your storage account.</source>
+            <target state="new">You must also specify the copy log file that you downloaded from your storage account.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>A typical command line to repair an import job with partial failures looks like:</source>
+            <target state="new">A typical command line to repair an import job with partial failures looks like:</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>The following is an example of a copy log file.</source>
+            <target state="new">The following is an example of a copy log file.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>In this case, one 64K piece of a file was corrupted on the drive that was shipped for the import job.</source>
+            <target state="new">In this case, one 64K piece of a file was corrupted on the drive that was shipped for the import job.</target>
+          </trans-unit>
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Since this is the only failure indicated, the rest of the blobs in the job were successfully imported.</source>
+            <target state="new">Since this is the only failure indicated, the rest of the blobs in the job were successfully imported.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>When this copy log is passed to the Azure Import/Export tool, the tool will try to finish the import for this file by copying the missing contents across the network.</source>
+            <target state="new">When this copy log is passed to the Azure Import/Export tool, the tool will try to finish the import for this file by copying the missing contents across the network.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Following the example above, the tool will look for the original file <ph id="1">&lt;codeInline&gt;\animals\koala.jpg&lt;/codeInline&gt;</ph> within the two directories <ph id="2">&lt;codeInline&gt;C:\Users\bob\Pictures&lt;/codeInline&gt;</ph> and <ph id="3">&lt;codeInline&gt;X:\BobBackup\photos&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Following the example above, the tool will look for the original file <ph id="1">&lt;codeInline&gt;\animals\koala.jpg&lt;/codeInline&gt;</ph> within the two directories <ph id="2">&lt;codeInline&gt;C:\Users\bob\Pictures&lt;/codeInline&gt;</ph> and <ph id="3">&lt;codeInline&gt;X:\BobBackup\photos&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>If the file <ph id="1">&lt;codeInline&gt;C:\Users\bob\Pictures\animals\koala.jpg&lt;/codeInline&gt;</ph> exists, the Azure Import/Export tool will copy the missing range of data to the corresponding blob <ph id="2">&lt;codeInline&gt;http://bobmediaaccount.blob.core.windows.net/pictures/animals/koala.jpg&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">If the file <ph id="1">&lt;codeInline&gt;C:\Users\bob\Pictures\animals\koala.jpg&lt;/codeInline&gt;</ph> exists, the Azure Import/Export tool will copy the missing range of data to the corresponding blob <ph id="2">&lt;codeInline&gt;http://bobmediaaccount.blob.core.windows.net/pictures/animals/koala.jpg&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Resolving Conflicts When Using RepairImport</source>
+            <target state="new">Resolving Conflicts When Using RepairImport</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>In some situations, the tool may not be able to find or open the necessary file for one of the following reasons: the file could not be found, the file is not accessible, the file name is ambiguous, or the content of the file is no longer correct.</source>
+            <target state="new">In some situations, the tool may not be able to find or open the necessary file for one of the following reasons: the file could not be found, the file is not accessible, the file name is ambiguous, or the content of the file is no longer correct.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>An ambiguous error could occur if the tool is trying to locate <ph id="1">&lt;codeInline&gt;\animals\koala.jpg&lt;/codeInline&gt;</ph> and there is a file with that name under both <ph id="2">&lt;codeInline&gt;C:\Users\bob\pictures&lt;/codeInline&gt;</ph> and <ph id="3">&lt;codeInline&gt;X:\BobBackup\photos&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">An ambiguous error could occur if the tool is trying to locate <ph id="1">&lt;codeInline&gt;\animals\koala.jpg&lt;/codeInline&gt;</ph> and there is a file with that name under both <ph id="2">&lt;codeInline&gt;C:\Users\bob\pictures&lt;/codeInline&gt;</ph> and <ph id="3">&lt;codeInline&gt;X:\BobBackup\photos&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>That is, both <ph id="1">&lt;codeInline&gt;C:\Users\bob\pictures\animals\koala.jpg&lt;/codeInline&gt;</ph> and <ph id="2">&lt;codeInline&gt;X:\BobBackup\photos\animals\koala.jpg&lt;/codeInline&gt;</ph> exist on the import job drives.</source>
+            <target state="new">That is, both <ph id="1">&lt;codeInline&gt;C:\Users\bob\pictures\animals\koala.jpg&lt;/codeInline&gt;</ph> and <ph id="2">&lt;codeInline&gt;X:\BobBackup\photos\animals\koala.jpg&lt;/codeInline&gt;</ph> exist on the import job drives.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;codeInline&gt;/PathMapFile&lt;/codeInline&gt;</ph> option will allow you to resolve these errors.</source>
+            <target state="new">The <ph id="1">&lt;codeInline&gt;/PathMapFile&lt;/codeInline&gt;</ph> option will allow you to resolve these errors.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>You can specify the name of the file which will contains the list of files that the tool was not able to correctly identify.</source>
+            <target state="new">You can specify the name of the file which will contains the list of files that the tool was not able to correctly identify.</target>
+          </trans-unit>
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>The following is an example command line that would populate <ph id="1">&lt;codeInline&gt;9WM35C2V_pathmap.txt&lt;/codeInline&gt;</ph>:</source>
+            <target state="new">The following is an example command line that would populate <ph id="1">&lt;codeInline&gt;9WM35C2V_pathmap.txt&lt;/codeInline&gt;</ph>:</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>The tool will then write the problematic file paths to <ph id="1">&lt;codeInline&gt;9WM35C2V_pathmap.txt&lt;/codeInline&gt;</ph>, one on each line.</source>
+            <target state="new">The tool will then write the problematic file paths to <ph id="1">&lt;codeInline&gt;9WM35C2V_pathmap.txt&lt;/codeInline&gt;</ph>, one on each line.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>For instance, the file may contain the following entries after running the command:</source>
+            <target state="new">For instance, the file may contain the following entries after running the command:</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>For each file in the list, you should attempt to locate and open the file to ensure it is available to the tool.</source>
+            <target state="new">For each file in the list, you should attempt to locate and open the file to ensure it is available to the tool.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>If you wish to tell the tool explicitly where to find a file, you can modify the path map file and add the path to each file on the same line, separated by a tab character:</source>
+            <target state="new">If you wish to tell the tool explicitly where to find a file, you can modify the path map file and add the path to each file on the same line, separated by a tab character:</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>After making the necessary files available to the tool, or updating the path map file, you can rerun the tool to complete the import process.</source>
+            <target state="new">After making the necessary files available to the tool, or updating the path map file, you can rerun the tool to complete the import process.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

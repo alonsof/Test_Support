@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ru-RU" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANycsJwzAMANBVNIAEki0ndifoubQDyB9BoE0gTSDjt+/63OOoGhqNoUoqzlQ5V2osNpXiYlYQRvc5ZMvkEjtpYibzkKkHjiFKSzY7Qh2hzl0yxaSNtLWJco2JCnvUkrm0lBAEYT/p8UK43ov7uI7bvm0HQvgfI9zPj63P3dbv245lW3/EN2d4ogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Scheduler REST API Reference</source>
+            <target state="new">Scheduler REST API Reference</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This topic describes how to perform common tasks in Azure Scheduler by using the Scheduler management REST API.</source>
+            <target state="new">This topic describes how to perform common tasks in Azure Scheduler by using the Scheduler management REST API.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Prerequisites</source>
+            <target state="new">Prerequisites</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>A valid <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> account and an active <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph> subscription are required.</source>
+            <target state="new">A valid <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> account and an active <ph id="2">&lt;token&gt;azure_2&lt;/token&gt;</ph> subscription are required.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>This documentation assumes that you already have an active subscription and associated subscription ID.</source>
+            <target state="new">This documentation assumes that you already have an active subscription and associated subscription ID.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>A management certificate for your <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> subscription.</source>
+            <target state="new">A management certificate for your <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> subscription.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>A management certificate is required to authenticate client access to resources in your subscription.</source>
+            <target state="new">A management certificate is required to authenticate client access to resources in your subscription.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>You must use an X-509 v3 certificate that contains a public key and has a .cer file name extension.</source>
+            <target state="new">You must use an X-509 v3 certificate that contains a public key and has a .cer file name extension.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>For information on how to create a management certificate, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Manage Certificates in Azure<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/windowsazure/gg981929.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For information on how to create a management certificate, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Manage Certificates in Azure<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/windowsazure/gg981929.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Overview</source>
+            <target state="new">Overview</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The Scheduler API provides a RESTful set of operations that interact with Azure Scheduler service to manage your scheduled jobs and job collections.</source>
+            <target state="new">The Scheduler API provides a RESTful set of operations that interact with Azure Scheduler service to manage your scheduled jobs and job collections.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The Scheduler management API enables a core set of site administration scenarios: </source>
+            <target state="new">The Scheduler management API enables a core set of site administration scenarios: </target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Create, update, and delete “job collections” programmatically</source>
+            <target state="new">Create, update, and delete “job collections” programmatically</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Create, update, delete scheduled jobs programmatically</source>
+            <target state="new">Create, update, delete scheduled jobs programmatically</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>View list of job collections and jobs programmatically</source>
+            <target state="new">View list of job collections and jobs programmatically</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>View job status and history programmatically</source>
+            <target state="new">View job status and history programmatically</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Resources</source>
+            <target state="new">Resources</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The Azure Scheduler REST API exposes the following hierarchy of resources for managing your jobs and job collections:</source>
+            <target state="new">The Azure Scheduler REST API exposes the following hierarchy of resources for managing your jobs and job collections:</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Operations on Resources</source>
+            <target state="new">Operations on Resources</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>To determine whether the service has finished processing a request, call <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Get Operation Status<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/windowsazure/ee460783.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, especially if you need to use that resource on a subsequent call or if you need to ensure that a modification or deletion really happened.</source>
+            <target state="new">To determine whether the service has finished processing a request, call <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Get Operation Status<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/windowsazure/ee460783.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>, especially if you need to use that resource on a subsequent call or if you need to ensure that a modification or deletion really happened.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>For more information on asynchronous operations, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Tracking Asynchronous Service Management Requests<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/windowsazure/ee460791.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information on asynchronous operations, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Tracking Asynchronous Service Management Requests<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/windowsazure/ee460791.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Creating a resource</source>
+            <target state="new">Creating a resource</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>New resources are created with an HTTP POST or PUT verb.</source>
+            <target state="new">New resources are created with an HTTP POST or PUT verb.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>If the resource is created successfully, an HTTP 200 (OK), 201 (created), or 202 (accepted) status code is returned, and the serialized resource object is included in the response body.</source>
+            <target state="new">If the resource is created successfully, an HTTP 200 (OK), 201 (created), or 202 (accepted) status code is returned, and the serialized resource object is included in the response body.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>If a client attempts to create a resource that already exists, an HTTP 400 (bad request) or 409 (conflict) status code is returned.</source>
+            <target state="new">If a client attempts to create a resource that already exists, an HTTP 400 (bad request) or 409 (conflict) status code is returned.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Reading a resource</source>
+            <target state="new">Reading a resource</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>To read the current state of an existing resource, an HTTP GET verb is used.</source>
+            <target state="new">To read the current state of an existing resource, an HTTP GET verb is used.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>If the resource exists, then the response status code is 200 or 202 and the response body will contain a serialized object.</source>
+            <target state="new">If the resource exists, then the response status code is 200 or 202 and the response body will contain a serialized object.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>If the resource does not exist, then response status code is 400 (bad request) or 404 (not found).</source>
+            <target state="new">If the resource does not exist, then response status code is 400 (bad request) or 404 (not found).</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Updating a resource</source>
+            <target state="new">Updating a resource</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Existing resources are updated with an HTTP PUT or PATCH verb.</source>
+            <target state="new">Existing resources are updated with an HTTP PUT or PATCH verb.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>The name of the object is passed in the URL string, and the new state of the object is passed in the request body.</source>
+            <target state="new">The name of the object is passed in the URL string, and the new state of the object is passed in the request body.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>If the resource is updated successfully, an HTTP 200 or 202 status code is returned.</source>
+            <target state="new">If the resource is updated successfully, an HTTP 200 or 202 status code is returned.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>If the resource to be updated does not exist, an HTTP 400 (bad request) or 404 (not found) status code is returned.</source>
+            <target state="new">If the resource to be updated does not exist, an HTTP 400 (bad request) or 404 (not found) status code is returned.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Deleting a resource</source>
+            <target state="new">Deleting a resource</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>An existing resource is deleted with an HTTP DELETE verb.</source>
+            <target state="new">An existing resource is deleted with an HTTP DELETE verb.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>The name of the object is passed in the URL string.</source>
+            <target state="new">The name of the object is passed in the URL string.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>If the resource is deleted successfully, an HTTP 200 or 202 status code is returned.</source>
+            <target state="new">If the resource is deleted successfully, an HTTP 200 or 202 status code is returned.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>If the object has already been deleted or does not exist, then HTTP 400 or 404 is returned.</source>
+            <target state="new">If the object has already been deleted or does not exist, then HTTP 400 or 404 is returned.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Authentication</source>
+            <target state="new">Authentication</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>To call the Azure Scheduler APIs successfully, you will need a management certificate that is associated with your subscription.</source>
+            <target state="new">To call the Azure Scheduler APIs successfully, you will need a management certificate that is associated with your subscription.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>For more information, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Authenticating Service Management Requests<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/windowsazure/ee460782.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For more information, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Authenticating Service Management Requests<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://msdn.microsoft.com/library/windowsazure/ee460782.aspx&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>The Scheduler service endpoint is exposed only through https, to help mitigate information disclosure threats.</source>
+            <target state="new">The Scheduler service endpoint is exposed only through https, to help mitigate information disclosure threats.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>What is Scheduler?</source>
+            <target state="new">What is Scheduler?</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Get Started Using Scheduler in the Management Portal</source>
+            <target state="new">Get Started Using Scheduler in the Management Portal</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Scheduler Concepts, Terminology, and Entity Hierarchy</source>
+            <target state="new">Scheduler Concepts, Terminology, and Entity Hierarchy</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>How to Build Complex Schedules and Advanced Recurrence with Azure Scheduler</source>
+            <target state="new">How to Build Complex Schedules and Advanced Recurrence with Azure Scheduler</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Scheduler PowerShell Cmdlets Reference</source>
+            <target state="new">Scheduler PowerShell Cmdlets Reference</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Scheduler High-Availability and Reliability</source>
+            <target state="new">Scheduler High-Availability and Reliability</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Scheduler Outbound Authentication</source>
+            <target state="new">Scheduler Outbound Authentication</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Scheduler Limits, Defaults, and Error Codes</source>
+            <target state="new">Scheduler Limits, Defaults, and Error Codes</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Plans and Billing in Azure Scheduler</source>
+            <target state="new">Plans and Billing in Azure Scheduler</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Azure Scheduler Pricing</source>
+            <target state="new">Azure Scheduler Pricing</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Azure Scheduler Videos</source>
+            <target state="new">Azure Scheduler Videos</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

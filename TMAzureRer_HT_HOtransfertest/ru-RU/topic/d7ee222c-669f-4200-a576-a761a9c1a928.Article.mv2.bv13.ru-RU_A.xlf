@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ru-RU" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANjMEJwzAMAFfxABZYimJLnaDv0g4guxYE2gTSBDJ+/bjXHec+9crUoHdmYPQENUmFltCyqqOZxiAz1WpcQFty4OYGIqIgyMjCaZZpiuFdeicar5x1VJQS2FwyWMlo2gYkMWAM+wmPVwzXZ3Hv13Hbt+2IgYYbl/v5tfW52/r72LFs6x+vKuNVogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Neural Network Regression</source>
+            <target state="new">Neural Network Regression</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Creates a regression model using a neural network algorithm</source>
+            <target state="new">Creates a regression model using a neural network algorithm</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Category: <bpt id="1">&lt;legacyLink xlink:href="97F9510F-60BA-4D78-8A33-3078A6C7F260" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Machine Learning / Initialize Model / Regression<ept id="1">&lt;/legacyLink&gt;</ept></source>
+            <target state="new">Category: <bpt id="1">&lt;legacyLink xlink:href="97F9510F-60BA-4D78-8A33-3078A6C7F260" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Machine Learning / Initialize Model / Regression<ept id="1">&lt;/legacyLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Module Overview</source>
+            <target state="new">Module Overview</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You can use the <bpt id="1">&lt;ui&gt;</bpt>Neural Network Regression<ept id="1">&lt;/ui&gt;</ept> module to create a regression model using a customizable neural network algorithm.</source>
+            <target state="new">You can use the <bpt id="1">&lt;ui&gt;</bpt>Neural Network Regression<ept id="1">&lt;/ui&gt;</ept> module to create a regression model using a customizable neural network algorithm.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Although neural networks are widely known for use in deep learning and modeling complex problems such as image recognition, they are easily adapted to regression problems.</source>
+            <target state="new">Although neural networks are widely known for use in deep learning and modeling complex problems such as image recognition, they are easily adapted to regression problems.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Any class of statistical models can be termed a neural network if they use adaptive weights and can approximate non-linear functions of their inputs.</source>
+            <target state="new">Any class of statistical models can be termed a neural network if they use adaptive weights and can approximate non-linear functions of their inputs.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Thus neural network regression is suited to problems where a more traditional regression model cannot fit a solution.</source>
+            <target state="new">Thus neural network regression is suited to problems where a more traditional regression model cannot fit a solution.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Neural network regression is a supervised learning method, and therefore requires a <bpt id="1">&lt;newTerm&gt;</bpt>tagged dataset<ept id="1">&lt;/newTerm&gt;</ept>, which includes a label column.</source>
+            <target state="new">Neural network regression is a supervised learning method, and therefore requires a <bpt id="1">&lt;newTerm&gt;</bpt>tagged dataset<ept id="1">&lt;/newTerm&gt;</ept>, which includes a label column.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Because a regression model predicts a numerical value, the label column must be a numerical data type.</source>
+            <target state="new">Because a regression model predicts a numerical value, the label column must be a numerical data type.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>You can train the model by providing the model and the tagged dataset as an input to <ph id="1">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> or <ph id="2">&lt;link xlink:href="038d91b6-c2f2-42a1-9215-1f2c20ed1b40" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Sweep Parameters&lt;/link&gt;</ph>.</source>
+            <target state="new">You can train the model by providing the model and the tagged dataset as an input to <ph id="1">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> or <ph id="2">&lt;link xlink:href="038d91b6-c2f2-42a1-9215-1f2c20ed1b40" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Sweep Parameters&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The trained model can then be used to predict values for the new input examples.</source>
+            <target state="new">The trained model can then be used to predict values for the new input examples.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>How to Configure a Neural Network Model</source>
+            <target state="new">How to Configure a Neural Network Model</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>Specify how you want the model to be trained, by setting the <bpt id="1">&lt;ui&gt;</bpt>Create trainer mode<ept id="1">&lt;/ui&gt;</ept> option.</source>
+            <target state="new">Specify how you want the model to be trained, by setting the <bpt id="1">&lt;ui&gt;</bpt>Create trainer mode<ept id="1">&lt;/ui&gt;</ept> option.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Single Parameter</source>
+            <target state="new">Single Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>If you know how you want to configure the neural network, you can provide a specific set of values as arguments.</source>
+            <target state="new">If you know how you want to configure the neural network, you can provide a specific set of values as arguments.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>You might have learned these values by experimentation or received them as guidance.</source>
+            <target state="new">You might have learned these values by experimentation or received them as guidance.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>When you set <bpt id="1">&lt;ui&gt;</bpt>Create trainer mode<ept id="1">&lt;/ui&gt;</ept> option to <bpt id="2">&lt;ui&gt;</bpt>Single Parameter<ept id="2">&lt;/ui&gt;</ept>, you train the model by using a tagged dataset and the <ph id="3">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> module.</source>
+            <target state="new">When you set <bpt id="1">&lt;ui&gt;</bpt>Create trainer mode<ept id="1">&lt;/ui&gt;</ept> option to <bpt id="2">&lt;ui&gt;</bpt>Single Parameter<ept id="2">&lt;/ui&gt;</ept>, you train the model by using a tagged dataset and the <ph id="3">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> module.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Parameter Range</source>
+            <target state="new">Parameter Range</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>If you are not sure of the best parameters, you can find the optimal parameters by specifying multiple values and using a parameter sweep to find the optimal configuration.</source>
+            <target state="new">If you are not sure of the best parameters, you can find the optimal parameters by specifying multiple values and using a parameter sweep to find the optimal configuration.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>When you set <bpt id="1">&lt;ui&gt;</bpt>Create trainer mode<ept id="1">&lt;/ui&gt;</ept> option to <bpt id="2">&lt;ui&gt;</bpt>Parameter Range<ept id="2">&lt;/ui&gt;</ept>, train the model using <ph id="3">&lt;link xlink:href="038d91b6-c2f2-42a1-9215-1f2c20ed1b40" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Sweep Parameters&lt;/link&gt;</ph> and a tagged dataset.</source>
+            <target state="new">When you set <bpt id="1">&lt;ui&gt;</bpt>Create trainer mode<ept id="1">&lt;/ui&gt;</ept> option to <bpt id="2">&lt;ui&gt;</bpt>Parameter Range<ept id="2">&lt;/ui&gt;</ept>, train the model using <ph id="3">&lt;link xlink:href="038d91b6-c2f2-42a1-9215-1f2c20ed1b40" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Sweep Parameters&lt;/link&gt;</ph> and a tagged dataset.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;link xlink:href="038d91b6-c2f2-42a1-9215-1f2c20ed1b40" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Sweep Parameters&lt;/link&gt;</ph> will iterate over all possible combinations of the settings you provided and determine the combination of settings that produces the optimal results.</source>
+            <target state="new"><ph id="1">&lt;link xlink:href="038d91b6-c2f2-42a1-9215-1f2c20ed1b40" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Sweep Parameters&lt;/link&gt;</ph> will iterate over all possible combinations of the settings you provided and determine the combination of settings that produces the optimal results.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>You can use the model trained using those parameters, or you can make a note of the parameter settings to use when configuring a learner.</source>
+            <target state="new">You can use the model trained using those parameters, or you can make a note of the parameter settings to use when configuring a learner.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>You can further customize the neural network model in two ways: </source>
+            <target state="new">You can further customize the neural network model in two ways: </target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Accept the default neural network architecture, and use the <bpt id="1">&lt;ui&gt;</bpt>Properties<ept id="1">&lt;/ui&gt;</ept> pane to set other parameters that control the behavior of the neural network, such as learning rate and normalization.</source>
+            <target state="new">Accept the default neural network architecture, and use the <bpt id="1">&lt;ui&gt;</bpt>Properties<ept id="1">&lt;/ui&gt;</ept> pane to set other parameters that control the behavior of the neural network, such as learning rate and normalization.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>For more information, see the <bpt id="1">&lt;legacyLink xlink:href="#bkmk_Options" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Options<ept id="1">&lt;/legacyLink&gt;</ept> section.</source>
+            <target state="new">For more information, see the <bpt id="1">&lt;legacyLink xlink:href="#bkmk_Options" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Options<ept id="1">&lt;/legacyLink&gt;</ept> section.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>If you want to fully customize the network architecture and its connections, use the <bpt id="1">&lt;legacyLink xlink:href="#bkmk_NetSharp" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Net# language<ept id="1">&lt;/legacyLink&gt;</ept>.</source>
+            <target state="new">If you want to fully customize the network architecture and its connections, use the <bpt id="1">&lt;legacyLink xlink:href="#bkmk_NetSharp" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Net# language<ept id="1">&lt;/legacyLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Options</source>
+            <target state="new">Options</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>You can use these options to modify the behavior of the neural network.</source>
+            <target state="new">You can use these options to modify the behavior of the neural network.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Create trainer mode</source>
+            <target state="new">Create trainer mode</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Choose the method used for configuring and training the model:</source>
+            <target state="new">Choose the method used for configuring and training the model:</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Single Parameter</source>
+            <target state="new">Single Parameter</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Select this option to configure and train the model with a single set of parameter values that you supply.</source>
+            <target state="new">Select this option to configure and train the model with a single set of parameter values that you supply.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>If you choose this option, you should train the model by using the <ph id="1">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> module.</source>
+            <target state="new">If you choose this option, you should train the model by using the <ph id="1">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph> module.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Parameter Range</source>
+            <target state="new">Parameter Range</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Select this option to use the Range Builder and specify a range of possible values.</source>
+            <target state="new">Select this option to use the Range Builder and specify a range of possible values.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>You then train the model using a parameter sweep, to find the optimum configuration.</source>
+            <target state="new">You then train the model using a parameter sweep, to find the optimum configuration.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>If you pass a parameter range to <ph id="1">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph>, it will use only the first value in the parameter range list.</source>
+            <target state="new">If you pass a parameter range to <ph id="1">&lt;link xlink:href="5cc7053e-aa30-450d-96c0-dae4be720977" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Train Model&lt;/link&gt;</ph>, it will use only the first value in the parameter range list.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>If you pass a single set of parameter values to the <ph id="1">&lt;link xlink:href="038d91b6-c2f2-42a1-9215-1f2c20ed1b40" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Parameter sweep&lt;/link&gt;</ph> module, when it expects a range of settings for each parameter, it ignores the values and using the default values for the learner.</source>
+            <target state="new">If you pass a single set of parameter values to the <ph id="1">&lt;link xlink:href="038d91b6-c2f2-42a1-9215-1f2c20ed1b40" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Parameter sweep&lt;/link&gt;</ph> module, when it expects a range of settings for each parameter, it ignores the values and using the default values for the learner.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>If you select the <bpt id="1">&lt;ui&gt;</bpt>Parameter Range<ept id="1">&lt;/ui&gt;</ept> option and enter a single value for any parameter, that single value you specified will be used throughout the sweep, even if other parameters change across a range of values.</source>
+            <target state="new">If you select the <bpt id="1">&lt;ui&gt;</bpt>Parameter Range<ept id="1">&lt;/ui&gt;</ept> option and enter a single value for any parameter, that single value you specified will be used throughout the sweep, even if other parameters change across a range of values.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>Hidden layer specification</source>
+            <target state="new">Hidden layer specification</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Select the type of network architecture to create.</source>
+            <target state="new">Select the type of network architecture to create.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>Fully-connected case</source>
+            <target state="new">Fully-connected case</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Choose this option to use the default neural network architecture.</source>
+            <target state="new">Choose this option to use the default neural network architecture.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>The default neural network regression model is defined as follows:</source>
+            <target state="new">The default neural network regression model is defined as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>The default net structure of a neural network regression model is a network with one hidden layer.</source>
+            <target state="new">The default net structure of a neural network regression model is a network with one hidden layer.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>The output layer is fully connected to the hidden layer and the hidden layer is fully connected to the input layer.</source>
+            <target state="new">The output layer is fully connected to the hidden layer and the hidden layer is fully connected to the input layer.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Because the number of nodes in the input layer is determined by the number of features in the training data, in a regression model there is only one node in the output layer.</source>
+            <target state="new">Because the number of nodes in the input layer is determined by the number of features in the training data, in a regression model there is only one node in the output layer.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>The number of nodes in the hidden layer can be set by the user (default value is 100).</source>
+            <target state="new">The number of nodes in the hidden layer can be set by the user (default value is 100).</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Custom definition script</source>
+            <target state="new">Custom definition script</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Choose this option to use the <bpt id="1">&lt;legacyLink xlink:href="#bkmk_NetSharp" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Net# language<ept id="1">&lt;/legacyLink&gt;</ept> to create a custom neural network architecture.</source>
+            <target state="new">Choose this option to use the <bpt id="1">&lt;legacyLink xlink:href="#bkmk_NetSharp" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Net# language<ept id="1">&lt;/legacyLink&gt;</ept> to create a custom neural network architecture.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Neural network definition</source>
+            <target state="new">Neural network definition</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Type or paste Net# statements in the text box to customize the architecture of the neural network, including the number of hidden layers, their connections, and advanced options such as specifying the mappings between layers.</source>
+            <target state="new">Type or paste Net# statements in the text box to customize the architecture of the neural network, including the number of hidden layers, their connections, and advanced options such as specifying the mappings between layers.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>This option is available only if you select the <bpt id="1">&lt;ui&gt;</bpt>Custom definition script<ept id="1">&lt;/ui&gt;</ept> option.</source>
+            <target state="new">This option is available only if you select the <bpt id="1">&lt;ui&gt;</bpt>Custom definition script<ept id="1">&lt;/ui&gt;</ept> option.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>For script examples, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Guide to the Net# Neural Networks Specification Language<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=402867&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</source>
+            <target state="new">For script examples, see <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Guide to the Net# Neural Networks Specification Language<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=402867&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Number of hidden nodes</source>
+            <target state="new">Number of hidden nodes</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Type the number of hidden nodes.</source>
+            <target state="new">Type the number of hidden nodes.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>By default, there is one hidden layer with 100 nodes.</source>
+            <target state="new">By default, there is one hidden layer with 100 nodes.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>Learning rate</source>
+            <target state="new">Learning rate</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Type a value that defines the step taken at each iteration, before correction.</source>
+            <target state="new">Type a value that defines the step taken at each iteration, before correction.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>A larger value for learning rate can cause the model to converge faster, but it can overshoot local minima.</source>
+            <target state="new">A larger value for learning rate can cause the model to converge faster, but it can overshoot local minima.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Number of learning iterations</source>
+            <target state="new">Number of learning iterations</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Specify the maximum number of times the algorithm processes the training cases.</source>
+            <target state="new">Specify the maximum number of times the algorithm processes the training cases.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>The initial learning weights diameter</source>
+            <target state="new">The initial learning weights diameter</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Specify the node weights at the start of the learning process.</source>
+            <target state="new">Specify the node weights at the start of the learning process.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>The momentum</source>
+            <target state="new">The momentum</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Specify a weight to apply during learning to nodes from previous iterations</source>
+            <target state="new">Specify a weight to apply during learning to nodes from previous iterations</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>The type of normalizer</source>
+            <target state="new">The type of normalizer</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Choose the method that is used for feature normalization, or use no normalization.</source>
+            <target state="new">Choose the method that is used for feature normalization, or use no normalization.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>The following normalization methods are supported:</source>
+            <target state="new">The following normalization methods are supported:</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyItalic&gt;</bpt><bpt id="2">&lt;ui&gt;</bpt>Binning<ept id="2">&lt;/ui&gt;</ept><ept id="1">&lt;/legacyItalic&gt;</ept>: The binning normalizer creates bins of equal size, and then normalizes every value in each bin to be divided by the total number of bins.</source>
+            <target state="new"><bpt id="1">&lt;legacyItalic&gt;</bpt><bpt id="2">&lt;ui&gt;</bpt>Binning<ept id="2">&lt;/ui&gt;</ept><ept id="1">&lt;/legacyItalic&gt;</ept>: The binning normalizer creates bins of equal size, and then normalizes every value in each bin to be divided by the total number of bins.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyItalic&gt;</bpt><bpt id="2">&lt;ui&gt;</bpt>Gaussian<ept id="2">&lt;/ui&gt;</ept><ept id="1">&lt;/legacyItalic&gt;</ept>: The Gaussian normalizer rescales the values of each feature to have mean 0 and variance 1.</source>
+            <target state="new"><bpt id="1">&lt;legacyItalic&gt;</bpt><bpt id="2">&lt;ui&gt;</bpt>Gaussian<ept id="2">&lt;/ui&gt;</ept><ept id="1">&lt;/legacyItalic&gt;</ept>: The Gaussian normalizer rescales the values of each feature to have mean 0 and variance 1.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>This is done by computing the mean and the variance of each feature, and then, for each instance, subtracting the mean value and dividing by the square root of the variance (the standard deviation).</source>
+            <target state="new">This is done by computing the mean and the variance of each feature, and then, for each instance, subtracting the mean value and dividing by the square root of the variance (the standard deviation).</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyItalic&gt;</bpt><bpt id="2">&lt;ui&gt;</bpt>Min-max<ept id="2">&lt;/ui&gt;</ept><ept id="1">&lt;/legacyItalic&gt;</ept>:  The min-max normalizer linearly rescales every feature to the [0,1] interval.</source>
+            <target state="new"><bpt id="1">&lt;legacyItalic&gt;</bpt><bpt id="2">&lt;ui&gt;</bpt>Min-max<ept id="2">&lt;/ui&gt;</ept><ept id="1">&lt;/legacyItalic&gt;</ept>:  The min-max normalizer linearly rescales every feature to the [0,1] interval.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Rescaling to the [0,1] interval is done by shifting the values of each feature so that the minimal value is 0, and then dividing by the new maximal value (which is the difference between the original maximal and minimal values).</source>
+            <target state="new">Rescaling to the [0,1] interval is done by shifting the values of each feature so that the minimal value is 0, and then dividing by the new maximal value (which is the difference between the original maximal and minimal values).</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyItalic&gt;</bpt><bpt id="2">&lt;ui&gt;</bpt>None<ept id="2">&lt;/ui&gt;</ept><ept id="1">&lt;/legacyItalic&gt;</ept>: No normalization is performed.</source>
+            <target state="new"><bpt id="1">&lt;legacyItalic&gt;</bpt><bpt id="2">&lt;ui&gt;</bpt>None<ept id="2">&lt;/ui&gt;</ept><ept id="1">&lt;/legacyItalic&gt;</ept>: No normalization is performed.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Shuffle examples</source>
+            <target state="new">Shuffle examples</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Select this option to shuffle cases between iterations.</source>
+            <target state="new">Select this option to shuffle cases between iterations.</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>If you deselect this option, cases are processed in exactly the same order each time you run the experiment.</source>
+            <target state="new">If you deselect this option, cases are processed in exactly the same order each time you run the experiment.</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Random number seed</source>
+            <target state="new">Random number seed</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Type a value to use as the seed.</source>
+            <target state="new">Type a value to use as the seed.</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Specifying a seed value is useful when you want to ensure repeatability across runs of the same experiment.</source>
+            <target state="new">Specifying a seed value is useful when you want to ensure repeatability across runs of the same experiment.</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Allow unknown categorical levels</source>
+            <target state="new">Allow unknown categorical levels</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>When this option is selected, the model will create a grouping for Unknown values.</source>
+            <target state="new">When this option is selected, the model will create a grouping for Unknown values.</target>
+          </trans-unit>
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>If you deselect it, the model can accept only the values contained in the training data.</source>
+            <target state="new">If you deselect it, the model can accept only the values contained in the training data.</target>
+          </trans-unit>
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>In the former case, the model might be less precise on known values but provide better predictions for new (unknown) values.</source>
+            <target state="new">In the former case, the model might be less precise on known values but provide better predictions for new (unknown) values.</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Customizing a Neural Network by Using Net#</source>
+            <target state="new">Customizing a Neural Network by Using Net#</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>A neural network model is defined by the structure of its graph, which includes these attributes:</source>
+            <target state="new">A neural network model is defined by the structure of its graph, which includes these attributes:</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Number of hidden layers</source>
+            <target state="new">Number of hidden layers</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Number of nodes in each hidden layer</source>
+            <target state="new">Number of nodes in each hidden layer</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Connections between the layers</source>
+            <target state="new">Connections between the layers</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Choice of activation functions</source>
+            <target state="new">Choice of activation functions</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Weights on the graph edges</source>
+            <target state="new">Weights on the graph edges</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>You can change the architecture of neural network models that you create by using the Net# language: </source>
+            <target state="new">You can change the architecture of neural network models that you create by using the Net# language: </target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>Creating hidden layers and controlling the number of nodes in each layer.</source>
+            <target state="new">Creating hidden layers and controlling the number of nodes in each layer.</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>Specifying how layers are to be connected to each other.</source>
+            <target state="new">Specifying how layers are to be connected to each other.</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Defining special connectivity structures, such as convolutions and weight sharing bundles.</source>
+            <target state="new">Defining special connectivity structures, such as convolutions and weight sharing bundles.</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Specifying different activation functions.</source>
+            <target state="new">Specifying different activation functions.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>The Net# reference guide explains the syntax and provides sample network definitions.</source>
+            <target state="new">The Net# reference guide explains the syntax and provides sample network definitions.</target>
+          </trans-unit>
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>It explains how you can use Net# to add hidden layers and define the way that the layers interact with each other.</source>
+            <target state="new">It explains how you can use Net# to add hidden layers and define the way that the layers interact with each other.</target>
+          </trans-unit>
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>For more information, see:</source>
+            <target state="new">For more information, see:</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Guide to the Net# Neural Networks Specification Language</source>
+            <target state="new">Guide to the Net# Neural Networks Specification Language</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>Examples</source>
+            <target state="new">Examples</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>For examples of how this algorithm is used in experiments, see these samples in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Model Gallery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://gallery.azureml.net/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>:</source>
+            <target state="new">For examples of how this algorithm is used in experiments, see these samples in the <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Model Gallery<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://gallery.azureml.net/&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept>:</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Compare Multiple Regressors<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525731&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> sample demonstrates the use of several regression algorithms and compares their results.</source>
+            <target state="new">The <bpt id="1">&lt;externalLink&gt;</bpt><bpt id="2">&lt;linkText&gt;</bpt>Compare Multiple Regressors<ept id="2">&lt;/linkText&gt;</ept><ph id="3">&lt;linkUri&gt;http://go.microsoft.com/fwlink/?LinkId=525731&lt;/linkUri&gt;</ph><ept id="1">&lt;/externalLink&gt;</ept> sample demonstrates the use of several regression algorithms and compares their results.</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Technical Notes</source>
+            <target state="new">Technical Notes</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>A neural network can be thought of as a weighted directed acyclic graph.</source>
+            <target state="new">A neural network can be thought of as a weighted directed acyclic graph.</target>
+          </trans-unit>
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>The nodes of the graph are arranged in layers and are connected by weighted edges to nodes in the next layer.</source>
+            <target state="new">The nodes of the graph are arranged in layers and are connected by weighted edges to nodes in the next layer.</target>
+          </trans-unit>
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>The first layer is called the input layer.</source>
+            <target state="new">The first layer is called the input layer.</target>
+          </trans-unit>
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>The last layer is called the output layer.</source>
+            <target state="new">The last layer is called the output layer.</target>
+          </trans-unit>
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>In the case of a regression model, the output layer contains a single node.</source>
+            <target state="new">In the case of a regression model, the output layer contains a single node.</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>The remaining layers are called hidden layers.</source>
+            <target state="new">The remaining layers are called hidden layers.</target>
+          </trans-unit>
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>To compute the output of the network on a given input example, a value is calculated for each node in the hidden layers and in the output layer.</source>
+            <target state="new">To compute the output of the network on a given input example, a value is calculated for each node in the hidden layers and in the output layer.</target>
+          </trans-unit>
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>For each node, the value is set by calculating the weighted sum of the values of the nodes in the previous layer and applying an activation function to that weighted sum.</source>
+            <target state="new">For each node, the value is set by calculating the weighted sum of the values of the nodes in the previous layer and applying an activation function to that weighted sum.</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>A neural network model is defined by the structure of its graph, which includes these attributes:</source>
+            <target state="new">A neural network model is defined by the structure of its graph, which includes these attributes:</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Number of hidden layers</source>
+            <target state="new">Number of hidden layers</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>Number of nodes in each hidden layer</source>
+            <target state="new">Number of nodes in each hidden layer</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Connections between the layers</source>
+            <target state="new">Connections between the layers</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>Choice of activation functions</source>
+            <target state="new">Choice of activation functions</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>Weights on the graph edges</source>
+            <target state="new">Weights on the graph edges</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>The structure of the graph and the activation function are determined by the user.</source>
+            <target state="new">The structure of the graph and the activation function are determined by the user.</target>
+          </trans-unit>
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>The weights on the edges are learned when training the neural network on the input data.</source>
+            <target state="new">The weights on the edges are learned when training the neural network on the input data.</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>Module Parameters</source>
+            <target state="new">Module Parameters</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>Range</source>
+            <target state="new">Range</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>Default</source>
+            <target state="new">Default</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>Hidden layer specification</source>
+            <target state="new">Hidden layer specification</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source>List</source>
+            <target state="new">List</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>Neural Network Topology</source>
+            <target state="new">Neural Network Topology</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>Fully-connected case</source>
+            <target state="new">Fully-connected case</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>Specify the architecture of the hidden layer or layers</source>
+            <target state="new">Specify the architecture of the hidden layer or layers</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>The initial learning weights diameter</source>
+            <target state="new">The initial learning weights diameter</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>&gt;=double.Epsilon</source>
+            <target state="new">&gt;=double.Epsilon</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>Float</source>
+            <target state="new">Float</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>0.1</source>
+            <target state="new">0.1</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>Specify the node weights at the start of the learning process</source>
+            <target state="new">Specify the node weights at the start of the learning process</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>Learning rate</source>
+            <target state="new">Learning rate</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>[double.Epsilon;0.01]</source>
+            <target state="new">[double.Epsilon;0.01]</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>Float</source>
+            <target state="new">Float</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>0.005</source>
+            <target state="new">0.005</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>Specify the size of each step in the learning process</source>
+            <target state="new">Specify the size of each step in the learning process</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>The momentum</source>
+            <target state="new">The momentum</target>
+          </trans-unit>
+        </group>
+        <group id="123">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>[0.0;1.0]</source>
+            <target state="new">[0.0;1.0]</target>
+          </trans-unit>
+        </group>
+        <group id="124">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>Float</source>
+            <target state="new">Float</target>
+          </trans-unit>
+        </group>
+        <group id="125">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>0.0</source>
+            <target state="new">0.0</target>
+          </trans-unit>
+        </group>
+        <group id="126">
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>Specify a weight to apply during learning to nodes from previous iterations</source>
+            <target state="new">Specify a weight to apply during learning to nodes from previous iterations</target>
+          </trans-unit>
+        </group>
+        <group id="127">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>Neural network definition</source>
+            <target state="new">Neural network definition</target>
+          </trans-unit>
+        </group>
+        <group id="128">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>Any</source>
+            <target state="new">Any</target>
+          </trans-unit>
+        </group>
+        <group id="129">
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>StreamReader</source>
+            <target state="new">StreamReader</target>
+          </trans-unit>
+        </group>
+        <group id="130">
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>When you select "Custom definition script", type a valid script expression on each line to define the layers, nodes, and behavior of a custom neural network</source>
+            <target state="new">When you select "Custom definition script", type a valid script expression on each line to define the layers, nodes, and behavior of a custom neural network</target>
+          </trans-unit>
+        </group>
+        <group id="131">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>The type of normalizer</source>
+            <target state="new">The type of normalizer</target>
+          </trans-unit>
+        </group>
+        <group id="132">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>List</source>
+            <target state="new">List</target>
+          </trans-unit>
+        </group>
+        <group id="133">
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>Normalization Method</source>
+            <target state="new">Normalization Method</target>
+          </trans-unit>
+        </group>
+        <group id="134">
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>Min-Max normalizer</source>
+            <target state="new">Min-Max normalizer</target>
+          </trans-unit>
+        </group>
+        <group id="135">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>Select the type of normalization to apply to learning examples</source>
+            <target state="new">Select the type of normalization to apply to learning examples</target>
+          </trans-unit>
+        </group>
+        <group id="136">
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>Number of hidden nodes</source>
+            <target state="new">Number of hidden nodes</target>
+          </trans-unit>
+        </group>
+        <group id="137">
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>Any</source>
+            <target state="new">Any</target>
+          </trans-unit>
+        </group>
+        <group id="138">
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="139">
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>100</source>
+            <target state="new">100</target>
+          </trans-unit>
+        </group>
+        <group id="140">
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>Type the number of nodes in the hidden layer.</source>
+            <target state="new">Type the number of nodes in the hidden layer.</target>
+          </trans-unit>
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>For multiple hidden layers, type a comma-separated list.</source>
+            <target state="new">For multiple hidden layers, type a comma-separated list.</target>
+          </trans-unit>
+        </group>
+        <group id="141">
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>Number of learning iterations</source>
+            <target state="new">Number of learning iterations</target>
+          </trans-unit>
+        </group>
+        <group id="142">
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>&gt;=1</source>
+            <target state="new">&gt;=1</target>
+          </trans-unit>
+        </group>
+        <group id="143">
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="144">
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>100</source>
+            <target state="new">100</target>
+          </trans-unit>
+        </group>
+        <group id="145">
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>Specify the number of iterations while learning</source>
+            <target state="new">Specify the number of iterations while learning</target>
+          </trans-unit>
+        </group>
+        <group id="146">
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>Shuffle examples</source>
+            <target state="new">Shuffle examples</target>
+          </trans-unit>
+        </group>
+        <group id="147">
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source>Any</source>
+            <target state="new">Any</target>
+          </trans-unit>
+        </group>
+        <group id="148">
+          <trans-unit id="171" translate="yes" xml:space="preserve">
+            <source>Boolean</source>
+            <target state="new">Boolean</target>
+          </trans-unit>
+        </group>
+        <group id="149">
+          <trans-unit id="172" translate="yes" xml:space="preserve">
+            <source>true</source>
+            <target state="new">true</target>
+          </trans-unit>
+        </group>
+        <group id="150">
+          <trans-unit id="173" translate="yes" xml:space="preserve">
+            <source>Select this option to change the order of instances between learning iterations</source>
+            <target state="new">Select this option to change the order of instances between learning iterations</target>
+          </trans-unit>
+        </group>
+        <group id="151">
+          <trans-unit id="174" translate="yes" xml:space="preserve">
+            <source>Random number seed</source>
+            <target state="new">Random number seed</target>
+          </trans-unit>
+        </group>
+        <group id="152">
+          <trans-unit id="175" translate="yes" xml:space="preserve">
+            <source>Any</source>
+            <target state="new">Any</target>
+          </trans-unit>
+        </group>
+        <group id="153">
+          <trans-unit id="176" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="154">
+          <trans-unit id="177" translate="yes" xml:space="preserve">
+            <source>Specify a numeric seed to use for random number generation.</source>
+            <target state="new">Specify a numeric seed to use for random number generation.</target>
+          </trans-unit>
+          <trans-unit id="178" translate="yes" xml:space="preserve">
+            <source>Leave blank to use the default seed.</source>
+            <target state="new">Leave blank to use the default seed.</target>
+          </trans-unit>
+        </group>
+        <group id="155">
+          <trans-unit id="179" translate="yes" xml:space="preserve">
+            <source>This parameter is optional</source>
+            <target state="new">This parameter is optional</target>
+          </trans-unit>
+        </group>
+        <group id="156">
+          <trans-unit id="180" translate="yes" xml:space="preserve">
+            <source>Allow unknown categorical levels</source>
+            <target state="new">Allow unknown categorical levels</target>
+          </trans-unit>
+        </group>
+        <group id="157">
+          <trans-unit id="181" translate="yes" xml:space="preserve">
+            <source>Any</source>
+            <target state="new">Any</target>
+          </trans-unit>
+        </group>
+        <group id="158">
+          <trans-unit id="182" translate="yes" xml:space="preserve">
+            <source>Boolean</source>
+            <target state="new">Boolean</target>
+          </trans-unit>
+        </group>
+        <group id="159">
+          <trans-unit id="183" translate="yes" xml:space="preserve">
+            <source>true</source>
+            <target state="new">true</target>
+          </trans-unit>
+        </group>
+        <group id="160">
+          <trans-unit id="184" translate="yes" xml:space="preserve">
+            <source>Indicate whether an additional level should be created for unknown categories.</source>
+            <target state="new">Indicate whether an additional level should be created for unknown categories.</target>
+          </trans-unit>
+          <trans-unit id="185" translate="yes" xml:space="preserve">
+            <source>If the test dataset contains categories not present in the training dataset they are mapped to this unknown level.</source>
+            <target state="new">If the test dataset contains categories not present in the training dataset they are mapped to this unknown level.</target>
+          </trans-unit>
+        </group>
+        <group id="161">
+          <trans-unit id="186" translate="yes" xml:space="preserve">
+            <source>Outputs</source>
+            <target state="new">Outputs</target>
+          </trans-unit>
+        </group>
+        <group id="162">
+          <trans-unit id="187" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="163">
+          <trans-unit id="188" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="164">
+          <trans-unit id="189" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="165">
+          <trans-unit id="190" translate="yes" xml:space="preserve">
+            <source>Untrained model</source>
+            <target state="new">Untrained model</target>
+          </trans-unit>
+        </group>
+        <group id="166">
+          <trans-unit id="191" translate="yes" xml:space="preserve">
+            <source>An untrained regression model</source>
+            <target state="new">An untrained regression model</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

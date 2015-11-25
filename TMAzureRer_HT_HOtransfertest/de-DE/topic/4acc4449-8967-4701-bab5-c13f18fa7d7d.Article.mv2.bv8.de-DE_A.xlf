@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANytsJwzAMBdBVPIAFlq3EVr9b6ABd4PohCKQJpClk/PZ8H7M0qsRGY4iQsAWqoVRqgTGrGgPqnVpCxMSEkDpJmYUQGaSaICP0VqfunaA1EVEqOmeSHJgq6kSNk3Ex5J7/i73rg+4P7651MRvXeTv2/fQuele8e37f2F4Hts+Kc9m3H7JV41WhAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Examples of Shared Access Signatures</source>
+            <target state="new">Examples of Shared Access Signatures</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This topic shows sample uses of shared access signatures with the REST API.</source>
+            <target state="new">This topic shows sample uses of shared access signatures with the REST API.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Shared access signatures permit you to provide access rights to containers and blobs, tables, queues, or files.</source>
+            <target state="new">Shared access signatures permit you to provide access rights to containers and blobs, tables, queues, or files.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>By providing a shared access signature, you can grant users restricted access to a specific container, blob, queue, table, or table entity range for a specified period of time.</source>
+            <target state="new">By providing a shared access signature, you can grant users restricted access to a specific container, blob, queue, table, or table entity range for a specified period of time.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>For complete details on constructing, parsing, and using shared access signatures, see <ph id="1">&lt;link xlink:href="98f3411e-d85d-4be9-809e-135b3d4ed436" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Delegating Access with a Shared Access Signature (REST API)&lt;/link&gt;</ph>.</source>
+            <target state="new">For complete details on constructing, parsing, and using shared access signatures, see <ph id="1">&lt;link xlink:href="98f3411e-d85d-4be9-809e-135b3d4ed436" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Delegating Access with a Shared Access Signature (REST API)&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>For information about using the .NET storage client library to create shared access signatures, see <bpt id="1">&lt;legacyLink xlink:href="b41f98e9-14ab-499a-9fd2-fb9202c9ccd2" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Create and Use a Shared Access Signature<ept id="1">&lt;/legacyLink&gt;</ept>.</source>
+            <target state="new">For information about using the .NET storage client library to create shared access signatures, see <bpt id="1">&lt;legacyLink xlink:href="b41f98e9-14ab-499a-9fd2-fb9202c9ccd2" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Create and Use a Shared Access Signature<ept id="1">&lt;/legacyLink&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Blob Examples</source>
+            <target state="new">Blob Examples</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>This section contains examples that demonstrate shared access signatures for REST operations on blobs.</source>
+            <target state="new">This section contains examples that demonstrate shared access signatures for REST operations on blobs.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Example: Get a Blob using a Container’s Shared Access Signature</source>
+            <target state="new">Example: Get a Blob using a Container’s Shared Access Signature</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Versions Prior to 2013-08-15</source>
+            <target state="new">Versions Prior to 2013-08-15</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The following example shows how to construct a shared access signature for read access on a container.</source>
+            <target state="new">The following example shows how to construct a shared access signature for read access on a container.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The signed signature fields that will comprise the URL include:</source>
+            <target state="new">The signed signature fields that will comprise the URL include:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The signature is constructed as follows: </source>
+            <target state="new">The signature is constructed as follows: </target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The request URL specifies read permissions on the <bpt id="1">&lt;userInput&gt;</bpt>pictures<ept id="1">&lt;/userInput&gt;</ept> container for the designated interval.</source>
+            <target state="new">The request URL specifies read permissions on the <bpt id="1">&lt;userInput&gt;</bpt>pictures<ept id="1">&lt;/userInput&gt;</ept> container for the designated interval.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Note that the resource represented by the request URL is a blob, but the shared access signature is specified on the container.</source>
+            <target state="new">Note that the resource represented by the request URL is a blob, but the shared access signature is specified on the container.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>It's also possible to specify it on the blob itself.</source>
+            <target state="new">It's also possible to specify it on the blob itself.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Version 2013-08-15 and Later</source>
+            <target state="new">Version 2013-08-15 and Later</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The following example shows how to construct a shared access signature for read access on a container using version 2013-08-15 of the storage services.</source>
+            <target state="new">The following example shows how to construct a shared access signature for read access on a container using version 2013-08-15 of the storage services.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Version 2013-08-15 introduces new query parameters that enable the client issuing the request to override response headers for this shared access signature only.</source>
+            <target state="new">Version 2013-08-15 introduces new query parameters that enable the client issuing the request to override response headers for this shared access signature only.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>The response headers and corresponding query parameters are as follows:</source>
+            <target state="new">The response headers and corresponding query parameters are as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Response header name</source>
+            <target state="new">Response header name</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Corresponding SAS query parameter</source>
+            <target state="new">Corresponding SAS query parameter</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>The fields that comprise the string-to-sign for the signature include:</source>
+            <target state="new">The fields that comprise the string-to-sign for the signature include:</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>The string-to-sign is constructed as follows:</source>
+            <target state="new">The string-to-sign is constructed as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>The shared access signature specifies read permissions on the <bpt id="1">&lt;ui&gt;</bpt>pictures<ept id="1">&lt;/ui&gt;</ept> container for the designated interval.</source>
+            <target state="new">The shared access signature specifies read permissions on the <bpt id="1">&lt;ui&gt;</bpt>pictures<ept id="1">&lt;/ui&gt;</ept> container for the designated interval.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Note that the resource represented by the request URL is a blob, but the shared access signature is specified on the container.</source>
+            <target state="new">Note that the resource represented by the request URL is a blob, but the shared access signature is specified on the container.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>It's also possible to specify it on the blob itself.</source>
+            <target state="new">It's also possible to specify it on the blob itself.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>For a client making a request with this signatures, the <ph id="1">&lt;link xlink:href="a3e943b4-5745-4e64-9d6f-728bbefbd5ee" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob (REST API)&lt;/link&gt;</ph> operation will be executed if the following criteria are met:</source>
+            <target state="new">For a client making a request with this signatures, the <ph id="1">&lt;link xlink:href="a3e943b4-5745-4e64-9d6f-728bbefbd5ee" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Blob (REST API)&lt;/link&gt;</ph> operation will be executed if the following criteria are met:</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>The signature in the request successfully authenticates against the storage account.</source>
+            <target state="new">The signature in the request successfully authenticates against the storage account.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>The request is made within the time frame specified by the shared access signature.</source>
+            <target state="new">The request is made within the time frame specified by the shared access signature.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>The request does not violate any term of an associated stored access policy.</source>
+            <target state="new">The request does not violate any term of an associated stored access policy.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>The blob specified by the request (<bpt id="1">&lt;ui&gt;</bpt>/myaccount/pictures/profile.jpg<ept id="1">&lt;/ui&gt;</ept>) resides within the container specified as the signed resource (<bpt id="2">&lt;ui&gt;</bpt>/myaccount/pictures<ept id="2">&lt;/ui&gt;</ept>).</source>
+            <target state="new">The blob specified by the request (<bpt id="1">&lt;ui&gt;</bpt>/myaccount/pictures/profile.jpg<ept id="1">&lt;/ui&gt;</ept>) resides within the container specified as the signed resource (<bpt id="2">&lt;ui&gt;</bpt>/myaccount/pictures<ept id="2">&lt;/ui&gt;</ept>).</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Note that specifying <ph id="1">&lt;codeInline&gt;rsct=binary&lt;/codeInline&gt;</ph> and <ph id="2">&lt;codeInline&gt;rscd=file; attachment&lt;/codeInline&gt;</ph> on the shared access signature overrides the content-type and content-disposition headers in the response, respectively.</source>
+            <target state="new">Note that specifying <ph id="1">&lt;codeInline&gt;rsct=binary&lt;/codeInline&gt;</ph> and <ph id="2">&lt;codeInline&gt;rscd=file; attachment&lt;/codeInline&gt;</ph> on the shared access signature overrides the content-type and content-disposition headers in the response, respectively.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>A successful response for a request made using this shared access signature will be similar to the following:</source>
+            <target state="new">A successful response for a request made using this shared access signature will be similar to the following:</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Example: Upload a Blob using a Container’s Shared Access Signature</source>
+            <target state="new">Example: Upload a Blob using a Container’s Shared Access Signature</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>The following example shows how to construct a shared access signature for writing a blob.</source>
+            <target state="new">The following example shows how to construct a shared access signature for writing a blob.</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>In this example, we construct a signature that grants write permissions for all blobs in the container.</source>
+            <target state="new">In this example, we construct a signature that grants write permissions for all blobs in the container.</target>
+          </trans-unit>
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Then we use the shared access signature to write to a blob in the container.</source>
+            <target state="new">Then we use the shared access signature to write to a blob in the container.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>The signed signature fields that will comprise the URL include:</source>
+            <target state="new">The signed signature fields that will comprise the URL include:</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>The signature is constructed as follows: </source>
+            <target state="new">The signature is constructed as follows: </target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>The request URL specifies write permissions on the <bpt id="1">&lt;userInput&gt;</bpt>pictures<ept id="1">&lt;/userInput&gt;</ept> container for the designated interval.</source>
+            <target state="new">The request URL specifies write permissions on the <bpt id="1">&lt;userInput&gt;</bpt>pictures<ept id="1">&lt;/userInput&gt;</ept> container for the designated interval.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Note that the resource represented by the request URL is a blob, but the shared access signature is specified on the container.</source>
+            <target state="new">Note that the resource represented by the request URL is a blob, but the shared access signature is specified on the container.</target>
+          </trans-unit>
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>It's also possible to specify it on the blob itself.</source>
+            <target state="new">It's also possible to specify it on the blob itself.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>With this signature, <ph id="1">&lt;link xlink:href="b213c30f-8d30-4718-ba77-2030f3009719" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Blob&lt;/link&gt;</ph> will be called if the following criteria are met:</source>
+            <target state="new">With this signature, <ph id="1">&lt;link xlink:href="b213c30f-8d30-4718-ba77-2030f3009719" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Put Blob&lt;/link&gt;</ph> will be called if the following criteria are met:</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>The signature in the request successfully authenticates against the storage account.</source>
+            <target state="new">The signature in the request successfully authenticates against the storage account.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>The request is made within the time frame specified by the shared access signature.</source>
+            <target state="new">The request is made within the time frame specified by the shared access signature.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>The request does not violate any term of an associated stored access policy.</source>
+            <target state="new">The request does not violate any term of an associated stored access policy.</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>The blob specified by the request (/myaccount/pictures/photo.jpg) is in the container specified as the signed resource (/myaccount/pictures).</source>
+            <target state="new">The blob specified by the request (/myaccount/pictures/photo.jpg) is in the container specified as the signed resource (/myaccount/pictures).</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Example: Delete Blob using a Blob’s Shared Access Signature</source>
+            <target state="new">Example: Delete Blob using a Blob’s Shared Access Signature</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>The following example shows how to construct a shared access signature that grants delete permissions for a blob, and deletes a blob.</source>
+            <target state="new">The following example shows how to construct a shared access signature that grants delete permissions for a blob, and deletes a blob.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Note that a shared access signature for a DELETE operation should be distributed judiciously, as permitting a client to delete data may have unintended consequences.</source>
+            <target state="new">Note that a shared access signature for a DELETE operation should be distributed judiciously, as permitting a client to delete data may have unintended consequences.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>The signed signature fields that will comprise the URL include:</source>
+            <target state="new">The signed signature fields that will comprise the URL include:</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>The signature is constructed as follows:</source>
+            <target state="new">The signature is constructed as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>The request URL specifies delete permissions on the pictures container for the designated interval.</source>
+            <target state="new">The request URL specifies delete permissions on the pictures container for the designated interval.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Note that the resource represented by the request URL is a blob, and the shared access signature is specified on that blob.</source>
+            <target state="new">Note that the resource represented by the request URL is a blob, and the shared access signature is specified on that blob.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>It's also possible to specify it on the blob’s container to grant permission to delete any blob in the container.</source>
+            <target state="new">It's also possible to specify it on the blob’s container to grant permission to delete any blob in the container.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>With this signature, <ph id="1">&lt;link xlink:href="7f64072c-fcc6-4e7d-8653-5017dc8da7be" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Delete Blob&lt;/link&gt;</ph> will be called if the following criteria are met:</source>
+            <target state="new">With this signature, <ph id="1">&lt;link xlink:href="7f64072c-fcc6-4e7d-8653-5017dc8da7be" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Delete Blob&lt;/link&gt;</ph> will be called if the following criteria are met:</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>The signature in the request successfully authenticates against the storage account.</source>
+            <target state="new">The signature in the request successfully authenticates against the storage account.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>The request is made within the time frame specified by the shared access signature.</source>
+            <target state="new">The request is made within the time frame specified by the shared access signature.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>The request does not violate any term of an associated stored access policy.</source>
+            <target state="new">The request does not violate any term of an associated stored access policy.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>The blob specified by the request (/myaccount/pictures/profile.jpg) matches the blob specified as the signed resource.</source>
+            <target state="new">The blob specified by the request (/myaccount/pictures/profile.jpg) matches the blob specified as the signed resource.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>File Examples</source>
+            <target state="new">File Examples</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>This section contains examples that demonstrate shared access signatures for REST operations on files.</source>
+            <target state="new">This section contains examples that demonstrate shared access signatures for REST operations on files.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>Example: Get a File using a Share’s Shared Access Signature</source>
+            <target state="new">Example: Get a File using a Share’s Shared Access Signature</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>The following example shows how to construct a shared access signature for read access on a share.</source>
+            <target state="new">The following example shows how to construct a shared access signature for read access on a share.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Few query parameters can enable the client issuing the request to override response headers for this shared access signature.</source>
+            <target state="new">Few query parameters can enable the client issuing the request to override response headers for this shared access signature.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>The response headers and corresponding query parameters are as follows:</source>
+            <target state="new">The response headers and corresponding query parameters are as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Response header name</source>
+            <target state="new">Response header name</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Corresponding SAS query parameter</source>
+            <target state="new">Corresponding SAS query parameter</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>rscc</source>
+            <target state="new">rscc</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>rscd</source>
+            <target state="new">rscd</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>rsce</source>
+            <target state="new">rsce</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>rscl</source>
+            <target state="new">rscl</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>rsct</source>
+            <target state="new">rsct</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>The fields that comprise the string-to-sign for the signature include:</source>
+            <target state="new">The fields that comprise the string-to-sign for the signature include:</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>The string-to-sign is constructed as follows:</source>
+            <target state="new">The string-to-sign is constructed as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>The shared access signature specifies read permissions on the <bpt id="1">&lt;userInput&gt;</bpt>pictures<ept id="1">&lt;/userInput&gt;</ept> share for the designated interval.</source>
+            <target state="new">The shared access signature specifies read permissions on the <bpt id="1">&lt;userInput&gt;</bpt>pictures<ept id="1">&lt;/userInput&gt;</ept> share for the designated interval.</target>
+          </trans-unit>
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Note that the resource represented by the request URL is a file, but the shared access signature is specified on the share.</source>
+            <target state="new">Note that the resource represented by the request URL is a file, but the shared access signature is specified on the share.</target>
+          </trans-unit>
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>It's also possible to specify it on the file itself.</source>
+            <target state="new">It's also possible to specify it on the file itself.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>For a client making a request with this signature, the <ph id="1">&lt;link xlink:href="317b7eb6-7791-4007-9175-846b456f897c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get File&lt;/link&gt;</ph> operation will be executed if the following criteria are met:</source>
+            <target state="new">For a client making a request with this signature, the <ph id="1">&lt;link xlink:href="317b7eb6-7791-4007-9175-846b456f897c" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get File&lt;/link&gt;</ph> operation will be executed if the following criteria are met:</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>The signature in the request successfully authenticates against the storage account.</source>
+            <target state="new">The signature in the request successfully authenticates against the storage account.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>The request is made within the time frame specified by the shared access signature.</source>
+            <target state="new">The request is made within the time frame specified by the shared access signature.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>The request does not violate any term of an associated stored access policy.</source>
+            <target state="new">The request does not violate any term of an associated stored access policy.</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>The file specified by the request <bpt id="1">&lt;legacyBold&gt;</bpt>(/myaccount/pictures/profile.jpg<ept id="1">&lt;/legacyBold&gt;</ept>) resides within the share specified as the signed resource <bpt id="2">&lt;legacyBold&gt;</bpt>(/myaccount/pictures<ept id="2">&lt;/legacyBold&gt;</ept>).</source>
+            <target state="new">The file specified by the request <bpt id="1">&lt;legacyBold&gt;</bpt>(/myaccount/pictures/profile.jpg<ept id="1">&lt;/legacyBold&gt;</ept>) resides within the share specified as the signed resource <bpt id="2">&lt;legacyBold&gt;</bpt>(/myaccount/pictures<ept id="2">&lt;/legacyBold&gt;</ept>).</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Note that specifying <ph id="1">&lt;codeInline&gt;rsct=binary&lt;/codeInline&gt;</ph> and <ph id="2">&lt;codeInline&gt;rscd=file; attachment&lt;/codeInline&gt;</ph> on the shared access signature overrides the <ph id="3">&lt;parameterReference&gt;content-type&lt;/parameterReference&gt;</ph> and <ph id="4">&lt;parameterReference&gt;content-disposition&lt;/parameterReference&gt;</ph> headers in the response, respectively.</source>
+            <target state="new">Note that specifying <ph id="1">&lt;codeInline&gt;rsct=binary&lt;/codeInline&gt;</ph> and <ph id="2">&lt;codeInline&gt;rscd=file; attachment&lt;/codeInline&gt;</ph> on the shared access signature overrides the <ph id="3">&lt;parameterReference&gt;content-type&lt;/parameterReference&gt;</ph> and <ph id="4">&lt;parameterReference&gt;content-disposition&lt;/parameterReference&gt;</ph> headers in the response, respectively.</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>A successful response for a request made using this shared access signature will be similar to the following:</source>
+            <target state="new">A successful response for a request made using this shared access signature will be similar to the following:</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Example: Upload a File using a Shared Access Signature on a Share</source>
+            <target state="new">Example: Upload a File using a Shared Access Signature on a Share</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>The following example shows how to construct a shared access signature for writing a file.</source>
+            <target state="new">The following example shows how to construct a shared access signature for writing a file.</target>
+          </trans-unit>
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>In this example, we construct a signature that grants write permissions for all files in the share.</source>
+            <target state="new">In this example, we construct a signature that grants write permissions for all files in the share.</target>
+          </trans-unit>
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Then we use the shared access signature to write to a file in the share.</source>
+            <target state="new">Then we use the shared access signature to write to a file in the share.</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>The signed signature fields that will comprise the URL include:</source>
+            <target state="new">The signed signature fields that will comprise the URL include:</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>The signature is constructed as follows:</source>
+            <target state="new">The signature is constructed as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>The request URL specifies write permissions on the <bpt id="1">&lt;userInput&gt;</bpt>pictures<ept id="1">&lt;/userInput&gt;</ept> container for the designated interval.</source>
+            <target state="new">The request URL specifies write permissions on the <bpt id="1">&lt;userInput&gt;</bpt>pictures<ept id="1">&lt;/userInput&gt;</ept> container for the designated interval.</target>
+          </trans-unit>
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Note that the resource represented by the request URL is a blob, but the shared access signature is specified on the container.</source>
+            <target state="new">Note that the resource represented by the request URL is a blob, but the shared access signature is specified on the container.</target>
+          </trans-unit>
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>It's also possible to specify it on the blob itself.</source>
+            <target state="new">It's also possible to specify it on the blob itself.</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>With this signature, <ph id="1">&lt;link xlink:href="a1392c9a-c9d1-47bf-881e-ab007e0169a4" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Upload File&lt;/link&gt;</ph> will be called if the following criteria are met:</source>
+            <target state="new">With this signature, <ph id="1">&lt;link xlink:href="a1392c9a-c9d1-47bf-881e-ab007e0169a4" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Upload File&lt;/link&gt;</ph> will be called if the following criteria are met:</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>The signature in the request successfully authenticates against the storage account.</source>
+            <target state="new">The signature in the request successfully authenticates against the storage account.</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>The request is made within the time frame specified by the shared access signature.</source>
+            <target state="new">The request is made within the time frame specified by the shared access signature.</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>The request does not violate any term of an associated stored access policy.</source>
+            <target state="new">The request does not violate any term of an associated stored access policy.</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>The file specified by the request (/myaccount/pictures/photo.jpg) is in the share specified as the signed resource (/myaccount/pictures).</source>
+            <target state="new">The file specified by the request (/myaccount/pictures/photo.jpg) is in the share specified as the signed resource (/myaccount/pictures).</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>Example: Delete File using a File’s Shared Access Signature</source>
+            <target state="new">Example: Delete File using a File’s Shared Access Signature</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>The following example shows how to construct a shared access signature that grants delete permissions for a file, then uses the shared access signature to delete the file.</source>
+            <target state="new">The following example shows how to construct a shared access signature that grants delete permissions for a file, then uses the shared access signature to delete the file.</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>A shared access signature for a DELETE operation should be distributed judiciously, as permitting a client to delete data may have unintended consequences.</source>
+            <target state="new">A shared access signature for a DELETE operation should be distributed judiciously, as permitting a client to delete data may have unintended consequences.</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>The signed signature fields that will comprise the URL include:</source>
+            <target state="new">The signed signature fields that will comprise the URL include:</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>The signature is constructed as follows:</source>
+            <target state="new">The signature is constructed as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>The request URL specifies delete permissions on the pictures share for the designated interval.</source>
+            <target state="new">The request URL specifies delete permissions on the pictures share for the designated interval.</target>
+          </trans-unit>
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>Note that the resource represented by the request URL is a file, and the shared access signature is specified on that file.</source>
+            <target state="new">Note that the resource represented by the request URL is a file, and the shared access signature is specified on that file.</target>
+          </trans-unit>
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>It's also possible to specify it on the file’s share to grant permission to delete any file in the share.</source>
+            <target state="new">It's also possible to specify it on the file’s share to grant permission to delete any file in the share.</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>With this signature, <ph id="1">&lt;link xlink:href="0f2d95d8-a90b-44bf-a85d-32b72eed9ab5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Delete File&lt;/link&gt;</ph> will be called if the following criteria are met:</source>
+            <target state="new">With this signature, <ph id="1">&lt;link xlink:href="0f2d95d8-a90b-44bf-a85d-32b72eed9ab5" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Delete File&lt;/link&gt;</ph> will be called if the following criteria are met:</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>The signature in the request successfully authenticates against the storage account.</source>
+            <target state="new">The signature in the request successfully authenticates against the storage account.</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>The request is made within the time frame specified by the shared access signature.</source>
+            <target state="new">The request is made within the time frame specified by the shared access signature.</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>The request does not violate any term of an associated stored access policy.</source>
+            <target state="new">The request does not violate any term of an associated stored access policy.</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>The file specified by the request (/myaccount/pictures/profile.jpg) matches the file specified as the signed resource.</source>
+            <target state="new">The file specified by the request (/myaccount/pictures/profile.jpg) matches the file specified as the signed resource.</target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>Queue Examples</source>
+            <target state="new">Queue Examples</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>This section contains examples that demonstrate shared access signatures for REST operations on queues.</source>
+            <target state="new">This section contains examples that demonstrate shared access signatures for REST operations on queues.</target>
+          </trans-unit>
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>In these examples, the Queue service operation only runs after the following criteria are met:</source>
+            <target state="new">In these examples, the Queue service operation only runs after the following criteria are met:</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>The signature in the request successfully authenticates against the storage account.</source>
+            <target state="new">The signature in the request successfully authenticates against the storage account.</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>The request is made within the time frame specified by the shared access signature.</source>
+            <target state="new">The request is made within the time frame specified by the shared access signature.</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>The request does not violate any term of an associated stored access policy.</source>
+            <target state="new">The request does not violate any term of an associated stored access policy.</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>The queue specified by the request is the same queue authorized by the shared access signature.</source>
+            <target state="new">The queue specified by the request is the same queue authorized by the shared access signature.</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>Example: Retrieve Messages using a Shared Access Signature</source>
+            <target state="new">Example: Retrieve Messages using a Shared Access Signature</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>The following example shows how to construct a shared access signature for retrieving messages from a queue.</source>
+            <target state="new">The following example shows how to construct a shared access signature for retrieving messages from a queue.</target>
+          </trans-unit>
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>This signature grants message processing permissions for the queue.</source>
+            <target state="new">This signature grants message processing permissions for the queue.</target>
+          </trans-unit>
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>Finally, this example uses the shared access signature to retrieve a message from the queue.</source>
+            <target state="new">Finally, this example uses the shared access signature to retrieve a message from the queue.</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>Examine the following signed signature fields, the construction of the StringToSign string, and the construction of the URL that calls the Get Messages operation after the shared access signature authenticates: </source>
+            <target state="new">Examine the following signed signature fields, the construction of the StringToSign string, and the construction of the URL that calls the Get Messages operation after the shared access signature authenticates: </target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>Example: Add a Message using a Shared Access Signature</source>
+            <target state="new">Example: Add a Message using a Shared Access Signature</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>The following example shows how to construct a shared access signature for adding a message to a queue.</source>
+            <target state="new">The following example shows how to construct a shared access signature for adding a message to a queue.</target>
+          </trans-unit>
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source>This signature grants add permissions for the queue.</source>
+            <target state="new">This signature grants add permissions for the queue.</target>
+          </trans-unit>
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>Finally, this example uses the signature to add a message.</source>
+            <target state="new">Finally, this example uses the signature to add a message.</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source> Examine the following signed signature fields, the construction of the StringToSign string, and the construction of the URL that calls the Put Message operation after the shared access signature authenticates: </source>
+            <target state="new"> Examine the following signed signature fields, the construction of the StringToSign string, and the construction of the URL that calls the Put Message operation after the shared access signature authenticates: </target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source>Example: Peek at Messages and Get a Message using a Shared Access Signature</source>
+            <target state="new">Example: Peek at Messages and Get a Message using a Shared Access Signature</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source>The following example shows how to construct a shared access signature for peeking at the next message in a queue and retrieving the message count of the queue.</source>
+            <target state="new">The following example shows how to construct a shared access signature for peeking at the next message in a queue and retrieving the message count of the queue.</target>
+          </trans-unit>
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source>This signature grants read permissions for the queue.</source>
+            <target state="new">This signature grants read permissions for the queue.</target>
+          </trans-unit>
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>Finally, this example uses the shared access signature to peek at a message and then read the queues metadata, which includes the message count.</source>
+            <target state="new">Finally, this example uses the shared access signature to peek at a message and then read the queues metadata, which includes the message count.</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source>Examine the following signed signature fields, the construction of the string-to-sign, and the construction of the URL that calls the <ph id="1">&lt;link xlink:href="d2d5151d-6bc1-4bd5-be13-d3eece4bdd57" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Peek Messages&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="456dfb2e-e21a-4de8-ba5d-fefac7bac040" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Queue Metadata&lt;/link&gt;</ph> operations:</source>
+            <target state="new">Examine the following signed signature fields, the construction of the string-to-sign, and the construction of the URL that calls the <ph id="1">&lt;link xlink:href="d2d5151d-6bc1-4bd5-be13-d3eece4bdd57" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Peek Messages&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="456dfb2e-e21a-4de8-ba5d-fefac7bac040" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Get Queue Metadata&lt;/link&gt;</ph> operations:</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>Table Examples</source>
+            <target state="new">Table Examples</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>This section contains examples that demonstrate shared access signatures for REST operations on tables.</source>
+            <target state="new">This section contains examples that demonstrate shared access signatures for REST operations on tables.</target>
+          </trans-unit>
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>In these examples, the Table service operation only runs after the following criteria are met:</source>
+            <target state="new">In these examples, the Table service operation only runs after the following criteria are met:</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>The signature in the request successfully authenticates against the storage account.</source>
+            <target state="new">The signature in the request successfully authenticates against the storage account.</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>The request is made within the time frame specified by the shared access signature.</source>
+            <target state="new">The request is made within the time frame specified by the shared access signature.</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>The request does not violate any term of an associated stored access policy.</source>
+            <target state="new">The request does not violate any term of an associated stored access policy.</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>The queue specified by the request is the same queue authorized by the shared access signature.</source>
+            <target state="new">The queue specified by the request is the same queue authorized by the shared access signature.</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source>Example: Query a Table using a Shared Access Signature</source>
+            <target state="new">Example: Query a Table using a Shared Access Signature</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>The following example shows how to construct a shared access signature for querying entities in a table.</source>
+            <target state="new">The following example shows how to construct a shared access signature for querying entities in a table.</target>
+          </trans-unit>
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>The signature grants query permissions for a specific range in the table.</source>
+            <target state="new">The signature grants query permissions for a specific range in the table.</target>
+          </trans-unit>
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>Finally, this example uses the shared access signature to query entities within the range.</source>
+            <target state="new">Finally, this example uses the shared access signature to query entities within the range.</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source>Examine the following signed signature fields, the construction of the StringToSign string, and the construction of the URL that calls the Query Entities operation.</source>
+            <target state="new">Examine the following signed signature fields, the construction of the StringToSign string, and the construction of the URL that calls the Query Entities operation.</target>
+          </trans-unit>
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>The results of this Query Entities operation will only include entities in the range defined by <ph id="1">&lt;languageKeyword&gt;startpk&lt;/languageKeyword&gt;</ph>, <ph id="2">&lt;languageKeyword&gt;startrk&lt;/languageKeyword&gt;</ph>, <ph id="3">&lt;languageKeyword&gt;endpk&lt;/languageKeyword&gt;</ph>, and <ph id="4">&lt;languageKeyword&gt;endrk&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">The results of this Query Entities operation will only include entities in the range defined by <ph id="1">&lt;languageKeyword&gt;startpk&lt;/languageKeyword&gt;</ph>, <ph id="2">&lt;languageKeyword&gt;startrk&lt;/languageKeyword&gt;</ph>, <ph id="3">&lt;languageKeyword&gt;endpk&lt;/languageKeyword&gt;</ph>, and <ph id="4">&lt;languageKeyword&gt;endrk&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>Example: Update a Table using a Shared Access Signature</source>
+            <target state="new">Example: Update a Table using a Shared Access Signature</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source>The following example shows how to construct a shared access signature for updating entities in a table.</source>
+            <target state="new">The following example shows how to construct a shared access signature for updating entities in a table.</target>
+          </trans-unit>
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>The signature grants update permissions for a specific range of entities.</source>
+            <target state="new">The signature grants update permissions for a specific range of entities.</target>
+          </trans-unit>
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>Finally, this example uses the shared access signature to update an entity in the range.</source>
+            <target state="new">Finally, this example uses the shared access signature to update an entity in the range.</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>Examine the following signed signature fields, the construction of the StringToSign string, and the construction of the URL that calls the Update Entity operation.</source>
+            <target state="new">Examine the following signed signature fields, the construction of the StringToSign string, and the construction of the URL that calls the Update Entity operation.</target>
+          </trans-unit>
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>The Update Entity operation can only update entities within the partition range defined by <ph id="1">&lt;languageKeyword&gt;startpk&lt;/languageKeyword&gt;</ph> and <ph id="2">&lt;languageKeyword&gt;endpk&lt;/languageKeyword&gt;</ph>.</source>
+            <target state="new">The Update Entity operation can only update entities within the partition range defined by <ph id="1">&lt;languageKeyword&gt;startpk&lt;/languageKeyword&gt;</ph> and <ph id="2">&lt;languageKeyword&gt;endpk&lt;/languageKeyword&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

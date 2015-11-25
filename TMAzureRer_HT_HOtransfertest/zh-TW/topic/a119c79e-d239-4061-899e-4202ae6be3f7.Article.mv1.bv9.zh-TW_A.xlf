@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-TW" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAdjcEJwzAMAFfxABZYthxHnaADBPqWHYkG0gTSFEKnr+nzuIMzS1opNlAlAkILUMNYoQWUgdlQhL2LmueW5wqpFuwVCYyFEliOKBwoh1i8E0RuhRXmmBgoDAgjd6QYouhQNVmv0LvvE6aHd9e6mOl13o59P/+ir+6fl2zTIdt7lXPZtx/fQGIpoQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Decrypt with a key</source>
+            <target state="new">Decrypt with a key</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Azure Key Vault</source>
+            <target state="new">Azure Key Vault</target>
+            <context-group>
+              <context context-type="x-metadataname">applies_to_product</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Decrypt with a key</source>
+            <target state="new">Decrypt with a key</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>The DECRYPT operation decrypts a well-formed block of ciphertext using the target encryption key and specified algorithm.</source>
+            <target state="new">The DECRYPT operation decrypts a well-formed block of ciphertext using the target encryption key and specified algorithm.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>This operation is the reverse of the ENCRYPT operation; only a single block of data may be decrypted, the size of this block is dependent on the target key and the algorithm to be used.</source>
+            <target state="new">This operation is the reverse of the ENCRYPT operation; only a single block of data may be decrypted, the size of this block is dependent on the target key and the algorithm to be used.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>The DECRYPT operation applies to asymmetric and symmetric keys stored in Azure Key Vault since it uses the private portion of the key.</source>
+            <target state="new">The DECRYPT operation applies to asymmetric and symmetric keys stored in Azure Key Vault since it uses the private portion of the key.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Authorization: Requires the keys/decrypt permission.</source>
+            <target state="new">Authorization: Requires the keys/decrypt permission.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Request</source>
+            <target state="new">Request</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Method</source>
+            <target state="new">Method</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Request URI</source>
+            <target state="new">Request URI</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>POST</source>
+            <target state="new">POST</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Provide the name of the key to decrypt using {key-name} in the request URL.</source>
+            <target state="new">Provide the name of the key to decrypt using {key-name} in the request URL.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Adding the <ph id="1">&lt;codeInline&gt;key-version&lt;/codeInline&gt;</ph> parameter, <ph id="2">&lt;codeInline&gt;…/keys/{key-name}/{key-version}… &lt;/codeInline&gt;</ph>, decrypts using a specific version of a key.</source>
+            <target state="new">Adding the <ph id="1">&lt;codeInline&gt;key-version&lt;/codeInline&gt;</ph> parameter, <ph id="2">&lt;codeInline&gt;…/keys/{key-name}/{key-version}… &lt;/codeInline&gt;</ph>, decrypts using a specific version of a key.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The request body for the DECRYPT operation is the same as the response body for the ENCRYPT operation.</source>
+            <target state="new">The request body for the DECRYPT operation is the same as the response body for the ENCRYPT operation.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Element Name</source>
+            <target state="new">Element Name</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Required</source>
+            <target state="new">Required</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>alg</source>
+            <target state="new">alg</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>no</source>
+            <target state="new">no</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>The alg parameter is the encryption algorithm that was used.</source>
+            <target state="new">The alg parameter is the encryption algorithm that was used.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>value</source>
+            <target state="new">value</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>yes</source>
+            <target state="new">yes</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>String</source>
+            <target state="new">String</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>The value data contains Base64URL encoded octets of encrypted data.</source>
+            <target state="new">The value data contains Base64URL encoded octets of encrypted data.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>The length and internal format must be supported by the specified algorithm and Azure Key Vault hosted key.</source>
+            <target state="new">The length and internal format must be supported by the specified algorithm and Azure Key Vault hosted key.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Response</source>
+            <target state="new">Response</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Element Name</source>
+            <target state="new">Element Name</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>kid</source>
+            <target state="new">kid</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>The kid is the full identifier for the key that was used.</source>
+            <target state="new">The kid is the full identifier for the key that was used.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>value</source>
+            <target state="new">value</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>The value parameter contains the sequence of bytes that was previously encrypted, encoded as Base64URL.</source>
+            <target state="new">The value parameter contains the sequence of bytes that was previously encrypted, encoded as Base64URL.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ja-JP" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAAFwcsJwzAMANBVNIAEkq3EdicoPfXQBeSPICVNIE0h4/c99ziqhkZjqJKKM1XOlRqLzaW4mBUEGz1JjIl6mztp40yWs1DsNeTIgTkpwjTH4oOVrJiQchuUvWSSGOrUNaXJGEEQ3kaPJ8K1Lu7jOm/Hvp8IAWFGuP8+tr0O276rncu+/QF1SXf6oQAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Create and Deploy the Trading Partner Agreement</source>
+            <target state="new">Create and Deploy the Trading Partner Agreement</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>This part of the tutorial builds the EDI scenario.</source>
+            <target state="new">This part of the tutorial builds the EDI scenario.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>To build the EDI scenario, Northwind uses the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> to create trading partners and agreements.</source>
+            <target state="new">To build the EDI scenario, Northwind uses the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> to create trading partners and agreements.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Contoso sends the sales order as an X12 message to the deployed agreement.</source>
+            <target state="new">Contoso sends the sales order as an X12 message to the deployed agreement.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>After receiving the X12 sales order, the deployed agreement processes the message, transforms it to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="1">&lt;/embeddedLabel&gt;</ept> format expected by the EAI <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>, and routes it to the EAI <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph> that you already deployed earlier.</source>
+            <target state="new">After receiving the X12 sales order, the deployed agreement processes the message, transforms it to the <bpt id="1">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="1">&lt;/embeddedLabel&gt;</ept> format expected by the EAI <ph id="2">&lt;token&gt;bridge&lt;/token&gt;</ph>, and routes it to the EAI <ph id="3">&lt;token&gt;bridge&lt;/token&gt;</ph> that you already deployed earlier.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> then inserts the message into the <bpt id="2">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="2">&lt;/embeddedLabel&gt;</ept> table using the SQL <ph id="3">&lt;token&gt;lobrelay&lt;/token&gt;</ph>.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> then inserts the message into the <bpt id="2">&lt;embeddedLabel&gt;</bpt>SalesOrder<ept id="2">&lt;/embeddedLabel&gt;</ept> table using the SQL <ph id="3">&lt;token&gt;lobrelay&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The topics in this section lists the steps to build and test the EDI scenario for the tutorial.</source>
+            <target state="new">The topics in this section lists the steps to build and test the EDI scenario for the tutorial.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

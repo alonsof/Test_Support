@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzFEKwyAMANCreAADRlOrO8DY99gFEk2g0LXQtdDjz//HM0sqFBuoEgGhBZBQBFpAzrUaMlfvKBtJywU0owJREyhpqBAjdbRUSh2qUZpTRYHKeVyMBaSXDtamCUXnKJ28Q+/sgOfbu3tdzPQ+H8e+n95F70byur68fQ7efiufy779AcQ1Zb+hAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Create an AS2 Agreement in Azure BizTalk Services</source>
+            <target state="new">Create an AS2 Agreement in Azure BizTalk Services</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Create an AS2 agreement in <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> to exchange messages between trading partners using the AS2 protocol.</source>
+            <target state="new">Create an AS2 agreement in <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> to exchange messages between trading partners using the AS2 protocol.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>AS2 non-EDI messaging</source>
+            <target state="new">AS2 non-EDI messaging</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>AS2 messages can be sent to a non-EDI destination or received from a non-EDI destination.</source>
+            <target state="new">AS2 messages can be sent to a non-EDI destination or received from a non-EDI destination.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>This functionality is built into AS2 so you don’t have to worry about the transport protocol.</source>
+            <target state="new">This functionality is built into AS2 so you don’t have to worry about the transport protocol.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>You can use X12, EDIFACT, or other protocols that are not included with <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph>.</source>
+            <target state="new">You can use X12, EDIFACT, or other protocols that are not included with <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>For example, you receive a non-EDI message from a supplier over AS2.</source>
+            <target state="new">For example, you receive a non-EDI message from a supplier over AS2.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>You process the XML data and then transform the message to UBL documents.</source>
+            <target state="new">You process the XML data and then transform the message to UBL documents.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Non-EDI messaging is enabled in the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> or in the <ph id="2">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>.</source>
+            <target state="new">Non-EDI messaging is enabled in the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> or in the <ph id="2">&lt;token&gt;tpm_portal&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>To use non-EDI messaging in the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, use any of the following tools in the Toolbox:</source>
+            <target state="new">To use non-EDI messaging in the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, use any of the following tools in the Toolbox:</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Two-Way External Service Endpoint</source>
+            <target state="new">Two-Way External Service Endpoint</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Two-Way Relay Endpoint</source>
+            <target state="new">Two-Way Relay Endpoint</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>AS2 Non-Repudiation of Receipt (NRR)</source>
+            <target state="new">AS2 Non-Repudiation of Receipt (NRR)</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>AS2 includes Non-Repudiation of Receipt (NRR) support.</source>
+            <target state="new">AS2 includes Non-Repudiation of Receipt (NRR) support.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Non-Repudiation provides proof that a message is valid and authentic.</source>
+            <target state="new">Non-Repudiation provides proof that a message is valid and authentic.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>If the message validity is ever questioned, its validity can be proven and possibly legally binding.</source>
+            <target state="new">If the message validity is ever questioned, its validity can be proven and possibly legally binding.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>For example, you and Contoso agree to non-repudiation.</source>
+            <target state="new">For example, you and Contoso agree to non-repudiation.</target>
+          </trans-unit>
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>You send an AS2 message to Contoso to purchase <bpt id="1">&lt;legacyItalic&gt;</bpt>widgets<ept id="1">&lt;/legacyItalic&gt;</ept>.</source>
+            <target state="new">You send an AS2 message to Contoso to purchase <bpt id="1">&lt;legacyItalic&gt;</bpt>widgets<ept id="1">&lt;/legacyItalic&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Then, you deny sending the message to purchase the widgets from Contoso.</source>
+            <target state="new">Then, you deny sending the message to purchase the widgets from Contoso.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>With non-repudiation enabled, Contoso can retrieve the message to confirm that you agreed to purchase the widgets.</source>
+            <target state="new">With non-repudiation enabled, Contoso can retrieve the message to confirm that you agreed to purchase the widgets.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Non-Repudiation of Receipt (NRR) is enabled in the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> and is used for EDI and non-EDI messages.</source>
+            <target state="new">Non-Repudiation of Receipt (NRR) is enabled in the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> and is used for EDI and non-EDI messages.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>The topics in this section list the steps to create an AS2 agreement, including Non-Repudiation and non-EDI destinations.</source>
+            <target state="new">The topics in this section list the steps to create an AS2 agreement, including Non-Repudiation and non-EDI destinations.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Configure the AS2 General Settings</source>
+            <target state="new">Configure the AS2 General Settings</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>The first step to create an AS2 agreement between two trading partners is to enter the partners and their AS2 identities.</source>
+            <target state="new">The first step to create an AS2 agreement between two trading partners is to enter the partners and their AS2 identities.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>In the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> home page, select <bpt id="2">&lt;ui&gt;</bpt>Agreements<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">In the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> home page, select <bpt id="2">&lt;ui&gt;</bpt>Agreements<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>On the Agreements page, select the <bpt id="1">&lt;ui&gt;</bpt>AS2<ept id="1">&lt;/ui&gt;</ept> tab.</source>
+            <target state="new">On the Agreements page, select the <bpt id="1">&lt;ui&gt;</bpt>AS2<ept id="1">&lt;/ui&gt;</ept> tab.</target>
+          </trans-unit>
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;ui&gt;</bpt>Add<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;ui&gt;</bpt>Add<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;ui&gt;</bpt>General Settings<ept id="1">&lt;/ui&gt;</ept> tab is displayed.</source>
+            <target state="new">The <bpt id="1">&lt;ui&gt;</bpt>General Settings<ept id="1">&lt;/ui&gt;</ept> tab is displayed.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Enter the following properties:</source>
+            <target state="new">Enter the following properties:</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;legacyBold&gt;</bpt>Required<ept id="1">&lt;/legacyBold&gt;</ept>.</source>
+            <target state="new"><bpt id="1">&lt;legacyBold&gt;</bpt>Required<ept id="1">&lt;/legacyBold&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Enter a unique name for the agreement.</source>
+            <target state="new">Enter a unique name for the agreement.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>Enter notes or a description for the agreement.</source>
+            <target state="new">Enter notes or a description for the agreement.</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>For hosted and guest partners, enter the following:</source>
+            <target state="new">For hosted and guest partners, enter the following:</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Hosted Partner</source>
+            <target state="new">Hosted Partner</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Partner</source>
+            <target state="new">Partner</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Select the hosted partner for the agreement.</source>
+            <target state="new">Select the hosted partner for the agreement.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>A hosted partner is the partner that <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> deploys the AS2 send and receive pipelines.</source>
+            <target state="new">A hosted partner is the partner that <ph id="1">&lt;token&gt;af_integration&lt;/token&gt;</ph> deploys the AS2 send and receive pipelines.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Profile</source>
+            <target state="new">Profile</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>The default profile is displayed.</source>
+            <target state="new">The default profile is displayed.</target>
+          </trans-unit>
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>Choose the desired profile which has been configured for the partner.</source>
+            <target state="new">Choose the desired profile which has been configured for the partner.</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>AS2 Identity</source>
+            <target state="new">AS2 Identity</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Enter the AS2 Identity, which is the name to identify the partner.</source>
+            <target state="new">Enter the AS2 Identity, which is the name to identify the partner.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Examples include the company name or the company department.</source>
+            <target state="new">Examples include the company name or the company department.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Guest Partner</source>
+            <target state="new">Guest Partner</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>Partner</source>
+            <target state="new">Partner</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Select the partner for the agreement.</source>
+            <target state="new">Select the partner for the agreement.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>A Guest Partner is a partner managed by the service provider and the pipelines are deployed for that partner during agreement deployment.</source>
+            <target state="new">A Guest Partner is a partner managed by the service provider and the pipelines are deployed for that partner during agreement deployment.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>Profile</source>
+            <target state="new">Profile</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>The default profile is displayed.</source>
+            <target state="new">The default profile is displayed.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Choose the desired profile which has been configured for the partner.</source>
+            <target state="new">Choose the desired profile which has been configured for the partner.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>AS2 Identity</source>
+            <target state="new">AS2 Identity</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Enter the AS2 Identity, which is the name to identify the partner.</source>
+            <target state="new">Enter the AS2 Identity, which is the name to identify the partner.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Examples include the company name or the company department.</source>
+            <target state="new">Examples include the company name or the company department.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Under NRR Status, select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enable NRR<ept id="1">&lt;/embeddedLabel&gt;</ept> checkbox to enable non-repudiation on receipt (NRR) in the agreement.</source>
+            <target state="new">Under NRR Status, select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Enable NRR<ept id="1">&lt;/embeddedLabel&gt;</ept> checkbox to enable non-repudiation on receipt (NRR) in the agreement.</target>
+          </trans-unit>
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>NRR is used when the Hosted Partner and Guest Partner agree to use NRR.</source>
+            <target state="new">NRR is used when the Hosted Partner and Guest Partner agree to use NRR.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;ui&gt;</bpt>Continue<ept id="1">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;ui&gt;</bpt>Continue<ept id="1">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>The Receive Settings and Send Settings tabs are added.</source>
+            <target state="new">The Receive Settings and Send Settings tabs are added.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>Each tab is used to create a one-way agreement between the two partners: one to receive messages and another for sending messages.</source>
+            <target state="new">Each tab is used to create a one-way agreement between the two partners: one to receive messages and another for sending messages.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>Configure the AS2 Receive Settings</source>
+            <target state="new">Configure the AS2 Receive Settings</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>AS2 receive settings primarily include protocol details such as message signing, encryption, and compression, as well as sending MDNs.</source>
+            <target state="new">AS2 receive settings primarily include protocol details such as message signing, encryption, and compression, as well as sending MDNs.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Receive Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> tab of the AS2 agreement page.</source>
+            <target state="new">Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Receive Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> tab of the AS2 agreement page.</target>
+          </trans-unit>
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>The first step is to determine whether the receive settings in the agreement are used <bpt id="1">&lt;legacyUnderline&gt;</bpt>or<ept id="1">&lt;/legacyUnderline&gt;</ept> the settings in the incoming messages are used.</source>
+            <target state="new">The first step is to determine whether the receive settings in the agreement are used <bpt id="1">&lt;legacyUnderline&gt;</bpt>or<ept id="1">&lt;/legacyUnderline&gt;</ept> the settings in the incoming messages are used.</target>
+          </trans-unit>
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>Whether you check or uncheck the <bpt id="1">&lt;ui&gt;</bpt>Override receive side agreement settings with those in the incoming AS2 message<ept id="1">&lt;/ui&gt;</ept> governs that.</source>
+            <target state="new">Whether you check or uncheck the <bpt id="1">&lt;ui&gt;</bpt>Override receive side agreement settings with those in the incoming AS2 message<ept id="1">&lt;/ui&gt;</ept> governs that.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>Cleared</source>
+            <target state="new">Cleared</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Use the settings configured in the agreement.</source>
+            <target state="new">Use the settings configured in the agreement.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>Checked</source>
+            <target state="new">Checked</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Use the settings from the incoming messages and override the settings in the agreement.</source>
+            <target state="new">Use the settings from the incoming messages and override the settings in the agreement.</target>
+          </trans-unit>
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>The following settings are always honored in the agreement and never overridden:</source>
+            <target state="new">The following settings are always honored in the agreement and never overridden:</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>MDN Text</source>
+            <target state="new">MDN Text</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>Message should be encrypted</source>
+            <target state="new">Message should be encrypted</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>Message should be signed</source>
+            <target state="new">Message should be signed</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Choose the message settings to use with this agreement or template:</source>
+            <target state="new">Choose the message settings to use with this agreement or template:</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Message should be signed</source>
+            <target state="new">Message should be signed</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>This option forces the Guest Partner to sign the AS2 messages with their private certificate before sending the message to the Hosted Partner.</source>
+            <target state="new">This option forces the Guest Partner to sign the AS2 messages with their private certificate before sending the message to the Hosted Partner.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>The Guest Partner has a Private Certificate (.pfx).</source>
+            <target state="new">The Guest Partner has a Private Certificate (.pfx).</target>
+          </trans-unit>
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>The Guest Partner creates the corresponding public certificate (.cer) and sends it to you, the Service Provider.</source>
+            <target state="new">The Guest Partner creates the corresponding public certificate (.cer) and sends it to you, the Service Provider.</target>
+          </trans-unit>
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>This corresponding public key certificate (.cer) is uploaded by you to the Guest Partner’s profile.</source>
+            <target state="new">This corresponding public key certificate (.cer) is uploaded by you to the Guest Partner’s profile.</target>
+          </trans-unit>
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>This public key certificate validates the signature of the Guest Partner.</source>
+            <target state="new">This public key certificate validates the signature of the Guest Partner.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>Certificate<ept id="1">&lt;/ui&gt;</ept>: In the drop down list, choose the Guest Partner’s public certificate (.cer) you uploaded to the Guest Partner’s profile.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>Certificate<ept id="1">&lt;/ui&gt;</ept>: In the drop down list, choose the Guest Partner’s public certificate (.cer) you uploaded to the Guest Partner’s profile.</target>
+          </trans-unit>
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Incoming messages are checked for the correct signature of the Guest Partner.</source>
+            <target state="new">Incoming messages are checked for the correct signature of the Guest Partner.</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>This option cannot be overridden by an incoming message.</source>
+            <target state="new">This option cannot be overridden by an incoming message.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Message should be encrypted</source>
+            <target state="new">Message should be encrypted</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>This option forces the Guest Partner to encrypt the message being received by the Hosted Partner.</source>
+            <target state="new">This option forces the Guest Partner to encrypt the message being received by the Hosted Partner.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>The Hosted Partner has a Private Certificate (.pfx) uploaded to its profile.</source>
+            <target state="new">The Hosted Partner has a Private Certificate (.pfx) uploaded to its profile.</target>
+          </trans-unit>
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>You create the corresponding public certificate (.cer) and send the public certificate to the Guest Partner.</source>
+            <target state="new">You create the corresponding public certificate (.cer) and send the public certificate to the Guest Partner.</target>
+          </trans-unit>
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>The Guest Partner’s public certificate encrypts the message and the Hosted Partner’s corresponding private certificate decrypts the message.</source>
+            <target state="new">The Guest Partner’s public certificate encrypts the message and the Hosted Partner’s corresponding private certificate decrypts the message.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>Certificate<ept id="1">&lt;/ui&gt;</ept>: In the drop down list, choose the Hosted Partner’s private certificate (.pfx) you added to the Hosted Partner’s profile.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>Certificate<ept id="1">&lt;/ui&gt;</ept>: In the drop down list, choose the Hosted Partner’s private certificate (.pfx) you added to the Hosted Partner’s profile.</target>
+          </trans-unit>
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Incoming encrypted messages are decrypted using the private key certificate from the Hosted Partner’s profile.</source>
+            <target state="new">Incoming encrypted messages are decrypted using the private key certificate from the Hosted Partner’s profile.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>This option cannot be overridden by an incoming message.</source>
+            <target state="new">This option cannot be overridden by an incoming message.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Message should be compressed</source>
+            <target state="new">Message should be compressed</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Choose this option to compress messages sent from the Guest Partner to the Hosted Partner.</source>
+            <target state="new">Choose this option to compress messages sent from the Guest Partner to the Hosted Partner.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Choose the acknowledgement settings you want to use with this agreement or template.</source>
+            <target state="new">Choose the acknowledgement settings you want to use with this agreement or template.</target>
+          </trans-unit>
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>These settings specify that the Guest Partner requests an acknowledgment message from the Hosted Partner in the agreement.</source>
+            <target state="new">These settings specify that the Guest Partner requests an acknowledgment message from the Hosted Partner in the agreement.</target>
+          </trans-unit>
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>The acknowledgment messages from the Hosted Partner are sent to the Guest Partner based on the <bpt id="1">&lt;ui&gt;</bpt>URL<ept id="1">&lt;/ui&gt;</ept> in the Send Settings of this AS2 agreement.</source>
+            <target state="new">The acknowledgment messages from the Hosted Partner are sent to the Guest Partner based on the <bpt id="1">&lt;ui&gt;</bpt>URL<ept id="1">&lt;/ui&gt;</ept> in the Send Settings of this AS2 agreement.</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>MDN Text</source>
+            <target state="new">MDN Text</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>Enter the text used in the body of the Message Disposition Notification (MDN) receipt.</source>
+            <target state="new">Enter the text used in the body of the Message Disposition Notification (MDN) receipt.</target>
+          </trans-unit>
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>This applies if the message sender requests the MDN or the agreement is configured to send MDN receipts.</source>
+            <target state="new">This applies if the message sender requests the MDN or the agreement is configured to send MDN receipts.</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Send MDN</source>
+            <target state="new">Send MDN</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>This setting configures the agreement to send MDN receipts to the sender, which is the Guest Partner.</source>
+            <target state="new">This setting configures the agreement to send MDN receipts to the sender, which is the Guest Partner.</target>
+          </trans-unit>
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>The sender in the context of the receive settings of the agreement is the Guest Partner.</source>
+            <target state="new">The sender in the context of the receive settings of the agreement is the Guest Partner.</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>The following options are available when sending the MDN to the Guest Partner:</source>
+            <target state="new">The following options are available when sending the MDN to the Guest Partner:</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>Send Signed MDN</source>
+            <target state="new">Send Signed MDN</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>This option configures whether the MDN receipt is sent to the Guest Partner and is signed by the Hosted Partner’s private key certificate.</source>
+            <target state="new">This option configures whether the MDN receipt is sent to the Guest Partner and is signed by the Hosted Partner’s private key certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>You can optionally choose a <bpt id="1">&lt;ui&gt;</bpt>MIC algorithm<ept id="1">&lt;/ui&gt;</ept> option.</source>
+            <target state="new">You can optionally choose a <bpt id="1">&lt;ui&gt;</bpt>MIC algorithm<ept id="1">&lt;/ui&gt;</ept> option.</target>
+          </trans-unit>
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>The following <bpt id="1">&lt;ui&gt;</bpt>MIC algorithm<ept id="1">&lt;/ui&gt;</ept> options are supported for computing the Received-Content-MIC field of the outgoing MDN for non-repudiation at the Guest Partner:</source>
+            <target state="new">The following <bpt id="1">&lt;ui&gt;</bpt>MIC algorithm<ept id="1">&lt;/ui&gt;</ept> options are supported for computing the Received-Content-MIC field of the outgoing MDN for non-repudiation at the Guest Partner:</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>MD5<ept id="1">&lt;/ui&gt;</ept> : Received-Content-MIC field populated using the MD5 algorithm.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>MD5<ept id="1">&lt;/ui&gt;</ept> : Received-Content-MIC field populated using the MD5 algorithm.</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>SHA1<ept id="1">&lt;/ui&gt;</ept> (Default) : Received-Content-MIC field populated using the SHA1 algorithm.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>SHA1<ept id="1">&lt;/ui&gt;</ept> (Default) : Received-Content-MIC field populated using the SHA1 algorithm.</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>SHA2-256<ept id="1">&lt;/ui&gt;</ept> : Received-Content-MIC field populated using the SHA2-256 algorithm.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>SHA2-256<ept id="1">&lt;/ui&gt;</ept> : Received-Content-MIC field populated using the SHA2-256 algorithm.</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>SHA2-384<ept id="1">&lt;/ui&gt;</ept> : Received-Content-MIC field populated using the SHA2-384 algorithm.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>SHA2-384<ept id="1">&lt;/ui&gt;</ept> : Received-Content-MIC field populated using the SHA2-384 algorithm.</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>SHA2-512<ept id="1">&lt;/ui&gt;</ept> : Received-Content-MIC field populated using the SHA2-512 algorithm.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>SHA2-512<ept id="1">&lt;/ui&gt;</ept> : Received-Content-MIC field populated using the SHA2-512 algorithm.</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>For security reasons, it is recommended to use a SHA algorithm instead of MD5.</source>
+            <target state="new">For security reasons, it is recommended to use a SHA algorithm instead of MD5.</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>Send asynchronous MDN</source>
+            <target state="new">Send asynchronous MDN</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>Choose this option to send an asynchronous MDN receipt to the Guest Partner.</source>
+            <target state="new">Choose this option to send an asynchronous MDN receipt to the Guest Partner.</target>
+          </trans-unit>
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>Enter the endpoint <bpt id="1">&lt;ui&gt;</bpt>URL<ept id="1">&lt;/ui&gt;</ept> that the Guest Partner receives MDNs.</source>
+            <target state="new">Enter the endpoint <bpt id="1">&lt;ui&gt;</bpt>URL<ept id="1">&lt;/ui&gt;</ept> that the Guest Partner receives MDNs.</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>For information on importing certificates on the computer, see <ph id="1">&lt;link xlink:href="c3b8d534-fc79-4203-8f09-cd3ac3510675" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Importing certificates&lt;/link&gt;</ph>.</source>
+            <target state="new">For information on importing certificates on the computer, see <ph id="1">&lt;link xlink:href="c3b8d534-fc79-4203-8f09-cd3ac3510675" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Importing certificates&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>Configure the AS2 Send Settings</source>
+            <target state="new">Configure the AS2 Send Settings</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>AS2 send settings primarily include protocol details such as message signing, encryption, and compression, as well as requesting an MDN.</source>
+            <target state="new">AS2 send settings primarily include protocol details such as message signing, encryption, and compression, as well as requesting an MDN.</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> tab of the AS2 agreement page.</source>
+            <target state="new">Select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Send Settings<ept id="1">&lt;/embeddedLabel&gt;</ept> tab of the AS2 agreement page.</target>
+          </trans-unit>
+          <trans-unit id="121" translate="yes" xml:space="preserve">
+            <source>Choose the message settings to use with this agreement.</source>
+            <target state="new">Choose the message settings to use with this agreement.</target>
+          </trans-unit>
+          <trans-unit id="122" translate="yes" xml:space="preserve">
+            <source>These settings are used when sending AS2 messages from the hosted partner to the guest partner:</source>
+            <target state="new">These settings are used when sending AS2 messages from the hosted partner to the guest partner:</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="123" translate="yes" xml:space="preserve">
+            <source>Enable message signing</source>
+            <target state="new">Enable message signing</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="124" translate="yes" xml:space="preserve">
+            <source>This option signs messages sent from the hosted partner to the guest partner.</source>
+            <target state="new">This option signs messages sent from the hosted partner to the guest partner.</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="125" translate="yes" xml:space="preserve">
+            <source>The Hosted Partner has a Private Certificate (.pfx) used for signing uploaded to the Hosted Partner’s profile.</source>
+            <target state="new">The Hosted Partner has a Private Certificate (.pfx) used for signing uploaded to the Hosted Partner’s profile.</target>
+          </trans-unit>
+          <trans-unit id="126" translate="yes" xml:space="preserve">
+            <source>You create the corresponding public certificate (.cer) and send the public certificate to the Guest Partner.</source>
+            <target state="new">You create the corresponding public certificate (.cer) and send the public certificate to the Guest Partner.</target>
+          </trans-unit>
+          <trans-unit id="127" translate="yes" xml:space="preserve">
+            <source>This public key validates the Hosted Partner’s signature to the Guest Partner.</source>
+            <target state="new">This public key validates the Hosted Partner’s signature to the Guest Partner.</target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="128" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>MIC algorithm<ept id="1">&lt;/ui&gt;</ept> options:</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>MIC algorithm<ept id="1">&lt;/ui&gt;</ept> options:</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="129" translate="yes" xml:space="preserve">
+            <source>MD5</source>
+            <target state="new">MD5</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="130" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>SHA1<ept id="1">&lt;/ui&gt;</ept> (default)</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>SHA1<ept id="1">&lt;/ui&gt;</ept> (default)</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="131" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>SHA2-256<ept id="1">&lt;/ui&gt;</ept> </source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>SHA2-256<ept id="1">&lt;/ui&gt;</ept> </target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="132" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>SHA2-384<ept id="1">&lt;/ui&gt;</ept> </source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>SHA2-384<ept id="1">&lt;/ui&gt;</ept> </target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="133" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>SHA2-512<ept id="1">&lt;/ui&gt;</ept> </source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>SHA2-512<ept id="1">&lt;/ui&gt;</ept> </target>
+          </trans-unit>
+        </group>
+        <group id="92">
+          <trans-unit id="134" translate="yes" xml:space="preserve">
+            <source>For security reasons, it is recommended to use a SHA algorithm instead of MD5.</source>
+            <target state="new">For security reasons, it is recommended to use a SHA algorithm instead of MD5.</target>
+          </trans-unit>
+        </group>
+        <group id="93">
+          <trans-unit id="135" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>Certificate<ept id="1">&lt;/ui&gt;</ept>: In the drop down list, choose the Hosted Partner’s private certificate (.pfx) you added to the Hosted Partner’s profile.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>Certificate<ept id="1">&lt;/ui&gt;</ept>: In the drop down list, choose the Hosted Partner’s private certificate (.pfx) you added to the Hosted Partner’s profile.</target>
+          </trans-unit>
+          <trans-unit id="136" translate="yes" xml:space="preserve">
+            <source>Outgoing messages sent to the Guest Partner are signed with the Hosted Partner’s signing certificate.</source>
+            <target state="new">Outgoing messages sent to the Guest Partner are signed with the Hosted Partner’s signing certificate.</target>
+          </trans-unit>
+        </group>
+        <group id="94">
+          <trans-unit id="137" translate="yes" xml:space="preserve">
+            <source>Enable message encryption</source>
+            <target state="new">Enable message encryption</target>
+          </trans-unit>
+        </group>
+        <group id="95">
+          <trans-unit id="138" translate="yes" xml:space="preserve">
+            <source>This option is used by the Hosted Partner to encrypt AS2 messages using the Guest Partner’s public certificate (.cer).</source>
+            <target state="new">This option is used by the Hosted Partner to encrypt AS2 messages using the Guest Partner’s public certificate (.cer).</target>
+          </trans-unit>
+        </group>
+        <group id="96">
+          <trans-unit id="139" translate="yes" xml:space="preserve">
+            <source>Your Guest Partner has a Private Certificate (.pfx).</source>
+            <target state="new">Your Guest Partner has a Private Certificate (.pfx).</target>
+          </trans-unit>
+          <trans-unit id="140" translate="yes" xml:space="preserve">
+            <source>The Guest Partner creates the corresponding public certificate (.cer) and sends it to you, the Service Provider.</source>
+            <target state="new">The Guest Partner creates the corresponding public certificate (.cer) and sends it to you, the Service Provider.</target>
+          </trans-unit>
+          <trans-unit id="141" translate="yes" xml:space="preserve">
+            <source>This corresponding public key certificate (.cer) is uploaded by you to the Guest Partner’s profile.</source>
+            <target state="new">This corresponding public key certificate (.cer) is uploaded by you to the Guest Partner’s profile.</target>
+          </trans-unit>
+          <trans-unit id="142" translate="yes" xml:space="preserve">
+            <source>Your Hosted Partner’s public certificate encrypts the message and your Guest Partner’s corresponding private certificate decrypts the message.</source>
+            <target state="new">Your Hosted Partner’s public certificate encrypts the message and your Guest Partner’s corresponding private certificate decrypts the message.</target>
+          </trans-unit>
+        </group>
+        <group id="97">
+          <trans-unit id="143" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>Encryption algorithm<ept id="1">&lt;/ui&gt;</ept> options:</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>Encryption algorithm<ept id="1">&lt;/ui&gt;</ept> options:</target>
+          </trans-unit>
+        </group>
+        <group id="98">
+          <trans-unit id="144" translate="yes" xml:space="preserve">
+            <source>AES-128</source>
+            <target state="new">AES-128</target>
+          </trans-unit>
+        </group>
+        <group id="99">
+          <trans-unit id="145" translate="yes" xml:space="preserve">
+            <source>AES-192</source>
+            <target state="new">AES-192</target>
+          </trans-unit>
+        </group>
+        <group id="100">
+          <trans-unit id="146" translate="yes" xml:space="preserve">
+            <source>AES-256</source>
+            <target state="new">AES-256</target>
+          </trans-unit>
+        </group>
+        <group id="101">
+          <trans-unit id="147" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>DES3<ept id="1">&lt;/ui&gt;</ept> (default)</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>DES3<ept id="1">&lt;/ui&gt;</ept> (default)</target>
+          </trans-unit>
+        </group>
+        <group id="102">
+          <trans-unit id="148" translate="yes" xml:space="preserve">
+            <source>RC2</source>
+            <target state="new">RC2</target>
+          </trans-unit>
+        </group>
+        <group id="103">
+          <trans-unit id="149" translate="yes" xml:space="preserve">
+            <source>For security reasons, it is recommended to use an AES or DES algorithm instead of RC2.</source>
+            <target state="new">For security reasons, it is recommended to use an AES or DES algorithm instead of RC2.</target>
+          </trans-unit>
+        </group>
+        <group id="104">
+          <trans-unit id="150" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>Certificate<ept id="1">&lt;/ui&gt;</ept>: In the drop down list, choose the Guest Partner’s public certificate (.cer) you added to the Guest Partner’s profile.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>Certificate<ept id="1">&lt;/ui&gt;</ept>: In the drop down list, choose the Guest Partner’s public certificate (.cer) you added to the Guest Partner’s profile.</target>
+          </trans-unit>
+          <trans-unit id="151" translate="yes" xml:space="preserve">
+            <source>Outgoing messages are encrypted using the public key certificate from the Guest Partner’s profile.</source>
+            <target state="new">Outgoing messages are encrypted using the public key certificate from the Guest Partner’s profile.</target>
+          </trans-unit>
+        </group>
+        <group id="105">
+          <trans-unit id="152" translate="yes" xml:space="preserve">
+            <source>Enable message compression</source>
+            <target state="new">Enable message compression</target>
+          </trans-unit>
+        </group>
+        <group id="106">
+          <trans-unit id="153" translate="yes" xml:space="preserve">
+            <source>Choose this option to compress messages sent from the Hosted Partner to the Guest Partner.</source>
+            <target state="new">Choose this option to compress messages sent from the Hosted Partner to the Guest Partner.</target>
+          </trans-unit>
+        </group>
+        <group id="107">
+          <trans-unit id="154" translate="yes" xml:space="preserve">
+            <source>Unfold HTTP headers</source>
+            <target state="new">Unfold HTTP headers</target>
+          </trans-unit>
+        </group>
+        <group id="108">
+          <trans-unit id="155" translate="yes" xml:space="preserve">
+            <source>Select this check box to unfold HTTP content-type headers into a single line.</source>
+            <target state="new">Select this check box to unfold HTTP content-type headers into a single line.</target>
+          </trans-unit>
+        </group>
+        <group id="109">
+          <trans-unit id="156" translate="yes" xml:space="preserve">
+            <source>For information on importing certificates on the computer, see <ph id="1">&lt;link xlink:href="c3b8d534-fc79-4203-8f09-cd3ac3510675" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Importing certificates&lt;/link&gt;</ph>.</source>
+            <target state="new">For information on importing certificates on the computer, see <ph id="1">&lt;link xlink:href="c3b8d534-fc79-4203-8f09-cd3ac3510675" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Importing certificates&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="110">
+          <trans-unit id="157" translate="yes" xml:space="preserve">
+            <source>Choose the acknowledge settings you want to use with this agreement or template.</source>
+            <target state="new">Choose the acknowledge settings you want to use with this agreement or template.</target>
+          </trans-unit>
+          <trans-unit id="158" translate="yes" xml:space="preserve">
+            <source>These settings specify that the Hosted Partner requests an acknowledgment message from the Guest Partner in the agreement.</source>
+            <target state="new">These settings specify that the Hosted Partner requests an acknowledgment message from the Guest Partner in the agreement.</target>
+          </trans-unit>
+          <trans-unit id="159" translate="yes" xml:space="preserve">
+            <source>The acknowledgment messages from the Guest Partner are sent to the Hosted Partner based on the <bpt id="1">&lt;ui&gt;</bpt>Inbound URI URL<ept id="1">&lt;/ui&gt;</ept> in the Receive Settings of the agreement.</source>
+            <target state="new">The acknowledgment messages from the Guest Partner are sent to the Hosted Partner based on the <bpt id="1">&lt;ui&gt;</bpt>Inbound URI URL<ept id="1">&lt;/ui&gt;</ept> in the Receive Settings of the agreement.</target>
+          </trans-unit>
+        </group>
+        <group id="111">
+          <trans-unit id="160" translate="yes" xml:space="preserve">
+            <source>Request MDN</source>
+            <target state="new">Request MDN</target>
+          </trans-unit>
+        </group>
+        <group id="112">
+          <trans-unit id="161" translate="yes" xml:space="preserve">
+            <source>This setting configures the agreement to send MDN receipts to the sender of the original AS2 message, which is the Hosted Partner.</source>
+            <target state="new">This setting configures the agreement to send MDN receipts to the sender of the original AS2 message, which is the Hosted Partner.</target>
+          </trans-unit>
+          <trans-unit id="162" translate="yes" xml:space="preserve">
+            <source>Acknowledgements are sent to the Hosted Partner after successful delivery of the AS2 message.</source>
+            <target state="new">Acknowledgements are sent to the Hosted Partner after successful delivery of the AS2 message.</target>
+          </trans-unit>
+        </group>
+        <group id="113">
+          <trans-unit id="163" translate="yes" xml:space="preserve">
+            <source>The following options are available when the Hosted Partner requests a MDN:</source>
+            <target state="new">The following options are available when the Hosted Partner requests a MDN:</target>
+          </trans-unit>
+        </group>
+        <group id="114">
+          <trans-unit id="164" translate="yes" xml:space="preserve">
+            <source>Request signed MDN</source>
+            <target state="new">Request signed MDN</target>
+          </trans-unit>
+        </group>
+        <group id="115">
+          <trans-unit id="165" translate="yes" xml:space="preserve">
+            <source>This option requests that the MDN receipt is signed with the Guest Partner’s private key.</source>
+            <target state="new">This option requests that the MDN receipt is signed with the Guest Partner’s private key.</target>
+          </trans-unit>
+          <trans-unit id="166" translate="yes" xml:space="preserve">
+            <source>The signature is validated using the Guest Partner’s public key certificate that is uploaded to the Guest Partner’s profile.</source>
+            <target state="new">The signature is validated using the Guest Partner’s public key certificate that is uploaded to the Guest Partner’s profile.</target>
+          </trans-unit>
+        </group>
+        <group id="116">
+          <trans-unit id="167" translate="yes" xml:space="preserve">
+            <source>Request asynchronous MDN</source>
+            <target state="new">Request asynchronous MDN</target>
+          </trans-unit>
+        </group>
+        <group id="117">
+          <trans-unit id="168" translate="yes" xml:space="preserve">
+            <source>This option requests that the MDN receipts are sent asynchronously to the sender of the original AS2 message, which is the Hosted Partner.</source>
+            <target state="new">This option requests that the MDN receipts are sent asynchronously to the sender of the original AS2 message, which is the Hosted Partner.</target>
+          </trans-unit>
+          <trans-unit id="169" translate="yes" xml:space="preserve">
+            <source>The asynchronous message is sent to the <bpt id="1">&lt;ui&gt;</bpt>Inbound URI URL<ept id="1">&lt;/ui&gt;</ept> for the Hosted Partner.</source>
+            <target state="new">The asynchronous message is sent to the <bpt id="1">&lt;ui&gt;</bpt>Inbound URI URL<ept id="1">&lt;/ui&gt;</ept> for the Hosted Partner.</target>
+          </trans-unit>
+          <trans-unit id="170" translate="yes" xml:space="preserve">
+            <source>This <bpt id="1">&lt;ui&gt;</bpt>Inbound URI URL<ept id="1">&lt;/ui&gt;</ept> is set on the Receive Settings of the agreement.</source>
+            <target state="new">This <bpt id="1">&lt;ui&gt;</bpt>Inbound URI URL<ept id="1">&lt;/ui&gt;</ept> is set on the Receive Settings of the agreement.</target>
+          </trans-unit>
+        </group>
+        <group id="118">
+          <trans-unit id="171" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept> to save the agreement.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Save<ept id="1">&lt;/embeddedLabel&gt;</ept> to save the agreement.</target>
+          </trans-unit>
+        </group>
+        <group id="119">
+          <trans-unit id="172" translate="yes" xml:space="preserve">
+            <source>Known Issues</source>
+            <target state="new">Known Issues</target>
+          </trans-unit>
+        </group>
+        <group id="120">
+          <trans-unit id="173" translate="yes" xml:space="preserve">
+            <source>The <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> allows you to modify the Qualifier of an Identity when an agreement is configured.</source>
+            <target state="new">The <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> allows you to modify the Qualifier of an Identity when an agreement is configured.</target>
+          </trans-unit>
+          <trans-unit id="174" translate="yes" xml:space="preserve">
+            <source>This can result in inconsistence properties.</source>
+            <target state="new">This can result in inconsistence properties.</target>
+          </trans-unit>
+          <trans-unit id="175" translate="yes" xml:space="preserve">
+            <source>For example, there is an agreement using ZZ:1234567 and ZZ:7654321 the Qualifier.</source>
+            <target state="new">For example, there is an agreement using ZZ:1234567 and ZZ:7654321 the Qualifier.</target>
+          </trans-unit>
+          <trans-unit id="176" translate="yes" xml:space="preserve">
+            <source>In the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> profile settings, you change ZZ:1234567 to be 01:<bpt id="2">&lt;legacyItalic&gt;</bpt>ChangedValue<ept id="2">&lt;/legacyItalic&gt;</ept>.</source>
+            <target state="new">In the <ph id="1">&lt;token&gt;tpm_portal&lt;/token&gt;</ph> profile settings, you change ZZ:1234567 to be 01:<bpt id="2">&lt;legacyItalic&gt;</bpt>ChangedValue<ept id="2">&lt;/legacyItalic&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="177" translate="yes" xml:space="preserve">
+            <source>You open the agreement and 01:<bpt id="1">&lt;legacyItalic&gt;</bpt>ChangedValue<ept id="1">&lt;/legacyItalic&gt;</ept> is displayed instead of ZZ:1234567.</source>
+            <target state="new">You open the agreement and 01:<bpt id="1">&lt;legacyItalic&gt;</bpt>ChangedValue<ept id="1">&lt;/legacyItalic&gt;</ept> is displayed instead of ZZ:1234567.</target>
+          </trans-unit>
+        </group>
+        <group id="121">
+          <trans-unit id="178" translate="yes" xml:space="preserve">
+            <source>To modify the Qualifier of an identity, delete the agreement, update <bpt id="1">&lt;ui&gt;</bpt>Identities<ept id="1">&lt;/ui&gt;</ept> in the partner profile, and then recreate the agreement.</source>
+            <target state="new">To modify the Qualifier of an identity, delete the agreement, update <bpt id="1">&lt;ui&gt;</bpt>Identities<ept id="1">&lt;/ui&gt;</ept> in the partner profile, and then recreate the agreement.</target>
+          </trans-unit>
+        </group>
+        <group id="122">
+          <trans-unit id="179" translate="yes" xml:space="preserve">
+            <source>This behavior impacts X12 and AS2.</source>
+            <target state="new">This behavior impacts X12 and AS2.</target>
+          </trans-unit>
+        </group>
+        <group id="123">
+          <trans-unit id="180" translate="yes" xml:space="preserve">
+            <source>Attachments for AS2 messages are not supported in send or receive.</source>
+            <target state="new">Attachments for AS2 messages are not supported in send or receive.</target>
+          </trans-unit>
+          <trans-unit id="181" translate="yes" xml:space="preserve">
+            <source>Specifically, attachments are silently ignored and the message body is processed as a regular AS2 message.</source>
+            <target state="new">Specifically, attachments are silently ignored and the message body is processed as a regular AS2 message.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

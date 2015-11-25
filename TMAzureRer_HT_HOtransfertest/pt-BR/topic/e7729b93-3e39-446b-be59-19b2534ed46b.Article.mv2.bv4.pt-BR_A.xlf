@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="pt-BR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANyDsOwjAMANCr+AC2lI+b1IxMzIgLxMGWKpUWlSD1+PDG555NOXUyYyaOHkjDrNRDbEXEY2uCMMXurZVAziERW2GSPifSVEuvmlxnRbBak6hkypaFmIuS2iQURdOU2Z7/QYgI70HXO8K5Lu52jsux7wMhITDC7ftq2+No22dtY9m3H0RYfB6hAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Add multiple tasks to a job</source>
+            <target state="new">Add multiple tasks to a job</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Requests to add multiple tasks to an account in the Batch service support the following concepts:</source>
+            <target state="new">Requests to add multiple tasks to an account in the Batch service support the following concepts:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Each request must contain a unique Content-ID MIME part header.</source>
+            <target state="new">Each request must contain a unique Content-ID MIME part header.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>This header is returned with the result of the operation in the response, and can be used to match an individual request with its response.</source>
+            <target state="new">This header is returned with the result of the operation in the response, and can be used to match an individual request with its response.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>The Batch service returns a HTTP Status Code 400 (Bad Request) if any request contains an invalid set of headers or contains operations which are not supported in the batch.</source>
+            <target state="new">The Batch service returns a HTTP Status Code 400 (Bad Request) if any request contains an invalid set of headers or contains operations which are not supported in the batch.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>The Batch service returns a HTTP Status Code 202 (Accepted) for a valid request.</source>
+            <target state="new">The Batch service returns a HTTP Status Code 202 (Accepted) for a valid request.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The server will then stream the results of individual operations.</source>
+            <target state="new">The server will then stream the results of individual operations.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The Batch service can re-order the responses of these requests.</source>
+            <target state="new">The Batch service can re-order the responses of these requests.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The Content-Id MIME part header need to be used by the Client to match the request corresponding to the response.</source>
+            <target state="new">The Content-Id MIME part header need to be used by the Client to match the request corresponding to the response.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>The response contains the results and error information for each operation.</source>
+            <target state="new">The response contains the results and error information for each operation.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>If the server times out or the connection is closed during the request, the request may have been partially or fully processed, or not at all.</source>
+            <target state="new">If the server times out or the connection is closed during the request, the request may have been partially or fully processed, or not at all.</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>In such cases, the user should re-issue the request.</source>
+            <target state="new">In such cases, the user should re-issue the request.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Note that it is up to the users to correctly deal with failures when re-issuing a request.</source>
+            <target state="new">Note that it is up to the users to correctly deal with failures when re-issuing a request.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>For example, the users should use the same task ids during retry, so that if the prior operation succeeded, the retry will not create extra tasks unexpectedly.</source>
+            <target state="new">For example, the users should use the same task ids during retry, so that if the prior operation succeeded, the retry will not create extra tasks unexpectedly.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>A request can include at most 100 operations.</source>
+            <target state="new">A request can include at most 100 operations.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>All the tasks in this request must belong to the same job.</source>
+            <target state="new">All the tasks in this request must belong to the same job.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Request</source>
+            <target state="new">Request</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The following example shows a request containing three tasks to be added under a job.</source>
+            <target state="new">The following example shows a request containing three tasks to be added under a job.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Response</source>
+            <target state="new">Response</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

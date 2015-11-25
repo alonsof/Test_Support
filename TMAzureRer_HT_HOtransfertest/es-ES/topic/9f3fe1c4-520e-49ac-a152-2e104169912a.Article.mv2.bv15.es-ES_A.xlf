@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANzFEKwjAMANCr9AANNGnaGf8F//UCaZvAYG4wJ+z47vvBc8/WmDqYMQOjJ2jp1qAn1CriqCoxoOUpYWowqk/AVQo0rAMGY/YiOCq1GMSzG3aGQsmARTsoFgIyTIzXhqTXFYN94fGK4VxmdzuP+75tRwx0WYnh+fvo+t51/S56zNv6B5nIrE+iAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>SMOTE</source>
+            <target state="new">SMOTE</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Increases the number of low incidence examples in a dataset using synthetic minority oversampling</source>
+            <target state="new">Increases the number of low incidence examples in a dataset using synthetic minority oversampling</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Category: <bpt id="1">&lt;legacyLink xlink:href="92B32033-F75F-4854-AC8F-9110B3FE7E09" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Data Transformation / Manipulation<ept id="1">&lt;/legacyLink&gt;</ept></source>
+            <target state="new">Category: <bpt id="1">&lt;legacyLink xlink:href="92B32033-F75F-4854-AC8F-9110B3FE7E09" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Data Transformation / Manipulation<ept id="1">&lt;/legacyLink&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Module Overview</source>
+            <target state="new">Module Overview</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>You can use the <bpt id="1">&lt;ui&gt;</bpt>SMOTE<ept id="1">&lt;/ui&gt;</ept> module to apply the <bpt id="2">&lt;newTerm&gt;</bpt>Synthetic Minority Oversampling Technique<ept id="2">&lt;/newTerm&gt;</ept> to an input dataset.</source>
+            <target state="new">You can use the <bpt id="1">&lt;ui&gt;</bpt>SMOTE<ept id="1">&lt;/ui&gt;</ept> module to apply the <bpt id="2">&lt;newTerm&gt;</bpt>Synthetic Minority Oversampling Technique<ept id="2">&lt;/newTerm&gt;</ept> to an input dataset.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>This is a statistical technique for increasing the number of cases in your dataset in a balanced way.</source>
+            <target state="new">This is a statistical technique for increasing the number of cases in your dataset in a balanced way.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>You use SMOTE in datasets that are <bpt id="1">&lt;newTerm&gt;</bpt>imbalanced<ept id="1">&lt;/newTerm&gt;</ept>.</source>
+            <target state="new">You use SMOTE in datasets that are <bpt id="1">&lt;newTerm&gt;</bpt>imbalanced<ept id="1">&lt;/newTerm&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Typically this means that the class you want to analyze is under-represented.</source>
+            <target state="new">Typically this means that the class you want to analyze is under-represented.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>There are many reasons for this: the category you are targeting might be very rare in the population, or the data might simply be difficult to collect.</source>
+            <target state="new">There are many reasons for this: the category you are targeting might be very rare in the population, or the data might simply be difficult to collect.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Regardless, SMOTE is a better way of increasing the number of rare cases than simply duplicating existing cases.</source>
+            <target state="new">Regardless, SMOTE is a better way of increasing the number of rare cases than simply duplicating existing cases.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The module returns a dataset that contains the original samples, plus an additional number of synthetic minority samples, depending on the percentage you specify.</source>
+            <target state="new">The module returns a dataset that contains the original samples, plus an additional number of synthetic minority samples, depending on the percentage you specify.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>How SMOTE Works</source>
+            <target state="new">How SMOTE Works</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source><bpt id="1">&lt;ui&gt;</bpt>SMOTE<ept id="1">&lt;/ui&gt;</ept> works by generating new instances from existing cases that you supply as input.</source>
+            <target state="new"><bpt id="1">&lt;ui&gt;</bpt>SMOTE<ept id="1">&lt;/ui&gt;</ept> works by generating new instances from existing cases that you supply as input.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The new instances are created by taking samples of the feature space for each target class and its nearest neighbors, and generating new examples that combine features of the target case with features of its neighbors.</source>
+            <target state="new">The new instances are created by taking samples of the feature space for each target class and its nearest neighbors, and generating new examples that combine features of the target case with features of its neighbors.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>This approach increases the features available to each class and makes the samples more general.</source>
+            <target state="new">This approach increases the features available to each class and makes the samples more general.</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>SMOTE takes the entire dataset as an input and increases the percentage of the minority cases only.</source>
+            <target state="new">SMOTE takes the entire dataset as an input and increases the percentage of the minority cases only.</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>For example, if you have an imbalanced dataset with 1% of Class A (the minority class) and 99% of Class B, you would enter 200 to increase the percentage of minority cases to twice the previous percentage.</source>
+            <target state="new">For example, if you have an imbalanced dataset with 1% of Class A (the minority class) and 99% of Class B, you would enter 200 to increase the percentage of minority cases to twice the previous percentage.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Examples</source>
+            <target state="new">Examples</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>We recommend that you try using <bpt id="1">&lt;ui&gt;</bpt>SMOTE<ept id="1">&lt;/ui&gt;</ept> with a small dataset to see how it works.</source>
+            <target state="new">We recommend that you try using <bpt id="1">&lt;ui&gt;</bpt>SMOTE<ept id="1">&lt;/ui&gt;</ept> with a small dataset to see how it works.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>The following example uses the Blood Donation dataset available in Azure Machine Learning Studio.</source>
+            <target state="new">The following example uses the Blood Donation dataset available in Azure Machine Learning Studio.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>If you click <bpt id="1">&lt;ui&gt;</bpt>Visualize<ept id="1">&lt;/ui&gt;</ept> on the dataset’s output, you can see that, of the 748 rows or cases in the dataset, there are 570 cases (76%) of Class 0, and 178 cases (24%) of class 1.</source>
+            <target state="new">If you click <bpt id="1">&lt;ui&gt;</bpt>Visualize<ept id="1">&lt;/ui&gt;</ept> on the dataset’s output, you can see that, of the 748 rows or cases in the dataset, there are 570 cases (76%) of Class 0, and 178 cases (24%) of class 1.</target>
+          </trans-unit>
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Although this isn’t terribly imbalanced, Class 1 represents the people who donated blood, and thus these rows contain the features you want to model.</source>
+            <target state="new">Although this isn’t terribly imbalanced, Class 1 represents the people who donated blood, and thus these rows contain the features you want to model.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>To increase the number of cases, you can set the value of <bpt id="1">&lt;ui&gt;</bpt>SMOTE percentage<ept id="1">&lt;/ui&gt;</ept> in <bpt id="2">&lt;legacyBold&gt;</bpt>multiples of 100<ept id="2">&lt;/legacyBold&gt;</ept> as follows:</source>
+            <target state="new">To increase the number of cases, you can set the value of <bpt id="1">&lt;ui&gt;</bpt>SMOTE percentage<ept id="1">&lt;/ui&gt;</ept> in <bpt id="2">&lt;legacyBold&gt;</bpt>multiples of 100<ept id="2">&lt;/legacyBold&gt;</ept> as follows:</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Class 0</source>
+            <target state="new">Class 0</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Class 1</source>
+            <target state="new">Class 1</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>total</source>
+            <target state="new">total</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Original dataset</source>
+            <target state="new">Original dataset</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>570</source>
+            <target state="new">570</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>76%</source>
+            <target state="new">76%</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>179</source>
+            <target state="new">179</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>24%</source>
+            <target state="new">24%</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>748</source>
+            <target state="new">748</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>SMOTE increase = <bpt id="1">&lt;legacyBold&gt;</bpt>200<ept id="1">&lt;/legacyBold&gt;</ept></source>
+            <target state="new">SMOTE increase = <bpt id="1">&lt;legacyBold&gt;</bpt>200<ept id="1">&lt;/legacyBold&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>570</source>
+            <target state="new">570</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>52%</source>
+            <target state="new">52%</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>534</source>
+            <target state="new">534</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>48%</source>
+            <target state="new">48%</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>1104</source>
+            <target state="new">1104</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>SMOTE increase = <bpt id="1">&lt;legacyBold&gt;</bpt>300<ept id="1">&lt;/legacyBold&gt;</ept></source>
+            <target state="new">SMOTE increase = <bpt id="1">&lt;legacyBold&gt;</bpt>300<ept id="1">&lt;/legacyBold&gt;</ept></target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>570</source>
+            <target state="new">570</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>44%</source>
+            <target state="new">44%</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>712</source>
+            <target state="new">712</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>56%</source>
+            <target state="new">56%</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>1282</source>
+            <target state="new">1282</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Increasing the number of cases using SMOTE is not guaranteed to produce more accurate models.</source>
+            <target state="new">Increasing the number of cases using SMOTE is not guaranteed to produce more accurate models.</target>
+          </trans-unit>
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>You should try experimenting with different percentages, different feature sets, and different numbers of nearest neighbors to see how adding cases influences your model.</source>
+            <target state="new">You should try experimenting with different percentages, different feature sets, and different numbers of nearest neighbors to see how adding cases influences your model.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>How to Configure SMOTE</source>
+            <target state="new">How to Configure SMOTE</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Determine which columns in the dataset to use as input.</source>
+            <target state="new">Determine which columns in the dataset to use as input.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>Creation of new cases using <bpt id="1">&lt;ui&gt;</bpt>SMOTE<ept id="1">&lt;/ui&gt;</ept> is based on <bpt id="2">&lt;legacyBold&gt;</bpt>all<ept id="2">&lt;/legacyBold&gt;</ept> the columns that you provide as inputs.</source>
+            <target state="new">Creation of new cases using <bpt id="1">&lt;ui&gt;</bpt>SMOTE<ept id="1">&lt;/ui&gt;</ept> is based on <bpt id="2">&lt;legacyBold&gt;</bpt>all<ept id="2">&lt;/legacyBold&gt;</ept> the columns that you provide as inputs.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>You cannot select specific columns, or exclude columns.</source>
+            <target state="new">You cannot select specific columns, or exclude columns.</target>
+          </trans-unit>
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Therefore, if you want to use a limited feature space for building the new cases, you should use <ph id="1">&lt;link xlink:href="1ec722fa-b623-4e26-a44e-a50c6d726223" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Project Columns&lt;/link&gt;</ph> to select those columns before using <bpt id="2">&lt;ui&gt;</bpt>SMOTE<ept id="2">&lt;/ui&gt;</ept>.</source>
+            <target state="new">Therefore, if you want to use a limited feature space for building the new cases, you should use <ph id="1">&lt;link xlink:href="1ec722fa-b623-4e26-a44e-a50c6d726223" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Project Columns&lt;/link&gt;</ph> to select those columns before using <bpt id="2">&lt;ui&gt;</bpt>SMOTE<ept id="2">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Ensure that the column containing the label, or target class, is marked as such.</source>
+            <target state="new">Ensure that the column containing the label, or target class, is marked as such.</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Use the <ph id="1">&lt;link xlink:href="9f3fe1c4-520e-49ac-a152-2e104169912a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Metadata Editor&lt;/link&gt;</ph> module to select the column that contains the class labels, and select <bpt id="2">&lt;ui&gt;</bpt>Label<ept id="2">&lt;/ui&gt;</ept> from the <bpt id="3">&lt;ui&gt;</bpt>Fields<ept id="3">&lt;/ui&gt;</ept> dropdown list.</source>
+            <target state="new">Use the <ph id="1">&lt;link xlink:href="9f3fe1c4-520e-49ac-a152-2e104169912a" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Metadata Editor&lt;/link&gt;</ph> module to select the column that contains the class labels, and select <bpt id="2">&lt;ui&gt;</bpt>Label<ept id="2">&lt;/ui&gt;</ept> from the <bpt id="3">&lt;ui&gt;</bpt>Fields<ept id="3">&lt;/ui&gt;</ept> dropdown list.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Based on this metadata, SMOTE identifies the minority class in the label column, and then gets all examples for the minority class.</source>
+            <target state="new">Based on this metadata, SMOTE identifies the minority class in the label column, and then gets all examples for the minority class.</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>Properties<ept id="1">&lt;/ui&gt;</ept> pane of the <bpt id="2">&lt;ui&gt;</bpt>SMOTE<ept id="2">&lt;/ui&gt;</ept> module, indicate the amount by which to increase the proportion of minority cases in the output dataset, by typing a whole number for <bpt id="3">&lt;ui&gt;</bpt>SMOTE percentage<ept id="3">&lt;/ui&gt;</ept>.</source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>Properties<ept id="1">&lt;/ui&gt;</ept> pane of the <bpt id="2">&lt;ui&gt;</bpt>SMOTE<ept id="2">&lt;/ui&gt;</ept> module, indicate the amount by which to increase the proportion of minority cases in the output dataset, by typing a whole number for <bpt id="3">&lt;ui&gt;</bpt>SMOTE percentage<ept id="3">&lt;/ui&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>The value must be in multiples of 100.</source>
+            <target state="new">The value must be in multiples of 100.</target>
+          </trans-unit>
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>For example:</source>
+            <target state="new">For example:</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>You type <bpt id="1">&lt;legacyBold&gt;</bpt>50<ept id="1">&lt;/legacyBold&gt;</ept> (%).</source>
+            <target state="new">You type <bpt id="1">&lt;legacyBold&gt;</bpt>50<ept id="1">&lt;/legacyBold&gt;</ept> (%).</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>The module returns an error, because that would mean returning fewer minority cases than you started with.</source>
+            <target state="new">The module returns an error, because that would mean returning fewer minority cases than you started with.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>You type <bpt id="1">&lt;legacyBold&gt;</bpt>100<ept id="1">&lt;/legacyBold&gt;</ept> (%).</source>
+            <target state="new">You type <bpt id="1">&lt;legacyBold&gt;</bpt>100<ept id="1">&lt;/legacyBold&gt;</ept> (%).</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>The SMOTE module returns exactly the same number of minority cases as in the original dataset.</source>
+            <target state="new">The SMOTE module returns exactly the same number of minority cases as in the original dataset.</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>You type <bpt id="1">&lt;legacyBold&gt;</bpt>150<ept id="1">&lt;/legacyBold&gt;</ept> (%).</source>
+            <target state="new">You type <bpt id="1">&lt;legacyBold&gt;</bpt>150<ept id="1">&lt;/legacyBold&gt;</ept> (%).</target>
+          </trans-unit>
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>The SMOTE module returns an error, because increases must be in units of 100.</source>
+            <target state="new">The SMOTE module returns an error, because increases must be in units of 100.</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>In future releases, this restriction will be removed.</source>
+            <target state="new">In future releases, this restriction will be removed.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>You type <bpt id="1">&lt;legacyBold&gt;</bpt>200<ept id="1">&lt;/legacyBold&gt;</ept> (%).</source>
+            <target state="new">You type <bpt id="1">&lt;legacyBold&gt;</bpt>200<ept id="1">&lt;/legacyBold&gt;</ept> (%).</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>The module doubles the percentage of minority cases in the original dataset.</source>
+            <target state="new">The module doubles the percentage of minority cases in the original dataset.</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>Note that this does not result in having twice as many minority cases as before.</source>
+            <target state="new">Note that this does not result in having twice as many minority cases as before.</target>
+          </trans-unit>
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>SMOTE never changes the number of majority cases.</source>
+            <target state="new">SMOTE never changes the number of majority cases.</target>
+          </trans-unit>
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>Rather, the size of the dataset is increased in such a way that the number of majority cases stays the same, and the number of minority cases is increased till it matches the desired percentage value.</source>
+            <target state="new">Rather, the size of the dataset is increased in such a way that the number of majority cases stays the same, and the number of minority cases is increased till it matches the desired percentage value.</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;ui&gt;</bpt>Properties<ept id="1">&lt;/ui&gt;</ept> pane, use the <bpt id="2">&lt;ui&gt;</bpt>Number of nearest neighbors<ept id="2">&lt;/ui&gt;</ept> option to determine the size of the feature space that the SMOTE algorithm uses when in building new cases.</source>
+            <target state="new">In the <bpt id="1">&lt;ui&gt;</bpt>Properties<ept id="1">&lt;/ui&gt;</ept> pane, use the <bpt id="2">&lt;ui&gt;</bpt>Number of nearest neighbors<ept id="2">&lt;/ui&gt;</ept> option to determine the size of the feature space that the SMOTE algorithm uses when in building new cases.</target>
+          </trans-unit>
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>A <bpt id="1">&lt;newTerm&gt;</bpt>nearest neighbor<ept id="1">&lt;/newTerm&gt;</ept> is a row of data (a case) that is very similar to some target case.</source>
+            <target state="new">A <bpt id="1">&lt;newTerm&gt;</bpt>nearest neighbor<ept id="1">&lt;/newTerm&gt;</ept> is a row of data (a case) that is very similar to some target case.</target>
+          </trans-unit>
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>The distance between any two cases is measured by combining the weighted vectors of all features.</source>
+            <target state="new">The distance between any two cases is measured by combining the weighted vectors of all features.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>By increasing the number of nearest neighbors, you get features from more cases.</source>
+            <target state="new">By increasing the number of nearest neighbors, you get features from more cases.</target>
+          </trans-unit>
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>By keeping the number of nearest neighbors low, you use features that are more like those in the original sample.</source>
+            <target state="new">By keeping the number of nearest neighbors low, you use features that are more like those in the original sample.</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>SMOTE Options</source>
+            <target state="new">SMOTE Options</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>You can change the way the SMOTE algorithm works by setting these parameters:</source>
+            <target state="new">You can change the way the SMOTE algorithm works by setting these parameters:</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>SMOTE percentage</source>
+            <target state="new">SMOTE percentage</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Type a number, in a multiple of 100, that represents the desired percentage increase for the minority cases only.</source>
+            <target state="new">Type a number, in a multiple of 100, that represents the desired percentage increase for the minority cases only.</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>The size of the output dataset is equal to the original samples plus an additional number of synthetic minority samples.</source>
+            <target state="new">The size of the output dataset is equal to the original samples plus an additional number of synthetic minority samples.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>Number of nearest neighbors</source>
+            <target state="new">Number of nearest neighbors</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Type a value that specifies the number of nearest neighbors to use in building feature space for new cases.</source>
+            <target state="new">Type a value that specifies the number of nearest neighbors to use in building feature space for new cases.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Technical Notes</source>
+            <target state="new">Technical Notes</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>Expected Input</source>
+            <target state="new">Expected Input</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>Samples</source>
+            <target state="new">Samples</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>A dataset of samples</source>
+            <target state="new">A dataset of samples</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>Module Parameters</source>
+            <target state="new">Module Parameters</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Range</source>
+            <target state="new">Range</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Default</source>
+            <target state="new">Default</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>SMOTE percentage</source>
+            <target state="new">SMOTE percentage</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>&gt;=0</source>
+            <target state="new">&gt;=0</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>100</source>
+            <target state="new">100</target>
+          </trans-unit>
+        </group>
+        <group id="75">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>Amount of oversampling in multiples of 100.</source>
+            <target state="new">Amount of oversampling in multiples of 100.</target>
+          </trans-unit>
+        </group>
+        <group id="76">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Number of nearest neighbors</source>
+            <target state="new">Number of nearest neighbors</target>
+          </trans-unit>
+        </group>
+        <group id="77">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>&gt;=1</source>
+            <target state="new">&gt;=1</target>
+          </trans-unit>
+        </group>
+        <group id="78">
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="79">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>1</source>
+            <target state="new">1</target>
+          </trans-unit>
+        </group>
+        <group id="80">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>The number of nearest neighbors from which to draw features for new cases</source>
+            <target state="new">The number of nearest neighbors from which to draw features for new cases</target>
+          </trans-unit>
+        </group>
+        <group id="81">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>Random seed</source>
+            <target state="new">Random seed</target>
+          </trans-unit>
+        </group>
+        <group id="82">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>Any</source>
+            <target state="new">Any</target>
+          </trans-unit>
+        </group>
+        <group id="83">
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>Integer</source>
+            <target state="new">Integer</target>
+          </trans-unit>
+        </group>
+        <group id="84">
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>0</source>
+            <target state="new">0</target>
+          </trans-unit>
+        </group>
+        <group id="85">
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>Seed for the random number generator </source>
+            <target state="new">Seed for the random number generator </target>
+          </trans-unit>
+        </group>
+        <group id="86">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>Output</source>
+            <target state="new">Output</target>
+          </trans-unit>
+        </group>
+        <group id="87">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Name</source>
+            <target state="new">Name</target>
+          </trans-unit>
+        </group>
+        <group id="88">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="89">
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="90">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>Table</source>
+            <target state="new">Table</target>
+          </trans-unit>
+        </group>
+        <group id="91">
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>A <ph id="1">&lt;link xlink:href="285668ca-bd74-42b2-9c2c-3111b4819e56" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;DataTable&lt;/link&gt;</ph> containing the original samples plus an additional number of synthetic minority class samples.</source>
+            <target state="new">A <ph id="1">&lt;link xlink:href="285668ca-bd74-42b2-9c2c-3111b4819e56" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;DataTable&lt;/link&gt;</ph> containing the original samples plus an additional number of synthetic minority class samples.</target>
+          </trans-unit>
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>The number of new samples is (smotePercent/100)*T, where T is the number of minority class samples.</source>
+            <target state="new">The number of new samples is (smotePercent/100)*T, where T is the number of minority class samples.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzMsJwzAMANBVPIAFkiw3VgcoPZcuIH8EgTSBNIWM39ze6bmnUYUbjCECQo5QsVRoSHZTdTLTGDqmziIF0AuDVBygiQmaVC0TOyFxDMqT9KEVspuByCVt2YHcs5gl835dFIPv8HjFcC6z+ziP+75tRwzXkGN4/j62vndbv4sd87b+ASoH366hAAAA</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>OData support</source>
+            <target state="new">OData support</target>
+            <context-group>
+              <context context-type="x-metadataname">toc_title</context>
+            </context-group>
+          </trans-unit>
+        </group>
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Support for OData (Azure Search)</source>
+            <target state="new">Support for OData (Azure Search)</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>Azure Search service API uses Open Data Protocol (OData) for index queries.</source>
+            <target state="new">Azure Search service API uses Open Data Protocol (OData) for index queries.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>Azure Search supports OData version 4.</source>
+            <target state="new">Azure Search supports OData version 4.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>OData syntax in HTTP request headers</source>
+            <target state="new">OData syntax in HTTP request headers</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>OData defines a few HTTP request headers that you can optionally set.</source>
+            <target state="new">OData defines a few HTTP request headers that you can optionally set.</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>You can use OData-specific values for the Accept header like <ph id="1">&lt;codeInline&gt;application/json;odata.metadata=none&lt;/codeInline&gt;</ph> to control the amount of metadata included in the response.</source>
+            <target state="new">You can use OData-specific values for the Accept header like <ph id="1">&lt;codeInline&gt;application/json;odata.metadata=none&lt;/codeInline&gt;</ph> to control the amount of metadata included in the response.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>The default is <ph id="1">&lt;codeInline&gt;odata.metadata=minimal&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">The default is <ph id="1">&lt;codeInline&gt;odata.metadata=minimal&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>For brevity, all examples in this document assume <ph id="1">&lt;codeInline&gt;odata.metadata=none&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">For brevity, all examples in this document assume <ph id="1">&lt;codeInline&gt;odata.metadata=none&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Another header you can set is <ph id="1">&lt;codeInline&gt;OData-MaxVersion&lt;/codeInline&gt;</ph>.</source>
+            <target state="new">Another header you can set is <ph id="1">&lt;codeInline&gt;OData-MaxVersion&lt;/codeInline&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The Azure Search Service API supports OData V4 so you should set <ph id="1">&lt;codeInline&gt;OData-MaxVersion&lt;/codeInline&gt;</ph> to "4.0".</source>
+            <target state="new">The Azure Search Service API supports OData V4 so you should set <ph id="1">&lt;codeInline&gt;OData-MaxVersion&lt;/codeInline&gt;</ph> to "4.0".</target>
+          </trans-unit>
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>This tells the API to expect the OData V4 format in the request body, and to send responses in the OData V4 format.</source>
+            <target state="new">This tells the API to expect the OData V4 format in the request body, and to send responses in the OData V4 format.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>In the future as we add support for newer versions of the OData protocol, you may set this header to a different value.</source>
+            <target state="new">In the future as we add support for newer versions of the OData protocol, you may set this header to a different value.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The Azure Search service API does not support versions of OData older than V4.</source>
+            <target state="new">The Azure Search service API does not support versions of OData older than V4.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="20217801-f1f7-49e2-badf-0ac356bf8975" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OData Expression Syntax for Azure Search&lt;/link&gt;</ph> for details about using OData syntax when querying an index.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="20217801-f1f7-49e2-badf-0ac356bf8975" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;OData Expression Syntax for Azure Search&lt;/link&gt;</ph> for details about using OData syntax when querying an index.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>See <ph id="1">&lt;link xlink:href="1d656013-e580-4762-9ea1-8aa5d0e96ac2" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Simple query syntax in Azure Search&lt;/link&gt;</ph> for alternative syntax.</source>
+            <target state="new">See <ph id="1">&lt;link xlink:href="1d656013-e580-4762-9ea1-8aa5d0e96ac2" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Simple query syntax in Azure Search&lt;/link&gt;</ph> for alternative syntax.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Search service API with Alternate OData syntax</source>
+            <target state="new">Search service API with Alternate OData syntax</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>The Search service API supports OData syntax for entity lookup.</source>
+            <target state="new">The Search service API supports OData syntax for entity lookup.</target>
+          </trans-unit>
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>This applies both to both documents in an index, as well as to indexes themselves (where the index name is the entity key).</source>
+            <target state="new">This applies both to both documents in an index, as well as to indexes themselves (where the index name is the entity key).</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Here is a summary of all APIs that have alternate OData syntax:</source>
+            <target state="new">Here is a summary of all APIs that have alternate OData syntax:</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Updating an Index</source>
+            <target state="new">Updating an Index</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Getting an Index</source>
+            <target state="new">Getting an Index</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Getting Index Statistics</source>
+            <target state="new">Getting Index Statistics</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Deleting an Index</source>
+            <target state="new">Deleting an Index</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Adding and Deleting Data within an Index</source>
+            <target state="new">Adding and Deleting Data within an Index</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Search</source>
+            <target state="new">Search</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Lookup</source>
+            <target state="new">Lookup</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Count</source>
+            <target state="new">Count</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>Suggestions</source>
+            <target state="new">Suggestions</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

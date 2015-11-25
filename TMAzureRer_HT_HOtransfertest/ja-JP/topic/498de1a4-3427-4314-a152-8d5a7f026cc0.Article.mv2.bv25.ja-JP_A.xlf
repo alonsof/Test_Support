@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="ja-JP" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANylEKgzAMANCr5AAJNG207U4w9rWPXSCpDTicgnPg8Se8z+eeukls1LsICXsgC8WoBdaxVmfVilB5qsbJqPSUSSRHMm9MNjYNKatqKQhSy9RZhZLEayUWUh4ilWnQ7CGOrQUERngrPZ4I5zK79/O47dt2IMTLgHD/fXR97bp+Fz3mbf0DJxCYgKIAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Routing Messages from Bridges to Destinations in the BizTalk Service Project</source>
+            <target state="new">Routing Messages from Bridges to Destinations in the BizTalk Service Project</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>Route messages from one component to another using routing conditions.</source>
+            <target state="new">Route messages from one component to another using routing conditions.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>One of the obvious reasons for connecting various components of a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> is to route the message from one component to another.</source>
+            <target state="new">One of the obvious reasons for connecting various components of a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph> is to route the message from one component to another.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>There’s another requirement though – you might need to route the message from one source component to more than one destination component based on your business logic, which can also be termed as the routing condition.</source>
+            <target state="new">There’s another requirement though – you might need to route the message from one source component to more than one destination component based on your business logic, which can also be termed as the routing condition.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>When there are more than one routing conditions, you also need to set the order in which the routing conditions are honored.</source>
+            <target state="new">When there are more than one routing conditions, you also need to set the order in which the routing conditions are honored.</target>
+          </trans-unit>
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>And finally, there can be some actions (like assigning values to message headers, adding custom headers, etc.)</source>
+            <target state="new">And finally, there can be some actions (like assigning values to message headers, adding custom headers, etc.)</target>
+          </trans-unit>
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>that you perform on the message before it finally gets routed to the destination.</source>
+            <target state="new">that you perform on the message before it finally gets routed to the destination.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>This topic discusses these aspects in detail and also provides instructions how to achieve these in a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">This topic discusses these aspects in detail and also provides instructions how to achieve these in a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>This topic explains these steps using an example scenario.</source>
+            <target state="new">This topic explains these steps using an example scenario.</target>
+          </trans-unit>
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Assume that an XML message in the following format has to be processed using a <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph>:</source>
+            <target state="new">Assume that an XML message in the following format has to be processed using a <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph>:</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>The business logic is such that if the payment mode is a credit card, the message must be routed to a one-way external service; if the mode is cash, the message must be routed to a one-way relay endpoint; and if the mode is neither of these, it must be routed to a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> queue.</source>
+            <target state="new">The business logic is such that if the payment mode is a credit card, the message must be routed to a one-way external service; if the mode is cash, the message must be routed to a one-way relay endpoint; and if the mode is neither of these, it must be routed to a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> queue.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>The Routing Destination</source>
+            <target state="new">The Routing Destination</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>This is fairly straightforward.</source>
+            <target state="new">This is fairly straightforward.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>You must define the route destination where the incoming message gets routed to after being processed by the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>.</source>
+            <target state="new">You must define the route destination where the incoming message gets routed to after being processed by the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>There are some considerations regarding where a message from an <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> or an <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph> can be routed to.</source>
+            <target state="new">There are some considerations regarding where a message from an <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> or an <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph> can be routed to.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>For more information about these considerations, see <ph id="1">&lt;link xlink:href="300b4e72-27f3-4526-a3cd-44f00a8b7a53#BKMK_ConstOneWay" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Constraints on Using an XML One-Way Bridge&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="300b4e72-27f3-4526-a3cd-44f00a8b7a53#BKMK_ConstTwoWay" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Constraints on Using an XML Request Reply Bridge&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about these considerations, see <ph id="1">&lt;link xlink:href="300b4e72-27f3-4526-a3cd-44f00a8b7a53#BKMK_ConstOneWay" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Constraints on Using an XML One-Way Bridge&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="300b4e72-27f3-4526-a3cd-44f00a8b7a53#BKMK_ConstTwoWay" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Constraints on Using an XML Request Reply Bridge&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>The following procedure describes how to connect two components of a message flow.</source>
+            <target state="new">The following procedure describes how to connect two components of a message flow.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>To connect two components</source>
+            <target state="new">To connect two components</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Create a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, as described in <ph id="2">&lt;link xlink:href="03421690-817a-45a8-8492-c9cb98484102" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Create a Message Flow Project&lt;/link&gt;</ph>.</source>
+            <target state="new">Create a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, as described in <ph id="2">&lt;link xlink:href="03421690-817a-45a8-8492-c9cb98484102" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;How to Create a Message Flow Project&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>Add components to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, as described in various topics under <ph id="2">&lt;link xlink:href="18375cf4-5717-4384-aed9-c9d4098b87ec" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configuring Rich Messaging Endpoints on Azure&lt;/link&gt;</ph>.</source>
+            <target state="new">Add components to the <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, as described in various topics under <ph id="2">&lt;link xlink:href="18375cf4-5717-4384-aed9-c9d4098b87ec" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Configuring Rich Messaging Endpoints on Azure&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Connector<ept id="1">&lt;/embeddedLabel&gt;</ept> under the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Bridges<ept id="2">&lt;/embeddedLabel&gt;</ept> category on the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Toolbox<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Select <bpt id="1">&lt;embeddedLabel&gt;</bpt>Connector<ept id="1">&lt;/embeddedLabel&gt;</ept> under the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Bridges<ept id="2">&lt;/embeddedLabel&gt;</ept> category on the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Toolbox<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Take the mouse pointer to the right-end of the component (marked by a red dot when you move the cursor over the component) that acta as the source of the message.</source>
+            <target state="new">Take the mouse pointer to the right-end of the component (marked by a red dot when you move the cursor over the component) that acta as the source of the message.</target>
+          </trans-unit>
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>The mouse pointer changes to show a small “<bpt id="1">&lt;embeddedLabel&gt;</bpt>S<ept id="1">&lt;/embeddedLabel&gt;</ept>” sign denoting that this component adds the source of the message.</source>
+            <target state="new">The mouse pointer changes to show a small “<bpt id="1">&lt;embeddedLabel&gt;</bpt>S<ept id="1">&lt;/embeddedLabel&gt;</ept>” sign denoting that this component adds the source of the message.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>Click and hold the mouse at the dot, drag it to the left end of the target component (at this point the cursor changes again to show a small “<bpt id="1">&lt;embeddedLabel&gt;</bpt>T<ept id="1">&lt;/embeddedLabel&gt;</ept>” denoting the target), and then release the mouse.</source>
+            <target state="new">Click and hold the mouse at the dot, drag it to the left end of the target component (at this point the cursor changes again to show a small “<bpt id="1">&lt;embeddedLabel&gt;</bpt>T<ept id="1">&lt;/embeddedLabel&gt;</ept>” denoting the target), and then release the mouse.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>The two components are now connected.</source>
+            <target state="new">The two components are now connected.</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Note that you can connect one source component to more than one target component.</source>
+            <target state="new">Note that you can connect one source component to more than one target component.</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>For the current milestone, a message flow must always start with either a <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> or a <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph>.</source>
+            <target state="new">For the current milestone, a message flow must always start with either a <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> or a <ph id="2">&lt;token&gt;request_response&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>After that, you can route the message to any component, as long as you adhere to the constraints.</source>
+            <target state="new">After that, you can route the message to any component, as long as you adhere to the constraints.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>The constraints are listed at <ph id="1">&lt;link xlink:href="300b4e72-27f3-4526-a3cd-44f00a8b7a53#BKMK_ConstOneWay" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Constraints on Using an XML One-Way Bridge&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="300b4e72-27f3-4526-a3cd-44f00a8b7a53#BKMK_ConstTwoWay" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Constraints on Using an XML Request Reply Bridge&lt;/link&gt;</ph>.</source>
+            <target state="new">The constraints are listed at <ph id="1">&lt;link xlink:href="300b4e72-27f3-4526-a3cd-44f00a8b7a53#BKMK_ConstOneWay" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Constraints on Using an XML One-Way Bridge&lt;/link&gt;</ph> and <ph id="2">&lt;link xlink:href="300b4e72-27f3-4526-a3cd-44f00a8b7a53#BKMK_ConstTwoWay" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Constraints on Using an XML Request Reply Bridge&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Going by the example scenario, you must connect the <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> to a one-way external service, a one-way relay endpoint, and a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> queue.</source>
+            <target state="new">Going by the example scenario, you must connect the <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> to a one-way external service, a one-way relay endpoint, and a <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> queue.</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>The Routing Condition</source>
+            <target state="new">The Routing Condition</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>Apart from connecting two components, the other important aspect of routing is to route the message from one source component to more than one destination component based on your business logic.</source>
+            <target state="new">Apart from connecting two components, the other important aspect of routing is to route the message from one source component to more than one destination component based on your business logic.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>Going by the example scenario explained above, the routing condition must be based on the mode of payment, which is denoted by the <bpt id="1">&lt;embeddedLabel&gt;</bpt>PaymentMode<ept id="1">&lt;/embeddedLabel&gt;</ept> element in the XML message.</source>
+            <target state="new">Going by the example scenario explained above, the routing condition must be based on the mode of payment, which is denoted by the <bpt id="1">&lt;embeddedLabel&gt;</bpt>PaymentMode<ept id="1">&lt;/embeddedLabel&gt;</ept> element in the XML message.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>To implement this business logic in a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, we need to create routing filters for each condition.</source>
+            <target state="new">To implement this business logic in a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>, we need to create routing filters for each condition.</target>
+          </trans-unit>
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>The following procedure describes how to do so.</source>
+            <target state="new">The following procedure describes how to do so.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Before you start creating filters, ensure that you have created all the three Connectors (as described in the previous procedure).</source>
+            <target state="new">Before you start creating filters, ensure that you have created all the three Connectors (as described in the previous procedure).</target>
+          </trans-unit>
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>Also, you must have created a property (e.g.  <bpt id="1">&lt;legacyItalic&gt;</bpt>PaymentMode<ept id="1">&lt;/legacyItalic&gt;</ept>) in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="2">&lt;/embeddedLabel&gt;</ept> stage of a bridge to extract the value of the <bpt id="3">&lt;embeddedLabel&gt;</bpt>PaymentMode<ept id="3">&lt;/embeddedLabel&gt;</ept> element in the XML message.</source>
+            <target state="new">Also, you must have created a property (e.g.  <bpt id="1">&lt;legacyItalic&gt;</bpt>PaymentMode<ept id="1">&lt;/legacyItalic&gt;</ept>) in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Enrich<ept id="2">&lt;/embeddedLabel&gt;</ept> stage of a bridge to extract the value of the <bpt id="3">&lt;embeddedLabel&gt;</bpt>PaymentMode<ept id="3">&lt;/embeddedLabel&gt;</ept> element in the XML message.</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>The following procedure describes how to set the routing conditions in a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</source>
+            <target state="new">The following procedure describes how to set the routing conditions in a <ph id="1">&lt;token&gt;msgflow_proj&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>To set filters on the routing connectors</source>
+            <target state="new">To set filters on the routing connectors</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>Right-click the route connector between <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> and the one-way external service, and then click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Properties<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Right-click the route connector between <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> and the one-way external service, and then click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Properties<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>In the Properties pane, for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Filter Condition<ept id="1">&lt;/embeddedLabel&gt;</ept> property, click the ellipsis <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> button to the open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Route Filter Configuration<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">In the Properties pane, for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Filter Condition<ept id="1">&lt;/embeddedLabel&gt;</ept> property, click the ellipsis <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> button to the open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Route Filter Configuration<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>In the dialog box, select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Filter<ept id="1">&lt;/embeddedLabel&gt;</ept> option, and then enter the following filter string:</source>
+            <target state="new">In the dialog box, select the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Filter<ept id="1">&lt;/embeddedLabel&gt;</ept> option, and then enter the following filter string:</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>You must use standard SQL 92 syntax for filter expressions.</source>
+            <target state="new">You must use standard SQL 92 syntax for filter expressions.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>Note that <bpt id="1">&lt;embeddedLabel&gt;</bpt>PaymentMode<ept id="1">&lt;/embeddedLabel&gt;</ept> is the property that you must have entered for extraction in the Enrich stage and this filter condition (which is entered on the connector between <ph id="2">&lt;token&gt;one-way&lt;/token&gt;</ph> and one-way external service) specifies that the message is sent to the one-way external service, if this filter condition is met.</source>
+            <target state="new">Note that <bpt id="1">&lt;embeddedLabel&gt;</bpt>PaymentMode<ept id="1">&lt;/embeddedLabel&gt;</ept> is the property that you must have entered for extraction in the Enrich stage and this filter condition (which is entered on the connector between <ph id="2">&lt;token&gt;one-way&lt;/token&gt;</ph> and one-way external service) specifies that the message is sent to the one-way external service, if this filter condition is met.</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> to save the changes and exit.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> to save the changes and exit.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>Similarly, for the connector between <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> and one-way relay endpoint, enter the filter string as:</source>
+            <target state="new">Similarly, for the connector between <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> and one-way relay endpoint, enter the filter string as:</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>If the payment mode is neither cash nor credit card, the message should be routed to a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> queue.</source>
+            <target state="new">If the payment mode is neither cash nor credit card, the message should be routed to a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> queue.</target>
+          </trans-unit>
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>To achieve that in your message flow, for the connector between <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> and <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> queue, you must open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Route Filter Configuration<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box, and then select <bpt id="4">&lt;embeddedLabel&gt;</bpt>Match All<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">To achieve that in your message flow, for the connector between <ph id="1">&lt;token&gt;one-way&lt;/token&gt;</ph> and <ph id="2">&lt;token&gt;sb2&lt;/token&gt;</ph> queue, you must open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Route Filter Configuration<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box, and then select <bpt id="4">&lt;embeddedLabel&gt;</bpt>Match All<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>This specifies that if neither of the filter conditions matches, this filter condition is honored and the message is routed to a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> queue.</source>
+            <target state="new">This specifies that if neither of the filter conditions matches, this filter condition is honored and the message is routed to a <ph id="1">&lt;token&gt;sb2&lt;/token&gt;</ph> queue.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>The Routing Order</source>
+            <target state="new">The Routing Order</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>In the previous section we set the filters on the route connectors to ensure that the right messages get routed to the right components of a message flow.</source>
+            <target state="new">In the previous section we set the filters on the route connectors to ensure that the right messages get routed to the right components of a message flow.</target>
+          </trans-unit>
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>However, the order of routing is equally important.</source>
+            <target state="new">However, the order of routing is equally important.</target>
+          </trans-unit>
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>For example, going by the scenario we discussed earlier, if a message that has <bpt id="1">&lt;embeddedLabel&gt;</bpt>PaymentMode<ept id="1">&lt;/embeddedLabel&gt;</ept> set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>credit_card<ept id="2">&lt;/embeddedLabel&gt;</ept> is routed to the filter condition that has <bpt id="3">&lt;embeddedLabel&gt;</bpt>Match All<ept id="3">&lt;/embeddedLabel&gt;</ept> set, it is routed to a <ph id="4">&lt;token&gt;sb2&lt;/token&gt;</ph> queue instead of the one-way external service endpoint.</source>
+            <target state="new">For example, going by the scenario we discussed earlier, if a message that has <bpt id="1">&lt;embeddedLabel&gt;</bpt>PaymentMode<ept id="1">&lt;/embeddedLabel&gt;</ept> set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>credit_card<ept id="2">&lt;/embeddedLabel&gt;</ept> is routed to the filter condition that has <bpt id="3">&lt;embeddedLabel&gt;</bpt>Match All<ept id="3">&lt;/embeddedLabel&gt;</ept> set, it is routed to a <ph id="4">&lt;token&gt;sb2&lt;/token&gt;</ph> queue instead of the one-way external service endpoint.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>So, according to the business logic, the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Match All<ept id="1">&lt;/embeddedLabel&gt;</ept> condition should be honored last.</source>
+            <target state="new">So, according to the business logic, the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Match All<ept id="1">&lt;/embeddedLabel&gt;</ept> condition should be honored last.</target>
+          </trans-unit>
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>You can do so by setting the order in which the filter conditions must be honored.</source>
+            <target state="new">You can do so by setting the order in which the filter conditions must be honored.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>To set the order in which routing connectors are honored</source>
+            <target state="new">To set the order in which routing connectors are honored</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Right-click the <ph id="1">&lt;token&gt;xml_bridge&lt;/token&gt;</ph> (<ph id="2">&lt;token&gt;one-way&lt;/token&gt;</ph> or <ph id="3">&lt;token&gt;request_response&lt;/token&gt;</ph>) and select <bpt id="4">&lt;embeddedLabel&gt;</bpt>Properties<ept id="4">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Right-click the <ph id="1">&lt;token&gt;xml_bridge&lt;/token&gt;</ph> (<ph id="2">&lt;token&gt;one-way&lt;/token&gt;</ph> or <ph id="3">&lt;token&gt;request_response&lt;/token&gt;</ph>) and select <bpt id="4">&lt;embeddedLabel&gt;</bpt>Properties<ept id="4">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>In the Properties pane, click the ellipsis <bpt id="1">&lt;embeddedLabel&gt;</bpt>(…)<ept id="1">&lt;/embeddedLabel&gt;</ept> button against the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Route Ordering Table<ept id="2">&lt;/embeddedLabel&gt;</ept> property.</source>
+            <target state="new">In the Properties pane, click the ellipsis <bpt id="1">&lt;embeddedLabel&gt;</bpt>(…)<ept id="1">&lt;/embeddedLabel&gt;</ept> button against the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Route Ordering Table<ept id="2">&lt;/embeddedLabel&gt;</ept> property.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Ordering Table<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box displays the default order of honoring the route filters.</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Ordering Table<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box displays the default order of honoring the route filters.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>This default order is the order in which you created the route connectors.</source>
+            <target state="new">This default order is the order in which you created the route connectors.</target>
+          </trans-unit>
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>To re-order the route filters, select a route filter and then use the up and down arrow buttons to arrange them in the right order.</source>
+            <target state="new">To re-order the route filters, select a route filter and then use the up and down arrow buttons to arrange them in the right order.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>You must repeat this step for all the route filters until you have the correct route order that you want.</source>
+            <target state="new">You must repeat this step for all the route filters until you have the correct route order that you want.</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="63" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> to save the changes and exit.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> to save the changes and exit.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="64" translate="yes" xml:space="preserve">
+            <source>The Routing Action</source>
+            <target state="new">The Routing Action</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="65" translate="yes" xml:space="preserve">
+            <source>You might want to add some custom message headers or assign values to standard message headers before sending the message to the message receiver.</source>
+            <target state="new">You might want to add some custom message headers or assign values to standard message headers before sending the message to the message receiver.</target>
+          </trans-unit>
+          <trans-unit id="66" translate="yes" xml:space="preserve">
+            <source>You can do so using Route action.</source>
+            <target state="new">You can do so using Route action.</target>
+          </trans-unit>
+          <trans-unit id="67" translate="yes" xml:space="preserve">
+            <source>For more information, see <ph id="1">&lt;link xlink:href="2b28ccb0-dd88-4fbc-a5c4-c3b797a901e8#BKMK_Route" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Route Action&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information, see <ph id="1">&lt;link xlink:href="2b28ccb0-dd88-4fbc-a5c4-c3b797a901e8#BKMK_Route" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Route Action&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="68" translate="yes" xml:space="preserve">
+            <source>To continue with the example used above, assume that the message has to be sent to the one-way external service with a custom SOAP header (<bpt id="1">&lt;embeddedLabel&gt;</bpt>CustomerName<ept id="1">&lt;/embeddedLabel&gt;</ept>) and a value.</source>
+            <target state="new">To continue with the example used above, assume that the message has to be sent to the one-way external service with a custom SOAP header (<bpt id="1">&lt;embeddedLabel&gt;</bpt>CustomerName<ept id="1">&lt;/embeddedLabel&gt;</ept>) and a value.</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="69" translate="yes" xml:space="preserve">
+            <source>To configure the Route action</source>
+            <target state="new">To configure the Route action</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="70" translate="yes" xml:space="preserve">
+            <source>Right-click the route connector between the bridge and the one-way external service, and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">Right-click the route connector between the bridge and the one-way external service, and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Properties<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="71" translate="yes" xml:space="preserve">
+            <source>In the Properties pane, for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Action<ept id="1">&lt;/embeddedLabel&gt;</ept> property, click the ellipsis <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> button to the open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Route Actions<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">In the Properties pane, for the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Action<ept id="1">&lt;/embeddedLabel&gt;</ept> property, click the ellipsis <bpt id="2">&lt;embeddedLabel&gt;</bpt>(…)<ept id="2">&lt;/embeddedLabel&gt;</ept> button to the open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Route Actions<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="72" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Actions<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Route Actions<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, click <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add<ept id="2">&lt;/embeddedLabel&gt;</ept> to open the <bpt id="3">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="3">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+          <trans-unit id="73" translate="yes" xml:space="preserve">
+            <source>In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, do the following:</source>
+            <target state="new">In the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="1">&lt;/embeddedLabel&gt;</ept> dialog box, do the following:</target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="74" translate="yes" xml:space="preserve">
+            <source>Section</source>
+            <target state="new">Section</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="75" translate="yes" xml:space="preserve">
+            <source>Field Name</source>
+            <target state="new">Field Name</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="76" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="77" translate="yes" xml:space="preserve">
+            <source>Property (Read From)</source>
+            <target state="new">Property (Read From)</target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="78" translate="yes" xml:space="preserve">
+            <source>Property Name</source>
+            <target state="new">Property Name</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="79" translate="yes" xml:space="preserve">
+            <source>Lists all the properties that have been defined in the previous two Enrich stages in the <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph>.</source>
+            <target state="new">Lists all the properties that have been defined in the previous two Enrich stages in the <ph id="1">&lt;token&gt;request_response&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="80" translate="yes" xml:space="preserve">
+            <source>When you select a property here, you specify that the value of the selected property must be assigned to the relevant message header of the outgoing message.</source>
+            <target state="new">When you select a property here, you specify that the value of the selected property must be assigned to the relevant message header of the outgoing message.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="81" translate="yes" xml:space="preserve">
+            <source>Expression</source>
+            <target state="new">Expression</target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="82" translate="yes" xml:space="preserve">
+            <source>Use this option to provide an expression, the resultant value of which is passed on to the relevant message header of the outgoing message.</source>
+            <target state="new">Use this option to provide an expression, the resultant value of which is passed on to the relevant message header of the outgoing message.</target>
+          </trans-unit>
+          <trans-unit id="83" translate="yes" xml:space="preserve">
+            <source>You can also use this option to enter a constant value that is assigned to a message header.</source>
+            <target state="new">You can also use this option to enter a constant value that is assigned to a message header.</target>
+          </trans-unit>
+          <trans-unit id="84" translate="yes" xml:space="preserve">
+            <source>Some example expressions are:</source>
+            <target state="new">Some example expressions are:</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="85" translate="yes" xml:space="preserve">
+            <source>P1 + P2, where P1 and P2 are two properties that are already defined in any of the previous two Enrich stages</source>
+            <target state="new">P1 + P2, where P1 and P2 are two properties that are already defined in any of the previous two Enrich stages</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="86" translate="yes" xml:space="preserve">
+            <source>'Fabrikam', is a string constant</source>
+            <target state="new">'Fabrikam', is a string constant</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="87" translate="yes" xml:space="preserve">
+            <source>You must always enter the value for an expression within single quotes.</source>
+            <target state="new">You must always enter the value for an expression within single quotes.</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="88" translate="yes" xml:space="preserve">
+            <source>You can either choose the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Property Name<ept id="1">&lt;/embeddedLabel&gt;</ept> option or the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expression<ept id="2">&lt;/embeddedLabel&gt;</ept> option.</source>
+            <target state="new">You can either choose the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Property Name<ept id="1">&lt;/embeddedLabel&gt;</ept> option or the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Expression<ept id="2">&lt;/embeddedLabel&gt;</ept> option.</target>
+          </trans-unit>
+          <trans-unit id="89" translate="yes" xml:space="preserve">
+            <source>These options are mutually exclusive.</source>
+            <target state="new">These options are mutually exclusive.</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="90" translate="yes" xml:space="preserve">
+            <source>Destination (Write To)</source>
+            <target state="new">Destination (Write To)</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="91" translate="yes" xml:space="preserve">
+            <source>Type</source>
+            <target state="new">Type</target>
+          </trans-unit>
+        </group>
+        <group id="55">
+          <trans-unit id="92" translate="yes" xml:space="preserve">
+            <source>Enter the message type of the outgoing message, the header of which would be assigned the value that you entered earlier.</source>
+            <target state="new">Enter the message type of the outgoing message, the header of which would be assigned the value that you entered earlier.</target>
+          </trans-unit>
+        </group>
+        <group id="56">
+          <trans-unit id="93" translate="yes" xml:space="preserve">
+            <source>Depending on the message destination, the values available in the drop-down change.</source>
+            <target state="new">Depending on the message destination, the values available in the drop-down change.</target>
+          </trans-unit>
+        </group>
+        <group id="57">
+          <trans-unit id="94" translate="yes" xml:space="preserve">
+            <source>If you are routing to an external service or a relay endpoint (one-way or two-way), the values available from the drop-down list are <bpt id="1">&lt;embeddedLabel&gt;</bpt>SOAP<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>HTTP<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">If you are routing to an external service or a relay endpoint (one-way or two-way), the values available from the drop-down list are <bpt id="1">&lt;embeddedLabel&gt;</bpt>SOAP<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>HTTP<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="58">
+          <trans-unit id="95" translate="yes" xml:space="preserve">
+            <source>If you are routing to a queue or a topic, the values available from the drop-down list are <bpt id="1">&lt;embeddedLabel&gt;</bpt>SOAP<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Brokered<ept id="2">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">If you are routing to a queue or a topic, the values available from the drop-down list are <bpt id="1">&lt;embeddedLabel&gt;</bpt>SOAP<ept id="1">&lt;/embeddedLabel&gt;</ept> and <bpt id="2">&lt;embeddedLabel&gt;</bpt>Brokered<ept id="2">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="59">
+          <trans-unit id="96" translate="yes" xml:space="preserve">
+            <source>If you are routing to an FTP destination, the value available from the drop-down is <bpt id="1">&lt;embeddedLabel&gt;</bpt>FTP<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">If you are routing to an FTP destination, the value available from the drop-down is <bpt id="1">&lt;embeddedLabel&gt;</bpt>FTP<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="60">
+          <trans-unit id="97" translate="yes" xml:space="preserve">
+            <source>If you are routing to an SFTP destination, the value available from the drop-down is <bpt id="1">&lt;embeddedLabel&gt;</bpt>SFTP<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">If you are routing to an SFTP destination, the value available from the drop-down is <bpt id="1">&lt;embeddedLabel&gt;</bpt>SFTP<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="61">
+          <trans-unit id="98" translate="yes" xml:space="preserve">
+            <source>If you are routing to an Azure blob, the value available from the drop-down is <bpt id="1">&lt;embeddedLabel&gt;</bpt>Azure Blob<ept id="1">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">If you are routing to an Azure blob, the value available from the drop-down is <bpt id="1">&lt;embeddedLabel&gt;</bpt>Azure Blob<ept id="1">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="62">
+          <trans-unit id="99" translate="yes" xml:space="preserve">
+            <source>SOAP Header Namespace (only if the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Type<ept id="1">&lt;/embeddedLabel&gt;</ept> is set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>SOAP<ept id="2">&lt;/embeddedLabel&gt;</ept>)</source>
+            <target state="new">SOAP Header Namespace (only if the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Type<ept id="1">&lt;/embeddedLabel&gt;</ept> is set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>SOAP<ept id="2">&lt;/embeddedLabel&gt;</ept>)</target>
+          </trans-unit>
+        </group>
+        <group id="63">
+          <trans-unit id="100" translate="yes" xml:space="preserve">
+            <source>Enter the namespace of the custom SOAP header to which the value is assigned.</source>
+            <target state="new">Enter the namespace of the custom SOAP header to which the value is assigned.</target>
+          </trans-unit>
+        </group>
+        <group id="64">
+          <trans-unit id="101" translate="yes" xml:space="preserve">
+            <source>This field is greyed out if you select a standard header from the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Identifier<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list.</source>
+            <target state="new">This field is greyed out if you select a standard header from the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Identifier<ept id="1">&lt;/embeddedLabel&gt;</ept> drop-down list.</target>
+          </trans-unit>
+          <trans-unit id="102" translate="yes" xml:space="preserve">
+            <source>You are required to enter a namespace only for custom SOAP headers.</source>
+            <target state="new">You are required to enter a namespace only for custom SOAP headers.</target>
+          </trans-unit>
+        </group>
+        <group id="65">
+          <trans-unit id="103" translate="yes" xml:space="preserve">
+            <source>This field is greyed out also if the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Type<ept id="1">&lt;/embeddedLabel&gt;</ept> is set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>HTTP<ept id="2">&lt;/embeddedLabel&gt;</ept> or <bpt id="3">&lt;embeddedLabel&gt;</bpt>Brokered<ept id="3">&lt;/embeddedLabel&gt;</ept>.</source>
+            <target state="new">This field is greyed out also if the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Type<ept id="1">&lt;/embeddedLabel&gt;</ept> is set to <bpt id="2">&lt;embeddedLabel&gt;</bpt>HTTP<ept id="2">&lt;/embeddedLabel&gt;</ept> or <bpt id="3">&lt;embeddedLabel&gt;</bpt>Brokered<ept id="3">&lt;/embeddedLabel&gt;</ept>.</target>
+          </trans-unit>
+        </group>
+        <group id="66">
+          <trans-unit id="104" translate="yes" xml:space="preserve">
+            <source>Identifier</source>
+            <target state="new">Identifier</target>
+          </trans-unit>
+        </group>
+        <group id="67">
+          <trans-unit id="105" translate="yes" xml:space="preserve">
+            <source>Enter the name of message header property to which the value is assigned.</source>
+            <target state="new">Enter the name of message header property to which the value is assigned.</target>
+          </trans-unit>
+        </group>
+        <group id="68">
+          <trans-unit id="106" translate="yes" xml:space="preserve">
+            <source>You can also enter custom headers here.</source>
+            <target state="new">You can also enter custom headers here.</target>
+          </trans-unit>
+          <trans-unit id="107" translate="yes" xml:space="preserve">
+            <source>For SOAP message type, the drop-down lists the four standard identifiers.</source>
+            <target state="new">For SOAP message type, the drop-down lists the four standard identifiers.</target>
+          </trans-unit>
+          <trans-unit id="108" translate="yes" xml:space="preserve">
+            <source>For HTTP message type, because there’s a huge list of standard headers, the drop-down does not list any headers.</source>
+            <target state="new">For HTTP message type, because there’s a huge list of standard headers, the drop-down does not list any headers.</target>
+          </trans-unit>
+          <trans-unit id="109" translate="yes" xml:space="preserve">
+            <source>For both SOAP and HTTP message types, you can list a custom header whose value you want to assign to another property.</source>
+            <target state="new">For both SOAP and HTTP message types, you can list a custom header whose value you want to assign to another property.</target>
+          </trans-unit>
+        </group>
+        <group id="69">
+          <trans-unit id="110" translate="yes" xml:space="preserve">
+            <source>For other destination types such as FTP, SFTP, and <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> blobs, you can select the message headers to which the property value must be written.</source>
+            <target state="new">For other destination types such as FTP, SFTP, and <ph id="1">&lt;token&gt;azure_2&lt;/token&gt;</ph> blobs, you can select the message headers to which the property value must be written.</target>
+          </trans-unit>
+        </group>
+        <group id="70">
+          <trans-unit id="111" translate="yes" xml:space="preserve">
+            <source>Going with the example we took earlier, you must set this to <bpt id="1">&lt;userInput&gt;</bpt>CustomerName<ept id="1">&lt;/userInput&gt;</ept> because that is the custom header name you must include in the outgoing message.</source>
+            <target state="new">Going with the example we took earlier, you must set this to <bpt id="1">&lt;userInput&gt;</bpt>CustomerName<ept id="1">&lt;/userInput&gt;</ept> because that is the custom header name you must include in the outgoing message.</target>
+          </trans-unit>
+        </group>
+        <group id="71">
+          <trans-unit id="112" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Add Route Action<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box.</target>
+          </trans-unit>
+          <trans-unit id="113" translate="yes" xml:space="preserve">
+            <source>The dialog boxes should now resemble the following:</source>
+            <target state="new">The dialog boxes should now resemble the following:</target>
+          </trans-unit>
+        </group>
+        <group id="72">
+          <trans-unit id="114" translate="yes" xml:space="preserve">
+            <source>So what does this dialog box depict?</source>
+            <target state="new">So what does this dialog box depict?</target>
+          </trans-unit>
+          <trans-unit id="115" translate="yes" xml:space="preserve">
+            <source>It means that the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> would use the value of property P1 (already defined in one of the previous Enrich stages) and assign it to the custom SOAP header, <bpt id="2">&lt;embeddedLabel&gt;</bpt>CustomerName<ept id="2">&lt;/embeddedLabel&gt;</ept> with namespace <ph id="3">&lt;codeInline&gt;http://schemas.microsoft.com/integration/promotedpropertiesinfo&lt;/codeInline&gt;</ph> and then send it out to the message receiver.</source>
+            <target state="new">It means that the <ph id="1">&lt;token&gt;bridge&lt;/token&gt;</ph> would use the value of property P1 (already defined in one of the previous Enrich stages) and assign it to the custom SOAP header, <bpt id="2">&lt;embeddedLabel&gt;</bpt>CustomerName<ept id="2">&lt;/embeddedLabel&gt;</ept> with namespace <ph id="3">&lt;codeInline&gt;http://schemas.microsoft.com/integration/promotedpropertiesinfo&lt;/codeInline&gt;</ph> and then send it out to the message receiver.</target>
+          </trans-unit>
+        </group>
+        <group id="73">
+          <trans-unit id="116" translate="yes" xml:space="preserve">
+            <source>If you create two route actions on the same route connector that point to the same destination using two different properties, for example P1 and P2, you do not get a build error.</source>
+            <target state="new">If you create two route actions on the same route connector that point to the same destination using two different properties, for example P1 and P2, you do not get a build error.</target>
+          </trans-unit>
+          <trans-unit id="117" translate="yes" xml:space="preserve">
+            <source>The last route action overrides the previously defined route actions.</source>
+            <target state="new">The last route action overrides the previously defined route actions.</target>
+          </trans-unit>
+          <trans-unit id="118" translate="yes" xml:space="preserve">
+            <source>In this example, the route action for the property P2 is honored.</source>
+            <target state="new">In this example, the route action for the property P2 is honored.</target>
+          </trans-unit>
+        </group>
+        <group id="74">
+          <trans-unit id="119" translate="yes" xml:space="preserve">
+            <source>To update or remove a route action, you can select it in the dialog box and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Remove<ept id="2">&lt;/embeddedLabel&gt;</ept> respectively.</source>
+            <target state="new">To update or remove a route action, you can select it in the dialog box and then click <bpt id="1">&lt;embeddedLabel&gt;</bpt>Edit<ept id="1">&lt;/embeddedLabel&gt;</ept> or <bpt id="2">&lt;embeddedLabel&gt;</bpt>Remove<ept id="2">&lt;/embeddedLabel&gt;</ept> respectively.</target>
+          </trans-unit>
+          <trans-unit id="120" translate="yes" xml:space="preserve">
+            <source>Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Route Actions<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box and then click <bpt id="3">&lt;embeddedLabel&gt;</bpt>Save<ept id="3">&lt;/embeddedLabel&gt;</ept> to save changes to a <ph id="4">&lt;token&gt;msgflow&lt;/token&gt;</ph>.</source>
+            <target state="new">Click <bpt id="1">&lt;embeddedLabel&gt;</bpt>OK<ept id="1">&lt;/embeddedLabel&gt;</ept> in the <bpt id="2">&lt;embeddedLabel&gt;</bpt>Route Actions<ept id="2">&lt;/embeddedLabel&gt;</ept> dialog box and then click <bpt id="3">&lt;embeddedLabel&gt;</bpt>Save<ept id="3">&lt;/embeddedLabel&gt;</ept> to save changes to a <ph id="4">&lt;token&gt;msgflow&lt;/token&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

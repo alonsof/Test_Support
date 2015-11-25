@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="it-IT" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>ogAAAB+LCAAAAAAABAANylEKgzAMANCr9AANtDWx6U6w/XuBRBMQnIKr4PHn93vugymWGcwQAbMn0MQKc8oytuZZpMUweqlGdQFdzACTErRaCZRH4SRcWehZ5ouYEOCcCqBXBB6cgRtnG4iwuMaQY1g7fKYY7m11t7u/zuPoMZTHHnxfX9mnU/bfJn099j9JrW6/ogAAAA==</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Reading Directory Objects in XML</source>
+            <target state="new">Reading Directory Objects in XML</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>When you read directory objects, such as users, groups, or contacts, from the directory, they are returned in the body of the response.</source>
+            <target state="new">When you read directory objects, such as users, groups, or contacts, from the directory, they are returned in the body of the response.</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>By default, Graph API returns data in JSON-Lite.</source>
+            <target state="new">By default, Graph API returns data in JSON-Lite.</target>
+          </trans-unit>
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>To return data in XML when reading objects from the directory, you must include the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Accept<ept id="1">&lt;/embeddedLabel&gt;</ept> header in the request and specify the media type as “application/atom+xml”.</source>
+            <target state="new">To return data in XML when reading objects from the directory, you must include the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Accept<ept id="1">&lt;/embeddedLabel&gt;</ept> header in the request and specify the media type as “application/atom+xml”.</target>
+          </trans-unit>
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>All other aspects of the request – for example, the URI and the HTTP method -- remain the same as for a request that returns a response in JSON.</source>
+            <target state="new">All other aspects of the request – for example, the URI and the HTTP method -- remain the same as for a request that returns a response in JSON.</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>Request Headers</source>
+            <target state="new">Request Headers</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>The following table shows the headers that can be included in a request.</source>
+            <target state="new">The following table shows the headers that can be included in a request.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>To return data in XML, you must include the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Accept<ept id="1">&lt;/embeddedLabel&gt;</ept> header and specify the media type as “application/atom+xml”.</source>
+            <target state="new">To return data in XML, you must include the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Accept<ept id="1">&lt;/embeddedLabel&gt;</ept> header and specify the media type as “application/atom+xml”.</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Request Header</source>
+            <target state="new">Request Header</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Accept</source>
+            <target state="new">Accept</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>Optional.</source>
+            <target state="new">Optional.</target>
+          </trans-unit>
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>The expected media type of the content in the response.</source>
+            <target state="new">The expected media type of the content in the response.</target>
+          </trans-unit>
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>The default is JSON-Lite.</source>
+            <target state="new">The default is JSON-Lite.</target>
+          </trans-unit>
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>Must be specified if XML is desired for the response.</source>
+            <target state="new">Must be specified if XML is desired for the response.</target>
+          </trans-unit>
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>Supported media types are application/json, application/atom+xml, or application/xml (for links in XML).</source>
+            <target state="new">Supported media types are application/json, application/atom+xml, or application/xml (for links in XML).</target>
+          </trans-unit>
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>Parameters may be included with the media type.</source>
+            <target state="new">Parameters may be included with the media type.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Authorization</source>
+            <target state="new">Authorization</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>A bearer token issued by Azure Active Directory.</source>
+            <target state="new">A bearer token issued by Azure Active Directory.</target>
+          </trans-unit>
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>See <bpt id="1">&lt;legacyLink xlink:href="874839d9-6de6-43aa-9a5c-613b0c93247e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Authentication Scenarios for Azure AD<ept id="1">&lt;/legacyLink&gt;</ept> for more information.</source>
+            <target state="new">See <bpt id="1">&lt;legacyLink xlink:href="874839d9-6de6-43aa-9a5c-613b0c93247e" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;</bpt>Authentication Scenarios for Azure AD<ept id="1">&lt;/legacyLink&gt;</ept> for more information.</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>Content-Type</source>
+            <target state="new">Content-Type</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>The media type of the content in the request body.</source>
+            <target state="new">The media type of the content in the request body.</target>
+          </trans-unit>
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>Supported media types are application/json, application/atom+xml, or application/xml (for links in XML).</source>
+            <target state="new">Supported media types are application/json, application/atom+xml, or application/xml (for links in XML).</target>
+          </trans-unit>
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>Parameters may be included with the media-type.</source>
+            <target state="new">Parameters may be included with the media-type.</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>Content-Length</source>
+            <target state="new">Content-Length</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source>Required.</source>
+            <target state="new">Required.</target>
+          </trans-unit>
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>The length of the request in bytes.</source>
+            <target state="new">The length of the request in bytes.</target>
+          </trans-unit>
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>Can be omitted if the request does not contain a body.</source>
+            <target state="new">Can be omitted if the request does not contain a body.</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>Response Headers</source>
+            <target state="new">Response Headers</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>The same response headers are returned by Graph API for both JSON and XML requests; however, the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Content-Type<ept id="1">&lt;/embeddedLabel&gt;</ept> value will be different.</source>
+            <target state="new">The same response headers are returned by Graph API for both JSON and XML requests; however, the <bpt id="1">&lt;embeddedLabel&gt;</bpt>Content-Type<ept id="1">&lt;/embeddedLabel&gt;</ept> value will be different.</target>
+          </trans-unit>
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>For JSON responses the media type will be “application/json”, and, for XML responses, the media type will be “application/atom+xml” when reading objects from the directory.</source>
+            <target state="new">For JSON responses the media type will be “application/json”, and, for XML responses, the media type will be “application/atom+xml” when reading objects from the directory.</target>
+          </trans-unit>
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source>The headers specific to Graph API are shown in the following table.</source>
+            <target state="new">The headers specific to Graph API are shown in the following table.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>Response Header</source>
+            <target state="new">Response Header</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>Description</source>
+            <target state="new">Description</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>ocp-aad-diagnostics-server-name</source>
+            <target state="new">ocp-aad-diagnostics-server-name</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>The identifier for the server that performed the requested operation.</source>
+            <target state="new">The identifier for the server that performed the requested operation.</target>
+          </trans-unit>
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>If you are requesting support from Microsoft, you may need to provide the value of this header.</source>
+            <target state="new">If you are requesting support from Microsoft, you may need to provide the value of this header.</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>ocp-aad-session-key</source>
+            <target state="new">ocp-aad-session-key</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>The key that identifies the current session with the directory service.</source>
+            <target state="new">The key that identifies the current session with the directory service.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>request-id</source>
+            <target state="new">request-id</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source>A unique identifier for the request.</source>
+            <target state="new">A unique identifier for the request.</target>
+          </trans-unit>
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>If you are requesting support from Microsoft, you may need to provide the value of this header.</source>
+            <target state="new">If you are requesting support from Microsoft, you may need to provide the value of this header.</target>
+          </trans-unit>
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>It can be used to identify server events associated with the request.</source>
+            <target state="new">It can be used to identify server events associated with the request.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>client-request-id</source>
+            <target state="new">client-request-id</target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source>An optional client-generated identifier that can be included as a request header.</source>
+            <target state="new">An optional client-generated identifier that can be included as a request header.</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>Example 1: Reading a Single Group</source>
+            <target state="new">Example 1: Reading a Single Group</target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>The following shows a request to return a single group as XML.</source>
+            <target state="new">The following shows a request to return a single group as XML.</target>
+          </trans-unit>
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Accept<ept id="1">&lt;/embeddedLabel&gt;</ept> header is set to “application/atom+xml” to indicate that the group properties should be returned in XML.</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Accept<ept id="1">&lt;/embeddedLabel&gt;</ept> header is set to “application/atom+xml” to indicate that the group properties should be returned in XML.</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>The following shows the response.</source>
+            <target state="new">The following shows the response.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Example 2: Reading Multiple Users</source>
+            <target state="new">Example 2: Reading Multiple Users</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>The following shows a request to return all of the users in the directory as XML.</source>
+            <target state="new">The following shows a request to return all of the users in the directory as XML.</target>
+          </trans-unit>
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Accept<ept id="1">&lt;/embeddedLabel&gt;</ept> header is set to “application/atom+xml” to indicate that the group properties should be returned in XML.</source>
+            <target state="new">The <bpt id="1">&lt;embeddedLabel&gt;</bpt>Accept<ept id="1">&lt;/embeddedLabel&gt;</ept> header is set to “application/atom+xml” to indicate that the group properties should be returned in XML.</target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>The following shows the response.</source>
+            <target state="new">The following shows the response.</target>
+          </trans-unit>
+          <trans-unit id="56" translate="yes" xml:space="preserve">
+            <source>Not all of the entries are shown for brevity.</source>
+            <target state="new">Not all of the entries are shown for brevity.</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="57" translate="yes" xml:space="preserve">
+            <source>Remarks</source>
+            <target state="new">Remarks</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="58" translate="yes" xml:space="preserve">
+            <source>For more information about the request URI to use and the parameters to send in the request body when performing specific operations on directory objects; see the appropriate topic under the applicable operations node, for example, under <ph id="1">&lt;link xlink:href="04d1e2e3-06b6-49c5-9f8c-514742f24b3f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Operations on Users&lt;/link&gt;</ph>.</source>
+            <target state="new">For more information about the request URI to use and the parameters to send in the request body when performing specific operations on directory objects; see the appropriate topic under the applicable operations node, for example, under <ph id="1">&lt;link xlink:href="04d1e2e3-06b6-49c5-9f8c-514742f24b3f" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Operations on Users&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="59" translate="yes" xml:space="preserve">
+            <source>You can also find information about operations that can be performed on a specific directory type in the <ph id="1">&lt;link xlink:href="de7d4e09-243c-44d1-83ba-532662649081" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Entity and Type Reference&lt;/link&gt;</ph>.</source>
+            <target state="new">You can also find information about operations that can be performed on a specific directory type in the <ph id="1">&lt;link xlink:href="de7d4e09-243c-44d1-83ba-532662649081" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Entity and Type Reference&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+          <trans-unit id="60" translate="yes" xml:space="preserve">
+            <source>You cannot invoke directory service functions, such as <bpt id="1">&lt;embeddedLabel&gt;</bpt>isMemberOf<ept id="1">&lt;/embeddedLabel&gt;</ept>, in XML.</source>
+            <target state="new">You cannot invoke directory service functions, such as <bpt id="1">&lt;embeddedLabel&gt;</bpt>isMemberOf<ept id="1">&lt;/embeddedLabel&gt;</ept>, in XML.</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="61" translate="yes" xml:space="preserve">
+            <source>The examples above use the tenant domain to address the tenant.</source>
+            <target state="new">The examples above use the tenant domain to address the tenant.</target>
+          </trans-unit>
+          <trans-unit id="62" translate="yes" xml:space="preserve">
+            <source>Instead of the domain, you can also use the tenant object ID or addressing aliases to address the tenant; for more information, see <ph id="1">&lt;link xlink:href="5b0f3e3d-f96e-4b5b-864d-fc7c6b185097" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Addressing Aliases&lt;/link&gt;</ph>.</source>
+            <target state="new">Instead of the domain, you can also use the tenant object ID or addressing aliases to address the tenant; for more information, see <ph id="1">&lt;link xlink:href="5b0f3e3d-f96e-4b5b-864d-fc7c6b185097" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;Addressing Aliases&lt;/link&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="pt-BR" original="file.ddue" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft">
+        <xliffext:info xsi:schemaLocation="urn:microsoft:content:schema:xliffextensions xliffext-xliffextension.xsd" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+          <xliffext:uhg>oQAAAB+LCAAAAAAABAANzDsKwzAMANCr6AAWyI5iWx07dS69gPwRBNKkpC7k+M3+eGZTLxwq9s6M7I2wUC5YyWsUMa8qDrrGWXKN2GRqyOYvJYnRQs7JvESOwQHl2LgVQko8IUtOWLImDLX5mYSatejAO/gMvD8dnOti1s9xO/Z9OLiG2cHj99btdej2XXUs+/YHzyD4wqEAAAA=</xliffext:uhg>
+        </xliffext:info>
+      </tool>
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>Setting the OData Data Service Version Headers</source>
+            <target state="new">Setting the OData Data Service Version Headers</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>The following Table service operations are OData-compatible:</source>
+            <target state="new">The following Table service operations are OData-compatible:</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>When you call one of these operations, you must specify the OData data service version, using one of the following request headers:</source>
+            <target state="new">When you call one of these operations, you must specify the OData data service version, using one of the following request headers:</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;parameterReference&gt;MaxDataServiceVersion&lt;/parameterReference&gt;</ph>, to specify the maximum data service version</source>
+            <target state="new"><ph id="1">&lt;parameterReference&gt;MaxDataServiceVersion&lt;/parameterReference&gt;</ph>, to specify the maximum data service version</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source><ph id="1">&lt;parameterReference&gt;DataServiceVersion&lt;/parameterReference&gt;</ph>, to specify the exact data service version</source>
+            <target state="new"><ph id="1">&lt;parameterReference&gt;DataServiceVersion&lt;/parameterReference&gt;</ph>, to specify the exact data service version</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>If both headers are present, precedence is given to <ph id="1">&lt;parameterReference&gt;MaxDataServiceVersion&lt;/parameterReference&gt;</ph>.</source>
+            <target state="new">If both headers are present, precedence is given to <ph id="1">&lt;parameterReference&gt;MaxDataServiceVersion&lt;/parameterReference&gt;</ph>.</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>Note that the headers which specify the OData protocol version are similar to the <ph id="1">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> header, which indicates the version of the Table service to use when making a request against the service.</source>
+            <target state="new">Note that the headers which specify the OData protocol version are similar to the <ph id="1">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> header, which indicates the version of the Table service to use when making a request against the service.</target>
+          </trans-unit>
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>You must specify both headers for the operations listed above.</source>
+            <target state="new">You must specify both headers for the operations listed above.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>Not all versions of the Table service are compatible with all OData data service versions, so you must ensure that both <ph id="1">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;DataServiceVersion&lt;/parameterReference&gt;</ph>/<ph id="3">&lt;parameterReference&gt;MaxDataServiceVersion&lt;/parameterReference&gt;</ph> are set to compatible versions, as summarized in the following table:</source>
+            <target state="new">Not all versions of the Table service are compatible with all OData data service versions, so you must ensure that both <ph id="1">&lt;parameterReference&gt;x-ms-version&lt;/parameterReference&gt;</ph> and <ph id="2">&lt;parameterReference&gt;DataServiceVersion&lt;/parameterReference&gt;</ph>/<ph id="3">&lt;parameterReference&gt;MaxDataServiceVersion&lt;/parameterReference&gt;</ph> are set to compatible versions, as summarized in the following table:</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>DataServiceVersion/MaxDataServiceVersion Header Value</source>
+            <target state="new">DataServiceVersion/MaxDataServiceVersion Header Value</target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>Compatible Table Service Versions (x-ms-version Header Values)</source>
+            <target state="new">Compatible Table Service Versions (x-ms-version Header Values)</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source>1.0;NetFx</source>
+            <target state="new">1.0;NetFx</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>Any version</source>
+            <target state="new">Any version</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>2.0;NetFx</source>
+            <target state="new">2.0;NetFx</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>2011-08-18 or later</source>
+            <target state="new">2011-08-18 or later</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>3.0;NetFx</source>
+            <target state="new">3.0;NetFx</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>2013-08-15 or later</source>
+            <target state="new">2013-08-15 or later</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>Note that if you are accessing the Table service using the Azure Storage Client Library, these headers are automatically set for you.</source>
+            <target state="new">Note that if you are accessing the Table service using the Azure Storage Client Library, these headers are automatically set for you.</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>
